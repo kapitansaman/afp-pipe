@@ -107,7 +107,7 @@ def localized_body(row,media,policy,fetcher=None):
  from .internal_links import anchors
  if any(urllib.parse.urlsplit(u).hostname=='navar-abyari.ir' for u,t in anchors(body)):raise ValueError('Unmapped in-site link in translation')
  for target in rows:verify_target(target['url'],lang,fetcher)
- body+='<p>'+PHRASES[lang]+': '+' · '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in rows)+'</p>'
+ if rows:body+='<p>'+PHRASES[lang]+': '+' · '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in rows)+'</p>'
  matches=list(re.finditer('<h2>',body));at=matches[len(matches)//2].start() if len(matches)>1 else len(body)
  body=body[:at]+'<figure class="wp-block-image"><img src="'+html.escape(media[1]['url'],quote=True)+'" alt="'+html.escape(row['title'],quote=True)+'" loading="lazy"/></figure>'+body[at:]
  body+='<p><em>'+DISCLOSURES[lang]+'</em></p><h2>'+FAQ_LABEL[lang]+'</h2><div class="faq-section">'+''.join('<details><summary>'+html.escape(f['question'])+'</summary><p>'+html.escape(f['answer'])+'</p></details>' for f in row['faq'])+'</div>'
@@ -125,6 +125,10 @@ def publish_family(wp,folder,topic,source_result):
  source_receipt=load_json(folder/'wordpress-receipt.json');media=sorted(source_receipt['media'],key=lambda m:m['index'])
  if len(media)!=2 or len({m['id'] for m in media})!=2:raise ValueError('Exactly two shared source media required')
  policy=load_json(DATA/'internal-links-i18n.json')['languages'];done={}
+ article=load_json(folder/'article.json')
+ if 'commercial_matrix' in article:
+  from .content_matrix import links_enabled
+  if not links_enabled(article['commercial_matrix']):policy={lang:[] for lang in policy}
  related_labels={'ru-RU':'Связанная статья','ar-IQ':'مقال ذو صلة','tg-TJ':'Мақолаи марбут','en-US':'Related article'}
  for related in load_json(DATA/'internal-links.json').get('related',[]):
   if related.get('match') and related['match'] not in str(topic.get('crop',''))+' '+str(topic.get('title','')):continue

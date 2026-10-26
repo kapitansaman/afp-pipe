@@ -52,6 +52,10 @@ class WordPress:
   if not authorized or brief.get('publish_authorized') is not True:raise WPError('Explicit publication authorization required')
   folder=Path(folder);rp=folder/'wordpress-receipt.json';r=load_json(rp) if rp.exists() else {'topic_id':topic['id'],'media':[],'status':'starting'}
   marker='<!-- afp-agri-v2:'+topic['id']+' -->';payload=load_json(folder/'wordpress-draft-payload.json');slug=payload['slug']
+  article=load_json(folder/'article.json') if (folder/'article.json').exists() else {}
+  if 'commercial_matrix' in article:
+   from .content_matrix import validate as validate_matrix
+   validate_matrix(article,topic,brief);topic=dict(topic,commercial_matrix=article['commercial_matrix']);r['commercial_matrix']=article['commercial_matrix']
   self.preflight()
   internal=selected_links(topic,self.site+'/'+slug+'/');linked=augment(payload['content'],topic,self.site+'/'+slug+'/');targets_verified=False
   # Reconcile slug first, including this account's drafts; never overwrite another post.
@@ -107,6 +111,7 @@ class WordPress:
   if post['featured_media']!=media[0]['id']:raise WPError('Featured image verification failed')
   for m in media[1:]:
    if m['url'] not in post['content']['rendered']:raise WPError('Inline image verification failed')
+  if r.get('commercial_matrix') is not None:topic=dict(topic,commercial_matrix=r['commercial_matrix'])
   if r.get('internal_links_policy')==LINK_POLICY:verify_links(post['content']['rendered'],selected_links(topic,post['link']))
   if not post['link'].startswith(self.site+'/'):raise WPError('Unexpected public origin')
   try:

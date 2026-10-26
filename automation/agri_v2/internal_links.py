@@ -11,7 +11,12 @@ def selected_links(topic,current_url,policy=None):
  policy=load_json(DATA/'internal-links.json') if policy is None else policy
  if policy.get('policy')!=LINK_POLICY:raise ValueError('Internal-link policy mismatch')
  current=canonical(current_url);text=str(topic.get('crop',''))+' '+str(topic.get('title',''));out=[]
- for row in policy['primary']+policy.get('related',[]):
+ matrix=topic.get('commercial_matrix')
+ if matrix is not None:
+  from .content_matrix import links_enabled
+  primary=policy['primary'] if links_enabled(matrix) else []
+ else:primary=policy['primary']
+ for row in primary+policy.get('related',[]):
   path=canonical(row['url'])
   if path==current:continue
   if row.get('match') and row['match'] not in text:continue
@@ -68,7 +73,9 @@ def augment(body,topic,current_url,policy=None):
  rows=selected_links(topic,current_url,policy);parser=LinkText(body,rows);parser.feed(body);parser.close();result=''.join(parser.out)
  missing=[r for r in rows if r.get('kind')=='primary' and r['anchor'] not in parser.done]
  extras=[]
- if missing:extras.append('<p>برای آشنایی با تجهیزات آبیاری مزرعه، '+' و '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in missing)+' را در همین سایت ببینید.</p>')
+ if missing and topic.get('commercial_matrix'):
+  extras.append('<p>برای بررسی گزینه‌های تجهیزات بخش آبیاری این موضوع، '+' و '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in missing)+' را ببینید. انتخاب محصول باید بر پایهٔ مشخصات واقعی مزرعه و شبکه انجام شود؛ این پیوند توصیهٔ یک مدل مشخص یا تضمین عملکرد نیست.</p>')
+ elif missing:extras.append('<p>برای آشنایی با تجهیزات آبیاری مزرعه، '+' و '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in missing)+' را در همین سایت ببینید.</p>')
  related=[r for r in rows if r.get('kind')=='related' and not contains_link(result,r)]
  if related:extras.append('<p>مطالعهٔ مرتبط: '+'؛ '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in related[:2])+'.</p>')
  if extras:

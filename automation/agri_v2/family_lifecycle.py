@@ -104,9 +104,10 @@ def next_stage(topic,data=DATA,out=OUT):
  if not (folder/'article.json').exists():return 'text',None
  try:article=article_checked(folder,topic,brief)
  except (ValueError,KeyError,TypeError):return 'blocked','saved_validated_article_changed'
- if brief.get('review_mode')=='automated_scoped_evidence_review_v1':
+ if brief.get('review_mode')=='automated_scoped_evidence_review_v1' or article.get('commercial_matrix',{}).get('irrigation_relationship') in {'direct','conditional','distant'}:
+  from .content_matrix import commercial_review_flags
   proof=folder/'article-evidence-review.json'
-  if not proof.exists() or load_json(proof).get('article_sha256')!=digest(article) or load_json(proof).get('brief_sha256')!=digest(brief) or not all(load_json(proof).get('review',{}).get(k) is True for k in ('all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review')):return 'article_evidence_review',None
+  if not proof.exists() or load_json(proof).get('article_sha256')!=digest(article) or load_json(proof).get('brief_sha256')!=digest(brief) or not all(load_json(proof).get('review',{}).get(k) is True for k in ('all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review')+tuple(commercial_review_flags(article))):return 'article_evidence_review',None
  for kind in (1,2):
   image=folder/f'image-{kind}.webp'
   if not image.exists():return 'image-'+str(kind),None
@@ -161,6 +162,8 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
    from .grounded_drafting import generate
    value=generate(client,topic,brief,folder)
   else:value=client.text(article_prompt(topic,brief),attempts=1)
+  from .content_matrix import attach
+  value=attach(value,topic,brief)
   atomic_json(prior,value)
   article=normalize_article(value,brief);validate_article(article,topic,brief);validate_for_publication(article);atomic_json(folder/'article.json',article);return {'article_validated':True}
  article=article_checked(folder,topic,brief)

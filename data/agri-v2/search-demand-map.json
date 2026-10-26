@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "method": "normalized_exact_full_title_or_leading_title_clause_only",
+  "source": "user_supplied_GSC_export_2026-10-23",
+  "source_sha256": "1c614cb9b45cf845ca6d925e75bec35b54f5459d9923e4b915b78ff0541c0aa1",
+  "window_label": "Last 6 months as specified in supplied Filters.csv; exact calendar boundaries unavailable",
+  "coverage": "Supplied 1000 query rows, not all search demand; unmatched titles are unknown, not zero demand",
+  "query_page_join_available": false,
+  "content_gap_inferred": false,
+  "raw_queries_or_performance_metrics_published": false,
+  "matched_topic_ids": [
+    "agri-065fb7b0cc9e",
+    "agri-15439ad51313",
+    "agri-2635811037a1",
+    "agri-60e1ebaf13c8",
+    "agri-621734b38aa9",
+    "agri-68bb3f68138d",
+    "agri-6a04e31069c0",
+    "agri-934dd1366a8b",
+    "agri-a55386876467",
+    "agri-b6ffe49a4638"
+  ]
+}

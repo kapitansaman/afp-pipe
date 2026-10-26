@@ -1,0 +1,22 @@
+{
+  "version": "search-to-drip-content-matrix-v1",
+  "checked_at": "2026-10-26T09:59:43.400454+00:00",
+  "topic_count": 2905,
+  "mapped_topic_count": 2905,
+  "canonical_titles_preserved": true,
+  "topic_deletions": 0,
+  "models_called": 0,
+  "published_posts": 0,
+  "source_sufficiency_waived": false,
+  "schedule_activated": false,
+  "source_metrics_published": false,
+  "conditional_cta_rule": "Re-evaluate against approved fact IDs at writing time. An unknown search match does not remove or deprioritize a topic.",
+  "scope": "This is a new-article editorial matrix, not automatic topic rejection, confirmed content-gap analysis or a rewrite of historical accepted work.",
+  "offline_tests": {
+    "count": 609,
+    "passed": true
+  },
+  "independent_title_id_crosscheck": true,
+  "existing_accepted_briefs_rewritten": false,
+  "raw_GSC_metrics_committed": false
+}
