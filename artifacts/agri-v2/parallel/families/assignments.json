@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "queue": "new",
+  "allocation_order": "immutable_manifest_order",
+  "families": [
+    {
+      "family_id": "family-01",
+      "topic_id": "agri-065fb7b0cc9e",
+      "title": "میزان برداشت لوبیا قرمز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T05:06:57.162946+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-02",
+      "topic_id": "agri-a55386876467",
+      "title": "میزان برداشت یونجه در هر چین؛ وزن تر، وزن خشک و فاصله چین‌ها",
+      "assigned_at": "2026-10-26T05:06:57.187212+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-03",
+      "topic_id": "agri-68bb3f68138d",
+      "title": "میزان برداشت کدو حلوایی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T05:06:57.187458+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-04",
+      "topic_id": "agri-b35a06791dd5",
+      "title": "زمان مناسب برداشت کدو آجیلی؛ نشانه‌های رسیدگی و معیار بازار",
+      "assigned_at": "2026-10-26T05:06:57.187720+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-05",
+      "topic_id": "agri-621734b38aa9",
+      "title": "میزان برداشت لوبیا سفید در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T05:06:57.187965+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-06",
+      "topic_id": "agri-60e1ebaf13c8",
+      "title": "میزان برداشت کدو سبز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T05:06:57.188188+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-07",
+      "topic_id": "agri-aa197412fb7f",
+      "title": "فاصله کاشت و تراکم کدو آجیلی؛ محاسبه فاصله ردیف و بوته",
+      "assigned_at": "2026-10-26T05:06:57.188404+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-c0e160d88554",
+      "title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "assigned_at": "2026-10-26T05:06:57.188619+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-09",
+      "topic_id": "agri-02e05cb179de",
+      "title": "انتخاب رقم نخود برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "assigned_at": "2026-10-26T05:06:57.188865+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-10",
+      "topic_id": "agri-64fcb57a3e18",
+      "title": "میزان برداشت نخودفرنگی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T05:06:57.189083+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-11",
+      "topic_id": "agri-3aec9f066bb5",
+      "title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
+      "assigned_at": "2026-10-26T05:06:57.189306+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-6a04e31069c0",
+      "title": "میزان برداشت ماشک در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T05:06:57.189525+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-13",
+      "topic_id": "agri-6aa44095f748",
+      "title": "انتخاب رقم هندوانه تخمی برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "assigned_at": "2026-10-26T05:06:57.189775+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-14",
+      "topic_id": "agri-aa89b98c2455",
+      "title": "زمان مناسب برداشت ماش؛ نشانه‌های رسیدگی و معیار بازار",
+      "assigned_at": "2026-10-26T05:06:57.189985+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-15",
+      "topic_id": "agri-e4ad7582f1cd",
+      "title": "تعداد نشای گوجه‌فرنگی در هکتار؛ محاسبه نیاز خزانه و تلفات انتقال",
+      "assigned_at": "2026-10-26T05:06:57.190196+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_needs_review",
+      "publication_authorized_by_assignment": false
+    }
+  ],
+  "history": [],
+  "publication_authorized_by_assignment": false,
+  "assigned_count": 15,
+  "target_families": 15,
+  "unique_topic_count": 15,
+  "model_calls": 0,
+  "wordpress_write_calls": 0
+}
