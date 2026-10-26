@@ -1,22 +1,22 @@
 {
   "repository": "kapitansaman/afp-pipe",
-  "credential_set_id": "afp-pipe-22-keys-v1",
+  "credential_set_id": "afp-pipe-30-keys-v1",
   "version": 3,
-  "checked_at": "2026-10-26T01:25:28.899784+00:00",
+  "checked_at": "2026-10-26T01:59:41.996593+00:00",
   "text_model": "agnes-2.5-flash",
-  "image_model": "agnes-image-2.1-flash",
+  "image_model": "agnes-image-2.5-flash",
   "api_base": "https://apihub.agnes-ai.com/v1",
-  "slot_limit": 22,
-  "configured_slots": 22,
-  "unique_credentials_tested": 22,
+  "slot_limit": 30,
+  "configured_slots": 30,
+  "unique_credentials_tested": 30,
   "slots": [
     {
       "slot": "AGNES_API_KEY",
       "configured": true,
       "text": {
-        "state": "healthy",
+        "state": "invalid_text_response",
         "http_status": 200,
-        "latency_ms": 630
+        "latency_ms": 2964
       },
       "image": {
         "state": "provider_unavailable",
@@ -31,7 +31,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 5381
+        "latency_ms": 999
       },
       "image": {
         "state": "not_probed"
@@ -43,7 +43,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 924
+        "latency_ms": 792
       },
       "image": {
         "state": "not_probed"
@@ -55,7 +55,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 4613
+        "latency_ms": 711
       },
       "image": {
         "state": "not_probed"
@@ -67,7 +67,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 817
+        "latency_ms": 585
       },
       "image": {
         "state": "not_probed"
@@ -79,7 +79,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 5447
+        "latency_ms": 2034
       },
       "image": {
         "state": "not_probed"
@@ -91,7 +91,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 954
+        "latency_ms": 603
       },
       "image": {
         "state": "not_probed"
@@ -103,7 +103,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 722
+        "latency_ms": 594
       },
       "image": {
         "state": "not_probed"
@@ -115,7 +115,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 810
+        "latency_ms": 4600
       },
       "image": {
         "state": "not_probed"
@@ -127,7 +127,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 1410
+        "latency_ms": 661
       },
       "image": {
         "state": "not_probed"
@@ -139,7 +139,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 525
+        "latency_ms": 631
       },
       "image": {
         "state": "not_probed"
@@ -151,7 +151,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 507
+        "latency_ms": 5479
       },
       "image": {
         "state": "not_probed"
@@ -163,7 +163,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 4655
+        "latency_ms": 8764
       },
       "image": {
         "state": "not_probed"
@@ -173,9 +173,9 @@
       "slot": "AGNES_API_KEY14",
       "configured": true,
       "text": {
-        "state": "healthy",
+        "state": "invalid_text_response",
         "http_status": 200,
-        "latency_ms": 9611
+        "latency_ms": 6713
       },
       "image": {
         "state": "not_probed"
@@ -187,7 +187,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 1075
+        "latency_ms": 692
       },
       "image": {
         "state": "not_probed"
@@ -199,7 +199,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 4778
+        "latency_ms": 1715
       },
       "image": {
         "state": "not_probed"
@@ -211,7 +211,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 761
+        "latency_ms": 4721
       },
       "image": {
         "state": "not_probed"
@@ -223,7 +223,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 4587
+        "latency_ms": 626
       },
       "image": {
         "state": "not_probed"
@@ -235,7 +235,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 4559
+        "latency_ms": 22266
       },
       "image": {
         "state": "not_probed"
@@ -247,7 +247,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 8524
+        "latency_ms": 808
       },
       "image": {
         "state": "not_probed"
@@ -259,7 +259,7 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 4557
+        "latency_ms": 1255
       },
       "image": {
         "state": "not_probed"
@@ -271,7 +271,103 @@
       "text": {
         "state": "healthy",
         "http_status": 200,
-        "latency_ms": 652
+        "latency_ms": 637
+      },
+      "image": {
+        "state": "not_probed"
+      }
+    },
+    {
+      "slot": "AGNES_API_KEY23",
+      "configured": true,
+      "text": {
+        "state": "healthy",
+        "http_status": 200,
+        "latency_ms": 682
+      },
+      "image": {
+        "state": "not_probed"
+      }
+    },
+    {
+      "slot": "AGNES_API_KEY24",
+      "configured": true,
+      "text": {
+        "state": "healthy",
+        "http_status": 200,
+        "latency_ms": 966
+      },
+      "image": {
+        "state": "not_probed"
+      }
+    },
+    {
+      "slot": "AGNES_API_KEY25",
+      "configured": true,
+      "text": {
+        "state": "healthy",
+        "http_status": 200,
+        "latency_ms": 989
+      },
+      "image": {
+        "state": "not_probed"
+      }
+    },
+    {
+      "slot": "AGNES_API_KEY26",
+      "configured": true,
+      "text": {
+        "state": "healthy",
+        "http_status": 200,
+        "latency_ms": 4696
+      },
+      "image": {
+        "state": "not_probed"
+      }
+    },
+    {
+      "slot": "AGNES_API_KEY27",
+      "configured": true,
+      "text": {
+        "state": "healthy",
+        "http_status": 200,
+        "latency_ms": 625
+      },
+      "image": {
+        "state": "not_probed"
+      }
+    },
+    {
+      "slot": "AGNES_API_KEY28",
+      "configured": true,
+      "text": {
+        "state": "healthy",
+        "http_status": 200,
+        "latency_ms": 2047
+      },
+      "image": {
+        "state": "not_probed"
+      }
+    },
+    {
+      "slot": "AGNES_API_KEY29",
+      "configured": true,
+      "text": {
+        "state": "invalid_text_response",
+        "http_status": 200,
+        "latency_ms": 2629
+      },
+      "image": {
+        "state": "not_probed"
+      }
+    },
+    {
+      "slot": "AGNES_API_KEY30",
+      "configured": true,
+      "text": {
+        "state": "healthy",
+        "http_status": 200,
+        "latency_ms": 1404
       },
       "image": {
         "state": "not_probed"
@@ -279,7 +375,6 @@
     }
   ],
   "eligible_text_slots": [
-    "AGNES_API_KEY",
     "AGNES_API_KEY2",
     "AGNES_API_KEY3",
     "AGNES_API_KEY4",
@@ -292,7 +387,6 @@
     "AGNES_API_KEY11",
     "AGNES_API_KEY12",
     "AGNES_API_KEY13",
-    "AGNES_API_KEY14",
     "AGNES_API_KEY15",
     "AGNES_API_KEY16",
     "AGNES_API_KEY17",
@@ -300,9 +394,16 @@
     "AGNES_API_KEY19",
     "AGNES_API_KEY20",
     "AGNES_API_KEY21",
-    "AGNES_API_KEY22"
+    "AGNES_API_KEY22",
+    "AGNES_API_KEY23",
+    "AGNES_API_KEY24",
+    "AGNES_API_KEY25",
+    "AGNES_API_KEY26",
+    "AGNES_API_KEY27",
+    "AGNES_API_KEY28",
+    "AGNES_API_KEY30"
   ],
   "eligible_image_slots": [],
   "no_publication": true,
-  "run_id": "40254068265"
+  "run_id": "40255300424"
 }
