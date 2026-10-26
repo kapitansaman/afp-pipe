@@ -1,0 +1,9 @@
+{
+  "request_id": "afp-pipe-controlled-start-v1",
+  "status": "reserved",
+  "allowed": true,
+  "max_cycles": 1,
+  "run_id": "40267093615",
+  "started_at": "2026-10-26T04:04:18.794051+00:00",
+  "original_attempts_reset": false
+}
