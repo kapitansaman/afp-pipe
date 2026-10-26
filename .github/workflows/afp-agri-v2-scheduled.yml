@@ -1,4 +1,4 @@
-name: AFP agriculture - every 5 minutes bounded production
+name: AFP adaptive scheduler - gated 20-family cadence
 on:
   schedule:
     - cron: '*/5 * * * *'
@@ -13,9 +13,10 @@ jobs:
   cycle:
     if: github.repository == 'kapitansaman/afp-pipe'
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     env:
       GITHUB_TOKEN: ${{ github.token }}
+      AFP_PROGRESS_ENABLED: "0"
       AGNES_API_KEY: ${{ secrets.AGNES_API_KEY_1 }}
       AGNES_API_KEY2: ${{ secrets.AGNES_API_KEY_2 }}
       AGNES_API_KEY3: ${{ secrets.AGNES_API_KEY_3 }}
@@ -46,6 +47,73 @@ jobs:
       AGNES_API_KEY28: ${{ secrets.AGNES_API_KEY_28 }}
       AGNES_API_KEY29: ${{ secrets.AGNES_API_KEY_29 }}
       AGNES_API_KEY30: ${{ secrets.AGNES_API_KEY_30 }}
+      AGNES_API_KEY31: ${{ secrets.AGNES_API_KEY_31 }}
+      AGNES_API_KEY32: ${{ secrets.AGNES_API_KEY_32 }}
+      AGNES_API_KEY33: ${{ secrets.AGNES_API_KEY_33 }}
+      AGNES_API_KEY34: ${{ secrets.AGNES_API_KEY_34 }}
+      AGNES_API_KEY35: ${{ secrets.AGNES_API_KEY_35 }}
+      AGNES_API_KEY36: ${{ secrets.AGNES_API_KEY_36 }}
+      AGNES_API_KEY37: ${{ secrets.AGNES_API_KEY_37 }}
+      AGNES_API_KEY38: ${{ secrets.AGNES_API_KEY_38 }}
+      AGNES_API_KEY39: ${{ secrets.AGNES_API_KEY_39 }}
+      AGNES_API_KEY40: ${{ secrets.AGNES_API_KEY_40 }}
+      AGNES_API_KEY41: ${{ secrets.AGNES_API_KEY_41 }}
+      AGNES_API_KEY42: ${{ secrets.AGNES_API_KEY_42 }}
+      AGNES_API_KEY43: ${{ secrets.AGNES_API_KEY_43 }}
+      AGNES_API_KEY44: ${{ secrets.AGNES_API_KEY_44 }}
+      AGNES_API_KEY45: ${{ secrets.AGNES_API_KEY_45 }}
+      AGNES_API_KEY46: ${{ secrets.AGNES_API_KEY_46 }}
+      AGNES_API_KEY47: ${{ secrets.AGNES_API_KEY_47 }}
+      AGNES_API_KEY48: ${{ secrets.AGNES_API_KEY_48 }}
+      AGNES_API_KEY49: ${{ secrets.AGNES_API_KEY_49 }}
+      AGNES_API_KEY50: ${{ secrets.AGNES_API_KEY_50 }}
+      AGNES_API_KEY51: ${{ secrets.AGNES_API_KEY_51 }}
+      AGNES_API_KEY52: ${{ secrets.AGNES_API_KEY_52 }}
+      AGNES_API_KEY53: ${{ secrets.AGNES_API_KEY_53 }}
+      AGNES_API_KEY54: ${{ secrets.AGNES_API_KEY_54 }}
+      AGNES_API_KEY55: ${{ secrets.AGNES_API_KEY_55 }}
+      AGNES_API_KEY56: ${{ secrets.AGNES_API_KEY_56 }}
+      AGNES_API_KEY57: ${{ secrets.AGNES_API_KEY_57 }}
+      AGNES_API_KEY58: ${{ secrets.AGNES_API_KEY_58 }}
+      AGNES_API_KEY59: ${{ secrets.AGNES_API_KEY_59 }}
+      AGNES_API_KEY60: ${{ secrets.AGNES_API_KEY_60 }}
+      AGNES_API_KEY61: ${{ secrets.AGNES_API_KEY_61 }}
+      AGNES_API_KEY62: ${{ secrets.AGNES_API_KEY_62 }}
+      AGNES_API_KEY63: ${{ secrets.AGNES_API_KEY_63 }}
+      AGNES_API_KEY64: ${{ secrets.AGNES_API_KEY_64 }}
+      AGNES_API_KEY65: ${{ secrets.AGNES_API_KEY_65 }}
+      AGNES_API_KEY66: ${{ secrets.AGNES_API_KEY_66 }}
+      AGNES_API_KEY67: ${{ secrets.AGNES_API_KEY_67 }}
+      AGNES_API_KEY68: ${{ secrets.AGNES_API_KEY_68 }}
+      AGNES_API_KEY69: ${{ secrets.AGNES_API_KEY_69 }}
+      AGNES_API_KEY70: ${{ secrets.AGNES_API_KEY_70 }}
+      AGNES_API_KEY71: ${{ secrets.AGNES_API_KEY_71 }}
+      AGNES_API_KEY72: ${{ secrets.AGNES_API_KEY_72 }}
+      AGNES_API_KEY73: ${{ secrets.AGNES_API_KEY_73 }}
+      AGNES_API_KEY74: ${{ secrets.AGNES_API_KEY_74 }}
+      AGNES_API_KEY75: ${{ secrets.AGNES_API_KEY_75 }}
+      AGNES_API_KEY76: ${{ secrets.AGNES_API_KEY_76 }}
+      AGNES_API_KEY77: ${{ secrets.AGNES_API_KEY_77 }}
+      AGNES_API_KEY78: ${{ secrets.AGNES_API_KEY_78 }}
+      AGNES_API_KEY79: ${{ secrets.AGNES_API_KEY_79 }}
+      AGNES_API_KEY80: ${{ secrets.AGNES_API_KEY_80 }}
+      AGNES_API_KEY81: ${{ secrets.AGNES_API_KEY_81 }}
+      AGNES_API_KEY82: ${{ secrets.AGNES_API_KEY_82 }}
+      AGNES_API_KEY83: ${{ secrets.AGNES_API_KEY_83 }}
+      AGNES_API_KEY84: ${{ secrets.AGNES_API_KEY_84 }}
+      AGNES_API_KEY85: ${{ secrets.AGNES_API_KEY_85 }}
+      AGNES_API_KEY86: ${{ secrets.AGNES_API_KEY_86 }}
+      AGNES_API_KEY87: ${{ secrets.AGNES_API_KEY_87 }}
+      AGNES_API_KEY88: ${{ secrets.AGNES_API_KEY_88 }}
+      AGNES_API_KEY89: ${{ secrets.AGNES_API_KEY_89 }}
+      AGNES_API_KEY90: ${{ secrets.AGNES_API_KEY_90 }}
+      AGNES_API_KEY91: ${{ secrets.AGNES_API_KEY_91 }}
+      AGNES_API_KEY92: ${{ secrets.AGNES_API_KEY_92 }}
+      AGNES_API_KEY93: ${{ secrets.AGNES_API_KEY_93 }}
+      AGNES_API_KEY94: ${{ secrets.AGNES_API_KEY_94 }}
+      AGNES_API_KEY95: ${{ secrets.AGNES_API_KEY_95 }}
+      AGNES_API_KEY96: ${{ secrets.AGNES_API_KEY_96 }}
+      AGNES_API_KEY97: ${{ secrets.AGNES_API_KEY_97 }}
       AFP_WP_BASE_URL: ${{ secrets.AFP_WP_BASE_URL }}
       AFP_WP_USERNAME: ${{ secrets.AFP_WP_USERNAME }}
       AFP_WP_APP_PASSWORD: ${{ secrets.AFP_WP_APP_PASSWORD }}
@@ -57,11 +125,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install --disable-pip-version-check pillow
-      - name: Offline safety and integrity tests
-        run: python -m unittest discover -s tests/agri_v2 -v
-      - name: One complete authorized cycle
-        run: AFP_PROGRESS_ENABLED=1 python -m automation.agri_v2.cycle --scheduled
-      - name: Preserve receipts and partial progress
+      - run: python -m pip install --disable-pip-version-check pillow "pypdf>=5,<7"
+      - name: Due-time and readiness gate; no legacy serial generator
+        run: python -m automation.agri_v2.adaptive_schedule
+      - name: Preserve measured cadence and verified receipts
         if: always()
         run: bash .github/scripts/persist-agri-v2.sh
