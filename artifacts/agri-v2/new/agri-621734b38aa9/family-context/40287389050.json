@@ -1,0 +1,10 @@
+{
+  "family_id": "family-05",
+  "topic_id": "agri-621734b38aa9",
+  "title": "میزان برداشت لوبیا سفید در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "title_sha256": "30b583c33f4e08fc96fd91cc8a9bafcc552373d95c8139e90837d13b6fd49153",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}
