@@ -1,5 +1,5 @@
 {
-  "attempts": 2,
+  "attempts": 3,
   "history": [
     {
       "attempts": 1,
@@ -22,14 +22,25 @@
         "kind": "validation",
         "category": "grounded_section_count_invalid"
       }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40321377851",
+      "started_at": "2026-10-26T12:19:09.983215+00:00",
+      "completed_at": "2026-10-26T12:21:10.178381+00:00",
+      "failure": {
+        "kind": "text_provider",
+        "category": "network_or_timeout"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40319208113",
-  "started_at": "2026-10-26T12:02:28.331337+00:00",
-  "completed_at": "2026-10-26T12:03:03.410550+00:00",
+  "last_run_id": "40321377851",
+  "started_at": "2026-10-26T12:19:09.983215+00:00",
+  "completed_at": "2026-10-26T12:21:10.178381+00:00",
   "failure": {
-    "kind": "validation",
-    "category": "grounded_section_count_invalid"
+    "kind": "text_provider",
+    "category": "network_or_timeout"
   }
 }

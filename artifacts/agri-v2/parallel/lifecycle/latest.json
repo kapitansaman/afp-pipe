@@ -1,7 +1,7 @@
 {
   "matrix_pilot": true,
   "research_only": false,
-  "run_id": "40319208113",
+  "run_id": "40321377851",
   "status": "pilot_incomplete",
   "assigned_count": 1,
   "pilot_topic_only": false,
@@ -10,8 +10,8 @@
       "status": "stage_failed",
       "stage": "text",
       "failure": {
-        "kind": "validation",
-        "category": "grounded_section_count_invalid"
+        "kind": "text_provider",
+        "category": "network_or_timeout"
       },
       "topic_id": "agri-b6f7d6bea16b",
       "steps": [
@@ -19,8 +19,8 @@
           "status": "stage_failed",
           "stage": "text",
           "failure": {
-            "kind": "validation",
-            "category": "grounded_section_count_invalid"
+            "kind": "text_provider",
+            "category": "network_or_timeout"
           }
         }
       ],
@@ -36,7 +36,7 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-26T12:01:40.564768+00:00",
+  "started_at": "2026-10-26T12:18:18.713506+00:00",
   "existing_content_fetch": {
     "families": 1,
     "families_with_bounded_full_scope": 1,
@@ -45,10 +45,10 @@
     "scope_limited_families": 0
   },
   "max_text_model_calls": null,
-  "max_total_model_calls": 15,
+  "max_total_model_calls": 14,
   "pool": {
     "model_requests_reserved": 1,
-    "cooldown_until_epoch": 0.0,
+    "cooldown_until_epoch": 1793020870.1754313,
     "slots": [
       {
         "name": "AGNES_API_KEY",
@@ -82,7 +82,7 @@
       },
       {
         "name": "AGNES_API_KEY6",
-        "used": 1,
+        "used": 2,
         "disabled": 0,
         "kind": null
       },
@@ -628,6 +628,6 @@
   "operational_failures": 1,
   "waiting_families": 0,
   "publication_ready_workers": 0,
-  "completed_at": "2026-10-26T12:03:03.545426+00:00",
+  "completed_at": "2026-10-26T12:21:10.316907+00:00",
   "matrix_pilot_complete": false
 }

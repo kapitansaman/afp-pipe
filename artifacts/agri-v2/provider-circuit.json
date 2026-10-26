@@ -1,10 +1,7 @@
 {
   "open": true,
-  "at": "2026-10-26T02:03:51.961151+00:00",
-  "retry_at_epoch": 1792982031.9611447,
-  "retry_at": "2026-10-26T02:33:51.961145+00:00",
-  "reason": "image_queue_full",
-  "queue_full_count": 4,
-  "backoff_seconds": 1800,
-  "scope": "image generation only; never rotate a key around provider limits"
+  "request_kind": "text",
+  "retry_at_epoch": 1793020870.1754313,
+  "at": "2026-10-26T12:21:10.279136+00:00",
+  "reason": "parallel_lifecycle_shared_provider_limit"
 }

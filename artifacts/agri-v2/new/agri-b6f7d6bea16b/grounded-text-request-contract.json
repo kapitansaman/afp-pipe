@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "format": "json_schema",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "sections": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "heading": {
+              "type": "string",
+              "minLength": 4,
+              "maxLength": 180
+            },
+            "paragraphs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 40,
+                    "maxLength": 20000,
+                    "pattern": "^\\S+(?:\\s+\\S+){49,159}\\s*$"
+                  },
+                  "fact_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "f0",
+                        "f1",
+                        "f2",
+                        "f3",
+                        "f4",
+                        "f5",
+                        "f6"
+                      ]
+                    },
+                    "minItems": 1
+                  }
+                },
+                "required": [
+                  "text",
+                  "fact_ids"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "heading",
+            "paragraphs"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 4
+      },
+      "excerpt": {
+        "type": "string",
+        "minLength": 20,
+        "maxLength": 500
+      },
+      "faq": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 500
+            },
+            "answer": {
+              "type": "string",
+              "minLength": 20,
+              "maxLength": 3000
+            },
+            "fact_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "f0",
+                  "f1",
+                  "f2",
+                  "f3",
+                  "f4",
+                  "f5",
+                  "f6"
+                ]
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "question",
+            "answer",
+            "fact_ids"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "sections",
+      "excerpt",
+      "faq"
+    ],
+    "additionalProperties": false
+  },
+  "prior_rejection_diagnostics": [
+    {
+      "issue": "wrong_top_level_fields",
+      "received": [
+        "content",
+        "schema"
+      ],
+      "required": [
+        "sections",
+        "excerpt",
+        "faq"
+      ]
+    },
+    {
+      "issue": "excerpt_missing"
+    },
+    {
+      "section": 0,
+      "paragraph": 2,
+      "word_count": 47,
+      "issue": "outside_50_160_words"
+    },
+    {
+      "section": 1,
+      "paragraph": 1,
+      "word_count": 48,
+      "issue": "outside_50_160_words"
+    },
+    {
+      "section": 1,
+      "paragraph": 2,
+      "word_count": 47,
+      "issue": "outside_50_160_words"
+    },
+    {
+      "section": 1,
+      "paragraph": 3,
+      "issue": "duplicate_paragraph"
+    },
+    {
+      "section": 2,
+      "paragraph": 0,
+      "word_count": 49,
+      "issue": "outside_50_160_words"
+    },
+    {
+      "section": 2,
+      "paragraph": 1,
+      "word_count": 48,
+      "issue": "outside_50_160_words"
+    },
+    {
+      "section": 2,
+      "paragraph": 1,
+      "issue": "duplicate_paragraph"
+    },
+    {
+      "section": 3,
+      "paragraph": 0,
+      "issue": "duplicate_paragraph"
+    }
+  ],
+  "silent_fallback": false
+}
