@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-26T06:04:20.174072+00:00",
+  "regression_tests": 467,
+  "result": "passed",
+  "prior_live_run": "40276651023",
+  "prior_live_briefs_approved": 0,
+  "fixes": [
+    "labelled_html_tables",
+    "strict_word_boundary_crop_matching",
+    "scientific_crop_aliases_not_local_cultivar_equivalence",
+    "complete_batched_overlap",
+    "fresh_hash_verified_source_cache",
+    "preserved_stage_attempts"
+  ],
+  "research_only_rollout": true
+}

@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-26T06:01:23.871615+00:00",
+  "results": [
+    {
+      "crop": "لوبیا قرمز",
+      "url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "status": "fetched",
+      "sha256": "850c33396f0baa87beeb2468e4d1ce129ae0b074332bdd27e2d1b339641a7afa",
+      "format": "institutional_pdf_text"
+    },
+    {
+      "crop": "کدو حلوایی",
+      "url": "https://www.ers.usda.gov/newsroom/trending-topics/pumpkins-background-statistics",
+      "status": "fetched",
+      "sha256": "2c5caa8e4437be6350cabbfd92c6fb18c4ba4386c9a3694c9a248674c7f58ab7",
+      "format": "institutional_html"
+    },
+    {
+      "crop": "نخودفرنگی",
+      "url": "https://content.ces.ncsu.edu/grain-pea-production-in-north-carolina",
+      "status": "fetched",
+      "sha256": "7c13884b7d622a86efe7cb53e37db313805d9a2fd0b915343f240b9b706cb18f",
+      "format": "institutional_html"
+    }
+  ]
+}

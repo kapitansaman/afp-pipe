@@ -25,9 +25,9 @@ def existing_document(post,expected_id,site):
  if len(text)<100:raise TrialValidation('existing_article_text_insufficient')
  return {'id':expected_id,'url':post['link'],'title':clean(html.unescape(title)),'text':text,'text_truncated':cut,'sha256':hashlib.sha256(text.encode()).hexdigest(),'fetched_at':utcnow(),'evidence_role':'existing_site_content_for_overlap_only_not_independent_agronomy_source'}
 
-def collect_existing(topics,inventory,wp,out=OUT,request_id=None):
+def collect_existing(topics,inventory,wp,out=OUT,request_id=None,max_refs=90):
  public_ids={r['id'] for r in inventory['records']};ids=list(dict.fromkeys(i for t in topics for i in t.get('related_existing_ids',[])))
- if len(ids)>90:raise TrialValidation('existing_content_trial_budget_exceeded')
+ if len(ids)>max_refs:raise TrialValidation('existing_content_trial_budget_exceeded')
  def fetch(i):
   if type(i)is not int or i not in public_ids:return i,{'id':i,'status':'not_in_current_public_inventory'}
   try:

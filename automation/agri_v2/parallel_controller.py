@@ -23,6 +23,13 @@ def merge_worker(ident,worker_data,worker_out,data=DATA,out=OUT):
   if source.is_dir():shutil.copytree(source,dest,dirs_exist_ok=True)
   elif source.exists():dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,dest)
  if bp.exists():dest_brief.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(bp,dest_brief)
+ from .source_loading import valid_document
+ from .research import source_host
+ for source in (worker_out/'source-cache').glob('*.json'):
+  document=load_json(source);requested=document.get('requested_url',document.get('url',''))
+  if source.name!=hashlib.sha256(requested.encode()).hexdigest()+'.json' or not valid_document(document,requested,source_host):raise ValueError('Invalid worker source-cache entry')
+  dest=out/'source-cache'/source.name;dest.parent.mkdir(parents=True,exist_ok=True)
+  if not dest.exists() or age_hours(document['fetched_at'])<age_hours(load_json(dest)['fetched_at']):shutil.copyfile(source,dest)
  for source in (worker_out/'parallel-runtime').rglob('*.json'):
   dest=out/'parallel/runtime'/source.relative_to(worker_out/'parallel-runtime');dest.parent.mkdir(parents=True,exist_ok=True)
   if not dest.exists() or age_hours(load_json(source)['verified_at'])<age_hours(load_json(dest)['verified_at']):shutil.copyfile(source,dest)
@@ -35,6 +42,8 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
  saved_brief=kept_brief.read_bytes() if kept_brief.exists() else None
  shutil.rmtree(wd/'briefs',ignore_errors=True);(wd/'briefs').mkdir()
  if saved_brief is not None:(wd/'briefs'/f'{ident}.json').write_bytes(saved_brief)
+ cache=out/'source-cache'
+ if cache.exists():shutil.copytree(cache,wo/'source-cache',dirs_exist_ok=True)
  atomic_json(wd/'health/latest.json',health);atomic_json(wd/'parallel-inventory.json',inventory)
  for rel in ['research/'+ident+'.json','research-evidence/'+ident,'new/'+ident]:
   src=out/rel;dst=wo/rel

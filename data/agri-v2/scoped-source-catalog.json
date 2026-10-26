@@ -15,8 +15,10 @@
       "urls": [
         "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
         "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
-        "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean"
-      ]
+        "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+        "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf"
+      ],
+      "scientific_crop_mapping": "Phaseolus vulgaris, red kidney market class; not every dry bean cultivar; Phaseolus vulgaris, white-seeded market types; navy data is navy-specific, not every white bean"
     },
     {
       "crops": [
@@ -30,7 +32,8 @@
         "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
         "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management",
         "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf"
-      ]
+      ],
+      "scientific_crop_mapping": "Medicago sativa alfalfa, fresh forage versus dry matter must be explicit"
     },
     {
       "crops": [
@@ -42,8 +45,10 @@
       "scope": "Pumpkin fruit marketable versus total yield; not seed yield or identical to zucchini. US cultivar/site observations only.",
       "urls": [
         "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
-        "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/"
-      ]
+        "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+        "https://www.ers.usda.gov/newsroom/trending-topics/pumpkins-background-statistics"
+      ],
+      "scientific_crop_mapping": "pumpkin fruit; distinguish species, winter squash and seed yield"
     },
     {
       "crops": [
@@ -56,7 +61,8 @@
       "urls": [
         "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
         "https://fieldreport.caes.uga.edu/publications/C527/commercial-squash-production"
-      ]
+      ],
+      "scientific_crop_mapping": "Cucurbita pepo summer squash, zucchini harvested as immature fruit"
     },
     {
       "crops": [
@@ -70,7 +76,8 @@
         "https://content.ces.ncsu.edu/sesame-production-fact-sheet",
         "https://corn.agronomy.wisc.edu/Crops/Sesame.aspx",
         "https://sanangelo.tamu.edu/agronomy/agronomy-publications/sesame-production-guide"
-      ]
+      ],
+      "scientific_crop_mapping": "Sesamum indicum sesame"
     },
     {
       "crops": [
@@ -83,7 +90,8 @@
       "urls": [
         "https://extension-store.montana.edu/montguides/chickpea-production",
         "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf"
-      ]
+      ],
+      "scientific_crop_mapping": "Cicer arietinum chickpea/garbanzo, desi and kabuli criteria"
     },
     {
       "crops": [
@@ -92,10 +100,12 @@
       "intents": [
         "yield"
       ],
-      "scope": "Pisum sativum fresh green peas only if sources actually establish green product; dry field pea and southern pea/cowpea yields MUST be rejected for a fresh-green title.",
+      "scope": "Pisum sativum. Explicitly distinguish dry harvested grain, shelled green peas and fresh pods; no southern pea/cowpea substitution. The generic title does not choose one harvested form. Use only forms actually supported, identify the form prominently, and never apply dry-grain observations to fresh-green yield.",
       "urls": [
-        "https://www.ndsu.edu/agriculture/extension/publications/field-pea-production"
-      ]
+        "https://www.ndsu.edu/agriculture/extension/publications/field-pea-production",
+        "https://content.ces.ncsu.edu/grain-pea-production-in-north-carolina"
+      ],
+      "scientific_crop_mapping": "Pisum sativum, distinguish fresh green product from dry grain"
     },
     {
       "crops": [
@@ -108,7 +118,8 @@
       "urls": [
         "https://extension.msstate.edu/agriculture/forages/legumes/common-vetch-vicia-sativa",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC7316993/"
-      ]
+      ],
+      "scientific_crop_mapping": "Vicia genus; common-vetch evidence applies ONLY to Vicia sativa and stated harvested product"
     },
     {
       "crops": [
@@ -123,7 +134,8 @@
         "https://extension.psu.edu/tomato-production",
         "https://ask.ifas.ufl.edu/publication/CV137",
         "https://extension.illinois.edu/gardening/tomato"
-      ]
+      ],
+      "scientific_crop_mapping": "Solanum lycopersicum tomato, field transplants"
     },
     {
       "crops": [
@@ -138,7 +150,8 @@
         "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
         "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
         "https://extension.illinois.edu/pumpkins/growing-pumpkins"
-      ]
+      ],
+      "scientific_crop_mapping": "seed-purpose Cucurbita cultivars; ordinary pumpkin-fruit evidence is not automatically edible-seed evidence"
     },
     {
       "crops": [
@@ -152,7 +165,8 @@
         "https://www.hort.purdue.edu/newcrop/CropFactSheets/lentil.html",
         "https://corn.agronomy.wisc.edu/Crops/Lentil.aspx",
         "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Pulses/USADryPeaCouncil%20FactSheet.pdf"
-      ]
+      ],
+      "scientific_crop_mapping": "Lens culinaris lentil mature grain"
     },
     {
       "crops": [
@@ -166,7 +180,8 @@
         "https://corn.aae.wisc.edu/Crops/Mungbean.aspx",
         "https://www.hort.purdue.edu/newcrop/afcm/mungbean.html",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417475/"
-      ]
+      ],
+      "scientific_crop_mapping": "Vigna radiata mungbean, not cowpea or black gram"
     },
     {
       "crops": [
@@ -179,7 +194,8 @@
       "urls": [
         "https://cucurbitbreeding.wordpress.ncsu.edu/watermelon-breeding/cultivar-types/",
         "https://mcgregorlab.uga.edu/files/2020/02/Paudel-2019-Egusi.pdf"
-      ]
+      ],
+      "scientific_crop_mapping": "edible-seed watermelon Citrullus types; do not assume equivalence to African egusi or dessert watermelon"
     }
   ]
 }
