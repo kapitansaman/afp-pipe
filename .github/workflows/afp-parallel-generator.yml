@@ -107,7 +107,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install --disable-pip-version-check pillow
+      - run: python -m pip install --disable-pip-version-check pillow "pypdf>=5,<7"
       - name: Offline safety and 15-worker concurrency tests
         run: python -m unittest discover -s tests/agri_v2 -v
       - name: Bounded coordinator; advance publishes only fully validated families
