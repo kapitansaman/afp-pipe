@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.usu.edu/yardandgarden/research/peanuts-in-the-garden.php",
+      "canonical_url": "https://extension.usu.edu/yardandgarden/research/peanuts-in-the-garden",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

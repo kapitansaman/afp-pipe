@@ -1,18 +1,20 @@
 {
-  "all_claims_supported": false,
+  "all_claims_supported": true,
   "crop_species_and_product_match": true,
   "answers_exact_intent": false,
   "units_and_denominators_correct": true,
   "geography_and_transfer_limits_retained": true,
   "no_iranian_prescription_inferred": true,
   "independent_sources": true,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "تمام ادعاها بر اساس مستندات دانشگاهی/ترویجی آمریکا (ویسکانسین، کارولینای شمالی، تگزاس) است. ادعاهای مرتبط با اقلیم‌های خشک تگزاس-اوکلاهما و نیازهای حرارتی شامل حدود ۹۰-۱۲۰ روز بدون یخبندان هستند و به‌صورت صریح فقط برای مناطق تجاری آمریکا گزارش شده‌اند. هیچ رقم یا توصیه‌ای برای ایران استخراج نشده است. منبع Sesaco فقط شامل رقم‌های SESACO ۲۵-۲۹ به‌عنوان نمونه‌های تجاری ایالات متحده است. داده‌های کمی مانند درصد روغن (~۵۰٪) و نیاز روزهای بدون یخبندان دقیقاً منطبق بر متن مبدأ هستند. هرگونه تعمیم به اقلیم ایران یا شرایط کشت ایرانی بدون پایه مستند است و در این بازبینی رد می‌شود.",
+  "limitations": "تمام شواهد از سه انتشار دانشگاهی آمریکا (NC State، Wisconsin/Minnesota و Texas A&M San Angelo) برداشت شده‌اند که همگی منحصراً در مناطق تگزاس، اوکلاهما، کانزاس و کارولینای شمالی مطالعه شده‌اند. هیچ شواهدی مستقیماً مربوط به اقلیم ایران، رقم‌های بومی یا تجاری ایران، یا بازار کنجد ایران نیست. عنوان فارسی «انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی» نشان‌دهنده درخواست معیارهای سازگار با شرایط ایران است، اما اسناد_fetch‌شده فاقد هرگونه داده اقلیمی ایران، معرفی رقم ثبت‌شده ایرانی و تحلیل بازار ایران می‌باشند. رقم‌های SESACO ذکرشده در سند Texas A&M و لیست Margo/Oro/Blanco/Dulce/Ambia/Baco/Paloma/UCR-3/SW-16/SW-17 در سند Wisconsin منحصراً ارقام تولید آمریکا هستند و به‌هیچ‌وجه توصیه ایرانی محسوب نمی‌شوند. ریسک انتقال: معیارهای اقلیمی (دمای خاک ۷۰°F، ۹۰-۱۲۰ روز بدون یخبندان، خشکی‌دوستی) توصیف گونه‌ای هستند اما تقویم کشت و نیاز حرارتی ایران در اسناد موجود نیست؛ معیارهای بازارپسندی (رنگ روشن، روغن >۵۰٪) استانداردهای کیفی عمومی هستند و قیمت‌ها/قراردادهای ایران در منابع ذکر نشده‌اند.",
   "fact_checks": [
     {
       "fact_id": "f0",
-      "supported": false,
+      "supported": true,
       "scope_and_units_correct": true
     },
     {
@@ -45,5 +47,7 @@
       "supported": true,
       "scope_and_units_correct": true
     }
-  ]
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
 }

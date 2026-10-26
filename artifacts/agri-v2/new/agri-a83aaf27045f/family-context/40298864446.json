@@ -1,0 +1,10 @@
+{
+  "family_id": "family-10",
+  "topic_id": "agri-a83aaf27045f",
+  "title": "اولین آبیاری لوبیا چیتی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+  "title_sha256": "38d18b025ea2b2057e8cdf3797fff304bd2b7d640ebcb017d59ec0c7eea0a561",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://corn.agronomy.wisc.edu/Management/L037.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Management/L037.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/corn",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/corn",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-production/growing-corn",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/corn",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Canarygrass.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Canarygrass.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Canola.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Canola.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/CastorBean.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/CastorBean.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

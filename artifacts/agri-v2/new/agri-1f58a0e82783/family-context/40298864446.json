@@ -1,0 +1,10 @@
+{
+  "family_id": "family-07",
+  "topic_id": "agri-1f58a0e82783",
+  "title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+  "title_sha256": "22254aabe7a0ea9e95a4795a9399f84a5be9b44dbb8949335250934e9c9d99e5",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

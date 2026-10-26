@@ -1,0 +1,93 @@
+{
+  "topic_id": "agri-abd5d9f00442",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی خشک (دانه لوبیاPhaseolus vulgaris L.، بازار کلاس پینتو)",
+  "slug": "pinto-dry-bean-harvest-maturity-signs",
+  "outline": [
+    "تعریف محصول و هدف",
+    "نشانه‌های کیفی رسیدگی دانه و غلاف",
+    "رطوبت دانه و زمان برداشت",
+    "پیشگیری از شکافتن غلاف و آسیب دانه",
+    "محدودیت‌ها و ملاحظات کیفی بازار"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "لوبیا چیتی از گونه Phaseolus vulgaris L. و بازار کلاس پینتو است که در ایالات متحده بزرگ‌ترین سطح زیر کشت را در بین انواع لوبیای خشک دارد.",
+      "conditions": "گونه: Phaseolus vulgaris L.؛ بازار کلاس: پینتو؛ منبع: مؤسسه ایستگاهی توسعه آیوا (Iowa State University Extension and Outreach)، آمریکا",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برداشت لوبیای خشک زمانی آغاز می‌شود که رطوبت دانه به ۱۸ درصد برسد؛ در این زمان برخی غلاف‌ها قهوه‌ای و بیشتر غلاف‌ها زرد هستند.",
+      "conditions": "رطوبت دانه: ۱۸٪؛ وضعیت غلاف: برخی قهوه‌ای، بیشتر زرد؛ جغرافیا: میزوری، آمریکا؛ سامانه: مزرعه‌ای با غلات مختلط",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": [
+        {
+          "value": "18",
+          "unit_quote": "seeds are at 18% moisture",
+          "geographic_scope": "Mizuri, USA",
+          "product_scope": "dry pinto bean seed"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "زمان مناسب برداشت هنگامی است که برخی غلاف‌ها قهوه‌ای و بیشتر آن‌ها زرد شده باشند و قبل از شروع شکافتن غلاف در مزرعه برداشت انجام شود.",
+      "conditions": "نشانه بصری: گذار رنگ غلاف از زرد به قهوه‌ای؛ هشدار: تراوش دانه پیش از برداشت در صورت تاخیر",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در پروژه مقیاس کوچک واشنگتن، سه روز آفتاب گرم و خشک برای خشک شدن کامل دسته‌های کل گیاه در فضای باز کافی بود و دانه‌ها پس از آن برای خرمن‌کوبی آماده شدند.",
+      "conditions": "جغرافیا: غرب ایالت واشنگتن، آمریکا؛ وضعیت آب‌وهوا: سه روز هوای گرم و آفتابی؛ محصول: کل گیاه لوبیای خشک؛ روش: پهن‌شدن روی تarp وینیلی",
+      "evidence_id": "d1-e1",
+      "numeric_bindings": [
+        {
+          "value": "three",
+          "unit_quote": "three days of hot, sunny weather was sufficient to dry the pile of whole plants",
+          "geographic_scope": "western Washington, USA",
+          "product_scope": "whole dry bean plants for threshing readiness"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دانه زمانی به اندازه کافی خشک است که غلاف با لمس شکافته شود، اما اگر دانه خودش ترک بخورد یعنی بیش از حد خشک شده است.",
+      "conditions": "مرز کیفی خشکی: شکافتن غلاف نشانه کافی، ترک خوردن خود دانه نشانه خشکی بیش‌ازحد",
+      "evidence_id": "d1-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برداشت در شب یا هنگام وجود شبنم می‌تواند از شکافتن و ریختن دانه جلوگیری کند؛ باران هم‌زمان برداشت باعث تغییر رنگ دانه به‌ویژه در ارقام سفید و پینتو می‌شود.",
+      "conditions": "توصیه کیفی: کاهش شکافتن با برداشت شبانه/شبنم‌دار؛ ریسق کیفی: تغییر رنگ ناشی از باران در مناطق بارانی;",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دانه لوبیای خشک باید برای انبارداری با رطوبت حدود ۱۵ تا ۱۶ درصد نگهداری شود.",
+      "conditions": "رطوبت انبار: ۱۵ تا ۱۶٪؛ جغرافیا: میزوری، آمریکا؛ محصول: دانه لوبیای خشک برای نگهداری",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": [
+        {
+          "value": "15 to 16",
+          "unit_quote": "Seeds should be stored at about 15 to 16% moisture",
+          "geographic_scope": "Missouri, USA",
+          "product_scope": "dry pinto bean seed for storage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ظاهر دانه در لوبیای خشک از اهمیت بالایی برای قیمت بازار برخوردار است و باید از آسیب مکانیکی و شکستگی دانه هنگام برداشت و جابه‌جایی پرهیز شود.",
+      "conditions": "کیفیت بازار: اهمیت ظاهر دانه؛ روش: پرهیز از ریختن از ارتفاع روی سطح سخت؛ منبع: میزوری، آمریکا",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": []
+    }
+  ]
+}

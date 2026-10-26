@@ -1,0 +1,105 @@
+{
+  "topic_id": "agri-3ab6116ba6cf",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "دانه ذرت برداشت‌شده (Grain corn)",
+  "slug": "grain-corn-yield-ha",
+  "outline": [
+    "تعریف محصول: دانه ذرت (ذرت دانه‌ای) به‌عنوان محصول قابل‌فروش با مبنا برداشت خشک",
+    "مشاهدات مستند عملکرد: بازه عملکردی دانه ذرت در مینه‌سوتا بر اساس گزارش USDA و Extension دانشگاهی",
+    "عوامل تغییر: اقلیم، هیبرید انتخابی، تراکم بوته، چرخش زراعی و مدیریت آبیاری/کود"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد متوسط دانه ذرت در ایالت مینه‌سوتا (آمریکا) در سال ۲۰۲۵ معادل ۲۰۱ بوچل در آکر گزارش شده است.",
+      "conditions": "منطقه جغرافیایی: مینه‌سوتا، ایالات متحده آمریکا؛ محصول: دانه ذرت (grain corn)؛ مبنا: برداشت خشک (dry grain)؛ واحد: بوچل در آکر؛ سال زراعی: ۲۰۲۵ (بر مبنای گزارش USDA-NIFA)؛ سطح مرجع: دانشگاهی/ترویجی (University of Minnesota Extension)",
+      "evidence_id": "d5-e12",
+      "numeric_bindings": [
+        {
+          "value": "201",
+          "unit_quote": "201 bushels per acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "grain corn"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ایالت مینه‌سوتا از نظر سطح زیر کشت ذرت در سطح ملی رتبه چهارم تولید ذرت در ایالات متحده را دارد.",
+      "conditions": "منطقه جغرافیایی: مینه‌سوتا، ایالات متحده آمریکا؛ محصول: ذرت دانه‌ای؛ مبنا: رتبه تولید ملی؛ منبع: گزارش USDA Crop Production Summary 2025",
+      "evidence_id": "d5-e12",
+      "numeric_bindings": [
+        {
+          "value": "4",
+          "unit_quote": "4th rank",
+          "geographic_scope": "United States",
+          "product_scope": "corn"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "سطح زیر کشت ذرت در مینه‌سوتا در سال ۲۰۲۵ معادل ۸.۹ میلیون آکر بوده است.",
+      "conditions": "منطقه جغرافیایی: مینه‌سوتا، ایالات متحده آمریکا؛ محصول: ذرت؛ مبنا: سطح زیر کشت سالانه؛ واحد: میلیون آکر؛ منبع: USDA-NIFA",
+      "evidence_id": "d5-e12",
+      "numeric_bindings": [
+        {
+          "value": "8.9",
+          "unit_quote": "8.9 million acres",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "corn"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "تراکم گیاهی بهینه برای ذرت دانه‌ای در مینه‌سوتا حدود ۳۲۰۰۰ تا ۳۴۰۰۰ بوته در آکر به‌صورت ایستاده نهایی توصیه می‌شود.",
+      "conditions": "منطقه جغرافیایی: مینه‌سوتا؛ محصول: ذرت دانه‌ای؛ مبنا: تراکم کاشت هدف‌مند؛ واحد: بوته در آکر",
+      "evidence_id": "d5-e4",
+      "numeric_bindings": [
+        {
+          "value": "32000 to 34000",
+          "unit_quote": "32,000 to 34,000 plants per acre",
+          "geographic_scope": "Minnesota",
+          "product_scope": "grain corn"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کشت ذرت در ردیف‌های باریک می‌تواند عملکرد دانه را تا ۷ تا ۹ درصد در مینه‌سوتا افزایش دهد.",
+      "conditions": "منطقه جغرافیایی: مینه‌سوتا؛ محصول: ذرت دانه‌ای； مبنا: فاصله ردیفی; واحد: درصد افزایش",
+      "evidence_id": "d5-e4",
+      "numeric_bindings": [
+        {
+          "value": "7 to 9",
+          "unit_quote": "7 to 9 percent",
+          "geographic_scope": "Minnesota",
+          "product_scope": "grain corn"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد ذرت در مینه‌سوتا تحت شرایط گرمای بالا و تنش آبی در دوره گرده‌افشانی کاهش می‌یابد.",
+      "conditions": "منطقه جغرافیایی: مینه‌سوتا؛ محصول: ذرت دانه‌ای； مبنا: عوامل کاهش عملکرد; واحد: کیفی",
+      "evidence_id": "d5-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "سطح زیر کشت ذرت در مینه‌سوتا بین سال‌های ۲۰۲۳ تا ۲۰۲۶ بین ۸.۲ تا ۸.۹ میلیون آکر نوسان داشته است.",
+      "conditions": "منطقه جغرافیایی: مینه‌سوتا؛ محصول: ذرت؛ مبنا: نوسان سطح زیر کشت سالانه؛ واحد: میلیون آکر",
+      "evidence_id": "d5-e12",
+      "numeric_bindings": [
+        {
+          "value": "8.2 to 8.9",
+          "unit_quote": "between 8.2 and 8.9 million acres over 2023-2026",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "corn"
+        }
+      ]
+    }
+  ]
+}

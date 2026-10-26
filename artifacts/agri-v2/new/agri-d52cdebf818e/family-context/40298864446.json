@@ -1,0 +1,10 @@
+{
+  "family_id": "family-17",
+  "topic_id": "agri-d52cdebf818e",
+  "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "title_sha256": "b3240979726dac5489a75e19eb7f30d36eb97bc43b24dd9c94bb77ee8898d76c",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

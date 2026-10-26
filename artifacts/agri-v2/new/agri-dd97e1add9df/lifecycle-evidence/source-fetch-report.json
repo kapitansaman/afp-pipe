@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "canonical_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+      "canonical_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
+      "canonical_url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+      "canonical_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2016/direct-harvest-dry-edible-beans/",
+      "canonical_url": "https://cropwatch.unl.edu/2016/direct-harvest-dry-edible-beans/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

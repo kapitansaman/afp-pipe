@@ -1,0 +1,68 @@
+{
+  "topic_id": "agri-7736a471e8c1",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "جو (شسته‌شده/دانه غلات کوچک)",
+  "slug": "barley-planting-depth-light-heavy-soils",
+  "outline": [
+    "تعریف کشت جو و ویژگی‌های بید و غلاف",
+    "شواهد استقرار: عمق کاشت ایده‌آل و توانایی نفوذ از خاک crust",
+    "خطاهای رایج: کاشت در خاک‌های سنگین، پوسته‌بستن سطح خاک و مدیریت نیتروژن اضافی"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "عمق کاشت ایده‌آل جو حدود یک اینچ ( shallow ) توصیه می‌شود، زیرا نفوذ از خاک‌های crust‌شده برای این محصول سخت‌تر از سایر غلات ریز دانه است.",
+      "conditions": "محصول: جو؛ محصول برداشت: دانه؛ اقلیم مبنا: ویسکانسین، شمال غرب آمریکا (Cold tolerance / cool spring adaptation); واحد عمق: inch",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کوپتیل جو پهن‌تر و کمتر مقاوم است؛ بنابراین کاشت عمیق‌تر خطر شکست ساقه جوان را افزایش می‌دهد.",
+      "conditions": "محصول: جو؛ محصول برداشت: دانه؛ منطقه مبنا: ویسکانسین، USA; هدف: استقرار و رویش جوانه",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کشت جو بهتر در خاک‌های سبک‌تر و ارتفاعات بالاتر انجام شود؛ خاک‌های سنگین (heavy soils) به‌دلیل خطر crust و lodging نامناسب‌اند.",
+      "conditions": "محصول: جو؛ محصول برداشت: دانه؛ منطقه مبنا: ویسکانسین/غرب USA; نوع خاک: سنگین vs سبک",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نرخ بذر جو در خاک‌های سبک (loamy sand تا sandy loam) با دیسک جفتی 10-20٪ پوشش، حدود 5 تا 10 پوند در آکر؛ در خاک‌های سنگین (clay و silty clay loam) با ایرسیدر 60-100٪ پوشش تا 100 پوند در آکر گزارش شده است.",
+      "conditions": "محصول: جو؛ محصول برداشت: دانه؛ منطقه مبنا: مینه‌سوتا، USA (University of Minnesota Extension); واحد: lb/acre; عمق کاشت مبنا در جدول: 1 inch برای برخی ترکیبات; متن‌های جداول row-level",
+      "evidence_id": "d3-e8",
+      "numeric_bindings": [
+        {
+          "value": "5",
+          "unit_quote": "5 lb/acre",
+          "geographic_scope": "مینه‌سوتا، USA",
+          "product_scope": "جو دانه"
+        },
+        {
+          "value": "1 inch",
+          "unit_quote": "1 inch",
+          "geographic_scope": "مینه‌سوتا، USA",
+          "product_scope": "جو دانه"
+        },
+        {
+          "value": "100",
+          "unit_quote": "100 lb/acre",
+          "geographic_scope": "مینه‌سوتا، USA",
+          "product_scope": "جو دانه"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کود نیتروژن بیش‌ازحد موجب lodging و کاهش کیفیت دانه (به‌ویژه برای جو مالت) می‌شود.",
+      "conditions": "محصول: جو؛ محصول برداشت: دانه (feed/malting); منطقه مبنا: ویسکانسین/مینسوتا، USA; هدف: مدیریت N در استقرار",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": []
+    }
+  ]
+}

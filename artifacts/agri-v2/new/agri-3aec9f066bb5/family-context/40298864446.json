@@ -1,0 +1,10 @@
+{
+  "family_id": "family-11",
+  "topic_id": "agri-3aec9f066bb5",
+  "title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
+  "title_sha256": "9a53f7ea6598805a478e72ac0dad8630021537aea10de8c8b72e2a349318c07b",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

@@ -1,0 +1,10 @@
+{
+  "family_id": "family-08",
+  "topic_id": "agri-c0e160d88554",
+  "title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+  "title_sha256": "b04022e8e5038c6b3162e9df7c100afa9c824293998758e7cb053056beea7412",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

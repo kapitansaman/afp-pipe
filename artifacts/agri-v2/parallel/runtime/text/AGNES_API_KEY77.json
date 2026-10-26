@@ -1,0 +1,11 @@
+{
+  "repository": "kapitansaman/afp-pipe",
+  "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+  "kind": "text",
+  "slot": "AGNES_API_KEY77",
+  "model": "agnes-2.5-flash",
+  "verified_at": "2026-10-26T09:23:58.194660+00:00",
+  "verification": "actual_successful_parallel_response",
+  "family_id": "family-18",
+  "topic_id": "agri-abd5d9f00442"
+}

@@ -1,0 +1,36 @@
+{
+  "requested": 5,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://cropwatch.unl.edu/soil-temperature/",
+      "canonical_url": "https://cropwatch.unl.edu/soil-temperature/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-dates",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-dates",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-guide",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-guide",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-zones",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-zones",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/planting-and-growing-guides/growing-healthy-vegetables",
+      "canonical_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems/managing-plant-diseases-in-the-home-garden",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

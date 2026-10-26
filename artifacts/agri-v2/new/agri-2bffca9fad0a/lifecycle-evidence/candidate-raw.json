@@ -1,0 +1,49 @@
+{
+  "topic_id": "agri-2bffca9fad0a",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی (Pinto dry bean, Phaseolus vulgaris) — دانه خشک (دانه‌ی برداشت‌شده)",
+  "slug": "pinto-dry-bean-irrigation-soil-moisture",
+  "outline": [
+    "ماهیت هدف: تعیین دور آبیاری با تکیه بر رطوبت خاک به جای تقویم ثابت",
+    "بررسی شواهد: منابع موجود صرفاً مقادیر کیفی رطوبت و باران هفتگی برای لوبیای عمومی ارائه می‌دهند و فاقد معیار پایش رطوبت خاک یا جدول دور آبیاری هستند",
+    "نتیجه: پاسخ اجرایی با رطوبت خاک برای این محصول در دسترس نیست"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "هر دو حالت کم‌آبی و پُرآبی می‌تواند باعث ریزش گل و غلاف شود.",
+      "conditions": "منطقه: ایالت میسیسیپی، آمریکا؛ محصول: لوبیای باغی عمومی (Phaseolus vulgaris، شامل انواع خشک و تازه‌خوری)؛ منبع: Mississippi State University Extension",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "وقتی دما و خشکی خاک در تابستان بسیار بالا باشد، لوبیا گل‌ها و غلاف‌های کوچک خود را می‌ریزد.",
+      "conditions": "منطقه: ایالت میسیسیپی، آمریکا؛ محصول: لوبیای خشک و صدفی; منبع: Mississippi State University Extension",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "یک اینچ باران در هفته مناسب است؛ یک اینچ آب خاک سبک شنی را تا عمق ده اینچ و خاک رسی سنگین را تا عمق شش اینچ مرطوب می‌کند.",
+      "conditions": "منطقه: مینه‌سوتا، آمریکا; محصول: لوبیای باغی (Phaseolus vulgaris); واحد: inch (inches); منبع: University of Minnesota Extension",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": [
+        {
+          "value": "1",
+          "unit_quote": "One inch of rainfall per week is good. An inch of water will wet a sandy soil to a depth of ten inches, a heavy clay soil to six inches.",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "Phaseolus vulgaris (common bean)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "میزان آب مصرفی واقعی (ET) یا روش پایش رطوبت خاک مانند tensiometer/TPS ارائه نشده است.",
+      "conditions": "منطقه: ایالات متحده; محصول: لوبیا; محدودیت: فاقد شاخص رطوبت خاک؛ صرفاً مقدار آب/باران هفتگی و عمق نفوذ ذکر شده است.",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": []
+    }
+  ]
+}

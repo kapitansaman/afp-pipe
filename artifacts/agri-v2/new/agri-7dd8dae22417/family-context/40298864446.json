@@ -1,0 +1,10 @@
+{
+  "family_id": "family-16",
+  "topic_id": "agri-7dd8dae22417",
+  "title": "انتخاب رقم لوبیا قرمز برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+  "title_sha256": "99c4748b08fe0964bff2d4aeac2310202bb2ee9a86ab19e6934d72baa67740a4",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

@@ -1,0 +1,417 @@
+{
+  "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/fertilizing-barley",
+  "requested_url": "https://extension.umn.edu/crop-specific-needs/barley-fertilizer-recommendations",
+  "redirect_chain": [
+    "https://extension.umn.edu/crop-specific-needs/barley-fertilizer-recommendations",
+    "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/fertilizing-barley"
+  ],
+  "text": "[table row] Soybean | First year N credit (lb N/acre): 20 [table row] Edible beans, field peas | First year N credit (lb N/acre): 10 [table row] Harvested sweet clover | First year N credit (lb N/acre): 10 [table row] Harvested alfalfa1 or non-harvested sweet clover: 4-5 plants/ft2 | First year N credit (lb N/acre): 75 [table row] Harvested alfalfa1 or non-harvested sweet clover: 2-3 plants/ft2 | First year N credit (lb N/acre): 50 [table row] Harvested alfalfa1 or non-harvested sweet clover: 1-2 plants/ft2 | First year N credit (lb N/acre): 25 [table row] Harvested alfalfa1 or non-harvested sweet clover: 1 or fewer plants/ft2 | First year N credit (lb N/acre): 0 [table row] Harvested red clover | First year N credit (lb N/acre): 35 [table row] Sugar beet: Yellow leaves at harvest | First year N credit (lb N/acre): 0 [table row] Sugar beet: Light-green leaves at harvest | First year N credit (lb N/acre): 15-30 [table row] Sugar beet: Dark-green leaves at harvest | First year N credit (lb N/acre): 60-80 [table row] Alfalfa (4+ plants/ft 2 ) | 2nd year N credit: 35 lb N/acre [table row] Non-harvested sweet clover | 2nd year N credit: 35 [table row] Alfalfa (2-3 plants/ft 2 ) | 2nd year N credit: 25 [table row] Birdsfoot trefoil | 2nd year N credit: 25 [table row] Red clover | 2nd year N credit: 20 [table row] Alfalfa (4+ plants/ft 2 ) | Organic matter level**: Low [table row] Alfalfa (4+ plants/ft 2 ) | Yield goal: <50 bu/acre: 0 lb N/acre [table row] Alfalfa (4+ plants/ft 2 ) | 50-59 bu/acre: 0 lb N/acre [table row] Alfalfa (4+ plants/ft 2 ) | 60-69 bu/acre: 10 lb N/acre [table row] Alfalfa (4+ plants/ft 2 ) | 70-79 bu/acre: 25 lb N/acre [table row] Alfalfa (4+ plants/ft 2 ) | 80-89 bu/acre: 40 lb N/acre [table row] Alfalfa (4+ plants/ft 2 ) | 90-99 bu/acre: 55 lb N/acre [table row] Alfalfa (4+ plants/ft 2 ) | 100+ bu/acre: 70 lb N/acre [table row] Alfalfa (4+ plants/ft 2 ) | Organic matter level**: Medium/High [table row] Alfalfa (4+ plants/ft 2 ) | Yield goal: <50 bu/acre: 0 [table row] Alfalfa (4+ plants/ft 2 ) | 50-59 bu/acre: 0 [table row] Alfalfa (4+ plants/ft 2 ) | 60-69 bu/acre: 0 [table row] Alfalfa (4+ plants/ft 2 ) | 70-79 bu/acre: 0 [table row] Alfalfa (4+ plants/ft 2 ) | 80-89 bu/acre: 20 [table row] Alfalfa (4+ plants/ft 2 ) | 90-99 bu/acre: 35 [table row] Alfalfa (4+ plants/ft 2 ) | 100+ bu/acre: 50 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | Organic matter level**: Low [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | Yield goal: <50 bu/acre: 30 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 50-59 bu/acre: 50 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 60-69 bu/acre: 65 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 70-79 bu/acre: 80 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 80-89 bu/acre: 95 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 90-99 bu/acre: 110 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 100+ bu/acre: 125 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | Organic matter level**: Medium/High [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | Yield goal: <50 bu/acre: 0 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 50-59 bu/acre: 30 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 60-69 bu/acre: 45 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 70-79 bu/acre: 60 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 80-89 bu/acre: 75 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 90-99 bu/acre: 90 [table row] Soybeans or alfalfa (1 or less plants/ft 2 ) | 100+ bu/acre: 105 [table row] Edible beans, field peas, | Organic matter level**: Low [table row] Edible beans, field peas, | Yield goal: <50 bu/acre: 40 [table row] Edible beans, field peas, | 50-59 bu/acre: 60 [table row] Edible beans, field peas, | 60-69 bu/acre: 75 [table row] Edible beans, field peas, | 70-79 bu/acre: 90 [table row] Edible beans, field peas, | 80-89 bu/acre: 105 [table row] Edible beans, field peas, | 90-99 bu/acre: 120 [table row] Edible beans, field peas, | 100+ bu/acre: 135 [table row] Edible beans, field peas | Organic matter level**: Medium/High [table row] Edible beans, field peas | Yield goal: <50 bu/acre: 0 [table row] Edible beans, field peas | 50-59 bu/acre: 40 [table row] Edible beans, field peas | 60-69 bu/acre: 55 [table row] Edible beans, field peas | 70-79 bu/acre: 70 [table row] Edible beans, field peas | 80-89 bu/acre: 85 [table row] Edible beans, field peas | 90-99 bu/acre: 100 [table row] Edible beans, field peas | 100+ bu/acre: 115 [table row] Group 1 crops (see below) | Organic matter level**: Low [table row] Group 1 crops (see below) | Yield goal: <50 bu/acre: 0 [table row] Group 1 crops (see below) | 50-59 bu/acre: 20 [table row] Group 1 crops (see below) | 60-69 bu/acre: 35 [table row] Group 1 crops (see below) | 70-79 bu/acre: 50 [table row] Group 1 crops (see below) | 80-89 bu/acre: 65 [table row] Group 1 crops (see below) | 90-99 bu/acre: 80 [table row] Group 1 crops (see below) | 100+ bu/acre: 95 [table row] Group 1 crops | Organic matter level**: Medium/High [table row] Group 1 crops | Yield goal: <50 bu/acre: 0 [table row] Group 1 crops | 50-59 bu/acre: 0 [table row] Group 1 crops | 60-69 bu/acre: 15 [table row] Group 1 crops | 70-79 bu/acre: 30 [table row] Group 1 crops | 80-89 bu/acre: 45 [table row] Group 1 crops | 90-99 bu/acre: 60 [table row] Group 1 crops | 100+ bu/acre: 75 [table row] Group 2 crops | Organic matter level**: Low [table row] Group 2 crops | Yield goal: <50 bu/acre: 50 [table row] Group 2 crops | 50-59 bu/acre: 70 [table row] Group 2 crops | 60-69 bu/acre: 85 [table row] Group 2 crops | 70-79 bu/acre: 100 [table row] Group 2 crops | 80-89 bu/acre: 115 [table row] Group 2 crops | 90-99 bu/acre: 130 [table row] Group 2 crops | 100+ bu/acre: 145 [table row] Group 2 crops | Organic matter level**: Medium/High [table row] Group 2 crops | Yield goal: <50 bu/acre: 30 [table row] Group 2 crops | 50-59 bu/acre: 50 [table row] Group 2 crops | 60-69 bu/acre: 65 [table row] Group 2 crops | 70-79 bu/acre: 80 [table row] Group 2 crops | 80-89 bu/acre: 95 [table row] Group 2 crops | 90-99 bu/acre: 110 [table row] Group 2 crops | 100+ bu/acre: 125 [table row] Organic | Organic matter level**: — [table row] Organic | Yield goal: <50 bu/acre: 0 [table row] Organic | 50-59 bu/acre: 0 [table row] Organic | 60-69 bu/acre: 0 [table row] Organic | 70-79 bu/acre: 0 [table row] Organic | 80-89 bu/acre: 30 [table row] Organic | 90-99 bu/acre: 40 [table row] Organic | 100+ bu/acre: 50 [table row] Loamy sand | Sand (%): 80% [table row] Loamy sand | Silt (%): 10% [table row] Loamy sand | Clay (%): 10% [table row] Loamy sand | Seedbed used: 10-20%, Double disc, 1 inch: 5 lb/acre [table row] Loamy sand | Seedbed used: 30-50%, Hoe, 1 inch: 10-20 lb/acre [table row] Loamy sand | Seedbed used: 60-100%, Air seeder, 4-12 inch: 25-40 lb/acre [table row] Sandy loam | Sand (%): 60 [table row] Sandy loam | Silt (%): 35 [table row] Sandy loam | Clay (%): 5 [table row] Sandy loam | Seedbed used: 10-20%, Double disc, 1 inch: 10 [table row] Sandy loam | Seedbed used: 30-50%, Hoe, 1 inch: 15-25 [table row] Sandy loam | Seedbed used: 60-100%, Air seeder, 4-12 inch: 30-45 [table row] Sandy clay loam | Sand (%): 55 [table row] Sandy clay loam | Silt (%): 15 [table row] Sandy clay loam | Clay (%): 30 [table row] Sandy clay loam | Seedbed used: 10-20%, Double disc, 1 inch: 15 [table row] Sandy clay loam | Seedbed used: 30-50%, Hoe, 1 inch: 20-30 [table row] Sandy clay loam | Seedbed used: 60-100%, Air seeder, 4-12 inch: 35-50 [table row] Loam | Sand (%): 40 [table row] Loam | Silt (%): 40 [table row] Loam | Clay (%): 20 [table row] Loam | Seedbed used: 10-20%, Double disc, 1 inch: 20 [table row] Loam | Seedbed used: 30-50%, Hoe, 1 inch: 25-35 [table row] Loam | Seedbed used: 60-100%, Air seeder, 4-12 inch: 40-55 [table row] Silt loam | Sand (%): 20 [table row] Silt loam | Silt (%): 65 [table row] Silt loam | Clay (%): 15 [table row] Silt loam | Seedbed used: 10-20%, Double disc, 1 inch: 25 [table row] Silt loam | Seedbed used: 30-50%, Hoe, 1 inch: 30-40 [table row] Silt loam | Seedbed used: 60-100%, Air seeder, 4-12 inch: 45-60 [table row] Silty clay loam | Sand (%): 10 [table row] Silty clay loam | Silt (%): 55 [table row] Silty clay loam | Clay (%): 35 [table row] Silty clay loam | Seedbed used: 10-20%, Double disc, 1 inch: 30 [table row] Silty clay loam | Seedbed used: 30-50%, Hoe, 1 inch: 35-45 [table row] Silty clay loam | Seedbed used: 60-100%, Air seeder, 4-12 inch: 50-70 [table row] Clay loam | Sand (%): 30 [table row] Clay loam | Silt (%): 30 [table row] Clay loam | Clay (%): 40 [table row] Clay loam | Seedbed used: 10-20%, Double disc, 1 inch: 35 [table row] Clay loam | Seedbed used: 30-50%, Hoe, 1 inch: 40-50 [table row] Clay loam | Seedbed used: 60-100%, Air seeder, 4-12 inch: 55-80 [table row] Clay | Sand (%): 20 [table row] Clay | Silt (%): 20 [table row] Clay | Clay (%): 60 [table row] Clay | Seedbed used: 10-20%, Double disc, 1 inch: 40 [table row] Clay | Seedbed used: 30-50%, Hoe, 1 inch: 45-55 [table row] Clay | Seedbed used: 60-100%, Air seeder, 4-12 inch: 60-100 [table row] Less than 50 bu/acre | Broadcast or Drill: Broadcast [table row] Less than 50 bu/acre | Bray 0-5 ppm, Olsen 0-3 ppm: 35 lb/acre [table row] Less than 50 bu/acre | Bray 6-10 ppm, Olsen 4-7 ppm: 25 lb/acre [table row] Less than 50 bu/acre | Bray 11-15 ppm Olsen 8-11 ppm: 15 lb/acre [table row] Less than 50 bu/acre | Bray 16-20 ppm, Olsen 12-15 ppm: 0 lb/acre [table row] Less than 50 bu/acre | Bray 21+ ppm, Olsen 16+ ppm: 0 lb/acre [table row] Less than 50 bu/acre | Broadcast or Drill: Drill [table row] Less than 50 bu/acre | Bray 0-5 ppm, Olsen 0-3 ppm: 20 [table row] Less than 50 bu/acre | Bray 6-10 ppm, Olsen 4-7 ppm: 15 [table row] Less than 50 bu/acre | Bray 11-15 ppm Olsen 8-11 ppm: 10 [table row] Less than 50 bu/acre | Bray 16-20 ppm, Olsen 12-15 ppm: 10-15 [table row] Less than 50 bu/acre | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 50-59 | Broadcast or Drill: Broadcast [table row] 50-59 | Bray 0-5 ppm, Olsen 0-3 ppm: 40 [table row] 50-59 | Bray 6-10 ppm, Olsen 4-7 ppm: 25 [table row] 50-59 | Bray 11-15 ppm Olsen 8-11 ppm: 15 [table row] 50-59 | Bray 16-20 ppm, Olsen 12-15 ppm: 0 [table row] 50-59 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 50-59 | Broadcast or Drill: Drill [table row] 50-59 | Bray 0-5 ppm, Olsen 0-3 ppm: 20 [table row] 50-59 | Bray 6-10 ppm, Olsen 4-7 ppm: 15 [table row] 50-59 | Bray 11-15 ppm Olsen 8-11 ppm: 10 [table row] 50-59 | Bray 16-20 ppm, Olsen 12-15 ppm: 10-15 [table row] 50-59 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 60-69 | Broadcast or Drill: Broadcast [table row] 60-69 | Bray 0-5 ppm, Olsen 0-3 ppm: 45 [table row] 60-69 | Bray 6-10 ppm, Olsen 4-7 ppm: 30 [table row] 60-69 | Bray 11-15 ppm Olsen 8-11 ppm: 20 [table row] 60-69 | Bray 16-20 ppm, Olsen 12-15 ppm: 0 [table row] 60-69 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 60-69 | Broadcast or Drill: Drill [table row] 60-69 | Bray 0-5 ppm, Olsen 0-3 ppm: 25 [table row] 60-69 | Bray 6-10 ppm, Olsen 4-7 ppm: 15 [table row] 60-69 | Bray 11-15 ppm Olsen 8-11 ppm: 15 [table row] 60-69 | Bray 16-20 ppm, Olsen 12-15 ppm: 10-15 [table row] 60-69 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 70-79 | Broadcast or Drill: Broadcast [table row] 70-79 | Bray 0-5 ppm, Olsen 0-3 ppm: 50 [table row] 70-79 | Bray 6-10 ppm, Olsen 4-7 ppm: 35 [table row] 70-79 | Bray 11-15 ppm Olsen 8-11 ppm: 20 [table row] 70-79 | Bray 16-20 ppm, Olsen 12-15 ppm: 0 [table row] 70-79 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 70-79 | Broadcast or Drill: Drill [table row] 70-79 | Bray 0-5 ppm, Olsen 0-3 ppm: 25 [table row] 70-79 | Bray 6-10 ppm, Olsen 4-7 ppm: 20 [table row] 70-79 | Bray 11-15 ppm Olsen 8-11 ppm: 15 [table row] 70-79 | Bray 16-20 ppm, Olsen 12-15 ppm: 10-15 [table row] 70-79 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 80-89 | Broadcast or Drill: Broadcast [table row] 80-89 | Bray 0-5 ppm, Olsen 0-3 ppm: 60 [table row] 80-89 | Bray 6-10 ppm, Olsen 4-7 ppm: 40 [table row] 80-89 | Bray 11-15 ppm Olsen 8-11 ppm: 25 [table row] 80-89 | Bray 16-20 ppm, Olsen 12-15 ppm: 0 [table row] 80-89 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 80-89 | Broadcast or Drill: Drill [table row] 80-89 | Bray 0-5 ppm, Olsen 0-3 ppm: 30 [table row] 80-89 | Bray 6-10 ppm, Olsen 4-7 ppm: 20 [table row] 80-89 | Bray 11-15 ppm Olsen 8-11 ppm: 15 [table row] 80-89 | Bray 16-20 ppm, Olsen 12-15 ppm: 10-15 [table row] 80-89 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 90-99 | Broadcast or Drill: Broadcast [table row] 90-99 | Bray 0-5 ppm, Olsen 0-3 ppm: 65 [table row] 90-99 | Bray 6-10 ppm, Olsen 4-7 ppm: 45 [table row] 90-99 | Bray 11-15 ppm Olsen 8-11 ppm: 25 [table row] 90-99 | Bray 16-20 ppm, Olsen 12-15 ppm: 0 [table row] 90-99 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 90-99 | Broadcast or Drill: Drill [table row] 90-99 | Bray 0-5 ppm, Olsen 0-3 ppm: 35 [table row] 90-99 | Bray 6-10 ppm, Olsen 4-7 ppm: 25 [table row] 90-99 | Bray 11-15 ppm Olsen 8-11 ppm: 15 [table row] 90-99 | Bray 16-20 ppm, Olsen 12-15 ppm: 10-15 [table row] 90-99 | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 100+ | Broadcast or Drill: Broadcast [table row] 100+ | Bray 0-5 ppm, Olsen 0-3 ppm: 70 [table row] 100+ | Bray 6-10 ppm, Olsen 4-7 ppm: 50 [table row] 100+ | Bray 11-15 ppm Olsen 8-11 ppm: 30 [table row] 100+ | Bray 16-20 ppm, Olsen 12-15 ppm: 0 [table row] 100+ | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] 100+ | Broadcast or Drill: Drill [table row] 100+ | Bray 0-5 ppm, Olsen 0-3 ppm: 35 [table row] 100+ | Bray 6-10 ppm, Olsen 4-7 ppm: 25 [table row] 100+ | Bray 11-15 ppm Olsen 8-11 ppm: 20 [table row] 100+ | Bray 16-20 ppm, Olsen 12-15 ppm: 10-15 [table row] 100+ | Bray 21+ ppm, Olsen 16+ ppm: 0 [table row] Less than 50 bu/acre | Broadcast or Drill: Broadcast [table row] Less than 50 bu/acre | 0-40 ppm: 50 lb/acre [table row] Less than 50 bu/acre | 41-80 ppm: 40 lb/acre [table row] Less than 50 bu/acre | 81-120 ppm: 20 lb/acre Barley fertilizer recommendations Home Agriculture Crop production Nutrient management for Minnesota crops Fertilizing barley In Minnesota, barley is grown for malting as well as a feed grain. Yields of this crop continue to increase and proper fertilizer use is key to continue this improvement. The use of barley in the brewing industry is well known and, when sold for malting purposes, barley is a very stable crop in Minnesota's economy. The importance of barley as a feed grain is often overlooked. Yet, this crop can easily substitute for corn in feeding rations. This substitution is especially important where soils are sandy. Sandy soils have a low water-holding capacity and drought frequently limits corn yields. Nitrogen guidelines The amount of nitrogen (N) fertilizer applied can have a major impact on yield as well as the protein percentage in the grain. For most crops, there is an advantage to having high protein content. High protein concentrations in the grain, however, are not desirable when barley is grown for malting purposes. The brewing industry prefers a grain protein content of 12.5% or less. Special attention should be given to N management so that grain yield is maximized while maintaining a grain protein content below 12.5%. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Nitrogen credits There are two approaches to arriving at fertilizer N guidelines for barley. One approach is to base guidelines for fertilizer N on the results of the soil nitrate test. The soil nitrate test is recommended for western Minnesota. When the soil nitrate test is used, the amount of fertilizer N needed to meet the yield goal is calculated from the following equations. Nitrogen fertilizer formula for malting barley Suggested N in lb/acre = [(1.5) x YG] - STN (0-24 in.) - N PC Nitrogen fertilizer formula for feed grain barley Suggested N in lb/acre = [(1.7) x YG] - STN (0-24 in.) - N PC Nitrogen formula variables YG = yield goal, bushel per acre STN (0-24 in.) = nitrate-nitrogen (NO 3 - -N) measured to a depth of 2 feet, lb per acre. N PC = amount of N supplied by the previous crop, lb per acre Use the credits in the following table when the soil nitrate test is used. Nitrogen credits for crops that might precede barley in a crop rotation Previous crop First year N credit (lb N/acre) Soybean 20 Edible beans, field peas 10 Harvested sweet clover 10 Harvested alfalfa1 or non-harvested sweet clover: 4-5 plants/ft2 75 Harvested alfalfa1 or non-harvested sweet clover: 2-3 plants/ft2 50 Harvested alfalfa1 or non-harvested sweet clover: 1-2 plants/ft2 25 Harvested alfalfa1 or non-harvested sweet clover: 1 or fewer plants/ft2 0 Harvested red clover 35 Sugar beet: Yellow leaves at harvest 0 Sugar beet: Light-green leaves at harvest 15-30 Sugar beet: Dark-green leaves at harvest 60-80 *If the third or fourth cutting was not harvested, add 20 lb N/acre to the N credits listed. Nitrogen credits should also be used when barley is grown in the second year after any of the legume crops listed above. For these situations, use the N credit listed in the following table. Suggested nitrogen credits when barley is grown 2 years after a legume crop Previous legume crop 2nd year N credit Alfalfa (4+ plants/ft 2 ) 35 lb N/acre Non-harvested sweet clover 35 Alfalfa (2-3 plants/ft 2 ) 25 Birdsfoot trefoil 25 Red clover 20 The soil nitrate test is integral as a nitrogen management tool. The soil samples needed for measurement of carryover NO 3 - -N can be collected in either fall or spring. It is usually easier to collect samples in early fall. If possible, delay sampling until the soil temperature drops below 50° F. The amount of fertilizer N needed can also be based on yield goal, previous crop and soil organic matter content. Nitrogen from the decomposing tops of a previous crop of sugar beet can be used by the barley crop when it follows in a rotation. These N credits are based on the overall color of the sugar beet tops at harvest. If the soil nitrate test is used, the value for the appropriate color should be used as the nitrogen credit from the previous crop (NPC) in the N guideline equation. If the N suggestions are taken from the following table, subtract the value for the appropriate color from the appropriate N suggestion listed in the first table. The nitrogen supplied by legume crops can also be used by the barley crop if it is planted two years after the legume. The nitrogen credits for these situations are summarized below. Subtract these values from the nitrogen suggestions that are listed for crops grown in Group 2 for the appropriate yield goal. Nitrogen guidelines for barley when the soil nitrate test is not used* Crop grown last year Organic matter level** Yield goal: <50 bu/acre 50-59 bu/acre 60-69 bu/acre 70-79 bu/acre 80-89 bu/acre 90-99 bu/acre 100+ bu/acre Alfalfa (4+ plants/ft 2 ) Low 0 lb N/acre 0 lb N/acre 10 lb N/acre 25 lb N/acre 40 lb N/acre 55 lb N/acre 70 lb N/acre Alfalfa (4+ plants/ft 2 ) Medium/High 0 0 0 0 20 35 50 Soybeans or alfalfa (1 or less plants/ft 2 ) Low 30 50 65 80 95 110 125 Soybeans or alfalfa (1 or less plants/ft 2 ) Medium/High 0 30 45 60 75 90 105 Edible beans, field peas, Low 40 60 75 90 105 120 135 Edible beans, field peas Medium/High 0 40 55 70 85 100 115 Group 1 crops (see below) Low 0 20 35 50 65 80 95 Group 1 crops Medium/High 0 0 15 30 45 60 75 Group 2 crops Low 50 70 85 100 115 130 145 Group 2 crops Medium/High 30 50 65 80 95 110 125 Organic — 0 0 0 0 30 40 50 *Based on the expected yield of the crop in bushels per acre. **Low = less than 3.0%; Medium/High = 3.0% or more Crops in Group 1: Alsike clover, birdsfoot trefoil, grass/legume hay, grass-legume pasture, fallow, red clover. Crops in Group 2: Alfalfa (0-1 plants/ft. 2 ), barley, buckwheat, canola, corn, flax, grass hay, grass pasture, oat, potato, rye, sorghum-sudan, sugar beet, sunflower, sweet corn, triticale, vegetables, wheat. Plus sign (+) if content is closed, 'X' if content is open. Managing nitrogen Research has shown that most of the total amount of essential nutrients used by barley is absorbed from the soil between the tillering and heading growth stages. So it is important to have an adequate supply of all nutrients in the root zone early in the growing season. Since N is mobile in soils and can move to the roots with soil water, there can be considerable flexibility in the management of this important nutrient. Fertilizer N can be applied in the fall for barley production in most of Minnesota. There are some exceptions. Do not apply fertilizer N in the fall when soils are sandy. Split applications are encouraged for very sandy soils. The first application can be made before planting. The remainder should be applied at or near tillering. In southeast Minnesota, apply fertilizer N in the spring and incorporate it before planting. Do not apply fertilizer N in the fall in the region. Split N applications are strongly encouraged when irrigated barley is grown on sandy soils. For this production system, some N should be applied before planting and combined with an N application at the tillering to early boot stage. The ideal percentage of total N to use at each application has not been determined. It may be practical to apply half of the total N needed before planting and the remaining half at the tillering to early boot stage. If applied properly, all common N fertilizer sources will have an equal effect on barley yields. Some precautions in the application of some N sources are necessary. With anhydrous ammonia (82-0-0), there is a concern for loss during application. If there is a strong ammonia odor emanating from the field, further application is discouraged since significant losses are likely to occur with application. There is also a potential for N loss if urea (46-0-0) or urea-ammonium nitrate (28-0-0) is broadcast on the soil surface without incorporation when soil pH is higher than 7.3, air temperatures are 50 o F or higher, and there is residue on the soil surface. Shallow incorporation of urea or fertilizers containing urea within 48 hours of application is encouraged when these N sources are used for barley production. Fall application of 28 or 32% UAN is strongly discouraged due to a portion of the N in the fertilizer already in the nitrate form at application. Urea-ammonium nitrate solution (28%) can be applied either before planting or post-emergence. A foliar application may cause some leaf burning, but there will be no reduction in yields if reasonable rates up to 30 pounds N per acre are used unless the N is applied using streamer bars. Leaf burn may be excessive if foliar N rates exceed 60 pounds N per acre. Plus sign (+) if content is closed, 'X' if content is open. Applying fertilizer with air seeders The use of air seeders has increased in popularity in recent years. Many seeders are equipped to apply a mixture of seed and dry fertilizer at the time of planting. There are, however, no firm guidelines for the amount of fertilizer that can be applied with the seed with this planting equipment. The amount of fertilizer that can safely be applied with an air seeder depends on the row spacing and the amount of area the seed and fertilizer are spread over, and soil factors such as soil texture, cation exchange capacity, and pH. As row spacing increases, the amount of fertilizer that can safely be applied decreases since the concentration in the band increases. The amount of N + K 2 O should be kept at a minimum and less than 30 pounds per acre of N + K 2 O combined as a general practice to minimize the risk of stand loss. But these rates can vary based on many factors, such as the soil type, soil moisture at planting, and the volume of soil the fertilizer is applied to. Rates should be reduced if soils are dry at planting. By contrast, high rates of P 2 O 5 per acre generally do not hinde",
+  "links": [
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/fertilizing-barley",
+      "label": "Skip to navigation"
+    },
+    {
+      "url": "https://extension.umn.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Debalin%20at%20Field%20School.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/471",
+      "label": "Building a stronger Minnesota together"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/what-we-do",
+      "label": "What we do"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/local",
+      "label": "Local offices"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/tribal-outreach",
+      "label": "Tribal outreach"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/regional-partnerships",
+      "label": "Regional partnerships"
+    },
+    {
+      "url": "https://agreett.umn.edu/",
+      "label": "AGREETT"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/global-initiatives",
+      "label": "Global initiatives"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/ask-a-question",
+      "label": "Ask a question"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/apply-for-a-job",
+      "label": "Apply for a job"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extensionstaff.umn.edu/",
+      "label": "Staff"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/news",
+      "label": "Extension news"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/newsletters",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/podcasts",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/White%20baneberry%20berries%20and%20red%20stalks.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/event/spooky-plants-for-the-spooky-season",
+      "label": "Spooky plants for the spooky season | Nov 3"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events",
+      "label": "Courses and events"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events/for-organizations",
+      "label": "For organizations"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179506",
+      "label": "For professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Aerial%20view%20of%20group%20in%20field_screen.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/7781",
+      "label": "Institute for Ag Professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/beef",
+      "label": "Beef"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/horse",
+      "label": "Horse"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/livestock-operations",
+      "label": "Livestock operations"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-production/growing-corn",
+      "label": "Corn"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "label": "Cover crops"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "label": "Nutrient management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/soybean",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/sugarbeet",
+      "label": "Sugarbeet"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/weed-management",
+      "label": "Weed management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agricultural-business-management",
+      "label": "Ag business management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/farm-safety",
+      "label": "Farm safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/growing-safe-food",
+      "label": "On-farm food safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/small-farms",
+      "label": "Small farms"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production",
+      "label": "Commercial Fruit"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming",
+      "label": "Vegetable farming"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/tornado-storm-clouds-above-the-shed-in-the-countryside.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/158556",
+      "label": "COMET Training"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/economy-and-development",
+      "label": "Economy and development"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/leadership-skill-building",
+      "label": "Leadership skill building"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/tourism-and-outdoor-recreation",
+      "label": "Tourism and outdoor recreation"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/175686",
+      "label": "Managing money"
+    },
+    {
+      "url": "https://extension.umn.edu/node/177516",
+      "label": "Mental health"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/raising-kids",
+      "label": "Raising kids"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/rural-stress",
+      "label": "Rural stress"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Tomatoes-peppers-on-outside-table-UMN-extension.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/9161",
+      "label": "Take a class: Preserving food at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home",
+      "label": "Cooking at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/commercial-kitchens",
+      "label": "Commercial kitchens"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/cottage-food-safety-in-minnesota",
+      "label": "Cottage foods"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/rural-grocery-stores",
+      "label": "Rural grocery stores"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/supershelf",
+      "label": "Supershelf"
+    },
+    {
+      "url": "https://extension.umn.edu/food/nutrition/healthy-eating",
+      "label": "Healthy eating"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Garden%20Tour%202023.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/26856",
+      "label": "Read Yard and Garden News"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota",
+      "label": "Gardening in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota",
+      "label": "Lawns and landscapes in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects",
+      "label": "Yard and garden insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems",
+      "label": "Yard and garden problems"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/home-maintenance-and-safety",
+      "label": "Home maintenance and safety"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects",
+      "label": "Household insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/water-usage-and-water-damage-in-homes",
+      "label": "Water usage and water damage in homes"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Copy%20of%20IMG_3906.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/100581",
+      "label": "Minnesota Woodland Stewards"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179281",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/wild-pollinators",
+      "label": "Wild pollinators"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water",
+      "label": "Agricultural soil and water"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/shoreland-watersheds-and-wetlands",
+      "label": "Shoreland, watersheds and wetlands"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/weather-and-climate/prepare-for-risks-to-your-home-and-community",
+      "label": "Prepare for risks"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/4-H-State-Ambassadors-greeting-fairgoers-at-state-fair-4-H-Building-entrance.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/4h-building-campaign/home",
+      "label": "Help us transform the 4‑H Building"
+    },
+    {
+      "url": "https://extension.umn.edu/4-h-and-youth/minnesota-4-h",
+      "label": "Minnesota 4-H"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160906",
+      "label": "Belonging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160921",
+      "label": "Leadership and skills"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160911",
+      "label": "Learning and readiness"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160896",
+      "label": "Program quality"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160926",
+      "label": "Resilience"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production",
+      "label": "Crop production"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/barley.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://www.ndsu.edu/agriculture/extension/publications/fertilizer-application-small-grain-seed-planting",
+      "label": "Fertilizer Application with Small Grain Seed at Planting"
+    },
+    {
+      "url": "https://extension.umn.edu/about-extension/contact-us",
+      "label": "Contact"
+    },
+    {
+      "url": "https://extension.umn.edu/cdn-cgi/l/email-protection",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://z.umn.edu/report-accessibility-issue?ref_url=https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/fertilizing-barley",
+      "label": "Report Web Accessibility Issues"
+    },
+    {
+      "url": "https://myextension.umn.edu",
+      "label": "Staff intranet"
+    }
+  ],
+  "fetched_at": "2026-10-26T09:23:28.418091+00:00",
+  "sha256": "989cc0e9cae7b25b3cf916baa80d8dbac5499a30ac1cf9956acc2fd37db630f3",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

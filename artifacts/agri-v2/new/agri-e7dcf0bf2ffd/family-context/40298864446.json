@@ -1,0 +1,10 @@
+{
+  "family_id": "family-09",
+  "topic_id": "agri-e7dcf0bf2ffd",
+  "title": "عمق کاشت بذر لوبیا چیتی در خاک سبک و سنگین؛ خطاهای رایج",
+  "title_sha256": "3c7043a7dbcdc8bf7087032188058f97d772189e435292d7a6eb54cfc40edc43",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

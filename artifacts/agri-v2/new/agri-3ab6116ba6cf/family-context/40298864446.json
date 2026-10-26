@@ -1,0 +1,10 @@
+{
+  "family_id": "family-04",
+  "topic_id": "agri-3ab6116ba6cf",
+  "title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "title_sha256": "55cc8aff9aa32355310f06a866cc0f006499108a750c00d5e744296fbcd08ef3",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "started_at": "2026-10-26T09:23:26.596979+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 2,
+  "completed_at": "2026-10-26T09:23:29.047648+00:00",
+  "requested": 6,
+  "loaded": 4,
+  "independent_institutions": 2,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 4,
+      "loaded": 4,
+      "sources": [
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Barley/Default.aspx",
+          "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Barley/Default.aspx",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/small-grains/heat-canker-in-wheat-barley-and-oats",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production/small-grains/heat-canker-in-wheat-barley-and-oats",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/small-grains/yellow-wheat",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production/small-grains/yellow-wheat",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.umn.edu/crop-specific-needs/barley-fertilizer-recommendations",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/fertilizing-barley",
+          "redirect_hops": 1,
+          "status": "fetched"
+        }
+      ]
+    },
+    {
+      "requested": 2,
+      "loaded": 2,
+      "sources": [
+        {
+          "url": "https://extension.usu.edu/yardandgarden/fruits-vegetables-herbs",
+          "canonical_url": "https://extension.usu.edu/yardandgarden/fruits-vegetables-herbs",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ],
+  "topic_id": "agri-7736a471e8c1",
+  "source_policy_version": "university-single-source-v1",
+  "bounded_discovery_completed": true,
+  "temporary_source_failure": false,
+  "source_sufficiency": {
+    "version": "university-single-source-v1",
+    "satisfied": true,
+    "university_hosts": [
+      "corn.agronomy.wisc.edu",
+      "extension.umn.edu"
+    ],
+    "independent_institutions": 2,
+    "single_university_exception": false,
+    "publication_authorized": false
+  },
+  "blocking_kind": null
+}

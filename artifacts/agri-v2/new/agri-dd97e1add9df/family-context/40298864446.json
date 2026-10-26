@@ -1,0 +1,10 @@
+{
+  "family_id": "family-13",
+  "topic_id": "agri-dd97e1add9df",
+  "title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+  "title_sha256": "5c75aa5d8cc999a39e80fdb1f4eaaccfa48b4c985aa2f9864a86e3770b9ab3f4",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

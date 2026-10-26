@@ -1,0 +1,49 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "تمام ادعاها بر اساس مستندات دانشگاهی/ترویجی آمریکا (ویسکانسین، کارولینای شمالی، تگزاس) است. ادعاهای مرتبط با اقلیم‌های خشک تگزاس-اوکلاهما و نیازهای حرارتی شامل حدود ۹۰-۱۲۰ روز بدون یخبندان هستند و به‌صورت صریح فقط برای مناطق تجاری آمریکا گزارش شده‌اند. هیچ رقم یا توصیه‌ای برای ایران استخراج نشده است. منبع Sesaco فقط شامل رقم‌های SESACO ۲۵-۲۹ به‌عنوان نمونه‌های تجاری ایالات متحده است. داده‌های کمی مانند درصد روغن (~۵۰٪) و نیاز روزهای بدون یخبندان دقیقاً منطبق بر متن مبدأ هستند. هرگونه تعمیم به اقلیم ایران یا شرایط کشت ایرانی بدون پایه مستند است و در این بازبینی رد می‌شود.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": false,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "family_id": "family-19",
+  "topic_id": "agri-681d9e957593",
+  "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+  "title_sha256": "6c8f8140cf6d3fdd7441d3497b7f797fd513a530d74cbc49ee1891d2be549e64",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

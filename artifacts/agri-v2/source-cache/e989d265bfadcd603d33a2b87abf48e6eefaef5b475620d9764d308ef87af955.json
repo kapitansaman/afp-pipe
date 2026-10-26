@@ -303,6 +303,10 @@
       "label": "USA.gov"
     }
   ],
-  "fetched_at": "2026-10-26T05:42:01.793072+00:00",
-  "sha256": "761c9f9e0f78f08c748585afa436040286d6f45dcc0d9e23a705a122f162c5d8"
+  "fetched_at": "2026-10-26T09:23:27.839735+00:00",
+  "sha256": "761c9f9e0f78f08c748585afa436040286d6f45dcc0d9e23a705a122f162c5d8",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
 }

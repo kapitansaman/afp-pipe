@@ -1,0 +1,348 @@
+{
+  "url": "https://cropwatch.unl.edu/soil-temperature/",
+  "requested_url": "https://cropwatch.unl.edu/soil-temperature/",
+  "redirect_chain": [
+    "https://cropwatch.unl.edu/soil-temperature/"
+  ],
+  "text": "Soil Temperature Update | CropWatch | Nebraska Skip to main content Soil Temperature Data Currently Unavailable Need current soil temperatures? View 4-inch bare-soil temperatures on Nebraska Mesonet . Go to Mesonet Due to changes in external data sources, the soil temperature data feed and maps on this page are temporarily unavailable. We are working with the High Plains Regional Climate Center and Nebraska Mesonet to resolve the issue, but we do not yet have an estimated date for restoration. The 4-inch bare-soil temperature measurement available through Nebraska Mesonet is one of several measurements normally provided by CropWatch. Once the data connection is restored, this page will again provide the full set of soil temperature averages and historical comparisons included in CropWatch reports. We know many Nebraska producers rely on this information and apologize for the inconvenience. We appreciate your patience while the issue is being resolved. Soil temperatures are taken at 4 inches below the soil surface under bare soil. The locations listed in this table are more specific than the table used prior to March 1, 2017. We have included the former location names (AKA=also known as) for your convenience in locating previous sites. This report is provided daily by the Nebraska State Climate Office . Visit the NSCO and Nebraska Mesonet websites for more detailed local and state climate data. Left: One-day average soil temperatures. Right : Seven-day average soil temperatures.",
+  "links": [
+    {
+      "url": "https://cropwatch.unl.edu/soil-temperature/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.unl.edu/",
+      "label": "University of Nebraska–Lincoln"
+    },
+    {
+      "url": "https://www.unl.edu/visit/",
+      "label": "Visit"
+    },
+    {
+      "url": "https://www.unl.edu/apply/",
+      "label": "Apply"
+    },
+    {
+      "url": "https://www.unl.edu/give/",
+      "label": "Give"
+    },
+    {
+      "url": "https://shib.unl.edu/idp/profile/cas/login?service=https%3A%2F%2Fwww.unl.edu%2F",
+      "label": "My UNL"
+    },
+    {
+      "url": "https://mymail.unl.edu/",
+      "label": "Outlook"
+    },
+    {
+      "url": "https://canvas.unl.edu/",
+      "label": "Canvas (UNL)"
+    },
+    {
+      "url": "https://canvas.unl.edu/login/saml/47",
+      "label": "Canvas (TrueYou)"
+    },
+    {
+      "url": "https://trueyou.nebraska.edu/",
+      "label": "TrueYou"
+    },
+    {
+      "url": "https://myred.nebraska.edu/",
+      "label": "MyRed"
+    },
+    {
+      "url": "https://dlc-reserve.unl.edu/",
+      "label": "Exam Commons Reservations"
+    },
+    {
+      "url": "https://firefly.nebraska.edu/",
+      "label": "Firefly"
+    },
+    {
+      "url": "https://its.unl.edu/service-portal/",
+      "label": "Service Catalog"
+    },
+    {
+      "url": "https://search.unl.edu/",
+      "label": "Search"
+    },
+    {
+      "url": "https://ianr.unl.edu/",
+      "label": "Institute of Agriculture and Natural Resources"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/",
+      "label": "CropWatch"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/about/",
+      "label": "About Us"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/contacts/",
+      "label": "Author Contacts"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/about-us/apps-tools/",
+      "label": "Apps & Tools"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/ag-links/",
+      "label": "Ag Links"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/subscribe/",
+      "label": "Subscribe"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/cropwatch-podcast/",
+      "label": "CropWatch Podcast"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/weather-information-resources/",
+      "label": "Weather (GDD & ET) Info & Resources"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/gdd-et-data/",
+      "label": "GDD & ET Data"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/precipitation/",
+      "label": "Precipitation Maps & Data"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/articles/",
+      "label": "Articles"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/nebraska-crop-production-and-pest-management-information/",
+      "label": "Crops"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/corn/",
+      "label": "Corn"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/cover-crops/",
+      "label": "Cover Crops"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/dry-beans/",
+      "label": "Dry Beans"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/forages/",
+      "label": "Forages"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/organic/",
+      "label": "Organic"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/potatoes/",
+      "label": "Potatoes"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/sorghum/",
+      "label": "Sorghum"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/soybean/",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/sugarbeets/",
+      "label": "Sugarbeets"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/wheat/",
+      "label": "Wheat"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/bioenergy/",
+      "label": "Bioenergy Crops"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/variety-testing/",
+      "label": "Variety Testing"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/management/",
+      "label": "Management"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/economics/",
+      "label": "Economics, Marketing & Real Estate"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/grain-storage-management/",
+      "label": "Grain Storage"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/hail-know/",
+      "label": "Hail Know"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/insect/",
+      "label": "Insect Management"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/plant-disease/",
+      "label": "Plant Disease"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/precision-agriculture/",
+      "label": "Precision Agriculture"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/resistance-management/",
+      "label": "Resistance Management"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/soil-health-program/",
+      "label": "Soil Health Program"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/soil-fertility/",
+      "label": "Soil Fertility"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/tillage/",
+      "label": "Tillage and No-Till Systems"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/water-management/",
+      "label": "Water Management"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/weed/",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/related-topics/",
+      "label": "Related Topics"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/biotechnology/",
+      "label": "Genetic Improvement"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/on-farm-research/",
+      "label": "On-Farm Research"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/strengthening-nebraskas-agricultural-economy/",
+      "label": "Strengthening Nebraska's Agricultural Economy"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/youth/",
+      "label": "Youth and Youth Activities"
+    },
+    {
+      "url": "https://www.unl.edu",
+      "label": "Nebraska"
+    },
+    {
+      "url": "https://extension.unl.edu/",
+      "label": "Extension"
+    },
+    {
+      "url": "https://nemesonet.unl.edu/?station=34&map=soilBare4in&metric=avg&interval=yesterday",
+      "label": "Nebraska Mesonet"
+    },
+    {
+      "url": "https://nsco.unl.edu/",
+      "label": "Nebraska State Climate Office"
+    },
+    {
+      "url": "https://nemesonet.unl.edu/",
+      "label": "Nebraska Mesonet"
+    },
+    {
+      "url": "https://maps.unl.edu/ACB",
+      "label": "105 Ag. Communications Bldg. Lincoln , NE 68583-0918 US"
+    },
+    {
+      "url": "https://ianrmedia.unl.edu/",
+      "label": "CropWatch is published by IANR Media"
+    },
+    {
+      "url": "https://directory.unl.edu/",
+      "label": "Directory"
+    },
+    {
+      "url": "https://employment.unl.edu/",
+      "label": "Employment"
+    },
+    {
+      "url": "https://events.unl.edu/",
+      "label": "Events"
+    },
+    {
+      "url": "https://libraries.unl.edu/",
+      "label": "Libraries"
+    },
+    {
+      "url": "https://maps.unl.edu/",
+      "label": "Maps"
+    },
+    {
+      "url": "https://news.unl.edu/",
+      "label": "News"
+    },
+    {
+      "url": "https://chancellor.unl.edu/",
+      "label": "Office of the Chancellor"
+    },
+    {
+      "url": "https://unlreport.unl.edu/",
+      "label": "Report an Incident"
+    },
+    {
+      "url": "https://www.unl.edu/about/academic-partnerships/",
+      "label": ""
+    },
+    {
+      "url": "https://universityofnebraska.nebraska.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://wdn.unl.edu/",
+      "label": "Web Developer Network"
+    },
+    {
+      "url": "https://webaudit.unl.edu/qa-test/",
+      "label": "QA Test"
+    },
+    {
+      "url": "https://www.unl.edu/accessibility-statement/",
+      "label": "Accessibility Statement"
+    },
+    {
+      "url": "https://equity.unl.edu/",
+      "label": "Institutional Equity and Compliance"
+    },
+    {
+      "url": "https://equity.unl.edu/notice-nondiscrimination/",
+      "label": "Notice of Nondiscrimination"
+    },
+    {
+      "url": "https://nebraska.edu/privacy-statement",
+      "label": "Privacy Statement"
+    },
+    {
+      "url": "https://safety.unl.edu/",
+      "label": "Safety at Nebraska"
+    },
+    {
+      "url": "https://heoa.unl.edu/",
+      "label": "Student Information Disclosures"
+    }
+  ],
+  "fetched_at": "2026-10-26T09:23:28.793667+00:00",
+  "sha256": "5cbb5b352c5c38dcb89f611986e0a56a703f3b708fdb36aa07665264938e70dd",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

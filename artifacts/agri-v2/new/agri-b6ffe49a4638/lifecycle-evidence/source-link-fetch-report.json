@@ -1,0 +1,30 @@
+{
+  "requested": 4,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-dates",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-dates",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-guide",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-guide",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-zones",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/planting-zones",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://miv.ext.nodak.edu/agriculture/sites/default/files/2021-11/a1806.pdf",
+      "canonical_url": "https://miv.ext.nodak.edu/agriculture/sites/default/files/2021-11/a1806.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

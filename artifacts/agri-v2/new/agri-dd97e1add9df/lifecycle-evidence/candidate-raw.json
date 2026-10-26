@@ -1,0 +1,84 @@
+{
+  "topic_id": "agri-dd97e1add9df",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی (پینتو / dry common bean, Phaseolus vulgaris)",
+  "slug": "pinto-dry-bean-water-stress-growth-stages",
+  "outline": [
+    "حساسیت کلی لوبیا به کم‌آبی و تنش خشکی در دوره رشد",
+    "شرایط کیفی مؤثر بر عملکرد (دمای بالا و خشکی همزمان)",
+    "ملاحظات آبیاری بر اساس بافت خاک و میزان بارش",
+    "شکاف منابع: عدم ارائه مراحِل دقیق رشد و اولویت‌بندی آبیاری ویژه پینتو"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "هر مقدار زیاد یا کم آب می‌تواند باعث ریزش گل و دانه‌های کوچک شود؛ دمای بالای تابستانی نیز همین اثر را تشدید می‌کند.",
+      "conditions": "منبع: Mississippi State University Extension (دستیار باغبانی). محصول: all garden beans (شامل dry beans). منطقه: ایالت میسیسیپی، آمریکا. محدودیت: اطلاعات کلی گونه است و مرحله رشد خاصی برای پینتو ذکر نشده است.",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "گوشه‌های داغ و خشک تابستانی باعث ریزش گل و غلاف کوچک می‌شوند؛ هرچه میوه برداشت شود، تولید لوزه ادامه می‌یابد.",
+      "conditions": "منبع: Mississippi State University Extension. محصول: snap/pole beans (جنبه کیفی نسبت به آب‌وخلاء). منطقه: میسیسیپی، آمریکا. محدودیت: اشاره کیفی به تنش حرارتی-خشکی دارد؛ مرحله رشد حساس نامبرده نشده است.",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای بالای شبانه‌روز باعث سقط گل و کاهش عملکرد می‌شود؛ هوای گرم منجر به گرده‌افشانی ضعیف و غلاف‌های کمتر با دانه‌های کوچک‌تر می‌گردد.",
+      "conditions": "منبع: University of Minnesota Extension. محصول: common beans. منطقه: مینسوتا، آمریکا. محدودیت: توصیف کیفی اثر دما بر تولید مثل؛ مرحله رشد یا مقدار آب مشخص ندارد.",
+      "evidence_id": "d2-e21",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آبیاری موردی: در خاک‌های جاذبه‌دار کمتر نیاز به آبیاری جز در شرایط خشک؛ در خاک‌های شنی نیاز به آبیاری مکرر. معیار کیفی «یک اینچ باران در هفته» به‌عنوان شاخص آبیاری پیشنهاد شده است.",
+      "conditions": "منبع: University of Minnesota Extension. محصول: common beans (snap/shelling/dry). منطقه: مینسوتا، آمریکا. محدودیت: واحد پیشنهادی برای باغ خانگی است؛ تفکیک مرحله رشد یا اولویت‌بندی آبیاری در دوره‌های مختلف رشد وجود ندارد.",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": [
+        {
+          "value": "one inch",
+          "unit_quote": "One inch of rainfall per week is good.",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "common beans (home garden context)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "یک اینچ آب، خاک شنی را تا عمق ده اینچ و خاک رسی سنگین را تا عمق شش اینچ مرطوب می‌کند؛ از کاردوی باغبانی برای سنجش نفوذ آب استفاده می‌شود.",
+      "conditions": "منبع: University of Minnesota Extension. محصول: common beans. منطقه: مینسوتا، آمریکا. محدودیت: معیار کیفی-تجربی برای باغ خانگی؛ مربوط به عمق نفوذ آب در خاک‌های مختلف، نه مراحِل رشد حساس پینتو.",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "ten inches",
+          "unit_quote": "An inch of water will wet a sandy soil to a depth of ten inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "common beans (soil infiltration guidance)"
+        },
+        {
+          "value": "six inches",
+          "unit_quote": "a heavy clay soil to six inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "common beans (soil infiltration guidance)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "لوبیای پینتو در سامانه برداشت مستقیم دیرتر رسیدگی می‌کند و تلفات برداشت بالقوه بالاتر است؛ عوامل مدیریتی سطح مزرعه و شرایط آب‌وهوایی پس از قطع گیاه بر تلفات اثر می‌گذارند.",
+      "conditions": "منبع: University of Nebraska Panhandle Research & Extension Center. محصول: pinto dry beans. منطقه: پهنه غرب نبراسکا، آمریکا. محدودیت: تمرکز بر تلفات برداشت و زمان‌بندی برداشت است، نه حساسیت مرحله‌ای رشد به کم‌آبی.",
+      "evidence_id": "d5-e3",
+      "numeric_bindings": [
+        {
+          "value": "3.5 bu/ac",
+          "unit_quote": "direct harvest losses for pintos would average about 3.5 bu/ac",
+          "geographic_scope": "Nebraska Panhandle, USA",
+          "product_scope": "pinto dry beans (direct harvest loss estimate)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "requested": 4,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/AdzukiBean.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/AdzukiBean.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Amaranth.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Amaranth.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Barley/Default.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Barley/Default.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Buckwheat.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Buckwheat.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

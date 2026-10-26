@@ -1,0 +1,10 @@
+{
+  "family_id": "family-06",
+  "topic_id": "agri-ee13684b7f1a",
+  "title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "title_sha256": "72ac8bf37403b5b977ed83c76689a0bd03d7a8f0ca37d5e8870602d4545535f1",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

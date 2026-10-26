@@ -1,0 +1,10 @@
+{
+  "family_id": "family-02",
+  "topic_id": "agri-7736a471e8c1",
+  "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+  "title_sha256": "3bed9c87685484bb0b13a7774f8a4d580dc583576fc1c5b356579d32179baeed",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

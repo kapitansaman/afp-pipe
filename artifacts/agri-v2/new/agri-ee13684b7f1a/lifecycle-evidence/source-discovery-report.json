@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "started_at": "2026-10-26T09:23:27.423018+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 2,
+  "completed_at": "2026-10-26T09:23:28.035200+00:00",
+  "requested": 1,
+  "loaded": 1,
+  "independent_institutions": 1,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 1,
+      "loaded": 1,
+      "sources": [
+        {
+          "url": "https://www.uvm.edu/extension/news/spice-your-garden-asian-flavors",
+          "canonical_url": "https://www.uvm.edu/extension/news/spice-your-garden-asian-flavors",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ],
+  "topic_id": "agri-ee13684b7f1a",
+  "source_policy_version": "university-single-source-v1",
+  "bounded_discovery_completed": true,
+  "temporary_source_failure": false,
+  "source_sufficiency": {
+    "version": "university-single-source-v1",
+    "satisfied": true,
+    "university_hosts": [
+      "www.uvm.edu"
+    ],
+    "independent_institutions": 1,
+    "single_university_exception": true,
+    "publication_authorized": false
+  },
+  "blocking_kind": null
+}

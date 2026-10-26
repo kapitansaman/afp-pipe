@@ -1,0 +1,10 @@
+{
+  "family_id": "family-20",
+  "topic_id": "agri-15439ad51313",
+  "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "title_sha256": "57a86b44105f2ebd2626558b3fbe78832b67a46941b50ffef8c95fc311dc02c0",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}

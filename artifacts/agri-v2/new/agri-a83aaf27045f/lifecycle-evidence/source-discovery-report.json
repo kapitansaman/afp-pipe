@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "started_at": "2026-10-26T09:23:26.489724+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 1,
+  "completed_at": "2026-10-26T09:23:27.873337+00:00",
+  "requested": 6,
+  "loaded": 6,
+  "independent_institutions": 5,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 6,
+      "loaded": 6,
+      "sources": [
+        {
+          "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+          "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+          "canonical_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+          "canonical_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
+          "canonical_url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+          "canonical_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/2016/direct-harvest-dry-edible-beans/",
+          "canonical_url": "https://cropwatch.unl.edu/2016/direct-harvest-dry-edible-beans/",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ],
+  "topic_id": "agri-a83aaf27045f",
+  "source_policy_version": "university-single-source-v1",
+  "bounded_discovery_completed": true,
+  "temporary_source_failure": false,
+  "source_sufficiency": {
+    "version": "university-single-source-v1",
+    "satisfied": true,
+    "university_hosts": [
+      "cropwatch.unl.edu",
+      "extension.msstate.edu",
+      "extension.umd.edu",
+      "extension.umn.edu",
+      "preec.unl.edu",
+      "vegetables.wsu.edu"
+    ],
+    "independent_institutions": 5,
+    "single_university_exception": false,
+    "publication_authorized": false
+  },
+  "blocking_kind": null
+}

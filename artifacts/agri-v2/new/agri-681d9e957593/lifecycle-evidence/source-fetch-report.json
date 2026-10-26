@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension.msstate.edu/agriculture/forages/legumes/common-vetch-vicia-sativa",
+      "canonical_url": "https://extension.msstate.edu/agriculture/forages/legumes/common-vetch-vicia-sativa",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7316993/",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7316993/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/HairyVetch.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/HairyVetch.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}
