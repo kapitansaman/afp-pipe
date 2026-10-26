@@ -1,6 +1,6 @@
 {
   "status": "readiness_blocked",
-  "checked_at": "2026-10-26T12:01:35.397002+00:00",
+  "checked_at": "2026-10-26T12:18:13.970994+00:00",
   "technical_ready": false,
   "blockers": [
     "scoped_rollout_released"
