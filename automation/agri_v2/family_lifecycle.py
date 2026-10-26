@@ -74,7 +74,7 @@ def next_stage(topic,data=DATA,out=OUT):
   if settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED and entries_for(topic,data):
    ev=folder/'lifecycle-evidence'
    if not (ev/'sources.json').exists() or load_json(ev/'sources.json').get('source_text_layout_version',0)<2:return 'research_sources',None
-   if not (ev/'candidate.json').exists():return 'research_extract',None
+   if not (ev/'candidate.json').exists():return ('research_validate_saved',None) if (ev/'candidate-raw.json').exists() else ('research_extract',None)
    from .scoped_research import content_digest
    op=ev/'overlap.json';ib=ev/'existing-content.json'
    if op.exists() and ib.exists() and load_json(op).get('existing_content_sha256')!=content_digest(load_json(ib)):return 'blocked','existing_content_changed_after_audit'
@@ -130,7 +130,7 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
  ident=topic['id'];folder=out/'new'/ident;folder.mkdir(parents=True,exist_ok=True);ev=folder/'lifecycle-evidence';bp=data/'briefs'/(ident+'.json')
  from . import research as r
  from .scoped_research import entries_for,SUPPORTED
- if (stage in {'research_sources','research_extract','existing_content_audit','research_review','existing_content_audit_finalize'} or stage.startswith('existing_content_audit-')) and settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED and entries_for(topic,data):
+ if (stage in {'research_sources','research_extract','research_validate_saved','existing_content_audit','research_review','existing_content_audit_finalize'} or stage.startswith('existing_content_audit-')) and settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED and entries_for(topic,data):
   from .scoped_research import stage as scoped_stage
   return scoped_stage(topic,stage,client,data,out)
  if stage=='research_sources':

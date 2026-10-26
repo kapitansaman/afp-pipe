@@ -27,7 +27,8 @@ def merge_worker(ident,worker_data,worker_out,data=DATA,out=OUT):
  from .research import source_host
  for source in (worker_out/'source-cache').glob('*.json'):
   document=load_json(source);requested=document.get('requested_url',document.get('url',''))
-  if source.name!=hashlib.sha256(requested.encode()).hexdigest()+'.json' or not valid_document(document,requested,source_host):raise ValueError('Invalid worker source-cache entry')
+  # Cache is optional: reject an invalid/stale cache entry, not the family's already validated work.
+  if source.name!=hashlib.sha256(requested.encode()).hexdigest()+'.json' or not valid_document(document,requested,source_host):continue
   dest=out/'source-cache'/source.name;dest.parent.mkdir(parents=True,exist_ok=True)
   if not dest.exists() or age_hours(document['fetched_at'])<age_hours(load_json(dest)['fetched_at']):shutil.copyfile(source,dest)
  for source in (worker_out/'parallel-runtime').rglob('*.json'):
@@ -43,7 +44,15 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
  shutil.rmtree(wd/'briefs',ignore_errors=True);(wd/'briefs').mkdir()
  if saved_brief is not None:(wd/'briefs'/f'{ident}.json').write_bytes(saved_brief)
  cache=out/'source-cache'
- if cache.exists():shutil.copytree(cache,wo/'source-cache',dirs_exist_ok=True)
+ if cache.exists():
+  from .source_loading import valid_document
+  from .research import source_host
+  for entry in cache.glob('*.json'):
+   try:
+    document=load_json(entry);requested=document.get('requested_url',document.get('url',''))
+    if entry.name!=hashlib.sha256(requested.encode()).hexdigest()+'.json' or not valid_document(document,requested,source_host):continue
+   except (ValueError,KeyError,TypeError):continue
+   target=wo/'source-cache'/entry.name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(entry,target)
  atomic_json(wd/'health/latest.json',health);atomic_json(wd/'parallel-inventory.json',inventory)
  for rel in ['research/'+ident+'.json','research-evidence/'+ident,'new/'+ident]:
   src=out/rel;dst=wo/rel

@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-26T06:15:36.441809+00:00",
+  "regression_tests": 470,
+  "result": "passed",
+  "prior_live_run": "40277748344",
+  "prior_live_briefs_approved": 0,
+  "locally_recoverable_candidate_packets": 3,
+  "new_extraction_calls": 0,
+  "claims_rewritten": false,
+  "scientific_rejection_overridden": false,
+  "independent_review_still_required": true,
+  "research_only_rollout": true
+}

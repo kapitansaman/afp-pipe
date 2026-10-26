@@ -91,4 +91,13 @@ class ScopedResearchTests(unittest.TestCase):
   t,v,docs=self.fixture();d=docs[0];d['text']+=' Additional literal institutional source context.'*5;d['sha256']=hashlib.sha256(d['text'].encode()).hexdigest();d['requested_url']=d['url'];d['redirect_chain']=[d['url']]
   with tempfile.TemporaryDirectory() as td:
    root=Path(td);wd=root/'wd';wo=root/'wo';data=root/'data';out=root/'out';name=hashlib.sha256(d['url'].encode()).hexdigest()+'.json';atomic_json(wo/'source-cache'/name,d);merge_worker(t['id'],wd,wo,data,out);self.assertEqual(load_json(out/'source-cache'/name)['sha256'],d['sha256']);d['text']='tampered '*100;atomic_json(wo/'source-cache'/name,d)
-   with self.assertRaises(ValueError):merge_worker(t['id'],wd,wo,data,out)
+   before=(out/'source-cache'/name).read_bytes();merge_worker(t['id'],wd,wo,data,out);self.assertEqual(before,(out/'source-cache'/name).read_bytes())
+ def test_saved_repair_preserves_claims_and_does_not_flip_scientific_rejection(self):
+  t,v,d=self.fixture();v['facts'][0]['kind']='qualitative';candidate,report=s.normalize_saved_candidate(t,v,d);self.assertEqual(candidate['facts'][0]['claim'],v['facts'][0]['claim']);self.assertEqual(candidate['facts'][0]['kind'],'source_observation');self.assertFalse(report['claims_rewritten']);self.assertFalse(report['scientific_rejection_overridden']);v['answers_intent']=False
+  with self.assertRaises(s.EvidenceBlocked):s.normalize_saved_candidate(t,v,d)
+ def test_saved_repair_drops_bad_fact_only_when_four_grounded_facts_remain(self):
+  t,v,d=self.fixture();bad=dict(v['facts'][0],claim='عملکرد کاملاً ساختگی برابر 9999 کیلوگرم در هکتار است.');v['facts'].append(bad);candidate,report=s.normalize_saved_candidate(t,v,d);self.assertEqual(len(candidate['facts']),4);self.assertEqual(report['dropped_facts'][0]['index'],4)
+  v['facts']=v['facts'][1:]
+  with self.assertRaises(s.EvidenceBlocked):s.normalize_saved_candidate(t,v,d)
+ def test_literal_english_word_measurements_are_not_new_model_numbers(self):
+  self.assertEqual(s.tokens('sixteen weeks and two-cut system'),{'16','2'});self.assertEqual(s.tokens('one publication and two opinions'),set())
