@@ -34,7 +34,15 @@
         "latency_ms": 999
       },
       "image": {
-        "state": "not_probed"
+        "state": "healthy",
+        "http_status": 200,
+        "model": "agnes-image-2.5-flash",
+        "verified_at": "2026-10-26T03:39:20.137332+00:00",
+        "reference_conditioned": true,
+        "native_landscape_16_9": true,
+        "evidence_path": "artifacts/agri-v2/model-matrix/afp-three-models-two-keys-reference-matrix-v1/reference-AGNES_API_KEY2-agnes-image-2.5-flash.webp",
+        "image_sha256": "adf3cd6eebc3d1a3489e73f965f451b31bcbbf2ef5f4ff1313a73cab29297f64",
+        "publication_visual_approval": false
       }
     },
     {
@@ -46,7 +54,15 @@
         "latency_ms": 792
       },
       "image": {
-        "state": "not_probed"
+        "state": "healthy",
+        "http_status": 200,
+        "model": "agnes-image-2.5-flash",
+        "verified_at": "2026-10-26T03:42:44.950755+00:00",
+        "reference_conditioned": true,
+        "native_landscape_16_9": true,
+        "evidence_path": "artifacts/agri-v2/model-matrix/afp-three-models-two-keys-reference-matrix-v1/reference-AGNES_API_KEY3-agnes-image-2.5-flash.webp",
+        "image_sha256": "01aaf7c460d480f1bc150cad6d9cb32d64e1b4ce5f6dc103d9ed2d99271268a7",
+        "publication_visual_approval": false
       }
     },
     {
@@ -403,7 +419,18 @@
     "AGNES_API_KEY28",
     "AGNES_API_KEY30"
   ],
-  "eligible_image_slots": [],
+  "eligible_image_slots": [
+    "AGNES_API_KEY2",
+    "AGNES_API_KEY3"
+  ],
   "no_publication": true,
-  "run_id": "40255300424"
+  "run_id": "40255300424",
+  "image_pool_matrix": {
+    "request_id": "afp-three-models-two-keys-reference-matrix-v1",
+    "run_id": "40264143661",
+    "report_sha256": "3def0a492688eff36b668bd2e9c252bc6923eaefb9889ff2eaf00ca0062be387",
+    "model": "agnes-image-2.5-flash",
+    "source": "actual successful reference-conditioned matrix outputs; text timestamps unchanged",
+    "publication_visual_approval": false
+  }
 }

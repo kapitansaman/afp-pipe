@@ -5,8 +5,8 @@
   "api_base": "https://apihub.agnes-ai.com/v1",
   "max_key_slot": 30,
   "images_per_article": 2,
-  "automatic_generation": false,
-  "publication_enabled": false,
+  "automatic_generation": true,
+  "publication_enabled": true,
   "wordpress_connection": "verified_author_application_password",
   "hosting_connection": "not_configured",
   "health_max_age_hours": 24,
@@ -69,7 +69,7 @@
     "source_paused": true,
     "source_pause_commit": "dea2cc16ae238a0f923931f9d936e025647d1dc3",
     "source_schedule_pause_commit": "6da762c20d81ab797949f42c46a73b5f2e9a926f",
-    "status": "awaiting_fresh_image_capability",
+    "status": "ready_for_production",
     "secrets_mapping": {
       "AGNES_API_KEY": "AGNES_API_KEY_1",
       "AGNES_API_KEY2": "AGNES_API_KEY_2",
@@ -103,7 +103,8 @@
       "AGNES_API_KEY30": "AGNES_API_KEY_30"
     },
     "preserve_queue_and_attempts": true,
-    "wordpress_auth_verified": true
+    "wordpress_auth_verified": true,
+    "control_mode": "one_manual_cycle_only"
   },
   "image_key_rotation": {
     "enabled": true,
@@ -113,5 +114,12 @@
     "persist_attempts": true,
     "shared_provider_deadlines": "defer_before_next_key",
     "quality_rejection": "preserve_for_review_no_auto_regeneration"
+  },
+  "controlled_start": {
+    "active": true,
+    "request_id": "afp-pipe-controlled-start-v1",
+    "max_cycles": 1,
+    "cron_enabled": false,
+    "pause_after_cycle": true
   }
 }

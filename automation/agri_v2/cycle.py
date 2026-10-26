@@ -179,8 +179,15 @@ def run(request_path=None,scheduled=False,_research_done=False,_research_invento
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--request');p.add_argument('--scheduled',action='store_true');a=p.parse_args()
- try:r=run(a.request,a.scheduled);print(json.dumps(r,ensure_ascii=False));return 0
+ receipt=None
+ try:
+  from .controlled_start import reserve,finish
+  receipt=reserve(load_json(DATA/'config.json'))
+  if receipt is not None and receipt.get('allowed') is not True:print(json.dumps(receipt));return 0
+  r=run(a.request,a.scheduled);finish(receipt,r);print(json.dumps(r,ensure_ascii=False));return 0
  except Exception as e:
+  from .controlled_start import finish
+  finish(receipt,error=e)
   failed()
   if isinstance(e,WPError):print("WordPress stage: "+str(e),flush=True)
   elif isinstance(e,ValueError):print("Validation blocked: "+str(e)[:160],flush=True)

@@ -12,6 +12,9 @@ def authorized(data_path=None):
  path=data/'safe-activation-request.json'
  if not path.exists():return False
  req=load_json(path)
+ if req.get('request_id')=='afp-pipe-controlled-start-v1':
+  from .controlled_start import authorized as controlled_authorized
+  return controlled_authorized(req,data,OUT,ROOT)
  if req.get('request_id')==OWNER_ID:return owner_authorized(req,data)
  if req.get('request_id')!=ID or req.get('authorized') is not True or req.get('mode')!='source_ready_quality_gated_only' or req.get('max_posts_per_run')!=1 or req.get('preserve_publication_holds') is not True:raise ValueError('Exact safe source-ready activation required')
  config=load_json(data/'config.json')

@@ -1,0 +1,45 @@
+{
+  "request_id": "afp-pipe-controlled-start-v1",
+  "repository": "kapitansaman/afp-pipe",
+  "credential_set_id": "afp-pipe-30-keys-v1",
+  "checked_at": "2026-10-26T04:01:25.436075+00:00",
+  "source_paused": true,
+  "source_pause_verification": {
+    "source": "getsalet/nono",
+    "source_generation_enabled": false,
+    "source_publication_enabled": false,
+    "source_cron_removed": true,
+    "source_job_disabled": true,
+    "source_active_agriculture_runs": [],
+    "matrix_run_id": "40264143661",
+    "matrix_run_conclusion": "success",
+    "image_key_secret_metadata": {
+      "AGNES_API_KEY_2": {
+        "updated_at": "2026-10-26T00:05:34Z"
+      },
+      "AGNES_API_KEY_3": {
+        "updated_at": "2026-10-26T00:05:49Z"
+      }
+    },
+    "checked_at": "2026-10-26T03:59:30.132031+00:00"
+  },
+  "matrix_run_id": "40264143661",
+  "matrix_run_conclusion": "success",
+  "matrix_report_sha256": "3def0a492688eff36b668bd2e9c252bc6923eaefb9889ff2eaf00ca0062be387",
+  "wordpress_auth_report_sha256": "48fdbbaf5922f4996b365a91e5082c53699060cc643a521684b0ff4796c86332",
+  "wordpress_connection": {
+    "user_id": 1,
+    "can_publish": true,
+    "can_upload_media": true,
+    "checked_at": "2026-10-26T03:17:50.720385+00:00"
+  },
+  "preserved_publication_holds": {
+    "agri-af1a4b491d83": "Model switched to 2.1 after verified reference-conditioned response; test image rejected by AI visual review (immature red pods, wrong framing). Preserve image 1; no new publication authorized by this test."
+  },
+  "article_quality_gate": "Existing per-topic source, overlap, article, two-image and critical visual gates remain required at runtime. No article or diagnostic image is preapproved.",
+  "post_mutations": 0,
+  "verified_image_slots": [
+    "AGNES_API_KEY2",
+    "AGNES_API_KEY3"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "request_id": "owner-practical85-source-ready-activation-v1",
+  "authorized": true,
+  "mode": "source_ready_critical_checks",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "max_posts_per_run": 1,
+  "preserve_publication_holds": true,
+  "readiness_report_sha256": "ca06b4ac17dc79eb438149356deb12316d7686f6d68b39f6d004c6e2c1a6f7e7",
+  "authorization_source": "https://app.notion.com/chat?t=40341579fa0a802ea41900a9daa4fbf7",
+  "owner_instruction": "سختگیری کلی را هم برطرف کن نه فقط این",
+  "scope": "Owner requested practical simplification. All critical checks must pass; numeric score is advisory and retained unchanged. No approval of wrong species, counterfeit product, impossible geometry or unsafe hardware. Preserve holds and all historic budgets.",
+  "score_policy": "advisory_only"
+}
