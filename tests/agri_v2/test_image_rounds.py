@@ -36,3 +36,16 @@ class RoundTests(unittest.TestCase):
  def test_malformed_image_moves_to_next_key(self):
   with tempfile.TemporaryDirectory() as d,patch.object(r,'OUT',Path(d)),patch('automation.agri_v2.client.render_image',side_effect=[CapabilityError('invalid'),b'valid']):
    c=self.client(lambda n:{'model':IMAGE_MODEL});self.assertEqual(r.generate(c,{'prompt':'test'},[]),b'valid');self.assertEqual(c.request.call_count,2)
+
+ def test_deferred_round_continues_with_next_key_after_deadline(self):
+  names=[]
+  def answer(n):
+   names.append(n)
+   if len(names)==1:raise ImageProviderError(503,'image_queue_full','provider_unavailable',5)
+   return {'model':IMAGE_MODEL}
+  with tempfile.TemporaryDirectory() as d,patch.object(r,'OUT',Path(d)),patch('automation.agri_v2.client.render_image',return_value=b'valid'):
+   c=self.client(answer)
+   with patch.object(r.time,'time',return_value=100):
+    with self.assertRaises(ImageProviderError):r.generate(c,{'prompt':'test'},[])
+   with patch.object(r.time,'time',return_value=2000):self.assertEqual(r.generate(c,{'prompt':'test'},[]),b'valid')
+   self.assertEqual(names,SLOTS[:2])

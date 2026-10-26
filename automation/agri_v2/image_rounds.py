@@ -46,10 +46,8 @@ def generate(client,body,references):
     state['status']='admission_deferred';atomic_json(rp,state);raise
    except ImageProviderError as exc:
     if row is not None:row.update(status='provider_rejected',http_status=exc.http_status,provider_code=exc.provider_code,category=exc.category)
-    if exc.http_status in (402,429,503) or exc.http_status is None or exc.provider_code=='image_queue_full' or exc.retry_after_seconds:
+    if exc.http_status in (402,429) or (isinstance(exc.http_status,int) and exc.http_status>=500) or exc.http_status is None or exc.provider_code=='image_queue_full' or exc.retry_after_seconds:
      state.update(status='shared_provider_deferred',retry_at_epoch=time.time()+max(1800,exc.retry_after_seconds or 0));atomic_json(rp,state);raise
-    if exc.http_status not in (401,403):
-     state['status']='request_or_provider_error';atomic_json(rp,state);raise
    except CapabilityError:
     if row is None:raise # Existing caller/admission budget is not a paid failed response.
     row.update(status='invalid_image_response',completed_at=utcnow())

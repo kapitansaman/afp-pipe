@@ -103,5 +103,14 @@
       "AGNES_API_KEY30": "AGNES_API_KEY_30"
     },
     "preserve_queue_and_attempts": true
+  },
+  "image_key_rotation": {
+    "enabled": true,
+    "max_unique_attempts_per_image": 30,
+    "rounds": 1,
+    "stop_on_valid_image": true,
+    "persist_attempts": true,
+    "shared_provider_deadlines": "defer_before_next_key",
+    "quality_rejection": "preserve_for_review_no_auto_regeneration"
   }
 }

@@ -1,18 +1,18 @@
 {
   "version": 1,
   "status": "publication_disabled",
-  "stage": "مخزن جدید: مدل تصویر ۲٫۵ و ظرفیت ۳۰ کلید؛ آزمون واقعی در انتظار پایان مهلت مشترک سرویس",
+  "stage": "آزمون مدل تصویر ۲٫۵: خطای 503 image_queue_full؛ ۳۰ کلید یکتا، ۲۷ کلید متن تأییدشده، صفر کلید تصویر؛ انتشار خاموش است",
   "percent": 0,
   "topic_id": "",
   "topic_title": "",
-  "updated_at": "2026-10-26T01:44:23.105701+00:00",
+  "updated_at": "2026-10-26T02:04:27.452920+00:00",
   "run_id": "40255300424",
   "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40255300424",
   "schedule_cron": "*/5 * * * *",
   "max_posts_per_run": 1,
   "metrics": {
     "research_briefs_ready": 0,
-    "research_needs_review": 62,
+    "research_needs_review": 63,
     "research_transient_failures": 0,
     "new_topics": 2905,
     "original_new_topics": 948,
@@ -27,9 +27,9 @@
     "verified_revisions": 0
   },
   "provider": {
-    "open": false,
+    "open": true,
     "reason": "image_queue_full",
-    "retry_at": "2026-10-25T23:40:40.423901+00:00",
+    "retry_at": "2026-10-26T02:33:51.961145+00:00",
     "recovery_cycles_used": 2,
     "recovery_cycles_limit": 2
   },
@@ -55,11 +55,11 @@
   ],
   "last_task": {
     "status": "publication_disabled",
-    "stage": "مهاجرت به مخزن جدید؛ تولید متوقف تا بررسی ۲۲ کلید و تنظیم اتصال وردپرس",
+    "stage": "آزمون مدل تصویر ۲٫۵: خطای 503 image_queue_full؛ ۳۰ کلید یکتا، ۲۷ کلید متن تأییدشده، صفر کلید تصویر؛ انتشار خاموش است",
     "percent": 0,
     "topic_id": "",
     "topic_title": "",
-    "updated_at": "2026-10-26T01:22:27.165468+00:00",
-    "run_url": null
+    "updated_at": "2026-10-26T02:04:27.452920+00:00",
+    "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40255300424"
   }
 }
