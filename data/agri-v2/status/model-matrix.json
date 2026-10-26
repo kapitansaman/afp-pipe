@@ -1,0 +1,29 @@
+{
+  "request_id": "afp-three-models-two-keys-reference-matrix-v1",
+  "repository": "kapitansaman/afp-pipe",
+  "run_id": "40264143661",
+  "started_at": "2026-10-26T03:27:41.755749+00:00",
+  "status": "in_progress",
+  "max_image_calls": 12,
+  "image_calls": 0,
+  "cases": [
+    {
+      "case_id": "plain-AGNES_API_KEY2-agnes-image-2.0-flash",
+      "model": "agnes-image-2.0-flash",
+      "slot": "AGNES_API_KEY2",
+      "mode": "plain",
+      "state": "reserved",
+      "started_at": "2026-10-26T03:27:41.755825+00:00"
+    }
+  ],
+  "text_calls": 0,
+  "article_calls": 0,
+  "wordpress_calls": 0,
+  "post_submissions": 0,
+  "production_enabled": false,
+  "publication_visual_approval": false,
+  "updated_at": "2026-10-26T03:27:41.755842+00:00",
+  "completed_cells": 0,
+  "valid_images": 0,
+  "healthy_cells": 0
+}
