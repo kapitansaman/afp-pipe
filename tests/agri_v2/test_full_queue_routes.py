@@ -95,3 +95,26 @@ class FullQueueRoutesTests(unittest.TestCase):
    # Link URLs must still be separately validated when used; malformed/noninstitutional
    # links in actual pages are not blanket-admitted or evidence approval.
    self.assertIsInstance(page.get('links',[]),list)
+ def test_saved_revalidation_cannot_drop_new_route_gate(self):
+  fixture=fixture_s.ScopedResearchTests();t,v,docs=fixture.fixture()
+  with tempfile.TemporaryDirectory() as td:
+   d=Path(td)/'data';o=Path(td)/'out';ev=o/'new'/t['id']/'lifecycle-evidence';atomic_json(ev/'sources.json',{'documents':docs,'source_text_layout_version':2});atomic_json(ev/'candidate-raw.json',v);before=(ev/'candidate-raw.json').read_bytes();client=Mock()
+   s.stage(t,'research_validate_saved',client,d,o)
+   saved=load_json(ev/'candidate.json');self.assertEqual(saved['research_route_version'],r.VERSION);self.assertEqual((ev/'candidate-raw.json').read_bytes(),before);client.text.assert_not_called()
+   facts=s.validate_candidate(t,saved,docs);_,overlap=fixture.overlap(t)
+   with self.assertRaises(ValueError):s.build_brief(t,saved,docs,fixture.review(facts),overlap,{'source_generated_at':utcnow(),'records':[]})
+ def test_saved_revalidation_does_not_override_negative_intent(self):
+  fixture=fixture_s.ScopedResearchTests();t,v,docs=fixture.fixture();v['answers_intent']=False
+  with tempfile.TemporaryDirectory() as td:
+   d=Path(td)/'data';o=Path(td)/'out';ev=o/'new'/t['id']/'lifecycle-evidence';atomic_json(ev/'sources.json',{'documents':docs,'source_text_layout_version':2});atomic_json(ev/'candidate-raw.json',v);client=Mock()
+   with self.assertRaises(ValueError):s.stage(t,'research_validate_saved',client,d,o)
+   self.assertFalse((ev/'candidate.json').exists());client.text.assert_not_called()
+ def test_relevant_field_guide_not_starved_by_old_harvest_fallback(self):
+  from automation.agri_v2.source_discovery import ranked_seed_urls,seed_score
+  topic=next(t for t in items('new') if t['crop']=='لوبیا چیتی' and t['intent']=='depth')
+  ranked=ranked_seed_urls(entries_for(topic,DATA))
+  guide='https://www.extension.iastate.edu/alternativeag/dry-edible-bean';harvest='https://cropwatch.unl.edu/2016/direct-harvest-dry-edible-beans/'
+  self.assertIn(guide,ranked[:6]);self.assertGreater(seed_score(guide,topic),seed_score(harvest,topic));self.assertFalse(r.plan(topic)['publication_authorized'])
+ def test_old_unranked_catalog_order_and_total_fetch_limit_unchanged(self):
+  from automation.agri_v2.source_discovery import ranked_seed_urls
+  self.assertEqual(ranked_seed_urls([{'urls':['https://b.edu/x','https://a.edu/x']},{'urls':['https://b.edu/x']}]),['https://b.edu/x','https://a.edu/x'])

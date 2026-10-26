@@ -5590,6 +5590,149 @@
         "پیازچه"
       ],
       "scope": "Actually fetched university production page, discovery lead only; exact intent and source-region applicability remain unapproved."
+    },
+    {
+      "url": "https://plants.ces.ncsu.edu/plants/glycyrrhiza-glabra/",
+      "fetched_at": "2026-10-26T09:21:41.579287+00:00",
+      "sha256": "81b863bef7040c9405e93f077cefe22100422dd34ed3880a5d804f484d0ce470",
+      "links": [
+        {
+          "url": "https://www.ces.ncsu.edu/",
+          "label": ""
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/",
+          "label": ""
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/find_a_plant/",
+          "label": "Find a Plant"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/gallery/",
+          "label": "Design Gallery"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/help/",
+          "label": "Help"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/contact_us/",
+          "label": "Contact"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/dianthus-chinensis/",
+          "label": "Dianthus chinensis"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/polygonatum-biflorum/",
+          "label": "Polygonatum biflorum"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/sedum-makinoi/",
+          "label": "Sedum makinoi"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/glycyrrhiza-glabra/common-name/black-sugar/",
+          "label": "Black Sugar"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/glycyrrhiza-glabra/common-name/common-licorice/",
+          "label": "Common licorice"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/glycyrrhiza-glabra/common-name/licorice/",
+          "label": "Licorice"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/glycyrrhiza-glabra/common-name/liquorice/",
+          "label": "Liquorice (UK)"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/glycyrrhiza-glabra/common-name/mulaith/",
+          "label": "Mulaith"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/glycyrrhiza-glabra/common-name/sweetwood/",
+          "label": "Sweetwood"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/glycyrrhiza-glabra/",
+          "label": "See below"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/find_a_plant/?tag=herbaceous-perennial",
+          "label": "#herbaceous perennial"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/find_a_plant/?tag=medicinal",
+          "label": "#medicinal"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/find_a_plant/?tag=poisonous",
+          "label": "#poisonous"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/find_a_plant/?tag=nitrogen-fixation",
+          "label": "#nitrogen fixation"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/find_a_plant/?tag=herb-garden",
+          "label": "#herb garden"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/find_a_plant/?tag=fragrant-roots",
+          "label": "#fragrant roots"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/find_a_plant/?tag=edible",
+          "label": "#edible"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/qr/4615/image/",
+          "label": "Download Print-Friendly QR Code"
+        },
+        {
+          "url": "https://www.ncsu.edu",
+          "label": "NC State University"
+        },
+        {
+          "url": "https://www.ces.ncsu.edu/nondiscrimination",
+          "label": "Commitment to Nondiscrimination"
+        },
+        {
+          "url": "https://www.ncsu.edu/privacy",
+          "label": "Privacy Statement"
+        },
+        {
+          "url": "https://www.ces.ncsu.edu/how-extension-works/",
+          "label": "About Extension"
+        },
+        {
+          "url": "https://extensionhr.ces.ncsu.edu/job-openings/",
+          "label": "Jobs"
+        },
+        {
+          "url": "https://www.ces.ncsu.edu/departments-partners/",
+          "label": "Departments & Partners"
+        },
+        {
+          "url": "https://cals.ncsu.edu/",
+          "label": "College of Agriculture & Life Sciences"
+        },
+        {
+          "url": "https://www.ncat.edu/caes/cooperative-extension/",
+          "label": "Extension at N.C. A&T"
+        },
+        {
+          "url": "https://cals.ncsu.edu/alumni-giving/",
+          "label": "Give Now"
+        }
+      ],
+      "crops": [
+        "شیرین‌بیان"
+      ],
+      "scope": "Actually fetched NC State Glycyrrhiza glabra profile. A botanical/cultivation discovery lead only: it does not establish field yield, local water/fertilizer rates, costs, toxicity thresholds or every queued intent."
     }
   ]
 }

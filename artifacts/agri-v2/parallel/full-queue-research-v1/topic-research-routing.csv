@@ -2354,20 +2354,20 @@ agri-ae53d407c035,مدیریت رزماری بعد از چین؛ آبیاری و
 agri-bbbca222b98a,برآورد عملکرد رزماری پیش از برداشت؛ روش نمونه‌برداری در مزرعه,رزماری,sampling_yield,measurement_and_calculation,1,False,False
 agri-69509fe85383,پایش رطوبت خاک در مزرعه رزماری؛ انتخاب محل و عمق حسگر,رزماری,soil_sensor,irrigation_engineering,1,True,False
 agri-760fa27553d6,نیاز آبی رزماری در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد,رزماری,water_need,irrigation_engineering,1,True,False
-agri-023fd7c79870,زمان کاشت شیرین‌بیان؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم,شیرین‌بیان,calendar,planting_and_establishment,0,True,False
-agri-7975fc235ab1,فاصله کاشت و تراکم شیرین‌بیان؛ محاسبه فاصله ردیف و بوته,شیرین‌بیان,density,measurement_and_calculation,0,True,False
-agri-a10a21393f63,اولین آبیاری شیرین‌بیان پس از کاشت؛ مدیریت رطوبت ناحیه استقرار,شیرین‌بیان,first_water,irrigation_engineering,0,True,False
-agri-3d8f44f198d5,مراحل حساس شیرین‌بیان به کم‌آبی؛ اولویت‌بندی آب در طول رشد,شیرین‌بیان,growth_water,irrigation_engineering,0,True,False
-agri-ab47b48a1182,کاهش تلفات برداشت شیرین‌بیان؛ تنظیم زمان، ابزار و شیوه جمع‌آوری,شیرین‌بیان,harvest_loss,harvest_and_postharvest,0,False,False
-agri-75f5c3ea1092,مدت هر نوبت آبیاری شیرین‌بیان با تیپ؛ محاسبه از دبی واقعی و نیاز آب,شیرین‌بیان,irrig_duration,irrigation_engineering,0,True,False
-agri-18096f12ac53,دور آبیاری شیرین‌بیان؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت,شیرین‌بیان,irrig_interval,irrigation_engineering,0,True,False
-agri-afc85525f7fe,مقدار ریزوم شیرین‌بیان در هکتار؛ اندازه، سلامت و تراکم کاشت,شیرین‌بیان,planting_material,measurement_and_calculation,0,False,False
-agri-eb32bfcfec40,آخرین آبیاری شیرین‌بیان پیش از برداشت؛ معیارهای قطع و کاهش آب,شیرین‌بیان,preharvest_water,irrigation_engineering,0,True,False
-agri-1924a4a4e62e,تنظیم آبیاری شیرین‌بیان پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟,شیرین‌بیان,rain_adjust,irrigation_engineering,0,False,False
-agri-e9a36f7909ce,برآورد عملکرد شیرین‌بیان پیش از برداشت؛ روش نمونه‌برداری در مزرعه,شیرین‌بیان,sampling_yield,measurement_and_calculation,0,False,False
-agri-70c2acc86b26,پایش رطوبت خاک در مزرعه شیرین‌بیان؛ انتخاب محل و عمق حسگر,شیرین‌بیان,soil_sensor,irrigation_engineering,0,True,False
-agri-f32342bc573a,انتخاب رقم شیرین‌بیان برای مزرعه؛ معیارهای اقلیمی و بازارپسندی,شیرین‌بیان,variety,planting_and_establishment,0,True,False
-agri-d7539a3e9fd4,نیاز آبی شیرین‌بیان در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد,شیرین‌بیان,water_need,irrigation_engineering,0,True,False
+agri-023fd7c79870,زمان کاشت شیرین‌بیان؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم,شیرین‌بیان,calendar,planting_and_establishment,3,True,False
+agri-7975fc235ab1,فاصله کاشت و تراکم شیرین‌بیان؛ محاسبه فاصله ردیف و بوته,شیرین‌بیان,density,measurement_and_calculation,3,True,False
+agri-a10a21393f63,اولین آبیاری شیرین‌بیان پس از کاشت؛ مدیریت رطوبت ناحیه استقرار,شیرین‌بیان,first_water,irrigation_engineering,3,True,False
+agri-3d8f44f198d5,مراحل حساس شیرین‌بیان به کم‌آبی؛ اولویت‌بندی آب در طول رشد,شیرین‌بیان,growth_water,irrigation_engineering,3,True,False
+agri-ab47b48a1182,کاهش تلفات برداشت شیرین‌بیان؛ تنظیم زمان، ابزار و شیوه جمع‌آوری,شیرین‌بیان,harvest_loss,harvest_and_postharvest,3,False,False
+agri-75f5c3ea1092,مدت هر نوبت آبیاری شیرین‌بیان با تیپ؛ محاسبه از دبی واقعی و نیاز آب,شیرین‌بیان,irrig_duration,irrigation_engineering,3,True,False
+agri-18096f12ac53,دور آبیاری شیرین‌بیان؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت,شیرین‌بیان,irrig_interval,irrigation_engineering,3,True,False
+agri-afc85525f7fe,مقدار ریزوم شیرین‌بیان در هکتار؛ اندازه، سلامت و تراکم کاشت,شیرین‌بیان,planting_material,measurement_and_calculation,3,False,False
+agri-eb32bfcfec40,آخرین آبیاری شیرین‌بیان پیش از برداشت؛ معیارهای قطع و کاهش آب,شیرین‌بیان,preharvest_water,irrigation_engineering,3,True,False
+agri-1924a4a4e62e,تنظیم آبیاری شیرین‌بیان پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟,شیرین‌بیان,rain_adjust,irrigation_engineering,3,False,False
+agri-e9a36f7909ce,برآورد عملکرد شیرین‌بیان پیش از برداشت؛ روش نمونه‌برداری در مزرعه,شیرین‌بیان,sampling_yield,measurement_and_calculation,3,False,False
+agri-70c2acc86b26,پایش رطوبت خاک در مزرعه شیرین‌بیان؛ انتخاب محل و عمق حسگر,شیرین‌بیان,soil_sensor,irrigation_engineering,3,True,False
+agri-f32342bc573a,انتخاب رقم شیرین‌بیان برای مزرعه؛ معیارهای اقلیمی و بازارپسندی,شیرین‌بیان,variety,planting_and_establishment,3,True,False
+agri-d7539a3e9fd4,نیاز آبی شیرین‌بیان در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد,شیرین‌بیان,water_need,irrigation_engineering,3,True,False
 agri-ec3be56242e9,آماده‌سازی زمین برای کینوا؛ تسطیح، بستر کاشت و زهکشی,کینوا,bed,soil_nutrition,4,True,False
 agri-1aa6e3e786fb,نقطه سربه‌سر کشت کینوا؛ حداقل عملکرد و قیمت فروش لازم,کینوا,breakeven,measurement_and_calculation,4,False,False
 agri-b7cb9dee5756,تراکم خاک در کشت کینوا؛ نشانه‌ها و راه‌های اصلاح بستر ریشه,کینوا,compaction,soil_nutrition,4,True,False
@@ -2877,30 +2877,30 @@ agri-748f4ea33a94,مدیریت علف‌های هرز رزماری؛ دوره ح
 agri-bdc5e95b1156,پژمردگی رزماری با وجود آبیاری؛ چک‌لیست ریشه، آب و دما,رزماری,wilt,diagnosis_and_monitoring,1,False,False
 agri-8b56374e66f3,آماده‌سازی مزرعه رزماری برای زمستان؛ آب، بقایا و حفاظت بوته,رزماری,wintering,crop_management,1,True,False
 agri-aa2d771a73a1,زرد شدن برگ رزماری؛ تفکیک کمبود غذایی، تنش آب و بیماری,رزماری,yellow,diagnosis_and_monitoring,1,True,False
-agri-692631559532,آماده‌سازی زمین برای شیرین‌بیان؛ تسطیح، بستر کاشت و زهکشی,شیرین‌بیان,bed,soil_nutrition,0,True,False
-agri-1b9c93a20966,نقطه سربه‌سر کشت شیرین‌بیان؛ حداقل عملکرد و قیمت فروش لازم,شیرین‌بیان,breakeven,measurement_and_calculation,0,False,False
-agri-9025b282b26d,تراکم خاک در کشت شیرین‌بیان؛ نشانه‌ها و راه‌های اصلاح بستر ریشه,شیرین‌بیان,compaction,soil_nutrition,0,True,False
-agri-e2efa2ca5e2a,هزینه کشت شیرین‌بیان در هکتار؛ جدول نهاده‌ها و روش به‌روزرسانی,شیرین‌بیان,cost,measurement_and_calculation,0,True,False
-agri-e4a84be9d46c,برنامه تغذیه شیرین‌بیان بر اساس آزمایش؛ از نیاز رشد تا انتخاب کود,شیرین‌بیان,fert_plan,soil_nutrition,0,True,False
-agri-647e52e6cd95,کودآبیاری شیرین‌بیان؛ زمان‌بندی تزریق، سازگاری و شست‌وشوی شبکه,شیرین‌بیان,fertigation,soil_nutrition,0,True,False
-agri-e63d2d2307ed,خطر سرما برای شیرین‌بیان؛ حساسیت مراحل رشد و اقدامات پیشگیرانه,شیرین‌بیان,frost,crop_management,0,True,False
-agri-4c25f8fb728b,درجه‌بندی محصول شیرین‌بیان برای فروش؛ کیفیت، ناخالصی و افت وزنی,شیرین‌بیان,grading,harvest_and_postharvest,0,False,False
-agri-15b3f1629b2a,مدیریت شیرین‌بیان در موج گرما؛ آب، سایه‌اندازی و پایش تنش,شیرین‌بیان,heat,crop_management,0,False,False
-agri-1c98a00616ac,مصرف کود آلی در کشت شیرین‌بیان؛ کیفیت کمپوست و زمان اختلاط با خاک,شیرین‌بیان,organic,soil_nutrition,0,False,False
-agri-45b5730498d0,رشد ضعیف شیرین‌بیان؛ چگونه علت را پیش از کوددهی پیدا کنیم؟,شیرین‌بیان,poor_growth,diagnosis_and_monitoring,0,False,False
-agri-e5037681b544,پوسیدگی ریشه شیرین‌بیان؛ تشخیص افتراقی و پیشگیری در مزرعه,شیرین‌بیان,rootrot,diagnosis_and_monitoring,0,True,False
-agri-000412cca17e,تناوب زراعی شیرین‌بیان؛ کشت قبلی، کشت بعدی و محدودیت‌ها,شیرین‌بیان,rotation,crop_management,0,False,False
-agri-c0af8bf5d2d4,کشت شیرین‌بیان در شرایط شوری؛ ارزیابی آب، خاک و خطر افت عملکرد,شیرین‌بیان,salinity,soil_nutrition,0,True,False
-agri-544f37be1ebf,پایش آفات و بیماری‌های شیرین‌بیان؛ طراحی بازدید و ثبت نشانه‌ها,شیرین‌بیان,scouting,diagnosis_and_monitoring,0,True,False
-agri-cd0ab22714ed,آزمایش خاک پیش از کشت شیرین‌بیان؛ نمونه‌برداری و تفسیر گزارش,شیرین‌بیان,soil_test,soil_nutrition,0,True,False
-agri-6941f670a65b,عملکرد شیرین‌بیان در سال اول و سال‌های بعد؛ سن مزرعه و تصمیم بازکاشت,شیرین‌بیان,stand_age,scoped_observations,0,False,False
-agri-22b1b0729eb1,نگهداری شیرین‌بیان پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات,شیرین‌بیان,storage,harvest_and_postharvest,0,True,False
-agri-9017f889f55c,چیدمان نوار تیپ در کشت شیرین‌بیان؛ تصمیم بر پایه ردیف و الگوی خیس‌شدگی,شیرین‌بیان,tape_layout,irrigation_engineering,0,True,False
-agri-cef9d519ea59,محاسبه متراژ نوار تیپ برای مزرعه شیرین‌بیان؛ ردیف‌ها، بسترها و ذخیره نصب,شیرین‌بیان,tape_length,measurement_and_calculation,0,True,False
-agri-e330cda54a19,آبیاری نامتوازن شیرین‌بیان در ابتدا و انتهای ردیف؛ مسیر عیب‌یابی,شیرین‌بیان,uniformity,irrigation_engineering,0,True,False
-agri-ee49ca3d547e,بهره‌وری آب در کشت شیرین‌بیان؛ محاسبه کیلوگرم محصول به مترمکعب آب,شیرین‌بیان,water_productivity,measurement_and_calculation,0,True,False
-agri-e611bcf92673,ماندابی شدن مزرعه شیرین‌بیان؛ تشخیص مشکل زهکشی و اقدامات اولیه,شیرین‌بیان,waterlogging,diagnosis_and_monitoring,0,False,False
-agri-d28ccfa74325,مدیریت علف‌های هرز شیرین‌بیان؛ دوره حساس رقابت و روش‌های غیرشیمیایی,شیرین‌بیان,weeds,crop_management,0,True,False
-agri-a41af56f0d6f,پژمردگی شیرین‌بیان با وجود آبیاری؛ چک‌لیست ریشه، آب و دما,شیرین‌بیان,wilt,diagnosis_and_monitoring,0,False,False
-agri-81ba745932e0,آماده‌سازی مزرعه شیرین‌بیان برای زمستان؛ آب، بقایا و حفاظت بوته,شیرین‌بیان,wintering,crop_management,0,False,False
-agri-e6dbcc24f387,زرد شدن برگ شیرین‌بیان؛ تفکیک کمبود غذایی، تنش آب و بیماری,شیرین‌بیان,yellow,diagnosis_and_monitoring,0,False,False
+agri-692631559532,آماده‌سازی زمین برای شیرین‌بیان؛ تسطیح، بستر کاشت و زهکشی,شیرین‌بیان,bed,soil_nutrition,3,True,False
+agri-1b9c93a20966,نقطه سربه‌سر کشت شیرین‌بیان؛ حداقل عملکرد و قیمت فروش لازم,شیرین‌بیان,breakeven,measurement_and_calculation,3,False,False
+agri-9025b282b26d,تراکم خاک در کشت شیرین‌بیان؛ نشانه‌ها و راه‌های اصلاح بستر ریشه,شیرین‌بیان,compaction,soil_nutrition,3,True,False
+agri-e2efa2ca5e2a,هزینه کشت شیرین‌بیان در هکتار؛ جدول نهاده‌ها و روش به‌روزرسانی,شیرین‌بیان,cost,measurement_and_calculation,3,True,False
+agri-e4a84be9d46c,برنامه تغذیه شیرین‌بیان بر اساس آزمایش؛ از نیاز رشد تا انتخاب کود,شیرین‌بیان,fert_plan,soil_nutrition,3,True,False
+agri-647e52e6cd95,کودآبیاری شیرین‌بیان؛ زمان‌بندی تزریق، سازگاری و شست‌وشوی شبکه,شیرین‌بیان,fertigation,soil_nutrition,3,True,False
+agri-e63d2d2307ed,خطر سرما برای شیرین‌بیان؛ حساسیت مراحل رشد و اقدامات پیشگیرانه,شیرین‌بیان,frost,crop_management,3,True,False
+agri-4c25f8fb728b,درجه‌بندی محصول شیرین‌بیان برای فروش؛ کیفیت، ناخالصی و افت وزنی,شیرین‌بیان,grading,harvest_and_postharvest,3,False,False
+agri-15b3f1629b2a,مدیریت شیرین‌بیان در موج گرما؛ آب، سایه‌اندازی و پایش تنش,شیرین‌بیان,heat,crop_management,3,False,False
+agri-1c98a00616ac,مصرف کود آلی در کشت شیرین‌بیان؛ کیفیت کمپوست و زمان اختلاط با خاک,شیرین‌بیان,organic,soil_nutrition,3,False,False
+agri-45b5730498d0,رشد ضعیف شیرین‌بیان؛ چگونه علت را پیش از کوددهی پیدا کنیم؟,شیرین‌بیان,poor_growth,diagnosis_and_monitoring,3,False,False
+agri-e5037681b544,پوسیدگی ریشه شیرین‌بیان؛ تشخیص افتراقی و پیشگیری در مزرعه,شیرین‌بیان,rootrot,diagnosis_and_monitoring,3,True,False
+agri-000412cca17e,تناوب زراعی شیرین‌بیان؛ کشت قبلی، کشت بعدی و محدودیت‌ها,شیرین‌بیان,rotation,crop_management,3,False,False
+agri-c0af8bf5d2d4,کشت شیرین‌بیان در شرایط شوری؛ ارزیابی آب، خاک و خطر افت عملکرد,شیرین‌بیان,salinity,soil_nutrition,3,True,False
+agri-544f37be1ebf,پایش آفات و بیماری‌های شیرین‌بیان؛ طراحی بازدید و ثبت نشانه‌ها,شیرین‌بیان,scouting,diagnosis_and_monitoring,3,True,False
+agri-cd0ab22714ed,آزمایش خاک پیش از کشت شیرین‌بیان؛ نمونه‌برداری و تفسیر گزارش,شیرین‌بیان,soil_test,soil_nutrition,3,True,False
+agri-6941f670a65b,عملکرد شیرین‌بیان در سال اول و سال‌های بعد؛ سن مزرعه و تصمیم بازکاشت,شیرین‌بیان,stand_age,scoped_observations,3,False,False
+agri-22b1b0729eb1,نگهداری شیرین‌بیان پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات,شیرین‌بیان,storage,harvest_and_postharvest,3,True,False
+agri-9017f889f55c,چیدمان نوار تیپ در کشت شیرین‌بیان؛ تصمیم بر پایه ردیف و الگوی خیس‌شدگی,شیرین‌بیان,tape_layout,irrigation_engineering,3,True,False
+agri-cef9d519ea59,محاسبه متراژ نوار تیپ برای مزرعه شیرین‌بیان؛ ردیف‌ها، بسترها و ذخیره نصب,شیرین‌بیان,tape_length,measurement_and_calculation,3,True,False
+agri-e330cda54a19,آبیاری نامتوازن شیرین‌بیان در ابتدا و انتهای ردیف؛ مسیر عیب‌یابی,شیرین‌بیان,uniformity,irrigation_engineering,3,True,False
+agri-ee49ca3d547e,بهره‌وری آب در کشت شیرین‌بیان؛ محاسبه کیلوگرم محصول به مترمکعب آب,شیرین‌بیان,water_productivity,measurement_and_calculation,3,True,False
+agri-e611bcf92673,ماندابی شدن مزرعه شیرین‌بیان؛ تشخیص مشکل زهکشی و اقدامات اولیه,شیرین‌بیان,waterlogging,diagnosis_and_monitoring,3,False,False
+agri-d28ccfa74325,مدیریت علف‌های هرز شیرین‌بیان؛ دوره حساس رقابت و روش‌های غیرشیمیایی,شیرین‌بیان,weeds,crop_management,3,True,False
+agri-a41af56f0d6f,پژمردگی شیرین‌بیان با وجود آبیاری؛ چک‌لیست ریشه، آب و دما,شیرین‌بیان,wilt,diagnosis_and_monitoring,3,False,False
+agri-81ba745932e0,آماده‌سازی مزرعه شیرین‌بیان برای زمستان؛ آب، بقایا و حفاظت بوته,شیرین‌بیان,wintering,crop_management,3,False,False
+agri-e6dbcc24f387,زرد شدن برگ شیرین‌بیان؛ تفکیک کمبود غذایی، تنش آب و بیماری,شیرین‌بیان,yellow,diagnosis_and_monitoring,3,False,False

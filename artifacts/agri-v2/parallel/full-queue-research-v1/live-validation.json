@@ -1,0 +1,365 @@
+{
+  "checked_at": "2026-10-26T09:31:06.126223+00:00",
+  "actual_run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40298864446",
+  "run_id": "40298864446",
+  "actual_run_status": "completed_with_failures",
+  "code_revision_tested": "0c074cc5f44d5bdd7a5e9d1a4fc5743b6a0189e9",
+  "not_a_successful_20_family_end_to_end_run": true,
+  "families_checked": 20,
+  "actual_model_requests_reserved": 20,
+  "max_model_requests": 80,
+  "peak_text_leases": 18,
+  "peak_image_leases": 0,
+  "published_posts": 0,
+  "publication_authorized": false,
+  "attempts_reset": false,
+  "schedule_enabled": false,
+  "status_counts": {
+    "blocked": 1,
+    "research_ready": 1,
+    "stage_failed": 18
+  },
+  "failure_reason_counts": {
+    "scoped_intent_or_local_prescription_rejected": 10,
+    "every_number_requires_unit_and_scope_binding": 2,
+    "numeric_units_not_in_literal_source": 1,
+    "independent_scoped_review_rejected": 1,
+    "overlap_quote_id_not_bound_to_article": 1,
+    "number_absent_from_literal_source": 1,
+    "existing_content_overlap_or_uncertain": 1,
+    "unknown_scoped_evidence_id": 1
+  },
+  "families": [
+    {
+      "family_id": "family-01",
+      "topic_id": "agri-b6ffe49a4638",
+      "title": "زمان کاشت لوبیا قرمز؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-02",
+      "topic_id": "agri-7736a471e8c1",
+      "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "numeric_units_not_in_literal_source",
+      "published_posts": 0,
+      "next_action": "Revalidate saved raw candidate deterministically; never rewrite claims, invent numeric bindings or bypass the independent review."
+    },
+    {
+      "family_id": "family-03",
+      "topic_id": "agri-934dd1366a8b",
+      "title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "every_number_requires_unit_and_scope_binding",
+      "published_posts": 0,
+      "next_action": "Revalidate saved raw candidate deterministically; never rewrite claims, invent numeric bindings or bypass the independent review."
+    },
+    {
+      "family_id": "family-04",
+      "topic_id": "agri-3ab6116ba6cf",
+      "title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "every_number_requires_unit_and_scope_binding",
+      "published_posts": 0,
+      "next_action": "Revalidate saved raw candidate deterministically; never rewrite claims, invent numeric bindings or bypass the independent review."
+    },
+    {
+      "family_id": "family-05",
+      "topic_id": "agri-621734b38aa9",
+      "title": "میزان برداشت لوبیا سفید در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "text",
+      "status": "research_ready",
+      "reason": "research_ready",
+      "published_posts": 0,
+      "next_action": "Already accepted research checkpoint, not a newly completed article. Existing text/image/pilot blockers remain."
+    },
+    {
+      "family_id": "family-06",
+      "topic_id": "agri-ee13684b7f1a",
+      "title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-07",
+      "topic_id": "agri-1f58a0e82783",
+      "title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-c0e160d88554",
+      "title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "stage": "research_review",
+      "status": "stage_failed",
+      "reason": "independent_scoped_review_rejected",
+      "published_posts": 0,
+      "next_action": "Keep rejection. Reviewer prompt now avoids inferring an Iranian recommendation solely from Persian wording; no past rejection is relabeled."
+    },
+    {
+      "family_id": "family-09",
+      "topic_id": "agri-e7dcf0bf2ffd",
+      "title": "عمق کاشت بذر لوبیا چیتی در خاک سبک و سنگین؛ خطاهای رایج",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-10",
+      "topic_id": "agri-a83aaf27045f",
+      "title": "اولین آبیاری لوبیا چیتی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-11",
+      "topic_id": "agri-3aec9f066bb5",
+      "title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
+      "stage": "existing_content_audit-004",
+      "status": "stage_failed",
+      "reason": "overlap_quote_id_not_bound_to_article",
+      "published_posts": 0,
+      "next_action": "A missing/null supplied quote ID is not proof. Keep completed batches and require a valid exact quote selection for the failed batch."
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-8c5efc7fc888",
+      "title": "چرا بذر لوبیا چیتی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "stage": null,
+      "status": "blocked",
+      "reason": "legacy_research_budget_exhausted",
+      "published_posts": 0,
+      "next_action": "Keep consumed budget; fresh evidence plus separately explicit valid attempt authorization is required."
+    },
+    {
+      "family_id": "family-13",
+      "topic_id": "agri-dd97e1add9df",
+      "title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-14",
+      "topic_id": "agri-f5f2d5ed4de0",
+      "title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-15",
+      "topic_id": "agri-2bffca9fad0a",
+      "title": "دور آبیاری لوبیا چیتی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-16",
+      "topic_id": "agri-7dd8dae22417",
+      "title": "انتخاب رقم لوبیا قرمز برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "unknown_scoped_evidence_id",
+      "published_posts": 0,
+      "next_action": "Revalidate saved raw candidate deterministically; never rewrite claims, invent numeric bindings or bypass the independent review."
+    },
+    {
+      "family_id": "family-17",
+      "topic_id": "agri-d52cdebf818e",
+      "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-18",
+      "topic_id": "agri-abd5d9f00442",
+      "title": "زمان مناسب برداشت لوبیا چیتی؛ نشانه‌های رسیدگی و معیار بازار",
+      "stage": "existing_content_audit-000",
+      "status": "stage_failed",
+      "reason": "existing_content_overlap_or_uncertain",
+      "published_posts": 0,
+      "next_action": "Keep duplicate/uncertainty rejection; do not rewrite title or publish a duplicate. Any existing-post update needs its own authorized path."
+    },
+    {
+      "family_id": "family-19",
+      "topic_id": "agri-681d9e957593",
+      "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "published_posts": 0,
+      "next_action": "Gather actually relevant evidence for the missing exact method/product/intent; never flip answers_intent:false."
+    },
+    {
+      "family_id": "family-20",
+      "topic_id": "agri-15439ad51313",
+      "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "stage_failed",
+      "reason": "number_absent_from_literal_source",
+      "published_posts": 0,
+      "next_action": "Revalidate saved raw candidate deterministically; never rewrite claims, invent numeric bindings or bypass the independent review."
+    }
+  ],
+  "saved_candidate_revalidation_dry_run": [
+    {
+      "topic_id": "agri-b6ffe49a4638",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-7736a471e8c1",
+      "status": "offline_format_revalidation_possible",
+      "facts_kept": 4,
+      "report": {
+        "dropped_facts": [
+          {
+            "index": 3,
+            "reason": "numeric_units_not_in_literal_source"
+          }
+        ],
+        "metadata_repairs": [],
+        "claims_rewritten": false,
+        "scientific_rejection_overridden": false,
+        "independent_review_still_required": true
+      },
+      "model_calls": 0,
+      "independent_review_passed": false,
+      "operational_candidate_written": false
+    },
+    {
+      "topic_id": "agri-934dd1366a8b",
+      "status": "still_blocked",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "model_calls": 0,
+      "operational_candidate_written": false
+    },
+    {
+      "topic_id": "agri-3ab6116ba6cf",
+      "status": "still_blocked",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "model_calls": 0,
+      "operational_candidate_written": false
+    },
+    {
+      "topic_id": "agri-ee13684b7f1a",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-1f58a0e82783",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-e7dcf0bf2ffd",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-a83aaf27045f",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-dd97e1add9df",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-f5f2d5ed4de0",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-2bffca9fad0a",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-7dd8dae22417",
+      "status": "offline_format_revalidation_possible",
+      "facts_kept": 6,
+      "report": {
+        "dropped_facts": [
+          {
+            "index": 1,
+            "reason": "unknown_scoped_evidence_id"
+          },
+          {
+            "index": 2,
+            "reason": "unknown_scoped_evidence_id"
+          }
+        ],
+        "metadata_repairs": [],
+        "claims_rewritten": false,
+        "scientific_rejection_overridden": false,
+        "independent_review_still_required": true
+      },
+      "model_calls": 0,
+      "independent_review_passed": false,
+      "operational_candidate_written": false
+    },
+    {
+      "topic_id": "agri-d52cdebf818e",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-681d9e957593",
+      "status": "not_repaired_negative_intent_preserved",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-15439ad51313",
+      "status": "still_blocked",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "model_calls": 0,
+      "operational_candidate_written": false
+    }
+  ],
+  "later_fixes_not_claimed_as_live_tested": [
+    "Licorice university discovery seed added after the run.",
+    "Saved raw candidate revalidation now server-stamps route requirements, so a failed extraction cannot drop the new route gate.",
+    "Reviewer guidance distinguishes Persian language from unsupported assumed Iranian recommendations.",
+    "Discovery seeds ranked for exact intent and crop before the six-seed cap, so garden/harvest fallback entries no longer starve a later production guide.",
+    "Overlap review prompt now explicitly requires an actual supplied quote ID even for unrelated articles; null or invented IDs still fail validation."
+  ],
+  "later_source_fetch_test": {
+    "artifact": "source-ranking-probe.json",
+    "actual_url_fetches": 7,
+    "field_guide_loaded": true,
+    "model_calls": 0,
+    "evidence_approved": false
+  }
+}

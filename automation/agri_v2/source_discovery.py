@@ -2,7 +2,7 @@
 import re,urllib.parse
 from functools import lru_cache
 from .queue import load_json
-from .research_routes import crop_terms,SPECIFIC_TERMS
+from .research_routes import crop_terms,SPECIFIC_TERMS,ROUTES
 INTENT_TERMS={
  'yield':['yield','production','harvest'], 'cut_yield':['alfalfa','cutting','forage','yield'],
  'maturity':['maturity','harvest','ripe'], 'harvest_loss':['harvest','loss','shatter'],
@@ -60,4 +60,28 @@ def entries_for(topic,data,primary='research-source-catalog.json'):
     'discovery_only':True,'discovery_hub_urls':hubs,'crop_discovery_terms':crop_tokens,
     'discovery_terms':INTENT_TERMS.get(topic['intent'],[])+SPECIFIC_TERMS.get(topic['intent'],[])+crop_tokens,
     'observed_source_index':True})
+ # Prioritize exact-intent entries and crop/method leads BEFORE the six-seed
+ # fetch cap. Otherwise an old garden/harvest fallback can starve a later
+ # field-production guide. URL ranking is discovery only, never relevance approval.
+ for e in result:
+  e['seed_priority']={u:seed_score(u,topic,exact=not e.get('discovery_only',False)) for u in e.get('urls',[])}
  return result
+
+
+def seed_score(url,topic,exact=False):
+ text=re.sub(r'[-_/]+',' ',urllib.parse.unquote(url)).lower()
+ try:tokens=crop_terms(topic['crop'])
+ except KeyError:tokens=[str(topic['crop']).lower()] # Catalog compatibility only; plan() still rejects unknown crops.
+ crop_score=sum(4 for t in tokens if t in text)
+ method_score=sum(8 for t in INTENT_TERMS.get(topic['intent'],[])+SPECIFIC_TERMS.get(topic['intent'],[]) if t in text)
+ track=ROUTES.get(topic['intent'],{}).get('track')
+ off_topic=track in {'planting_and_establishment','irrigation_engineering','soil_nutrition'} and any(t in text for t in ['post harvest','postharvest','harvest loss','direct harvest','storing','storage'])
+ return (100 if exact else 0)+crop_score+method_score-(16 if off_topic else 0)
+
+def ranked_seed_urls(entries):
+ urls=list(dict.fromkeys(u for e in entries for u in e.get('urls',[]) if isinstance(u,str)))
+ priority={}
+ for e in entries:
+  for u,n in e.get('seed_priority',{}).items():
+   if isinstance(u,str) and type(n) is int:priority[u]=max(priority.get(u,n),n)
+ return sorted(urls,key=lambda u:-priority.get(u,0)) if priority else urls

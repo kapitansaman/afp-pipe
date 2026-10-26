@@ -13,3 +13,11 @@ One directly relevant university source may satisfy source sufficiency under the
 A one-shot operation is prepared for up to 20 assigned families, at most four text model calls per family (80 collective), zero image calls, and zero WordPress writes. Workers stop before article drafting, images, translations or publication, and the coordinator independently suppresses publication. Successful prior work and consumed budgets remain unchanged. The general schedule remains OFF.
 
 Offline tests do not demonstrate live model/provider readiness, publication success or an end-to-end 20-family run. See operation/lifecycle receipts for actual live outcomes.
+
+## Actual validation outcome
+
+The full title audit now has 2905/2905 mapped titles and 2905/2905 with at least one discovery seed; this is NOT scientific approval of those titles. There are 9 directly fetched seed pages and 7 verified index pages.
+
+Actions run 40298864446 checked all 20 assigned families using the initial routed revision. It reserved 20 text requests of an 80 maximum, zero image leases and zero publications. One family retained its pre-existing research-ready checkpoint; one stayed blocked by its preserved legacy budget; 18 stopped at source/number/evidence/overlap/review gates. This was NOT a successful end-to-end 20-family run. See `live-validation.json` for every family and next action.
+
+Follow-up fixes rank exact-intent/crop leads before the six-seed fetch cap, preserve route enforcement during deterministic saved-candidate revalidation, and stop assuming an Iranian recommendation merely because the title is Persian. A real source-only probe loaded the previously starved dry-bean field guide in 7 bounded URL fetches, with no model calls or approved claims. Two failed saved candidates passed a format-only dry-run revalidation; no operational candidate, review, brief or article was approved by that diagnostic. The final code has 595 passing offline tests. These follow-up fixes have not been tested in a second paid 20-family run. Historical attempts/rejections and the OFF general schedule remain unchanged.

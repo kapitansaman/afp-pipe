@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T09:18:21.066867+00:00",
+  "checked_at": "2026-10-26T09:31:04.719959+00:00",
   "revision_base": "b69c9a8af4f33b7efca90894180b52f283a7526b",
   "route_version": "full-queue-research-routes-v1",
   "population": "all immutable new queue titles; no origin, readiness or priority filter",
@@ -97,8 +97,8 @@
     "scoped_observations": 31,
     "forage_and_feed_safety": 13
   },
-  "topics_with_source_leads": 2864,
-  "topics_without_source_leads": 41,
+  "topics_with_source_leads": 2905,
+  "topics_without_source_leads": 0,
   "source_leads_not_evidence": true,
   "claims_or_articles_reviewed": 0,
   "model_calls": 0,
@@ -121,14 +121,27 @@
   ],
   "offline_tests": {
     "passed": true,
-    "count": 591,
+    "count": 595,
     "command": "python -m unittest discover -s tests/agri_v2"
   },
-  "live_20_family_run": "not_started_yet",
+  "live_20_family_run": {
+    "run_id": "40298864446",
+    "status": "completed_with_failures",
+    "actual_model_requests_reserved": 20,
+    "published_posts": 0,
+    "note": "Live run used the initial routed code. Later source/provenance/prompt fixes have offline tests only; no successful end-to-end 20-family run is claimed."
+  },
+  "verified_direct_seed_page_count": 9,
+  "source_index_page_count": 7,
+  "immutable_queues_verified": {
+    "new": 2905,
+    "merge": 593,
+    "hold": 370
+  },
   "remaining_blockers": [
-    "Discovery leads are not scoped scientific evidence; each exact topic still needs literal claim validation and independent review.",
-    "Some licorice topics have no verified admitted university discovery seed; do not substitute another species or invent sources.",
-    "Historical rejected/exhausted attempts remain preserved; some families may correctly checkpoint or require explicit bounded repair.",
-    "General schedule remains disabled pending real pilot and a measured full 20-family end-to-end run."
+    "Each university discovery lead still needs exact-topic evidence, independent skeptical fact/route review and actual existing-content audit; 2905 leads do not mean 2905 answerable topics.",
+    "The live run stopped 18 families at validation/review gates and one at a preserved consumed legacy budget; only one pre-existing accepted research checkpoint was ready.",
+    "A genuine existing-content overlap must not become a duplicate new article. Missing quote IDs and rejected reviews have not been relabeled as passed.",
+    "No successful live end-to-end 20-family publication run or accepted new pilot is claimed; the general schedule remains disabled."
   ]
 }

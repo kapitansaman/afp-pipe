@@ -14,7 +14,8 @@ def institutions(documents,source_host):
  return {'.'.join(source_host(d['url']).split('.')[-2:]) for d in documents}
 
 def collect(entries,fetcher,out,source_host,evdir,*,allow_pdf=False,topic_id=None):
- seeds=list(dict.fromkeys(u for e in entries for u in e.get('urls',[]) if isinstance(u,str)))[:6]
+ from .source_discovery import ranked_seed_urls
+ seeds=ranked_seed_urls(entries)[:6]
  terms={str(t).casefold() for e in entries for t in e.get('discovery_terms',[]) if isinstance(t,str) and len(t)>=3}
  report={'version':VERSION,'started_at':utcnow(),'discovery_backend':'verified_catalog_and_observed_institutional_links','model_generated_urls':False,'max_fetches':MAX_FETCHES,'max_link_depth':1}
  first=evdir/'source-fetch-report.json'

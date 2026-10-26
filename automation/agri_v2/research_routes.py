@@ -48,7 +48,7 @@ def plan(topic):
 def crop_terms(crop):
  label=CROPS[crop].lower();terms=[label]
  # Search aliases are discovery hints only; article identity remains exact.
- extra={'لوبیا قرمز':['dry bean','kidney bean'],'لوبیا سفید':['dry bean','navy bean','great northern'],'لوبیا چیتی':['dry bean','pinto bean'],'لوبیا سبز':['snap bean','green bean','bean'],
+ extra={'لوبیا قرمز':['dry bean','dry edible bean','kidney bean'],'لوبیا سفید':['dry bean','dry edible bean','navy bean','great northern'],'لوبیا چیتی':['dry bean','dry edible bean','pinto bean'],'لوبیا سبز':['snap bean','green bean','bean'],
  'ذرت دانه‌ای':['corn','maize'],'ذرت شیرین':['sweet corn'],'ذرت علوفه‌ای':['silage corn','corn silage'],
  'کدو آجیلی':['pumpkin','squash'],'کدو حلوایی':['pumpkin','winter squash'],'کدو سبز':['summer squash','zucchini'],
  'هندوانه تخمی':['watermelon'],'آفتابگردان روغنی':['sunflower'],'فلفل دلمه‌ای':['bell pepper','pepper'],'سورگوم علوفه‌ای':['sorghum'],
