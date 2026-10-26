@@ -1,15 +1,18 @@
 {
   "version": 1,
-  "request_id": "ops-full-queue-routes-research-v1",
-  "operation": "full-queue-research-only",
+  "request_id": "ops-commercial-matrix-carrot-pilot-v1",
+  "operation": "one-commercial-matrix-family",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
-  "max_pilot_families": 20,
+  "max_pilot_families": 1,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_worker_text_calls": 80,
-  "max_worker_image_calls": 0,
-  "max_wordpress_mutations": 0,
-  "code_revision": "0c074cc5f44d5bdd7a5e9d1a4fc5743b6a0189e9"
+  "code_revision": "e80062327e8f1b7d24efcf4271789bb8e6ea6487",
+  "topic_id": "agri-b6f7d6bea16b",
+  "max_worker_model_calls": 24,
+  "max_image_generations": 2,
+  "max_source_posts": 1,
+  "max_translations": 4,
+  "max_total_posts": 5
 }
