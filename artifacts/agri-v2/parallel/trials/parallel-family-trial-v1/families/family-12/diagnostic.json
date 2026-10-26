@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v1",
+  "family_id": "family-12",
+  "topic_id": "agri-6a04e31069c0",
+  "canonical_title": "میزان برداشت ماشک در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "started_at": "2026-10-26T05:18:55.092939+00:00",
+  "pid": 2232,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "quantitative_or_specialist_scope",
+  "assignment_retained": true,
+  "status": "trial_operational_failure",
+  "publication_authorized": false,
+  "failure": {
+    "kind": "validation",
+    "category": "trial_numeric_gate_bypassed"
+  },
+  "completed_at": "2026-10-26T05:19:04.333113+00:00"
+}

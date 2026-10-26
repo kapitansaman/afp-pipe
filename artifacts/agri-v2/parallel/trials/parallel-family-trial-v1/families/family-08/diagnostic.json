@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v1",
+  "family_id": "family-08",
+  "topic_id": "agri-c0e160d88554",
+  "canonical_title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+  "started_at": "2026-10-26T05:18:54.991546+00:00",
+  "pid": 2230,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "review_origin_needs_existing_content_audit",
+  "assignment_retained": true,
+  "status": "trial_diagnostic_completed",
+  "publication_authorized": false,
+  "diagnostic": {
+    "family_id": "family-08",
+    "topic_id": "agri-c0e160d88554",
+    "scope": "qualitative",
+    "existing_content_decision": "no_existing_content",
+    "next_stage": "source_discovery",
+    "source_queries": [
+      "ارقام ثبت‌شده کنجد ایران ویژگی‌های اقلیمی",
+      "انتخاب رقم کنجد مناسب هر منطقه ایران معیارها",
+      "معیارهای انتخاب بذر کنجد از نظر بازارپسندی و عملکرد",
+      "ارقام کنجد مقاوم به خشکی و شوری ایران",
+      "لیست ارقام تجاری کنجد مورد تایید سازمان امور کشاورزی"
+    ],
+    "reason": "هیچ‌یک از پنج سند موجود صرفاً به روش‌های آبیاری (نوار تیپ، گره‌ای، بارانی)، مقدار بذر در هکتار و هزینه‌های کاشت می‌پردازند و هیچ‌کدام به معیارهای انتخاب رقم کنجد بر اساس شرایط اقلیمی و بازارپسندی اشاره ندارند. بنابراین فقدان محتوای مرتبط قطعی است و نیاز به کشف منبع دارد.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "next_stage": "source_discovery",
+  "completed_at": "2026-10-26T05:19:04.273766+00:00"
+}

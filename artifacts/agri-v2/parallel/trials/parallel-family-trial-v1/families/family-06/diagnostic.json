@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v1",
+  "family_id": "family-06",
+  "topic_id": "agri-60e1ebaf13c8",
+  "canonical_title": "میزان برداشت کدو سبز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "started_at": "2026-10-26T05:18:55.083146+00:00",
+  "pid": 2229,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "review_origin_needs_existing_content_audit",
+  "assignment_retained": true,
+  "status": "trial_diagnostic_completed",
+  "publication_authorized": false,
+  "diagnostic": {
+    "family_id": "family-06",
+    "topic_id": "agri-60e1ebaf13c8",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "overlap_likely",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "zucchini summer squash yield per hectare Iran research",
+      "کدو سبز عملکرد هکتار دانشگاه کشاورزی",
+      "Cucurbita pepo yield ha agronomic study"
+    ],
+    "reason": "The topic requests numeric harvest-yield ranges for zucchini (کدو سبز) per hectare, which mandates a numeric_or_local scope. The single related document (511664) is a commercial irrigation-article focused on drip-tape economics, pressure, and fertigation—not on yield data, harvest amounts, or agronomic performance ranges. Its evidence_role explicitly states it is not independent university proof. Therefore overlap is likely but insufficient for the topic’s numeric needs, and specialist_evidence from university/extension sources is required.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "next_stage": "specialist_evidence",
+  "completed_at": "2026-10-26T05:19:00.989679+00:00"
+}

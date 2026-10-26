@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v1",
+  "family_id": "family-11",
+  "topic_id": "agri-3aec9f066bb5",
+  "canonical_title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
+  "started_at": "2026-10-26T05:18:55.052669+00:00",
+  "pid": 2231,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "review_origin_needs_existing_content_audit",
+  "assignment_retained": true,
+  "status": "trial_diagnostic_completed",
+  "publication_authorized": false,
+  "diagnostic": {
+    "family_id": "family-11",
+    "topic_id": "agri-3aec9f066bb5",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "potential_gap",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "لنتیل عدس زمان برداشت نشانه‌های رسیدگی غلاف",
+      "lentil harvest maturity indicators pod color moisture content",
+      "زمان مناسب برداشت عدس در ایران معیار رسیدگی",
+      "عدس برداشت غلاف قهوه‌ای رطوبت دانه استاندارد بازار",
+      "lentil harvesting stage physiological maturity guidelines"
+    ],
+    "reason": "Existing site articles primarily cover seeding rate (37353), drip-tape yield optimization (507270), intercropping irrigation (510844), and smart irrigation (511148). Only 37353 mentions harvest timing briefly (pod yellow-brown, ~14% moisture) as a single sentence within a seeding-rate article. The topic specifically requires detailed maturity signs (pod color transition, leaf senescence stage, seed hardness), moisture thresholds at harvest, and market-grade quality criteria—all absent from the four existing documents. This constitutes a clear content gap despite superficial mention. Because the topic demands numeric/local thresholds (moisture %, days after flowering, pod color stages), scope is numeric_or_local and the next stage is specialist_evidence to locate peer-reviewed or extension-source agronomic data.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "next_stage": "specialist_evidence",
+  "completed_at": "2026-10-26T05:19:28.869237+00:00"
+}

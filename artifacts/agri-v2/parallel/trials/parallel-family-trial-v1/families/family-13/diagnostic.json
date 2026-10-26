@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v1",
+  "family_id": "family-13",
+  "topic_id": "agri-6aa44095f748",
+  "canonical_title": "انتخاب رقم هندوانه تخمی برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+  "started_at": "2026-10-26T05:18:54.521182+00:00",
+  "pid": 2220,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "review_origin_needs_existing_content_audit",
+  "assignment_retained": true,
+  "status": "trial_diagnostic_completed",
+  "publication_authorized": false,
+  "diagnostic": {
+    "family_id": "family-13",
+    "topic_id": "agri-6aa44095f748",
+    "scope": "ambiguous",
+    "existing_content_decision": "needs_full_review",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "site:extension.oregonstate.edu watermelon dry-farmed variety evaluation criteria 2023 2024",
+      "site:ncsu.edu watermelon variety trial seedless market criteria climate zone",
+      "انتخاب رقم هندوانه تخمی معیار اقلیمی بازارپسندی منبع دانشگاهی",
+      "seedless watermelon variety selection climate adaptability market demand Iran regional guidelines"
+    ],
+    "reason": "الگوی محتوای موجود (id 37329) صرفاً درباره تناژ/روش‌های تولید است و مقالهٔ موردنیاز دربارهٔ «انتخاب رقم هندوانه تخمی» با معیارهای اقلیمی و بازارپسندی است؛ هدف (intent: variety) و نیازمندی‌ها (منبع ترویجی/دانشگاهی معتبر متناسب گونه، اقلیم و سامانه) از هم متمایزند. محتوای موجود به‌صورت گذرا چند رقم و منابع دانشگاهی آمریکایی را ذکر کرده اما جامعیت موضوع هدف را پوشش نمی‌دهد؛ همچنین دامنه موضوع شامل اقلیم ایران و معیارهای بازارپسندی است که بررسی تخصصی جدید می‌طلبد. متن ناقص نیست و قطعیت دارد، اما عدم تطابق محتوا و نیاز به منبع ترویجی/دانشگاهی معتبر باعث انتخاب next_stage: specialist_evidence می‌شود.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "next_stage": "specialist_evidence",
+  "completed_at": "2026-10-26T05:19:24.149357+00:00"
+}

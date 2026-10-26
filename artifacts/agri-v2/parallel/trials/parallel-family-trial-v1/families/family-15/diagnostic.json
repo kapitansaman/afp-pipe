@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v1",
+  "family_id": "family-15",
+  "topic_id": "agri-e4ad7582f1cd",
+  "canonical_title": "تعداد نشای گوجه‌فرنگی در هکتار؛ محاسبه نیاز خزانه و تلفات انتقال",
+  "started_at": "2026-10-26T05:18:55.002707+00:00",
+  "pid": 2223,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "quantitative_or_specialist_scope",
+  "assignment_retained": true,
+  "status": "trial_diagnostic_completed",
+  "publication_authorized": false,
+  "diagnostic": {
+    "family_id": "family-15",
+    "topic_id": "agri-e4ad7582f1cd",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "no_existing_content",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "تعداد نشای گوجه فرنگی در هکتار محاسبه",
+      "چگالی کشت گوجه فرنگی نشاء در هکتار دانشگاه",
+      "نیاز خزانه گوجه فرنگی برای یک هکتار تلفات انتقال",
+      "تراکم بوته گوجه فرنگی per hectare Iran agriculture extension"
+    ],
+    "reason": "Topic asks for numeric transplant density and nursery-calculations for tomatoes; no related_ids exist; source_queries target Iranian extension/university numeric prescriptions.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "next_stage": "specialist_evidence",
+  "completed_at": "2026-10-26T05:18:59.716147+00:00"
+}
