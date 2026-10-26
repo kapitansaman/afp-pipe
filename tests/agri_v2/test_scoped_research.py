@@ -101,3 +101,12 @@ class ScopedResearchTests(unittest.TestCase):
   with self.assertRaises(s.EvidenceBlocked):s.normalize_saved_candidate(t,v,d)
  def test_literal_english_word_measurements_are_not_new_model_numbers(self):
   self.assertEqual(s.tokens('sixteen weeks and two-cut system'),{'16','2'});self.assertEqual(s.tokens('one publication and two opinions'),set())
+
+ def test_overlap_quote_packet_preserves_every_character_and_article_identity(self):
+  t,v,d=self.fixture();b,r=self.overlap(t);text=b['documents'][0]['text']*30;b['documents'][0]['text']=text;packet=s.overlap_review_packet(b);self.assertEqual(''.join(q['text'] for q in packet[0]['full_text_chunks']),text);self.assertEqual(packet[0]['article_id'],12)
+ def test_overlap_selected_quote_is_bound_server_side_not_generated(self):
+  t,v,d=self.fixture();b,r=self.overlap(t);r['article_checks'][0].pop('evidence_quote');r['article_checks'][0]['quote_id']='12:0';bound=s.bind_overlap_quotes(b,r);s.validate_overlap(t,b,bound);self.assertEqual(bound['article_checks'][0]['evidence_quote'],b['documents'][0]['text']);r['article_checks'][0]['id']=1
+  with self.assertRaises(s.EvidenceBlocked):s.bind_overlap_quotes(b,r)
+ def test_conflicting_generated_quote_cannot_override_source(self):
+  t,v,d=self.fixture();b,r=self.overlap(t);r['article_checks'][0]['quote_id']='12:0';r['article_checks'][0]['evidence_quote']='Fabricated quote'
+  with self.assertRaises(s.EvidenceBlocked):s.bind_overlap_quotes(b,r)

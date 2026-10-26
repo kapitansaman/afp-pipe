@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-26T06:20:12.736034+00:00",
+  "regression_tests": 473,
+  "result": "passed",
+  "prior_live_run": "40278797955",
+  "prior_live_approved_briefs": 0,
+  "prior_live_published_posts": 0,
+  "exact_source_chunk_binding": true,
+  "full_source_text_retained": true,
+  "duplicate_publication_allowed": false
+}
