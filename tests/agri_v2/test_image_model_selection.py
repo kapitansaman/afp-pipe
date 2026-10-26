@@ -9,6 +9,12 @@ class ImageModelSelectionTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    p=Path(d)/'config.json';p.write_text(json.dumps({'image_model':'agnes-image-2.1-flash'}))
    self.assertEqual(h.configured_image_model(p),'agnes-image-2.1-flash')
+ def test_selected_model_is_25(self):
+  self.assertEqual(h.IMAGE_MODEL,'agnes-image-2.5-flash')
+ def test_25_config_is_supported(self):
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d)/'config.json';p.write_text(json.dumps({'image_model':'agnes-image-2.5-flash'}))
+   self.assertEqual(h.configured_image_model(p),'agnes-image-2.5-flash')
  def test_unsupported_config_fails_closed(self):
   with tempfile.TemporaryDirectory() as d:
    p=Path(d)/'config.json';p.write_text(json.dumps({'image_model':'other-model'}))

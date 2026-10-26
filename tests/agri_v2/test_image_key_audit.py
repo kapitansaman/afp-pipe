@@ -4,6 +4,15 @@ from unittest.mock import patch
 from automation.agri_v2 import image_key_audit as a,cycle
 from automation.agri_v2.queue import atomic_json,load_json
 class AuditTests(unittest.TestCase):
+ def setUp(self):
+  # This immutable historical request targets 2.1, not the active model.
+  model=patch.object(a,'IMAGE_MODEL',a.REQUEST['model']);model.start();self.addCleanup(model.stop)
+ def test_historical_request_rejects_new_model(self):
+  with tempfile.TemporaryDirectory() as d:
+   root,data,out=self.setup_paths(d)
+   with patch.object(a,'DATA',data),patch.object(a,'OUT',out),patch.object(a,'IMAGE_MODEL','agnes-image-2.5-flash'):
+    with self.assertRaises(ValueError):a.run(env={},probe_fn=lambda *x:self.fail('paid request'))
+
  def health(self):return {'checked_at':'2026-10-24T08:28:09+00:00','image_model':a.IMAGE_MODEL,'api_base':a.API_BASE,'slots':[{'slot':s,'text':{'state':'healthy'},'image':{'state':'not_probed'}} for s in a.SLOTS],'eligible_image_slots':['AGNES_API_KEY']}
  def test_unique_first_fifteen_only(self):
   slots,aliases=a.unique_slots({'AGNES_API_KEY':'a','AGNES_API_KEY2':'b','AGNES_API_KEY8':'a','AGNES_API_KEY23':'c'})

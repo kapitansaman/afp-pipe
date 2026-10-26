@@ -9,3 +9,5 @@
 - Historical one-off recovery and pilot requests are disabled in the new normal scheduler. Existing articles, accepted images and retry counters must not be regenerated or reset.
 - Image admission, telemetry and workflow guards now point to the destination. Legacy blog workflows remain disabled; only selected agriculture workflows may be activated.
 - Content requirements remain unchanged: two shared images, Persian plus Russian/Arabic/Tajik/English, same-language internal links, source validation and critical image checks.
+
+- Active image model changed by owner request to `agnes-image-2.5-flash`. Model-specific capability evidence for 2.1 is not approval for 2.5; production remains paused. Historical audit requests and output records remain unchanged.

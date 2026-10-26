@@ -1,7 +1,7 @@
 {
   "version": 1,
   "text_model": "agnes-2.5-flash",
-  "image_model": "agnes-image-2.1-flash",
+  "image_model": "agnes-image-2.5-flash",
   "api_base": "https://apihub.agnes-ai.com/v1",
   "max_key_slot": 22,
   "images_per_article": 2,
