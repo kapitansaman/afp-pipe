@@ -80,7 +80,7 @@ class ModelClient:
   rotation=load_json(DATA/'config.json')
   self.image_rotation_enabled=rotation.get('image_key_rotation',{}).get('enabled',False)
   self.image_rotation_binding=rotation.get('credential_set_id')
-  self.image_candidates=self.keys['image']+self.keys['text']
+  self.image_candidates=[(name,self.env.get(name,'').strip()) for name in SLOTS if self.env.get(name,'').strip()] if self.image_rotation_enabled else self.keys['image']
  def request(self,kind,path,payload,timeout,attempts=None):
   pool=self.keys[kind];start=self.used[kind]%len(pool);self.used[kind]+=1;last='no_response'
   limit=1 if kind=='image' or attempts==1 else min(2,len(pool))

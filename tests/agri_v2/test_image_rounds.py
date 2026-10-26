@@ -49,3 +49,12 @@ class RoundTests(unittest.TestCase):
     with self.assertRaises(ImageProviderError):r.generate(c,{'prompt':'test'},[])
    with patch.object(r.time,'time',return_value=2000):self.assertEqual(r.generate(c,{'prompt':'test'},[]),b'valid')
    self.assertEqual(names,SLOTS[:2])
+
+ def test_owner_round_includes_all_thirty_configured_candidates(self):
+  from automation.agri_v2.client import ModelClient
+  from automation.agri_v2.healthcheck import TEXT_MODEL,API_BASE
+  from automation.agri_v2.queue import utcnow
+  report={'checked_at':utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'eligible_text_slots':[SLOTS[0]],'eligible_image_slots':[SLOTS[0]]}
+  env={name:'PRIVATE-'+str(i) for i,name in enumerate(SLOTS)}
+  with patch('automation.agri_v2.queue.load_json',return_value={'credential_set_id':'test30','image_key_rotation':{'enabled':True}}):client=ModelClient(report,env,True)
+  self.assertEqual(len(client.image_candidates),30);self.assertEqual(client.image_candidates[-1][0],SLOTS[-1])
