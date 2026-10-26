@@ -1,5 +1,5 @@
 {
-  "attempts": 1,
+  "attempts": 2,
   "history": [
     {
       "attempts": 1,
@@ -11,14 +11,25 @@
         "kind": "validation",
         "category": "every_existing_article_requires_review"
       }
+    },
+    {
+      "attempts": 2,
+      "status": "failed",
+      "last_run_id": "40279244433",
+      "started_at": "2026-10-26T06:23:25.652908+00:00",
+      "completed_at": "2026-10-26T06:23:35.827487+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "existing_content_overlap_or_uncertain"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40278797955",
-  "started_at": "2026-10-26T06:18:49.731368+00:00",
+  "last_run_id": "40279244433",
+  "started_at": "2026-10-26T06:23:25.652908+00:00",
+  "completed_at": "2026-10-26T06:23:35.827487+00:00",
   "failure": {
     "kind": "validation",
-    "category": "every_existing_article_requires_review"
-  },
-  "completed_at": "2026-10-26T06:19:04.569068+00:00"
+    "category": "existing_content_overlap_or_uncertain"
+  }
 }

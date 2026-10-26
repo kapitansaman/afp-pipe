@@ -1,5 +1,5 @@
 {
-  "attempts": 1,
+  "attempts": 2,
   "history": [
     {
       "attempts": 1,
@@ -11,14 +11,18 @@
         "kind": "validation",
         "category": "overlap_review_unbound_or_duplicate"
       }
+    },
+    {
+      "attempts": 2,
+      "status": "validated",
+      "last_run_id": "40279244433",
+      "started_at": "2026-10-26T06:23:25.723696+00:00",
+      "completed_at": "2026-10-26T06:23:40.345460+00:00",
+      "failure": null
     }
   ],
-  "status": "failed",
-  "last_run_id": "40278797955",
-  "started_at": "2026-10-26T06:18:49.734065+00:00",
-  "failure": {
-    "kind": "validation",
-    "category": "overlap_review_unbound_or_duplicate"
-  },
-  "completed_at": "2026-10-26T06:19:03.957186+00:00"
+  "status": "validated",
+  "last_run_id": "40279244433",
+  "started_at": "2026-10-26T06:23:25.723696+00:00",
+  "completed_at": "2026-10-26T06:23:40.345460+00:00"
 }

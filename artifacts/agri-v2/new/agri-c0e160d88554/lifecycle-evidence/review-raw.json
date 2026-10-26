@@ -1,0 +1,49 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع ارائه‌شده همگی متعلق به مناطق تولیدی آمریکا (تگزاس، اوکلاهما، کارولینای شمالی، ویسکانسین) هستند و فاقد هرگونه شواهد بومی‌سازی‌شده برای اقلیم‌های ایران‌زمین‌شناسی و کشاورزی هستند. هیچ‌یک از ارقام ذکرشده (مانند SESACO, Blanco, Margo) توصیه ترویجی برای ایران محسوب نمی‌شوند و انتقال مستقیم معیارهای انتخاب رقم آمریکایی به ایران بدون آزمون بومی غیرموجه است. عبارت «طبقه‌بندی کیفی دانه کنجد، بر اساس استاندارد بازار CMN» در f2 فاقد استناد واقعی در متن منبع است (هیچ مرجع CMA/CMN در اسناد یافت نشد). همچنین عبارت «نیمه‌شکستنی» در f0 و f4 معادل دقیق nonshattering (غیرشکننده/مقاوم به باز شدن) نیست و طبقه‌بندی سه‌گانه اضافه‌ای ارائه می‌دهد که در متون مرجع وجود ندارد. منبع d2-e11 نسخه قدیمی‌تر (۲۰۰۷) راهنمای Sesaco است که با ارقام جدید Sesaco 25-29 مطابقت دارد؛ این سند به‌تنهایی و بدون تأیید مستقل، مبنای توصیف رقم‌های نیمه‌شکستنی قرار گرفته است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": false,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": false,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": false,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}
