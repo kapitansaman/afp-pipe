@@ -1,5 +1,5 @@
 {
-  "attempts": 2,
+  "attempts": 3,
   "history": [
     {
       "attempts": 1,
@@ -22,12 +22,23 @@
         "kind": "validation",
         "category": "two_independent_publications_required"
       }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40279858531",
+      "started_at": "2026-10-26T06:29:21.727371+00:00",
+      "completed_at": "2026-10-26T06:29:21.795621+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "two_independent_publications_required"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40279244433",
-  "started_at": "2026-10-26T06:23:25.633422+00:00",
-  "completed_at": "2026-10-26T06:23:25.697812+00:00",
+  "last_run_id": "40279858531",
+  "started_at": "2026-10-26T06:29:21.727371+00:00",
+  "completed_at": "2026-10-26T06:29:21.795621+00:00",
   "failure": {
     "kind": "validation",
     "category": "two_independent_publications_required"
