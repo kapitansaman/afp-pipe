@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "repository": "kapitansaman/afp-pipe",
+  "credential_set_id": "afp-pipe-22-keys-v1",
+  "keys": {},
+  "shared_retry_at_epoch": 0,
+  "scope": "New credential set only; never reuse historical per-key holds from another repository."
+}

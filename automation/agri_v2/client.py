@@ -1,4 +1,4 @@
-"""First-15-only, capability-gated model client with redacted errors."""
+"""First-22-only, capability-gated model client with redacted errors."""
 import base64,contextlib,io,json,os,urllib.error,urllib.request,urllib.parse,socket,ipaddress
 from .healthcheck import SLOTS,TEXT_MODEL,IMAGE_MODEL,API_BASE,classify,MAX_RESPONSE
 from .queue import age_hours
@@ -62,7 +62,11 @@ class ModelClient:
   if not allow_calls:raise CapabilityError('Explicit model-call confirmation is required')
   if age_hours(report['checked_at'])>24:raise CapabilityError('Health report expired; rerun capability checks')
   if (report.get('text_model'),report.get('image_model'),report.get('api_base'))!=(TEXT_MODEL,IMAGE_MODEL,API_BASE):raise CapabilityError('Health model/base mismatch')
-  self.env=os.environ if env is None else env;self.report=report;self.used={'text':0,'image':0}
+  self.env=os.environ if env is None else env
+  if self.env.get('GITHUB_ACTIONS')=='true':
+   from .credential_policy import trusted
+   if not trusted(report):raise CapabilityError('Capability evidence belongs to another repository or credential set')
+  self.report=report;self.used={'text':0,'image':0}
   self.keys={}
   for kind in ['text','image']:
    names=report.get('eligible_'+kind+'_slots',[])

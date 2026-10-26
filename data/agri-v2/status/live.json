@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "status": "awaiting_review",
-  "stage": "پژوهش متوقف شد: insufficient_fetchable_institutional_sources؛ مقاله منتشر نشد",
+  "status": "publication_disabled",
+  "stage": "مهاجرت به مخزن جدید؛ تولید متوقف تا بررسی ۲۲ کلید و تنظیم اتصال وردپرس",
   "percent": 0,
-  "topic_id": "agri-429eaf27d735",
-  "topic_title": "درجه‌بندی محصول کدو آجیلی برای فروش؛ کیفیت، ناخالصی و افت وزنی",
-  "updated_at": "2026-10-26T00:08:34.195696+00:00",
-  "run_id": "40247789748",
-  "run_url": "https://github.com/getsalet/nono/actions/runs/40247789748",
+  "topic_id": "",
+  "topic_title": "",
+  "updated_at": "2026-10-26T01:22:27.165468+00:00",
+  "run_id": null,
+  "run_url": null,
   "schedule_cron": "*/5 * * * *",
   "max_posts_per_run": 1,
   "metrics": {
@@ -54,12 +54,12 @@
     }
   ],
   "last_task": {
-    "status": "awaiting_review",
-    "stage": "پژوهش متوقف شد: insufficient_fetchable_institutional_sources؛ مقاله منتشر نشد",
+    "status": "publication_disabled",
+    "stage": "مهاجرت به مخزن جدید؛ تولید متوقف تا بررسی ۲۲ کلید و تنظیم اتصال وردپرس",
     "percent": 0,
-    "topic_id": "agri-429eaf27d735",
-    "topic_title": "درجه‌بندی محصول کدو آجیلی برای فروش؛ کیفیت، ناخالصی و افت وزنی",
-    "updated_at": "2026-10-26T00:08:34.195696+00:00",
-    "run_url": "https://github.com/getsalet/nono/actions/runs/40247789748"
+    "topic_id": "",
+    "topic_title": "",
+    "updated_at": "2026-10-26T01:22:27.165468+00:00",
+    "run_url": null
   }
 }

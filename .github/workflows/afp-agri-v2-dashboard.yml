@@ -1,0 +1,30 @@
+name: AFP agriculture - deploy progress dashboard
+on:
+  push:
+    branches: [main]
+    paths:
+      - docs/agri-v2-dashboard/**
+      - .github/workflows/afp-agri-v2-dashboard.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: afp-agri-v2-dashboard
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/agri-v2-dashboard
+      - name: Deploy status dashboard only
+        id: deployment
+        uses: actions/deploy-pages@v4

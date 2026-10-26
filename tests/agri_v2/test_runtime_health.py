@@ -39,8 +39,8 @@ class RuntimeHealthTests(unittest.TestCase):
   self.assertFalse(h.fresh('2000-01-01T00:00:00+00:00'));self.assertFalse(h.fresh('2999-01-01T00:00:00+00:00'));self.assertTrue(h.fresh(utcnow()))
  def test_runtime_proof_validated_by_kind_model_and_slot(self):
   with tempfile.TemporaryDirectory() as tmp:
-   out=Path(tmp);atomic_json(out/'runtime-health/image/AGNES_API_KEY2.json',{'kind':'image','slot':'AGNES_API_KEY2','model':h.IMAGE_MODEL,'api_base':h.API_BASE,'verified_at':utcnow(),'verification':'actual_successful_production_response'})
-   atomic_json(out/'runtime-health/text/AGNES_API_KEY16.json',{'kind':'text','slot':'AGNES_API_KEY16','model':h.TEXT_MODEL,'api_base':h.API_BASE,'verified_at':utcnow(),'verification':'actual_successful_production_response'})
+   out=Path(tmp);atomic_json(out/'runtime-health/image/AGNES_API_KEY2.json',{**__import__('automation.agri_v2.credential_policy',fromlist=['binding']).binding(),'kind':'image','slot':'AGNES_API_KEY2','model':h.IMAGE_MODEL,'api_base':h.API_BASE,'verified_at':utcnow(),'verification':'actual_successful_production_response'})
+   atomic_json(out/'runtime-health/text/AGNES_API_KEY23.json',{'kind':'text','slot':'AGNES_API_KEY23','model':h.TEXT_MODEL,'api_base':h.API_BASE,'verified_at':utcnow(),'verification':'actual_successful_production_response'})
    ev=h.evidence(out);self.assertIn('AGNES_API_KEY2',ev['image']);self.assertFalse(ev['text'])
  def test_image_only_cooldown_does_not_prevent_text_health_probe(self):
   with tempfile.TemporaryDirectory() as tmp:

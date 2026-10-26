@@ -10,7 +10,8 @@ MAX_AGE=24
 
 def record(kind,slot,model,blob=None):
  if kind not in ('text','image') or slot not in SLOTS or model!=({'text':TEXT_MODEL,'image':IMAGE_MODEL}[kind]):return
- row={'kind':kind,'slot':slot,'model':model,'api_base':API_BASE,'verified_at':utcnow(),'verification':'actual_successful_production_response','run_id':os.environ.get('GITHUB_RUN_ID')}
+ from .credential_policy import binding
+ row={**binding(),'kind':kind,'slot':slot,'model':model,'api_base':API_BASE,'verified_at':utcnow(),'verification':'actual_successful_production_response','run_id':os.environ.get('GITHUB_RUN_ID')}
  if blob is not None:row['decoded_image_sha256']=hashlib.sha256(blob).hexdigest()
  atomic_json(OUT/'runtime-health'/kind/(slot+'.json'),row)
 
@@ -21,13 +22,16 @@ def fresh(at):
 def evidence(out=OUT):
  result={'text':{},'image':{}}
  def take(kind,slot,row,path):
+  from .credential_policy import trusted
+  if not trusted(row):return
   if slot not in SLOTS or not fresh(row.get('verified_at')):return
   old=result[kind].get(slot)
   if not old or age_hours(row['verified_at'])<age_hours(old['verified_at']):result[kind][slot]={**row,'evidence_path':str(path)}
  audit=out/'image-key-audit/unique-image-capability-v1/report.json'
  if audit.exists():
   report=load_json(audit)
-  if report.get('model')==IMAGE_MODEL:
+  from .credential_policy import trusted
+  if report.get('model')==IMAGE_MODEL and trusted(report):
    for row in report.get('cases',[]):
     if row.get('state')!='healthy' or row.get('http_status')!=200 or not row.get('path'):continue
     path=(ROOT/row['path']).resolve()
@@ -42,7 +46,8 @@ def evidence(out=OUT):
 
 def ensure_fresh(data=DATA,out=OUT,env=None,post_fn=None):
  hp=data/'health/latest.json';old=load_json(hp) if hp.exists() else {}
- if fresh(old.get('checked_at')):return {'status':'health_current','model_calls':0}
+ from .credential_policy import trusted,binding
+ if fresh(old.get('checked_at')) and trusted(old,data):return {'status':'health_current','model_calls':0}
  config=load_json(data/'config.json').get('runtime_health',{})
  if config.get('enabled') is not True or config.get('max_text_probes_per_6h')!=1 or config.get('max_image_probes')!=0:return {'status':'health_refresh_not_authorized','model_calls':0}
  ev=evidence(out);env=os.environ if env is None else env;post_fn=post if post_fn is None else post_fn;calls=0
@@ -64,11 +69,11 @@ def ensure_fresh(data=DATA,out=OUT,env=None,post_fn=None):
    except (KeyError,IndexError,TypeError):pass
   atomic_json(probe_path,{'at':utcnow(),'slot':slot,'max_calls':1,'image_calls':0,'status':'verified' if valid else 'failed','http_status':safe.get('http_status')})
   if not valid:return {'status':'bounded_text_probe_failed','model_calls':calls}
-  row={'kind':'text','slot':slot,'model':TEXT_MODEL,'api_base':API_BASE,'verified_at':utcnow(),'verification':'actual_bounded_text_probe','run_id':os.environ.get('GITHUB_RUN_ID')}
+  row={**binding(data),'kind':'text','slot':slot,'model':TEXT_MODEL,'api_base':API_BASE,'verified_at':utcnow(),'verification':'actual_bounded_text_probe','run_id':os.environ.get('GITHUB_RUN_ID')}
   path=out/'runtime-health/text'/(slot+'.json');atomic_json(path,row);ev['text'][slot]={**row,'evidence_path':str(path)}
  # This is the oldest still-valid underlying observation, NOT the rebuild time.
  checked=max((r['verified_at'] for kind in ev.values() for r in kind.values()),key=age_hours)
- report={'version':2,'checked_at':checked,'rebuilt_at':utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'slot_limit':15,'slots':[], 'eligible_text_slots':[s for s in SLOTS if s in ev['text']], 'eligible_image_slots':[s for s in SLOTS if s in ev['image']],'capability_evidence':ev,'scope':'Only actual unexpired per-capability observations; no blanket pool refresh','new_image_probes':0}
+ report={**binding(data),'version':2,'checked_at':checked,'rebuilt_at':utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'slot_limit':len(SLOTS),'slots':[], 'eligible_text_slots':[s for s in SLOTS if s in ev['text']], 'eligible_image_slots':[s for s in SLOTS if s in ev['image']],'capability_evidence':ev,'scope':'Only actual unexpired per-capability observations; no blanket pool refresh','new_image_probes':0}
  for s in SLOTS:
   report['slots'].append({'slot':s,'configured':bool(env.get(s,'')),'text':{'state':'healthy' if s in ev['text'] else 'not_reverified'},'image':{'state':'healthy' if s in ev['image'] else 'not_reverified'}})
  if hp.exists():atomic_json(out/'runtime-health/snapshots'/('before-'+utcnow().replace(':','-')+'.json'),old)

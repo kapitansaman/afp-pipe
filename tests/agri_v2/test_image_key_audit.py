@@ -6,7 +6,7 @@ from automation.agri_v2.queue import atomic_json,load_json
 class AuditTests(unittest.TestCase):
  def health(self):return {'checked_at':'2026-10-24T08:28:09+00:00','image_model':a.IMAGE_MODEL,'api_base':a.API_BASE,'slots':[{'slot':s,'text':{'state':'healthy'},'image':{'state':'not_probed'}} for s in a.SLOTS],'eligible_image_slots':['AGNES_API_KEY']}
  def test_unique_first_fifteen_only(self):
-  slots,aliases=a.unique_slots({'AGNES_API_KEY':'a','AGNES_API_KEY2':'b','AGNES_API_KEY8':'a','AGNES_API_KEY16':'c'})
+  slots,aliases=a.unique_slots({'AGNES_API_KEY':'a','AGNES_API_KEY2':'b','AGNES_API_KEY8':'a','AGNES_API_KEY23':'c'})
   self.assertEqual(len(slots),2);self.assertEqual(aliases,{'AGNES_API_KEY8':'AGNES_API_KEY'})
  def test_long_retry_after_preserved(self):self.assertEqual(a.retry_seconds('3600'),3600)
  def test_retry_after_http_date(self):self.assertEqual(a.retry_seconds('Sun, 25 Oct 2026 03:00:00 GMT',1792893600),3600)
@@ -17,7 +17,7 @@ class AuditTests(unittest.TestCase):
   h=self.health();before=copy.deepcopy(h);a.apply_result(h,'AGNES_API_KEY2',{'state':'healthy','checked_at':'new'})
   self.assertEqual(h['checked_at'],before['checked_at']);self.assertEqual([x['text'] for x in h['slots']],[x['text'] for x in before['slots']]);self.assertIn('AGNES_API_KEY2',h['eligible_image_slots'])
  def setup_paths(self,d):
-  root=Path(d);data=root/'data';out=root/'out';atomic_json(data/'image-key-audit-request.json',a.REQUEST);atomic_json(data/'health/latest.json',self.health());return root,data,out
+  root=Path(d);data=root/'data';out=root/'out';atomic_json(data/'config.json',{'legacy_one_off_hooks_enabled':True});atomic_json(data/'image-key-audit-request.json',a.REQUEST);atomic_json(data/'health/latest.json',self.health());return root,data,out
  def test_cooldown_spends_no_calls_or_reservation(self):
   with tempfile.TemporaryDirectory() as d:
    root,data,out=self.setup_paths(d)

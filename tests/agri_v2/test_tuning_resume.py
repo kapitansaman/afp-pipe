@@ -30,7 +30,7 @@ class TuningResumeTests(unittest.TestCase):
     self.assertEqual(t.run()['status'],'needs_fresh_health_evidence');run.assert_not_called()
  def test_scheduled_tuning_does_not_touch_wordpress(self):
   with tempfile.TemporaryDirectory() as d:
-   data=Path(d);atomic_json(data/'image-tuning-resume-request.json',self.req())
+   data=Path(d);atomic_json(data/'config.json',{'legacy_one_off_hooks_enabled':True});atomic_json(data/'image-tuning-resume-request.json',self.req())
    with patch.object(cycle,'DATA',data),patch.object(t,'run',return_value={'status':'waiting','model_calls':0}) as run,patch.object(cycle,'WordPress') as wp:
     self.assertEqual(cycle.run(scheduled=True)['model_calls'],0);wp.assert_not_called();run.assert_called_once()
  def test_red_harvest_guide_does_not_leak_to_green_or_pinto_or_other_crop(self):

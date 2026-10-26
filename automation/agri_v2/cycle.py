@@ -28,22 +28,25 @@ def fresh_inventory(wp,snapshot=None):
  return wp.inventory()
 
 def run(request_path=None,scheduled=False,_research_done=False,_research_inventory=None):
+ config=load_json(DATA/'config.json')
+ if config.get('repository')=='kapitansaman/afp-pipe' and not config.get('publication_enabled'):return {'status':'publication_disabled','model_calls':0,'published_posts':0}
  from .safe_activation import authorized as activation_authorized,skip_completed_tuning
  safe_active=scheduled and activation_authorized(DATA)
  deferred=[]
- if scheduled and (DATA/'image-key-audit-request.json').exists():
+ hooks=load_json(DATA/'config.json').get('legacy_one_off_hooks_enabled',True)
+ if hooks and scheduled and (DATA/'image-key-audit-request.json').exists():
   from .image_key_audit import run as audit_images
   audit_result=audit_images()
   if audit_result is not None:return audit_result
- if scheduled and (DATA/'image-tuning-resume-request.json').exists() and not (safe_active and skip_completed_tuning()):
+ if hooks and scheduled and (DATA/'image-tuning-resume-request.json').exists() and not (safe_active and skip_completed_tuning()):
   from .tuning_resume import run as resume_tuning
   tuning=resume_tuning()
   if tuning is not None:return tuning
- if safe_active and (DATA/'practical-recheck-request.json').exists():
+ if hooks and safe_active and (DATA/'practical-recheck-request.json').exists():
   from .practical_recheck import run as recheck_existing
   result=recheck_existing()
   if result is not None:return result
- if safe_active and (DATA/'curated-continuation-request.json').exists():
+ if hooks and safe_active and (DATA/'curated-continuation-request.json').exists():
   from .curated_continuation import REMAINING_ID,resumable,run as continue_curated
   continuation=load_json(DATA/'curated-continuation-request.json')
   receipt=OUT/'curated-continuations'/REMAINING_ID/'receipt.json'
@@ -60,7 +63,7 @@ def run(request_path=None,scheduled=False,_research_done=False,_research_invento
   if health['status'] not in {'health_current','health_refreshed_from_actual_evidence'}:
    update('اتصال نیازمند بررسی محدود است؛ تولید بی‌دلیل اجرا نشد',0,status='health_refresh_required')
    return health
- if safe_active and (DATA/'production-start-request.json').exists():
+ if hooks and safe_active and (DATA/'production-start-request.json').exists():
   from .prepared_continuation import scheduled_resume
   continuation=scheduled_resume()
   if continuation is not None:
@@ -70,7 +73,7 @@ def run(request_path=None,scheduled=False,_research_done=False,_research_invento
   from .multilingual import backfill_one
   family=backfill_one(WordPress())
   if family is not None:return family
- if scheduled and (DATA/'pilot-resume-request.json').exists():
+ if hooks and scheduled and (DATA/'pilot-resume-request.json').exists():
   from .pilot_resume import run as resume_pilot
   recovery=resume_pilot()
   if recovery is not None:

@@ -7,7 +7,7 @@ def shared_evidence():
  # Read latest public routing/cooldown evidence; never read secret values from Git.
  subprocess.run(['git','fetch','--quiet','origin','main:refs/remotes/origin/main'],cwd=ROOT,check=True,capture_output=True)
  result=[]
- for path in ['data/blog-image-provider-backpressure.json','data/blog-image-key-pool-state.json']:
+ for path in ['data/agri-v2/key-backpressure.json']:
   p=subprocess.run(['git','show','origin/main:'+path],cwd=ROOT,check=True,capture_output=True)
   try:d=json.loads(p.stdout)
   except ValueError:raise AdmissionBlocked('Unreadable shared provider evidence') from None

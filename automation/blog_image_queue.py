@@ -4,7 +4,7 @@ Only completed Actions owners can be reclaimed; a stale lock has a 30-minute
 quarantine. Missing permissions, unreadable state and ambiguous ownership fail closed.
 """
 import contextlib,datetime,json,os,random,re,time,urllib.error,urllib.request,uuid
-API='https://api.github.com/repos/getsalet/nono'
+API='https://api.github.com/repos/kapitansaman/afp-pipe'
 PREFIX='heads/afp-blog-image-queue/'
 LOCK='heads/afp-blog-image-provider-lock-v1'
 MESSAGE='AFP blog image lease v1\n'

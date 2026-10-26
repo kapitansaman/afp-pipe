@@ -1,0 +1,11 @@
+# AFP pipe migration and key connection
+
+- Destination: `kapitansaman/afp-pipe`; production branch: `feat/agri-generator-v2-2905-merge593`.
+- Old agriculture schedule was removed and old production/research flags were paused. Original queues, attempts and receipts are preserved.
+- GitHub Secrets `AGNES_API_KEY_1` through `AGNES_API_KEY_22` map explicitly to internal slots `AGNES_API_KEY`, `AGNES_API_KEY2` … `AGNES_API_KEY22` in each agriculture workflow.
+- Secret values and credential fingerprints are never written to Git or logs. New key capability evidence is bound to this repository and credential set `afp-pipe-22-keys-v1`; historical evidence is not authorization for new credentials.
+- The fresh connection workflow makes at most one tiny text probe and one image probe per unique configured key. Any shared rate/quota/capacity/uncertain response stops the audit; keys do not bypass provider limits. Results distinguish configured, unique, tested and verified capabilities.
+- Production remains paused pending fresh capability evidence and the three WordPress Secrets: `AFP_WP_BASE_URL`, `AFP_WP_USERNAME`, `AFP_WP_APP_PASSWORD`. Credentials must be set through GitHub Secrets, not committed.
+- Historical one-off recovery and pilot requests are disabled in the new normal scheduler. Existing articles, accepted images and retry counters must not be regenerated or reset.
+- Image admission, telemetry and workflow guards now point to the destination. Legacy blog workflows remain disabled; only selected agriculture workflows may be activated.
+- Content requirements remain unchanged: two shared images, Persian plus Russian/Arabic/Tajik/English, same-language internal links, source validation and critical image checks.

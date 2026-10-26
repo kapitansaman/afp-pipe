@@ -10,7 +10,7 @@ def configured_image_model(path=None):
     if model not in SUPPORTED_IMAGE_MODELS:raise ValueError('Unsupported configured image model; fail closed')
     return model
 IMAGE_MODEL=configured_image_model()
-SLOTS=['AGNES_API_KEY']+[f'AGNES_API_KEY{i}' for i in range(2,16)]
+SLOTS=['AGNES_API_KEY']+[f'AGNES_API_KEY{i}' for i in range(2,23)]
 MAX_RESPONSE=18*1024*1024
 
 def now():return datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat()
@@ -99,7 +99,8 @@ def audit(env=None,probe_fn=None):
         if slot in aliases:entry['duplicate_of']=owner
         byslot[slot]=entry
     ordered=[byslot[s] for s in SLOTS]
-    return {'version':1,'checked_at':now(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'slot_limit':15,'configured_slots':sum(x['configured'] for x in ordered),'unique_credentials_tested':len(unique),'slots':ordered,'eligible_text_slots':[s for s in SLOTS if s in results and results[s]['text']['state']=='healthy'],'eligible_image_slots':[s for s in SLOTS if s in results and results[s]['image']['state']=='healthy'],'no_article_generation':True,'no_publication':True,'run_id':str(env.get('GITHUB_RUN_ID','')),'source_commit':str(env.get('GITHUB_SHA',''))}
+    from .credential_policy import binding
+    return {**binding(),'version':1,'checked_at':now(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'slot_limit':len(SLOTS),'configured_slots':sum(x['configured'] for x in ordered),'unique_credentials_tested':len(unique),'slots':ordered,'eligible_text_slots':[s for s in SLOTS if s in results and results[s]['text']['state']=='healthy'],'eligible_image_slots':[s for s in SLOTS if s in results and results[s]['image']['state']=='healthy'],'no_article_generation':True,'no_publication':True,'run_id':str(env.get('GITHUB_RUN_ID','')),'source_commit':str(env.get('GITHUB_SHA',''))}
 
 def main():
     report=audit();path=Path('data/agri-v2/health/latest.json');path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(report,ensure_ascii=False,indent=2))

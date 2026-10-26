@@ -18,7 +18,7 @@ class RoutingTests(unittest.TestCase):
  def test_all_keys_blocked(self):
   with self.assertRaises(r.AdmissionBlocked):r.choose(self.pool,0,[{'keys':{n:{'status':'quota_limited'} for n,k in self.pool}}],100)
  def test_unknown_slot_rejected(self):
-  with self.assertRaises(r.AdmissionBlocked):r.choose([('AGNES_API_KEY16','z')],0,[],100)
+  with self.assertRaises(r.AdmissionBlocked):r.choose([('AGNES_API_KEY23','z')],0,[],100)
  def test_invalid_deadline_fails_closed(self):
   with self.assertRaises(r.AdmissionBlocked):r.choose(self.pool,0,[{'retry_at_epoch':'unknown'}],100)
  def test_persists_only_slot_not_secret(self):
