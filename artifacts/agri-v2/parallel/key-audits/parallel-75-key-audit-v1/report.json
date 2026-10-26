@@ -1,0 +1,624 @@
+{
+  "request_id": "parallel-75-key-audit-v1",
+  "repository": "kapitansaman/afp-pipe",
+  "credential_set_id": "afp-pipe-parallel-75-keys-v1",
+  "run_id": "40271630098",
+  "started_at": "2026-10-26T04:57:13.269726+00:00",
+  "configured_slots": 75,
+  "unique_credentials": 75,
+  "duplicate_slots": {},
+  "missing_slots": [],
+  "max_text_requests": 75,
+  "max_in_flight": 2,
+  "model_calls": 75,
+  "image_calls": 0,
+  "wordpress_calls": 0,
+  "published_posts": 0,
+  "cases": [
+    {
+      "slot": "AGNES_API_KEY",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:14.576214+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:15.383684+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY2",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:14.577517+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:15.381717+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY3",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:15.382647+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:15.962165+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY4",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:15.384395+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:15.959126+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY5",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:15.960471+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:16.534842+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY6",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:15.962908+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:16.538305+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY7",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:16.535888+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:17.086714+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY8",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:16.538933+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:17.093283+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY9",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:17.087861+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:17.682272+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY10",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:17.093979+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:21.734910+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY11",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:17.683300+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:18.236040+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY12",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:18.237089+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:19.204701+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY13",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:19.205767+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:20.060074+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY14",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:20.061112+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:20.592437+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY15",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:20.593475+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:25.269166+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY16",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:21.736006+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:22.345806+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY17",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:22.346811+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:22.934968+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY18",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:22.936203+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:23.565807+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY19",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:23.566912+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:28.138802+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY20",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:25.270301+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:25.832069+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY21",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:25.833243+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:30.379381+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY22",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:28.139928+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:32.686413+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY23",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:30.380554+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:30.937039+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY24",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:30.938395+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:32.186596+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY25",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:32.187823+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:32.745694+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY26",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:32.687475+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:33.259984+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY27",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:32.746663+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:33.594417+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY28",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:33.261142+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:33.982440+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY29",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:33.595665+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:34.154678+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY30",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:33.983842+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:34.552920+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY31",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:34.155845+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:34.800857+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY32",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:34.554101+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:35.085738+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY33",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:34.801958+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:35.331772+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY34",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:35.086848+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:35.655810+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY35",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:35.333101+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:35.973069+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY36",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:35.657008+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:36.195937+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY37",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:35.974221+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:37.277236+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY38",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:36.197070+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:36.795031+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY39",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:36.796276+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:37.561692+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY40",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:37.278475+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:37.887608+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY41",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:37.563083+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:38.348633+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY42",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:37.888901+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:38.451459+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY43",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:38.350036+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:39.104888+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY44",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:38.452562+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:39.123072+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY45",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:39.106325+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:39.705572+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY46",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:39.123978+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:43.696067+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY47",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:39.707045+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:40.331614+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY48",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:40.333273+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:48.048615+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY49",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:43.697310+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:44.822760+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY50",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:44.824038+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:45.524091+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY51",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:45.525394+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:46.373616+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY52",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:46.374965+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:46.949525+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY53",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:46.950787+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:47.491363+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY54",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:47.492752+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:48.057693+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY55",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:48.049984+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:48.795412+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY56",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:48.058920+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:48.605577+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY57",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:48.606990+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:49.160970+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY58",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:48.796752+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:50.521881+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY59",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:49.162555+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:54.284867+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY60",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:50.523446+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:51.125590+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY61",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:51.127092+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:51.728819+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY62",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:51.730179+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:52.273324+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY63",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:52.274640+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:52.927375+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY64",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:52.928661+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:53.518001+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY65",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:53.519391+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:54.119564+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY66",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:54.121045+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:54.871567+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY67",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:54.286443+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:54.827055+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY68",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:54.828552+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:55.406709+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY69",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:54.872603+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:55.421823+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY70",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:55.408280+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:56.034026+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY71",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:55.422907+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:56.375308+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY72",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:56.035663+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:58:00.808226+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY73",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:56.376610+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:57.351968+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY74",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:57.353496+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:57.905182+00:00"
+    },
+    {
+      "slot": "AGNES_API_KEY75",
+      "state": "healthy",
+      "started_at": "2026-10-26T04:57:57.906749+00:00",
+      "http_status": 200,
+      "checked_at": "2026-10-26T04:57:58.663632+00:00"
+    }
+  ],
+  "status": "completed",
+  "completed_at": "2026-10-26T04:58:00.810087+00:00",
+  "eligible_text_slots": [
+    "AGNES_API_KEY",
+    "AGNES_API_KEY2",
+    "AGNES_API_KEY3",
+    "AGNES_API_KEY4",
+    "AGNES_API_KEY5",
+    "AGNES_API_KEY6",
+    "AGNES_API_KEY7",
+    "AGNES_API_KEY8",
+    "AGNES_API_KEY9",
+    "AGNES_API_KEY10",
+    "AGNES_API_KEY11",
+    "AGNES_API_KEY12",
+    "AGNES_API_KEY13",
+    "AGNES_API_KEY14",
+    "AGNES_API_KEY15",
+    "AGNES_API_KEY16",
+    "AGNES_API_KEY17",
+    "AGNES_API_KEY18",
+    "AGNES_API_KEY19",
+    "AGNES_API_KEY20",
+    "AGNES_API_KEY21",
+    "AGNES_API_KEY22",
+    "AGNES_API_KEY23",
+    "AGNES_API_KEY24",
+    "AGNES_API_KEY25",
+    "AGNES_API_KEY26",
+    "AGNES_API_KEY27",
+    "AGNES_API_KEY28",
+    "AGNES_API_KEY29",
+    "AGNES_API_KEY30",
+    "AGNES_API_KEY31",
+    "AGNES_API_KEY32",
+    "AGNES_API_KEY33",
+    "AGNES_API_KEY34",
+    "AGNES_API_KEY35",
+    "AGNES_API_KEY36",
+    "AGNES_API_KEY37",
+    "AGNES_API_KEY38",
+    "AGNES_API_KEY39",
+    "AGNES_API_KEY40",
+    "AGNES_API_KEY41",
+    "AGNES_API_KEY42",
+    "AGNES_API_KEY43",
+    "AGNES_API_KEY44",
+    "AGNES_API_KEY45",
+    "AGNES_API_KEY46",
+    "AGNES_API_KEY47",
+    "AGNES_API_KEY48",
+    "AGNES_API_KEY49",
+    "AGNES_API_KEY50",
+    "AGNES_API_KEY51",
+    "AGNES_API_KEY52",
+    "AGNES_API_KEY53",
+    "AGNES_API_KEY54",
+    "AGNES_API_KEY55",
+    "AGNES_API_KEY56",
+    "AGNES_API_KEY57",
+    "AGNES_API_KEY58",
+    "AGNES_API_KEY59",
+    "AGNES_API_KEY60",
+    "AGNES_API_KEY61",
+    "AGNES_API_KEY62",
+    "AGNES_API_KEY63",
+    "AGNES_API_KEY64",
+    "AGNES_API_KEY65",
+    "AGNES_API_KEY66",
+    "AGNES_API_KEY67",
+    "AGNES_API_KEY68",
+    "AGNES_API_KEY69",
+    "AGNES_API_KEY70",
+    "AGNES_API_KEY71",
+    "AGNES_API_KEY72",
+    "AGNES_API_KEY73",
+    "AGNES_API_KEY74",
+    "AGNES_API_KEY75"
+  ],
+  "eligible_image_slots": []
+}

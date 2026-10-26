@@ -1,0 +1,13 @@
+{
+  "role": "source_scout_and_repair",
+  "version": 1,
+  "topic_id": "agri-41a7470145cb",
+  "started_at": "2026-10-26T04:58:41.465932+00:00",
+  "max_model_calls": 1,
+  "model_calls": 1,
+  "publication_authorized": false,
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "status": "blocked",
+  "reason": "source_scout_scope_requires_review",
+  "completed_at": "2026-10-26T04:58:47.189739+00:00"
+}
