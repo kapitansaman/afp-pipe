@@ -40,7 +40,8 @@ class FamilyTrialTests(unittest.TestCase):
    atomic_json(data/'parallel-policy.json',policy);atomic_json(data/'config.json',{'publication_holds':{}})
    h={'audit_status':'completed','repository':policy['repository'],'credential_set_id':policy['credential_set_id'],'checked_at':utcnow(),'eligible_text_slots':SLOTS};atomic_json(out/'parallel/health/latest.json',h)
    topics=[dict(self.topic(),id='agri-'+format(i,'012x'),family_id='family-'+str(i+1).zfill(2)) for i in range(15)]
-   barrier=threading.Barrier(15)
+   atomic_json(out/'parallel/trials'/trial.PREVIOUS_ID/'report.json',{'assigned_count':15,'results':[{'topic_id':x['id'],'family_id':x['family_id'],'status':'trial_diagnostic_completed' if i<11 else 'worker_operational_failure'} for i,x in enumerate(topics)]})
+   barrier=threading.Barrier(4)
    def worker(t,workspace,db,health,inventory,d,o,env):
     wd=workspace/t['id']/'data';wo=workspace/t['id']/'out'
     with lease(db,'text',SLOTS,t['id']):barrier.wait(timeout=12)
@@ -51,7 +52,7 @@ class FamilyTrialTests(unittest.TestCase):
    env={'GITHUB_ACTIONS':'true','GITHUB_REPOSITORY':'kapitansaman/afp-pipe','GITHUB_EVENT_NAME':'workflow_dispatch','GITHUB_RUN_ID':'123'}
    with patch.object(trial,'allocate',return_value={'families':[]}),patch.object(trial,'assigned_topics',return_value=topics),patch('automation.agri_v2.recovery.circuit_open',return_value=False):
     r=trial.run(env,data,out,reserve_fn=lambda *_:{},inventory_fn=lambda:inventory,wp_factory=lambda:wp,worker_fn=worker)
-   self.assertEqual(r['status'],'trial_completed');self.assertEqual(len(r['results']),15);self.assertEqual(r['pool']['model_requests_reserved'],15);self.assertEqual(r['pool']['peak_text_leases'],15);self.assertEqual(r['published_posts'],0);self.assertFalse((out/'research').exists())
+   self.assertEqual(r['status'],'trial_completed');self.assertEqual(len(r['results']),15);self.assertEqual(r['pool']['model_requests_reserved'],4);self.assertEqual(r['pool']['peak_text_leases'],4);self.assertEqual(r['published_posts'],0);self.assertFalse((out/'research').exists())
  def test_routing_continues_across_actions_without_resetting_slot_usage(self):
   with tempfile.TemporaryDirectory() as t:
    out=Path(t);a=out/'one.db';initialize(a,SLOTS)
@@ -72,3 +73,11 @@ class FamilyTrialTests(unittest.TestCase):
  def test_protected_progress_detects_changed_attempts_and_new_receipts(self):
   with tempfile.TemporaryDirectory() as td:
    d=Path(td)/'data';o=Path(td)/'out';t=self.topic();p=o/'research'/(t['id']+'.json');atomic_json(p,{'attempts':2});a=trial.protected_progress([t],d,o);atomic_json(p,{'attempts':3});self.assertNotEqual(a,trial.protected_progress([t],d,o));atomic_json(p,{'attempts':2});self.assertEqual(a,trial.protected_progress([t],d,o));atomic_json(o/'new'/t['id']/'receipt.json',{'id':99});self.assertNotEqual(a,trial.protected_progress([t],d,o))
+
+ def test_server_routing_only_strengthens_numeric_and_incomplete_text_restrictions(self):
+  t=self.topic();v=self.diagnostic();v['next_stage']='source_discovery';r,c=trial.enforce_research_routes(v,t,self.bundle());self.assertEqual(r['next_stage'],'specialist_evidence');self.assertEqual(v['next_stage'],'source_discovery');trial.validate_diagnostic(r,t,t['family_id'],self.bundle())
+  b={'related_ids':[12],'unavailable':[{'id':12}],'documents':[]};v['existing_content_decision']='potential_gap';r,c=trial.enforce_research_routes(v,t,b);self.assertEqual(r['existing_content_decision'],'needs_full_review');self.assertEqual(r['next_stage'],'existing_content_audit');self.assertEqual(len(c),3);trial.validate_diagnostic(r,t,t['family_id'],b)
+ def test_server_restrictions_do_not_repair_approval_or_identity_violations(self):
+  for change in [{'publication_authorized':True},{'topic_id':'wrong'},{'scope':'qualitative'}]:
+   v=dict(self.diagnostic(),**change);r,_=trial.enforce_research_routes(v,self.topic(),self.bundle())
+   with self.assertRaises(trial.TrialValidation):trial.validate_diagnostic(r,self.topic(),'family-01',self.bundle())

@@ -14,7 +14,7 @@ def policy(env=None,data=DATA):
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
  if phase not in ('audit','research','trial'):raise ValueError('Non-publication phase required')
- expected={'audit':'parallel-75-key-audit-v1','research':'parallel-15-research-rollout-v1','trial':'parallel-family-trial-v1'}[phase]
+ expected={'audit':'parallel-75-key-audit-v1','research':'parallel-15-research-rollout-v1','trial':'parallel-family-trial-v2'}[phase]
  if request_id!=expected:raise ValueError('Exact bounded first-rollout request required')
  row={'request_id':request_id,'phase':phase,'status':'reserved','run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'published_posts':0,'original_attempts_reset':False}
  if put_fn is not None:return row if put_fn(row) else None

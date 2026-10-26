@@ -9,7 +9,8 @@ from .parallel_control import policy,reserve
 from .parallel_pool import initialize,snapshot,routing_counts,record_routing
 from .family_scheduler import allocate,assigned_topics,FAMILIES
 from .research import Text,clean
-ID='parallel-family-trial-v1'
+PREVIOUS_ID='parallel-family-trial-v1'
+ID='parallel-family-trial-v2'
 SCHEMA=1
 NUMERIC_INTENTS={'yield','cut_yield','density','transplants','seed_rate','fertilizer','irrigation','water_need','spacing','fertilization','nutrition'}
 
@@ -54,11 +55,27 @@ def validate_diagnostic(value,topic,family,bundle):
  if bundle['related_ids'] and (bundle['unavailable'] or any(d['text_truncated'] for d in bundle['documents'])) and value['existing_content_decision'] not in {'needs_full_review','uncertain'}:raise TrialValidation('trial_incomplete_existing_content_overclaimed')
  if not bundle['related_ids'] and value['existing_content_decision']!='no_existing_content':raise TrialValidation('trial_existing_content_invented')
  if value['next_stage'] not in {'source_discovery','existing_content_audit','specialist_evidence','manual_scope_review'}:raise TrialValidation('trial_next_stage_invalid')
- if value['scope']=='numeric_or_local' and value['next_stage'] not in {'specialist_evidence','existing_content_audit'}:raise TrialValidation('trial_numeric_gate_bypassed')
+ if (value['scope']=='numeric_or_local' or topic['intent'] in NUMERIC_INTENTS) and value['next_stage'] not in {'specialist_evidence','existing_content_audit'}:raise TrialValidation('trial_numeric_gate_bypassed')
  q=value['source_queries']
  if not isinstance(q,list) or not 2<=len(q)<=6 or any(not isinstance(x,str) or not 5<=len(x)<=300 or '://' in x for x in q):raise TrialValidation('trial_source_queries_invalid')
  if not isinstance(value['reason'],str) or not 40<=len(value['reason'])<=4000:raise TrialValidation('trial_reason_missing')
  return value
+
+def enforce_research_routes(value,topic,bundle):
+ # Server-owned restrictions can only tighten research routing; never approve facts.
+ if not isinstance(value,dict):return value,[]
+ result=dict(value);changes=[]
+ if (result.get('scope')=='numeric_or_local' or topic['intent'] in NUMERIC_INTENTS) and result.get('next_stage') in {'source_discovery','manual_scope_review'}:
+  changes.append({'field':'next_stage','proposed':result['next_stage'],'enforced':'specialist_evidence','reason':'numeric_evidence_required'})
+  result['next_stage']='specialist_evidence'
+ if bundle['related_ids'] and (bundle['unavailable'] or any(d['text_truncated'] for d in bundle['documents'])):
+  if result.get('existing_content_decision') in {'no_existing_content','overlap_likely','potential_gap'}:
+   changes.append({'field':'existing_content_decision','proposed':result['existing_content_decision'],'enforced':'needs_full_review','reason':'incomplete_existing_content'})
+   result['existing_content_decision']='needs_full_review'
+  if result.get('next_stage') in {'source_discovery','specialist_evidence','manual_scope_review'}:
+   changes.append({'field':'next_stage','proposed':result['next_stage'],'enforced':'existing_content_audit','reason':'full_existing_text_review_required'})
+   result['next_stage']='existing_content_audit'
+ return result,changes
 
 def protected_progress(topics,data,out):
  result={}
@@ -101,7 +118,10 @@ def run_family(ident):
  report['model_calls']=1;atomic_json(path,report)
  try:
   value=client.text(json.dumps(prompt,ensure_ascii=False),attempts=1)
-  decision=validate_diagnostic(value,topic,family,bundle)
+  report['model_proposal']=value
+  routed,changes=enforce_research_routes(value,topic,bundle)
+  report['server_enforced_restrictions']=changes
+  decision=validate_diagnostic(routed,topic,family,bundle)
   report.update(status='trial_diagnostic_completed',diagnostic=decision,next_stage=decision['next_stage'])
  except Exception as e:
   from .failure_diagnostics import failure_details
@@ -119,10 +139,16 @@ def run(env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,wp_facto
  if h.get('audit_status')!='completed' or h.get('repository')!=p['repository'] or h.get('credential_set_id')!=p['credential_set_id'] or not 0<=age_hours(h['checked_at'])<24 or not h.get('eligible_text_slots'):raise TrialValidation('fresh_parallel_text_capability_required')
  from .recovery import circuit_open
  if circuit_open('text'):return {'status':'shared_text_cooldown','model_calls':0,'published_posts':0}
+ previous=load_json(out/'parallel/trials'/PREVIOUS_ID/'report.json')
+ prior={r['topic_id']:r for r in previous['results']}
+ if previous.get('assigned_count')!=15 or set(prior)!={t['id'] for t in topics}:raise TrialValidation('repair_requires_same_15_family_trial')
+ reuse=[t for t in topics if prior[t['id']].get('status')=='trial_diagnostic_completed']
+ pending=[t for t in topics if t not in reuse]
+ if len(pending)!=4:raise TrialValidation('repair_requires_exact_4_failed_families')
  dest=out/'parallel/trials'/ID;rp=dest/'report.json'
  if rp.exists() or reserve_fn('trial',ID,env) is None:return {'status':'trial_already_reserved','model_calls':0,'published_posts':0}
  before=protected_progress(topics,data,out)
- report={'request_id':ID,'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'status':'reserved','assigned_count':15,'target_workers':15,'selected_topics':[{'family_id':t['family_id'],'topic_id':t['id'],'title':t['title']} for t in topics],'results':[],'max_model_requests':15,'image_calls':0,'wordpress_write_calls':0,'published_posts':0,'production_enabled':False,'original_attempts_reset':False,'assignments_sha256':hashlib.sha256(json.dumps(assignments['families'],sort_keys=True,ensure_ascii=False).encode()).hexdigest()};atomic_json(rp,report)
+ report={'request_id':ID,'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'status':'reserved','assigned_count':15,'target_workers':len(pending),'previous_trial_id':PREVIOUS_ID,'retested_families':len(pending),'reused_families':len(reuse),'selected_topics':[{'family_id':t['family_id'],'topic_id':t['id'],'title':t['title']} for t in topics],'results':[],'max_model_requests':len(pending),'image_calls':0,'wordpress_write_calls':0,'published_posts':0,'production_enabled':False,'original_attempts_reset':False,'assignments_sha256':hashlib.sha256(json.dumps(assignments['families'],sort_keys=True,ensure_ascii=False).encode()).hexdigest()};atomic_json(rp,report)
  try:
   if wp_factory is None:
    from .wordpress import WordPress
@@ -131,16 +157,18 @@ def run(env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,wp_facto
   from .pipeline import fresh_inventory
   with tempfile.TemporaryDirectory() as td:
    ip=Path(td)/'inventory.json';atomic_json(ip,inventory);fresh_inventory(ip)
-  bundles=collect_existing(topics,inventory,wp,out)
+  for t in reuse:
+   original=prior[t['id']];r=dict(original,model_calls=0,reused_from_trial=PREVIOUS_ID,original_model_calls=original.get('model_calls',1));report['results'].append(r)
+  bundles=collect_existing(pending,inventory,wp,out)
   report['existing_article_refs']=sum(len(b['related_ids']) for b in bundles.values());report['existing_article_refs_loaded']=sum(len(b['documents']) for b in bundles.values());atomic_json(rp,report)
   if worker_fn is None:
    from .parallel_controller import launch_worker
    worker_fn=launch_worker
   env['AFP_PARALLEL_TRIAL_ID']=ID
   with tempfile.TemporaryDirectory(prefix='afp-family-trial-') as td:
-   workspace=Path(td);db=workspace/'pool.sqlite';initialize(db,h['eligible_text_slots'],text_limit=min(15,len(h['eligible_text_slots'])),image_limit=1,max_calls=15,per_worker=1,prior_usage=routing_counts(out))
+   workspace=Path(td);db=workspace/'pool.sqlite';initialize(db,h['eligible_text_slots'],text_limit=min(15,len(h['eligible_text_slots'])),image_limit=1,max_calls=len(pending),per_worker=1,prior_usage=routing_counts(out))
    with concurrent.futures.ThreadPoolExecutor(max_workers=min(15,len(h['eligible_text_slots']))) as ex:
-    futures={ex.submit(worker_fn,t,workspace,db,h,inventory,data,out,env):t for t in topics}
+    futures={ex.submit(worker_fn,t,workspace,db,h,inventory,data,out,env):t for t in pending}
     for future in concurrent.futures.as_completed(futures):
      t=futures[future]
      try:
