@@ -206,12 +206,14 @@ def stage_outputs(folder,stage):
 def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClient):
  env=os.environ if env is None else env;p=settings(data);folder=out/'new'/topic['id'];run_id=env['GITHUB_RUN_ID'];steps=[]
  if env.get('AFP_PARALLEL_WORKER')!='1' or env.get('AFP_PARALLEL_TOPIC')!=topic['id']:raise StageBlocked('isolated_owned_topic_required')
- pilot=env.get('AFP_WHITE_BEAN_PILOT')=='1'
+ from .matrix_pilot import bound as matrix_bound
+ matrix_pilot=matrix_bound(env,data)
+ pilot=env.get('AFP_WHITE_BEAN_PILOT')=='1' or matrix_pilot
  research_only=env.get('AFP_FULL_QUEUE_RESEARCH_ONLY')=='1'
- if pilot:
+ if env.get('AFP_WHITE_BEAN_PILOT')=='1':
   from .white_bean_pilot import prepare
   prepare(topic,data,out)
- for _ in range(16):
+ for _ in range(32 if matrix_pilot else 16):
   stage,reason=next_stage(topic,data,out)
   if research_only and stage not in ('blocked','complete') and not (stage.startswith('research_') or stage.startswith('existing_content_audit')):return {'status':'research_ready','topic_id':topic['id'],'next_stage':stage,'steps':steps,'published_posts':0,'research_only':True}
   if stage in ('blocked','complete','publish'):return {'status':'publication_ready' if stage=='publish' else stage,'reason':reason,'topic_id':topic['id'],'steps':steps,'published_posts':0}
@@ -285,18 +287,23 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  if p.get('enabled') is not True:return {'status':'lifecycle_disabled','published_posts':0}
  run_id=env['GITHUB_RUN_ID'];request_id='family-lifecycle-run-'+run_id
  if reserve_fn('lifecycle',request_id,env) is None:return {'status':'lifecycle_already_reserved','published_posts':0}
- assignments=allocate(data,out,allow_deferral=env.get('AFP_WHITE_BEAN_PILOT')!='1');topics=assigned_topics(assignments,data)
+ from .matrix_pilot import bound as matrix_bound,select as matrix_select,MAX_CALLS as MATRIX_CALLS
+ matrix_pilot=matrix_bound(env,data)
+ if env.get('AFP_MATRIX_PILOT_ID') and not matrix_pilot:raise StageBlocked('current_bound_matrix_pilot_required')
+ if matrix_pilot:topics=matrix_select(env,data,out)
+ else:
+  assignments=allocate(data,out,allow_deferral=env.get('AFP_WHITE_BEAN_PILOT')!='1');topics=assigned_topics(assignments,data)
  if env.get('AFP_WHITE_BEAN_PILOT')=='1':
   from .white_bean_pilot import select_topics
   topics=select_topics(topics)
  dest=out/'parallel/lifecycle/runs'/run_id;rp=dest/'report.json'
  fresh_start=all(not (out/'new'/t['id']/'article.json').exists() for t in topics)
  observer=None
- if (data/'adaptive-schedule-policy.json').exists() and env.get('AFP_WHITE_BEAN_PILOT')!='1':
+ if (data/'adaptive-schedule-policy.json').exists() and env.get('AFP_WHITE_BEAN_PILOT')!='1' and not matrix_pilot:
   from .adaptive_schedule import Observer
   observer=Observer([t['id'] for t in topics],run_id,fresh_start,data,out)
  research_only=env.get('AFP_FULL_QUEUE_RESEARCH_ONLY')=='1'
- report={'research_only':research_only,'run_id':run_id,'status':'started','assigned_count':len(topics),'pilot_topic_only':env.get('AFP_WHITE_BEAN_PILOT')=='1','results':[],'publication_results':[],'published_posts':0,'max_stage_attempts':3,'original_attempts_reset':False,'schedule_enabled':False,'publication_authorized':False if research_only else p.get('publication_enabled',False),'source_and_translation_posts_counted':True,'started_at':utcnow()};atomic_json(rp,report)
+ report={'matrix_pilot':matrix_pilot,'research_only':research_only,'run_id':run_id,'status':'started','assigned_count':len(topics),'pilot_topic_only':env.get('AFP_WHITE_BEAN_PILOT')=='1','results':[],'publication_results':[],'published_posts':0,'max_stage_attempts':3,'original_attempts_reset':False,'schedule_enabled':False,'publication_authorized':False if research_only else p.get('publication_enabled',False),'source_and_translation_posts_counted':True,'started_at':utcnow()};atomic_json(rp,report)
  health=load_json(out/'parallel/health/latest.json')
  from .parallel_client import ParallelModelClient
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
@@ -318,8 +325,9 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  env['AFP_FAMILY_LIFECYCLE']='1'
  with tempfile.TemporaryDirectory(prefix='afp-family-lifecycle-') as td:
   workspace=Path(td);db=workspace/'pool.sqlite';slots=list(dict.fromkeys(health.get('eligible_text_slots',[])+health.get('eligible_image_slots',[])))
-  per_worker_limit=4 if research_only else p['max_model_requests_per_family']
+  per_worker_limit=MATRIX_CALLS if matrix_pilot else 4 if research_only else p['max_model_requests_per_family']
   report['max_text_model_calls']=per_worker_limit*len(topics) if research_only else None
+  report['max_total_model_calls']=per_worker_limit*len(topics)
   initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=per_worker_limit*len(topics),per_worker=per_worker_limit,prior_usage=routing_counts(out))
   with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_FAMILIES,max(1,len(topics)))) as ex:
    futures={ex.submit(worker_fn,t,workspace,db,health,inventory,data,out,env):t for t in topics}
@@ -351,9 +359,12 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
     report['publication_results'].append({'status':'publication_deferred','reason':'wordpress_language_bridge_required','topic_id':topic['id']});continue
   result=attempt(out/'new'/topic['id'],'publish',run_id,lambda t=topic:publish_ready(wp,t,data,out),limit=3)
   report['publication_results'].append(dict(result,topic_id=topic['id']));report['published_posts']+=result.get('result',{}).get('published_posts',0);atomic_json(rp,report)
- allocate(data,out,allow_deferral=env.get('AFP_WHITE_BEAN_PILOT')!='1')
+ if not matrix_pilot:allocate(data,out,allow_deferral=env.get('AFP_WHITE_BEAN_PILOT')!='1')
  failures=[x for x in report['results'] if x.get('status') in {'stage_failed','worker_failed'}]+[x for x in report['publication_results'] if x['status']=='stage_failed']
  report.update(status='completed_with_failures' if failures else 'completed',operational_failures=len(failures),waiting_families=sum(x.get('status') in {'blocked','capability_required','stage_deferred','stage_budget_exhausted'} for x in report['results']),publication_ready_workers=sum(x.get('status')=='publication_ready' for x in report['results']),completed_at=utcnow())
+ if matrix_pilot:
+  report['matrix_pilot_complete']=all(family_complete(t['id'],data,out) for t in topics)
+  if not report['matrix_pilot_complete']:report['status']='pilot_incomplete'
  if observer is not None:report['timing']=observer.finish(report,[t['id'] for t in topics if family_complete(t['id'],data,out)])
  atomic_json(rp,report);atomic_json(out/'parallel/lifecycle/latest.json',report);return report
 

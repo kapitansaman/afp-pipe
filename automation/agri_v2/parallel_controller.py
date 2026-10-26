@@ -75,7 +75,9 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
  # WordPress secrets are unavailable to article workers; read-only inventory is supplied once.
  for name in ('AFP_WP_BASE_URL','AFP_WP_USERNAME','AFP_WP_APP_PASSWORD'):env.pop(name,None)
  try:
-  completed=subprocess.run([sys.executable,'-m','automation.agri_v2.parallel_worker','--topic',ident],cwd=ROOT,env=env,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=900,check=False)
+  from .matrix_pilot import bound as matrix_bound
+  worker_timeout=2400 if matrix_bound(env,data) else 900
+  completed=subprocess.run([sys.executable,'-m','automation.agri_v2.parallel_worker','--topic',ident],cwd=ROOT,env=env,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=worker_timeout,check=False)
   rp=wo/'worker-result.json';result=load_json(rp) if rp.exists() else {'status':'worker_missing_result','topic_id':ident,'published_posts':0}
   if not isinstance(result,dict) or result.get('topic_id')!=ident:raise ValueError('Worker result identity mismatch')
   result['worker_exit_code']=completed.returncode
