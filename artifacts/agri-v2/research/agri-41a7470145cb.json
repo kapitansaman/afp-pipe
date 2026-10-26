@@ -1,0 +1,11 @@
+{
+  "topic_id": "agri-41a7470145cb",
+  "status": "needs_review",
+  "attempts": 1,
+  "attempted_at": "2026-10-26T04:04:50.689048+00:00",
+  "source_catalog_version": 3,
+  "fact_filter_version": 1,
+  "salvaged_saved_extraction": false,
+  "reason": "insufficient_fetchable_institutional_sources",
+  "completed_at": "2026-10-26T04:05:00.082377+00:00"
+}

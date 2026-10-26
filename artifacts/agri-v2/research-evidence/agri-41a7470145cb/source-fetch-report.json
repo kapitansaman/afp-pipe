@@ -1,0 +1,41 @@
+{
+  "requested": 6,
+  "loaded": 0,
+  "sources": [
+    {
+      "url": "https://.extension.umn.edu/grow-your-own/harvesting-and-storing-homegrown-vegetables",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected"
+    },
+    {
+      "url": "https://extension.wisc.edu/files/2018/10/M337_StoringHomegrownVeg-1.pdf",
+      "status": "unavailable",
+      "category": "http_error",
+      "http_status": 404
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/ANR/ANR-119/ANR-119.html",
+      "status": "unavailable",
+      "category": "http_error",
+      "http_status": 301
+    },
+    {
+      "url": "https://edis.ifas.ufl.edu/publication/CV297",
+      "status": "unavailable",
+      "category": "http_error",
+      "http_status": 301
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9130-home-food-preservation-winter-squash",
+      "status": "unavailable",
+      "category": "http_error",
+      "http_status": 404
+    },
+    {
+      "url": "https://extension.msstate.edu/publications/production_and_postharvest_handling_of_winter_squash",
+      "status": "unavailable",
+      "category": "http_error",
+      "http_status": 404
+    }
+  ]
+}
