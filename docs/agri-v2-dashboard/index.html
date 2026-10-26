@@ -23,6 +23,13 @@ async function refreshSetup(){try{
  const labels={stopped_provider_limit_or_uncertain_response:'آزمون با محدودیت یا پاسخ نامطمئن سرویس متوقف شد',bounded_image_check_complete:'آزمون تک‌تصویر پایان یافت',capabilities_checked:'بررسی قابلیت‌ها پایان یافت',waiting_image_cooldown:'منتظر پایان توقف مشترک سرویس',configuration_incomplete_or_duplicate:'کلید مفقود یا تکراری؛ بدون درخواست مدل',reserved:'آزمون رزرو یا در حال اجرا؛ نتیجه نهایی هنوز ثبت نشده'};
  $('probe-state').textContent=report?(labels[report.status]||report.status)+' · درخواست متن: '+fa.format(report.text_calls||0)+' · درخواست تصویر: '+fa.format(report.image_calls||0)+' · انتشار: '+fa.format(report.post_submissions||0):'نتیجه مدل ۲٫۵ هنوز ثبت نشده؛ اجرای آزمون را در GitHub بررسی کنید.';
  if(report&&/^\d+$/.test(String(report.run_id||'')))$('probe-run').href='https://github.com/kapitansaman/afp-pipe/actions/runs/'+report.run_id;
+ const matrix=await readSetup('data/agri-v2/status/model-matrix.json',true);
+ if(matrix&&matrix.request_id==='afp-three-models-two-keys-reference-matrix-v1'){
+  const rows=matrix.cases||[];const last=rows[rows.length-1];const mode=last?(last.mode==='reference'?'با مرجع AFP':'بدون مرجع'):'';
+  $('probe-state').textContent='مقایسه مدل‌های ۲٫۰، ۲٫۱ و ۲٫۵ با دو کلید · حالت‌های پایان‌یافته: '+fa.format(matrix.completed_cells||0)+' از ۱۲ · تصاویر معتبر: '+fa.format(matrix.valid_images||0)+' · '+(matrix.status==='completed'?'آزمون پایان یافته است.':matrix.status==='waiting_shared_provider_deadline'?'آزمون منتظر مهلت اعلام‌شده سرویس است.':'آزمون در حال اجراست.')+(last?' آخرین حالت: '+last.model+'، '+last.slot+'، '+mode+'، '+last.state+(last.http_status?' / HTTP '+last.http_status:''):'')+' این مقایسه مجوز انتشار نیست.';
+  if(/^\d+$/.test(String(matrix.run_id||'')))$('probe-run').href='https://github.com/kapitansaman/afp-pipe/actions/runs/'+matrix.run_id;
+ }
+
  $('setup-network').textContent='اطلاعات اتصال دریافت شد · '+new Date().toLocaleTimeString('fa-IR',{timeZone:'Europe/Istanbul'})+' استانبول';
  }catch(e){$('setup-network').textContent='دریافت اطلاعات اتصال ناموفق بود؛ مقادیر قبلی حفظ شده‌اند و سلامت سرویس تأیید نمی‌شود.';}}
 refreshSetup();setInterval(refreshSetup,60000);
