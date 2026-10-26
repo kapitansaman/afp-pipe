@@ -45,7 +45,13 @@ class KeyMigrationTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    data=Path(d)/'data';out=Path(d)/'out';self.config(data);text=Mock(return_value=({'state':'rate_limited','http_status':429},None));image=Mock()
    with patch('automation.agri_v2.recovery.circuit_open',return_value=False):result=k.run(self.env(),text,image,data,out,lambda *a:None)
-   text.assert_called_once();image.assert_not_called();self.assertEqual(result['image_calls'],0)
+   text.assert_called_once();image.assert_not_called();self.assertEqual(result['image_calls'],0);self.assertEqual(load_json(data/'health/latest.json')['unique_credentials_tested'],1)
+ def test_admission_block_is_not_reported_as_a_paid_image_call(self):
+  from automation.agri_v2.image_transport import AdmissionBlocked
+  with tempfile.TemporaryDirectory() as d:
+   data=Path(d)/'data';out=Path(d)/'out';self.config(data);image=Mock(side_effect=AdmissionBlocked('no lease'))
+   with patch('automation.agri_v2.recovery.circuit_open',return_value=False):result=k.run(self.env(),self.text,image,data,out,lambda *a:None)
+   self.assertEqual(result['image_calls'],0);self.assertTrue(result['image_not_sent_admission_blocked']);image.assert_called_once()
  def test_audit_reservation_cannot_be_replayed(self):
   with tempfile.TemporaryDirectory() as d:
    data=Path(d)/'data';out=Path(d)/'out';self.config(data);paid=Mock()
@@ -58,8 +64,10 @@ class KeyMigrationTests(unittest.TestCase):
   from automation import blog_image_queue
   self.assertEqual(blog_image_queue.API,'https://api.github.com/repos/kapitansaman/afp-pipe')
  def test_paused_migration_cycle_has_zero_wordpress_or_model_calls(self):
-  with patch.object(cycle,'WordPress') as wp,patch.object(cycle,'draft') as draft:
-   result=cycle.run(scheduled=True);self.assertEqual(result['status'],'publication_disabled');wp.assert_not_called();draft.assert_not_called()
+  with tempfile.TemporaryDirectory() as d:
+   data=Path(d);self.config(data)
+   with patch.object(cycle,'DATA',data),patch.object(cycle,'WordPress') as wp,patch.object(cycle,'draft') as draft:
+    result=cycle.run(scheduled=True);self.assertEqual(result['status'],'publication_disabled');wp.assert_not_called();draft.assert_not_called()
  def test_old_repository_key_evidence_is_rejected(self):
   from automation.agri_v2.credential_policy import trusted
   self.assertFalse(trusted({'repository':'getsalet/nono','credential_set_id':'legacy'}))

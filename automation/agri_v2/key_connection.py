@@ -42,7 +42,7 @@ def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None)
  update('بررسی تازه اتصال ۲۲ کلید؛ انتشار در مقصد هنوز متوقف است',0,status='health_refresh_required')
  if len(unique)!=22 or report['configured_slots']!=22:
   report.update(status='configuration_incomplete_or_duplicate',completed_at=utcnow());atomic_json(rp,report);return report
- health={**binding(data),'version':3,'checked_at':utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'slot_limit':22,'configured_slots':22,'unique_credentials_tested':22,'slots':slots,'eligible_text_slots':[],'eligible_image_slots':[],'no_publication':True}
+ health={**binding(data),'version':3,'checked_at':utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'slot_limit':22,'configured_slots':22,'unique_credentials_tested':0,'slots':slots,'eligible_text_slots':[],'eligible_image_slots':[],'no_publication':True}
  byslot={r['slot']:r for r in slots}
  from .runtime_health import record
  record_fn=record if record_fn is None else record_fn
@@ -52,7 +52,7 @@ def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None)
   if circuit_open('text'):stop_text=True;break
   report['text_calls']+=1;atomic_json(rp,report)
   safe,obj=post_fn('/chat/completions',key,{'model':TEXT_MODEL,'messages':[{'role':'user','content':'Reply with OK only.'}],'temperature':0,'max_tokens':256},timeout=70)
-  row=text_result(safe,obj);byslot[slot]['text']=row
+  row=text_result(safe,obj);byslot[slot]['text']=row;health['unique_credentials_tested']=report['text_calls']
   if row.get('state')=='healthy':health['eligible_text_slots'].append(slot);record_fn('text',slot,TEXT_MODEL)
   atomic_json(data/'health/latest.json',health)
   if row.get('http_status') not in (200,401,403):stop_text=True;break
@@ -66,6 +66,10 @@ def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None)
    try:row,blob=image_probe(slot,key)
    except Exception as exc:
     from .failure_diagnostics import failure_details
+    from .image_transport import AdmissionBlocked
+    from automation.blog_image_queue import ImageQueueBusy
+    if isinstance(exc,(AdmissionBlocked,ImageQueueBusy)):
+     report['image_calls']-=1;report['image_not_sent_admission_blocked']=True
     report['status']='image_admission_or_transport_blocked';report['failure']=failure_details(exc);break
    row={k:v for k,v in row.items() if k in {'state','http_status','provider_code','retry_after_seconds','reference_conditioned','publication_visual_approval'}}
    byslot[slot]['image']=dict(row);case=dict(row,slot=slot,checked_at=utcnow());report['cases'].append(case)

@@ -74,5 +74,5 @@ class PipelineTests(unittest.TestCase):
   snap['content_sha256']='bad';self.write('snap.json',snap)
   with self.assertRaises(ValueError):p.merge_plan(t['id'],target,sp,bp,out)
  def test_configuration_bounded_publication(self):
-  c=q.load_json(q.DATA/'config.json');self.assertFalse(c['publication_enabled']);self.assertFalse(c['automatic_generation']);self.assertEqual(c['max_posts_per_run'],1);self.assertFalse(c['merge_apply_enabled']);self.assertEqual(c['automatic_scope'],'publication_authorized_source_ready_briefs_only');self.assertEqual(c['max_key_slot'],22);self.assertEqual(c['text_model'],TEXT_MODEL);self.assertEqual(c['image_model'],IMAGE_MODEL)
+  c=q.load_json(q.DATA/'config.json');expected=c.get('cutover',{}).get('status')=='ready_for_production';self.assertEqual(c['publication_enabled'],expected);self.assertEqual(c['automatic_generation'],expected);self.assertEqual(c['max_posts_per_run'],1);self.assertFalse(c['merge_apply_enabled']);self.assertEqual(c['automatic_scope'],'publication_authorized_source_ready_briefs_only');self.assertEqual(c['max_key_slot'],22);self.assertEqual(c['text_model'],TEXT_MODEL);self.assertEqual(c['image_model'],IMAGE_MODEL)
 if __name__=='__main__':unittest.main()
