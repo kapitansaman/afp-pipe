@@ -121,3 +121,15 @@ class ScopedResearchTests(unittest.TestCase):
  def test_positive_vocabulary_never_overrides_article_rejection(self):
   t,v,d=self.fixture();b,r=self.overlap(t);r['decision']='new';r['article_checks'][0]['already_answers_intent']=True
   with self.assertRaises(s.EvidenceBlocked):s.validate_overlap(t,b,s.bind_overlap_quotes(b,r))
+ def test_conflicting_overlap_review_never_auto_approved(self):
+  t,v,d=self.fixture();b,r=self.overlap(t)
+  for decision,flag in [('overlap',False),('distinct',True)]:
+   x=copy.deepcopy(r);x['decision']=decision;x['article_checks'][0]['already_answers_intent']=flag
+   self.assertTrue(s.overlap_decision_conflict(x))
+   with self.assertRaisesRegex(s.EvidenceBlocked,'overlap_review_decision_conflict'):s.validate_overlap(t,b,x)
+ def test_consistent_overlap_and_uncertainty_remain_rejected(self):
+  t,v,d=self.fixture();b,r=self.overlap(t)
+  for decision,flag in [('overlap',True),('uncertain',False),('uncertain',True)]:
+   x=copy.deepcopy(r);x['decision']=decision;x['article_checks'][0]['already_answers_intent']=flag
+   self.assertFalse(s.overlap_decision_conflict(x))
+   with self.assertRaisesRegex(s.EvidenceBlocked,'existing_content_overlap_or_uncertain'):s.validate_overlap(t,b,x)

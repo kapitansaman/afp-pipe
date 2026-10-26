@@ -6,7 +6,7 @@ CONTINUATION_ID='ops-97-pilot-citation-v2'
 GROUNDED_ID='ops-97-pilot-grounded-v3'
 SUPPLEMENT_ID='ops-97-pilot-editorial-v4'
 FULL_QUEUE_ID='ops-full-queue-routes-research-v1'
-from .matrix_pilot import ID as MATRIX_ID,CONTINUATION_ID as MATRIX_CONT_ID,TOPIC as MATRIX_TOPIC,PRIOR_RUN as MATRIX_PRIOR_RUN
+from .matrix_pilot import ID as MATRIX_ID,CONTINUATION_ID as MATRIX_CONT_ID,TOPIC as MATRIX_TOPIC,PRIOR_RUN as MATRIX_PRIOR_RUN,RECHECK_ID as MATRIX_RECHECK_ID,RECHECK_PRIOR_RUN as MATRIX_RECHECK_RUN
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -15,11 +15,12 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
- if rid in (MATRIX_ID,MATRIX_CONT_ID):
-  expected.update(operation='one-commercial-matrix-family' if rid==MATRIX_ID else 'continue-commercial-matrix-family',topic_id=MATRIX_TOPIC,max_worker_model_calls=24 if rid==MATRIX_ID else 23,max_image_generations=2,max_source_posts=1,max_translations=4,max_total_posts=5)
+ if rid in (MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID):
+  expected.update(operation='recheck-commercial-matrix-overlap' if rid==MATRIX_RECHECK_ID else ('one-commercial-matrix-family' if rid==MATRIX_ID else 'continue-commercial-matrix-family'),topic_id=MATRIX_TOPIC,max_worker_model_calls=18 if rid==MATRIX_RECHECK_ID else (24 if rid==MATRIX_ID else 23),max_image_generations=2,max_source_posts=1,max_translations=4,max_total_posts=5)
   if rid==MATRIX_CONT_ID:expected['prior_run_id']=MATRIX_PRIOR_RUN
+  if rid==MATRIX_RECHECK_ID:expected['prior_run_id']=MATRIX_RECHECK_RUN
  if rid==FULL_QUEUE_ID:
   expected.update(operation='full-queue-research-only',max_pilot_families=20,max_worker_text_calls=80,max_worker_image_calls=0,max_wordpress_mutations=0)
  if not isinstance(req,dict) or set(req)!=set(expected)|{'code_revision'} or any(req.get(k)!=v or type(req.get(k)) is not type(v) for k,v in expected.items()):raise ValueError('Exact bounded owner request required')
@@ -124,7 +125,7 @@ def pilot(env=None,data=DATA,out=OUT):
  if rid==FULL_QUEUE_ID:
   env['AFP_FULL_QUEUE_RESEARCH_ONLY']='1'
   return run('advance',env,data,out)
- if rid in (MATRIX_ID,MATRIX_CONT_ID):
+ if rid in (MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID):
   env['AFP_MATRIX_PILOT_ID']=rid
   env.pop('AFP_FULL_QUEUE_RESEARCH_ONLY',None)
   return run('advance',env,data,out)

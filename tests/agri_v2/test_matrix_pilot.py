@@ -62,3 +62,17 @@ class MatrixPilotTests(unittest.TestCase):
   for badquote in ['40','41°F']:
    bad=__import__('copy').deepcopy(fact);bad['numeric_bindings'][0]['unit_quote']=badquote
    with self.assertRaises(ValueError):validate_fact(bad,0,{'e':entry})
+ def test_recheck_request_bound_to_18_remaining_calls(self):
+  req=self.req();req.update(request_id=m.RECHECK_ID,operation='recheck-commercial-matrix-overlap',max_worker_model_calls=18,prior_run_id=m.RECHECK_PRIOR_RUN);op.validate_request(req)
+  for key,value in [('max_worker_model_calls',19),('prior_run_id',m.PRIOR_RUN),('enable_schedule',True),('reset_attempts',True),('max_pilot_families',2)]:
+   bad=dict(req);bad[key]=value
+   with self.assertRaises(ValueError):op.validate_request(bad)
+ def test_recheck_budget_counts_both_actual_prior_runs(self):
+  with tempfile.TemporaryDirectory() as td:
+   out=Path(td);base={'status':'pilot_incomplete','matrix_pilot':True,'assigned_count':1,'published_posts':0}
+   first=dict(base,run_id=m.PRIOR_RUN,pool={'model_requests_reserved':1,'peak_image_leases':0},results=[{'topic_id':m.TOPIC}]);atomic_json(out/'parallel/lifecycle/runs'/m.PRIOR_RUN/'report.json',first)
+   second=dict(base,run_id=m.RECHECK_PRIOR_RUN,pool={'model_requests_reserved':5,'peak_image_leases':0},results=[{'topic_id':m.TOPIC,'stage':'existing_content_audit-004','failure':{'category':'existing_content_overlap_or_uncertain'}}]);p=out/'parallel/lifecycle/runs'/m.RECHECK_PRIOR_RUN/'report.json';atomic_json(p,second)
+   e={'AFP_MATRIX_PILOT_ID':m.RECHECK_ID};self.assertEqual(m.budget(e,out=out),18)
+   for key,value in [('published_posts',1),('assigned_count',2),('pool',{'model_requests_reserved':6,'peak_image_leases':0})]:
+    bad=dict(second);bad[key]=value;atomic_json(p,bad)
+    with self.assertRaises(ValueError):m.budget(e,out=out)
