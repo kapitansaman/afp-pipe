@@ -1,6 +1,6 @@
 {
-  "requested": 3,
-  "loaded": 3,
+  "requested": 4,
+  "loaded": 4,
   "sources": [
     {
       "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
@@ -17,6 +17,12 @@
     {
       "url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
       "canonical_url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "canonical_url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
       "redirect_hops": 0,
       "status": "fetched"
     }

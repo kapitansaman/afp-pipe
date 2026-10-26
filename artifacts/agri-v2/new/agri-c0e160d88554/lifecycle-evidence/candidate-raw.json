@@ -1,228 +1,98 @@
 {
   "topic_id": "agri-c0e160d88554",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "کنجد (دانه کنجد، Sesamum indicum)",
+  "product_definition": "بذر کنجد گونه Sesamum indicum",
   "slug": "sesame-variety-selection-criteria",
   "outline": [
-    "معیارهای کلی انتخاب رقم کنجد در منابع علمی",
-    "تفاوت انواع رقم شکافتنی و غیرشکافتنی",
-    "معیارهای اقلیمی و ویژگی‌های کمّی رشد"
+    "دسته‌بندی رقم‌ها: شکستنی در برابر نیمه‌شکستنی و سازگاری با سامانه برداشت",
+    "معیارهای کیفی انتخاب: ارتفاع، شاخه‌دهی، رنگ دانه و محتواى روغن",
+    "سازگاری اقلیمی و دوره رشد: نیاز حرارتی، تحمل خشکی و intolerance به غرقابی",
+    "محدودیت‌های جغرافیایی منابع: کاربرد معیارها صرفاً برای اقلیم‌های مشابه تگزاس/اوکلاهما/کارولینای شمالی"
   ],
   "facts": [
     {
-      "kind": "qualitative",
-      "claim": "ارقام کنجد به دو دسته شکافتنی و غیرشکافتنی تقسیم می‌شوند.",
-      "conditions": "در منابع توسعه کشاورزی ایالات متحده، ارقام شکافتنی شامل المارجو، اورو، بلانکو، دولسه و امبیا هستند که بیشتر درnurseries تحقیقاتی یافت می‌شوند.",
-      "evidence_id": "d1-e10",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "ارقام غیرشکافتنی برای برداشت مکانیکی توسعه یافته‌اند.",
-      "conditions": "ارقام غیرشکافتنی تجاری شامل باکو، پالوما، UCR-3، SW-16 و SW-17 در آزمایش‌های تگزاس گزارش شده‌اند.",
+      "kind": "source_observation",
+      "claim": "رقم‌های کنجد به دو دسته کلی شکستنی و نیمه‌شکستنی تقسیم می‌شوند؛ رقم‌های نیمه‌شکستنی مخصوص برداشت مکانیکی توسعه یافته‌اند.",
+      "conditions": "در منطقه تگزاس و اوکلاهما آمریکا، بر اساس طبقه‌بندی رقم‌های تجاری گزارش‌شده در راهنمای Sesaco و پژوهش‌های دانشگاهی",
       "evidence_id": "d1-e10",
       "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "ارقام غیرشکافتنی تجاری در ایالات متحده معمولاً حاوی کمتر از ~50% روغن هستند.",
-      "conditions": "ارقام غیرشکافتنی که برای برداشت مکانیکی پرورش یافته‌اند، دانه آن‌ها عمدتاً برای تولید روغن استفاده می‌شود و در آزمایش‌های تگزاس 1977 تا 1979 ثبت شده است.",
+      "claim": "برای برداشت مکانیکی موفق، رقم باید شاخه‌دهی اندک و فاصله ارتفاعی سطح خاک تا نخستین کپسول حدود ۱۲ اینچ داشته باشد.",
+      "conditions": "در آزمون‌های رقم کنجد تگزاس، بر اساس معیار سازگاری با کمباین",
+      "evidence_id": "d1-e11",
+      "numeric_bindings": [
+        {
+          "value": "12",
+          "unit_quote": "12 in.",
+          "geographic_scope": "Texas, US sesame variety trials",
+          "product_scope": "Sesamum indicum seed"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "رقم‌های شکستنی معمولاً محتوای روغن دانه بیش از ۵۰ درصد دارند اما طعم تلخ دانه بازار مصرف دانه صحیح را محدود می‌کند.",
+      "conditions": "در اقلیم تگزاس آمریکا، بر اساس ارزیابی کیفی رقم‌های شکستنی تجاری",
       "evidence_id": "d1-e10",
       "numeric_bindings": [
         {
           "value": "50",
-          "unit_quote": "over 50% oil content",
-          "geographic_scope": "United States (Texas)",
-          "product_scope": "sesame seed (shattering Kansas 10/K10 lineage)"
+          "unit_quote": "over 50%",
+          "geographic_scope": "Texas, US",
+          "product_scope": "Sesamum indicum seed oil content"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "ارقام تجاری کنجد در ایالات متحده به 90 تا 110 روز از کاشت تا بلوغ فیزیولوژیک نیاز دارند.",
-      "conditions": "مرز بالایی برای مناطق با واحدهای حرارتی کمتر مانند مناطق شمال لوبوک در تگزاس صدق می‌کند.",
-      "evidence_id": "d2-e9",
-      "numeric_bindings": [
-        {
-          "value": "90 to 110",
-          "unit_quote": "90 to 110 days from planting to reach physiological maturity",
-          "geographic_scope": "United States (Texas, north of Lubbock area)",
-          "product_scope": "Sesamum indicum commercial varieties"
-        }
-      ]
+      "claim": "دانه‌های روشن‌رنگ از نظر کیفیت بازاری برتر دانسته می‌شوند.",
+      "conditions": "در طبقه‌بندی کیفی دانه کنجد، بر اساس استاندارد بازار سی‌ام‌ای",
+      "evidence_id": "d1-e7",
+      "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "پس از رسیدن فیزیولوژیک، 20 تا 40 روز adicional برای خشک شدن گیاه جهت برداشت لازم است.",
-      "conditions": "در مناطق دیم تگزاس، اکلاهما و کانزاس، بیشتر کنجد پیش از اولین یخبندان خشک نمی‌شود.",
-      "evidence_id": "d2-e9",
-      "numeric_bindings": [
-        {
-          "value": "20 to 40",
-          "unit_quote": "Another 20 to 40 days are needed to allow the plant to dry down for harvest",
-          "geographic_scope": "United States (High Plains of Texas, Oklahoma, Kansas)",
-          "product_scope": "Sesamum indicum crop drydown"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "برای جوانه‌زنی مطلوب، دمای خاک در عمق 8 اینچی باید به طور متوسط 68 درجه فارنهایت به مدت 10 روز باشد.",
-      "conditions": "دمای خاک شاخص بهتری برای زمان کاشت نسبت به تاریخ تقویمی است.",
-      "evidence_id": "d2-e9",
-      "numeric_bindings": [
-        {
-          "value": "68",
-          "unit_quote": "soil temperature at the eight inch depth at 8:00 a.m. averages 68 degrees Fahrenheit for ten days",
-          "geographic_scope": "United States (general planting guidance)",
-          "product_scope": "Sesamum indicum seed germination"
-        },
-        {
-          "value": "10",
-          "unit_quote": "for ten days",
-          "geographic_scope": "United States (general planting guidance)",
-          "product_scope": "Sesamum indicum seed germination"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "کنجد به حداقل 90 تا 120 روز بدون یخبندان برای کشت تجاری نیاز دارد.",
-      "conditions": "دمای روزانه 77 تا 80 درجه فارنهایت بهینه است؛ زیر 68 درجه رشد کاهش می‌یابد و در 50 درجه جوانه‌زنی و رشد مهار می‌شود.",
+      "claim": "رقم‌های تجاری کنجد به ۹۰ تا ۱۲۰ روز بدون یخبندان نیاز دارند؛ مناطق با انباشت واحدهای گرمایی کمتر به سقف بالاتر دوره رشد نزدیک‌ترند.",
+      "conditions": "در اقلیم‌های تجاری آمریکا، بر اساس نیاز حرارتی رقم‌های کنجد",
       "evidence_id": "d1-e5",
       "numeric_bindings": [
         {
-          "value": "90 to 120",
+          "value": "90",
           "unit_quote": "90 to 120 frost-free days",
-          "geographic_scope": "General (Wisconsin/Minnesota Extension source)",
-          "product_scope": "Sesamum indicum commercial varieties"
+          "geographic_scope": "US commercial production regions",
+          "product_scope": "Sesamum indicum seed"
         },
         {
-          "value": "77",
-          "unit_quote": "77 o F to 80 o F are optimal",
-          "geographic_scope": "General (Wisconsin/Minnesota Extension source)",
-          "product_scope": "Sesamum indicum growth temperature"
-        },
-        {
-          "value": "68",
-          "unit_quote": "below 68 o F, growth is reduced",
-          "geographic_scope": "General (Wisconsin/Minnesota Extension source)",
-          "product_scope": "Sesamum indicum growth temperature"
-        },
-        {
-          "value": "50",
-          "unit_quote": "at 50 o F germination and growth is inhibited",
-          "geographic_scope": "General (Wisconsin/Minnesota Extension source)",
-          "product_scope": "Sesamum indicum germination temperature"
+          "value": "120",
+          "unit_quote": "90 to 120 frost-free days",
+          "geographic_scope": "US commercial production regions",
+          "product_scope": "Sesamum indicum seed"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "ظرفیت عملکردی کنجد در آزمون‌های تکزاس بین 1,000 تا 1,500 پوند در اکر گزارش شده و تحت آبیاری در کالیفرنیا تا 2,300 پوند در اکر تولید شده است.",
-      "conditions": "عملکردهای تجاری معمولاً پایین‌تر هستند.",
-      "evidence_id": "d1-e16",
-      "numeric_bindings": [
-        {
-          "value": "1,000 to 1,500",
-          "unit_quote": "1,000 to 1,500 lb/acre",
-          "geographic_scope": "United States (test plots)",
-          "product_scope": "Sesamum indicum seed yield"
-        },
-        {
-          "value": "2,300",
-          "unit_quote": "as much as 2,300 lb/acre have been produced under irrigation in California",
-          "geographic_scope": "United States (California, irrigated)",
-          "product_scope": "Sesamum indicum seed yield"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "عملکرد کنجد دیم در تگزاس بین 300 تا 1,200 پوند در اکر و عملکرد نیمه‌آبیاری شده/آبیاری شده بین 800 تا 1,700 پوند در اکر بوده است.",
-      "conditions": "برخی مزارع تجاری در آریزونا عملکردهایی تا 2,500 پوند در اکر داشته‌اند.",
-      "evidence_id": "d2-e12",
-      "numeric_bindings": [
-        {
-          "value": "300 to 1,200",
-          "unit_quote": "300 to 1,200 pounds per acre in dryland acreage",
-          "geographic_scope": "United States (Texas, 1998-2001)",
-          "product_scope": "Sesamum indicum seed yield"
-        },
-        {
-          "value": "800 to 1,700",
-          "unit_quote": "800 to 1,700 pounds per acre in semi-irrigated / irrigated production",
-          "geographic_scope": "United States (Texas, 1998-2001)",
-          "product_scope": "Sesamum indicum seed yield"
-        },
-        {
-          "value": "2,500",
-          "unit_quote": "yields as high as 2500 pounds per acre",
-          "geographic_scope": "United States (Arizona, commercial field)",
-          "product_scope": "Sesamum indicum seed yield"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "هر پوند کنجد حدود 150,000 دانه دارد.",
-      "conditions": "توصیه سطح کشت در کارولینای شمالی 1 پوند در اکر یا 150,000 دانه در اکر است.",
-      "evidence_id": "d0-e9",
-      "numeric_bindings": [
-        {
-          "value": "150,000",
-          "unit_quote": "One pound of sesame contains approximately 150,000 seeds",
-          "geographic_scope": "United States (North Carolina trial data)",
-          "product_scope": "Sesamum indicum seed count per weight"
-        },
-        {
-          "value": "1",
-          "unit_quote": "1 lb/ac",
-          "geographic_scope": "United States (North Carolina)",
-          "product_scope": "Sesamum indicum seeding rate"
-        },
-        {
-          "value": "150,000",
-          "unit_quote": "150,000 seed/ac",
-          "geographic_scope": "United States (North Carolina)",
-          "product_scope": "Sesamum indicum seeding rate"
-        }
-      ]
-    },
-    {
-      "kind": "qualitative",
-      "claim": "ارقام مقاوم به شکافت دارای کپسول‌هایی هستند که در بلوغ کمی باز می‌شوند اما دانه را پیش از برداشت از دست نمی‌دهند.",
-      "conditions": "ارقام SESACO 25, 26, 28 و 29 ارقام بهبودیافته مقاوم به شکافت هستند که جایگزین SESACO 11 تا 24 شده‌اند.",
+      "claim": "رقم‌های نیمه‌شکستنی بهبودیافته کپسولی دارند که تنها در درزهای بالایی کمی باز می‌شوند و پیش از برداشت دانه را از دست نمی‌دهند.",
+      "conditions": "در رقم‌های تجاری Sesaco توسعه‌یافته برای برداشت مکانیکی در تگزاس و اوکلاهما",
       "evidence_id": "d2-e11",
       "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "نمونه‌های کنجد ایالات متحده سفید/کرم‌رنگ هستند و ارقام دانه سیاه نیز وجود دارند.",
-      "conditions": "دانه‌های روشن‌رنگ کیفیت بالاتری محسوب می‌شوند.",
-      "evidence_id": "d0-e2",
+      "claim": "کنجد به‌طور طبیعی به خشکی مقاوم است و در مناطق کم‌باران که پنبه نیز موفق عمل می‌کند، عملکرد خوبی نشان می‌دهد.",
+      "conditions": "در اقلیم‌های خشک تگزاس و اوکلاهما آمریکا",
+      "evidence_id": "d0-e3",
       "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "قیمت کنجد در سال زراعی 2026 در کارولینای شمالی 0.32 دلار بر پوند ($32/cwt) گزارش شده است.",
-      "conditions": "نقطه تحویل کنجد تولیدی کارولینای شمالی در Dillon, South Carolina (ChoiceAG) است.",
-      "evidence_id": "d0-e21",
-      "numeric_bindings": [
-        {
-          "value": "0.32",
-          "unit_quote": "$0.32/lb",
-          "geographic_scope": "United States (North Carolina, 2026 crop year)",
-          "product_scope": "Sesamum indicum seed contract price"
-        },
-        {
-          "value": "32",
-          "unit_quote": "$32/cwt",
-          "geographic_scope": "United States (North Carolina, 2026 crop year)",
-          "product_scope": "Sesamum indicum seed contract price"
-        }
-      ]
+      "claim": "کنجد به غرقابی بسیار حساس است و در شرایط خیس ماندن سریع از بین می‌رود؛ therefore انتخاب مزرعه باید از میدان‌های با زهکشی ضعیف پرهیز کند.",
+      "conditions": "در آزمون‌های تولید کنجد کارولینای شمالی و تگزاس آمریکا",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
     }
   ]
 }

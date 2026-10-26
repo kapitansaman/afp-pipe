@@ -1,9 +1,252 @@
 {
   "topic_id": "agri-aa197412fb7f",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "کدو آجیلی",
-  "slug": "seed-pumpkin-spacing-density",
-  "outline": [],
-  "facts": []
+  "product_definition": "تخم کدو آجیلی (Cucurbita pepo، برداشت محصول دانه خشک)",
+  "slug": "seed-pumpkin-plant-spacing-density-cucurbita-pepo",
+  "outline": [
+    "چگونگی فاصله‌بندی بر پایه عادت رشد (بوچ vs رونده)",
+    "عمق کاشت بذر و نازک‌کاری",
+    "تأثیر تراکم بر اندازه میوه و عملکرد دانه"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "فاصله کاشت کدو آجیلی به عادت رشد cultivar بستگی دارد: ارقام بوچ با فاصله نزدیک‌تر و ارقام رونده با فاصله بیشتر کاشته می‌شوند.",
+      "conditions": "منبع: ویسکانسین / ویرجینیا تک (US)؛ محصول هدف: تولید دانه Cucurbita pepo",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ارقام بوچ: فاصله ردیف ۶ فوت و فاصله درون ردیف تا ۳ فوت. ارقام رونده بزرگ‌میوه: فاصله بوته ۶ تا ۸ فوت در ردیف و ردیف‌ها ۶ تا ۸ فوت. کشت در مزارع بزرگ: ردیف‌ها ۶ تا ۱۰ فوت.",
+      "conditions": "US (Western US / East)؛ روش کشت: شیار آبیاری (furrow irrigated culture)؛ واحد: فوت (feet)؛ محصول: Cucurbita pepo برای تولید دانه و میوه زمستانه",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": [
+        {
+          "value": "6",
+          "unit_quote": "6 feet apart",
+          "geographic_scope": "US ( Western US / East )",
+          "product_scope": "Cucurbita pepo seed/fall squash"
+        },
+        {
+          "value": "8",
+          "unit_quote": "8 feet apart",
+          "geographic_scope": "US ( Western US / East )",
+          "product_scope": "Cucurbita pepo seed/fall squash"
+        },
+        {
+          "value": "3",
+          "unit_quote": "as close as 3 feet",
+          "geographic_scope": "US ( Western US / East )",
+          "product_scope": "Cucurbita pepo seed/fall squash"
+        },
+        {
+          "value": "10",
+          "unit_quote": "rows six to ten feet apart",
+          "geographic_scope": "US ( Western US / East )",
+          "product_scope": "Cucurbita pepo seed/fall squash"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بذر در عمق ۰٫۵ تا ۱ اینچ کاشته می‌شود؛ فاصله درون‌ردیفی ۶ اینچ رایج است و پس از مرحله ۲ تا ۴ برگی نازک‌کاری می‌شود.",
+      "conditions": "US ; واحد: اینچ (inches)؛ محصول: Cucurbita pepo",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": [
+        {
+          "value": "0.5",
+          "unit_quote": "0.5 to 1.0 inches deep",
+          "geographic_scope": "US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "1.0",
+          "unit_quote": "0.5 to 1.0 inches deep",
+          "geographic_scope": "US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "6",
+          "unit_quote": "In-row spacings of 6 inches",
+          "geographic_scope": "US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "2",
+          "unit_quote": "2 to 4 leaf stage",
+          "geographic_scope": "US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "4",
+          "unit_quote": "2 to 4 leaf stage",
+          "geographic_scope": "US",
+          "product_scope": "Cucurbita pepo"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "تراکم نزدیک‌تر معمولاً میوه کوچک‌تر و تراکم گسترده‌تر میوه بزرگ‌تر تولید می‌کند؛ هیبریدها نسبت به ارقام بازگرده کمتر تحت تأثیر تراکم نزدیک قرار می‌گیرند.",
+      "conditions": "US ; محصول: Cucurbita pepo (پروانه/کدوی دانه‌ای)",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ارقام بوچی: ردیف ۵ تا ۶ فوت، بوته ۲ تا ۳ فوت. نیم‌رونده: ردیف ۶ تا ۸ فوت، بوته ۲ تا ۴ فوت. رونده: ردیف ۸ تا ۱۰ فوت، بوته ۴ تا ۵ فوت.",
+      "conditions": "Alabama / US Southeast؛ محصول: کدو (پروانه/آجیلی)؛ واحد: فوت",
+      "evidence_id": "d1-e3",
+      "numeric_bindings": [
+        {
+          "value": "5",
+          "unit_quote": "5 to 6 feet between the rows",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "6",
+          "unit_quote": "5 to 6 feet between the rows",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "2",
+          "unit_quote": "2 to 3 feet apart down the rows",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "3",
+          "unit_quote": "2 to 3 feet apart down the rows",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "6",
+          "unit_quote": "6 to 8 feet apart",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "8",
+          "unit_quote": "6 to 8 feet apart",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "2",
+          "unit_quote": "2 to 4 feet in the row",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "4",
+          "unit_quote": "2 to 4 feet in the row",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "8",
+          "unit_quote": "8 to 10 feet apart",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "10",
+          "unit_quote": "8 to 10 feet apart",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "4",
+          "unit_quote": "4 to 5 feet apart in the row",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        },
+        {
+          "value": "5",
+          "unit_quote": "4 to 5 feet apart in the row",
+          "geographic_scope": "Alabama / US",
+          "product_scope": "pumpkin (seed-purpose)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ارقام رونده: هر دسته ۵۰ تا ۱۰۰ فوت مربع؛ ۵ تا ۶ فوت بین دسته‌ها در ردیف‌های ۱۰ تا ۱۵ فوت. نیم‌بوچ: ۴ فوت بین دسته‌ها، ردیف ۸ فوت. بوچی: هر ۳ فوت یک بوته در ردیف، ردیف ۴ تا ۶ فوت.",
+      "conditions": "Illinois / US؛ محصول: Cucurbita pepo؛ واحد: فوت (feet) و فوت مربع (square feet)",
+      "evidence_id": "d2-e1",
+      "numeric_bindings": [
+        {
+          "value": "50",
+          "unit_quote": "50 to 100 square feet per hill",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "100",
+          "unit_quote": "50 to 100 square feet per hill",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "5",
+          "unit_quote": "5 to 6 feet between hills",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "6",
+          "unit_quote": "5 to 6 feet between hills",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "10",
+          "unit_quote": "rows 10 to 15 feet apart",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "15",
+          "unit_quote": "rows 10 to 15 feet apart",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "4",
+          "unit_quote": "Allow 4 feet between hills and 8 feet between rows",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "8",
+          "unit_quote": "Allow 4 feet between hills and 8 feet between rows",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "3",
+          "unit_quote": "thin to a single plant every 3 feet",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "4",
+          "unit_quote": "4 to 6 feet between rows",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        },
+        {
+          "value": "6",
+          "unit_quote": "4 to 6 feet between rows",
+          "geographic_scope": "Illinois / US",
+          "product_scope": "Cucurbita pepo"
+        }
+      ]
+    }
+  ]
 }

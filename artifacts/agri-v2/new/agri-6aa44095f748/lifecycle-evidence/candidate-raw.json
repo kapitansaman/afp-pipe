@@ -1,9 +1,77 @@
 {
   "topic_id": "agri-6aa44095f748",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "",
-  "slug": "edible-seed-watermelon-cultivar-criteria",
-  "outline": [],
-  "facts": []
+  "product_definition": "تخم‌آوره هندوانه (دانه‌خوراکی) — برداشت محصول: دانه خشکیده، گونه‌های Citrullus برای تولید بذر خوراکی، نه میوه شیرین",
+  "slug": "variety-selection-edible-seed-watermelon-climate-market",
+  "outline": [
+    "معیارهای اقلیمی و سازگاری منطقه‌ای برای کشت هندوانه تخمی",
+    "ویژگی‌های کیفی دانه و پایداری محصول برای بازار",
+    "اصول کلی انتخاب رقم بدون ارجاع به رقم محلی ثبت‌شده ایران",
+    "محدودیت منابع خارجی و عدم امکان تجویز رقم ایرانی خاص"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "هندوانه‌های تخمی (نوع egusi) گونه‌ای نزدیک به هندوانه شیرین هستند و در بسیاری از کشورهای آفریقایی غربی برای دانه‌های پروتئین و لیپیددارشان کشت می‌شوند.",
+      "conditions": "گونه‌های Citrullus mucosospermus و C. lanatus زیرگونه‌های مرتبط؛ اقلیم گرماده‌های اصلی；منبع: تحقیقات دانشگاه جرجیا و NC State",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "صفت پوسته دانه‌ای ضخیم و لزج (نوع egusi) توسط یک لوکس مغلوب تک‌ژنی کنترل می‌شود که روی کروموزوم ۶ نقشه‌برداری شده است.",
+      "conditions": "منطقه ۸۶.۳ cM روی نقشه ژنتیکی؛ نشانگر UGA6_7026576 هم‌تفکیک‌پذیر با فنوتیپ；منبع: Paudel et al. 2019",
+      "evidence_id": "d1-e2",
+      "numeric_bindings": [
+        {
+          "value": "86.3",
+          "unit_quote": "86.3 cM",
+          "geographic_scope": "نقشه ژنتیکی C. mucosospermus",
+          "product_scope": "لوکس egusi روی کروموزوم ۶"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دانه‌های هندوانه تخمی حاوی حدود ۳۵٪ روغن و ۲۸٪ پروتئین هستند و ترکیب روغن آن‌ها شبیه روغن آفتابگردان، سویا و کلزا است.",
+      "conditions": "ارزش غذایی بالا؛ کاربرد در صنایع غذایی و بیودیزل；منبع: Oyolu 1977a, Akobundu et al. 1982, Jarret & Levy 2012",
+      "evidence_id": "d1-e4",
+      "numeric_bindings": [
+        {
+          "value": "35",
+          "unit_quote": "approx. 35%",
+          "geographic_scope": "دانه‌های egusi غرب آفریقا",
+          "product_scope": "محتوای روغن دانه"
+        },
+        {
+          "value": "28",
+          "unit_quote": "approx. 28%",
+          "geographic_scope": "دانه‌های egusi غرب آفریقا",
+          "product_scope": "محتوای پروتئین دانه"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برخی دسترسی‌های طبقه‌بندی‌شده به عنوان C. mucosospermus فاقد صفت پوسته دانه‌ای نوع egusi هستند و ویژگی فنوتیپی dانه معیار تشخیص گونه نیست.",
+      "conditions": "مثال: PI 189317 دارای دانه معمولی است ؛منبع: Gusmini et al. 2004, Prothro et al. 2012, Guo et al. 2013",
+      "evidence_id": "d1-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نشانگر KASP UGA6_7026576 در هر دو جمعیت نقشه‌برداری و اعتبارسنجی همبستگی بالا با فنوتیپ egusi نشان داد و برای انتخاب کمک‌ Marker (MAS) قابل استفاده است.",
+      "conditions": "دقت پیش‌بینی فنوتیپی بالا؛ جمعیت‌های SII x Egusi و UGA147 x Egusi；منبع: Paudel et al. 2019",
+      "evidence_id": "d1-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منابع موجود معیارهای کیفی انتخاب رقم را پوشش می‌دهند اما رقم خاصی با نام ثبت‌شده ایرانی یا سازگاری محلی اقلیم ایران معرفی نشده‌اند.",
+      "conditions": "محدودیت منابع: مقالات علمی انگلیسی/آمریکایی/آفریقایی；عدم وجود آزمون‌های محلی ایران；منبع: بررسی جامع منابع d0 و d1",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    }
+  ]
 }

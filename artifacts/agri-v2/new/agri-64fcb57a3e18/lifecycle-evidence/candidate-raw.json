@@ -1,0 +1,117 @@
+{
+  "topic_id": "agri-64fcb57a3e18",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود فرنگی خشک (دانه‌ی برداشت‌شده خشک Pisum sativum نوع field pea)",
+  "slug": "dry-field-pea-yield-range-factors",
+  "outline": [
+    "تفکیک محصول هدف: نخودفرنگی خشک (دانه) در مقابل نخود سبز تازه",
+    "دامنه عملکرد دانه خشک در هکتار بر اساس آزمون‌های منطقه‌ای",
+    "عوامل تغییردهنده عملکرد: عادت بلوغ، دمای گلدهی، تراکم بوته، آبیاری و بوم‌سازگان"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "میانگین عملکرد نخود فرنگی خشک در آزمون‌های مرکز تحقیقاتی مینوت (دکوتا شمالی) حدود ۵۵ bushel در acre بوده است.",
+      "conditions": "منطقه: شمال آمریکا (دکوتا شمالی)، محصول: دانه خشک نخود فرنگی (field pea)، واحد: bushel per acre، منبع: سند ترویجی NDSU",
+      "evidence_id": "d0-e12",
+      "numeric_bindings": [
+        {
+          "value": "55",
+          "unit_quote": "55 bushels per acre",
+          "geographic_scope": "North Dakota, USA",
+          "product_scope": "dry shelled field pea grain"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عملکردهای tested نخود فرنگی خشک در آزمون‌های کارولینای شمالی و جنوبی بین ۴۱.۸ تا ۷۵.۱ bushel در acre متغیر بود.",
+      "conditions": "منطقه: جنوب و میانه ساحلی آمریکا (کارولینای شمالی و جنوبی)، محصول: دانه خشک نخود فرنگی (grain pea)، واحد: bushel per acre، تاریخ: ۲۰۱۸-۲۰۱۹",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": [
+        {
+          "value": "75.1",
+          "unit_quote": "Yield (bu/acre): 75.1",
+          "geographic_scope": "North/South Carolina, USA",
+          "product_scope": "dry shelled grain pea"
+        },
+        {
+          "value": "41.8",
+          "unit_quote": "Yield (bu/acre): 41.8",
+          "geographic_scope": "North/South Carolina, USA",
+          "product_scope": "dry shelled grain pea"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود فرنگی خشک از نظر عملکرد می‌تواند کمی پایین‌تر یا مشابه گندم بهاره در واحد pound یا bushel باشد.",
+      "conditions": "منطقه: قلمرو شمال غربی آمریکا (northern Great Plains)، محصول: دانه خشک نخود فرنگی در مقایسه با گندم بهاره",
+      "evidence_id": "d0-e11",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "تنوع عملکرد تحت تأثیر عادت بلوغ (indeterminate versus determinate)، حساسیت به تنش حرارتی هنگام گلدهی و تراکم گیاهی هدف تنظیم می‌شود.",
+      "conditions": "محصول: دانه خشک نخود فرنگی، معیارها: زمان بلوغ و تراکم بوته",
+      "evidence_id": "d0-e9",
+      "numeric_bindings": [
+        {
+          "value": "90 to 100",
+          "unit_quote": "ranging from 90 to 100 days",
+          "geographic_scope": "general adaptation",
+          "product_scope": "indeterminate field pea maturity"
+        },
+        {
+          "value": "80 to 90",
+          "unit_quote": "earlier maturity of 80 to 90 days",
+          "geographic_scope": "general adaptation",
+          "product_scope": "determinate field pea maturity"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دمای بالای ۸۵ درجه فارنهایت هنگام گلدهی توسعه غوره و دانه را مهار کرده و عملکرد را کاهش می‌دهد.",
+      "conditions": "منطقه: کارولینا، محصول: دانه خشک نخود فرنگی، مرحله رشد: گلدهی و تشکیل غوره",
+      "evidence_id": "d1-e21",
+      "numeric_bindings": [
+        {
+          "value": "85",
+          "unit_quote": "temperatures exceed 85°F",
+          "geographic_scope": "North Carolina, USA",
+          "product_scope": "field pea flowering stage"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "تراکم هدف گیاهی برای بهینه‌سازی عملکرد بین ۳۰۰,۰۰۰ تا ۳۵۰,۰۰۰ بوته در acre توصیه شده است.",
+      "conditions": "منطقه: ایالات متحده (عمومی)، محصول: دانه خشک نخود فرنگی",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": [
+        {
+          "value": "300,000 to 350,000",
+          "unit_quote": "300,000 to 350,000 plants per acre",
+          "geographic_scope": "United States (general recommendation)",
+          "product_scope": "field pea plant population target"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "نخود فرنگی خشک به عنوان یک legume فصل سرد عمل کرده و تحت شرایط مناسب تا ۸۰ درصد نیتروژن مورد نیاز خود را از تثبیت زیستی تأمین می‌کند.",
+      "conditions": "محصول: دانه خشک نخود فرنگی، بستر: شرایط رشد مطلوب",
+      "evidence_id": "d0-e22",
+      "numeric_bindings": [
+        {
+          "value": "80",
+          "unit_quote": "as much as 80% of its total N requirement",
+          "geographic_scope": "general adaptation",
+          "product_scope": "field pea N fixation potential"
+        }
+      ]
+    }
+  ]
+}

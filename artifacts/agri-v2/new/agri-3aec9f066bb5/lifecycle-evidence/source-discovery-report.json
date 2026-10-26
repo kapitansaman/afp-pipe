@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "started_at": "2026-10-26T05:54:44.360809+00:00",
+  "started_at": "2026-10-26T06:07:41.001496+00:00",
   "discovery_backend": "verified_catalog_and_observed_institutional_links",
   "model_generated_urls": false,
   "max_fetches": 12,
   "max_link_depth": 1,
-  "completed_at": "2026-10-26T05:54:45.643260+00:00",
+  "completed_at": "2026-10-26T06:07:42.317467+00:00",
   "requested": 3,
   "loaded": 3,
   "independent_institutions": 3,

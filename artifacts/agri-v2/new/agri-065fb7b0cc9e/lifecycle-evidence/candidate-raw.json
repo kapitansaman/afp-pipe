@@ -1,9 +1,95 @@
 {
   "topic_id": "agri-065fb7b0cc9e",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": null,
-  "slug": "kidney-bean-yield-per-hectare",
-  "outline": [],
-  "facts": []
+  "product_definition": "لوبیا قرمز (لوبیای کلیوی قرمز روشن)؛ دانه خشک خوراکی از گونه Phaseolus vulgaris",
+  "slug": "red-kidney-bean-yield-hectare-iran",
+  "outline": [
+    "دامنه عملکرد کلی لوبیای خشک خوراکی در مزارع ایالات متحده",
+    "عملکرد ثبت‌شده لوبیای کلیوی (Light Red Kidney) در آزمون‌های نبراسکا",
+    "میزان بذر مصرفی برای ارقام بوته‌ای لوبیای کلیوی بر اساس روش کشت",
+    "نقش رطوبت برداشت و استاندارد رطوبت در گزارش عملکرد"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد دانه خشک لوبیاهای خوراکی در سطح ملی ایالات متحده معمولاً در محدوده ۲۰ تا ۳۰ bushel در acre گزارش می‌شود، که به انتخاب کلاس بازاری و رقم مناسب وابسته است.",
+      "conditions": "مزارع تجاری خشک‌بوته (dry edible bean) در ایالات متحده، شامل کلASSEهای بازاری پینتو، نژی، کلیوی و سیاه؛ محصول نهایی دانه خشک خوراکی",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": [
+        {
+          "value": "20",
+          "unit_quote": "20 to 30 bushels per acre",
+          "geographic_scope": "US national dry edible bean production",
+          "product_scope": "Dry edible bean (general market classes)"
+        },
+        {
+          "value": "30",
+          "unit_quote": "20 to 30 bushels per acre",
+          "geographic_scope": "US national dry edible bean production",
+          "product_scope": "Dry edible bean (general market classes)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در آزمون‌های رقمی لوبیای خشک خوراکی نبراسکا سال ۲۰۲۲، میانگین عملکرد لوبیای کلیوی قرمز روشن (Light Red Kidney) در سایت اسکاتس‌بلف برابر ۲٬۰۲۰ پوند در acre (حدود ۲٬۲۶۴ کیلوگرم در هکتار) при увлажнении ۱۴٪ بود.",
+      "conditions": "آزمون رقمی مرکز تحقیقاتی نبراسکا، سایت اسکاتس‌بلف (Scot Blair Ag Lab)، خاک loam شنی بسیارfine، آبیاری Sprinkler (۱۵ بار، مجموع ۹٫۳۵ اینچ)؛ عملکرد به رطوبت استاندارد ۱۴٪ تعدیل شده است",
+      "evidence_id": "d3-e20",
+      "numeric_bindings": [
+        {
+          "value": "2020",
+          "unit_quote": "GRAND MEAN 2020",
+          "geographic_scope": "Nebraska, Scottsbluff Ag Lab (western Nebraska)",
+          "product_scope": "Light Red Kidney dry bean, yield at 14% moisture"
+        },
+        {
+          "value": "14",
+          "unit_quote": "Yield at 14% moisture",
+          "geographic_scope": "Nebraska, Scottsbluff Ag Lab (western Nebraska)",
+          "product_scope": "Light Red Kidney dry bean, moisture adjustment basis"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برای ارقام بوته‌ای لوبیای کلیوی در میزوری، نرخ بذر_recommend شده حدود ۱۰۰ پوند در acre برای ردیف‌های پهن و ۱۲۰ پوند در acre برای کشت پخش‌شده (drilled) است؛ این مقادیر به‌دلیل اندازه دانه بزرگ‌تر کلیوی نسبت به سایر Classes بالاتر از سایر ارقام است.",
+      "conditions": "توصیه‌های کشت ارقام بوته‌ای (bush-type) لوبیای خشک خوراکی در میزوری، بر اساس间距 ردیف و روش کشت؛ محصول هدف: بذر کشت (seeding rate)، نه عملکرد برداشت",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": [
+        {
+          "value": "100",
+          "unit_quote": "Kidney Beans | Wide Rows: 100",
+          "geographic_scope": "Missouri dry bean production guidelines",
+          "product_scope": "Kidney bean seeding rate, wide rows"
+        },
+        {
+          "value": "120",
+          "unit_quote": "Kidney Beans | Drilled: 120",
+          "geographic_scope": "Missouri dry bean production guidelines",
+          "product_scope": "Kidney bean seeding rate, drilled narrow rows"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد نهایی لوبیای خشک به رطوبت زمان برداشت بستگی دارد؛ برداشت هنگامی که رطوبت دانه به حدود ۱۸٪ می‌رسد آغاز می‌شود و عملکرد گزارش‌شده در آزمون‌ها معمولاً به رطوبت ۱۴٪ تعدیل می‌شود تا قابل مقایسه باشند.",
+      "conditions": "مدیریت برداشت لوبیای خشک خوراکی در ایالات متحده؛ تفاوت میان رطوبت عملی برداشت (harvest moisture) و رطوبت استاندارد گزارش عملکرد (test moisture)",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": [
+        {
+          "value": "18",
+          "unit_quote": "Harvest can start when seeds are at 18% moisture",
+          "geographic_scope": "US dry bean harvest guidelines",
+          "product_scope": "Harvest moisture threshold for dry beans"
+        },
+        {
+          "value": "14",
+          "unit_quote": "Yield at 14% moisture",
+          "geographic_scope": "Nebraska dry bean variety trials (standard adjustment)",
+          "product_scope": "Light Red Kidney dry bean yield adjustment basis"
+        }
+      ]
+    }
+  ]
 }

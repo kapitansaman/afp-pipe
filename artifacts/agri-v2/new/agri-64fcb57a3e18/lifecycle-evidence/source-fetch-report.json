@@ -1,10 +1,16 @@
 {
-  "requested": 1,
-  "loaded": 1,
+  "requested": 2,
+  "loaded": 2,
   "sources": [
     {
       "url": "https://www.ndsu.edu/agriculture/extension/publications/field-pea-production",
       "canonical_url": "https://www.ndsu.edu/agriculture/extension/publications/field-pea-production",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://content.ces.ncsu.edu/grain-pea-production-in-north-carolina",
+      "canonical_url": "https://content.ces.ncsu.edu/grain-pea-production-in-north-carolina",
       "redirect_hops": 0,
       "status": "fetched"
     }

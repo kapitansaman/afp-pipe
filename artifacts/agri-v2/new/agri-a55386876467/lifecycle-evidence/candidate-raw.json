@@ -2,110 +2,114 @@
   "topic_id": "agri-a55386876467",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "علوفه خشک یونجه (Alfalfa hay dry matter)",
-  "slug": "cut-yield-alfalfa-dm-mn-usa",
+  "product_definition": "یونجه (Medicago sativa) — علوفه خشک‌شده (Dry Matter; fresh forage weight cannot be inferred from dry matter without measured conversion)",
+  "slug": "alfalfa-cutting-yield-dry-matter",
   "outline": [
-    "تعداد چین‌های فصلی در سیستم‌های مختلف (۴، ۵ و ۶ چین در سال) در اقلیم مینه‌سوتا",
-    "فاصله زمانی بین چین‌ها (۲۱، ۲۸ و ۴۵ روز) و رابطه آن با بلوغ گیاه",
-    "عملکرد کل فصلی و تاثیر هر چین بر عملکرد ماده خشک در شرایط مختلف محیطی"
+    "توزیع فصلی برش‌ها: برش اول حدود ۴۰ درصد تولید کل فصلی ماده خشک را تشکیل می‌دهد؛ برش‌های بعدی بسته به شرایط اقلیمی و زمان‌بندی رسیدگی.",
+    "نرخ انباشت ماده خشک: از مرحله رویشی دیربه‌تاگل‌دهی، نرخ متوسط حدود ۱۰۰ پوند در روز بر یکر؛ این نرخ با افزایش رسیدگی کاهش می‌یابد.",
+    "بازده سالانه (Dry Matter): رنج بازده سالانه علوفه یونجه معمولاً ۴ تا ۱۰ تن بر ایکر؛ تحت مدیریت تشدیدشده و آبیاری ممکن است از ۱۴ تن بر ایکر فراتر رود.",
+    "توقف برداشت پس از بارندگی: بارش پس از قطع علوفه باعث از دست رفتن ماده خشک و مواد مغذی می‌شود؛ تلفات ماده خشک معمولاً ۲۰ تا ۳۰ درصد و تلفات مواد مغذی تا ۲۵ درصد بر هر اینچ باران گزارش شده است."
   ],
   "facts": [
     {
       "kind": "source_observation",
-      "claim": "در آزمایش‌های مینه‌سوتا (بکر و سنت پل)، عملکرد کل فصلی یونجه تحت سیستم ۴ چین (فاصله ۴۵ روزه) بیشتر از سیستم ۵ چین (فاصله ۲۸ روزه) بود.",
-      "conditions": "آزمایش در دو سایت بکر و سنت پل مینه‌سوتا، اقلیم شمال آمریکا، سال‌های ۲۰۱۵ و ۲۰۱۶",
-      "evidence_id": "d2-e25",
+      "claim": "برش اول یونجه در فصل رشد عموماً بزرگ‌ترین برش سال بوده و حدود ۴۰٪ تولید کل فصلی ماده خشک را تشکیل می‌دهد.",
+      "conditions": "اقلیم نیمه‌شمالی قاره آمریکا (مینه‌سوتا); محصول: ماده خشک یونجه (dry matter); واحد: درصد از کل فصلی؛ محدودیت: داده مربوط به فصل رشد مینه‌سوتا است و قابل تعمیم مستقیم به اقلیم ایران نیست.",
+      "evidence_id": "d0-e0",
       "numeric_bindings": [
         {
-          "value": "45",
-          "unit_quote": "45-d intervals",
-          "geographic_scope": "Minnesota, USA (Becker and St. Paul)",
-          "product_scope": "alfalfa dry matter yield"
-        },
-        {
-          "value": "28",
-          "unit_quote": "28-d intervals",
-          "geographic_scope": "Minnesota, USA (Becker and St. Paul)",
-          "product_scope": "alfalfa dry matter yield"
+          "value": "40",
+          "unit_quote": "about 40% of the total season dry matter production",
+          "geographic_scope": "central and southern Minnesota, USA",
+          "product_scope": "alfalfa dry matter, seasonal first-cut share"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "افزایش فرکانس چین‌برداری از ۴ به ۶ چین در سال در محیط بکر منجر به کاهش ۵٪ و ۲۹٪ در عملکرد ماده خشک شد.",
-      "conditions": "محیط بکر مینه‌سوتا، سیستم ۴ چین تا ۶ چین",
-      "evidence_id": "d2-e1",
-      "numeric_bindings": [
-        {
-          "value": "5",
-          "unit_quote": "5% decrease",
-          "geographic_scope": "Becker, Minnesota, USA",
-          "product_scope": "alfalfa forage dry matter yield"
-        },
-        {
-          "value": "29",
-          "unit_quote": "29% decrease",
-          "geographic_scope": "Becker, Minnesota, USA",
-          "product_scope": "alfalfa forage dry matter yield"
-        },
-        {
-          "value": "4",
-          "unit_quote": "CF4",
-          "geographic_scope": "Becker, Minnesota, USA",
-          "product_scope": "alfalfa cutting frequency"
-        },
-        {
-          "value": "6",
-          "unit_quote": "CF6",
-          "geographic_scope": "Becker, Minnesota, USA",
-          "product_scope": "alfalfa cutting frequency"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "در محیط سنت پل، افزایش فرکانس از ۴ به ۵ چین عملکرد را ۱۱٪ افزایش داد، اما افزایش از ۵ به ۶ چین منجر به کاهش ۲۴٪ شد.",
-      "conditions": "محیط سنت پل مینه‌سوتا",
-      "evidence_id": "d2-e25",
-      "numeric_bindings": [
-        {
-          "value": "11",
-          "unit_quote": "11% increased",
-          "geographic_scope": "St. Paul, Minnesota, USA",
-          "product_scope": "alfalfa dry matter yield"
-        },
-        {
-          "value": "24",
-          "unit_quote": "24% decreased",
-          "geographic_scope": "St. Paul, Minnesota, USA",
-          "product_scope": "alfalfa dry matter yield"
-        },
-        {
-          "value": "5",
-          "unit_quote": "CF5",
-          "geographic_scope": "St. Paul, Minnesota, USA",
-          "product_scope": "alfalfa cutting frequency"
-        }
-      ]
-    },
-    {
-      "kind": "qualitative",
-      "claim": "میزان برداشت هر چین به اقلیم، رقم و وضعیت بلوغ گیاه وابسته است و داده‌های کمی مستقل برای هر تک‌چین در منابع موجود نیست.",
-      "conditions": "یونجه در مناطق شمال آمریکا، وابسته به شرایط رشد",
-      "evidence_id": "d0-e6",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "فاصله بین چین‌ها می‌تواند بر اساس نرخ انباشت ماده خشک (حدود ۱۰۰ پوند در روز برای هر اکر) و مرحله رشد تعیین شود.",
-      "conditions": "یونجه در مینه‌سوتا",
+      "claim": "نرخ انباشت ماده خشک یونجه از اواخر مرحله رویشی تا گل‌دهی به‌طور متوسط حدود ۱۰۰ پوند در روز بر هر ایکر است.",
+      "conditions": "اقلیم نیمه‌شمالی قاره آمریکا (مینه‌سوتا); محصول: ماده خشک یونجه; واحد: پوند/روز/ایکر; محدودیت: نرخ با افزایش رسیدگی کاهش می‌یابد.",
       "evidence_id": "d0-e6",
       "numeric_bindings": [
         {
           "value": "100",
-          "unit_quote": "100 lb/day/acre",
-          "geographic_scope": "Minnesota, USA",
+          "unit_quote": "about 100 lb/day/acre",
+          "geographic_scope": "central Minnesota, USA",
           "product_scope": "alfalfa dry matter accumulation rate"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بازده سالانه علوفه یونجه معمولاً بین ۴ تا ۱۰ تن بر ایکر است و تحت مدیریت تشدیدشده و آبیاری ممکن است از ۱۴ تن بر ایکر فراتر رود.",
+      "conditions": "منطقه جنوب شرقی آمریکا (آلاباما); محصول: علوفه یونجه (fresh forage basis cited in source as \"tons per acre\"); واحد: تن/ایکر/سال; محدودیت: رنج سالانه است، نه میزان هر چین.",
+      "evidence_id": "d1-e14",
+      "numeric_bindings": [
+        {
+          "value": "4 to 10",
+          "unit_quote": "4 to 10 tons per acre annually",
+          "geographic_scope": "southeastern United States (Alabama)",
+          "product_scope": "alfalfa forage, annual fresh yield"
+        },
+        {
+          "value": "14",
+          "unit_quote": "exceed 14 tons per acre",
+          "geographic_scope": "southeastern United States (Alabama)",
+          "product_scope": "alfalfa forage, annual fresh yield under intensive management and irrigation"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بارش باران پس از قطع یونجه تلفات قابل‌توجهی در ماده خشک ایجاد می‌کند؛ تلفات ماده خشک معمولاً ۲۰ تا ۳۰ درصد و تلفات مواد مغذی تا ۲۵ درصد بر هر اینچ باران است.",
+      "conditions": "اقلیم نیمه‌شمالی قاره آمریکا (مینه‌سوتا); محصول: علوفه یونجه قطع‌شده (hay/haylage); واحد: درصد; محدودیت: تلفات وابسته به مدت زمان خشک شدن و شدت بارش است.",
+      "evidence_id": "d0-e2",
+      "numeric_bindings": [
+        {
+          "value": "20 to 30",
+          "unit_quote": "range from 20 to 30%",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa dry matter loss after cutting due to rainfall"
+        },
+        {
+          "value": "25",
+          "unit_quote": "as high as 25% per inch of rain",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa nutrient loss per inch of rainfall after cutting"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در برنامه هشدار برداشت مینه‌سوتا، ارتفاع کانوپس ۳۰ اینچی یونجه نشان‌دهنده بلوغ مناسب برای برش اول در مناطق مرکزی و جنوبی این ایالت است.",
+      "conditions": "منطقه مینه‌سوتا، آمریکا; محصول: یونجه تازه (canopy height indicator); واحد: اینچ; محدودیت: این شاخص جایگزین معیار کیلویی وزن تر یا خشک است و صرفاً نشانگر زمان‌بندی برداشت است.",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "a first harvest alfalfa height of 30 inches",
+          "geographic_scope": "central Minnesota, USA",
+          "product_scope": "alfalfa canopy height for first-cut timing"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در آلاباما، فاصله بین چین‌ها معمولاً ۲۸ تا ۳۵ روز است و ارتفاع بقایا (stubble) توصیه‌شده ۴ اینچ می‌باشد.",
+      "conditions": "منطقه جنوب شرقی آمریکا (آلاباما); محصول: یونجه؛ واحد: روز (فاصله چین)، اینچ (ارتفاع بقایا); محدودیت: این اعداد بازه عملیاتی منطقه‌ای هستند.",
+      "evidence_id": "d1-e15",
+      "numeric_bindings": [
+        {
+          "value": "28 to 35",
+          "unit_quote": "28- to 35-day regrowth interval",
+          "geographic_scope": "southeastern United States (Alabama)",
+          "product_scope": "alfalfa regrowth interval between cuttings"
+        },
+        {
+          "value": "4",
+          "unit_quote": "The stubble height recommended is 4 inches",
+          "geographic_scope": "southeastern United States (Alabama)",
+          "product_scope": "alfalfa stubble height after cutting"
         }
       ]
     }

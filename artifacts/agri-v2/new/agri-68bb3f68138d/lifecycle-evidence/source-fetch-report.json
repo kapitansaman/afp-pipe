@@ -1,6 +1,6 @@
 {
-  "requested": 2,
-  "loaded": 2,
+  "requested": 3,
+  "loaded": 3,
   "sources": [
     {
       "url": "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
@@ -11,6 +11,12 @@
     {
       "url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
       "canonical_url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.ers.usda.gov/newsroom/trending-topics/pumpkins-background-statistics",
+      "canonical_url": "https://www.ers.usda.gov/newsroom/trending-topics/pumpkins-background-statistics",
       "redirect_hops": 0,
       "status": "fetched"
     }

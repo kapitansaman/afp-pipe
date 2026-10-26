@@ -2,215 +2,153 @@
   "topic_id": "agri-60e1ebaf13c8",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "کدو سبز (summer squash, immature fruit of Cucurbita pepo)",
-  "slug": "yield-summer-squash-cucurbita-pepo",
+  "product_definition": "کدو سبز (زوکینی) — میوه نارس کدو تابستانه برای بازار محصول تازه",
+  "slug": "zucchini-summer-squash-yield-hectare",
   "outline": [
-    "تفکیک محصول برداشت‌شده: کدو سبز به‌عنوان میوه نامنض (summer squash immature fruit)، نه کدو زمستانی",
-    "سرچگینی کاشت و فواصل در منطقه منبع (جورجیا، آمریکا) و رابطه آن با شمارش بوته در هکتار",
-    "عدم موجود بودن رقم کمی عملکرد هر هکتار/acre در منابع موجود؛ فقط محدوده‌ها و توصیه‌های کیفی"
+    "مرز محصولات: تفکیک کدو سبز (تابستانه/نارس) از کدو زمستانه، کدو حلوایی و تخم‌کدو",
+    "معیارهای کیفی اثرگذار بر عملکرد: نوع بوته‌ای در برابر رونده، مدیریت آبیاری، پیش‌تاجیر پلاستیک/آب‌کش، تراکم کشت، گرده‌افشانی زنبوری",
+    "دسته‌بندی ارقام با معیارهای انتخاب: درجه یکنواختی، عملکرد نسبی، مقاومت به بیماری‌های ویروسی و سفیدک‌ها، سازگاری اقلیمی — بدون ارجاع به رقم بومی خاص"
   ],
   "facts": [
     {
       "kind": "qualitative",
-      "claim": "کدو سبز (summer squash) میوه نامنض است که معمولاً هر دو روز یا سه بار در هفته در اوج برداشت جمع‌آوری می‌شود.",
-      "conditions": "میوه به قطر 1.5 تا 2.5 اینچ (in.) با ظاهر براق؛ برگرفته از منبع UGA Extension Circular C527 (جورجیا، آمریکا)",
-      "evidence_id": "d1-e14",
+      "claim": "کدو سبز (زوکینی) میوه نارس و تازه است و با کدو زمستانه که در بلوغ کامل برداشت می‌شود و عمر قفسه‌ای ماه‌ها دارد متفاوت است.",
+      "conditions": "کدو تابستانه تازه‌برداشت؛ محصول نه تخم یا کدو زمستانه",
+      "evidence_id": "d1-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کدو سبز و سایر کدوهای تابستانه در فواصل کوتاه پس از برداشت به‌سرعت دچار افت کیفیت می‌شوند و نگهداری طولانی ندارند.",
+      "conditions": "بازار محصول تازه؛ ماندگاری ۲ تا ۳ هفته پس از برداشت",
+      "evidence_id": "d1-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برداشت تجاری کدو سبز تازه‌برداشت باید به‌طور مداوم تکرار شود؛ طول و قطر استاندارد میوه تعیین‌کننده زمان برداشت است.",
+      "conditions": "برداشت مکرر برای حفظ تولید پیوسته در فصل رشد؛ طول حدود ۸ اینچ و قطر ۱.۵ تا ۲.۵ اینچ هدف بازار محصول تازه",
+      "evidence_id": "d1-e15",
       "numeric_bindings": [
         {
           "value": "1.5",
-          "unit_quote": "1.5 to 2.5 inches",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (immature fruit)"
+          "unit_quote": "1.5 to 2.5 inches in diameter",
+          "geographic_scope": "توصیف استاندارد بازار محصول تازه (USGA)",
+          "product_scope": "summer squash fresh-market fruit diameter"
         },
         {
           "value": "2.5",
-          "unit_quote": "1.5 to 2.5 inches",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (immature fruit)"
-        }
-      ]
-    },
-    {
-      "kind": "qualitative",
-      "claim": "زکینی (zucchini) حدود 8 اینچ طول باید باشد؛ پوست باید براق و میوه قبل از بزرگ‌شدن بیش‌ازحد و سفت‌شدن دانه‌ها برداشت شود.",
-      "conditions": "منبع UGA Extension Circular C527، جورجیا، آمریکا — توصیف کیفی اندازه برداشت زکینی",
-      "evidence_id": "d1-e15",
-      "numeric_bindings": [
+          "unit_quote": "1.5 to 2.5 inches in diameter",
+          "geographic_scope": "توصیف استاندارد بازار محصول تازه (USGA)",
+          "product_scope": "summer squash fresh-market fruit diameter"
+        },
         {
           "value": "8",
-          "unit_quote": "about 8 in. long",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "zucchini squash (Cucurbita pepo, summer squash)"
+          "unit_quote": "Zucchini squash should be about 8 in. long",
+          "geographic_scope": "توصیف کیفیت محصول تازه (USGA)",
+          "product_scope": "zucchini fresh-market fruit length"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "تولید کدو سبز تابستانی در جورجیا (آمریکا) هم‌زمان با گرم شدن دما آغاز می‌شود (حداقل 68 °F، بهینه 70 تا 80 °F).",
-      "conditions": "منبع UGA Extension Circular C527، دمای خاک حداقل 68 درجه فارنهایت و بهینه 70 تا 80 درجه فارنهایت — منطقه جورجیا، آمریکا",
-      "evidence_id": "d1-e8",
+      "claim": "فاصله کشت و تراکم از عوامل کیفی مهم عملکرد هستند؛ نوع بوته‌ای تراکم بالاتر و نوع رونده فضای بیشتری نیاز دارد.",
+      "conditions": "تراکم‌بندی بر پایه سامانه رشد بوته‌ای یا رونده",
+      "evidence_id": "d1-e0",
       "numeric_bindings": [
         {
-          "value": "68",
-          "unit_quote": "minimum 68 °F",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash seed germination temperature"
+          "value": "3-4",
+          "unit_quote": "Distance between rows (ft) | Bush: 3-4",
+          "geographic_scope": "USGA — فاصله ردیف‌ها در سامانه بوته‌ای",
+          "product_scope": "squash planting row spacing"
         },
         {
-          "value": "70",
-          "unit_quote": "optimum 70 to 80 °F",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash seed germination temperature"
+          "value": "1-2",
+          "unit_quote": "Distance between plants (ft) | Bush: 1-2",
+          "geographic_scope": "USGA — فاصله بوته‌ای در سامانه بوته‌ای",
+          "product_scope": "squash in-row plant spacing"
         },
         {
-          "value": "80",
-          "unit_quote": "optimum 70 to 80 °F",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash seed germination temperature"
+          "value": "5-8",
+          "unit_quote": "Distance between rows (ft) | Vining: 5-8",
+          "geographic_scope": "USGA — فاصله ردیف‌ها در سامانه رونده",
+          "product_scope": "squash planting row spacing"
+        },
+        {
+          "value": "2.5-5",
+          "unit_quote": "Distance between plants (ft) | Vining: 2.5-5",
+          "geographic_scope": "USGA — فاصله بوته‌ای در سامانه رونده",
+          "product_scope": "squash in-row plant spacing"
         }
       ]
     },
     {
-      "kind": "qualitative",
-      "claim": "کدو سبز تابستانی 45 تا 55 روز پس از کاشت بذر شروع به تولید می‌کند.",
-      "conditions": "منبع UGA Extension Circular C527، جورجیا، آمریکا — بازه زمانی تا برداشت اولیه",
-      "evidence_id": "d1-e8",
-      "numeric_bindings": [
-        {
-          "value": "45",
-          "unit_quote": "45 to 55 days from seeding",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (Cucurbita pepo)"
-        },
-        {
-          "value": "55",
-          "unit_quote": "45 to 55 days from seeding",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (Cucurbita pepo)"
-        }
-      ]
+      "kind": "source_observation",
+      "claim": "پیش‌تاجیر با پلاستیک تیره و آبیاری قطره‌ای می‌تواند برداشت را چند روز زودتر کرده و عملکرد را افزایش دهد.",
+      "conditions": "سامانه تولید با مالچ پلاستیکی و drip tape؛ مقایسه با کشت بدون پلاستیک",
+      "evidence_id": "d1-e10",
+      "numeric_bindings": []
     },
     {
       "kind": "qualitative",
-      "claim": "فاصله ردیف‌ها 3 تا 4 فوت و فاصله بوته‌ها درون ردیف 12 تا 18 اینچ برای کدو سبز تابستانی (بوته‌ای) است.",
-      "conditions": "منبع UGA Extension Circular C527، Table 2 — جورجیا، آمریکا؛ فواصل کاشت برای گونه Cucurbita pepo",
+      "claim": "عملکرد نهایی به مدیریت آبیاری منظم، گرده‌افشانی کافی (داربست زنبور عسل)، کنترل ویروس‌ها و آفات، و نوع رقم بستگی دارد.",
+      "conditions": "عوامل کیفی مؤثر بر عملکرد در سامانه‌های مختلف تولید",
       "evidence_id": "d1-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "منابع موجود بر اساس داده‌های Penn State فقط عملکرد میانگین و بازه را برای انواع کدو زمستانه (اکورن، باترباک/کابوچا، باترنات) و کدو حلوایی به ازای هر بوته ارائه می‌دهند و عدد عملکرد مخصوص کدو سبز تابستانه در آن‌ها وجود ندارد.",
+      "conditions": "محدودیت منبعPenn State به winter-squash types; summer-squash/zucchini عدد صریح ندارد",
+      "evidence_id": "d0-e9",
       "numeric_bindings": [
-        {
-          "value": "3",
-          "unit_quote": "3 to 4 ft between rows",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (bush type, Cucurbita pepo)"
-        },
-        {
-          "value": "4",
-          "unit_quote": "3 to 4 ft between rows",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (bush type, Cucurbita pepo)"
-        },
         {
           "value": "12",
-          "unit_quote": "12 to 18 in. within rows",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (bush type, Cucurbita pepo)"
+          "unit_quote": "Squash, Acorn | 1 AVG MKT YLD/ plant (LBS.): 12",
+          "geographic_scope": "Pennsylvania (western/central/southeastern)",
+          "product_scope": "Acorn squash (winter type) marketable yield per plant"
         },
         {
-          "value": "18",
-          "unit_quote": "12 to 18 in. within rows",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (bush type, Cucurbita pepo)"
-        }
-      ]
-    },
-    {
-      "kind": "qualitative",
-      "claim": "حدود 4 پوند بذر در هر acre برای کاشت کدو سبز لازم است.",
-      "conditions": "منبع UGA Extension Circular C527، Table 2 — جورجیا، آمریکا؛ نرخ بذردانی بر اساس فواصل 3–4 ft بین ردیف و 12–18 in. درون ردیف",
-      "evidence_id": "d1-e8",
-      "numeric_bindings": [
-        {
-          "value": "4",
-          "unit_quote": "About 4 lb of seed per acre",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (Cucurbita pepo, bush type)"
+          "value": "5.9–24.2",
+          "unit_quote": "Squash, Acorn | 3 RNG MKT YLD/ plant (LBS.): 5.9– 24.2",
+          "geographic_scope": "Pennsylvania (western/central/southeastern)",
+          "product_scope": "Acorn squash (winter type) marketable yield range per plant"
         },
         {
-          "value": "2-4",
-          "unit_quote": "Seed required (lb/acre): 2-4",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (bush type, Cucurbita pepo)"
-        }
-      ]
-    },
-    {
-      "kind": "qualitative",
-      "claim": "کدوهای تابستانی معمولاً ذخیره نمی‌شوند و باید سریع پس از برداشت به بازار بروند؛ در صورت نیاز تا 3 تا 4 روز در 45 تا 50 °F و رطوبت 85 تا 90 درصد قابل نگهداری هستند.",
-      "conditions": "منبع UGA Extension Circular C527، جورجیا، آمریکا — شرایط نگهداری پس‌ازبرداشت",
-      "evidence_id": "d1-e15",
-      "numeric_bindings": [
-        {
-          "value": "3",
-          "unit_quote": "stored for 3 to 4 days at 45 to 50 °F",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (Cucurbita pepo)"
+          "value": "10.6",
+          "unit_quote": "Squash, Buttercup/ kabocha | 1 AVG MKT YLD/ plant (LBS.): 10.6",
+          "geographic_scope": "Pennsylvania (western/central/southeastern)",
+          "product_scope": "Buttercup/kabocha squash (winter type) marketable yield per plant"
         },
         {
-          "value": "4",
-          "unit_quote": "stored for 3 to 4 days at 45 to 50 °F",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash (Cucurbita pepo)"
+          "value": "1.8–26.6",
+          "unit_quote": "Squash, Buttercup/ kabocha | 3 RNG MKT YLD/ plant (LBS.): 1.8– 26.6",
+          "geographic_scope": "Pennsylvania (western/central/southeastern)",
+          "product_scope": "Buttercup/kabocha squash (winter type) marketable yield range per plant"
         },
         {
-          "value": "45",
-          "unit_quote": "45 to 50 °F",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash post-harvest storage temperature"
+          "value": "15.9",
+          "unit_quote": "Squash, Butternut | 1 AVG MKT YLD/ plant (LBS.): 15.9",
+          "geographic_scope": "Pennsylvania (western/central/southeastern)",
+          "product_scope": "Butternut squash (winter type) marketable yield per plant"
         },
         {
-          "value": "50",
-          "unit_quote": "45 to 50 °F",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash post-harvest storage temperature"
+          "value": "9.9–28.7",
+          "unit_quote": "Squash, Butternut | 3 RNG MKT YLD/ plant (LBS.): 9.9– 28.7",
+          "geographic_scope": "Pennsylvania (western/central/southeastern)",
+          "product_scope": "Butternut squash (winter type) marketable yield range per plant"
         },
         {
-          "value": "85",
-          "unit_quote": "85% to 90% humidity",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash post-harvest storage humidity"
+          "value": "38.5",
+          "unit_quote": "Pumpkin | 1 AVG MKT YLD/ plant (LBS.): 38.5",
+          "geographic_scope": "Pennsylvania (western/central/southeastern)",
+          "product_scope": "Pumpkin marketable yield per plant"
         },
         {
-          "value": "90",
-          "unit_quote": "85% to 90% humidity",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "summer squash post-harvest storage humidity"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "منابع موجود هیچ رقم عملکرد کمی (per hectare یا per acre) را برای کدو سبز تابستانی گزارش نکرده‌اند؛ Penn State تنها مقادیر per plant را برای انواع winter squash (acorn, butternut, buttercup) ارائه داده است.",
-      "conditions": "منابع: Penn State Extension (d0-e0 تا d0-e4) و UGA Extension Circular C527 (d1-e0 تا d1-e22) — عدم وجود داده کمی عملکرد هر واحد سطح برای summer squash/zucchini",
-      "evidence_id": "d0-e2",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "توصیه UGA این است که از مالچ پلاستیکی و آبیاری قطره‌ای استفاده شود تا برداشت چند روز زودتر انجام شود و عملکرد افزایش یابد.",
-      "conditions": "منبع UGA Extension Circular C527، جورجیا، آمریکا — روش تولید (non-quantitative recommendation)",
-      "evidence_id": "d1-e9",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "یک کندو زنب عسل در هر acre برای گرده‌افشانی کدو کافی است.",
-      "conditions": "منبع UGA Extension Circular C527 — جورجیا، آمریکا; واحد per acre، نه per hectare",
-      "evidence_id": "d1-e13",
-      "numeric_bindings": [
-        {
-          "value": "1",
-          "unit_quote": "One hive for each acre",
-          "geographic_scope": "Georgia, USA",
-          "product_scope": "squash (Cucurbita spp.) pollination"
+          "value": "21.8–61.0",
+          "unit_quote": "Pumpkin | 3 RNG MKT YLD/ plant (LBS.): 21.8– 61.0",
+          "geographic_scope": "Pennsylvania (western/central/southeastern)",
+          "product_scope": "Pumpkin marketable yield range per plant"
         }
       ]
     }

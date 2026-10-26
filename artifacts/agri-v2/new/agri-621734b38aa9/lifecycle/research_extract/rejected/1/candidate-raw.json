@@ -1,0 +1,130 @@
+{
+  "topic_id": "agri-621734b38aa9",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا سفید (نَوی/navy bean, Phaseolus vulgaris L.)",
+  "slug": "amount-of-white-bean-harvest-per-hectare-yield-range-and-factors",
+  "outline": [
+    "طبقه‌بندی بازار و گونه: لوبیا سفید در ارقام navy bean؛ تمایز با لوبیا قرمز/چیتی و نخود فرنگی خشک",
+    "عملکرد تقریبی دانه خشک لوبیای خشک (dry edible bean) در مزارع آزمایشگاهی آمریکا: حدود ۲۰ تا ۳۰ bushel در acre؛ میانگین ۱۹ تا ۲۰ cwt/acre در آزمایش‌های North Dakota",
+    "فاکتورهای تغییر عملکرد: تاریخ کشت (اوایل میانه/اواخر مه تا اوایل ژوئن)، تراکم بوته، شرایط آب‌وهوایی پیش از برداشت، رطوبت برداشت (حدود ۱۸٪) و روش برداشت",
+    "محدوده جغرافیایی شواهد: مناطق Great Plains آمریکا، ایالت‌های North Dakota، Michigan، Nebraska، Colorado، California و Idaho"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "لوبیای خشک خوراکی شامل کلاس‌های بازار از جمله kidney، navy، pinto و black است و همه آن‌ها گونه واحد Phaseolus vulgaris L. هستند.",
+      "conditions": "کشور: ایالات متحده آمریکا; محصول: لوبیای خشک خوراکی; واحد: none; محدوده: ایالت‌های North Dakota، Michigan، Nebraska، Colorado، California و Idaho",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "محصولات لوبیا خشک معمولاً پایین‌تر از سویا هستند اما قیمت فروش بسیار بالاتر دارد.",
+      "conditions": "کشور: ایالات متحده آمریکا; محصول: لوبیای خشک خوراکی; واحد: none; محدوده: مزارع میانی-غرب آمریکا",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": [
+        {
+          "value": "20 to 30",
+          "unit_quote": "20 to 30 bushels per acre",
+          "geographic_scope": "US trial regions",
+          "product_scope": "dry edible bean (general)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دوره کشت نرمال لوبیای خشک در آزمون‌های North Dakota از اواخر مه تا اوایل ژوئن بوده و عملکرد دانه خشک در آن نزدیک به ۱۹ تا ۲۰ cwt/acre ثبت شده است.",
+      "conditions": "کشور: ایالات متحده آمریکا; ایالت: North Dakota; محصول: لوبیای خشک (پینتو/بلک/ناوی); واحد: cwt/acre; محدوده: Carrington Research Extension Center و Prosper",
+      "evidence_id": "d2-e5",
+      "numeric_bindings": [
+        {
+          "value": "19.6",
+          "unit_quote": "19.6 cwt/acre",
+          "geographic_scope": "Carrington/Prosper, North Dakota, USA",
+          "product_scope": "pinto dry bean"
+        },
+        {
+          "value": "19.8",
+          "unit_quote": "19.8 cwt/acre",
+          "geographic_scope": "Carrington, North Dakota, USA",
+          "product_scope": "black dry bean"
+        },
+        {
+          "value": "16.1",
+          "unit_quote": "16.1 cwt/acre",
+          "geographic_scope": "Carrington, North Dakota, USA",
+          "product_scope": "navy dry bean"
+        },
+        {
+          "value": "19.0",
+          "unit_quote": "19.0 cwt/acre",
+          "geographic_scope": "Carrington/Prosper, North Dakota, USA",
+          "product_scope": "average dry edible bean"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در trials چندساله North Dakota میانگین عملکرد دانه خشک لوبیای سفید (navy) حدود ۱۶٫۱ cwt/acre بوده است.",
+      "conditions": "کشور: ایالات متحده; ایالت: North Dakota; محصول: navy (سفید) dry bean; واحد: cwt/acre; محدوده: Carrington Research Extension Center",
+      "evidence_id": "d2-e5",
+      "numeric_bindings": [
+        {
+          "value": "16.1",
+          "unit_quote": "16.1 cwt/acre",
+          "geographic_scope": "Carrington, North Dakota, USA",
+          "product_scope": "navy dry bean (Phaseolus vulgaris L.)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "شرایط سرد و خیس خاک پس از کشت زودهنگام می‌تواند تراکم بوته را کاهش دهد و عملکرد را تحت تاثیر قرار دهد.",
+      "conditions": "کشور: ایالات متحده; ایالت: North Dakota; محصول: لوبیای خشک; واحد: none; محدوده: trials 2015",
+      "evidence_id": "d2-e4",
+      "numeric_bindings": [
+        {
+          "value": "44,160",
+          "unit_quote": "44,160 plants per acre",
+          "geographic_scope": "Carrington, North Dakota, USA",
+          "product_scope": "dry edible bean (early planting)"
+        },
+        {
+          "value": "62,970 to 72,930",
+          "unit_quote": "62,970 to 72,930 plants per acre",
+          "geographic_scope": "Carrington, North Dakota, USA",
+          "product_scope": "dry edible bean (normal/late planting)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برداشت لوبیای خشک معمولاً زمانی انجام می‌شود که رطوبت دانه حدود ۱۸ درصد باشد.",
+      "conditions": "کشور: ایالات متحده; ایالت: Missouri و مناطق Great Plains; محصول: لوبیای خشک; واحد: درصد رطوبت; محدوده: توصیه برداشت",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": [
+        {
+          "value": "18%",
+          "unit_quote": "18% moisture",
+          "geographic_scope": "US dry bean regions",
+          "product_scope": "dry edible bean (harvest)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "قیمت لوبیای خشک در بازار آمریکا بین ۹ تا ۲۰ دلار در هر bushel متغیر است.",
+      "conditions": "کشور: ایالات متحده آمریکا; محصول: لوبیای خشک خوراکی; واحد: دلار/bushel; محدوده: بازار ایالات میانی-غرب",
+      "evidence_id": "d0-e2",
+      "numeric_bindings": [
+        {
+          "value": "9 to 20",
+          "unit_quote": "$9 to $20 per bushel",
+          "geographic_scope": "US dry bean markets",
+          "product_scope": "dry edible bean"
+        }
+      ]
+    }
+  ]
+}

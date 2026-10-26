@@ -1,10 +1,70 @@
 {
   "topic_id": "agri-02e05cb179de",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": null,
-  "slug": null,
-  "outline": [],
-  "facts": [],
-  "_explanation": "Evidence is English-language US extension/oregon state research on Cicer arietinum (chickpea/garbanzo) varieties grown in Montana and Oregon; no Persian-named cultivar class, harvested product, or Iran-local adaptation evidence present, and no Iranian yield/prescription data. Task requires exact Persian product/species extraction; insufficient evidence → intent=false."
+  "product_definition": "نخود (Cicer arietinum)",
+  "slug": "chickpea-variety-selection-criteria",
+  "outline": [
+    "تقسیم تجاری نخود به دو گروه کابولی و دسی و کاربرد هر کدام",
+    "معیارهای اقلیمی: تحمل خشکی و گرما نسبت به حبوبات مشابه",
+    "معیارهای بازارپسندی: اندازه بذر، درصد دان درجه یک و سازگاری با شرایط کم‌آب"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "نخود تجاری به دو دسته بزرگ‌دانه کابولی و کوچک‌دانه دسی تقسیم می‌شود؛ کابولی با دانه گرد و پوسته کرم‌رنگ برای حمص و سالاد استفاده می‌شود و دسی با دانه زاویه‌دار و پوسته سخت زرد تا قهوه‌ای معمولاً پوست‌کنده و شکسته یا آرد می‌شود.",
+      "conditions": "منبع: راهنمای تولید نخود ایالتی مونتانا (Montana State University Extension). محدودیت جغرافیایی: داده‌های ارزیابی رقم مخصوص اقلیم ایالات متحده است و سازگاری محلی در ایران استنتاج نشده است.",
+      "evidence_id": "d0-e11",
+      "numeric_bindings": [
+        {
+          "value": "1500",
+          "unit_quote": "nominally 1500 seed/lb",
+          "geographic_scope": "Montana, United States",
+          "product_scope": "desi chickpea seed count per pound"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ارقام کابولی از بازارپسندی بالاتری برخوردارند و قیمت آن‌ها بر اساس اندازه بذر، رنگ و سازگاری با شرایط کم‌آب تعیین می‌شود؛ ارقام کوچک‌دانه دسی در ایالات متحده ارزش بازار پایین‌تری دارند.",
+      "conditions": "منبع: راهنمای تولید نخود مونتانا (d0-e18) و ارزیابی سازگاری ارقام در شرق اورگان (d1-e0, d1-e10). محدودیت: قیمت‌ها و ارزیابی بازار مربوط به ایالات متحده است.",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "تحمل خشکی و گرما در نخود بهتر از نخود فرنگی خشک و عدس است و تنش گرمای شدید پس از گلدهی عملکرد را کاهش می‌دهد.",
+      "conditions": "منبع: راهنمای تولید نخود مونتانا (d0-e20). محدودیت جغرافیایی: شرایط اقلیمی مونتانا و اورگان، ایالات متحده.",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ارقام زودرس با بلوغ پیش از اوج تنش گرمای پاییزی، از کاهش عملکرد ناشی از خشکی جلوگیری می‌کنند.",
+      "conditions": "منبع: ارزیابی سازگاری ارقام در اورگان (d1-e8, d1-e9). محدودیت جغرافیایی: اورگان، ایالات متحده.",
+      "evidence_id": "d1-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "رقم Sinaloa به‌عنوان تنها رقم کابولی سازگار با کم‌آبی خاک شناخته شده و در شرایط پتانسیل عملکرد پایین و بالا بیش از 80 درصد دانه درجه A تولید می‌کند.",
+      "conditions": "منبع: ارزیابی سازگاری ارقام در شرق اورگان (d1-e1, d1-e17). محدودیت جغرافیایی: CBARC، Pendleton و Moro، اورگان، ایالات متحده.",
+      "evidence_id": "d1-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "رقم Myles تنها رقم دسی آزمون‌شده است که عملکرد بالا و ثبات خوبی در هر دو سیستم کشت سالانه و خیزوک نشان داده اما به‌دلیل ریزبودن دانه درجه فروش پایین‌تری دارد.",
+      "conditions": "منبع: آزمون‌های رقم‌شناسی مونتانا (d0-e17, d0-e19) و ارزیابی اورگان (d1-e0, d1-e10). محدودیت جغرافیایی: مونتانا و اورگان، ایالات متحده.",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ارقام کانادایی CDC Frontier و CDC Orion در آزمون‌های رقم‌شناسی مونتادا عملکرد بالایی داشته‌اند و Frontier و Orion از برترین ارقام کابولی منطقه محسوب می‌شوند.",
+      "conditions": "منبع: آزمون‌های رقم‌شناسی مونتانا (d0-e17, d0-e19). محدودیت جغرافیایی: مونتانا، ایالات متحده.",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": []
+    }
+  ]
 }

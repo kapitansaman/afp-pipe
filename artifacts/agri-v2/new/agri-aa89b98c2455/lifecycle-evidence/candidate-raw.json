@@ -1,0 +1,98 @@
+{
+  "topic_id": "agri-aa89b98c2455",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "دانه خشک ماش (Vigna radiata)",
+  "slug": "mungbean-harvest-maturity-market",
+  "outline": [
+    "نشانه‌های رسیدگی و زمان برداشت",
+    "روش‌های برداشت و احتیاط‌ها",
+    "کیفیت بازار و معیارهای خرید"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "رسیدگی غلاف‌های ماش یکنواخت نیست، زیرا گل‌دهی در دوره‌ای کشیده انجام می‌شود و این موضوع تعیین زمان برداشت را دشوار می‌کند.",
+      "conditions": "کشور ایالات متحده؛ محصول غلاف و دانه خشک ماش (Vigna radiata)",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برداشت باید زمانی آغاز شود که یک‌دوم تا دو‌سوم غلاف‌ها رسیده باشند و رطوبت دانه‌ها در حدود ۱۳ تا ۱۵ درصد باشد.",
+      "conditions": "کشور ایالات متحده؛ محصول غلاف و دانه خشک ماش",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": [
+        {
+          "value": "13%-15%",
+          "unit_quote": "Seeds might be between 13%-15% moisture at this time",
+          "geographic_scope": "US Midwest (Wisconsin/Minnesota source region)",
+          "product_scope": "mungbean seed"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برخی تولیدکنندگان گیاهان را دراخته (swath) می‌کنند تا غلاف‌ها رسیدگی بیشتری یابند و سپس با کمباین گندم و سکوی جمع‌کننده، برداشت می‌نمایند.",
+      "conditions": "کشور ایالات متحده؛ محصول غلاف و دانه خشک ماش",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "درخت هرس (swath) باید در ساعات اولیه روز انجام شود تا از خسارت شدید شکستن غلاف و ریختن دانه جلوگیری گردد.",
+      "conditions": "کشور ایالات متحده؛ محصول غلاف و دانه خشک ماش",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برداشت مستقیم با کمباین فقط در مزارع یکنواخت و عاری از علف‌های هرز با عادت رشد ایستاده امکان‌پذیر است.",
+      "conditions": "کشور ایالات متحده؛ محصول غلاف و دانه خشک ماش",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "پس از کمباین، دانه‌ها باید سریع تمیز شوند تا غلاف سبز، بقایای برگ و سایر مواد زائد که مشکل خشک‌کردن و انبارداری ایجاد می‌کنند، حذف گردند.",
+      "conditions": "کشور ایالات متحده؛ محصول دانه خشک ماش برای انبارداری",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در کشورهای در حال توسعه، دانه‌های ماش به‌صورت دستی هنگام رسیدن غلاف‌ها چیده می‌شوند و در برخی ارقام پربار تا پنج بار چیدن انجام می‌گیرد.",
+      "conditions": "کشورهای در حال توسعه؛ محصول دانه خشک ماش",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "قبل از انبارداری، تمام مواد برگ، ساقه، غلاف‌های نارس، خاک و تکه‌های حشرات باید جدا شوند و دانه‌ها در حدود ۱۲ درصد رطوبت در سیلوهای گندمormal که پیش از ذلك ضدعفونی شده‌اند نگهداری می‌شوند.",
+      "conditions": "کشور ایالات متحده؛ محصول دانه خشک ماش برای انبارداری",
+      "evidence_id": "d1-e18",
+      "numeric_bindings": [
+        {
+          "value": "12%",
+          "unit_quote": "Mungbeans at about 12% moisture can then be stored",
+          "geographic_scope": "US source region (Wisconsin/Minnesota extension)",
+          "product_scope": "mungbean seed"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "بازار هدف اصلی دانه ماش برای رستنی (sprout) است؛ صنعت غذا بذرهایی با رنگ سبز شیشه‌ای و اندازه بزرگ‌تر را ترجیح می‌دهد و انتظار دارد از هر گرم بذر حدود ۹ تا ۱۰ گرم رستنی تازه به دست آید.",
+      "conditions": "کشور ایالات متحده؛ بازار دانه ماش برای رستنی",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "9 or 10 grams",
+          "unit_quote": "obtain about 9 or 10 grams of fresh sprouts for each gram of seed",
+          "geographic_scope": "US source region",
+          "product_scope": "mungbean seed to sprout yield"
+        }
+      ]
+    }
+  ]
+}

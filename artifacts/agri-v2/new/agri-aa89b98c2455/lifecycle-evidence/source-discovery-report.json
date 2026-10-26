@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "started_at": "2026-10-26T05:54:44.362240+00:00",
+  "started_at": "2026-10-26T06:07:40.966426+00:00",
   "discovery_backend": "verified_catalog_and_observed_institutional_links",
   "model_generated_urls": false,
   "max_fetches": 12,
   "max_link_depth": 1,
-  "completed_at": "2026-10-26T05:54:44.805933+00:00",
+  "completed_at": "2026-10-26T06:07:41.690684+00:00",
   "requested": 3,
-  "loaded": 2,
-  "independent_institutions": 2,
+  "loaded": 3,
+  "independent_institutions": 3,
   "observed_links": [],
   "fetch_reports": [
     {
       "requested": 3,
-      "loaded": 2,
+      "loaded": 3,
       "sources": [
         {
           "url": "https://corn.aae.wisc.edu/Crops/Mungbean.aspx",
@@ -29,8 +29,8 @@
         },
         {
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417475/",
-          "status": "unavailable",
-          "category": "source_policy_or_content_rejected"
+          "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417475/",
+          "status": "cache_valid"
         }
       ]
     }

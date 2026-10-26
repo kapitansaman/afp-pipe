@@ -1,0 +1,170 @@
+{
+  "topic_id": "agri-3aec9f066bb5",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "دانه عدس",
+  "slug": "lentil-harvest-maturity-markets",
+  "outline": [
+    "نشانه‌های ظاهری رسیدگی عدس",
+    "زمان‌بندی برداشت در اقلیم‌های مختلف",
+    "آزمون‌ها و معیارهای کیفی بازار"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "در سیستم‌های کشاورزی سنتی، وقتی گیاهان به رنگ زرد طلایی درمی‌آیند بریده یا کنده می‌شوند.",
+      "conditions": "مزرعه سنتی؛ عدد زرد طلایی (golden yellow) به عنوان نشانه پایان رشد و شروع مرحله برداشت، بدون محدوده عددی درصد رطوبت",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "واریته‌های زودهنگام عدس ۸۰ تا ۱۱۰ روز پس از کشت و واریته‌های دیررس ۱۲۵ تا ۱۳۵ روز پس از کشت به بلوغ می‌رسند.",
+      "conditions": "مزرعه ایالات متحده؛ زمان از کاشت تا بلوغ کامل، برای واریته‌های زودرس و دیررس",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": [
+        {
+          "value": "80",
+          "unit_quote": "80-110 days",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "عدس زودرس"
+        },
+        {
+          "value": "110",
+          "unit_quote": "80-110 days",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "عدس زودرس"
+        },
+        {
+          "value": "125",
+          "unit_quote": "125-135 days",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "عدس دیررس"
+        },
+        {
+          "value": "135",
+          "unit_quote": "125-135 days",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "عدس دیررس"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برداشت باید زمانی انجام شود که گیاهان شروع به زرد شدن کنند و پوک‌های پایینی به رنگ قهوه‌ای تا قهوه‌ای-زرد درآیند.",
+      "conditions": "مزرعه ایالات متحده؛ رنگ برگ‌ها و پوک‌ها به عنوان شاخص آغاز برداشت",
+      "evidence_id": "d1-e16",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "پوک عدس به سرعت باز می‌شود (shatter)؛ برداشت دیرهنگام باعث از دست رفتن محصول پیش از برداشت می‌شود.",
+      "conditions": "مزرعه ایالات متحده؛ خطر باز شدن پوک و ریزش دانه در دوره رسیدگی و برداشت",
+      "evidence_id": "d1-e16",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دانه عدس در رطوبت ۱۴ درصد خشک محسوب می‌شود و ترکیب در این سطح رطوبت باعث زیان بالا و آسیب به دانه می‌گردد.",
+      "conditions": "مزرعه ایالات متحده؛ دانه عدس، درصد رطوبت نهایی خشک بودن",
+      "evidence_id": "d1-e17",
+      "numeric_bindings": [
+        {
+          "value": "14",
+          "unit_quote": "14% moisture content",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "دانه عدس"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ممکن است مفید باشد که ترکیب در سطح رطوبت بالاتر ۱۸ تا ۲۰ درصد انجام شود و دانه پس از برداشت به صورت مصنوعی خشک گردد.",
+      "conditions": "مزرعه ایالات متحده؛ رطوبت پیشنهادی هنگام ترکیب مستقیم و سپس خشک‌کردن مصنوعی",
+      "evidence_id": "d1-e17",
+      "numeric_bindings": [
+        {
+          "value": "18",
+          "unit_quote": "18 to 20%",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "دانه عدس"
+        },
+        {
+          "value": "20",
+          "unit_quote": "18 to 20%",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "دانه عدس"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "توقف برداشت زودهنگام از محصولی با رطوبت بیش از حد برای نگهداری جلوگیری می‌کند؛ محصولی با بیش از ۱۵ درصد رطوبت ذخیره نمی‌شود و ۱۲ درصد یا کمتر بهینه است.",
+      "conditions": "مزرعه ایالات متحده؛ عدس، بازه رطوبت برای نگهداری بلندمدت",
+      "evidence_id": "d2-e11",
+      "numeric_bindings": [
+        {
+          "value": "15",
+          "unit_quote": "15 percent moisture",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "عدس"
+        },
+        {
+          "value": "12",
+          "unit_quote": "12 percent or less",
+          "geographic_scope": "ایالات متحده",
+          "product_scope": "عدس"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "پوسته دانه عدس در برابر شکستگی حساس است و در شرایط خشکی شدید احتمال ترک خوردن پوسته افزایش می‌یابد.",
+      "conditions": "مزرعه ایالات متحده؛ دانه عدس، حساسیت مکانیکی حین برداشت و جابه‌جایی",
+      "evidence_id": "d2-e20",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در آیداهو و واشینگتن بلوغ عدس حدود ۱۰۰ روز پس از جوانه‌زنی حاصل می‌شود و برداشت در اواسط آگوست انجام می‌گیرد.",
+      "conditions": "مزرعه ایالات متحده، آیداهو و واشینگتن؛ زمان از emergence تا بلوغ و ماه برداشت",
+      "evidence_id": "d2-e13",
+      "numeric_bindings": [
+        {
+          "value": "100",
+          "unit_quote": "about 100 days after emergence",
+          "geographic_scope": "آیداهو و واشینگتن، ایالات متحده",
+          "product_scope": "عدس"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "رطوبت دانه عدس در زمان برداشت کمتر از ۱۳ درصد گزارش شده است.",
+      "conditions": "مزرعه ایالات متحده، آیداهو و واشینگتن؛ دانه عدس، رطوبت حین برداشت مستقیم",
+      "evidence_id": "d2-e13",
+      "numeric_bindings": [
+        {
+          "value": "13",
+          "unit_quote": "less than 13 percent",
+          "geographic_scope": "آیداهو و واشینگتن، ایالات متحده",
+          "product_scope": "دانه عدس"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در منطقه دیلان پلینز برداشت عدس در اواسط آگوست و پس از بادبه‌داشت (swathing) انجام می‌شود.",
+      "conditions": "مزرعه ایالات متحده، مناطق دیلان پلینز (مونتانای و داکوتای شمالی)؛ ماه برداشت و روش",
+      "evidence_id": "d2-e13",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برداشت به‌موقع برای جلوگیری از رنگ‌پریدگی دانه، باز شدن پوک و بیماری‌های پس از رسیدگی ضروری است.",
+      "conditions": "مزرعه ایالات متحده؛ دانه عدس، عوامل کاهش کیفیت در دوره رسیدگی و برداشت",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": []
+    }
+  ]
+}

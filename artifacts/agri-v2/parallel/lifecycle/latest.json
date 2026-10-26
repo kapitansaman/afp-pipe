@@ -1,420 +1,141 @@
 {
-  "run_id": "40276651023",
+  "run_id": "40277748344",
   "status": "completed_with_failures",
   "assigned_count": 15,
   "results": [
     {
-      "status": "stage_failed",
-      "stage": "research_sources",
-      "failure": {
-        "kind": "validation",
-        "category": "two_fetchable_independent_publications_required"
-      },
-      "topic_id": "agri-6a04e31069c0",
-      "steps": [
-        {
-          "status": "stage_failed",
-          "stage": "research_sources",
-          "failure": {
-            "kind": "validation",
-            "category": "two_fetchable_independent_publications_required"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-12"
-    },
-    {
-      "status": "stage_failed",
-      "stage": "research_sources",
-      "failure": {
-        "kind": "validation",
-        "category": "two_fetchable_independent_publications_required"
-      },
-      "topic_id": "agri-aa89b98c2455",
-      "steps": [
-        {
-          "status": "stage_failed",
-          "stage": "research_sources",
-          "failure": {
-            "kind": "validation",
-            "category": "two_fetchable_independent_publications_required"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-14"
-    },
-    {
-      "status": "stage_failed",
-      "stage": "research_sources",
-      "failure": {
-        "kind": "validation",
-        "category": "two_fetchable_independent_publications_required"
-      },
-      "topic_id": "agri-64fcb57a3e18",
-      "steps": [
-        {
-          "status": "stage_failed",
-          "stage": "research_sources",
-          "failure": {
-            "kind": "validation",
-            "category": "two_fetchable_independent_publications_required"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-10"
-    },
-    {
-      "status": "stage_failed",
-      "stage": "research_extract",
-      "failure": {
-        "kind": "validation",
-        "category": "scoped_intent_or_local_prescription_rejected"
-      },
+      "status": "worker_failed",
       "topic_id": "agri-6aa44095f748",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 2
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "scoped_intent_or_local_prescription_rejected"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
       "family_id": "family-13"
     },
     {
-      "status": "stage_failed",
-      "stage": "research_extract",
+      "status": "worker_failed",
+      "topic_id": "agri-aa89b98c2455",
       "failure": {
         "kind": "validation",
-        "category": "scoped_intent_or_local_prescription_rejected"
+        "category": "unspecified"
       },
-      "topic_id": "agri-065fb7b0cc9e",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 3
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "scoped_intent_or_local_prescription_rejected"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-01"
+      "family_id": "family-14"
     },
     {
-      "status": "stage_failed",
-      "stage": "research_extract",
+      "status": "worker_failed",
+      "topic_id": "agri-6a04e31069c0",
       "failure": {
         "kind": "validation",
-        "category": "scoped_intent_or_local_prescription_rejected"
+        "category": "unspecified"
       },
-      "topic_id": "agri-aa197412fb7f",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 3
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "scoped_intent_or_local_prescription_rejected"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-07"
+      "family_id": "family-12"
     },
     {
-      "status": "stage_failed",
-      "stage": "research_extract",
-      "failure": {
-        "kind": "validation",
-        "category": "scoped_intent_or_local_prescription_rejected"
-      },
-      "topic_id": "agri-02e05cb179de",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 2
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "scoped_intent_or_local_prescription_rejected"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-09"
-    },
-    {
-      "status": "stage_failed",
-      "stage": "research_extract",
-      "failure": {
-        "kind": "validation",
-        "category": "scoped_intent_or_local_prescription_rejected"
-      },
-      "topic_id": "agri-a55386876467",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 3
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "scoped_intent_or_local_prescription_rejected"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-02"
-    },
-    {
-      "status": "stage_failed",
-      "stage": "research_extract",
-      "failure": {
-        "kind": "validation",
-        "category": "product_definition_required"
-      },
-      "topic_id": "agri-3aec9f066bb5",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 3
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "product_definition_required"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-11"
-    },
-    {
-      "status": "stage_failed",
-      "stage": "research_extract",
-      "failure": {
-        "kind": "validation",
-        "category": "scoped_intent_or_local_prescription_rejected"
-      },
-      "topic_id": "agri-621734b38aa9",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 3
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "scoped_intent_or_local_prescription_rejected"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-05"
-    },
-    {
-      "status": "stage_failed",
-      "stage": "research_extract",
-      "failure": {
-        "kind": "validation",
-        "category": "numeric_units_not_in_literal_source"
-      },
+      "status": "worker_failed",
       "topic_id": "agri-b35a06791dd5",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 3
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "numeric_units_not_in_literal_source"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
       "family_id": "family-04"
     },
     {
-      "status": "stage_failed",
-      "stage": "research_extract",
+      "status": "worker_failed",
+      "topic_id": "agri-68bb3f68138d",
       "failure": {
         "kind": "validation",
-        "category": "unknown_scoped_evidence_id"
+        "category": "unspecified"
       },
-      "topic_id": "agri-68bb3f68138d",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 2
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "unknown_scoped_evidence_id"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
       "family_id": "family-03"
     },
     {
-      "status": "stage_failed",
-      "stage": "research_extract",
-      "failure": {
-        "kind": "validation",
-        "category": "scoped_intent_or_local_prescription_rejected"
-      },
-      "topic_id": "agri-60e1ebaf13c8",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 2
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "scoped_intent_or_local_prescription_rejected"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
-      "family_id": "family-06"
-    },
-    {
-      "status": "stage_failed",
-      "stage": "research_extract",
-      "failure": {
-        "kind": "validation",
-        "category": "literal_measurement_unit_required"
-      },
+      "status": "worker_failed",
       "topic_id": "agri-e4ad7582f1cd",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 3
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "literal_measurement_unit_required"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
       "family_id": "family-15"
     },
     {
-      "status": "stage_failed",
-      "stage": "research_extract",
+      "status": "worker_failed",
+      "topic_id": "agri-02e05cb179de",
       "failure": {
         "kind": "validation",
-        "category": "scoped_intent_or_local_prescription_rejected"
+        "category": "unspecified"
       },
+      "family_id": "family-09"
+    },
+    {
+      "status": "worker_failed",
+      "topic_id": "agri-3aec9f066bb5",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
+      "family_id": "family-11"
+    },
+    {
+      "status": "worker_failed",
+      "topic_id": "agri-64fcb57a3e18",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
+      "family_id": "family-10"
+    },
+    {
+      "status": "worker_failed",
+      "topic_id": "agri-621734b38aa9",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
+      "family_id": "family-05"
+    },
+    {
+      "status": "worker_failed",
+      "topic_id": "agri-60e1ebaf13c8",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
+      "family_id": "family-06"
+    },
+    {
+      "status": "worker_failed",
+      "topic_id": "agri-065fb7b0cc9e",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
+      "family_id": "family-01"
+    },
+    {
+      "status": "worker_failed",
+      "topic_id": "agri-a55386876467",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
+      "family_id": "family-02"
+    },
+    {
+      "status": "worker_failed",
+      "topic_id": "agri-aa197412fb7f",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
+      "family_id": "family-07"
+    },
+    {
+      "status": "worker_failed",
       "topic_id": "agri-c0e160d88554",
-      "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "research_sources",
-          "result": {
-            "fetched_sources": 3
-          }
-        },
-        {
-          "status": "stage_failed",
-          "stage": "research_extract",
-          "failure": {
-            "kind": "validation",
-            "category": "scoped_intent_or_local_prescription_rejected"
-          }
-        }
-      ],
-      "published_posts": 0,
-      "worker_exit_code": 0,
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      },
       "family_id": "family-08"
     }
   ],
@@ -425,16 +146,16 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-26T05:53:43.606477+00:00",
+  "started_at": "2026-10-26T06:05:29.471454+00:00",
   "existing_content_fetch": {
     "families": 15,
-    "families_with_bounded_full_scope": 11,
-    "article_refs": 36,
-    "article_refs_loaded": 36,
-    "scope_limited_families": 4
+    "families_with_bounded_full_scope": 15,
+    "article_refs": 114,
+    "article_refs_loaded": 114,
+    "scope_limited_families": 0
   },
   "pool": {
-    "model_requests_reserved": 12,
+    "model_requests_reserved": 15,
     "cooldown_until_epoch": 0.0,
     "slots": [
       {
@@ -631,91 +352,91 @@
       },
       {
         "name": "AGNES_API_KEY33",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY34",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY35",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY36",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY37",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY38",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY39",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY40",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY41",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY42",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY43",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY44",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY45",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY46",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY47",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
@@ -889,11 +610,11 @@
       }
     ],
     "secret_values_stored": false,
-    "peak_text_leases": 12,
+    "peak_text_leases": 15,
     "peak_image_leases": 0
   },
   "operational_failures": 15,
   "waiting_families": 0,
   "publication_ready_workers": 0,
-  "completed_at": "2026-10-26T05:55:25.566072+00:00"
+  "completed_at": "2026-10-26T06:09:07.587845+00:00"
 }

@@ -1,0 +1,292 @@
+{
+  "topic_id": "agri-e4ad7582f1cd",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "گل苗 گوجه‌فرنگی (نشاء گوجه‌فرنگی)",
+  "slug": "tomato-transplant-spacing-hectare-calculator",
+  "outline": [
+    "مبانی محاسبه تراکم نشای گوجه‌فرنگی بر پایه فاصله کشت و طرح ردیفه",
+    "تبدیل جمعیت گیاهی از آکر به هکتار در سامانه‌های تک‌ردیفه و دوقلو",
+    "برآورد نیاز خزانه بر مبنای جمعیت نهایی و بازده انتقال"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "در تولید تجاری گوجه‌فرنگی، نشاءها معمولاً ۴۲ تا ۵۶ روز قبل از کاشت در مزرعه در گلخانه تولید می‌شوند.",
+      "conditions": "منطقه: ایالات متحده (پایگاه دادهPenn State Extension)؛ محصول: گوجه‌فرنگی تجاری؛ واحد: روز؛ محدودیت: شروع کاشت نشاء در گلخانه",
+      "evidence_id": "d0-e9",
+      "numeric_bindings": [
+        {
+          "value": "42",
+          "unit_quote": "42 to 56 days",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato transplants"
+        },
+        {
+          "value": "56",
+          "unit_quote": "42 to 56 days",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato transplants"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کشاورزان عموماً ۲٬۶۰۰ تا ۵٬۸۰۰ بوته در هر آکر در ردیف‌های تک‌کشت با فاصله ۱۸ تا ۳۰ اینچ بین بوته‌ها در ردیف و روی سرراه‌های ۵٫۰ تا ۶٫۵ فوتی کاشته می‌شوند.",
+      "conditions": "منطقه: ایالات متحده (Penn State Extension)؛ محصول: گوجه‌فرنگی تازه‌ market؛ واحد: بوته/آکر؛ محدودیت: ردیف تک‌گانه با پلاستیک مالچ",
+      "evidence_id": "d0-e10",
+      "numeric_bindings": [
+        {
+          "value": "2600",
+          "unit_quote": "2,600 to 5,800 plants per acre",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato field plants"
+        },
+        {
+          "value": "5800",
+          "unit_quote": "2,600 to 5,800 plants per acre",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato field plants"
+        },
+        {
+          "value": "18",
+          "unit_quote": "18 to 30 inches between plants in the row",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato in-row spacing"
+        },
+        {
+          "value": "30",
+          "unit_quote": "18 to 30 inches between plants in the row",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato in-row spacing"
+        },
+        {
+          "value": "5.0",
+          "unit_quote": "5.0- to 6.5-foot centers",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato row center width"
+        },
+        {
+          "value": "6.5",
+          "unit_quote": "5.0- to 6.5-foot centers",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato row center width"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کاشت دو ردیفه ارقام فشرده گوجه‌فرنگی بر روی هر بستر پلاستیکی تا ۱۰٬۰۰۰ بوته در هر آکر امکان‌پذیر است.",
+      "conditions": "منطقه: ایالات متحده (Penn State Extension)； محصول: گوجه‌فرنگی؛ واحد: بوته/آکر； محدودیت: کشت دوقلو در بستر پلاستیکی",
+      "evidence_id": "d0-e10",
+      "numeric_bindings": [
+        {
+          "value": "10000",
+          "unit_quote": "10,000 plants per acre",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato double-row planting"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "فاصله بین ردیف‌ها ۴۸ تا ۷۲ اینچ و فاصله بین بوته‌ها ۱۸ تا ۳۲ اینچ است که جمعیت ۳٬۶۳۰ تا ۴٬۳۵۶ بوته در هر آکر را ایجاد می‌کند.",
+      "conditions": "منطقه: فلوریدا (UF/IFAS)； محصول: گوجه‌فرنگی (Solanum lycopersicum)؛ واحد: بوته/آکر； محدودیت: پارامترهای کاشت استاندارد",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": [
+        {
+          "value": "48",
+          "unit_quote": "Distance between rows (in) 48–72",
+          "geographic_scope": "Florida, United States",
+          "product_scope": "tomato row spacing"
+        },
+        {
+          "value": "72",
+          "unit_quote": "Distance between rows (in) 48–72",
+          "geographic_scope": "Florida, United States",
+          "product_scope": "tomato row spacing"
+        },
+        {
+          "value": "18",
+          "unit_quote": "Distance between plants (in) 18–32",
+          "geographic_scope": "Florida, United States",
+          "product_scope": "tomato in-row spacing"
+        },
+        {
+          "value": "32",
+          "unit_quote": "Distance between plants (in) 18–32",
+          "geographic_scope": "Florida, United States",
+          "product_scope": "tomato in-row spacing"
+        },
+        {
+          "value": "3630",
+          "unit_quote": "Plant population per acre 3,630–4,356",
+          "geographic_scope": "Florida, United States",
+          "product_scope": "tomato plant population per acre"
+        },
+        {
+          "value": "4356",
+          "unit_quote": "Plant population per acre 3,630–4,356",
+          "geographic_scope": "Florida, United States",
+          "product_scope": "tomato plant population per acre"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "فاصله کشت برای ارقام کوتوله ۱۲ اینچ، ارقام تکیه‌گاه‌دار (ستونی) ۱۵ تا ۲۴ اینچ و ارقام داربستی ۲۴ تا ۳۶ اینچ در ردیف توصیه شده است.",
+      "conditions": "منطقه: ایلینوی (Illinois Extension)； محصول: گوجه‌فرنگی باغی؛ واحد: اینچ؛ محدودیت: کشت خانگی/کوچک‌مقیاس",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "12",
+          "unit_quote": "Space dwarf plants 12 inches apart",
+          "geographic_scope": "Illinois, United States",
+          "product_scope": "tomato dwarf plant spacing"
+        },
+        {
+          "value": "15",
+          "unit_quote": "staked plants 15 to 24 inches apart",
+          "geographic_scope": "Illinois, United States",
+          "product_scope": "tomato staked plant spacing"
+        },
+        {
+          "value": "24",
+          "unit_quote": "staked plants 15 to 24 inches apart",
+          "geographic_scope": "Illinois, United States",
+          "product_scope": "tomato staked plant spacing"
+        },
+        {
+          "value": "24",
+          "unit_quote": "trellised 24 to 36 inches apart",
+          "geographic_scope": "Illinois, United States",
+          "product_scope": "tomato trellised plant spacing"
+        },
+        {
+          "value": "36",
+          "unit_quote": "trellised 24 to 36 inches apart",
+          "geographic_scope": "Illinois, United States",
+          "product_scope": "tomato trellised plant spacing"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای ارقام indéterminée بسیار رویش قوی ممکن است ۴ فوت بین بوته‌ها و ۵ تا ۶ فوت بین ردیف‌ها نیاز باشد تا فضای برداشت مناسب فراهم شود.",
+      "conditions": "منطقه: ایلینوی (Illinois Extension)؛ محصول: گوجه‌فرنگی indéterminée؛ واحد: فوت؛ محدودیت: ارقام پررویش بلند",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "4",
+          "unit_quote": "4 feet between plants",
+          "geographic_scope": "Illinois, United States",
+          "product_scope": "tomato vigorous indeterminate spacing"
+        },
+        {
+          "value": "5",
+          "unit_quote": "5 to 6 feet between rows",
+          "geographic_scope": "Illinois, United States",
+          "product_scope": "tomato row spacing for vigorous types"
+        },
+        {
+          "value": "6",
+          "unit_quote": "5 to 6 feet between rows",
+          "geographic_scope": "Illinois, United States",
+          "product_scope": "tomato row spacing for vigorous types"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "زمان رسیدن برداشت از نشاء تا برداشت اولیه بین ۷۰ تا ۹۰ روز گزارش شده است.",
+      "conditions": "منطقه: فلوریدا (UF/IFAS)؛ محصول: گوجه‌فرنگی؛ واحد: روز؛ محدودیت: Days to maturity",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": [
+        {
+          "value": "70",
+          "unit_quote": "Days to maturity 70–90",
+          "geographic_scope": "Florida, United States",
+          "product_scope": "tomato days to maturity"
+        },
+        {
+          "value": "90",
+          "unit_quote": "Days to maturity 70–90",
+          "geographic_scope": "Florida, United States",
+          "product_scope": "tomato days to maturity"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دماهای شبانه زیر ۵۵ درجه فارنهایت و بهترین دمای رشد بین ۶۰ تا ۹۰ درجه فارنهایت برای گوجه‌فرنگی گزارش شده است.",
+      "conditions": "منطقه: ایالات متحده (Penn State)؛ محصول: گوجه‌فرنگی؛ واحد: درجه فارنهایت؛ محدودیت: دمای رشد و گرده‌افشانی",
+      "evidence_id": "d0-e9",
+      "numeric_bindings": [
+        {
+          "value": "55",
+          "unit_quote": "below 55°F",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato minimum night temperature"
+        },
+        {
+          "value": "60",
+          "unit_quote": "between 60° and 90°F",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato optimal growing temperature"
+        },
+        {
+          "value": "90",
+          "unit_quote": "between 60° and 90°F",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato optimal growing temperature"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای خاک در عمق ۳ اینچ باید به ۶۰ درجه فارنهایت برسد تا جابه‌جایی نشاء در مزرعه انجام شود.",
+      "conditions": "منطقه: ایالات متحده (Penn State Extension)؛ محصول: گوجه‌فرنگی؛ واحد: درجه فارنهایت و اینچ؛ محدودیت: دمای خاک برای transplant",
+      "evidence_id": "d0-e9",
+      "numeric_bindings": [
+        {
+          "value": "3",
+          "unit_quote": "3 inches beneath the soil surface",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato soil temperature measurement depth"
+        },
+        {
+          "value": "60",
+          "unit_quote": "soil temperatures 3 inches beneath the soil surface reach 60°F",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato minimum soil temperature for transplanting"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در پنسیلوانی حدود ۴٬۰۰۰ آکر گوجه‌فرنگی تازه‌market با ارزش سالانه ۱۵ تا ۲۵ میلیون دلار تولید می‌شود.",
+      "conditions": "منطقه: پنسیلوانی، ایالات متحده؛ محصول: گوجه‌فرنگی بازار تازه؛ واحد: آکر و میلیون دلار؛ محدودیت: تولید منطقه‌ای",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": [
+        {
+          "value": "4000",
+          "unit_quote": "about 4,000 acres of fresh-market tomatoes",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato fresh-market acreage"
+        },
+        {
+          "value": "15",
+          "unit_quote": "between $15 and $25 million",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato annual value"
+        },
+        {
+          "value": "25",
+          "unit_quote": "between $15 and $25 million",
+          "geographic_scope": "Pennsylvania, United States",
+          "product_scope": "tomato annual value"
+        }
+      ]
+    }
+  ]
+}

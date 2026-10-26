@@ -1,6 +1,6 @@
 {
   "requested": 3,
-  "loaded": 2,
+  "loaded": 3,
   "sources": [
     {
       "url": "https://corn.aae.wisc.edu/Crops/Mungbean.aspx",
@@ -16,8 +16,8 @@
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417475/",
-      "status": "unavailable",
-      "category": "source_policy_or_content_rejected"
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417475/",
+      "status": "cache_valid"
     }
   ]
 }

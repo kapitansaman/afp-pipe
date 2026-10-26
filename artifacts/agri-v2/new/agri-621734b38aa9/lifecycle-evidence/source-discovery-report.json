@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "started_at": "2026-10-26T05:54:44.200722+00:00",
+  "started_at": "2026-10-26T06:07:40.978597+00:00",
   "discovery_backend": "verified_catalog_and_observed_institutional_links",
   "model_generated_urls": false,
   "max_fetches": 12,
   "max_link_depth": 1,
-  "completed_at": "2026-10-26T05:54:44.757439+00:00",
-  "requested": 3,
-  "loaded": 3,
+  "completed_at": "2026-10-26T06:07:42.119177+00:00",
+  "requested": 4,
+  "loaded": 4,
   "independent_institutions": 3,
   "observed_links": [],
   "fetch_reports": [
     {
-      "requested": 3,
-      "loaded": 3,
+      "requested": 4,
+      "loaded": 4,
       "sources": [
         {
           "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
@@ -30,6 +30,12 @@
         {
           "url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
           "canonical_url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+          "canonical_url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
           "redirect_hops": 0,
           "status": "fetched"
         }
