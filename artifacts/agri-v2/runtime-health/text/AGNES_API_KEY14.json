@@ -1,0 +1,11 @@
+{
+  "repository": "kapitansaman/afp-pipe",
+  "credential_set_id": "afp-pipe-22-keys-v1",
+  "kind": "text",
+  "slot": "AGNES_API_KEY14",
+  "model": "agnes-2.5-flash",
+  "api_base": "https://apihub.agnes-ai.com/v1",
+  "verified_at": "2026-10-26T01:26:05.976020+00:00",
+  "verification": "actual_successful_production_response",
+  "run_id": "40254068265"
+}
