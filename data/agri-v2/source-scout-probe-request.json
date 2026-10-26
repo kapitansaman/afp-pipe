@@ -1,0 +1,9 @@
+{
+  "request_id": "afp-pipe-source-scout-probe-v1",
+  "topic_id": "agri-41a7470145cb",
+  "max_text_calls": 1,
+  "image_calls": 0,
+  "wordpress_calls": 0,
+  "publication_enabled": false,
+  "preserve_queue_attempts": true
+}

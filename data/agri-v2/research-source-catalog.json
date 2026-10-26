@@ -1,7 +1,7 @@
 {
-  "version": 3,
-  "verified_at": "2026-10-25",
-  "verification": "Exact public institution HTML URLs fetched successfully with production fetch_source on 2026-10-25. Catalog entries remain leads, never agronomic approval; every cycle must re-fetch/cache-validate, extract literal evidence and independently review topic/crop/intent and local limitations.",
+  "version": 4,
+  "verified_at": "2026-10-26",
+  "verification": "Version 3 bean entries retained unchanged (last verified 2026-10-25). New pumpkin/squash HTML sources retrieved by production fetch_source on 2026-10-26; evidence hashes in source-scout verification receipt. URLs remain leads, not approval: re-fetch/cache validation, source scout, literal evidence extraction and independent review are mandatory.",
   "entries": [
     {
       "crops": [
@@ -81,6 +81,28 @@
         "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
         "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1"
       ]
+    },
+    {
+      "crops": [
+        "کدو آجیلی"
+      ],
+      "intents": [
+        "storage"
+      ],
+      "scope": "Whole mature winter-squash/pumpkin FRUIT handling only. Sources do NOT establish extracted edible pumpkin-seed storage, oil quality, aflatoxin controls, seed-pumpkin cultivar equivalence or Iranian numeric temperature/humidity prescriptions. If title requires those or product part is ambiguous, Source Scout and independent reviewer must block for specialist review; never silently rewrite the title or transfer melon advice.",
+      "discovery_terms": [
+        "pumpkin",
+        "squash",
+        "storage",
+        "postharvest"
+      ],
+      "urls": [
+        "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+        "https://extension.oregonstate.edu/news/plan-now-harvest-store-pumpkins-winter-squash",
+        "https://extension.oregonstate.edu/catalog/sp-50-767-preserving-pumpkins-winter-squash"
+      ],
+      "verified_at": "2026-10-26T04:30:47.929167+00:00",
+      "verification_receipt": "artifacts/agri-v2/source-scout-verification/v1/live-fetch-report.json"
     }
   ]
 }

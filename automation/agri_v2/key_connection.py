@@ -94,6 +94,10 @@ def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None,
  return report
 
 def main():
+ scout_request=DATA/'source-scout-probe-request.json'
+ if scout_request.exists():
+  from .source_scout_probe import REQUEST as SCOUT_REQUEST,main as scout_main
+  if load_json(scout_request)==SCOUT_REQUEST:return scout_main()
  matrix_request=DATA/'model-matrix-request.json'
  if matrix_request.exists():
   from .model_matrix import REQUEST,main as matrix_main

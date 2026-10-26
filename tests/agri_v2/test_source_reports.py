@@ -20,7 +20,7 @@ class SourceReportTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    p=Path(d);load_documents([],Mock(),p,source_host,p/'report.json');self.assertEqual(load_json(p/'report.json'),{'requested':0,'loaded':0,'sources':[]})
  def test_catalog_new_intents_have_two_independent_institutions(self):
-  c=load_json(DATA/'research-source-catalog.json');self.assertEqual(c['version'],3)
+  c=load_json(DATA/'research-source-catalog.json');self.assertGreaterEqual(c['version'],4)
   for intent in ('maturity','grading','storage'):
    e=next(e for e in c['entries'] if intent in e['intents']);self.assertTrue(e['scope']);self.assertGreaterEqual(len({'.'.join(source_host(u).split('.')[-2:]) for u in e['urls']}),2)
 

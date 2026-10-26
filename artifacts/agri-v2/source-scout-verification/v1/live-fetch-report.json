@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+      "requested_url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+      "redirect_chain": [
+        "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins"
+      ],
+      "text_chars": 10198,
+      "sha256": "f50dfcb715f51483029a52d595365bf2e477357a4b48281d64486aa5262a2bee",
+      "fetched_at": "2026-10-26T04:30:47.929167+00:00",
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/news/plan-now-harvest-store-pumpkins-winter-squash",
+      "requested_url": "https://extension.oregonstate.edu/news/plan-winter-storage-pumpkins-squash",
+      "redirect_chain": [
+        "https://extension.oregonstate.edu/news/plan-winter-storage-pumpkins-squash",
+        "https://extension.oregonstate.edu/news/plan-now-harvest-store-pumpkins-winter-squash"
+      ],
+      "text_chars": 9322,
+      "sha256": "c885266bf09201b528e665460f5d5bbbfa118f878c084bcc578d78833adcfe03",
+      "fetched_at": "2026-10-26T04:30:48.796467+00:00",
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/sp-50-767-preserving-pumpkins-winter-squash",
+      "requested_url": "https://extension.oregonstate.edu/catalog/sp-50-767-preserving-pumpkins-winter-squash",
+      "redirect_chain": [
+        "https://extension.oregonstate.edu/catalog/sp-50-767-preserving-pumpkins-winter-squash"
+      ],
+      "text_chars": 12947,
+      "sha256": "b11eea8147e1f1eb532a0e0d2c10e4e5975b0d2e93586ce3f33e21bf105e8294",
+      "fetched_at": "2026-10-26T04:30:48.188891+00:00",
+      "status": "fetched"
+    }
+  ],
+  "model_calls": 0,
+  "wordpress_calls": 0
+}

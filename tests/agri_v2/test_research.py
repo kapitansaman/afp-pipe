@@ -1,4 +1,4 @@
-import copy,json,tempfile,unittest
+import copy,hashlib,json,tempfile,unittest
 from pathlib import Path
 from unittest.mock import patch
 from automation.agri_v2 import research,cycle
@@ -8,8 +8,10 @@ TOPIC={'id':'agri-123456789abc','title':'نشانه‌های رسیدگی لوب
 QUOTE='Harvest mature beans before pods begin to shatter in the field or the pods will split open, spilling beans onto the ground.'
 CLAIM='پیش از بازشدن غلاف و ریختن دانه باید وضعیت رسیدگی محصول در مزرعه بررسی شود.'
 COND='محدود به لوبیای خشک در شرایط منبع؛ تاریخ تقویمی یا نسخه عددی برای ایران تعیین نشده است.'
+SCOUT={'document_ids':['s0','s1'],'crop_and_intent_match':True,'scope_limitations':'Qualitative common bean maturity only; no local numerical recommendations.','reason':'Two independently fetched university pages cover dry-bean maturity and harvest. معرفت'}
 def fixtures():
- docs=[{'url':'https://extension.msu.edu/beans','text':'Intro '+QUOTE+' end','fetched_at':utcnow(),'sha256':'a'*64},{'url':'https://extension.iastate.edu/beans','text':'Intro '+QUOTE+' end','fetched_at':utcnow(),'sha256':'b'*64}]
+ docs=[{'url':'https://extension.msu.edu/beans','text':'Document '*45+QUOTE+' end','fetched_at':utcnow(),'sha256':'a'*64},{'url':'https://extension.iastate.edu/beans','text':'Document '*45+QUOTE+' end','fetched_at':utcnow(),'sha256':'b'*64}]
+ for d in docs:d['sha256']=hashlib.sha256(d['text'].encode()).hexdigest()
  candidate={'topic_id':TOPIC['id'],'slug':'bean-maturity-check','answers_intent':True,'local_or_numeric_prescription_required':False,'outline':['رسیدگی','پایش','بازار'],'facts':[{'claim':CLAIM,'conditions':COND,'source_url':docs[i%2]['url'],'evidence_quote':QUOTE,'evidence_id':f'd{i%2}-e0'} for i in range(4)]}
  review={'grounded':True,'all_claims_supported':True,'crop_and_intent_match':True,'safe_qualitative':True,'overlap_decision':'distinct','novelty_reason':'این بررسی درباره نشانه رسیدگی است و با موضوع عملکرد در هکتار یکی نیست.','source_scope_limitations':'این منابع خارجی هستند و تقویم یا دستور محلی برای تمام مناطق ایران ارائه نمی‌کنند.'}
  inventory={'source_generated_at':utcnow(),'scope':'all published titles','records':[{'id':1,'title':'موضوع دیگر','url':'https://navar-abyari.ir/other/','status':'publish'}]}
@@ -53,10 +55,11 @@ class ResearchTests(unittest.TestCase):
  def test_feeder_persists_evidence_and_one_brief(self):
   d,c,r,i=fixtures()
   class Client:
-   def __init__(self,*a,**k):self.answers=iter([{'urls':[x['url'] for x in d]},c,r])
-   def text(self,p):return next(self.answers)
+   def __init__(self,*a,**k):self.answers=iter([SCOUT,c,r])
+   def text(self,p,**kwargs):return next(self.answers)
   with tempfile.TemporaryDirectory() as t:
    data=Path(t)/'data';out=Path(t)/'out';atomic_json(data/'config.json',{'research_feeder':{'enabled':True}});atomic_json(data/'health/latest.json',{'checked_at':utcnow()})
+   atomic_json(data/'research-source-catalog.json',{'version':1,'entries':[{'crops':[TOPIC['crop']],'intents':[TOPIC['intent']],'urls':[x['url'] for x in d]}]})
    with patch.object(research,'items',return_value=[TOPIC]),patch.object(research,'update'):
     result=research.prepare_one(i,client_factory=Client,fetcher=lambda u:next(x for x in d if x['url']==u),data=data,out=out)
     self.assertEqual(result['status'],'brief_ready');self.assertTrue((data/'briefs'/f"{TOPIC['id']}.json").exists());self.assertTrue((out/'research-evidence'/TOPIC['id']/'review.json').exists())
@@ -65,7 +68,7 @@ class ResearchTests(unittest.TestCase):
   d,c,r,i=fixtures()
   class Client:
    def __init__(self,*a,**k):pass
-   def text(self,p):return {'urls':[]}
+   def text(self,p,**kwargs):return {'urls':[]}
   with tempfile.TemporaryDirectory() as t:
    data=Path(t)/'data';out=Path(t)/'out';atomic_json(data/'config.json',{'research_feeder':{'enabled':True}});atomic_json(data/'health/latest.json',{'checked_at':utcnow()})
    with patch.object(research,'items',return_value=[TOPIC]),patch.object(research,'update'):
@@ -74,8 +77,8 @@ class ResearchTests(unittest.TestCase):
  def test_new_verified_catalog_allows_only_bounded_source_refresh(self):
   d,c,r,i=fixtures()
   class Client:
-   def __init__(self,*a,**k):self.answers=iter([c,r])
-   def text(self,p):return next(self.answers)
+   def __init__(self,*a,**k):self.answers=iter([SCOUT,c,r])
+   def text(self,p,**kwargs):return next(self.answers)
   with tempfile.TemporaryDirectory() as t:
    data=Path(t)/'data';out=Path(t)/'out'
    atomic_json(data/'config.json',{'research_feeder':{'enabled':True}});atomic_json(data/'health/latest.json',{'checked_at':utcnow()})
@@ -119,7 +122,7 @@ class FactFilterTests(unittest.TestCase):
   calls=[]
   class Client:
    def __init__(self,*a,**k):pass
-   def text(self,p):calls.append(p);return r
+   def text(self,p,**kwargs):calls.append(p);return r
   with tempfile.TemporaryDirectory() as t:
    data=Path(t)/'data';out=Path(t)/'out';atomic_json(data/'config.json',{'research_feeder':{'enabled':True}});atomic_json(data/'health/latest.json',{'checked_at':utcnow()})
    ev=out/'research-evidence'/TOPIC['id'];atomic_json(ev/'candidate-raw.json',c);atomic_json(ev/'sources.json',{'documents':d})
@@ -136,8 +139,8 @@ class SourcePriorityTests(unittest.TestCase):
  def test_covered_topic_precedes_unverified_discovery_without_changing_approvals(self):
   d,c,r,i=fixtures();other=dict(TOPIC,id='agri-aaaaaaaaaaaa',crop='کدو آجیلی',title='کاهش تلفات برداشت کدو آجیلی')
   class Client:
-   def __init__(self,*a,**kw):self.answers=iter([c,r])
-   def text(self,p):return next(self.answers)
+   def __init__(self,*a,**kw):self.answers=iter([SCOUT,c,r])
+   def text(self,p,**kwargs):return next(self.answers)
   with tempfile.TemporaryDirectory() as tmp:
    data=Path(tmp)/'data';out=Path(tmp)/'out';atomic_json(data/'config.json',{'research_feeder':{'enabled':True,'prefer_verified_source_catalog':True}});atomic_json(data/'health/latest.json',{'checked_at':utcnow()})
    atomic_json(data/'research-source-catalog.json',{'version':2,'entries':[{'crops':[TOPIC['crop']],'intents':[TOPIC['intent']],'urls':[x['url'] for x in d]}]})

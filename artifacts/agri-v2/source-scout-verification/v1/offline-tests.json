@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-26T04:34:47.282923+00:00",
+  "command": "python -m unittest discover -s tests/agri_v2 -v",
+  "test_count": 382,
+  "result": "passed",
+  "live_model_test": "pending_separate_actions_probe",
+  "publication_enabled": false,
+  "queue_attempts_reset": false
+}
