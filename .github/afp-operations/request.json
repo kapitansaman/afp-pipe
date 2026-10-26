@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "request_id": "ops-97-pilot-citation-v2",
+  "request_id": "ops-97-pilot-grounded-v3",
   "operation": "readiness-audit-image-pilot",
   "authorized": true,
   "max_text_health_calls": 0,
@@ -8,5 +8,5 @@
   "max_pilot_families": 1,
   "enable_schedule": false,
   "reset_attempts": false,
-  "code_revision": "bda5240361376afd6ed79c3994b6606573f2ee5a"
+  "code_revision": "f516972002683f199c32f1cce70c76dfad639aa1"
 }
