@@ -1,0 +1,184 @@
+{
+  "topic_id": "agri-b35a06791dd5",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "تخم کدو آجیلی (Cucurbita pepo)",
+  "slug": "harvest-maturity-seed-pumpkin",
+  "outline": [
+    "دوره رسیدگی بذر و نشانه‌های خارجی میوه",
+    "زمان برداشت و نشانه‌های تاکلی",
+    "عملیات پس از برداشت و خشک‌کردن بذر",
+    "بازده متوسط بذر و وزن هزار دانه"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "رسیدگی بذر کدو و کدو حلوایی حدود شانزده هفته پس از گل‌دهی محقق می‌شود و پوسته سفت شده و رنگ آن تغییر می‌کند.",
+      "conditions": "در ایالت‌های غربی و برخی مناطق شرقی آمریکا؛ رنگ انواع سبز به زرد-نارنجی و انواع زرد-طلایی به رنگ کاهویی تغییر می‌کند.",
+      "evidence_id": "d0-e12",
+      "numeric_bindings": [
+        {
+          "value": "16",
+          "unit_quote": "sixteen weeks",
+          "geographic_scope": "US (Western US and some places in the East)",
+          "product_scope": "pumpkin and squash seed maturity"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برای تشخیص بلوغ میوه کدو، به تاکلی نزدیک‌ترین به میوه توجه شود؛ وقتی تاکلی شروع به پژمردن کرد، میوه بالغ است.",
+      "conditions": "توصیه ترویجی دانشگاه آلاباما برای برداشت پمپکین بلوغ‌یافته.",
+      "evidence_id": "d1-e7",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کدو هنگامی برداشت می‌شود که رنگ عمیق و یکنواخت (نارنجی برای بیشتر ارقام) داشته باشد و پوسته سخت باشد.",
+      "conditions": "Illinois Extension; برداشت در اواخر سپتامبر یا اوایل اکتبر قبل از یخبندان‌های شدید.",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "هنگام قطع میوه باید ۳ تا ۴ اینچ ساقه کنار میوه باقی گذاشته شود.",
+      "conditions": "توصیه Illinois Extension برای جلوگیری از شکستن دسته و افزایش ماندگاری.",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": [
+        {
+          "value": "3 to 4",
+          "unit_quote": "3 to 4 inches of stem",
+          "geographic_scope": "US (Illinois Extension recommendation)",
+          "product_scope": "pumpkin harvest stem retention"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کوکینگ (خشک‌کردن初加工) کدو در دمای ۸۰ تا ۸۵ درجه فارنهایت و رطوبت نسبی ۷۵ تا ۸۰ درصد به مدت ۱۰ تا ۲۰ روز انجام می‌شود.",
+      "conditions": "توصیه Alabama Cooperative Extension پس از برداشت میوه‌های بالغ.",
+      "evidence_id": "d1-e8",
+      "numeric_bindings": [
+        {
+          "value": "80 to 85",
+          "unit_quote": "80 to 85 degree F",
+          "geographic_scope": "US (Alabama Extension)",
+          "product_scope": "pumpkin curing temperature"
+        },
+        {
+          "value": "75 to 80",
+          "unit_quote": "75 to 80% relative humidity",
+          "geographic_scope": "US (Alabama Extension)",
+          "product_scope": "pumpkin curing humidity"
+        },
+        {
+          "value": "10 to 20",
+          "unit_quote": "10 to 20 days",
+          "geographic_scope": "US (Alabama Extension)",
+          "product_scope": "pumpkin curing duration"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بعد از کوکینگ، نگهداری میوه در دمای ۵۰ تا ۵۵ درجه فارنهایت و رطوبت نسبی ۶۰ تا ۷۰ درصد توصیه شده است.",
+      "conditions": "توصیه Alabama Cooperative Extension برای انبارداری بلندمدت.",
+      "evidence_id": "d1-e8",
+      "numeric_bindings": [
+        {
+          "value": "50 to 55",
+          "unit_quote": "50 to 55 degrees F",
+          "geographic_scope": "US (Alabama Extension)",
+          "product_scope": "pumpkin storage temperature"
+        },
+        {
+          "value": "60 to 70",
+          "unit_quote": "60 to 70% humidity",
+          "geographic_scope": "US (Alabama Extension)",
+          "product_scope": "pumpkin storage humidity"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "میوه‌های برخی کدوهای زمستانی تا زمان رسیدن بذر نسبتاً خشک هستند و بذر بدون نیاز به آبشویی از طریق separater خارج می‌شود.",
+      "conditions": "تولید بذر در مقیاس وسیع؛ در صورت خشک نبودن میوه آب به separator اضافه می‌شود.",
+      "evidence_id": "d0-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بذرهای استخراج‌شده در مجاری شسته و سپس خشک می‌شوند؛ تخم‌های کدو طی فرآیند تمیز کردن تخمیر نمی‌شوند زیرا باعث تغییر رنگ و کاهش رویش‌پذیری می‌گردد.",
+      "conditions": "روش تولید بذر Cucurbita در مراکز تحقیقاتی آمریکا.",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "میانگین بازده بذر حدود ۵۰۰ کیلوگرم در هکتار (۴۴۶ پوند در acre) و تحت شرایط مطلوب گرده‌افشانی تا ۱۰۰۰ کیلوگرم در هکتار (۸۹۲ پوند در acre) است.",
+      "conditions": "تولید بذر کدو در شرایط زراعی استاندارد آمریکا.",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": [
+        {
+          "value": "500",
+          "unit_quote": "500 kg per hectare",
+          "geographic_scope": "US seed production",
+          "product_scope": "pumpkin seed average yield"
+        },
+        {
+          "value": "446",
+          "unit_quote": "446 pounds per acre",
+          "geographic_scope": "US seed production",
+          "product_scope": "pumpkin seed average yield"
+        },
+        {
+          "value": "1000",
+          "unit_quote": "1000 kg per hectare",
+          "geographic_scope": "US seed production",
+          "product_scope": "pumpkin seed maximum yield"
+        },
+        {
+          "value": "892",
+          "unit_quote": "892 pounds per acre",
+          "geographic_scope": "US seed production",
+          "product_scope": "pumpkin seed maximum yield"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "وزن هزار دانه کدو تقریباً ۲۰۰ گرم است که بسته به رقم متغیر است.",
+      "conditions": "گونه‌های Cucurbita pepo و Cucurbita maxima.",
+      "evidence_id": "d0-e14",
+      "numeric_bindings": [
+        {
+          "value": "200",
+          "unit_quote": "approximately 200 g",
+          "geographic_scope": "General Cucurbita (VT seed production reference)",
+          "product_scope": "1000-seed weight of pumpkin"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دماهای پایین هوا در زمان رسیدن میوه باعث کاهش کیفیت می‌شود.",
+      "conditions": "دمای متوسط روزانه زیر ۷۰ فارنهایت در دوره بلوغ میوه.",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": [
+        {
+          "value": "70",
+          "unit_quote": "below 70 F",
+          "geographic_scope": "US (Virginia Tech seed production)",
+          "product_scope": "pumpkin fruit maturation air temperature threshold"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "میوه‌های کاملاً رسیده یا آسیب‌دیده یا تحت یخبندان سنگین نگهداری خوبی ندارند.",
+      "conditions": "شرایط انبارداری و برداشت توصیه‌شده توسط Illinois Extension.",
+      "evidence_id": "d2-e4",
+      "numeric_bindings": []
+    }
+  ]
+}

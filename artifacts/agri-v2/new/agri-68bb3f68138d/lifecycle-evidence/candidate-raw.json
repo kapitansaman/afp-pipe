@@ -1,0 +1,131 @@
+{
+  "topic_id": "agri-68bb3f68138d",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "میوه کدو حلوایی (پمپکین)",
+  "slug": "pumpkin-us-yield-observations",
+  "outline": [
+    "برداشت تجاری میوه کدو حلوایی در سامانه پلاستیک‌کالتور پنسیلوانیا، آمریکا",
+    "بازه عملکرد قابل‌فروش و تعداد میوه بر بوته",
+    "تأثیر سامانه کشت و شرایط بستر بر تفسیر اعداد",
+    "تنوع سایز میوه در ارقام مختلف بر اساس مرجع آلاباما"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد قابل‌فروش میانگین میوه کدو حلوایی ۳۸٫۵ پوند بر بوته با دامنه ۲۱٫۸ تا ۶۱٫۰ پوند بر بوته ثبت شده است.",
+      "conditions": "سامانه پلاستیک‌کالتور، پایکاه بالا، تیوپ قطره‌ای تک‌خطی، مالچ پلاستیک مشکی؛ مزارع آزمایشی Penn State Extension در غرب پنسیلوانیا (شهرستان ایندیانا)، مرکز پنسیلوانیا (Pennsylvania Furnace) و جنوب شرقی پنسیلوانیا (Manheim)؛ به‌روز شده December 22, 2025؛ خواندن دقیق جدول دقت شود زیرا ستون‌های عددی فشرده چاپ شده‌اند.",
+      "evidence_id": "d0-e2,d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "38.5",
+          "unit_quote": "38.5",
+          "geographic_scope": "Western/central/southeastern Pennsylvania, USA",
+          "product_scope": "Pumpkin marketable fruit"
+        },
+        {
+          "value": "21.8",
+          "unit_quote": "21.8– 61.0",
+          "geographic_scope": "Western/central/southeastern Pennsylvania, USA",
+          "product_scope": "Pumpkin marketable fruit"
+        },
+        {
+          "value": "61.0",
+          "unit_quote": "21.8– 61.0",
+          "geographic_scope": "Western/central/southeastern Pennsylvania, USA",
+          "product_scope": "Pumpkin marketable fruit"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "تعداد میوه قابل‌فروش میانگین ۲٫۱ تا ۲٫۲ عدد بر بوته با بازه ۱٫۱ تا ۳٫۳ عدد بر بوته گزارش شده است.",
+      "conditions": "سامانه پلاستیک‌کالتور Penn State Extension؛ همان مزارع غرب/مرکز/جنوب شرقی پنسیلوانیا؛ ارقام متنوع ارزیابی‌شده از ۲۰۰۸ تاکنون؛ واحد شمارش (No.)",
+      "evidence_id": "d0-e2,d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "2.1",
+          "unit_quote": "2.1 – 2.2",
+          "geographic_scope": "Western/central/southeastern Pennsylvania, USA",
+          "product_scope": "Pumpkin marketable fruit count per plant"
+        },
+        {
+          "value": "2.2",
+          "unit_quote": "2.1 – 2.2",
+          "geographic_scope": "Western/central/southeastern Pennsylvania, USA",
+          "product_scope": "Pumpkin marketable fruit count per plant"
+        },
+        {
+          "value": "1.1",
+          "unit_quote": "1.1– 3.3",
+          "geographic_scope": "Western/central/southeastern Pennsylvania, USA",
+          "product_scope": "Pumpkin marketable fruit count per plant"
+        },
+        {
+          "value": "3.3",
+          "unit_quote": "1.1– 3.3",
+          "geographic_scope": "Western/central/southeastern Pennsylvania, USA",
+          "product_scope": "Pumpkin marketable fruit count per plant"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد کل (total yield) برای کدو حلوایی در این جدول به‌صورت خط‌تیره (-) گزارش شده و فاقد عدد است.",
+      "conditions": "جدول Penn State Extension؛ ستون‌های AVG TTL و RNG TTL برای ردیف Pumpkin خالی چاپ شده‌اند؛ فقط عملکرد قابل‌فروش (MKT) مقدار عددی دارد.",
+      "evidence_id": "d0-e2,d0-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "سایز نهایی میوه کدو حلوایی بسته به رقم، تعداد میوهٔ تشکیل‌شده بر بوته، فاصلهٔ بوته‌ها، علف‌های هرز، تغذیه و مدیریت بیماری‌ها متغیر است.",
+      "conditions": "مرجع آلاباما Cooperative Extension؛ دسته‌بندی ارقام بر اساس وزن بلوغ؛ یادآوری نویسنده دربارهٔ عوامل محیطی مؤثر بر اندازه میوه",
+      "evidence_id": "d1-e4,d1-e5,d1-e6",
+      "numeric_bindings": [
+        {
+          "value": "2",
+          "unit_quote": "2 pounds",
+          "geographic_scope": "USA (cultivar reference)",
+          "product_scope": "Miniature pumpkin cultivar mature fruit weight upper limit"
+        },
+        {
+          "value": "6",
+          "unit_quote": "2 to 6 pounds",
+          "geographic_scope": "USA (cultivar reference)",
+          "product_scope": "Small pumpkin cultivar mature fruit weight"
+        },
+        {
+          "value": "12",
+          "unit_quote": "6 to 12 pounds",
+          "geographic_scope": "USA (cultivar reference)",
+          "product_scope": "Medium pumpkin cultivar mature fruit weight"
+        },
+        {
+          "value": "20",
+          "unit_quote": "12 to 20 pounds",
+          "geographic_scope": "USA (cultivar reference)",
+          "product_scope": "Large pumpkin cultivar mature fruit weight"
+        },
+        {
+          "value": "50",
+          "unit_quote": "20 to 50 pounds",
+          "geographic_scope": "USA (cultivar reference)",
+          "product_scope": "Extra large pumpkin cultivar mature fruit weight"
+        },
+        {
+          "value": "50",
+          "unit_quote": "50 pounds",
+          "geographic_scope": "USA (cultivar reference)",
+          "product_scope": "Giant pumpkin cultivar mature fruit weight lower limit"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عملکردهای جدول Penn State صرفاً برای سامانه پلاستیک‌کالتور با پایکاه بالا، تیوپ قطره‌ای تک‌خطی و مالچ مشکی معتبرند و برای شرایط دیگر قابل تعمیم نیستند.",
+      "conditions": "ذکر صریح منبع d0-e1 دربارهٔ محدودیت تعمیم: عدم تطابق با کشت روی زمین صاف، آبیاری بارانی/بارانی‌گونه، یا سیستم کاهش شخم با مالچ پوششی گیاهی",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    }
+  ]
+}

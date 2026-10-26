@@ -1,0 +1,17 @@
+{
+  "requested": 2,
+  "loaded": 1,
+  "sources": [
+    {
+      "url": "https://extension.msstate.edu/agriculture/forages/legumes/common-vetch-vicia-sativa",
+      "canonical_url": "https://extension.msstate.edu/agriculture/forages/legumes/common-vetch-vicia-sativa",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7316993/",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected"
+    }
+  ]
+}

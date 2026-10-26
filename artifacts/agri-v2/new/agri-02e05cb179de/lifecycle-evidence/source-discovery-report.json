@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "started_at": "2026-10-26T05:54:44.331755+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 1,
+  "completed_at": "2026-10-26T05:54:45.091324+00:00",
+  "requested": 2,
+  "loaded": 2,
+  "independent_institutions": 2,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 2,
+      "loaded": 2,
+      "sources": [
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "canonical_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+          "canonical_url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ]
+}

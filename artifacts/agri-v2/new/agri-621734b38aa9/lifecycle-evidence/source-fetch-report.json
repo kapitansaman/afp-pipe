@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "canonical_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
+      "canonical_url": "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+      "canonical_url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "started_at": "2026-10-26T05:54:44.360809+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 1,
+  "completed_at": "2026-10-26T05:54:45.643260+00:00",
+  "requested": 3,
+  "loaded": 3,
+  "independent_institutions": 3,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 3,
+      "loaded": 3,
+      "sources": [
+        {
+          "url": "https://www.hort.purdue.edu/newcrop/CropFactSheets/lentil.html",
+          "canonical_url": "https://www.hort.purdue.edu/newcrop/CropFactSheets/lentil.html",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Lentil.aspx",
+          "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Lentil.aspx",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Pulses/USADryPeaCouncil%20FactSheet.pdf",
+          "canonical_url": "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Pulses/USADryPeaCouncil%20FactSheet.pdf",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "started_at": "2026-10-26T05:54:43.971927+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 1,
+  "completed_at": "2026-10-26T05:54:45.581457+00:00",
+  "requested": 3,
+  "loaded": 3,
+  "independent_institutions": 2,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 3,
+      "loaded": 3,
+      "sources": [
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+          "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management",
+          "canonical_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+          "redirect_hops": 1,
+          "status": "fetched"
+        },
+        {
+          "url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+          "canonical_url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ]
+}

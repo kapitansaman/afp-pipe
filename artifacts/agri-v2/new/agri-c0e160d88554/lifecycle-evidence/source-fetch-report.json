@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://content.ces.ncsu.edu/sesame-production-fact-sheet",
+      "canonical_url": "https://content.ces.ncsu.edu/sesame-production-fact-sheet",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Sesame.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Sesame.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://sanangelo.tamu.edu/agronomy/agronomy-publications/sesame-production-guide",
+      "canonical_url": "https://sanangelo.tamu.edu/agronomy/agronomy-publications/sesame-production-guide/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

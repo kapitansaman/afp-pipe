@@ -1,0 +1,23 @@
+{
+  "requested": 3,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://corn.aae.wisc.edu/Crops/Mungbean.aspx",
+      "canonical_url": "https://corn.aae.wisc.edu/Crops/Mungbean.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.hort.purdue.edu/newcrop/afcm/mungbean.html",
+      "canonical_url": "https://www.hort.purdue.edu/newcrop/afcm/mungbean.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417475/",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected"
+    }
+  ]
+}

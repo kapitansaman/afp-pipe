@@ -1,0 +1,10 @@
+{
+  "topic_id": "agri-02e05cb179de",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": null,
+  "slug": null,
+  "outline": [],
+  "facts": [],
+  "_explanation": "Evidence is English-language US extension/oregon state research on Cicer arietinum (chickpea/garbanzo) varieties grown in Montana and Oregon; no Persian-named cultivar class, harvested product, or Iran-local adaptation evidence present, and no Iranian yield/prescription data. Task requires exact Persian product/species extraction; insufficient evidence → intent=false."
+}

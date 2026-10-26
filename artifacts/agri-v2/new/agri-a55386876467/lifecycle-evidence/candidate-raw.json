@@ -1,0 +1,113 @@
+{
+  "topic_id": "agri-a55386876467",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "علوفه خشک یونجه (Alfalfa hay dry matter)",
+  "slug": "cut-yield-alfalfa-dm-mn-usa",
+  "outline": [
+    "تعداد چین‌های فصلی در سیستم‌های مختلف (۴، ۵ و ۶ چین در سال) در اقلیم مینه‌سوتا",
+    "فاصله زمانی بین چین‌ها (۲۱، ۲۸ و ۴۵ روز) و رابطه آن با بلوغ گیاه",
+    "عملکرد کل فصلی و تاثیر هر چین بر عملکرد ماده خشک در شرایط مختلف محیطی"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "در آزمایش‌های مینه‌سوتا (بکر و سنت پل)، عملکرد کل فصلی یونجه تحت سیستم ۴ چین (فاصله ۴۵ روزه) بیشتر از سیستم ۵ چین (فاصله ۲۸ روزه) بود.",
+      "conditions": "آزمایش در دو سایت بکر و سنت پل مینه‌سوتا، اقلیم شمال آمریکا، سال‌های ۲۰۱۵ و ۲۰۱۶",
+      "evidence_id": "d2-e25",
+      "numeric_bindings": [
+        {
+          "value": "45",
+          "unit_quote": "45-d intervals",
+          "geographic_scope": "Minnesota, USA (Becker and St. Paul)",
+          "product_scope": "alfalfa dry matter yield"
+        },
+        {
+          "value": "28",
+          "unit_quote": "28-d intervals",
+          "geographic_scope": "Minnesota, USA (Becker and St. Paul)",
+          "product_scope": "alfalfa dry matter yield"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "افزایش فرکانس چین‌برداری از ۴ به ۶ چین در سال در محیط بکر منجر به کاهش ۵٪ و ۲۹٪ در عملکرد ماده خشک شد.",
+      "conditions": "محیط بکر مینه‌سوتا، سیستم ۴ چین تا ۶ چین",
+      "evidence_id": "d2-e1",
+      "numeric_bindings": [
+        {
+          "value": "5",
+          "unit_quote": "5% decrease",
+          "geographic_scope": "Becker, Minnesota, USA",
+          "product_scope": "alfalfa forage dry matter yield"
+        },
+        {
+          "value": "29",
+          "unit_quote": "29% decrease",
+          "geographic_scope": "Becker, Minnesota, USA",
+          "product_scope": "alfalfa forage dry matter yield"
+        },
+        {
+          "value": "4",
+          "unit_quote": "CF4",
+          "geographic_scope": "Becker, Minnesota, USA",
+          "product_scope": "alfalfa cutting frequency"
+        },
+        {
+          "value": "6",
+          "unit_quote": "CF6",
+          "geographic_scope": "Becker, Minnesota, USA",
+          "product_scope": "alfalfa cutting frequency"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در محیط سنت پل، افزایش فرکانس از ۴ به ۵ چین عملکرد را ۱۱٪ افزایش داد، اما افزایش از ۵ به ۶ چین منجر به کاهش ۲۴٪ شد.",
+      "conditions": "محیط سنت پل مینه‌سوتا",
+      "evidence_id": "d2-e25",
+      "numeric_bindings": [
+        {
+          "value": "11",
+          "unit_quote": "11% increased",
+          "geographic_scope": "St. Paul, Minnesota, USA",
+          "product_scope": "alfalfa dry matter yield"
+        },
+        {
+          "value": "24",
+          "unit_quote": "24% decreased",
+          "geographic_scope": "St. Paul, Minnesota, USA",
+          "product_scope": "alfalfa dry matter yield"
+        },
+        {
+          "value": "5",
+          "unit_quote": "CF5",
+          "geographic_scope": "St. Paul, Minnesota, USA",
+          "product_scope": "alfalfa cutting frequency"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "میزان برداشت هر چین به اقلیم، رقم و وضعیت بلوغ گیاه وابسته است و داده‌های کمی مستقل برای هر تک‌چین در منابع موجود نیست.",
+      "conditions": "یونجه در مناطق شمال آمریکا، وابسته به شرایط رشد",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "فاصله بین چین‌ها می‌تواند بر اساس نرخ انباشت ماده خشک (حدود ۱۰۰ پوند در روز برای هر اکر) و مرحله رشد تعیین شود.",
+      "conditions": "یونجه در مینه‌سوتا",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": [
+        {
+          "value": "100",
+          "unit_quote": "100 lb/day/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa dry matter accumulation rate"
+        }
+      ]
+    }
+  ]
+}

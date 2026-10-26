@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "started_at": "2026-10-26T05:54:44.349058+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 1,
+  "completed_at": "2026-10-26T05:54:45.483401+00:00",
+  "requested": 3,
+  "loaded": 3,
+  "independent_institutions": 3,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 3,
+      "loaded": 3,
+      "sources": [
+        {
+          "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+          "canonical_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+          "canonical_url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+          "canonical_url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ]
+}

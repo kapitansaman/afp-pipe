@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
+      "canonical_url": "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+      "canonical_url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

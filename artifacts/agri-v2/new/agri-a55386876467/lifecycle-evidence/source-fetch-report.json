@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management",
+      "canonical_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+      "canonical_url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

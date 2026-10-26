@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
+      "canonical_url": "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://fieldreport.caes.uga.edu/publications/C527/commercial-squash-production",
+      "canonical_url": "https://fieldreport.caes.uga.edu/publications/C527/commercial-squash-production/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

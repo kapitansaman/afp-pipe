@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "started_at": "2026-10-26T05:54:44.367759+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 1,
+  "completed_at": "2026-10-26T05:54:45.443932+00:00",
+  "requested": 3,
+  "loaded": 3,
+  "independent_institutions": 3,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 3,
+      "loaded": 3,
+      "sources": [
+        {
+          "url": "https://extension.psu.edu/tomato-production",
+          "canonical_url": "https://extension.psu.edu/tomato-production",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://ask.ifas.ufl.edu/publication/CV137",
+          "canonical_url": "https://ask.ifas.ufl.edu/publication/CV137",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.illinois.edu/gardening/tomato",
+          "canonical_url": "https://extension.illinois.edu/gardening/tomato",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://cucurbitbreeding.wordpress.ncsu.edu/watermelon-breeding/cultivar-types/",
+      "canonical_url": "https://cucurbitbreeding.wordpress.ncsu.edu/watermelon-breeding/cultivar-types/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://mcgregorlab.uga.edu/files/2020/02/Paudel-2019-Egusi.pdf",
+      "canonical_url": "https://mcgregorlab.uga.edu/files/2020/02/Paudel-2019-Egusi.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension.psu.edu/tomato-production",
+      "canonical_url": "https://extension.psu.edu/tomato-production",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://ask.ifas.ufl.edu/publication/CV137",
+      "canonical_url": "https://ask.ifas.ufl.edu/publication/CV137",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.illinois.edu/gardening/tomato",
+      "canonical_url": "https://extension.illinois.edu/gardening/tomato",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}
