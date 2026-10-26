@@ -1,33 +1,62 @@
 {
   "matrix_pilot": true,
   "research_only": false,
-  "run_id": "40315021021",
+  "run_id": "40315988391",
   "status": "pilot_incomplete",
   "assigned_count": 1,
   "pilot_topic_only": false,
   "results": [
     {
       "status": "stage_failed",
-      "stage": "research_extract",
+      "stage": "existing_content_audit-004",
       "failure": {
         "kind": "validation",
-        "category": "numeric_units_not_in_literal_source"
+        "category": "existing_content_overlap_or_uncertain"
       },
       "topic_id": "agri-b6f7d6bea16b",
       "steps": [
         {
           "status": "stage_completed",
-          "stage": "research_sources",
+          "stage": "research_validate_saved",
           "result": {
-            "fetched_sources": 1
+            "saved_facts_validated": 7,
+            "new_model_calls": 0
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "existing_content_audit-000",
+          "result": {
+            "actual_existing_articles_reviewed": 3
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "existing_content_audit-001",
+          "result": {
+            "actual_existing_articles_reviewed": 3
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "existing_content_audit-002",
+          "result": {
+            "actual_existing_articles_reviewed": 3
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "existing_content_audit-003",
+          "result": {
+            "actual_existing_articles_reviewed": 3
           }
         },
         {
           "status": "stage_failed",
-          "stage": "research_extract",
+          "stage": "existing_content_audit-004",
           "failure": {
             "kind": "validation",
-            "category": "numeric_units_not_in_literal_source"
+            "category": "existing_content_overlap_or_uncertain"
           }
         }
       ],
@@ -43,7 +72,7 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-26T11:27:09.457084+00:00",
+  "started_at": "2026-10-26T11:35:07.204352+00:00",
   "existing_content_fetch": {
     "families": 1,
     "families_with_bounded_full_scope": 1,
@@ -52,14 +81,14 @@
     "scope_limited_families": 0
   },
   "max_text_model_calls": null,
-  "max_total_model_calls": 24,
+  "max_total_model_calls": 23,
   "pool": {
-    "model_requests_reserved": 1,
+    "model_requests_reserved": 5,
     "cooldown_until_epoch": 0.0,
     "slots": [
       {
         "name": "AGNES_API_KEY",
-        "used": 1,
+        "used": 2,
         "disabled": 0,
         "kind": null
       },
@@ -605,25 +634,25 @@
       },
       {
         "name": "AGNES_API_KEY94",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY95",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY96",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
       {
         "name": "AGNES_API_KEY97",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       }
@@ -635,6 +664,6 @@
   "operational_failures": 1,
   "waiting_families": 0,
   "publication_ready_workers": 0,
-  "completed_at": "2026-10-26T11:28:15.676965+00:00",
+  "completed_at": "2026-10-26T11:37:14.558384+00:00",
   "matrix_pilot_complete": false
 }

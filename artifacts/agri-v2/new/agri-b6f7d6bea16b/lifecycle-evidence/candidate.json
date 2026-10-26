@@ -1,0 +1,91 @@
+{
+  "topic_id": "agri-b6f7d6bea16b",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "هویج (بذر/ریشه تازه مصرفی)",
+  "slug": "carrot-germination-temperature-moisture-crusted-soil",
+  "outline": [
+    "شرایط و تعریف کشت",
+    "شواهد استقرار (دما، رطوبت سطحی، سله خاک)",
+    "پایش و تصمیم‌گیری"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "کاشت بذر هویج فقط پس از رسیدن دمای خاک به حداقل ۴۰ °F مجاز است.",
+      "conditions": "منطقه منبع: یوتا، ایالات متحده؛ محصول: بذر هویج برای استقرار مزرعه‌ای/باغی؛ واحد: °F",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "40",
+          "unit_quote": "40°F",
+          "geographic_scope": "Utah, USA university-extension observation",
+          "product_scope": "carrot seed sowing"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بهترین دمای جوانه‌زنی بذر هویج ۵۵ تا ۶۵ °F است و ظهور رشدیس ۱۴ تا ۲۱ روز طول می‌کشد.",
+      "conditions": "منطقه منبع: یوتا، ایالات متحده؛ محصول: بذر هویج؛ واحد: °F، روز",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "55-65",
+          "unit_quote": "55-65°F",
+          "geographic_scope": "Utah, USA university-extension observation",
+          "product_scope": "carrot seed germination"
+        },
+        {
+          "value": "14-21",
+          "unit_quote": "14-21 days",
+          "geographic_scope": "Utah, USA university-extension observation",
+          "product_scope": "carrot seed emergence"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای خاک بالاتر از ۸۰ °F جوانه‌زنی بذر هویج را کاهش می‌دهد.",
+      "conditions": "منطقه منبع: یوتا، ایالات متحده؛ محصول: بذر هویج؛ واحد: °F",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "80",
+          "unit_quote": "80°F",
+          "geographic_scope": "Utah, USA university-extension observation",
+          "product_scope": "carrot seed germination reduction"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "خاک‌های سله‌بسته ظهور جوجه‌گیاه را محدود می‌کنند و پیکربندی بوته را خراب می‌سازند.",
+      "conditions": "منطقه منبع: یوتا، ایالات متحده؛ محصول: بذر هویج کاشته‌شده؛ واحد: کیفی",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "سطح خاک باید یکنواخت و مرطوب نگه داشته شود تا ایستادن گیاهان هویج تضمین گردد.",
+      "conditions": "منطقه منبع: یوتا، ایالات متحده؛ محصول: بذر هویج؛ واحد: کیفی",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نوسانات رطوبت خاک باعث اختلالات ریشه‌ای، رشد برگ کُند و طعم تلخی در هویج می‌شود.",
+      "conditions": "منطقه منبع: یوتا، ایالات متحده；产品：胡萝卜根；单位：定性",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دوره‌های خیس و خشک متناوب شکاف خوردن ریشه هویج را تقویت می‌کند.",
+      "conditions": "منطقه منبع: یوتا، ایالات متحده；产品：胡萝卜根；单位：定性",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": []
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}
