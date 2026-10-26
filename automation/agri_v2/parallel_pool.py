@@ -1,9 +1,10 @@
-"""One Actions runner, 75 credentials, process-safe dynamic leases and shared backpressure.
+"""One Actions runner, 97 credentials, process-safe dynamic leases and shared backpressure.
 Only slot names/counters are stored. Never credentials or credential fingerprints.
 """
 import contextlib,json,os,sqlite3,time,uuid
 from pathlib import Path
-SLOTS=['AGNES_API_KEY']+[f'AGNES_API_KEY{i}' for i in range(2,76)]
+from .parallel_capacity import KEY_LIMIT,MAX_FAMILIES
+SLOTS=['AGNES_API_KEY']+[f'AGNES_API_KEY{i}' for i in range(2,KEY_LIMIT+1)]
 class PoolDeferred(RuntimeError):pass
 
 @contextlib.contextmanager
@@ -12,7 +13,8 @@ def connect(path):
  try:yield c
  finally:c.close()
 
-def initialize(path,slots,text_limit=15,image_limit=1,max_calls=240,per_worker=16,prior_usage=None):
+def initialize(path,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=240,per_worker=16,prior_usage=None):
+ if type(text_limit)is not int or not 1<=text_limit<=MAX_FAMILIES or image_limit!=1:raise ValueError('Bounded text concurrency and single-flight images required')
  if not set(slots)<=set(SLOTS) or len(set(slots))!=len(slots):raise ValueError('Unknown or duplicate slot names')
  prior_usage={} if prior_usage is None else prior_usage
  if any(n not in SLOTS or type(v)is not int or v<0 for n,v in prior_usage.items()):raise ValueError('Invalid prior routing counters')
@@ -75,5 +77,7 @@ def record_routing(out,state):
  from .queue import atomic_json,utcnow
  rows={r['name']:int(r['used']) for r in state['slots']}
  prior=routing_counts(out)
- if any(rows.get(k,0)<v for k,v in prior.items()):raise ValueError('Key routing counters regressed')
+ if any(k in rows and rows[k]<v for k,v in prior.items()):raise ValueError('Key routing counters regressed')
+ # Ineligible/disabled old slots may be absent from this run, but their counts survive.
+ rows=dict(prior,**rows)
  atomic_json(Path(out)/'parallel/key-routing.json',{'updated_at':utcnow(),'slot_request_counts':rows,'secret_values_stored':False})

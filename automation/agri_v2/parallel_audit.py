@@ -1,10 +1,11 @@
-"""Up to 75 unique text checks, two in flight, no image/WordPress operation."""
+"""Up to 97 unique text checks, two in flight, no image/WordPress operation."""
 import concurrent.futures,json,os,time,urllib.request,urllib.error
 from .queue import DATA,OUT,atomic_json,load_json,utcnow
 from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE,classify,MAX_RESPONSE
 from .parallel_pool import SLOTS
 from .parallel_control import policy,reserve
-ID='parallel-75-key-audit-v1'
+from .parallel_capacity import KEY_LIMIT,AUDIT_ID
+ID=AUDIT_ID
 def post_once(endpoint,key,payload,timeout=70):
  req=urllib.request.Request(API_BASE+endpoint,data=json.dumps(payload).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json','User-Agent':'AFP-parallel-text-capability-audit'})
  try:
@@ -33,7 +34,7 @@ def run(env=None,data=DATA,out=OUT,post_fn=post_once,reserve_fn=reserve,workers=
   if not key:missing.append(slot)
   elif key in owners:aliases[slot]=owners[key]
   else:owners[key]=slot;unique.append((slot,key))
- report={'request_id':ID,'repository':p['repository'],'credential_set_id':p['credential_set_id'],'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'configured_slots':75-len(missing),'unique_credentials':len(unique),'duplicate_slots':aliases,'missing_slots':missing,'max_text_requests':75,'max_in_flight':min(2,max(1,workers)),'model_calls':0,'image_calls':0,'wordpress_calls':0,'published_posts':0,'cases':[],'status':'configuration_check'}
+ report={'request_id':ID,'repository':p['repository'],'credential_set_id':p['credential_set_id'],'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'configured_slots':KEY_LIMIT-len(missing),'unique_credentials':len(unique),'duplicate_slots':aliases,'missing_slots':missing,'max_text_requests':KEY_LIMIT,'max_in_flight':min(2,max(1,workers)),'model_calls':0,'image_calls':0,'wordpress_calls':0,'published_posts':0,'cases':[],'status':'configuration_check'}
  if missing or aliases:report.update(status='missing_or_duplicate_credentials',completed_at=utcnow());atomic_json(rp,report);return report
  if reserve_fn('audit',ID,env) is None:return {'status':'already_reserved','model_calls':0,'published_posts':0}
  report['status']='in_progress';atomic_json(rp,report)

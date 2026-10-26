@@ -10,11 +10,11 @@ from automation.agri_v2.healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
 class FamilyLifecycleTests(unittest.TestCase):
  def setup(self,td):
   root=Path(td);data=root/'data';out=root/'out';topic={'id':'agri-000000000001','title':'نگهداری لوبیا','crop':'لوبیا','intent':'storage','family_id':'family-01','origin':'NEW'}
-  atomic_json(data/'family-lifecycle-policy.json',{'version':1,'enabled':True,'publication_enabled':True,'max_families':15,'max_attempts_per_stage':3,'max_model_requests_per_family':12,'max_published_families':15,'preserve_legacy_budgets':True})
+  atomic_json(data/'family-lifecycle-policy.json',{'version':1,'enabled':True,'publication_enabled':True,'max_families':20,'max_attempts_per_stage':3,'max_model_requests_per_family':12,'max_published_families':20,'preserve_legacy_budgets':True})
   atomic_json(data/'config.json',{'publication_holds':{},'multilingual':{'enabled':False}})
-  atomic_json(data/'parallel-policy.json',{'repository':'kapitansaman/afp-pipe','credential_set_id':'afp-pipe-parallel-75-keys-v1','key_limit':75,'max_article_workers':15,'image_concurrency':1,'production_enabled':False,'max_published_posts':0})
+  atomic_json(data/'parallel-policy.json',{'repository':'kapitansaman/afp-pipe','credential_set_id':'afp-pipe-parallel-97-keys-v1','key_limit':97,'max_article_workers':20,'image_concurrency':1,'production_enabled':False,'max_published_posts':0})
   env={'GITHUB_ACTIONS':'true','GITHUB_REPOSITORY':'kapitansaman/afp-pipe','GITHUB_EVENT_NAME':'workflow_dispatch','GITHUB_RUN_ID':'100','AFP_PARALLEL_WORKER':'1','AFP_PARALLEL_TOPIC':topic['id']}
-  health={'audit_status':'completed','repository':'kapitansaman/afp-pipe','credential_set_id':'afp-pipe-parallel-75-keys-v1','checked_at':utcnow(),'eligible_text_slots':SLOTS,'eligible_image_slots':[],'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE}
+  health={'audit_status':'completed','repository':'kapitansaman/afp-pipe','credential_set_id':'afp-pipe-parallel-97-keys-v1','checked_at':utcnow(),'eligible_text_slots':SLOTS,'eligible_image_slots':[],'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE}
   atomic_json(out/'parallel/health/latest.json',health)
   return data,out,topic,env,health
  def test_invalid_stage_retries_next_run_only_preserving_failed_candidate(self):
@@ -76,9 +76,9 @@ class FamilyLifecycleTests(unittest.TestCase):
    d,o,t,e,h=self.setup(td);wp=Mock()
    with patch.object(f,'next_stage',return_value=('blocked','specialist_evidence_required')):r=f.publish_ready(wp,t,d,o)
    self.assertEqual(r['status'],'not_publication_ready');wp.publish.assert_not_called()
- def test_coordinator_15_workers_and_single_serial_publisher(self):
+ def test_coordinator_20_workers_and_single_serial_publisher(self):
   with tempfile.TemporaryDirectory() as td:
-   d,o,t,e,h=self.setup(td);topics=[dict(t,id='agri-'+format(i,'012x'),family_id='family-'+str(i+1).zfill(2)) for i in range(15)];barrier=threading.Barrier(15);wp=Mock();inventory={'source_generated_at':utcnow(),'scope':'all public posts','records':[{'id':1,'title':'Other','url':'https://navar-abyari.ir/other/','status':'publish'}]};wp.inventory.return_value=inventory
+   d,o,t,e,h=self.setup(td);topics=[dict(t,id='agri-'+format(i,'012x'),family_id='family-'+str(i+1).zfill(2)) for i in range(20)];barrier=threading.Barrier(20);wp=Mock();inventory={'source_generated_at':utcnow(),'scope':'all public posts','records':[{'id':1,'title':'Other','url':'https://navar-abyari.ir/other/','status':'publish'}]};wp.inventory.return_value=inventory
    def worker(topic,workspace,db,*args):
     with lease(db,'text',SLOTS,topic['id']):barrier.wait(timeout=10)
     wd=workspace/topic['id']/'data';wo=workspace/topic['id']/'out';return topic['id'],wd,wo,{'topic_id':topic['id'],'status':'publication_ready'}
@@ -86,7 +86,7 @@ class FamilyLifecycleTests(unittest.TestCase):
    def publish(wp,topic,*args):thread_ids.append(threading.get_ident());return {'published_posts':1,'public_verified':True}
    with patch.object(f,'allocate',return_value={}),patch.object(f,'assigned_topics',return_value=topics),patch('automation.agri_v2.recovery.circuit_open',return_value=False),patch.object(f,'next_stage',return_value=('publish',None)),patch.object(f,'publish_ready',side_effect=publish):
     r=f.run(e,d,o,worker_fn=worker,wp_factory=lambda:wp,reserve_fn=lambda *_:{})
-   self.assertEqual(r['pool']['peak_text_leases'],15);self.assertEqual(r['published_posts'],15);self.assertEqual(len(set(thread_ids)),1);self.assertEqual(len(r['results']),15)
+   self.assertEqual(r['pool']['peak_text_leases'],20);self.assertEqual(r['published_posts'],20);self.assertEqual(len(set(thread_ids)),1);self.assertEqual(len(r['results']),20)
  def test_replayed_action_does_not_call_workers_or_wordpress(self):
   with tempfile.TemporaryDirectory() as td:
    d,o,t,e,h=self.setup(td);worker=Mock();wp=Mock();r=f.run(e,d,o,worker_fn=worker,wp_factory=wp,reserve_fn=lambda *_:None);self.assertEqual(r['status'],'lifecycle_already_reserved');wp.assert_not_called();worker.assert_not_called()

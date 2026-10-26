@@ -1,4 +1,4 @@
-"""Coordinator for 15 isolated research workers and one output writer.
+"""Coordinator for 20 isolated research workers and one output writer.
 Legacy rollout modes remain research-only; advance runs gated resumable families.
 """
 import argparse,concurrent.futures,hashlib,json,os,shutil,subprocess,sys,tempfile,time
@@ -6,9 +6,11 @@ from pathlib import Path
 from .queue import DATA,OUT,ROOT,items,load_json,atomic_json,utcnow,age_hours,safe_id
 from .parallel_control import policy,reserve
 from .parallel_pool import initialize,snapshot,routing_counts,record_routing
+from .parallel_capacity import MAX_FAMILIES
+# Historical first-research ledger stays consumed; expansion does not replay it.
 ID='parallel-15-research-rollout-v1'
 
-def eligible_topics(inventory,data=DATA,out=OUT,limit=15):
+def eligible_topics(inventory,data=DATA,out=OUT,limit=MAX_FAMILIES):
  # Compatibility name: these are now ASSIGNED topics, not source-readiness-filtered topics.
  from .family_scheduler import allocate,assigned_topics
  state=allocate(data,out)
@@ -115,8 +117,8 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  # Validate read-only inventory using the existing complete-inventory contract.
  with tempfile.TemporaryDirectory() as t:
   ip=Path(t)/'inventory.json';atomic_json(ip,inventory);fresh_inventory(ip)
- topics,skipped=eligible_topics(inventory,data,out,15)
- report={'request_id':ID,'phase':mode,'status':'planned','run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'target_workers':15,'selected_topics':[{'id':t['id'],'title':t['title'],'family_id':t.get('family_id'),'work_stage':t.get('assigned_work_stage')} for t in topics],'selected_count':len(topics),'eligible_text_slots':len(h['eligible_text_slots']),'max_text_requests_per_worker':3,'skipped':skipped,'results':[],'published_posts':0,'wordpress_write_calls':0,'image_calls':0,'original_attempts_reset':False,'production_enabled':False}
+ topics,skipped=eligible_topics(inventory,data,out,MAX_FAMILIES)
+ report={'request_id':ID,'phase':mode,'status':'planned','run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'target_workers':MAX_FAMILIES,'selected_topics':[{'id':t['id'],'title':t['title'],'family_id':t.get('family_id'),'work_stage':t.get('assigned_work_stage')} for t in topics],'selected_count':len(topics),'eligible_text_slots':len(h['eligible_text_slots']),'max_text_requests_per_worker':3,'skipped':skipped,'results':[],'published_posts':0,'wordpress_write_calls':0,'image_calls':0,'original_attempts_reset':False,'production_enabled':False}
  dest=out/'parallel/research-runs'/ID;rp=dest/'report.json'
  if mode=='plan':atomic_json(out/'parallel/latest-plan.json',report);return report
  if not topics:report.update(status='no_source_ready_research_candidates',completed_at=utcnow());atomic_json(rp,report);return report
@@ -124,9 +126,9 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(rp,report)
  with tempfile.TemporaryDirectory(prefix='afp-parallel-') as td:
   workspace=Path(td);db=workspace/'pool.sqlite'
-  initialize(db,h['eligible_text_slots'],text_limit=min(15,len(h['eligible_text_slots'])),image_limit=1,max_calls=3*len(topics),per_worker=3,prior_usage=routing_counts(out))
+  initialize(db,h['eligible_text_slots'],text_limit=min(MAX_FAMILIES,len(h['eligible_text_slots'])),image_limit=1,max_calls=3*len(topics),per_worker=3,prior_usage=routing_counts(out))
   started=time.monotonic()
-  with concurrent.futures.ThreadPoolExecutor(max_workers=min(15,len(topics))) as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_FAMILIES,len(topics))) as executor:
    futures={executor.submit(worker_fn,t,workspace,db,h,inventory,data,out,env):t for t in topics}
    for future in concurrent.futures.as_completed(futures):
     topic=futures[future]

@@ -11,12 +11,12 @@ class FamilySchedulerTests(unittest.TestCase):
   atomic_json(d/'research-source-catalog.json',{'version':4,'entries':[]})
   topics=[{'id':'agri-'+format(i,'012x'),'title':'موضوع '+str(i),'crop':'لوبیا','intent':'yield' if i%2 else 'storage','origin':'REVIEW','overlap_review_required':bool(i%3==0),'related_existing_ids':[4] if i%3==0 else []} for i in range(n)]
   return d,o,topics
- def test_all_15_get_distinct_queue_topics_even_without_sources_or_specialist_readiness(self):
+ def test_all_20_get_distinct_queue_topics_even_without_sources_or_specialist_readiness(self):
   with tempfile.TemporaryDirectory() as t:
    d,o,topics=self.setup(Path(t))
    with patch.object(f,'items',return_value=topics):s=f.allocate(d,o)
-   self.assertEqual(s['assigned_count'],15);self.assertEqual(s['unique_topic_count'],15)
-   self.assertEqual([r['family_id'] for r in s['families']],list(f.FAMILIES));self.assertEqual([r['topic_id'] for r in s['families']],[x['id'] for x in topics[:15]])
+   self.assertEqual(s['assigned_count'],20);self.assertEqual(s['unique_topic_count'],20)
+   self.assertEqual([r['family_id'] for r in s['families']],list(f.FAMILIES));self.assertEqual([r['topic_id'] for r in s['families']],[x['id'] for x in topics[:20]])
    self.assertTrue(all(r['assignment_status']=='assigned' for r in s['families']));self.assertFalse(any(r['publication_authorized_by_assignment'] for r in s['families']))
  def test_repeat_and_catalog_changes_do_not_reshuffle_ownership(self):
   with tempfile.TemporaryDirectory() as t:
@@ -31,13 +31,13 @@ class FamilySchedulerTests(unittest.TestCase):
    d,o,topics=self.setup(Path(t));atomic_json(o/'new'/topics[0]['id']/'wordpress-receipt.json',{'public_verified':True})
    cfg=load_json(d/'config.json');cfg['publication_holds']={topics[1]['id']:'Preserve hold'};atomic_json(d/'config.json',cfg)
    with patch.object(f,'items',return_value=topics):s=f.allocate(d,o)
-   self.assertEqual(s['assigned_count'],15);self.assertEqual(s['families'][0]['topic_id'],topics[2]['id'])
+   self.assertEqual(s['assigned_count'],20);self.assertEqual(s['families'][0]['topic_id'],topics[2]['id'])
  def test_only_completed_family_moves_to_next_topic(self):
   with tempfile.TemporaryDirectory() as t:
    d,o,topics=self.setup(Path(t))
    with patch.object(f,'items',return_value=topics):
     a=f.allocate(d,o);atomic_json(o/'new'/topics[0]['id']/'wordpress-receipt.json',{'public_verified':True});b=f.allocate(d,o)
-   self.assertEqual(b['families'][0]['topic_id'],topics[15]['id']);self.assertEqual(a['families'][1:],b['families'][1:]);self.assertEqual(len(b['history']),1)
+   self.assertEqual(b['families'][0]['topic_id'],topics[20]['id']);self.assertEqual(a['families'][1:],b['families'][1:]);self.assertEqual(len(b['history']),1)
  def test_pending_required_translations_keep_ownership(self):
   with tempfile.TemporaryDirectory() as t:
    d,o,topics=self.setup(Path(t));cfg=load_json(d/'config.json');cfg['multilingual']['enabled']=True;atomic_json(d/'config.json',cfg)
@@ -61,12 +61,12 @@ class FamilySchedulerTests(unittest.TestCase):
    with patch.object(f,'items',return_value=topics),self.assertRaises(ValueError):f.allocate(d,o)
  def test_assign_mode_requires_no_health_audit_or_wordpress_access(self):
   with tempfile.TemporaryDirectory() as t:
-   d,o,topics=self.setup(Path(t));atomic_json(d/'parallel-policy.json',{'repository':'kapitansaman/afp-pipe','key_limit':75,'max_article_workers':15,'image_concurrency':1,'production_enabled':False,'max_published_posts':0})
+   d,o,topics=self.setup(Path(t));atomic_json(d/'parallel-policy.json',{'repository':'kapitansaman/afp-pipe','credential_set_id':'afp-pipe-parallel-97-keys-v1','key_limit':97,'max_article_workers':20,'image_concurrency':1,'production_enabled':False,'max_published_posts':0})
    env={'GITHUB_ACTIONS':'true','GITHUB_REPOSITORY':'kapitansaman/afp-pipe','GITHUB_EVENT_NAME':'workflow_dispatch','GITHUB_RUN_ID':'123'}
    with patch.object(f,'items',return_value=topics),patch('automation.agri_v2.wordpress.WordPress') as wp:r=controller.run('assign',env,d,o)
-   self.assertEqual(r['assigned_count'],15);self.assertEqual(r['model_calls'],0);wp.assert_not_called()
+   self.assertEqual(r['assigned_count'],20);self.assertEqual(r['model_calls'],0);wp.assert_not_called()
  def test_queue_shortage_is_reported_without_inventing_titles(self):
   with tempfile.TemporaryDirectory() as t:
    d,o,topics=self.setup(Path(t),3)
    with patch.object(f,'items',return_value=topics):s=f.allocate(d,o)
-   self.assertEqual(s['assigned_count'],3);self.assertEqual(s['target_families'],15)
+   self.assertEqual(s['assigned_count'],3);self.assertEqual(s['target_families'],20)

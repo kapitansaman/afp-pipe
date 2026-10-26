@@ -10,6 +10,8 @@ from .parallel_pool import initialize,snapshot,routing_counts,record_routing,Poo
 from .parallel_control import policy,reserve
 from .failure_diagnostics import failure_details
 
+from .parallel_capacity import MAX_FAMILIES
+
 class StageBlocked(ValueError):pass
 
 class LifecycleClient:
@@ -22,7 +24,7 @@ class LifecycleClient:
 
 def settings(data=DATA):
  p=load_json(data/'family-lifecycle-policy.json')
- if p.get('version')!=1 or p.get('max_families')!=15 or p.get('max_attempts_per_stage')!=3 or p.get('max_model_requests_per_family') not in (12,14) or p.get('max_published_families')!=15 or p.get('preserve_legacy_budgets') is not True or p.get('schedule_enabled',False) is not False:raise StageBlocked('invalid_lifecycle_policy')
+ if p.get('version')!=1 or p.get('max_families')!=MAX_FAMILIES or p.get('max_attempts_per_stage')!=3 or p.get('max_model_requests_per_family') not in (12,14) or p.get('max_published_families')!=MAX_FAMILIES or p.get('preserve_legacy_budgets') is not True or p.get('schedule_enabled',False) is not False:raise StageBlocked('invalid_lifecycle_policy')
  return p
 
 def row_path(folder,stage):return folder/'lifecycle'/stage/'state.json'
@@ -292,8 +294,8 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  env['AFP_FAMILY_LIFECYCLE']='1'
  with tempfile.TemporaryDirectory(prefix='afp-family-lifecycle-') as td:
   workspace=Path(td);db=workspace/'pool.sqlite';slots=list(dict.fromkeys(health.get('eligible_text_slots',[])+health.get('eligible_image_slots',[])))
-  initialize(db,slots,text_limit=15,image_limit=1,max_calls=p['max_model_requests_per_family']*len(topics),per_worker=p['max_model_requests_per_family'],prior_usage=routing_counts(out))
-  with concurrent.futures.ThreadPoolExecutor(max_workers=15) as ex:
+  initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=p['max_model_requests_per_family']*len(topics),per_worker=p['max_model_requests_per_family'],prior_usage=routing_counts(out))
+  with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_FAMILIES,max(1,len(topics)))) as ex:
    futures={ex.submit(worker_fn,t,workspace,db,health,inventory,data,out,env):t for t in topics}
    for future in concurrent.futures.as_completed(futures):
     topic=futures[future]

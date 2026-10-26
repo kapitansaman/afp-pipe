@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-26T07:06:54.529478+00:00",
+  "regression_tests": 498,
+  "test_result": "passed",
+  "configured_key_capacity": 97,
+  "live_97_credential_audit": "not_run",
+  "prior_health_not_relabelled": true,
+  "prior_assigned_families": 15,
+  "assigned_families": 20,
+  "unique_topics": 20,
+  "preserved_existing_owners": 15,
+  "new_family_ids": [
+    "family-16",
+    "family-17",
+    "family-18",
+    "family-19",
+    "family-20"
+  ],
+  "protected_progress_files_unchanged": 62,
+  "model_calls": 0,
+  "image_calls": 0,
+  "published_posts": 0,
+  "image_concurrency": 1,
+  "schedule_enabled": false,
+  "original_attempts_reset": false
+}

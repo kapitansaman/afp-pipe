@@ -137,13 +137,58 @@
       "assignment_status": "assigned",
       "work_stage": "scope_review_required",
       "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-16",
+      "topic_id": "agri-7dd8dae22417",
+      "title": "انتخاب رقم لوبیا قرمز برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "assigned_at": "2026-10-26T07:06:54.524835+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-17",
+      "topic_id": "agri-d52cdebf818e",
+      "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T07:06:54.524966+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "scope_review_required",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-18",
+      "topic_id": "agri-abd5d9f00442",
+      "title": "زمان مناسب برداشت لوبیا چیتی؛ نشانه‌های رسیدگی و معیار بازار",
+      "assigned_at": "2026-10-26T07:06:54.525083+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-19",
+      "topic_id": "agri-681d9e957593",
+      "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "assigned_at": "2026-10-26T07:06:54.525200+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false
+    },
+    {
+      "family_id": "family-20",
+      "topic_id": "agri-15439ad51313",
+      "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T07:06:54.525315+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false
     }
   ],
   "history": [],
   "publication_authorized_by_assignment": false,
-  "assigned_count": 15,
-  "target_families": 15,
-  "unique_topic_count": 15,
+  "assigned_count": 20,
+  "target_families": 20,
+  "unique_topic_count": 20,
   "model_calls": 0,
   "wordpress_write_calls": 0
 }

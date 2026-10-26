@@ -4,7 +4,8 @@ Exactly one distinct unfinished queue topic per family; assignments survive runs
 import contextlib,fcntl,hashlib,os,tempfile
 from pathlib import Path
 from .queue import DATA,OUT,items,load_json,atomic_json,safe_id,utcnow
-FAMILIES=tuple(f'family-{i:02d}' for i in range(1,16))
+from .parallel_capacity import MAX_FAMILIES
+FAMILIES=tuple(f'family-{i:02d}' for i in range(1,MAX_FAMILIES+1))
 
 def published(ident,out):
  p=out/'new'/ident/'wordpress-receipt.json'
@@ -78,7 +79,7 @@ def allocate(data=DATA,out=OUT):
    topic=by_id[row['topic_id']];safe_id(row['topic_id'])
    row=dict(row,title=topic['title'],work_stage=readiness(topic,data,out),publication_authorized_by_assignment=False)
    rows.append(row)
-  state=dict(state,families=rows,history=history,assigned_count=len(rows),target_families=15,unique_topic_count=len({r['topic_id'] for r in rows}),model_calls=0,wordpress_write_calls=0)
+  state=dict(state,families=rows,history=history,assigned_count=len(rows),target_families=MAX_FAMILIES,unique_topic_count=len({r['topic_id'] for r in rows}),model_calls=0,wordpress_write_calls=0)
   if not path.exists() or load_json(path)!=state:atomic_json(path,state)
   return state
 

@@ -36,7 +36,7 @@ class FamilyTrialTests(unittest.TestCase):
  def test_15_live_workers_not_a_readiness_noop_and_old_budgets_preserved(self):
   with tempfile.TemporaryDirectory() as td:
    root=Path(td);data=root/'data';out=root/'out'
-   policy={'repository':'kapitansaman/afp-pipe','credential_set_id':'afp-pipe-parallel-75-keys-v1','key_limit':75,'max_article_workers':15,'image_concurrency':1,'production_enabled':False,'max_published_posts':0}
+   policy={'repository':'kapitansaman/afp-pipe','credential_set_id':'afp-pipe-parallel-97-keys-v1','key_limit':97,'max_article_workers':20,'image_concurrency':1,'production_enabled':False,'max_published_posts':0}
    atomic_json(data/'parallel-policy.json',policy);atomic_json(data/'config.json',{'publication_holds':{}})
    h={'audit_status':'completed','repository':policy['repository'],'credential_set_id':policy['credential_set_id'],'checked_at':utcnow(),'eligible_text_slots':SLOTS};atomic_json(out/'parallel/health/latest.json',h)
    topics=[dict(self.topic(),id='agri-'+format(i,'012x'),family_id='family-'+str(i+1).zfill(2)) for i in range(15)]

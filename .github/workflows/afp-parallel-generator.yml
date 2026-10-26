@@ -1,4 +1,4 @@
-name: AFP parallel - 75-key pool and 15 resumable families
+name: AFP parallel - 97-key pool and 20 resumable families
 on:
   workflow_dispatch:
     inputs:
@@ -96,6 +96,28 @@ jobs:
       AGNES_API_KEY73: ${{ secrets.AGNES_API_KEY_73 }}
       AGNES_API_KEY74: ${{ secrets.AGNES_API_KEY_74 }}
       AGNES_API_KEY75: ${{ secrets.AGNES_API_KEY_75 }}
+      AGNES_API_KEY76: ${{ secrets.AGNES_API_KEY_76 }}
+      AGNES_API_KEY77: ${{ secrets.AGNES_API_KEY_77 }}
+      AGNES_API_KEY78: ${{ secrets.AGNES_API_KEY_78 }}
+      AGNES_API_KEY79: ${{ secrets.AGNES_API_KEY_79 }}
+      AGNES_API_KEY80: ${{ secrets.AGNES_API_KEY_80 }}
+      AGNES_API_KEY81: ${{ secrets.AGNES_API_KEY_81 }}
+      AGNES_API_KEY82: ${{ secrets.AGNES_API_KEY_82 }}
+      AGNES_API_KEY83: ${{ secrets.AGNES_API_KEY_83 }}
+      AGNES_API_KEY84: ${{ secrets.AGNES_API_KEY_84 }}
+      AGNES_API_KEY85: ${{ secrets.AGNES_API_KEY_85 }}
+      AGNES_API_KEY86: ${{ secrets.AGNES_API_KEY_86 }}
+      AGNES_API_KEY87: ${{ secrets.AGNES_API_KEY_87 }}
+      AGNES_API_KEY88: ${{ secrets.AGNES_API_KEY_88 }}
+      AGNES_API_KEY89: ${{ secrets.AGNES_API_KEY_89 }}
+      AGNES_API_KEY90: ${{ secrets.AGNES_API_KEY_90 }}
+      AGNES_API_KEY91: ${{ secrets.AGNES_API_KEY_91 }}
+      AGNES_API_KEY92: ${{ secrets.AGNES_API_KEY_92 }}
+      AGNES_API_KEY93: ${{ secrets.AGNES_API_KEY_93 }}
+      AGNES_API_KEY94: ${{ secrets.AGNES_API_KEY_94 }}
+      AGNES_API_KEY95: ${{ secrets.AGNES_API_KEY_95 }}
+      AGNES_API_KEY96: ${{ secrets.AGNES_API_KEY_96 }}
+      AGNES_API_KEY97: ${{ secrets.AGNES_API_KEY_97 }}
       AFP_WP_BASE_URL: ${{ secrets.AFP_WP_BASE_URL }}
       AFP_WP_USERNAME: ${{ secrets.AFP_WP_USERNAME }}
       AFP_WP_APP_PASSWORD: ${{ secrets.AFP_WP_APP_PASSWORD }}
@@ -108,7 +130,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install --disable-pip-version-check pillow "pypdf>=5,<7"
-      - name: Offline safety and 15-worker concurrency tests
+      - name: Offline safety and 20-worker concurrency tests
         run: python -m unittest discover -s tests/agri_v2 -v
       - name: Bounded coordinator; advance publishes only fully validated families
         env:
