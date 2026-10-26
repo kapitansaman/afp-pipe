@@ -1,12 +1,15 @@
 {
   "version": 1,
-  "request_id": "ops-97-pilot-editorial-v4",
-  "operation": "readiness-audit-image-pilot",
+  "request_id": "ops-full-queue-routes-research-v1",
+  "operation": "full-queue-research-only",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
-  "max_pilot_families": 1,
+  "max_pilot_families": 20,
   "enable_schedule": false,
   "reset_attempts": false,
-  "code_revision": "1f3a44d4ae42eb307d0eb2b20a9fe60793da2572"
+  "max_worker_text_calls": 80,
+  "max_worker_image_calls": 0,
+  "max_wordpress_mutations": 0,
+  "code_revision": "0c074cc5f44d5bdd7a5e9d1a4fc5743b6a0189e9"
 }
