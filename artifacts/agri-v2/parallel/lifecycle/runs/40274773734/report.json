@@ -1,0 +1,613 @@
+{
+  "run_id": "40274773734",
+  "status": "completed",
+  "assigned_count": 15,
+  "results": [
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-065fb7b0cc9e",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-01"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-68bb3f68138d",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-03"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-64fcb57a3e18",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-10"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-60e1ebaf13c8",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-06"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-6a04e31069c0",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-12"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-aa197412fb7f",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-07"
+    },
+    {
+      "status": "blocked",
+      "reason": "verified_existing_content_audit_required",
+      "topic_id": "agri-3aec9f066bb5",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-11"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-c0e160d88554",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-08"
+    },
+    {
+      "status": "blocked",
+      "reason": "verified_existing_content_audit_required",
+      "topic_id": "agri-aa89b98c2455",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-14"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-6aa44095f748",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-13"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-a55386876467",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-02"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-02e05cb179de",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-09"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-e4ad7582f1cd",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-15"
+    },
+    {
+      "status": "blocked",
+      "reason": "specialist_evidence_required",
+      "topic_id": "agri-621734b38aa9",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-05"
+    },
+    {
+      "status": "blocked",
+      "reason": "verified_existing_content_audit_required",
+      "topic_id": "agri-b35a06791dd5",
+      "steps": [],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "family_id": "family-04"
+    }
+  ],
+  "publication_results": [],
+  "published_posts": 0,
+  "max_stage_attempts": 3,
+  "original_attempts_reset": false,
+  "schedule_enabled": false,
+  "publication_authorized": true,
+  "source_and_translation_posts_counted": true,
+  "started_at": "2026-10-26T05:33:28.313898+00:00",
+  "pool": {
+    "model_requests_reserved": 0,
+    "cooldown_until_epoch": 0.0,
+    "slots": [
+      {
+        "name": "AGNES_API_KEY",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY2",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY3",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY4",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY5",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY6",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY7",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY8",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY9",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY10",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY11",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY12",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY13",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY14",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY15",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY16",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY17",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY18",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY19",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY20",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY21",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY22",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY23",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY24",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY25",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY26",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY27",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY28",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY29",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY30",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY31",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY32",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY33",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY34",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY35",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY36",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY37",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY38",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY39",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY40",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY41",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY42",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY43",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY44",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY45",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY46",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY47",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY48",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY49",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY50",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY51",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY52",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY53",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY54",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY55",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY56",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY57",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY58",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY59",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY60",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY61",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY62",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY63",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY64",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY65",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY66",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY67",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY68",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY69",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY70",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY71",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY72",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY73",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY74",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY75",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      }
+    ],
+    "secret_values_stored": false,
+    "peak_text_leases": 0,
+    "peak_image_leases": 0
+  },
+  "operational_failures": 0,
+  "waiting_families": 15,
+  "publication_ready_workers": 0,
+  "completed_at": "2026-10-26T05:34:04.411567+00:00"
+}
