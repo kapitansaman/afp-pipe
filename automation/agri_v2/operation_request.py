@@ -112,5 +112,8 @@ def pilot(env=None,data=DATA,out=OUT):
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--phase',choices=['prepare','pilot'],required=True);args=p.parse_args()
- result=prepare() if args.phase=='prepare' else pilot();print(json.dumps({'phase':args.phase,'status':result.get('status'),'run_id':os.environ.get('GITHUB_RUN_ID'),'published_posts':result.get('published_posts',0)},ensure_ascii=False));return 0 if result.get('status') in ('pilot_prerequisites_passed','completed') else 2
+ result=prepare() if args.phase=='prepare' else pilot()
+ failures=[{k:row[k] for k in ('topic_id','family_id','stage','status','failure') if k in row} for row in result.get('results',[]) if row.get('failure')]
+ print(json.dumps({'phase':args.phase,'status':result.get('status'),'run_id':os.environ.get('GITHUB_RUN_ID'),'published_posts':result.get('published_posts',0),'stage_failures':failures},ensure_ascii=False))
+ return 0 if result.get('status') in ('pilot_prerequisites_passed','completed') else 2
 if __name__=='__main__':raise SystemExit(main())
