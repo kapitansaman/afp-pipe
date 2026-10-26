@@ -1,5 +1,5 @@
 {
-  "run_id": "40287389050",
+  "run_id": "40287949471",
   "status": "completed_with_failures",
   "assigned_count": 1,
   "pilot_topic_only": true,
@@ -9,7 +9,7 @@
       "stage": "text",
       "failure": {
         "kind": "validation",
-        "category": "article_length_out_of_bounds"
+        "category": "unspecified"
       },
       "topic_id": "agri-621734b38aa9",
       "steps": [
@@ -18,7 +18,7 @@
           "stage": "text",
           "failure": {
             "kind": "validation",
-            "category": "article_length_out_of_bounds"
+            "category": "unspecified"
           }
         }
       ],
@@ -34,7 +34,7 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-26T07:42:53.912535+00:00",
+  "started_at": "2026-10-26T07:48:13.782222+00:00",
   "existing_content_fetch": {
     "families": 1,
     "families_with_bounded_full_scope": 1,
@@ -456,7 +456,7 @@
       },
       {
         "name": "AGNES_API_KEY70",
-        "used": 0,
+        "used": 1,
         "disabled": 0,
         "kind": null
       },
@@ -624,5 +624,5 @@
   "operational_failures": 1,
   "waiting_families": 0,
   "publication_ready_workers": 0,
-  "completed_at": "2026-10-26T07:43:49.070356+00:00"
+  "completed_at": "2026-10-26T07:49:15.035019+00:00"
 }

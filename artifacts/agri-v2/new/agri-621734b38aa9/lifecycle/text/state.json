@@ -1,5 +1,5 @@
 {
-  "attempts": 2,
+  "attempts": 3,
   "history": [
     {
       "attempts": 1,
@@ -22,14 +22,25 @@
         "kind": "validation",
         "category": "article_length_out_of_bounds"
       }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40287949471",
+      "started_at": "2026-10-26T07:48:46.845780+00:00",
+      "completed_at": "2026-10-26T07:49:14.913366+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40287389050",
-  "started_at": "2026-10-26T07:43:28.455946+00:00",
-  "completed_at": "2026-10-26T07:43:48.969913+00:00",
+  "last_run_id": "40287949471",
+  "started_at": "2026-10-26T07:48:46.845780+00:00",
+  "completed_at": "2026-10-26T07:49:14.913366+00:00",
   "failure": {
     "kind": "validation",
-    "category": "article_length_out_of_bounds"
+    "category": "unspecified"
   }
 }
