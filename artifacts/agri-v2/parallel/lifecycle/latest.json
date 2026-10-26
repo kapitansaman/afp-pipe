@@ -1,7 +1,7 @@
 {
   "matrix_pilot": true,
   "research_only": false,
-  "run_id": "40318477742",
+  "run_id": "40319208113",
   "status": "pilot_incomplete",
   "assigned_count": 1,
   "pilot_topic_only": false,
@@ -11,38 +11,16 @@
       "stage": "text",
       "failure": {
         "kind": "validation",
-        "category": "grounded_paragraph_length_or_duplicate"
+        "category": "grounded_section_count_invalid"
       },
       "topic_id": "agri-b6f7d6bea16b",
       "steps": [
-        {
-          "status": "stage_completed",
-          "stage": "existing_content_audit-004",
-          "result": {
-            "actual_existing_articles_reviewed": 3
-          }
-        },
-        {
-          "status": "stage_completed",
-          "stage": "existing_content_audit_finalize",
-          "result": {
-            "existing_articles_audited": 15
-          }
-        },
-        {
-          "status": "stage_completed",
-          "stage": "research_review",
-          "result": {
-            "scoped_brief_ready": true,
-            "human_review_claimed": false
-          }
-        },
         {
           "status": "stage_failed",
           "stage": "text",
           "failure": {
             "kind": "validation",
-            "category": "grounded_paragraph_length_or_duplicate"
+            "category": "grounded_section_count_invalid"
           }
         }
       ],
@@ -58,7 +36,7 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-26T11:54:55.603925+00:00",
+  "started_at": "2026-10-26T12:01:40.564768+00:00",
   "existing_content_fetch": {
     "families": 1,
     "families_with_bounded_full_scope": 1,
@@ -67,9 +45,9 @@
     "scope_limited_families": 0
   },
   "max_text_model_calls": null,
-  "max_total_model_calls": 18,
+  "max_total_model_calls": 15,
   "pool": {
-    "model_requests_reserved": 3,
+    "model_requests_reserved": 1,
     "cooldown_until_epoch": 0.0,
     "slots": [
       {
@@ -98,7 +76,7 @@
       },
       {
         "name": "AGNES_API_KEY5",
-        "used": 1,
+        "used": 2,
         "disabled": 0,
         "kind": null
       },
@@ -650,6 +628,6 @@
   "operational_failures": 1,
   "waiting_families": 0,
   "publication_ready_workers": 0,
-  "completed_at": "2026-10-26T11:56:27.639612+00:00",
+  "completed_at": "2026-10-26T12:03:03.545426+00:00",
   "matrix_pilot_complete": false
 }
