@@ -1,0 +1,1082 @@
+{
+  "request_id": "ops-commercial-matrix-carrot-review-v3",
+  "run_id": "40318477742",
+  "request_commit": "e4c87d42618fc71d527586355b1cd0cb41a30e09",
+  "code_revision": "7179ce1caabf6ce67cfc0283ec3e9abbac0807f3",
+  "started_at": "2026-10-26T11:54:47.725679+00:00",
+  "status": "pilot_prerequisites_passed",
+  "readiness_before": {
+    "status": "readiness_blocked",
+    "checked_at": "2026-10-26T11:54:45.900361+00:00",
+    "technical_ready": false,
+    "blockers": [
+      "scoped_rollout_released"
+    ],
+    "gates": {
+      "configured_capacity": {
+        "passed": true,
+        "detail": "97 credential slots and 20 isolated families; configuration only"
+      },
+      "fresh_text_capacity": {
+        "passed": true,
+        "detail": "Actual fresh proof bound to the 97-key cohort, with at least 20 eligible text credentials"
+      },
+      "fresh_image_capacity": {
+        "passed": true,
+        "detail": "Separate actual successful fresh bound image proof; text success is not image approval"
+      },
+      "authenticated_publisher": {
+        "passed": true,
+        "detail": "Current authenticated read-only preflight; credentials were not inspected locally"
+      },
+      "translation_bridge": {
+        "passed": true,
+        "detail": "Registered afp_language and afp_source_post_id fields are required for multilingual publication"
+      },
+      "scoped_rollout_released": {
+        "passed": false,
+        "detail": "General scoped families are still research-only until the live pilot is accepted"
+      },
+      "lifecycle_enabled": {
+        "passed": true,
+        "detail": "Lifecycle and single gated publisher must both be enabled"
+      },
+      "distinct_assigned_families": {
+        "passed": true,
+        "detail": "Exactly one distinct immutable queue topic per family"
+      },
+      "work_remaining_with_budget": {
+        "passed": true,
+        "detail": "Do not repeatedly launch only blocked or exhausted work"
+      }
+    },
+    "warnings": [
+      "Publisher account is administrator; a dedicated least-privilege Author account is recommended, not silently substituted.",
+      "Fresh text/image health expires after 24h. The fixed create-only audit ID does not implement unattended recurring health renewal.",
+      "Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.",
+      "A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.",
+      "Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency."
+    ],
+    "families": [
+      {
+        "family_id": "family-01",
+        "topic_id": "agri-b6ffe49a4638",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-02",
+        "topic_id": "agri-7736a471e8c1",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-03",
+        "topic_id": "agri-934dd1366a8b",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-04",
+        "topic_id": "agri-3ab6116ba6cf",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-05",
+        "topic_id": "agri-621734b38aa9",
+        "next_stage": "text",
+        "reason": null,
+        "attempts": 3,
+        "retry_exhausted": true
+      },
+      {
+        "family_id": "family-06",
+        "topic_id": "agri-ee13684b7f1a",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-07",
+        "topic_id": "agri-1f58a0e82783",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-08",
+        "topic_id": "agri-c0e160d88554",
+        "next_stage": "research_review",
+        "reason": null,
+        "attempts": 3,
+        "retry_exhausted": true
+      },
+      {
+        "family_id": "family-09",
+        "topic_id": "agri-e7dcf0bf2ffd",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-10",
+        "topic_id": "agri-a83aaf27045f",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-11",
+        "topic_id": "agri-3aec9f066bb5",
+        "next_stage": "existing_content_audit-004",
+        "reason": null,
+        "attempts": 1,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-12",
+        "topic_id": "agri-8c5efc7fc888",
+        "next_stage": "blocked",
+        "reason": "legacy_research_budget_exhausted",
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-13",
+        "topic_id": "agri-dd97e1add9df",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-14",
+        "topic_id": "agri-f5f2d5ed4de0",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-15",
+        "topic_id": "agri-2bffca9fad0a",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-16",
+        "topic_id": "agri-7dd8dae22417",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-17",
+        "topic_id": "agri-d52cdebf818e",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-18",
+        "topic_id": "agri-abd5d9f00442",
+        "next_stage": "existing_content_audit-000",
+        "reason": null,
+        "attempts": 1,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-19",
+        "topic_id": "agri-681d9e957593",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-20",
+        "topic_id": "agri-15439ad51313",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      }
+    ],
+    "research_backlog": {
+      "agri-065fb7b0cc9e": {
+        "topic_id": "agri-065fb7b0cc9e",
+        "title": "میزان برداشت لوبیا قرمز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.166908+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "50be35e6972fdfc069b7f5b37c60f98aac6ccb2f506ad7197bda398a0263541d",
+          "sources.json": "e54fc9ce3de7ed1a65c6255d77af11b740bea91cf42d57e0e3612bbb2f490352",
+          "candidate-raw.json": "cb7f2739391bed4d0915a1b7aa928387f9d3f816494617ea573d5b05158c221f",
+          "state.json": "996690d71ae822fb658f2efdd37224f20f86c6ae33a6d01306ec6884e35b5a29"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-01"
+      },
+      "agri-a55386876467": {
+        "topic_id": "agri-a55386876467",
+        "title": "میزان برداشت یونجه در هر چین؛ وزن تر، وزن خشک و فاصله چین‌ها",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.167721+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "0b362b444e5b1236d9f16a7d501fe4581fc2b7c5a800195cd250d6d1b7b3967d",
+          "sources.json": "c3fb4e041afa7d78fdb45205280cab5154516d7b484e07124a5fcf0d75d47072",
+          "candidate-raw.json": "0b2d81622e43362ba37d9e48c925e256492846d439d71b42d8b321636f1c2928",
+          "state.json": "0a13c4b5d3244d0642777c95d237a552b9347887877488bbb4d5e1d252ebe15a"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-02"
+      },
+      "agri-68bb3f68138d": {
+        "topic_id": "agri-68bb3f68138d",
+        "title": "میزان برداشت کدو حلوایی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.168414+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "109d7610a5ab07c320ef4138166ee209099331b457ef320d44db45fcf7e7ecd5",
+          "sources.json": "f5bfd147173bc00f9a500e6da3f02a097746e7f8fc884d749be11a716e12c6f1",
+          "candidate-raw.json": "a74b224f125e270308039aea5802b5c498185d5cfea11ac892ee94f92c60e17d",
+          "state.json": "3352386e5f1e1756614f0ebe2f829685aa3aa9019d6920ff16f20e30773b6296"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-03"
+      },
+      "agri-b35a06791dd5": {
+        "topic_id": "agri-b35a06791dd5",
+        "title": "زمان مناسب برداشت کدو آجیلی؛ نشانه‌های رسیدگی و معیار بازار",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.169176+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "8ba445d181b48d8fcde97ad0adc002bc866d723c90c311119b31596ee9f90486",
+          "sources.json": "2d546ef7c4cf3bb11a4f9532c38aeee68ed489e5e6c1df9c3cd04b28b8caf446",
+          "candidate-raw.json": "44b3c85a5bf29b75bf9a2f2f3250989ede84e8a3eec8f8571ea07d6ab99f3dbc",
+          "state.json": "57e81a2901af6284304322b6df13b8bd68513d7089fb13b49686fd9631c67467"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-04"
+      },
+      "agri-60e1ebaf13c8": {
+        "topic_id": "agri-60e1ebaf13c8",
+        "title": "میزان برداشت کدو سبز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.170245+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "539e64c55a5a32f106a3e8f476b8effc6a5538cc1a8d6ef785a5f6793105321a",
+          "sources.json": "69d8970feaac8b9851407c11b02c7891f91b807a232f00489d538533457a3b70",
+          "candidate-raw.json": "9442590c5ee42d75472065239fade3cecc8d0d5512227a03d1d4ad65d936e14a",
+          "state.json": "845304a2107894e03ff82173fa6e4794241674cc30951c9fdc0215f5e983f10c"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-06"
+      },
+      "agri-aa197412fb7f": {
+        "topic_id": "agri-aa197412fb7f",
+        "title": "فاصله کاشت و تراکم کدو آجیلی؛ محاسبه فاصله ردیف و بوته",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.171109+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "79118f615964b213b8b9a0e8195806659b26c7c085527c6a1258fbd1b16ce020",
+          "sources.json": "cce66e6b5128e886d7421552a1711a105fdb8887941bc5629f4cda8c1e122427",
+          "candidate-raw.json": "8c8c64f433e271ec979f5b298978e78c4b5147c5b54f930f2f638330b64e593f",
+          "state.json": "2be93a9bde105489d39722679dde95b6c24ee451c6b3f987b9bf1f71edda7900"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-07"
+      },
+      "agri-02e05cb179de": {
+        "topic_id": "agri-02e05cb179de",
+        "title": "انتخاب رقم نخود برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.172232+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "d0c647173a3954230ee9b9634f33620d78506f4a85a047e1a046da0a316c1233",
+          "sources.json": "a26e3664274b850b9a30c379af0dd72e7efdbc2000910f45f95ddaa66ad96577",
+          "candidate-raw.json": "9595faede44b72a1989e6014bfee45e36492cb165a41c78a7fa3a1a43b149b5a",
+          "state.json": "1d0499503bb0cb60d63be4881a79890fb9727c4d62c550891ebb66f0a65c20f9"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-09"
+      },
+      "agri-64fcb57a3e18": {
+        "topic_id": "agri-64fcb57a3e18",
+        "title": "میزان برداشت نخودفرنگی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.172954+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "fb3e23d2ed05561d56ae62fea50f5b79ffbe677b57b7bebaaaec6db8f4f51308",
+          "sources.json": "1bb910bc9cc288c15c72143b92d98df4fc41333d23c0ef6dcdcdca4349ca0e83",
+          "candidate-raw.json": "cff78eb69baa3f001749e885b0456abc3fe96d705e886eb978a722335049234e",
+          "state.json": "c7e514540ac19eb3e1cf29e9b4b53c81dd3a1347f8a8a91b10c4cc57ba5ab639"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-10"
+      },
+      "agri-6a04e31069c0": {
+        "topic_id": "agri-6a04e31069c0",
+        "title": "میزان برداشت ماشک در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.174421+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "80ca427fa9ee41a7171e6deb3dd70e427e99d324881b42c2a45c1e4727c4a313",
+          "sources.json": "514d4b2f75bfc433d432e7437fd212de2792221ecd7ac98719efa4726694bdd5",
+          "candidate-raw.json": "34ee109e85ac3781d5ab71a18eb5023b1b85ee1e448055d8de87f177ab55059e",
+          "state.json": "229e18833789ba3c1caefd2a7e34c4caf8819cc8beaad47bb2b04058b8171dba"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-12"
+      },
+      "agri-6aa44095f748": {
+        "topic_id": "agri-6aa44095f748",
+        "title": "انتخاب رقم هندوانه تخمی برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.175332+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "c540c08eb4d18b551e60d94aaf83ec3e87905d3909f2bd8e9d857e92543d30ed",
+          "sources.json": "1e9b2fc12b6bcbb0119da17e3f489c747fa5572c269969f10b1f78cb7f6fb646",
+          "candidate-raw.json": "7991979521e369b0e9034aa0c165720c3d3ee4532c6bf553ee35984d55ff5883",
+          "state.json": "76c5db1762ff4784103a351bcf3282be3b0835cc844eb1235180d94291eeb59d"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-13"
+      },
+      "agri-aa89b98c2455": {
+        "topic_id": "agri-aa89b98c2455",
+        "title": "زمان مناسب برداشت ماش؛ نشانه‌های رسیدگی و معیار بازار",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "two_independent_publications_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.176075+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "1783984dff957d58e44f2c49d13ee6340f8de5dac9960049dfbd3231bf759790",
+          "sources.json": "4517955ad997e6ee87068d41f8c5d900ef7b2433fa46417b8cf738736c896b20",
+          "candidate-raw.json": "03ec341be4ebd257a93d3a2e399a55c2aa9dad00b28bcabb0693bd0181761f63",
+          "state.json": "fda2a44292b04f7da5740c4572c5e4832c733d98e9fe5eca8d79ab3ec000f0c9"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-14"
+      },
+      "agri-e4ad7582f1cd": {
+        "topic_id": "agri-e4ad7582f1cd",
+        "title": "تعداد نشای گوجه‌فرنگی در هکتار؛ محاسبه نیاز خزانه و تلفات انتقال",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.176811+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "2afd8442a4be539cf8cee7e0107e6ccfdb91d4ba5e45f14cb66765ff70b53768",
+          "sources.json": "c026f820ea80d83d2b8ed869742fda36851d5846a18b54d38c855212a32e2473",
+          "candidate-raw.json": "fd6ec5d4c9e2e89728fe9ad17684322d69dae027b76a4c7d07386d55aed526dd",
+          "state.json": "d0ca6eee2fcfa5c2a2b8c2d5e1d0d96a866d82be44bd523583236c25916f3dfe"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-15"
+      }
+    },
+    "model_calls": 0,
+    "image_calls": 0,
+    "post_mutations": 0,
+    "authenticated_check_performed": true
+  },
+  "attempts_reset": false,
+  "schedule_activated": false,
+  "published_posts": 0,
+  "audit": {
+    "status": "not_requested_existing_proof_only",
+    "model_calls": 0
+  },
+  "readiness_after": {
+    "status": "readiness_blocked",
+    "checked_at": "2026-10-26T11:54:51.042770+00:00",
+    "technical_ready": false,
+    "blockers": [
+      "scoped_rollout_released"
+    ],
+    "gates": {
+      "configured_capacity": {
+        "passed": true,
+        "detail": "97 credential slots and 20 isolated families; configuration only"
+      },
+      "fresh_text_capacity": {
+        "passed": true,
+        "detail": "Actual fresh proof bound to the 97-key cohort, with at least 20 eligible text credentials"
+      },
+      "fresh_image_capacity": {
+        "passed": true,
+        "detail": "Separate actual successful fresh bound image proof; text success is not image approval"
+      },
+      "authenticated_publisher": {
+        "passed": true,
+        "detail": "Current authenticated read-only preflight; credentials were not inspected locally"
+      },
+      "translation_bridge": {
+        "passed": true,
+        "detail": "Registered afp_language and afp_source_post_id fields are required for multilingual publication"
+      },
+      "scoped_rollout_released": {
+        "passed": false,
+        "detail": "General scoped families are still research-only until the live pilot is accepted"
+      },
+      "lifecycle_enabled": {
+        "passed": true,
+        "detail": "Lifecycle and single gated publisher must both be enabled"
+      },
+      "distinct_assigned_families": {
+        "passed": true,
+        "detail": "Exactly one distinct immutable queue topic per family"
+      },
+      "work_remaining_with_budget": {
+        "passed": true,
+        "detail": "Do not repeatedly launch only blocked or exhausted work"
+      }
+    },
+    "warnings": [
+      "Publisher account is administrator; a dedicated least-privilege Author account is recommended, not silently substituted.",
+      "Fresh text/image health expires after 24h. The fixed create-only audit ID does not implement unattended recurring health renewal.",
+      "Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.",
+      "A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.",
+      "Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency."
+    ],
+    "families": [
+      {
+        "family_id": "family-01",
+        "topic_id": "agri-b6ffe49a4638",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-02",
+        "topic_id": "agri-7736a471e8c1",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-03",
+        "topic_id": "agri-934dd1366a8b",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-04",
+        "topic_id": "agri-3ab6116ba6cf",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-05",
+        "topic_id": "agri-621734b38aa9",
+        "next_stage": "text",
+        "reason": null,
+        "attempts": 3,
+        "retry_exhausted": true
+      },
+      {
+        "family_id": "family-06",
+        "topic_id": "agri-ee13684b7f1a",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-07",
+        "topic_id": "agri-1f58a0e82783",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-08",
+        "topic_id": "agri-c0e160d88554",
+        "next_stage": "research_review",
+        "reason": null,
+        "attempts": 3,
+        "retry_exhausted": true
+      },
+      {
+        "family_id": "family-09",
+        "topic_id": "agri-e7dcf0bf2ffd",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-10",
+        "topic_id": "agri-a83aaf27045f",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-11",
+        "topic_id": "agri-3aec9f066bb5",
+        "next_stage": "existing_content_audit-004",
+        "reason": null,
+        "attempts": 1,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-12",
+        "topic_id": "agri-8c5efc7fc888",
+        "next_stage": "blocked",
+        "reason": "legacy_research_budget_exhausted",
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-13",
+        "topic_id": "agri-dd97e1add9df",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-14",
+        "topic_id": "agri-f5f2d5ed4de0",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-15",
+        "topic_id": "agri-2bffca9fad0a",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-16",
+        "topic_id": "agri-7dd8dae22417",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-17",
+        "topic_id": "agri-d52cdebf818e",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-18",
+        "topic_id": "agri-abd5d9f00442",
+        "next_stage": "existing_content_audit-000",
+        "reason": null,
+        "attempts": 1,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-19",
+        "topic_id": "agri-681d9e957593",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      },
+      {
+        "family_id": "family-20",
+        "topic_id": "agri-15439ad51313",
+        "next_stage": "research_validate_saved",
+        "reason": null,
+        "attempts": 0,
+        "retry_exhausted": false
+      }
+    ],
+    "research_backlog": {
+      "agri-065fb7b0cc9e": {
+        "topic_id": "agri-065fb7b0cc9e",
+        "title": "میزان برداشت لوبیا قرمز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.166908+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "50be35e6972fdfc069b7f5b37c60f98aac6ccb2f506ad7197bda398a0263541d",
+          "sources.json": "e54fc9ce3de7ed1a65c6255d77af11b740bea91cf42d57e0e3612bbb2f490352",
+          "candidate-raw.json": "cb7f2739391bed4d0915a1b7aa928387f9d3f816494617ea573d5b05158c221f",
+          "state.json": "996690d71ae822fb658f2efdd37224f20f86c6ae33a6d01306ec6884e35b5a29"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-01"
+      },
+      "agri-a55386876467": {
+        "topic_id": "agri-a55386876467",
+        "title": "میزان برداشت یونجه در هر چین؛ وزن تر، وزن خشک و فاصله چین‌ها",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.167721+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "0b362b444e5b1236d9f16a7d501fe4581fc2b7c5a800195cd250d6d1b7b3967d",
+          "sources.json": "c3fb4e041afa7d78fdb45205280cab5154516d7b484e07124a5fcf0d75d47072",
+          "candidate-raw.json": "0b2d81622e43362ba37d9e48c925e256492846d439d71b42d8b321636f1c2928",
+          "state.json": "0a13c4b5d3244d0642777c95d237a552b9347887877488bbb4d5e1d252ebe15a"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-02"
+      },
+      "agri-68bb3f68138d": {
+        "topic_id": "agri-68bb3f68138d",
+        "title": "میزان برداشت کدو حلوایی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.168414+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "109d7610a5ab07c320ef4138166ee209099331b457ef320d44db45fcf7e7ecd5",
+          "sources.json": "f5bfd147173bc00f9a500e6da3f02a097746e7f8fc884d749be11a716e12c6f1",
+          "candidate-raw.json": "a74b224f125e270308039aea5802b5c498185d5cfea11ac892ee94f92c60e17d",
+          "state.json": "3352386e5f1e1756614f0ebe2f829685aa3aa9019d6920ff16f20e30773b6296"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-03"
+      },
+      "agri-b35a06791dd5": {
+        "topic_id": "agri-b35a06791dd5",
+        "title": "زمان مناسب برداشت کدو آجیلی؛ نشانه‌های رسیدگی و معیار بازار",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.169176+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "8ba445d181b48d8fcde97ad0adc002bc866d723c90c311119b31596ee9f90486",
+          "sources.json": "2d546ef7c4cf3bb11a4f9532c38aeee68ed489e5e6c1df9c3cd04b28b8caf446",
+          "candidate-raw.json": "44b3c85a5bf29b75bf9a2f2f3250989ede84e8a3eec8f8571ea07d6ab99f3dbc",
+          "state.json": "57e81a2901af6284304322b6df13b8bd68513d7089fb13b49686fd9631c67467"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-04"
+      },
+      "agri-60e1ebaf13c8": {
+        "topic_id": "agri-60e1ebaf13c8",
+        "title": "میزان برداشت کدو سبز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.170245+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "539e64c55a5a32f106a3e8f476b8effc6a5538cc1a8d6ef785a5f6793105321a",
+          "sources.json": "69d8970feaac8b9851407c11b02c7891f91b807a232f00489d538533457a3b70",
+          "candidate-raw.json": "9442590c5ee42d75472065239fade3cecc8d0d5512227a03d1d4ad65d936e14a",
+          "state.json": "845304a2107894e03ff82173fa6e4794241674cc30951c9fdc0215f5e983f10c"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-06"
+      },
+      "agri-aa197412fb7f": {
+        "topic_id": "agri-aa197412fb7f",
+        "title": "فاصله کاشت و تراکم کدو آجیلی؛ محاسبه فاصله ردیف و بوته",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.171109+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "79118f615964b213b8b9a0e8195806659b26c7c085527c6a1258fbd1b16ce020",
+          "sources.json": "cce66e6b5128e886d7421552a1711a105fdb8887941bc5629f4cda8c1e122427",
+          "candidate-raw.json": "8c8c64f433e271ec979f5b298978e78c4b5147c5b54f930f2f638330b64e593f",
+          "state.json": "2be93a9bde105489d39722679dde95b6c24ee451c6b3f987b9bf1f71edda7900"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-07"
+      },
+      "agri-02e05cb179de": {
+        "topic_id": "agri-02e05cb179de",
+        "title": "انتخاب رقم نخود برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.172232+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "d0c647173a3954230ee9b9634f33620d78506f4a85a047e1a046da0a316c1233",
+          "sources.json": "a26e3664274b850b9a30c379af0dd72e7efdbc2000910f45f95ddaa66ad96577",
+          "candidate-raw.json": "9595faede44b72a1989e6014bfee45e36492cb165a41c78a7fa3a1a43b149b5a",
+          "state.json": "1d0499503bb0cb60d63be4881a79890fb9727c4d62c550891ebb66f0a65c20f9"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-09"
+      },
+      "agri-64fcb57a3e18": {
+        "topic_id": "agri-64fcb57a3e18",
+        "title": "میزان برداشت نخودفرنگی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.172954+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "fb3e23d2ed05561d56ae62fea50f5b79ffbe677b57b7bebaaaec6db8f4f51308",
+          "sources.json": "1bb910bc9cc288c15c72143b92d98df4fc41333d23c0ef6dcdcdca4349ca0e83",
+          "candidate-raw.json": "cff78eb69baa3f001749e885b0456abc3fe96d705e886eb978a722335049234e",
+          "state.json": "c7e514540ac19eb3e1cf29e9b4b53c81dd3a1347f8a8a91b10c4cc57ba5ab639"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-10"
+      },
+      "agri-6a04e31069c0": {
+        "topic_id": "agri-6a04e31069c0",
+        "title": "میزان برداشت ماشک در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.174421+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "80ca427fa9ee41a7171e6deb3dd70e427e99d324881b42c2a45c1e4727c4a313",
+          "sources.json": "514d4b2f75bfc433d432e7437fd212de2792221ecd7ac98719efa4726694bdd5",
+          "candidate-raw.json": "34ee109e85ac3781d5ab71a18eb5023b1b85ee1e448055d8de87f177ab55059e",
+          "state.json": "229e18833789ba3c1caefd2a7e34c4caf8819cc8beaad47bb2b04058b8171dba"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-12"
+      },
+      "agri-6aa44095f748": {
+        "topic_id": "agri-6aa44095f748",
+        "title": "انتخاب رقم هندوانه تخمی برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "scoped_four_to_twelve_facts_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.175332+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "c540c08eb4d18b551e60d94aaf83ec3e87905d3909f2bd8e9d857e92543d30ed",
+          "sources.json": "1e9b2fc12b6bcbb0119da17e3f489c747fa5572c269969f10b1f78cb7f6fb646",
+          "candidate-raw.json": "7991979521e369b0e9034aa0c165720c3d3ee4532c6bf553ee35984d55ff5883",
+          "state.json": "76c5db1762ff4784103a351bcf3282be3b0835cc844eb1235180d94291eeb59d"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-13"
+      },
+      "agri-aa89b98c2455": {
+        "topic_id": "agri-aa89b98c2455",
+        "title": "زمان مناسب برداشت ماش؛ نشانه‌های رسیدگی و معیار بازار",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "two_independent_publications_required",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.176075+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "1783984dff957d58e44f2c49d13ee6340f8de5dac9960049dfbd3231bf759790",
+          "sources.json": "4517955ad997e6ee87068d41f8c5d900ef7b2433fa46417b8cf738736c896b20",
+          "candidate-raw.json": "03ec341be4ebd257a93d3a2e399a55c2aa9dad00b28bcabb0693bd0181761f63",
+          "state.json": "fda2a44292b04f7da5740c4572c5e4832c733d98e9fe5eca8d79ab3ec000f0c9"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-14"
+      },
+      "agri-e4ad7582f1cd": {
+        "topic_id": "agri-e4ad7582f1cd",
+        "title": "تعداد نشای گوجه‌فرنگی در هکتار؛ محاسبه نیاز خزانه و تلفات انتقال",
+        "status": "awaiting_research_repair",
+        "kind": "evidence_preparation_exhausted",
+        "stage": "research_validate_saved",
+        "reason": "saved_evidence_declares_insufficient_scope",
+        "attempts_preserved": 3,
+        "last_run_id": "40279858531",
+        "deferred_at": "2026-10-26T08:45:16.176811+00:00",
+        "evidence_fingerprints": {
+          "source-discovery-report.json": "2afd8442a4be539cf8cee7e0107e6ccfdb91d4ba5e45f14cb66765ff70b53768",
+          "sources.json": "c026f820ea80d83d2b8ed869742fda36851d5846a18b54d38c855212a32e2473",
+          "candidate-raw.json": "fd6ec5d4c9e2e89728fe9ad17684322d69dae027b76a4c7d07386d55aed526dd",
+          "state.json": "d0ca6eee2fcfa5c2a2b8c2d5e1d0d96a866d82be44bd523583236c25916f3dfe"
+        },
+        "publication_authorized": false,
+        "automatic_retry_authorized": false,
+        "return_requirements": [
+          "new_verified_relevant_evidence",
+          "explicit_valid_attempt_authorization",
+          "all_original_quality_and_overlap_gates"
+        ],
+        "prior_attempts_reset": false,
+        "previous_family_id": "family-15"
+      }
+    },
+    "model_calls": 0,
+    "image_calls": 0,
+    "post_mutations": 0,
+    "authenticated_check_performed": true
+  },
+  "completed_at": "2026-10-26T11:54:51.044593+00:00"
+}
