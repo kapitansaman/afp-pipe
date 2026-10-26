@@ -222,7 +222,9 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    if gen.get('status')=='validated':gen['status']='failed';atomic_json(row_path(folder,stage),gen)
   result=attempt(folder,stage,run_id,lambda:run_stage(topic,stage,client,data,out),outputs,p['max_attempts_per_stage']);steps.append(result)
   if result['status']!='stage_completed':return dict(result,topic_id=topic['id'],steps=steps,published_posts=0)
- return {'status':'stage_limit_reached','topic_id':topic['id'],'steps':steps,'published_posts':0}
+ # A last allowed stage may have completed the family. Recheck without a model call.
+ final_stage,final_reason=next_stage(topic,data,out)
+ return {'status':'publication_ready' if final_stage=='publish' else 'stage_limit_reached','stage':final_stage,'reason':final_reason,'topic_id':topic['id'],'steps':steps,'published_posts':0}
 
 def verified_posts(folder):
  result=set()
@@ -272,6 +274,11 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   from .white_bean_pilot import select_topics
   topics=select_topics(topics)
  dest=out/'parallel/lifecycle/runs'/run_id;rp=dest/'report.json'
+ fresh_start=all(not (out/'new'/t['id']/'article.json').exists() for t in topics)
+ observer=None
+ if (data/'adaptive-schedule-policy.json').exists() and env.get('AFP_WHITE_BEAN_PILOT')!='1':
+  from .adaptive_schedule import Observer
+  observer=Observer([t['id'] for t in topics],run_id,fresh_start,data,out)
  report={'run_id':run_id,'status':'started','assigned_count':len(topics),'pilot_topic_only':env.get('AFP_WHITE_BEAN_PILOT')=='1','results':[],'publication_results':[],'published_posts':0,'max_stage_attempts':3,'original_attempts_reset':False,'schedule_enabled':False,'publication_authorized':p.get('publication_enabled',False),'source_and_translation_posts_counted':True,'started_at':utcnow()};atomic_json(rp,report)
  health=load_json(out/'parallel/health/latest.json')
  from .parallel_client import ParallelModelClient
@@ -297,7 +304,13 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=p['max_model_requests_per_family']*len(topics),per_worker=p['max_model_requests_per_family'],prior_usage=routing_counts(out))
   with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_FAMILIES,max(1,len(topics)))) as ex:
    futures={ex.submit(worker_fn,t,workspace,db,health,inventory,data,out,env):t for t in topics}
-   for future in concurrent.futures.as_completed(futures):
+   def timing_tick():
+    if observer is not None:report['timing']=observer.observe(report['results'],[futures[f]['id'] for f in futures if not f.done()]);atomic_json(rp,report)
+   if observer is not None:
+    from .adaptive_schedule import completed
+    finished=completed(futures,timing_tick,observer.p['poll_seconds'])
+   else:finished=concurrent.futures.as_completed(futures)
+   for future in finished:
     topic=futures[future]
     try:
      ident,wd,wo,result=future.result()
@@ -305,7 +318,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
      from .parallel_controller import merge_worker
      merge_worker(ident,wd,wo,data,out)
     except Exception as e:result={'status':'worker_failed','topic_id':topic['id'],'failure':failure_details(e)}
-    report['results'].append(dict(result,family_id=topic['family_id']));atomic_json(rp,report)
+    report['results'].append(dict(result,family_id=topic['family_id']));timing_tick();atomic_json(rp,report)
   report['pool']=snapshot(db);record_routing(out,report['pool'])
   if report['pool']['cooldown_until_epoch']>time.time():atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text','retry_at_epoch':report['pool']['cooldown_until_epoch'],'at':utcnow(),'reason':'parallel_lifecycle_shared_provider_limit'})
  # Only this single coordinator can write WordPress; never publish on worker's word alone.
@@ -320,7 +333,9 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   report['publication_results'].append(dict(result,topic_id=topic['id']));report['published_posts']+=result.get('result',{}).get('published_posts',0);atomic_json(rp,report)
  allocate(data,out)
  failures=[x for x in report['results'] if x.get('status') in {'stage_failed','worker_failed'}]+[x for x in report['publication_results'] if x['status']=='stage_failed']
- report.update(status='completed_with_failures' if failures else 'completed',operational_failures=len(failures),waiting_families=sum(x.get('status') in {'blocked','capability_required','stage_deferred','stage_budget_exhausted'} for x in report['results']),publication_ready_workers=sum(x.get('status')=='publication_ready' for x in report['results']),completed_at=utcnow());atomic_json(rp,report);atomic_json(out/'parallel/lifecycle/latest.json',report);return report
+ report.update(status='completed_with_failures' if failures else 'completed',operational_failures=len(failures),waiting_families=sum(x.get('status') in {'blocked','capability_required','stage_deferred','stage_budget_exhausted'} for x in report['results']),publication_ready_workers=sum(x.get('status')=='publication_ready' for x in report['results']),completed_at=utcnow())
+ if observer is not None:report['timing']=observer.finish(report,[t['id'] for t in topics if family_complete(t['id'],data,out)])
+ atomic_json(rp,report);atomic_json(out/'parallel/lifecycle/latest.json',report);return report
 
 def run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=reserve):
  env=dict(os.environ if env is None else env)
@@ -329,4 +344,5 @@ def run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=res
   run_id=env.get('GITHUB_RUN_ID','')
   if not str(run_id).isdigit():raise
   rp=out/'parallel/lifecycle/runs'/str(run_id)/'report.json';report=load_json(rp) if rp.exists() else {'run_id':run_id,'results':[],'published_posts':0}
-  report.update(status='completed_with_failures',coordinator_failure=failure_details(e),completed_at=utcnow());atomic_json(rp,report);atomic_json(out/'parallel/lifecycle/latest.json',report);return report
+  report.update(status='completed_with_failures',coordinator_failure=failure_details(e),completed_at=utcnow())
+  atomic_json(rp,report);atomic_json(out/'parallel/lifecycle/latest.json',report);return report

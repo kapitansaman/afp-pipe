@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "enabled": false,
+  "sample_families": 20,
+  "initial_reference_seconds": 300,
+  "initial_reference_is_measured": false,
+  "min_interval_seconds": 300,
+  "max_interval_seconds": 14400,
+  "safety_factor": 1.15,
+  "tail_factor": 1.2,
+  "poll_seconds": 5,
+  "activation_requires": "fresh cohort-specific text and image health, authenticated publisher and translation schema, scoped rollout release, successful fresh full 20-family timing sample",
+  "automatic_health_renewal_implemented": false,
+  "heartbeat_is_not_generation_interval": true,
+  "overlap_policy": "same repository-wide concurrency group; never cancel an active production run"
+}

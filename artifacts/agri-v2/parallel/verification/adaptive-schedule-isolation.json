@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-26T07:25:12.609657+00:00",
+  "baseline_feature_commit": "49a75f6a5ddbbc4ceaf5a798adbf005340f14a82",
+  "tests": {
+    "command": "python -m unittest discover -s tests/agri_v2",
+    "passed": 517,
+    "failed": 0,
+    "kind": "offline_unit_and_integration_tests"
+  },
+  "actual_20_family_timing_sample": false,
+  "adaptive_schedule_activated": false,
+  "actions_dispatched": 0,
+  "live_model_calls": 0,
+  "live_image_calls": 0,
+  "wordpress_post_mutations": 0,
+  "families": 20,
+  "exhausted_stages": 12,
+  "blockers": [
+    "fresh_text_capacity",
+    "fresh_image_capacity",
+    "authenticated_publisher",
+    "translation_bridge",
+    "scoped_rollout_released"
+  ],
+  "legacy_attempts_reset": false
+}

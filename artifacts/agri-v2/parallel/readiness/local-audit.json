@@ -1,0 +1,256 @@
+{
+  "status": "readiness_blocked",
+  "checked_at": "2026-10-26T07:25:12.608243+00:00",
+  "technical_ready": false,
+  "blockers": [
+    "fresh_text_capacity",
+    "fresh_image_capacity",
+    "authenticated_publisher",
+    "translation_bridge",
+    "scoped_rollout_released"
+  ],
+  "gates": {
+    "configured_capacity": {
+      "passed": true,
+      "detail": "97 credential slots and 20 isolated families; configuration only"
+    },
+    "fresh_text_capacity": {
+      "passed": false,
+      "detail": "Actual fresh proof bound to the 97-key cohort, with at least 20 eligible text credentials"
+    },
+    "fresh_image_capacity": {
+      "passed": false,
+      "detail": "Separate actual successful fresh bound image proof; text success is not image approval"
+    },
+    "authenticated_publisher": {
+      "passed": false,
+      "detail": "Current authenticated read-only preflight; credentials were not inspected locally"
+    },
+    "translation_bridge": {
+      "passed": false,
+      "detail": "Registered afp_language and afp_source_post_id fields are required for multilingual publication"
+    },
+    "scoped_rollout_released": {
+      "passed": false,
+      "detail": "General scoped families are still research-only until the live pilot is accepted"
+    },
+    "lifecycle_enabled": {
+      "passed": true,
+      "detail": "Lifecycle and single gated publisher must both be enabled"
+    },
+    "distinct_assigned_families": {
+      "passed": true,
+      "detail": "Exactly one distinct immutable queue topic per family"
+    },
+    "work_remaining_with_budget": {
+      "passed": true,
+      "detail": "Do not repeatedly launch only blocked or exhausted work"
+    }
+  },
+  "warnings": [
+    "Fresh text/image health expires after 24h. The fixed create-only audit ID does not implement unattended recurring health renewal.",
+    "Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.",
+    "A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.",
+    "Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency."
+  ],
+  "families": [
+    {
+      "family_id": "family-01",
+      "topic_id": "agri-065fb7b0cc9e",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-02",
+      "topic_id": "agri-a55386876467",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-03",
+      "topic_id": "agri-68bb3f68138d",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-04",
+      "topic_id": "agri-b35a06791dd5",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-05",
+      "topic_id": "agri-621734b38aa9",
+      "next_stage": "research_review",
+      "reason": null,
+      "attempts": 1,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-06",
+      "topic_id": "agri-60e1ebaf13c8",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-07",
+      "topic_id": "agri-aa197412fb7f",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-c0e160d88554",
+      "next_stage": "research_review",
+      "reason": null,
+      "attempts": 2,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-09",
+      "topic_id": "agri-02e05cb179de",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-10",
+      "topic_id": "agri-64fcb57a3e18",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-11",
+      "topic_id": "agri-3aec9f066bb5",
+      "next_stage": "existing_content_audit-003",
+      "reason": null,
+      "attempts": 1,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-6a04e31069c0",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-13",
+      "topic_id": "agri-6aa44095f748",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-14",
+      "topic_id": "agri-aa89b98c2455",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-15",
+      "topic_id": "agri-e4ad7582f1cd",
+      "next_stage": "research_validate_saved",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-16",
+      "topic_id": "agri-7dd8dae22417",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required",
+      "attempts": 0,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-17",
+      "topic_id": "agri-d52cdebf818e",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required",
+      "attempts": 0,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-18",
+      "topic_id": "agri-abd5d9f00442",
+      "next_stage": "blocked",
+      "reason": "verified_existing_content_audit_required",
+      "attempts": 0,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-19",
+      "topic_id": "agri-681d9e957593",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required",
+      "attempts": 0,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-20",
+      "topic_id": "agri-15439ad51313",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required",
+      "attempts": 0,
+      "retry_exhausted": false
+    }
+  ],
+  "model_calls": 0,
+  "image_calls": 0,
+  "post_mutations": 0,
+  "authenticated_check_performed": false,
+  "public_observations": {
+    "checked_at": "2026-10-26T07:14:40.185122+00:00",
+    "live_checks": {
+      "github_runs": [
+        {
+          "id": 40279858531,
+          "status": "completed",
+          "conclusion": "failure",
+          "created_at": "2026-10-26T06:26:48Z",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40279858531"
+        },
+        {
+          "id": 40279244433,
+          "status": "completed",
+          "conclusion": "failure",
+          "created_at": "2026-10-26T06:20:29Z",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40279244433"
+        }
+      ],
+      "scheduled_workflow": {
+        "id": 396533755,
+        "name": "AFP agriculture - every 5 minutes bounded production",
+        "state": "disabled_manually",
+        "html_url": "https://github.com/kapitansaman/afp-pipe/blob/main/.github/workflows/afp-agri-v2-scheduled.yml",
+        "path": ".github/workflows/afp-agri-v2-scheduled.yml"
+      },
+      "wordpress_schema": {
+        "authentication": "anonymous_options_only",
+        "language_fields_exposed": true,
+        "schema_property_count": 32
+      }
+    },
+    "not_authenticated_publisher_proof": true
+  }
+}

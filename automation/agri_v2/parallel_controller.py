@@ -65,6 +65,10 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
   if env['AFP_PARALLEL_TRIAL_ID']!=trial_id:raise ValueError('Unknown trial identity')
   source=out/'parallel/trials'/trial_id/'inputs'/(ident+'.json')
   target=wo/'parallel/trials'/trial_id/'inputs'/(ident+'.json');target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,target)
+ from .healthcheck import TEXT_MODEL,IMAGE_MODEL
+ run_id=str(env.get('GITHUB_RUN_ID',''))
+ if not run_id.isdigit():raise ValueError('Verified run identity required for family context')
+ atomic_json(wo/'new'/ident/'family-context'/(run_id+'.json'),{'family_id':topic.get('family_id'),'topic_id':ident,'title':topic['title'],'title_sha256':hashlib.sha256(topic['title'].encode()).hexdigest(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'context_isolation':'one owned topic and output directory; other families outputs not supplied','scope':'planned requests, not model success or publication approval'})
  for name in ['provider-circuit.json']:
   if (out/name).exists():wo.mkdir(parents=True,exist_ok=True);shutil.copyfile(out/name,wo/name)
  env.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_TOPIC=ident,AFP_PARALLEL_FAMILY=topic.get('family_id','unassigned'),AFP_PARALLEL_POOL_DB=str(pool_db),AFP_AGRI_DATA_DIR=str(wd),AFP_AGRI_OUT_DIR=str(wo),AFP_PROGRESS_ENABLED='0')
@@ -81,6 +85,9 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
 
 def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,worker_fn=launch_worker):
  env=os.environ if env is None else env;p=policy(env,data)
+ if mode=='readiness':
+  from .production_readiness import run as check_readiness
+  return check_readiness(data,out)
  if mode in ('advance','white-bean-pilot'):
   from .family_lifecycle import run as advance
   env=dict(env);env.pop('AFP_WHITE_BEAN_PILOT',None)
@@ -146,6 +153,6 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(out/'parallel/latest.json',report);return report
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot'],default='plan');a=p.parse_args()
- result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures'} else 0
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness'],default='plan');a=p.parse_args()
+ result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures','readiness_blocked'} else 0
 if __name__=='__main__':raise SystemExit(main())

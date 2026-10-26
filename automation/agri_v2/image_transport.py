@@ -15,10 +15,10 @@ def shared_evidence():
   result.append(d)
  return result
 
-def shared_guard(slot):
- from .image_key_routing import choose
+def shared_guard(slot,env=None):
+ from .image_key_routing import choose,allowed_slots
  # Same classifier before and after the repository-wide lease.
- choose([(slot,'admission-placeholder')],0,shared_evidence(),time.time())
+ choose([(slot,'admission-placeholder')],0,shared_evidence(),time.time(),allowed_slots({} if env is None else env))
 
 class TokenClient(LeaseClient):
  def __init__(self,token):
@@ -28,8 +28,8 @@ class TokenClient(LeaseClient):
 def admission(slot,payload,env):
  if env.get('GITHUB_ACTIONS')!='true':yield;return
  token=env.get('BLOG_IMAGE_QUEUE_TOKEN') or env.get('GITHUB_TOKEN')
- shared_guard(slot)
+ shared_guard(slot,env)
  ident=hashlib.sha256(payload['prompt'].encode()).hexdigest()[:32]
  with Queue(client=TokenClient(token)).slot('agri-v2',ident):
-  shared_guard(slot)
+  shared_guard(slot,env)
   yield

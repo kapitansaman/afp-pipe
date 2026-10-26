@@ -9,7 +9,11 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
 def policy(env=None,data=DATA):
  env=os.environ if env is None else env;p=load_json(data/'parallel-policy.json')
  if p.get('repository')!=REPO or p.get('key_limit')!=KEY_LIMIT or p.get('max_article_workers')!=MAX_FAMILIES or p.get('credential_set_id')!=CREDENTIAL_SET_ID or p.get('image_concurrency')!=1 or p.get('production_enabled') is not False or p.get('max_published_posts')!=0:raise ValueError('Exact non-publication parallel rollout policy required')
- if env.get('GITHUB_ACTIONS')!='true' or env.get('GITHUB_REPOSITORY')!=REPO or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or not str(env.get('GITHUB_RUN_ID','')).isdigit():raise ValueError('Verified manual destination Actions run required')
+ event_ok=env.get('GITHUB_EVENT_NAME')=='workflow_dispatch'
+ if env.get('GITHUB_EVENT_NAME')=='schedule':
+  from .adaptive_schedule import admitted
+  event_ok=admitted(env,data,OUT)
+ if env.get('GITHUB_ACTIONS')!='true' or env.get('GITHUB_REPOSITORY')!=REPO or not event_ok or not str(env.get('GITHUB_RUN_ID','')).isdigit():raise ValueError('Verified manual or explicitly admitted adaptive Actions run required')
  return p
 
 def reserve(phase,request_id,env=None,put_fn=None):

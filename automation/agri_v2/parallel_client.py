@@ -39,5 +39,5 @@ class ParallelModelClient(ModelClient):
   # Worker-local evidence, merged once by coordinator; never mutate serial health.
   slot=getattr(self,'last_'+kind+'_slot',None)
   if slot not in SLOTS:return
-  row={'repository':'kapitansaman/afp-pipe','credential_set_id':self.image_rotation_binding,'kind':kind,'slot':slot,'model':model,'verified_at':utcnow(),'verification':'actual_successful_parallel_response'}
+  row={'repository':'kapitansaman/afp-pipe','credential_set_id':self.image_rotation_binding,'kind':kind,'slot':slot,'model':model,'verified_at':utcnow(),'verification':'actual_successful_parallel_response','family_id':self.env.get('AFP_PARALLEL_FAMILY'),'topic_id':self.env.get('AFP_PARALLEL_TOPIC')}
   atomic_json(OUT/'parallel-runtime'/kind/(slot+'.json'),row)
