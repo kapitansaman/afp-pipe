@@ -20,7 +20,7 @@ def inspect(data=DATA,out=OUT,wp=None):
   proof=out/'parallel/runtime/image'/(slot+'.json')
   if not proof.exists():continue
   row=load_json(proof)
-  try:image_proven|=(row.get('slot')==slot and row.get('repository')=='kapitansaman/afp-pipe' and row.get('credential_set_id')==CREDENTIAL_SET_ID and row.get('model')==IMAGE_MODEL and row.get('verification')=='actual_successful_parallel_response' and 0<=age_hours(row['verified_at'])<24)
+  try:image_proven|=(row.get('slot')==slot and row.get('repository')=='kapitansaman/afp-pipe' and row.get('credential_set_id')==CREDENTIAL_SET_ID and row.get('model')==IMAGE_MODEL and row.get('verification') in ('actual_successful_parallel_response','actual_successful_parallel_capability_probe') and 0<=age_hours(row['verified_at'])<24)
   except (KeyError,ValueError,TypeError):pass
  add('fresh_image_capacity',bound and image_proven,'Separate actual successful fresh bound image proof; text success is not image approval')
  auth_path=out/'parallel/readiness/authenticated-preflight.json';auth=load_json(auth_path) if auth_path.exists() else {}

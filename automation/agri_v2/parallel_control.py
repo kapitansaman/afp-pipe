@@ -10,18 +10,25 @@ def policy(env=None,data=DATA):
  env=os.environ if env is None else env;p=load_json(data/'parallel-policy.json')
  if p.get('repository')!=REPO or p.get('key_limit')!=KEY_LIMIT or p.get('max_article_workers')!=MAX_FAMILIES or p.get('credential_set_id')!=CREDENTIAL_SET_ID or p.get('image_concurrency')!=1 or p.get('production_enabled') is not False or p.get('max_published_posts')!=0:raise ValueError('Exact non-publication parallel rollout policy required')
  event_ok=env.get('GITHUB_EVENT_NAME')=='workflow_dispatch'
+ if env.get('GITHUB_EVENT_NAME')=='push':
+  from .operation_request import authorize
+  event_ok=authorize(env,data)
  if env.get('GITHUB_EVENT_NAME')=='schedule':
   from .adaptive_schedule import admitted
   event_ok=admitted(env,data,OUT)
- if env.get('GITHUB_ACTIONS')!='true' or env.get('GITHUB_REPOSITORY')!=REPO or not event_ok or not str(env.get('GITHUB_RUN_ID','')).isdigit():raise ValueError('Verified manual or explicitly admitted adaptive Actions run required')
+ if env.get('GITHUB_ACTIONS')!='true' or env.get('GITHUB_REPOSITORY')!=REPO or not event_ok or not str(env.get('GITHUB_RUN_ID','')).isdigit():raise ValueError('Verified manual, bounded owner operation or explicitly admitted adaptive Actions run required')
  return p
 
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
- if phase not in ('audit','research','trial','lifecycle'):raise ValueError('Non-publication phase required')
+ if phase not in ('audit','research','trial','lifecycle','operation'):raise ValueError('Non-publication phase required')
  if phase=='lifecycle':
   if request_id!='family-lifecycle-run-'+str(env.get('GITHUB_RUN_ID','')) or not str(env.get('GITHUB_RUN_ID','')).isdigit():raise ValueError('Current run-bound lifecycle reservation required')
   expected=request_id
+ elif phase=='operation':
+  from .operation_request import ID,authorize
+  if not authorize(env):raise ValueError('Bound owner operation required')
+  expected=ID
  else:expected={'audit':AUDIT_ID,'research':'parallel-15-research-rollout-v1','trial':'parallel-family-trial-v2'}[phase]
  if request_id!=expected:raise ValueError('Exact bounded first-rollout request required')
  row={'request_id':request_id,'phase':phase,'status':'reserved','run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'published_posts':0,'original_attempts_reset':False}
