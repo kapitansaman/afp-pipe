@@ -121,7 +121,7 @@ class ControlTests(unittest.TestCase):
     with lock:threads.add(threading.get_ident())
     barrier.wait(timeout=15);atomic_json(wo/'research'/f'{ident}.json',{'topic_id':ident,'attempts':1,'status':'needs_review'})
     return ident,wd,wo,{'status':'research_needs_review','topic_id':ident,'published_posts':0}
-   with patch('automation.agri_v2.recovery.circuit_open',return_value=False),patch.object(controller,'eligible_topics',return_value=(topics,{})):
+   with patch('automation.agri_v2.family_scheduler.allocate',return_value={'families':[]}),patch('automation.agri_v2.recovery.circuit_open',return_value=False),patch.object(controller,'eligible_topics',return_value=(topics,{})):
     r=controller.run('research',ENV,d,o,lambda *_:{},lambda:inventory,worker)
    self.assertEqual(len(threads),15);self.assertEqual(len(r['results']),15);self.assertEqual(len(list((o/'research').glob('*.json'))),15);self.assertEqual(r['published_posts'],0)
    self.assertEqual(load_json(d/'config.json')['publication_enabled'],False)
@@ -131,7 +131,7 @@ class ControlTests(unittest.TestCase):
    atomic_json(d/'briefs'/f'{ident}.json',{'old':True});atomic_json(wd/'briefs'/f'{ident}.json',{'new':True})
    with self.assertRaises(ValueError):controller.merge_worker(ident,wd,wo,d,o)
    self.assertEqual(load_json(d/'briefs'/f'{ident}.json'),{'old':True})
- def test_planner_preserves_holds_review_flags_and_exhausted_budgets(self):
+ def test_assignment_keeps_review_and_exhausted_topics_without_resetting_budgets(self):
   with tempfile.TemporaryDirectory() as t:
    d,o=config(Path(t));atomic_json(d/'research-source-catalog.json',{'version':4,'entries':[{'crops':['bean'],'intents':['storage']}]})
    topics=[{'id':'agri-'+format(i,'012x'),'title':'Title '+str(i),'crop':'bean','intent':'storage','priority':'P1'} for i in range(6)]
@@ -139,8 +139,8 @@ class ControlTests(unittest.TestCase):
    atomic_json(o/'research'/f"{topics[1]['id']}.json",{'attempts':2,'status':'needs_review','reason':'insufficient_fetchable_institutional_sources','source_catalog_version':3})
    atomic_json(o/'research'/f"{topics[2]['id']}.json",{'attempts':1,'status':'needs_review','reason':'source_scout_scope_requires_review'})
    topics[3].update(overlap_review_required=True,related_existing_ids=[1]);topics[4]['crop']='unknown'
-   with patch.object(controller,'items',return_value=topics):chosen,skipped=controller.eligible_topics({'records':[]},d,o)
-   self.assertEqual([x['id'] for x in chosen],[topics[5]['id']]);self.assertEqual(load_json(o/'research'/f"{topics[1]['id']}.json")['attempts'],2)
+   with patch('automation.agri_v2.family_scheduler.items',return_value=topics):chosen,skipped=controller.eligible_topics({'records':[]},d,o)
+   self.assertEqual([x['id'] for x in chosen],[x['id'] for x in topics[1:]]);self.assertEqual(load_json(o/'research'/f"{topics[1]['id']}.json")['attempts'],2)
  def test_workflow_maps_exactly_75_secrets_and_has_no_schedule_or_publish_input(self):
   root=Path(__file__).resolve().parents[2];s=(root/'.github/workflows/afp-parallel-generator.yml').read_text()
   self.assertEqual(s.count('secrets.AGNES_API_KEY_'),75);self.assertNotIn('schedule:',s);self.assertNotIn('secrets.AGNES_API_KEY_76',s);self.assertNotIn('options: [publish',s)

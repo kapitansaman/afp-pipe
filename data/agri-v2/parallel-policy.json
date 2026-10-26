@@ -14,5 +14,8 @@
   "rollout": "manual_audit_then_one_research_batch_no_publication",
   "preserve_prior_attempts_and_holds": true,
   "extra_secret_slots_76_77": "not_used_without_separate_authorization",
-  "next_gate": "source-ready briefs, separate real image capability proof, isolated draft/publisher tests and explicit production activation"
+  "next_gate": "source-ready briefs, separate real image capability proof, isolated draft/publisher tests and explicit production activation",
+  "topic_assignment": "one_distinct_remaining_queue_topic_per_family_before_readiness_checks",
+  "persistent_family_count": 15,
+  "source_readiness_filters_assignment": false
 }

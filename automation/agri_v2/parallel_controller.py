@@ -9,28 +9,10 @@ from .parallel_pool import initialize,snapshot
 ID='parallel-15-research-rollout-v1'
 
 def eligible_topics(inventory,data=DATA,out=OUT,limit=15):
- from .pipeline import norm
- from .research import QUALITATIVE
- cfg=load_json(data/'config.json');catalog=load_json(data/'research-source-catalog.json');held=cfg.get('publication_holds',{});selected=[];skipped={}
- titles={norm(r['title']) for r in inventory['records']}
- def skip(reason):skipped[reason]=skipped.get(reason,0)+1
- for t in sorted(items('new',data),key=lambda t:(t.get('priority','P9'),t.get('origin')!='NEW',t['id'])):
-  ident=t['id'];safe_id(ident)
-  if ident in held:skip('publication_hold');continue
-  if (data/'briefs'/f'{ident}.json').exists():skip('existing_brief');continue
-  if t.get('intent') not in QUALITATIVE:skip('specialist_scope');continue
-  if t.get('overlap_review_required') and t.get('related_existing_ids'):skip('existing_content_audit_required');continue
-  if norm(t['title']) in titles:skip('existing_live_title');continue
-  covered=any(t['crop'] in e['crops'] and t['intent'] in e['intents'] for e in catalog['entries'])
-  if not covered:skip('no_verified_discovery_seeds');continue
-  sp=out/'research'/f'{ident}.json';old=load_json(sp) if sp.exists() else {}
-  refreshed=old.get('reason')=='insufficient_fetchable_institutional_sources' and old.get('source_catalog_version',0)<catalog['version']
-  if old.get('attempts',0)>=2:skip('research_budget_exhausted');continue
-  if old.get('status') in ('needs_review','brief_ready') and not refreshed:skip('requires_review');continue
-  if old.get('attempted_at') and not refreshed and age_hours(old['attempted_at'])<6:skip('research_cooldown');continue
-  if len(selected)<limit:selected.append(t)
-  else:skip('beyond_batch_limit')
- return selected,skipped
+ # Compatibility name: these are now ASSIGNED topics, not source-readiness-filtered topics.
+ from .family_scheduler import allocate,assigned_topics
+ state=allocate(data,out)
+ return assigned_topics(state,data)[:limit],{}
 
 def merge_worker(ident,worker_data,worker_out,data=DATA,out=OUT):
  safe_id(ident)
@@ -51,15 +33,18 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
  env=dict(os.environ if env is None else env);ident=topic['id'];base=workspace/ident;wd=base/'data';wo=base/'out'
  shutil.copytree(data,wd)
  # A research worker cannot be blocked by another topic's historical ready-brief buffer.
+ kept_brief=(data/'briefs'/f'{ident}.json')
+ saved_brief=kept_brief.read_bytes() if kept_brief.exists() else None
  shutil.rmtree(wd/'briefs',ignore_errors=True);(wd/'briefs').mkdir()
+ if saved_brief is not None:(wd/'briefs'/f'{ident}.json').write_bytes(saved_brief)
  atomic_json(wd/'health/latest.json',health);atomic_json(wd/'parallel-inventory.json',inventory)
- for rel in ['research/'+ident+'.json','research-evidence/'+ident]:
+ for rel in ['research/'+ident+'.json','research-evidence/'+ident,'new/'+ident]:
   src=out/rel;dst=wo/rel
   if src.is_dir():shutil.copytree(src,dst,dirs_exist_ok=True)
   elif src.exists():dst.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(src,dst)
  for name in ['provider-circuit.json']:
   if (out/name).exists():wo.mkdir(parents=True,exist_ok=True);shutil.copyfile(out/name,wo/name)
- env.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_TOPIC=ident,AFP_PARALLEL_POOL_DB=str(pool_db),AFP_AGRI_DATA_DIR=str(wd),AFP_AGRI_OUT_DIR=str(wo),AFP_PROGRESS_ENABLED='0')
+ env.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_TOPIC=ident,AFP_PARALLEL_FAMILY=topic.get('family_id','unassigned'),AFP_PARALLEL_POOL_DB=str(pool_db),AFP_AGRI_DATA_DIR=str(wd),AFP_AGRI_OUT_DIR=str(wo),AFP_PROGRESS_ENABLED='0')
  # WordPress secrets are unavailable to article workers; read-only inventory is supplied once.
  for name in ('AFP_WP_BASE_URL','AFP_WP_USERNAME','AFP_WP_APP_PASSWORD'):env.pop(name,None)
  try:
@@ -70,6 +55,13 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
 
 def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,worker_fn=launch_worker):
  env=os.environ if env is None else env;p=policy(env,data)
+ if mode in ('assign','plan','research','bootstrap'):
+  from .family_scheduler import allocate
+  assignments=allocate(data,out)
+  if mode=='assign':
+   result=dict(assignments,status='families_assigned',run_id=env['GITHUB_RUN_ID'],published_posts=0,production_enabled=False)
+   atomic_json(out/'parallel/latest-assignment.json',result)
+   return result
  if mode in ('audit','bootstrap'):
   from .parallel_audit import run as audit
   checked=audit(env,data,out)
@@ -92,7 +84,7 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  with tempfile.TemporaryDirectory() as t:
   ip=Path(t)/'inventory.json';atomic_json(ip,inventory);fresh_inventory(ip)
  topics,skipped=eligible_topics(inventory,data,out,15)
- report={'request_id':ID,'phase':mode,'status':'planned','run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'target_workers':15,'selected_topics':[{'id':t['id'],'title':t['title']} for t in topics],'selected_count':len(topics),'eligible_text_slots':len(h['eligible_text_slots']),'max_text_requests_per_worker':3,'skipped':skipped,'results':[],'published_posts':0,'wordpress_write_calls':0,'image_calls':0,'original_attempts_reset':False,'production_enabled':False}
+ report={'request_id':ID,'phase':mode,'status':'planned','run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'target_workers':15,'selected_topics':[{'id':t['id'],'title':t['title'],'family_id':t.get('family_id'),'work_stage':t.get('assigned_work_stage')} for t in topics],'selected_count':len(topics),'eligible_text_slots':len(h['eligible_text_slots']),'max_text_requests_per_worker':3,'skipped':skipped,'results':[],'published_posts':0,'wordpress_write_calls':0,'image_calls':0,'original_attempts_reset':False,'production_enabled':False}
  dest=out/'parallel/research-runs'/ID;rp=dest/'report.json'
  if mode=='plan':atomic_json(out/'parallel/latest-plan.json',report);return report
  if not topics:report.update(status='no_source_ready_research_candidates',completed_at=utcnow());atomic_json(rp,report);return report
@@ -109,14 +101,17 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
     try:
      ident,wd,wo,result=future.result();merge_worker(ident,wd,wo,data,out)
     except Exception:result={'status':'worker_or_merge_failed','topic_id':topic['id'],'published_posts':0,'reason':'Inspect sanitized receipts; no automatic replay'}
+    result['family_id']=topic.get('family_id')
     report['results'].append(result);report.update(status='running',completed_workers=len(report['results']));atomic_json(rp,report)
   pool_state=snapshot(db)
   if pool_state['cooldown_until_epoch']>time.time():
    atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text','at':utcnow(),'retry_at_epoch':pool_state['cooldown_until_epoch'],'reason':'parallel_worker_shared_provider_limit','no_secrets':True})
   report.update(status='research_batch_completed',elapsed_seconds=round(time.monotonic()-started,2),pool=pool_state,completed_at=utcnow());atomic_json(rp,report)
+ from .family_scheduler import allocate
+ allocate(data,out)
  atomic_json(out/'parallel/latest.json',report);return report
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['plan','audit','research','bootstrap'],default='plan');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap'],default='plan');a=p.parse_args()
  result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete'} else 0
 if __name__=='__main__':raise SystemExit(main())

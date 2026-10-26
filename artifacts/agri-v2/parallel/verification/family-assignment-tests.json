@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-26T05:05:45.303150+00:00",
+  "regression_test_count": 410,
+  "assignment_specific_tests": 10,
+  "result": "passed",
+  "one_topic_per_family": true,
+  "source_readiness_filters_assignment": false,
+  "paid_model_calls_in_assignment_tests": 0,
+  "publication_enabled": false
+}
