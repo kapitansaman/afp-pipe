@@ -35,7 +35,9 @@ def readiness(topic,data=DATA,out=OUT):
   except (ValueError,KeyError,TypeError):return 'brief_needs_review'
  rp=out/'research'/f'{ident}.json';prior=load_json(rp) if rp.exists() else {}
  if prior.get('attempts',0)>=2:return 'research_budget_exhausted'
- if prior.get('status')=='needs_review':return 'research_needs_review'
+ if prior.get('status')=='needs_review':
+  route={'review_origin_needs_existing_content_audit':'existing_content_audit_required','quantitative_or_specialist_scope':'scope_review_required','insufficient_fetchable_institutional_sources':'source_discovery_required','source_scout_scope_requires_review':'scope_review_required'}
+  return route.get(prior.get('reason'),'research_needs_review')
  if topic.get('overlap_review_required') and topic.get('related_existing_ids'):return 'existing_content_audit_required'
  if topic.get('intent') not in QUALITATIVE:return 'scope_review_required'
  cp=data/'research-source-catalog.json';c=load_json(cp) if cp.exists() else {'entries':[]}

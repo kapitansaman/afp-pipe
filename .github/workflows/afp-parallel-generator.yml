@@ -5,7 +5,7 @@ on:
       mode:
         description: Bounded non-publication rollout phase
         type: choice
-        options: [assign, plan, audit, research, bootstrap]
+        options: [assign, plan, audit, research, bootstrap, trial]
         default: plan
 permissions:
   contents: write

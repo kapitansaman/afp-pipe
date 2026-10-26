@@ -5,7 +5,7 @@ import argparse,concurrent.futures,hashlib,json,os,shutil,subprocess,sys,tempfil
 from pathlib import Path
 from .queue import DATA,OUT,ROOT,items,load_json,atomic_json,utcnow,age_hours,safe_id
 from .parallel_control import policy,reserve
-from .parallel_pool import initialize,snapshot
+from .parallel_pool import initialize,snapshot,routing_counts,record_routing
 ID='parallel-15-research-rollout-v1'
 
 def eligible_topics(inventory,data=DATA,out=OUT,limit=15):
@@ -16,15 +16,13 @@ def eligible_topics(inventory,data=DATA,out=OUT,limit=15):
 
 def merge_worker(ident,worker_data,worker_out,data=DATA,out=OUT):
  safe_id(ident)
+ bp=worker_data/'briefs'/f'{ident}.json';dest_brief=data/'briefs'/bp.name
+ if bp.exists() and dest_brief.exists() and dest_brief.read_bytes()!=bp.read_bytes():raise ValueError('Existing brief changed; never overwrite')
  for rel in ['research/'+ident+'.json','research-evidence/'+ident,'new/'+ident]:
   source=worker_out/rel;dest=out/rel
   if source.is_dir():shutil.copytree(source,dest,dirs_exist_ok=True)
   elif source.exists():dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,dest)
- bp=worker_data/'briefs'/f'{ident}.json'
- if bp.exists():
-  dest=data/'briefs'/bp.name
-  if dest.exists() and dest.read_bytes()!=bp.read_bytes():raise ValueError('Existing brief changed; never overwrite')
-  dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(bp,dest)
+ if bp.exists():dest_brief.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(bp,dest_brief)
  for source in (worker_out/'parallel-runtime').rglob('*.json'):
   dest=out/'parallel/runtime'/source.relative_to(worker_out/'parallel-runtime');dest.parent.mkdir(parents=True,exist_ok=True)
   if not dest.exists() or age_hours(load_json(source)['verified_at'])<age_hours(load_json(dest)['verified_at']):shutil.copyfile(source,dest)
@@ -42,19 +40,30 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
   src=out/rel;dst=wo/rel
   if src.is_dir():shutil.copytree(src,dst,dirs_exist_ok=True)
   elif src.exists():dst.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(src,dst)
+ if env.get('AFP_PARALLEL_TRIAL_ID'):
+  from .family_trial import ID as trial_id
+  if env['AFP_PARALLEL_TRIAL_ID']!=trial_id:raise ValueError('Unknown trial identity')
+  source=out/'parallel/trials'/trial_id/'inputs'/(ident+'.json')
+  target=wo/'parallel/trials'/trial_id/'inputs'/(ident+'.json');target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,target)
  for name in ['provider-circuit.json']:
   if (out/name).exists():wo.mkdir(parents=True,exist_ok=True);shutil.copyfile(out/name,wo/name)
  env.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_TOPIC=ident,AFP_PARALLEL_FAMILY=topic.get('family_id','unassigned'),AFP_PARALLEL_POOL_DB=str(pool_db),AFP_AGRI_DATA_DIR=str(wd),AFP_AGRI_OUT_DIR=str(wo),AFP_PROGRESS_ENABLED='0')
  # WordPress secrets are unavailable to article workers; read-only inventory is supplied once.
  for name in ('AFP_WP_BASE_URL','AFP_WP_USERNAME','AFP_WP_APP_PASSWORD'):env.pop(name,None)
  try:
-  subprocess.run([sys.executable,'-m','automation.agri_v2.parallel_worker','--topic',ident],cwd=ROOT,env=env,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=900,check=False)
+  completed=subprocess.run([sys.executable,'-m','automation.agri_v2.parallel_worker','--topic',ident],cwd=ROOT,env=env,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=900,check=False)
   rp=wo/'worker-result.json';result=load_json(rp) if rp.exists() else {'status':'worker_missing_result','topic_id':ident,'published_posts':0}
+  if not isinstance(result,dict) or result.get('topic_id')!=ident:raise ValueError('Worker result identity mismatch')
+  result['worker_exit_code']=completed.returncode
+  if completed.returncode and result.get('status') not in ('worker_operational_failure','trial_operational_failure'):result.update(status='worker_operational_failure',failure={'kind':'unexpected','category':'worker_nonzero_exit'})
  except subprocess.TimeoutExpired:result={'status':'worker_timed_out','topic_id':ident,'published_posts':0}
  return ident,wd,wo,result
 
 def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,worker_fn=launch_worker):
  env=os.environ if env is None else env;p=policy(env,data)
+ if mode=='trial':
+  from .family_trial import run as trial
+  return trial(env,data,out)
  if mode in ('assign','plan','research','bootstrap'):
   from .family_scheduler import allocate
   assignments=allocate(data,out)
@@ -92,7 +101,7 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(rp,report)
  with tempfile.TemporaryDirectory(prefix='afp-parallel-') as td:
   workspace=Path(td);db=workspace/'pool.sqlite'
-  initialize(db,h['eligible_text_slots'],text_limit=min(15,len(h['eligible_text_slots'])),image_limit=1,max_calls=3*len(topics),per_worker=3)
+  initialize(db,h['eligible_text_slots'],text_limit=min(15,len(h['eligible_text_slots'])),image_limit=1,max_calls=3*len(topics),per_worker=3,prior_usage=routing_counts(out))
   started=time.monotonic()
   with concurrent.futures.ThreadPoolExecutor(max_workers=min(15,len(topics))) as executor:
    futures={executor.submit(worker_fn,t,workspace,db,h,inventory,data,out,env):t for t in topics}
@@ -103,7 +112,7 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
     except Exception:result={'status':'worker_or_merge_failed','topic_id':topic['id'],'published_posts':0,'reason':'Inspect sanitized receipts; no automatic replay'}
     result['family_id']=topic.get('family_id')
     report['results'].append(result);report.update(status='running',completed_workers=len(report['results']));atomic_json(rp,report)
-  pool_state=snapshot(db)
+  pool_state=snapshot(db);record_routing(out,pool_state)
   if pool_state['cooldown_until_epoch']>time.time():
    atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text','at':utcnow(),'retry_at_epoch':pool_state['cooldown_until_epoch'],'reason':'parallel_worker_shared_provider_limit','no_secrets':True})
   report.update(status='research_batch_completed',elapsed_seconds=round(time.monotonic()-started,2),pool=pool_state,completed_at=utcnow());atomic_json(rp,report)
@@ -112,6 +121,6 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(out/'parallel/latest.json',report);return report
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap'],default='plan');a=p.parse_args()
- result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete'} else 0
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial'],default='plan');a=p.parse_args()
+ result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed'} else 0
 if __name__=='__main__':raise SystemExit(main())

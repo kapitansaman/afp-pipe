@@ -4,6 +4,9 @@ from .queue import DATA,OUT,load_json,atomic_json,utcnow
 from .parallel_client import ParallelModelClient
 
 def run(ident):
+ if os.environ.get('AFP_PARALLEL_TRIAL_ID'):
+  from .family_trial import run_family
+  return run_family(ident)
  from .research import prepare_one
  inventory=load_json(DATA/'parallel-inventory.json')
  if os.environ.get('AFP_PARALLEL_WORKER')!='1' or os.environ.get('AFP_PARALLEL_TOPIC')!=ident:raise ValueError('Explicit isolated worker required')
@@ -21,8 +24,14 @@ def run(ident):
 def main():
  p=argparse.ArgumentParser();p.add_argument('--topic',required=True);a=p.parse_args()
  try:r=run(a.topic)
- except Exception:
-  # Never copy provider errors/credentials into logs or durable diagnostics.
-  r={'status':'worker_deferred_or_failed','topic_id':a.topic,'published_posts':0,'wordpress_write_calls':0,'reason':'Inspect sanitized stage receipts; no raw exception persisted'};atomic_json(OUT/'worker-result.json',r)
+ except Exception as e:
+  from .failure_diagnostics import failure_details
+  failure=failure_details(e)
+  from .family_trial import TrialValidation
+  if isinstance(e,TrialValidation):failure['category']=e.code
+  from .parallel_pool import PoolDeferred
+  if isinstance(e,PoolDeferred):failure={'kind':'shared_pool','category':'cooldown_or_budget_or_busy'}
+  r={'status':'worker_operational_failure','topic_id':a.topic,'family_id':os.environ.get('AFP_PARALLEL_FAMILY'),'published_posts':0,'wordpress_write_calls':0,'failure':failure};atomic_json(OUT/'worker-result.json',r)
+  print(json.dumps(r,ensure_ascii=False));return 2
  print(json.dumps(r,ensure_ascii=False));return 0
 if __name__=='__main__':raise SystemExit(main())
