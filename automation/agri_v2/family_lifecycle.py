@@ -287,7 +287,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  if p.get('enabled') is not True:return {'status':'lifecycle_disabled','published_posts':0}
  run_id=env['GITHUB_RUN_ID'];request_id='family-lifecycle-run-'+run_id
  if reserve_fn('lifecycle',request_id,env) is None:return {'status':'lifecycle_already_reserved','published_posts':0}
- from .matrix_pilot import bound as matrix_bound,select as matrix_select,MAX_CALLS as MATRIX_CALLS
+ from .matrix_pilot import bound as matrix_bound,select as matrix_select,budget as matrix_budget
  matrix_pilot=matrix_bound(env,data)
  if env.get('AFP_MATRIX_PILOT_ID') and not matrix_pilot:raise StageBlocked('current_bound_matrix_pilot_required')
  if matrix_pilot:topics=matrix_select(env,data,out)
@@ -325,7 +325,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  env['AFP_FAMILY_LIFECYCLE']='1'
  with tempfile.TemporaryDirectory(prefix='afp-family-lifecycle-') as td:
   workspace=Path(td);db=workspace/'pool.sqlite';slots=list(dict.fromkeys(health.get('eligible_text_slots',[])+health.get('eligible_image_slots',[])))
-  per_worker_limit=MATRIX_CALLS if matrix_pilot else 4 if research_only else p['max_model_requests_per_family']
+  per_worker_limit=matrix_budget(env,data,out) if matrix_pilot else 4 if research_only else p['max_model_requests_per_family']
   report['max_text_model_calls']=per_worker_limit*len(topics) if research_only else None
   report['max_total_model_calls']=per_worker_limit*len(topics)
   initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=per_worker_limit*len(topics),per_worker=per_worker_limit,prior_usage=routing_counts(out))

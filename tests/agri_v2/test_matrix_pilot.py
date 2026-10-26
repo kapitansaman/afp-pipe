@@ -44,3 +44,21 @@ class MatrixPilotTests(unittest.TestCase):
    def worker(topic,workspace,db,*args):return topic['id'],workspace/'data',workspace/'out',{'topic_id':topic['id'],'status':'stage_failed'}
    with patch.object(m,'bound',return_value=True),patch.object(m,'select',return_value=[t]),patch.object(f,'allocate',side_effect=AssertionError()),patch.object(f,'next_stage',return_value=('blocked','evidence')),patch.object(f,'family_complete',return_value=False):r=f.run(e,d,o,worker_fn=worker,wp_factory=lambda:wp,reserve_fn=lambda *_:{})
    self.assertEqual(r['status'],'pilot_incomplete');self.assertEqual(r['published_posts'],0)
+ def test_continuation_cannot_reset_or_expand_remaining_budget(self):
+  req=self.req();req.update(request_id=m.CONTINUATION_ID,operation='continue-commercial-matrix-family',max_worker_model_calls=23,prior_run_id=m.PRIOR_RUN);op.validate_request(req)
+  for key,value in [('max_worker_model_calls',24),('prior_run_id','another'),('max_image_generations',3),('reset_attempts',True)]:
+   bad=dict(req);bad[key]=value
+   with self.assertRaises(ValueError):op.validate_request(bad)
+ def test_remaining_budget_requires_exact_actual_zero_publication_receipt(self):
+  with tempfile.TemporaryDirectory() as td:
+   out=Path(td);row={'run_id':m.PRIOR_RUN,'status':'pilot_incomplete','matrix_pilot':True,'assigned_count':1,'published_posts':0,'pool':{'model_requests_reserved':1,'peak_image_leases':0},'results':[{'topic_id':m.TOPIC}]};p=out/'parallel/lifecycle/runs'/m.PRIOR_RUN/'report.json';atomic_json(p,row);e={'AFP_MATRIX_PILOT_ID':m.CONTINUATION_ID};self.assertEqual(m.budget(e,out=out),23)
+   row['pool']['model_requests_reserved']=2;atomic_json(p,row)
+   with self.assertRaises(ValueError):m.budget(e,out=out)
+ def test_literal_short_temperature_quote_valid_but_invented_or_unitless_is_not(self):
+  from automation.agri_v2.scoped_research import validate_fact
+  entry={'id':'e','source_url':'https://extension.usu.edu/carrots','quote':'Carrots can be sown after soils reach 40°F. Maintain a uniform and moist soil surface.'}
+  fact={'evidence_id':'e','kind':'source_observation','claim':'در منبع، دمای خاک برای کاشت هویج 40 درجه فارنهایت ذکر شده است.','conditions':'این مشاهده مربوط به راهنمای یوتا در آمریکاست و توصیهٔ محلی برای ایران یا تضمین سبزشدن نیست.','numeric_bindings':[{'value':'40','unit_quote':'40°F','geographic_scope':'Utah, USA','product_scope':'carrot seed establishment'}]}
+  validate_fact(fact,0,{'e':entry})
+  for badquote in ['40','41°F']:
+   bad=__import__('copy').deepcopy(fact);bad['numeric_bindings'][0]['unit_quote']=badquote
+   with self.assertRaises(ValueError):validate_fact(bad,0,{'e':entry})

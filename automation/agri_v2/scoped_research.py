@@ -71,7 +71,7 @@ def validate_fact(f,index,by_id):
   if not numeric:continue
   if not isinstance(b,dict) or not {'value','unit_quote','geographic_scope','product_scope'}<=set(b):raise EvidenceBlocked('numeric_binding_schema_invalid')
   if any(not isinstance(b[k],str) or not b[k].strip() for k in ('value','unit_quote','geographic_scope','product_scope')):raise EvidenceBlocked('numeric_binding_conditions_missing')
-  if len(b['unit_quote'])<8 or clean(b['unit_quote']) not in clean(entry['quote']) or not tokens(b['value']) or not tokens(b['value'])<=tokens(b['unit_quote']):raise EvidenceBlocked('numeric_units_not_in_literal_source')
+  if not b['unit_quote'].strip() or clean(b['unit_quote']) not in clean(entry['quote']) or not tokens(b['value']) or not tokens(b['value'])<=tokens(b['unit_quote']):raise EvidenceBlocked('numeric_units_not_in_literal_source')
   if not re.search(r'(?i)(?:acre|hectare|ha\b|ac\b|plant|seed|lb|pound|ton|kg|kilogram|gram|feet|foot|\bft\b|\bin\b|inch|degrees?|°|cm\b|mm\b|metre|meter|percent|days?|weeks?|hours?|months?|years?|\bd\b|%)',b['unit_quote']):raise EvidenceBlocked('literal_measurement_unit_required')
   if 'table_measurement' in b:
    from .white_bean_pilot import table_measurement
