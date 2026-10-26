@@ -196,6 +196,14 @@
       "completed_at": "2026-10-26T03:40:28.215235+00:00",
       "image_path": "model-matrix/afp-three-models-two-keys-reference-matrix-v1/reference-AGNES_API_KEY3-agnes-image-2.0-flash.webp",
       "image_sha256": "e9407b0844160df2ebcaefbe4eeefaa73f2be24c7d3e9a6853a2934d4da9837b"
+    },
+    {
+      "case_id": "reference-AGNES_API_KEY3-agnes-image-2.1-flash",
+      "model": "agnes-image-2.1-flash",
+      "slot": "AGNES_API_KEY3",
+      "mode": "reference",
+      "state": "reserved",
+      "started_at": "2026-10-26T03:40:29.546744+00:00"
     }
   ],
   "text_calls": 0,
@@ -204,7 +212,7 @@
   "post_submissions": 0,
   "production_enabled": false,
   "publication_visual_approval": false,
-  "updated_at": "2026-10-26T03:40:28.215660+00:00",
+  "updated_at": "2026-10-26T03:40:29.546765+00:00",
   "completed_cells": 10,
   "valid_images": 10,
   "healthy_cells": 10
