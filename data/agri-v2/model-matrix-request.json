@@ -1,0 +1,19 @@
+{
+  "request_id": "afp-three-models-two-keys-reference-matrix-v1",
+  "models": [
+    "agnes-image-2.0-flash",
+    "agnes-image-2.1-flash",
+    "agnes-image-2.5-flash"
+  ],
+  "slots": [
+    "AGNES_API_KEY2",
+    "AGNES_API_KEY3"
+  ],
+  "modes": [
+    "plain",
+    "reference"
+  ],
+  "max_image_calls": 12,
+  "max_calls_per_cell": 1,
+  "publication_authorized": false
+}

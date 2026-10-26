@@ -94,6 +94,10 @@ def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None,
  return report
 
 def main():
+ matrix_request=DATA/'model-matrix-request.json'
+ if matrix_request.exists():
+  from .model_matrix import REQUEST,main as matrix_main
+  if load_json(matrix_request)==REQUEST:return matrix_main()
  result=run(max_image_calls=int(os.environ.get('AFP_IMAGE_PROBE_BUDGET','1')));print(json.dumps({k:v for k,v in result.items() if k not in {'cases','duplicate_slots'}},ensure_ascii=False))
  # A successful audit is not synonymous with ready-for-production.
  return 0 if result.get('eligible_text_slots') and result.get('eligible_image_slots') else 2
