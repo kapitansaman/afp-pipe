@@ -82,6 +82,10 @@ def evidence_catalog(documents):
   for ci,start in enumerate(range(0,len(text),750)):
    quote=text[start:start+900]
    if len(quote)>=80:result.append({'id':f'd{di}-e{ci}','source_url':d['url'],'quote':quote})
+  # Extra IDs never change historical chunk IDs. All added quotes are literal.
+  if 80<=len(text)<=6000:result.append({'id':f'd{di}-full','source_url':d['url'],'quote':text})
+  from .white_bean_pilot import table_windows
+  for ti,quote in enumerate(table_windows(text)):result.append({'id':f'd{di}-t{ti}','source_url':d['url'],'quote':quote})
  return result
 
 def resolve_evidence(candidate,catalog):

@@ -196,10 +196,14 @@ def stage_outputs(folder,stage):
 def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClient):
  env=os.environ if env is None else env;p=settings(data);folder=out/'new'/topic['id'];run_id=env['GITHUB_RUN_ID'];steps=[]
  if env.get('AFP_PARALLEL_WORKER')!='1' or env.get('AFP_PARALLEL_TOPIC')!=topic['id']:raise StageBlocked('isolated_owned_topic_required')
+ pilot=env.get('AFP_WHITE_BEAN_PILOT')=='1'
+ if pilot:
+  from .white_bean_pilot import prepare
+  prepare(topic,data,out)
  for _ in range(16):
   stage,reason=next_stage(topic,data,out)
   if stage in ('blocked','complete','publish'):return {'status':'publication_ready' if stage=='publish' else stage,'reason':reason,'topic_id':topic['id'],'steps':steps,'published_posts':0}
-  if stage=='text' and p.get('research_only_for_scoped_rollout') and (data/'briefs'/(topic['id']+'.json')).exists() and load_json(data/'briefs'/(topic['id']+'.json')).get('review_mode')=='automated_scoped_evidence_review_v1':return {'status':'research_ready','topic_id':topic['id'],'steps':steps,'published_posts':0}
+  if stage=='text' and not pilot and p.get('research_only_for_scoped_rollout') and (data/'briefs'/(topic['id']+'.json')).exists() and load_json(data/'briefs'/(topic['id']+'.json')).get('review_mode')=='automated_scoped_evidence_review_v1':return {'status':'research_ready','topic_id':topic['id'],'steps':steps,'published_posts':0}
   kind='image' if stage.startswith('image-') else 'text'
   from .recovery import circuit_open
   if circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
@@ -261,8 +265,12 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  if p.get('enabled') is not True:return {'status':'lifecycle_disabled','published_posts':0}
  run_id=env['GITHUB_RUN_ID'];request_id='family-lifecycle-run-'+run_id
  if reserve_fn('lifecycle',request_id,env) is None:return {'status':'lifecycle_already_reserved','published_posts':0}
- assignments=allocate(data,out);topics=assigned_topics(assignments,data);dest=out/'parallel/lifecycle/runs'/run_id;rp=dest/'report.json'
- report={'run_id':run_id,'status':'started','assigned_count':len(topics),'results':[],'publication_results':[],'published_posts':0,'max_stage_attempts':3,'original_attempts_reset':False,'schedule_enabled':False,'publication_authorized':p.get('publication_enabled',False),'source_and_translation_posts_counted':True,'started_at':utcnow()};atomic_json(rp,report)
+ assignments=allocate(data,out);topics=assigned_topics(assignments,data)
+ if env.get('AFP_WHITE_BEAN_PILOT')=='1':
+  from .white_bean_pilot import select_topics
+  topics=select_topics(topics)
+ dest=out/'parallel/lifecycle/runs'/run_id;rp=dest/'report.json'
+ report={'run_id':run_id,'status':'started','assigned_count':len(topics),'pilot_topic_only':env.get('AFP_WHITE_BEAN_PILOT')=='1','results':[],'publication_results':[],'published_posts':0,'max_stage_attempts':3,'original_attempts_reset':False,'schedule_enabled':False,'publication_authorized':p.get('publication_enabled',False),'source_and_translation_posts_counted':True,'started_at':utcnow()};atomic_json(rp,report)
  health=load_json(out/'parallel/health/latest.json')
  from .parallel_client import ParallelModelClient
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE

@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-26T07:00:12.492368+00:00",
+  "topic_id": "agri-621734b38aa9",
+  "source_binding_check": "passed",
+  "human_review": false,
+  "independent_model_review": "not_run",
+  "approved_for_publication": false,
+  "original_observations": 4,
+  "deterministic_conversions": [
+    {
+      "parent_fact_id": "f0",
+      "binding_index": 0,
+      "source_value": "3633",
+      "target_value": "4072.052",
+      "target_unit": "kg/ha",
+      "policy": "exact_international_pound_and_acre_v1"
+    },
+    {
+      "parent_fact_id": "f1",
+      "binding_index": 0,
+      "source_value": "5057",
+      "target_value": "5668.144",
+      "target_unit": "kg/ha",
+      "policy": "exact_international_pound_and_acre_v1"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "sha256": "850c33396f0baa87beeb2468e4d1ce129ae0b074332bdd27e2d1b339641a7afa",
+      "fetched_at": "2026-10-26T07:00:12.437844+00:00"
+    },
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "sha256": "6b7f8b33ed2da4aef684c683372a07b0da5b86d7462cae351b913ffccf9728d6",
+      "fetched_at": "2026-10-26T07:00:11.887009+00:00"
+    }
+  ],
+  "regression_tests": 490,
+  "test_result": "passed",
+  "model_calls": 0,
+  "image_calls": 0,
+  "published_posts": 0,
+  "live_action_dispatched": false,
+  "original_attempts_reset": false
+}
