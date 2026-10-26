@@ -5,7 +5,7 @@
   "started_at": "2026-10-26T03:27:41.755749+00:00",
   "status": "in_progress",
   "max_image_calls": 12,
-  "image_calls": 1,
+  "image_calls": 2,
   "cases": [
     {
       "case_id": "plain-AGNES_API_KEY2-agnes-image-2.0-flash",
@@ -31,8 +31,19 @@
       "model": "agnes-image-2.1-flash",
       "slot": "AGNES_API_KEY2",
       "mode": "plain",
-      "state": "reserved",
-      "started_at": "2026-10-26T03:30:10.464949+00:00"
+      "state": "healthy",
+      "started_at": "2026-10-26T03:30:10.464949+00:00",
+      "http_status": 200,
+      "latency_ms": 10977,
+      "response_model": null,
+      "width": 1312,
+      "height": 736,
+      "native_landscape_16_9": true,
+      "valid_image": true,
+      "publication_visual_approval": false,
+      "completed_at": "2026-10-26T03:31:17.020217+00:00",
+      "image_path": "model-matrix/afp-three-models-two-keys-reference-matrix-v1/plain-AGNES_API_KEY2-agnes-image-2.1-flash.webp",
+      "image_sha256": "71da9fb0c26f0846c42e182f38eb9850ac36a4ad490028935e80125df2739938"
     }
   ],
   "text_calls": 0,
@@ -41,8 +52,8 @@
   "post_submissions": 0,
   "production_enabled": false,
   "publication_visual_approval": false,
-  "updated_at": "2026-10-26T03:30:10.464972+00:00",
-  "completed_cells": 1,
-  "valid_images": 1,
-  "healthy_cells": 1
+  "updated_at": "2026-10-26T03:31:17.020631+00:00",
+  "completed_cells": 2,
+  "valid_images": 2,
+  "healthy_cells": 2
 }
