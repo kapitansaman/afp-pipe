@@ -17,3 +17,16 @@ class GroundedDraftingTests(unittest.TestCase):
  def test_html_in_model_prose_is_not_a_link_bypass(self):
   t,b,v=self.setup();v['sections'][0]['paragraphs'][0]['text']='<a href="https://evil.example">bad</a>'
   with self.assertRaises(ValueError):g.render(v,t,b)
+ def test_unrelated_cjk_rejected_without_banning_grounded_english_units(self):
+  t,b,v=self.setup();v['sections'][0]['paragraphs'][0]['text']+=' 在经过'
+  with self.assertRaisesRegex(ValueError,'CJK'):g.render(v,t,b)
+  t,b,v=self.setup();v['sections'][0]['paragraphs'][0]['text']+=' 40°F carrot';g.render(v,t,b)
+ def test_retry_feedback_preserves_raw_and_never_reuses_rejected_prose(self):
+  import tempfile
+  from pathlib import Path
+  from unittest.mock import Mock
+  from automation.agri_v2.queue import atomic_json,load_json
+  t,b,v=self.setup();old=copy.deepcopy(v);old['sections'][0]['paragraphs'][0]['text']='واژه '*49+'在经过'
+  with tempfile.TemporaryDirectory() as td:
+   folder=Path(td);p=folder/'lifecycle/text/rejected/1/grounded-text-candidate.json';atomic_json(p,old);original=p.read_bytes();c=Mock();c.text.return_value=v
+   g.generate(c,t,b,folder);req=json.loads(c.text.call_args.args[0]);issues=req['prior_rejection_diagnostics'];self.assertTrue(any(x['issue']=='unrelated_CJK_script' for x in issues));self.assertEqual(p.read_bytes(),original);self.assertEqual(load_json(folder/'grounded-text-candidate.json'),v)

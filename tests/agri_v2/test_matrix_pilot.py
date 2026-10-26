@@ -76,3 +76,8 @@ class MatrixPilotTests(unittest.TestCase):
    for key,value in [('published_posts',1),('assigned_count',2),('pool',{'model_requests_reserved':6,'peak_image_leases':0})]:
     bad=dict(second);bad[key]=value;atomic_json(p,bad)
     with self.assertRaises(ValueError):m.budget(e,out=out)
+ def test_text_retry_cannot_expand_budget_or_reset_accepted_research(self):
+  req=self.req();req.update(request_id=m.TEXT_ID,operation='retry-commercial-matrix-text',max_worker_model_calls=15,prior_run_id=m.TEXT_PRIOR_RUN);op.validate_request(req)
+  for key,value in [('max_worker_model_calls',16),('prior_run_id',m.PRIOR_RUN),('enable_schedule',True),('reset_attempts',True)]:
+   bad=dict(req);bad[key]=value
+   with self.assertRaises(ValueError):op.validate_request(bad)
