@@ -1,34 +1,58 @@
 {
-  "all_claims_supported": false,
+  "decision": "pass",
+  "all_claims_supported": true,
   "crop_species_and_product_match": true,
   "answers_exact_intent": true,
-  "units_and_denominators_correct": false,
-  "geography_and_transfer_limits_retained": false,
-  "no_iranian_prescription_inferred": false,
-  "independent_sources": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "تمام داده‌ها از دو منبع آمریکایی (آیووا/نبراسکا/دکوتا شمالی) هستند و هیچ‌کدام شرایط ایران را پوشش نمی‌دهند. عنوان مقاله «در هکتار» اما داده‌های عددی به bu/acre (آیووا) و lbs/acre (نبراسکا) ارائه شده‌اند؛ تبدیل bu به کیلوگرم یا هکتار در متن انجام نشده و خواننده ممکن‌ است دامنه ۲۰–۳۰ bu/acre را به‌ اشتباه به هکتار تعمیم دهد. گزارش NDSU (A1806) فقط کاشت زودهنگام و تاخیر را می‌سنجد و هیچ مقدار پایه عملکرد مطلق برای ایران ندارد. داده‌های Nebraska EC3064 فقط دو محل غرب نبراسکا (Scottsbluff و Mitchell) را شامل می‌شوند و تفاوت عملکرد بین این دو محل نشان‌دهنده حساسیت منطقه‌ای است، نه ضامن عملکرد در اقلیم ایران. هرگونه استنتاج «عملکرد مورد انتظار ایران» از این ارقام بدون اعتبارسنجی بومی نادرست و خطرناک است. سه نشانی وب ذکرشده (extension.iastate.edu, extensionpubs.unl.edu, miv.ext.nodak.edu) بازتاب یکسان publications دانشگاهی آمریکایی هستند؛ هیچ منبع مستقل ایرانی یا متن ترویجی بومی موجود نیست.",
+  "limitations": "این داده‌ها صرفاً مشاهدات آزمایشگاهی ایالات متحده (نبراسکا، ۲۰۲۲) برای رقم White Pearl کلاس Great Northern هستند؛ هیچ قیاس مستقیمی با شرایط ایران برقرار نشده و مبادلهٔ اقلیمی، خاکی و مدیریتی نادیده مانده است.",
   "fact_checks": [
     {
       "fact_id": "f0",
       "supported": true,
-      "scope_and_units_correct": true
+      "scope_and_units_correct": true,
+      "reason": "عدد ۳۶۳۳ و واحد lb/acre و پایه رطوبت ۱۴٪ دقیقاً در جدول ۱ سند UNL (صفحه ۳) برای ردیف White Pearl ثبت شده است و محدوده جغرافیایی Scottsbluff، نبراسکا نیز صحیح است.",
+      "evidence_quote": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633 47 83 17.1 59.2 10.6 34.1 2b 4.3 2"
     },
     {
       "fact_id": "f1",
       "supported": true,
-      "scope_and_units_correct": true
+      "scope_and_units_correct": true,
+      "reason": "عدد ۵۰۵۷ و واحد lb/acre و پایه رطوبت ۱۴٪ دقیقاً در جدول ۲ سند UNL (صفحه ۴) برای ردیف White Pearl ثبت شده است.",
+      "evidence_quote": "Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8"
     },
     {
       "fact_id": "f2",
       "supported": true,
-      "scope_and_units_correct": false
+      "scope_and_units_correct": true,
+      "reason": "سند دانشگاه آیووا به صراحت بیان می‌کند Great Northern و navy beans محتمل‌ترین انواعی هستند که به صورت دانه کامل و فرآوری‌نشده فروخته می‌شوند.",
+      "evidence_quote": "Dry beans are sold in a variety of forms. Great Northerns, navy beans or mixes of beans, are the most likely to be sold as whole seeds in unprocessed form."
     },
     {
       "fact_id": "f3",
       "supported": true,
-      "scope_and_units_correct": false
+      "scope_and_units_correct": true,
+      "reason": "همان سند آیووا صراحتاً اشاره می‌کند باران در زمان برداشت در میزوری باعث تغییر رنگ دانه، به‌ویژه در نوع navy (سفید) می‌شود.",
+      "evidence_quote": "One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type."
+    },
+    {
+      "fact_id": "f0-conversion-0",
+      "supported": true,
+      "scope_and_units_correct": true,
+      "reason": "تبدیل قطعی از ۳۶۳۳ پوند بر ایکر به کیلوگرم بر هکتار با ضریب ۱٫۱۲۰۸۵ برابر ۴۰۷۲٫۰۵۲ kg/ha است و این تنها تبدیل واحدِ همان مشاهدهٔ منبع است.",
+      "evidence_quote": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633"
+    },
+    {
+      "fact_id": "f1-conversion-0",
+      "supported": true,
+      "scope_and_units_correct": true,
+      "reason": "تبدیل قطعی از ۵۰۵۷ پوند بر ایکر به کیلوگرم بر هکتار با ضریب ۱٫۱۲۰۸۵ برابر ۵۶۶۸٫۱۴۴ kg/ha است و این تنها تبدیل واحدِ همان مشاهدهٔ منبع است.",
+      "evidence_quote": "Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8"
     }
-  ]
+  ],
+  "rejection_reasons": []
 }

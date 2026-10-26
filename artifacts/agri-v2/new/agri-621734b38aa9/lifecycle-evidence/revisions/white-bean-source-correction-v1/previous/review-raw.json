@@ -1,0 +1,34 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": false,
+  "geography_and_transfer_limits_retained": false,
+  "no_iranian_prescription_inferred": false,
+  "independent_sources": false,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "تمام داده‌ها از دو منبع آمریکایی (آیووا/نبراسکا/دکوتا شمالی) هستند و هیچ‌کدام شرایط ایران را پوشش نمی‌دهند. عنوان مقاله «در هکتار» اما داده‌های عددی به bu/acre (آیووا) و lbs/acre (نبراسکا) ارائه شده‌اند؛ تبدیل bu به کیلوگرم یا هکتار در متن انجام نشده و خواننده ممکن‌ است دامنه ۲۰–۳۰ bu/acre را به‌ اشتباه به هکتار تعمیم دهد. گزارش NDSU (A1806) فقط کاشت زودهنگام و تاخیر را می‌سنجد و هیچ مقدار پایه عملکرد مطلق برای ایران ندارد. داده‌های Nebraska EC3064 فقط دو محل غرب نبراسکا (Scottsbluff و Mitchell) را شامل می‌شوند و تفاوت عملکرد بین این دو محل نشان‌دهنده حساسیت منطقه‌ای است، نه ضامن عملکرد در اقلیم ایران. هرگونه استنتاج «عملکرد مورد انتظار ایران» از این ارقام بدون اعتبارسنجی بومی نادرست و خطرناک است. سه نشانی وب ذکرشده (extension.iastate.edu, extensionpubs.unl.edu, miv.ext.nodak.edu) بازتاب یکسان publications دانشگاهی آمریکایی هستند؛ هیچ منبع مستقل ایرانی یا متن ترویجی بومی موجود نیست.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": false
+    }
+  ]
+}

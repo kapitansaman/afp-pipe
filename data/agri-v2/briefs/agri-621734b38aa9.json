@@ -1,0 +1,254 @@
+{
+  "topic_id": "agri-621734b38aa9",
+  "title": "میزان برداشت لوبیا سفید در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "slug": "white-bean-yield-hectare-range",
+  "review_mode": "automated_scoped_evidence_review_v1",
+  "human_agronomy_review_done": false,
+  "agronomy_reviewer": null,
+  "editor": "Automated scoped extraction and independent skeptical source review; not a human agronomist",
+  "reviewed_at": "2026-10-26T07:37:46.109262+00:00",
+  "novelty_note": "هیچ‌یک از مقالات موجود به‌طور مستقیم به عملکرد یا میزان برداشت لوبیای سفید در هکتار پرداخته‌اند. مقاله 506950 صرفاً درباره آبیاری قطره‌ای کدو است و تنها در یک عبارت فرعی به «مقدار بذر لوبیا سفید» اشاره کرده است. مقاله 507126 درباره کلیت بهینه‌سازی آبیاری است و فقط به‌صورت گذرا به حساسیت لوبیا سفید به شوری و نقش رطوبت در گلدهی اشاره نموده است. مقاله 509600 نیز در مورد بهینه‌سازی آبیاری بر اساس شیب مزرعه است و تنها در دو جمله به‌صورت حاشیه‌ای به «حجم بذر لوبیا سفید» و «فاصله ردیف‌های لوبیا» پرداخته است. هیچ‌یک از این مقالات دامنه عملکرد لوبیای سفید، فاکتورهای مؤثر بر عملکرد، یا محدودیت تعمیم داده‌های منطقه‌ای را پوشش نمی‌دهند. موضوع جدید (میزان برداشت/عملکرد لوبیا سفید در هکتار) با مقاله موجود (مقدار بذر لوبیا سفید در هکتار) متفاوت است. مقاله 37556 به‌طور کامل به تعیین مقدار بذر و تراکم کاشت می‌پردازد و هیچ بخش یا اشاره‌ای به عملکرد برداشت‌شده، دامنه عملکرد گزارش‌شده در آزمون‌ها، یا عوامل تغییرکننده عملکرد ندارد. این موضوع با intent متفاوتی (seeding vs yield) سروکار دارد و محتوای نو قابل تولید است.",
+  "source_scope_limitations": "این داده‌ها صرفاً مشاهدات آزمایشگاهی ایالات متحده (نبراسکا، ۲۰۲۲) برای رقم White Pearl کلاس Great Northern هستند؛ هیچ قیاس مستقیمی با شرایط ایران برقرار نشده و مبادلهٔ اقلیمی، خاکی و مدیریتی نادیده مانده است.",
+  "approved_for_draft": true,
+  "semantic_review_done": true,
+  "overlap_review_done": true,
+  "sources_verified": true,
+  "publish_authorized": true,
+  "owner_authorization": "Owner requested fixing research blockers and publishing only fully validated families; no unsupported local prescription authorized.",
+  "outline": [
+    "تعریف محصول برداشت‌شونده و دامنه عملکرد گزارش‌شده در آزمایش‌های ایالات متحده",
+    "عوامل مؤثر بر عملکرد: بازارپسند، منطقه اقلیمی، تراکم بوته و تاریخ کاشت",
+    "محدودیت تعمیم: داده‌های منطقه‌ای آمریکا و عدم ضمانت عملکرد در ایران"
+  ],
+  "sources": [
+    {
+      "url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "locator": "Exact fetched evidence IDs and independent per-fact review",
+      "excerpt": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633 47 83 17.1 59.2 10.6 34.1 2b 4.3 2 Hydra 3454 46 87 10.0 60.6 11.6 41.3 3a 6.5 11 18215 3419 43 87 17.4 59.8 11.6 35.1 2b 6.0 17 NE1- 17- 36 3376 44 87 15.9 59.9 11.3 37.7 2b 5.5 18 NE1- 17- 41 3327 44 84 17.5 58.4 10.7 34.3 2b 5.5 5 Virgo (13172) 3207 44 90 15.9 59.2 11.0 33.9 2b 5.8 8 15215 3174 46 90 18.7 61.3 11.3 36.1 2b 5.8 20 NE1- 20- 31 3134 41 86 15.1 58.5 10.7 34.7 2b 6.5 12 Filler 3057 43 83 14.2 58.3 10.7 40.8 2b 6.8 22 NE1- 17- 31 3046 46 87 17.0 57.0 10.9 41.3 2b 4.5 10 17227 3027 41 83 12.0 57.7 10.8 34.3 2b/3 7.0 9 17215 2991 41 86 9.4 61.2 11.1 45.0 3a 6.8 13 Powderhorn 2989 41 84 16.7 57.7 10.8 34.9 2b 5.3 19 NE1- 20- 21 2987 46 91 14.0 59.3 10.9 36.5 2b 6.8 1 Aries 2978 41 85 12.4 59.5 11.1 32.7 2b 6.8 6 Lyra (14164) 2921 43 85 17.2 57.6 10.7 39.2 2b 6.5 4 Andromeda (13151) 2892 32 84 13.6 58.5 11.2 38.7 2b 6.8 16 NE1- 17- 29 2850 43 86 16.8 58.0 10.8 36.7 2b 5.5 21 NE1- 17- 9 2848 47 86 17.2 58.5 10.7 35.3 2b 4.3 3 Draco 2665 47 88 16.9 59.0 11.1 35.0 2b/3 6.5 14 Panhandle Pride 2263 43 88 11.7 59.8 11.0 35.9 3a 6.0 GRAND MEAN 3059 43 86 15.1 59.0 11.0 36.8 6.0 LSD 0.05 614 7 4 4.0 1.4 0.3 3.2 1.3 CV % 10.0 7.7 2.3 13.4 1.2 1.5 4.4 1.5 † 2b= Indeterminate, bush habit, long guides; 3, 3a= Indeterminate, with weak and prostrate stem, and long and short guides, respectively. ‡ Common bacterial blight incidence: 1, 2, 3 = Resistant; 4, 5, 6 = Intermediate; 7, 8, 9 = Susceptible.  Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8 10 17227 4945 45 102 16.0 58.1 12.2 42.1 1 Aries 4913 45 100 16.8 60.0 11.6 42.0 2 Hydra 4898 51 104 15.0 60.7 13.3 51.1 5 Virgo (13172) 4864 49 104 18.2 59.9 11.4 39.3 13 Powderhorn 4809 45 95 19.1 58.6 11.1 39.1 6 Lyra (14164) 4704 49 102 18.6 60.8 11.2 43.5 18 NE1- 17- 41 4702 49 102 15.6 59.4 11.3 40.0 16 NE1- 17- 29 4699 45 103 14.7 57.2 11.5 42.8 17 NE1- 17- 36 4693 47 103 16.4 59.5 12.6 43.4 12 Filler 4633 48 105 18.7 58.9 13.0 48.7 9 17215 4603 46 104 13.9 61.7 11.9 55.4 21 NE1- 17- 9 4500 48 102 15.0 59.8 11.4 40.3 3 Draco 4394 52 103 19.3 60.5 11.7 40.0 14 Panhandle Pride 4079 49 104 15.7 61.1 12.1 40.2 GRAND MEAN 4870 47 103 16.8 59.7 11.9 43.4 LSD 0.05 455 3 3 2.9 1.6 1.3 1.9 CV % 4.7 3.5 1.3 8.7 1.4 5.4 2.2  Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633 47 83 17.1 59.2 10.6 34.1 2b 4.3 2 Hydra 3454 46 87 10.0 60.6 11.6 41.3 3a 6.5 11 18215 3419 43 87 17.4 59.8 11.6 35.1 2b 6.0 17 NE1- 17- 36 3376 44 87 15.9 59.9 11.3 37.7 2b 5.5 18 NE1- 17- 41 3327 44 84 17.5 58.4 10.7 34.3 2b 5.5 5 Virgo (13172) 3207 44 90 15.9 59.2 11.0 33.9 2b 5.8 8 15215 3174 46 90 18.7 61.3 11.3 36.1 2b 5.8 20 NE1- 20- 31 3134 41 86 15.1 58.5 10.7 34.7 2b 6.5 12 Filler 3057 43 83 14.2 58.3 10.7 40.8 2b 6.8 22 NE1- 17- 31 3046 46 87 17.0 57.0 10.9 41.3 2b 4.5 10 17227 3027 41 83 12.0 57.7 10.8 34.3 2b/3 7.0 9 17215 2991 41 86 9.4 61.2 11.1 45.0 3a 6.8 13 Powderhorn 2989 41 84 16.7 57.7 10.8 34.9 2b 5.3 19 NE1- 20- 21 2987 46 91 14.0 59.3 10.9 36.5 2b 6.8 1 Aries 2978 41 85 12.4 59.5 11.1 32.7 2b 6.8 6 Lyra (14164) 2921 43 85 17.2 57.6 10.7 39.2 2b 6.5 4 Andromeda (13151) 2892 32 84 13.6 58.5 11.2 38.7 2b 6.8 16 NE1- 17- 29 2850 43 86 16.8 58.0 10.8 36.7 2b 5.5 21 NE1- 17- 9 2848 47 86 17.2 58.5 10.7 35.3 2b 4.3 3 Draco 2665 47 88 16.9 59.0 11.1 35.0 2b/3 6.5 14 Panhandle Pride 2263 43 88 11.7 59.8 11.0 35.9 3a 6.0 GRAND MEAN 3059 43 86 15.1 59.0 11.0 36.8 6.0 LSD 0.05 614 7 4 4.0 1.4 0.3 3.2 1.3 CV % 10.0 7.7 2.3 13.4 1.2 1.5 4.4 1.5 † 2b= Indeterminate, bush habit, long guides; 3, 3a= Indeterminate, with weak and prostrate stem, and long and short guides, respectively. ‡ Common bacterial blight incidence: 1, 2, 3 = Resistant; 4, 5, 6 = Intermediate; 7, 8, 9 = Susceptible.  Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8 10 17227 4945 45 102 16.0 58.1 12.2 42.1 1 Aries 4913 45 100 16.8 60.0 11.6 42.0 2 Hydra 4898 51 104 15.0 60.7 13.3 51.1 5 Virgo (13172) 4864 49 104 18.2 59.9 11.4 39.3 13 Powderhorn 4809 45 95 19.1 58.6 11.1 39.1 6 Lyra (14164) 4704 49 102 18.6 60.8 11.2 43.5 18 NE1- 17- 41 4702 49 102 15.6 59.4 11.3 40.0 16 NE1- 17- 29 4699 45 103 14.7 57.2 11.5 42.8 17 NE1- 17- 36 4693 47 103 16.4 59.5 12.6 43.4 12 Filler 4633 48 105 18.7 58.9 13.0 48.7 9 17215 4603 46 104 13.9 61.7 11.9 55.4 21 NE1- 17- 9 4500 48 102 15.0 59.8 11.4 40.3 3 Draco 4394 52 103 19.3 60.5 11.7 40.0 14 Panhandle Pride 4079 49 104 15.7 61.1 12.1 40.2 GRAND MEAN 4870 47 103 16.8 59.7 11.9 43.4 LSD 0.05 455 3 3 2.9 1.6 1.3 1.9 CV % 4.7 3.5 1.3 8.7 1.4 5.4 2.2 ",
+      "sha256": "850c33396f0baa87beeb2468e4d1ce129ae0b074332bdd27e2d1b339641a7afa",
+      "fetched_at": "2026-10-26T07:37:19.827127+00:00",
+      "publisher_id": null
+    },
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "locator": "Exact fetched evidence IDs and independent per-fact review",
+      "excerpt": " If you’ve seen green beans growing, you have a good idea what dry beans look like, with the difference being that dry bean varieties have higher seed yields. Some dry bean varieties are vine-like garden bean varieties, while others are more of an erect, bushy plant like soybeans. Dry beans do not grow as vigorously as soybeans, usually reaching only about 18 to 24 inches in height. Pods, each containing 2 to 4 seeds, are borne upon the length of the stem. Dry beans average about 22% protein in the seed. The amino acid profile of dry beans complements that of corn and other cereal grains, which is why the corn-bean diet was so standard through the Americas. Dry beans are sold in a variety of forms. Great Northerns, navy beans or mixes of beans, are the most likely to be sold as whole seeds in unprocessed form. Navy beans and kidney beans are both found in canned form, with kidney beans a ng really dry, seed shatter can become a problem. Cutting at night or when a dew is on can help reduce shattering. One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type. This is one reason that drier regions in the Great Plains, California and Pacific Northwest have had a competitive advantage with dry beans. Harvest should be done quickly to help avoid discoloration. Choosing a dark seeded variety or pinto variety can help minimize this problem. Seeds should be stored at about 15 to 16% moisture. When handling, a belt conveyer is recommended over a metal auger to reduce seed damage. Seeds should be handled gently and not dumped from heights onto concrete or hard surfaces. Careful handling may be more time consuming but will pay off in the price received for a quality bean product. Resources Pr",
+      "sha256": "6b7f8b33ed2da4aef684c683372a07b0da5b86d7462cae351b913ffccf9728d6",
+      "fetched_at": "2026-10-26T07:37:20.471553+00:00",
+      "publisher_id": null
+    }
+  ],
+  "approved_facts": [
+    {
+      "kind": "source_observation",
+      "claim": "در آزمایش Great Northern در Scottsbluff نبراسکا، عملکرد رقم White Pearl برابر 3633 پوند در ایکر با تعدیل به رطوبت ۱۴ درصد گزارش شده است.",
+      "conditions": "این عدد مشاهدهٔ همان رقم و محل آزمایش در ایالات متحده است؛ میانگین همه ارقام، پیش‌بینی مزرعه ایران، توصیه انتخاب رقم یا تضمین عملکرد نیست.",
+      "evidence_id": "d0-t0",
+      "numeric_bindings": [
+        {
+          "value": "3633",
+          "unit_quote": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633 47 83 17.1 59.2 10.6 34.1 2b 4.3 2 Hydra 3454 46 87 10.0 60.6 11.6 41.3 3a 6.5 11 18215 3419 43 87 17.4 59.8 11.6 35.1 2b 6.0 17 NE1- 17- 36 3376 44 87 15.9 59.9 11.3 37.7 2b 5.5 18 NE1- 17- 41 3327 44 84 17.5 58.4 10.7 34.3 2b 5.5 5 Virgo (13172) 3207 44 90 15.9 59.2 11.0 33.9 2b 5.8 8 15215 3174 46 90 18.7 61.3 11.3 36.1 2b 5.8 20 NE1- 20- 31 3134 41 86 15.1 58.5 10.7 34.7 2b 6.5 12 Filler 3057 43 83 14.2 58.3 10.7 40.8 2b 6.8 22 NE1- 17- 31 3046 46 87 17.0 57.0 10.9 41.3 2b 4.5 10 17227 3027 41 83 12.0 57.7 10.8 34.3 2b/3 7.0 9 17215 2991 41 86 9.4 61.2 11.1 45.0 3a 6.8 13 Powderhorn 2989 41 84 16.7 57.7 10.8 34.9 2b 5.3 19 NE1- 20- 21 2987 46 91 14.0 59.3 10.9 36.5 2b 6.8 1 Aries 2978 41 85 12.4 59.5 11.1 32.7 2b 6.8 6 Lyra (14164) 2921 43 85 17.2 57.6 10.7 39.2 2b 6.5 4 Andromeda (13151) 2892 32 84 13.6 58.5 11.2 38.7 2b 6.8 16 NE1- 17- 29 2850 43 86 16.8 58.0 10.8 36.7 2b 5.5 21 NE1- 17- 9 2848 47 86 17.2 58.5 10.7 35.3 2b 4.3 3 Draco 2665 47 88 16.9 59.0 11.1 35.0 2b/3 6.5 14 Panhandle Pride 2263 43 88 11.7 59.8 11.0 35.9 3a 6.0 GRAND MEAN 3059 43 86 15.1 59.0 11.0 36.8 6.0 LSD 0.05 614 7 4 4.0 1.4 0.3 3.2 1.3 CV % 10.0 7.7 2.3 13.4 1.2 1.5 4.4 1.5 † 2b= Indeterminate, bush habit, long guides; 3, 3a= Indeterminate, with weak and prostrate stem, and long and short guides, respectively. ‡ Common bacterial blight incidence: 1, 2, 3 = Resistant; 4, 5, 6 = Intermediate; 7, 8, 9 = Susceptible. ",
+          "geographic_scope": "Scottsbluff, western Nebraska, USA; trial year 2022",
+          "product_scope": "Great Northern dry bean, White Pearl; yield adjusted to 14% moisture",
+          "table_measurement": {
+            "table_title": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab.",
+            "row_label": "15 White Pearl",
+            "unit": "lb/acre",
+            "moisture_basis": "14%"
+          }
+        },
+        {
+          "value": "14",
+          "unit_quote": "Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre",
+          "geographic_scope": "Scottsbluff, Nebraska, USA",
+          "product_scope": "dry bean yield moisture basis"
+        }
+      ],
+      "fact_id": "f0",
+      "source_url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "evidence_quote": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633 47 83 17.1 59.2 10.6 34.1 2b 4.3 2 Hydra 3454 46 87 10.0 60.6 11.6 41.3 3a 6.5 11 18215 3419 43 87 17.4 59.8 11.6 35.1 2b 6.0 17 NE1- 17- 36 3376 44 87 15.9 59.9 11.3 37.7 2b 5.5 18 NE1- 17- 41 3327 44 84 17.5 58.4 10.7 34.3 2b 5.5 5 Virgo (13172) 3207 44 90 15.9 59.2 11.0 33.9 2b 5.8 8 15215 3174 46 90 18.7 61.3 11.3 36.1 2b 5.8 20 NE1- 20- 31 3134 41 86 15.1 58.5 10.7 34.7 2b 6.5 12 Filler 3057 43 83 14.2 58.3 10.7 40.8 2b 6.8 22 NE1- 17- 31 3046 46 87 17.0 57.0 10.9 41.3 2b 4.5 10 17227 3027 41 83 12.0 57.7 10.8 34.3 2b/3 7.0 9 17215 2991 41 86 9.4 61.2 11.1 45.0 3a 6.8 13 Powderhorn 2989 41 84 16.7 57.7 10.8 34.9 2b 5.3 19 NE1- 20- 21 2987 46 91 14.0 59.3 10.9 36.5 2b 6.8 1 Aries 2978 41 85 12.4 59.5 11.1 32.7 2b 6.8 6 Lyra (14164) 2921 43 85 17.2 57.6 10.7 39.2 2b 6.5 4 Andromeda (13151) 2892 32 84 13.6 58.5 11.2 38.7 2b 6.8 16 NE1- 17- 29 2850 43 86 16.8 58.0 10.8 36.7 2b 5.5 21 NE1- 17- 9 2848 47 86 17.2 58.5 10.7 35.3 2b 4.3 3 Draco 2665 47 88 16.9 59.0 11.1 35.0 2b/3 6.5 14 Panhandle Pride 2263 43 88 11.7 59.8 11.0 35.9 3a 6.0 GRAND MEAN 3059 43 86 15.1 59.0 11.0 36.8 6.0 LSD 0.05 614 7 4 4.0 1.4 0.3 3.2 1.3 CV % 10.0 7.7 2.3 13.4 1.2 1.5 4.4 1.5 † 2b= Indeterminate, bush habit, long guides; 3, 3a= Indeterminate, with weak and prostrate stem, and long and short guides, respectively. ‡ Common bacterial blight incidence: 1, 2, 3 = Resistant; 4, 5, 6 = Intermediate; 7, 8, 9 = Susceptible. "
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در آزمایش Great Northern در Mitchell نبراسکا، عملکرد رقم White Pearl برابر 5057 پوند در ایکر با تعدیل به رطوبت ۱۴ درصد گزارش شده است.",
+      "conditions": "این عدد مشاهدهٔ همان رقم و محل آزمایش در ایالات متحده است؛ میانگین همه ارقام، پیش‌بینی مزرعه ایران، توصیه انتخاب رقم یا تضمین عملکرد نیست.",
+      "evidence_id": "d0-t1",
+      "numeric_bindings": [
+        {
+          "value": "5057",
+          "unit_quote": "Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8 10 17227 4945 45 102 16.0 58.1 12.2 42.1 1 Aries 4913 45 100 16.8 60.0 11.6 42.0 2 Hydra 4898 51 104 15.0 60.7 13.3 51.1 5 Virgo (13172) 4864 49 104 18.2 59.9 11.4 39.3 13 Powderhorn 4809 45 95 19.1 58.6 11.1 39.1 6 Lyra (14164) 4704 49 102 18.6 60.8 11.2 43.5 18 NE1- 17- 41 4702 49 102 15.6 59.4 11.3 40.0 16 NE1- 17- 29 4699 45 103 14.7 57.2 11.5 42.8 17 NE1- 17- 36 4693 47 103 16.4 59.5 12.6 43.4 12 Filler 4633 48 105 18.7 58.9 13.0 48.7 9 17215 4603 46 104 13.9 61.7 11.9 55.4 21 NE1- 17- 9 4500 48 102 15.0 59.8 11.4 40.3 3 Draco 4394 52 103 19.3 60.5 11.7 40.0 14 Panhandle Pride 4079 49 104 15.7 61.1 12.1 40.2 GRAND MEAN 4870 47 103 16.8 59.7 11.9 43.4 LSD 0.05 455 3 3 2.9 1.6 1.3 1.9 CV % 4.7 3.5 1.3 8.7 1.4 5.4 2.2 ",
+          "geographic_scope": "Mitchell, western Nebraska, USA; trial year 2022",
+          "product_scope": "Great Northern dry bean, White Pearl; yield adjusted to 14% moisture",
+          "table_measurement": {
+            "table_title": "Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab.",
+            "row_label": "15 White Pearl",
+            "unit": "lb/acre",
+            "moisture_basis": "14%"
+          }
+        },
+        {
+          "value": "14",
+          "unit_quote": "Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre",
+          "geographic_scope": "Mitchell, Nebraska, USA",
+          "product_scope": "dry bean yield moisture basis"
+        }
+      ],
+      "fact_id": "f1",
+      "source_url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "evidence_quote": "Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8 10 17227 4945 45 102 16.0 58.1 12.2 42.1 1 Aries 4913 45 100 16.8 60.0 11.6 42.0 2 Hydra 4898 51 104 15.0 60.7 13.3 51.1 5 Virgo (13172) 4864 49 104 18.2 59.9 11.4 39.3 13 Powderhorn 4809 45 95 19.1 58.6 11.1 39.1 6 Lyra (14164) 4704 49 102 18.6 60.8 11.2 43.5 18 NE1- 17- 41 4702 49 102 15.6 59.4 11.3 40.0 16 NE1- 17- 29 4699 45 103 14.7 57.2 11.5 42.8 17 NE1- 17- 36 4693 47 103 16.4 59.5 12.6 43.4 12 Filler 4633 48 105 18.7 58.9 13.0 48.7 9 17215 4603 46 104 13.9 61.7 11.9 55.4 21 NE1- 17- 9 4500 48 102 15.0 59.8 11.4 40.3 3 Draco 4394 52 103 19.3 60.5 11.7 40.0 14 Panhandle Pride 4079 49 104 15.7 61.1 12.1 40.2 GRAND MEAN 4870 47 103 16.8 59.7 11.9 43.4 LSD 0.05 455 3 3 2.9 1.6 1.3 1.9 CV % 4.7 3.5 1.3 8.7 1.4 5.4 2.2 "
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منبع معرفی لوبیای خشک، Great Northern و navy را از انواعی می‌داند که به صورت دانه کامل و فرآوری‌نشده به فروش می‌رسند.",
+      "conditions": "این شاهد صرفاً برای تعریف محصول دانه خشک است، نه اثبات هم‌ارزی با هر رقم محلی لوبیا سفید یا اندازه‌گیری عملکرد ایران.",
+      "evidence_id": "d1-e3",
+      "numeric_bindings": [],
+      "fact_id": "f2",
+      "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "evidence_quote": " If you’ve seen green beans growing, you have a good idea what dry beans look like, with the difference being that dry bean varieties have higher seed yields. Some dry bean varieties are vine-like garden bean varieties, while others are more of an erect, bushy plant like soybeans. Dry beans do not grow as vigorously as soybeans, usually reaching only about 18 to 24 inches in height. Pods, each containing 2 to 4 seeds, are borne upon the length of the stem. Dry beans average about 22% protein in the seed. The amino acid profile of dry beans complements that of corn and other cereal grains, which is why the corn-bean diet was so standard through the Americas. Dry beans are sold in a variety of forms. Great Northerns, navy beans or mixes of beans, are the most likely to be sold as whole seeds in unprocessed form. Navy beans and kidney beans are both found in canned form, with kidney beans a"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در متن مربوط به میسوری، باران هنگام برداشت از عوامل تغییر رنگ دانه، به‌ویژه در نوع سفید navy، معرفی شده است.",
+      "conditions": "این نقل‌قول درباره کیفیت دانه و زمینه اقلیمی میسوری در آمریکاست؛ درصد خسارت یا رابطه عددی برای عملکرد مزرعه ایران از آن نتیجه گرفته نمی‌شود.",
+      "evidence_id": "d1-e19",
+      "numeric_bindings": [],
+      "fact_id": "f3",
+      "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "evidence_quote": "ng really dry, seed shatter can become a problem. Cutting at night or when a dew is on can help reduce shattering. One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type. This is one reason that drier regions in the Great Plains, California and Pacific Northwest have had a competitive advantage with dry beans. Harvest should be done quickly to help avoid discoloration. Choosing a dark seeded variety or pinto variety can help minimize this problem. Seeds should be stored at about 15 to 16% moisture. When handling, a belt conveyer is recommended over a metal auger to reduce seed damage. Seeds should be handled gently and not dumped from heights onto concrete or hard surfaces. Careful handling may be more time consuming but will pay off in the price received for a quality bean product. Resources Pr"
+    },
+    {
+      "fact_id": "f0-conversion-0",
+      "kind": "deterministic_conversion",
+      "claim": "تبدیل واحدِ همان مشاهدهٔ منبع، حدود 4072.052 کیلوگرم در هکتار است؛ این تبدیل صرفاً محاسباتی است و پیش‌بینی عملکرد یا توصیه برای ایران نیست.",
+      "conditions": "این عدد مشاهدهٔ همان رقم و محل آزمایش در ایالات متحده است؛ میانگین همه ارقام، پیش‌بینی مزرعه ایران، توصیه انتخاب رقم یا تضمین عملکرد نیست.",
+      "source_url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "evidence_quote": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633 47 83 17.1 59.2 10.6 34.1 2b 4.3 2 Hydra 3454 46 87 10.0 60.6 11.6 41.3 3a 6.5 11 18215 3419 43 87 17.4 59.8 11.6 35.1 2b 6.0 17 NE1- 17- 36 3376 44 87 15.9 59.9 11.3 37.7 2b 5.5 18 NE1- 17- 41 3327 44 84 17.5 58.4 10.7 34.3 2b 5.5 5 Virgo (13172) 3207 44 90 15.9 59.2 11.0 33.9 2b 5.8 8 15215 3174 46 90 18.7 61.3 11.3 36.1 2b 5.8 20 NE1- 20- 31 3134 41 86 15.1 58.5 10.7 34.7 2b 6.5 12 Filler 3057 43 83 14.2 58.3 10.7 40.8 2b 6.8 22 NE1- 17- 31 3046 46 87 17.0 57.0 10.9 41.3 2b 4.5 10 17227 3027 41 83 12.0 57.7 10.8 34.3 2b/3 7.0 9 17215 2991 41 86 9.4 61.2 11.1 45.0 3a 6.8 13 Powderhorn 2989 41 84 16.7 57.7 10.8 34.9 2b 5.3 19 NE1- 20- 21 2987 46 91 14.0 59.3 10.9 36.5 2b 6.8 1 Aries 2978 41 85 12.4 59.5 11.1 32.7 2b 6.8 6 Lyra (14164) 2921 43 85 17.2 57.6 10.7 39.2 2b 6.5 4 Andromeda (13151) 2892 32 84 13.6 58.5 11.2 38.7 2b 6.8 16 NE1- 17- 29 2850 43 86 16.8 58.0 10.8 36.7 2b 5.5 21 NE1- 17- 9 2848 47 86 17.2 58.5 10.7 35.3 2b 4.3 3 Draco 2665 47 88 16.9 59.0 11.1 35.0 2b/3 6.5 14 Panhandle Pride 2263 43 88 11.7 59.8 11.0 35.9 3a 6.0 GRAND MEAN 3059 43 86 15.1 59.0 11.0 36.8 6.0 LSD 0.05 614 7 4 4.0 1.4 0.3 3.2 1.3 CV % 10.0 7.7 2.3 13.4 1.2 1.5 4.4 1.5 † 2b= Indeterminate, bush habit, long guides; 3, 3a= Indeterminate, with weak and prostrate stem, and long and short guides, respectively. ‡ Common bacterial blight incidence: 1, 2, 3 = Resistant; 4, 5, 6 = Intermediate; 7, 8, 9 = Susceptible. ",
+      "conversion": {
+        "parent_fact_id": "f0",
+        "binding_index": 0,
+        "source_value": "3633",
+        "target_value": "4072.052",
+        "target_unit": "kg/ha",
+        "policy": "exact_international_pound_and_acre_v1"
+      }
+    },
+    {
+      "fact_id": "f1-conversion-0",
+      "kind": "deterministic_conversion",
+      "claim": "تبدیل واحدِ همان مشاهدهٔ منبع، حدود 5668.144 کیلوگرم در هکتار است؛ این تبدیل صرفاً محاسباتی است و پیش‌بینی عملکرد یا توصیه برای ایران نیست.",
+      "conditions": "این عدد مشاهدهٔ همان رقم و محل آزمایش در ایالات متحده است؛ میانگین همه ارقام، پیش‌بینی مزرعه ایران، توصیه انتخاب رقم یا تضمین عملکرد نیست.",
+      "source_url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "evidence_quote": "Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8 10 17227 4945 45 102 16.0 58.1 12.2 42.1 1 Aries 4913 45 100 16.8 60.0 11.6 42.0 2 Hydra 4898 51 104 15.0 60.7 13.3 51.1 5 Virgo (13172) 4864 49 104 18.2 59.9 11.4 39.3 13 Powderhorn 4809 45 95 19.1 58.6 11.1 39.1 6 Lyra (14164) 4704 49 102 18.6 60.8 11.2 43.5 18 NE1- 17- 41 4702 49 102 15.6 59.4 11.3 40.0 16 NE1- 17- 29 4699 45 103 14.7 57.2 11.5 42.8 17 NE1- 17- 36 4693 47 103 16.4 59.5 12.6 43.4 12 Filler 4633 48 105 18.7 58.9 13.0 48.7 9 17215 4603 46 104 13.9 61.7 11.9 55.4 21 NE1- 17- 9 4500 48 102 15.0 59.8 11.4 40.3 3 Draco 4394 52 103 19.3 60.5 11.7 40.0 14 Panhandle Pride 4079 49 104 15.7 61.1 12.1 40.2 GRAND MEAN 4870 47 103 16.8 59.7 11.9 43.4 LSD 0.05 455 3 3 2.9 1.6 1.3 1.9 CV % 4.7 3.5 1.3 8.7 1.4 5.4 2.2 ",
+      "conversion": {
+        "parent_fact_id": "f1",
+        "binding_index": 0,
+        "source_value": "5057",
+        "target_value": "5668.144",
+        "target_unit": "kg/ha",
+        "policy": "exact_international_pound_and_acre_v1"
+      }
+    }
+  ],
+  "scoped_review": {
+    "decision": "pass",
+    "all_claims_supported": true,
+    "crop_species_and_product_match": true,
+    "answers_exact_intent": true,
+    "units_and_denominators_correct": true,
+    "geography_and_transfer_limits_retained": true,
+    "no_iranian_prescription_inferred": true,
+    "independent_sources": true,
+    "no_unsafe_input_rates": true,
+    "human_review_claimed": false,
+    "limitations": "این داده‌ها صرفاً مشاهدات آزمایشگاهی ایالات متحده (نبراسکا، ۲۰۲۲) برای رقم White Pearl کلاس Great Northern هستند؛ هیچ قیاس مستقیمی با شرایط ایران برقرار نشده و مبادلهٔ اقلیمی، خاکی و مدیریتی نادیده مانده است.",
+    "fact_checks": [
+      {
+        "fact_id": "f0",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "عدد ۳۶۳۳ و واحد lb/acre و پایه رطوبت ۱۴٪ دقیقاً در جدول ۱ سند UNL (صفحه ۳) برای ردیف White Pearl ثبت شده است و محدوده جغرافیایی Scottsbluff، نبراسکا نیز صحیح است.",
+        "evidence_quote": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633 47 83 17.1 59.2 10.6 34.1 2b 4.3 2"
+      },
+      {
+        "fact_id": "f1",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "عدد ۵۰۵۷ و واحد lb/acre و پایه رطوبت ۱۴٪ دقیقاً در جدول ۲ سند UNL (صفحه ۴) برای ردیف White Pearl ثبت شده است.",
+        "evidence_quote": "Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8"
+      },
+      {
+        "fact_id": "f2",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "سند دانشگاه آیووا به صراحت بیان می‌کند Great Northern و navy beans محتمل‌ترین انواعی هستند که به صورت دانه کامل و فرآوری‌نشده فروخته می‌شوند.",
+        "evidence_quote": "Dry beans are sold in a variety of forms. Great Northerns, navy beans or mixes of beans, are the most likely to be sold as whole seeds in unprocessed form."
+      },
+      {
+        "fact_id": "f3",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "همان سند آیووا صراحتاً اشاره می‌کند باران در زمان برداشت در میزوری باعث تغییر رنگ دانه، به‌ویژه در نوع navy (سفید) می‌شود.",
+        "evidence_quote": "One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type."
+      },
+      {
+        "fact_id": "f0-conversion-0",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "تبدیل قطعی از ۳۶۳۳ پوند بر ایکر به کیلوگرم بر هکتار با ضریب ۱٫۱۲۰۸۵ برابر ۴۰۷۲٫۰۵۲ kg/ha است و این تنها تبدیل واحدِ همان مشاهدهٔ منبع است.",
+        "evidence_quote": "Table 1. 2022 Great Northern Variety Trial— Scottsbluff Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight Growth Habit† Common Bacterial Blight no lbs/acre days days inches lbs/bu % gr (1– 9)‡ 15 White Pearl 3633"
+      },
+      {
+        "fact_id": "f1-conversion-0",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "تبدیل قطعی از ۵۰۵۷ پوند بر ایکر به کیلوگرم بر هکتار با ضریب ۱٫۱۲۰۸۵ برابر ۵۶۶۸٫۱۴۴ kg/ha است و این تنها تبدیل واحدِ همان مشاهدهٔ منبع است.",
+        "evidence_quote": "Table 2. 2022 Great Northern Variety Trial— Mitchell Ag Lab. Ent PEDIGREE Yield at 14% Flowering Maturity Plant Height Test Weight Moisture 100- SeedWeight no lbs/acre days days inches lbs/bu % gr 8 15215 5522 51 103 22.2 61.0 12.6 42.5 4 Andromeda (13151) 5323 46 103 12.9 60.0 12.6 48.6 11 18215 5308 45 103 15.1 60.1 12.1 40.4 22 NE1- 17- 31 5288 45 103 18.1 57.4 10.8 47.1 20 NE1- 20- 31 5241 45 105 15.7 59.2 11.3 41.3 19 NE1- 20- 21 5096 47 105 18.2 59.7 11.9 43.3 15 White Pearl 5057 50 103 16.9 59.4 11.6 40.8"
+      }
+    ],
+    "rejection_reasons": []
+  },
+  "product_definition": "لوبیا سفید (Phaseolus vulgaris، بازارپسند دانه سفید؛ داده‌ها شامل navy و great northern)، محصول: دانه خشک لوبیا",
+  "scoped_intent": "yield",
+  "evidence_validation_version": 2,
+  "inventory_generated_at": "2026-10-26T07:37:14.936424+00:00",
+  "overlap_audit": {
+    "topic_id": "agri-621734b38aa9",
+    "decision": "distinct",
+    "human_review_claimed": false,
+    "novelty_reason": "هیچ‌یک از مقالات موجود به‌طور مستقیم به عملکرد یا میزان برداشت لوبیای سفید در هکتار پرداخته‌اند. مقاله 506950 صرفاً درباره آبیاری قطره‌ای کدو است و تنها در یک عبارت فرعی به «مقدار بذر لوبیا سفید» اشاره کرده است. مقاله 507126 درباره کلیت بهینه‌سازی آبیاری است و فقط به‌صورت گذرا به حساسیت لوبیا سفید به شوری و نقش رطوبت در گلدهی اشاره نموده است. مقاله 509600 نیز در مورد بهینه‌سازی آبیاری بر اساس شیب مزرعه است و تنها در دو جمله به‌صورت حاشیه‌ای به «حجم بذر لوبیا سفید» و «فاصله ردیف‌های لوبیا» پرداخته است. هیچ‌یک از این مقالات دامنه عملکرد لوبیای سفید، فاکتورهای مؤثر بر عملکرد، یا محدودیت تعمیم داده‌های منطقه‌ای را پوشش نمی‌دهند. موضوع جدید (میزان برداشت/عملکرد لوبیا سفید در هکتار) با مقاله موجود (مقدار بذر لوبیا سفید در هکتار) متفاوت است. مقاله 37556 به‌طور کامل به تعیین مقدار بذر و تراکم کاشت می‌پردازد و هیچ بخش یا اشاره‌ای به عملکرد برداشت‌شده، دامنه عملکرد گزارش‌شده در آزمون‌ها، یا عوامل تغییرکننده عملکرد ندارد. این موضوع با intent متفاوتی (seeding vs yield) سروکار دارد و محتوای نو قابل تولید است.",
+    "article_checks": [
+      {
+        "id": 506950,
+        "already_answers_intent": false,
+        "quote_id": "506950:5",
+        "gap_reason": "این مقاله درباره آبیاری قطره‌ای کدو است و موضوع آن کاملاً متفاوت از عملکرد لوبیای سفید است. تنها اشاره گذرا در جمله «مطالعه مقدار بذر لوبیا سفید در هکتار می‌تواند درک شما از فضای کاشت گیاهان ریزنشین را بهبود بخشد» وجود دارد که به حجم بذر مربوط می‌شود نه به عملکرد یا میزان برداشت.",
+        "evidence_quote": "الایی خاک جمع نکنید. فیلتراسیون: قطره‌چکان‌ها به انسداد بسیار حساسند. استفاده از فیلتر کاسپر یا دیسک فیلتر در ابتدای سیستم، یک الزام حیاتی برای جلوگیری از خرابی سیستم و خشک شدن ناگهانی ردیف‌هاست. همچنین برای مقایسه روش‌های کاشت سایر سبزیجات و درک بهتر مدیریت منابع، مطالعه مقدار بذر لوبیا سفید در هکتار می‌تواند درک شما از فضای کاشت (Canopy Spread) گیاهان ریزنشین را بهبود بخشد؛ بنابراین به مقدار بذر لوبیا سفید در هکتار نگاهی بیندازید تا تشابهات و تفاوت‌های فاصله کاشت این سبزیجات با کدو را درک کنید. پرسش‌های پرتکرار (FAQ) بهترین زمان کاشت کدو با آبیاری قطره‌ای چه موقع است؟ بهترین زمان کاشت در مناطق با آب و هوای معتدل، نیمه‌خشک و خشک، آبان تا دیماه برای برداشت پاییزه و اسفند تا بهمن برای برداشت تابستانه است. همیشه باید خاک را گرم و آماده برای ریشه‌زنی بدانید. چه علائمی نشان می‌دهد که کدو شما آب اضافی دریافت کرده است؟ زرد شدن برگ‌های پایین، قارچ‌های خاکزی و بوی بد از خاک، نشانه‌های غرقابی بود"
+      },
+      {
+        "id": 507126,
+        "already_answers_intent": false,
+        "quote_id": "507126:3",
+        "gap_reason": "این مقاله درباره کلیت نقش سیستم‌های آبیاری در بهینه‌سازی برداشت است. تنها اشاره گذرا در جمله «آشنایی با اصول آبیاری و انتخاب بذر مناسب، موضوعی است که در مقدار بذر لوبیا سفید در هکتار و عوامل مؤثر نیز به آن اشاره شده است. لوبیا سفید، گیاهی است که به شوری حساس است» وجود دارد که به حساسیت به شوری و حجم بذر می‌پردازد نه به دامنه عملکرد یا عوامل تغییر عملکرد.",
+        "evidence_quote": "یش از نیاز ریشه‌ای به خاک تزریق می‌شود، املاح موجود در لایه‌های عمقی به سمت سطح خاک جابه‌جا می‌شوند. این پدیده، به‌ویژه در مناطق اقلیم خشک، که ریزش بارش نیز برای شست‌وشوی املاح کافی نیست، به سرعت رخ می‌دهد. برای مقابله با شوری، استفاده از سیستم‌های آبیاری قطره‌ای با نوار شست‌وشو، یکی از راهکارهای مؤثر است. این سیستم‌ها، با تمرکز آب در اطراف ریشه‌ها، از ریزش املاح به بستر خاک جلوگیری می‌کنند. همچنین، انتخاب بذرهای مقاوم به شوری و مدیریت مناسب کودها، می‌تواند در کاهش اثرات منفی شوری مؤثر باشد. در این زمینه، آشنایی با اصول آبیاری و انتخاب بذر مناسب، موضوعی است که در مقدار بذر لوبیا سفید در هکتار و عوامل مؤثر نیز به آن اشاره شده است. لوبیا سفید، گیاهی است که به شوری حساس است و آبیاری مناسب می‌تواند رشد شعله‌ور آن را تضمین کند. نقش رطوبت خاک در رشد شعله‌ور گیاهان، به‌ویژه در دوران گلدهی و میوه‌دهی، بسیار مهم است. کمبود آب در این فازها، می‌تواند باعث شست‌وشوی گل‌ها، توقف تولید میوه‌ها و کاهش و"
+      },
+      {
+        "id": 509600,
+        "already_answers_intent": false,
+        "quote_id": "509600:7",
+        "gap_reason": "این مقاله درباره بهینه‌سازی آبیاری بر اساس شیب مزرعه است. تنها اشاره گذرا در جملات «برای محصولات دیگر مانند لوبیا، درک شیب نیز مهم است؛ به‌عنوان مثال در بررسی‌هایی درباره حجم بذر لوبیا سفید در هکتار، همسانی آبیاری یکی از عوامل کلیدی برای رسیدن به ظرفیت ژنتیکی گیاه معرفی شده است» وجود دارد که به حجم بذر و همسانی آبیاری اشاره دارد نه به عملکرد، دامنه عملکرد یا عوامل تغییر آن.",
+        "evidence_quote": "نواختی آبیاری قابل‌قبول است. برای برخی محصولات، نوسان فشار می‌تواند مستقیماً بر میزان برداشت شبدر در هکتار و عملکرد نهایی محصول اثر بگذارد. شبدر گیاهی حساس به استرس آب است و اگر قسمت‌های بالای شیب آبیاری نامناسبی دریافت کنند، گرده‌ریزگی کاهش می‌یابد و دانه کمتری تولید می‌کند. همانطور که در راهنمای تناژ عدس در هکتار اشاره شده، عدس نیز به همسانی رطوبت خاک نیاز دارد. در مزارعدی عدس با شیب، اگر فشار در پایین شیب زیاد باشد، ریشه‌ها ممکن است دچار بیماری‌های قارچی شوند که می‌تواند از بازدهی کل محصول کاسته کند. بنابراین، بهینه‌سازی سیستم آبیاری بر اساس شیب مزرعه، صرفاً یک مسئله فنی نیست، بلکه مستقیماً به اقتصاد کشاورز و کیفیت محصول نهایی مربوط می‌شود. برای محصولات دیگر مانند لوبیا، درک شیب نیز مهم است؛ به عنوان مثال در بررسی‌هایی درباره حجم بذل لوبیا سفید در هکتار ، همسانی آبیاری یکی از عوامل کلیدی برای رسیدن به ظرفیت ژنتیکی گیاه معرفی شده است. < > پاسخ به سوالات متداول (FAQ) حداکثر شیب مجاز برا"
+      },
+      {
+        "id": 37556,
+        "already_answers_intent": false,
+        "quote_id": "37556:4",
+        "gap_reason": "مقاله 37556 تنها به مقدار بذر توصیه‌شده (۲۲۰ تا ۲۸۰ کیلوگرم در هکتار)، عوامل مؤثر بر تراکم کاشت و راهکارهای بهینه‌سازی مصرف بذر می‌پردازد. هیچ عددی درباره عملکرد برداشت‌شده (bu/acre یا kg/hectare)، دامنه عملکرد گزارش‌شده در آزمون‌های دانشگاهی ایالات متحده، یا تأثیر منطقه اقلیمی و بازارپسند بر عملکرد وجود ندارد. عنوان، مقدمه، بدنه و FAQ مقاله 37556 تماماً حول محور مقدار بذر است و intent موضوع جدید (yield) را پاسخ نمی‌دهد.",
+        "evidence_quote": "ز به تراکم‌های بالاتر باشد تا تعداد غلاف‌های بیشتری تولید شود. در حالی که اگر هدف تولید محصول برای مصرف خوراکی باشد، ممکن است تراکم‌های پایین‌تر نیز کافی باشد. همچنین، نوع مصرف (تازه خوری یا فرآوری) نیز می‌تواند در تعیین میزان بذر مؤثر باشد. مقدار بذر توصیه شده لوبیا سفید در هکتار به طور کلی، مقدار بذر توصیه شده برای لوبیا سفید در هکتار، بین 220 تا 280 کیلوگرم است. این مقدار، بسته به عواملی که در بالا ذکر شد، می‌تواند متفاوت باشد. برای مثال، در ارقام کوچک‌تر و در شرایط آبیاری قطره‌ای، ممکن است نیاز به افزایش این مقدار باشد. در حالی که در ارقام بزرگ‌تر و در خاک‌های حاصلخیز، می‌توان این مقدار را کاهش داد. ویژگی مقدار مقدار بذر توصیه شده 220-280 کیلوگرم در هکتار فاصله بین ردیف‌ها 50-75 سانتی‌متر فاصله بین بوته‌ها 5-7 سانتی‌متر نکته: این مقادیر تخمینی هستند و برای تعیین دقیق مقدار بذر مورد نیاز، بهتر است با کارشناسان کشاورزی مشورت شود. راهکارهای بهینه‌سازی مصرف بذر لوبیا سفید برای کاهش هزینه"
+      }
+    ],
+    "existing_content_sha256": "d1f83d58676b4d9c80d9831e9c4a39da3757c9cdebf7a3a6589dc6c609ce22c2"
+  },
+  "scoped_review_schema_version": 2,
+  "evidence_revision": "white-bean-source-correction-v1"
+}

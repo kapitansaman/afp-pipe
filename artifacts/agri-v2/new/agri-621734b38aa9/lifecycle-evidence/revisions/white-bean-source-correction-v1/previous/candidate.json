@@ -1,0 +1,55 @@
+{
+  "topic_id": "agri-621734b38aa9",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "لوبیا سفید (Phaseolus vulgaris، بازارپسند دانه سفید؛ داده‌ها شامل navy و great northern)، محصول: دانه خشک لوبیا",
+  "slug": "white-bean-yield-hectare-range",
+  "outline": [
+    "تعریف محصول برداشت‌شونده و دامنه عملکرد گزارش‌شده در آزمایش‌های ایالات متحده",
+    "عوامل مؤثر بر عملکرد: بازارپسند، منطقه اقلیمی، تراکم بوته و تاریخ کاشت",
+    "محدودیت تعمیم: داده‌های منطقه‌ای آمریکا و عدم ضمانت عملکرد در ایران"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد لوبیای خشک سفیددر گزارش‌های دانشگاهی آمریکا بسته به بازارپسند و منطقه متفاوت است و دامنه پهنی دیده شده است.",
+      "conditions": "منطقه: آیووا، نبراسکا و نورث داکوتا آمریکا؛ محصول: دانه خشک لوبیا (navy و great northern از بازارپسند دانه سفید Phaseolus vulgaris)؛ واحد: bu/acre و lbs/acre",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد عمومی لوبیای خشک در آیووا حدود ۲۰ تا ۳۰ bushel در آکر گزارش شده است.",
+      "conditions": "منطقه: آیووا، آمریکا；محصول: dry bean (عمومی)；واحد: bu/acre",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": [
+        {
+          "value": "20",
+          "unit_quote": "20 to 30 bushels per acre",
+          "geographic_scope": "Iowa, USA",
+          "product_scope": "Dry bean (general)"
+        },
+        {
+          "value": "30",
+          "unit_quote": "20 to 30 bushels per acre",
+          "geographic_scope": "Iowa, USA",
+          "product_scope": "Dry bean (general)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد به بازارپسند، منطقه اقلیمی و تراکم بوته وابسته است؛ داده‌ها مربوط به مناطق خشک غرب آمریکا هستند و ضمانت عملکرد در ایران ندارند.",
+      "conditions": "منطقه: غرب آمریکا (Great Plains، California، Pacific Northwest)；محصول: white-seeded dry bean；منبع: داده‌های trial آمریکا",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در آزمون‌های نبراسکا، عملکرد navy و great northern در دو محل آزمایشگاهی مختلف تفاوت قابل‌توجهی داشت که نشان‌دهنده وابستگی عملکرد به منطقه و شرایط کشت است.",
+      "conditions": "منطقه: Scottsbluff و Mitchell، نبراسکا؛ محصول: great northern و navy؛ عامل: تفاوت محل آزمایش",
+      "evidence_id": "d3-e7",
+      "numeric_bindings": []
+    }
+  ]
+}
