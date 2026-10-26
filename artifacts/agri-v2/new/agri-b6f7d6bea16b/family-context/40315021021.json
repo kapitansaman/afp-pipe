@@ -1,0 +1,10 @@
+{
+  "family_id": "matrix-pilot-01",
+  "topic_id": "agri-b6f7d6bea16b",
+  "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "title_sha256": "ea0d0b3e5d4037cb614996a1c9e34a195bc9f32064e377024c0ffa42ec652405",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval"
+}
