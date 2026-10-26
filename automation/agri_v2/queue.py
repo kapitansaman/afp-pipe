@@ -2,7 +2,7 @@
 import contextlib,datetime,fcntl,hashlib,json,os,re,tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-DATA=ROOT/'data/agri-v2';OUT=ROOT/'artifacts/agri-v2'
+DATA=Path(os.environ.get('AFP_AGRI_DATA_DIR',str(ROOT/'data/agri-v2')));OUT=Path(os.environ.get('AFP_AGRI_OUT_DIR',str(ROOT/'artifacts/agri-v2')))
 def load_json(path):return json.loads(Path(path).read_text(encoding='utf-8'))
 def atomic_json(path,obj):
  path=Path(path);path.parent.mkdir(parents=True,exist_ok=True)

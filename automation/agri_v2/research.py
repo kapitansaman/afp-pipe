@@ -162,7 +162,7 @@ def build_brief(topic,documents,candidate,review,inventory):
  check_brief(topic,brief)
  return brief
 
-def prepare_one(inventory,client_factory=ModelClient,fetcher=fetch_source,data=DATA,out=OUT):
+def prepare_one(inventory,client_factory=ModelClient,fetcher=fetch_source,data=DATA,out=OUT,only_topic_id=None):
  config=load_json(data/'config.json')
  if not config.get('research_feeder',{}).get('enabled'):return {'status':'research_disabled'}
  from .queue_planner import pending_briefs,buffer_limit
@@ -175,6 +175,7 @@ def prepare_one(inventory,client_factory=ModelClient,fetcher=fetch_source,data=D
  held=config.get('publication_holds',{});chosen=None
  def covered(t):return any(t['crop'] in e['crops'] and t['intent'] in e['intents'] for e in catalog['entries'])
  for topic in sorted(items('new',data),key=lambda t:(not covered(t) if config.get('research_feeder',{}).get('prefer_verified_source_catalog') else False,t.get('priority','P9'),t.get('origin')!='NEW')):
+  if only_topic_id is not None and topic['id']!=only_topic_id:continue
   ident=topic['id'];bp=data/'briefs'/f'{ident}.json';sp=states/f'{ident}.json'
   if ident in held or bp.exists():continue
   old=load_json(sp) if sp.exists() else {}

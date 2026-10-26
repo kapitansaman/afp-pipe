@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-26T04:56:06.644270+00:00",
+  "test_count": 400,
+  "result": "passed",
+  "live_provider_concurrency_15_proven": false,
+  "isolated_mock_worker_concurrency_15_proven": true,
+  "publication_enabled": false,
+  "historical_counters_reset": false
+}

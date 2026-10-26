@@ -1,0 +1,18 @@
+{
+  "repository": "kapitansaman/afp-pipe",
+  "credential_set_id": "afp-pipe-parallel-75-keys-v1",
+  "key_limit": 75,
+  "max_article_workers": 15,
+  "max_text_concurrency": 15,
+  "image_concurrency": 1,
+  "max_text_requests_per_worker": 3,
+  "initial_audit_concurrency": 2,
+  "initial_audit_max_requests": 75,
+  "production_enabled": false,
+  "max_published_posts": 0,
+  "schedule_enabled": false,
+  "rollout": "manual_audit_then_one_research_batch_no_publication",
+  "preserve_prior_attempts_and_holds": true,
+  "extra_secret_slots_76_77": "not_used_without_separate_authorization",
+  "next_gate": "source-ready briefs, separate real image capability proof, isolated draft/publisher tests and explicit production activation"
+}
