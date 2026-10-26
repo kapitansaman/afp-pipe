@@ -1,0 +1,84 @@
+{
+  "topic_id": "agri-c0e160d88554",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "بذر کنجد گونه Sesamum indicum",
+  "slug": "sesame-variety-selection-criteria",
+  "outline": [
+    "دسته‌بندی رقم‌ها: شکستنی در برابر نیمه‌شکستنی و سازگاری با سامانه برداشت",
+    "معیارهای کیفی انتخاب: ارتفاع، شاخه‌دهی، رنگ دانه و محتواى روغن",
+    "سازگاری اقلیمی و دوره رشد: نیاز حرارتی، تحمل خشکی و intolerance به غرقابی",
+    "محدودیت‌های جغرافیایی منابع: کاربرد معیارها صرفاً برای اقلیم‌های مشابه تگزاس/اوکلاهما/کارولینای شمالی"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "رقم‌های کنجد به دو دسته کلی شکستنی و نیمه‌شکستنی تقسیم می‌شوند؛ رقم‌های نیمه‌شکستنی مخصوص برداشت مکانیکی توسعه یافته‌اند.",
+      "conditions": "در منطقه تگزاس و اوکلاهما آمریکا، بر اساس طبقه‌بندی رقم‌های تجاری گزارش‌شده در راهنمای Sesaco و پژوهش‌های دانشگاهی",
+      "evidence_id": "d1-e10",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "رقم‌های شکستنی معمولاً محتوای روغن دانه بیش از ۵۰ درصد دارند اما طعم تلخ دانه بازار مصرف دانه صحیح را محدود می‌کند.",
+      "conditions": "در اقلیم تگزاس آمریکا، بر اساس ارزیابی کیفی رقم‌های شکستنی تجاری",
+      "evidence_id": "d1-e10",
+      "numeric_bindings": [
+        {
+          "value": "50",
+          "unit_quote": "over 50%",
+          "geographic_scope": "Texas, US",
+          "product_scope": "Sesamum indicum seed oil content"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دانه‌های روشن‌رنگ از نظر کیفیت بازاری برتر دانسته می‌شوند.",
+      "conditions": "در طبقه‌بندی کیفی دانه کنجد، بر اساس استاندارد بازار سی‌ام‌ای",
+      "evidence_id": "d1-e7",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "رقم‌های تجاری کنجد به ۹۰ تا ۱۲۰ روز بدون یخبندان نیاز دارند؛ مناطق با انباشت واحدهای گرمایی کمتر به سقف بالاتر دوره رشد نزدیک‌ترند.",
+      "conditions": "در اقلیم‌های تجاری آمریکا، بر اساس نیاز حرارتی رقم‌های کنجد",
+      "evidence_id": "d1-e5",
+      "numeric_bindings": [
+        {
+          "value": "90",
+          "unit_quote": "90 to 120 frost-free days",
+          "geographic_scope": "US commercial production regions",
+          "product_scope": "Sesamum indicum seed"
+        },
+        {
+          "value": "120",
+          "unit_quote": "90 to 120 frost-free days",
+          "geographic_scope": "US commercial production regions",
+          "product_scope": "Sesamum indicum seed"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "رقم‌های نیمه‌شکستنی بهبودیافته کپسولی دارند که تنها در درزهای بالایی کمی باز می‌شوند و پیش از برداشت دانه را از دست نمی‌دهند.",
+      "conditions": "در رقم‌های تجاری Sesaco توسعه‌یافته برای برداشت مکانیکی در تگزاس و اوکلاهما",
+      "evidence_id": "d2-e11",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کنجد به‌طور طبیعی به خشکی مقاوم است و در مناطق کم‌باران که پنبه نیز موفق عمل می‌کند، عملکرد خوبی نشان می‌دهد.",
+      "conditions": "در اقلیم‌های خشک تگزاس و اوکلاهما آمریکا",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کنجد به غرقابی بسیار حساس است و در شرایط خیس ماندن سریع از بین می‌رود؛ therefore انتخاب مزرعه باید از میدان‌های با زهکشی ضعیف پرهیز کند.",
+      "conditions": "در آزمون‌های تولید کنجد کارولینای شمالی و تگزاس آمریکا",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "dropped_facts": [
+    {
+      "index": 1,
+      "reason": "numeric_units_not_in_literal_source"
+    }
+  ],
+  "metadata_repairs": [],
+  "claims_rewritten": false,
+  "scientific_rejection_overridden": false,
+  "independent_review_still_required": true,
+  "original_candidate_sha256": "c1acb17eedb48495d0eae2667a540f28ce000f413748992a157baf227f57413c"
+}

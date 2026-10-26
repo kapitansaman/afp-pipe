@@ -1,0 +1,24 @@
+{
+  "attempts": 1,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "failed",
+      "last_run_id": "40278797955",
+      "started_at": "2026-10-26T06:18:49.753684+00:00",
+      "completed_at": "2026-10-26T06:19:07.563233+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "overlap_review_unbound_or_duplicate"
+      }
+    }
+  ],
+  "status": "failed",
+  "last_run_id": "40278797955",
+  "started_at": "2026-10-26T06:18:49.753684+00:00",
+  "failure": {
+    "kind": "validation",
+    "category": "overlap_review_unbound_or_duplicate"
+  },
+  "completed_at": "2026-10-26T06:19:07.563233+00:00"
+}
