@@ -3,7 +3,7 @@
   "text_model": "agnes-2.5-flash",
   "image_model": "agnes-image-2.5-flash",
   "api_base": "https://apihub.agnes-ai.com/v1",
-  "max_key_slot": 22,
+  "max_key_slot": 30,
   "images_per_article": 2,
   "automatic_generation": false,
   "publication_enabled": false,
@@ -62,7 +62,7 @@
     "max_translation_posts_per_source": 4
   },
   "repository": "kapitansaman/afp-pipe",
-  "credential_set_id": "afp-pipe-22-keys-v1",
+  "credential_set_id": "afp-pipe-30-keys-v1",
   "legacy_one_off_hooks_enabled": false,
   "cutover": {
     "source": "getsalet/nono",
@@ -92,7 +92,15 @@
       "AGNES_API_KEY19": "AGNES_API_KEY_19",
       "AGNES_API_KEY20": "AGNES_API_KEY_20",
       "AGNES_API_KEY21": "AGNES_API_KEY_21",
-      "AGNES_API_KEY22": "AGNES_API_KEY_22"
+      "AGNES_API_KEY22": "AGNES_API_KEY_22",
+      "AGNES_API_KEY23": "AGNES_API_KEY_23",
+      "AGNES_API_KEY24": "AGNES_API_KEY_24",
+      "AGNES_API_KEY25": "AGNES_API_KEY_25",
+      "AGNES_API_KEY26": "AGNES_API_KEY_26",
+      "AGNES_API_KEY27": "AGNES_API_KEY_27",
+      "AGNES_API_KEY28": "AGNES_API_KEY_28",
+      "AGNES_API_KEY29": "AGNES_API_KEY_29",
+      "AGNES_API_KEY30": "AGNES_API_KEY_30"
     },
     "preserve_queue_and_attempts": true
   }

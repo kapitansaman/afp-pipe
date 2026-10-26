@@ -1,4 +1,4 @@
-"""One bounded fresh check of the new 22-key set. Never publishes articles.
+"""One bounded fresh check of the new 30-key set. Never publishes articles.
 All credentials are read only from job environment. Shared provider limits end
 this audit rather than being bypassed by another key. Historical key evidence
 is not reused after repository migration/rotation.
@@ -8,8 +8,8 @@ from pathlib import Path
 from .queue import DATA,OUT,ROOT,load_json,atomic_json,utcnow
 from .healthcheck import SLOTS,TEXT_MODEL,IMAGE_MODEL,API_BASE,post
 from .credential_policy import binding
-ID='afp-pipe-22-keys-v1'
-MAX_KEYS=22
+ID='afp-pipe-30-keys-v1'
+MAX_KEYS=30
 
 def text_result(safe,obj):
  row=dict(safe)
@@ -22,10 +22,12 @@ def text_result(safe,obj):
   except (KeyError,IndexError,TypeError,AttributeError):row['state']='invalid_text_response'
  return {k:v for k,v in row.items() if k in {'state','http_status','latency_ms'}}
 
-def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None):
+def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None,max_image_calls=None):
  env=os.environ if env is None else env;post_fn=post if post_fn is None else post_fn
+ image_budget=MAX_KEYS if max_image_calls is None else max_image_calls
+ if type(image_budget) is not int or not 1<=image_budget<=MAX_KEYS:raise ValueError('Image budget outside explicit limit')
  config=load_json(data/'config.json')
- if config.get('repository')!='kapitansaman/afp-pipe' or config.get('credential_set_id')!=ID or config.get('max_key_slot')!=22:raise ValueError('Exact migrated 22-key configuration required')
+ if config.get('repository')!='kapitansaman/afp-pipe' or config.get('credential_set_id')!=ID or config.get('max_key_slot')!=30:raise ValueError('Exact migrated 30-key configuration required')
  if config.get('publication_enabled') or config.get('automatic_generation'):raise ValueError('Fresh credential setup requires publication paused')
  dest=out/'key-connection'/ID;rp=dest/'report.json'
  if rp.exists():return {'status':'already_reserved','model_calls':0,'post_submissions':0}
@@ -36,13 +38,13 @@ def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None)
    if key in owners:aliases[slot]=owners[key]
    else:owners[key]=slot;unique.append((slot,key))
   slots.append({'slot':slot,'configured':bool(key),'text':{'state':'not_probed' if key else 'missing'},'image':{'state':'not_probed' if key else 'missing'}})
- report={**binding(data),'request_id':ID,'status':'reserved','started_at':utcnow(),'run_id':env.get('GITHUB_RUN_ID'),'configured_slots':sum(x['configured'] for x in slots),'unique_credentials':len(unique),'duplicate_slots':aliases,'max_text_calls':22,'max_image_calls':22,'text_calls':0,'image_calls':0,'cases':[],'post_submissions':0,'wordpress_calls':0,'article_calls':0}
+ report={**binding(data),'request_id':ID,'status':'reserved','started_at':utcnow(),'run_id':env.get('GITHUB_RUN_ID'),'configured_slots':sum(x['configured'] for x in slots),'unique_credentials':len(unique),'duplicate_slots':aliases,'max_text_calls':30,'max_image_calls':image_budget,'text_calls':0,'image_calls':0,'cases':[],'post_submissions':0,'wordpress_calls':0,'article_calls':0}
  atomic_json(rp,report)
  from .progress import update
- update('بررسی تازه اتصال ۲۲ کلید؛ انتشار در مقصد هنوز متوقف است',0,status='health_refresh_required')
- if len(unique)!=22 or report['configured_slots']!=22:
+ update('بررسی تازه اتصال ۳۰ کلید؛ انتشار در مقصد هنوز متوقف است',0,status='health_refresh_required')
+ if len(unique)!=30 or report['configured_slots']!=30:
   report.update(status='configuration_incomplete_or_duplicate',completed_at=utcnow());atomic_json(rp,report);return report
- health={**binding(data),'version':3,'checked_at':utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'slot_limit':22,'configured_slots':22,'unique_credentials_tested':0,'slots':slots,'eligible_text_slots':[],'eligible_image_slots':[],'no_publication':True}
+ health={**binding(data),'version':3,'checked_at':utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'slot_limit':30,'configured_slots':30,'unique_credentials_tested':0,'slots':slots,'eligible_text_slots':[],'eligible_image_slots':[],'no_publication':True}
  byslot={r['slot']:r for r in slots}
  from .runtime_health import record
  record_fn=record if record_fn is None else record_fn
@@ -61,6 +63,7 @@ def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None)
    from .image_key_audit import probe as image_probe
   from .image_key_audit import terminal
   for slot,key in unique:
+   if report['image_calls']>=image_budget:report['status']='bounded_image_check_complete';break
    if circuit_open('image'):report['status']='waiting_image_cooldown';break
    report['image_calls']+=1;atomic_json(rp,report)
    try:row,blob=image_probe(slot,key)
@@ -91,7 +94,7 @@ def run(env=None,post_fn=None,image_probe=None,data=DATA,out=OUT,record_fn=None)
  return report
 
 def main():
- result=run();print(json.dumps({k:v for k,v in result.items() if k not in {'cases','duplicate_slots'}},ensure_ascii=False))
+ result=run(max_image_calls=int(os.environ.get('AFP_IMAGE_PROBE_BUDGET','1')));print(json.dumps({k:v for k,v in result.items() if k not in {'cases','duplicate_slots'}},ensure_ascii=False))
  # A successful audit is not synonymous with ready-for-production.
  return 0 if result.get('eligible_text_slots') and result.get('eligible_image_slots') else 2
 if __name__=='__main__':raise SystemExit(main())

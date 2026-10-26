@@ -11,3 +11,5 @@
 - Content requirements remain unchanged: two shared images, Persian plus Russian/Arabic/Tajik/English, same-language internal links, source validation and critical image checks.
 
 - Active image model changed by owner request to `agnes-image-2.5-flash`. Model-specific capability evidence for 2.1 is not approval for 2.5; production remains paused. Historical audit requests and output records remain unchanged.
+
+- Owner expanded the current set to 30 slots (`AGNES_API_KEY_1` … `_30`), bound as `afp-pipe-30-keys-v1`. Prior 22-key reports remain historical. The live setup run checks text/uniqueness for all 30 and sends at most ONE image request for model 2.5, after any provider cooldown, with no publication. Only individually verified image keys can enter production rotation.

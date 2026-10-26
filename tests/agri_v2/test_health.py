@@ -1,12 +1,12 @@
 import json,unittest
 from automation.agri_v2 import healthcheck as h
 class HealthTests(unittest.TestCase):
- def test_exactly_twenty_two(self):
-  self.assertEqual(len(h.SLOTS),22);self.assertEqual(h.SLOTS[-1],'AGNES_API_KEY22');self.assertNotIn('AGNES_API_KEY23',h.SLOTS)
+ def test_exactly_thirty(self):
+  self.assertEqual(len(h.SLOTS),30);self.assertEqual(h.SLOTS[-1],'AGNES_API_KEY30');self.assertNotIn('AGNES_API_KEY31',h.SLOTS)
  def test_dedup_no_secrets(self):
   calls=[]
   def probe(key):calls.append(key);return {'text':{'state':'healthy'},'image':{'state':'healthy'}}
-  result=h.audit({'AGNES_API_KEY':'TEST_SENTINEL_NEVER_LOG','AGNES_API_KEY2':'TEST_SENTINEL_NEVER_LOG','AGNES_API_KEY23':'IGNORE_ME'},probe)
+  result=h.audit({'AGNES_API_KEY':'TEST_SENTINEL_NEVER_LOG','AGNES_API_KEY2':'TEST_SENTINEL_NEVER_LOG','AGNES_API_KEY31':'IGNORE_ME'},probe)
   self.assertEqual(len(calls),1);self.assertEqual(result['unique_credentials_tested'],1);self.assertEqual(result['slots'][1]['duplicate_of'],'AGNES_API_KEY');self.assertNotIn('TEST_SENTINEL',json.dumps(result));self.assertNotIn('IGNORE_ME',json.dumps(result))
  def test_error_categories(self):
   self.assertEqual(h.classify(401,b'key-reflected-do-not-output'),'invalid_auth');self.assertEqual(h.classify(429,b'quota exhausted'),'quota_limited');self.assertEqual(h.classify(429,b''),'rate_limited');self.assertEqual(h.classify(503),'provider_unavailable')

@@ -1,4 +1,4 @@
-"""First-22-only, capability-gated model client with redacted errors."""
+"""First-30-only, capability-gated model client with redacted errors."""
 import base64,contextlib,io,json,os,urllib.error,urllib.request,urllib.parse,socket,ipaddress
 from .healthcheck import SLOTS,TEXT_MODEL,IMAGE_MODEL,API_BASE,classify,MAX_RESPONSE
 from .queue import age_hours

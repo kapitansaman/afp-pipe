@@ -15,7 +15,7 @@ class AuditTests(unittest.TestCase):
 
  def health(self):return {'checked_at':'2026-10-24T08:28:09+00:00','image_model':a.IMAGE_MODEL,'api_base':a.API_BASE,'slots':[{'slot':s,'text':{'state':'healthy'},'image':{'state':'not_probed'}} for s in a.SLOTS],'eligible_image_slots':['AGNES_API_KEY']}
  def test_unique_first_fifteen_only(self):
-  slots,aliases=a.unique_slots({'AGNES_API_KEY':'a','AGNES_API_KEY2':'b','AGNES_API_KEY8':'a','AGNES_API_KEY23':'c'})
+  slots,aliases=a.unique_slots({'AGNES_API_KEY':'a','AGNES_API_KEY2':'b','AGNES_API_KEY8':'a','AGNES_API_KEY31':'c'})
   self.assertEqual(len(slots),2);self.assertEqual(aliases,{'AGNES_API_KEY8':'AGNES_API_KEY'})
  def test_long_retry_after_preserved(self):self.assertEqual(a.retry_seconds('3600'),3600)
  def test_retry_after_http_date(self):self.assertEqual(a.retry_seconds('Sun, 25 Oct 2026 03:00:00 GMT',1792893600),3600)

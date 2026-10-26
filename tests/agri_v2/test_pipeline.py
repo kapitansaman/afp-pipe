@@ -34,8 +34,8 @@ class PipelineTests(unittest.TestCase):
   r={'checked_at':q.utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'eligible_text_slots':[],'eligible_image_slots':[]}
   with self.assertRaises(CapabilityError):ModelClient(r,{},False)
   with self.assertRaises(CapabilityError):ModelClient(r,{},True)
-  r.update(eligible_text_slots=['AGNES_API_KEY23'])
-  with self.assertRaises(CapabilityError):ModelClient(r,{'AGNES_API_KEY23':'fixture'},True)
+  r.update(eligible_text_slots=['AGNES_API_KEY31'])
+  with self.assertRaises(CapabilityError):ModelClient(r,{'AGNES_API_KEY31':'fixture'},True)
  def test_partial_resume_and_completed_preserved(self):
   b=self.write('brief.json',self.b);inv=self.write('inventory.json',{'source_generated_at':q.utcnow(),'records':[{'id':1,'title':'unrelated','url':'https://example.org/unrelated/','status':'publish'}]});h=self.write('health.json',{});out=self.root/'artifacts';calls={'text':0,'image':0};article=self.article()
   class Fake:
@@ -74,5 +74,5 @@ class PipelineTests(unittest.TestCase):
   snap['content_sha256']='bad';self.write('snap.json',snap)
   with self.assertRaises(ValueError):p.merge_plan(t['id'],target,sp,bp,out)
  def test_configuration_bounded_publication(self):
-  c=q.load_json(q.DATA/'config.json');expected=c.get('cutover',{}).get('status')=='ready_for_production';self.assertEqual(c['publication_enabled'],expected);self.assertEqual(c['automatic_generation'],expected);self.assertEqual(c['max_posts_per_run'],1);self.assertFalse(c['merge_apply_enabled']);self.assertEqual(c['automatic_scope'],'publication_authorized_source_ready_briefs_only');self.assertEqual(c['max_key_slot'],22);self.assertEqual(c['text_model'],TEXT_MODEL);self.assertEqual(c['image_model'],IMAGE_MODEL)
+  c=q.load_json(q.DATA/'config.json');expected=c.get('cutover',{}).get('status')=='ready_for_production';self.assertEqual(c['publication_enabled'],expected);self.assertEqual(c['automatic_generation'],expected);self.assertEqual(c['max_posts_per_run'],1);self.assertFalse(c['merge_apply_enabled']);self.assertEqual(c['automatic_scope'],'publication_authorized_source_ready_briefs_only');self.assertEqual(c['max_key_slot'],30);self.assertEqual(c['text_model'],TEXT_MODEL);self.assertEqual(c['image_model'],IMAGE_MODEL)
 if __name__=='__main__':unittest.main()

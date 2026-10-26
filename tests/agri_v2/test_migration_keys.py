@@ -5,33 +5,46 @@ from automation.agri_v2 import key_connection as k,healthcheck as h,image_transp
 from automation.agri_v2.queue import atomic_json,load_json,utcnow
 class KeyMigrationTests(unittest.TestCase):
  def config(self,data):
-  cfg={'repository':'kapitansaman/afp-pipe','credential_set_id':k.ID,'max_key_slot':22,'publication_enabled':False,'automatic_generation':False}
+  cfg={'repository':'kapitansaman/afp-pipe','credential_set_id':k.ID,'max_key_slot':30,'publication_enabled':False,'automatic_generation':False}
   atomic_json(data/'config.json',cfg);return cfg
  def env(self):return {s:'PRIVATE_FIXTURE_TOKEN_'+str(i) for i,s in enumerate(h.SLOTS)}
  def text(self,*a,**kw):return {'state':'responded','http_status':200},{'model':h.TEXT_MODEL,'choices':[{'message':{'content':'OK'}}]}
- def test_all_twenty_two_secrets_are_mapped_in_every_generator_workflow(self):
+ def test_all_thirty_secrets_are_mapped_in_every_generator_workflow(self):
   root=Path(__file__).resolve().parents[2]
   for p in (root/'.github/workflows').glob('afp-agri*.yml'):
    s=p.read_text()
    if 'AGNES_API_KEY:' not in s:continue
    self.assertNotIn('getsalet/nono',s)
-   for i in range(1,23):self.assertIn('secrets.AGNES_API_KEY_'+str(i)+' }}',s,p.name)
- def test_all_twenty_two_unique_keys_can_be_verified_without_wordpress(self):
+   for i in range(1,31):self.assertIn('secrets.AGNES_API_KEY_'+str(i)+' }}',s,p.name)
+ def test_all_thirty_unique_keys_can_be_verified_without_wordpress(self):
   with tempfile.TemporaryDirectory() as d:
    data=Path(d)/'data';out=Path(d)/'out';self.config(data);calls=[]
    def image(slot,key):calls.append(slot);return {'state':'healthy','http_status':200},b'fixture image bytes'
    with patch('automation.agri_v2.recovery.circuit_open',return_value=False),patch('automation.agri_v2.wordpress.WordPress') as wp:
     result=k.run(self.env(),self.text,image,data,out,lambda *a:None);wp.assert_not_called()
-   self.assertEqual(len(calls),22);self.assertEqual(result['text_calls'],22);self.assertEqual(result['image_calls'],22);self.assertEqual(len(result['eligible_image_slots']),22)
+   self.assertEqual(len(calls),30);self.assertEqual(result['text_calls'],30);self.assertEqual(result['image_calls'],30);self.assertEqual(len(result['eligible_image_slots']),30)
    self.assertFalse(result['production_enabled']);self.assertEqual(result['post_submissions'],0)
    text=json.dumps(result)+json.dumps(load_json(data/'health/latest.json'))
    self.assertNotIn('PRIVATE_FIXTURE_TOKEN',text)
    self.assertEqual(load_json(data/'health/latest.json')['repository'],'kapitansaman/afp-pipe')
+ def test_explicit_single_image_budget_checks_all_text_but_only_one_image(self):
+  with tempfile.TemporaryDirectory() as d:
+   data=Path(d)/'data';out=Path(d)/'out';self.config(data);image=Mock(return_value=({'state':'healthy','http_status':200},b'fixture image bytes'))
+   with patch('automation.agri_v2.recovery.circuit_open',return_value=False):
+    result=k.run(self.env(),self.text,image,data,out,lambda *a:None,max_image_calls=1)
+   self.assertEqual(result['text_calls'],30);self.assertEqual(result['image_calls'],1);image.assert_called_once();self.assertEqual(result['max_image_calls'],1)
+ def test_last_slot_is_included_and_next_is_rejected(self):
+  self.assertEqual(len(h.SLOTS),30);self.assertEqual(h.SLOTS[-1],'AGNES_API_KEY30');self.assertNotIn('AGNES_API_KEY31',h.SLOTS)
+ def test_invalid_budget_rejected_before_calls(self):
+  with tempfile.TemporaryDirectory() as d:
+   data=Path(d)/'data';out=Path(d)/'out';self.config(data);paid=Mock()
+   with self.assertRaises(ValueError):k.run(self.env(),paid,paid,data,out,max_image_calls=31)
+   paid.assert_not_called()
  def test_duplicate_keys_do_not_consume_model_calls(self):
   with tempfile.TemporaryDirectory() as d:
    data=Path(d)/'data';out=Path(d)/'out';self.config(data);env=self.env();env[h.SLOTS[-1]]=env[h.SLOTS[0]];paid=Mock()
    result=k.run(env,paid,paid,data,out,lambda *a:None);self.assertEqual(result['status'],'configuration_incomplete_or_duplicate');paid.assert_not_called()
- def test_missing_twenty_second_key_does_not_consume_model_calls(self):
+ def test_missing_thirtieth_key_does_not_consume_model_calls(self):
   with tempfile.TemporaryDirectory() as d:
    data=Path(d)/'data';out=Path(d)/'out';self.config(data);env=self.env();env.pop(h.SLOTS[-1]);paid=Mock()
    k.run(env,paid,paid,data,out,lambda *a:None);paid.assert_not_called()
@@ -40,7 +53,7 @@ class KeyMigrationTests(unittest.TestCase):
    data=Path(d)/'data';out=Path(d)/'out';self.config(data);image=Mock(return_value=({'state':'provider_unavailable','http_status':503,'provider_code':'image_queue_full'},None))
    with patch('automation.agri_v2.recovery.circuit_open',return_value=False),patch('automation.agri_v2.pilot_resume.defer_provider') as wait:
     result=k.run(self.env(),self.text,image,data,out,lambda *a:None)
-   image.assert_called_once();wait.assert_called_once();self.assertEqual(result['eligible_image_slots'],[]);self.assertEqual(result['text_calls'],22)
+   image.assert_called_once();wait.assert_called_once();self.assertEqual(result['eligible_image_slots'],[]);self.assertEqual(result['text_calls'],30)
  def test_shared_text_limit_stops_before_next_key_and_before_images(self):
   with tempfile.TemporaryDirectory() as d:
    data=Path(d)/'data';out=Path(d)/'out';self.config(data);text=Mock(return_value=({'state':'rate_limited','http_status':429},None));image=Mock()

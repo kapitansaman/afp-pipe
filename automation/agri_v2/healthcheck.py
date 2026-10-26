@@ -10,7 +10,7 @@ def configured_image_model(path=None):
     if model not in SUPPORTED_IMAGE_MODELS:raise ValueError('Unsupported configured image model; fail closed')
     return model
 IMAGE_MODEL=configured_image_model()
-SLOTS=['AGNES_API_KEY']+[f'AGNES_API_KEY{i}' for i in range(2,23)]
+SLOTS=['AGNES_API_KEY']+[f'AGNES_API_KEY{i}' for i in range(2,31)]
 MAX_RESPONSE=18*1024*1024
 
 def now():return datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat()
