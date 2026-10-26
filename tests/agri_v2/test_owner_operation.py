@@ -61,3 +61,12 @@ class OwnerOperationTests(unittest.TestCase):
  def test_unknown_operation_does_not_create_an_unbounded_replay_path(self):
   r=self.req();r['request_id']='ops-97-arbitrary-retry'
   with self.assertRaises(ValueError):op.validate_request(r)
+ def test_grounded_continuation_performs_no_new_health_calls(self):
+  from automation.agri_v2.parallel_pool import SLOTS
+  with tempfile.TemporaryDirectory() as t:
+   d=Path(t)/'data';o=Path(t)/'out';self.health(o);h=load_json(o/'parallel/health/latest.json');h['eligible_text_slots']=SLOTS[:20];atomic_json(o/'parallel/health/latest.json',h)
+   req=self.req();req.update(request_id=op.GROUNDED_ID,max_text_health_calls=0,max_image_health_calls=0);op.validate_request(req)
+   readiness={'gates':{k:{'passed':True} for k in ['fresh_text_capacity','fresh_image_capacity','authenticated_publisher','translation_bridge','lifecycle_enabled']}}
+   with patch.object(op,'load_owner_request',return_value={'request_id':op.GROUNDED_ID,'request':req}),patch('automation.agri_v2.parallel_control.policy'),patch('automation.agri_v2.parallel_control.reserve',return_value={}),patch('automation.agri_v2.production_readiness.run',return_value=readiness),patch('automation.agri_v2.parallel_audit.run') as audit,patch.object(op,'image_capability') as image:
+    r=op.prepare(self.env(),d,o)
+   self.assertEqual(r['status'],'pilot_prerequisites_passed');audit.assert_not_called();image.assert_not_called()

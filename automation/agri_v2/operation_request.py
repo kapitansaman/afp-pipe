@@ -3,6 +3,7 @@ import argparse,json,os,subprocess,urllib.request
 from .queue import DATA,OUT,ROOT,atomic_json,load_json,utcnow,age_hours
 ID='ops-97-readiness-pilot-v1'
 CONTINUATION_ID='ops-97-pilot-citation-v2'
+GROUNDED_ID='ops-97-pilot-grounded-v3'
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -11,7 +12,7 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
  if not isinstance(req,dict) or set(req)!=set(expected)|{'code_revision'} or any(req.get(k)!=v or type(req.get(k)) is not type(v) for k,v in expected.items()):raise ValueError('Exact bounded owner request required')
  sha=req['code_revision']

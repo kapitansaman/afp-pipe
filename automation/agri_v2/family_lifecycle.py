@@ -156,7 +156,11 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
  if stage=='text':
   from .pipeline import article_prompt
   prior=folder/'model-candidate.json'
-  value=client.text(article_prompt(topic,brief),attempts=1);atomic_json(prior,value)
+  if brief.get('review_mode')=='automated_scoped_evidence_review_v1':
+   from .grounded_drafting import generate
+   value=generate(client,topic,brief,folder)
+  else:value=client.text(article_prompt(topic,brief),attempts=1)
+  atomic_json(prior,value)
   article=normalize_article(value,brief);validate_article(article,topic,brief);validate_for_publication(article);atomic_json(folder/'article.json',article);return {'article_validated':True}
  article=article_checked(folder,topic,brief)
  if stage=='article_evidence_review':
@@ -179,7 +183,7 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
 
 def stage_outputs(folder,stage):
  ev=folder/'lifecycle-evidence'
- if stage=='text':return [folder/'model-candidate.json']
+ if stage=='text':return [folder/'model-candidate.json',folder/'grounded-text-candidate.json']
  if stage=='article_evidence_review':return [folder/'article-evidence-review.raw.json']
  if stage=='research_sources':return [ev/'sources.json']
  if stage=='research_extract':return [ev/'candidate-raw.json']
