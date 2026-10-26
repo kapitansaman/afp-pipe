@@ -3,7 +3,7 @@
   "repository": "kapitansaman/afp-pipe",
   "run_id": "40264143661",
   "started_at": "2026-10-26T03:27:41.755749+00:00",
-  "status": "in_progress",
+  "status": "completed",
   "max_image_calls": 12,
   "image_calls": 12,
   "cases": [
@@ -242,8 +242,9 @@
   "post_submissions": 0,
   "production_enabled": false,
   "publication_visual_approval": false,
-  "updated_at": "2026-10-26T03:42:44.951203+00:00",
+  "updated_at": "2026-10-26T03:42:46.377649+00:00",
   "completed_cells": 12,
   "valid_images": 12,
-  "healthy_cells": 12
+  "healthy_cells": 12,
+  "completed_at": "2026-10-26T03:42:46.377627+00:00"
 }
