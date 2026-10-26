@@ -81,3 +81,15 @@ class MatrixPilotTests(unittest.TestCase):
   for key,value in [('max_worker_model_calls',16),('prior_run_id',m.PRIOR_RUN),('enable_schedule',True),('reset_attempts',True)]:
    bad=dict(req);bad[key]=value
    with self.assertRaises(ValueError):op.validate_request(bad)
+ def test_structured_request_is_final_existing_text_attempt_and_14_calls(self):
+  req=self.req();req.update(request_id=m.STRUCTURED_ID,operation='structured-commercial-matrix-text',max_worker_model_calls=14,prior_run_id=m.STRUCTURED_PRIOR_RUN);op.validate_request(req)
+  for key,value in [('max_worker_model_calls',15),('reset_attempts',True),('prior_run_id',m.TEXT_PRIOR_RUN),('max_image_generations',3)]:
+   bad=dict(req);bad[key]=value
+   with self.assertRaises(ValueError):op.validate_request(bad)
+ def test_structured_budget_counts_all_four_original_runs(self):
+  with tempfile.TemporaryDirectory() as td:
+   out=Path(td);runs=[(m.PRIOR_RUN,1,None,None),(m.RECHECK_PRIOR_RUN,5,'existing_content_audit-004','existing_content_overlap_or_uncertain'),(m.TEXT_PRIOR_RUN,3,'text','grounded_paragraph_length_or_duplicate'),(m.STRUCTURED_PRIOR_RUN,1,'text','grounded_section_count_invalid')]
+   for run,calls,stage,category in runs:
+    row={'run_id':run,'status':'pilot_incomplete','matrix_pilot':True,'assigned_count':1,'published_posts':0,'pool':{'model_requests_reserved':calls,'peak_image_leases':0},'results':[{'topic_id':m.TOPIC,'stage':stage,'failure':{'category':category}}]};p=out/'parallel/lifecycle/runs'/run/'report.json';atomic_json(p,row)
+   self.assertEqual(m.budget({'AFP_MATRIX_PILOT_ID':m.STRUCTURED_ID},out=out),14);row['pool']['model_requests_reserved']=2;atomic_json(p,row)
+   with self.assertRaises(ValueError):m.budget({'AFP_MATRIX_PILOT_ID':m.STRUCTURED_ID},out=out)

@@ -30,3 +30,19 @@ class GroundedDraftingTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as td:
    folder=Path(td);p=folder/'lifecycle/text/rejected/1/grounded-text-candidate.json';atomic_json(p,old);original=p.read_bytes();c=Mock();c.text.return_value=v
    g.generate(c,t,b,folder);req=json.loads(c.text.call_args.args[0]);issues=req['prior_rejection_diagnostics'];self.assertTrue(any(x['issue']=='unrelated_CJK_script' for x in issues));self.assertEqual(p.read_bytes(),original);self.assertEqual(load_json(folder/'grounded-text-candidate.json'),v)
+ def test_provider_schema_matches_renderer_and_approved_fact_ids(self):
+  import re
+  t,b,v=self.setup();schema=g.output_schema(b);self.assertEqual(set(schema['required']),{'sections','excerpt','faq'});self.assertFalse(schema['additionalProperties']);section=schema['properties']['sections'];self.assertEqual((section['minItems'],section['maxItems']),(4,4));paragraph=section['items']['properties']['paragraphs'];self.assertEqual((paragraph['minItems'],paragraph['maxItems']),(2,2));self.assertEqual(paragraph['items']['properties']['fact_ids']['items']['enum'],['f0']);pattern=paragraph['items']['properties']['text']['pattern'];self.assertIsNone(re.fullmatch(pattern,' '.join(['واژه']*49)));self.assertIsNotNone(re.fullmatch(pattern,' '.join(['واژه']*50)));self.assertIsNotNone(re.fullmatch(pattern,' '.join(['واژه']*160)));self.assertIsNone(re.fullmatch(pattern,' '.join(['واژه']*161)))
+ def test_wrapped_shape_rejected_and_nested_errors_reported_not_accepted(self):
+  t,b,v=self.setup();v.pop('excerpt');v['sections'][0]['paragraphs'][0]['text']=' '.join(['واژه']*47);wrapped={'content':'rejected duplicate prose','schema':v};issues=g.rejection_diagnostics(wrapped);self.assertTrue(any(r['issue']=='wrong_top_level_fields' for r in issues));self.assertTrue(any(r['issue']=='excerpt_missing' for r in issues));self.assertTrue(any(r.get('word_count')==47 for r in issues))
+  with self.assertRaisesRegex(ValueError,'Structured grounded article required'):g.render(wrapped,t,b)
+ def test_generate_requests_provider_schema_once_and_no_fallback_on_rejection(self):
+  import tempfile
+  from pathlib import Path
+  from unittest.mock import Mock
+  from automation.agri_v2.queue import load_json
+  t,b,v=self.setup();c=Mock();c.text.side_effect=ValueError('provider schema rejected')
+  with tempfile.TemporaryDirectory() as td:
+   folder=Path(td)
+   with self.assertRaisesRegex(ValueError,'provider schema rejected'):g.generate(c,t,b,folder)
+   self.assertEqual(c.text.call_count,1);self.assertEqual(c.text.call_args.kwargs['response_schema'],g.output_schema(b));self.assertFalse(load_json(folder/'grounded-text-request-contract.json')['silent_fallback']);self.assertFalse((folder/'article.json').exists())
