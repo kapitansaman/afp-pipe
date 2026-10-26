@@ -1,0 +1,23 @@
+{
+  "request_id": "afp-pipe-source-scout-probe-v1",
+  "run_id": "40269834493",
+  "status": "needs_review",
+  "started_at": "2026-10-26T04:35:54.057295+00:00",
+  "model": "agnes-2.5-flash",
+  "max_text_calls": 1,
+  "model_calls": 1,
+  "topic_id": "agri-41a7470145cb",
+  "topic_title": "نگهداری کدو آجیلی پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات",
+  "image_calls": 0,
+  "wordpress_calls": 0,
+  "published_posts": 0,
+  "queue_attempts_changed": false,
+  "production_enabled": false,
+  "provider": {
+    "state": "responded",
+    "http_status": 200,
+    "latency_ms": 5468
+  },
+  "reason": "source_scout_scope_requires_review",
+  "completed_at": "2026-10-26T04:36:01.770479+00:00"
+}
