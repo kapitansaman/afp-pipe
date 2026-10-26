@@ -32,7 +32,7 @@ class ScoutTests(unittest.TestCase):
    self.assertEqual(len(result),2);self.assertEqual(c.text.call_args.kwargs,{'attempts':1})
    self.assertFalse(load_json(p/'ev/source-scout-report.json')['publication_authorized'])
  def test_unknown_duplicate_single_institution_or_scope_failure_blocks(self):
-  for d,reason in [(decision(['s0','invented']),'unknown'),(decision(['s0','s0']),'duplicate'),(decision(['s0']),'independent'),(decision(match=False),'scope')]:
+  for d,reason in [(decision(['s0','invented']),'unknown'),(decision(['s0','s0']),'duplicate'),(decision([]),'independent'),(decision(match=False),'scope')]:
    with self.subTest(reason=reason):
     c=Mock();c.text.return_value=d
     with self.assertRaisesRegex(ScoutBlocked,reason):select({'id':'x'},[],[doc(U),doc(V)],c,research.source_host)

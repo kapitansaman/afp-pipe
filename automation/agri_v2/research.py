@@ -133,8 +133,8 @@ def validate_evidence(topic,candidate,documents):
   if not all(isinstance(x,str) for x in [q,claim,conditions]) or len(q)<80 or len(claim)<20 or len(conditions)<15:raise ResearchBlocked('fact_fields_missing')
   if clean(q) not in by_url[f['source_url']]['text']:raise ResearchBlocked('quote_not_in_fetched_source')
   if numbers(claim+' '+conditions):raise ResearchBlocked('numeric_recommendation_requires_review')
- hosts={source_host(f['source_url']) for f in facts}
- if len({'.'.join(h.split('.')[-2:]) for h in hosts})<2:raise ResearchBlocked('two_independent_institutions_required')
+ from .source_policy import assess
+ if not assess([{'url':f['source_url']} for f in facts],source_host)['satisfied']:raise ResearchBlocked('university_or_two_independent_institutions_required')
  return facts
 
 def normalize_review(value):
@@ -163,6 +163,9 @@ def build_brief(topic,documents,candidate,review,inventory):
  if not isinstance(slug,str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',slug) or len(slug)>100:raise ResearchBlocked('invalid_research_slug')
  if any(norm(r['title'])==norm(topic['title']) or urllib.parse.urlsplit(r['url']).path.rstrip('/').split('/')[-1]==slug for r in inventory['records']):raise ResearchBlocked('existing_title_or_slug')
  brief={'topic_id':topic['id'],'title':topic['title'],'slug':slug,'review_mode':MODE,'human_agronomy_review_done':False,'agronomy_reviewer':None,'editor':'Automated source extraction + separate AI evidence/overlap review; not human agronomist approval','reviewed_at':utcnow(),'novelty_note':review['novelty_reason'],'source_scope_limitations':review['source_scope_limitations'],'approved_for_draft':True,'semantic_review_done':True,'overlap_review_done':True,'sources_verified':True,'publish_authorized':True,'owner_authorization':'Owner requested automatic research-to-publication feeder in this session; one post per scheduled cycle, qualitative source-grounded scope only.','outline':candidate['outline'],'sources':sources,'approved_facts':facts,'evidence_validation_version':1,'inventory_generated_at':inventory['source_generated_at']}
+ from .source_policy import assess,disclose
+ brief['source_policy']=assess(sources,source_host)
+ brief['source_scope_limitations']=disclose(brief['source_scope_limitations'],brief['source_policy'])
  check_brief(topic,brief)
  return brief
 

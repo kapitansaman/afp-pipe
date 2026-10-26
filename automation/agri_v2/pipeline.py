@@ -49,7 +49,9 @@ def check_brief(topic,brief):
  if auto_review:
   from .research import source_host,clean
   if brief.get('evidence_validation_version')!=1:raise ValueError('Evidence validation required')
-  if len({'.'.join(source_host(s['url']).split('.')[-2:]) for s in sources})<2:raise ValueError('Independent institutions required')
+  from .source_policy import assess
+  used={f.get('source_url') for f in brief['approved_facts']}
+  if not assess([s for s in sources if s['url'] in used],source_host)['satisfied']:raise ValueError('University or independent institutions required')
   by_url={s['url']:s for s in sources}
   for f in brief['approved_facts']:
    source=by_url.get(f.get('source_url'),{});q=f.get('evidence_quote','')
@@ -59,7 +61,7 @@ def check_brief(topic,brief):
   from .scoped_research import verify_brief
   verify_brief(brief)
  elif ai_review:
-  if len(sources)<2 or any(urlparse(s['url']).hostname not in {'www.canr.msu.edu','vegetables.wsu.edu','www.extension.iastate.edu'} for s in sources):raise ValueError('AI-only pilot requires vetted university sources')
+  if not sources or any(urlparse(s['url']).hostname not in {'www.canr.msu.edu','vegetables.wsu.edu','www.extension.iastate.edu'} for s in sources):raise ValueError('AI-only pilot requires vetted university sources')
   if numbers(' '.join(f.get('claim','') for f in brief['approved_facts'])):raise ValueError('AI-only pilot cannot approve numeric recommendations')
  allowed={s['url'] for s in sources}
  for f in brief['approved_facts']:

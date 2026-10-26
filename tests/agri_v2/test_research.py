@@ -39,8 +39,9 @@ class ResearchTests(unittest.TestCase):
  def test_uncertain_overlap_is_not_permission(self):
   d,c,r,i=fixtures();r['overlap_decision']='uncertain'
   with self.assertRaises(research.ResearchBlocked):research.build_brief(TOPIC,d,c,r,i)
- def test_same_institution_twice_is_not_independent(self):
-  d,c,r,i=fixtures();d[1]['url']='https://www.extension.msu.edu/beans';c['facts'][1]['source_url']=d[1]['url'];c['facts'][3]['source_url']=d[1]['url']
+ def test_same_nonuniversity_institution_twice_is_not_independent(self):
+  d,c,r,i=fixtures();d[0]['url']='https://usda.gov/beans';d[1]['url']='https://www.usda.gov/beans'
+  for n,f in enumerate(c['facts']):f['source_url']=d[n%2]['url']
   with self.assertRaisesRegex(research.ResearchBlocked,'independent'):research.validate_evidence(TOPIC,c,d)
  def test_conflicting_slug_blocks(self):
   d,c,r,i=fixtures();i['records'][0]['url']='https://navar-abyari.ir/bean-maturity-check/'
