@@ -1,11 +1,11 @@
 {
   "version": 1,
   "status": "publication_disabled",
-  "stage": "آزمون مدل تصویر ۲٫۵: خطای 503 image_queue_full؛ ۳۰ کلید یکتا، ۲۷ کلید متن تأییدشده، صفر کلید تصویر؛ انتشار خاموش است",
+  "stage": "اتصال وردپرس جدید تأیید شد؛ ۳۰ کلید متصل، مدل تصویر ۲٫۵ هنوز بدون خروجی تأییدشده است؛ انتشار خودکار خاموش",
   "percent": 0,
   "topic_id": "",
   "topic_title": "",
-  "updated_at": "2026-10-26T02:04:27.452920+00:00",
+  "updated_at": "2026-10-26T03:17:50.720385+00:00",
   "run_id": "40255300424",
   "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40255300424",
   "schedule_cron": "*/5 * * * *",

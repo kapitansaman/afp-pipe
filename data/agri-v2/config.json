@@ -69,7 +69,7 @@
     "source_paused": true,
     "source_pause_commit": "dea2cc16ae238a0f923931f9d936e025647d1dc3",
     "source_schedule_pause_commit": "6da762c20d81ab797949f42c46a73b5f2e9a926f",
-    "status": "awaiting_wordpress_secrets_and_fresh_key_capabilities",
+    "status": "awaiting_fresh_image_capability",
     "secrets_mapping": {
       "AGNES_API_KEY": "AGNES_API_KEY_1",
       "AGNES_API_KEY2": "AGNES_API_KEY_2",
@@ -102,7 +102,8 @@
       "AGNES_API_KEY29": "AGNES_API_KEY_29",
       "AGNES_API_KEY30": "AGNES_API_KEY_30"
     },
-    "preserve_queue_and_attempts": true
+    "preserve_queue_and_attempts": true,
+    "wordpress_auth_verified": true
   },
   "image_key_rotation": {
     "enabled": true,

@@ -1,0 +1,22 @@
+{
+  "repository": "kapitansaman/afp-pipe",
+  "checked_at": "2026-10-26T03:17:50.720385+00:00",
+  "app_name": "AFP pipe generator 2026-10-26",
+  "wordpress_auth_verified": true,
+  "user_id": 1,
+  "roles": [
+    "administrator"
+  ],
+  "can_publish": true,
+  "can_upload_media": true,
+  "secrets_registered": [
+    "AFP_WP_BASE_URL",
+    "AFP_WP_USERNAME",
+    "AFP_WP_APP_PASSWORD"
+  ],
+  "post_submissions": 0,
+  "media_uploads": 0,
+  "read_only_auth_check": true,
+  "production_enabled": false,
+  "secret_values_included": false
+}
