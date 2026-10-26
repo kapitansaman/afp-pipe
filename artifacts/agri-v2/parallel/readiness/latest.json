@@ -1,6 +1,6 @@
 {
   "status": "readiness_blocked",
-  "checked_at": "2026-10-26T09:22:00.865748+00:00",
+  "checked_at": "2026-10-26T11:27:02.976310+00:00",
   "technical_ready": false,
   "blockers": [
     "scoped_rollout_released"
@@ -54,7 +54,7 @@
     {
       "family_id": "family-01",
       "topic_id": "agri-b6ffe49a4638",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -62,7 +62,7 @@
     {
       "family_id": "family-02",
       "topic_id": "agri-7736a471e8c1",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -70,7 +70,7 @@
     {
       "family_id": "family-03",
       "topic_id": "agri-934dd1366a8b",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -78,7 +78,7 @@
     {
       "family_id": "family-04",
       "topic_id": "agri-3ab6116ba6cf",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -94,7 +94,7 @@
     {
       "family_id": "family-06",
       "topic_id": "agri-ee13684b7f1a",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -102,7 +102,7 @@
     {
       "family_id": "family-07",
       "topic_id": "agri-1f58a0e82783",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -112,13 +112,13 @@
       "topic_id": "agri-c0e160d88554",
       "next_stage": "research_review",
       "reason": null,
-      "attempts": 2,
-      "retry_exhausted": false
+      "attempts": 3,
+      "retry_exhausted": true
     },
     {
       "family_id": "family-09",
       "topic_id": "agri-e7dcf0bf2ffd",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -126,7 +126,7 @@
     {
       "family_id": "family-10",
       "topic_id": "agri-a83aaf27045f",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -134,7 +134,7 @@
     {
       "family_id": "family-11",
       "topic_id": "agri-3aec9f066bb5",
-      "next_stage": "existing_content_audit-003",
+      "next_stage": "existing_content_audit-004",
       "reason": null,
       "attempts": 1,
       "retry_exhausted": false
@@ -150,7 +150,7 @@
     {
       "family_id": "family-13",
       "topic_id": "agri-dd97e1add9df",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -158,7 +158,7 @@
     {
       "family_id": "family-14",
       "topic_id": "agri-f5f2d5ed4de0",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -166,7 +166,7 @@
     {
       "family_id": "family-15",
       "topic_id": "agri-2bffca9fad0a",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -174,7 +174,7 @@
     {
       "family_id": "family-16",
       "topic_id": "agri-7dd8dae22417",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -182,7 +182,7 @@
     {
       "family_id": "family-17",
       "topic_id": "agri-d52cdebf818e",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -190,15 +190,15 @@
     {
       "family_id": "family-18",
       "topic_id": "agri-abd5d9f00442",
-      "next_stage": "research_sources",
+      "next_stage": "existing_content_audit-000",
       "reason": null,
-      "attempts": 0,
+      "attempts": 1,
       "retry_exhausted": false
     },
     {
       "family_id": "family-19",
       "topic_id": "agri-681d9e957593",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -206,7 +206,7 @@
     {
       "family_id": "family-20",
       "topic_id": "agri-15439ad51313",
-      "next_stage": "research_sources",
+      "next_stage": "research_validate_saved",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
