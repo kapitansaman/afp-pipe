@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-26T05:47:21.949164+00:00",
+  "results": [
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+      "status": "fetched",
+      "chars": 10853,
+      "format": "institutional_html",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/f772c9d399ebe391fa6b97174e96f95834daba385d029b70b6535f9d5d6b766e.json",
+      "sha256": "65bfdd4779d4fe313ef55af8ae3f839a5128f54e572785ff9feba4c78a55785f"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management",
+      "status": "fetched",
+      "chars": 23678,
+      "format": "institutional_html",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/40669e2f384fe911327ad9c54213e8717c779aaabe9521a53840af45bb6c346f.json",
+      "sha256": "f835c08e655afc837aed87d2d1c60d96e91bba85f60cd45bc19f6331dae38452"
+    },
+    {
+      "url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+      "status": "fetched",
+      "chars": 24000,
+      "format": "institutional_pdf_text",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/60754cca3fba969ed17f8f56bd756b7fe9a9ee9e972e03fff387755b5b4118c2.json",
+      "sha256": "c82970913f36842279a469d49e4d25febb2aacc160e0ff3ec9d7dd6dd7cd9495"
+    },
+    {
+      "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1766&context=extensionhist",
+      "status": "unavailable",
+      "category": "scoped_source_http_403"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Lentil.aspx",
+      "status": "fetched",
+      "chars": 17036,
+      "format": "institutional_html",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/b352d627cec6f538fe866a05e63edd829207356aa0f78abcef39789580e92faa.json",
+      "sha256": "ebe8f6e9c1ed088b9a4efa57843fe7657898c14de0439d8cae04562d596a18c5"
+    },
+    {
+      "url": "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Pulses/USADryPeaCouncil%20FactSheet.pdf",
+      "status": "fetched",
+      "chars": 24000,
+      "format": "institutional_pdf_text",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/df34873a8bbdc152cdd7dfd367744c0be17a51bef893f9142b5d02adcdf91c92.json",
+      "sha256": "3004f56edc3d299631def243cef4e2eddf9868541173b5c1ff3125a03e0ed54b"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417475/",
+      "status": "fetched",
+      "chars": 24000,
+      "format": "institutional_html",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/57ed6db4206024a3c53fed8d792a87e4fc27c4a3ba686ebe9566de80dfca9c14.json",
+      "sha256": "f1a7899d760e10dc77b86068bcc1eb8d117b2ea87ea048a862e2e05eda5fe9e6"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2025-05/Common%20Vetch%20Cover%20Crop%20Fact%20Sheet.pdf",
+      "status": "unavailable",
+      "category": "scoped_source_size_or_status"
+    },
+    {
+      "url": "https://cucurbitbreeding.wordpress.ncsu.edu/watermelon-breeding/cultivar-types/",
+      "status": "fetched",
+      "chars": 1654,
+      "format": "institutional_html",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/b1e2a0c3952fa7eb8188d5ff1e27b13df96fbf8ae48a57eac67e004a06c2ea3e.json",
+      "sha256": "49e9a0e2e05cde656a9e5b1aa9aee55140dc496c3dc70897433d6ccb96fafd88"
+    },
+    {
+      "url": "https://mcgregorlab.uga.edu/files/2020/02/Paudel-2019-Egusi.pdf",
+      "status": "fetched",
+      "chars": 24000,
+      "format": "institutional_pdf_text",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/a4dcf46db28c9842e2c371453609f8f12cb57513a2323f1eac232dfc223927dd.json",
+      "sha256": "822662b218dfb550faac30ea2c5024b3fe6ba61d750b8134457b508baa78fa24"
+    }
+  ]
+}

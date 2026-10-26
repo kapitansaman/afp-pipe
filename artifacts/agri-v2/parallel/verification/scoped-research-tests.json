@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-26T05:52:35.142867+00:00",
+  "regression_tests": 459,
+  "new_scope_and_fetch_tests": 18,
+  "result": "passed",
+  "paid_requests_in_unit_tests": 0,
+  "wordpress_writes": 0,
+  "numeric_claims_require_literal_evidence": true,
+  "independent_review_not_human_approval": true,
+  "full_existing_content_audit_required": true,
+  "research_only_rollout": true
+}

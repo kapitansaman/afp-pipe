@@ -25,7 +25,7 @@ def existing_document(post,expected_id,site):
  if len(text)<100:raise TrialValidation('existing_article_text_insufficient')
  return {'id':expected_id,'url':post['link'],'title':clean(html.unescape(title)),'text':text,'text_truncated':cut,'sha256':hashlib.sha256(text.encode()).hexdigest(),'fetched_at':utcnow(),'evidence_role':'existing_site_content_for_overlap_only_not_independent_agronomy_source'}
 
-def collect_existing(topics,inventory,wp,out=OUT):
+def collect_existing(topics,inventory,wp,out=OUT,request_id=None):
  public_ids={r['id'] for r in inventory['records']};ids=list(dict.fromkeys(i for t in topics for i in t.get('related_existing_ids',[])))
  if len(ids)>90:raise TrialValidation('existing_content_trial_budget_exceeded')
  def fetch(i):
@@ -41,7 +41,7 @@ def collect_existing(topics,inventory,wp,out=OUT):
   refs=t.get('related_existing_ids',[])
   bundle={'topic_id':t['id'],'family_id':t['family_id'],'related_ids':refs,'documents':[rows[i]['document'] for i in refs if rows[i].get('status')=='fetched'],'unavailable':[rows[i] for i in refs if rows[i].get('status')!='fetched'],'fetched_at':utcnow()}
   result[t['id']]=bundle
-  atomic_json(out/'parallel/trials'/ID/'inputs'/(t['id']+'.json'),bundle)
+  atomic_json(out/'parallel/trials'/(request_id or ID)/'inputs'/(t['id']+'.json'),bundle)
  return result
 
 def validate_diagnostic(value,topic,family,bundle):

@@ -1,0 +1,211 @@
+{
+  "checked_at": "2026-10-26T05:42:04.066922+00:00",
+  "results": [
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "status": "fetched",
+      "canonical": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "chars": 14868,
+      "sha256": "d1938e87e68f76dfbc70a4e3acebb62b52202d5eccc1ea120df7d6aad1348498",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/b9cd138a646f608df0a3eaafa90e279c31f99332c8078804b64742fcc5e5c403.json"
+    },
+    {
+      "url": "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
+      "status": "fetched",
+      "canonical": "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
+      "chars": 1040,
+      "sha256": "d9684d874481a995de78e47cb7655818ce3d058c534ca598a3ff96a0f0df9f25",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/a13bfa35984cf6067b1b351252bd7f838f0c815840a6831c394b78fa96faf607.json"
+    },
+    {
+      "url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+      "status": "fetched",
+      "canonical": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+      "chars": 9689,
+      "sha256": "f5d617b7797fa049d242ffb38ba8543519345abb85e263813ce96493d1bdd93b",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/edccd40719ad432c27e55455185468f1c4d1886e989d6b3e86d0b818a1f4f3de.json"
+    },
+    {
+      "url": "https://www.canr.msu.edu/news/the_importance_of_first_cutting_alfalfa_quality_versus_yield",
+      "status": "unavailable",
+      "category": "ResearchBlocked",
+      "http_status": null
+    },
+    {
+      "url": "https://extension.umn.edu/forage-harvest-and-storage/when-harvest-alfalfa",
+      "status": "unavailable",
+      "category": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "url": "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
+      "status": "fetched",
+      "canonical": "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
+      "chars": 4598,
+      "sha256": "212ad067a842de6d11a1dcf711b40eb7854f9cd34f5f086bea7b6ae77b6ad50d",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/54c836564b5c795f2ca1ee33450bd6ac0698d9ee7cddb37d4a059435a34f7901.json"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+      "status": "fetched",
+      "canonical": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+      "chars": 7082,
+      "sha256": "634b616f8501a8674b78fc4b03a523847290af0795c22fef06a3f77a57b0f946",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/a179ae7709842cd8040b00aa0c6163d67af7e1dc20ad4eb621b322f95819fc4a.json"
+    },
+    {
+      "url": "https://fieldreport.caes.uga.edu/publications/C527/commercial-squash-production",
+      "status": "fetched",
+      "canonical": "https://fieldreport.caes.uga.edu/publications/C527/commercial-squash-production/",
+      "chars": 16783,
+      "sha256": "e0c4366dbbdff24e109f898a4a1d42121309aad70c1b33c86e1dd437dc64586e",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/d61b2fa6d01707b2f741f143a0cbe67a6ad9c100d5ecd5c788906cdf51c431ba.json"
+    },
+    {
+      "url": "https://content.ces.ncsu.edu/sesame-production-fact-sheet",
+      "status": "fetched",
+      "canonical": "https://content.ces.ncsu.edu/sesame-production-fact-sheet",
+      "chars": 20422,
+      "sha256": "616ab26d4b0c34d6e65b912505461e98df2e5cf13b41c3560fc76eb1e7ead9b7",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/92d46fffab4b626f0df347b1cd00468ad8020a4ac8eef852fb688955da05a058.json"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Sesame.aspx",
+      "status": "fetched",
+      "canonical": "https://corn.agronomy.wisc.edu/Crops/Sesame.aspx",
+      "chars": 14792,
+      "sha256": "1f8db9db8b03c748a0c5fce69f1b579b89daa49f731b31f79a4f2a5141426bd3",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/90cbc875de0750cf7f3b5e0e5e6f3165f43000108b76f2288ef3f0a08525d411.json"
+    },
+    {
+      "url": "https://sanangelo.tamu.edu/agronomy/agronomy-publications/sesame-production-guide",
+      "status": "fetched",
+      "canonical": "https://sanangelo.tamu.edu/agronomy/agronomy-publications/sesame-production-guide/",
+      "chars": 24000,
+      "sha256": "2779c72e997372ab29ca8f9520752987873149d108a492fe801394336655fe5e",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/bbb23aa9463c419b07d0b96d626c504ac15f86fe0cab8eb4f26b6febe7527497.json"
+    },
+    {
+      "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+      "status": "fetched",
+      "canonical": "https://extension-store.montana.edu/montguides/chickpea-production",
+      "chars": 24000,
+      "sha256": "711d4df1a005e65357fe2dd7a583a4b95b91b59c6e39e417bfa4aa9b08f40d8c",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/0a2b298b761654b46bb8e5abe9f43923b9530aeb7c743982ff2a21b7e355c1be.json"
+    },
+    {
+      "url": "https://digitalcommons.unl.edu/extensionhist/1767/",
+      "status": "fetched",
+      "canonical": "https://digitalcommons.unl.edu/extensionhist/1767/",
+      "chars": 2296,
+      "sha256": "f10adda1cffb5e3a7db5ce209f9939565179d7360ec9be8fef2a7529c6f12ab9",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/0359379ae76cdba6868780fb3758bae587bec935163b9d3b6908b5018189955a.json"
+    },
+    {
+      "url": "https://www.ndsu.edu/agriculture/extension/publications/field-pea-production",
+      "status": "fetched",
+      "canonical": "https://www.ndsu.edu/agriculture/extension/publications/field-pea-production",
+      "chars": 24000,
+      "sha256": "499d95ad38d555b0e986fd065f46585372a960d43aca05f9eb3c6590cba7927d",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/c8a563d1dc69b091b5273ea081ea985d7f6eceb04467b0f0b523447f8dd0aed6.json"
+    },
+    {
+      "url": "https://sarep.ucdavis.edu/covercrop/fieldpea",
+      "status": "unavailable",
+      "category": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "url": "https://extension.msstate.edu/agriculture/forages/legumes/common-vetch-vicia-sativa",
+      "status": "fetched",
+      "canonical": "https://extension.msstate.edu/agriculture/forages/legumes/common-vetch-vicia-sativa",
+      "chars": 5555,
+      "sha256": "4e3e5014ab6e97cfba4359857bbced3115d02c4c759deaa4ea336956586649f4",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/07319affa3bbb5481bc64979ebae8a40272f484e5afeb35a077275d7176512e4.json"
+    },
+    {
+      "url": "https://sarep.ucdavis.edu/covercrop/commonvetch",
+      "status": "unavailable",
+      "category": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7316993/",
+      "status": "fetched",
+      "canonical": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7316993/",
+      "chars": 24000,
+      "sha256": "761c9f9e0f78f08c748585afa436040286d6f45dcc0d9e23a705a122f162c5d8",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/e989d265bfadcd603d33a2b87abf48e6eefaef5b475620d9764d308ef87af955.json"
+    },
+    {
+      "url": "https://extension.psu.edu/tomato-production",
+      "status": "fetched",
+      "canonical": "https://extension.psu.edu/tomato-production",
+      "chars": 20594,
+      "sha256": "7853724f706435de5b25a73d43c3da67f53387288cab052556968f99a23f125e",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/52d9e63e13d1202d4b116dfbfa1ed70930e8abbca70e58f5d8f02d034bf14385.json"
+    },
+    {
+      "url": "https://ask.ifas.ufl.edu/publication/CV137",
+      "status": "fetched",
+      "canonical": "https://ask.ifas.ufl.edu/publication/CV137",
+      "chars": 24000,
+      "sha256": "20004b84df6766fb5208245b97dabfb696f86d25aa414f4f8f0a3365507521e7",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/0771351b7e7c6135b79a9c426966b95abfb8e02e26b50e78ffbae0b5e201fe9b.json"
+    },
+    {
+      "url": "https://extension.illinois.edu/gardening/tomato",
+      "status": "fetched",
+      "canonical": "https://extension.illinois.edu/gardening/tomato",
+      "chars": 24000,
+      "sha256": "1b5e2c9441ae1c6250d3c3d30d94cb59b8e6bf3d4143bda9dc2299be90e36bb7",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/66c30d9f23c2e6cd035b46ca079296ee79fc0f062f6bcd1c22e1414bfbe955e5.json"
+    },
+    {
+      "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+      "status": "fetched",
+      "canonical": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+      "chars": 11512,
+      "sha256": "a8319f00be3df3ca5ec885f1bb40fc91d521c65fea7acde1913a960c8c569dc2",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/106f0123e39728ad67ade688f056f17049016dba4454c621fd7a446beb972e2a.json"
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+      "status": "fetched",
+      "canonical": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+      "chars": 8032,
+      "sha256": "6d670e2634744980c60402c36d7541d1ea0a0c3db439cea3379ae1744a6b24e3",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/1ace80002c5217a1984123ad75ce6c649c993c3ce54cae8ccc9e0f3bc51def65.json"
+    },
+    {
+      "url": "https://www.hort.purdue.edu/newcrop/CropFactSheets/lentil.html",
+      "status": "fetched",
+      "canonical": "https://www.hort.purdue.edu/newcrop/CropFactSheets/lentil.html",
+      "chars": 22943,
+      "sha256": "9bf91d31d8f016676154b143ebb5eefd204ff2eb805c493ed0d62dbdca8fd2e1",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/f95cbf4b78e8ab7b76f57ad3c6dc2a89a691b078268be8af0b81cb1151518e3c.json"
+    },
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/lentil",
+      "status": "unavailable",
+      "category": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "url": "https://corn.aae.wisc.edu/Crops/Mungbean.aspx",
+      "status": "fetched",
+      "canonical": "https://corn.aae.wisc.edu/Crops/Mungbean.aspx",
+      "chars": 17243,
+      "sha256": "0c622ef5c15696f82050d48734addfe7d4ffc9a67342c307f1607980e2302583",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/2917d98e6a7f9fe7d18bf2d79360a637ead052b1841dabc01b41fe195aeb6fb9.json"
+    },
+    {
+      "url": "https://www.hort.purdue.edu/newcrop/afcm/mungbean.html",
+      "status": "fetched",
+      "canonical": "https://www.hort.purdue.edu/newcrop/afcm/mungbean.html",
+      "chars": 16132,
+      "sha256": "5c5e6fe6fb3535f7a2581feb107a5d3d924e45d1c41d699febc358837c7daf0a",
+      "path": "artifacts/agri-v2/parallel/source-unblock/documents/bc483d881de9a76984909c33e079c1d5f92fbdb09f964e9f7393406fbea9b011.json"
+    }
+  ]
+}

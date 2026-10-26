@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "checked_at": "2026-10-26T05:47:21.948029+00:00",
+  "verification": "Actually fetched institutional HTML; leads only, not fact or publication approval. Scope-sensitive review remains mandatory.",
+  "entries": [
+    {
+      "crops": [
+        "لوبیا قرمز",
+        "لوبیا سفید"
+      ],
+      "intents": [
+        "yield"
+      ],
+      "scope": "Common dry edible bean classes; kidney and white/navy are not interchangeable cultivars. US trial observations only, never an Iranian yield promise. Keep market class, region, harvest moisture and units explicit.",
+      "urls": [
+        "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+        "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
+        "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean"
+      ]
+    },
+    {
+      "crops": [
+        "یونجه"
+      ],
+      "intents": [
+        "cut_yield"
+      ],
+      "scope": "Alfalfa dry matter by cutting; fresh mass cannot be inferred without measured dry matter. Distinguish US short tons, metric tonnes, seasonal totals and per-cut production.",
+      "urls": [
+        "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+        "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management",
+        "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf"
+      ]
+    },
+    {
+      "crops": [
+        "کدو حلوایی"
+      ],
+      "intents": [
+        "yield"
+      ],
+      "scope": "Pumpkin fruit marketable versus total yield; not seed yield or identical to zucchini. US cultivar/site observations only.",
+      "urls": [
+        "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
+        "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/"
+      ]
+    },
+    {
+      "crops": [
+        "کدو سبز"
+      ],
+      "intents": [
+        "yield"
+      ],
+      "scope": "Immature summer squash/zucchini fresh market yield, not winter pumpkin fruit or extracted seeds. Preserve per-plant versus per-area denominators.",
+      "urls": [
+        "https://extension.psu.edu/crop-yield-estimates-for-vegetables",
+        "https://fieldreport.caes.uga.edu/publications/C527/commercial-squash-production"
+      ]
+    },
+    {
+      "crops": [
+        "کنجد"
+      ],
+      "intents": [
+        "variety"
+      ],
+      "scope": "Qualitative selection criteria for Sesame/Sesamum indicum; do not recommend US cultivars for Iran or transfer US contract availability.",
+      "urls": [
+        "https://content.ces.ncsu.edu/sesame-production-fact-sheet",
+        "https://corn.agronomy.wisc.edu/Crops/Sesame.aspx",
+        "https://sanangelo.tamu.edu/agronomy/agronomy-publications/sesame-production-guide"
+      ]
+    },
+    {
+      "crops": [
+        "نخود"
+      ],
+      "intents": [
+        "variety"
+      ],
+      "scope": "Chickpea/Cicer arietinum, desi vs kabuli criteria; not pea or cowpea. Local adaptation and seed contracts must not be inferred for Iran.",
+      "urls": [
+        "https://extension-store.montana.edu/montguides/chickpea-production",
+        "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf"
+      ]
+    },
+    {
+      "crops": [
+        "نخودفرنگی"
+      ],
+      "intents": [
+        "yield"
+      ],
+      "scope": "Pisum sativum fresh green peas only if sources actually establish green product; dry field pea and southern pea/cowpea yields MUST be rejected for a fresh-green title.",
+      "urls": [
+        "https://www.ndsu.edu/agriculture/extension/publications/field-pea-production"
+      ]
+    },
+    {
+      "crops": [
+        "ماشک"
+      ],
+      "intents": [
+        "yield"
+      ],
+      "scope": "Vicia sativa common vetch only; generic Persian vetch may be ambiguous. Separate forage dry matter, fresh biomass and harvested seed. Never transfer one product to another.",
+      "urls": [
+        "https://extension.msstate.edu/agriculture/forages/legumes/common-vetch-vicia-sativa",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7316993/"
+      ]
+    },
+    {
+      "crops": [
+        "گوجه‌فرنگی",
+        "گوجه فرنگی"
+      ],
+      "intents": [
+        "transplants"
+      ],
+      "scope": "Tomato plant spacing and deterministic nursery need calculations. Require row spacing, in-row spacing and paths/bed definition; never invent mortality percentages.",
+      "urls": [
+        "https://extension.psu.edu/tomato-production",
+        "https://ask.ifas.ufl.edu/publication/CV137",
+        "https://extension.illinois.edu/gardening/tomato"
+      ]
+    },
+    {
+      "crops": [
+        "کدو آجیلی"
+      ],
+      "intents": [
+        "maturity",
+        "density"
+      ],
+      "scope": "Seed pumpkin maturity and spacing; distinguish edible seed harvest from Halloween flesh/color. Generic pumpkin fruit maturity cannot prove edible seed maturity or cultivar-specific planting density.",
+      "urls": [
+        "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+        "https://extension.illinois.edu/pumpkins/growing-pumpkins"
+      ]
+    },
+    {
+      "crops": [
+        "عدس"
+      ],
+      "intents": [
+        "maturity"
+      ],
+      "scope": "Lentil/Lens culinaris maturity, shattering and seed quality; no US seasonal calendar, pesticide/desiccant rates or numeric moisture prescription for Iran.",
+      "urls": [
+        "https://www.hort.purdue.edu/newcrop/CropFactSheets/lentil.html",
+        "https://corn.agronomy.wisc.edu/Crops/Lentil.aspx",
+        "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Pulses/USADryPeaCouncil%20FactSheet.pdf"
+      ]
+    },
+    {
+      "crops": [
+        "ماش"
+      ],
+      "intents": [
+        "maturity"
+      ],
+      "scope": "Mungbean/Vigna radiata pod maturity, not black gram or cowpea; distinguish uneven pods, shattering and market quality. No US calendar transferred.",
+      "urls": [
+        "https://corn.aae.wisc.edu/Crops/Mungbean.aspx",
+        "https://www.hort.purdue.edu/newcrop/afcm/mungbean.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417475/"
+      ]
+    },
+    {
+      "crops": [
+        "هندوانه تخمی"
+      ],
+      "intents": [
+        "variety"
+      ],
+      "scope": "Edible-seed watermelon cultivar-type criteria only, not dessert fruit or Cucumeropsis mannii. Iranian named seed cultivars and equivalence to African egusi cannot be assumed. Genetic papers are not local yield trials.",
+      "urls": [
+        "https://cucurbitbreeding.wordpress.ncsu.edu/watermelon-breeding/cultivar-types/",
+        "https://mcgregorlab.uga.edu/files/2020/02/Paudel-2019-Egusi.pdf"
+      ]
+    }
+  ]
+}

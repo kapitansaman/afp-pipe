@@ -4,11 +4,14 @@
   "publication_enabled": true,
   "max_families": 15,
   "max_attempts_per_stage": 3,
-  "max_model_requests_per_family": 12,
+  "max_model_requests_per_family": 14,
   "max_published_families": 15,
   "preserve_legacy_budgets": true,
   "schedule_enabled": false,
   "owner_authorization": "Continue each assigned family from its last validated checkpoint; retry invalid stages in the next 15-family execution; publish only fully validated authorized articles, then assign the next topic. No numeric/specialist or overlap gate is waived.",
   "required_image_evidence": "Fresh actual image capability in the bound parallel health report; text health is not image approval",
-  "publication_writer": "single_coordinator_marker_owned_posts_only"
+  "publication_writer": "single_coordinator_marker_owned_posts_only",
+  "scoped_evidence_research": true,
+  "specialist_review_policy": "actual institutional quotes, exact numeric/unit/scope bindings, independent per-fact review and actual full-content overlap audit; no human review claimed or Iranian rate transfer",
+  "research_only_for_scoped_rollout": true
 }

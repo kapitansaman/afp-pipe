@@ -22,7 +22,7 @@ class LifecycleClient:
 
 def settings(data=DATA):
  p=load_json(data/'family-lifecycle-policy.json')
- if p.get('version')!=1 or p.get('max_families')!=15 or p.get('max_attempts_per_stage')!=3 or p.get('max_model_requests_per_family')!=12 or p.get('max_published_families')!=15 or p.get('preserve_legacy_budgets') is not True or p.get('schedule_enabled',False) is not False:raise StageBlocked('invalid_lifecycle_policy')
+ if p.get('version')!=1 or p.get('max_families')!=15 or p.get('max_attempts_per_stage')!=3 or p.get('max_model_requests_per_family') not in (12,14) or p.get('max_published_families')!=15 or p.get('preserve_legacy_budgets') is not True or p.get('schedule_enabled',False) is not False:raise StageBlocked('invalid_lifecycle_policy')
  return p
 
 def row_path(folder,stage):return folder/'lifecycle'/stage/'state.json'
@@ -52,6 +52,8 @@ def attempt(folder,stage,run_id,fn,outputs=(),limit=3):
   from automation.blog_image_queue import ImageQueueBusy
   deferred=isinstance(e,(PoolDeferred,AdmissionBlocked,ImageQueueBusy))
   s.update(status='deferred' if deferred else 'failed',failure=failure_details(e),completed_at=utcnow())
+  from .scoped_research import EvidenceBlocked
+  if isinstance(e,EvidenceBlocked):s['failure']['category']=e.code
   # Admission is not an invalid billed output; retain admission history separately.
   if deferred:s['attempts']-=1
   result={'status':'stage_deferred' if deferred else 'stage_failed','stage':stage,'failure':s['failure']}
@@ -68,6 +70,16 @@ def next_stage(topic,data=DATA,out=OUT):
  if not bp.exists():
   old=out/'research'/(ident+'.json');old=load_json(old) if old.exists() else {}
   if old.get('attempts',0)>=2:return 'blocked','legacy_research_budget_exhausted'
+  from .scoped_research import entries_for,SUPPORTED
+  if settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED and entries_for(topic,data):
+   ev=folder/'lifecycle-evidence'
+   if not (ev/'sources.json').exists():return 'research_sources',None
+   if not (ev/'candidate.json').exists():return 'research_extract',None
+   from .scoped_research import content_digest
+   op=ev/'overlap.json';ib=ev/'existing-content.json'
+   if op.exists() and ib.exists() and load_json(op).get('existing_content_sha256')!=content_digest(load_json(ib)):return 'blocked','existing_content_changed_after_audit'
+   if not op.exists():return 'existing_content_audit',None
+   return 'research_review',None
   from .research import QUALITATIVE
   if topic['intent'] not in QUALITATIVE:return 'blocked','specialist_evidence_required'
   if topic.get('related_existing_ids') and topic.get('overlap_review_required'):return 'blocked','verified_existing_content_audit_required'
@@ -79,10 +91,18 @@ def next_stage(topic,data=DATA,out=OUT):
  try:
   brief=load_json(bp);check_brief(topic,brief)
   if brief.get('publish_authorized') is not True:return 'blocked','brief_publication_not_authorized'
- except (ValueError,KeyError,TypeError):return 'blocked','brief_review_required'
+  if brief.get('review_mode')=='automated_scoped_evidence_review_v1':
+   from .scoped_research import validate_overlap,content_digest
+   bundle=load_json(folder/'lifecycle-evidence/existing-content.json')
+   validate_overlap(topic,bundle,brief['overlap_audit'])
+   if brief['overlap_audit'].get('existing_content_sha256')!=content_digest(bundle):return 'blocked','existing_content_changed_after_brief'
+ except (ValueError,KeyError,TypeError,FileNotFoundError):return 'blocked','brief_review_required'
  if not (folder/'article.json').exists():return 'text',None
  try:article=article_checked(folder,topic,brief)
  except (ValueError,KeyError,TypeError):return 'blocked','saved_validated_article_changed'
+ if brief.get('review_mode')=='automated_scoped_evidence_review_v1':
+  proof=folder/'article-evidence-review.json'
+  if not proof.exists() or load_json(proof).get('article_sha256')!=digest(article) or load_json(proof).get('brief_sha256')!=digest(brief) or not all(load_json(proof).get('review',{}).get(k) is True for k in ('all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review')):return 'article_evidence_review',None
  for kind in (1,2):
   image=folder/f'image-{kind}.webp'
   if not image.exists():return 'image-'+str(kind),None
@@ -107,6 +127,10 @@ def next_stage(topic,data=DATA,out=OUT):
 def run_stage(topic,stage,client,data=DATA,out=OUT):
  ident=topic['id'];folder=out/'new'/ident;folder.mkdir(parents=True,exist_ok=True);ev=folder/'lifecycle-evidence';bp=data/'briefs'/(ident+'.json')
  from . import research as r
+ from .scoped_research import entries_for,SUPPORTED
+ if stage in {'research_sources','research_extract','existing_content_audit','research_review'} and settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED and entries_for(topic,data):
+  from .scoped_research import stage as scoped_stage
+  return scoped_stage(topic,stage,client,data,out)
  if stage=='research_sources':
   from .source_scout import scout
   catalog=load_json(data/'research-source-catalog.json');matching=[e for e in catalog['entries'] if topic['crop'] in e['crops'] and topic['intent'] in e['intents']]
@@ -131,6 +155,9 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
   value=client.text(article_prompt(topic,brief),attempts=1);atomic_json(prior,value)
   article=normalize_article(value,brief);validate_article(article,topic,brief);validate_for_publication(article);atomic_json(folder/'article.json',article);return {'article_validated':True}
  article=article_checked(folder,topic,brief)
+ if stage=='article_evidence_review':
+  from .scoped_research import review_article
+  return review_article(topic,article,brief,folder,client)
  if stage.startswith('image-'):
   kind=int(stage.split('-')[1]);from .media_policy import generate_role
   target=folder/f'image-{kind}.webp'
@@ -149,8 +176,10 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
 def stage_outputs(folder,stage):
  ev=folder/'lifecycle-evidence'
  if stage=='text':return [folder/'model-candidate.json']
+ if stage=='article_evidence_review':return [folder/'article-evidence-review.raw.json']
  if stage=='research_extract':return [ev/'candidate-raw.json']
  if stage=='research_review':return [ev/'review-raw.json']
+ if stage=='existing_content_audit':return [ev/'overlap-raw.json']
  if stage.startswith('vision-'):
   from .image_quality import review_path
   return [review_path(folder/('image-'+stage.split('-')[1]+'.webp'))]
@@ -166,6 +195,7 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
  for _ in range(16):
   stage,reason=next_stage(topic,data,out)
   if stage in ('blocked','complete','publish'):return {'status':'publication_ready' if stage=='publish' else stage,'reason':reason,'topic_id':topic['id'],'steps':steps,'published_posts':0}
+  if stage=='text' and p.get('research_only_for_scoped_rollout') and (data/'briefs'/(topic['id']+'.json')).exists() and load_json(data/'briefs'/(topic['id']+'.json')).get('review_mode')=='automated_scoped_evidence_review_v1':return {'status':'research_ready','topic_id':topic['id'],'steps':steps,'published_posts':0}
   kind='image' if stage.startswith('image-') else 'text'
   from .recovery import circuit_open
   if circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
@@ -240,13 +270,17 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  from .pipeline import fresh_inventory
  with tempfile.TemporaryDirectory() as td:
   ip=Path(td)/'inventory.json';atomic_json(ip,inventory);fresh_inventory(ip)
+ if p.get('scoped_evidence_research'):
+  from .scoped_research import prefetch_existing
+  report['existing_content_fetch']=prefetch_existing(topics,inventory,wp,out,run_id)
+  atomic_json(rp,report)
  if worker_fn is None:
   from .parallel_controller import launch_worker
   worker_fn=launch_worker
  env['AFP_FAMILY_LIFECYCLE']='1'
  with tempfile.TemporaryDirectory(prefix='afp-family-lifecycle-') as td:
   workspace=Path(td);db=workspace/'pool.sqlite';slots=list(dict.fromkeys(health.get('eligible_text_slots',[])+health.get('eligible_image_slots',[])))
-  initialize(db,slots,text_limit=15,image_limit=1,max_calls=12*len(topics),per_worker=12,prior_usage=routing_counts(out))
+  initialize(db,slots,text_limit=15,image_limit=1,max_calls=p['max_model_requests_per_family']*len(topics),per_worker=p['max_model_requests_per_family'],prior_usage=routing_counts(out))
   with concurrent.futures.ThreadPoolExecutor(max_workers=15) as ex:
    futures={ex.submit(worker_fn,t,workspace,db,health,inventory,data,out,env):t for t in topics}
    for future in concurrent.futures.as_completed(futures):
