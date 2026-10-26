@@ -76,6 +76,11 @@ class ModelClient:
     value=self.env.get(name,'').strip()
     if value and value not in seen:self.keys[kind].append((name,value));seen.add(value)
    if not self.keys[kind]:raise CapabilityError('No configured healthy '+kind+' credential')
+  from .queue import DATA,load_json
+  rotation=load_json(DATA/'config.json')
+  self.image_rotation_enabled=rotation.get('image_key_rotation',{}).get('enabled',False)
+  self.image_rotation_binding=rotation.get('credential_set_id')
+  self.image_candidates=self.keys['image']+self.keys['text']
  def request(self,kind,path,payload,timeout,attempts=None):
   pool=self.keys[kind];start=self.used[kind]%len(pool);self.used[kind]+=1;last='no_response'
   limit=1 if kind=='image' or attempts==1 else min(2,len(pool))
@@ -90,6 +95,7 @@ class ModelClient:
    from .image_transport import admission
    with admission(name,payload,self.env) if kind=='image' else contextlib.nullcontext():
     try:
+     if kind=='image' and getattr(self,'_image_reserve_attempt',None):self._image_reserve_attempt(name)
      with urllib.request.urlopen(request,timeout=timeout) as response:
       blob=response.read(MAX_RESPONSE+1)
       if len(blob)>MAX_RESPONSE:raise CapabilityError('Provider response too large')
@@ -156,6 +162,9 @@ class ModelClient:
  def image(self,prompt,references=None):
   from PIL import Image
   body={'model':IMAGE_MODEL,'prompt':prompt,'size':'1K','ratio':'16:9','return_base64':True,'extra_body':{'response_format':'b64_json','image':reference_images() if references is None else references}}
+  if getattr(self,'image_rotation_enabled',False):
+   from .image_rounds import generate
+   return generate(self,body,reference_images() if references is None else references)
   obj=self.request('image','/images/generations',body,600)
   if obj.get('model') and obj['model']!=IMAGE_MODEL:raise CapabilityError('Image model mismatch')
   blob=render_image(obj,require_landscape=True,reject_reference_images=reference_images() if references is None else references);self.record_success('image',IMAGE_MODEL,blob);return blob

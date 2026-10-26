@@ -1,13 +1,13 @@
 {
   "version": 1,
   "status": "publication_disabled",
-  "stage": "مهاجرت به مخزن جدید؛ تولید متوقف تا بررسی ۲۲ کلید و تنظیم اتصال وردپرس",
+  "stage": "مخزن جدید: مدل تصویر ۲٫۵ و ظرفیت ۳۰ کلید؛ آزمون واقعی در انتظار پایان مهلت مشترک سرویس",
   "percent": 0,
   "topic_id": "",
   "topic_title": "",
-  "updated_at": "2026-10-26T01:22:27.165468+00:00",
-  "run_id": null,
-  "run_url": null,
+  "updated_at": "2026-10-26T01:44:23.105701+00:00",
+  "run_id": "40255300424",
+  "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40255300424",
   "schedule_cron": "*/5 * * * *",
   "max_posts_per_run": 1,
   "metrics": {

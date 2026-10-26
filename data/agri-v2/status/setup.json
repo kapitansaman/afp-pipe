@@ -1,0 +1,11 @@
+{
+  "repository": "kapitansaman/afp-pipe",
+  "configured_secret_names": 30,
+  "missing_wordpress_secrets": [
+    "AFP_WP_BASE_URL",
+    "AFP_WP_USERNAME",
+    "AFP_WP_APP_PASSWORD"
+  ],
+  "secret_values_included": false,
+  "wordpress_auth_verified": false
+}
