@@ -13,9 +13,15 @@ def assess(documents,source_host,independent_count=None):
  return {'version':VERSION,'satisfied':bool(universities) or count>=2,'university_hosts':universities,'independent_institutions':count,'single_university_exception':bool(universities) and count<2,'publication_authorized':False}
 
 def review_flags(review,legacy_flags):
- if 'source_policy_version' not in review:return list(legacy_flags)
- if review['source_policy_version']!=VERSION:raise ValueError('unknown_source_policy_version')
- return [k for k in legacy_flags if k!='independent_sources']+['source_policy_satisfied']
+ flags=list(legacy_flags)
+ if 'source_policy_version' in review:
+  if review['source_policy_version']!=VERSION:raise ValueError('unknown_source_policy_version')
+  flags=[k for k in flags if k!='independent_sources']+['source_policy_satisfied']
+ if 'research_route_version' in review:
+  from .research_routes import VERSION as ROUTE_VERSION
+  if review['research_route_version']!=ROUTE_VERSION:raise ValueError('unknown_research_route_version')
+  flags+=['route_requirements_met']
+ return flags
 
 def disclose(limits,assessment):
  return limits+' '+DISCLOSURE if assessment['single_university_exception'] else limits

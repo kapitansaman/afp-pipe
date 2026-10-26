@@ -5,6 +5,7 @@ ID='ops-97-readiness-pilot-v1'
 CONTINUATION_ID='ops-97-pilot-citation-v2'
 GROUNDED_ID='ops-97-pilot-grounded-v3'
 SUPPLEMENT_ID='ops-97-pilot-editorial-v4'
+FULL_QUEUE_ID='ops-full-queue-routes-research-v1'
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -13,8 +14,10 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
+ if rid==FULL_QUEUE_ID:
+  expected.update(operation='full-queue-research-only',max_pilot_families=20,max_worker_text_calls=80,max_worker_image_calls=0,max_wordpress_mutations=0)
  if not isinstance(req,dict) or set(req)!=set(expected)|{'code_revision'} or any(req.get(k)!=v or type(req.get(k)) is not type(v) for k,v in expected.items()):raise ValueError('Exact bounded owner request required')
  sha=req['code_revision']
  if not isinstance(sha,str) or len(sha)!=40 or any(c not in '0123456789abcdef' for c in sha):raise ValueError('Pinned code revision required')
@@ -90,6 +93,10 @@ def prepare(env=None,data=DATA,out=OUT):
  from .production_readiness import run as readiness
  before=readiness(data,out)
  rid=admission['request_id']
+ if rid==FULL_QUEUE_ID:
+  from .route_audit import run as audit_routes
+  routes=audit_routes(data,out)
+  if routes['status']!='all_topics_routed':return {'status':'full_queue_route_gaps','model_calls':0,'published_posts':0}
  if reserve('operation',rid,env) is None:return {'status':'operation_already_reserved','model_calls':0,'published_posts':0}
  dest=out/'parallel/operations'/rid;rp=dest/'prepare.json';report={'request_id':rid,'run_id':env['GITHUB_RUN_ID'],'request_commit':env['GITHUB_SHA'],'code_revision':admission['request']['code_revision'],'started_at':utcnow(),'status':'started','readiness_before':before,'attempts_reset':False,'schedule_activated':False,'published_posts':0};atomic_json(rp,report)
  from .parallel_audit import run as audit
@@ -100,15 +107,19 @@ def prepare(env=None,data=DATA,out=OUT):
  if text_ready and admission['request']['max_image_health_calls']:report['image']=image_capability(env,data,out);atomic_json(rp,report)
  after=readiness(data,out);report['readiness_after']=after
  required=['fresh_text_capacity','fresh_image_capacity','authenticated_publisher','translation_bridge','lifecycle_enabled']
- report.update(status='pilot_prerequisites_passed' if all(after['gates'][k]['passed'] for k in required) else 'pilot_prerequisites_blocked',completed_at=utcnow());atomic_json(rp,report);return report
+ if rid==FULL_QUEUE_ID:required=['configured_capacity','fresh_text_capacity','authenticated_publisher','lifecycle_enabled']
+ report.update(status=('research_prerequisites_passed' if rid==FULL_QUEUE_ID else 'pilot_prerequisites_passed') if all(after['gates'][k]['passed'] for k in required) else 'pilot_prerequisites_blocked',completed_at=utcnow());atomic_json(rp,report);return report
 
 def pilot(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env)
  if not authorize(env,data):raise ValueError('Bound current owner operation admission required')
  rid=load_json(data/'status/owner-operation-admission.json')['request_id']
  rp=out/'parallel/operations'/rid/'prepare.json';report=load_json(rp)
- if report.get('run_id')!=env['GITHUB_RUN_ID'] or report.get('status')!='pilot_prerequisites_passed':return {'status':'pilot_not_admitted','published_posts':0}
+ if report.get('run_id')!=env['GITHUB_RUN_ID'] or report.get('status') not in ('pilot_prerequisites_passed','research_prerequisites_passed'):return {'status':'pilot_not_admitted','published_posts':0}
  from .parallel_controller import run
+ if rid==FULL_QUEUE_ID:
+  env['AFP_FULL_QUEUE_RESEARCH_ONLY']='1'
+  return run('advance',env,data,out)
  if rid==SUPPLEMENT_ID:env['AFP_EDITORIAL_SUPPLEMENT']=rid
  return run('white-bean-pilot',env,data,out)
 
@@ -117,5 +128,5 @@ def main():
  result=prepare() if args.phase=='prepare' else pilot()
  failures=[{k:row[k] for k in ('topic_id','family_id','stage','status','failure') if k in row} for row in result.get('results',[]) if row.get('failure')]
  print(json.dumps({'phase':args.phase,'status':result.get('status'),'run_id':os.environ.get('GITHUB_RUN_ID'),'published_posts':result.get('published_posts',0),'stage_failures':failures},ensure_ascii=False))
- return 0 if result.get('status') in ('pilot_prerequisites_passed','completed') else 2
+ return 0 if result.get('status') in ('pilot_prerequisites_passed','research_prerequisites_passed','completed') else 2
 if __name__=='__main__':raise SystemExit(main())

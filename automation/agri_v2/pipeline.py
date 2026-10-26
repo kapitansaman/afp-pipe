@@ -58,6 +58,9 @@ def check_brief(topic,brief):
    if len(q)<80 or clean(q) not in clean(source.get('excerpt','')):raise ValueError('Literal source quote required')
   if numbers(' '.join(f.get('claim','')+' '+f.get('conditions','') for f in brief['approved_facts'])):raise ValueError('Automated qualitative review cannot approve numbers')
  elif scoped_review:
+  if 'research_route' in brief:
+   from .research_routes import plan
+   if brief['research_route']!=plan(topic):raise ValueError('Research route/topic contract changed')
   from .scoped_research import verify_brief
   verify_brief(brief)
  elif ai_review:

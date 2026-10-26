@@ -1,0 +1,25 @@
+{
+  "status": "all_topics_routed",
+  "route_version": "full-queue-research-routes-v1",
+  "checked_at": "2026-10-26T09:18:22.160142+00:00",
+  "topic_count": 2905,
+  "intent_count": 74,
+  "crop_count": 76,
+  "mapped_topics": 2905,
+  "unmapped_topic_ids": [],
+  "track_counts": {
+    "scoped_observations": 31,
+    "harvest_and_postharvest": 313,
+    "measurement_and_calculation": 362,
+    "planting_and_establishment": 292,
+    "irrigation_engineering": 670,
+    "crop_management": 296,
+    "soil_nutrition": 460,
+    "diagnosis_and_monitoring": 468,
+    "forage_and_feed_safety": 13
+  },
+  "topics_with_discovery_leads": 2864,
+  "sources_scientifically_approved": false,
+  "model_calls": 0,
+  "published_posts": 0
+}

@@ -73,7 +73,7 @@ def next_stage(topic,data=DATA,out=OUT):
   old=out/'research'/(ident+'.json');old=load_json(old) if old.exists() else {}
   if old.get('attempts',0)>=2:return 'blocked','legacy_research_budget_exhausted'
   from .scoped_research import entries_for,SUPPORTED
-  if settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED and entries_for(topic,data):
+  if settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED:
    ev=folder/'lifecycle-evidence'
    if not (ev/'sources.json').exists() or load_json(ev/'sources.json').get('source_text_layout_version',0)<2:return 'research_sources',None
    if not (ev/'candidate.json').exists():return ('research_validate_saved',None) if (ev/'candidate-raw.json').exists() else ('research_extract',None)
@@ -132,7 +132,7 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
  ident=topic['id'];folder=out/'new'/ident;folder.mkdir(parents=True,exist_ok=True);ev=folder/'lifecycle-evidence';bp=data/'briefs'/(ident+'.json')
  from . import research as r
  from .scoped_research import entries_for,SUPPORTED
- if (stage in {'research_sources','research_extract','research_validate_saved','existing_content_audit','research_review','existing_content_audit_finalize'} or stage.startswith('existing_content_audit-')) and settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED and entries_for(topic,data):
+ if (stage in {'research_sources','research_extract','research_validate_saved','existing_content_audit','research_review','existing_content_audit_finalize'} or stage.startswith('existing_content_audit-')) and settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED:
   from .scoped_research import stage as scoped_stage
   return scoped_stage(topic,stage,client,data,out)
  if stage=='research_sources':
@@ -204,11 +204,13 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
  env=os.environ if env is None else env;p=settings(data);folder=out/'new'/topic['id'];run_id=env['GITHUB_RUN_ID'];steps=[]
  if env.get('AFP_PARALLEL_WORKER')!='1' or env.get('AFP_PARALLEL_TOPIC')!=topic['id']:raise StageBlocked('isolated_owned_topic_required')
  pilot=env.get('AFP_WHITE_BEAN_PILOT')=='1'
+ research_only=env.get('AFP_FULL_QUEUE_RESEARCH_ONLY')=='1'
  if pilot:
   from .white_bean_pilot import prepare
   prepare(topic,data,out)
  for _ in range(16):
   stage,reason=next_stage(topic,data,out)
+  if research_only and stage not in ('blocked','complete') and not (stage.startswith('research_') or stage.startswith('existing_content_audit')):return {'status':'research_ready','topic_id':topic['id'],'next_stage':stage,'steps':steps,'published_posts':0,'research_only':True}
   if stage in ('blocked','complete','publish'):return {'status':'publication_ready' if stage=='publish' else stage,'reason':reason,'topic_id':topic['id'],'steps':steps,'published_posts':0}
   if stage=='text' and not pilot and p.get('research_only_for_scoped_rollout') and (data/'briefs'/(topic['id']+'.json')).exists() and load_json(data/'briefs'/(topic['id']+'.json')).get('review_mode')=='automated_scoped_evidence_review_v1':return {'status':'research_ready','topic_id':topic['id'],'steps':steps,'published_posts':0}
   kind='image' if stage.startswith('image-') else 'text'
@@ -290,7 +292,8 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  if (data/'adaptive-schedule-policy.json').exists() and env.get('AFP_WHITE_BEAN_PILOT')!='1':
   from .adaptive_schedule import Observer
   observer=Observer([t['id'] for t in topics],run_id,fresh_start,data,out)
- report={'run_id':run_id,'status':'started','assigned_count':len(topics),'pilot_topic_only':env.get('AFP_WHITE_BEAN_PILOT')=='1','results':[],'publication_results':[],'published_posts':0,'max_stage_attempts':3,'original_attempts_reset':False,'schedule_enabled':False,'publication_authorized':p.get('publication_enabled',False),'source_and_translation_posts_counted':True,'started_at':utcnow()};atomic_json(rp,report)
+ research_only=env.get('AFP_FULL_QUEUE_RESEARCH_ONLY')=='1'
+ report={'research_only':research_only,'run_id':run_id,'status':'started','assigned_count':len(topics),'pilot_topic_only':env.get('AFP_WHITE_BEAN_PILOT')=='1','results':[],'publication_results':[],'published_posts':0,'max_stage_attempts':3,'original_attempts_reset':False,'schedule_enabled':False,'publication_authorized':False if research_only else p.get('publication_enabled',False),'source_and_translation_posts_counted':True,'started_at':utcnow()};atomic_json(rp,report)
  health=load_json(out/'parallel/health/latest.json')
  from .parallel_client import ParallelModelClient
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
@@ -312,7 +315,9 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  env['AFP_FAMILY_LIFECYCLE']='1'
  with tempfile.TemporaryDirectory(prefix='afp-family-lifecycle-') as td:
   workspace=Path(td);db=workspace/'pool.sqlite';slots=list(dict.fromkeys(health.get('eligible_text_slots',[])+health.get('eligible_image_slots',[])))
-  initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=p['max_model_requests_per_family']*len(topics),per_worker=p['max_model_requests_per_family'],prior_usage=routing_counts(out))
+  per_worker_limit=4 if research_only else p['max_model_requests_per_family']
+  report['max_text_model_calls']=per_worker_limit*len(topics) if research_only else None
+  initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=per_worker_limit*len(topics),per_worker=per_worker_limit,prior_usage=routing_counts(out))
   with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_FAMILIES,max(1,len(topics)))) as ex:
    futures={ex.submit(worker_fn,t,workspace,db,health,inventory,data,out,env):t for t in topics}
    def timing_tick():
@@ -334,6 +339,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   if report['pool']['cooldown_until_epoch']>time.time():atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text','retry_at_epoch':report['pool']['cooldown_until_epoch'],'at':utcnow(),'reason':'parallel_lifecycle_shared_provider_limit'})
  # Only this single coordinator can write WordPress; never publish on worker's word alone.
  for topic in topics:
+  if research_only:continue
   if next_stage(topic,data,out)[0]!='publish':continue
   if len(report['publication_results'])>=p['max_published_families']:break
   if load_json(data/'config.json').get('multilingual',{}).get('enabled'):

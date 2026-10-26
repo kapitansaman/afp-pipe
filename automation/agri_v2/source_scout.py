@@ -26,8 +26,15 @@ def collect(entries,fetcher,out,source_host,evdir,*,allow_pdf=False,topic_id=Non
    hub_report=evdir/'source-hub-fetch-report.json'
    docs+=load_documents(hubs,fetcher,out,source_host,report_path=hub_report,minimum_link_version=1 if allow_pdf else 0);reports.append(load_json(hub_report))
    seeds+=hubs
- # One finite link expansion from actually fetched HTML. No recursive crawl, guessed paths or negative-cache replay.
- if terms:
+ # At most two observed-link layers for full-queue leads, with the same TOTAL
+ # 12-fetch budget. No generated URL, recursive unbounded crawl or guessed path.
+ depth_limit=2 if any(e.get('observed_source_index') for e in entries) else 1
+ report['max_link_depth']=depth_limit
+ fetched=set(seeds);excluded={u for e in entries for u in e.get('discovery_hub_urls',[])}
+ crop_hints={t for e in entries for t in e.get('crop_discovery_terms',[])}
+ for depth in range(1,depth_limit+1):
+  remaining=MAX_FETCHES-sum(r['requested'] for r in reports)
+  if not terms or remaining<=0:break
   candidates={}
   for doc in docs:
    links=doc.get('links',[])
@@ -38,14 +45,20 @@ def collect(entries,fetcher,out,source_host,evdir,*,allow_pdf=False,topic_id=Non
     try:source_host(u)
     except ValueError:continue
     text=(urllib.parse.unquote(u)+' '+str(link.get('label',''))).casefold()
-    score=sum(bool(re.search(r'(?<![a-z])'+re.escape(t)+r'(?![a-z])',text)) for t in terms)
-    if score and u not in seeds and u not in {d['url'] for d in docs} and not urllib.parse.urlsplit(u).query and not re.search(r'\.(?:jpg|jpeg|png|zip|xml)$',urllib.parse.urlsplit(u).path,re.I) and (allow_pdf or not urllib.parse.urlsplit(u).path.lower().endswith('.pdf')):
+    score=sum(bool(re.search(r'(?<![a-z])'+re.escape(t)+r's?(?![a-z])',text)) for t in terms)
+    crop_match=not crop_hints or any(re.search(r'(?<![a-z])'+re.escape(t)+r's?(?![a-z])',text) for t in crop_hints)
+    if score and crop_match and u not in fetched and u not in {d['url'] for d in docs} and not urllib.parse.urlsplit(u).query and not re.search(r'\.(?:jpg|jpeg|png|zip|xml)$',urllib.parse.urlsplit(u).path,re.I) and (allow_pdf or not urllib.parse.urlsplit(u).path.lower().endswith('.pdf')):
      candidates[u]=(score,doc['url'])
-  observed=[{'url':u,'observed_on':candidates[u][1]} for u in sorted(candidates,key=lambda u:(-candidates[u][0],u))[:min(6,MAX_FETCHES-sum(r['requested'] for r in reports))]]
-  second=evdir/'source-link-fetch-report.json'
-  docs+=load_documents([r['url'] for r in observed],fetcher,out,source_host,report_path=second,minimum_link_version=1 if allow_pdf else 0)
-  reports.append(load_json(second))
+  batch=[{'url':u,'observed_on':candidates[u][1],'depth':depth} for u in sorted(candidates,key=lambda u:(-candidates[u][0],u))[:min(6,remaining)]]
+  if not batch:break
+  observed+=batch;fetched.update(r['url'] for r in batch)
+  target=evdir/('source-link-fetch-report.json' if depth==1 else 'source-link-fetch-report-2.json')
+  docs+=load_documents([r['url'] for r in batch],fetcher,out,source_host,report_path=target,minimum_link_version=1 if allow_pdf else 0)
+  reports.append(load_json(target))
  docs=list({d['url']:d for d in reversed(docs)}.values())[::-1]
+ # Index pages locate evidence; they are not evidence that a crop-specific
+ # numerical/diagnostic claim is true.
+ docs=[d for d in docs if d['url'] not in excluded and d.get('requested_url',d['url']) not in excluded]
  report.update(completed_at=utcnow(),requested=sum(r['requested'] for r in reports),loaded=len(docs),independent_institutions=len(institutions(docs,source_host)),observed_links=observed,fetch_reports=reports)
  sources=[s for r in reports for s in r['sources']]
  transient=any(s.get('category')=='network_or_timeout' or s.get('category')=='http_error' and (s.get('http_status') in {401,403,408,425,429} or s.get('http_status',0)>=500) or s.get('temporary') is True for s in sources)

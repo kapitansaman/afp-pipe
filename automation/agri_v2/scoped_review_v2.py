@@ -1,6 +1,6 @@
 """Specific, source-bound reasons; inconsistent reviews require review, never approval."""
 FLAGS=['all_claims_supported','crop_species_and_product_match','answers_exact_intent','units_and_denominators_correct','geography_and_transfer_limits_retained','no_iranian_prescription_inferred','independent_sources','no_unsafe_input_rates']
-def task(source_policy=False):
+def task(source_policy=False,full_route=False):
  text= '''Independent skeptical agronomic source review. Return one JSON object with decision:pass|reject|needs_review, all_claims_supported:boolean,crop_species_and_product_match:boolean,answers_exact_intent:boolean,units_and_denominators_correct:boolean,geography_and_transfer_limits_retained:boolean,no_iranian_prescription_inferred:boolean,independent_sources:boolean,no_unsafe_input_rates:boolean,human_review_claimed:false,limitations:Persian detailed limits,fact_checks:[{fact_id,supported:boolean,scope_and_units_correct:boolean,reason:Persian specific reasoning,evidence_quote:at least 40 consecutive literal source characters from this fact's evidence_quote}],rejection_reasons:[{flag:exact negative flag,fact_ids:[actual affected fact IDs],reason:Persian specific evidence-based reason}].
 Check EVERY original fact and deterministic conversion separately. Table measurements identify the exact source table, cultivar row, yield column and moisture basis. Verify those bindings; do not mistake the cultivar observation for an experiment mean. Verify each conversion from its parent measurement; no bushel mass has been inferred. Different universities/publications in the same country are NOT automatically the same publication; conversely mirrored text on different hosts is not independent. Assess the actual publications and text.
 The task permits explicitly labelled foreign trial OBSERVATIONS, not a forecast or prescription for Iran. Absence of an Iranian trial alone does not disprove an explicitly foreign observation. Reject actual unsupported transfer to Iran, wrong botanical/product class, units, missing qualifiers or unsafe advice. Distinguish Iowa hosting from the Missouri setting of the hosted production guide. Great Northern and navy are source market classes, not proven synonyms of every local white-bean cultivar.
@@ -9,6 +9,8 @@ For EVERY false global flag, provide a specific rejection_reasons row naming the
   from .source_policy import PROMPT
   text=text.replace('independent_sources:boolean,','independent_sources:boolean,source_policy_version:university-single-source-v1,source_policy_satisfied:boolean,')
   text+=' '+PROMPT+' Under this explicit policy, independent_sources is descriptive only and may be false: it alone is not a negative global flag. Use source_policy_satisfied instead in rejection_reasons and the pass/reject decision. Return independent_sources:false for one independent publication; never claim corroboration.'
+ if full_route:
+  text+=' Return research_route_version:full-queue-research-routes-v1 and route_requirements_met:boolean. Check the supplied route contract against actual evidence and exact title. This is a required global flag: a false value needs a specific rejection reason and must not pass.'
  return text
 
 def validate(review,facts):
