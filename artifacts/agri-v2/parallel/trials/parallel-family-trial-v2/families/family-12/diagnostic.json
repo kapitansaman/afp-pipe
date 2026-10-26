@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v2",
+  "family_id": "family-12",
+  "topic_id": "agri-6a04e31069c0",
+  "canonical_title": "میزان برداشت ماشک در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "started_at": "2026-10-26T05:22:41.626798+00:00",
+  "pid": 2188,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "quantitative_or_specialist_scope",
+  "assignment_retained": true,
+  "status": "trial_diagnostic_completed",
+  "publication_authorized": false,
+  "model_proposal": {
+    "family_id": "family-12",
+    "topic_id": "agri-6a04e31069c0",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "no_existing_content",
+    "next_stage": "source_discovery",
+    "source_queries": [
+      "ماشک عملکرد برداشت هکتار دانشگاه آزاد",
+      "Vigna mungo yield per hectare Iran research",
+      "ماشک کشت عملکرد منطقه‌ای سازمان جهاد کشاورزی",
+      "ماشک (Cowpea/Mung bean) cultivation yield factors academic"
+    ],
+    "reason": "Topic asks for numeric yield data per hectare for vetch (ماشک). No related_existing_ids and no documents found. Requires specialist agricultural source discovery before any content can be reviewed or drafted.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "server_enforced_restrictions": [
+    {
+      "field": "next_stage",
+      "proposed": "source_discovery",
+      "enforced": "specialist_evidence",
+      "reason": "numeric_evidence_required"
+    }
+  ],
+  "diagnostic": {
+    "family_id": "family-12",
+    "topic_id": "agri-6a04e31069c0",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "no_existing_content",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "ماشک عملکرد برداشت هکتار دانشگاه آزاد",
+      "Vigna mungo yield per hectare Iran research",
+      "ماشک کشت عملکرد منطقه‌ای سازمان جهاد کشاورزی",
+      "ماشک (Cowpea/Mung bean) cultivation yield factors academic"
+    ],
+    "reason": "Topic asks for numeric yield data per hectare for vetch (ماشک). No related_existing_ids and no documents found. Requires specialist agricultural source discovery before any content can be reviewed or drafted.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "next_stage": "specialist_evidence",
+  "completed_at": "2026-10-26T05:22:49.691952+00:00"
+}

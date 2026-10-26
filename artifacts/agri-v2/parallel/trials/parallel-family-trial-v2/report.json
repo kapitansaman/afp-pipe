@@ -1,0 +1,1235 @@
+{
+  "request_id": "parallel-family-trial-v2",
+  "run_id": "40273784010",
+  "started_at": "2026-10-26T05:22:08.738914+00:00",
+  "status": "trial_completed",
+  "assigned_count": 15,
+  "target_workers": 4,
+  "previous_trial_id": "parallel-family-trial-v1",
+  "retested_families": 4,
+  "reused_families": 11,
+  "selected_topics": [
+    {
+      "family_id": "family-01",
+      "topic_id": "agri-065fb7b0cc9e",
+      "title": "میزان برداشت لوبیا قرمز در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-02",
+      "topic_id": "agri-a55386876467",
+      "title": "میزان برداشت یونجه در هر چین؛ وزن تر، وزن خشک و فاصله چین‌ها"
+    },
+    {
+      "family_id": "family-03",
+      "topic_id": "agri-68bb3f68138d",
+      "title": "میزان برداشت کدو حلوایی در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-04",
+      "topic_id": "agri-b35a06791dd5",
+      "title": "زمان مناسب برداشت کدو آجیلی؛ نشانه‌های رسیدگی و معیار بازار"
+    },
+    {
+      "family_id": "family-05",
+      "topic_id": "agri-621734b38aa9",
+      "title": "میزان برداشت لوبیا سفید در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-06",
+      "topic_id": "agri-60e1ebaf13c8",
+      "title": "میزان برداشت کدو سبز در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-07",
+      "topic_id": "agri-aa197412fb7f",
+      "title": "فاصله کاشت و تراکم کدو آجیلی؛ محاسبه فاصله ردیف و بوته"
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-c0e160d88554",
+      "title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی"
+    },
+    {
+      "family_id": "family-09",
+      "topic_id": "agri-02e05cb179de",
+      "title": "انتخاب رقم نخود برای مزرعه؛ معیارهای اقلیمی و بازارپسندی"
+    },
+    {
+      "family_id": "family-10",
+      "topic_id": "agri-64fcb57a3e18",
+      "title": "میزان برداشت نخودفرنگی در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-11",
+      "topic_id": "agri-3aec9f066bb5",
+      "title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار"
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-6a04e31069c0",
+      "title": "میزان برداشت ماشک در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-13",
+      "topic_id": "agri-6aa44095f748",
+      "title": "انتخاب رقم هندوانه تخمی برای مزرعه؛ معیارهای اقلیمی و بازارپسندی"
+    },
+    {
+      "family_id": "family-14",
+      "topic_id": "agri-aa89b98c2455",
+      "title": "زمان مناسب برداشت ماش؛ نشانه‌های رسیدگی و معیار بازار"
+    },
+    {
+      "family_id": "family-15",
+      "topic_id": "agri-e4ad7582f1cd",
+      "title": "تعداد نشای گوجه‌فرنگی در هکتار؛ محاسبه نیاز خزانه و تلفات انتقال"
+    }
+  ],
+  "results": [
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-01",
+      "topic_id": "agri-065fb7b0cc9e",
+      "canonical_title": "میزان برداشت لوبیا قرمز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "started_at": "2026-10-26T05:18:54.923783+00:00",
+      "pid": 2228,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-01",
+        "topic_id": "agri-065fb7b0cc9e",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "potential_gap",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "میزان برداشت لوبیا قرمز در هکتار عملکرد کشاورزی ایران",
+          "red bean yield per hectare Iran agronomy Vicia faba Phaseolus",
+          "عملکرد لوبیا قرمز هر هکتار عوامل اقلیم خاک",
+          "لوبیا قرمز تولید محصول بازدهی هکتار وزارت جهاد کشاورزی"
+        ],
+        "reason": "Three related pages exist (507234/507774/507790) but all are about drip-tape irrigation cost analysis for okra, wild onion, and tape-compatibility — they only mention red bean tangentially (seed-quantity cross-links, filter-management comparisons). None contain yield-per-hectare data, yield ranges, or agronomic factors for red bean harvest. The topic intent is numeric_or_local (yield ranges, transplant/spacing factors), so specialist_evidence is required to find authoritative agronomic or extension sources.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:19:12.647192+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-04",
+      "topic_id": "agri-b35a06791dd5",
+      "canonical_title": "زمان مناسب برداشت کدو آجیلی؛ نشانه‌های رسیدگی و معیار بازار",
+      "started_at": "2026-10-26T05:18:55.107630+00:00",
+      "pid": 2226,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-04",
+        "topic_id": "agri-b35a06791dd5",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "potential_gap",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "زمان برداشت کدو آجیلی نشانه‌های رسیدگی",
+          "معیار بازار تخمه کدو آجیلی برداشت",
+          "Cucurbita pepo harvest maturity indicators Iran",
+          "راهنمای ترویجی برداشت کدو تخمی"
+        ],
+        "reason": "Existing document covers planting guidance only; no harvest-maturity signs, numeric thresholds, or market criteria found. Gap identified for specialist evidence.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:19:00.193465+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-05",
+      "topic_id": "agri-621734b38aa9",
+      "canonical_title": "میزان برداشت لوبیا سفید در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "started_at": "2026-10-26T05:18:55.066320+00:00",
+      "pid": 2225,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-05",
+        "topic_id": "agri-621734b38aa9",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "potential_gap",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "میزان عملکرد لوبیا سفید در هکتار ایران منبع دانشگاهی",
+          "white bean yield per hectare Iran research papers",
+          "عملکرد لوبیا سفید عوامل موثر برداشت هکتار وزارت جهاد کشاورزی",
+          "لوبیا سفید تناژ در هکتار ارقام توصیه‌ای ایران"
+        ],
+        "reason": "موجودی سه سند مرتبط تماماً از همان سایت navar-abyari.ir هستند و هیچ‌یک محتوای اختصاصی عملکرد/برداشت لوبیا سفید را ارائه نمی‌دهند. اسناد مذکور درباره آبیاری کدو، نقش سیستم‌های آبیاری و بهینه‌سازی بر اساس شیب مزرعه هستند و تنها در بخش‌های مربوطه به‌صورت پیوند متنی به «میزان بذر/حجم بذر لوبیا سفید» اشاره کرده‌اند؛ نه داده عملکرد. محدوده این موضوع numeric_or_local است (دامنه عملکرد عددی در هکتار) و چون موجودی فعلی فاقد محتوای هم‌پوشانی واقعی با عنوان موضوع است، شکاف وجود دارد. مرحله بعدی جستجوی متخصص‌محور از منابع ترویجی/دانشگاهی معتبر (وزارت جهاد، دانشگاه‌های کشاورزی، مقالات ISI فارسی/انگلیسی) ضروری است.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:20:16.533039+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-06",
+      "topic_id": "agri-60e1ebaf13c8",
+      "canonical_title": "میزان برداشت کدو سبز در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "started_at": "2026-10-26T05:18:55.083146+00:00",
+      "pid": 2229,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-06",
+        "topic_id": "agri-60e1ebaf13c8",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "overlap_likely",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "zucchini summer squash yield per hectare Iran research",
+          "کدو سبز عملکرد هکتار دانشگاه کشاورزی",
+          "Cucurbita pepo yield ha agronomic study"
+        ],
+        "reason": "The topic requests numeric harvest-yield ranges for zucchini (کدو سبز) per hectare, which mandates a numeric_or_local scope. The single related document (511664) is a commercial irrigation-article focused on drip-tape economics, pressure, and fertigation—not on yield data, harvest amounts, or agronomic performance ranges. Its evidence_role explicitly states it is not independent university proof. Therefore overlap is likely but insufficient for the topic’s numeric needs, and specialist_evidence from university/extension sources is required.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:19:00.989679+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-07",
+      "topic_id": "agri-aa197412fb7f",
+      "canonical_title": "فاصله کاشت و تراکم کدو آجیلی؛ محاسبه فاصله ردیف و بوته",
+      "started_at": "2026-10-26T05:18:54.894377+00:00",
+      "pid": 2227,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-07",
+        "topic_id": "agri-aa197412fb7f",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "needs_full_review",
+        "next_stage": "existing_content_audit",
+        "source_queries": [
+          "فاصله کاشت کدو آجیلی ردیف بوته به متر",
+          "تراکم کشت تخمه آفتابگردان جایگزین کدو",
+          "间距 cultivation density Cucurbita pepo var. cylindrica rows hills",
+          "کدو آجیلی متراکم کاشت توصیه‌های کارشناسی دانشگاه",
+          "فاصله کاشت کدو حلوایی و آجیلی تفاوت روش‌های"
+        ],
+        "reason": "Existing doc 35530 from the same site mentions spacing (1.5–2m rows, 60–90cm hills) but is a general cultivation guide, not a dedicated density/calculation article for کدو آجیلی. The numeric-prescription scope requires verifying whether the existing site text fully covers the topic or if gaps exist. A full audit of the existing article is needed before deciding on specialist evidence or additional sources.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "existing_content_audit",
+      "completed_at": "2026-10-26T05:19:01.093705+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-08",
+      "topic_id": "agri-c0e160d88554",
+      "canonical_title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "started_at": "2026-10-26T05:18:54.991546+00:00",
+      "pid": 2230,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-08",
+        "topic_id": "agri-c0e160d88554",
+        "scope": "qualitative",
+        "existing_content_decision": "no_existing_content",
+        "next_stage": "source_discovery",
+        "source_queries": [
+          "ارقام ثبت‌شده کنجد ایران ویژگی‌های اقلیمی",
+          "انتخاب رقم کنجد مناسب هر منطقه ایران معیارها",
+          "معیارهای انتخاب بذر کنجد از نظر بازارپسندی و عملکرد",
+          "ارقام کنجد مقاوم به خشکی و شوری ایران",
+          "لیست ارقام تجاری کنجد مورد تایید سازمان امور کشاورزی"
+        ],
+        "reason": "هیچ‌یک از پنج سند موجود صرفاً به روش‌های آبیاری (نوار تیپ، گره‌ای، بارانی)، مقدار بذر در هکتار و هزینه‌های کاشت می‌پردازند و هیچ‌کدام به معیارهای انتخاب رقم کنجد بر اساس شرایط اقلیمی و بازارپسندی اشاره ندارند. بنابراین فقدان محتوای مرتبط قطعی است و نیاز به کشف منبع دارد.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "source_discovery",
+      "completed_at": "2026-10-26T05:19:04.273766+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-09",
+      "topic_id": "agri-02e05cb179de",
+      "canonical_title": "انتخاب رقم نخود برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "started_at": "2026-10-26T05:18:54.957348+00:00",
+      "pid": 2224,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-09",
+        "topic_id": "agri-02e05cb179de",
+        "scope": "qualitative",
+        "existing_content_decision": "potential_gap",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "انتخاب رقم نخود شرایط اقلیمی بازارپسندی",
+          "chickpea variety selection criteria climate adaptability Iran",
+          "ارقام ثبت‌شده نخود ایران معیارهای کشت",
+          "چگونگی انتخاب رقم نخود مناسب برای مناطق خشک",
+          "chickpea market quality traits Iran"
+        ],
+        "reason": "موجودی موجود مربوط به نرخ بذر، هزینه و آبیاری است و به‌طور مستقیم به معیارهای انتخاب رقم نخود نمی‌پردازد؛ بنابراین شکاف محتوایی مشخص است و نیاز به یافتن منابع تخصصی ترویجی/دانشگاهی دارد.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:19:16.756904+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-10",
+      "topic_id": "agri-64fcb57a3e18",
+      "canonical_title": "میزان برداشت نخودفرنگی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "started_at": "2026-10-26T05:18:54.778593+00:00",
+      "pid": 2221,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-10",
+        "topic_id": "agri-64fcb57a3e18",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "no_existing_content",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "نخود فرنگی عملکرد در هکتار دامنه بازه",
+          "pea yield per hectare Iran climate range kg",
+          "میزان برداشت نخود فرنگی هر هکتار عوامل موثر",
+          "Pisum sativum yield hectare academic study Iran",
+          "عملکرد محصول نخود فرنگی زراعی منابع دانشگاهی",
+          "گزارش عملکرد نخود فرنگی سازمان جهاد کشاورزی"
+        ],
+        "reason": "مقاله‌های مرتبط موجود (۵۰۷۱۶۶: شاهی، ۵۰۷۲۷۸: ذرت، ۵۰۷۷۱۴: سیر) هر سه درباره محصولات متفاوت هستند و هیچ‌کدام داده عملکرد واقعی نخودفرنگی ندارند؛ تنها اشاره‌ای در بخش مطالب مرتبط داشته‌اند. Scope این موضوع numeric_or_local است زیرا دامنه عملکرد وزنی در هکتار نیازمند اعداد مستند است. بنابراین مرحله بعدی specialist_evidence برای یافتن منابع ترویجی/دانشگاهی معتبر ضروری است.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:19:15.121378+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-11",
+      "topic_id": "agri-3aec9f066bb5",
+      "canonical_title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
+      "started_at": "2026-10-26T05:18:55.052669+00:00",
+      "pid": 2231,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-11",
+        "topic_id": "agri-3aec9f066bb5",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "potential_gap",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "لنتیل عدس زمان برداشت نشانه‌های رسیدگی غلاف",
+          "lentil harvest maturity indicators pod color moisture content",
+          "زمان مناسب برداشت عدس در ایران معیار رسیدگی",
+          "عدس برداشت غلاف قهوه‌ای رطوبت دانه استاندارد بازار",
+          "lentil harvesting stage physiological maturity guidelines"
+        ],
+        "reason": "Existing site articles primarily cover seeding rate (37353), drip-tape yield optimization (507270), intercropping irrigation (510844), and smart irrigation (511148). Only 37353 mentions harvest timing briefly (pod yellow-brown, ~14% moisture) as a single sentence within a seeding-rate article. The topic specifically requires detailed maturity signs (pod color transition, leaf senescence stage, seed hardness), moisture thresholds at harvest, and market-grade quality criteria—all absent from the four existing documents. This constitutes a clear content gap despite superficial mention. Because the topic demands numeric/local thresholds (moisture %, days after flowering, pod color stages), scope is numeric_or_local and the next stage is specialist_evidence to locate peer-reviewed or extension-source agronomic data.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:19:28.869237+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-13",
+      "topic_id": "agri-6aa44095f748",
+      "canonical_title": "انتخاب رقم هندوانه تخمی برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "started_at": "2026-10-26T05:18:54.521182+00:00",
+      "pid": 2220,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-13",
+        "topic_id": "agri-6aa44095f748",
+        "scope": "ambiguous",
+        "existing_content_decision": "needs_full_review",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "site:extension.oregonstate.edu watermelon dry-farmed variety evaluation criteria 2023 2024",
+          "site:ncsu.edu watermelon variety trial seedless market criteria climate zone",
+          "انتخاب رقم هندوانه تخمی معیار اقلیمی بازارپسندی منبع دانشگاهی",
+          "seedless watermelon variety selection climate adaptability market demand Iran regional guidelines"
+        ],
+        "reason": "الگوی محتوای موجود (id 37329) صرفاً درباره تناژ/روش‌های تولید است و مقالهٔ موردنیاز دربارهٔ «انتخاب رقم هندوانه تخمی» با معیارهای اقلیمی و بازارپسندی است؛ هدف (intent: variety) و نیازمندی‌ها (منبع ترویجی/دانشگاهی معتبر متناسب گونه، اقلیم و سامانه) از هم متمایزند. محتوای موجود به‌صورت گذرا چند رقم و منابع دانشگاهی آمریکایی را ذکر کرده اما جامعیت موضوع هدف را پوشش نمی‌دهد؛ همچنین دامنه موضوع شامل اقلیم ایران و معیارهای بازارپسندی است که بررسی تخصصی جدید می‌طلبد. متن ناقص نیست و قطعیت دارد، اما عدم تطابق محتوا و نیاز به منبع ترویجی/دانشگاهی معتبر باعث انتخاب next_stage: specialist_evidence می‌شود.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:19:24.149357+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v1",
+      "family_id": "family-15",
+      "topic_id": "agri-e4ad7582f1cd",
+      "canonical_title": "تعداد نشای گوجه‌فرنگی در هکتار؛ محاسبه نیاز خزانه و تلفات انتقال",
+      "started_at": "2026-10-26T05:18:55.002707+00:00",
+      "pid": 2223,
+      "stage": "trial_diagnostic",
+      "model_calls": 0,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "quantitative_or_specialist_scope",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "diagnostic": {
+        "family_id": "family-15",
+        "topic_id": "agri-e4ad7582f1cd",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "no_existing_content",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "تعداد نشای گوجه فرنگی در هکتار محاسبه",
+          "چگالی کشت گوجه فرنگی نشاء در هکتار دانشگاه",
+          "نیاز خزانه گوجه فرنگی برای یک هکتار تلفات انتقال",
+          "تراکم بوته گوجه فرنگی per hectare Iran agriculture extension"
+        ],
+        "reason": "Topic asks for numeric transplant density and nursery-calculations for tomatoes; no related_ids exist; source_queries target Iranian extension/university numeric prescriptions.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:18:59.716147+00:00",
+      "worker_exit_code": 0,
+      "reused_from_trial": "parallel-family-trial-v1",
+      "original_model_calls": 1
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v2",
+      "family_id": "family-14",
+      "topic_id": "agri-aa89b98c2455",
+      "canonical_title": "زمان مناسب برداشت ماش؛ نشانه‌های رسیدگی و معیار بازار",
+      "started_at": "2026-10-26T05:22:41.630150+00:00",
+      "pid": 2190,
+      "stage": "trial_diagnostic",
+      "model_calls": 1,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "model_proposal": {
+        "family_id": "family-14",
+        "topic_id": "agri-aa89b98c2455",
+        "scope": "qualitative",
+        "existing_content_decision": "potential_gap",
+        "next_stage": "source_discovery",
+        "source_queries": [
+          "زمان برداشت ماش نشانه‌های رسیدگی کشاورزی",
+          "معیار تشخیص رسیدن محصول ماش برای برداشت",
+          "نشانه‌های برداشت ماش دانشگاهی یا ترویجی",
+          "زمان مناسب برداشت دانه ماش از مزرعه"
+        ],
+        "reason": "Existing related doc (36897) covers yield per hectare and planting/fertigation practices, but does not address harvest timing, maturity indicators, or market grading standards requested by this topic. The title and brief indicate a qualitative scope requiring agronomic or extension-source evidence on when to harvest mung bean and what visual/physiological signs confirm readiness.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "server_enforced_restrictions": [
+        {
+          "field": "existing_content_decision",
+          "proposed": "potential_gap",
+          "enforced": "needs_full_review",
+          "reason": "incomplete_existing_content"
+        },
+        {
+          "field": "next_stage",
+          "proposed": "source_discovery",
+          "enforced": "existing_content_audit",
+          "reason": "full_existing_text_review_required"
+        }
+      ],
+      "diagnostic": {
+        "family_id": "family-14",
+        "topic_id": "agri-aa89b98c2455",
+        "scope": "qualitative",
+        "existing_content_decision": "needs_full_review",
+        "next_stage": "existing_content_audit",
+        "source_queries": [
+          "زمان برداشت ماش نشانه‌های رسیدگی کشاورزی",
+          "معیار تشخیص رسیدن محصول ماش برای برداشت",
+          "نشانه‌های برداشت ماش دانشگاهی یا ترویجی",
+          "زمان مناسب برداشت دانه ماش از مزرعه"
+        ],
+        "reason": "Existing related doc (36897) covers yield per hectare and planting/fertigation practices, but does not address harvest timing, maturity indicators, or market grading standards requested by this topic. The title and brief indicate a qualitative scope requiring agronomic or extension-source evidence on when to harvest mung bean and what visual/physiological signs confirm readiness.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "existing_content_audit",
+      "completed_at": "2026-10-26T05:22:47.886636+00:00",
+      "worker_exit_code": 0
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v2",
+      "family_id": "family-03",
+      "topic_id": "agri-68bb3f68138d",
+      "canonical_title": "میزان برداشت کدو حلوایی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "started_at": "2026-10-26T05:22:41.638698+00:00",
+      "pid": 2191,
+      "stage": "trial_diagnostic",
+      "model_calls": 1,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "quantitative_or_specialist_scope",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "model_proposal": {
+        "family_id": "family-03",
+        "topic_id": "agri-68bb3f68138d",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "no_existing_content",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "منابع رسمی عملکرد کدو حلوایی در هکتار دانشگاهی",
+          "پژوهش عملکرد محصول کدو حلوایی در ایران واحد تناژ",
+          "عوامل موثر بر عملکرد کدو حلوایی تحقیقات کشاورزی",
+          "راهنمای سطح کشت و عملکرد کدو حلوایی مرکز تحقیقات"
+        ],
+        "reason": "موضوع صراحتاً به بازه عددی عملکرد در هکتار می‌پردازد و به دلیل فقدان هرگونه منبع مشابه در موجود، نیازمند کشف متخصصانهٔ داده‌های عددی با واحد، بازه و شرایط اقلیمی است.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "server_enforced_restrictions": [],
+      "diagnostic": {
+        "family_id": "family-03",
+        "topic_id": "agri-68bb3f68138d",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "no_existing_content",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "منابع رسمی عملکرد کدو حلوایی در هکتار دانشگاهی",
+          "پژوهش عملکرد محصول کدو حلوایی در ایران واحد تناژ",
+          "عوامل موثر بر عملکرد کدو حلوایی تحقیقات کشاورزی",
+          "راهنمای سطح کشت و عملکرد کدو حلوایی مرکز تحقیقات"
+        ],
+        "reason": "موضوع صراحتاً به بازه عددی عملکرد در هکتار می‌پردازد و به دلیل فقدان هرگونه منبع مشابه در موجود، نیازمند کشف متخصصانهٔ داده‌های عددی با واحد، بازه و شرایط اقلیمی است.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:22:48.550206+00:00",
+      "worker_exit_code": 0
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v2",
+      "family_id": "family-12",
+      "topic_id": "agri-6a04e31069c0",
+      "canonical_title": "میزان برداشت ماشک در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "started_at": "2026-10-26T05:22:41.626798+00:00",
+      "pid": 2188,
+      "stage": "trial_diagnostic",
+      "model_calls": 1,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "quantitative_or_specialist_scope",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "model_proposal": {
+        "family_id": "family-12",
+        "topic_id": "agri-6a04e31069c0",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "no_existing_content",
+        "next_stage": "source_discovery",
+        "source_queries": [
+          "ماشک عملکرد برداشت هکتار دانشگاه آزاد",
+          "Vigna mungo yield per hectare Iran research",
+          "ماشک کشت عملکرد منطقه‌ای سازمان جهاد کشاورزی",
+          "ماشک (Cowpea/Mung bean) cultivation yield factors academic"
+        ],
+        "reason": "Topic asks for numeric yield data per hectare for vetch (ماشک). No related_existing_ids and no documents found. Requires specialist agricultural source discovery before any content can be reviewed or drafted.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "server_enforced_restrictions": [
+        {
+          "field": "next_stage",
+          "proposed": "source_discovery",
+          "enforced": "specialist_evidence",
+          "reason": "numeric_evidence_required"
+        }
+      ],
+      "diagnostic": {
+        "family_id": "family-12",
+        "topic_id": "agri-6a04e31069c0",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "no_existing_content",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "ماشک عملکرد برداشت هکتار دانشگاه آزاد",
+          "Vigna mungo yield per hectare Iran research",
+          "ماشک کشت عملکرد منطقه‌ای سازمان جهاد کشاورزی",
+          "ماشک (Cowpea/Mung bean) cultivation yield factors academic"
+        ],
+        "reason": "Topic asks for numeric yield data per hectare for vetch (ماشک). No related_existing_ids and no documents found. Requires specialist agricultural source discovery before any content can be reviewed or drafted.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:22:49.691952+00:00",
+      "worker_exit_code": 0
+    },
+    {
+      "schema": 1,
+      "request_id": "parallel-family-trial-v2",
+      "family_id": "family-02",
+      "topic_id": "agri-a55386876467",
+      "canonical_title": "میزان برداشت یونجه در هر چین؛ وزن تر، وزن خشک و فاصله چین‌ها",
+      "started_at": "2026-10-26T05:22:41.628952+00:00",
+      "pid": 2189,
+      "stage": "trial_diagnostic",
+      "model_calls": 1,
+      "published_posts": 0,
+      "wordpress_write_calls": 0,
+      "legacy_research_attempts": 0,
+      "legacy_research_reason": "review_origin_needs_existing_content_audit",
+      "assignment_retained": true,
+      "status": "trial_diagnostic_completed",
+      "publication_authorized": false,
+      "model_proposal": {
+        "family_id": "family-02",
+        "topic_id": "agri-a55386876467",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "potential_gap",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "alfalfa hay yield per cut tons per hectare fresh dry weight by climate",
+          "یونجه عملکرد هر چین برداشت کیلوگرم وزن تر خشک فاصله بین چین‌ها",
+          "alfalfa cutting interval days regrowth temperature irrigation effect on yield",
+          "نرگس کارودشتی برداشت یونجه عملکرد هر چین وزن خشک",
+          "alfalfa biomass yield per cutting Iran regional variation study"
+        ],
+        "reason": "موضوع درخواستی عملکرد هر چین یونجه (وزن تر، وزن خشک و فاصله بین چین‌ها) است در حالی که محتوای موجود (id 507638) تنها به مقدار بذر در هکتار می‌پردازد؛ متن آن هیچ‌یک از ابعاد موضوع جدید را پوشش نمی‌دهد و شکاف محتوایی آشکار است. محدوده numeric_or_local است چرا که اعداد عملکرد بر حسب تن/هکتار (تر و خشک) و فاصله زمانی چین‌ها بسته به رقم و اقلیم متغیر هستند و شامل دامنه‌های عددی می‌شوند.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "server_enforced_restrictions": [],
+      "diagnostic": {
+        "family_id": "family-02",
+        "topic_id": "agri-a55386876467",
+        "scope": "numeric_or_local",
+        "existing_content_decision": "potential_gap",
+        "next_stage": "specialist_evidence",
+        "source_queries": [
+          "alfalfa hay yield per cut tons per hectare fresh dry weight by climate",
+          "یونجه عملکرد هر چین برداشت کیلوگرم وزن تر خشک فاصله بین چین‌ها",
+          "alfalfa cutting interval days regrowth temperature irrigation effect on yield",
+          "نرگس کارودشتی برداشت یونجه عملکرد هر چین وزن خشک",
+          "alfalfa biomass yield per cutting Iran regional variation study"
+        ],
+        "reason": "موضوع درخواستی عملکرد هر چین یونجه (وزن تر، وزن خشک و فاصله بین چین‌ها) است در حالی که محتوای موجود (id 507638) تنها به مقدار بذر در هکتار می‌پردازد؛ متن آن هیچ‌یک از ابعاد موضوع جدید را پوشش نمی‌دهد و شکاف محتوایی آشکار است. محدوده numeric_or_local است چرا که اعداد عملکرد بر حسب تن/هکتار (تر و خشک) و فاصله زمانی چین‌ها بسته به رقم و اقلیم متغیر هستند و شامل دامنه‌های عددی می‌شوند.",
+        "publication_authorized": false,
+        "human_review_claimed": false
+      },
+      "next_stage": "specialist_evidence",
+      "completed_at": "2026-10-26T05:22:52.922553+00:00",
+      "worker_exit_code": 0
+    }
+  ],
+  "max_model_requests": 4,
+  "image_calls": 0,
+  "wordpress_write_calls": 0,
+  "published_posts": 0,
+  "production_enabled": false,
+  "original_attempts_reset": false,
+  "assignments_sha256": "8f44467d2c29da249fa785c043e729699551a384f26398e6f6825fb82ed39356",
+  "existing_article_refs": 2,
+  "existing_article_refs_loaded": 2,
+  "completed_workers": 15,
+  "pool": {
+    "model_requests_reserved": 4,
+    "cooldown_until_epoch": 0.0,
+    "slots": [
+      {
+        "name": "AGNES_API_KEY",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY2",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY3",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY4",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY5",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY6",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY7",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY8",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY9",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY10",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY11",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY12",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY13",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY14",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY15",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY16",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY17",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY18",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY19",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY20",
+        "used": 1,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY21",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY22",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY23",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY24",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY25",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY26",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY27",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY28",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY29",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY30",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY31",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY32",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY33",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY34",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY35",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY36",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY37",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY38",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY39",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY40",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY41",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY42",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY43",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY44",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY45",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY46",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY47",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY48",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY49",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY50",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY51",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY52",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY53",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY54",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY55",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY56",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY57",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY58",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY59",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY60",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY61",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY62",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY63",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY64",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY65",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY66",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY67",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY68",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY69",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY70",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY71",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY72",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY73",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY74",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      },
+      {
+        "name": "AGNES_API_KEY75",
+        "used": 0,
+        "disabled": 0,
+        "kind": null
+      }
+    ],
+    "secret_values_stored": false,
+    "peak_text_leases": 4,
+    "peak_image_leases": 0
+  },
+  "original_progress_unchanged": true,
+  "protected_existing_file_count": 15,
+  "operational_failures": 0,
+  "completed_at": "2026-10-26T05:22:53.013289+00:00"
+}

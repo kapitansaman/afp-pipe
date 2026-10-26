@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v2",
+  "family_id": "family-02",
+  "topic_id": "agri-a55386876467",
+  "canonical_title": "میزان برداشت یونجه در هر چین؛ وزن تر، وزن خشک و فاصله چین‌ها",
+  "started_at": "2026-10-26T05:22:41.628952+00:00",
+  "pid": 2189,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "review_origin_needs_existing_content_audit",
+  "assignment_retained": true,
+  "status": "trial_diagnostic_completed",
+  "publication_authorized": false,
+  "model_proposal": {
+    "family_id": "family-02",
+    "topic_id": "agri-a55386876467",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "potential_gap",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "alfalfa hay yield per cut tons per hectare fresh dry weight by climate",
+      "یونجه عملکرد هر چین برداشت کیلوگرم وزن تر خشک فاصله بین چین‌ها",
+      "alfalfa cutting interval days regrowth temperature irrigation effect on yield",
+      "نرگس کارودشتی برداشت یونجه عملکرد هر چین وزن خشک",
+      "alfalfa biomass yield per cutting Iran regional variation study"
+    ],
+    "reason": "موضوع درخواستی عملکرد هر چین یونجه (وزن تر، وزن خشک و فاصله بین چین‌ها) است در حالی که محتوای موجود (id 507638) تنها به مقدار بذر در هکتار می‌پردازد؛ متن آن هیچ‌یک از ابعاد موضوع جدید را پوشش نمی‌دهد و شکاف محتوایی آشکار است. محدوده numeric_or_local است چرا که اعداد عملکرد بر حسب تن/هکتار (تر و خشک) و فاصله زمانی چین‌ها بسته به رقم و اقلیم متغیر هستند و شامل دامنه‌های عددی می‌شوند.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "server_enforced_restrictions": [],
+  "diagnostic": {
+    "family_id": "family-02",
+    "topic_id": "agri-a55386876467",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "potential_gap",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "alfalfa hay yield per cut tons per hectare fresh dry weight by climate",
+      "یونجه عملکرد هر چین برداشت کیلوگرم وزن تر خشک فاصله بین چین‌ها",
+      "alfalfa cutting interval days regrowth temperature irrigation effect on yield",
+      "نرگس کارودشتی برداشت یونجه عملکرد هر چین وزن خشک",
+      "alfalfa biomass yield per cutting Iran regional variation study"
+    ],
+    "reason": "موضوع درخواستی عملکرد هر چین یونجه (وزن تر، وزن خشک و فاصله بین چین‌ها) است در حالی که محتوای موجود (id 507638) تنها به مقدار بذر در هکتار می‌پردازد؛ متن آن هیچ‌یک از ابعاد موضوع جدید را پوشش نمی‌دهد و شکاف محتوایی آشکار است. محدوده numeric_or_local است چرا که اعداد عملکرد بر حسب تن/هکتار (تر و خشک) و فاصله زمانی چین‌ها بسته به رقم و اقلیم متغیر هستند و شامل دامنه‌های عددی می‌شوند.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "next_stage": "specialist_evidence",
+  "completed_at": "2026-10-26T05:22:52.922553+00:00"
+}

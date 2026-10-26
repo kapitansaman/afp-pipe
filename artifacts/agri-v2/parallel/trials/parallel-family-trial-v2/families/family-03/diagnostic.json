@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "request_id": "parallel-family-trial-v2",
+  "family_id": "family-03",
+  "topic_id": "agri-68bb3f68138d",
+  "canonical_title": "میزان برداشت کدو حلوایی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "started_at": "2026-10-26T05:22:41.638698+00:00",
+  "pid": 2191,
+  "stage": "trial_diagnostic",
+  "model_calls": 1,
+  "published_posts": 0,
+  "wordpress_write_calls": 0,
+  "legacy_research_attempts": 0,
+  "legacy_research_reason": "quantitative_or_specialist_scope",
+  "assignment_retained": true,
+  "status": "trial_diagnostic_completed",
+  "publication_authorized": false,
+  "model_proposal": {
+    "family_id": "family-03",
+    "topic_id": "agri-68bb3f68138d",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "no_existing_content",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "منابع رسمی عملکرد کدو حلوایی در هکتار دانشگاهی",
+      "پژوهش عملکرد محصول کدو حلوایی در ایران واحد تناژ",
+      "عوامل موثر بر عملکرد کدو حلوایی تحقیقات کشاورزی",
+      "راهنمای سطح کشت و عملکرد کدو حلوایی مرکز تحقیقات"
+    ],
+    "reason": "موضوع صراحتاً به بازه عددی عملکرد در هکتار می‌پردازد و به دلیل فقدان هرگونه منبع مشابه در موجود، نیازمند کشف متخصصانهٔ داده‌های عددی با واحد، بازه و شرایط اقلیمی است.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "server_enforced_restrictions": [],
+  "diagnostic": {
+    "family_id": "family-03",
+    "topic_id": "agri-68bb3f68138d",
+    "scope": "numeric_or_local",
+    "existing_content_decision": "no_existing_content",
+    "next_stage": "specialist_evidence",
+    "source_queries": [
+      "منابع رسمی عملکرد کدو حلوایی در هکتار دانشگاهی",
+      "پژوهش عملکرد محصول کدو حلوایی در ایران واحد تناژ",
+      "عوامل موثر بر عملکرد کدو حلوایی تحقیقات کشاورزی",
+      "راهنمای سطح کشت و عملکرد کدو حلوایی مرکز تحقیقات"
+    ],
+    "reason": "موضوع صراحتاً به بازه عددی عملکرد در هکتار می‌پردازد و به دلیل فقدان هرگونه منبع مشابه در موجود، نیازمند کشف متخصصانهٔ داده‌های عددی با واحد، بازه و شرایط اقلیمی است.",
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "next_stage": "specialist_evidence",
+  "completed_at": "2026-10-26T05:22:48.550206+00:00"
+}
