@@ -2,6 +2,7 @@
 import argparse,json,os,subprocess,urllib.request
 from .queue import DATA,OUT,ROOT,atomic_json,load_json,utcnow,age_hours
 ID='ops-97-readiness-pilot-v1'
+CONTINUATION_ID='ops-97-pilot-citation-v2'
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -9,7 +10,9 @@ def context(env):
  return env.get('GITHUB_ACTIONS')=='true' and env.get('GITHUB_REPOSITORY')=='kapitansaman/afp-pipe' and env.get('GITHUB_EVENT_NAME')=='push' and env.get('GITHUB_REF')=='refs/heads/main' and env.get('GITHUB_WORKFLOW_REF')==WORKFLOW and str(env.get('GITHUB_RUN_ID','')).isdigit() and len(env.get('GITHUB_SHA',''))==40
 
 def validate_request(req):
- expected={'version':1,'request_id':ID,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97,'max_image_health_calls':1,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
+ rid=req.get('request_id') if isinstance(req,dict) else None
+ if rid not in (ID,CONTINUATION_ID):raise ValueError('Unknown bounded owner request')
+ expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
  if not isinstance(req,dict) or set(req)!=set(expected)|{'code_revision'} or any(req.get(k)!=v or type(req.get(k)) is not type(v) for k,v in expected.items()):raise ValueError('Exact bounded owner request required')
  sha=req['code_revision']
  if not isinstance(sha,str) or len(sha)!=40 or any(c not in '0123456789abcdef' for c in sha):raise ValueError('Pinned code revision required')
@@ -20,7 +23,7 @@ def authorize(env,data=DATA):
  p=data/'status/owner-operation-admission.json'
  if not p.exists():return False
  row=load_json(p)
- try:return row['request_id']==ID and row['run_id']==env['GITHUB_RUN_ID'] and row['request_commit']==env['GITHUB_SHA'] and 0<=age_hours(row['admitted_at'])<2 and validate_request(row['request']) is not None
+ try:return row['request_id']==row['request']['request_id'] and row['run_id']==env['GITHUB_RUN_ID'] and row['request_commit']==env['GITHUB_SHA'] and 0<=age_hours(row['admitted_at'])<2 and validate_request(row['request']) is not None
  except (KeyError,TypeError,ValueError):return False
 
 def load_owner_request(env,data=DATA,fetch_fn=None,revision_fn=None):
@@ -36,7 +39,7 @@ def load_owner_request(env,data=DATA,fetch_fn=None,revision_fn=None):
  validate_request(req)
  revision=revision_fn() if revision_fn else subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
  if revision!=req['code_revision']:raise ValueError('Checked out code differs from explicit owner request')
- row={'request_id':ID,'run_id':env['GITHUB_RUN_ID'],'request_commit':env['GITHUB_SHA'],'admitted_at':utcnow(),'request':req};atomic_json(data/'status/owner-operation-admission.json',row);return row
+ row={'request_id':req['request_id'],'run_id':env['GITHUB_RUN_ID'],'request_commit':env['GITHUB_SHA'],'admitted_at':utcnow(),'request':req};atomic_json(data/'status/owner-operation-admission.json',row);return row
 
 def image_capability(env,data=DATA,out=OUT,probe_fn=None):
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
@@ -84,14 +87,15 @@ def prepare(env=None,data=DATA,out=OUT):
  policy(env,data)
  from .production_readiness import run as readiness
  before=readiness(data,out)
- if reserve('operation',ID,env) is None:return {'status':'operation_already_reserved','model_calls':0,'published_posts':0}
- dest=out/'parallel/operations'/ID;rp=dest/'prepare.json';report={'request_id':ID,'run_id':env['GITHUB_RUN_ID'],'request_commit':env['GITHUB_SHA'],'code_revision':admission['request']['code_revision'],'started_at':utcnow(),'status':'started','readiness_before':before,'attempts_reset':False,'schedule_activated':False,'published_posts':0};atomic_json(rp,report)
+ rid=admission['request_id']
+ if reserve('operation',rid,env) is None:return {'status':'operation_already_reserved','model_calls':0,'published_posts':0}
+ dest=out/'parallel/operations'/rid;rp=dest/'prepare.json';report={'request_id':rid,'run_id':env['GITHUB_RUN_ID'],'request_commit':env['GITHUB_SHA'],'code_revision':admission['request']['code_revision'],'started_at':utcnow(),'status':'started','readiness_before':before,'attempts_reset':False,'schedule_activated':False,'published_posts':0};atomic_json(rp,report)
  from .parallel_audit import run as audit
- report['audit']=audit(env,data,out);atomic_json(rp,report)
+ report['audit']=audit(env,data,out) if admission['request']['max_text_health_calls'] else {'status':'not_requested_existing_proof_only','model_calls':0};atomic_json(rp,report)
  h=load_json(out/'parallel/health/latest.json') if (out/'parallel/health/latest.json').exists() else {}
  from .parallel_capacity import CREDENTIAL_SET_ID
  text_ready=h.get('credential_set_id')==CREDENTIAL_SET_ID and h.get('audit_status')=='completed' and 0<=age_hours(h['checked_at'])<24 and len(h.get('eligible_text_slots',[]))>=20
- if text_ready:report['image']=image_capability(env,data,out);atomic_json(rp,report)
+ if text_ready and admission['request']['max_image_health_calls']:report['image']=image_capability(env,data,out);atomic_json(rp,report)
  after=readiness(data,out);report['readiness_after']=after
  required=['fresh_text_capacity','fresh_image_capacity','authenticated_publisher','translation_bridge','lifecycle_enabled']
  report.update(status='pilot_prerequisites_passed' if all(after['gates'][k]['passed'] for k in required) else 'pilot_prerequisites_blocked',completed_at=utcnow());atomic_json(rp,report);return report
@@ -99,7 +103,8 @@ def prepare(env=None,data=DATA,out=OUT):
 def pilot(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env)
  if not authorize(env,data):raise ValueError('Bound current owner operation admission required')
- rp=out/'parallel/operations'/ID/'prepare.json';report=load_json(rp)
+ rid=load_json(data/'status/owner-operation-admission.json')['request_id']
+ rp=out/'parallel/operations'/rid/'prepare.json';report=load_json(rp)
  if report.get('run_id')!=env['GITHUB_RUN_ID'] or report.get('status')!='pilot_prerequisites_passed':return {'status':'pilot_not_admitted','published_posts':0}
  from .parallel_controller import run
  return run('white-bean-pilot',env,data,out)

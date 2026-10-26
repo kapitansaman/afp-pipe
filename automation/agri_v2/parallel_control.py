@@ -26,9 +26,9 @@ def reserve(phase,request_id,env=None,put_fn=None):
   if request_id!='family-lifecycle-run-'+str(env.get('GITHUB_RUN_ID','')) or not str(env.get('GITHUB_RUN_ID','')).isdigit():raise ValueError('Current run-bound lifecycle reservation required')
   expected=request_id
  elif phase=='operation':
-  from .operation_request import ID,authorize
+  from .operation_request import authorize
   if not authorize(env):raise ValueError('Bound owner operation required')
-  expected=ID
+  expected=load_json(DATA/'status/owner-operation-admission.json')['request_id']
  else:expected={'audit':AUDIT_ID,'research':'parallel-15-research-rollout-v1','trial':'parallel-family-trial-v2'}[phase]
  if request_id!=expected:raise ValueError('Exact bounded first-rollout request required')
  row={'request_id':request_id,'phase':phase,'status':'reserved','run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'published_posts':0,'original_attempts_reset':False}

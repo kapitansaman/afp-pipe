@@ -53,3 +53,11 @@ class OwnerOperationTests(unittest.TestCase):
    with patch('automation.agri_v2.parallel_controller.run') as run:self.assertEqual(op.pilot(e,d,o)['status'],'pilot_not_admitted');run.assert_not_called()
  def test_workflow_is_one_shot_not_new_periodic_generator(self):
   p=Path(__file__).resolve().parents[2]/'.github/workflows/afp-owner-operation.yml';s=p.read_text();self.assertIn("paths: ['.github/afp-operations/request.json']",s);self.assertNotIn('cron:',s);self.assertIn('group: afp-agri-v2-live',s);self.assertIn('if: always()',s);self.assertEqual(s.count('secrets.AGNES_API_KEY_'),97);self.assertNotIn('GITHUB_EVENT_NAME:',s)
+
+ def test_continuation_requires_zero_new_health_probes(self):
+  r=self.req();r.update(request_id=op.CONTINUATION_ID,max_text_health_calls=0,max_image_health_calls=0);self.assertEqual(op.validate_request(r)['request_id'],op.CONTINUATION_ID)
+  r['max_text_health_calls']=97
+  with self.assertRaises(ValueError):op.validate_request(r)
+ def test_unknown_operation_does_not_create_an_unbounded_replay_path(self):
+  r=self.req();r['request_id']='ops-97-arbitrary-retry'
+  with self.assertRaises(ValueError):op.validate_request(r)
