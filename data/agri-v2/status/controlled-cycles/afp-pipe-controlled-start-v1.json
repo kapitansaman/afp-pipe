@@ -1,9 +1,16 @@
 {
   "request_id": "afp-pipe-controlled-start-v1",
-  "status": "reserved",
+  "status": "finished",
   "allowed": true,
   "max_cycles": 1,
   "run_id": "40267093615",
   "started_at": "2026-10-26T04:04:18.794051+00:00",
-  "original_attempts_reset": false
+  "original_attempts_reset": false,
+  "finished_at": "2026-10-26T04:05:02.889550+00:00",
+  "result": {
+    "status": "research_needs_review",
+    "topic_id": "agri-41a7470145cb",
+    "published_posts": 0
+  },
+  "publication_paused_after_cycle": true
 }
