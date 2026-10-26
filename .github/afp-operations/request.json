@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "request_id": "ops-commercial-matrix-carrot-text-v4",
-  "operation": "retry-commercial-matrix-text",
+  "request_id": "ops-commercial-matrix-carrot-structured-v5",
+  "operation": "structured-commercial-matrix-text",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 1,
   "enable_schedule": false,
   "reset_attempts": false,
-  "code_revision": "b0b9cba8723fd94bffbd5d00d73a3aca5de4f0d0",
+  "code_revision": "5b7fcee3980c0e8bd7933209b2dff87142fdd56d",
   "topic_id": "agri-b6f7d6bea16b",
-  "max_worker_model_calls": 15,
+  "max_worker_model_calls": 14,
   "max_image_generations": 2,
   "max_source_posts": 1,
   "max_translations": 4,
   "max_total_posts": 5,
-  "prior_run_id": "40318477742"
+  "prior_run_id": "40319208113"
 }
