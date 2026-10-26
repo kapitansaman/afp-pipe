@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "request_id": "ops-97-readiness-pilot-v1",
+  "operation": "readiness-audit-image-pilot",
+  "authorized": true,
+  "max_text_health_calls": 97,
+  "max_image_health_calls": 1,
+  "max_pilot_families": 1,
+  "enable_schedule": false,
+  "reset_attempts": false,
+  "code_revision": "833b7ce903743359fafe24e15a9c7fbf719d5c50"
+}
