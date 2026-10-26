@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "status": "researching",
-  "stage": "پژوهش عنوان بعدی و دریافت منابع معتبر",
-  "percent": 2,
+  "status": "awaiting_review",
+  "stage": "پژوهش متوقف شد: insufficient_fetchable_institutional_sources؛ مقاله منتشر نشد",
+  "percent": 0,
   "topic_id": "agri-41a7470145cb",
   "topic_title": "نگهداری کدو آجیلی پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات",
-  "updated_at": "2026-10-26T04:04:50.690319+00:00",
+  "updated_at": "2026-10-26T04:05:00.083407+00:00",
   "run_id": "40267093615",
   "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40267093615",
   "schedule_cron": "*/5 * * * *",
   "max_posts_per_run": 1,
   "metrics": {
     "research_briefs_ready": 0,
-    "research_needs_review": 64,
+    "research_needs_review": 65,
     "research_transient_failures": 0,
     "new_topics": 2905,
     "original_new_topics": 948,
@@ -54,12 +54,12 @@
     }
   ],
   "last_task": {
-    "status": "researching",
-    "stage": "پژوهش عنوان بعدی و دریافت منابع معتبر",
-    "percent": 2,
+    "status": "awaiting_review",
+    "stage": "پژوهش متوقف شد: insufficient_fetchable_institutional_sources؛ مقاله منتشر نشد",
+    "percent": 0,
     "topic_id": "agri-41a7470145cb",
     "topic_title": "نگهداری کدو آجیلی پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات",
-    "updated_at": "2026-10-26T04:04:50.690319+00:00",
+    "updated_at": "2026-10-26T04:05:00.083407+00:00",
     "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40267093615"
   }
 }
