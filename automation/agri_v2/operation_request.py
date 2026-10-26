@@ -4,6 +4,7 @@ from .queue import DATA,OUT,ROOT,atomic_json,load_json,utcnow,age_hours
 ID='ops-97-readiness-pilot-v1'
 CONTINUATION_ID='ops-97-pilot-citation-v2'
 GROUNDED_ID='ops-97-pilot-grounded-v3'
+SUPPLEMENT_ID='ops-97-pilot-editorial-v4'
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -12,7 +13,7 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
  if not isinstance(req,dict) or set(req)!=set(expected)|{'code_revision'} or any(req.get(k)!=v or type(req.get(k)) is not type(v) for k,v in expected.items()):raise ValueError('Exact bounded owner request required')
  sha=req['code_revision']
@@ -108,6 +109,7 @@ def pilot(env=None,data=DATA,out=OUT):
  rp=out/'parallel/operations'/rid/'prepare.json';report=load_json(rp)
  if report.get('run_id')!=env['GITHUB_RUN_ID'] or report.get('status')!='pilot_prerequisites_passed':return {'status':'pilot_not_admitted','published_posts':0}
  from .parallel_controller import run
+ if rid==SUPPLEMENT_ID:env['AFP_EDITORIAL_SUPPLEMENT']=rid
  return run('white-bean-pilot',env,data,out)
 
 def main():

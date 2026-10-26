@@ -218,6 +218,12 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
   # Legacy paid attempts still constrain the new stage system; never reset them.
   old=folder/'cycle-attempts.json'
   if old.exists() and load_json(old).get('attempts',0)>=2:return {'status':'blocked','reason':'legacy_generation_budget_exhausted','topic_id':topic['id'],'steps':steps,'published_posts':0}
+  if stage=='text' and state(folder,'text')['attempts']>=p['max_attempts_per_stage']:
+   from .editorial_supplement import authorized,generate,STAGE
+   if authorized(topic,env,data,folder):
+    result=attempt(folder,STAGE,run_id,lambda:generate(client,topic,load_json(data/'briefs'/(topic['id']+'.json')),folder),[folder/'editorial-supplement-candidate.json',folder/'editorial-supplement-structured.json'],limit=1);steps.append(result)
+    if result['status']!='stage_completed':return dict(result,topic_id=topic['id'],steps=steps,published_posts=0)
+    continue
   outputs=stage_outputs(folder,stage)
   # A new image following visual rejection also preserves the previous successful generation receipt.
   if stage.startswith('image-') and (folder/(stage+'.webp')).exists():
