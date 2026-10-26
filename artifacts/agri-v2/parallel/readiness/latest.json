@@ -1,6 +1,6 @@
 {
   "status": "readiness_blocked",
-  "checked_at": "2026-10-26T07:42:48.911204+00:00",
+  "checked_at": "2026-10-26T07:48:08.751416+00:00",
   "technical_ready": false,
   "blockers": [
     "scoped_rollout_released"
@@ -88,7 +88,7 @@
       "topic_id": "agri-621734b38aa9",
       "next_stage": "text",
       "reason": null,
-      "attempts": 1,
+      "attempts": 2,
       "retry_exhausted": false
     },
     {
