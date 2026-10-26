@@ -108,6 +108,9 @@ def bind_overlap_quotes(bundle,value):
  import copy
  result=copy.deepcopy(value)
  if not isinstance(result,dict):raise EvidenceBlocked('overlap_response_not_object')
+ # Canonicalize only exact positive vocabulary aliases, never a rejection.
+ if result.get('decision') in ('new','novel'):
+  result['original_decision']=result['decision'];result['decision']='distinct'
  quotes={(d['article_id'],q['quote_id']):q['text'] for d in overlap_review_packet(bundle) for q in d['full_text_chunks']}
  for row in result.get('article_checks',[]):
   if not isinstance(row,dict):raise EvidenceBlocked('overlap_article_check_not_object')

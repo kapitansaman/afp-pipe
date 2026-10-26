@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-26T06:26:32.050427+00:00",
+  "regression_tests": 475,
+  "result": "passed",
+  "prior_live_run": "40279244433",
+  "prior_live_published_posts": 0,
+  "negative_reviews_overridden": false,
+  "exact_positive_aliases": [
+    "new",
+    "novel"
+  ],
+  "scientific_sesame_rejection_preserved": true
+}

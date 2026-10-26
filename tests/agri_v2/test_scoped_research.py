@@ -110,3 +110,14 @@ class ScopedResearchTests(unittest.TestCase):
  def test_conflicting_generated_quote_cannot_override_source(self):
   t,v,d=self.fixture();b,r=self.overlap(t);r['article_checks'][0]['quote_id']='12:0';r['article_checks'][0]['evidence_quote']='Fabricated quote'
   with self.assertRaises(s.EvidenceBlocked):s.bind_overlap_quotes(b,r)
+
+ def test_only_positive_overlap_vocabulary_is_canonicalized(self):
+  t,v,d=self.fixture();b,r=self.overlap(t)
+  for word in ('new','novel'):
+   r['decision']=word;result=s.bind_overlap_quotes(b,r);self.assertEqual(result['original_decision'],word);s.validate_overlap(t,b,result)
+  for word in ('overlap','uncertain','not distinct','maybe new'):
+   r['decision']=word
+   with self.assertRaises(s.EvidenceBlocked):s.validate_overlap(t,b,s.bind_overlap_quotes(b,r))
+ def test_positive_vocabulary_never_overrides_article_rejection(self):
+  t,v,d=self.fixture();b,r=self.overlap(t);r['decision']='new';r['article_checks'][0]['already_answers_intent']=True
+  with self.assertRaises(s.EvidenceBlocked):s.validate_overlap(t,b,s.bind_overlap_quotes(b,r))
