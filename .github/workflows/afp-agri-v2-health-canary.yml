@@ -1,0 +1,58 @@
+name: AFP agri v2 - final one-hour technical canary
+on:
+  push:
+    branches: [feat/agri-generator-v2-2905-merge593]
+    paths: [data/agri-v2/health-canary-request.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: afp-agri-v2-live
+  cancel-in-progress: false
+jobs:
+  cycle:
+    if: ${{ false }} # Historical one-off workflow disabled after migration
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      BLOG_IMAGE_QUEUE_TOKEN: ${{ github.token }}
+      AGNES_API_KEY: ${{ secrets.AGNES_API_KEY_1 }}
+      AGNES_API_KEY2: ${{ secrets.AGNES_API_KEY_2 }}
+      AGNES_API_KEY3: ${{ secrets.AGNES_API_KEY_3 }}
+      AGNES_API_KEY4: ${{ secrets.AGNES_API_KEY_4 }}
+      AGNES_API_KEY5: ${{ secrets.AGNES_API_KEY_5 }}
+      AGNES_API_KEY6: ${{ secrets.AGNES_API_KEY_6 }}
+      AGNES_API_KEY7: ${{ secrets.AGNES_API_KEY_7 }}
+      AGNES_API_KEY8: ${{ secrets.AGNES_API_KEY_8 }}
+      AGNES_API_KEY9: ${{ secrets.AGNES_API_KEY_9 }}
+      AGNES_API_KEY10: ${{ secrets.AGNES_API_KEY_10 }}
+      AGNES_API_KEY11: ${{ secrets.AGNES_API_KEY_11 }}
+      AGNES_API_KEY12: ${{ secrets.AGNES_API_KEY_12 }}
+      AGNES_API_KEY13: ${{ secrets.AGNES_API_KEY_13 }}
+      AGNES_API_KEY14: ${{ secrets.AGNES_API_KEY_14 }}
+      AGNES_API_KEY15: ${{ secrets.AGNES_API_KEY_15 }}
+      AGNES_API_KEY16: ${{ secrets.AGNES_API_KEY_16 }}
+      AGNES_API_KEY17: ${{ secrets.AGNES_API_KEY_17 }}
+      AGNES_API_KEY18: ${{ secrets.AGNES_API_KEY_18 }}
+      AGNES_API_KEY19: ${{ secrets.AGNES_API_KEY_19 }}
+      AGNES_API_KEY20: ${{ secrets.AGNES_API_KEY_20 }}
+      AGNES_API_KEY21: ${{ secrets.AGNES_API_KEY_21 }}
+      AGNES_API_KEY22: ${{ secrets.AGNES_API_KEY_22 }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/agri-generator-v2-2905-merge593
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check pillow
+      - name: Offline safety and integrity tests
+        run: python -m unittest discover -s tests/agri_v2 -v
+      - name: One final half-open technical canary after provider cooldown; no publication
+        run: AFP_PROGRESS_ENABLED=1 python -m automation.agri_v2.health_canary
+      - name: Preserve receipts and partial progress
+        if: always()
+        run: bash .github/scripts/persist-agri-v2.sh
