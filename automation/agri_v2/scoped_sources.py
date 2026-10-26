@@ -35,9 +35,11 @@ def fetch(url):
    elif 'text/html' in mime:
     raw=blob.decode(r.headers.get_content_charset() or 'utf-8','replace');parser=Text();parser.feed(raw)
     from .source_tables import labelled_rows
-    structured=labelled_rows(raw);text=clean(structured+' '+ ' '.join(parser.parts));fmt='institutional_html';links=[]
+    structured=labelled_rows(raw);text=clean(structured+' '+ ' '.join(parser.parts));fmt='institutional_html'
+    from .research import SourceLinks
+    observed=SourceLinks(url);observed.feed(raw);links=observed.links
    else:raise ResearchBlocked('unsupported_scoped_source_type')
   if len(text)<500:raise ResearchBlocked('source_text_insufficient')
   truncated=len(text)>24000;text=text[:24000]
-  return {'url':url,'requested_url':requested,'redirect_chain':chain,'text':text,'links':links,'fetched_at':utcnow(),'sha256':hashlib.sha256(text.encode()).hexdigest(),'source_format':fmt,'source_text_excerpted':truncated,'source_text_layout_version':2}
+  return {'url':url,'requested_url':requested,'redirect_chain':chain,'text':text,'links':links,'fetched_at':utcnow(),'sha256':hashlib.sha256(text.encode()).hexdigest(),'source_format':fmt,'source_text_excerpted':truncated,'source_text_layout_version':2,'source_link_discovery_version':1}
  raise ResearchBlocked('source_redirect_limit')

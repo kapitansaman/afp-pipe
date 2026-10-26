@@ -47,7 +47,7 @@ def inspect(data=DATA,out=OUT,wp=None):
  if 'administrator' in auth.get('roles',[]):warnings.append('Publisher account is administrator; a dedicated least-privilege Author account is recommended, not silently substituted.')
  warnings+=['Fresh text/image health expires after 24h. The fixed create-only audit ID does not implement unattended recurring health renewal.','Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.','A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.','Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency.']
  blockers=[name for name,v in gates.items() if not v['passed']]
- result={'status':'readiness_checked' if not blockers else 'readiness_blocked','checked_at':utcnow(),'technical_ready':not blockers,'blockers':blockers,'gates':gates,'warnings':warnings,'families':families,'model_calls':0,'image_calls':0,'post_mutations':0,'authenticated_check_performed':wp is not None}
+ result={'status':'readiness_checked' if not blockers else 'readiness_blocked','checked_at':utcnow(),'technical_ready':not blockers,'blockers':blockers,'gates':gates,'warnings':warnings,'families':families,'research_backlog':load_json(ap).get('research_backlog',{}) if ap.exists() else {},'model_calls':0,'image_calls':0,'post_mutations':0,'authenticated_check_performed':wp is not None}
  return result
 
 def run(data=DATA,out=OUT):

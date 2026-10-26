@@ -1,5 +1,5 @@
 """Bounded parallel source I/O; only structurally validated fetched evidence is cached."""
-import hashlib,urllib.error
+import hashlib,re,urllib.error
 from concurrent.futures import ThreadPoolExecutor
 from .queue import load_json,atomic_json,age_hours
 TTL_HOURS=6
@@ -16,7 +16,7 @@ def valid_document(doc,url,source_host):
    and 0<=age_hours(doc['fetched_at'])<TTL_HOURS)
  except (KeyError,TypeError,ValueError):return False
 
-def load_documents(urls,fetcher,out,source_host,report_path=None):
+def load_documents(urls,fetcher,out,source_host,report_path=None,minimum_link_version=0):
  urls=list(dict.fromkeys(u for u in urls if isinstance(u,str)))[:6]
  reports={}
  def one(url):
@@ -25,7 +25,7 @@ def load_documents(urls,fetcher,out,source_host,report_path=None):
    source_host(url)
    try:cached=load_json(path)
    except (OSError,ValueError):cached=None
-   if isinstance(cached,dict) and valid_document(cached,url,source_host):
+   if isinstance(cached,dict) and valid_document(cached,url,source_host) and cached.get('source_link_discovery_version',0)>=minimum_link_version:
     reports[url]={'url':url,'canonical_url':cached['url'],'status':'cache_valid'};return cached
    doc=fetcher(url)
    if not valid_document(doc,url,source_host):raise ValueError('invalid_fetched_document')
@@ -33,10 +33,13 @@ def load_documents(urls,fetcher,out,source_host,report_path=None):
    reports[url]={'url':url,'canonical_url':doc['url'],'redirect_hops':len(doc.get('redirect_chain',[url]))-1,'status':'fetched'}
    return doc
   except Exception as exc:
-   row={'url':url,'status':'unavailable','category':'fetch_or_validation_failed'}
-   if isinstance(exc,urllib.error.HTTPError):row.update(category='http_error',http_status=exc.code)
+   row={'url':url,'status':'unavailable','category':'fetch_or_validation_failed','temporary':True}
+   if isinstance(exc,urllib.error.HTTPError):row.update(category='http_error',http_status=exc.code,temporary=exc.code in {401,403,408,425,429} or exc.code>=500)
    elif isinstance(exc,(TimeoutError,urllib.error.URLError)):row['category']='network_or_timeout'
-   elif isinstance(exc,ValueError):row['category']='source_policy_or_content_rejected'
+   elif isinstance(exc,ValueError):
+    code=str(exc)
+    if re.fullmatch(r'scoped_source_http_[1-5][0-9]{2}',code):row.update(category='http_error',http_status=int(code.rsplit('_',1)[1]),temporary=int(code.rsplit('_',1)[1]) in {401,403,408,425,429} or int(code.rsplit('_',1)[1])>=500)
+    else:row.update(category='source_policy_or_content_rejected',temporary=False)
    reports[url]=row
    return None
  with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:

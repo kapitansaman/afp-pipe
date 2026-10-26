@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-10-26T08:40:12.086070+00:00",
+  "scope": "actual bounded public-source discovery, not evidence approval or article generation",
+  "topic_id": "agri-7dd8dae22417",
+  "title": "انتخاب رقم لوبیا قرمز برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+  "fetched_documents": [
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "source_format": "institutional_html",
+      "sha256": "6b7f8b33ed2da4aef684c683372a07b0da5b86d7462cae351b913ffccf9728d6"
+    },
+    {
+      "url": "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
+      "source_format": "institutional_html",
+      "sha256": "acf66b11fb6bc186fd1511271bbb23dee63b0dbca0502bb11049f1011eff3308"
+    },
+    {
+      "url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+      "source_format": "institutional_html",
+      "sha256": "f3ded1f82b07166a494855c7db42563b6979ca97a3f78096a4cf52fd4eb00d03"
+    },
+    {
+      "url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+      "source_format": "institutional_pdf_text",
+      "sha256": "850c33396f0baa87beeb2468e4d1ce129ae0b074332bdd27e2d1b339641a7afa"
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "source_format": "institutional_html",
+      "sha256": "827288022a723edd521b054c6a3a2cd5e89007d569214e2a83894a202e8d08ac"
+    },
+    {
+      "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "source_format": "institutional_html",
+      "sha256": "da39a7527300c92614f464a77d86a8bef4a4bc856eece137002812cf608130e7"
+    }
+  ],
+  "discovery_report": {
+    "version": 2,
+    "started_at": "2026-10-26T08:40:11.283209+00:00",
+    "discovery_backend": "verified_catalog_and_observed_institutional_links",
+    "model_generated_urls": false,
+    "max_fetches": 12,
+    "max_link_depth": 1,
+    "completed_at": "2026-10-26T08:40:12.085532+00:00",
+    "requested": 6,
+    "loaded": 6,
+    "independent_institutions": 5,
+    "observed_links": [],
+    "fetch_reports": [
+      {
+        "requested": 6,
+        "loaded": 6,
+        "sources": [
+          {
+            "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+            "canonical_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
+            "canonical_url": "https://extensionpubs.unl.edu/publication/ec3064/2022-nebraska-dry-edible-bean-variety-trials",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+            "canonical_url": "https://miv.ext.nodak.edu/agriculture/extension/publications/impact-planting-dates-dry-edible-bean",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+            "canonical_url": "https://extensionpubs.unl.edu/publication/ec3064/2023/pdf/view/ec3064-2023.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+            "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+            "canonical_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      {
+        "requested": 0,
+        "loaded": 0,
+        "sources": []
+      }
+    ],
+    "topic_id": "agri-7dd8dae22417",
+    "source_policy_version": "university-single-source-v1",
+    "bounded_discovery_completed": true,
+    "temporary_source_failure": false,
+    "source_sufficiency": {
+      "version": "university-single-source-v1",
+      "satisfied": true,
+      "university_hosts": [
+        "extension.msstate.edu",
+        "extension.umd.edu",
+        "extensionpubs.unl.edu",
+        "miv.ext.nodak.edu",
+        "www.extension.iastate.edu"
+      ],
+      "independent_institutions": 5,
+      "single_university_exception": false,
+      "publication_authorized": false
+    },
+    "blocking_kind": null
+  },
+  "model_calls": 0,
+  "post_mutations": 0,
+  "publish_authorized": false
+}

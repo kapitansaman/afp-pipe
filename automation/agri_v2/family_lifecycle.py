@@ -137,7 +137,8 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
   return scoped_stage(topic,stage,client,data,out)
  if stage=='research_sources':
   from .source_scout import scout
-  catalog=load_json(data/'research-source-catalog.json');matching=[e for e in catalog['entries'] if topic['crop'] in e['crops'] and topic['intent'] in e['intents']]
+  from .source_discovery import entries_for as discovery_entries
+  matching=discovery_entries(topic,data)
   documents=scout(topic,matching,client,r.fetch_source,out,r.source_host,ev)
   atomic_json(ev/'sources.json',{'documents':documents});return {'fetched_sources':len(documents)}
  if stage=='research_extract':
@@ -279,7 +280,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  if p.get('enabled') is not True:return {'status':'lifecycle_disabled','published_posts':0}
  run_id=env['GITHUB_RUN_ID'];request_id='family-lifecycle-run-'+run_id
  if reserve_fn('lifecycle',request_id,env) is None:return {'status':'lifecycle_already_reserved','published_posts':0}
- assignments=allocate(data,out);topics=assigned_topics(assignments,data)
+ assignments=allocate(data,out,allow_deferral=env.get('AFP_WHITE_BEAN_PILOT')!='1');topics=assigned_topics(assignments,data)
  if env.get('AFP_WHITE_BEAN_PILOT')=='1':
   from .white_bean_pilot import select_topics
   topics=select_topics(topics)
@@ -341,7 +342,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
     report['publication_results'].append({'status':'publication_deferred','reason':'wordpress_language_bridge_required','topic_id':topic['id']});continue
   result=attempt(out/'new'/topic['id'],'publish',run_id,lambda t=topic:publish_ready(wp,t,data,out),limit=3)
   report['publication_results'].append(dict(result,topic_id=topic['id']));report['published_posts']+=result.get('result',{}).get('published_posts',0);atomic_json(rp,report)
- allocate(data,out)
+ allocate(data,out,allow_deferral=env.get('AFP_WHITE_BEAN_PILOT')!='1')
  failures=[x for x in report['results'] if x.get('status') in {'stage_failed','worker_failed'}]+[x for x in report['publication_results'] if x['status']=='stage_failed']
  report.update(status='completed_with_failures' if failures else 'completed',operational_failures=len(failures),waiting_families=sum(x.get('status') in {'blocked','capability_required','stage_deferred','stage_budget_exhausted'} for x in report['results']),publication_ready_workers=sum(x.get('status')=='publication_ready' for x in report['results']),completed_at=utcnow())
  if observer is not None:report['timing']=observer.finish(report,[t['id'] for t in topics if family_complete(t['id'],data,out)])

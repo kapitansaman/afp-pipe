@@ -5,29 +5,29 @@ Never approves facts, briefs, numeric prescriptions, overlap, images or publicat
 import json,re,urllib.parse
 from .queue import atomic_json,load_json,utcnow
 from .source_loading import load_documents
-from .source_policy import assess,PROMPT
-VERSION=1
+from .source_policy import assess,VERSION as SOURCE_POLICY_VERSION
+VERSION=2
 MAX_FETCHES=12
 class ScoutBlocked(ValueError):pass
 
 def institutions(documents,source_host):
  return {'.'.join(source_host(d['url']).split('.')[-2:]) for d in documents}
 
-def collect(entries,fetcher,out,source_host,evdir):
+def collect(entries,fetcher,out,source_host,evdir,*,allow_pdf=False,topic_id=None):
  seeds=list(dict.fromkeys(u for e in entries for u in e.get('urls',[]) if isinstance(u,str)))[:6]
  terms={str(t).casefold() for e in entries for t in e.get('discovery_terms',[]) if isinstance(t,str) and len(t)>=3}
  report={'version':VERSION,'started_at':utcnow(),'discovery_backend':'verified_catalog_and_observed_institutional_links','model_generated_urls':False,'max_fetches':MAX_FETCHES,'max_link_depth':1}
  first=evdir/'source-fetch-report.json'
- docs=load_documents(seeds,fetcher,out,source_host,report_path=first)
+ docs=load_documents(seeds,fetcher,out,source_host,report_path=first,minimum_link_version=1 if allow_pdf else 0)
  reports=[load_json(first)];observed=[]
- if len(institutions(docs,source_host))<2:
+ if len(institutions(docs,source_host))<2 or any(e.get('discovery_only') for e in entries):
   hubs=list(dict.fromkeys(u for e in entries for u in e.get('discovery_urls',[]) if isinstance(u,str) and u not in seeds))[:2]
   if hubs:
    hub_report=evdir/'source-hub-fetch-report.json'
-   docs+=load_documents(hubs,fetcher,out,source_host,report_path=hub_report);reports.append(load_json(hub_report))
+   docs+=load_documents(hubs,fetcher,out,source_host,report_path=hub_report,minimum_link_version=1 if allow_pdf else 0);reports.append(load_json(hub_report))
    seeds+=hubs
  # One finite link expansion from actually fetched HTML. No recursive crawl, guessed paths or negative-cache replay.
- if len(institutions(docs,source_host))<2 and terms:
+ if terms:
   candidates={}
   for doc in docs:
    links=doc.get('links',[])
@@ -39,14 +39,19 @@ def collect(entries,fetcher,out,source_host,evdir):
     except ValueError:continue
     text=(urllib.parse.unquote(u)+' '+str(link.get('label',''))).casefold()
     score=sum(bool(re.search(r'(?<![a-z])'+re.escape(t)+r'(?![a-z])',text)) for t in terms)
-    if score and u not in seeds and u not in {d['url'] for d in docs} and not urllib.parse.urlsplit(u).query and not re.search(r'\.(?:pdf|jpg|jpeg|png|zip|xml)$',urllib.parse.urlsplit(u).path,re.I):
+    if score and u not in seeds and u not in {d['url'] for d in docs} and not urllib.parse.urlsplit(u).query and not re.search(r'\.(?:jpg|jpeg|png|zip|xml)$',urllib.parse.urlsplit(u).path,re.I) and (allow_pdf or not urllib.parse.urlsplit(u).path.lower().endswith('.pdf')):
      candidates[u]=(score,doc['url'])
   observed=[{'url':u,'observed_on':candidates[u][1]} for u in sorted(candidates,key=lambda u:(-candidates[u][0],u))[:min(6,MAX_FETCHES-sum(r['requested'] for r in reports))]]
   second=evdir/'source-link-fetch-report.json'
-  docs+=load_documents([r['url'] for r in observed],fetcher,out,source_host,report_path=second)
+  docs+=load_documents([r['url'] for r in observed],fetcher,out,source_host,report_path=second,minimum_link_version=1 if allow_pdf else 0)
   reports.append(load_json(second))
  docs=list({d['url']:d for d in reversed(docs)}.values())[::-1]
  report.update(completed_at=utcnow(),requested=sum(r['requested'] for r in reports),loaded=len(docs),independent_institutions=len(institutions(docs,source_host)),observed_links=observed,fetch_reports=reports)
+ sources=[s for r in reports for s in r['sources']]
+ transient=any(s.get('category')=='network_or_timeout' or s.get('category')=='http_error' and (s.get('http_status') in {401,403,408,425,429} or s.get('http_status',0)>=500) or s.get('temporary') is True for s in sources)
+ support=assess(docs,source_host)
+ report.update(topic_id=topic_id,source_policy_version=SOURCE_POLICY_VERSION,bounded_discovery_completed=True,temporary_source_failure=transient,source_sufficiency=support,
+  blocking_kind=None if support['satisfied'] or transient else ('discovery_catalog_empty' if report['requested']==0 else 'insufficient_verified_source_coverage'))
  atomic_json(evdir/'source-discovery-report.json',report)
  return docs,report
 
@@ -65,7 +70,7 @@ def select(topic,entries,documents,client,source_host):
  return selected,value
 
 def scout(topic,entries,client,fetcher,out,source_host,evdir):
- docs,discovery=collect(entries,fetcher,out,source_host,evdir)
+ docs,discovery=collect(entries,fetcher,out,source_host,evdir,topic_id=topic['id'])
  receipt={'role':'source_scout_and_repair','version':VERSION,'topic_id':topic['id'],'started_at':utcnow(),'max_model_calls':1,'model_calls':0,'publication_authorized':False,'discovery_backend':discovery['discovery_backend']}
  path=evdir/'source-scout-report.json';atomic_json(path,receipt)
  if not assess(docs,source_host)['satisfied']:

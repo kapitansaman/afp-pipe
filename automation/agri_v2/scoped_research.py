@@ -20,8 +20,9 @@ def tokens(text):
  text=re.sub(r'(?i)\b('+ '|'.join(words) +r')(?=[ -]*(?:weeks?|days?|hours?|months?|years?|cuts?|cuttings?|plants?|seeds?|feet|foot|inches?|pounds?|acres?)\b)',lambda m:str(words[m[0].lower()]),text)
  return numbers(text)
 def entries_for(topic,data):
- p=data/'scoped-source-catalog.json'
- return [e for e in load_json(p)['entries'] if topic['crop'] in e['crops'] and topic['intent'] in e['intents']] if p.exists() else []
+ if topic['intent'] not in SUPPORTED:return []
+ from .source_discovery import entries_for as leads
+ return leads(topic,data,'scoped-source-catalog.json')
 
 def institutions(docs):
  # Shared content on two university hosts is not two independent publications.
@@ -200,7 +201,7 @@ def stage(topic,kind,client,data,out):
  if kind=='research_sources':
   from .source_scout import collect
   from .scoped_sources import fetch
-  docs,report=collect(entries,fetch,out,source_host,ev)
+  docs,report=collect(entries,fetch,out,source_host,ev,allow_pdf=True,topic_id=topic['id'])
   if not assess(docs,source_host,len(institutions(docs)))['satisfied']:raise EvidenceBlocked('university_or_two_fetchable_independent_publications_required')
   atomic_json(ev/'sources.json',{'documents':docs,'mode':MODE,'source_text_layout_version':2});return {'fetched_sources':len(docs)}
  docs=load_json(ev/'sources.json')['documents']

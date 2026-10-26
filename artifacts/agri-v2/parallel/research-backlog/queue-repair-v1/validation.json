@@ -1,0 +1,230 @@
+{
+  "checked_at": "2026-10-26T08:45:16.393380+00:00",
+  "operation": "explicit_atomic_research_queue_repair_v1",
+  "prior_assignment_sha256": "c28a5fef98d7f154ac4f146d0411d902e68d42a28fa616fa6b5538c2adb91808",
+  "new_assignment_sha256": "d44b80bfb6bcdd3767c4fd0710b6499dc309fba0e637c672991a3c99cc4f6352",
+  "reassigned_families": [
+    {
+      "family_id": "family-01",
+      "from": "agri-065fb7b0cc9e",
+      "to": "agri-b6ffe49a4638",
+      "new_title": "زمان کاشت لوبیا قرمز؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم"
+    },
+    {
+      "family_id": "family-02",
+      "from": "agri-a55386876467",
+      "to": "agri-7736a471e8c1",
+      "new_title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج"
+    },
+    {
+      "family_id": "family-03",
+      "from": "agri-68bb3f68138d",
+      "to": "agri-934dd1366a8b",
+      "new_title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-04",
+      "from": "agri-b35a06791dd5",
+      "to": "agri-3ab6116ba6cf",
+      "new_title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-06",
+      "from": "agri-60e1ebaf13c8",
+      "to": "agri-ee13684b7f1a",
+      "new_title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن"
+    },
+    {
+      "family_id": "family-07",
+      "from": "agri-aa197412fb7f",
+      "to": "agri-1f58a0e82783",
+      "new_title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم"
+    },
+    {
+      "family_id": "family-09",
+      "from": "agri-02e05cb179de",
+      "to": "agri-e7dcf0bf2ffd",
+      "new_title": "عمق کاشت بذر لوبیا چیتی در خاک سبک و سنگین؛ خطاهای رایج"
+    },
+    {
+      "family_id": "family-10",
+      "from": "agri-64fcb57a3e18",
+      "to": "agri-a83aaf27045f",
+      "new_title": "اولین آبیاری لوبیا چیتی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار"
+    },
+    {
+      "family_id": "family-12",
+      "from": "agri-6a04e31069c0",
+      "to": "agri-8c5efc7fc888",
+      "new_title": "چرا بذر لوبیا چیتی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک"
+    },
+    {
+      "family_id": "family-13",
+      "from": "agri-6aa44095f748",
+      "to": "agri-dd97e1add9df",
+      "new_title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد"
+    },
+    {
+      "family_id": "family-14",
+      "from": "agri-aa89b98c2455",
+      "to": "agri-f5f2d5ed4de0",
+      "new_title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب"
+    },
+    {
+      "family_id": "family-15",
+      "from": "agri-e4ad7582f1cd",
+      "to": "agri-2bffca9fad0a",
+      "new_title": "دور آبیاری لوبیا چیتی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت"
+    }
+  ],
+  "assigned_count": 20,
+  "backlog_count": 12,
+  "original_existing_data_and_artifact_bytes_unchanged_except_assignments": true,
+  "next_stage_diagnostics": [
+    {
+      "family_id": "family-01",
+      "topic_id": "agri-b6ffe49a4638",
+      "intent": "calendar",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-02",
+      "topic_id": "agri-7736a471e8c1",
+      "intent": "depth",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-03",
+      "topic_id": "agri-934dd1366a8b",
+      "intent": "yield",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-04",
+      "topic_id": "agri-3ab6116ba6cf",
+      "intent": "yield",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-05",
+      "topic_id": "agri-621734b38aa9",
+      "intent": "yield",
+      "next_stage": "text",
+      "reason": null
+    },
+    {
+      "family_id": "family-06",
+      "topic_id": "agri-ee13684b7f1a",
+      "intent": "yield",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-07",
+      "topic_id": "agri-1f58a0e82783",
+      "intent": "calendar",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-c0e160d88554",
+      "intent": "variety",
+      "next_stage": "research_review",
+      "reason": null
+    },
+    {
+      "family_id": "family-09",
+      "topic_id": "agri-e7dcf0bf2ffd",
+      "intent": "depth",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-10",
+      "topic_id": "agri-a83aaf27045f",
+      "intent": "first_water",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-11",
+      "topic_id": "agri-3aec9f066bb5",
+      "intent": "maturity",
+      "next_stage": "existing_content_audit-003",
+      "reason": null
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-8c5efc7fc888",
+      "intent": "germination",
+      "next_stage": "blocked",
+      "reason": "legacy_research_budget_exhausted"
+    },
+    {
+      "family_id": "family-13",
+      "topic_id": "agri-dd97e1add9df",
+      "intent": "growth_water",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-14",
+      "topic_id": "agri-f5f2d5ed4de0",
+      "intent": "irrig_duration",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-15",
+      "topic_id": "agri-2bffca9fad0a",
+      "intent": "irrig_interval",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-16",
+      "topic_id": "agri-7dd8dae22417",
+      "intent": "variety",
+      "next_stage": "research_sources",
+      "reason": null
+    },
+    {
+      "family_id": "family-17",
+      "topic_id": "agri-d52cdebf818e",
+      "intent": "yield",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-18",
+      "topic_id": "agri-abd5d9f00442",
+      "intent": "maturity",
+      "next_stage": "research_sources",
+      "reason": null
+    },
+    {
+      "family_id": "family-19",
+      "topic_id": "agri-681d9e957593",
+      "intent": "seed_rate",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    },
+    {
+      "family_id": "family-20",
+      "topic_id": "agri-15439ad51313",
+      "intent": "yield",
+      "next_stage": "blocked",
+      "reason": "specialist_evidence_required"
+    }
+  ],
+  "all_20_end_to_end_ready": false,
+  "model_calls": 0,
+  "image_calls": 0,
+  "wordpress_calls": 0,
+  "schedule_activated": false
+}
