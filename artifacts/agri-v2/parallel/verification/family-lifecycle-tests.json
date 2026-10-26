@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-26T05:32:10.693120+00:00",
+  "regression_tests": 441,
+  "lifecycle_specific_tests": 18,
+  "result": "passed",
+  "paid_calls_in_unit_tests": 0,
+  "wordpress_writes_in_unit_tests": 0,
+  "tests_cover": [
+    "next_action_stage_retry",
+    "bounded_attempts",
+    "archive_invalid_outputs",
+    "preserve_valid_text_and_first_image",
+    "image_capability_not_inferred",
+    "15_workers_single_publisher",
+    "marker_owned_publisher_integration",
+    "count_verified_translation_receipts",
+    "run_bound_no_replay",
+    "setup_failure_receipt"
+  ],
+  "schedule_enabled": false
+}

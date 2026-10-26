@@ -1,11 +1,11 @@
-name: AFP parallel - 75-key pool and 15 isolated research workers
+name: AFP parallel - 75-key pool and 15 resumable families
 on:
   workflow_dispatch:
     inputs:
       mode:
         description: Bounded non-publication rollout phase
         type: choice
-        options: [assign, plan, audit, research, bootstrap, trial]
+        options: [assign, plan, audit, research, bootstrap, trial, advance]
         default: plan
 permissions:
   contents: write
@@ -110,7 +110,7 @@ jobs:
       - run: python -m pip install --disable-pip-version-check pillow
       - name: Offline safety and 15-worker concurrency tests
         run: python -m unittest discover -s tests/agri_v2 -v
-      - name: Bounded coordinator; no article/image/WordPress writes
+      - name: Bounded coordinator; advance publishes only fully validated families
         env:
           AFP_PARALLEL_MODE: ${{ inputs.mode }}
         run: python -m automation.agri_v2.parallel_controller --mode "$AFP_PARALLEL_MODE"

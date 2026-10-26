@@ -4,6 +4,11 @@ from .queue import DATA,OUT,load_json,atomic_json,utcnow
 from .parallel_client import ParallelModelClient
 
 def run(ident):
+ if os.environ.get('AFP_FAMILY_LIFECYCLE')=='1':
+  from .family_lifecycle import worker
+  from .queue import get_topic
+  topic=get_topic('new',ident);topic['family_id']=os.environ.get('AFP_PARALLEL_FAMILY')
+  result=worker(topic,load_json(DATA/'health/latest.json'));atomic_json(OUT/'worker-result.json',result);return result
  if os.environ.get('AFP_PARALLEL_TRIAL_ID'):
   from .family_trial import run_family
   return run_family(ident)

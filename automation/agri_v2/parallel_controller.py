@@ -1,5 +1,5 @@
 """Coordinator for 15 isolated research workers and one output writer.
-First rollout stops before drafting/images/publication. No legacy gate is bypassed.
+Legacy rollout modes remain research-only; advance runs gated resumable families.
 """
 import argparse,concurrent.futures,hashlib,json,os,shutil,subprocess,sys,tempfile,time
 from pathlib import Path
@@ -61,6 +61,9 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
 
 def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,worker_fn=launch_worker):
  env=os.environ if env is None else env;p=policy(env,data)
+ if mode=='advance':
+  from .family_lifecycle import run as advance
+  return advance(env,data,out)
  if mode=='trial':
   from .family_trial import run as trial
   return trial(env,data,out)
@@ -121,6 +124,6 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(out/'parallel/latest.json',report);return report
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial'],default='plan');a=p.parse_args()
- result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed'} else 0
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance'],default='plan');a=p.parse_args()
+ result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures'} else 0
 if __name__=='__main__':raise SystemExit(main())
