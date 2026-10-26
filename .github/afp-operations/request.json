@@ -1,18 +1,19 @@
 {
   "version": 1,
-  "request_id": "ops-commercial-matrix-carrot-pilot-v1",
-  "operation": "one-commercial-matrix-family",
+  "request_id": "ops-commercial-matrix-carrot-continue-v2",
+  "operation": "continue-commercial-matrix-family",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 1,
   "enable_schedule": false,
   "reset_attempts": false,
-  "code_revision": "e80062327e8f1b7d24efcf4271789bb8e6ea6487",
+  "code_revision": "11a7ae6d801071c33ba692ed8f57d5eee5141e25",
   "topic_id": "agri-b6f7d6bea16b",
-  "max_worker_model_calls": 24,
+  "max_worker_model_calls": 23,
   "max_image_generations": 2,
   "max_source_posts": 1,
   "max_translations": 4,
-  "max_total_posts": 5
+  "max_total_posts": 5,
+  "prior_run_id": "40315021021"
 }
