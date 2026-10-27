@@ -29,7 +29,7 @@ class GroundedDraftingTests(unittest.TestCase):
   t,b,v=self.setup();old=copy.deepcopy(v);old['sections'][0]['paragraphs'][0]['text']='واژه '*49+'在经过'
   with tempfile.TemporaryDirectory() as td:
    folder=Path(td);p=folder/'lifecycle/text/rejected/1/grounded-text-candidate.json';atomic_json(p,old);original=p.read_bytes();c=Mock();c.text.return_value=v
-   g.generate(c,t,b,folder);req=json.loads(c.text.call_args.args[0]);issues=req['prior_rejection_diagnostics'];self.assertTrue(any(x['issue']=='unrelated_CJK_script' for x in issues));self.assertEqual(p.read_bytes(),original);self.assertEqual(load_json(folder/'grounded-text-candidate.json'),v)
+   g.generate_structured_legacy(c,t,b,folder);req=json.loads(c.text.call_args.args[0]);issues=req['prior_rejection_diagnostics'];self.assertTrue(any(x['issue']=='unrelated_CJK_script' for x in issues));self.assertEqual(p.read_bytes(),original);self.assertEqual(load_json(folder/'grounded-text-candidate.json'),v)
  def test_provider_schema_matches_renderer_and_approved_fact_ids(self):
   import re
   t,b,v=self.setup();schema=g.output_schema(b);self.assertEqual(set(schema['required']),{'sections','excerpt','faq'});self.assertFalse(schema['additionalProperties']);section=schema['properties']['sections'];self.assertEqual((section['minItems'],section['maxItems']),(4,4));paragraph=section['items']['properties']['paragraphs'];self.assertEqual((paragraph['minItems'],paragraph['maxItems']),(2,2));self.assertEqual(paragraph['items']['properties']['fact_ids']['items']['enum'],['f0']);pattern=paragraph['items']['properties']['text']['pattern'];self.assertIsNone(re.fullmatch(pattern,' '.join(['واژه']*49)));self.assertIsNotNone(re.fullmatch(pattern,' '.join(['واژه']*50)));self.assertIsNotNone(re.fullmatch(pattern,' '.join(['واژه']*160)));self.assertIsNone(re.fullmatch(pattern,' '.join(['واژه']*161)))
@@ -44,5 +44,5 @@ class GroundedDraftingTests(unittest.TestCase):
   t,b,v=self.setup();c=Mock();c.text.side_effect=ValueError('provider schema rejected')
   with tempfile.TemporaryDirectory() as td:
    folder=Path(td)
-   with self.assertRaisesRegex(ValueError,'provider schema rejected'):g.generate(c,t,b,folder)
+   with self.assertRaisesRegex(ValueError,'provider schema rejected'):g.generate_structured_legacy(c,t,b,folder)
    self.assertEqual(c.text.call_count,1);self.assertEqual(c.text.call_args.kwargs['response_schema'],g.output_schema(b));self.assertFalse(load_json(folder/'grounded-text-request-contract.json')['silent_fallback']);self.assertFalse((folder/'article.json').exists())

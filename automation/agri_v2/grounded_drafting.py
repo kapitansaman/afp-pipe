@@ -72,7 +72,7 @@ def render(value,topic,brief):
   clean.append({'question':text(row.get('question'),8,500),'answer':text(row.get('answer'),20,3000)})
  return {'title':topic['title'],'content_html':''.join(body),'excerpt':text(value.get('excerpt'),20,500),'faq':clean}
 
-def generate(client,topic,brief,folder):
+def generate_structured_legacy(client,topic,brief,folder):
  from .queue import atomic_json
  request=json.loads(prompt(topic,brief))
  # The lifecycle archives rejected outputs before retry; retain them and send only diagnostics.
@@ -90,3 +90,9 @@ def generate(client,topic,brief,folder):
  atomic_json(folder/'grounded-text-candidate.json',raw)
  from .content_matrix import attach
  return attach(render(raw,topic,brief),topic,brief)
+
+
+def generate(client,topic,brief,folder):
+ """Current writer: direct HTML, with legacy structured replay kept separate."""
+ from .practical_drafting import generate as practical_generate
+ return practical_generate(client,topic,brief,folder)
