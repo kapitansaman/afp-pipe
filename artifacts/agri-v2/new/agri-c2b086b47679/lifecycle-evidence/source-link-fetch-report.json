@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://extension.umd.edu/resource/containers-and-potting-soil-indoor-seed-starting",
+      "canonical_url": "https://extension.umd.edu/resource/containers-and-potting-soil-indoor-seed-starting",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umd.edu/resource/starting-seeds-indoors",
+      "canonical_url": "https://extension.umd.edu/resource/starting-vegetable-seeds-indoors",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

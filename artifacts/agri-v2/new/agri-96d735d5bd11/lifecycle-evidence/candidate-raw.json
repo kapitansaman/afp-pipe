@@ -1,0 +1,91 @@
+{
+  "topic_id": "agri-96d735d5bd11",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی (pinto dry bean, Phaseolus vulgaris L.)",
+  "slug": "pinto-dry-bean-storage",
+  "outline": [
+    "تعریف محصول و هدف: لوبیا چیتی به‌عنوان دانه خشک خوراکی و نیاز به شرایط خشک و خنک برای جلوگیری از فساد",
+    "معیارهای کیفی نگهداری: رطوبت دانه، بسته‌بندی، حذف اکسیژن و نور، مدیریت رطوبت محیط",
+    "روش کاهش ضایعات و حفظ کیفیت: کنترل رطوبت نگهداری، دوری از اکسیژن و نور، برخورد ملایم با دانه"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "پیش از نگهداری، دانه‌های لوبیا باید با دقت تمیز و بسته‌بندی شوند تا از آسیب فیزیکی و تغییر کیفیت جلوگیری شود.",
+      "conditions": "منبع دانشگاهی ایالات متحده (ISU Extension)، محصول: لوبیا خشک خوراکی شامل پینتو؛ شرایط تجاری/پرورش",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دمای نگهداری پایین‌تر عمر قفسه را افزایش می‌دهد و دانه‌های لوبیا در بسته‌بندی‌های بدون اکسیژن تا ۱۰ سال یا بیشتر قابل نگهداری هستند.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)، محصول: انواع لوبیای خشک ازجمله پینتو؛ شرایط غذایی/خانگی و انبارداری طولانی‌مدت",
+      "evidence_id": "d2-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "رطوبت محیط نگهداری باید پایین باشد؛ ورود رطوبت به مواد خشک باعث رشد کپک و باکتری و فساد می‌شود.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)، محصول: مواد غذایی خشک ازجمله لوبیا؛ شرایط انبار",
+      "evidence_id": "d2-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "لوبیای چیتی در انبارداری طولانی‌مدت باکیفیت مطلوبی حفظ شد؛ نمونه‌های نگهداری‌شده تا ۳۰ سال بیش از ۸۰ درصد پذیرش طعم توسط پنل مصرف‌کنندگان داشتند.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)؛ محصول: لوبیای چیتی (pinto bean)؛ مطالعه Brigham Young University؛ ذخیره‌سازی بلندمدت در بسته‌بندی خرده‌فروشی",
+      "evidence_id": "d2-e2",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "stored up to 30 years",
+          "geographic_scope": "Brigham Young University study (US)",
+          "product_scope": "pinto beans, retail-packaged"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای بهینه مواد غذایی خشک در محدوده ۴۰ تا ۷۰ درجه فارنهایت گزارش شده است و دماهای بالاتر سرعت تخریب را افزایش می‌دهند.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)، محصول: مواد غذایی خشک/حبوبات؛ شرایط انبار خانگی و تاریک",
+      "evidence_id": "d4-e0",
+      "numeric_bindings": [
+        {
+          "value": "40 - 70 degrees F",
+          "unit_quote": "approximately 40 - 70 degrees F",
+          "geographic_scope": "USU Extension (Utah, US)",
+          "product_scope": "dry foods, including legumes"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای بالای ۷۰ درجه فارنهایت سرعت تخریب ویتامین‌ها و کاهش کیفیت را در مواد غذایی خشک از جمله حبوبات افزایش می‌دهد.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)، محصول: مواد غذایی خشک/حبوبات؛ شرایط نگهداری گرم",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": [
+        {
+          "value": "70",
+          "unit_quote": "Storage at warm temperatures will accelerate vitamin degradation",
+          "geographic_scope": "USU Extension (Utah, US)",
+          "product_scope": "dry beans and other stored foods"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "نور مستقیم و گرما آفتاب باعث تسریع خرابی مواد غذایی و بسته‌بندی می‌شود و نگهداری باید در جای تاریک باشد.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)، محصول: مواد غذایی خشک ازجمله لوبیا؛ شرایط انبار",
+      "evidence_id": "d4-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای کاهش آسیب فیزیکی دانه در هنگام انتقال و بارگیری، از نوار نقاله‌ای به جای آسیاب فلزی استفاده شود و دانه‌ها از ارتفاع روی سطوح سخت ریخته نشوند.",
+      "conditions": "منبع دانشگاهی ایالات متحده (ISU Extension، آیووا)، محصول: لوبیای خشک خوراکی (ازجمله پینتو)؛ شرایط پس از برداشت و حمل‌ونقل",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "canonical_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+      "canonical_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+      "canonical_url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "canonical_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+      "canonical_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

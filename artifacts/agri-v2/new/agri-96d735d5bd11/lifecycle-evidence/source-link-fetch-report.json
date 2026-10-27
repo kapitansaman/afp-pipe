@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://extension.usu.edu/preserve-the-harvest/food-storage.php",
+      "canonical_url": "https://extension.usu.edu/preserve-the-harvest/food-storage",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.usu.edu/preserve-the-harvest/research/storage-conditions.php",
+      "canonical_url": "https://extension.usu.edu/preserve-the-harvest/research/storage-conditions",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

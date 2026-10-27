@@ -1,6 +1,516 @@
 {
   "url": "https://www.ams.usda.gov/grades-standards/beans",
+  "requested_url": "https://www.ams.usda.gov/grades-standards/beans",
+  "redirect_chain": [
+    "https://www.ams.usda.gov/grades-standards/beans"
+  ],
   "text": "Beans | Agricultural Marketing Service Skip to main content Beans Grades and Standards 101 Beans. Beans shall be dry threshed field and garden beans, whole, broken, and split, commonly used for edible purposes. 102 Classes. Beans shall be divided into classes as follows, each of which, except Mixed beans, may contain not more than 2.0 percent of beans of contrasting classes and not more than 15.0 percent of beans of other classes that blend: Pea beans (the type as grown in the Great Lakes region known also as Navy beans). Blackeye beans (cowpeas of the Blackeye variety). Cranberry beans (known also as Speckled Cranberry and Horticultural Pole). Yellow beans. Pinto beans (including the Mexican Pinto type but not the type known as Spotted Red Mexican). Marrow beans (not including Red Marrow). Great Northern beans. Small White beans (the type as grown on the Pacific coast, not including Tepary beans). Flat Small White beans (the type as grown in northern Idaho). White Kidney beans. Light Red Kidney beans. Dark Red Kidney beans. Small Red beans (known also as Red Mexican, California Red, and Idaho Red). Pink beans. Black beans. Mung beans. Miscellaneous beans: Beans that are not otherwise classified in these standards shall be classified and designated according to the commonly accepted commercial name of such beans. Large Lima beans (characteristic of the Large White Pole and Burpee Bush Lima type). Baby Lima beans (characteristic of Small White Lima beans of the Henderson Bush and similar types). Miscellaneous Lima beans: Lima beans that do not come within the classes Large Lima or Baby Lima shall be classified and designated according to their commonly accepted commercial name. Chickpeas (Garbanzo Beans) Mixed beans: Mixed beans shall be any mixture of beans not provided for in the classes listed above. Detailed standards, Inspection Instructions & Other Resources: US Standards for Beans (pdf)",
-  "fetched_at": "2026-10-25T11:58:52.875197+00:00",
-  "sha256": "fb8ab2008d1209e1111a7677b422934caaa39718815435c3dc21cf2968b78a8e"
+  "links": [
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/beans",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ams.usda.gov/",
+      "label": "Agricultural Marketing Service U.S. Department of Agriculture"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news",
+      "label": "Market News"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news/cotton-tobacco",
+      "label": "Cotton and Tobacco"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news/livestock-poultry-grain",
+      "label": "Livestock, Poultry, and Grain"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news/fruits-vegetables",
+      "label": "Specialty Crops"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news/local-regional-food",
+      "label": "Local & Regional Food Marketing"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news/organic",
+      "label": "Organic"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news/retail",
+      "label": "Grocery Store Features"
+    },
+    {
+      "url": "https://mymarketnews.ams.usda.gov/public_data",
+      "label": "Search Market News Database"
+    },
+    {
+      "url": "https://mymarketnews.ams.usda.gov/filerepo/reports",
+      "label": "Search Previous Reports"
+    },
+    {
+      "url": "https://www.ams.usda.gov/market-news/contacts",
+      "label": "Contacts"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations",
+      "label": "Rules & Regulations"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/be",
+      "label": "BE Disclosure"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/cotton-and-tobacco",
+      "label": "Cotton and Tobacco"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/cool",
+      "label": "Country of Origin Labeling (COOL)"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/dfc",
+      "label": "Dairy Forward Contracting"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/fsa",
+      "label": "Federal Seed Act"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/fqpa",
+      "label": "Food Quality Protection Act"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/food-security-act",
+      "label": "Food Security Act"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/GCSA",
+      "label": "Greenhouse Gas Technical Assistance Provider and Third-Party Verifier Program"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/hemp",
+      "label": "Hemp"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/mmr",
+      "label": "Mandatory Market Reporting"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/moa",
+      "label": "Marketing Orders & Agreements"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/resources-for-seed-growers-and-plant-breeders",
+      "label": "Resources for Plant Breeders and Seed Growers"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/organic",
+      "label": "Organic Regulations"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/packers-and-stockyards-act",
+      "label": "Packers and Stockyards Act"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/paca",
+      "label": "Perishable Agricultural Commodities Act (PACA)"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/pvpa",
+      "label": "Plant Variety Protection Act"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/proposed-rules",
+      "label": "Proposed Rules"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/research-promotion",
+      "label": "Research & Promotion Programs"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/section8e",
+      "label": "Section 8e & Imports"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/eggs",
+      "label": "Shell Egg Surveillance"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/us-grain-standards-act-and-agricultural-marketing-act",
+      "label": "US Grain Standards Act"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/rulemaking",
+      "label": "Rulemaking Process"
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/uswa",
+      "label": "Warehouse Act"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards",
+      "label": "Grades & Standards"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/beef",
+      "label": "Beef"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/cotton",
+      "label": "Cotton"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/dairy-products",
+      "label": "Dairy Products"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/eggs",
+      "label": "Eggs"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/fish-seafood",
+      "label": "Fish & Seafood"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/flowers-plants",
+      "label": "Flowers & Plants"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/fruits",
+      "label": "Fruits"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/goat",
+      "label": "Goat"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/grain-standards",
+      "label": "Grain"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/lamb",
+      "label": "Lamb"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/nuts",
+      "label": "Nuts"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/pork",
+      "label": "Pork"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/organic-standards",
+      "label": "Organic"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/rabbits",
+      "label": "Rabbits"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/rice-pulses",
+      "label": "Rice and Pulses"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/vegetables",
+      "label": "Vegetables"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/specialty-products",
+      "label": "Specialty Products"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/tobacco",
+      "label": "Tobacco"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/wool-mohair",
+      "label": "Wool & Mohair"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/imps",
+      "label": "Institutional Meat Purchase Specifications"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/cids",
+      "label": "Commercial Item Descriptions"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/certified-meat-programs",
+      "label": "Certified Meat and Poultry Programs"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services",
+      "label": "Services"
+    },
+    {
+      "url": "https://www.ams.usda.gov/content/ams-payment-options-information",
+      "label": "AMS Make A Payment"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/auditing",
+      "label": "Auditing & Accreditation"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/enforcement",
+      "label": "Enforcement Activity"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/grading",
+      "label": "Grading & Inspections"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/remote-beef-grading",
+      "label": "Remote Beef Grading"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/grain-rice-pulse-inspection-services",
+      "label": "Grain, Rice, Pulse Services"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/grants",
+      "label": "Grants & Opportunities"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/imports-exports",
+      "label": "Import/Export Certificates"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/lab-testing",
+      "label": "Laboratory Testing & Approvals"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/local-regional",
+      "label": "Local Food Research and Development"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/local-regional/facility-design",
+      "label": "Market & Facility Design"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/market-research",
+      "label": "Market Research & Analysis"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/organic-certification",
+      "label": "Organic Certification & Accreditation"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/enforcement/psd",
+      "label": "Packers & Stockyards"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/plant-variety-protection",
+      "label": "Plant Variety Protection"
+    },
+    {
+      "url": "https://www.ams.usda.gov/datasets/pdp",
+      "label": "Pesticide Data Program"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/local-regional/rfbcp",
+      "label": "Regional Food Business Centers"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/seed-testing",
+      "label": "Seed Regulations and Testing"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/transportation-analysis",
+      "label": "Transportation Research & Analysis"
+    },
+    {
+      "url": "https://www.ams.usda.gov/services/warehouse",
+      "label": "Warehouse Services"
+    },
+    {
+      "url": "https://www.ams.usda.gov/resources",
+      "label": "Resources"
+    },
+    {
+      "url": "https://www.ams.usda.gov/resources/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.ams.usda.gov/resources/data-dashboards",
+      "label": "Data Dashboards"
+    },
+    {
+      "url": "https://www.ams.usda.gov/resources/forms",
+      "label": "Forms"
+    },
+    {
+      "url": "https://www.ams.usda.gov/resources/interactive-resources",
+      "label": "E-Learning and Training Resources"
+    },
+    {
+      "url": "https://www.ams.usda.gov/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ams.usda.gov/reports",
+      "label": "Reports & Presentations"
+    },
+    {
+      "url": "https://www.ams.usda.gov/commodity-procurement",
+      "label": "Commodity Procurement"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food",
+      "label": "Selling Food to USDA"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/international-procurement",
+      "label": "International Commodity Procurement"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/how-process-works",
+      "label": "How the Process Works"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/becoming-approved",
+      "label": "Become a USDA Foods Vendor"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/pilot-project",
+      "label": "Pilot Project: Unprocessed Fruits & Vegetables"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/solicitations",
+      "label": "Purchase Programs: Solicitations & Awards"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/product-specs",
+      "label": "Product Specifications & Requirements"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/wbscm",
+      "label": "Web-Based Supply Chain Management (WBSCM)"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/small-businesses",
+      "label": "Small Business Opportunities"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/cp-contacts",
+      "label": "Contact Commodity Procurement"
+    },
+    {
+      "url": "https://www.ams.usda.gov/selling-food/events",
+      "label": "Industry Meetings"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams",
+      "label": "About AMS"
+    },
+    {
+      "url": "https://www.ams.usda.gov/news",
+      "label": "News & Announcements"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams/contact-us",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.ams.usda.gov/sites/default/files/media/BeanStandards.pdf",
+      "label": "US Standards for Beans (pdf)"
+    },
+    {
+      "url": "https://www.ams.usda.gov/node/5312",
+      "label": "Services"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams/programs-offices/commodity-procurement",
+      "label": "Commodity Procurement"
+    },
+    {
+      "url": "https://www.ams.usda.gov/sitemap",
+      "label": "Site Map"
+    },
+    {
+      "url": "https://www.usda.gov/about-usda/policies-and-links",
+      "label": "Policies and Links"
+    },
+    {
+      "url": "https://www.usda.gov/about-usda/general-information/our-agency/our-performance",
+      "label": "Our Performance"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams/careers",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.usda.gov/",
+      "label": "Visit USDA"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams/foia",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams/programs-offices/office-civil-rights",
+      "label": "Civil Rights"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams/quality",
+      "label": "Information Quality"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams/privacy",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.ams.usda.gov/about-ams/accessibility",
+      "label": "Accessibility Statement"
+    },
+    {
+      "url": "https://www.aphis.usda.gov/organization/business-services/reasonable-accommodations",
+      "label": "Reasonable Accommodation Services"
+    },
+    {
+      "url": "https://www.usda.gov/non-discrimination-statement",
+      "label": "Non-Discrimination Statement"
+    },
+    {
+      "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-assistant-secretary-civil-rights",
+      "label": "Anti-Harassment Policy"
+    },
+    {
+      "url": "https://www.usa.gov",
+      "label": "USA.gov"
+    },
+    {
+      "url": "https://www.whitehouse.gov",
+      "label": "Whitehouse.gov"
+    },
+    {
+      "url": "https://www.usda.gov/federal-web-site-inventory",
+      "label": "eGov"
+    },
+    {
+      "url": "https://www.ams.usda.gov/form/contact",
+      "label": "Feedback"
+    },
+    {
+      "url": "https://www.usda.gov/about-usda/policies-and-links/digital/rss-feeds",
+      "label": "YouTube"
+    }
+  ],
+  "fetched_at": "2026-10-27T07:36:27.850165+00:00",
+  "sha256": "fb8ab2008d1209e1111a7677b422934caaa39718815435c3dc21cf2968b78a8e",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
 }
