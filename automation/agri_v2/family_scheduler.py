@@ -63,6 +63,9 @@ def allocate(data=DATA,out=OUT,*,allow_deferral=False):
   if any(r['family_id'] not in FAMILIES or r['topic_id'] not in by_id for r in old):raise ValueError('Assignment not in immutable queue')
   from .research_backlog import deferral,validate_backlog
   backlog=validate_backlog(state.get('research_backlog',{}),by_id)
+  from .queue_exceptions import deferral as exception_deferral,validate_backlog as validate_exceptions
+  exceptions=validate_exceptions(state.get('exception_backlog',{}),by_id)
+  if set(exceptions)&(set(backlog)|{r['topic_id'] for r in old}):raise ValueError('Topic both active/research-deferred and exception-queued')
   if set(backlog)&{r['topic_id'] for r in old}:raise ValueError('Topic both active and deferred; explicit reconciliation required')
   kept={};history=list(state.get('history',[]))
   for row in old:
@@ -71,14 +74,19 @@ def allocate(data=DATA,out=OUT,*,allow_deferral=False):
    if complete or released(row['topic_id'],data,out):history.append(dict(row,completed_at=utcnow(),completion='verified_source_and_required_translations' if complete else 'verified_source_languages_handed_to_review_queue'))
    else:
     deferred=deferral(by_id[row['topic_id']],data,out) if allow_deferral else None
-    if deferred is None:kept[row['family_id']]=row
-    else:
+    if deferred is not None:
      backlog[row['topic_id']]=dict(deferred,previous_family_id=row['family_id'])
      history.append(dict(row,completed_at=deferred['deferred_at'],completion='deferred_to_research_backlog',reason=deferred['reason']))
+    else:
+     terminal=exception_deferral(by_id[row['topic_id']],data,out) if allow_deferral else None
+     if terminal is None:kept[row['family_id']]=row
+     else:
+      exceptions[row['topic_id']]=dict(terminal,previous_family_id=row['family_id'])
+      history.append(dict(row,completed_at=terminal['deferred_at'],completion='deferred_to_exception_backlog',reason=terminal['reason']))
   used={r['topic_id'] for r in kept.values()};held=load_json(data/'config.json').get('publication_holds',{})
   # Completed, held, already-owned and explicitly deferred topics are unavailable.
   # New topics are not prefiltered by source readiness; only diagnosed deferrals free a family.
-  candidates=(t for t in queue if t['id'] not in used and t['id'] not in held and t['id'] not in backlog and not published(t['id'],out))
+  candidates=(t for t in queue if t['id'] not in used and t['id'] not in held and t['id'] not in backlog and t['id'] not in exceptions and not published(t['id'],out))
   rows=[]
   for family in FAMILIES:
    row=kept.get(family)
@@ -89,7 +97,7 @@ def allocate(data=DATA,out=OUT,*,allow_deferral=False):
    topic=by_id[row['topic_id']];safe_id(row['topic_id'])
    row=dict(row,title=topic['title'],work_stage=readiness(topic,data,out),publication_authorized_by_assignment=False)
    rows.append(row)
-  state=dict(state,families=rows,history=history,research_backlog=backlog,research_backlog_count=len(backlog),assigned_count=len(rows),target_families=MAX_FAMILIES,unique_topic_count=len({r['topic_id'] for r in rows}),model_calls=0,wordpress_write_calls=0)
+  state=dict(state,families=rows,history=history,research_backlog=backlog,research_backlog_count=len(backlog),exception_backlog=exceptions,exception_backlog_count=len(exceptions),assigned_count=len(rows),target_families=MAX_FAMILIES,unique_topic_count=len({r['topic_id'] for r in rows}),model_calls=0,wordpress_write_calls=0)
   if not path.exists() or load_json(path)!=state:atomic_json(path,state)
   return state
 
