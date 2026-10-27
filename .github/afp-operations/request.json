@@ -1,23 +1,26 @@
 {
   "version": 1,
-  "request_id": "ops-ready-pinto-storage-nonpublishing-v1",
-  "operation": "nonpublishing-one-ready-pinto-storage-pilot",
+  "request_id": "ops-four-assigned-research-eight-text-v1",
+  "operation": "research-only-four-assigned-families",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
-  "max_pilot_families": 1,
+  "max_pilot_families": 4,
   "enable_schedule": false,
   "reset_attempts": false,
-  "topic_id": "agri-96d735d5bd11",
-  "source_article_sha256": "22b8e32191cb20b74d0ea2401f7f8884987dca1892177ca2ac2e56b6d498f92d",
-  "brief_sha256": "ce2bf44b3daa066f9cd9fd2ab7e7f88ef380427c725529b3e0df4b1445419134",
-  "max_total_text_calls": 14,
-  "max_image_calls": 1,
-  "max_total_model_calls": 15,
+  "family_topics": {
+    "family-02": "agri-7736a471e8c1",
+    "family-11": "agri-3aec9f066bb5",
+    "family-16": "agri-7dd8dae22417",
+    "family-18": "agri-abd5d9f00442"
+  },
+  "max_total_text_calls": 8,
+  "max_text_calls_per_family": 2,
+  "max_image_calls": 0,
   "max_wordpress_mutations": 0,
   "max_source_posts": 0,
   "max_total_posts": 0,
   "max_translations": 0,
   "change_default_model": false,
-  "code_revision": "8fb44603bca957d132ece693c976bb51fe10c638"
+  "code_revision": "ca96b0ade4ca011a629e9738c898cc5ffb0c3422"
 }
