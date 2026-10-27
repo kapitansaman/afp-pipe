@@ -53,7 +53,7 @@ def build(root,commit='',now=None):
  latest=max(ops,key=lambda x:x[0],default=None);experiment=None
  if latest:
   _,p,r=latest;ident=r.get('topic_id');folder=out/'parallel/writer-verification'/p.parent.name/str(ident)
-  if r.get('request_id') in ('ops-role-skills-controlled-launch-v1','ops-role-skills-image-feedback-continuation-v2'):folder=out/'new'/str(ident)
+  if r.get('request_id') in ('ops-role-skills-controlled-launch-v1','ops-role-skills-image-feedback-continuation-v2','ops-role-skills-image-pair-final-v3'):folder=out/'new'/str(ident)
   article=read(folder/'article.json');quality=read(folder/'language-quality-status.json');evidence=read(folder/'article-evidence-review.json');tg=read(folder/'translations/tg-TJ.json')
   quality_bound=bool(article) and quality.get('source_article_sha256')==sha(article) and bool(tg) and quality.get('translation_sha256')==sha(tg)
   brief=read(data/'briefs'/(str(ident)+'.json'))

@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "request_id": "ops-role-skills-image-feedback-continuation-v2",
-  "operation": "image-feedback-controlled-continuation",
+  "request_id": "ops-role-skills-image-pair-final-v3",
+  "operation": "final-two-image-feedback-launch",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 1,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_total_text_calls": 17,
-  "max_image_calls": 1,
-  "max_total_model_calls": 18,
+  "max_total_text_calls": 18,
+  "max_image_calls": 2,
+  "max_total_model_calls": 20,
   "max_wordpress_mutations": 15,
   "max_source_posts": 1,
   "max_translations": 4,
@@ -20,9 +20,13 @@
   "source_article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
   "separate_launch_budget": true,
   "change_default_model": false,
-  "prior_request": "ops-role-skills-controlled-launch-v1",
-  "prior_reserved_model_calls": 6,
-  "max_combined_model_calls": 24,
-  "replace_rejected_image_sha256": "d4dbf660697e4c0c68e5a059ec23c17e749a4b38e4bee624f66c92a3f7015e93",
-  "code_revision": "b78555971d7b6db5d0d1cea3fe02a3f164fadbbe"
+  "prior_request": "ops-role-skills-image-feedback-continuation-v2",
+  "prior_reserved_model_calls": 8,
+  "max_combined_model_calls": 28,
+  "replace_rejected_image_sha256": "95345bc9e7cb843505030dc17b154f23b3705455a8b91e4203f6f4e52c6f9e25",
+  "rejected_image_pair_sha256": {
+    "1": "32479ccc8fc41e0d8f141e29a4d1158d8de736b092c17ca977efc03d5f50f391",
+    "2": "95345bc9e7cb843505030dc17b154f23b3705455a8b91e4203f6f4e52c6f9e25"
+  },
+  "code_revision": "eab42e5c9925365ea06f87532b6aa94a72b43bcd"
 }
