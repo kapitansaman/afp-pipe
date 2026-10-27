@@ -8,8 +8,15 @@
   "reason": "provider_backpressure",
   "attempts": 0,
   "model_calls_spent": 0,
-  "next_attempt_at": "2026-10-27T12:32:59.371469+00:00",
-  "history": [],
+  "next_attempt_at": "2026-10-27T07:32:59.350329+00:00",
+  "history": [
+    {
+      "event": "provider_deferred_without_attempt",
+      "previous_next_attempt_at": "2026-10-27T12:32:59.371469+00:00",
+      "retry_at": "2026-10-27T07:32:59.350329+00:00",
+      "at": "2026-10-27T06:38:57.083216+00:00"
+    }
+  ],
   "created_at": "2026-10-27T06:32:59.370544+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,

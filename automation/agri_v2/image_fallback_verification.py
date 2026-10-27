@@ -62,7 +62,7 @@ def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None,wp_factory=Non
    if lang=='tg-TJ' and row['attempts']==0:
     old=load_json(source/'review-queue/tg-TJ.json');row.update(attempts=old['attempts'],model_calls_spent=old['model_calls_spent'],pending_issues=old.get('pending_issues',[]),status='waiting',primary_finished=True,next_attempt_at=utcnow());row['history'].append({'event':'old_experimental_history_imported_without_reset','prior_attempts':old['attempts'],'prior_calls':old['model_calls_spent'],'scope':ID,'at':utcnow()});atomic_json(q.path(folder,lang),row);atomic_json(folder/'review-queue/candidate-tg-TJ.json',{'article_sha256':SOURCE_SHA,'raw':load_json(source/'translations/tg-TJ.raw.json')})
    if snapshot(db)['cooldown_until_epoch']>time.time():
-    row['primary_finished']=True;q.defer(row,q.path(folder,lang),'provider_backpressure',data);continue
+    row['primary_finished']=True;q.defer_provider(row,q.path(folder,lang),snapshot(db)['cooldown_until_epoch']);continue
    current=client
    if lang=='tg-TJ':current=(Tajik if client_factory is None else client_factory)(health,env=worker,allow_calls=True,capabilities=('text',));current.alternate_model='agnes-3.0-flash';current.declared_models=[]
    item=q.run_item(q.path(folder,lang),current,data);row=load_json(q.path(folder,lang));row['primary_finished']=True;atomic_json(q.path(folder,lang),row);report['steps'].append(item);atomic_json(rp,report)

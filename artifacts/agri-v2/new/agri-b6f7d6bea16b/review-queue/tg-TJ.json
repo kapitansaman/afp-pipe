@@ -8,7 +8,7 @@
   "reason": "provider_backpressure",
   "attempts": 2,
   "model_calls_spent": 7,
-  "next_attempt_at": "2026-10-28T06:32:59.369847+00:00",
+  "next_attempt_at": "2026-10-27T07:32:59.350329+00:00",
   "history": [
     {
       "event": "old_experimental_history_imported_without_reset",
@@ -16,6 +16,12 @@
       "prior_calls": 7,
       "scope": "ops-image-three-corrections-single-fallback-test-v1",
       "at": "2026-10-27T06:32:59.368002+00:00"
+    },
+    {
+      "event": "provider_deferred_without_attempt",
+      "previous_next_attempt_at": "2026-10-28T06:32:59.369847+00:00",
+      "retry_at": "2026-10-27T07:32:59.350329+00:00",
+      "at": "2026-10-27T06:38:57.082874+00:00"
     }
   ],
   "created_at": "2026-10-27T06:32:59.367497+00:00",

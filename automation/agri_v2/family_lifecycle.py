@@ -268,7 +268,9 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    lang=stage[len('language_primary-'):];qp=review_path(folder,lang);qr=load_json(qp)
    from .recovery import circuit_open
    if circuit_open('text') or not health.get('eligible_text_slots'):
-    qr['primary_finished']=True;defer(qr,qp,'primary_provider_unavailable',data);steps.append({'status':'language_handed_to_review','language':lang});continue
+    from .language_review_queue import defer_provider
+    circuit=load_json(out/'provider-circuit.json') if (out/'provider-circuit.json').exists() else {}
+    qr['primary_finished']=True;defer_provider(qr,qp,circuit.get('retry_at_epoch'));steps.append({'status':'language_handed_to_review','language':lang});continue
    if lang=='tg-TJ' and client_factory is LifecycleClient:
     from .alternate_reviewer_verification import AlternateDiagnosticClient
     client=AlternateDiagnosticClient(health,allow_calls=True,capabilities=('text',));client.alternate_model='agnes-3.0-flash';client.declared_models=[]

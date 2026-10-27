@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "validated_at": "2026-10-27T06:38:57.083487+00:00",
+  "tests_passed": 786,
+  "offline_test_command": "python tests/agri_v2/run_offline.py",
+  "test_isolation": "Only recovery.OUT is a temporary empty fixture; real provider circuit is unchanged. Individual circuit tests can override fixture.",
+  "initial_unisolated_test_result": {
+    "total": 785,
+    "failures": 10,
+    "errors": 1,
+    "cause": "Live provider circuit correctly held unrelated unit tests; isolated rerun succeeded."
+  },
+  "implementation_base_commit": "e990530defefbd55e4b6c729a53c9f6ea4a67988",
+  "live_evidence_commit": "7e30222ac2754088dac05c8debcf965785e2de3e",
+  "live_run_id": "40461248497",
+  "live_report": "artifacts/agri-v2/parallel/operations/ops-image-three-corrections-single-fallback-test-v1/prepare.json",
+  "image_test_passed": true,
+  "translation_test_passed": false,
+  "full_live_test_complete": false,
+  "generator_ready": false,
+  "live_review_outcome": "Fourth total candidate generated; visual reviewer timed out. Unapproved role 2 was omitted, retained approved role 1 selected.",
+  "selected_image_roles": [
+    1
+  ],
+  "live_text_calls": 1,
+  "live_image_calls": 1,
+  "new_translation_calls": 0,
+  "wordpress_mutations": 0,
+  "published_posts": 0,
+  "schedule_activated": false,
+  "production_activated": false,
+  "twenty_family_calibration_performed": false,
+  "queues": {
+    "ru-RU": {
+      "attempts": 0,
+      "model_calls_spent": 0,
+      "next_attempt_at": "2026-10-27T07:32:59.350329+00:00"
+    },
+    "ar-IQ": {
+      "attempts": 0,
+      "model_calls_spent": 0,
+      "next_attempt_at": "2026-10-27T07:32:59.350329+00:00"
+    },
+    "tg-TJ": {
+      "attempts": 2,
+      "model_calls_spent": 7,
+      "next_attempt_at": "2026-10-27T07:32:59.350329+00:00"
+    },
+    "en-US": {
+      "attempts": 0,
+      "model_calls_spent": 0,
+      "next_attempt_at": "2026-10-27T07:32:59.350329+00:00"
+    }
+  },
+  "provider_circuit_unchanged": true,
+  "provider_retry_at": "2026-10-27T07:32:59.350329+00:00",
+  "queue_deadline_reconciliation": "Provider-only holds aligned to actual provider retry; existing attempts, calls and history retained. Original deadlines recorded in appended history events. No attempt performed.",
+  "next_required_check": "After provider cooldown, complete bounded nonpublishing language verification; do not activate scheduler on partial success."
+}

@@ -130,3 +130,33 @@ class ImageFallbackTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    data,folder,t,a=self.fixture(d);w.advance(FakeClient({1:[True],2:[False]*4}),folder,t,a,'1',data);p=folder/'image-1.quality.json';r=load_json(p);r['verdict']['score']=99;atomic_json(p,r)
    with self.assertRaises(ValueError):q.require_all(folder,t,a)
+ def test_provider_hold_never_spends_or_resets_a_language_attempt(self):
+  from automation.agri_v2.language_review_queue import defer_provider
+  import datetime
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d)/'tg-TJ.json';row={'status':'waiting','attempts':2,'model_calls_spent':7,'next_attempt_at':None,'history':[]};now=datetime.datetime(2026,10,27,6,0,tzinfo=datetime.timezone.utc);defer_provider(row,p,now.timestamp()+3600,now);saved=load_json(p);self.assertEqual(saved['attempts'],2);self.assertEqual(saved['model_calls_spent'],7);self.assertEqual(saved['next_attempt_at'],'2026-10-27T07:00:00+00:00');self.assertEqual(saved['reason'],'provider_backpressure')
+ def test_provider_hold_does_not_reopen_approved_or_exhausted_language(self):
+  from automation.agri_v2.language_review_queue import defer_provider
+  with tempfile.TemporaryDirectory() as d:
+   for status in ['approved','published','needs_attention']:
+    row={'status':status,'attempts':3,'model_calls_spent':12,'history':[]};defer_provider(row,Path(d)/(status+'.json'),0);self.assertEqual(row['status'],status)
+ def test_pipeline_images_branch_keeps_legacy_exhaustion(self):
+  from test_family_lifecycle import FamilyLifecycleTests
+  with tempfile.TemporaryDirectory() as d:
+   data,out,t,env,health=FamilyLifecycleTests().setup(d);folder=out/'new'/t['id'];atomic_json(folder/'cycle-attempts.json',{'attempts':2});factory=Mock()
+   with patch.object(f,'next_stage',return_value=('images',None)):result=f.worker(t,health,data,out,env,client_factory=factory)
+   self.assertEqual(result['reason'],'legacy_generation_budget_exhausted');factory.assert_not_called()
+ def test_dashboard_does_not_count_imported_experiment_twice(self):
+  from automation.agri_v2.dashboard_snapshot import build
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d);row={'topic_id':'agri-000000000001','article_sha256':'a'*64,'language':'tg-TJ','status':'waiting','experimental_only':False};atomic_json(root/'artifacts/agri-v2/new/agri-000000000001/review-queue/tg-TJ.json',row);atomic_json(root/'artifacts/agri-v2/parallel/writer-verification/old/agri-000000000001/review-queue/tg-TJ.json',dict(row,experimental_only=True));self.assertEqual(len(build(root)['reviews']),1)
+ def test_dashboard_preserves_experiment_when_source_differs(self):
+  from automation.agri_v2.dashboard_snapshot import build
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d);row={'topic_id':'agri-000000000001','article_sha256':'a'*64,'language':'tg-TJ','status':'waiting','experimental_only':False};atomic_json(root/'artifacts/agri-v2/new/agri-000000000001/review-queue/tg-TJ.json',row);atomic_json(root/'artifacts/agri-v2/parallel/writer-verification/old/agri-000000000001/review-queue/tg-TJ.json',dict(row,experimental_only=True,article_sha256='b'*64));self.assertEqual(len(build(root)['reviews']),2)
+
+ def test_provider_hold_does_not_shorten_existing_editorial_backoff(self):
+  from automation.agri_v2.language_review_queue import defer_provider
+  import datetime
+  with tempfile.TemporaryDirectory() as d:
+   now=datetime.datetime(2026,10,27,6,0,tzinfo=datetime.timezone.utc);deadline=(now+datetime.timedelta(hours=24)).isoformat();row={'status':'waiting','reason':'editorial_repair_failed','attempts':2,'model_calls_spent':7,'next_attempt_at':deadline,'history':[]};defer_provider(row,Path(d)/'tg-TJ.json',now.timestamp()+3600,now);self.assertEqual(row['next_attempt_at'],deadline);self.assertEqual(row['attempts'],2)

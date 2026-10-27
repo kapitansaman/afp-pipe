@@ -113,6 +113,19 @@ def defer(row,p,reason,data=DATA):
   row.update(status='waiting',next_attempt_at=(datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=hours)).isoformat())
  atomic_json(p,row)
 
+def defer_provider(row,p,retry_at_epoch,now=None):
+ """A shared provider hold is not a new semantic defect or a fresh attempt."""
+ now=now or datetime.datetime.now(datetime.timezone.utc)
+ retry=datetime.datetime.fromtimestamp(max(float(retry_at_epoch or 0),now.timestamp()+300),datetime.timezone.utc)
+ row['history'].append({'event':'provider_deferred_without_attempt','previous_next_attempt_at':row.get('next_attempt_at'),'retry_at':retry.isoformat(),'at':now.isoformat()})
+ if row['status'] in ('waiting','reserved'):
+  previous=row.get('next_attempt_at');reason='provider_backpressure'
+  if previous and row.get('reason')!='provider_backpressure':
+   prior=datetime.datetime.fromisoformat(previous.replace('Z','+00:00'))
+   if prior>retry:retry=prior;reason=row.get('reason') or 'editorial_backoff'
+  row.update(status='waiting',reason=reason,next_attempt_at=retry.isoformat())
+ atomic_json(p,row)
+
 def due(row,now=None):
  if row.get('status') not in ('waiting','reserved'):return False
  ts=row.get('next_attempt_at')
