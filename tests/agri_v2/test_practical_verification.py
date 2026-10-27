@@ -36,3 +36,8 @@ class PracticalVerificationTests(unittest.TestCase):
   for key,value in [('max_total_text_calls',6),('max_language_repairs',2),('max_translation_fidelity_reviews',2),('max_writer_calls',1),('max_wordpress_mutations',1),('reset_attempts',True)]:
    bad=dict(req);bad[key]=value
    with self.assertRaises(ValueError):op.validate_request(bad)
+ def test_final_editorial_completion_has_no_additional_language_model_repair(self):
+  req=self.req();req.update(request_id=p.EDITORIAL_ID,operation='nonpublishing-editorial-finish-four-translations',max_total_text_calls=4,max_writer_calls=0,max_final_article_reviews=0,max_language_repairs=0,max_translation_fidelity_reviews=1,resume_from_request=p.LANGUAGE_ID);op.validate_request(req)
+  for key,value in [('max_total_text_calls',5),('max_language_repairs',1),('max_writer_calls',1),('max_wordpress_mutations',1)]:
+   bad=dict(req);bad[key]=value
+   with self.assertRaises(ValueError):op.validate_request(bad)
