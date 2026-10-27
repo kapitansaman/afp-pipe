@@ -50,7 +50,7 @@ class ReviewRepairTests(unittest.TestCase):
     if mode=='quote':v['issues'][0]['target_text']='Text never present'
     if mode=='style':v['issues'][0]['category']='style'
     if mode=='contradiction':v['issues']=[]
-    c=self.client([v]);self.assertFalse(r.run(c,a,rows,f)['four_languages_semantically_reviewed']);self.assertEqual(c.text.call_count,1)
+    c=self.client([v,v]);self.assertFalse(r.run(c,a,rows,f)['four_languages_semantically_reviewed']);self.assertEqual(c.text.call_count,2)
  def test_numbers_html_and_unrequested_ids_never_promoted(self):
   for kind in ('number','html','id'):
    with self.subTest(kind=kind),tempfile.TemporaryDirectory() as d:
