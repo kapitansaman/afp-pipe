@@ -68,6 +68,8 @@ def article_checked(folder,topic,brief):
 def next_stage(topic,data=DATA,out=OUT):
  ident=topic['id'];cfg=load_json(data/'config.json');folder=out/'new'/ident
  if ident in cfg.get('publication_holds',{}):return 'blocked','publication_hold'
+ from .queue_exceptions import queued
+ if queued(ident,out):return 'blocked','exception_queue_requires_explicit_review'
  if family_complete(ident,data,out):return 'complete',None
  bp=data/'briefs'/(ident+'.json')
  if not bp.exists():
@@ -428,6 +430,10 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
      if ident!=topic['id'] or result.get('topic_id')!=ident:raise StageBlocked('worker_identity_mismatch')
      from .parallel_controller import merge_worker
      merge_worker(ident,wd,wo,data,out)
+     if not matrix_pilot and env.get('AFP_WHITE_BEAN_PILOT')!='1':
+      from .queue_exceptions import note_terminal
+      terminal=note_terminal(topic,result,data,out)
+      if terminal is not None:result=dict(result,terminal_exception_checkpoint_saved=True)
     except Exception as e:result={'status':'worker_failed','topic_id':topic['id'],'failure':failure_details(e)}
     report['results'].append(dict(result,family_id=topic['family_id']));timing_tick();atomic_json(rp,report)
   report['pool']=snapshot(db);record_routing(out,report['pool'])

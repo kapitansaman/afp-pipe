@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "enabled": true,
+  "require_terminal_checkpoint": true,
+  "preserve_all_artifacts": true,
+  "reset_attempts": false,
+  "automatic_retry_authorized": false,
+  "publication_authorized": false,
+  "respect_holds_and_publication_receipts": true
+}
