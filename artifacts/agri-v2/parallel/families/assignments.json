@@ -5,9 +5,9 @@
   "families": [
     {
       "family_id": "family-01",
-      "topic_id": "agri-b6ffe49a4638",
-      "title": "زمان کاشت لوبیا قرمز؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
-      "assigned_at": "2026-10-26T08:45:16.179070+00:00",
+      "topic_id": "agri-c2151ad96659",
+      "title": "راهنمای ارزیابی کیفیت بذر لوبیا چیتی پیش از خرید و کاشت",
+      "assigned_at": "2026-10-27T15:19:01.751006+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -23,20 +23,20 @@
     },
     {
       "family_id": "family-03",
-      "topic_id": "agri-934dd1366a8b",
-      "title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
-      "assigned_at": "2026-10-26T08:45:16.180558+00:00",
+      "topic_id": "agri-3c1cdef82c04",
+      "title": "پایش رطوبت خاک در مزرعه لوبیا چیتی؛ انتخاب محل و عمق حسگر",
+      "assigned_at": "2026-10-27T15:19:01.753885+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "source_discovery_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-04",
-      "topic_id": "agri-3ab6116ba6cf",
-      "title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
-      "assigned_at": "2026-10-26T08:45:16.180790+00:00",
+      "topic_id": "agri-cd64428568cb",
+      "title": "نیاز آبی لوبیا چیتی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+      "assigned_at": "2026-10-27T15:19:01.754098+00:00",
       "assignment_status": "assigned",
-      "work_stage": "scope_review_required",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -50,18 +50,18 @@
     },
     {
       "family_id": "family-06",
-      "topic_id": "agri-ee13684b7f1a",
-      "title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
-      "assigned_at": "2026-10-26T08:45:16.201611+00:00",
+      "topic_id": "agri-382a9f28f635",
+      "title": "عمق کاشت بذر کدو آجیلی در خاک سبک و سنگین؛ خطاهای رایج",
+      "assigned_at": "2026-10-27T15:19:01.761843+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-07",
-      "topic_id": "agri-1f58a0e82783",
-      "title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
-      "assigned_at": "2026-10-26T08:45:16.201983+00:00",
+      "topic_id": "agri-f2b95250ac75",
+      "title": "اولین آبیاری کدو آجیلی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+      "assigned_at": "2026-10-27T15:19:01.762053+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -95,11 +95,11 @@
     },
     {
       "family_id": "family-11",
-      "topic_id": "agri-3aec9f066bb5",
-      "title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
-      "assigned_at": "2026-10-26T05:06:57.189306+00:00",
+      "topic_id": "agri-6b4f1f6e0cad",
+      "title": "چرا بذر کدو آجیلی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "assigned_at": "2026-10-27T15:19:01.762540+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "research_budget_exhausted",
       "publication_authorized_by_assignment": false
     },
     {
@@ -113,27 +113,27 @@
     },
     {
       "family_id": "family-13",
-      "topic_id": "agri-dd97e1add9df",
-      "title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
-      "assigned_at": "2026-10-26T08:45:16.203173+00:00",
+      "topic_id": "agri-dc60868225b6",
+      "title": "مراحل حساس کدو آجیلی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "assigned_at": "2026-10-27T15:19:01.762785+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-14",
-      "topic_id": "agri-f5f2d5ed4de0",
-      "title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
-      "assigned_at": "2026-10-26T08:45:16.203430+00:00",
+      "topic_id": "agri-887448ed952f",
+      "title": "کاهش تلفات برداشت کدو آجیلی؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
+      "assigned_at": "2026-10-27T15:19:01.762907+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "source_discovery_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-15",
-      "topic_id": "agri-2bffca9fad0a",
-      "title": "دور آبیاری لوبیا چیتی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
-      "assigned_at": "2026-10-26T08:45:16.203653+00:00",
+      "topic_id": "agri-bbdf8ae354bd",
+      "title": "مدت هر نوبت آبیاری کدو آجیلی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+      "assigned_at": "2026-10-27T15:19:01.763055+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -167,20 +167,20 @@
     },
     {
       "family_id": "family-19",
-      "topic_id": "agri-681d9e957593",
-      "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
-      "assigned_at": "2026-10-26T07:06:54.525200+00:00",
+      "topic_id": "agri-94ece8be9fb2",
+      "title": "دور آبیاری کدو آجیلی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
+      "assigned_at": "2026-10-27T15:19:01.772855+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-20",
-      "topic_id": "agri-15439ad51313",
-      "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
-      "assigned_at": "2026-10-26T07:06:54.525315+00:00",
+      "topic_id": "agri-1c9df68c91c1",
+      "title": "آخرین آبیاری کدو آجیلی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "assigned_at": "2026-10-27T15:19:01.773000+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "source_discovery_required",
       "publication_authorized_by_assignment": false
     }
   ],
@@ -364,6 +364,138 @@
       "completed_at": "2026-10-27T14:41:16.913743+00:00",
       "completion": "deferred_to_exception_backlog",
       "reason": "existing_content_overlap_or_uncertain"
+    },
+    {
+      "family_id": "family-01",
+      "topic_id": "agri-b6ffe49a4638",
+      "title": "زمان کاشت لوبیا قرمز؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "assigned_at": "2026-10-26T08:45:16.179070+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.733465+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-03",
+      "topic_id": "agri-934dd1366a8b",
+      "title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T08:45:16.180558+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.734653+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "scoped_four_to_twelve_facts_required"
+    },
+    {
+      "family_id": "family-04",
+      "topic_id": "agri-3ab6116ba6cf",
+      "title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T08:45:16.180790+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "scope_review_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.735322+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "scoped_four_to_twelve_facts_required"
+    },
+    {
+      "family_id": "family-06",
+      "topic_id": "agri-ee13684b7f1a",
+      "title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T08:45:16.201611+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.736510+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-07",
+      "topic_id": "agri-1f58a0e82783",
+      "title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "assigned_at": "2026-10-26T08:45:16.201983+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.737146+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-11",
+      "topic_id": "agri-3aec9f066bb5",
+      "title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
+      "assigned_at": "2026-10-26T05:06:57.189306+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.745205+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "existing_content_overlap_or_uncertain"
+    },
+    {
+      "family_id": "family-13",
+      "topic_id": "agri-dd97e1add9df",
+      "title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "assigned_at": "2026-10-26T08:45:16.203173+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.746503+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-14",
+      "topic_id": "agri-f5f2d5ed4de0",
+      "title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+      "assigned_at": "2026-10-26T08:45:16.203430+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.747224+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-15",
+      "topic_id": "agri-2bffca9fad0a",
+      "title": "دور آبیاری لوبیا چیتی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
+      "assigned_at": "2026-10-26T08:45:16.203653+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.747945+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-19",
+      "topic_id": "agri-681d9e957593",
+      "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "assigned_at": "2026-10-26T07:06:54.525200+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.749954+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-20",
+      "topic_id": "agri-15439ad51313",
+      "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "assigned_at": "2026-10-26T07:06:54.525315+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:19:01.750673+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "scoped_four_to_twelve_facts_required"
     }
   ],
   "publication_authorized_by_assignment": false,
@@ -684,9 +816,269 @@
       ],
       "prior_attempts_reset": false,
       "previous_family_id": "family-15"
+    },
+    "agri-b6ffe49a4638": {
+      "topic_id": "agri-b6ffe49a4638",
+      "title": "زمان کاشت لوبیا قرمز؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.733465+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "cf20f27878535de1c94baaca5e67c80de70f0bdbe7b9917054af9df526d038cf",
+        "sources.json": "edd6812c2b13afe09caea9875586085060e8c677a2414a0dc7d0223e8d881aad",
+        "candidate-raw.json": "ff74010cd8de9551e881f1a87513efd50f6efd7e3ab40a668386e781b1620de4",
+        "state.json": "e6d47fae05855660a75ce993061a3e7ecff41a813b9b67a95f252bde3967e7e1"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-01"
+    },
+    "agri-934dd1366a8b": {
+      "topic_id": "agri-934dd1366a8b",
+      "title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.734653+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "d028ea8e7a4f44e8336c879d4dd7e84d940e53f3a670c87e4dcfb5593cd8bcab",
+        "sources.json": "f5ccc7ee458cb6df8c820b231e48dd90c16d47ddaf1f5ccda88cbfe1a5b9951a",
+        "candidate-raw.json": "b20e3a94a8e99cb8ada844dd98754871e1b7d186de3842cdd89a86f7a2a51cc6",
+        "state.json": "0735312589d541cf72e77fcf17ab6001a4d6175c9d3e12a1f175bc2547c530c7"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-03"
+    },
+    "agri-3ab6116ba6cf": {
+      "topic_id": "agri-3ab6116ba6cf",
+      "title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.735322+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "983bc3f6debcb7852af6eba97fc7ca2e1735172de284dce9e5873fa0d9b22d4d",
+        "sources.json": "cb3550a35f0c6af9255e9417a31b9bb5e5bce81dae4b4e0cc5bd19dcda9b1c71",
+        "candidate-raw.json": "0bedc73fb510a0376f21388e57456cc96e2b67f29e3243441a033a5c74302527",
+        "state.json": "c2f7d5be877269b4713edffcfdb1c69b239c10cf461aeb0ccac67aa89ecb98eb"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-04"
+    },
+    "agri-ee13684b7f1a": {
+      "topic_id": "agri-ee13684b7f1a",
+      "title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.736510+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "d174a938e05b2325569066746e7364cb28ef31e429e0c99e546343dfe79fee67",
+        "sources.json": "020d2c473c14e331cfb21dca8e2c83a60c4f3968d4d18ea8616b746f25f43194",
+        "candidate-raw.json": "d50f50687cbcee1195efa1b13ccc3900b80410877ec54494c51cbfeb71a149c4",
+        "state.json": "84d4e489062cc299ed6c09ef3f55e8c093d652d7721b159abaa4d4b9ef574b46"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-06"
+    },
+    "agri-1f58a0e82783": {
+      "topic_id": "agri-1f58a0e82783",
+      "title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.737146+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "00e05a41d69ffe70e259d78f24dd1ab695c60eed3000a38f40b622c04e98c230",
+        "sources.json": "42d48b4eae2c588f5b1c491949c1c66035ea8c9522fed5594acb081176284785",
+        "candidate-raw.json": "e342dbc291e5be1463bd1bc35a70457950c687611bcd9f34a621f42de4b12fa4",
+        "state.json": "8131492260a5ef98f22d854478206b323feaa6d67c508e070a0728f332310e79"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-07"
+    },
+    "agri-dd97e1add9df": {
+      "topic_id": "agri-dd97e1add9df",
+      "title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.746503+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "95499279e972a29fd52d7f2b5d6d73559aceada105e1430235f64f11e897822a",
+        "sources.json": "9ff675832379e03925cbbd46160d599967a7846b5099b90e6b1940733d2730e9",
+        "candidate-raw.json": "8693389da5224bdf4f25e0f5fb8595932ca582c2347ce0261e93027de48766d5",
+        "state.json": "70e22e6aa778022251b5f90792ce29d10f5e35d6f894d9eeb7f1774cda6a7734"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-13"
+    },
+    "agri-f5f2d5ed4de0": {
+      "topic_id": "agri-f5f2d5ed4de0",
+      "title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.747224+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "a47f6e83663ad26544a09727503eed6a93bf2cb8bfab13625226953e92011541",
+        "sources.json": "4c0eade8f993b0f42fe396060c137509f835a7162ef6eed0c49090cee0a1d9f2",
+        "candidate-raw.json": "2fd321ed5bfc966f5ae3fc82ffc0e0eee9fe12bcdec7ef15ddaeff0c12a6d160",
+        "state.json": "63b01bbcf488e040dee5841a30054406dd3beac55145fd5dcc1547c629cb3008"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-14"
+    },
+    "agri-2bffca9fad0a": {
+      "topic_id": "agri-2bffca9fad0a",
+      "title": "دور آبیاری لوبیا چیتی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.747945+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "9a1947e1babbfcbb9a0720deeb0a1d9565b312d38ab331def8bc0b8bff67e0ee",
+        "sources.json": "f38c779c409df41a8a278627b41ff0769263ca49f875807901b5612766eeba37",
+        "candidate-raw.json": "fa4d1564f0a33ae9e64286c7508f734562c426aa2d1c453c194a019e079a319f",
+        "state.json": "3bcc8fea3813badc5e0957055a3a34981f2608e729c144a407030926990fed81"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-15"
+    },
+    "agri-681d9e957593": {
+      "topic_id": "agri-681d9e957593",
+      "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.749954+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "91cf82f99ab261d475366f6d73ab50a275de1b8aa2c7926d8a9115e6aa6ab8f6",
+        "sources.json": "42254ce6a339aba310f94a45edff93c3a959f7d527ab6f1db1da0eb1d416bf5d",
+        "candidate-raw.json": "950dbcd0941a4556d1a0ff492c25008c4338c79f2f626af3206ee66f16b0ac84",
+        "state.json": "741226b33a28385fdc0869e9254d628094ef6d8e0aca2cdf0641972c295b9ad6"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-19"
+    },
+    "agri-15439ad51313": {
+      "topic_id": "agri-15439ad51313",
+      "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.750673+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "b75c37448387b75db4dcf9cd0afd31528aa2c21c7a9f22fb745318cf83c92d82",
+        "sources.json": "96db17fd2d15e8075f7848e237148cbffc83b2af5e3dd0c902414719846817f0",
+        "candidate-raw.json": "a3ea5610d6035ffcb184813bfd55a79108a8d1f3b10e89ec29c030afe77372c3",
+        "state.json": "3d7cf05e0d31ede206d21560dadf6a4eab48ffb7f80aa23001313540fe1495c5"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-20"
     }
   },
-  "research_backlog_count": 12,
+  "research_backlog_count": 22,
   "exception_backlog": {
     "agri-c0e160d88554": {
       "kind": "stage_budget_exhausted",
@@ -857,7 +1249,89 @@
         "all_original_research_quality_overlap_and_publication_gates"
       ],
       "previous_family_id": "family-18"
+    },
+    "agri-3aec9f066bb5": {
+      "kind": "stage_budget_exhausted",
+      "stage": "existing_content_audit-006",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "existing_content_overlap_or_uncertain",
+      "last_run_id": "40529029195",
+      "topic_id": "agri-3aec9f066bb5",
+      "title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-27T15:19:01.745205+00:00",
+      "terminal_checkpoint_sha256": "4ef7d6bb4d85a138bf594127b06d5cbc1881799e802f60e7fa5eeaf0e51c12ec",
+      "bindings": {
+        "topic_sha256": "5445f97258e8ddb24d1b92e3a0bae67a7f194ba22396849552e5a7e04e1ca07d",
+        "topic_files": {
+          "family-context/40298864446.json": "a9ed0efe053a2508a2a2e914c6c9dcadd8ef4bd357517bceb9a1dd7ea196922f",
+          "family-context/40522647019.json": "6b2a809b908b05eb20df44ba58cb9338994f4c16e0ba04b42e88d6bbe9a8765f",
+          "family-context/40525360938.json": "6b2a809b908b05eb20df44ba58cb9338994f4c16e0ba04b42e88d6bbe9a8765f",
+          "family-context/40529029195.json": "6b2a809b908b05eb20df44ba58cb9338994f4c16e0ba04b42e88d6bbe9a8765f",
+          "lifecycle/existing_content_audit-000/rejected/1/000.raw.json": "6c4d9f8ed06d9239437afe25fcd232df37a9048eaa150d4b65be69ef852b907d",
+          "lifecycle/existing_content_audit-000/state.json": "8373ab3facb577da750740ebb4f89ecaba6a4d975b27568c51cd0f864ca14bd0",
+          "lifecycle/existing_content_audit-001/state.json": "0128bb45fc5152e87e469d0cddf8b07a971c9810a0ce034eae5082e0bae1cb90",
+          "lifecycle/existing_content_audit-002/rejected/1/002.raw.json": "7d26dd6b446446389c7b5abf12dbf87393bffe24b6cbf4fa84d3c86429e322ad",
+          "lifecycle/existing_content_audit-002/state.json": "1ebdc5722820eae6e5d94ebeeebeed9f73de21f21a842e37be5c8eb599a2f1c4",
+          "lifecycle/existing_content_audit-003/rejected/1/003.raw.json": "161758f77bb75c79e9b7a305fd2fd39cce01b7ff0d093c60fdda9de31d938c52",
+          "lifecycle/existing_content_audit-003/state.json": "2af33c13b7212b928b04d173575fdfd64cbeaf5660cbeb727fc7b1f29afb2313",
+          "lifecycle/existing_content_audit-004/rejected/1/004.raw.json": "40b74d867da796810c6d539531c8eb6d81432d99251adfa36e7c0ca652de0ee2",
+          "lifecycle/existing_content_audit-004/state.json": "8adc81e93cb4d19f7f286ab41a9f26ffd9144fe2eacdc03eec5cfce235a00bc1",
+          "lifecycle/existing_content_audit-005/rejected/1/005.raw.json": "18416b1e5149ed8b3087d93f3459f98000fd0e2fdffa142a7c87fc258473ec46",
+          "lifecycle/existing_content_audit-005/state.json": "44df5dbacc2818b116eefa27a9d4722764c17a9a57591c84d7ba9ca3ee8158fe",
+          "lifecycle/existing_content_audit-006/rejected/1/006.raw.json": "5dabf5b71fec4f6bf105f3dfbd4fee4ac596f943b031f3eda1c4385f6ead4351",
+          "lifecycle/existing_content_audit-006/rejected/2/006.raw.json": "5d84648906ae99f8e8aa03127ecfce7a226dcd566f75010cf81d0659b2aaabee",
+          "lifecycle/existing_content_audit-006/state.json": "b60e22d3a0b52f69e718e68fe9c719dd585fce0222148c99289ae91dbb855a1a",
+          "lifecycle/research_extract/rejected/1/candidate-raw.json": "0312de53d30687c605b97cbd2382097eae4d68929f99b5cf7ea11019287edd10",
+          "lifecycle/research_extract/state.json": "04ee2eec64d85a26e0b4753db16ad5d780ab930fcf54a26f707a0d78e73bf222",
+          "lifecycle/research_sources/rejected/1/sources.json": "c6985f9dadde0e061471fd79a58a7087f84d0b84bb23d2d78b40c3bf0e990a99",
+          "lifecycle/research_sources/state.json": "f43a1edd4c015ac943b21894521c330d5191a82919da369aca77c6b2ba99673d",
+          "lifecycle/research_validate_saved/state.json": "2755bf906d11146d368064314440114a0e38ed93168b436d9644bb4d9ce27bd2",
+          "lifecycle-evidence/candidate-raw.json": "c670c25ac0b1aad4aa46d80511598e1121503c888777ea07b0c0814db9c81cd6",
+          "lifecycle-evidence/candidate.json": "875a28214fa9d35ba7c8b26b590f08a006182c5d790167317d8f8213d3bb32a1",
+          "lifecycle-evidence/existing-content.json": "33a41ab82ed60235a84fbc04b1188a4f631f49534de5d2e2954e90e0521b9555",
+          "lifecycle-evidence/overlap-batches/000.json": "357b10a37c794795a2312770526e7439be10da6cc7f56fa1c62adada3d03220b",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "73d1977921567359291a9418678e46f0732f032110bb051f4beec74cf2df6c4a",
+          "lifecycle-evidence/overlap-batches/001.json": "ad5553254b6d752e2e50238de1e72954f7dc58ed6c41b5964397d06e87e1db0a",
+          "lifecycle-evidence/overlap-batches/001.raw.json": "4c6156ccdf9f215c0b7a271a7ea07741723d26929e667cb49b0b60d4e408aa9d",
+          "lifecycle-evidence/overlap-batches/002.json": "96e9a83725812376edeb451bed2dcddb6634c61d16e3fbf0af71d6d49e6ed6b5",
+          "lifecycle-evidence/overlap-batches/002.raw.json": "da6fd3e655d8e72a19cda0534abe510598a65b8cd90a93b22bf5776fcbda82d8",
+          "lifecycle-evidence/overlap-batches/003.json": "7c1011dc5afc16f417e60c26a755b6a953baba078a094f0da08c25a901f15b25",
+          "lifecycle-evidence/overlap-batches/003.raw.json": "78962f6d205f442c626014bd74420be6e637e66b1f0b24f65fd6d0f37dc08a02",
+          "lifecycle-evidence/overlap-batches/004.json": "4b52cfbd7cd0c99252727a3af58e8a4bb2fa152bc095ba423e00020a10ccab34",
+          "lifecycle-evidence/overlap-batches/004.raw.json": "da4e7171b1f35c5fa149588b3cdd38d6323c57f084f80662ee6659652c8808d7",
+          "lifecycle-evidence/overlap-batches/005.json": "280165d43833b37e951cf59314b06a2a0b1217271f057477b424cd5adefd7167",
+          "lifecycle-evidence/overlap-batches/005.raw.json": "35545258d6cc741e94af94fd98bdca35dbe24db661077e2e9d1eece879318587",
+          "lifecycle-evidence/overlap-batches/006.raw.json": "9120e9794bea660123c9d1234d4a138fce81ed7adecdf9a852704abd823b3ded",
+          "lifecycle-evidence/saved-candidate-validation.json": "bfb5651e8108c79572af777f48041ce78a26f9bf009bc119f40a7d38a09401bf",
+          "lifecycle-evidence/source-discovery-report.json": "f8509ca1d5ae07510654bacd33fbfbf023e94a022b303c4e8aa2bc9fd159a708",
+          "lifecycle-evidence/source-fetch-report.json": "2084b3f7d16bd4e7ea6bd764862fd8473577d69a922ac9fb391f2d96a581df45",
+          "lifecycle-evidence/sources.json": "3e4f49102c84d3dd613b0f3fc5489d221dd15a11bb83667e4afd4fd87979c738"
+        },
+        "legacy_research_sha256": "cee74e3f4db6fdec3ec5c260196af79404d1bf3332f3d56b50a3a883ddb6ded2",
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-11"
     }
   },
-  "exception_backlog_count": 3
+  "exception_backlog_count": 4
 }

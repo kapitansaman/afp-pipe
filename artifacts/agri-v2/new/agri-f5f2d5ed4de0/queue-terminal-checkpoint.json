@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-f5f2d5ed4de0",
+  "title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-f5f2d5ed4de0",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "a67e300018f9f4da8d35b2e09818ab38b23560c8a9392bcdf8a648735c057046",
+    "topic_files": {
+      "family-context/40298864446.json": "752929279131c926b7bedeb4d740bcf87a6ed9eea8bf0b8cfbfe60b335e7898e",
+      "family-context/40522647019.json": "37daf21e6d7038462131c4accccb3a770644a95cedce4330d091aae6960ab9da",
+      "family-context/40525360938.json": "37daf21e6d7038462131c4accccb3a770644a95cedce4330d091aae6960ab9da",
+      "family-context/40529029195.json": "37daf21e6d7038462131c4accccb3a770644a95cedce4330d091aae6960ab9da",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "d16b54ee10a2fa83e5a4e884eba048c6bbb05232fe6a249b4dfbc1e3efb5378f",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "8e9b8c693ed0273953827c775a70da2d1bc59af29a4131e84e2cfb91b081123a",
+      "lifecycle/research_extract/state.json": "63b01bbcf488e040dee5841a30054406dd3beac55145fd5dcc1547c629cb3008",
+      "lifecycle/research_sources/state.json": "50a81f4353d4d22064e95c2ed2fc5df57770e997236ecb2c6374cb3257ec3ec6",
+      "lifecycle/research_validate_saved/state.json": "1c2c2d722020e53549144f4f7529c9f685d04f398dcca485c1e22268824c779b",
+      "lifecycle-evidence/candidate-raw.json": "2fd321ed5bfc966f5ae3fc82ffc0e0eee9fe12bcdec7ef15ddaeff0c12a6d160",
+      "lifecycle-evidence/existing-content.json": "83ab3d7ade9b6be9286b2c53266e7e40b6c2470865cee09f0b0b60bef22c6761",
+      "lifecycle-evidence/extraction-feedback.json": "58e57cd1d34338cc209c6848f0708e42ce87bc668dec306574a74c13e6aadfdb",
+      "lifecycle-evidence/source-discovery-report.json": "a47f6e83663ad26544a09727503eed6a93bf2cb8bfab13625226953e92011541",
+      "lifecycle-evidence/source-fetch-report.json": "d11b36ca467c8fdf4e5416808cb14fc680a372c74aac032705b9b63a4fef2fa6",
+      "lifecycle-evidence/sources.json": "4c0eade8f993b0f42fe396060c137509f835a7162ef6eed0c49090cee0a1d9f2"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:17:46.001210+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

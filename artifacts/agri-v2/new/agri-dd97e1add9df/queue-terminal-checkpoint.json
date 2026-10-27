@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-dd97e1add9df",
+  "title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-dd97e1add9df",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "41d499000fb55eb401b0a24e11f163f295ed526aecb0f075fa609b0be5d7b597",
+    "topic_files": {
+      "family-context/40298864446.json": "11a1e4265e036f8822e72f693f661606d2f4fb5aa2872478de08e703a5299477",
+      "family-context/40522647019.json": "0fab4838e6ac5522c2e6ea0ce797df55e53890a19f4774b98d4d111396b574d2",
+      "family-context/40525360938.json": "0fab4838e6ac5522c2e6ea0ce797df55e53890a19f4774b98d4d111396b574d2",
+      "family-context/40529029195.json": "0fab4838e6ac5522c2e6ea0ce797df55e53890a19f4774b98d4d111396b574d2",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "1ea9af5b73db6b3487f517fcd6b219bdf46606f42ad8fff79a493e8142199370",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "5b3a41ee408c5b71ebf0bbfe4e3b6a71587ef1657d90b497a5e1b3a127485309",
+      "lifecycle/research_extract/state.json": "70e22e6aa778022251b5f90792ce29d10f5e35d6f894d9eeb7f1774cda6a7734",
+      "lifecycle/research_sources/state.json": "43068e2ba9161dbbdfccf26c91f473f81d2257c96df7e300cb6c8c5c99566115",
+      "lifecycle/research_validate_saved/state.json": "bfce0fac8f316a5796df03a49829cf025be93e0840988668571ecedebc7870b2",
+      "lifecycle-evidence/candidate-raw.json": "8693389da5224bdf4f25e0f5fb8595932ca582c2347ce0261e93027de48766d5",
+      "lifecycle-evidence/existing-content.json": "03d0c583261ead82eeb6b00a889cbcbceee48626e5568b59633e20f6be133c4f",
+      "lifecycle-evidence/extraction-feedback.json": "019193d90bcd0adc26e1b023746e0aec9c62c7e67ae780ea8dbac5ded61399df",
+      "lifecycle-evidence/source-discovery-report.json": "95499279e972a29fd52d7f2b5d6d73559aceada105e1430235f64f11e897822a",
+      "lifecycle-evidence/source-fetch-report.json": "d11b36ca467c8fdf4e5416808cb14fc680a372c74aac032705b9b63a4fef2fa6",
+      "lifecycle-evidence/sources.json": "9ff675832379e03925cbbd46160d599967a7846b5099b90e6b1940733d2730e9"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:17:15.330981+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

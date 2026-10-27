@@ -1,8 +1,25 @@
 {
   "topic_id": "agri-2bffca9fad0a",
-  "candidate_sha256": "563403a49b1022ffb65500bb02c8c61654fe328123cf54711986111936711889",
+  "candidate_sha256": "82ab86aa46b48df88214db1f8ce7bd1403bb905afc9db892fac787111e5e8a02",
   "scientific_approval": false,
-  "errors": [],
+  "errors": [
+    {
+      "fact_index": 6,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "هیچ‌یک از منابع ارائه‌شده آستانه عملیاتی سنجش رطوبت خاک (درصد رطوبت هدف، ولتاژ سنسور، یا نقطه پژمردهگی) را برای مرحله رشد مشخص‌شده لوبیا چیتی توصیف نمی‌کنند.",
+        "conditions": "شواهد: تمام ۷ منبع بررسی‌شده (MSU Extension, UMD Extension, UMN Extension, UNL PREC/CropWatch, WSU Extension) درباره کشت کلی لوبیا، برداشت مستقیم دای بون، یا پس از برداشت صحبت کرده‌اند. هیچ‌کدام روش تصمیم‌گیری مبتنی بر اندازه‌گیری مستقیم رطوبت خاک به جای تقویم ثابت را ارائه نداده‌اند.",
+        "evidence_id": "d2-e14",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d2-e14",
+        "source_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+        "quote": "roduction than sandy soils, although good drainage is important. Use well-rotted manure or compost at planting to increase soil organic matter. Do not use any fertilizer containing a weed killer (“Weed and Feed”), as it may kill your vegetable plants. Many soils in Minnesota have populations of the bacteria Rhizobium . This bacterium forms a beneficial relationship with beans. This relationship helps plant growth and bean yield. To encourage these benefits, you can purchase powdered Rhizobium inoculum and treat the seeds before planting. Add a little of the powder to the seed packet and shake it up. Be sure to purchase inoculum suitable for beans, and not specifically for peas. How to keep your bean plants healthy and productive Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Watering Beans grown in more moisture-retentive soils may not need watering exce"
+      }
+    }
+  ],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "منابع موجود مدیریت کلی آبیاری لوبیای رایج (Phaseolus vulgaris) را ارائه می‌دهند: مقدار آب هفتگی و عمق نفوذ بر بافت خاک (یک اینچ در هفته، ده اینچ در خاک شنی، شش اینچ در خاک رسی سنگین). اما هیچ منبعی آستانه عملیاتی سنجش رطوبت خاک (مثلاً درصد رطوبت هدف، ولتاژ سنسور، یا نقطه پژمردهگی) را برای مرحله رشد مشخص‌شده لوبیا چیتی ارائه نمی‌دهد و هیچ روش تصمیم‌گیری مبتنی بر اندازه‌گیری مستقیم رطوبت خاک به جای تقویم ثابت موجود نیست. عنوان صراحتاً «تصمیم‌گیری با رطوبت خاک» را درخواست می‌کند؛ شواهد فقط به مقدار آبیاری و اثرات کیفی خشکی/آب‌بیشینه می‌پردازند."
+  "declared_insufficiency": null
 }

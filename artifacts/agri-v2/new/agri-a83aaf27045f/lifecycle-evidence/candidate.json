@@ -1,0 +1,85 @@
+{
+  "topic_id": "agri-a83aaf27045f",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی — دانه خشکِ زنده Phaseolus vulgaris L., بازار کلاس pinto",
+  "slug": "first-water-pinto-dry-bean",
+  "outline": [
+    "شرایط خاک و دانه پس از کاشت",
+    "زمان‌بندی کیفی اولین آبیاری بر پایه پایش رطوبت",
+    "میزان و عمق نفوذ آبیاری پایه",
+    "خطاها و هشدارهای اجرایی"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "دانه لوبیای چیتی در خاک سرد و مرطوب مستعد پوسیدگی است؛ دمای خاک باید برای جوانه‌زنی کافی گرم باشد.",
+      "conditions": "دانه لوبیا چیتی Phaseolus vulgaris L.، مرحله پس از کاشت، اقلیم‌های سرد و خنک; محصول: دانه زنده در خاک",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کمبود رطوبت در خاک باعث ریزش گل و بوته کوچک در لوبیا می‌شود.",
+      "conditions": "لوبیا (Phaseolus vulgaris L.)، منطقه میسیسیپی ایالت متحده; محصول: رشد رویشی و زایشی",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آبیاری کلی لوبیا در شرایط خشک حدود یک اینچ آب در هفته توصیه شده است.",
+      "conditions": "لوبیا باغی، مینه‌سوتا ایالت متحده; محصول: رشد گیاه زنده; منبع: راهنمای پرورش در مزرعه/باغ دانشگاهی",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": [
+        {
+          "value": "one inch",
+          "unit_quote": "One inch of rainfall per week is good.",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "garden beans (Phaseolus vulgaris L.)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "یک اینچ آب در خاک شنی تا عمق ده اینچ و در خاک رس سنگین تا عمق شش اینچ نفوذ می‌کند.",
+      "conditions": "لوبیا، خاک‌های شنی و رس سنگین، مینه‌سوتا ایالت متحده; محصول: رشد گیاه زنده",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "ten inches",
+          "unit_quote": "An inch of water will wet a sandy soil to a depth of ten inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "soil wetting under beans"
+        },
+        {
+          "value": "six inches",
+          "unit_quote": "a heavy clay soil to six inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "soil wetting under beans"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برای تعیین میزان نفوذ آب از کلنگ استفاده شود و در صورت ناکافی بودن عمق مرطوب‌شدگی، آبیاری ادامه یابد.",
+      "conditions": "لوبیا، مینه‌سوتا ایالت متحده; محصول: پایش رطوبت خاک پس از آبیاری پایه",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "پوسیدگی بذر و مریضی‌های قارچی مانند damping-off در خاک‌های فقیر، مرطوب و سرد گسترده می‌شوند.",
+      "conditions": "باقلاجات، خاک‌های بدون زهکشی، هوای خنک و بارانی بهار; محصول: بذر و ریشه اولیه",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دانه‌های بزرگ مانند لوبیا به دلیل قندهای بیشتر،-pathogenها را جذب می‌کنند و در خاک سرد و خیس زودتر پوسیده می‌شوند.",
+      "conditions": "لوبیا، ذرت، خاک سرد و خیس; محصول: بذر در خاک",
+      "evidence_id": "d1-e8",
+      "numeric_bindings": []
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

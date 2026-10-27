@@ -1,32 +1,41 @@
 {
   "topic_id": "agri-b6ffe49a4638",
-  "candidate_sha256": "cd6b6d3b99c3c6fdb87efe5b7f1765dc70f0e027380e2124091b7cb07979be76",
+  "candidate_sha256": "2ef496fc3153b0c82ddf0cafeb866326cc25b494034facfa2ea8386b8f7c0b50",
   "scientific_approval": false,
   "errors": [
     {
-      "fact_index": 2,
-      "code": "numeric_fact_cannot_be_qualitative",
+      "fact_index": 1,
+      "code": "every_number_requires_unit_and_scope_binding",
       "rejected_fact": {
-        "kind": "qualitative",
-        "claim": "دمای خاک زیر ۵۰ درجه فارنهایت برای جوانه‌زنی بیشتر سبزیجات فصل گرم از جمله لوبیا نامناسب است.",
-        "conditions": "آستانه دمای خاک برای جوانه‌زنی لوبیا و سایر محصولات فصل گرم; منطقه عمومی آمریکا; محصول: لوبیا و سایر سبزیجات فصل گرم",
-        "evidence_id": "d5-e7",
-        "numeric_bindings": [
-          {
-            "value": "50",
-            "unit_quote": "50° F",
-            "geographic_scope": "عمومی (آمریکا)",
-            "product_scope": "لوبیا و سبزیجات فصل گرم"
-          }
-        ]
+        "kind": "source_observation",
+        "claim": "در کشت لوبیای خشک میزوری، تاریخ کاشت مناسب میانه مه تا میانه ژوئن گزارش شده و کاشت در مه معمولاً عملکرد بالاتری نسبت به ژوئن دارد.",
+        "conditions": "MIZouri, USA; محصول: لوبیای خشک; عمق کاشت: 1 تا 2 اینچ; محصول: دانه‌ی خشک Phaseolus vulgaris",
+        "evidence_id": "d0-e10",
+        "numeric_bindings": []
       },
       "literal_evidence": {
-        "id": "d5-e7",
-        "source_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
-        "quote": " seed does not have much influence on seeds. Beans, especially limas, are an exception. They should be planted with the \"eye\" (the hilum) facing down. The young root will emerge from the \"eye\" and thus will be heading in the right direction. Seeds sown \"eye\" down will produce a more uniform and productive stand. Weather conditions The seeds of most warm-season vegetable crops (beans, squash, cucumbers, etc.) will not germinate if soil temperatures are below 50° F. Lettuce, pea, radish, carrot, beet, spinach, and other cool-season crops will germinate if soil temperature is above 40° F. (High soil temperatures- over 85° F. are usually only a problem for spinach and lettuce seed.) Seed germination in low-temperature soil is spotty and slow. Determine germination requirements of the crops you grow. Use a soil thermometer or online soil temperature map to check soil temperatures prior to pla"
+        "id": "d0-e10",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+        "quote": " 80% of what the best navy bean would yield for your location, you might think the logical choice is the navy bean. Then you might find out that the black bean was worth twice the price of navy beans, was less likely to discolor during harvest, and was easier to sell – clearly, your choice would change. Seed companies that sell dry bean varieties may be able to provide some ideas on market outlets. You can also contact the Jefferson Institute for additional information on market classes and available varieties (573-449-3518). Planting In Missouri, dry beans can be planted between mid-May and mid-June. Planting in May will generally provide higher yields than planting in June. Planting depth should be 1 to 2 inches. Bush-type dry bean varieties are best planted in 15 inch rows or drilled in narrow rows. Growing them in 30 inch or wider rows does allow cultivation for weed control, but at "
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "برای لوبیای قرمز کلیه‌ای خشک (Kidney Beans)، نرخ کاشت در Iowa 100 پوند در acre برای ردیف پهن و 120 پوند در acre برای کاشت خطی گزارش شده است.",
+        "conditions": "Iowa, USA; محصول: لوبیای خشک light red kidney market class; واحد: lbs/acre; محصول: دانه‌ی خشک Phaseolus vulgaris",
+        "evidence_id": "d0-e0",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e0",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+        "quote": "[table row] Black Beans | Wide Rows: 50 [table row] Black Beans | Drilled: 60 [table row] Pinto Beans | Wide Rows: 60 [table row] Pinto Beans | Drilled: 90-100 [table row] Navy Beans | Wide Rows: 50 [table row] Navy Beans | Drilled: 60 [table row] Kidney Beans | Wide Rows: 100 [table row] Kidney Beans | Drilled: 120 [table row] Pink Beans | Wide Rows: 55 [table row] Pink Beans | Drilled: 65 Dry Edible Bean | Iowa State University Extension and Outreach Alternative Agriculture Skip to main content Dry Edible Bean Overview Image Dry edible beans, or field beans, come in a wide variety of market classes, including kidney bean, navy bean, pinto bean and black bean. These beans, although differing in seed size and coloring, are all just different types of a single species, Phaseolus vulgaris L. Originally domesticated in Central and South America over 7,000 years ago, dry beans moved their wa"
       }
     }
   ],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "منابع ارائه‌شده آستانه دمایی دقیق خاک اختصاصی برای تعیین زمان کاشت لوبیای قرمز خشک را ارائه نمی‌دهند. فقط معیارهای کیفی عمومی (دمای خاک زیر ۵۰ درجه فارنهایت نامناسب برای جوانه‌زنی لوبیا، کاشت در عمق یک تا دو اینچ، خطر پوسیدگی بذر در خاک سرد و مرطوب) و بازه‌های تاریخی کاشت منطقه‌ای (میزوری: اواسط مه تا اواسط ژوئن؛ شمال داکوتا: اواخر مه تا اوایل ژوئن) موجود است. هیچ آستانه دمایی کمی اندازه‌گیری‌شده مستقیماً برای لوبیای قرمز خشک در منبع ترویجی معتبر گزارش نشده است."
+  "declared_insufficiency": null
 }

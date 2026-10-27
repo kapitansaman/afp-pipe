@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-681d9e957593",
+  "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-681d9e957593",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "70783178884fff9c88d59de89110f54d82431006fbb3873f747b39f97b75645b",
+    "topic_files": {
+      "family-context/40298864446.json": "c14fbd82fa8efb45189114f1de49bc0833add59036ed3fe10cda0ffda53b7688",
+      "family-context/40522647019.json": "b83bb9247786c30f66ba2bfc034670bd03072070acbb078e2dbdb117b5ecb86d",
+      "family-context/40525360938.json": "b83bb9247786c30f66ba2bfc034670bd03072070acbb078e2dbdb117b5ecb86d",
+      "family-context/40529029195.json": "b83bb9247786c30f66ba2bfc034670bd03072070acbb078e2dbdb117b5ecb86d",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "baf80740cd8c33c0ab6fc66102963605f3da1efede1607be658ccce5dd0e088b",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "a3215b180fddecad68c2deb239414e0593346bd61b15d7b9ed63d4cd94b5d9ec",
+      "lifecycle/research_extract/state.json": "741226b33a28385fdc0869e9254d628094ef6d8e0aca2cdf0641972c295b9ad6",
+      "lifecycle/research_sources/state.json": "a5e991b1324ae2091db02bcaa41c6869b965f41d02abc6cfc32f2ac043dea5e3",
+      "lifecycle/research_validate_saved/state.json": "f0bec3156776ddd0b69b0bc033fc016e0193dd0d66d89caeb38f7c7ae8866cdd",
+      "lifecycle-evidence/candidate-raw.json": "950dbcd0941a4556d1a0ff492c25008c4338c79f2f626af3206ee66f16b0ac84",
+      "lifecycle-evidence/existing-content.json": "7e9d49373f36f7ab9a3d10eb0f177161c9aba17ea57a3d4c3cc12294180fee8c",
+      "lifecycle-evidence/extraction-feedback.json": "d1e53465315b2d66b9502b364a7ae5e9dc5b6c2301307869927712db36dad638",
+      "lifecycle-evidence/source-discovery-report.json": "91cf82f99ab261d475366f6d73ab50a275de1b8aa2c7926d8a9115e6aa6ab8f6",
+      "lifecycle-evidence/source-fetch-report.json": "cba687a15c8a5e8850753855f455d863dc998a122c114cf17096881972afcd53",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3900088a5318a1255da8abcf0687c5064127afde853973cfc41a4734b62f9488",
+      "lifecycle-evidence/source-link-fetch-report.json": "22a8c530c57d729e92c1c1ecf57abc3ec5ec2c29d2838bd269ec5f02e10e7abc",
+      "lifecycle-evidence/sources.json": "42254ce6a339aba310f94a45edff93c3a959f7d527ab6f1db1da0eb1d416bf5d"
+    },
+    "legacy_research_sha256": "9475c4429fad884653ca9c6540102de1be91fd5a214dd23d3592e0f47891ec0b",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:17:24.791340+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

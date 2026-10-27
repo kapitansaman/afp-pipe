@@ -1,6 +1,6 @@
 {
   "topic_id": "agri-3ab6116ba6cf",
-  "candidate_sha256": "068e45dc1745aab87810db60280e60adb6163590f2f22a1446df7fd4ce8c0814",
+  "candidate_sha256": "36e987a695b2156096ec6d733ee6828e21f0ab3d217eb0da7838369f1d8fa484",
   "scientific_approval": false,
   "errors": [
     {
@@ -8,8 +8,8 @@
       "code": "every_number_requires_unit_and_scope_binding",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "میانگین عملکرد ذرت دانه‌ای در ایالت مینه‌سوتا در سال زراعی ۲۰۲۵ معادل ۲۰۱ بوگل در هر آکر ثبت شد.",
-        "conditions": "حاصل‌دستگاه زراعی مینه‌سوتا، ایالات متحده؛ پایه محصول خشک (dry grain corn)؛ میانگین کشوری-استانی گزارش شده توسط USDA.",
+        "claim": "عملکرد میانگین ذرت دانه‌ای در ایالت مینه‌سوتا آمریکا در سال زراعی ۲۰۲۵ معادل ۲۰۱ بوگل بر هر آکر گزارش شده است.",
+        "conditions": "حاصل‌دستگاه زراعی مینه‌سوتا، ایالات متحده آمریکا؛ پایه محصول ذرت خشک (dry grain corn)؛ میانگین استانی گزارش‌شده توسط USDA Crop Production Summary 2025.",
         "evidence_id": "d5-e12",
         "numeric_bindings": [
           {
@@ -28,18 +28,24 @@
     },
     {
       "fact_index": 1,
-      "code": "literal_measurement_unit_required",
+      "code": "numeric_units_not_in_literal_source",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "میزان بازده اقتصادی متوسط ذرت دانه‌ای در مینه‌سوتا حدود ۴ دلار به ازای هر بوگل بوده است.",
-        "conditions": "مینه‌سوتا، ایالات متحده؛ سال ۲۰۲۵؛ منظور قیمت مزرعه-بازار پایه بوگل ذرت خشک.",
+        "claim": "سطح زیرکشت ذرت دانه‌ای در ایالت مینه‌سوتا در سال زراعی ۲۰۲۵ حدود ۸٫۹ میلیون آکر و این ایالت رتبه چهارم تولید ذرت در ایالات متحده را دارد.",
+        "conditions": "ایالات متحده؛ ایالت مینه‌سوتا؛ گزارش USDA Crop Production Summary 2025؛ پایه محصول ذرت زراعی (field corn).",
         "evidence_id": "d5-e12",
         "numeric_bindings": [
           {
-            "value": "4",
-            "unit_quote": "$4 per bushel",
+            "value": "8.9",
+            "unit_quote": "8.9 million acres",
             "geographic_scope": "Minnesota, USA",
-            "product_scope": "dry grain corn"
+            "product_scope": "field corn"
+          },
+          {
+            "value": "4",
+            "unit_quote": "fourth",
+            "geographic_scope": "United States",
+            "product_scope": "field corn"
           }
         ]
       },
@@ -54,31 +60,8 @@
       "code": "every_number_requires_unit_and_scope_binding",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "مساحت کشت ذرت در مینه‌سوتا حدود ۸٫۹ میلیون آکر است و این ایالت رتبه چهارم تولید ذرت در آمریکا را دارد.",
-        "conditions": "ایالات متحده؛ مینه‌سوتا؛ گزارش USDAcrop year 2025؛ منظور ذرت بوته‌ای زراعی (field corn).",
-        "evidence_id": "d5-e12",
-        "numeric_bindings": [
-          {
-            "value": "8.9",
-            "unit_quote": "8.9 million acres",
-            "geographic_scope": "Minnesota, USA",
-            "product_scope": "field corn"
-          }
-        ]
-      },
-      "literal_evidence": {
-        "id": "d5-e12",
-        "source_url": "https://extension.umn.edu/agriculture/crop-production/corn",
-        "quote": "d water management, soil management and health, climate and weather, and pesticide safety. Plus sign (+) if content is closed, 'X' if content is open. Sources *Corn by-the-numbers from the USDA Crop Production Summary 2025 : 8.9 million acres in corn in Minnesota, based on the USDA-NIFA report for the 2025 crop year. This number has fluctuated between 8.2 and 8.9 million acres over 2023-2026. Minnesota consistently ranks fourth in the nation for corn production according to the USDA. Average yield in Minnesota in 2025, according to the USDA report, was 201 bushels per acre at an average return of $4 per bushel. There is a similar gross return per acre for corn silage compared with corn grain. 201 bushels/acre x 8,900,000 acres x $4/bushel = $7,155,600,000 Page survey © 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity ed"
-      }
-    },
-    {
-      "fact_index": 3,
-      "code": "every_number_requires_unit_and_scope_binding",
-      "rejected_fact": {
-        "kind": "source_observation",
-        "claim": "دامنه نوسان سطح کشت ذرت مینه‌سوتا بین ۸٫۲ تا ۸٫۹ میلیون آکر در دوره ۲۰۲۳ تا ۲۰۲۶ مشاهده شده است.",
-        "conditions": "مینه‌سوتا؛ گزارش USDA؛ پایه عددی سطح زیرکشت، نه عملکرد.",
+        "claim": "سطح زیرکشت ذرت در مینه‌سوتا در دوره ۲۰۲۳ تا ۲۰۲۶ بین ۸٫۲ تا ۸٫۹ میلیون آکر نوسان داشته است.",
+        "conditions": "مینه‌سوتا، ایالات متحده؛ بازه سال‌های زراعی ۲۰۲۳ تا ۲۰۲۶؛ گزارش USDA-NIFA.",
         "evidence_id": "d5-e12",
         "numeric_bindings": [
           {

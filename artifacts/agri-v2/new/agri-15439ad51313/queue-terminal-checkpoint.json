@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-15439ad51313",
+  "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-15439ad51313",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "scoped_four_to_twelve_facts_required",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "684a0ae7f97fc5a8a91db53336fe494a6469ecd20a30bb59a1954a57c4938b34",
+    "topic_files": {
+      "family-context/40298864446.json": "b704a05b46151dd3529735647f755ddeae059ae3bf260219df90e557277c2bc7",
+      "family-context/40522647019.json": "de380c6460360cad215002c718f5e9caa0246d3d95786298efbbff8eed1c0666",
+      "family-context/40525360938.json": "de380c6460360cad215002c718f5e9caa0246d3d95786298efbbff8eed1c0666",
+      "family-context/40529029195.json": "de380c6460360cad215002c718f5e9caa0246d3d95786298efbbff8eed1c0666",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "89158e8a4d6b9ff632d77d6cb2e950a2bb240307bfa584dac84f92b09994e996",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "8c87f6bd757dc9e0b4c1978a8bc044f6c16b9237f3d527de10201ba85763eecc",
+      "lifecycle/research_extract/state.json": "3d7cf05e0d31ede206d21560dadf6a4eab48ffb7f80aa23001313540fe1495c5",
+      "lifecycle/research_sources/state.json": "2e801ff2ae0ccc0184c259ac7a74922727ad62282013af21f2650c08781d544c",
+      "lifecycle/research_validate_saved/state.json": "1b407bdb203ba61ce32c1984de3d11d1bd6528a766c4c3826a9c7cf8b8d27cc5",
+      "lifecycle-evidence/candidate-raw.json": "a3ea5610d6035ffcb184813bfd55a79108a8d1f3b10e89ec29c030afe77372c3",
+      "lifecycle-evidence/existing-content.json": "b7c04971d6ceac700fa7012fb4448488faee5631191f6567e4305a630d6432a9",
+      "lifecycle-evidence/extraction-feedback.json": "9ce0faa531aa0a186338abb74df1a9c2e179cb8d3d80090e7a9f6ce2299111e5",
+      "lifecycle-evidence/source-discovery-report.json": "b75c37448387b75db4dcf9cd0afd31528aa2c21c7a9f22fb745318cf83c92d82",
+      "lifecycle-evidence/source-fetch-report.json": "e2104d7454ea7abb33f7c4e0f91c59a562e53024bbe5fdd980b5a649f5e3cfaa",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3900088a5318a1255da8abcf0687c5064127afde853973cfc41a4734b62f9488",
+      "lifecycle-evidence/source-link-fetch-report.json": "9fb528041d3e38056c7c3a37c583ec866b322355df94ab60e2489f81f53b0644",
+      "lifecycle-evidence/sources.json": "96db17fd2d15e8075f7848e237148cbffc83b2af5e3dd0c902414719846817f0"
+    },
+    "legacy_research_sha256": "dff71e3bd009435eb18b4b42cf695abe5e85ef3e1e20b6df86ea41ccfe5a2eb4",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:17:44.349445+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

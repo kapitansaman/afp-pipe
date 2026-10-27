@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-1f58a0e82783",
+  "title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-1f58a0e82783",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "adf8ee3acee25f62f8332ff1bb8348a9f4161fa32dda060953594b6ed8f9372a",
+    "topic_files": {
+      "family-context/40298864446.json": "ea7d54fe80b378e092c3f0d5fb04e091e41d05f6402ae69374a36c59cd983e95",
+      "family-context/40522647019.json": "b29eef1587f4fb694aa975f2d41e9a6c4a917ff5e4948827fab4e778d837bae6",
+      "family-context/40525360938.json": "b29eef1587f4fb694aa975f2d41e9a6c4a917ff5e4948827fab4e778d837bae6",
+      "family-context/40529029195.json": "b29eef1587f4fb694aa975f2d41e9a6c4a917ff5e4948827fab4e778d837bae6",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "89897cc2b844412407f65f4cdd0d43ae7f912e52fab8e2c700b7ad80ee46af0b",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "ad491f8f4ff6c94e656fa8b46b62caf68ab62b0f95ec0bb6e55428460df41ebc",
+      "lifecycle/research_extract/state.json": "8131492260a5ef98f22d854478206b323feaa6d67c508e070a0728f332310e79",
+      "lifecycle/research_sources/state.json": "b657074af1601b01ded4aabcb2d42403d9b7d87ca0a761d53dea935893ab3cc8",
+      "lifecycle/research_validate_saved/state.json": "8def17b492f7d9e3f1ce36a74cc240792371a4462a958bec49b0340e08ed2ece",
+      "lifecycle-evidence/candidate-raw.json": "e342dbc291e5be1463bd1bc35a70457950c687611bcd9f34a621f42de4b12fa4",
+      "lifecycle-evidence/existing-content.json": "c691761adc7492737975bf44e719db6899daeb3eccaa70c8a71797f2be2f5754",
+      "lifecycle-evidence/extraction-feedback.json": "decc7ba00a8de34412297af59444243beca575d81c2d318d7d074476f81b1ca7",
+      "lifecycle-evidence/source-discovery-report.json": "00e05a41d69ffe70e259d78f24dd1ab695c60eed3000a38f40b622c04e98c230",
+      "lifecycle-evidence/source-fetch-report.json": "d11b36ca467c8fdf4e5416808cb14fc680a372c74aac032705b9b63a4fef2fa6",
+      "lifecycle-evidence/source-link-fetch-report.json": "5ae56215faad76fce870ffc7931df9b715b64ececc15196f483351714548b06e",
+      "lifecycle-evidence/sources.json": "42d48b4eae2c588f5b1c491949c1c66035ea8c9522fed5594acb081176284785"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:17:28.704283+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

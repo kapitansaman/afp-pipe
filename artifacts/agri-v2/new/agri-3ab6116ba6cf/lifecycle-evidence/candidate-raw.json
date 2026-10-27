@@ -2,19 +2,19 @@
   "topic_id": "agri-3ab6116ba6cf",
   "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "ذرت دانه‌ای (ذرت بوته‌ای برای محصول خشک)",
-  "slug": "grain-corn-yield-per-hectare",
+  "product_definition": "ذرت دانه‌ای (گندم ذرت خشک‌شده)",
+  "slug": "miqdar-bardasht-zort-daneh-i",
   "outline": [
     "تعریف محصول و دامنه عملکرد",
-    "مشاهدات مستند عملکرد ذرت دانه‌ای",
+    "مشاهدات مستند عملکرد",
     "عوامل مستند تغییر عملکرد",
     "کاربرد و محدودیت نتایج"
   ],
   "facts": [
     {
       "kind": "source_observation",
-      "claim": "میانگین عملکرد ذرت دانه‌ای در ایالت مینه‌سوتا در سال زراعی ۲۰۲۵ معادل ۲۰۱ بوگل در هر آکر ثبت شد.",
-      "conditions": "حاصل‌دستگاه زراعی مینه‌سوتا، ایالات متحده؛ پایه محصول خشک (dry grain corn)؛ میانگین کشوری-استانی گزارش شده توسط USDA.",
+      "claim": "عملکرد میانگین ذرت دانه‌ای در ایالت مینه‌سوتا آمریکا در سال زراعی ۲۰۲۵ معادل ۲۰۱ بوگل بر هر آکر گزارش شده است.",
+      "conditions": "حاصل‌دستگاه زراعی مینه‌سوتا، ایالات متحده آمریکا؛ پایه محصول ذرت خشک (dry grain corn)؛ میانگین استانی گزارش‌شده توسط USDA Crop Production Summary 2025.",
       "evidence_id": "d5-e12",
       "numeric_bindings": [
         {
@@ -27,22 +27,8 @@
     },
     {
       "kind": "source_observation",
-      "claim": "میزان بازده اقتصادی متوسط ذرت دانه‌ای در مینه‌سوتا حدود ۴ دلار به ازای هر بوگل بوده است.",
-      "conditions": "مینه‌سوتا، ایالات متحده؛ سال ۲۰۲۵؛ منظور قیمت مزرعه-بازار پایه بوگل ذرت خشک.",
-      "evidence_id": "d5-e12",
-      "numeric_bindings": [
-        {
-          "value": "4",
-          "unit_quote": "$4 per bushel",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry grain corn"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "مساحت کشت ذرت در مینه‌سوتا حدود ۸٫۹ میلیون آکر است و این ایالت رتبه چهارم تولید ذرت در آمریکا را دارد.",
-      "conditions": "ایالات متحده؛ مینه‌سوتا؛ گزارش USDAcrop year 2025؛ منظور ذرت بوته‌ای زراعی (field corn).",
+      "claim": "سطح زیرکشت ذرت دانه‌ای در ایالت مینه‌سوتا در سال زراعی ۲۰۲۵ حدود ۸٫۹ میلیون آکر و این ایالت رتبه چهارم تولید ذرت در ایالات متحده را دارد.",
+      "conditions": "ایالات متحده؛ ایالت مینه‌سوتا؛ گزارش USDA Crop Production Summary 2025؛ پایه محصول ذرت زراعی (field corn).",
       "evidence_id": "d5-e12",
       "numeric_bindings": [
         {
@@ -50,13 +36,19 @@
           "unit_quote": "8.9 million acres",
           "geographic_scope": "Minnesota, USA",
           "product_scope": "field corn"
+        },
+        {
+          "value": "4",
+          "unit_quote": "fourth",
+          "geographic_scope": "United States",
+          "product_scope": "field corn"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "دامنه نوسان سطح کشت ذرت مینه‌سوتا بین ۸٫۲ تا ۸٫۹ میلیون آکر در دوره ۲۰۲۳ تا ۲۰۲۶ مشاهده شده است.",
-      "conditions": "مینه‌سوتا؛ گزارش USDA؛ پایه عددی سطح زیرکشت، نه عملکرد.",
+      "claim": "سطح زیرکشت ذرت در مینه‌سوتا در دوره ۲۰۲۳ تا ۲۰۲۶ بین ۸٫۲ تا ۸٫۹ میلیون آکر نوسان داشته است.",
+      "conditions": "مینه‌سوتا، ایالات متحده؛ بازه سال‌های زراعی ۲۰۲۳ تا ۲۰۲۶؛ گزارش USDA-NIFA.",
       "evidence_id": "d5-e12",
       "numeric_bindings": [
         {
@@ -69,23 +61,9 @@
     },
     {
       "kind": "qualitative",
-      "claim": "انتخاب هیبرید مناسب ذرت و بهینه‌سازی زمان و نحوه کشت و برداشت از پایه‌های مدیریتی افزایش عملکرد و کاهش افت محصول هستند.",
-      "conditions": "ذرت دانه‌ای زراعی؛ بر اساس توصیه‌های گسترده Extension دانشگاه مینه‌سوتا برای hybrid selection و planting/harvest timing.",
-      "evidence_id": "d5-e1",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "مدیریت تغذیه نیتروژن ذرت از عوامل کلیدی تعیین‌کننده عملکرد واقعی دانه است.",
-      "conditions": "ذرت دانه‌ای؛ منابع دانشگاهی مینه‌سوتا بر nutrient management و ابزارهایی چون PSNT و nitrogen rate calculator تأکید دارند.",
-      "evidence_id": "d5-e2",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "تنش‌های آب و هوایی از جمله خشکی، گرمای شدید در زمان گرده‌افشانی و یخبندان زودهنگام پاییزی می‌توانند عملکرد دانه ذرت را کاهش دهند.",
-      "conditions": "ذرت دانه‌ای؛ بر اساس مطالعات Damage و weather stress منتشر شده توسط Extension مینه‌سوتا.",
-      "evidence_id": "d5-e7",
+      "claim": "عملکرد ذرت دانه‌ای تحت تأثیر مدیریت آب، سلامت خاک، شرایط اقلیمی و امنیت سم‌پاشی نوسان می‌یابد.",
+      "conditions": "مینه‌سوتا و مناطق زراعی مشابه ایالات متحده؛ عوامل موثر بر عملکرد در سیستم‌های ذرت دانه‌ای.",
+      "evidence_id": "d5-e11",
       "numeric_bindings": []
     }
   ]

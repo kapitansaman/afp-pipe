@@ -4,8 +4,15 @@
   "kind": "text",
   "slot": "AGNES_API_KEY78",
   "model": "agnes-2.5-flash",
-  "verified_at": "2026-10-26T09:23:46.945318+00:00",
+  "verified_at": "2026-10-27T15:17:44.266703+00:00",
   "verification": "actual_successful_parallel_response",
-  "family_id": "family-13",
-  "topic_id": "agri-dd97e1add9df"
+  "family_id": "family-20",
+  "topic_id": "agri-15439ad51313",
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+  "assigned_key_slots": [
+    "AGNES_API_KEY77",
+    "AGNES_API_KEY78",
+    "AGNES_API_KEY79",
+    "AGNES_API_KEY80"
+  ]
 }

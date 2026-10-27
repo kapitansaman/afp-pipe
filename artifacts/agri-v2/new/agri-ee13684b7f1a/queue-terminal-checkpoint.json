@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-ee13684b7f1a",
+  "title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-ee13684b7f1a",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "8804ae3611de2c3a0e5b11407cd35e19bd11b704150a589498a205e2675b086c",
+    "topic_files": {
+      "family-context/40298864446.json": "b7aa2f8bd380a38f3170463f58cb3ea9d9bd77b4bfdbfb8e92ce54dc870aeeab",
+      "family-context/40522647019.json": "d4ef05d2880eb9b628fddac42ccfcef5dfbb28abc6d5d1265a769c4fb62d0fcd",
+      "family-context/40525360938.json": "d4ef05d2880eb9b628fddac42ccfcef5dfbb28abc6d5d1265a769c4fb62d0fcd",
+      "family-context/40529029195.json": "d4ef05d2880eb9b628fddac42ccfcef5dfbb28abc6d5d1265a769c4fb62d0fcd",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "681299fe360631be266226c6aa6787d68087efc929a1806cea17fb67899f7e4d",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "d3340cb1f74b6eba93d497aed78a9356a33b066c809334049a9ecf73044af53a",
+      "lifecycle/research_extract/state.json": "84d4e489062cc299ed6c09ef3f55e8c093d652d7721b159abaa4d4b9ef574b46",
+      "lifecycle/research_sources/state.json": "42fbb4746674c3fc5d138720c55d95eebc43ae27b0c7020fb0509a7acc356551",
+      "lifecycle/research_validate_saved/state.json": "4280dff69fed9799361b7449df7597a8562b91fc51c293790e75f7162c286712",
+      "lifecycle-evidence/candidate-raw.json": "d50f50687cbcee1195efa1b13ccc3900b80410877ec54494c51cbfeb71a149c4",
+      "lifecycle-evidence/existing-content.json": "06ad0da834f85a3fc6a816848697018b50f8c99814313bafc2309aebd55cdef1",
+      "lifecycle-evidence/extraction-feedback.json": "d2de7bf9fc6f5502193ee2eb1ad81e12a5e59e7ac2fbef804d295f5a75154fa4",
+      "lifecycle-evidence/source-discovery-report.json": "d174a938e05b2325569066746e7364cb28ef31e429e0c99e546343dfe79fee67",
+      "lifecycle-evidence/source-fetch-report.json": "2471daa9424fb1f1a36d600e5e3c03d5c1b9485947cc8a2c2c13ff77afc8b092",
+      "lifecycle-evidence/sources.json": "020d2c473c14e331cfb21dca8e2c83a60c4f3968d4d18ea8616b746f25f43194"
+    },
+    "legacy_research_sha256": "2a02bcc933d6524e7d02ab782ec8edd58ff18fdca883b8a6b109000fce0bd16c",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:17:08.316302+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

@@ -1,80 +1,112 @@
 {
   "topic_id": "agri-934dd1366a8b",
-  "candidate_sha256": "10a781b169f6e652f1a1838fc4f4e79d3cd95fdc4a23707d30c8473f642f5ee3",
+  "candidate_sha256": "1a7760244394cc1092773e6447ceef12eff880655fe01f25052b6ef550475232",
   "scientific_approval": false,
   "errors": [
     {
       "fact_index": 0,
-      "code": "number_absent_from_literal_source",
+      "code": "unknown_scoped_evidence_id",
       "rejected_fact": {
         "kind": "qualitative",
-        "claim": "لوبیا چشم‌بلبلی یک حبوبات یک‌ساله گرمسیری است که به‌صورت دانه خشک یا غلاف سبز برداشت می‌شود.",
-        "conditions": "گونه: Vigna unguiculata؛ سامانه‌های کشت: آبی و خشک؛ محدوده جغرافیایی مشاهدات: ایالات متحده (مینه‌سوتا، ویسکانسین، تگزاس، کالیفرنیا)، سال‌های ۱۹۸۱-۱۹۸۵",
-        "evidence_id": "d0-e2",
+        "claim": "عملکرد دانه خشک و غلاف سبز لوبیا چشم‌بلبلی بسته به رقم، شرایط کشت (آبی و خشک‌دشتی)، منطقه و سال تجربه نوسان گسترده‌ای نشان می‌دهد.",
+        "conditions": "گونه: Vigna unguiculata؛ محصول هدف: دانه خشک و غلاف سبز؛ سامانه‌های مشاهده‌شده: آبی و خشک‌دشتی (dryland)؛ محدوده‌ی جغرافیایی: ایالات متحده (مینه‌سوتا و تگزاس)؛ مبدأ داده: مستندات دانشگاهی Extension",
+        "evidence_id": "d0-e2,d0-e27,d0-e28",
         "numeric_bindings": []
       },
-      "literal_evidence": {
-        "id": "d0-e2",
-        "source_url": "https://corn.agronomy.wisc.edu/Crops/Cowpea.aspx",
-        "quote": "y: Cowpea ( Vigna unguiculata L. Walp.), an annual legume, is also commonly referred to as southern pea, blackeye pea, crowder pea, lubia, niebe, coupe or frijole. Cowpea originated in Africa and is widely grown in Africa, Latin America, Southeast Asia and in the southern United States. It is chiefly used as a grain crop, for animal fodder, or as a vegetable. The history of cowpea dates to ancient West African cereal farming, 5 to 6 thousand years ago, where it was closely associated with the cultivation of sorghum and pearl millet. Wordwide cowpea production has increased dramatically in the last 25 years. United States production of dry cowpea has declined from 3/4 million acres to a few thousand over the same period. The blackeyed cowpea type is grown primarily in California and is marketed as California blackeyed peas. II. Uses: Cowpea seed is a nutritious component in the human diet"
-      }
+      "literal_evidence": null
     },
     {
       "fact_index": 1,
       "code": "numeric_units_not_in_literal_source",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "عملکرد بایومس خشک برخی ارقام در مینه‌سوتا بر حسب جمعیت بوته و سال متفاوت بود و بازه گسترده‌ای را نشان داد.",
-        "conditions": "محصول: بایومس خشک کل گیاه؛ منطقه: Becker و Waseca، مینه‌سوتا، ایالات متحده؛ سال‌ها: ۱۹۸۱ و ۱۹۸۲؛ تراکم: ۵۳ و ۱۰۶ هزار بوته در هر acre",
-        "evidence_id": "d0-e5",
+        "claim": "در آزمایش‌های مینه‌سوتا (Rosemont و Becker) دوره‌ی ۱۹۸۴-۱۹۸۵، عملکرد دانه خشک رقم 82E9 تحت آبیاری بین ۱۷۹۷ تا ۲۱۸۲ پوند در acre و تحت شرایط خشک‌دشتی بین ۱۳۵۲ تا ۱۷۲۵ پوند در acre بود.",
+        "conditions": "محصول: دانه خشک (dry seed)؛ منطقه: Rosemont و Becker، مینه‌سوتا، ایالات متحده؛ سال‌ها: ۱۹۸۴-۱۹۸۵；شرایط: آبی و Dryland；جدول منبع: Table 4",
+        "evidence_id": "d0-e30",
         "numeric_bindings": [
           {
-            "value": "1746",
-            "unit_quote": "(lb/acre) 1746",
-            "geographic_scope": "Becker و Waseca, Minnesota, United States",
-            "product_scope": "dry-matter yield (whole plant)"
+            "value": "1797",
+            "unit_quote": "Irrigated lb/acre 1797",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — irrigated"
           },
           {
-            "value": "3775",
-            "unit_quote": "3775 lb/acre",
-            "geographic_scope": "Becker و Waseca, Minnesota, United States",
-            "product_scope": "dry-matter yield (whole plant)"
+            "value": "2182",
+            "unit_quote": "lb/acre 2182",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — irrigated"
+          },
+          {
+            "value": "1570",
+            "unit_quote": "Dryland lb/acre 1570",
+            "geographic_scope": "Rosemont, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland"
+          },
+          {
+            "value": "1352",
+            "unit_quote": "1352",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland"
+          },
+          {
+            "value": "1725",
+            "unit_quote": "1725",
+            "geographic_scope": "Rosemont, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland average"
           }
         ]
       },
       "literal_evidence": {
-        "id": "d0-e5",
+        "id": "d0-e30",
         "source_url": "https://corn.agronomy.wisc.edu/Crops/Cowpea.aspx",
-        "quote": "anure crop, a nitrogen fixing crop, or for erosion control. Similar to other grain legumes, cowpea contains trypsin inhibitors which limit protein utilization. Table 2. Dry-matter yields of cowpea cultivars and breeding lines grown under two plant populations in 1981 and 1982 at Becker and Waseca, Minnesota. 1 Plant population (1000 plants/acre) 53 106 Cultivar 1981 1982 1981 1982 (lb/acre) Colossus 3000 2580 2968 2525 MN139 1746 -- 2402 -- Au704 2475 -- 3659 -- Calif. Blackeye #5 2745 2483 3775 3312 Alabama Giant Blackeye 2215 -- 3165 -- Freezegreen 1753 -- 1996 -- MN150 -- 1598 -- 2050 LSD 5% 442 NS 442 NS 1 From Marsh, D.B., L. Waters, and G.C. Martin, HortScience 22(2):241-243. III. Growth Habits: Cowpea is a warm-season, annual, herbaceous legume. Plant types are often categorized as erect, semi-erect, prostrate (trailing), or climbing. There is much variability within the species. "
+        "quote": "reen cowpea market will require substantially greater labor and management inputs. Prospective growers need to investigate potential markets prior to planting. The distance to market, availability of labor and short term storage along with vagaries of the market and of the grower's individual situation should be considered. Table 4. Seed yield and characteristics of four cowpea selections compared with navybean, soybean, and adzuki bean at Rosemont and Becker, MN. 1984-85. Seed yield Irrigated Dryland Days to maturity Height Lodging Leaf retention Wt 100 seed Becker 1984 Becker 1985 Becker 1985 Rosemont 1985 Average of 4 trials In. (1-9%) (%) (g) lb/acre 82E9 117 17 1.5 28 17.9 1797 2182 1570 1352 1725 MN 1 110 16 2.8 16 10.8 2077 1609 1107 1392 1546 MN 7 112 16 2.8 16 10.7 2163 1791 1148 1673 1694 MN 9 110 15 1.8 18 11.4 2054 1685 1056 1553 1587 Fleetwood navy 105 -- -- 57 19.1 2907 364"
       }
     },
     {
       "fact_index": 2,
-      "code": "number_absent_from_literal_source",
+      "code": "numeric_units_not_in_literal_source",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "عملکرد دانه خشک ارقام MN 13 و MN 150 در مینه‌سوتا پس از ۶۰ روز رشد، تقریباً معادل ۱.۳ تا ۱.۸ تن در acre گزارش شد.",
-        "conditions": "محصول: دانه خشک؛ منطقه: Becker, Minnesota, United States؛ سال: ۱۹۸۳؛ نوع کشت: آبی؛ خاک: sandy loam",
-        "evidence_id": "d0-e14",
+        "claim": "عملکرد دانه خشک رقم MN 1 در همان آزمایش‌های مینه‌سوتا تحت آبیاری بین ۱۶۰۹ تا ۲۰۷۷ پوند در acre و تحت خشک‌دشتی بین ۱۱۰۷ تا ۱۵۴۶ پوند در acre مشاهده شد.",
+        "conditions": "محصول: دانه خشک؛ منطقه: Rosemont و Becker، مینه‌سوتا، ایالات متحده؛ سال‌ها: ۱۹۸۴-۱۹۸۵；شرایط: آبی و Dryland",
+        "evidence_id": "d0-e30",
         "numeric_bindings": [
           {
-            "value": "1.3",
-            "unit_quote": "1.3 to 1.8 ton/acre",
+            "value": "1609",
+            "unit_quote": "Irrigated lb/acre 1609",
             "geographic_scope": "Becker, Minnesota, United States",
-            "product_scope": "seed yield (dry)"
+            "product_scope": "seed yield (dry) — irrigated"
           },
           {
-            "value": "1.8",
-            "unit_quote": "1.3 to 1.8 ton/acre",
+            "value": "2077",
+            "unit_quote": "2077 lb/acre",
             "geographic_scope": "Becker, Minnesota, United States",
-            "product_scope": "seed yield (dry)"
+            "product_scope": "seed yield (dry) — irrigated"
+          },
+          {
+            "value": "1107",
+            "unit_quote": "Dryland lb/acre 1107",
+            "geographic_scope": "Rosemont, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland"
+          },
+          {
+            "value": "1392",
+            "unit_quote": "1392",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland"
+          },
+          {
+            "value": "1546",
+            "unit_quote": "1546",
+            "geographic_scope": "Rosemont, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland average"
           }
         ]
       },
       "literal_evidence": {
-        "id": "d0-e14",
+        "id": "d0-e30",
         "source_url": "https://corn.agronomy.wisc.edu/Crops/Cowpea.aspx",
-        "quote": " at least 27 lb P/acre and 40 lb K/acre are recommended on soils of medium fertility but individual soils will vary in fertilizer requirements. Band fertilizer 3 to 4 in. deep and 2 to 3 in. away from the seed, or broadcast and disc in all fertilizer, including nitrogen, before planting. E. Variety Selection: The International Institute for Tropical Agriculture (IITA) in Ibadan, Nigeria is the center for world-wide collection and testing of cowpea germplasm. The Institute has developed high yielding, short season, multiple disease-resistant varieties that are ready for harvest in 60 days. Several of the U.S. State Agricultural Experiment Stations conduct cowpea variety development programs. Cowpea researchers at the University of Minnesota have released two extra-early-maturing varieties, MN 13 and MN 150 (Table 3). Crude protein and digestibility of the whole plant are reported to be si"
+        "quote": "reen cowpea market will require substantially greater labor and management inputs. Prospective growers need to investigate potential markets prior to planting. The distance to market, availability of labor and short term storage along with vagaries of the market and of the grower's individual situation should be considered. Table 4. Seed yield and characteristics of four cowpea selections compared with navybean, soybean, and adzuki bean at Rosemont and Becker, MN. 1984-85. Seed yield Irrigated Dryland Days to maturity Height Lodging Leaf retention Wt 100 seed Becker 1984 Becker 1985 Becker 1985 Rosemont 1985 Average of 4 trials In. (1-9%) (%) (g) lb/acre 82E9 117 17 1.5 28 17.9 1797 2182 1570 1352 1725 MN 1 110 16 2.8 16 10.8 2077 1609 1107 1392 1546 MN 7 112 16 2.8 16 10.7 2163 1791 1148 1673 1694 MN 9 110 15 1.8 18 11.4 2054 1685 1056 1553 1587 Fleetwood navy 105 -- -- 57 19.1 2907 364"
       }
     },
     {
@@ -82,33 +114,39 @@
       "code": "numeric_units_not_in_literal_source",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "عملکرد دانه خشک چهار رقم انتخابی در آزمایش‌های مینه‌سوتا تحت شرایط آبی بین ۱۵۷۰ تا ۲۱۸۲ پوند در acre و تحت شرایط خشک‌دشتی بین ۱۰۵۶ تا ۱۷۹۱ پوند در acre متغیر بود.",
-        "conditions": "محصول: دانه خشک; منطقه: Rosemont و Becker, Minnesota, United States; سال‌ها: ۱۹۸۴-۱۹۸۵; شرایط: آبی و dryland",
+        "claim": "عملکرد دانه خشک رقم MN 7 در مینه‌سوتا تحت آبیاری بین ۱۷۹۱ تا ۲۱۶۳ پوند در acre و تحت خشک‌دشتی بین ۱۱۴۸ تا ۱۶۹۴ پوند در acre گزارش شد.",
+        "conditions": "محصول: دانه خشک؛ منطقه: Rosemont و Becker، مینه‌سوتا، ایالات متحده؛ سال‌ها: ۱۹۸۴-۱۹۸۵",
         "evidence_id": "d0-e30",
         "numeric_bindings": [
           {
-            "value": "1570",
-            "unit_quote": "1570 lb/acre",
-            "geographic_scope": "Rosemont و Becker, Minnesota, United States",
-            "product_scope": "seed yield (dry)"
-          },
-          {
-            "value": "2182",
-            "unit_quote": "2182 lb/acre",
-            "geographic_scope": "Rosemont و Becker, Minnesota, United States",
-            "product_scope": "seed yield (dry)"
-          },
-          {
-            "value": "1056",
-            "unit_quote": "1056 lb/acre",
-            "geographic_scope": "Rosemont و Becker, Minnesota, United States",
-            "product_scope": "seed yield (dry) — dryland"
-          },
-          {
             "value": "1791",
-            "unit_quote": "1791 lb/acre",
-            "geographic_scope": "Rosemont و Becker, Minnesota, United States",
+            "unit_quote": "Irrigated lb/acre 1791",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — irrigated"
+          },
+          {
+            "value": "2163",
+            "unit_quote": "2163 lb/acre",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — irrigated"
+          },
+          {
+            "value": "1148",
+            "unit_quote": "Dryland lb/acre 1148",
+            "geographic_scope": "Rosemont, Minnesota, United States",
             "product_scope": "seed yield (dry) — dryland"
+          },
+          {
+            "value": "1673",
+            "unit_quote": "1673",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland"
+          },
+          {
+            "value": "1694",
+            "unit_quote": "1694",
+            "geographic_scope": "Rosemont, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland average"
           }
         ]
       },
@@ -120,11 +158,58 @@
     },
     {
       "fact_index": 4,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "عملکرد دانه خشک رقم MN 9 در مینه‌سوتا تحت آبیاری بین ۱۶۸۵ تا ۲۰۵۴ پوند در acre و تحت خشک‌دشتی بین ۱۰۵۶ تا ۱۵۸۷ پوند در acre بود.",
+        "conditions": "محصول: دانه خشک؛ منطقه: Rosemont و Becker، مینه‌سوتا، ایالات متحده؛ سال‌ها: ۱۹۸۴-۱۹۸۵",
+        "evidence_id": "d0-e30",
+        "numeric_bindings": [
+          {
+            "value": "1685",
+            "unit_quote": "Irrigated lb/acre 1685",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — irrigated"
+          },
+          {
+            "value": "2054",
+            "unit_quote": "2054 lb/acre",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — irrigated"
+          },
+          {
+            "value": "1056",
+            "unit_quote": "Dryland lb/acre 1056",
+            "geographic_scope": "Rosemont, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland"
+          },
+          {
+            "value": "1553",
+            "unit_quote": "1553",
+            "geographic_scope": "Becker, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland"
+          },
+          {
+            "value": "1587",
+            "unit_quote": "1587",
+            "geographic_scope": "Rosemont, Minnesota, United States",
+            "product_scope": "seed yield (dry) — dryland average"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e30",
+        "source_url": "https://corn.agronomy.wisc.edu/Crops/Cowpea.aspx",
+        "quote": "reen cowpea market will require substantially greater labor and management inputs. Prospective growers need to investigate potential markets prior to planting. The distance to market, availability of labor and short term storage along with vagaries of the market and of the grower's individual situation should be considered. Table 4. Seed yield and characteristics of four cowpea selections compared with navybean, soybean, and adzuki bean at Rosemont and Becker, MN. 1984-85. Seed yield Irrigated Dryland Days to maturity Height Lodging Leaf retention Wt 100 seed Becker 1984 Becker 1985 Becker 1985 Rosemont 1985 Average of 4 trials In. (1-9%) (%) (g) lb/acre 82E9 117 17 1.5 28 17.9 1797 2182 1570 1352 1725 MN 1 110 16 2.8 16 10.8 2077 1609 1107 1392 1546 MN 7 112 16 2.8 16 10.7 2163 1791 1148 1673 1694 MN 9 110 15 1.8 18 11.4 2054 1685 1056 1553 1587 Fleetwood navy 105 -- -- 57 19.1 2907 364"
+      }
+    },
+    {
+      "fact_index": 5,
       "code": "every_number_requires_unit_and_scope_binding",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "متوسط عملکرد دانه خشک لوبیا چشم‌بلبلی در تگزاس در سال‌های ۱۹۷۸ و ۱۹۷۹ به‌ترتیب بین ۵۷۰ تا ۱۰۰۰ پوند در acre متغیر بود.",
-        "conditions": "محصول: دانه خشک; منطقه: تگزاس, United States; سال‌ها: ۱۹۷۸ و ۱۹۷۹",
+        "claim": "در تگزاس، میانگین عملکرد دانه خشک لوبیا چشم‌بلبلی در سال‌های ۱۹۷۸ و ۱۹۷۹ بین ۵۷۰ تا ۱۰۰۰ پوند در acre و عملکرد غلاف سبز بین ۶۲۵ تا ۱۴۰۰ پوند در acre با نوسان قابل‌توجه گزارش شد.",
+        "conditions": "محصول: دانه خشک و غلاف سبز (green cowpeas)؛ منطقه: تگزاس، ایالات متحده؛ سال‌ها: ۱۹۷۸ و ۱۹۷۹",
         "evidence_id": "d0-e28",
         "numeric_bindings": [
           {
@@ -138,24 +223,7 @@
             "unit_quote": "570 and 1000 lb/acre for dry seed",
             "geographic_scope": "Texas, United States",
             "product_scope": "seed yield (dry)"
-          }
-        ]
-      },
-      "literal_evidence": {
-        "id": "d0-e28",
-        "source_url": "https://corn.agronomy.wisc.edu/Crops/Cowpea.aspx",
-        "quote": "nd and irrigated conditions for Minnesota compared with other crops is indicated in Table 4. These data indicate that other grain legumes such as soybean and common dry edible bean may outyield cowpea (for dry seed yield) under many conditions in the Upper Midwest, therefore the price of cowpea should be greater to compete in these crops. However, cowpea may be valued as an annual forage crop in these regions. Average yield data for cowpea grown in Texas, 1978 and 1979 respectively, showed significant variability, ranging from 625 and 1400 lb/acre for green cowpeas and 570 and 1000 lb/acre for dry seed. Grading standards for mature-green cowpeas require that pods of similar varieties should be fairly well formed and filled, neither overmature nor excessively young. Pods should be free from decay, worm holes, scars, discoloration, wilting, dirt, or other material. U.S. No.1 grade requires"
-      }
-    },
-    {
-      "fact_index": 5,
-      "code": "every_number_requires_unit_and_scope_binding",
-      "rejected_fact": {
-        "kind": "source_observation",
-        "claim": "متوسط عملکرد غلاف سبز در تگزاس در سال‌های ۱۹۷۸ و ۱۹۷۹ بین ۶۲۵ تا ۱۴۰۰ پوند در acre گزارش شده است.",
-        "conditions": "محصول: غلاف سبز (green cowpea); منطقه: Texas, United States; سال‌ها: ۱۹۷۸ و ۱۹۷۹",
-        "evidence_id": "d0-e28",
-        "numeric_bindings": [
+          },
           {
             "value": "625",
             "unit_quote": "625 and 1400 lb/acre for green cowpeas",
@@ -177,6 +245,6 @@
       }
     }
   ],
-  "candidate_error": "number_absent_from_literal_source",
+  "candidate_error": "unknown_scoped_evidence_id",
   "declared_insufficiency": null
 }

@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-934dd1366a8b",
+  "title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-934dd1366a8b",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "scoped_four_to_twelve_facts_required",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "3c4e03a1b2172e6b45ef569501b720f7537614468d558d5fdc3744441c22c786",
+    "topic_files": {
+      "family-context/40298864446.json": "dcfb7f1ed4e39aab278c311bf70560dc7d01f1e5ab5f594d7b257fe6d64840c6",
+      "family-context/40522647019.json": "5616b99f02f0705eec70859c6be5f93cbf9fbe7ac92792921d4d371fc74d1cc5",
+      "family-context/40525360938.json": "5616b99f02f0705eec70859c6be5f93cbf9fbe7ac92792921d4d371fc74d1cc5",
+      "family-context/40529029195.json": "5616b99f02f0705eec70859c6be5f93cbf9fbe7ac92792921d4d371fc74d1cc5",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "5e6e8def89e8a93330b4946db94536df7c91dedfb4443cbebcc1f10297df86b9",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "2a6af5dfde294e668546b0645643e4ce107cc1e24dfcdb8c4ed99794105f824d",
+      "lifecycle/research_extract/state.json": "0735312589d541cf72e77fcf17ab6001a4d6175c9d3e12a1f175bc2547c530c7",
+      "lifecycle/research_sources/state.json": "9c41966495af08a8be08ee4c5857e47feaafe6e536044aec5b0826988fad0da9",
+      "lifecycle/research_validate_saved/state.json": "594ef88d4e14d4dde3598b92efa39603bf63851453f3cb52010f6e6918872d7b",
+      "lifecycle-evidence/candidate-raw.json": "b20e3a94a8e99cb8ada844dd98754871e1b7d186de3842cdd89a86f7a2a51cc6",
+      "lifecycle-evidence/existing-content.json": "68dca51343ea0536b2d79693bf50fa84cae076412697e291b54ae668b932e1bd",
+      "lifecycle-evidence/extraction-feedback.json": "56dc4dbc87f41b71a0d552517bcb2c0d2f401e2b53145047b79497cefdbbcedd",
+      "lifecycle-evidence/source-discovery-report.json": "d028ea8e7a4f44e8336c879d4dd7e84d940e53f3a670c87e4dcfb5593cd8bcab",
+      "lifecycle-evidence/source-fetch-report.json": "c439f82188f6bc6f2f50e421cf521f0c18a840e7bffd349be2b8111527981db1",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3900088a5318a1255da8abcf0687c5064127afde853973cfc41a4734b62f9488",
+      "lifecycle-evidence/sources.json": "f5ccc7ee458cb6df8c820b231e48dd90c16d47ddaf1f5ccda88cbfe1a5b9951a"
+    },
+    "legacy_research_sha256": "95e8baf496eb6283ef320c3ad2058a6cb17985afd315d7eee5ca4711e0052b94",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:18:17.692385+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

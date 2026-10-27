@@ -1,0 +1,75 @@
+{
+  "topic_id": "agri-f5f2d5ed4de0",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی (dry common bean, Phaseolus vulgaris L., pinto market class) — محصول زنده مزرعه‌ای خشک‌شونده",
+  "slug": "irrigation-duration-pinto-dry-bean-drip",
+  "outline": [
+    "ورودی‌های اندازه‌گیری‌شده: دبی واقعی نوار تیپ و نیاز آبی مرحله‌ای",
+    "منطق محاسبه مدت هر نوبت با واحد",
+    "پایش مزرعه و خطوط کلی تصمیم‌گیری"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "لوبیا چیتی در خاک‌های با حفظ رطوبت بهتر ممکن است به‌جز در فصل خشک نیاز آبی نداشته باشد؛ در خاک‌های شنی آبیاری مکرر لازم است.",
+      "conditions": "مرحله رویشی لوبیا چیتی (Phaseolus vulgaris، کلاس بازار pinto) در اقلیم شمال‌غرب ایالات متحده (Minnesota)؛ مقایسه خاک نگهدار رطوبت در برابر خاک شنی",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "یک اینچ آب باران خاک شنی را تا عمق ده اینچ و خاک رس سنگین را تا عمق شش اینچ مرطوب می‌کند؛ برای سنجش عمق نفوذ از بیلچه دستی استفاده شود.",
+      "conditions": "آبیاری کمکی لوبیا در شرایط باغ home garden در ایالت Minnesota آمریکا؛ محصول زنده (living common bean crop)، نه غلّه خشک نگهداری‌شده",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "1",
+          "unit_quote": "One inch of rainfall per week",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "living common bean crop"
+        },
+        {
+          "value": "10",
+          "unit_quote": "wet a sandy soil to a depth of ten inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "living common bean crop"
+        },
+        {
+          "value": "6",
+          "unit_quote": "a heavy clay soil to six inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "living common bean crop"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "اگر عمق خیس‌شدگی فقط یک یا دو اینچ باشد، جریان آب باید ادامه یابد تا به عمق مطلوب برسد.",
+      "conditions": "ارزیابی میدان‌ی مزرعه‌ای با ابزار ساده (bulache/trowel) در باغ‌های common bean مینه‌سوتا؛ صرفاً معیار کیفی برای تعیین تداوم آبیاری بدون ارائه زمان ثابت",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "1",
+          "unit_quote": "If it is only an inch or two",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "living common bean crop"
+        },
+        {
+          "value": "2",
+          "unit_quote": "If it is only an inch or two",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "living common bean crop"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "یک نوبت سنسور رطوبت خاک به‌صورت عمومی در منطقه ریشه و در تماس مستقیم با خاک قرار گیرد؛ عمق فعال ریشه در مزرعه تعیین شود.",
+      "conditions": "روش قراردهی سنسورfield soil-moisture sensor در مزارع عمومی Minn. Extension — روش کلی، نه ضریب آستانه اختصاصی پینتو؛ محصول زنده؛ مکانیسم فقط راهبری تصمیم، نه محاسبه مدت نوبت با دبی",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "منابع موجود فاقد معیار محاسبه مدت هر نوبت آبیاری لوبیا چیتی با نوار تیپ بر مبنای دبی واقعی و نیاز آب هستند. محتوای دریافت‌شده شامل یک اصل کلی آبیاری (یک اینچ آب در هفته) و معیار کیفی ارزیابی عمق خیس‌شدگی خاک است، اما هیچ‌یک از بخش‌های عنوان یعنی محاسبه مدت نوبت از روی دبی اندازه‌گیری‌شده نوار تیپ، منطق واحد زمان/حجم، پایش شبکه یا خطاهای رایج آبیاری قطره‌ای پوشش داده نشده است."
+}

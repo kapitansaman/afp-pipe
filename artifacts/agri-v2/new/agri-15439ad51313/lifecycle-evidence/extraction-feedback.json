@@ -1,110 +1,38 @@
 {
   "topic_id": "agri-15439ad51313",
-  "candidate_sha256": "c511686a03c02bdcc9a79e83994b7d9e308850a747bea2c6cc0b805efc13446c",
+  "candidate_sha256": "f4d1bd376767eae5d45bbae83baed8266887fdec49c498f81a84ff6b91c7177f",
   "scientific_approval": false,
   "errors": [
     {
-      "fact_index": 0,
-      "code": "numeric_units_not_in_literal_source",
-      "rejected_fact": {
-        "kind": "source_observation",
-        "claim": "عملکرد بادام‌زمینی بر پایه پوست خشک در مینسوتا تحت آبیاری شن ۱۸۷۰ پوند در هر آکر ثبت شد.",
-        "conditions": "آزمایش مینسوتا، خاک شن آبیاری‌شده، فصل ۱۹۸۱-۱۹۸۲",
-        "evidence_id": "d0-e19",
-        "numeric_bindings": [
-          {
-            "value": "1870",
-            "unit_quote": "1870 lb Pods/acre",
-            "geographic_scope": "Minnesota, USA",
-            "product_scope": "dry peanut pods"
-          }
-        ]
-      },
-      "literal_evidence": {
-        "id": "d0-e19",
-        "source_url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
-        "quote": "ds per acre produced highest yields on dryland sand where row spacing had no effect. A seeding rate of 90,000 seeds per acre is recommended in Minnesota and Wisconsin with adjustments for germination below 90%, soil texture, and seed price. Seed should be planted 1 to 2 in. deep since at greater depths, slower and poorer emergence results. However, planting 2 to 4 in. deep to reach moisture in sandy soil is successful in late May or early June in Minnesota. Time to emergence varies with seed quality, and soil temperature, moisture, and texture. It is typical for peanut to have a slower emergence than soybean in Minnesota. Table 2. Effects of different row spacings and soil types on yields of peanut in Minnesota, 1981-1982 1 . Row Spacing (in.) Soil Type 18 30 ---------- lb Pods/acre ---------- Silt Loam 1580 1370 Dryland Sand 1210 1250 Irrigated Sand 1870 1680 1 Data from R.G. Robinson ("
-      }
-    },
-    {
       "fact_index": 1,
-      "code": "numeric_units_not_in_literal_source",
+      "code": "every_number_requires_unit_and_scope_binding",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "در هانکاک ویسکانسین، میانگین عملکرد ۲۶۸۴ پوند پوست خشک در هر آکر بود.",
-        "conditions": "مزرعه هانکاک، ویسکانسین، ۱۹۷۶، کشت می ۱۵، برداشت اکتبر ۷",
-        "evidence_id": "d0-e25",
-        "numeric_bindings": [
-          {
-            "value": "2684",
-            "unit_quote": "Average Yield 2 Pounds of dry pods/acre",
-            "geographic_scope": "Hancock, Wisconsin, USA",
-            "product_scope": "dry peanut pods"
-          }
-        ]
+        "claim": "انواع اسپانیایی زودرس‌تر (۹۰ تا ۱۲۰ روز) از انواع رایانر و ویرجینیا (۱۳۰ تا ۱۵۰ روز) بلوغ می‌یابند.",
+        "conditions": "انتخاب رقم بر پایه طول فصل رشد و نوع خاک، مینسوتا و ویسکانسین",
+        "evidence_id": "d0-e22",
+        "numeric_bindings": []
       },
       "literal_evidence": {
-        "id": "d0-e25",
+        "id": "d0-e22",
         "source_url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
-        "quote": "- Minnesota X52 Valencia-Spanish 1580 1320 1820 McRan Valencia 1540 1210 1700 Valencia C Valencia 1480 1250 1590 Pronto Spanish 1450 1210 1420 Valencia A Valencia 1490 1180 1370 Early Spanish Spanish 1260 1260 1000 Delhi Spanish 1200 1130 1100 NC 7 Virginia 540 390 410 Florunner Runner 480 330 390 1 Data from R.G. Robinson (1984). Table 5. Yield and agronomic characteristics of peanuts grown at Hancock, Wisconsin, 1976 1 . Variety Type Yield 2 Shelling % Seed Weight (Grams/100 Seeds) Height 3 (in.) 1. Delhi Spanish 2770 64.3 30.5 16 2. A-114 Spanish 3100 66.3 28.5 12 3. Comet Spanish 2657 64.5 30.4 16 4. Trifspan Spanish 2746 67.6 30.6 12 5. Tamnut Spanish 2323 64.6 31.2 15 6. Valencia Valencia 2653 70.2 36.6 21 7. Tennessee Red Valencia 2536 69.8 37.1 21 Average 2684 66.7 32.1 16 LSD 0.05 4.8 3.6 2 1 Data from Pendleton and Weis, (1977).Planted May 15; harvested October 7 2 Pounds of dr"
-      }
-    },
-    {
-      "fact_index": 2,
-      "code": "number_absent_from_literal_source",
-      "rejected_fact": {
-        "kind": "source_observation",
-        "claim": "کاشت زودهنگام (اوایل آوریل تا اوایل مه) در خاک شن آبیاری‌شده، عملکرد ۱۸۴۰ پوند در هر آکر تولید کرد؛ کاشت دیرتر (ژوئن) به ۱۱۷۰ پوند کاهش یافت.",
-        "conditions": "آزمایش مینسوتا، خاک شن آبیاری‌شده، مقایسه تاریخ کاشت ۱۹۸۱-۱۹۸۲",
-        "evidence_id": "d0-e15",
-        "numeric_bindings": [
-          {
-            "value": "1840",
-            "unit_quote": "1840 lb Pods/acre April 29 – May 6 Irrigated Sand",
-            "geographic_scope": "Minnesota, USA",
-            "product_scope": "dry peanut pods"
-          },
-          {
-            "value": "1170",
-            "unit_quote": "1170 lb Pods/acre June 1 – June 2 Irrigated Sand",
-            "geographic_scope": "Minnesota, USA",
-            "product_scope": "dry peanut pods"
-          }
-        ]
-      },
-      "literal_evidence": {
-        "id": "d0-e15",
-        "source_url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
-        "quote": "shells. V. Cultural Practices: A. Seedbed Preparation: Peanut should not be grown in the same fields for successive years, but should be produced in a crop rotation plan. Soil samples should be taken before pre-plant field preparation to determine nutrient needs. Fertilizer, if needed, may be broadcast prior to plowing. Plow 8 to 9 in. deep to completely cover plant residues, which reduces losses from stem- and peg-root diseases ( Sclerotium rolfsii ) and weeds. The operations necessary to produce a seedbed for corn or soybean are suitable for peanut. B. Seeding Date: Planting in early June was originally favored in Minnesota due to the warm temperature required for optimal growth of peanut. However, planting in early May gave higher yields, larger seeds, and higher shelling percentage (Table 1). Peanut planted in early May required 9 more days to emerge and had a slower development than"
+        "quote": "ternative to seed inoculation is to place granular inoculants in the seed furrow with a planter attachment. Table 3. Yield response of Valencia and Spanish peanut to rhizobial inoculation or nitrogen fertilizer on dryland and irrigated sandy soil in Minnesota, 1982 1 . Treatment Dryland Irrigated ------------ lb Pods/acre ------------ Untreated 570 930 Inoculation 490 1380 N, 50 lbs/acre, 6/2 610 1050 N, 150 lbs/acre (50 lbs. each on 6/2, 7/1, 7/28) 480 1390 1 Data from R.G. Robinson (1984). E. Variety Selection: The variety selected will depend largely on soil type and length of growing season. The Spanish type will mature sooner (90 to 120 days) than Runner or Virginia types. Most Valencia varieties mature in 90 to 110 days while Runner and Virginia types require 130 to 150 days to reach maturity. Previous attempts to raise peanut in Minnesota and Wisconsin usually involved Spanish and"
       }
     },
     {
       "fact_index": 3,
-      "code": "numeric_units_not_in_literal_source",
+      "code": "scoped_fact_conditions_required",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "فاصله ردیف ۱۸ اینچی در مقایسه با ۳۰ اینچی، عملکرد بیشتری در خاک گِل‌رسیبه و شن آبیاری‌شده نشان داد.",
-        "conditions": "آزمایش مینسوتا، خاک گِل‌رسیبه و شن آبیاری‌شده، ۱۹۸۱-۱۹۸۲",
-        "evidence_id": "d0-e19",
-        "numeric_bindings": [
-          {
-            "value": "18",
-            "unit_quote": "Row Spacing 18 in. Silt Loam 1580 lb Pods/acre",
-            "geographic_scope": "Minnesota, USA",
-            "product_scope": "dry peanut pods"
-          },
-          {
-            "value": "30",
-            "unit_quote": "Row Spacing 30 in. Silt Loam 1370 lb Pods/acre",
-            "geographic_scope": "Minnesota, USA",
-            "product_scope": "dry peanut pods"
-          }
-        ]
+        "claim": "دوره گل‌دهی بحرانی‌ترین زمان برای آبیاری در بادام‌زمینی است.",
+        "conditions": "تحقیقات انتاریو، کانادا",
+        "evidence_id": "d0-e12",
+        "numeric_bindings": []
       },
       "literal_evidence": {
-        "id": "d0-e19",
+        "id": "d0-e12",
         "source_url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
-        "quote": "ds per acre produced highest yields on dryland sand where row spacing had no effect. A seeding rate of 90,000 seeds per acre is recommended in Minnesota and Wisconsin with adjustments for germination below 90%, soil texture, and seed price. Seed should be planted 1 to 2 in. deep since at greater depths, slower and poorer emergence results. However, planting 2 to 4 in. deep to reach moisture in sandy soil is successful in late May or early June in Minnesota. Time to emergence varies with seed quality, and soil temperature, moisture, and texture. It is typical for peanut to have a slower emergence than soybean in Minnesota. Table 2. Effects of different row spacings and soil types on yields of peanut in Minnesota, 1981-1982 1 . Row Spacing (in.) Soil Type 18 30 ---------- lb Pods/acre ---------- Silt Loam 1580 1370 Dryland Sand 1210 1250 Irrigated Sand 1870 1680 1 Data from R.G. Robinson ("
+        "quote": "tion areas. Little if any growth and development occur at temperatures below 56 o F (Emery et al., 1969) and 86 o F is reported to be optimal (Ketring, 1984). Rainfall distribution varies greatly from western Minnesota to south eastern Wisconsin and irrigation may be a yield-stabilizing factor. University of Minnesota studies over a six-year period indicated that irrigation of sandy soil increased average yield by 1,000 to 1,450 lb/acre. However, in some years it did not increase yields appreciably, and irrigation expenses and lower land values may give an economic advantage to dryland production over use of irrigation. Research in Ontario, Canada indicated that the most critical time to apply water was during the flowering period. B. Soil: Soil for peanut production should be a light-colored, light textured with good drainage, and moderately low amounts of organic matter. Such soil is p"
       }
     },
     {
@@ -112,8 +40,8 @@
       "code": "every_number_requires_unit_and_scope_binding",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "آبیاری خاک شن در مینسوتا طی ۶ سال، میانگین عملکرد را ۱۰۰۰ تا ۱۴۵۰ پوند در هر آکر افزایش داد.",
-        "conditions": "آزمایش دانشگاه مینسوتا، خاک شن، دوره ۶ ساله",
+        "claim": "آبیاری خاک شن در مینسوتا طی ۶ سال، میانگین عملکرد را ۱۰۰۰ تا ۱۴۵۰ پوند پوست خشک در هر آکر افزایش داد.",
+        "conditions": "آزمایش دانشگاه مینسوتا، خاک شن آبیاری‌شده",
         "evidence_id": "d0-e12",
         "numeric_bindings": [
           {
@@ -140,30 +68,14 @@
       "fact_index": 5,
       "code": "scoped_fact_conditions_required",
       "rejected_fact": {
-        "kind": "qualitative",
-        "claim": "زمان بحرانی مصرف آب در بادام‌زمینی دوره گل‌دهی است.",
-        "conditions": "تحقیق انتاریو، کانادا",
-        "evidence_id": "d0-e12",
-        "numeric_bindings": []
-      },
-      "literal_evidence": {
-        "id": "d0-e12",
-        "source_url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
-        "quote": "tion areas. Little if any growth and development occur at temperatures below 56 o F (Emery et al., 1969) and 86 o F is reported to be optimal (Ketring, 1984). Rainfall distribution varies greatly from western Minnesota to south eastern Wisconsin and irrigation may be a yield-stabilizing factor. University of Minnesota studies over a six-year period indicated that irrigation of sandy soil increased average yield by 1,000 to 1,450 lb/acre. However, in some years it did not increase yields appreciably, and irrigation expenses and lower land values may give an economic advantage to dryland production over use of irrigation. Research in Ontario, Canada indicated that the most critical time to apply water was during the flowering period. B. Soil: Soil for peanut production should be a light-colored, light textured with good drainage, and moderately low amounts of organic matter. Such soil is p"
-      }
-    },
-    {
-      "fact_index": 6,
-      "code": "scoped_fact_conditions_required",
-      "rejected_fact": {
         "kind": "source_observation",
-        "claim": "نوع اسپانیایی (A-114) در ویسکانسین بالاترین عملکرد ۳۱۰۰ پوند پوست خشک در هر آکر را ثبت کرد.",
+        "claim": "در ویسکانسین، نوع اسپانیایی A-114 بالاترین عملکرد را با ۳۱۰۰ پوند پوست خشک در هر آکر ثبت کرد.",
         "conditions": "مزرعه هانکاک، ویسکانسین، ۱۹۷۶",
         "evidence_id": "d0-e25",
         "numeric_bindings": [
           {
             "value": "3100",
-            "unit_quote": "A-114 Spanish Yield 2 3100 Pounds of dry pods/acre",
+            "unit_quote": "A-114 Spanish Yield 3100 Pounds of dry pods/acre",
             "geographic_scope": "Hancock, Wisconsin, USA",
             "product_scope": "dry peanut pods"
           }
@@ -176,22 +88,51 @@
       }
     },
     {
+      "fact_index": 6,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "دمای حداقل ۵۶ درجه فارنهایت برای رشد لازم است و ۸۶ درجه بهینه گزارش شده.",
+        "conditions": "الزامات دمایی بادام‌زمینی در ایالت‌های شمالی آمریکا",
+        "evidence_id": "d0-e11",
+        "numeric_bindings": [
+          {
+            "value": "56",
+            "unit_quote": "56 o F",
+            "geographic_scope": "northern USA",
+            "product_scope": "peanut growth"
+          },
+          {
+            "value": "86",
+            "unit_quote": "86 o F",
+            "geographic_scope": "northern USA",
+            "product_scope": "peanut growth"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e11",
+        "source_url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
+        "quote": "soil) and the resulting loose pods are lost during the harvest. Since the pod wall is needed to protect the seed, as it is moved through the various markets from producer to processor or consumer, yields and farm prices are based on a pod rather than seed basis. IV. Environment Requirements: A. Climate: Temperature is the major limiting factor for peanut yield in northern states since a minimum of 3,000 growing degree-days (with a base of 50 o F) is required for proper growth and development (Robinson, 1984). A peanut crop will not reach optimum maturity for a marketable yield to justify commercial production in areas with fewer heat units during the growing season. This eliminates some of Minnesota and most of Wisconsin as practical production areas. Little if any growth and development occur at temperatures below 56 o F (Emery et al., 1969) and 86 o F is reported to be optimal (Ketring"
+      }
+    },
+    {
       "fact_index": 7,
       "code": "scoped_fact_conditions_required",
       "rejected_fact": {
-        "kind": "qualitative",
-        "claim": "عملکرد و قیمت مزارع بر پایه پوست (pod) محاسبه می‌شود نه پایه دانه.",
-        "conditions": "سیاست سنجش عملکرد بادام‌زمینی",
-        "evidence_id": "d0-e10",
+        "kind": "source_observation",
+        "claim": "آبیاری در همه سال‌ها افزایش قابل‌توجهی در عملکرد ایجاد نکرد و هزینه آبیاری ممکن است مزیت اقتصادی تولید زیردامنه داشته باشد.",
+        "conditions": "مطالعات مینسوتا، خاک شن",
+        "evidence_id": "d0-e12",
         "numeric_bindings": []
       },
       "literal_evidence": {
-        "id": "d0-e10",
+        "id": "d0-e12",
         "source_url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
-        "quote": "to 14 days after pollination aerial pegs will grow 2 to 3 in. into the soil and then turn to a horizontal orientation to mature into a peanut pod. Pods reach maximum size after 2 to 3 weeks in the soil, maximum oil content in 6 to 7 weeks, and maximum protein content after 5 to 8 weeks. The peanut crop matures after 7 to 9 weeks in the soil, which is indicated by maximum levels of protein, oil, dry matter, and presence of darkened veining and brown splotching inside the pod. Peanuts usually require a minimum of 100 to 150 days from planting to maturity depending on the variety planted. Flowering continues over a long period and pods are in all stages of development at harvest. Pegs will eventually rot in the soil (25% after 12 weeks in the soil) and the resulting loose pods are lost during the harvest. Since the pod wall is needed to protect the seed, as it is moved through the various m"
+        "quote": "tion areas. Little if any growth and development occur at temperatures below 56 o F (Emery et al., 1969) and 86 o F is reported to be optimal (Ketring, 1984). Rainfall distribution varies greatly from western Minnesota to south eastern Wisconsin and irrigation may be a yield-stabilizing factor. University of Minnesota studies over a six-year period indicated that irrigation of sandy soil increased average yield by 1,000 to 1,450 lb/acre. However, in some years it did not increase yields appreciably, and irrigation expenses and lower land values may give an economic advantage to dryland production over use of irrigation. Research in Ontario, Canada indicated that the most critical time to apply water was during the flowering period. B. Soil: Soil for peanut production should be a light-colored, light textured with good drainage, and moderately low amounts of organic matter. Such soil is p"
       }
     }
   ],
-  "candidate_error": "numeric_units_not_in_literal_source",
+  "candidate_error": "every_number_requires_unit_and_scope_binding",
   "declared_insufficiency": null
 }

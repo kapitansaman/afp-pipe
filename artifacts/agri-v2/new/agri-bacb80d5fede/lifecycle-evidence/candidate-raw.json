@@ -2,85 +2,14 @@
   "topic_id": "agri-bacb80d5fede",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی — Phaseolus vulgaris L., پینتو کلاس بازاری؛ محصول خشک‌شده (dry threshed field/garden bean) برای مصرف انسانی",
-  "slug": "pinto-dry-bean-post-rain-irrigation-timing",
+  "product_definition": "لوبیا چیتی (فازولئوس ولیگاریس، کلاس پینتو، محصول خشک)",
+  "slug": "pinto-dry-bean-rain-adjustment-irrigation-timing",
   "outline": [
-    "منبع‌شناسی و حدّ پاسخ: کدام passages درباره آبیاری پس از بارندگی لوبیای خشک صحبت می‌کنند",
-    "مشاهدات جنسیتی منابع درباره آبیاری لوبیا (عمومی، نه اختصاصی پس‌ازباران)",
-    "فناوری سنجش رطوبت خاک برای زمان‌بندی آبیاری (روش‌ها، نه توصیه محصول‌اختصاصی)",
-    "شکاف‌های شواهد برای پاسخ به پرسش «چه زمانی دوباره آب بدهیم؟»"
+    "ورودی‌های اندازه‌گیری‌شده",
+    "منطق تصمیم و واحدها",
+    "پایش مزرعه یا شبکه",
+    "خطاها و حدود کاربرد"
   ],
-  "facts": [
-    {
-      "kind": "source_observation",
-      "claim": "منابع ارسالی درباره آبیاری لوبیای چیتی پس از بارندگی و زمان دقیق شروع مجدد آبیارl irrigation after rainfall ارائه نمی‌دهند.",
-      "conditions": "پینتو (Phaseolus vulgaris L., pinto class)؛ شرایط بعد از باران؛ هدف تعیین زمان‌بندی آبیarl irrigation restart. Only general bean-watering and soil-sensor technology passages are present; none map to the post-rain timing question.",
-      "evidence_id": "d2-e14",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "توضیحات موجود درباره آبیاری لوبیا در منابع عمومی باغبانی دانشگاهی است و محصول یا شرایط پس‌ازباران را هدف قرار نمی‌دهد.",
-      "conditions": "درباره نیاز آبی کلی لوبیا گفته شده که «in more moisture-retentive soils may not need watering except during dry weather» و مقدار مرجع «One inch of rainfall per week is good» ذکر شده، اما هیچ‌یک به زمان‌بندی پس از یک رویداد بارشی اختصاص ندارند.",
-      "evidence_id": "d2-e15",
-      "numeric_bindings": [
-        {
-          "value": "one inch",
-          "unit_quote": "One inch of rainfall per week is good",
-          "geographic_scope": "Minnesota general garden context",
-          "product_scope": "common bean (Phaseolus vulgaris), broad"
-        }
-      ]
-    },
-    {
-      "kind": "qualitative",
-      "claim": "مقاله سنجشگرهای رطوبت خاک اصول کلی زمان‌بندی آبیar irrigation scheduling with sensors را توضیح می‌دهد ولی برای لوبیای چیتی پس از باران دستورالعمل اختصاصی ارائه نمی‌کند.",
-      "conditions": "مبانی FC، PWP، AWC، MAD 50% و روش‌های اندازه‌گیری VWC/tension توصیف شده‌اند؛ این اصول برای هر محصولی قابل انتقال‌اند اما passage صراحتاً درباره زمان شروع آبیar irrigation restart بعد از باران برای پینتو صحبت نمی‌کند.",
-      "evidence_id": "d5-e10",
-      "numeric_bindings": [
-        {
-          "value": "50%",
-          "unit_quote": "Management allowable depletion (MAD)=50%",
-          "geographic_scope": "general sensor-article examples",
-          "product_scope": "generic crop, not pinto dry bean"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "هیچ یک از passages ارائه‌شده معیار کیفی یا کمی خاصی برای تصمیم‌گیری درباره زمان آبیar irrigation timing after a rainfall event برای لوبیای پینتو Dry beans ارائه نمی‌دهند.",
-      "conditions": "شواهد موجود شامل general watering advice و sensor methodology است؛ هیچ source-specific threshold, observation, یا decision rule درباره post-rain irrigation timing برای pinto dry bean یافت نشد.",
-      "evidence_id": "d2-e14",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "منابع درباره کاشت، مرحله رشد، بیماری‌ها و برداشت لوبیا مطالبی دارند اما درباره تنظیم آبیar irrigation management specifically after rainfall هیچ passage‌ای وجود ندارد.",
-      "conditions": "دسته‌بندی‌های موجود: general bean watering, soil moisture sensor technology, poor germination in wet soil, direct harvest of dry beans, USDA grade standards — هیچ‌کدام پرسش زمان‌بندی پس از باران را پاسخ نمی‌دهند.",
-      "evidence_id": "d0-e0",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "برای پاسخ به پرسش اصلی نیاز به منبعی مستقل است که برای Phaseolus vulgaris L. کلاس پینتو، post-rainfall irrigation timing را با معیار کیفی (رطوبت خاک، مرحله رشد، مشاهده stress) یا معیار کمی اندازه‌گیری‌شده مطرح کند.",
-      "conditions": "تا زمان دریافت چنین شواهدی، ارائه زمان مشخص یا راهنمای اجرایی برای «چه زمانی دوباره آب بدهیم؟» فاقد پشتوانه source-grounded است.",
-      "evidence_id": "d5-e11",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "توجه: منابع ارسالی عمدتاً عمومی، آمریکایی و مربوط به باغبانی home garden یا فناوری سنسور هستند و نمی‌توانند به تنهایی برای تعیین پروتکل آبیar irrigation protocol پس از باران در مزارع پینتو Dry beans کافی باشند.",
-      "conditions": "نیاز به source معتبر ترویجی/دانشگاهی که صراحتاً pinto dry bean + post-rainfall irrigation timing را پوشش دهد؛ passages فعلی فقط background عمومی فراهم می‌کنند.",
-      "evidence_id": "d5-e0",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "هیچ‌یک از passages موجود درباره تاریخ، قیمت، رتبه‌بندی کشوری، guarantees محصول یا توصیه‌های تجاری unrelated به آبیar irrigation decision پس از باران صحبت نمی‌کنند.",
-      "conditions": "محدوده شواهد صرفاً general agronomy و sensor methodology است; irrelevant commercial/price/calendar claims وارد پاسخ نمی‌شوند.",
-      "evidence_id": "d3-e0",
-      "numeric_bindings": []
-    }
-  ],
-  "insufficiency_reason": "No fetched source directly addresses post-rainfall irrigation timing for pinto dry bean (Phaseolus vulgaris L., pinto market class). Existing passages cover general bean watering guidelines, soil moisture sensor technology, poor germination in wet soils, direct-harvest logistics, and USDA grade standards — none of which provide a decision criterion (qualitative or quantitative) for when to resume irrigation after a rainfall event for this specific crop/product. To answer the title, a directly relevant university/trends source stating observed soil-moisture thresholds, crop-stage triggers, or measured depletion values specific to pinto dry bean after rain is required."
+  "facts": [],
+  "insufficiency_reason": "هیچ منبع دریافت‌شده‌ای معیار تصمیم‌گیری (کیفی یا کمی) برای زمان شروع مجدد آبیاری پس از بارندگی در لوبیا چیتی (Phaseolus vulgaris L., کلاس پینتو) ارائه نمی‌دهد. passages موجود شامل اصول کلی سنجشگرهای رطوبت خاک (d5-e10)، آبیاری عمومی لوبیا (d2-e14/e15)، جوانه‌زنی در خاک‌های مرطوب (d1-e4/e5/d1-e8)، برداشت مستقیم (d4-e0/e1) و استانداردهای درجه‌بندی USDA (d3-e0/e1) هستند. passage d5-e10 اصول MAD و VWC را توصیف می‌کند اما صراحتاً درباره زمان شروع مجدد آبیاری بعد از باران برای پینتو صحبت نمی‌کند. برای پاسخ به عنوان، یک منبع دانشگاهی/ترویجی مستقیماً مرتبط که آستانه‌های رطوبت خاک مشاهده‌شده، محرک‌های مرحله رشد محصول، یا مقادیر تخلیه اندازه‌گیری‌شده را به‌طور اختصاصی برای لوبیای چیتی پس از باران بیان کند، ضروری است."
 }

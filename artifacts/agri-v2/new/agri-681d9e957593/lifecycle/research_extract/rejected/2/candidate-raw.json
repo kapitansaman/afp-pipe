@@ -1,0 +1,77 @@
+{
+  "topic_id": "agri-681d9e957593",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "ماشک (Vicia sativa / Vicia villosa) — بذر برای تکثیر محصول نشایی/علوفه‌ای، نه بذر خوراکی پاک‌شده",
+  "slug": "machak-seed-rate-germination-density",
+  "outline": [
+    "داده‌های مورد نیاز برای محاسبه (تراکم هدف، درصد جوانه‌زنی، وزن هزار دانه، خلوص)",
+    "روش محاسبه و واحدها — فرمول بعدی با ورودی‌های اندازه‌گیری‌شده",
+    "ثبت و کنترل ورودی‌ها — مستندسازی تراکم کاشت و نرخ اصلاح‌شده بر پایه قوه نامیه"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "نرخ کاشت توصیه‌شده ماشک معمولی (Vicia sativa) به صورت پخش‌بودن بین ۲۰ تا ۴۰ پوند در acre است.",
+      "conditions": "منطقه: ایالت میسیسیپی، آمریکا؛ محصول: نهال/علوفه ماشک معمولی؛ واحد: lb/ac؛ محدودیت: نرخ کلی کاشت، بدون تفکیک بر حسب درصد جوانه‌زنی یا وزن هزار دانه",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": [
+        {
+          "value": "20 to 40",
+          "unit_quote": "20 to 40 lb/ac",
+          "geographic_scope": "Mississippi, USA",
+          "product_scope": "common vetch (Vicia sativa) forage/establishment"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در کشت مخلوط ماشک با چاودار، مقدار بذر ماشک حدود ۲۵٪ و مقدار بذر چاودار حدود ۵۰٪ نسبت به نرخ تک‌کشتی کاهش می‌یابد.",
+      "conditions": "منطقه: ویسکانسین/مینه‌سوتا، آمریکا؛ محصول: مخلوط cover crop ماشک وزیره (hairy vetch + rye)؛ واحد: کاهش نسبی درصدی از نرخ monoculture",
+      "evidence_id": "d2-e8",
+      "numeric_bindings": [
+        {
+          "value": "25",
+          "unit_quote": "reduced by about 25%",
+          "geographic_scope": "central Wisconsin or Minnesota, USA",
+          "product_scope": "hairy vetch in vetch-rye mixture"
+        },
+        {
+          "value": "50",
+          "unit_quote": "reduced by about 50%",
+          "geographic_scope": "central Wisconsin or Minnesota, USA",
+          "product_scope": "rye in vetch-rye mixture"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عمق کاشت ماشک در بستر بذر آماده بین ۱/۲ تا ۳/۴ اینچ است و بستگی به رطوبت خاک دارد.",
+      "conditions": "منطقه: ایالات متحده؛ محصول: ماشین‌کاری کاشت ماشک؛ واحد: inch؛ محدودیت: عمق مکانیکی کاشت، نه معیار تصمیم‌گیری جوانه‌زنی",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": [
+        {
+          "value": "1/2 to 3/4",
+          "unit_quote": "from 1/2 to 3/4 inch deep",
+          "geographic_scope": "Mississippi, USA (general US extension guidance)",
+          "product_scope": "common vetch (Vicia sativa) seeding depth"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بذر ماشک تا ۵ سال یا更长 زنده می‌ماند.",
+      "conditions": "منطقه: ایالات متحده؛ محصول: بذر ماشک؛ واحد: year؛ محدودیت: عمر ذخیره‌ای بذر، نه معیار محاسبه نرخ اصلاح‌شده",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": [
+        {
+          "value": "5",
+          "unit_quote": "5 years or longer",
+          "geographic_scope": "USA (extension source)",
+          "product_scope": "vetch seed viability"
+        }
+      ]
+    }
+  ],
+  "insufficiency_reason": "منابع موجود فقط نرخ کلی کاشت (lb/ac) را برای ماشک معمولی و موی‌دار ارائه می‌دهند؛ هیچ منبعی فرمول محاسبه نرخ بذر بر پایه تراکم هدف، درصد جوانه‌زنی (قوه نامیه) و وزن هزار دانه را ارائه نکرده است. عنوان به صراحت محاسبه با دو متغیر «تراکم و درصد جوانه‌زنی» را درخواست می‌کند، اما شواهد موجود فاقد روش عددی، ورودی‌های وزنی/جوانه‌زنی و فرمول بعدی مورد نیاز برای پاسخ به قصد seed_rate با آن شاخص‌ها هستند."
+}

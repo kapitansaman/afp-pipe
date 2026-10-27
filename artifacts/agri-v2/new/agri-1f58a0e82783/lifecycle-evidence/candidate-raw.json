@@ -2,77 +2,62 @@
   "topic_id": "agri-1f58a0e82783",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی (pinto dry bean, Phaseolus vulgaris L., dry market class)",
-  "slug": "planting-time-pinto-dry-bean-soil-temp-climate",
+  "product_definition": "لوبیا چیتی (Phaseolus vulgaris L.، بازار class پینتو)، محصول لوبیای خشک در مزرعه زنده",
+  "slug": "phaseolus-vulgaris-pinto-planting-soil-temperature",
   "outline": [
-    "تعریف محصول و دامنه شواهد",
-    "شرایط کیفی دما و خاک برای استقرار",
-    "محدودیت‌های انتقال اقلیمی و کمبود شواهد",
-    "پایش و تصمیم‌گیری مبتنی بر منبع"
+    "تعریف محصول و دامنه کشت: لوبیا خشک رایج (Phaseolus vulgaris L.)، بازار class پینتو، هدف جوانه‌زنی و استقرار دانه در خاک",
+    "محدودیت شواهد موجود: فاقد آستانه دمایی اختصاصی پینتو، فاقد بازه تقویمی بومی ایران، فاقد روش پایش دمای خاک ویژه این گونه",
+    "اصول کلی دما و خاک برای لوبیا: حساسیت به خاک سرد و مرطوب، تفاوت تحمل رنگ دانه، ساختار خاک و crusting، گرم شدن خاک پیش از کاشت"
   ],
   "facts": [
     {
-      "kind": "qualitative",
-      "claim": "ذرت و لوبیا از دانه‌های بزرگ هستند که در خاک سرد و تر پوسیده می‌شوند.",
-      "conditions": "منطقه منبع: ایالات متحده (University of Maryland Extension). محصول: بذر لوبیا و ذرت. محدودیت: آستانه دمایی عددی برای لوبیای چیتی در اینجا ذکر نشده است.",
-      "evidence_id": "d1-e8",
+      "kind": "source_observation",
+      "claim": "تمام لوبیاها به خاک سرد و دمای هوای سرد حساس هستند؛ دانه‌های کاشته‌شده در خاک سرد و مرطوب می‌پوسند.",
+      "conditions": "منطقه می‌سی‌سیپی (Mississippi State)، محصولات لوبیا باغی و مزرعه‌ای Phaseolus vulgaris شامل snap، shell و dry bean؛ اقلیم معتدل-گرم ایالات متحده",
+      "evidence_id": "d0-e0",
       "numeric_bindings": []
     },
     {
-      "kind": "qualitative",
-      "claim": "بذر لوبیا در خاک سرد احتمال پوسیدگی دارد تا جوانه‌زنی، و رشد گیاه در هوای خنک بسیار کند خواهد بود.",
-      "conditions": "منطقه منبع: مینسوتا، ایالات متحده (UMN Extension). محصول: لوبیای common bean. محدودیت: توصیه کیفی، فاقد آستانه دمایی عددی اختصاصی برای لوبیای چیتی.",
+      "kind": "source_observation",
+      "claim": "دانه‌های لوبیای رنگی نسبت به دانه‌های سفید به خاک سرد تحمل بیشتری نشان می‌دهند.",
+      "conditions": "منطقه می‌سی‌سیپی، مقایسه کیفی رنگ دانه در شرایط خاک سرد؛ بازار class پینتو صراحتاً آزمون نشده",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "خاک‌های رسی یا فشرده باعث گیر کردن کوتیلدون‌ها می‌شوند و جوانه‌زنی ضعیف می‌گردد.",
+      "conditions": "منطقه می‌سی‌سیپی، لوبیای سبزی Phaseolus vulgaris؛ بافت خاک (رسی/کلوخه‌ای) بدون آستانه عددی دما گزارش شده",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای خاک باید قبل از کاشت لوبیا کافی گرم شود.",
+      "conditions": "منطقه مینه‌سوتا، لوبیای خشک و سبزی Phaseolus vulgaris؛ بدون آستانه عددی دمایی اختصاصی پینتو گزارش شده",
       "evidence_id": "d2-e12",
       "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "در بیشتر مینسوتا زمان مناسب کاشت بعد از گرم شدن خاک، اواخر مه یا اوایل ژوئن است.",
-      "conditions": "منطقه منبع: مینسوتا، ایالات متحده (UMN Extension). محصول: لوبیا. محدودیت: بازه ماهانه منطقه‌ای آمریکای شمالی؛ تقویم محلی ایران نیست.",
-      "evidence_id": "d2-e12",
-      "numeric_bindings": [
-        {
-          "value": "late May",
-          "unit_quote": "not until late May",
-          "geographic_scope": "Minnesota, United States",
-          "product_scope": "beans (general Phaseolus vulgaris)"
-        },
-        {
-          "value": "early June",
-          "unit_quote": "or even early June",
-          "geographic_scope": "Minnesota, United States",
-          "product_scope": "beans (general Phaseolus vulgaris)"
-        }
-      ]
-    },
-    {
-      "kind": "qualitative",
-      "claim": "لوبیا به خاک سرد و دمای هوای سرد حساس است و در خاک سرد و تر بذر لوبیای رنگی به‌طور نسبی مقاومت بیشتری دارد نسبت به بذر سفید.",
-      "conditions": "منطقه منبع: میسیسیپی، ایالات متحده (Mississippi State Extension). محصول: garden beans (عمومی). محدودیت: اشاره کلی به حساسیت به سرما؛ آستانه عددی دقیق برای پینتو درج نشده.",
-      "evidence_id": "d0-e0",
+      "claim": "دانه‌های لوبیا و ذرت در خاک سرد و مرطوب تمایل به پوسیدگی دارند.",
+      "conditions": "منطقه مریلند (University of Maryland Extension)، دانه‌های بزرگ حاوی قند بالاتر که پاتوژن‌های خاکزی را جذب می‌کند؛ اقلیم معتدل-سرد ایالات متحده",
+      "evidence_id": "d1-e8",
       "numeric_bindings": []
     },
     {
-      "kind": "qualitative",
-      "claim": "خاک رسی یا فشرده مانع خروج کتیلهای during germination می‌شود و جوانه‌زنی ضعیف خواهد بود.",
-      "conditions": "منطقه منبع: میسیسیپی، ایالات متحده (Mississippi State Extension). محصول: garden beans. محدودیت: کیفیت ساختار خاک، فاقد محدوده دمایی عددی.",
-      "evidence_id": "d0-e0",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "کاشت در عمق حدود یک اینچ توصیه شده است و دانه‌های ریزتر باید سطحی‌تر کاشته شوند.",
-      "conditions": "منطقه منبع: مینسوتا، ایالات متحده (UMN Extension). محصول: لوبیا. محدودیت: عمق کاشت؛ پاسخ‌گوی آستانه دمایی کاشت برای لوبیای چیتی نیست.",
+      "kind": "source_observation",
+      "claim": "کاشت تدریجی (succession) هر دو هفته تا اوایل تابستان برای تولید پیاپی پیشنهاد شده است.",
+      "conditions": "منطقه مینه‌سوتا، لوبیای بوته‌ای (bush bean) در باغ خانگی؛ بازه دو هفته‌ای کیفی و منطقه‌ای است، معادل تقویمی بومی ایران نیست",
       "evidence_id": "d2-e12",
       "numeric_bindings": [
         {
-          "value": "an inch",
-          "unit_quote": "about an inch deep",
-          "geographic_scope": "Minnesota, United States",
-          "product_scope": "beans (general Phaseolus vulgaris)"
+          "value": "two weeks",
+          "unit_quote": "every two weeks",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "Phaseolus vulgaris L., bush bean (general garden bean)"
         }
       ]
     }
-  ],
-  "insufficiency_reason": "موضوع درخواست‌کننده تقویم کاشت لوبیای چیتی بر پایه دمای خاک و اقلیم است، اما شواهد موجود فاقد هر یک از موارد زیر است: (۱) آستانه دمایی عددی اختصاصی برای جوانه‌زنی لوبیای چیتی/pinto، (۲) بازه تقویمی بومی ایران یا منطقه مورد نظر کاربر، (۳) روش کمی پایش دمای خاک ویژه این گونه. شواهد ارائه‌شده فقط اصول کیفی عمومی لوبیا و بازه‌های ماهانه منطقه‌ای ایالات متحده را پوشش می‌دهند و تبدیل آن‌ها به دستورالعمل کاشت محلی لوبیای چیتی امکان‌پذیر نیست."
+  ]
 }

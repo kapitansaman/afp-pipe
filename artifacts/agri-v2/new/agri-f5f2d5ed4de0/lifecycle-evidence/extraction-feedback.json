@@ -1,8 +1,8 @@
 {
   "topic_id": "agri-f5f2d5ed4de0",
-  "candidate_sha256": "a0501313fce9bde3d26c12a100ea86d7c1b1d4e34b5add1c5f218e2712e918f6",
+  "candidate_sha256": "964c33e7cedf84d1ee997f55c06d3ab3a4baf77cebf63043f06c03a7dcf6bc96",
   "scientific_approval": false,
   "errors": [],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "منابع موجود فاقد معیار محاسبه مدت هر نوبت آبیاری لوبیا چیتی با نوار تیپ بر مبنای دبی واقعی و نیاز آب هستند. محتوای دریافت‌شده شامل یک اصل کلی آبیاری (یک اینچ آب در هفته) و معیار کیفی ارزیابی عمق خیس‌شدگی خاک است، اما هیچ‌یک از بخش‌های عنوان یعنی محاسبه مدت نوبت از روی دبی اندازه‌گیری‌شده نوار تیپ، منطق واحد زمان/حجم، پایش شبکه یا خطاهای رایج آبیاری قطره‌ای پوشش داده نشده است."
+  "declared_insufficiency": null
 }

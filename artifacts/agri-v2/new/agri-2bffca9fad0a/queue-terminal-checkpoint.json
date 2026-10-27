@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-2bffca9fad0a",
+  "title": "دور آبیاری لوبیا چیتی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-2bffca9fad0a",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "2a7c840f6fdacea027f5dad6b7a899cdc10eaf3d2cd2e62d061d3bb720dc7d26",
+    "topic_files": {
+      "family-context/40298864446.json": "2cc8440fe077aa8d0c9ec301bd358bb1ebde1f01523d406516eee51978cd21fd",
+      "family-context/40522647019.json": "7da9a3812863a3ae8cb6060077d097657164785cbf3c32c7237079597f4b3677",
+      "family-context/40525360938.json": "7da9a3812863a3ae8cb6060077d097657164785cbf3c32c7237079597f4b3677",
+      "family-context/40529029195.json": "7da9a3812863a3ae8cb6060077d097657164785cbf3c32c7237079597f4b3677",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "8a121d9231e600f2cbfe6623886c508927fe001b0193442ba1b505d85762b7d2",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "f8327481a3aa7d4820fe81412d3d83f96d7b686f5f2f51012cc0c55b00a22315",
+      "lifecycle/research_extract/state.json": "3bcc8fea3813badc5e0957055a3a34981f2608e729c144a407030926990fed81",
+      "lifecycle/research_sources/state.json": "2beb41b65cf3da41eb00c0743d4a959337bcf73154f49425ff5771789fd966bf",
+      "lifecycle/research_validate_saved/state.json": "50d1dce5489c9b26d0e497e0d839e1580b2b11bcc3b2c11a01d005af9b28f6de",
+      "lifecycle-evidence/candidate-raw.json": "fa4d1564f0a33ae9e64286c7508f734562c426aa2d1c453c194a019e079a319f",
+      "lifecycle-evidence/existing-content.json": "ce80fe787d00415b9fbda4806f9506c71f8168d4bcfc0052e8b8945072fdb965",
+      "lifecycle-evidence/extraction-feedback.json": "aaca4fd5790d302b68706acb5c6e49e2fcab385a2263e784322fa9516e20d370",
+      "lifecycle-evidence/source-discovery-report.json": "9a1947e1babbfcbb9a0720deeb0a1d9565b312d38ab331def8bc0b8bff67e0ee",
+      "lifecycle-evidence/source-fetch-report.json": "d11b36ca467c8fdf4e5416808cb14fc680a372c74aac032705b9b63a4fef2fa6",
+      "lifecycle-evidence/sources.json": "f38c779c409df41a8a278627b41ff0769263ca49f875807901b5612766eeba37"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:17:40.911974+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

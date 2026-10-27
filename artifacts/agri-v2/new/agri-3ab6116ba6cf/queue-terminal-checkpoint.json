@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-3ab6116ba6cf",
+  "title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-3ab6116ba6cf",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "scoped_four_to_twelve_facts_required",
+    "last_run_id": "40529029195"
+  },
+  "bindings": {
+    "topic_sha256": "fc598476060ec1d1067bc049cc6e08c9d22517ac541b114659c25a7e848b4f08",
+    "topic_files": {
+      "family-context/40298864446.json": "a989990ed45e54d3efb80fe44bbb8c0ca1c9d15dc7dfaa3d20cf64c53619e640",
+      "family-context/40522647019.json": "013c9431dc123ba3291fa96cb5b83b0768c5d822757737c170bd35ca6c293b53",
+      "family-context/40525360938.json": "013c9431dc123ba3291fa96cb5b83b0768c5d822757737c170bd35ca6c293b53",
+      "family-context/40529029195.json": "013c9431dc123ba3291fa96cb5b83b0768c5d822757737c170bd35ca6c293b53",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "d7d57aaa02073e0711cd4e65052983a8fe7129723324ca8789e31718dca4b773",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "8031b8cca41760ecda4cb0a3f4421ba62bd5b2a3af6493d55626d805fdea974b",
+      "lifecycle/research_extract/state.json": "c2f7d5be877269b4713edffcfdb1c69b239c10cf461aeb0ccac67aa89ecb98eb",
+      "lifecycle/research_sources/state.json": "bd0586ccb88f6fed6b9ae9d6aaa0cf51d9b705086f653cf6386eeae30a4ba3fd",
+      "lifecycle/research_validate_saved/state.json": "fefc6343d86d4bfb68aa0986cbe05f1d3afd1a668a4e62a91bcf5d1c066355fe",
+      "lifecycle-evidence/candidate-raw.json": "0bedc73fb510a0376f21388e57456cc96e2b67f29e3243441a033a5c74302527",
+      "lifecycle-evidence/existing-content.json": "0668336e662a1586b633786286f993ab6eae035f3efe685704d883dd827ad78d",
+      "lifecycle-evidence/extraction-feedback.json": "81e45eced0b23b80710ff12146e4863d0fb0bd3af5e838eac7e3adf47dfbf9d2",
+      "lifecycle-evidence/source-discovery-report.json": "983bc3f6debcb7852af6eba97fc7ca2e1735172de284dce9e5873fa0d9b22d4d",
+      "lifecycle-evidence/source-fetch-report.json": "9ab8a4c78b71385979759cf9d70f97b6532bdd20676826bab5d45517e006296b",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3900088a5318a1255da8abcf0687c5064127afde853973cfc41a4734b62f9488",
+      "lifecycle-evidence/source-link-fetch-report.json": "45525470e1e6bef3c9cc1bec4f4b0123f37e0ebb855bf1331d395831a49e3e20",
+      "lifecycle-evidence/sources.json": "cb3550a35f0c6af9255e9417a31b9bb5e5bce81dae4b4e0cc5bd19dcda9b1c71"
+    },
+    "legacy_research_sha256": "3e0437f0659ae6de89eb92df21db6b60af9a0e806b4c020a98e0c577ec692796",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:19:01.357686+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

@@ -2,87 +2,46 @@
   "topic_id": "agri-15439ad51313",
   "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "بادام‌زمینی (پوست‌دار خشک / dry pods)",
+  "product_definition": "بادام‌زمینی (پوست خشک/پود)",
   "slug": "peanut-yield-range-factors",
   "outline": [
     "تعریف محصول و دامنه عملکرد",
-    "مشاهدات مستند عملکرد",
     "عوامل مستند تغییر عملکرد",
-    "کاربرد و محدودیت نتایج"
+    "محدودیت‌های جغرافیایی و تجاری مشاهده‌ها"
   ],
   "facts": [
     {
       "kind": "source_observation",
-      "claim": "عملکرد بادام‌زمینی بر پایه پوست خشک در مینسوتا تحت آبیاری شن ۱۸۷۰ پوند در هر آکر ثبت شد.",
-      "conditions": "آزمایش مینسوتا، خاک شن آبیاری‌شده، فصل ۱۹۸۱-۱۹۸۲",
-      "evidence_id": "d0-e19",
-      "numeric_bindings": [
-        {
-          "value": "1870",
-          "unit_quote": "1870 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods"
-        }
-      ]
+      "claim": "عملکرد بادام‌زمینی بر پایه پوست (پود) خشک اندازه‌گیری می‌شود، نه پایه دانه.",
+      "conditions": "سیاست سنجش عملکرد در بازارهای تولیدکننده تا فرآوری‌کننده، مینسوتا و ویسکانسین",
+      "evidence_id": "d0-e10",
+      "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "در هانکاک ویسکانسین، میانگین عملکرد ۲۶۸۴ پوند پوست خشک در هر آکر بود.",
-      "conditions": "مزرعه هانکاک، ویسکانسین، ۱۹۷۶، کشت می ۱۵، برداشت اکتبر ۷",
-      "evidence_id": "d0-e25",
-      "numeric_bindings": [
-        {
-          "value": "2684",
-          "unit_quote": "Average Yield 2 Pounds of dry pods/acre",
-          "geographic_scope": "Hancock, Wisconsin, USA",
-          "product_scope": "dry peanut pods"
-        }
-      ]
+      "claim": "انواع اسپانیایی زودرس‌تر (۹۰ تا ۱۲۰ روز) از انواع رایانر و ویرجینیا (۱۳۰ تا ۱۵۰ روز) بلوغ می‌یابند.",
+      "conditions": "انتخاب رقم بر پایه طول فصل رشد و نوع خاک، مینسوتا و ویسکانسین",
+      "evidence_id": "d0-e22",
+      "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "کاشت زودهنگام (اوایل آوریل تا اوایل مه) در خاک شن آبیاری‌شده، عملکرد ۱۸۴۰ پوند در هر آکر تولید کرد؛ کاشت دیرتر (ژوئن) به ۱۱۷۰ پوند کاهش یافت.",
-      "conditions": "آزمایش مینسوتا، خاک شن آبیاری‌شده، مقایسه تاریخ کاشت ۱۹۸۱-۱۹۸۲",
-      "evidence_id": "d0-e15",
-      "numeric_bindings": [
-        {
-          "value": "1840",
-          "unit_quote": "1840 lb Pods/acre April 29 – May 6 Irrigated Sand",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods"
-        },
-        {
-          "value": "1170",
-          "unit_quote": "1170 lb Pods/acre June 1 – June 2 Irrigated Sand",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods"
-        }
-      ]
+      "claim": "خاک سبک و شنی با زهکش مناسب برای نفوذ بهتر ریشه و پگ، جمع‌آوری محصول آسان‌تر و کاهش تلفات برداشت مناسب‌تر است.",
+      "conditions": "شرایط خاک در تولید بادام‌زمینی، مینسوتا و ویسکانسین",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "فاصله ردیف ۱۸ اینچی در مقایسه با ۳۰ اینچی، عملکرد بیشتری در خاک گِل‌رسیبه و شن آبیاری‌شده نشان داد.",
-      "conditions": "آزمایش مینسوتا، خاک گِل‌رسیبه و شن آبیاری‌شده، ۱۹۸۱-۱۹۸۲",
-      "evidence_id": "d0-e19",
-      "numeric_bindings": [
-        {
-          "value": "18",
-          "unit_quote": "Row Spacing 18 in. Silt Loam 1580 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods"
-        },
-        {
-          "value": "30",
-          "unit_quote": "Row Spacing 30 in. Silt Loam 1370 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods"
-        }
-      ]
+      "claim": "دوره گل‌دهی بحرانی‌ترین زمان برای آبیاری در بادام‌زمینی است.",
+      "conditions": "تحقیقات انتاریو، کانادا",
+      "evidence_id": "d0-e12",
+      "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "آبیاری خاک شن در مینسوتا طی ۶ سال، میانگین عملکرد را ۱۰۰۰ تا ۱۴۵۰ پوند در هر آکر افزایش داد.",
-      "conditions": "آزمایش دانشگاه مینسوتا، خاک شن، دوره ۶ ساله",
+      "claim": "آبیاری خاک شن در مینسوتا طی ۶ سال، میانگین عملکرد را ۱۰۰۰ تا ۱۴۵۰ پوند پوست خشک در هر آکر افزایش داد.",
+      "conditions": "آزمایش دانشگاه مینسوتا، خاک شن آبیاری‌شده",
       "evidence_id": "d0-e12",
       "numeric_bindings": [
         {
@@ -100,31 +59,44 @@
       ]
     },
     {
-      "kind": "qualitative",
-      "claim": "زمان بحرانی مصرف آب در بادام‌زمینی دوره گل‌دهی است.",
-      "conditions": "تحقیق انتاریو، کانادا",
-      "evidence_id": "d0-e12",
-      "numeric_bindings": []
-    },
-    {
       "kind": "source_observation",
-      "claim": "نوع اسپانیایی (A-114) در ویسکانسین بالاترین عملکرد ۳۱۰۰ پوند پوست خشک در هر آکر را ثبت کرد.",
+      "claim": "در ویسکانسین، نوع اسپانیایی A-114 بالاترین عملکرد را با ۳۱۰۰ پوند پوست خشک در هر آکر ثبت کرد.",
       "conditions": "مزرعه هانکاک، ویسکانسین، ۱۹۷۶",
       "evidence_id": "d0-e25",
       "numeric_bindings": [
         {
           "value": "3100",
-          "unit_quote": "A-114 Spanish Yield 2 3100 Pounds of dry pods/acre",
+          "unit_quote": "A-114 Spanish Yield 3100 Pounds of dry pods/acre",
           "geographic_scope": "Hancock, Wisconsin, USA",
           "product_scope": "dry peanut pods"
         }
       ]
     },
     {
-      "kind": "qualitative",
-      "claim": "عملکرد و قیمت مزارع بر پایه پوست (pod) محاسبه می‌شود نه پایه دانه.",
-      "conditions": "سیاست سنجش عملکرد بادام‌زمینی",
-      "evidence_id": "d0-e10",
+      "kind": "source_observation",
+      "claim": "دمای حداقل ۵۶ درجه فارنهایت برای رشد لازم است و ۸۶ درجه بهینه گزارش شده.",
+      "conditions": "الزامات دمایی بادام‌زمینی در ایالت‌های شمالی آمریکا",
+      "evidence_id": "d0-e11",
+      "numeric_bindings": [
+        {
+          "value": "56",
+          "unit_quote": "56 o F",
+          "geographic_scope": "northern USA",
+          "product_scope": "peanut growth"
+        },
+        {
+          "value": "86",
+          "unit_quote": "86 o F",
+          "geographic_scope": "northern USA",
+          "product_scope": "peanut growth"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آبیاری در همه سال‌ها افزایش قابل‌توجهی در عملکرد ایجاد نکرد و هزینه آبیاری ممکن است مزیت اقتصادی تولید زیردامنه داشته باشد.",
+      "conditions": "مطالعات مینسوتا، خاک شن",
+      "evidence_id": "d0-e12",
       "numeric_bindings": []
     }
   ]

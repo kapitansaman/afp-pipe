@@ -1,6 +1,6 @@
 {
-  "all_claims_supported": true,
-  "crop_species_and_product_match": true,
+  "all_claims_supported": false,
+  "crop_species_and_product_match": false,
   "answers_exact_intent": false,
   "units_and_denominators_correct": true,
   "geography_and_transfer_limits_retained": true,
@@ -10,7 +10,7 @@
   "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "تمام شواهد از سه مؤسسه ترویجی دانشگاهی آمریکا (UMD, UMN, MSU) استخراج شده‌اند؛ هیچ منبع ایرانی یا منطقه‌ای یافت نشد. عمق کاشت در منابع اصلی به صورت 'حدود ۱ اینچ' (تقریبی ~۲.۵ سانتی‌متر) یا '۲ تا ۳ برابر قطر دانه' بیان شده و هیچ مقدار دقیق عددی برای پینتوی خشک ارائه نگردیده است. عمق ۲-۳ برابر قطر دانه برای کل خانواده Phaseolus vulgaris (از جمله لیماما و اسنپ بีน) بیان عمومی است و اختصاصاً برای کلاس بازاری پینتو تصدیق نشده است. جهت‌گیری هیلوم-روبه-پایین در UMD صراحتاً برای لوبیای لیماما (lima bean) به عنوان استثنا ذکر شده و تعمیم آن به لوبیا چیتی بدون تصدیق مستقل است. هیچ تقویم کشت، دمای خاک، یا نرخ بذر بومی ایران استخراج نشد.",
+  "limitations": "منابع اصلی از آمریکا (UMD/UMN/MSU Extension) هستند و صرفاً برای لوبیای معمولی (Phaseolus vulgaris) به‌صورت عمومی راهنمایی کرده‌اند؛ هیچ‌یک عمق کاشت اختصاصی برای «لوبیا چیتی/پینتو» (dry pinto bean) ارائه نکرده‌اند. ادعای f3 قاعده‌ای که منبع صرفاً برای «لوبیای لیمایی» بیان کرده را به‌طور ضمنی برای تمام لوبیاها تعمیم داده است. ادعای f5 محصول را «لوبیا» عنوان کرده درحال‌حال‌که منبع MSU بیشتر درباره snap/common bean بافت خاک و crust formation است و دقیقاً «پینتو خشک» نیست. هیچ برآورد عددی عمق کاشت (مثلاً اینچ یا سانتی‌متر) صرفاً در منبع UMN برای common/dry bean آمده؛ UMD فقط ضریب نسبی ۲-۳ برابر قطر را بیان کرده. ترجمه مفهومی از شرایط آلمان غربی و مینه‌سوتا به ایران بدون بررسی انتقال مجاز نیست.",
   "fact_checks": [
     {
       "fact_id": "f0",
@@ -40,9 +40,7 @@
     {
       "fact_id": "f5",
       "supported": true,
-      "scope_and_units_correct": true
+      "scope_and_units_correct": false
     }
-  ],
-  "research_route_version": "full-queue-research-routes-v1",
-  "route_requirements_met": false
+  ]
 }

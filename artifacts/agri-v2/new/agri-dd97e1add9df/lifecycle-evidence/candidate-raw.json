@@ -2,61 +2,13 @@
   "topic_id": "agri-dd97e1add9df",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی (Phaseolus vulgaris L., پینتو)، محصول خشک‌دانه در مزرعه",
-  "slug": "pinto-dry-bean-water-stress-sensitivity-growth-stages",
+  "product_definition": "لوبیا چیتی (فازئولوس واگواریس ل، بازار کلاس پینتو، محصول خشک)",
+  "slug": "pinto-dry-bean-water-stress-stages",
   "outline": [
-    "شکاف شواهد: عدم وجود مراحل رشد حساس به کم‌آبی به‌صورت مرحله‌ای برای لوبیا چیتی",
-    "یافته‌های عمومی درباره رطوبت و تنش گرمایی در لوبیای خشک",
-    "حدود کاربرد شواهد موجود و عدم تعمیم به تجویز محلی"
+    "حساسیت کلی لوبیا به تنش خشکی در مرحله تولید مثل",
+    "مشاهده کیفیت غلاف و تخم تحت شرایط گرم و خشک",
+    "روش‌های عمومی مدیریت رطوبت خاک در باغ خانگی"
   ],
-  "facts": [
-    {
-      "kind": "source_observation",
-      "claim": "هر دو حالت-too much و too little moisture باعث ریزش گل و دانه‌های کوچک در لوبیا می‌شود.",
-      "conditions": "منبع: Mississippi State University Extension; محصول: بohn عام (Phaseolus vulgaris)، شامل لوبیای خشک؛ جغرافیا: ایالات متحده; محدودیت: آستانه مرحله‌ای حساسیت به کم‌آبی برای لوبیای پینتو ارائه نشده است.",
-      "evidence_id": "d0-e1",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "در معرض دمای بسیار بالای تابستان و خاک‌های خشک قرار گرفتن باعث ریزش گل‌ها و دانه‌های کوچک می‌شود.",
-      "conditions": "منبع: Mississippi State University Extension; محصول: بohn عام; جغرافیا: ایالات متحده; محدودیت: تشدید اثر دما و خشکی به‌صورت کیفی گزارش شده، بدون تفکیک مرحله رشد.",
-      "evidence_id": "d0-e4",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "دمای روز و شب بالا باعث کنسل شدن گل‌ها و کاهش عملکرد می‌شود; هوای گرم همچنین باعث گرده‌افشانی ضعیف، تعداد غلاف کمتر و دانه‌های کوچک‌تر می‌گردد.",
-      "conditions": "منبع: University of Minnesota Extension; محصول: Phaseolus vulgaris; جغرافیا: مینه‌سوتا، ایالات متحده; محدودیت: بیان کیفی اثر دما، بدون معیار تصمیم‌گیری آبیاری مرحله‌به‌مرحله.",
-      "evidence_id": "d2-e21",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "لوبیاهای کشت‌شده در خاک‌های نگهدارنده رطوبت ممکن است نیاز به آبیاری جز در هوای خشک نداشته باشند، اما در خاک‌های شنی آبیاری مکرر لازم است; یک اینچ بارش در هفته مناسب است و یک اینچ آب خاک شنی را تا عمق ده اینچ و خاک رسی سنگین را تا شش اینچ مرطوب می‌کند.",
-      "conditions": "منبع: University of Minnesota Extension; محصول: Phaseolus vulgaris; جغرافیا: مینه‌سوتا، ایالات متحده; محدودیت: توصیه عمومی آبیاری باغی، بدون تفکیک حساسیت مرحله رشد یا آستانه بحرانی برای لوبیای پینتو.",
-      "evidence_id": "d2-e15",
-      "numeric_bindings": [
-        {
-          "value": "one inch",
-          "unit_quote": "One inch of rainfall per week",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "Phaseolus vulgaris (common bean, general)"
-        },
-        {
-          "value": "ten inches",
-          "unit_quote": "wet a sandy soil to a depth of ten inches",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "Phaseolus vulgaris (common bean, general)"
-        },
-        {
-          "value": "six inches",
-          "unit_quote": "a heavy clay soil to six inches",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "Phaseolus vulgaris (common bean, general)"
-        }
-      ]
-    }
-  ],
-  "insufficiency_reason": "منابع موجود only بیان‌های کیفی کلی درباره اثر رطوبت ناکافی و دمای بالا بر ریزش گل و غلاف در Phaseolus vulgaris ارائه می‌دهند; هیچ منبع مرحله‌به‌مرحله‌ای حساسیت رشد لوبیا چیتی به کم‌آبی، آستانه دمایی/رطوبتی اندازه‌گیری‌شده، معیار اولویت‌بندی آبیاری بر اساس سن رشد، یا داده‌های ورودی آب/خاک اندازه‌گیری‌شده با واحدهای مرتبط برای این محصول خاص فراهم نکرده است. شواهد موجود نمی‌توانند عنوان «مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد» را پوشش دهند."
+  "facts": [],
+  "insufficiency_reason": "هیچ منبع موجود مرحله‌به‌مرحله‌ای حساسیت رشد لوبیا چیتی به کم‌آبی، آستانه دمایی یا رطوبتی اندازه‌گیری‌شده، معیار اولویت‌بندی آبیاری بر اساس سن رشد، یا داده‌های ورودی آب/خاک اندازه‌گیری‌شده با واحدهای مرتبط برای این محصول خاص فراهم نکرده است. منابع موجود تنها بیان‌های کیفی کلی درباره اثر رطوبت ناکافی و دمای بالا بر ریزش گل و غلاف در Phaseolus vulgaris ارائه می‌دهند; شواهد موجود نمی‌توانند عنوان «مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد» را پوشش دهند."
 }

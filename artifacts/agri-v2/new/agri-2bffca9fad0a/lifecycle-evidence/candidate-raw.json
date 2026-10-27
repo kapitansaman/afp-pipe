@@ -2,62 +2,114 @@
   "topic_id": "agri-2bffca9fad0a",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی (پروتئین‌دار) — محصول برداشت‌شده: دانه خشک لوبیا رایج Phaseolus vulgaris L.، طبقه بازارdry edible/پروتئینی",
-  "slug": "pinto-dry-bean-irrigation-soil-moisture",
+  "product_definition": "لوبیا چیتی (پاینٹو خشک بون، فازئولوس ولاگاریس، مارکت کلاس درای بون)",
+  "slug": "pinto-dry-bean-irrigation-interval-soil-moisture-decision",
   "outline": [
-    "ورودی‌های اندازه‌گیری‌شده (مقدار آب، عمق نفوذ بر اساس بافت خاک)",
-    "منطق تصمیم و واحدها (نیاز به سنسور رطوبت خاک و آستانه‌های مرحله رشد)",
-    "پایش مزرعه یا شبکه (گسترهٔ شواهد: مدیریت کلی آبیاری نه برنامه‌ریزی مبتنی بر رطوبت‌سنج)",
-    "خطاها و حدود کاربرد (نبود آستانهٔ عملیاتی سنجش رطوبت خاک برای لوبیا چیتی)"
+    "ورودی‌های اندازه‌گیری‌شده و ملاحظات عمومی آبیاری لوبیا",
+    "حدود شواهد: چه منبعی موجود نیست",
+    "خطاهای رایج در ترجمه یا تعمیم روش آبیاری"
   ],
   "facts": [
     {
       "kind": "source_observation",
-      "claim": "در خاک‌های حفظ‌کنندهٔ رطوبت، لوبیا ممکن است فقط در شرایط خشک به آبیاری نیاز داشته باشد؛ در خاک‌های شنی آبیاری مکرر ضروری است.",
-      "conditions": "جامعهٔ گیاهی Phaseolus vulgaris (لوبیای رایج) — دانشگاه مینه‌سوتا، منطقهٔ مینه‌سوتا/امریکای شمالی؛ محدوده: مدیریت کلی آبیاری، نه سنسور رطوبت خاک؛ محصول: گیاه زنده در مزرعه (نه محصول ذخیره‌شده)",
+      "claim": "لوبیا در خاک‌های با حفظ رطوبت بیشتر ممکن است فقط در وضعیت‌های خشک نیاز به آبیاری داشته باشد؛ خاک‌های شنی نیاز به آبیاری مکرر دارند.",
+      "conditions": "منبع: دانشگاه مینه‌سوتا اکستنشن. جغرافیا: ایالت مینه‌سوتا، آمریکا. محصول: فازئولوس ولاگاریس (common bean) — شامل اسنپ بون، شلینگ بون و دای بون. سامانه: باغ خانگی. این بخش «Watering» تحت راهنمای کلی کشت لوبیا در خانه قرار دارد، نه یک روش تصمیم‌گیری مبتنی بر سنجش رطوبت خاک.",
       "evidence_id": "d2-e14",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "یک اینچ باران یا آبیاری در هفته کافی دانسته می‌شود؛ یک اینچ آب خاک شنی را تا عمق ده اینچ و خاک رسی سنگین را تا عمق شش اینچ مرطوب می‌کند.",
-      "conditions": "جامعهٔ گیاهی Phaseolus vulgaris (لوبیای رایج) — دانشگاه مینه‌سوتا، منطقهٔ مینه‌سوتا/امریکای شمالی؛ واحد: اینچ (inch)/عمق نفوذ؛ محصول: گیاه زنده در مزرعه (نه محصول ذخیره‌شده)",
-      "evidence_id": "d2-e15",
       "numeric_bindings": [
         {
-          "value": "1",
-          "unit_quote": "one inch of rainfall per week",
-          "geographic_scope": "Minnesota / North America",
-          "product_scope": "common bean field crop (living)"
+          "value": "one inch",
+          "unit_quote": "One inch of rainfall per week is good",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "Phaseolus vulgaris (snap/shelling/dry bean), home garden context"
         },
         {
-          "value": "10",
-          "unit_quote": "ten inches",
-          "geographic_scope": "Minnesota / North America",
-          "product_scope": "sandy soil wetting depth"
+          "value": "ten inches",
+          "unit_quote": "An inch of water will wet a sandy soil to a depth of ten inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "Phaseolus vulgaris, sandy soil"
         },
         {
-          "value": "6",
-          "unit_quote": "six inches",
-          "geographic_scope": "Minnesota / North America",
-          "product_scope": "heavy clay soil wetting depth"
+          "value": "six inches",
+          "unit_quote": "a heavy clay soil to six inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "Phaseolus vulgaris, heavy clay soil"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "هم آبیاری بیش از حد و هم کم‌آبیاری باعث ریزش گل و مقوا (pods) کوچک می‌شود.",
-      "conditions": "جامعهٔ گیاهی Phaseolus vulgaris (لوبیای رایج) — دانشگاه ایالت میسی‌سی‌پی، منطقهٔ ایالات متحده؛ محدودیت: مشاهده کیفی، فاقد آستانه عددی رطوبت خاک؛ محصول: مرحله گل‌دهی/مقوا",
+      "claim": "آبیاری باید تا عمق مناسب نفوذ کند؛ با استفاده از بیل دستی (trowel) می‌توان عمق خیس‌خوردگی خاک را بررسی کرد.",
+      "conditions": "منبع: دانشگاه مینه‌سوتا اکستنشن. هدف: ارزیابی خیس‌خوردگی پس از آبیاری، نه تعیین آستانه عملیاتی رطوبت خاک برای شروع آبیاری. محصول: فازئولوس ولاگاریس.",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "an inch or two",
+          "unit_quote": "If it is only an inch or two, keep the water running",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "Phaseolus vulgaris field"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "رطوبت ناسالم (کم یا زیاد) باعث ریزش گل و میوه و تولید غلاف کوچک می‌شود.",
+      "conditions": "منبع: دانشگاه ایالت میسیسیپی اکستنشن. محصول: all garden beans (فازئولوس ولاگاریس). این یک مشاهده کیفی اثر رطوبت بر محصول است، نه معیار تصمیم‌گیری آبیاری مبتنی بر سنسور یا درصد رطوبت خاک.",
       "evidence_id": "d0-e1",
       "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "در معرض دمای بسیار بالا و خاک‌های خشک قرار گرفتن، باعث ریختن گل‌ها و مقوای کوچک می‌شود.",
-      "conditions": "لوبیای رونده (pole snap bean) — دانشگاه ایالت میسی‌سی‌پی، منطقهٔ ایالات متحده؛ محدودیت: مشاهده کیفی، فاقد آستانه عددی رطوبت خاک؛ محصول: مرحله گل‌دهی/مقوا",
-      "evidence_id": "d0-e4",
+      "claim": "آبیاری بیش از حد یا کم‌آبی در شرایط گرمای شدید تابستان هر دو موجب ریزش گل و غلاف کوچک می‌شوند.",
+      "conditions": "منبع: دانشگاه ایالت میسیسیپی اکستنشن. جغرافیا: جنوب آمریکا. محصول: garden beans. سامانه: with summer high temperatures. این همان مشاهده کیفی تکراری است که در بخش بیماری/اختلال آمده، نه آستانه آستانه‌سنجی رطوبت خاک.",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دانشگاه نبراسکا اکستنشن درباره برداشت مستقیم بون خشک (پاینٹو، گریت نورثرن) منتشر کرده، اما هیچ متن آبیاری مبتنی بر رطوبت خاک ارائه نمی‌دهد.",
+      "conditions": "منبع: PREC و CropWatch دانشگاه نبراسکا. محصول: pintos و great northerns (dry edible beans). سامانه: direct harvest در پان‌هاندل نبراسکا. محتوای مربوط به تلفات برداشت و ارتفاع غلاف، نه برنامه‌ریزی آبیاری.",
+      "evidence_id": "d3-e3",
+      "numeric_bindings": [
+        {
+          "value": "3 bushels per acre",
+          "unit_quote": "direct harvest losses would average about 3 bushels per acre for pintos",
+          "geographic_scope": "Nebraska Panhandle, USA",
+          "product_scope": "pinto dry bean, direct harvest system"
+        },
+        {
+          "value": "4 bushels per acre",
+          "unit_quote": "about 4 bushels per acre for great northerns",
+          "geographic_scope": "Nebraska Panhandle, USA",
+          "product_scope": "great northern dry bean, direct harvest system"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "واشینگتن استیت اکستنشن درباره خشک‌کردن، خرمن‌کوبی و تمیز کردن بون خشک در مقیاس کوچک صحبت کرده، نه درباره آبیاری.",
+      "conditions": "منبع: Washington State University Extension. سامانه: small-scale dry bean post-harvest. جغرافیا: western Washington. محصول: dry beans. محتوای مرتبط با drying/threshing/cleaning است، نه irrigation scheduling.",
+      "evidence_id": "d4-e0",
+      "numeric_bindings": [
+        {
+          "value": "three days",
+          "unit_quote": "three days of hot, sunny weather was sufficient to dry the pile",
+          "geographic_scope": "western Washington, USA",
+          "product_scope": "dry bean (Phaseolus vulgaris), post-harvest drying"
+        },
+        {
+          "value": "1–2 times",
+          "unit_quote": "We turned the plants 1–2 times each day to facilitate drying",
+          "geographic_scope": "western Washington, USA",
+          "product_scope": "dry bean post-harvest"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "هیچ‌یک از منابع ارائه‌شده آستانه عملیاتی سنجش رطوبت خاک (درصد رطوبت هدف، ولتاژ سنسور، یا نقطه پژمردهگی) را برای مرحله رشد مشخص‌شده لوبیا چیتی توصیف نمی‌کنند.",
+      "conditions": "شواهد: تمام ۷ منبع بررسی‌شده (MSU Extension, UMD Extension, UMN Extension, UNL PREC/CropWatch, WSU Extension) درباره کشت کلی لوبیا، برداشت مستقیم دای بون، یا پس از برداشت صحبت کرده‌اند. هیچ‌کدام روش تصمیم‌گیری مبتنی بر اندازه‌گیری مستقیم رطوبت خاک به جای تقویم ثابت را ارائه نداده‌اند.",
+      "evidence_id": "d2-e14",
       "numeric_bindings": []
     }
-  ],
-  "insufficiency_reason": "منابع موجود مدیریت کلی آبیاری لوبیای رایج (Phaseolus vulgaris) را ارائه می‌دهند: مقدار آب هفتگی و عمق نفوذ بر بافت خاک (یک اینچ در هفته، ده اینچ در خاک شنی، شش اینچ در خاک رسی سنگین). اما هیچ منبعی آستانه عملیاتی سنجش رطوبت خاک (مثلاً درصد رطوبت هدف، ولتاژ سنسور، یا نقطه پژمردهگی) را برای مرحله رشد مشخص‌شده لوبیا چیتی ارائه نمی‌دهد و هیچ روش تصمیم‌گیری مبتنی بر اندازه‌گیری مستقیم رطوبت خاک به جای تقویم ثابت موجود نیست. عنوان صراحتاً «تصمیم‌گیری با رطوبت خاک» را درخواست می‌کند؛ شواهد فقط به مقدار آبیاری و اثرات کیفی خشکی/آب‌بیشینه می‌پردازند."
+  ]
 }

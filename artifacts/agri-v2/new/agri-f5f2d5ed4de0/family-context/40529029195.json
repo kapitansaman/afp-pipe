@@ -1,0 +1,17 @@
+{
+  "family_id": "family-14",
+  "topic_id": "agri-f5f2d5ed4de0",
+  "title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+  "title_sha256": "3cfb3271309cec07b1fe39361c6ede9b56e9b2ba83bb2d876ff407b3fd245563",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY53",
+    "AGNES_API_KEY54",
+    "AGNES_API_KEY55",
+    "AGNES_API_KEY56"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

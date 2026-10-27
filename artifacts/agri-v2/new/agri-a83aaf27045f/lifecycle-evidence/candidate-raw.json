@@ -1,90 +1,84 @@
 {
   "topic_id": "agri-a83aaf27045f",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی",
-  "slug": "first-water-pinto-dry-bean-after-sowing-moisture-management",
+  "product_definition": "لوبیا چیتی — دانه خشکِ زنده Phaseolus vulgaris L., بازار کلاس pinto",
+  "slug": "first-water-pinto-dry-bean",
   "outline": [
-    "وضعیت شواهد برای مدیریت رطوبت پس از کاشت",
-    "محدوده محصول و منطقه شواهد",
-    "کمبود معیار اندازه‌گیری‌شده برای اولین آبیاری"
+    "شرایط خاک و دانه پس از کاشت",
+    "زمان‌بندی کیفی اولین آبیاری بر پایه پایش رطوبت",
+    "میزان و عمق نفوذ آبیاری پایه",
+    "خطاها و هشدارهای اجرایی"
   ],
   "facts": [
     {
       "kind": "qualitative",
-      "claim": "دانه‌های لوبیا در خاک سرد و مرطوب مستعد پوسیدگی هستند و جوانه‌زنی در خاک‌های رسی یا فشرده ضعیف است.",
-      "conditions": "منطقه: ایالات متحده؛ محصول: لوبیا چیتی/لوبیا خشک معمولی؛ واحد: کیفی؛ محدودیت: بیانیه عمومی جوانه‌زنی، بدون معیار کمی برای زمان یا مقدار اولین آبیاری",
+      "claim": "دانه لوبیای چیتی در خاک سرد و مرطوب مستعد پوسیدگی است؛ دمای خاک باید برای جوانه‌زنی کافی گرم باشد.",
+      "conditions": "دانه لوبیا چیتی Phaseolus vulgaris L.، مرحله پس از کاشت، اقلیم‌های سرد و خنک; محصول: دانه زنده در خاک",
       "evidence_id": "d0-e0",
       "numeric_bindings": []
     },
     {
-      "kind": "qualitative",
-      "claim": "هم آبیاری بیش از حد و هم کم می‌تواند باعث ریزش گل و بقایای کوچک در لوبیا شود.",
-      "conditions": "منطقه: ایالات متحده (دکوتری میسیسیپی)؛ محصول: لوبیا (عمومی)؛ واحد: کیفی؛ محدودیت: تعیین‌کننده زمان یا مقدار آبیاری پس از کاشت نیست",
+      "kind": "source_observation",
+      "claim": "کمبود رطوبت در خاک باعث ریزش گل و بوته کوچک در لوبیا می‌شود.",
+      "conditions": "لوبیا (Phaseolus vulgaris L.)، منطقه میسیسیپی ایالت متحده; محصول: رشد رویشی و زایشی",
       "evidence_id": "d0-e1",
       "numeric_bindings": []
     },
     {
-      "kind": "qualitative",
-      "claim": "خاک‌های کلوخه‌ای و فشرده با بافت رسی بالا جوانه‌زنی و سبزشدن بذر را مختل می‌کنند.",
-      "conditions": "منطقه: ایالات متحده (دکوتری مریلند)؛ محصول: سبزیجات عمومی شامل لوبیا؛ واحد: کیفی؛ محدودیت: ویژگی ساختار خاک، نه معیار تصمیم‌گیری آبیاری",
-      "evidence_id": "d1-e4",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "بذر لوبیا در خاک سرد و خیس می‌پوسد و رطوبت یکنواخت بستر بذر برای جوانه‌زنی لازم است.",
-      "conditions": "منطقه: ایالات متحده (دکوتری مریلند)； محصول: لوبیا؛ واحد: کیفی； محدودیت: تکرار هشدار رطوبت زائد، بدون معیار اجرایی برای اولین آبیاری",
-      "evidence_id": "d1-e8",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "لوبیاهای کشت‌شده در خاک‌های با حفظ رطوبت بیشتر ممکن است به آبیاری جز در شرایط خشک نیاز داشته باشند، در حالی که کشت‌شده در خاک‌های شنی به آبیاری مکرر نیاز دارند.",
-      "conditions": "منطقه: ایالات متحده (دکوتری مینه‌سوتا)； محصول: لوبیای باغی/لوبیا خشک معمولی； واحد: کیفی؛ محدودیت: راهنمای کلی باغی، نه دستورالعمل کمی لوبیا چیتی",
+      "kind": "source_observation",
+      "claim": "آبیاری کلی لوبیا در شرایط خشک حدود یک اینچ آب در هفته توصیه شده است.",
+      "conditions": "لوبیا باغی، مینه‌سوتا ایالت متحده; محصول: رشد گیاه زنده; منبع: راهنمای پرورش در مزرعه/باغ دانشگاهی",
       "evidence_id": "d2-e14",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "یک اینچ بارندگی در هفته خاک شنی را تا عمق ده اینچ و خاک رسی سنگین را تا عمق شش اینچ مرطوب می‌کند.",
-      "conditions": "منطقه: ایالات متحده (دکوتری مینه‌سوتا)； محصول: لوبیای باغی/لوبیا خشک معمولی； واحد: یک اینچ در هفته، ده اینچ، شش اینچ؛ محدودیت: معیار کلی باغی، نه محدوده ریشه لوبیا چیتی و نه محرک آبیاری پس از کاشت",
-      "evidence_id": "d2-e15",
       "numeric_bindings": [
         {
           "value": "one inch",
-          "unit_quote": "One inch of rainfall per week",
-          "geographic_scope": "Minnesota, United States",
-          "product_scope": "Garden beans (general), including dry beans"
-        },
-        {
-          "value": "ten inches",
-          "unit_quote": "a sandy soil to a depth of ten inches",
-          "geographic_scope": "Minnesota, United States",
-          "product_scope": "Garden beans (general), including dry beans"
-        },
-        {
-          "value": "six inches",
-          "unit_quote": "a heavy clay soil to six inches",
-          "geographic_scope": "Minnesota, United States",
-          "product_scope": "Garden beans (general), including dry beans"
+          "unit_quote": "One inch of rainfall per week is good.",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "garden beans (Phaseolus vulgaris L.)"
         }
       ]
     },
     {
-      "kind": "qualitative",
-      "claim": "استفاده از کلنگ دستی برای بررسی عمق مرطوب شدن خاک توصیه می‌شود.",
-      "conditions": "منطقه: ایالات متحده (دکوتری مینه‌سوتا)؛ محصول: لوبیای باغی/لوبیا خشک معمولی؛ واحد: کیفی؛ محدودیت: ابزار پایش کیفی، بدون محدوده ریشه یا آستانه رطوبت لوبیا چیتی",
+      "kind": "source_observation",
+      "claim": "یک اینچ آب در خاک شنی تا عمق ده اینچ و در خاک رس سنگین تا عمق شش اینچ نفوذ می‌کند.",
+      "conditions": "لوبیا، خاک‌های شنی و رس سنگین، مینه‌سوتا ایالت متحده; محصول: رشد گیاه زنده",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "ten inches",
+          "unit_quote": "An inch of water will wet a sandy soil to a depth of ten inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "soil wetting under beans"
+        },
+        {
+          "value": "six inches",
+          "unit_quote": "a heavy clay soil to six inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "soil wetting under beans"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برای تعیین میزان نفوذ آب از کلنگ استفاده شود و در صورت ناکافی بودن عمق مرطوب‌شدگی، آبیاری ادامه یابد.",
+      "conditions": "لوبیا، مینه‌سوتا ایالت متحده; محصول: پایش رطوبت خاک پس از آبیاری پایه",
       "evidence_id": "d2-e15",
       "numeric_bindings": []
     },
     {
+      "kind": "source_observation",
+      "claim": "پوسیدگی بذر و مریضی‌های قارچی مانند damping-off در خاک‌های فقیر، مرطوب و سرد گسترده می‌شوند.",
+      "conditions": "باقلاجات، خاک‌های بدون زهکشی، هوای خنک و بارانی بهار; محصول: بذر و ریشه اولیه",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
       "kind": "qualitative",
-      "claim": "منابع موجود بر جوانه‌زنی بذر، آبیاری کلی باغی و مدیریت پس از برداشت تمرکز دارند و معیار اندازه‌گیری‌شده‌ای برای اولین آبیاری لوبیا چیتی ارائه نمی‌دهند.",
-      "conditions": "منطقه: ایالات متحده (دکوتری میسیسیپی، مریلند، مینه‌سوتا)； محصول: لوبیا چیتی/لوبیا خشک معمولی； واحد: کیفی； محدودیت: شکاف شواهد برای نیت درخواستی",
+      "claim": "دانه‌های بزرگ مانند لوبیا به دلیل قندهای بیشتر،-pathogenها را جذب می‌کنند و در خاک سرد و خیس زودتر پوسیده می‌شوند.",
+      "conditions": "لوبیا، ذرت، خاک سرد و خیس; محصول: بذر در خاک",
       "evidence_id": "d1-e8",
       "numeric_bindings": []
     }
-  ],
-  "insufficiency_reason": "شواهد موجود معیار اندازه‌گیری‌شده یا قاعده تصمیم‌گیری کمی برای اولین آبیاری لوبیا چیتی پس از کاشت ارائه نمی‌دهد. منابع درباره پوسیدگی بذر در خاک سرد و مرطوب، اجتناب از آبیاری زائد/ناقص، و آبیاری کلی باغی (تقریباً یک اینچ در هفته، پایش با کلنگ) صحبت می‌کنند، اما محدوده ریشه فعال لوبیا چیتی، آستانه رطوبت خاک محلی، یا برنامه زمانی/حجمی اجرایی برای اولین آبیاری پس از کاشت را تأمین نمی‌کنند."
+  ]
 }
