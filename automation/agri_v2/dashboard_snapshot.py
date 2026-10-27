@@ -53,16 +53,23 @@ def build(root,commit='',now=None):
  latest=max(ops,key=lambda x:x[0],default=None);experiment=None
  if latest:
   _,p,r=latest;ident=r.get('topic_id');folder=out/'parallel/writer-verification'/p.parent.name/str(ident)
+  if r.get('request_id')=='ops-role-skills-controlled-launch-v1':folder=out/'new'/str(ident)
   article=read(folder/'article.json');quality=read(folder/'language-quality-status.json');evidence=read(folder/'article-evidence-review.json');tg=read(folder/'translations/tg-TJ.json')
   quality_bound=bool(article) and quality.get('source_article_sha256')==sha(article) and bool(tg) and quality.get('translation_sha256')==sha(tg)
   brief=read(data/'briefs'/(str(ident)+'.json'))
   source_ok=bool(article) and bool(brief) and evidence.get('article_sha256')==sha(article) and evidence.get('brief_sha256')==sha(brief) and all(evidence.get('review',{}).get(k) is True for k in ('all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review'))
-  experiment={'topic_id':ident,'title':article.get('title') or ident or 'آزمون فنی','status':r.get('status'),'at':stamp(r),'run_url':run_url(r),'operation':p.parent.name,'model':r.get('model'),'model_calls':quality.get('model_calls_across_both_runs') if quality_bound else r.get('model_calls'),'published_posts':r.get('published_posts'),'source_reviewed':source_ok,'tajik_quality_pending':quality_bound and quality.get('status')=='experimental_draft_pending_independent_language_quality_check','native_review_done':quality.get('independent_native_language_review_done') is True if quality_bound else None,'image_calls':r.get('image_calls'),'wordpress_calls':r.get('wordpress_calls')}
+  experiment={'topic_id':ident,'title':article.get('title') or r.get('title') or ident or 'آزمون فنی','status':r.get('status'),'at':stamp(r),'run_url':run_url(r),'operation':p.parent.name,'model':r.get('model'),'model_calls':quality.get('model_calls_across_both_runs') if quality_bound else r.get('model_calls'),'published_posts':r.get('published_posts'),'source_reviewed':source_ok,'tajik_quality_pending':quality_bound and quality.get('status')=='experimental_draft_pending_independent_language_quality_check','native_review_done':quality.get('independent_native_language_review_done') is True if quality_bound else None,'image_calls':r.get('image_calls'),'wordpress_calls':r.get('wordpress_calls')}
  canonical=read(out/'parallel/lifecycle/latest.json')
  publications=[]
- for row in [live.get('latest_publication',{})]+live.get('recent_publications',[]):
+ canonical_posts=[]
+ for receipt in (out/'new').glob('*/wordpress-receipt.json'):
+  row=read(receipt);article=read(receipt.parent/'article.json');candidate={**row,'title':article.get('title') or row.get('title')}
+  if verified_post(candidate):canonical_posts.append(candidate)
+ if canonical_posts:published=max(published if type(published)is int else 0,len(canonical_posts))
+ for row in canonical_posts+[live.get('latest_publication',{})]+live.get('recent_publications',[]):
   if verified_post(row) and row['url'] not in {p['url'] for p in publications}:
    publications.append({k:row.get(k) for k in ('title','url','published_at','verified_at','public_verified')})
+ publications.sort(key=lambda r:r.get('published_at') or r.get('verified_at') or '',reverse=True)
  validation=read(out/'parallel/language-review-queue/implementation-validation.json')
  return {'version':2,'generated_at':now.isoformat(),'source':{'branch':BRANCH,'commit':commit},'automation':{'schedule_enabled':life.get('schedule_enabled'),'automatic_generation':cfg.get('automatic_generation'),'legacy_publication_enabled':cfg.get('publication_enabled'),'gated_publisher_enabled':life.get('publication_enabled'),'research_only':life.get('research_only_for_scoped_rollout'),'independent_languages':cfg.get('multilingual',{}).get('independent_publication'),'configured_workers':policy.get('max_article_workers')},'metrics':{'total':total,'remaining':max(total-published,0) if type(total)is int and type(published)is int else None,'published':published,'published_as_of':live.get('updated_at'),'merge':counts.get('merge'),'hold':counts.get('hold'),'review_waiting':sum(r['status'] not in ('published','approved') for r in reviews),'review_approved':sum(r['status']=='approved' for r in reviews),'assigned':len(families)},'health':health_view,'experiment':experiment,'reviews':reviews,'families':families,'publications':publications,'last_lifecycle':{'status':canonical.get('status'),'at':stamp(canonical),'run_url':run_url(canonical),'published_posts':canonical.get('published_posts')},'local_tests':{'passed':validation.get('tests_passed'),'at':validation.get('validated_at'),'live_test':False}}
 
