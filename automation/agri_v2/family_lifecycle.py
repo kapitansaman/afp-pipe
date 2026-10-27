@@ -83,7 +83,10 @@ def next_stage(topic,data=DATA,out=OUT):
   if settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED:
    ev=folder/'lifecycle-evidence'
    if not (ev/'sources.json').exists() or load_json(ev/'sources.json').get('source_text_layout_version',0)<2:return 'research_sources',None
-   if not (ev/'candidate.json').exists():return ('research_validate_saved',None) if (ev/'candidate-raw.json').exists() else ('research_extract',None)
+   if not (ev/'candidate.json').exists():
+    if not (ev/'candidate-raw.json').exists():return 'research_extract',None
+    from .scoped_research import saved_candidate_next
+    return saved_candidate_next(topic,ev)
    from .scoped_research import content_digest
    op=ev/'overlap.json';ib=ev/'existing-content.json'
    if op.exists() and ib.exists() and load_json(op).get('existing_content_sha256')!=content_digest(load_json(ib)):return 'blocked','existing_content_changed_after_audit'
@@ -305,10 +308,11 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    if result['status']=='images_ready':continue
    return dict(result,topic_id=topic['id'],published_posts=0)
   kind='image' if stage.startswith('image-') else 'text'
+  no_model=stage in ('research_sources','research_validate_saved','existing_content_audit_finalize')
   from .recovery import circuit_open
-  if circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
-  if not health.get('eligible_'+kind+'_slots'):return {'status':'capability_required','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
-  client=client_factory(health,allow_calls=True,capabilities=(kind,))
+  if not no_model and circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
+  if not no_model and not health.get('eligible_'+kind+'_slots'):return {'status':'capability_required','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
+  client=None if no_model else client_factory(health,allow_calls=True,capabilities=(kind,))
   # Legacy paid attempts still constrain the new stage system; never reset them.
   old=folder/'cycle-attempts.json'
   if old.exists() and load_json(old).get('attempts',0)>=2:return {'status':'blocked','reason':'legacy_generation_budget_exhausted','topic_id':topic['id'],'steps':steps,'published_posts':0}
