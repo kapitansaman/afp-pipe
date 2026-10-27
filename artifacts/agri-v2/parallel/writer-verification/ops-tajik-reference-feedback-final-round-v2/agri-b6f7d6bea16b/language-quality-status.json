@@ -1,0 +1,33 @@
+{
+  "status": "experimental_draft_pending_independent_language_quality_check",
+  "source_article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
+  "translation_sha256": "c49bb534cbe945b7aeb8776796720827e9d7715c98d8e5938f7ac0a3a44bf18f",
+  "raw_sha256": "151425f07d92b3bc68283b955ed43b5ec9d7c57b4b751c142ed0d30515ed3e00",
+  "reference_defects_repaired_segment_ids": [
+    39,
+    43,
+    49
+  ],
+  "only_requested_edits_changed": true,
+  "reviewer_withdrew_prior_false_approval": true,
+  "automated_fidelity_review_passed": true,
+  "independent_native_language_review_done": false,
+  "publication_authorized": false,
+  "full_family_ready": false,
+  "model_calls_across_both_runs": 7,
+  "authorized_cap": 8,
+  "total_repair_rounds": 2,
+  "no_third_round": "Stop within the agreed two repair rounds; automatic approval is not a native-language quality guarantee. Retain as experimental draft, not production-ready output.",
+  "agent_observed_language_concerns": [
+    {
+      "segment_ids": [
+        39,
+        43,
+        49
+      ],
+      "observed_form": "кштзор",
+      "supplied_glossary_form": "киштзор",
+      "note": "The corrected output still has an orthographic discrepancy against its own supplied agricultural glossary. No independent native-language quality approval is claimed."
+    }
+  ]
+}
