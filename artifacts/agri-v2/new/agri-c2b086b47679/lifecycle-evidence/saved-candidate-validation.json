@@ -1,0 +1,14 @@
+{
+  "dropped_facts": [
+    {
+      "index": 4,
+      "reason": "every_number_requires_unit_and_scope_binding"
+    }
+  ],
+  "metadata_repairs": [],
+  "claims_rewritten": false,
+  "scientific_rejection_overridden": false,
+  "independent_review_still_required": true,
+  "research_route_version": "full-queue-research-routes-v1",
+  "original_candidate_sha256": "d9a36ecee3ae5d0234bf4bd75bedb99a6e2b3c7826fc0837003f04f2bc66be6e"
+}

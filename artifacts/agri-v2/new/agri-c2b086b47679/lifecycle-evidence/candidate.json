@@ -1,0 +1,58 @@
+{
+  "topic_id": "agri-c2b086b47679",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "لوبیا قرمز (Common dry bean, Phaseolus vulgaris)",
+  "slug": "why-red-kidney-bean-seeds-fail-to-germinate",
+  "outline": [
+    "شرایط و تعریف کشت: نیازهای دمایی و خاکی برای بذر لوبیای خشک",
+    "شواهد استقرار: دما، رطوبت و ساختار خاک در سبزشدن بذر",
+    "پایش و تصمیم‌گیری: معیارهای کیفی برای ارزیابی وضعیت کشت",
+    "خطاها و محدودیت انتقال: منابع عمومی Extension برای لوبیا قرمز"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "بذر لوبیا در خاک‌های سرد و نمناک پوسیده و به‌جای سبزشدن از بین می‌رود.",
+      "conditions": "خاک سرد همراه با رطوبت بالا؛ منطقه منابع: ایالت‌های میانه-اطلسی آمریکا؛ محصول: بذر لوبیا (Phaseolus vulgaris)",
+      "evidence_id": "d0-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بذر لوبیا در دمای خاک پایین‌تر از ۵۰ درجه فارنهایت سبز نمی‌شود.",
+      "conditions": "دمای خاک زیر آستانه حرجی؛ منطقه منابع: University of Maryland Extension، ایالات متحده؛ محصول: بذر لوبیا سبزرسته",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": [
+        {
+          "value": "50",
+          "unit_quote": "50° F",
+          "geographic_scope": "US extension regions",
+          "product_scope": "bean seed germination threshold"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های رسی و فشرده مانع خروج هیپوکوتیل شده و سبزشدن را مختل می‌کنند.",
+      "conditions": "خاک سنگین رسی یا فشرده؛ محصول: بذر لوبیا",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "بذر لوبیا به دلیل قند بالا، جذب‌کننده پاتوژن‌های خاکزی است و در شرایط خیس مستعد پوسیدگی پیش از ظهور است.",
+      "conditions": "خاک نمناک و سرد؛ محصول: بذر لوبیا",
+      "evidence_id": "d0-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های سبک شنی اجازه کاشت عمیق‌تر و خاک‌های سنگین رسی نیازمند کاشت سطحی‌تر هستند.",
+      "conditions": "بافت خاک متفاوت؛ محصول: بذر لوبیا",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": []
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

@@ -1,0 +1,20 @@
+{
+  "dropped_facts": [
+    {
+      "index": 1,
+      "reason": "literal_measurement_unit_required"
+    }
+  ],
+  "metadata_repairs": [
+    {
+      "index": 1,
+      "field": "kind",
+      "reason": "numeric_claim_requires_observation_review"
+    }
+  ],
+  "claims_rewritten": false,
+  "scientific_rejection_overridden": false,
+  "independent_review_still_required": true,
+  "research_route_version": "full-queue-research-routes-v1",
+  "original_candidate_sha256": "6221b0bcff0ac169e74d45fb91d97463b909db8ca372c03c68e89015c4d040b8"
+}
