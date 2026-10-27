@@ -1,0 +1,1619 @@
+{
+  "request_id": "ops-97-text-schema-diagnostic-v2",
+  "run_id": "40431194330",
+  "started_at": "2026-10-27T01:13:12.825864+00:00",
+  "status": "diagnostic_completed",
+  "model_calls": 99,
+  "max_total_text_calls": 99,
+  "max_schema_probe_calls": 2,
+  "schema_probes": [
+    {
+      "mode": "baseline_json_object",
+      "slot": "AGNES_API_KEY",
+      "state": "verified",
+      "started_at": "2026-10-27T01:14:44.547326+00:00",
+      "http_status": 200,
+      "elapsed_seconds": 2.106,
+      "completed_at": "2026-10-27T01:14:46.655271+00:00",
+      "response_contract_valid": true
+    },
+    {
+      "mode": "strict_json_schema",
+      "slot": "AGNES_API_KEY",
+      "state": "verified",
+      "started_at": "2026-10-27T01:14:46.658328+00:00",
+      "http_status": 200,
+      "elapsed_seconds": 1.316,
+      "completed_at": "2026-10-27T01:14:47.977040+00:00",
+      "response_contract_valid": true
+    }
+  ],
+  "image_calls": 0,
+  "wordpress_calls": 0,
+  "published_posts": 0,
+  "schedule_activated": false,
+  "attempts_reset": false,
+  "article_attempts_modified": false,
+  "secrets_stored": false,
+  "audit": {
+    "request_id": "ops-97-text-schema-diagnostic-v2",
+    "repository": "kapitansaman/afp-pipe",
+    "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+    "run_id": "40431194330",
+    "started_at": "2026-10-27T01:13:12.848376+00:00",
+    "configured_slots": 97,
+    "unique_credentials": 97,
+    "duplicate_slots": {},
+    "missing_slots": [],
+    "max_text_requests": 97,
+    "max_in_flight": 2,
+    "model_calls": 97,
+    "image_calls": 0,
+    "wordpress_calls": 0,
+    "published_posts": 0,
+    "cases": [
+      {
+        "slot": "AGNES_API_KEY",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:12.850734+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:13.583565+00:00",
+        "elapsed_seconds": 0.731
+      },
+      {
+        "slot": "AGNES_API_KEY2",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:12.852385+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:13.581277+00:00",
+        "elapsed_seconds": 0.728
+      },
+      {
+        "slot": "AGNES_API_KEY3",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:13.582582+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:14.964245+00:00",
+        "elapsed_seconds": 1.38
+      },
+      {
+        "slot": "AGNES_API_KEY4",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:13.585487+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:14.196097+00:00",
+        "elapsed_seconds": 0.61
+      },
+      {
+        "slot": "AGNES_API_KEY5",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:14.197340+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:15.047033+00:00",
+        "elapsed_seconds": 0.849
+      },
+      {
+        "slot": "AGNES_API_KEY6",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:14.965777+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:15.619915+00:00",
+        "elapsed_seconds": 0.653
+      },
+      {
+        "slot": "AGNES_API_KEY7",
+        "state": "invalid_text_response",
+        "started_at": "2026-10-27T01:13:15.048107+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:19.443825+00:00",
+        "elapsed_seconds": 4.395
+      },
+      {
+        "slot": "AGNES_API_KEY8",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:15.620986+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:17.349914+00:00",
+        "elapsed_seconds": 1.728
+      },
+      {
+        "slot": "AGNES_API_KEY9",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:17.351298+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:17.926457+00:00",
+        "elapsed_seconds": 0.574
+      },
+      {
+        "slot": "AGNES_API_KEY10",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:17.927812+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:18.667119+00:00",
+        "elapsed_seconds": 0.738
+      },
+      {
+        "slot": "AGNES_API_KEY11",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:18.668444+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:19.301592+00:00",
+        "elapsed_seconds": 0.632
+      },
+      {
+        "slot": "AGNES_API_KEY12",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:19.302778+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:19.907243+00:00",
+        "elapsed_seconds": 0.604
+      },
+      {
+        "slot": "AGNES_API_KEY13",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:19.444961+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:20.089198+00:00",
+        "elapsed_seconds": 0.643
+      },
+      {
+        "slot": "AGNES_API_KEY14",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:19.908464+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:20.990440+00:00",
+        "elapsed_seconds": 1.081
+      },
+      {
+        "slot": "AGNES_API_KEY15",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:20.090475+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:20.739334+00:00",
+        "elapsed_seconds": 0.648
+      },
+      {
+        "slot": "AGNES_API_KEY16",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:20.740672+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:23.152262+00:00",
+        "elapsed_seconds": 2.411
+      },
+      {
+        "slot": "AGNES_API_KEY17",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:20.991770+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:21.627400+00:00",
+        "elapsed_seconds": 0.635
+      },
+      {
+        "slot": "AGNES_API_KEY18",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:21.628764+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:22.783007+00:00",
+        "elapsed_seconds": 1.153
+      },
+      {
+        "slot": "AGNES_API_KEY19",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:22.784224+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:23.379273+00:00",
+        "elapsed_seconds": 0.594
+      },
+      {
+        "slot": "AGNES_API_KEY20",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:23.153675+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:23.762466+00:00",
+        "elapsed_seconds": 0.608
+      },
+      {
+        "slot": "AGNES_API_KEY21",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:23.380791+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:33.171336+00:00",
+        "elapsed_seconds": 9.79
+      },
+      {
+        "slot": "AGNES_API_KEY22",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:23.764166+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:24.418123+00:00",
+        "elapsed_seconds": 0.653
+      },
+      {
+        "slot": "AGNES_API_KEY23",
+        "state": "invalid_text_response",
+        "started_at": "2026-10-27T01:13:24.419494+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:26.797984+00:00",
+        "elapsed_seconds": 2.377
+      },
+      {
+        "slot": "AGNES_API_KEY24",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:26.799456+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:27.457383+00:00",
+        "elapsed_seconds": 0.657
+      },
+      {
+        "slot": "AGNES_API_KEY25",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:27.458842+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:28.202435+00:00",
+        "elapsed_seconds": 0.743
+      },
+      {
+        "slot": "AGNES_API_KEY26",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:28.203896+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:29.603974+00:00",
+        "elapsed_seconds": 1.399
+      },
+      {
+        "slot": "AGNES_API_KEY27",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:29.605349+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:30.389760+00:00",
+        "elapsed_seconds": 0.783
+      },
+      {
+        "slot": "AGNES_API_KEY28",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:30.391112+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:31.125920+00:00",
+        "elapsed_seconds": 0.734
+      },
+      {
+        "slot": "AGNES_API_KEY29",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:31.127088+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:31.737741+00:00",
+        "elapsed_seconds": 0.61
+      },
+      {
+        "slot": "AGNES_API_KEY30",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:31.738949+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:32.357908+00:00",
+        "elapsed_seconds": 0.618
+      },
+      {
+        "slot": "AGNES_API_KEY31",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:32.359008+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:33.072035+00:00",
+        "elapsed_seconds": 0.712
+      },
+      {
+        "slot": "AGNES_API_KEY32",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:33.073332+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:33.669017+00:00",
+        "elapsed_seconds": 0.595
+      },
+      {
+        "slot": "AGNES_API_KEY33",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:33.172640+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:34.465779+00:00",
+        "elapsed_seconds": 1.292
+      },
+      {
+        "slot": "AGNES_API_KEY34",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:33.670296+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:34.333369+00:00",
+        "elapsed_seconds": 0.662
+      },
+      {
+        "slot": "AGNES_API_KEY35",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:34.334640+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:34.982153+00:00",
+        "elapsed_seconds": 0.646
+      },
+      {
+        "slot": "AGNES_API_KEY36",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:34.467115+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:35.146108+00:00",
+        "elapsed_seconds": 0.678
+      },
+      {
+        "slot": "AGNES_API_KEY37",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:34.983466+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:16.491821+00:00",
+        "elapsed_seconds": 41.507
+      },
+      {
+        "slot": "AGNES_API_KEY38",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:35.147423+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:35.954279+00:00",
+        "elapsed_seconds": 0.806
+      },
+      {
+        "slot": "AGNES_API_KEY39",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:35.955666+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:40.834069+00:00",
+        "elapsed_seconds": 4.877
+      },
+      {
+        "slot": "AGNES_API_KEY40",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:40.835414+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:43.997676+00:00",
+        "elapsed_seconds": 3.161
+      },
+      {
+        "slot": "AGNES_API_KEY41",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:43.999166+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:45.483133+00:00",
+        "elapsed_seconds": 1.483
+      },
+      {
+        "slot": "AGNES_API_KEY42",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:45.484581+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:46.118709+00:00",
+        "elapsed_seconds": 0.633
+      },
+      {
+        "slot": "AGNES_API_KEY43",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:46.120119+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:46.992279+00:00",
+        "elapsed_seconds": 0.871
+      },
+      {
+        "slot": "AGNES_API_KEY44",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:46.993779+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:47.584700+00:00",
+        "elapsed_seconds": 0.59
+      },
+      {
+        "slot": "AGNES_API_KEY45",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:47.586182+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:48.804733+00:00",
+        "elapsed_seconds": 1.217
+      },
+      {
+        "slot": "AGNES_API_KEY46",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:48.806251+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:49.404056+00:00",
+        "elapsed_seconds": 0.597
+      },
+      {
+        "slot": "AGNES_API_KEY47",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:49.405486+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:50.009465+00:00",
+        "elapsed_seconds": 0.603
+      },
+      {
+        "slot": "AGNES_API_KEY48",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:50.010763+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:51.146441+00:00",
+        "elapsed_seconds": 1.134
+      },
+      {
+        "slot": "AGNES_API_KEY49",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:51.147947+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:51.794454+00:00",
+        "elapsed_seconds": 0.645
+      },
+      {
+        "slot": "AGNES_API_KEY50",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:51.795915+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:57.135692+00:00",
+        "elapsed_seconds": 5.339
+      },
+      {
+        "slot": "AGNES_API_KEY51",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:57.137129+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:13:58.054355+00:00",
+        "elapsed_seconds": 0.916
+      },
+      {
+        "slot": "AGNES_API_KEY52",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:13:58.055922+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:02.697545+00:00",
+        "elapsed_seconds": 4.64
+      },
+      {
+        "slot": "AGNES_API_KEY53",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:02.699343+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:03.328493+00:00",
+        "elapsed_seconds": 0.627
+      },
+      {
+        "slot": "AGNES_API_KEY54",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:03.330054+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:04.129799+00:00",
+        "elapsed_seconds": 0.798
+      },
+      {
+        "slot": "AGNES_API_KEY55",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:04.131276+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:05.191546+00:00",
+        "elapsed_seconds": 1.059
+      },
+      {
+        "slot": "AGNES_API_KEY56",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:05.193105+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:06.162949+00:00",
+        "elapsed_seconds": 0.968
+      },
+      {
+        "slot": "AGNES_API_KEY57",
+        "state": "invalid_text_response",
+        "started_at": "2026-10-27T01:14:06.164566+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:08.453203+00:00",
+        "elapsed_seconds": 2.287
+      },
+      {
+        "slot": "AGNES_API_KEY58",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:08.454744+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:09.205409+00:00",
+        "elapsed_seconds": 0.749
+      },
+      {
+        "slot": "AGNES_API_KEY59",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:09.207082+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:09.837100+00:00",
+        "elapsed_seconds": 0.629
+      },
+      {
+        "slot": "AGNES_API_KEY60",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:09.838783+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:10.693150+00:00",
+        "elapsed_seconds": 0.853
+      },
+      {
+        "slot": "AGNES_API_KEY61",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:10.694793+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:22.292786+00:00",
+        "elapsed_seconds": 11.596
+      },
+      {
+        "slot": "AGNES_API_KEY62",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:16.493565+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:17.770048+00:00",
+        "elapsed_seconds": 1.275
+      },
+      {
+        "slot": "AGNES_API_KEY63",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:17.771673+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:18.696037+00:00",
+        "elapsed_seconds": 0.923
+      },
+      {
+        "slot": "AGNES_API_KEY64",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:18.697645+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:23.299769+00:00",
+        "elapsed_seconds": 4.601
+      },
+      {
+        "slot": "AGNES_API_KEY65",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:22.294334+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:22.932508+00:00",
+        "elapsed_seconds": 0.637
+      },
+      {
+        "slot": "AGNES_API_KEY66",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:22.934110+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:23.625090+00:00",
+        "elapsed_seconds": 0.69
+      },
+      {
+        "slot": "AGNES_API_KEY67",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:23.301441+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:24.898948+00:00",
+        "elapsed_seconds": 1.596
+      },
+      {
+        "slot": "AGNES_API_KEY68",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:23.626784+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:24.234371+00:00",
+        "elapsed_seconds": 0.606
+      },
+      {
+        "slot": "AGNES_API_KEY69",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:24.236008+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:25.804278+00:00",
+        "elapsed_seconds": 1.567
+      },
+      {
+        "slot": "AGNES_API_KEY70",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:24.900795+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:25.605981+00:00",
+        "elapsed_seconds": 0.704
+      },
+      {
+        "slot": "AGNES_API_KEY71",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:25.607597+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:26.342549+00:00",
+        "elapsed_seconds": 0.733
+      },
+      {
+        "slot": "AGNES_API_KEY72",
+        "state": "invalid_text_response",
+        "started_at": "2026-10-27T01:14:25.805952+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:28.287242+00:00",
+        "elapsed_seconds": 2.48
+      },
+      {
+        "slot": "AGNES_API_KEY73",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:26.344156+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:26.950194+00:00",
+        "elapsed_seconds": 0.604
+      },
+      {
+        "slot": "AGNES_API_KEY74",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:26.951830+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:32.330890+00:00",
+        "elapsed_seconds": 5.377
+      },
+      {
+        "slot": "AGNES_API_KEY75",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:28.289027+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:32.943395+00:00",
+        "elapsed_seconds": 4.653
+      },
+      {
+        "slot": "AGNES_API_KEY76",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:32.332717+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:32.985304+00:00",
+        "elapsed_seconds": 0.651
+      },
+      {
+        "slot": "AGNES_API_KEY77",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:32.945414+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:33.901821+00:00",
+        "elapsed_seconds": 0.955
+      },
+      {
+        "slot": "AGNES_API_KEY78",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:32.987069+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:33.621872+00:00",
+        "elapsed_seconds": 0.633
+      },
+      {
+        "slot": "AGNES_API_KEY79",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:33.623740+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:34.326003+00:00",
+        "elapsed_seconds": 0.701
+      },
+      {
+        "slot": "AGNES_API_KEY80",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:33.903595+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:35.027890+00:00",
+        "elapsed_seconds": 1.123
+      },
+      {
+        "slot": "AGNES_API_KEY81",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:34.327817+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:34.976105+00:00",
+        "elapsed_seconds": 0.647
+      },
+      {
+        "slot": "AGNES_API_KEY82",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:34.978008+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:35.728515+00:00",
+        "elapsed_seconds": 0.749
+      },
+      {
+        "slot": "AGNES_API_KEY83",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:35.029726+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:35.666511+00:00",
+        "elapsed_seconds": 0.635
+      },
+      {
+        "slot": "AGNES_API_KEY84",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:35.668418+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:36.295874+00:00",
+        "elapsed_seconds": 0.626
+      },
+      {
+        "slot": "AGNES_API_KEY85",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:35.730385+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:36.527972+00:00",
+        "elapsed_seconds": 0.796
+      },
+      {
+        "slot": "AGNES_API_KEY86",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:36.297736+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:36.933936+00:00",
+        "elapsed_seconds": 0.634
+      },
+      {
+        "slot": "AGNES_API_KEY87",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:36.530030+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:37.139104+00:00",
+        "elapsed_seconds": 0.607
+      },
+      {
+        "slot": "AGNES_API_KEY88",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:36.935989+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:37.821984+00:00",
+        "elapsed_seconds": 0.884
+      },
+      {
+        "slot": "AGNES_API_KEY89",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:37.140904+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:37.798378+00:00",
+        "elapsed_seconds": 0.656
+      },
+      {
+        "slot": "AGNES_API_KEY90",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:37.800290+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:38.477263+00:00",
+        "elapsed_seconds": 0.675
+      },
+      {
+        "slot": "AGNES_API_KEY91",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:37.823862+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:38.502286+00:00",
+        "elapsed_seconds": 0.677
+      },
+      {
+        "slot": "AGNES_API_KEY92",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:38.479431+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:43.122830+00:00",
+        "elapsed_seconds": 4.642
+      },
+      {
+        "slot": "AGNES_API_KEY93",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:38.504038+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:43.235253+00:00",
+        "elapsed_seconds": 4.73
+      },
+      {
+        "slot": "AGNES_API_KEY94",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:43.124778+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:43.797341+00:00",
+        "elapsed_seconds": 0.671
+      },
+      {
+        "slot": "AGNES_API_KEY95",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:43.237139+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:43.862809+00:00",
+        "elapsed_seconds": 0.624
+      },
+      {
+        "slot": "AGNES_API_KEY96",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:43.799360+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:44.412859+00:00",
+        "elapsed_seconds": 0.612
+      },
+      {
+        "slot": "AGNES_API_KEY97",
+        "state": "healthy",
+        "started_at": "2026-10-27T01:14:43.864797+00:00",
+        "http_status": 200,
+        "checked_at": "2026-10-27T01:14:44.538969+00:00",
+        "elapsed_seconds": 0.672
+      }
+    ],
+    "status": "completed",
+    "completed_at": "2026-10-27T01:14:44.541188+00:00",
+    "eligible_text_slots": [
+      "AGNES_API_KEY",
+      "AGNES_API_KEY2",
+      "AGNES_API_KEY3",
+      "AGNES_API_KEY4",
+      "AGNES_API_KEY5",
+      "AGNES_API_KEY6",
+      "AGNES_API_KEY8",
+      "AGNES_API_KEY9",
+      "AGNES_API_KEY10",
+      "AGNES_API_KEY11",
+      "AGNES_API_KEY12",
+      "AGNES_API_KEY13",
+      "AGNES_API_KEY14",
+      "AGNES_API_KEY15",
+      "AGNES_API_KEY16",
+      "AGNES_API_KEY17",
+      "AGNES_API_KEY18",
+      "AGNES_API_KEY19",
+      "AGNES_API_KEY20",
+      "AGNES_API_KEY21",
+      "AGNES_API_KEY22",
+      "AGNES_API_KEY24",
+      "AGNES_API_KEY25",
+      "AGNES_API_KEY26",
+      "AGNES_API_KEY27",
+      "AGNES_API_KEY28",
+      "AGNES_API_KEY29",
+      "AGNES_API_KEY30",
+      "AGNES_API_KEY31",
+      "AGNES_API_KEY32",
+      "AGNES_API_KEY33",
+      "AGNES_API_KEY34",
+      "AGNES_API_KEY35",
+      "AGNES_API_KEY36",
+      "AGNES_API_KEY37",
+      "AGNES_API_KEY38",
+      "AGNES_API_KEY39",
+      "AGNES_API_KEY40",
+      "AGNES_API_KEY41",
+      "AGNES_API_KEY42",
+      "AGNES_API_KEY43",
+      "AGNES_API_KEY44",
+      "AGNES_API_KEY45",
+      "AGNES_API_KEY46",
+      "AGNES_API_KEY47",
+      "AGNES_API_KEY48",
+      "AGNES_API_KEY49",
+      "AGNES_API_KEY50",
+      "AGNES_API_KEY51",
+      "AGNES_API_KEY52",
+      "AGNES_API_KEY53",
+      "AGNES_API_KEY54",
+      "AGNES_API_KEY55",
+      "AGNES_API_KEY56",
+      "AGNES_API_KEY58",
+      "AGNES_API_KEY59",
+      "AGNES_API_KEY60",
+      "AGNES_API_KEY61",
+      "AGNES_API_KEY62",
+      "AGNES_API_KEY63",
+      "AGNES_API_KEY64",
+      "AGNES_API_KEY65",
+      "AGNES_API_KEY66",
+      "AGNES_API_KEY67",
+      "AGNES_API_KEY68",
+      "AGNES_API_KEY69",
+      "AGNES_API_KEY70",
+      "AGNES_API_KEY71",
+      "AGNES_API_KEY73",
+      "AGNES_API_KEY74",
+      "AGNES_API_KEY75",
+      "AGNES_API_KEY76",
+      "AGNES_API_KEY77",
+      "AGNES_API_KEY78",
+      "AGNES_API_KEY79",
+      "AGNES_API_KEY80",
+      "AGNES_API_KEY81",
+      "AGNES_API_KEY82",
+      "AGNES_API_KEY83",
+      "AGNES_API_KEY84",
+      "AGNES_API_KEY85",
+      "AGNES_API_KEY86",
+      "AGNES_API_KEY87",
+      "AGNES_API_KEY88",
+      "AGNES_API_KEY89",
+      "AGNES_API_KEY90",
+      "AGNES_API_KEY91",
+      "AGNES_API_KEY92",
+      "AGNES_API_KEY93",
+      "AGNES_API_KEY94",
+      "AGNES_API_KEY95",
+      "AGNES_API_KEY96",
+      "AGNES_API_KEY97"
+    ],
+    "eligible_image_slots": []
+  },
+  "slots": [
+    {
+      "slot": "AGNES_API_KEY",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:13.583565+00:00",
+      "elapsed_seconds": 0.731
+    },
+    {
+      "slot": "AGNES_API_KEY2",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:13.581277+00:00",
+      "elapsed_seconds": 0.728
+    },
+    {
+      "slot": "AGNES_API_KEY3",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:14.964245+00:00",
+      "elapsed_seconds": 1.38
+    },
+    {
+      "slot": "AGNES_API_KEY4",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:14.196097+00:00",
+      "elapsed_seconds": 0.61
+    },
+    {
+      "slot": "AGNES_API_KEY5",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:15.047033+00:00",
+      "elapsed_seconds": 0.849
+    },
+    {
+      "slot": "AGNES_API_KEY6",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:15.619915+00:00",
+      "elapsed_seconds": 0.653
+    },
+    {
+      "slot": "AGNES_API_KEY7",
+      "state": "invalid_text_response",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:19.443825+00:00",
+      "elapsed_seconds": 4.395
+    },
+    {
+      "slot": "AGNES_API_KEY8",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:17.349914+00:00",
+      "elapsed_seconds": 1.728
+    },
+    {
+      "slot": "AGNES_API_KEY9",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:17.926457+00:00",
+      "elapsed_seconds": 0.574
+    },
+    {
+      "slot": "AGNES_API_KEY10",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:18.667119+00:00",
+      "elapsed_seconds": 0.738
+    },
+    {
+      "slot": "AGNES_API_KEY11",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:19.301592+00:00",
+      "elapsed_seconds": 0.632
+    },
+    {
+      "slot": "AGNES_API_KEY12",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:19.907243+00:00",
+      "elapsed_seconds": 0.604
+    },
+    {
+      "slot": "AGNES_API_KEY13",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:20.089198+00:00",
+      "elapsed_seconds": 0.643
+    },
+    {
+      "slot": "AGNES_API_KEY14",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:20.990440+00:00",
+      "elapsed_seconds": 1.081
+    },
+    {
+      "slot": "AGNES_API_KEY15",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:20.739334+00:00",
+      "elapsed_seconds": 0.648
+    },
+    {
+      "slot": "AGNES_API_KEY16",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:23.152262+00:00",
+      "elapsed_seconds": 2.411
+    },
+    {
+      "slot": "AGNES_API_KEY17",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:21.627400+00:00",
+      "elapsed_seconds": 0.635
+    },
+    {
+      "slot": "AGNES_API_KEY18",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:22.783007+00:00",
+      "elapsed_seconds": 1.153
+    },
+    {
+      "slot": "AGNES_API_KEY19",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:23.379273+00:00",
+      "elapsed_seconds": 0.594
+    },
+    {
+      "slot": "AGNES_API_KEY20",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:23.762466+00:00",
+      "elapsed_seconds": 0.608
+    },
+    {
+      "slot": "AGNES_API_KEY21",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:33.171336+00:00",
+      "elapsed_seconds": 9.79
+    },
+    {
+      "slot": "AGNES_API_KEY22",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:24.418123+00:00",
+      "elapsed_seconds": 0.653
+    },
+    {
+      "slot": "AGNES_API_KEY23",
+      "state": "invalid_text_response",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:26.797984+00:00",
+      "elapsed_seconds": 2.377
+    },
+    {
+      "slot": "AGNES_API_KEY24",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:27.457383+00:00",
+      "elapsed_seconds": 0.657
+    },
+    {
+      "slot": "AGNES_API_KEY25",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:28.202435+00:00",
+      "elapsed_seconds": 0.743
+    },
+    {
+      "slot": "AGNES_API_KEY26",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:29.603974+00:00",
+      "elapsed_seconds": 1.399
+    },
+    {
+      "slot": "AGNES_API_KEY27",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:30.389760+00:00",
+      "elapsed_seconds": 0.783
+    },
+    {
+      "slot": "AGNES_API_KEY28",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:31.125920+00:00",
+      "elapsed_seconds": 0.734
+    },
+    {
+      "slot": "AGNES_API_KEY29",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:31.737741+00:00",
+      "elapsed_seconds": 0.61
+    },
+    {
+      "slot": "AGNES_API_KEY30",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:32.357908+00:00",
+      "elapsed_seconds": 0.618
+    },
+    {
+      "slot": "AGNES_API_KEY31",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:33.072035+00:00",
+      "elapsed_seconds": 0.712
+    },
+    {
+      "slot": "AGNES_API_KEY32",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:33.669017+00:00",
+      "elapsed_seconds": 0.595
+    },
+    {
+      "slot": "AGNES_API_KEY33",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:34.465779+00:00",
+      "elapsed_seconds": 1.292
+    },
+    {
+      "slot": "AGNES_API_KEY34",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:34.333369+00:00",
+      "elapsed_seconds": 0.662
+    },
+    {
+      "slot": "AGNES_API_KEY35",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:34.982153+00:00",
+      "elapsed_seconds": 0.646
+    },
+    {
+      "slot": "AGNES_API_KEY36",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:35.146108+00:00",
+      "elapsed_seconds": 0.678
+    },
+    {
+      "slot": "AGNES_API_KEY37",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:16.491821+00:00",
+      "elapsed_seconds": 41.507
+    },
+    {
+      "slot": "AGNES_API_KEY38",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:35.954279+00:00",
+      "elapsed_seconds": 0.806
+    },
+    {
+      "slot": "AGNES_API_KEY39",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:40.834069+00:00",
+      "elapsed_seconds": 4.877
+    },
+    {
+      "slot": "AGNES_API_KEY40",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:43.997676+00:00",
+      "elapsed_seconds": 3.161
+    },
+    {
+      "slot": "AGNES_API_KEY41",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:45.483133+00:00",
+      "elapsed_seconds": 1.483
+    },
+    {
+      "slot": "AGNES_API_KEY42",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:46.118709+00:00",
+      "elapsed_seconds": 0.633
+    },
+    {
+      "slot": "AGNES_API_KEY43",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:46.992279+00:00",
+      "elapsed_seconds": 0.871
+    },
+    {
+      "slot": "AGNES_API_KEY44",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:47.584700+00:00",
+      "elapsed_seconds": 0.59
+    },
+    {
+      "slot": "AGNES_API_KEY45",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:48.804733+00:00",
+      "elapsed_seconds": 1.217
+    },
+    {
+      "slot": "AGNES_API_KEY46",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:49.404056+00:00",
+      "elapsed_seconds": 0.597
+    },
+    {
+      "slot": "AGNES_API_KEY47",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:50.009465+00:00",
+      "elapsed_seconds": 0.603
+    },
+    {
+      "slot": "AGNES_API_KEY48",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:51.146441+00:00",
+      "elapsed_seconds": 1.134
+    },
+    {
+      "slot": "AGNES_API_KEY49",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:51.794454+00:00",
+      "elapsed_seconds": 0.645
+    },
+    {
+      "slot": "AGNES_API_KEY50",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:57.135692+00:00",
+      "elapsed_seconds": 5.339
+    },
+    {
+      "slot": "AGNES_API_KEY51",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:13:58.054355+00:00",
+      "elapsed_seconds": 0.916
+    },
+    {
+      "slot": "AGNES_API_KEY52",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:02.697545+00:00",
+      "elapsed_seconds": 4.64
+    },
+    {
+      "slot": "AGNES_API_KEY53",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:03.328493+00:00",
+      "elapsed_seconds": 0.627
+    },
+    {
+      "slot": "AGNES_API_KEY54",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:04.129799+00:00",
+      "elapsed_seconds": 0.798
+    },
+    {
+      "slot": "AGNES_API_KEY55",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:05.191546+00:00",
+      "elapsed_seconds": 1.059
+    },
+    {
+      "slot": "AGNES_API_KEY56",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:06.162949+00:00",
+      "elapsed_seconds": 0.968
+    },
+    {
+      "slot": "AGNES_API_KEY57",
+      "state": "invalid_text_response",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:08.453203+00:00",
+      "elapsed_seconds": 2.287
+    },
+    {
+      "slot": "AGNES_API_KEY58",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:09.205409+00:00",
+      "elapsed_seconds": 0.749
+    },
+    {
+      "slot": "AGNES_API_KEY59",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:09.837100+00:00",
+      "elapsed_seconds": 0.629
+    },
+    {
+      "slot": "AGNES_API_KEY60",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:10.693150+00:00",
+      "elapsed_seconds": 0.853
+    },
+    {
+      "slot": "AGNES_API_KEY61",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:22.292786+00:00",
+      "elapsed_seconds": 11.596
+    },
+    {
+      "slot": "AGNES_API_KEY62",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:17.770048+00:00",
+      "elapsed_seconds": 1.275
+    },
+    {
+      "slot": "AGNES_API_KEY63",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:18.696037+00:00",
+      "elapsed_seconds": 0.923
+    },
+    {
+      "slot": "AGNES_API_KEY64",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:23.299769+00:00",
+      "elapsed_seconds": 4.601
+    },
+    {
+      "slot": "AGNES_API_KEY65",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:22.932508+00:00",
+      "elapsed_seconds": 0.637
+    },
+    {
+      "slot": "AGNES_API_KEY66",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:23.625090+00:00",
+      "elapsed_seconds": 0.69
+    },
+    {
+      "slot": "AGNES_API_KEY67",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:24.898948+00:00",
+      "elapsed_seconds": 1.596
+    },
+    {
+      "slot": "AGNES_API_KEY68",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:24.234371+00:00",
+      "elapsed_seconds": 0.606
+    },
+    {
+      "slot": "AGNES_API_KEY69",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:25.804278+00:00",
+      "elapsed_seconds": 1.567
+    },
+    {
+      "slot": "AGNES_API_KEY70",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:25.605981+00:00",
+      "elapsed_seconds": 0.704
+    },
+    {
+      "slot": "AGNES_API_KEY71",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:26.342549+00:00",
+      "elapsed_seconds": 0.733
+    },
+    {
+      "slot": "AGNES_API_KEY72",
+      "state": "invalid_text_response",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:28.287242+00:00",
+      "elapsed_seconds": 2.48
+    },
+    {
+      "slot": "AGNES_API_KEY73",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:26.950194+00:00",
+      "elapsed_seconds": 0.604
+    },
+    {
+      "slot": "AGNES_API_KEY74",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:32.330890+00:00",
+      "elapsed_seconds": 5.377
+    },
+    {
+      "slot": "AGNES_API_KEY75",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:32.943395+00:00",
+      "elapsed_seconds": 4.653
+    },
+    {
+      "slot": "AGNES_API_KEY76",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:32.985304+00:00",
+      "elapsed_seconds": 0.651
+    },
+    {
+      "slot": "AGNES_API_KEY77",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:33.901821+00:00",
+      "elapsed_seconds": 0.955
+    },
+    {
+      "slot": "AGNES_API_KEY78",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:33.621872+00:00",
+      "elapsed_seconds": 0.633
+    },
+    {
+      "slot": "AGNES_API_KEY79",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:34.326003+00:00",
+      "elapsed_seconds": 0.701
+    },
+    {
+      "slot": "AGNES_API_KEY80",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:35.027890+00:00",
+      "elapsed_seconds": 1.123
+    },
+    {
+      "slot": "AGNES_API_KEY81",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:34.976105+00:00",
+      "elapsed_seconds": 0.647
+    },
+    {
+      "slot": "AGNES_API_KEY82",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:35.728515+00:00",
+      "elapsed_seconds": 0.749
+    },
+    {
+      "slot": "AGNES_API_KEY83",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:35.666511+00:00",
+      "elapsed_seconds": 0.635
+    },
+    {
+      "slot": "AGNES_API_KEY84",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:36.295874+00:00",
+      "elapsed_seconds": 0.626
+    },
+    {
+      "slot": "AGNES_API_KEY85",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:36.527972+00:00",
+      "elapsed_seconds": 0.796
+    },
+    {
+      "slot": "AGNES_API_KEY86",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:36.933936+00:00",
+      "elapsed_seconds": 0.634
+    },
+    {
+      "slot": "AGNES_API_KEY87",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:37.139104+00:00",
+      "elapsed_seconds": 0.607
+    },
+    {
+      "slot": "AGNES_API_KEY88",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:37.821984+00:00",
+      "elapsed_seconds": 0.884
+    },
+    {
+      "slot": "AGNES_API_KEY89",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:37.798378+00:00",
+      "elapsed_seconds": 0.656
+    },
+    {
+      "slot": "AGNES_API_KEY90",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:38.477263+00:00",
+      "elapsed_seconds": 0.675
+    },
+    {
+      "slot": "AGNES_API_KEY91",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:38.502286+00:00",
+      "elapsed_seconds": 0.677
+    },
+    {
+      "slot": "AGNES_API_KEY92",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:43.122830+00:00",
+      "elapsed_seconds": 4.642
+    },
+    {
+      "slot": "AGNES_API_KEY93",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:43.235253+00:00",
+      "elapsed_seconds": 4.73
+    },
+    {
+      "slot": "AGNES_API_KEY94",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:43.797341+00:00",
+      "elapsed_seconds": 0.671
+    },
+    {
+      "slot": "AGNES_API_KEY95",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:43.862809+00:00",
+      "elapsed_seconds": 0.624
+    },
+    {
+      "slot": "AGNES_API_KEY96",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:44.412859+00:00",
+      "elapsed_seconds": 0.612
+    },
+    {
+      "slot": "AGNES_API_KEY97",
+      "state": "healthy",
+      "http_status": 200,
+      "checked_at": "2026-10-27T01:14:44.538969+00:00",
+      "elapsed_seconds": 0.672
+    }
+  ],
+  "slot_state_counts": {
+    "healthy": 93,
+    "invalid_text_response": 4
+  },
+  "tiny_schema_capability_only": true,
+  "full_article_or_image_capability_proved": false,
+  "completed_at": "2026-10-27T01:14:47.979701+00:00"
+}
