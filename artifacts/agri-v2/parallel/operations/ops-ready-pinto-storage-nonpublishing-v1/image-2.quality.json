@@ -1,0 +1,58 @@
+{
+  "image_sha256": "9e3750fef7a058e3501601f377a47a2ae55218c4f3196db8d3d5f7b8acd35d82",
+  "contract_sha256": "818579106d6f4133ef9513169b9e68586b4980fd7d5e9a4f41f047e3d260e157",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-96d735d5bd11",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-27T12:27:58.062382+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 100,
+      "minimum_score": 70,
+      "accepted": true,
+      "critical_failures": [],
+      "manual_monitoring_required": false
+    },
+    "passed": true,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": true,
+      "role_camera_match": true,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 88,
+    "reasons": [
+      "hardware_required=false and no invented filter/valve/pipe assembly is present; AFP tape roll is the authorized product carton, not a plumbing component — hardware_identity_match and hardware_sealed_all_ports_connected pass.",
+      "crop_stage_match: clear container of harvested beige dry pinto beans with brown mottling on a table surface, consistent with post-harvest dry-bean storage — no living plants, roots, or field furrows visible.",
+      "role_camera_match: near-overhead close detail framing matches role 2 (detail) intent.",
+      "topic_evidence_match: scene directly illustrates harvested dry bean grain in storage packaging raised off the floor in a dry indoor setting — fully on-brief.",
+      "product_identity_match: AFP white-blue carton with correct water-drop logo and 'Drip Irrigation Tape' text matches the reference product identity.",
+      "single_product: exactly one intact AFP carton visible, no extra rolls or bottles.",
+      "product_scale_match: carton occupies roughly 0.16–0.18 of frame width, within the [0.14, 0.20] interval.",
+      "product_fully_in_frame: all four edges of the carton are visible.",
+      "package_separate_from_plumbing: empty physical gap around the carton on the wooden surface; no pipe through its core, no tubing under its base.",
+      "packaging_closed_no_protruding_material: carton is fully closed self-contained; no white ribbon, strap, or tape tail protruding.",
+      "physical_geometry_plausible: believable contact shadows under both objects, consistent perspective, no floating or merged parts.",
+      "no_people: no human figures present."
+    ]
+  }
+}
