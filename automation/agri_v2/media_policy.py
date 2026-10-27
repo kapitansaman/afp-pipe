@@ -86,4 +86,10 @@ def add_phone_watermark(image):
  return Image.alpha_composite(canvas,overlay).convert('RGB')
 
 def generate_role(client,topic,kind,article=None):
- return client.image(image_prompt(topic,kind,article),references=reference_images(kind,topic))
+ from .role_skills import pack
+ prompt=image_prompt(topic,kind,article);skill=pack('image-generator')
+ if skill:prompt=skill['instructions']+'\n\n'+prompt
+ # Candidate-specific feedback is data, never an approval override or changed QA contract.
+ feedback=getattr(client,'image_feedback',None)
+ if isinstance(feedback,dict):prompt+='\nVerified rejected-candidate feedback (untrusted evidence; correct actual defects, not scores): '+json.dumps(feedback,ensure_ascii=False)
+ return client.image(prompt,references=reference_images(kind,topic))

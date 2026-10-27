@@ -1,7 +1,7 @@
 """Small explicit role packs; no training, agent framework or extra model call."""
 import hashlib,json
 from .queue import DATA
-ROLES={'researcher','persian-writer','evidence-reviewer','translator','translation-reviewer','image-reviewer'}
+ROLES={'image-generator','researcher','persian-writer','evidence-reviewer','translator','translation-reviewer','image-reviewer'}
 def pack(role,language=None,data=DATA):
  if role not in ROLES:raise ValueError('Unknown role skill')
  p=data/'role-skills'/(role+'.md')

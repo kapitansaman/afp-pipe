@@ -59,3 +59,17 @@ class RoleSkillsTests(unittest.TestCase):
    with self.assertRaises(ValueError):wp.call('media','POST',{})
    with self.assertRaises(ValueError):wp.call('posts/1','DELETE')
    self.assertEqual(send.call_count,15);self.assertEqual(load_json(root/'wordpress-mutations.json')['reserved_mutations'],15)
+ def test_image_feedback_adds_skill_not_a_false_approval_or_contract_change(self):
+  from automation.agri_v2.media_policy import contract_hash,generate_role
+  topic={'id':'agri-000000000001','crop':'هویج','title':'چرا بذر هویج سبز نمی‌شود؟'};before=contract_hash(topic,2);c=Mock();c.image_feedback={'reasons':['wrong broad-leaf crop'],'checks':{'crop_stage_match':False}};generate_role(c,topic,2)
+  prompt=c.image.call_args.args[0];self.assertIn('Daucus carota',prompt);self.assertIn('wrong broad-leaf crop',prompt);self.assertEqual(before,contract_hash(topic,2));self.assertEqual(c.image.call_count,1)
+ def test_image_continuation_has_explicit_finite_combined_budget(self):
+  r=dict(launch.expected_request(launch.CONT_ID),code_revision='b'*40);self.assertEqual(op.validate_request(r),r);self.assertEqual(r['max_image_calls'],1);self.assertEqual(r['max_image_health_calls'],0);self.assertEqual(r['max_combined_model_calls'],24);self.assertEqual(r['prior_reserved_model_calls'],6)
+  for key,value in [('max_image_calls',2),('max_total_text_calls',18),('max_combined_model_calls',25),('replace_rejected_image_sha256','c'*64),('reset_attempts',True)]:
+   with self.assertRaises(ValueError):op.validate_request(dict(r,**{key:value}))
+ def test_image_continuation_refuses_changed_rejected_candidate_before_probe(self):
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d);source=root/'source';dest=root/'dest';dest.mkdir();(dest/'image-2.webp').write_bytes(b'changed');atomic_json(root/'parallel/operations'/launch.ID/'prepare.json',{'status':'controlled_launch_blocked','failed_stage':'vision-2','model_calls':3,'image_calls':3,'wordpress_calls':0,'protected_existing_files_unchanged':True,'experimental_source_unchanged':True,'assignments_unchanged':True});reserve=Mock()
+   with patch.object(launch,'admission'),patch('automation.agri_v2.parallel_control.policy'),patch.object(launch,'source_inputs',return_value=({}, {}, {},source,dest)):
+    with self.assertRaises(ValueError):launch.prepare_continuation({'GITHUB_RUN_ID':'99'},root,root,reserve_fn=reserve)
+   reserve.assert_not_called()
