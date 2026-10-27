@@ -1,12 +1,23 @@
 {
   "version": 1,
-  "request_id": "ops-97-readiness-pilot-v1",
-  "operation": "readiness-audit-image-pilot",
+  "request_id": "ops-ready-pinto-storage-nonpublishing-v1",
+  "operation": "nonpublishing-one-ready-pinto-storage-pilot",
   "authorized": true,
-  "max_text_health_calls": 97,
-  "max_image_health_calls": 1,
+  "max_text_health_calls": 0,
+  "max_image_health_calls": 0,
   "max_pilot_families": 1,
   "enable_schedule": false,
   "reset_attempts": false,
-  "code_revision": "bcd506d25f899ee18e7bf2ba2610481ca1113a78"
+  "topic_id": "agri-96d735d5bd11",
+  "source_article_sha256": "22b8e32191cb20b74d0ea2401f7f8884987dca1892177ca2ac2e56b6d498f92d",
+  "brief_sha256": "ce2bf44b3daa066f9cd9fd2ab7e7f88ef380427c725529b3e0df4b1445419134",
+  "max_total_text_calls": 14,
+  "max_image_calls": 1,
+  "max_total_model_calls": 15,
+  "max_wordpress_mutations": 0,
+  "max_source_posts": 0,
+  "max_total_posts": 0,
+  "max_translations": 0,
+  "change_default_model": false,
+  "code_revision": "8fb44603bca957d132ece693c976bb51fe10c638"
 }
