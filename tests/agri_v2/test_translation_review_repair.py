@@ -112,3 +112,7 @@ class ReviewRepairTests(unittest.TestCase):
    with patch.object(lifecycle,'check_brief'),patch.object(lifecycle,'article_checked',return_value=a),patch.object(r,'run',return_value={'repaired':True}) as repair:
     result=lifecycle.run_stage(topic,'translation_fidelity_review',client,data,out)
    self.assertEqual(result,{'repaired':True});self.assertEqual(repair.call_args.args[0],client)
+ def test_protected_language_is_never_edited(self):
+  with tempfile.TemporaryDirectory() as d:
+   a,f,raws,rows=self.setup(d);c=self.client([self.verdict(a,raws,('en-US',))]);c._translation_repair_languages=['ar-IQ','tg-TJ']
+   result=r.run(c,a,rows,f);self.assertFalse(result['four_languages_semantically_reviewed']);self.assertEqual(c.text.call_count,1);self.assertEqual(load_json(f/'translations/en-US.json'),rows['en-US'])
