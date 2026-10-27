@@ -14,7 +14,7 @@ from .alternate_reviewer_verification import ID as ALT_REVIEW_ID
 from .flash_tajik_probe import ID as FLASH_ID
 from .tajik_full_verification import ID as TAJIK_FULL_ID
 from .tajik_quality_continuation import ID as TAJIK_QA_ID
-from .role_skills_launch import ID as ROLE_LAUNCH_ID,CONT_ID as ROLE_LAUNCH_CONT_ID
+from .role_skills_launch import ID as ROLE_LAUNCH_ID,CONT_ID as ROLE_LAUNCH_CONT_ID,PAIR_ID as ROLE_LAUNCH_PAIR_ID
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -23,9 +23,9 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
- if rid in (ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID):
+ if rid in (ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID):
   from .role_skills_launch import expected_request
   expected=expected_request(rid)
  if rid in (MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID):
@@ -129,9 +129,9 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None,request_id=ID):
 
 def prepare(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env);admission=load_owner_request(env,data)
- if admission['request_id']==ROLE_LAUNCH_CONT_ID:
+ if admission['request_id'] in (ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID):
   from .role_skills_launch import prepare_continuation
-  return prepare_continuation(env,data,out)
+  return prepare_continuation(env,data,out,request_id=admission['request_id'])
  if admission['request_id']==ROLE_LAUNCH_ID:
   from .role_skills_launch import prepare as prepare_launch
   return prepare_launch(env,data,out)
@@ -182,7 +182,7 @@ def pilot(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env)
  if not authorize(env,data):raise ValueError('Bound current owner operation admission required')
  rid=load_json(data/'status/owner-operation-admission.json')['request_id']
- if rid in (ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID):
+ if rid in (ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID):
   from .role_skills_launch import pilot as launch_pilot
   return launch_pilot(env,data,out,request_id=rid)
  rp=out/'parallel/operations'/rid/'prepare.json';report=load_json(rp)

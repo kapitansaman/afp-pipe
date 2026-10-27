@@ -5,6 +5,8 @@ from .queue import DATA,OUT,load_json,atomic_json,utcnow,get_topic
 from .pipeline import digest
 ID='ops-role-skills-controlled-launch-v1'
 CONT_ID='ops-role-skills-image-feedback-continuation-v2'
+PAIR_ID='ops-role-skills-image-pair-final-v3'
+PAIR_SHAS={1:'32479ccc8fc41e0d8f141e29a4d1158d8de736b092c17ca977efc03d5f50f391',2:'95345bc9e7cb843505030dc17b154f23b3705455a8b91e4203f6f4e52c6f9e25'}
 REJECTED_IMAGE_SHA='d4dbf660697e4c0c68e5a059ec23c17e749a4b38e4bee624f66c92a3f7015e93'
 TOPIC='agri-b6f7d6bea16b'
 SOURCE='ops-tajik-reference-feedback-final-round-v2'
@@ -12,6 +14,8 @@ SOURCE_SHA='e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73'
 MAX_TEXT=19;MAX_IMAGE=3;MAX_CALLS=22;MAX_WP=15
 
 def expected_request(request_id=ID):
+ if request_id==PAIR_ID:
+  row=expected_request(CONT_ID);row.update(request_id=PAIR_ID,operation='final-two-image-feedback-launch',max_total_text_calls=18,max_image_calls=2,max_total_model_calls=20,prior_request=CONT_ID,prior_reserved_model_calls=8,max_combined_model_calls=28,replace_rejected_image_sha256=PAIR_SHAS[2],rejected_image_pair_sha256={str(k):v for k,v in PAIR_SHAS.items()});return row
  if request_id==CONT_ID:
   row=expected_request();row.update(request_id=CONT_ID,operation='image-feedback-controlled-continuation',max_image_health_calls=0,max_total_text_calls=17,max_image_calls=1,max_total_model_calls=18,prior_request=ID,prior_reserved_model_calls=6,max_combined_model_calls=24,replace_rejected_image_sha256=REJECTED_IMAGE_SHA);return row
  if request_id!=ID:raise ValueError('Unknown launch scope')
@@ -54,25 +58,27 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,image_fn=None,readiness_fn=Non
  after=check(data,out);report['readiness_after']=after
  report.update(status='role_skills_launch_prepared' if all(after['gates'][k]['passed'] for k in required+['fresh_image_capacity']) else 'launch_prerequisites_blocked',completed_at=utcnow());atomic_json(rp,report);return report
 
-def prepare_continuation(env,data=DATA,out=OUT,reserve_fn=None,readiness_fn=None):
- admission(env,data,CONT_ID)
+def prepare_continuation(env,data=DATA,out=OUT,reserve_fn=None,readiness_fn=None,request_id=CONT_ID):
+ admission(env,data,request_id);pair=request_id==PAIR_ID;limits=expected_request(request_id)
  from .parallel_control import reserve,policy
  from .production_readiness import run as readiness
  from .image_quality import valid_record
  from .scoped_research import validate_article_review_result
  policy(env,data);topic,brief,article,source,folder=source_inputs(data,out)
- prior_root=out/'parallel/operations'/ID;prior=load_json(prior_root/'prepare.json')
- if prior.get('status')!='controlled_launch_blocked' or prior.get('failed_stage')!='vision-2' or (prior.get('model_calls'),prior.get('image_calls'),prior.get('wordpress_calls'))!=(3,3,0) or not all(prior.get(k) for k in ('protected_existing_files_unchanged','experimental_source_unchanged','assignments_unchanged')):raise ValueError('Exact failed image scope required; never reset/replay launch')
- if hashlib.sha256((folder/'image-2.webp').read_bytes()).hexdigest()!=REJECTED_IMAGE_SHA:raise ValueError('Rejected image changed before repair admission')
- valid_record(folder/'image-1.webp',topic,1,article)
+ prior_root=out/'parallel/operations'/(CONT_ID if pair else ID);prior=load_json(prior_root/'prepare.json')
+ if prior.get('status')!='controlled_launch_blocked' or prior.get('failed_stage')!='vision-2' or (prior.get('model_calls'),prior.get('image_calls'),prior.get('wordpress_calls'))!=((1,1,0) if pair else (3,3,0)) or not all(prior.get(k) for k in ('protected_existing_files_unchanged','experimental_source_unchanged','assignments_unchanged')):raise ValueError('Exact failed image scope required; never reset/replay launch')
+ for kind,wanted in (PAIR_SHAS.items() if pair else [(2,REJECTED_IMAGE_SHA)]):
+  if hashlib.sha256((folder/f'image-{kind}.webp').read_bytes()).hexdigest()!=wanted:raise ValueError('Rejected image changed before repair admission')
+ if not pair:valid_record(folder/'image-1.webp',topic,1,article)
  proof=load_json(folder/'article-evidence-review.json')
  if proof.get('article_sha256')!=SOURCE_SHA or proof.get('brief_sha256')!=digest(brief):raise ValueError('Accepted source proof changed')
  validate_article_review_result(article,proof.get('review'))
- root=out/'parallel/operations'/CONT_ID;rp=root/'prepare.json'
+ root=out/'parallel/operations'/request_id;rp=root/'prepare.json'
  if rp.exists():return {'status':'launch_already_reserved','model_calls':0,'published_posts':0}
- if (reserve if reserve_fn is None else reserve_fn)('operation',CONT_ID,env) is None:return {'status':'launch_already_reserved','model_calls':0,'published_posts':0}
- allowed={'image-2.webp','image-2.quality.json','lifecycle/image-2/state.json','lifecycle/vision-2/state.json'}
- report={'request_id':CONT_ID,'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'topic_id':TOPIC,'title':topic['title'],'source_request':SOURCE,'status':'launch_preflight_started','max_total_text_calls':17,'max_image_calls':1,'max_total_model_calls':18,'max_combined_model_calls':24,'prior_reserved_model_calls':6,'max_wordpress_mutations':MAX_WP,'model_calls':0,'image_calls':0,'wordpress_calls':0,'published_posts':0,'schedule_activated':False,'attempts_reset':False,'separate_launch_budget':True,'prior_experimental_calls_unchanged':7,'prior_experimental_repairs_unchanged':2,'source_sha256':SOURCE_SHA,'steps':[],'protected_existing_files':{k:v for k,v in files_hash(folder).items() if k not in allowed},'protected_source_files':files_hash(source),'protected_prior_operation_files':files_hash(prior_root),'assignment_sha256':hashlib.sha256((out/'parallel/families/assignments.json').read_bytes()).hexdigest(),'authorized_replacement_only':sorted(allowed)}
+ if (reserve if reserve_fn is None else reserve_fn)('operation',request_id,env) is None:return {'status':'launch_already_reserved','model_calls':0,'published_posts':0}
+ allowed={name for k in ((1,2) if pair else (2,)) for name in (f'image-{k}.webp',f'image-{k}.quality.json',f'lifecycle/image-{k}/state.json',f'lifecycle/vision-{k}/state.json')}
+ report={'request_id':request_id,'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'topic_id':TOPIC,'title':topic['title'],'source_request':SOURCE,'status':'launch_preflight_started','max_total_text_calls':limits['max_total_text_calls'],'max_image_calls':limits['max_image_calls'],'max_total_model_calls':limits['max_total_model_calls'],'max_combined_model_calls':limits['max_combined_model_calls'],'prior_reserved_model_calls':limits['prior_reserved_model_calls'],'max_wordpress_mutations':MAX_WP,'model_calls':0,'image_calls':0,'wordpress_calls':0,'published_posts':0,'schedule_activated':False,'attempts_reset':False,'separate_launch_budget':True,'prior_experimental_calls_unchanged':7,'prior_experimental_repairs_unchanged':2,'source_sha256':SOURCE_SHA,'steps':[],'protected_existing_files':{k:v for k,v in files_hash(folder).items() if k not in allowed},'protected_source_files':files_hash(source),'protected_prior_operation_files':files_hash(prior_root),'assignment_sha256':hashlib.sha256((out/'parallel/families/assignments.json').read_bytes()).hexdigest(),'authorized_replacement_only':sorted(allowed)}
+ if pair:report['protected_first_operation_files']=files_hash(out/'parallel/operations'/ID)
  atomic_json(rp,report)
  after=(readiness if readiness_fn is None else readiness_fn)(data,out);report['readiness_after']=after
  required=['fresh_text_capacity','fresh_image_capacity','authenticated_publisher','translation_bridge','lifecycle_enabled']
@@ -97,7 +103,7 @@ class BoundedPublisher:
   return WP(env=env)
 
 def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,request_id=ID):
- admission(env,data,request_id);limits=expected_request(request_id);continuation=request_id==CONT_ID;root=out/'parallel/operations'/request_id;rp=root/'prepare.json';report=load_json(rp)
+ admission(env,data,request_id);limits=expected_request(request_id);continuation=request_id!=ID;pair=request_id==PAIR_ID;root=out/'parallel/operations'/request_id;rp=root/'prepare.json';report=load_json(rp)
  if report.get('run_id')!=env['GITHUB_RUN_ID'] or report.get('status')!='role_skills_launch_prepared':return {'status':'launch_pilot_not_admitted','published_posts':0,'model_calls':0}
  topic,brief,article,source,folder=source_inputs(data,out)
  if (root/'pilot-reserved.json').exists():return {'status':'launch_pilot_already_reserved','model_calls':0,'published_posts':0}
@@ -138,13 +144,15 @@ def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,request_id=I
    atomic_json(folder/'role-skill-source-adoption.json',{'request_id':ID,'source_request':SOURCE,'article_sha256':SOURCE_SHA,'source_audit':str(reviewed.relative_to(out)),'preserved_text_attempts':load_json(folder/'lifecycle/text/state.json').get('attempts'),'at':utcnow()})
    report['steps'].append({'stage':'source_review','status':'passed'});atomic_json(rp,report)
   else:
-   from .image_quality import valid_record
-   valid_record(folder/'image-1.webp',topic,1,article)
-   rejected=load_json(folder/'image-2.quality.json')
-   if hashlib.sha256((folder/'image-2.webp').read_bytes()).hexdigest()!=REJECTED_IMAGE_SHA or rejected.get('verdict',{}).get('passed') is not False:raise ValueError('Exact rejected candidate required')
-   client.image_feedback={'rejected_image_sha256':REJECTED_IMAGE_SHA,'checks':rejected['verdict']['checks'],'reasons':rejected['verdict']['reasons']}
-   atomic_json(root/'image-repair-feedback.json',client.image_feedback)
-  for kind in ((2,) if continuation else (1,2)):
+   from .image_quality import valid_record,generation_feedback
+   if not pair:valid_record(folder/'image-1.webp',topic,1,article)
+   for kind,wanted in (PAIR_SHAS.items() if pair else [(2,REJECTED_IMAGE_SHA)]):
+    if hashlib.sha256((folder/f'image-{kind}.webp').read_bytes()).hexdigest()!=wanted:raise ValueError('Exact rejected candidate required')
+    feedback=generation_feedback(folder,kind)
+    if not feedback:raise ValueError('Concrete SHA-bound rejection required')
+    atomic_json(root/('image-'+str(kind)+'-repair-feedback.json'),feedback)
+  for kind in ((1,2) if pair or not continuation else (2,)):
+   if continuation:client.image_feedback=load_json(root/('image-'+str(kind)+'-repair-feedback.json'))
    for name in ('image-'+str(kind),'vision-'+str(kind)):
     from .family_lifecycle import stage_outputs
     stage=name;outputs=stage_outputs(folder,name) if continuation else ();result=attempt(folder,name,env['GITHUB_RUN_ID'],lambda n=name:run_stage(topic,n,client,data,out),outputs=outputs,limit=3);report['steps'].append(result);atomic_json(rp,report)
@@ -172,8 +180,9 @@ def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,request_id=I
   pool=snapshot(db);record_routing(out,pool);ledger=load_json(root/'model-calls.json') if (root/'model-calls.json').exists() else {'text':0,'image':0}
   report.update(pool=pool,model_calls=ledger['text'],image_calls=probe_calls+ledger['image'],reserved_total_model_calls=probe_calls+pool['model_requests_reserved'],wordpress_calls=load_json(root/'wordpress-mutations.json').get('reserved_mutations',0) if (root/'wordpress-mutations.json').exists() else 0,protected_existing_files_unchanged=preserved_files(folder,report['protected_existing_files']),experimental_source_unchanged=preserved_files(source,report['protected_source_files']),assignments_unchanged=hashlib.sha256((out/'parallel/families/assignments.json').read_bytes()).hexdigest()==report['assignment_sha256'],completed_at=utcnow(),schedule_activated=False)
   if continuation:
-   report.update(prior_operation_unchanged=preserved_files(out/'parallel/operations'/ID,report['protected_prior_operation_files']),combined_reserved_model_calls=6+report['reserved_total_model_calls'])
-   if not report['prior_operation_unchanged']:report['status']='launch_preservation_check_failed'
+   report.update(prior_operation_unchanged=preserved_files(out/'parallel/operations'/(CONT_ID if pair else ID),report['protected_prior_operation_files']),combined_reserved_model_calls=limits['prior_reserved_model_calls']+report['reserved_total_model_calls'])
+   if pair:report['first_operation_unchanged']=preserved_files(out/'parallel/operations'/ID,report['protected_first_operation_files'])
+   if not report['prior_operation_unchanged'] or pair and not report['first_operation_unchanged']:report['status']='launch_preservation_check_failed'
   if pool['cooldown_until_epoch']>time.time():atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text_or_image','retry_at_epoch':pool['cooldown_until_epoch'],'at':utcnow(),'reason':'role_skills_launch_provider_backpressure'})
   if not all(report.get(k) for k in ('protected_existing_files_unchanged','experimental_source_unchanged','assignments_unchanged')):report['status']='launch_preservation_check_failed'
   atomic_json(rp,report)

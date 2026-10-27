@@ -73,3 +73,21 @@ class RoleSkillsTests(unittest.TestCase):
    with patch.object(launch,'admission'),patch('automation.agri_v2.parallel_control.policy'),patch.object(launch,'source_inputs',return_value=({}, {}, {},source,dest)):
     with self.assertRaises(ValueError):launch.prepare_continuation({'GITHUB_RUN_ID':'99'},root,root,reserve_fn=reserve)
    reserve.assert_not_called()
+ def test_normal_family_retry_reuses_exact_archived_image_feedback(self):
+  import hashlib
+  from automation.agri_v2.image_quality import generation_feedback
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d);image=root/'lifecycle/image-2/rejected/1/image-2.webp';image.parent.mkdir(parents=True);image.write_bytes(b'rejected');proof=image.with_suffix('.quality.json');atomic_json(proof,{'status':'reviewed','image_sha256':hashlib.sha256(b'rejected').hexdigest(),'verdict':{'passed':False,'checks':{'crop_stage_match':False},'reasons':['Wrong crop']}});feedback=generation_feedback(root,2);self.assertEqual(feedback['reasons'],['Wrong crop']);image.write_bytes(b'changed');self.assertIsNone(generation_feedback(root,2))
+ def test_known_wrong_crop_cannot_reuse_a_positive_automated_verdict(self):
+  from automation.agri_v2.image_quality import reject_known,ImageQualityError,generation_feedback
+  from automation.agri_v2.queue import OUT
+  folder=OUT/'new'/launch.TOPIC
+  candidates=[folder/'image-1.webp']+list((folder/'lifecycle/image-1/rejected').glob('*/image-1.webp'))
+  import hashlib
+  rejected=next(p for p in candidates if hashlib.sha256(p.read_bytes()).hexdigest()==launch.PAIR_SHAS[1])
+  with self.assertRaises(ImageQualityError):reject_known(rejected)
+  f=generation_feedback(rejected.parent,1);self.assertTrue(f['prior_model_approval_overruled_by_direct_inspection']);self.assertFalse(f['checks']['crop_stage_match'])
+ def test_final_pair_request_preserves_finite_combined_scope(self):
+  r=dict(launch.expected_request(launch.PAIR_ID),code_revision='c'*40);self.assertEqual(op.validate_request(r),r);self.assertEqual(r['max_total_model_calls'],20);self.assertEqual(r['max_image_calls'],2);self.assertEqual(r['prior_reserved_model_calls'],8);self.assertEqual(r['max_combined_model_calls'],28)
+  for key,value in [('max_image_calls',3),('max_total_model_calls',21),('max_combined_model_calls',29),('enable_schedule',True)]:
+   with self.assertRaises(ValueError):op.validate_request(dict(r,**{key:value}))

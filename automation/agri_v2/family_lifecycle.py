@@ -206,6 +206,9 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
  if stage.startswith('image-'):
   kind=int(stage.split('-')[1]);from .media_policy import generate_role
   target=folder/f'image-{kind}.webp'
+  from .image_quality import generation_feedback
+  feedback=generation_feedback(folder,kind)
+  if feedback:client.image_feedback=feedback
   blob=generate_role(client,topic,kind,article)
   target.write_bytes(blob);return {'image_created':kind}
  if stage.startswith('vision-'):
