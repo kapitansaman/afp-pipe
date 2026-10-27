@@ -55,6 +55,11 @@ def ensure_review(client,path,topic,kind,article=None):
  try:
   result=verdict(client.review_image(path.read_bytes(),topic,kind,article));row.update(status='reviewed',verdict=result)
  except Exception as exc:
+  from .parallel_pool import PoolDeferred
+  from .image_transport import AdmissionBlocked
+  from automation.blog_image_queue import ImageQueueBusy
+  if isinstance(exc,(PoolDeferred,AdmissionBlocked,ImageQueueBusy)):
+   row.update(status='review_deferred',error_type=type(exc).__name__);atomic_json(rp,row);raise
   row.update(status='review_unavailable',error_type=type(exc).__name__)
   atomic_json(rp,row);raise ImageQualityError('Visual review unavailable or malformed; no upload') from None
  atomic_json(rp,row)
@@ -62,7 +67,8 @@ def ensure_review(client,path,topic,kind,article=None):
  return row
 
 def require_all(folder,topic,article=None):
- for kind in PRODUCTION_IMAGE_ROLES:valid_record(Path(folder)/f'image-{kind}.webp',topic,kind,article)
+ from .image_workflow import validate_selection
+ for kind in validate_selection(folder,topic,article):valid_record(Path(folder)/f'image-{kind}.webp',topic,kind,article)
 
 
 def generation_feedback(folder,kind):

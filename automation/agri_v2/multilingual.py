@@ -114,6 +114,7 @@ def verify_target(url,lang,fetcher=None):
  return True
 
 def localized_body(row,media,policy,fetcher=None):
+ if not media:raise ValueError('At least one approved shared image required')
  lang=row['language'];body=row['content_html'];rows=policy[lang]
  # All in-site links must come from an explicit verified same-language map.
  from .internal_links import anchors
@@ -121,7 +122,7 @@ def localized_body(row,media,policy,fetcher=None):
  for target in rows:verify_target(target['url'],lang,fetcher)
  if rows:body+='<p>'+PHRASES[lang]+': '+' · '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in rows)+'</p>'
  matches=list(re.finditer('<h2>',body));at=matches[len(matches)//2].start() if len(matches)>1 else len(body)
- body=body[:at]+'<figure class="wp-block-image"><img src="'+html.escape(media[1]['url'],quote=True)+'" alt="'+html.escape(row['title'],quote=True)+'" loading="lazy"/></figure>'+body[at:]
+ if len(media)>1:body=body[:at]+'<figure class="wp-block-image"><img src="'+html.escape(media[1]['url'],quote=True)+'" alt="'+html.escape(row['title'],quote=True)+'" loading="lazy"/></figure>'+body[at:]
  body+='<p><em>'+DISCLOSURES[lang]+'</em></p><h2>'+FAQ_LABEL[lang]+'</h2><div class="faq-section">'+''.join('<details><summary>'+html.escape(f['question'])+'</summary><p>'+html.escape(f['answer'])+'</p></details>' for f in row['faq'])+'</div>'
  return body
 
@@ -137,8 +138,10 @@ def publish_family(wp,folder,topic,source_result):
  if not {'afp_language','afp_source_post_id'}<=properties.keys():
   atomic_json(status,{'status':'pending_wordpress_language_bridge','at':utcnow(),'source_post_id':source_result['post_id'],'languages':list(LANGUAGES)})
   return dict(source_result,translations_status='pending_wordpress_language_bridge')
- source_receipt=load_json(folder/'wordpress-receipt.json');media=sorted(source_receipt['media'],key=lambda m:m['index'])
- if len(media)!=2 or len({m['id'] for m in media})!=2:raise ValueError('Exactly two shared source media required')
+ source_receipt=load_json(folder/'wordpress-receipt.json')
+ from .image_layout import PRODUCTION_IMAGE_ROLES
+ roles=source_receipt.get('selected_image_roles',list(PRODUCTION_IMAGE_ROLES));media=sorted((m for m in source_receipt['media'] if m['index'] in roles),key=lambda m:m['index'])
+ if roles not in ([1],[2],[1,2]) or [m['index'] for m in media]!=roles or len({m['id'] for m in media})!=len(roles):raise ValueError('Shared approved source media required')
  policy=load_json(DATA/'internal-links-i18n.json')['languages'];done={}
  article=load_json(folder/'article.json')
  if 'commercial_matrix' in article:
@@ -185,13 +188,13 @@ def publish_family(wp,folder,topic,source_result):
    post,_=wp.call('posts/'+str(post['id'])+'?context=edit')
    if post.get('afp_language')!=lang or post.get('afp_source_post_id')!=source_result['post_id'] or post.get('featured_media')!=media[0]['id']:raise ValueError('Translation language/media registration failed')
    rendered=post['content'].get('rendered','')
-   if media[1]['url'] not in rendered:raise ValueError('Shared inline image missing')
+   if len(media)>1 and media[1]['url'] not in rendered:raise ValueError('Shared inline image missing')
    for u,text in anchors(rendered):
     if urllib.parse.urlsplit(u).hostname=='navar-abyari.ir':verify_target(u,lang)
    if post['status']=='draft':post,_=wp.call('posts/'+str(post['id']),'POST',{'status':'publish'})
    verify_target(post['link'],lang)
    final,_=wp.call('posts/'+str(post['id']))
-   if final.get('status')!='publish' or final.get('afp_language')!=lang or html.unescape(final.get('title',{}).get('rendered',''))!=row['title'] or final.get('featured_media')!=media[0]['id'] or media[1]['url'] not in final.get('content',{}).get('rendered',''):raise ValueError('Published translation verification failed')
+   if final.get('status')!='publish' or final.get('afp_language')!=lang or html.unescape(final.get('title',{}).get('rendered',''))!=row['title'] or final.get('featured_media')!=media[0]['id'] or len(media)>1 and media[1]['url'] not in final.get('content',{}).get('rendered',''):raise ValueError('Published translation verification failed')
    receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
    if split and review_state(folder,lang).exists():
     queued=load_json(review_state(folder,lang));queued.update(status='published',next_attempt_at=None,published_receipt=receipt);atomic_json(review_state(folder,lang),queued)

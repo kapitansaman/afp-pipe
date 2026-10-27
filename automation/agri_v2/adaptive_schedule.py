@@ -11,7 +11,7 @@ def settings(data=DATA):
 def binding(data=DATA):
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
  cfg=load_json(data/'config.json');p=load_json(data/'family-lifecycle-policy.json')
- return hashlib.sha256(json.dumps({'cohort':CREDENTIAL_SET_ID,'families':MAX_FAMILIES,'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'images_per_family':2,'multilingual':cfg.get('multilingual',{}),'requests_per_family':p['max_model_requests_per_family']},sort_keys=True).encode()).hexdigest()
+ return hashlib.sha256(json.dumps({'cohort':CREDENTIAL_SET_ID,'families':MAX_FAMILIES,'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'images_per_family':{'preferred':2,'minimum_approved':1,'repair_policy':load_json(data/'image-repair-policy.json') if (data/'image-repair-policy.json').exists() else None},'multilingual':cfg.get('multilingual',{}),'requests_per_family':p['max_model_requests_per_family']},sort_keys=True).encode()).hexdigest()
 
 def current(data=DATA,out=OUT):
  p=settings(data);path=out/'parallel/scheduling/state.json'

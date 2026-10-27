@@ -1,0 +1,1 @@
+{"version":1,"enabled":true,"policy":"three-corrections-single-approved-v1","max_corrective_rounds":3,"max_generation_attempts_per_role":4,"max_visual_reviews_per_role":4,"minimum_approved_images":1,"preferred_images":2,"reset_existing_attempts":false}

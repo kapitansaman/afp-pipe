@@ -15,6 +15,7 @@ from .flash_tajik_probe import ID as FLASH_ID
 from .tajik_full_verification import ID as TAJIK_FULL_ID
 from .tajik_quality_continuation import ID as TAJIK_QA_ID
 from .role_skills_launch import ID as ROLE_LAUNCH_ID,CONT_ID as ROLE_LAUNCH_CONT_ID,PAIR_ID as ROLE_LAUNCH_PAIR_ID
+from .image_fallback_verification import ID as IMAGE_FALLBACK_TEST_ID
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -23,8 +24,11 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID,IMAGE_FALLBACK_TEST_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
+ if rid==IMAGE_FALLBACK_TEST_ID:
+  from .image_fallback_verification import expected_request as image_fallback_request
+  expected=image_fallback_request()
  if rid in (ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID):
   from .role_skills_launch import expected_request
   expected=expected_request(rid)
@@ -129,6 +133,9 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None,request_id=ID):
 
 def prepare(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env);admission=load_owner_request(env,data)
+ if admission['request_id']==IMAGE_FALLBACK_TEST_ID:
+  from .image_fallback_verification import run as image_fallback_test
+  return image_fallback_test(env,data,out)
  if admission['request_id'] in (ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID):
   from .role_skills_launch import prepare_continuation
   return prepare_continuation(env,data,out,request_id=admission['request_id'])
@@ -182,6 +189,9 @@ def pilot(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env)
  if not authorize(env,data):raise ValueError('Bound current owner operation admission required')
  rid=load_json(data/'status/owner-operation-admission.json')['request_id']
+ if rid==IMAGE_FALLBACK_TEST_ID:
+  r=load_json(out/'parallel/operations'/rid/'prepare.json')
+  return {'status':r['status'],'published_posts':0,'model_calls':0}
  if rid in (ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID):
   from .role_skills_launch import pilot as launch_pilot
   return launch_pilot(env,data,out,request_id=rid)
@@ -209,5 +219,5 @@ def main():
  result=prepare() if args.phase=='prepare' else pilot()
  failures=[{k:row[k] for k in ('topic_id','family_id','stage','status','failure') if k in row} for row in result.get('results',[]) if row.get('failure')]
  print(json.dumps({'phase':args.phase,'status':result.get('status'),'run_id':os.environ.get('GITHUB_RUN_ID'),'published_posts':result.get('published_posts',0),'stage_failures':failures},ensure_ascii=False))
- return 0 if result.get('status') in ('role_skills_launch_prepared','controlled_launch_published','pilot_prerequisites_passed','research_prerequisites_passed','completed','diagnostic_completed','verification_completed','alternate_reviewer_validated','flash_samples_completed','revised_pair_verified','revised_pair_verified_after_reference_feedback') else 2
+ return 0 if result.get('status') in ('image_fallback_verification_passed','role_skills_launch_prepared','controlled_launch_published','pilot_prerequisites_passed','research_prerequisites_passed','completed','diagnostic_completed','verification_completed','alternate_reviewer_validated','flash_samples_completed','revised_pair_verified','revised_pair_verified_after_reference_feedback') else 2
 if __name__=='__main__':raise SystemExit(main())

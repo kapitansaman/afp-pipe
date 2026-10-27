@@ -1,6 +1,6 @@
 """Restricted WordPress Author connection. No SQL, redirects, deletion or edits to unrelated posts."""
 import base64,html,json,os,re,urllib.request,urllib.error,urllib.parse
-from .image_layout import PRODUCTION_IMAGE_ROLES,IMAGE_LAYOUT
+from .image_layout import PRODUCTION_IMAGE_ROLES,IMAGE_LAYOUT,roles_for,layout_for
 from pathlib import Path
 from .queue import atomic_json,load_json,utcnow
 from .pipeline import norm
@@ -8,6 +8,8 @@ from .article_format import faq_html,DISCLOSURE
 from .image_quality import require_all
 from .internal_links import LINK_POLICY,augment,selected_links,validate_targets,verify_links
 def illustrated_content(content,media,crop):
+ if not media:raise WPError('At least one approved image required')
+ if len(media)==1:return content
  def figure(m):return '<figure class="wp-block-image"><img src="'+html.escape(m['url'],quote=True)+'" alt="'+html.escape(crop+' و نوار تیپ AFP در محیط کشاورزی',quote=True)+'" loading="lazy"/></figure>'
  # Section boundaries are top-level; never insert a figure inside paragraphs or lists.
  matches=list(re.finditer(r'<h2>',content));at=matches[len(matches)//2].start() if len(matches)>1 else len(content)
@@ -56,6 +58,9 @@ class WordPress:
   if 'commercial_matrix' in article:
    from .content_matrix import validate as validate_matrix
    validate_matrix(article,topic,brief);topic=dict(topic,commercial_matrix=article['commercial_matrix']);r['commercial_matrix']=article['commercial_matrix']
+  roles=roles_for(folder)
+  if r.get('selected_image_roles') is not None and r['selected_image_roles']!=list(roles):raise WPError('Publication media selection changed')
+  r['selected_image_roles']=list(roles)
   self.preflight()
   internal=selected_links(topic,self.site+'/'+slug+'/');linked=augment(payload['content'],topic,self.site+'/'+slug+'/');targets_verified=False
   # Reconcile slug first, including this account's drafts; never overwrite another post.
@@ -68,7 +73,9 @@ class WordPress:
    post=found[0]
    if marker not in post.get('content',{}).get('raw','') or post.get('author')!=self.user_id:raise WPError('Existing post is not owned by this job')
    r['post_id']=post['id']
-   if post['status']=='publish':r.update(status='published',url=post['link']);atomic_json(rp,r);return self.publish_family(folder,topic,self.verify(post['id'],topic,rp))
+   if post['status']=='publish':
+    require_all(folder,topic,article)
+    r.update(status='published',url=post['link']);atomic_json(rp,r);return self.publish_family(folder,topic,self.verify(post['id'],topic,rp))
   elif r.get('post_id'):raise WPError('Receipt post missing; do not recreate automatically')
   else:
    require_all(folder,topic,load_json(folder/'article.json'))
@@ -80,7 +87,7 @@ class WordPress:
    post,_=self.call('posts','POST',draft);r.update(post_id=post['id'],status='draft_created');atomic_json(rp,r)
   require_all(folder,topic,load_json(folder/'article.json'))
   if not targets_verified:validate_targets(internal)
-  for i in PRODUCTION_IMAGE_ROLES:
+  for i in roles:
    if any(x['index']==i for x in r['media']):continue
    name=topic['id']+'-image-'+str(i);existing,_=self.call('media?slug='+name+'&context=edit')
    if len(existing)>1:raise WPError('Ambiguous media slug')
@@ -92,7 +99,7 @@ class WordPress:
     media,_=self.call('media','POST',blob=data,headers={'Content-Type':'image/webp','Content-Disposition':'attachment; filename="'+name+'.webp"'})
    media,_=self.call('media/'+str(media['id']),'POST',{'post':r['post_id'],'title':topic['title']+' — تصویرسازی','alt_text':topic['crop']+' و نوار تیپ AFP در محیط کشاورزی','caption':''})
    r['media'].append({'index':i,'id':media['id'],'url':media['source_url']});atomic_json(rp,r)
-  media=sorted((m for m in r['media'] if m['index'] in PRODUCTION_IMAGE_ROLES),key=lambda m:m['index']);r['image_layout']=IMAGE_LAYOUT;r['internal_links_policy']=LINK_POLICY;content=illustrated_content(linked,media,topic['crop'])
+  media=sorted((m for m in r['media'] if m['index'] in roles),key=lambda m:m['index']);r['image_layout']=layout_for(roles);r['internal_links_policy']=LINK_POLICY;content=illustrated_content(linked,media,topic['crop'])
   content+=DISCLOSURE+faq_html(load_json(folder/'article.json')['faq'])
   # Update only our marker-owned draft, then explicitly publish one post.
   current,_=self.call('posts/'+str(r['post_id'])+'?context=edit')
@@ -106,8 +113,10 @@ class WordPress:
  def verify(self,post_id,topic,receipt_path):
   post,_=self.call('posts/'+str(post_id));r=load_json(receipt_path)
   if post['status']!='publish' or norm(html.unescape(post['title']['rendered']))!=norm(topic['title']) or not post.get('featured_media'):raise WPError('Published post verification failed')
-  media=sorted((m for m in r.get('media',[]) if m.get('index') in PRODUCTION_IMAGE_ROLES),key=lambda m:m['index'])
-  if [m['index'] for m in media]!=list(PRODUCTION_IMAGE_ROLES) or len({m['id'] for m in media})!=2:raise WPError('Media receipt incomplete')
+  roles=tuple(r.get('selected_image_roles',PRODUCTION_IMAGE_ROLES))
+  if roles not in ((1,),(2,),(1,2)):raise WPError('Invalid selected media roles')
+  media=sorted((m for m in r.get('media',[]) if m.get('index') in roles),key=lambda m:m['index'])
+  if [m['index'] for m in media]!=list(roles) or len({m['id'] for m in media})!=len(roles):raise WPError('Media receipt incomplete')
   if post['featured_media']!=media[0]['id']:raise WPError('Featured image verification failed')
   for m in media[1:]:
    if m['url'] not in post['content']['rendered']:raise WPError('Inline image verification failed')

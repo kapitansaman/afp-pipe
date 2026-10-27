@@ -39,9 +39,10 @@ def archive(folder,stage,paths):
    if d.exists():raise StageBlocked('archive_collision_preserve_existing')
    shutil.move(str(p),str(d))
 
-def attempt(folder,stage,run_id,fn,outputs=(),limit=3):
+def attempt(folder,stage,run_id,fn,outputs=(),limit=3,allow_same_run=False):
+ if allow_same_run and not stage.startswith(('image-','vision-')):raise StageBlocked('same-run correction is image-only')
  s=state(folder,stage)
- if s.get('last_run_id')==run_id:return {'status':'deferred_same_run','stage':stage}
+ if s.get('last_run_id')==run_id and not allow_same_run:return {'status':'deferred_same_run','stage':stage}
  if s['attempts']>=limit:return {'status':'stage_budget_exhausted','stage':stage}
  # Preserve failed candidates/receipts before a fresh attempt, never erase history.
  if any(path.exists() for path in outputs):archive(folder,stage,outputs)
@@ -114,16 +115,21 @@ def next_stage(topic,data=DATA,out=OUT):
   if not proof.exists() or load_json(proof).get('article_sha256')!=digest(article) or load_json(proof).get('brief_sha256')!=digest(brief):return 'article_evidence_review',None
   try:validate_article_review_result(article,load_json(proof).get('review'))
   except ValueError:return 'article_evidence_review',None
- for kind in (1,2):
-  image=folder/f'image-{kind}.webp'
-  if not image.exists():return 'image-'+str(kind),None
-  from .image_quality import valid_record,review_path
-  try:valid_record(image,topic,kind,article)
-  except ValueError:
-   rp=review_path(image);qa=load_json(rp) if rp.exists() else {}
-   # Rejected content needs new bytes; unavailable/malformed review retains bytes.
-   if qa.get('status')=='reviewed' and qa.get('verdict',{}).get('passed') is False:return 'image-'+str(kind),None
-   return 'vision-'+str(kind),None
+ from . import image_workflow
+ if image_workflow.enabled(data):
+  if not image_workflow.ready(folder,topic,article):
+   return ('blocked','images_need_attention') if not image_workflow.approved_roles(folder,topic,article) and all(image_workflow.exhausted(folder,k) for k in (1,2)) else ('images',None)
+ else:
+  for kind in (1,2):
+   image=folder/f'image-{kind}.webp'
+   if not image.exists():return 'image-'+str(kind),None
+   from .image_quality import valid_record,review_path
+   try:valid_record(image,topic,kind,article)
+   except ValueError:
+    rp=review_path(image);qa=load_json(rp) if rp.exists() else {}
+    # Rejected content needs new bytes; unavailable/malformed review retains bytes.
+    if qa.get('status')=='reviewed' and qa.get('verdict',{}).get('passed') is False:return 'image-'+str(kind),None
+    return 'vision-'+str(kind),None
  if cfg.get('multilingual',{}).get('enabled'):
   from .language_review_queue import enabled as independent,primary_next
   if independent(data):
@@ -272,6 +278,15 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    if result['status']!='stage_completed':defer(qr,qp,'primary_stage_incomplete',data)
    else:atomic_json(qp,qr)
    continue
+  if stage=='images':
+   from .image_workflow import advance as advance_images
+   old=folder/'cycle-attempts.json'
+   if old.exists() and load_json(old).get('attempts',0)>=2:return {'status':'blocked','reason':'legacy_generation_budget_exhausted','topic_id':topic['id'],'published_posts':0}
+   if not health.get('eligible_image_slots') or not health.get('eligible_text_slots'):return {'status':'capability_required','stage':'images','topic_id':topic['id'],'published_posts':0}
+   client=client_factory(health,allow_calls=True,capabilities=('text','image'))
+   result=advance_images(client,folder,topic,load_json(folder/'article.json'),run_id,data);steps.extend(result['steps'])
+   if result['status']=='images_ready':continue
+   return dict(result,topic_id=topic['id'],published_posts=0)
   kind='image' if stage.startswith('image-') else 'text'
   from .recovery import circuit_open
   if circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
@@ -313,6 +328,7 @@ def publish_ready(wp,topic,data=DATA,out=OUT):
  if stage!='publish':return {'status':'not_publication_ready','reason':reason,'topic_id':topic['id'],'published_posts':0}
  folder=out/'new'/topic['id'];brief=load_json(data/'briefs'/(topic['id']+'.json'));article=article_checked(folder,topic,brief)
  from .image_quality import require_all
+ from .image_layout import roles_for
  require_all(folder,topic,article)
  from .pipeline import norm
  inventory=wp.inventory()
@@ -327,7 +343,7 @@ def publish_ready(wp,topic,data=DATA,out=OUT):
  pp=folder/'wordpress-draft-payload.json'
  if pp.exists() and load_json(pp)!=payload:raise StageBlocked('saved_publication_payload_changed')
  atomic_json(pp,payload)
- atomic_json(folder/'lifecycle-publication-validation.json',{'at':utcnow(),'brief_sha256':digest(brief),'article_sha256':digest(article),'image_sha256':{str(n):hashlib.sha256((folder/f'image-{n}.webp').read_bytes()).hexdigest() for n in (1,2)},'human_review_claimed':brief.get('human_agronomy_review_done',False)})
+ atomic_json(folder/'lifecycle-publication-validation.json',{'at':utcnow(),'brief_sha256':digest(brief),'article_sha256':digest(article),'image_sha256':{str(n):hashlib.sha256((folder/f'image-{n}.webp').read_bytes()).hexdigest() for n in roles_for(folder)},'human_review_claimed':brief.get('human_agronomy_review_done',False)})
  before_verified=verified_posts(folder)
  result=wp.publish(folder,topic,brief,authorized=True)
  if result.get('public_verified') is not True:raise StageBlocked('publication_not_publicly_verified')
