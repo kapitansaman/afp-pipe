@@ -1,15 +1,18 @@
 {
   "version": 1,
-  "request_id": "ops-97-text-schema-diagnostic-v2",
-  "operation": "97-text-health-and-two-schema-probes",
+  "request_id": "ops-practical-writer-translation-v1",
+  "operation": "nonpublishing-practical-writer-four-translations",
   "authorized": true,
-  "max_text_health_calls": 97,
+  "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 0,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_schema_probe_calls": 2,
-  "max_total_text_calls": 99,
+  "max_total_text_calls": 13,
+  "max_writer_calls": 1,
+  "max_final_article_reviews": 1,
+  "max_translation_languages": 4,
   "max_wordpress_mutations": 0,
-  "code_revision": "905fe6e7352f511a80c47644762bca2c24e96ab0"
+  "topic_id": "agri-b6f7d6bea16b",
+  "code_revision": "de299c85073691fe6eb3d4aae8434b232da2c2fd"
 }
