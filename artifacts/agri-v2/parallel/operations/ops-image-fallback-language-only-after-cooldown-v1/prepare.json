@@ -1,0 +1,51 @@
+{
+  "request_id": "ops-image-fallback-language-only-after-cooldown-v1",
+  "operation": "nonpublishing-language-only-after-provider-cooldown",
+  "run_id": "40463036595",
+  "topic_id": "agri-b6f7d6bea16b",
+  "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "started_at": "2026-10-27T06:46:46.704024+00:00",
+  "status": "language_continuation_provider_waiting",
+  "image_test_passed": true,
+  "translation_test_passed": false,
+  "image_result": {
+    "status": "images_ready",
+    "roles": [
+      1
+    ],
+    "fallback_used": true
+  },
+  "model_calls": 0,
+  "image_calls": 0,
+  "wordpress_mutations": 0,
+  "published_posts": 0,
+  "production_activated": false,
+  "schedule_activated": false,
+  "attempts_reset": false,
+  "native_review_claimed": false,
+  "queues_before": {
+    "ru-RU": {
+      "attempts": 0,
+      "model_calls_spent": 0,
+      "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73"
+    },
+    "ar-IQ": {
+      "attempts": 0,
+      "model_calls_spent": 0,
+      "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73"
+    },
+    "tg-TJ": {
+      "attempts": 2,
+      "model_calls_spent": 7,
+      "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73"
+    },
+    "en-US": {
+      "attempts": 0,
+      "model_calls_spent": 0,
+      "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73"
+    }
+  },
+  "max_total_text_calls": 16,
+  "steps": [],
+  "provider_retry_at_epoch": 1793086379.350329
+}
