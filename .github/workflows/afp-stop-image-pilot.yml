@@ -1,0 +1,21 @@
+name: AFP stop unsafe image pilot
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/afp-stop-image-pilot.yml']
+permissions:
+  actions: write
+jobs:
+  stop-exact-pilot:
+    if: github.repository == 'kapitansaman/afp-pipe'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Cancel only the image-feedback pilot before publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail-with-body --silent --show-error --max-time 30 -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/kapitansaman/afp-pipe/actions/runs/40457350294/cancel
