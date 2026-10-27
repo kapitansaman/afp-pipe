@@ -1,0 +1,17 @@
+{
+  "source_article_sha256": "0f0b5db296ea501b43e4df91b53b187b13ffa6334f6223f48f8d48d6b150d833",
+  "original_raw_sha256": "39441065ded1b04e68df0423126ed65d0e9d076f6574f14eff68da6b72eb87c3",
+  "corrected_raw_sha256": "c799e36cc72c48296798065520f52a02c85aa7b7d5713a6980938130ea568992",
+  "patch_sha256": "e94ca7b25b2b1f6e8877cf3e412142eb7c83d14deff3701e907a3da1a6b622f1",
+  "updates": [
+    {
+      "id": 57,
+      "old_text": "Дар ҳарорати оптималии 55 то 65 °F, пайдоиши ҷувончаи тухмии сабзӣ 14 то 21 рӯз тӯл мекаشد манбаъ.",
+      "new_text": "Дар ҳарорати оптималии 55 то 65 °F, пайдоиши ҷувончаи тухмии сабзӣ 14 то 21 рӯз тӯл мекашад манбаъ."
+    }
+  ],
+  "reason": "Replace the one mixed-script Tajik verb with Cyrillic мекашад. The statement, crop, original units and 14–21 day range are unchanged. Independent translation fidelity review remains required.",
+  "new_model_calls": 0,
+  "human_review_claimed": false,
+  "independent_fidelity_review_required": true
+}

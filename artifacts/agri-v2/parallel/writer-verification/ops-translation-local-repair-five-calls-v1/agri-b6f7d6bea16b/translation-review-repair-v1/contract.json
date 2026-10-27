@@ -1,0 +1,16 @@
+{
+  "source_article_sha256": "0f0b5db296ea501b43e4df91b53b187b13ffa6334f6223f48f8d48d6b150d833",
+  "translation_sha256": {
+    "ru-RU": "7e5e04009f475f6a40ce40566de1e42103fd389b1a2d6572e7de4a5d53903dbd",
+    "ar-IQ": "b51998060d5b20fdb587d4c38ad10d4da2f020c2b7c36770420b10500c9e8318",
+    "tg-TJ": "18be742368416a426290555eacbb8df44e879a3e35f6a151fba5ebefd13853b4",
+    "en-US": "470a886e13f0ab54c703b99b196c9ad373928b6af30b65a70806c8d9833e9856"
+  },
+  "max_rounds": 2,
+  "max_model_calls": 5,
+  "editable_languages": [
+    "ar-IQ",
+    "tg-TJ"
+  ],
+  "version": 1
+}

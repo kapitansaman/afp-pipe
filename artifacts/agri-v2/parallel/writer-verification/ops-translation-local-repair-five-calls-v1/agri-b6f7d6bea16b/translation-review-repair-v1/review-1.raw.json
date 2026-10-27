@@ -1,0 +1,148 @@
+{
+  "faithful": false,
+  "languages": {
+    "ru-RU": true,
+    "ar-IQ": true,
+    "tg-TJ": false,
+    "en-US": true
+  },
+  "reason": "The Tajik (tg-TJ) translation contains a systematic wrong-crop error (сабзӣ = dill used instead of морковь/carrot throughout), plus several semantic issues: wrong adjective and wrong descriptive term in two items. Russian, Arabic, and English translations are faithful to the source.",
+  "issues": [
+    {
+      "language": "tg-TJ",
+      "id": 0,
+      "source_text": "سبز نشدن بذر هویج به‌چه معناست",
+      "target_text": "Маънои сабз нашудани тухмии сабзӣ чист",
+      "category": "crop_product",
+      "detail": "Тухмии сабзӣ means 'dill seeds', not 'carrot seeds' (should be тухмии морковь)."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 1,
+      "source_text": "هنگامی که بذر هویج پس از کاشت در خاک، طویل‌مدت ظاهر نمی‌شود یا جوجه‌گیاهان به‌صورت کُند یا ناگهونی از بین می‌روند، معمولاْ ترکیبی از شرایط محیطی نامناسب در دانه‌پوش خاک مسئول است. هویج بذر بسیار ریزی دارد و عمق کشت کم و حساسیت بالا به سرمای خاک، خشکی سطحی و سخت‌شدن پوسته‌ی خاک باعث می‌شود شکست جوانه‌زنی در بسیاری از باغ‌ها رخ دهد",
+      "target_text": "Вақте ки тухмии саبзӣ пас аз кишт дар хок, муддати тӯлонӣ пайдо намешавад ё наботот оҳиста ё ногаҳон мемирад, одатан омезиши шароити нописанди муҳит дар пӯсти хок масъул аст. Сабзӣ тухмии хеле хурд дорад ва чуқурии кишт кам будан ва ҳассосияти баланд ба сардии хок, хушкӣ сатҳӣ ва сахт шудани пӯсти хок боиси он мегардад, ки сабзиш дар бисёр боғҳо ноком шавад",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) throughout instead of 'морковь' (carrot); systematic wrong-crop substitution."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 5,
+      "source_text": "در منطقه‌ی منبع، کاشت بذر هویج تنها پس از آنکه دمای خاک به حداقل ۴۰ °F رسید، مجاز شمرده شده است؛ زیر این حد رشدی آغاز نمی‌شود",
+      "target_text": "Дар минтақаи манбаъ, кишти тухмии сабзӣ танҳо пас аз он ки ҳарорати хок ба ҳадди ақали 40 °F расид, иҷозат дода мешавад; зери ин ҳадд рушд оғоз намеёбад",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot)."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 12,
+      "source_text": "سله‌ی خاک و ظهور جوجه‌گیاه",
+      "target_text": "Пӯсти сахти хок ва пайдоиши наботот",
+      "category": "meaning",
+      "detail": "Source means 'soil crust (sealing/hardening)'; translation renders as 'hard crust/cover of soil (пӯсти)' — shifts from agricultural crusting to a literal skin/covering."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 16,
+      "source_text": "شرایط رویایی",
+      "target_text": "Шароити орзувор",
+      "category": "meaning",
+      "detail": "Source 'شرایط رویایی' means 'ideal conditions'; 'шароити орзувор' means 'dreamy conditions', shifting the meaning."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 25,
+      "source_text": "خاک گرم‌تر از ۸۰ °F",
+      "target_text": "Хоки гармтар аз 80 °F",
+      "category": "wrong_language",
+      "detail": "Translation uses garbled/non-standard form 'гармтар' instead of proper Tajik comparative 'гармтар' — apparent typo corrupting the number+unit expression."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 31,
+      "source_text": "سطح ناهمگون و خشک",
+      "target_text": "Сатҳи нобаробар ва хушк",
+      "category": "meaning",
+      "detail": "Source 'ناهمگون' means 'uneven/irregular'; translation uses 'нобаробар' meaning 'unequal/inequitable', changing the descriptive sense."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 35,
+      "source_text": "پس از استقرار، نوسانات رطوبت خاک باعث اختلالات ریشه‌ای، رشد برگ کُند و طعم تلخی در هویج می‌شود",
+      "target_text": "Пас аз ҷойгиршавӣ, нусбатгириҳои намии хок ба ихтилоли реша, рушди суст-и барг ва чишаи таршӣ дар сабзӣ меорад",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot); also 'нусбатгириҳо' (proportions/ratios) for 'نوسانات' (fluctuations) shifts meaning."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 49,
+      "source_text": "تمامی مشاهدات عددی مندرج در این مقاله از یک منبع دانشگاهی (گسترش دانشگاه ایالتی یوتا) استخراج شده و محدوده‌ی جغرافیایی آن‌ها یوتا و اقلیم معتدل-خشک آمریکا است. واحدها عیناْ °F و روز گزارش شده‌اند و هیچ توصیه‌ای برای شرایط ایران استخراج نشده است",
+      "target_text": "Ҳамаи мушоҳидаҳои рақамии дар ин мақола овардашуда аз як манбаи донишгоҳӣ (таشینиси Донишгоҳи Иёлоти Юта) гирифта шудаанд ва доираи ҷуғрофии онҳо Юта ва иқлими муътадил-хушки Амрико мебошад. Воҳидҳо айнлан °F ва рӯз гузориш шудаанд ва ҳеҷ тавсияе барои шароити Эрон ҳосил нагардидааст",
+      "category": "meaning",
+      "detail": "Source explicitly states 'گسترش دانشگاه' (extension/university outreach); translation renders as 'таشینиси' (a garbled/non-standard term), altering the institutional reference."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 52,
+      "source_text": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "target_text": "Чаро тухмии сабзӣ калӣ намешавад? Баррасии ҳарорат, намӣ ва сахтшавии рӯи хок",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot)."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 53,
+      "source_text": "دانه‌ی هویج به‌سادگی سبز نمی‌شود؛ دمای پایین خاک, سله بستن سطح و نوسان رطوبت سه مانع اصلی رویاروی جوانه‌زنی و استقرار پوچ هویج هستند.",
+      "target_text": "Тухмии сабзӣ ба осонӣ калӣ намешавад; ҳарорати пастии хок, сахтшавии рӯи хок ва тағйирёбии намӣ се монеаи асосӣ дар пеши мегхоландзайӣ ва рушди нокоми сабзӣ мебошанд.",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot) twice; also 'мегхоландзайӣ' is a garbled/non-standard term for germination."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 54,
+      "source_text": "چرا بذر هویج پس از کاشت سبز نمی‌شود؟",
+      "target_text": "Чаро тухмии сабзӣ пас аз кишт калӣ намешавад؟",
+      "category": "crop_product",
+      "detail": "Uses 'саبзӣ' (dill) instead of 'морковь' (carrot)."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 55,
+      "source_text": "در شواهد منطقه‌ی منبع، بذر هویج زمانی سبز نمی‌شود که دمای خاک هنوز به حداقل ۴۰ °F نرسیده باشد؛ در این شرایط رشدی آغاز نشده و جوانه‌زنی متوقف می‌ماند منبع.",
+      "target_text": "Дар далелҳои минтақаи манбаъ, тухмии сабзӣ вақте сабз намешавад, ки ҳарорати хок ба ҳадди ақали 40 °F нарасида бошад; дар ин шароит рушде оғоз наёфта, нуфуф бозмедорад манбаъ.",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot)."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 56,
+      "source_text": "چقدر طول می‌کشد بذر هویج در دمای مناسب ظاهر شود؟",
+      "target_text": "Чанд вақт лозим аст тухмии сабзӣ дар ҳарорати муносиб пайдо шавад؟",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot)."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 57,
+      "source_text": "در دمای بهینه‌ی ۵۵ تا ۶۵ °F, ظهور رشدیس بذر هویج ۱۴ تا ۲۱ روز طول می‌کشد منبع.",
+      "target_text": "Дар ҳарорати оптималии 55 то 65 °F, пайдоиши ҷувончаи тухмии сабзӣ 14 то 21 рӯз тӯл мекашад манбаъ.",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot)."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 58,
+      "source_text": "چه زمانی نوسان رطوبت خاک به‌زیان هویج تمام می‌شود؟",
+      "target_text": "Кай нусбатгирии намии хок баzarари сабзӣ анҷом меёбад؟",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot); 'нусбатгирии' (proportions) for 'نوسان' (fluctuations) also shifts meaning."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 59,
+      "source_text": "نوسان رطوبت خاک موجب اختلالات ریشه‌ای, رشد برگ کُند و طعم تلخی در هویج می‌شود; همچنین دوره‌های متناوب خیس و خشک, شکاف خوردن ریشه هویج را تشدید می‌کند منبع.",
+      "target_text": "Нусбатгирии намии хок ба ихтилоли реша, рушди суст-и барг ва чишаи таршӣ дар сабзӣ меорад; инчунин давраҳои навбатии нам ва хушк шикастани решаро тезон мекунад манбаъ.",
+      "category": "crop_product",
+      "detail": "Uses 'сабзӣ' (dill) instead of 'морковь' (carrot); 'нусбатгирии' (proportions) for 'نوسان' (fluctuations) shifts meaning."
+    }
+  ]
+}

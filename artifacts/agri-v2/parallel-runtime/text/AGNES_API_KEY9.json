@@ -4,8 +4,8 @@
   "kind": "text",
   "slot": "AGNES_API_KEY9",
   "model": "agnes-2.5-flash",
-  "verified_at": "2026-10-27T02:12:51.493311+00:00",
+  "verified_at": "2026-10-27T03:03:28.544899+00:00",
   "verification": "actual_successful_parallel_response",
-  "family_id": "practical-verification-only",
+  "family_id": "five-call-translation-repair-only",
   "topic_id": "agri-b6f7d6bea16b"
 }

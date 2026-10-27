@@ -1,0 +1,36 @@
+{
+  "faithful": false,
+  "languages": {
+    "ru-RU": true,
+    "ar-IQ": true,
+    "tg-TJ": false,
+    "en-US": true
+  },
+  "reason": "Tajik translation incorrectly substitutes غوربا (turnip/rutabaga) for هویج (carrot) in multiple key segments, changing the crop/product identity. Other three languages are semantically faithful.",
+  "issues": [
+    {
+      "language": "tg-TJ",
+      "id": 52,
+      "source_text": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "target_text": "Чаро тухмии сабзӣ сабз намешавад? Баррасии ҳарорат, намӣ ва сахтшавии рӯи хок",
+      "category": "meaning",
+      "detail": "Title question 'چرا بذر هویج سبز نمی‌شود' ('why do carrot seeds fail to green/sprout') is rendered as 'Чаро тухмии сабзӣ сабз намешавад?' which literally reads 'why doesn't green seed turn green' — the semantic sense of 'not sprouting/emerging' is lost."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 53,
+      "source_text": "دانه‌ی هویج به‌سادگی سبز نمی‌شود؛ دمای پایین خاک، سله بستن سطح و نوسان رطوبت سه مانع اصلی رویاروی جوانه‌زنی و استقرار پوچ هویج هستند.",
+      "target_text": "Тухмии сабзӣ ба осонӣ сабз намешавад; ҳарорати пастии хок, сахтшавии рӯи хок ва нусбатгирии намӣ се монеаи асосӣ дар пеши нуфуф ва ҷойгиршавии нокоми сабзӣ мебошанд.",
+      "category": "meaning",
+      "detail": "The body phrase 'خاستن و استقرار پوچ هویج' (empty/failure of carrot establishment) is rendered as 'нуфуф ва ҷойгиршавии нокоми сабзӣ' where 'нуфуф' is not an established Tajik term for emergence/sprouting, producing an unclear and non-standard meaning."
+    },
+    {
+      "language": "tg-TJ",
+      "id": 54,
+      "source_text": "چرا بذر هویج پس از کاشت سبز نمی‌شود؟",
+      "target_text": "Чаро тухмии сабзӣ пас аз кишт сабз намешавад?",
+      "category": "meaning",
+      "detail": "Same issue as id 52: the question 'why do carrot seeds not green/sprout after planting' becomes 'why doesn't green seed turn green' — the horticultural meaning of germination failure is not conveyed."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "source_article_sha256": "0f0b5db296ea501b43e4df91b53b187b13ffa6334f6223f48f8d48d6b150d833",
+  "translation_sha256": {
+    "ru-RU": "7e5e04009f475f6a40ce40566de1e42103fd389b1a2d6572e7de4a5d53903dbd",
+    "ar-IQ": "b51998060d5b20fdb587d4c38ad10d4da2f020c2b7c36770420b10500c9e8318",
+    "tg-TJ": "18be742368416a426290555eacbb8df44e879a3e35f6a151fba5ebefd13853b4",
+    "en-US": "470a886e13f0ab54c703b99b196c9ad373928b6af30b65a70806c8d9833e9856"
+  },
+  "review": {
+    "faithful": false,
+    "languages": {
+      "ru-RU": true,
+      "ar-IQ": true,
+      "tg-TJ": false,
+      "en-US": true
+    },
+    "reason": "Tajik translation incorrectly substitutes غوربا (turnip/rutabaga) for هویج (carrot) in multiple key segments, changing the crop/product identity. Other three languages are semantically faithful.",
+    "issues": [
+      {
+        "language": "tg-TJ",
+        "id": 52,
+        "source_text": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+        "target_text": "Чаро тухмии сабзӣ сабз намешавад? Баррасии ҳарорат, намӣ ва сахтшавии рӯи хок",
+        "category": "meaning",
+        "detail": "Title question 'چرا بذر هویج سبز نمی‌شود' ('why do carrot seeds fail to green/sprout') is rendered as 'Чаро тухмии сабзӣ сабз намешавад?' which literally reads 'why doesn't green seed turn green' — the semantic sense of 'not sprouting/emerging' is lost."
+      },
+      {
+        "language": "tg-TJ",
+        "id": 53,
+        "source_text": "دانه‌ی هویج به‌سادگی سبز نمی‌شود؛ دمای پایین خاک، سله بستن سطح و نوسان رطوبت سه مانع اصلی رویاروی جوانه‌زنی و استقرار پوچ هویج هستند.",
+        "target_text": "Тухмии сабзӣ ба осонӣ сабз намешавад; ҳарорати пастии хок, сахтшавии рӯи хок ва нусбатгирии намӣ се монеаи асосӣ дар пеши нуфуф ва ҷойгиршавии нокоми сабзӣ мебошанд.",
+        "category": "meaning",
+        "detail": "The body phrase 'خاستن و استقرار پوچ هویج' (empty/failure of carrot establishment) is rendered as 'нуфуф ва ҷойгиршавии нокоми сабзӣ' where 'нуфуф' is not an established Tajik term for emergence/sprouting, producing an unclear and non-standard meaning."
+      },
+      {
+        "language": "tg-TJ",
+        "id": 54,
+        "source_text": "چرا بذر هویج پس از کاشت سبز نمی‌شود؟",
+        "target_text": "Чаро тухмии сабзӣ пас аз кишт сабз намешавад?",
+        "category": "meaning",
+        "detail": "Same issue as id 52: the question 'why do carrot seeds not green/sprout after planting' becomes 'why doesn't green seed turn green' — the horticultural meaning of germination failure is not conveyed."
+      }
+    ]
+  }
+}
