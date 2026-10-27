@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "request_id": "ops-three-fresh-persian-sources-bounded-v1",
-  "operation": "bounded-three-fresh-persian-source-trial",
+  "request_id": "ops-three-fresh-persian-sources-repair-v2",
+  "operation": "repair-three-persian-source-trial-within-original-budget",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
@@ -13,10 +13,10 @@
     "agri-96d735d5bd11",
     "agri-3c1cdef82c04"
   ],
-  "max_total_text_calls": 27,
+  "max_total_text_calls": 24,
   "max_image_calls": 15,
-  "max_total_model_calls": 42,
-  "max_model_calls_per_family": 14,
+  "max_total_model_calls": 39,
+  "max_model_calls_per_family": 13,
   "max_wordpress_mutations": 21,
   "max_source_posts": 3,
   "max_total_posts": 3,
@@ -24,5 +24,8 @@
   "max_media_uploads": 6,
   "max_provider_wait_seconds": 3600,
   "change_default_model": false,
-  "code_revision": "f87c98608709f21b3674ca35704c8cdcb7930aba"
+  "resume_from_request": "ops-three-fresh-persian-sources-bounded-v1",
+  "prior_total_model_calls": 3,
+  "original_total_model_budget": 42,
+  "code_revision": "1856e15ee5b724e65799f3f7f82be0844912fe90"
 }
