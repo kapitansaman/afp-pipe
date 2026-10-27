@@ -1,0 +1,10 @@
+{
+  "round": 0,
+  "issues": [
+    {
+      "id": 42,
+      "category": "wrong_language",
+      "detail": "Persian/Arabic characters remain in this Tajik segment."
+    }
+  ]
+}
