@@ -372,6 +372,22 @@ def overlap_next(topic,ev):
   if not p.exists() or load_json(p).get('full_existing_content_sha256')!=full:return 'existing_content_audit-'+str(i).zfill(3),None
  return 'existing_content_audit_finalize',None
 
+def saved_candidate_next(topic,ev):
+ """Read-only routing, not approval or a new budget.
+ A raw file is not proof it can be salvaged. Retry rejected extraction only
+ through its ORIGINAL bounded stage, preserving the raw output in its archive.
+ """
+ try:
+  raw=load_json(ev/'candidate-raw.json')
+  if not isinstance(raw,dict) or raw.get('topic_id')!=topic['id']:return 'blocked','saved_candidate_topic_identity_mismatch'
+  docs=load_json(ev/'sources.json')['documents']
+  normalize_saved_candidate(topic,raw,docs)
+ except EvidenceBlocked as exc:
+  return 'research_extract',exc.code
+ except (OSError,ValueError,KeyError,TypeError,AttributeError):
+  return 'blocked','saved_candidate_evidence_unreadable'
+ return 'research_validate_saved',None
+
 def normalize_saved_candidate(topic,value,docs):
  """Only inert metadata/quote binding repair, and per-fact dropping; no claim rewrite.
  Scientific rejection is NEVER flipped. Final independent review remains compulsory.
