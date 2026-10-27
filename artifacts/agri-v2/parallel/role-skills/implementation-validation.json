@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "validated_at": "2026-10-27T06:07:04.787301+00:00",
+  "tests_passed": 760,
+  "test_kind": "offline_code_safety_suite_not_live_generation",
+  "code_revision": "eab42e5c9925365ea06f87532b6aa94a72b43bcd",
+  "evidence_revision": "2e38b1292a93d54a65829a81f2607c6ebe41bdd0",
+  "role_count": 7,
+  "role_skills_connected": true,
+  "live_launch_complete": false,
+  "live_operations": [
+    {
+      "run_id": "40456266202",
+      "status": "controlled_launch_blocked",
+      "text_calls": 3,
+      "image_calls": 3
+    },
+    {
+      "run_id": "40457350294",
+      "status": "controlled_launch_blocked_then_cancelled",
+      "text_calls": 1,
+      "image_calls": 1
+    },
+    {
+      "run_id": "40458234120",
+      "status": "controlled_launch_blocked",
+      "text_calls": 2,
+      "image_calls": 2
+    }
+  ],
+  "total_reserved_model_calls": 12,
+  "wordpress_mutations": 0,
+  "published_posts": 0,
+  "latest_blocker": "image_2_wrong_crop",
+  "live_translation_phase_reached": false,
+  "schedule_enabled": false,
+  "verified_20_family_timing_complete": false,
+  "attempts_reset": false,
+  "prior_experimental_ledgers_preserved": true,
+  "twenty_family_assignments_preserved": true,
+  "queue_counts_unchanged": {
+    "new": 2905,
+    "merge": 593,
+    "hold": 370
+  }
+}
