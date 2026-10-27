@@ -231,7 +231,13 @@ def stage(topic,kind,client,data,out):
   try:facts=validate_candidate(topic,value,docs)
   except EvidenceBlocked:
    from .extraction_feedback import diagnose
-   atomic_json(ev/'extraction-feedback.json',diagnose(topic,value,docs));raise
+   atomic_json(ev/'extraction-feedback.json',diagnose(topic,value,docs))
+   # An invalid fact is not approval to rewrite it, nor a reason to discard
+   # four or more valid facts. Existing conservative normalization only drops
+   # invalid facts / repairs inert metadata; independent review still follows.
+   value,report=normalize_saved_candidate(topic,value,docs)
+   value=dict(value,research_route_version=ROUTE_VERSION);report['research_route_version']=ROUTE_VERSION
+   atomic_json(ev/'saved-candidate-validation.json',report);facts=validate_candidate(topic,value,docs)
   atomic_json(ev/'candidate.json',value);return {'grounded_facts':len(facts)}
  candidate=load_json(ev/'candidate.json');facts=validate_candidate(topic,candidate,docs)
  if kind=='existing_content_audit_finalize':

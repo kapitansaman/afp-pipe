@@ -15,3 +15,11 @@ The exact repair operation may use at most 24 additional text and 15 image reque
 Verified source: https://extension.umn.edu/irrigation/soil-moisture-sensors-irrigation-scheduling
 
 Validation: 854 isolated offline tests passed. The production fetcher loaded the complete 22,712-character university text, including the sensor-placement section. No model or WordPress call was made during local validation. Live results must be read from the new operation receipt after execution.
+
+## Live follow-up and saved-output continuation
+
+Run 40471364777 spent another three text calls, zero images, zero WordPress mutations and published no posts. Numeric binding failures still rejected whole candidates. Conservative validation of those exact saved outputs retained five, five and seven valid facts, respectively, by dropping invalid facts without rewriting claims. Independent evidence and article reviews remain mandatory.
+
+New extraction now applies this existing conservative salvage immediately after strict validation fails; it retains the raw response and all diagnostics. Scientific insufficiency is never flipped, fewer than four valid facts still rejects, and no brief/publication is approved by salvage alone.
+
+The exact saved-output continuation uses zero extraction calls and no new source refresh. Its maximum remaining allowance is 21 text + 15 images = 36, twelve per topic. Together with six already-spent text calls, the original 42-call cap remains unchanged. Original source/extraction counters, both previous operation trees and all earlier artifacts remain preserved.

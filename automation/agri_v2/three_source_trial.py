@@ -9,8 +9,11 @@ TOPICS=('agri-c2b086b47679','agri-96d735d5bd11','agri-3c1cdef82c04')
 MAX_TEXT=27;MAX_IMAGE=15;MAX_TOTAL=42;PER_FAMILY=14
 
 REPAIR_ID='ops-three-fresh-persian-sources-repair-v2'
+SAVED_ID='ops-three-fresh-persian-sources-saved-validation-v3'
 
 def expected_request(request_id=ID):
+ if request_id==SAVED_ID:
+  r=expected_request(REPAIR_ID);r.update(request_id=SAVED_ID,operation='validate-saved-three-persian-source-extractions-within-original-budget',resume_from_request=REPAIR_ID,prior_total_model_calls=6,max_total_text_calls=21,max_total_model_calls=36,max_model_calls_per_family=12);return r
  if request_id==REPAIR_ID:
   r=expected_request();r.update(request_id=REPAIR_ID,operation='repair-three-persian-source-trial-within-original-budget',resume_from_request=ID,prior_total_model_calls=3,original_total_model_budget=42,max_total_text_calls=24,max_total_model_calls=39,max_model_calls_per_family=13);return r
  if request_id!=ID:raise ValueError('Unknown three-source request')
@@ -24,10 +27,10 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
  admitted(env,data,request_id)
  from .parallel_control import reserve,policy
  policy(env,data);root=out/'parallel/operations'/request_id;rp=root/'prepare.json'
- repair=request_id==REPAIR_ID
+ repair=request_id in (REPAIR_ID,SAVED_ID)
  if repair:
   from .three_source_repair import verify_prior
-  prior=verify_prior(data,out)
+  prior=verify_prior(data,out,request_id)
  if rp.exists():return {'status':'three_source_trial_already_reserved','model_calls':0,'published_posts':0}
  manifest=load_json(data/'manifest.json')
  if manifest.get('counts')!={'new':2905,'merge':593,'hold':370}:raise ValueError('Immutable manifest counts changed')
@@ -46,7 +49,7 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
  r={'request_id':request_id,'operation':limits['operation'],'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'status':'three_source_trial_preflight','topic_ids':list(TOPICS),'titles':{t['id']:t['title'] for t in topics},'topic_id':TOPICS[0],'title':'آزمون محدود سه مقاله فارسی','source_only':True,'model_calls':0,'image_calls':0,'published_posts':0,'wordpress_calls':0,'production_activated':False,'schedule_activated':False,'attempts_reset':False,'max_total_model_calls':limits['max_total_model_calls'],'max_model_calls_per_family':limits['max_model_calls_per_family'],'max_total_posts':3,'source_readiness':'University discovery leads, not yet approved briefs or articles','prior_source_files':before,'assignment_sha256':hashlib.sha256(assignments.read_bytes()).hexdigest(),'manifest_sha256':hashlib.sha256((data/'manifest.json').read_bytes()).hexdigest(),'results':[]};
  if repair:
   from .three_source_repair import original_files
-  r.update(resume_from_request=ID,prior_model_calls=3,original_operation_files=original_files(out))
+  r.update(resume_from_request=limits['resume_from_request'],prior_model_calls=limits['prior_total_model_calls'],original_operation_files=original_files(out,request_id))
  atomic_json(rp,r)
  try:
   from .wordpress import WordPress
@@ -61,10 +64,10 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
 
 def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None,worker_fn=None,request_id=ID):
  admitted(env,data,request_id);root=out/'parallel/operations'/request_id;rp=root/'prepare.json';r=load_json(rp)
- limits=expected_request(request_id);max_total=limits['max_total_model_calls'];per_family=limits['max_model_calls_per_family'];max_text=limits['max_total_text_calls'];repair=request_id==REPAIR_ID
+ limits=expected_request(request_id);max_total=limits['max_total_model_calls'];per_family=limits['max_model_calls_per_family'];max_text=limits['max_total_text_calls'];repair=request_id in (REPAIR_ID,SAVED_ID)
  if repair:
   from .three_source_repair import verify_prior
-  verify_prior(data,out)
+  verify_prior(data,out,request_id)
  if r.get('run_id')!=env['GITHUB_RUN_ID'] or r.get('status')!='three_source_trial_prepared':return {'status':'three_source_trial_not_admitted','published_posts':0}
  gate=root/'pilot-reserved.json'
  if gate.exists():return {'status':'three_source_trial_already_reserved','published_posts':0}
@@ -96,7 +99,7 @@ def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None
    try:
     if active_cooldown(out) or snapshot(db)['cooldown_until_epoch']>time.time():item.update(status='provider_deferred',model_calls=0)
     else:
-     if repair:
+     if request_id==REPAIR_ID:
       from .three_source_repair import prepare_topic
       prepare_topic(topic,data,out,env['GITHUB_RUN_ID'])
      worker=dict(env,AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB=str(db),AFP_PARALLEL_TOPIC=ident,AFP_PARALLEL_FAMILY='three-source-trial-'+ident)
@@ -119,7 +122,7 @@ def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None
   pool=snapshot(db);record_routing(out,pool);ledger=load_json(root/'model-calls.json') if (root/'model-calls.json').exists() else {'text':0,'image':0};r.update(pool=pool,model_calls=ledger['text'],image_calls=ledger['image'],reserved_total_model_calls=pool['model_requests_reserved'],wordpress_calls=sum(load_json(p).get('reserved_mutations',0) for p in (root/'publish').glob('*/wordpress-mutations.json')),prior_sources_unchanged=preserved_files(out,r['prior_source_files']),assignments_unchanged=hashlib.sha256((out/'parallel/families/assignments.json').read_bytes()).hexdigest()==r['assignment_sha256'],manifest_unchanged=hashlib.sha256((data/'manifest.json').read_bytes()).hexdigest()==r['manifest_sha256'],completed_at=utcnow())
   if pool['cooldown_until_epoch']>time.time():atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text_or_image','retry_at_epoch':pool['cooldown_until_epoch'],'at':utcnow(),'reason':'three_source_trial_shared_provider_hold'})
   if repair:
-   r['original_operation_unchanged']=preserved_files(out,r['original_operation_files']);r['combined_total_model_calls']=3+ledger['text']+ledger['image']
+   r['original_operation_unchanged']=preserved_files(out,r['original_operation_files']);r['combined_total_model_calls']=limits.get('prior_total_model_calls',0)+ledger['text']+ledger['image']
   review=[x for x in r['results'] if x['status']!='source_public_verified'];atomic_json(out/'parallel/three-source-trial/review-queue.json',{'request_id':request_id,'items':review,'automatic_approval':False,'schedule_enabled':False,'updated_at':utcnow()})
   if not all(r[k] for k in ('prior_sources_unchanged','assignments_unchanged','manifest_unchanged')) or repair and not r['original_operation_unchanged']:r['status']='three_source_trial_preservation_failed'
   atomic_json(rp,r)

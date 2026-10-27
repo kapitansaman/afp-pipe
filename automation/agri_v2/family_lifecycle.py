@@ -251,8 +251,8 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
  env=os.environ if env is None else env;p=settings(data);folder=out/'new'/topic['id'];run_id=env['GITHUB_RUN_ID'];steps=[]
  if source_only:
   from .operation_request import authorize
-  from .three_source_trial import ID as trial_id,REPAIR_ID as repair_id,TOPICS as trial_topics
-  if not authorize(env,data) or load_json(data/'status/owner-operation-admission.json')['request_id'] not in (trial_id,repair_id) or topic['id'] not in trial_topics:raise StageBlocked('Exact source-only trial admission required')
+  from .three_source_trial import ID as trial_id,REPAIR_ID as repair_id,SAVED_ID as saved_id,TOPICS as trial_topics
+  if not authorize(env,data) or load_json(data/'status/owner-operation-admission.json')['request_id'] not in (trial_id,repair_id,saved_id) or topic['id'] not in trial_topics:raise StageBlocked('Exact source-only trial admission required')
  if env.get('AFP_PARALLEL_WORKER')!='1' or env.get('AFP_PARALLEL_TOPIC')!=topic['id']:raise StageBlocked('isolated_owned_topic_required')
  from .matrix_pilot import bound as matrix_bound
  matrix_pilot=matrix_bound(env,data)
