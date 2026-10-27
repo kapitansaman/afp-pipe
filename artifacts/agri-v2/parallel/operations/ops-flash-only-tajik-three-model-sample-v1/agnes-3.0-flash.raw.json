@@ -1,0 +1,22 @@
+{
+  "previous_crop_claim_correct": false,
+  "translations": [
+    {
+      "id": 35,
+      "text": "Пас аз ҷойгиршавӣ, тағйирёбиҳои намии хок ба ихтилоли решаҳо, сеҳи сустшии баргҳо ва таъми талхи сабзӣ оварда мерасонад"
+    },
+    {
+      "id": 52,
+      "text": "Чаро топи сабзӣ сабз намешавад? Баррасии ҳарорат, намӣ ва пӯсти хок"
+    },
+    {
+      "id": 53,
+      "text": "Топи сабзӣ ба осонӣ сабз намешавад; ҳарорати пастии хок, пӯсти намои сатҳ ва тағйирёбии намӣ се монеаи асосӣ дар роҳи сабзидан ва устувори сабзӣ мебошанд."
+    },
+    {
+      "id": 57,
+      "text": "Дар ҳарорати оптималии 55 то 65 °F, пайдоиши ҷавонони топи сабзӣ 14 то 21 рӯз тӯл мекашад. Манбаъ."
+    }
+  ],
+  "reason": "The glossary explicitly defines 'هویج' as 'сабзӣ', which corresponds to carrot, not dill or turnip, so the reviewer's claim is false. In the seed context, 'سبز شدن' refers to germination or sprouting, accurately translated as 'сабзидан' or 'ҷавонони'. The previous translations contained errors such as 'чиша' for bitterness and 'мегхоландзайӣ' for germination, which have been corrected to 'таъми талх' and 'сабзидан/ҷавонони' respectively, while preserving original numerical units and scientific meaning."
+}
