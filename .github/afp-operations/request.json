@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "request_id": "ops-practical-reviewed-translations-v3",
-  "operation": "nonpublishing-reviewed-practical-four-translations",
+  "request_id": "ops-practical-translation-resume-v4",
+  "operation": "nonpublishing-resume-practical-translations",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 0,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_total_text_calls": 11,
+  "max_total_text_calls": 9,
   "max_writer_calls": 0,
   "max_final_article_reviews": 0,
   "max_translation_languages": 4,
   "max_wordpress_mutations": 0,
   "topic_id": "agri-b6f7d6bea16b",
-  "code_revision": "41fa09bc6c8fedf4d838d5333c4efd9581a27d3d",
-  "resume_from_request": "ops-practical-saved-draft-v2"
+  "code_revision": "df4da98e88a683368c0b2e345dff8ac179871edf",
+  "resume_from_request": "ops-practical-reviewed-translations-v3"
 }
