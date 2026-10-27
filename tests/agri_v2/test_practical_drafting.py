@@ -56,3 +56,6 @@ class PracticalDraftingTests(unittest.TestCase):
   from automation.agri_v2 import scoped_research as s
   t,b,r=fixture();a,_=p.normalize(r,t,b);a.pop('writing_policy');value={k:True for k in ['all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review']};value['reason']='The actual source claims and scope were independently checked without fabricated claims or scientific review.'
   with self.assertRaises(ValueError):s.validate_article_review_result(a,value)
+ def test_source_citation_tags_in_faq_become_plain_text_without_changing_numbers(self):
+  t,b,r=fixture();url=b['sources'][0]['url'];r['faq'][0]['answer']+=' <a href="'+url+'">منبع</a>';a,report=p.normalize(r,t,b);self.assertNotIn('<',a['faq'][0]['answer']);self.assertTrue(any(x['kind']=='plain_faq_citation_tags' for x in report['format_repairs']));r['faq'][0]['answer']+=' <a href="https://evil.example/">bad</a>'
+  with self.assertRaises(ValueError):p.normalize(r,t,b)

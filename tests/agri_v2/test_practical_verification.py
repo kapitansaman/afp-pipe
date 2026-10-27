@@ -26,3 +26,8 @@ class PracticalVerificationTests(unittest.TestCase):
   for key,value in [('max_total_text_calls',12),('max_writer_calls',1),('max_final_article_reviews',1),('max_wordpress_mutations',1)]:
    bad=dict(req);bad[key]=value
    with self.assertRaises(ValueError):op.validate_request(bad)
+ def test_translation_resume_has_no_new_writer_or_review_and_nine_calls(self):
+  req=self.req();req.update(request_id=p.TRANSLATION_ID,operation='nonpublishing-resume-practical-translations',max_total_text_calls=9,max_writer_calls=0,max_final_article_reviews=0,resume_from_request=p.REVIEW_ID);op.validate_request(req)
+  for key,value in [('max_total_text_calls',10),('max_writer_calls',1),('max_final_article_reviews',1),('reset_attempts',True)]:
+   bad=dict(req);bad[key]=value
+   with self.assertRaises(ValueError):op.validate_request(bad)

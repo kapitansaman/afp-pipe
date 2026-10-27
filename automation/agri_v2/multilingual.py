@@ -44,7 +44,9 @@ def validate_rows(result,values,lang):
  translated=[mapping[i] for i in range(len(values))]
  for source,target in zip(values,translated):
   if not isinstance(target,str) or not target.strip() or re.search(r'[<>\u3400-\u9fff]',target):raise ValueError('Unsafe translated text')
-  if numbers(source)!=numbers(target):raise ValueError('Translation changed numbers')
+  from .text_fields import plain_citations
+  source_plain,_=plain_citations(source)
+  if numbers(source_plain)!=numbers(target):raise ValueError('Translation changed numbers')
  text=' '.join(translated)
  script=r'[А-Яа-яЁёҚқҒғҲҳҶҷӢӣӮӯ]' if lang in ('ru-RU','tg-TJ') else (r'[ء-ي]' if lang=='ar-IQ' else r'[A-Za-z]')
  if len(re.findall(script,text))<100:raise ValueError('Wrong translation script')

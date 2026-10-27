@@ -28,3 +28,10 @@ class TranslationChunkTests(unittest.TestCase):
    self.assertEqual(c.text.call_count,paid)
  def test_changed_number_is_never_repaired_to_approval(self):
   with self.assertRaisesRegex(ValueError,'numbers'):t.normalize_batch({'translations':[{'id':0,'text':'Changed 41'}]},[{'id':0,'text':'متن 40'}])
+ def test_source_present_citation_markup_is_plain_format_repair_not_new_link(self):
+  source='متن 40 <a href="https://extension.example.edu/source">منبع</a>.';target='Text 40 <a href="https://extension.example.edu/source">Source</a>.';raw={'translations':[{'id':0,'text':target}]};rows=t.normalize_batch(raw,[{'id':0,'text':source}],{'https://extension.example.edu/source'});self.assertEqual(rows,[{'id':0,'text':'Text 40 Source.'}])
+  raw['translations'][0]['text']='Text 40 <a href="https://evil.example/">Source</a>.'
+  with self.assertRaises(ValueError):t.normalize_batch(raw,[{'id':0,'text':source}],{'https://extension.example.edu/source'})
+ def test_injected_markup_still_rejected_when_absent_from_source(self):
+  for text in ['<script>bad</script>','Text <a href="https://evil.example/">bad</a>','<b>Text</b>']:
+   with self.assertRaises(ValueError):t.normalize_batch({'translations':[{'id':0,'text':text}]},[{'id':0,'text':'متن'}])

@@ -8,7 +8,7 @@ SUPPLEMENT_ID='ops-97-pilot-editorial-v4'
 FULL_QUEUE_ID='ops-full-queue-routes-research-v1'
 from .matrix_pilot import ID as MATRIX_ID,CONTINUATION_ID as MATRIX_CONT_ID,TOPIC as MATRIX_TOPIC,PRIOR_RUN as MATRIX_PRIOR_RUN,RECHECK_ID as MATRIX_RECHECK_ID,RECHECK_PRIOR_RUN as MATRIX_RECHECK_RUN,TEXT_ID as MATRIX_TEXT_ID,TEXT_PRIOR_RUN as MATRIX_TEXT_RUN,STRUCTURED_ID as MATRIX_STRUCTURED_ID,STRUCTURED_PRIOR_RUN as MATRIX_STRUCTURED_RUN
 from .provider_diagnostic import ID as DIAGNOSTIC_ID
-from .practical_verification import ID as PRACTICAL_ID,CONT_ID as PRACTICAL_CONT_ID,REVIEW_ID as PRACTICAL_REVIEW_ID
+from .practical_verification import ID as PRACTICAL_ID,CONT_ID as PRACTICAL_CONT_ID,REVIEW_ID as PRACTICAL_REVIEW_ID,TRANSLATION_ID as PRACTICAL_TRANSLATION_ID
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -17,7 +17,7 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
  if rid in (MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID):
   expected.update(operation='structured-commercial-matrix-text' if rid==MATRIX_STRUCTURED_ID else 'retry-commercial-matrix-text' if rid==MATRIX_TEXT_ID else 'recheck-commercial-matrix-overlap' if rid==MATRIX_RECHECK_ID else ('one-commercial-matrix-family' if rid==MATRIX_ID else 'continue-commercial-matrix-family'),topic_id=MATRIX_TOPIC,max_worker_model_calls=14 if rid==MATRIX_STRUCTURED_ID else 15 if rid==MATRIX_TEXT_ID else 18 if rid==MATRIX_RECHECK_ID else (24 if rid==MATRIX_ID else 23),max_image_generations=2,max_source_posts=1,max_translations=4,max_total_posts=5)
@@ -25,10 +25,11 @@ def validate_request(req):
   if rid==MATRIX_RECHECK_ID:expected['prior_run_id']=MATRIX_RECHECK_RUN
   if rid==MATRIX_TEXT_ID:expected['prior_run_id']=MATRIX_TEXT_RUN
   if rid==MATRIX_STRUCTURED_ID:expected['prior_run_id']=MATRIX_STRUCTURED_RUN
- if rid in (PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID):
+ if rid in (PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID):
   expected.update(operation='nonpublishing-practical-writer-four-translations',max_text_health_calls=0,max_image_health_calls=0,max_pilot_families=0,max_total_text_calls=13,max_writer_calls=1,max_final_article_reviews=1,max_translation_languages=4,max_wordpress_mutations=0,topic_id=MATRIX_TOPIC)
   if rid==PRACTICAL_CONT_ID:expected.update(operation='nonpublishing-saved-practical-draft-four-translations',max_writer_calls=0,max_total_text_calls=12,resume_from_request=PRACTICAL_ID)
   if rid==PRACTICAL_REVIEW_ID:expected.update(operation='nonpublishing-reviewed-practical-four-translations',max_writer_calls=0,max_final_article_reviews=0,max_total_text_calls=11,resume_from_request=PRACTICAL_CONT_ID)
+  if rid==PRACTICAL_TRANSLATION_ID:expected.update(operation='nonpublishing-resume-practical-translations',max_writer_calls=0,max_final_article_reviews=0,max_total_text_calls=9,resume_from_request=PRACTICAL_REVIEW_ID)
  if rid==DIAGNOSTIC_ID:
   expected.update(operation='97-text-health-and-two-schema-probes',max_text_health_calls=97,max_image_health_calls=0,max_pilot_families=0,max_schema_probe_calls=2,max_total_text_calls=99,max_wordpress_mutations=0)
  if rid==FULL_QUEUE_ID:
@@ -103,7 +104,7 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None):
 
 def prepare(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env);admission=load_owner_request(env,data)
- if admission['request_id'] in (PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID):
+ if admission['request_id'] in (PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID):
   from .practical_verification import run as verify_practical
   return verify_practical(env,data,out)
  if admission['request_id']==DIAGNOSTIC_ID:
@@ -136,7 +137,7 @@ def pilot(env=None,data=DATA,out=OUT):
  if not authorize(env,data):raise ValueError('Bound current owner operation admission required')
  rid=load_json(data/'status/owner-operation-admission.json')['request_id']
  rp=out/'parallel/operations'/rid/'prepare.json';report=load_json(rp)
- if rid in (PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID):return {'status':'verification_completed' if report.get('status')=='verification_completed' else 'verification_not_completed','model_calls':0,'published_posts':0,'attempts_reset':False}
+ if rid in (PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID):return {'status':'verification_completed' if report.get('status')=='verification_completed' else 'verification_not_completed','model_calls':0,'published_posts':0,'attempts_reset':False}
  if rid==DIAGNOSTIC_ID:return {'status':'diagnostic_completed' if report.get('status')=='diagnostic_completed' else 'diagnostic_not_completed','model_calls':0,'published_posts':0,'article_attempts_modified':False}
  if report.get('run_id')!=env['GITHUB_RUN_ID'] or report.get('status') not in ('pilot_prerequisites_passed','research_prerequisites_passed'):return {'status':'pilot_not_admitted','published_posts':0}
  from .parallel_controller import run

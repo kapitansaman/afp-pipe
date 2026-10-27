@@ -57,6 +57,14 @@ def normalize(raw,topic,brief):
  balance=Balanced();balance.feed(article['content_html']);balance.close()
  if balance.stack:
   article['content_html']+=''.join('</'+tag+'>' for tag in reversed(balance.stack));fixes.append({'kind':'close_unclosed_inert_tags_at_end'})
+ if isinstance(article['faq'],list):
+  from .text_fields import plain_citations
+  clean=[]
+  for row in article['faq']:
+   q,qu=plain_citations(row.get('question'),{s['url'] for s in brief['sources']});a,au=plain_citations(row.get('answer'),{s['url'] for s in brief['sources']})
+   if qu or au:fixes.append({'kind':'plain_faq_citation_tags','source_urls':qu+au})
+   clean.append({'question':q,'answer':a})
+  article['faq']=clean
  parser=Visible();parser.feed(article['content_html']);parser.close()
  if article['excerpt'] in (None,''):
   text=next((p for p in parser.paragraphs if len(p)>=20),'')
@@ -78,7 +86,7 @@ def normalize(raw,topic,brief):
 
 def generate(client,topic,brief,folder):
  request=json.loads(article_prompt(topic,brief));request.pop('constraints',None)
- request['task']+=' Return the article object DIRECTLY at the root with title, content_html, excerpt and faq. HTML prose is the output, not a nested schema or fact-ID outline. There is NO required section count, paragraph count, per-paragraph word limit or per-paragraph fact-ID field. Use natural short and long paragraphs. Do not repeat scope caveats or pad text to meet length. Put source limits where needed and once in a concise limits section. Cite approved source URLs on the relevant claims. Exactly three FAQs.'
+ request['task']+=' Return the article object DIRECTLY at the root with title, content_html, excerpt and faq. HTML prose is the output, not a nested schema or fact-ID outline. There is NO required section count, paragraph count, per-paragraph word limit or per-paragraph fact-ID field. Use natural short and long paragraphs. Do not repeat scope caveats or pad text to meet length. Put source limits where needed and once in a concise limits section. Cite approved source URLs on the relevant claims. Exactly three FAQs; their question and answer fields must be plain text, never HTML or citation tags. Put source links in the article body.'
  atomic_json(folder/'practical-text-contract.json',{'strategy':'practical-direct-html-v1','response_format':'json_object','paragraph_length_hard_gate':False,'fixed_section_count':False,'per_paragraph_fact_ids_required':False,'final_evidence_audit_required':True})
  raw=client.text(json.dumps(request,ensure_ascii=False),attempts=1,max_tokens=14000,timeout=180)
  atomic_json(folder/'practical-text-candidate.json',raw)
