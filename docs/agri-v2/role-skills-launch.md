@@ -1,0 +1,9 @@
+# Role skills and controlled launch
+
+Role packs in `data/agri-v2/role-skills/` are inserted in actual model requests for research, Persian writing, evidence review, translation, translation review and image review. Only the Tajik translator/reviewer receives the Tajik agriculture reference. This is contextual instruction, not model training or native-speaker certification. No agent framework or additional skill-only model calls are introduced. Translation receipt hashes include the full role pack and version.
+
+The separately authorized one-shot `ops-role-skills-controlled-launch-v1` validates the already reviewed carrot article with a fresh source audit, two real shared images and pixel reviews, independent language repair/review, and the existing single WordPress publisher. Its hard caps are 19 text calls, three image calls including at most one capability probe, 15 WordPress mutations and five posts (one source, four translations). Default text remains Flash 2.5; Tajik uses declared Flash 3.0. No Pro, key-hopping after image-probe failure, forced language approval or extra per-language images.
+
+Old experimental budgets and repair ledgers remain immutable; existing production files and all twenty family assignments are hash-protected. The old text-stage attempts are not reset. A new source audit may adopt the pinned already-reviewed source into the previously absent canonical article only. The Tajik queue imports previous attempts and calls before a newly authorized bounded repair; it does not call the old experiment again. Failed languages stay separate without blocking a verified source or healthy languages.
+
+This operation never enables scheduling. Source/vision/provider failure stops publication with durable sanitized evidence. A successful one-family launch does not satisfy the separate fresh, verified twenty-family adaptive-timing calibration. Neither timer calibration nor provider health may be invented from offline tests.

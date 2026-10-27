@@ -15,6 +15,10 @@ CATEGORIES={'meaning','omission','unsupported_claim','crop_product','number_unit
 class RepairBlocked(ValueError):pass
 
 def request(client,root,name,prompt,limit):
+ if isinstance(prompt,dict) and '_role_skill' in prompt:
+  from .role_skills import enrich
+  row=dict(prompt);role=row.pop('_role_skill');language=row.pop('_role_language',None)
+  prompt=json.loads(enrich(row,role,language))
  receipt=root/(name+'.receipt.json');raw_path=root/(name+'.raw.json')
  contract={'prompt_sha256':digest(prompt),'max_calls':1}
  if receipt.exists():

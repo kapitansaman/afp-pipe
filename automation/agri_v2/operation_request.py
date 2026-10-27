@@ -14,6 +14,7 @@ from .alternate_reviewer_verification import ID as ALT_REVIEW_ID
 from .flash_tajik_probe import ID as FLASH_ID
 from .tajik_full_verification import ID as TAJIK_FULL_ID
 from .tajik_quality_continuation import ID as TAJIK_QA_ID
+from .role_skills_launch import ID as ROLE_LAUNCH_ID
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -22,8 +23,11 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
+ if rid==ROLE_LAUNCH_ID:
+  from .role_skills_launch import expected_request
+  expected=expected_request()
  if rid in (MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID):
   expected.update(operation='structured-commercial-matrix-text' if rid==MATRIX_STRUCTURED_ID else 'retry-commercial-matrix-text' if rid==MATRIX_TEXT_ID else 'recheck-commercial-matrix-overlap' if rid==MATRIX_RECHECK_ID else ('one-commercial-matrix-family' if rid==MATRIX_ID else 'continue-commercial-matrix-family'),topic_id=MATRIX_TOPIC,max_worker_model_calls=14 if rid==MATRIX_STRUCTURED_ID else 15 if rid==MATRIX_TEXT_ID else 18 if rid==MATRIX_RECHECK_ID else (24 if rid==MATRIX_ID else 23),max_image_generations=2,max_source_posts=1,max_translations=4,max_total_posts=5)
   if rid==MATRIX_CONT_ID:expected['prior_run_id']=MATRIX_PRIOR_RUN
@@ -82,7 +86,7 @@ def load_owner_request(env,data=DATA,fetch_fn=None,revision_fn=None):
  if revision!=req['code_revision']:raise ValueError('Checked out code differs from explicit owner request')
  row={'request_id':req['request_id'],'run_id':env['GITHUB_RUN_ID'],'request_commit':env['GITHUB_SHA'],'admitted_at':utcnow(),'request':req};atomic_json(data/'status/owner-operation-admission.json',row);return row
 
-def image_capability(env,data=DATA,out=OUT,probe_fn=None):
+def image_capability(env,data=DATA,out=OUT,probe_fn=None,request_id=ID):
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
  from .parallel_capacity import CREDENTIAL_SET_ID
  from .healthcheck import SLOTS as legacy_slots
@@ -92,7 +96,8 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None):
  from automation.blog_image_queue import ImageQueueBusy
  hp=out/'parallel/health/latest.json';h=load_json(hp)
  if h.get('repository')!='kapitansaman/afp-pipe' or h.get('credential_set_id')!=CREDENTIAL_SET_ID or h.get('audit_status')!='completed' or not 0<=age_hours(h['checked_at'])<24 or (h.get('text_model'),h.get('image_model'),h.get('api_base'))!=(TEXT_MODEL,IMAGE_MODEL,API_BASE):return {'status':'fresh_text_audit_required','image_calls':0}
- rp=out/'parallel/operations'/ID/'image-proof.json'
+ if request_id not in (ID,ROLE_LAUNCH_ID):raise ValueError('Unknown bounded image probe request')
+ rp=out/'parallel/operations'/request_id/'image-proof.json'
  if rp.exists():return {'status':'already_reserved','image_calls':0}
  if circuit_open('image'):return {'status':'shared_image_cooldown','image_calls':0}
  # One candidate chosen before any request; no key hop after an error.
@@ -113,7 +118,7 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None):
   target=rp.parent/(slot+'.webp');target.write_bytes(blob)
   proof={'repository':'kapitansaman/afp-pipe','credential_set_id':CREDENTIAL_SET_ID,'kind':'image','slot':slot,'model':IMAGE_MODEL,'verified_at':utcnow(),'verification':'actual_successful_parallel_capability_probe','run_id':env['GITHUB_RUN_ID'],'publication_visual_approval':False}
   atomic_json(out/'parallel/runtime/image'/(slot+'.json'),proof)
-  h['eligible_image_slots']=[slot];h['image_pool_audit']={'request_id':ID,'updated_at':utcnow(),'max_image_calls':1,'model':IMAGE_MODEL,'publication_visual_approval':False};atomic_json(hp,h);row['status']='image_capability_verified'
+  h['eligible_image_slots']=[slot];h['image_pool_audit']={'request_id':request_id,'updated_at':utcnow(),'max_image_calls':1,'model':IMAGE_MODEL,'publication_visual_approval':False};atomic_json(hp,h);row['status']='image_capability_verified'
  else:
   row['status']='image_capability_failed_no_failover'
   status=result.get('http_status')
@@ -124,6 +129,9 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None):
 
 def prepare(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env);admission=load_owner_request(env,data)
+ if admission['request_id']==ROLE_LAUNCH_ID:
+  from .role_skills_launch import prepare as prepare_launch
+  return prepare_launch(env,data,out)
  if admission['request_id']==TAJIK_QA_ID:
   from .tajik_quality_continuation import run as finish_tajik
   return finish_tajik(env,data,out)
@@ -171,6 +179,9 @@ def pilot(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env)
  if not authorize(env,data):raise ValueError('Bound current owner operation admission required')
  rid=load_json(data/'status/owner-operation-admission.json')['request_id']
+ if rid==ROLE_LAUNCH_ID:
+  from .role_skills_launch import pilot as launch_pilot
+  return launch_pilot(env,data,out)
  rp=out/'parallel/operations'/rid/'prepare.json';report=load_json(rp)
  if rid==TAJIK_QA_ID:return {'status':'revised_pair_verified_after_reference_feedback' if report.get('status')=='revised_pair_verified_after_reference_feedback' else 'verification_not_completed','model_calls':0,'published_posts':0}
  if rid==TAJIK_FULL_ID:return {'status':'revised_pair_verified' if report.get('status')=='revised_pair_verified' else 'verification_not_completed','model_calls':0,'published_posts':0}
@@ -195,5 +206,5 @@ def main():
  result=prepare() if args.phase=='prepare' else pilot()
  failures=[{k:row[k] for k in ('topic_id','family_id','stage','status','failure') if k in row} for row in result.get('results',[]) if row.get('failure')]
  print(json.dumps({'phase':args.phase,'status':result.get('status'),'run_id':os.environ.get('GITHUB_RUN_ID'),'published_posts':result.get('published_posts',0),'stage_failures':failures},ensure_ascii=False))
- return 0 if result.get('status') in ('pilot_prerequisites_passed','research_prerequisites_passed','completed','diagnostic_completed','verification_completed','alternate_reviewer_validated','flash_samples_completed','revised_pair_verified','revised_pair_verified_after_reference_feedback') else 2
+ return 0 if result.get('status') in ('role_skills_launch_prepared','controlled_launch_published','pilot_prerequisites_passed','research_prerequisites_passed','completed','diagnostic_completed','verification_completed','alternate_reviewer_validated','flash_samples_completed','revised_pair_verified','revised_pair_verified_after_reference_feedback') else 2
 if __name__=='__main__':raise SystemExit(main())

@@ -153,6 +153,8 @@ def next_stage(topic,data=DATA,out=OUT):
  return 'publish',None
 
 def run_stage(topic,stage,client,data=DATA,out=OUT):
+ from .role_skills import for_stage
+ client=for_stage(client,stage,data)
  ident=topic['id'];folder=out/'new'/ident;folder.mkdir(parents=True,exist_ok=True);ev=folder/'lifecycle-evidence';bp=data/'briefs'/(ident+'.json')
  from . import research as r
  from .scoped_research import entries_for,SUPPORTED
