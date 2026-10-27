@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "strategy": "practical-direct-html-v1",
+  "raw_sha256": "db293470b6954cf92a1042c938dfeaa1cd454576e47cc32ea88e5c546771a0f0",
+  "article_sha256": "1da756c1bd9cf48e85de119e5907fbf5810c990b978bf901f8da88b58b329b84",
+  "format_repairs": [],
+  "warnings": [
+    {
+      "kind": "overall_length_below_editorial_target_not_blocker",
+      "words": 516,
+      "editorial_target": 550
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 43
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 48
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 37
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 27
+    }
+  ],
+  "final_independent_evidence_review_required": true,
+  "claims_added_by_normalizer": false
+}

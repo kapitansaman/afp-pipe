@@ -1,0 +1,43 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع استفاده‌شده متعلق به دانشگاه‌های آمریکایی هستند (Iowa State University و Utah State University) و دامنه جغرافیایی آن‌ها به مناطق تولید لوبیای خشک در ایالات متحده محدود است. ISU توصیه‌هایhandling و رطوبت انبار برای اقلیم‌های غرب بزرگ‌دشت، کالیفرنیا و شمال غرب اقیانوس آرام ارائه می‌دهد. USU بر نگهداری خانگی حبوبات خشک در بسته‌بندی‌های بدون اکسیژن متمرکز است و ملاحظات مهندسی سیلوهای تجاری را پوشش نمی‌دهد. هیچ داده‌ای درباره اقلیم ایران، رقم‌های محلی، یا شرایط انبارداری ایرانی در منابع وجود ندارد.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": true
+}

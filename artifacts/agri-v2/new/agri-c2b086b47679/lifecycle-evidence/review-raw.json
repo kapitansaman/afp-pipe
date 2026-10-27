@@ -1,0 +1,43 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع فقط از ترویج دانشگاهی آمریکا (مریلند و میسیسیپی) هستند و هیچ آستانه دمایی یا توصیه تقویمی بومی ایران ارائه نمی‌دهند. گزارش MS State به‌طور خاص به 'seed colored' در مقابل 'white bean' اشاره دارد اما مشخص نمی‌کند آیا لوبیا قرمز (لوبیا چیتی) در دسته مقاوم‌تر قرار می‌گیرد یا خیر. منابع عموماً درباره Phaseolus vulgaris (لوبیای معمولی) صحبت می‌کنند و هیچ‌کدام به‌طور صریح لوبیا قرمز خشک‌دانه را به‌عنوان cultivar خاصی پوشش نمی‌دهند. تبدیل °F به °C وظیفه لایه انتشار است و در شواهد عددی حفظ شده است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": true
+}

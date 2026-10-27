@@ -1,0 +1,201 @@
+{
+  "topic_id": "agri-c2b086b47679",
+  "title": "چرا بذر لوبیا قرمز سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "slug": "why-red-kidney-bean-seeds-fail-to-germinate",
+  "review_mode": "automated_scoped_evidence_review_v1",
+  "human_agronomy_review_done": false,
+  "agronomy_reviewer": null,
+  "editor": "Automated scoped extraction and independent skeptical source review; not a human agronomist",
+  "reviewed_at": "2026-10-27T08:23:19.566025+00:00",
+  "novelty_note": "مقاله موجود فقط به مقدار بذر در هکتار، تراکم کاشت و تجهیزات آبیاری می‌پردازد؛ هیچ تحلیل درباره آستانه دمایی خاک برای جوانه‌زنی، مکانیسم پوسیدگی بذر در شرایط سرد و نمناک، یا تأثیر سله‌بندی خاک بر خروج هیپوکوتیل ندارد.",
+  "source_scope_limitations": "منابع فقط از ترویج دانشگاهی آمریکا (مریلند و میسیسیپی) هستند و هیچ آستانه دمایی یا توصیه تقویمی بومی ایران ارائه نمی‌دهند. گزارش MS State به‌طور خاص به 'seed colored' در مقابل 'white bean' اشاره دارد اما مشخص نمی‌کند آیا لوبیا قرمز (لوبیا چیتی) در دسته مقاوم‌تر قرار می‌گیرد یا خیر. منابع عموماً درباره Phaseolus vulgaris (لوبیای معمولی) صحبت می‌کنند و هیچ‌کدام به‌طور صریح لوبیا قرمز خشک‌دانه را به‌عنوان cultivar خاصی پوشش نمی‌دهند. تبدیل °F به °C وظیفه لایه انتشار است و در شواهد عددی حفظ شده است.",
+  "approved_for_draft": true,
+  "semantic_review_done": true,
+  "overlap_review_done": true,
+  "sources_verified": true,
+  "publish_authorized": true,
+  "owner_authorization": "Owner requested fixing research blockers and publishing only fully validated families; no unsupported local prescription authorized.",
+  "outline": [
+    "شرایط و تعریف کشت: نیازهای دمایی و خاکی برای بذر لوبیای خشک",
+    "شواهد استقرار: دما، رطوبت و ساختار خاک در سبزشدن بذر",
+    "پایش و تصمیم‌گیری: معیارهای کیفی برای ارزیابی وضعیت کشت",
+    "خطاها و محدودیت انتقال: منابع عمومی Extension برای لوبیا قرمز"
+  ],
+  "sources": [
+    {
+      "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "locator": "Exact fetched evidence IDs and independent per-fact review",
+      "excerpt": "etermine germination requirements of the crops you grow. Use a soil thermometer or online soil temperature map to check soil temperatures prior to planting. Corn and bean seed, in particular, will rot in cold, wet soil. Large seeds contain large amounts of sugars that attract soil pathogens. Pre-sprout vegetable seeds indoors where appropriate, for planting in cool soil. To pre-sprout seed: place seeds on a moistened paper towel. Roll up the paper towel, place it in a plastic bag with some holes and set it on top of the refrigerator. Check the germination rate after 5-7 days. When the radicle (new root) begins to develop, remove seeds and plant in garden soil. Heavy rains can dislodge and wash away seeds, especially small seed. Avoid planting on slopes and consider using row covers, cloches, and cold frames to get seedlings up quickly in the spring. A lack of rainfall and warm winds can   seed does not have much influence on seeds. Beans, especially limas, are an exception. They should be planted with the \"eye\" (the hilum) facing down. The young root will emerge from the \"eye\" and thus will be heading in the right direction. Seeds sown \"eye\" down will produce a more uniform and productive stand. Weather conditions The seeds of most warm-season vegetable crops (beans, squash, cucumbers, etc.) will not germinate if soil temperatures are below 50° F. Lettuce, pea, radish, carrot, beet, spinach, and other cool-season crops will germinate if soil temperature is above 40° F. (High soil temperatures- over 85° F. are usually only a problem for spinach and lettuce seed.) Seed germination in low-temperature soil is spotty and slow. Determine germination requirements of the crops you grow. Use a soil thermometer or online soil temperature map to check soil temperatures prior to pla etermine germination requirements of the crops you grow. Use a soil thermometer or online soil temperature map to check soil temperatures prior to planting. Corn and bean seed, in particular, will rot in cold, wet soil. Large seeds contain large amounts of sugars that attract soil pathogens. Pre-sprout vegetable seeds indoors where appropriate, for planting in cool soil. To pre-sprout seed: place seeds on a moistened paper towel. Roll up the paper towel, place it in a plastic bag with some holes and set it on top of the refrigerator. Check the germination rate after 5-7 days. When the radicle (new root) begins to develop, remove seeds and plant in garden soil. Heavy rains can dislodge and wash away seeds, especially small seed. Avoid planting on slopes and consider using row covers, cloches, and cold frames to get seedlings up quickly in the spring. A lack of rainfall and warm winds can  enetics/Slow germination Lima bean, parsley, watermelon, and okra are examples of vegetable crops that germinate relatively slowly (10-21 days) at typical spring soil temperatures. Seeds planted incorrectly Seeds planted too deep may not germinate or emerge and those planted too shallow may wash away, fail to germinate or be eaten by wildlife. The rule of thumb is to plant seeds at a depth that is 2-3 times their diameter. It is easy to plant seeds too deeply, especially when covering the seed with soil. On light, sandy soils, seed can be planted more deeply. On heavy, clay soils, seed should be planted shallower. The seed of celery and lettuce should be left uncovered. Their seed germinates best in light. The spatial orientation of planted seed does not have much influence on seeds. Beans, especially limas, are an exception. They should be planted with the \"eye\" (the hilum) facing down.",
+      "sha256": "da39a7527300c92614f464a77d86a8bef4a4bc856eece137002812cf608130e7",
+      "fetched_at": "2026-10-27T07:35:33.501866+00:00",
+      "publisher_id": null
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "locator": "Exact fetched evidence IDs and independent per-fact review",
+      "excerpt": "Beans | Mississippi State University Extension Service Skip to main content Skip to main menu Skip to footer Join the Magnolia Moves Activity Challenge! Site search Home Lawn and Garden Vegetable Gardens Beans Vegetable Gardens Beans ﻿Beans All garden beans are sensitive to cold soil and cold air temperatures. Seeds planted in cold, wet soils rot, but colored bean seeds are more tolerant to cold soils than white bean seeds. ﻿ Soil type is important to bean seed germination. In germination, the two large seed halves (cotyledons) must come through the soil surface. Clay or compacted soils hold the cotyledons, and germination is poor. Cover seeds with a non-crusting material, or add sand, peat moss, vermiculite, or perlite to the soil. If a crust forms, carefully break it or sprinkle it lightly with water several times to soften it and aid germination. All beans are nitrogen fixing plants, ",
+      "sha256": "827288022a723edd521b054c6a3a2cd5e89007d569214e2a83894a202e8d08ac",
+      "fetched_at": "2026-10-27T07:35:33.144653+00:00",
+      "publisher_id": null
+    }
+  ],
+  "approved_facts": [
+    {
+      "kind": "source_observation",
+      "claim": "بذر لوبیا در خاک‌های سرد و نمناک پوسیده و به‌جای سبزشدن از بین می‌رود.",
+      "conditions": "خاک سرد همراه با رطوبت بالا؛ منطقه منابع: ایالت‌های میانه-اطلسی آمریکا؛ محصول: بذر لوبیا (Phaseolus vulgaris)",
+      "evidence_id": "d0-e8",
+      "numeric_bindings": [],
+      "fact_id": "f0",
+      "source_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "evidence_quote": "etermine germination requirements of the crops you grow. Use a soil thermometer or online soil temperature map to check soil temperatures prior to planting. Corn and bean seed, in particular, will rot in cold, wet soil. Large seeds contain large amounts of sugars that attract soil pathogens. Pre-sprout vegetable seeds indoors where appropriate, for planting in cool soil. To pre-sprout seed: place seeds on a moistened paper towel. Roll up the paper towel, place it in a plastic bag with some holes and set it on top of the refrigerator. Check the germination rate after 5-7 days. When the radicle (new root) begins to develop, remove seeds and plant in garden soil. Heavy rains can dislodge and wash away seeds, especially small seed. Avoid planting on slopes and consider using row covers, cloches, and cold frames to get seedlings up quickly in the spring. A lack of rainfall and warm winds can "
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بذر لوبیا در دمای خاک پایین‌تر از ۵۰ درجه فارنهایت سبز نمی‌شود.",
+      "conditions": "دمای خاک زیر آستانه حرجی؛ منطقه منابع: University of Maryland Extension، ایالات متحده؛ محصول: بذر لوبیا سبزرسته",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": [
+        {
+          "value": "50",
+          "unit_quote": "50° F",
+          "geographic_scope": "US extension regions",
+          "product_scope": "bean seed germination threshold"
+        }
+      ],
+      "fact_id": "f1",
+      "source_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "evidence_quote": " seed does not have much influence on seeds. Beans, especially limas, are an exception. They should be planted with the \"eye\" (the hilum) facing down. The young root will emerge from the \"eye\" and thus will be heading in the right direction. Seeds sown \"eye\" down will produce a more uniform and productive stand. Weather conditions The seeds of most warm-season vegetable crops (beans, squash, cucumbers, etc.) will not germinate if soil temperatures are below 50° F. Lettuce, pea, radish, carrot, beet, spinach, and other cool-season crops will germinate if soil temperature is above 40° F. (High soil temperatures- over 85° F. are usually only a problem for spinach and lettuce seed.) Seed germination in low-temperature soil is spotty and slow. Determine germination requirements of the crops you grow. Use a soil thermometer or online soil temperature map to check soil temperatures prior to pla"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های رسی و فشرده مانع خروج هیپوکوتیل شده و سبزشدن را مختل می‌کنند.",
+      "conditions": "خاک سنگین رسی یا فشرده؛ محصول: بذر لوبیا",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": [],
+      "fact_id": "f2",
+      "source_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "evidence_quote": "Beans | Mississippi State University Extension Service Skip to main content Skip to main menu Skip to footer Join the Magnolia Moves Activity Challenge! Site search Home Lawn and Garden Vegetable Gardens Beans Vegetable Gardens Beans ﻿Beans All garden beans are sensitive to cold soil and cold air temperatures. Seeds planted in cold, wet soils rot, but colored bean seeds are more tolerant to cold soils than white bean seeds. ﻿ Soil type is important to bean seed germination. In germination, the two large seed halves (cotyledons) must come through the soil surface. Clay or compacted soils hold the cotyledons, and germination is poor. Cover seeds with a non-crusting material, or add sand, peat moss, vermiculite, or perlite to the soil. If a crust forms, carefully break it or sprinkle it lightly with water several times to soften it and aid germination. All beans are nitrogen fixing plants, "
+    },
+    {
+      "kind": "qualitative",
+      "claim": "بذر لوبیا به دلیل قند بالا، جذب‌کننده پاتوژن‌های خاکزی است و در شرایط خیس مستعد پوسیدگی پیش از ظهور است.",
+      "conditions": "خاک نمناک و سرد؛ محصول: بذر لوبیا",
+      "evidence_id": "d0-e8",
+      "numeric_bindings": [],
+      "fact_id": "f3",
+      "source_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "evidence_quote": "etermine germination requirements of the crops you grow. Use a soil thermometer or online soil temperature map to check soil temperatures prior to planting. Corn and bean seed, in particular, will rot in cold, wet soil. Large seeds contain large amounts of sugars that attract soil pathogens. Pre-sprout vegetable seeds indoors where appropriate, for planting in cool soil. To pre-sprout seed: place seeds on a moistened paper towel. Roll up the paper towel, place it in a plastic bag with some holes and set it on top of the refrigerator. Check the germination rate after 5-7 days. When the radicle (new root) begins to develop, remove seeds and plant in garden soil. Heavy rains can dislodge and wash away seeds, especially small seed. Avoid planting on slopes and consider using row covers, cloches, and cold frames to get seedlings up quickly in the spring. A lack of rainfall and warm winds can "
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های سبک شنی اجازه کاشت عمیق‌تر و خاک‌های سنگین رسی نیازمند کاشت سطحی‌تر هستند.",
+      "conditions": "بافت خاک متفاوت؛ محصول: بذر لوبیا",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": [],
+      "fact_id": "f4",
+      "source_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "evidence_quote": "enetics/Slow germination Lima bean, parsley, watermelon, and okra are examples of vegetable crops that germinate relatively slowly (10-21 days) at typical spring soil temperatures. Seeds planted incorrectly Seeds planted too deep may not germinate or emerge and those planted too shallow may wash away, fail to germinate or be eaten by wildlife. The rule of thumb is to plant seeds at a depth that is 2-3 times their diameter. It is easy to plant seeds too deeply, especially when covering the seed with soil. On light, sandy soils, seed can be planted more deeply. On heavy, clay soils, seed should be planted shallower. The seed of celery and lettuce should be left uncovered. Their seed germinates best in light. The spatial orientation of planted seed does not have much influence on seeds. Beans, especially limas, are an exception. They should be planted with the \"eye\" (the hilum) facing down."
+    }
+  ],
+  "scoped_review": {
+    "all_claims_supported": true,
+    "crop_species_and_product_match": true,
+    "answers_exact_intent": true,
+    "units_and_denominators_correct": true,
+    "geography_and_transfer_limits_retained": true,
+    "no_iranian_prescription_inferred": true,
+    "independent_sources": false,
+    "source_policy_version": "university-single-source-v1",
+    "source_policy_satisfied": true,
+    "no_unsafe_input_rates": true,
+    "human_review_claimed": false,
+    "limitations": "منابع فقط از ترویج دانشگاهی آمریکا (مریلند و میسیسیپی) هستند و هیچ آستانه دمایی یا توصیه تقویمی بومی ایران ارائه نمی‌دهند. گزارش MS State به‌طور خاص به 'seed colored' در مقابل 'white bean' اشاره دارد اما مشخص نمی‌کند آیا لوبیا قرمز (لوبیا چیتی) در دسته مقاوم‌تر قرار می‌گیرد یا خیر. منابع عموماً درباره Phaseolus vulgaris (لوبیای معمولی) صحبت می‌کنند و هیچ‌کدام به‌طور صریح لوبیا قرمز خشک‌دانه را به‌عنوان cultivar خاصی پوشش نمی‌دهند. تبدیل °F به °C وظیفه لایه انتشار است و در شواهد عددی حفظ شده است.",
+    "fact_checks": [
+      {
+        "fact_id": "f0",
+        "supported": true,
+        "scope_and_units_correct": true
+      },
+      {
+        "fact_id": "f1",
+        "supported": true,
+        "scope_and_units_correct": true
+      },
+      {
+        "fact_id": "f2",
+        "supported": true,
+        "scope_and_units_correct": true
+      },
+      {
+        "fact_id": "f3",
+        "supported": true,
+        "scope_and_units_correct": true
+      },
+      {
+        "fact_id": "f4",
+        "supported": true,
+        "scope_and_units_correct": true
+      }
+    ],
+    "research_route_version": "full-queue-research-routes-v1",
+    "route_requirements_met": true
+  },
+  "product_definition": "لوبیا قرمز (Common dry bean, Phaseolus vulgaris)",
+  "scoped_intent": "germination",
+  "evidence_validation_version": 2,
+  "inventory_generated_at": "2026-10-27T08:22:48.728591+00:00",
+  "overlap_audit": {
+    "topic_id": "agri-c2b086b47679",
+    "decision": "distinct",
+    "human_review_claimed": false,
+    "novelty_reason": "مقاله موجود فقط به مقدار بذر در هکتار، تراکم کاشت و تجهیزات آبیاری می‌پردازد؛ هیچ تحلیل درباره آستانه دمایی خاک برای جوانه‌زنی، مکانیسم پوسیدگی بذر در شرایط سرد و نمناک، یا تأثیر سله‌بندی خاک بر خروج هیپوکوتیل ندارد.",
+    "article_checks": [
+      {
+        "id": 37546,
+        "already_answers_intent": false,
+        "quote_id": "37546:2",
+        "gap_reason": "اشاره گذرا به «ضدعفونی بذر» و «کاشت در عمق ۳ تا ۵ سانتی‌متر» دارد اما به شرایط دمایی (آستانه ۵۰°F)، پوسیدگی پیش از ظهور در خاک سرد/نمناک، و مانع فیزیکی سله خاک پرداخته نشده است.",
+        "evidence_quote": "د. ۴. روش آبیاری روش آبیاری نیز نقش مهمی در تعیین تراکم بوته دارد. در روش‌های آبیاری قطره‌ای، به دلیل توزیع یکنواخت آب و مواد غذایی، می‌توان تراکم بوته را افزایش داد. در روش‌های آبیاری سنتی، به دلیل عدم توزیع یکنواخت آب، باید تراکم بوته را کاهش داد. مقدار بذر توصیه شده برای لوبیا قرمز در هکتار با توجه به عوامل فوق، مقدار بذر توصیه شده برای لوبیا قرمز در هکتار به شرح زیر است: در شرایط آبیاری قطره‌ای: ۱۰۰ تا ۱۲۰ کیلوگرم بذر در هکتار در شرایط آبیاری سنتی: ۸۰ تا ۱۰۰ کیلوگرم بذر در هکتار راهکارهای افزایش عملکرد لوبیا قرمز با مدیریت بذر برای افزایش عملکرد لوبیا قرمز، علاوه بر تعیین مقدار مناسب بذر، باید به نکات زیر نیز توجه کرد: انتخاب بذر مرغوب: استفاده از بذور با قوه نامیه بالا و عاری از بیماری‌ها ضدعفونی بذر: ضدعفونی بذر قبل از کاشت برای جلوگیری از بیماری‌های قارچی و باکتریایی کاشت بذر در عمق مناسب: کاشت بذر در عمق ۳ تا ۵ سانتی‌متری تهیه بستر مناسب: تهیه بستری نرم و حاصلخیز برای استقرار بهت"
+      }
+    ],
+    "existing_content_sha256": "c4465e1cf86a8bb23704c2b7d5b33d22bc53e9bf5e0ad1203798e28fe2a735dc"
+  },
+  "research_route": {
+    "version": "full-queue-research-routes-v1",
+    "topic_id": "agri-c2b086b47679",
+    "canonical_title": "چرا بذر لوبیا قرمز سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+    "intent": "germination",
+    "crop": "لوبیا قرمز",
+    "crop_search_label": "red kidney dry bean",
+    "track": "planting_and_establishment",
+    "required_evidence": "Exact species/market class, propagule and establishment system. Source-region depths/temperatures/dates are not a local calendar or cultivar recommendation.",
+    "suggested_sections": [
+      "شرایط و تعریف کشت",
+      "شواهد استقرار",
+      "پایش و تصمیم‌گیری",
+      "خطاها و محدودیت انتقال"
+    ],
+    "crop_identity_policy": "The English label is a search lead, not cultivar/species equivalence. Preserve the exact named crop, product, market class and growing system. Vetch is not mung bean; cowpea is not common bean; green pea is not dry pea; grain/silage/sweet corn and sugar/table beet differ.",
+    "product_ambiguity_policy": "For seed pumpkin and seed watermelon explicitly distinguish whole fruit before extraction from cleaned/dried seed. If the exact title and fetched evidence cannot resolve the product, flag unresolved_scope; never silently replace the title.",
+    "source_policy": "One actually fetched directly relevant admitted university source may suffice; otherwise independent institutional sources remain required. Source count alone never proves the title is answerable.",
+    "numeric_policy": "Only literal source observations with original units/product/geography and separately verified deterministic conversions; no invented input, unit conversion, price, local rate or forecast.",
+    "search_queries": [
+      "red kidney dry bean germination university extension",
+      "red kidney dry bean کاشت و استقرار production guide"
+    ],
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "source_policy": {
+    "version": "university-single-source-v1",
+    "satisfied": true,
+    "university_hosts": [
+      "extension.msstate.edu",
+      "extension.umd.edu"
+    ],
+    "independent_institutions": 2,
+    "single_university_exception": false,
+    "publication_authorized": false
+  }
+}

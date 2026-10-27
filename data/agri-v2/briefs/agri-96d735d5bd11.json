@@ -1,0 +1,219 @@
+{
+  "topic_id": "agri-96d735d5bd11",
+  "title": "نگهداری لوبیا چیتی پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات",
+  "slug": "pinto-dry-bean-postharvest-storage-quality",
+  "review_mode": "automated_scoped_evidence_review_v1",
+  "human_agronomy_review_done": false,
+  "agronomy_reviewer": null,
+  "editor": "Automated scoped extraction and independent skeptical source review; not a human agronomist",
+  "reviewed_at": "2026-10-27T08:24:40.368393+00:00",
+  "novelty_note": "هیچ‌یک از مقالات موجود به انبارداری، شرایط دما و رطوبت نگهداری، بسته‌بندی مناسب برای حفظ کیفیت بلندمدت، یا روش‌های کاهش ضایعات پس از برداشت نمی‌پردازند. محتوای موجود صرفاً به مرحله کشت، برداشت و عملکرد در مزرعه اختصاص دارد.",
+  "source_scope_limitations": "منابع استفاده‌شده متعلق به دانشگاه‌های آمریکایی هستند (Iowa State University و Utah State University) و دامنه جغرافیایی آن‌ها به مناطق تولید لوبیای خشک در ایالات متحده محدود است. ISU توصیه‌هایhandling و رطوبت انبار برای اقلیم‌های غرب بزرگ‌دشت، کالیفرنیا و شمال غرب اقیانوس آرام ارائه می‌دهد. USU بر نگهداری خانگی حبوبات خشک در بسته‌بندی‌های بدون اکسیژن متمرکز است و ملاحظات مهندسی سیلوهای تجاری را پوشش نمی‌دهد. هیچ داده‌ای درباره اقلیم ایران، رقم‌های محلی، یا شرایط انبارداری ایرانی در منابع وجود ندارد.",
+  "approved_for_draft": true,
+  "semantic_review_done": true,
+  "overlap_review_done": true,
+  "sources_verified": true,
+  "publish_authorized": true,
+  "owner_authorization": "Owner requested fixing research blockers and publishing only fully validated families; no unsupported local prescription authorized.",
+  "outline": [
+    "تعریف محصول و هدف انبارداری",
+    "معیارهای کیفی دما، رطوبت و بسته‌بندی",
+    "روش‌های کاهش ضایعات و حفظ کیفیت",
+    "محدودیت‌ها و دامنه شواهد"
+  ],
+  "sources": [
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "locator": "Exact fetched evidence IDs and independent per-fact review",
+      "excerpt": "ng really dry, seed shatter can become a problem. Cutting at night or when a dew is on can help reduce shattering. One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type. This is one reason that drier regions in the Great Plains, California and Pacific Northwest have had a competitive advantage with dry beans. Harvest should be done quickly to help avoid discoloration. Choosing a dark seeded variety or pinto variety can help minimize this problem. Seeds should be stored at about 15 to 16% moisture. When handling, a belt conveyer is recommended over a metal auger to reduce seed damage. Seeds should be handled gently and not dumped from heights onto concrete or hard surfaces. Careful handling may be more time consuming but will pay off in the price received for a quality bean product. Resources Pr ng really dry, seed shatter can become a problem. Cutting at night or when a dew is on can help reduce shattering. One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type. This is one reason that drier regions in the Great Plains, California and Pacific Northwest have had a competitive advantage with dry beans. Harvest should be done quickly to help avoid discoloration. Choosing a dark seeded variety or pinto variety can help minimize this problem. Seeds should be stored at about 15 to 16% moisture. When handling, a belt conveyer is recommended over a metal auger to reduce seed damage. Seeds should be handled gently and not dumped from heights onto concrete or hard surfaces. Careful handling may be more time consuming but will pay off in the price received for a quality bean product. Resources Pr",
+      "sha256": "6b7f8b33ed2da4aef684c683372a07b0da5b86d7462cae351b913ffccf9728d6",
+      "fetched_at": "2026-10-27T07:36:02.379493+00:00",
+      "publisher_id": null
+    },
+    {
+      "url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+      "locator": "Exact fetched evidence IDs and independent per-fact review",
+      "excerpt": "Storing Dry Beans | USU Utah State University sites use cookies. By continuing to use this site you accept our privacy and cookie policy . I agree Skip to content Storing Dry Beans Legume (Bean) varieties such as: Adzuki, Black, Black-eyed, Black Turtle, Garbanzo, Great Northern, Kidney, Lentils, Lima, Mung, Navy, Pink, Pinto, Small Red, Soy, and Split-pea can all be dried and stored. Quality & Purchase For the most part, dry beans are graded U.S. No.1 (best) through U.S. No. 3, based on defects. Lesser quality beans are generally graded “substandard” or “sample”. Packaging Like most stored foods, beans are best stored in the absence of oxygen and light. Oxygen can lead to rancidity of bean oils and light will quickly fade bean color. The packaging choices are #10 cans or Mylar-type bags. Canning jars are suitable for smaller quantities providing the jars are stored in a dark place. Oxyg ackaging choices are #10 cans or Mylar-type bags. Canning jars are suitable for smaller quantities providing the jars are stored in a dark place. Oxygen absorbers should be used to remove oxygen from the packages to extend shelf life and minimize off-flavors. Storage Conditions Beans in normal polyethylene (food-grade) bags have a shelf life of 1 year or more. Like most stored foods, colder storage temperatures will increase shelf life. When packaged in #10 cans or Mylar-type bags, with the oxygen removed, they have a shelf life of 10 or more years. A BYU study indicated that pinto beans did experience a slight loss of quality during storage. However, samples that had been stored up to 30 years had greater than 80 percent acceptance by a consumer taste panel for emergency food use. The study concluded that pinto beans should be considered acceptable for use in long-term food storage effo",
+      "sha256": "0b28c1d3e38d23bcd751e9557a711ff550fe4cdcadad0a95e47b5775f0a09126",
+      "fetched_at": "2026-10-27T07:36:02.161197+00:00",
+      "publisher_id": null
+    },
+    {
+      "url": "https://extension.usu.edu/preserve-the-harvest/research/storage-conditions",
+      "locator": "Exact fetched evidence IDs and independent per-fact review",
+      "excerpt": "rch at Brigham Young University (Ref. 1.) on long term storage has shown that wheat retained an acceptable quality for 25 years stored cold (basement) and only 5 years stored hot (garage or attic). Grain germination rates will decline and vitamin breakdown rates in all stored foods will increase as the temperature increases. Canned foods should not be allowed to freeze. Freezing will bulge cans and may cause seam failures leading to a potential for foodborne illness. Dry foods can freeze without concern. Other factors Direct sunlight is detrimental to foods. It can speed deterioration of both the food and the packaging. The heat from sunlight can also speed deterioration. Always store foods off the floor. Flooring materials, especially concrete can leech chemicals into stored foods. These chemicals can pass through plastics and can cause rust to form on metal. References Green R., D.J.Ro",
+      "sha256": "0fa49a7197d2c15893d73e128e6190efc9e1c31a8cf772b781e51a8b5a57bc56",
+      "fetched_at": "2026-10-27T07:36:03.005466+00:00",
+      "publisher_id": null
+    }
+  ],
+  "approved_facts": [
+    {
+      "kind": "source_observation",
+      "claim": "دانه‌های لوبیای چیتی پس از برداشت باید به حدود ۱۵ تا ۱۶ درصد رطوبت برسند تا برای انبارداری بلندمدت مناسب باشند.",
+      "conditions": "منبع دانشگاهی ایالات متحده (Iowa State University Extension)، محصول: لوبیای خشک (dry beans) شامل پینتو؛ مرحله انبار پس از برداشت؛ اقلیم مناطق غرب بزرگ‌دشت، کالیفرنیا و شمال غرب اقیانوس آرام",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": [
+        {
+          "value": "15 to 16",
+          "unit_quote": "Seeds should be stored at about 15 to 16% moisture",
+          "geographic_scope": "Iowa State University (US Midwest; applied broadly to US dry-bean growing regions)",
+          "product_scope": "dry beans (pinto and other market classes)"
+        }
+      ],
+      "fact_id": "f0",
+      "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "evidence_quote": "ng really dry, seed shatter can become a problem. Cutting at night or when a dew is on can help reduce shattering. One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type. This is one reason that drier regions in the Great Plains, California and Pacific Northwest have had a competitive advantage with dry beans. Harvest should be done quickly to help avoid discoloration. Choosing a dark seeded variety or pinto variety can help minimize this problem. Seeds should be stored at about 15 to 16% moisture. When handling, a belt conveyer is recommended over a metal auger to reduce seed damage. Seeds should be handled gently and not dumped from heights onto concrete or hard surfaces. Careful handling may be more time consuming but will pay off in the price received for a quality bean product. Resources Pr"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای انبارداری بلندمدت لوبیای خشک، حذف اکسیژن و دوری از نور دو عامل کلیدی حفظ کیفیت هستند؛ اکسیژن باعث ترش شدن روغن دانه و نور باعث رنگ‌پریدگی می‌شود.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)؛ محصول: انواع لوبیای خشک از جمله پینتو؛ شرایط نگهداری در بسته‌بندی‌های بدون اکسیژن",
+      "evidence_id": "d2-e0",
+      "fact_id": "f1",
+      "source_url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+      "evidence_quote": "Storing Dry Beans | USU Utah State University sites use cookies. By continuing to use this site you accept our privacy and cookie policy . I agree Skip to content Storing Dry Beans Legume (Bean) varieties such as: Adzuki, Black, Black-eyed, Black Turtle, Garbanzo, Great Northern, Kidney, Lentils, Lima, Mung, Navy, Pink, Pinto, Small Red, Soy, and Split-pea can all be dried and stored. Quality & Purchase For the most part, dry beans are graded U.S. No.1 (best) through U.S. No. 3, based on defects. Lesser quality beans are generally graded “substandard” or “sample”. Packaging Like most stored foods, beans are best stored in the absence of oxygen and light. Oxygen can lead to rancidity of bean oils and light will quickly fade bean color. The packaging choices are #10 cans or Mylar-type bags. Canning jars are suitable for smaller quantities providing the jars are stored in a dark place. Oxyg"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دمای خنک انبارداری عمر قفسه‌ای حبوبات خشک را افزایش می‌دهد و در مقابل، دمای گرم روند تخریب ویتامین‌ها را تسریع می‌کند.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)؛ محصول: حبوبات خشک و سایر مواد غذایی خشک انباری؛ شرایط دمای انبار",
+      "evidence_id": "d2-e1",
+      "fact_id": "f2",
+      "source_url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+      "evidence_quote": "ackaging choices are #10 cans or Mylar-type bags. Canning jars are suitable for smaller quantities providing the jars are stored in a dark place. Oxygen absorbers should be used to remove oxygen from the packages to extend shelf life and minimize off-flavors. Storage Conditions Beans in normal polyethylene (food-grade) bags have a shelf life of 1 year or more. Like most stored foods, colder storage temperatures will increase shelf life. When packaged in #10 cans or Mylar-type bags, with the oxygen removed, they have a shelf life of 10 or more years. A BYU study indicated that pinto beans did experience a slight loss of quality during storage. However, samples that had been stored up to 30 years had greater than 80 percent acceptance by a consumer taste panel for emergency food use. The study concluded that pinto beans should be considered acceptable for use in long-term food storage effo"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "نور مستقیم خورشید هم بر محصول و هم بر بسته‌بندی آسیب رسانده و گرمای ناشی از آن تخریب را تسریع می‌کند؛ مواد غذایی باید از کف زمین جدا نگهداری شوند.",
+      "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)؛ محصول: مواد غذایی خشک و انباری؛ محدودیت‌های محیط انبار",
+      "evidence_id": "d4-e1",
+      "fact_id": "f3",
+      "source_url": "https://extension.usu.edu/preserve-the-harvest/research/storage-conditions",
+      "evidence_quote": "rch at Brigham Young University (Ref. 1.) on long term storage has shown that wheat retained an acceptable quality for 25 years stored cold (basement) and only 5 years stored hot (garage or attic). Grain germination rates will decline and vitamin breakdown rates in all stored foods will increase as the temperature increases. Canned foods should not be allowed to freeze. Freezing will bulge cans and may cause seam failures leading to a potential for foodborne illness. Dry foods can freeze without concern. Other factors Direct sunlight is detrimental to foods. It can speed deterioration of both the food and the packaging. The heat from sunlight can also speed deterioration. Always store foods off the floor. Flooring materials, especially concrete can leech chemicals into stored foods. These chemicals can pass through plastics and can cause rust to form on metal. References Green R., D.J.Ro"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در برخورد و جابجایی دانه‌های خشک باید از نوار نقاله (belt conveyer) به جای مارپیچ فلزی استفاده شود و دانه‌ها از ارتفاع روی سطوح سخت ریخته نشوند تا شکستگی و ضایعات کاهش یابد.",
+      "conditions": "منبع دانشگاهی ایالات متحده (Iowa State University Extension)؛ محصول: دانه لوبیای خشک (از جمله پینتو)؛ مرحله handling پس از برداشت",
+      "evidence_id": "d0-e19",
+      "fact_id": "f4",
+      "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "evidence_quote": "ng really dry, seed shatter can become a problem. Cutting at night or when a dew is on can help reduce shattering. One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type. This is one reason that drier regions in the Great Plains, California and Pacific Northwest have had a competitive advantage with dry beans. Harvest should be done quickly to help avoid discoloration. Choosing a dark seeded variety or pinto variety can help minimize this problem. Seeds should be stored at about 15 to 16% moisture. When handling, a belt conveyer is recommended over a metal auger to reduce seed damage. Seeds should be handled gently and not dumped from heights onto concrete or hard surfaces. Careful handling may be more time consuming but will pay off in the price received for a quality bean product. Resources Pr"
+    }
+  ],
+  "scoped_review": {
+    "all_claims_supported": true,
+    "crop_species_and_product_match": true,
+    "answers_exact_intent": true,
+    "units_and_denominators_correct": true,
+    "geography_and_transfer_limits_retained": true,
+    "no_iranian_prescription_inferred": true,
+    "independent_sources": false,
+    "source_policy_version": "university-single-source-v1",
+    "source_policy_satisfied": true,
+    "no_unsafe_input_rates": true,
+    "human_review_claimed": false,
+    "limitations": "منابع استفاده‌شده متعلق به دانشگاه‌های آمریکایی هستند (Iowa State University و Utah State University) و دامنه جغرافیایی آن‌ها به مناطق تولید لوبیای خشک در ایالات متحده محدود است. ISU توصیه‌هایhandling و رطوبت انبار برای اقلیم‌های غرب بزرگ‌دشت، کالیفرنیا و شمال غرب اقیانوس آرام ارائه می‌دهد. USU بر نگهداری خانگی حبوبات خشک در بسته‌بندی‌های بدون اکسیژن متمرکز است و ملاحظات مهندسی سیلوهای تجاری را پوشش نمی‌دهد. هیچ داده‌ای درباره اقلیم ایران، رقم‌های محلی، یا شرایط انبارداری ایرانی در منابع وجود ندارد.",
+    "fact_checks": [
+      {
+        "fact_id": "f0",
+        "supported": true,
+        "scope_and_units_correct": true
+      },
+      {
+        "fact_id": "f1",
+        "supported": true,
+        "scope_and_units_correct": true
+      },
+      {
+        "fact_id": "f2",
+        "supported": true,
+        "scope_and_units_correct": true
+      },
+      {
+        "fact_id": "f3",
+        "supported": true,
+        "scope_and_units_correct": true
+      },
+      {
+        "fact_id": "f4",
+        "supported": true,
+        "scope_and_units_correct": true
+      }
+    ],
+    "research_route_version": "full-queue-research-routes-v1",
+    "route_requirements_met": true
+  },
+  "product_definition": "لوبیا چیتی خشک (دانه لوبیای خشک شده محصول Phaseolus vulgaris، بازار کلاس pinto bean)",
+  "scoped_intent": "storage",
+  "evidence_validation_version": 2,
+  "inventory_generated_at": "2026-10-27T08:22:48.728591+00:00",
+  "overlap_audit": {
+    "topic_id": "agri-96d735d5bd11",
+    "decision": "distinct",
+    "human_review_claimed": false,
+    "novelty_reason": "هیچ‌یک از مقالات موجود به انبارداری، شرایط دما و رطوبت نگهداری، بسته‌بندی مناسب برای حفظ کیفیت بلندمدت، یا روش‌های کاهش ضایعات پس از برداشت نمی‌پردازند. محتوای موجود صرفاً به مرحله کشت، برداشت و عملکرد در مزرعه اختصاص دارد.",
+    "article_checks": [
+      {
+        "id": 524170,
+        "already_answers_intent": false,
+        "quote_id": "524170:5",
+        "gap_reason": "این مقاله درباره کاهش تلفات برداشت، تنظیم زمان ورود به مزرعه، وضعیت غلاف پیش از برداشت، پاک‌سازی محموله و جمع‌آوری دانه‌های رهاشده است. محتوای آن کاملاً به مرحله عملیات برداشت و بازرسی مزرعه محدود می‌شود و هیچ اشاره‌ای به دمای انبار، درصد رطوبت هدف نگهداری، شرایط طولانی‌مدت انبارداری، بسته‌بندی، حذف اکسیژن، دوری از نور یا ضایعات پس از برداشت ندارد.",
+        "evidence_quote": "ای محصول بریده‌شده روش و زمان عملیات باید محلی بررسی شود پیش از خرمن‌کوبی خشکی کافی بوته در کنار خطر ریزش غلاف درصد رطوبت هدف از منابع استخراج نشده است پس از خرمن‌کوبی جداسازی بقایای گیاهی، بذر علف هرز، خاک و سنگ پاک‌سازی فیزیکی معادل تأیید ایمنی غذایی نیست این جدول خلاصه پرسش‌های تصمیم‌گیری است، نه دستور تنظیم ماشین‌آلات. برای کاهش تلفات، ابتدا روشن کنید مسئله در کدام مرحله رخ می‌دهد و سپس همان مرحله را با رقم، شرایط مزرعه، روش برداشت و تجهیزات موجود تطبیق دهید. محدودیت جغرافیایی و مقیاس منابع نیز باید در تصمیم نهایی حفظ شود. این مطلب با کمک هوش مصنوعی و بررسی منابع دانشگاهی تهیه شده و جایگزین بررسی شرایط مزرعه و نظر کارشناس محلی نیست. برای آشنایی با تجهیزات آبیاری مزرعه، نوار تیپ و نوار آبیاری قطره‌ای را در همین سایت ببینید. مطالعهٔ مرتبط: میزان برداشت لوبیا چیتی در هکتار: عوامل موثر و روش‌های افزایش . سؤالات متداول برای جلوگیری از ریزش دانه، چه چیزی باید پیش از برداشت بررسی شود؟ راهنم"
+      },
+      {
+        "id": 37531,
+        "already_answers_intent": false,
+        "quote_id": "37531:0",
+        "gap_reason": "این مقاله به‌طور کامل درباره مقدار بذر مورد نیاز در هکتار، تراکم بوته، فاصله ردیف‌ها و نقش آبیاری قطره‌ای با نوار تیپ در بهینه‌سازی مصرف بذر است. موضوع مقاله پیش از مرحله برداشت و کاملاً در حوزه کشت قرار دارد و هیچ ارتباطی با انبارداری، دما، رطوبت نگهداری یا پیشگیری از ضایعات پس از برداشت ندارد.",
+        "evidence_quote": "فهرست مطالب مقدار بذر لوبیا چیتی در هکتار و عوامل موثر عوامل مؤثر بر مقدار بذر لوبیا چیتی در هکتار 💧 روش آبیاری و تأثیر آن بر میزان بذر ✅ تراکم بوته و فاصله ردیف‌ها مقدار بذر لوبیا چیتی در هکتار چقدر است؟ 🔢 توصیه‌های عملی برای تعیین مقدار بذر نقش آبیاری قطره‌ای با نوار تیپ در بهینه‌سازی مصرف بذر 🌱 مزایای استفاده از نوار تیپ در کشت لوبیا چیتی 📏 فاصله مناسب نوار تیپ برای کشت لوبیا چیتی خرید محصولات مرتبط با آبیاری قطره‌ای مقایسه مصرف آب و عملکرد لوبیا چیتی در روش‌های مختلف آبیاری معرفی نوار آبیاری نتیجه‌گیری منابع سوالات متداول (FAQ) مقدار بذر لوبیا چیتی در هکتار و عوامل موثر لوبیا چیتی یکی از مهم‌ترین انواع حبوبات است که در ایران و جهان کشت می‌شود. تعیین دقیق مقدار بذر لوبیا چیتی در هکتار ، نقشی کلیدی در دستیابی به عملکرد بهینه و سودآوری این محصول دارد. انتخاب مقدار مناسب بذر، با توجه به عوامل مختلفی مانند نوع رقم، شرایط آب و هوایی، و روش آبیاری، می‌تواند تأثیر چشمگیری بر عملکرد نهایی مزر"
+      },
+      {
+        "id": 36763,
+        "already_answers_intent": false,
+        "quote_id": "36763:9",
+        "gap_reason": "این مقاله به بررسی عوامل مؤثر بر میزان برداشت در هکتار می‌پردازد؛ شامل عوامل ژنتیکی، شرایط آب و هوایی، مدیریت خاک و تغذیه، روش‌های آبیاری، کنترل آفات و بیماری‌ها، تراکم بوته و سیستم‌های کاشت نواری. محتوای آن کاملاً مربوط به مرحله تولید و مدیریت زراعی است و هیچ بخش مربوط به انبارداری پس از برداشت، شرایط دمایی و رطوبتی نگهداری، بسته‌بندی یا کاهش ضایعات ذخیره‌سازی را پوشش نمی‌دهد.",
+        "evidence_quote": "اه AFP آبگستر فراپارسیان مراجعه کنید. نتیجه‌گیری میزان برداشت لوبیا چیتی در هکتار تحت تاثیر عوامل متعددی قرار دارد که با مدیریت صحیح و استفاده از روش‌های بهینه، می‌توان عملکرد و سودآوری این محصول را افزایش داد. انتخاب بذر مناسب، آماده‌سازی خاک، کوددهی متعادل، آبیاری بهینه با استفاده از نوار تیپ ، کنترل آفات و بیماری‌ها و مدیریت علف‌های هرز، از جمله عوامل کلیدی در افزایش عملکرد لوبیا چیتی هستند. با استفاده از سیستم‌های آبیاری قطره‌ای و محصولات با کیفیت شرکت AFP آبگستر فراپارسیان، می‌توانید به حداکثر میزان برداشت لوبیا چیتی در هکتار دست یابید. برای کسب اطلاعات بیشتر و دریافت مشاوره رایگان، با کارشناسان ما تماس بگیرید: tel:00989134922013 فاصله مناسب بین ردیف‌های نوار تیپ برای لوبیا چیتی چقدر است؟ فاصله مناسب بین ردیف‌های نوار تیپ برای لوبیا چیتی معمولاً بین 50 تا 70 سانتی‌متر است. این فاصله بسته به نوع رقم، شرایط آب و هوایی و بافت خاک می‌تواند متغیر باشد. میزان آب مورد نیاز برای آبیاری لوبی"
+      }
+    ],
+    "existing_content_sha256": "4360b0e2ec3b67742ce08dd4a1776f42139994f40a2cee67b713569e6eaac61a"
+  },
+  "research_route": {
+    "version": "full-queue-research-routes-v1",
+    "topic_id": "agri-96d735d5bd11",
+    "canonical_title": "نگهداری لوبیا چیتی پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات",
+    "intent": "storage",
+    "crop": "لوبیا چیتی",
+    "crop_search_label": "pinto dry bean",
+    "track": "harvest_and_postharvest",
+    "required_evidence": "Exact harvested part, maturity and fresh/dry basis; food/seed/forage conditions must not be interchanged. Every temperature, humidity, loss or storage duration needs literal source support.",
+    "suggested_sections": [
+      "تعریف محصول و هدف",
+      "معیارها و شواهد",
+      "روش ثبت و کنترل کیفیت",
+      "محدودیت‌ها و پیشگیری از خطا"
+    ],
+    "crop_identity_policy": "The English label is a search lead, not cultivar/species equivalence. Preserve the exact named crop, product, market class and growing system. Vetch is not mung bean; cowpea is not common bean; green pea is not dry pea; grain/silage/sweet corn and sugar/table beet differ.",
+    "product_ambiguity_policy": "For seed pumpkin and seed watermelon explicitly distinguish whole fruit before extraction from cleaned/dried seed. If the exact title and fetched evidence cannot resolve the product, flag unresolved_scope; never silently replace the title.",
+    "source_policy": "One actually fetched directly relevant admitted university source may suffice; otherwise independent institutional sources remain required. Source count alone never proves the title is answerable.",
+    "numeric_policy": "Only literal source observations with original units/product/geography and separately verified deterministic conversions; no invented input, unit conversion, price, local rate or forecast.",
+    "search_queries": [
+      "pinto dry bean storage university extension",
+      "pinto dry bean پس از برداشت production guide"
+    ],
+    "publication_authorized": false,
+    "human_review_claimed": false
+  },
+  "source_policy": {
+    "version": "university-single-source-v1",
+    "satisfied": true,
+    "university_hosts": [
+      "extension.usu.edu",
+      "www.extension.iastate.edu"
+    ],
+    "independent_institutions": 2,
+    "single_university_exception": false,
+    "publication_authorized": false
+  }
+}

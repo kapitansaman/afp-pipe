@@ -1,0 +1,35 @@
+{
+  "attempts": 2,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "failed",
+      "last_run_id": "40472933013",
+      "started_at": "2026-10-27T08:28:31.734675+00:00",
+      "completed_at": "2026-10-27T08:28:44.875444+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "unspecified"
+      }
+    },
+    {
+      "attempts": 2,
+      "status": "failed",
+      "last_run_id": "40472933013",
+      "started_at": "2026-10-27T08:29:52.492074+00:00",
+      "completed_at": "2026-10-27T08:30:12.910902+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "unspecified"
+      }
+    }
+  ],
+  "status": "failed",
+  "last_run_id": "40472933013",
+  "started_at": "2026-10-27T08:29:52.492074+00:00",
+  "completed_at": "2026-10-27T08:30:12.910902+00:00",
+  "failure": {
+    "kind": "image_quality",
+    "category": "unspecified"
+  }
+}

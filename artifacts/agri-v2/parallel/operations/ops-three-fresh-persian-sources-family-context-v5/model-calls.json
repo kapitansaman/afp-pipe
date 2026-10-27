@@ -1,0 +1,84 @@
+{
+  "text": 10,
+  "image": 3,
+  "history": [
+    {
+      "kind": "text",
+      "topic_id": "agri-c2b086b47679",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:22:55.767978+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-c2b086b47679",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:23:07.117958+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-c2b086b47679",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:23:19.584398+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-c2b086b47679",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:23:38.226935+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:23:47.984431+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:24:24.440372+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:24:40.388529+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:25:01.281454+00:00"
+    },
+    {
+      "kind": "image",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-image-2.5-flash",
+      "at": "2026-10-27T08:25:56.365979+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:28:31.738039+00:00"
+    },
+    {
+      "kind": "image",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-image-2.5-flash",
+      "at": "2026-10-27T08:28:44.880374+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:29:52.495535+00:00"
+    },
+    {
+      "kind": "image",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-image-2.5-flash",
+      "at": "2026-10-27T08:30:12.915782+00:00"
+    }
+  ]
+}

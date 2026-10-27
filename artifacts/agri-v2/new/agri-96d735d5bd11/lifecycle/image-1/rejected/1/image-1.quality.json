@@ -1,0 +1,43 @@
+{
+  "image_sha256": "dc6d642199bfab1e594bad08c1490ce975761220421d652bdd8b6c15632293d2",
+  "contract_sha256": "bcbc6fef19c25592a09c8bfb668aa34ea04dd38297d5bf74af7dff97ff8f5a86",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 1,
+  "topic_id": "agri-96d735d5bd11",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-27T08:28:31.736287+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": false
+    },
+    "score": 48,
+    "reasons": [
+      "CRITICAL: Crop species mismatch — image shows carrots (Daucus carota) with characteristic feathery foliage and exposed orange taproots, but scene DATA requires mature dry common bean (Phaseolus vulgaris / لوبیا چیتی) with senescent yellow-brown trifoliate foliage and beige/straw papery pods containing kidney-shaped seeds.",
+      "CRITICAL: Camera angle does not match role 1 — specified 'elevated wide crop-dominant overview' but image is shot at ground/eye level with shallow depth of field and narrow perspective.",
+      "CRITICAL: Topic evidence mismatch — scene is about post-harvest storage of red kidney beans (绿豆/لوبیا چیتی), but image depicts growing carrots in field, which is a materially false visual claim for this topic.",
+      "COSMETIC: Phone label displays 'AFP | 09134922013' but should read 'AFP | 09134922013' — last digit is 3 instead of correct value.",
+      "Product carton identity, packaging integrity, scale, single-product presence, plumbing separation, and absence of people/extra text are all acceptable."
+    ]
+  }
+}

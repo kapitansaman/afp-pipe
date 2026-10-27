@@ -1,0 +1,42 @@
+{
+  "attempts": 3,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "validated",
+      "last_run_id": "40472933013",
+      "started_at": "2026-10-27T08:25:56.364112+00:00",
+      "completed_at": "2026-10-27T08:28:31.733911+00:00",
+      "failure": null
+    },
+    {
+      "attempts": 2,
+      "status": "validated",
+      "last_run_id": "40472933013",
+      "started_at": "2026-10-27T08:28:44.878263+00:00",
+      "completed_at": "2026-10-27T08:29:52.491147+00:00",
+      "failure": null
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40472933013",
+      "started_at": "2026-10-27T08:30:12.913783+00:00",
+      "completed_at": "2026-10-27T08:31:20.026826+00:00",
+      "failure": {
+        "kind": "image_provider",
+        "category": "provider_unavailable",
+        "http_status": 503
+      }
+    }
+  ],
+  "status": "failed",
+  "last_run_id": "40472933013",
+  "started_at": "2026-10-27T08:30:12.913783+00:00",
+  "completed_at": "2026-10-27T08:31:20.026826+00:00",
+  "failure": {
+    "kind": "image_provider",
+    "category": "provider_unavailable",
+    "http_status": 503
+  }
+}
