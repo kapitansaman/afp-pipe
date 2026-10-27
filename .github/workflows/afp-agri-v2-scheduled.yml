@@ -1,7 +1,6 @@
 name: AFP adaptive scheduler - gated 20-family cadence
 on:
-  schedule:
-    - cron: '*/5 * * * *'
+  # Automatic cadence stays disabled until an explicit activation decision.
   workflow_dispatch:
 permissions:
   contents: write
