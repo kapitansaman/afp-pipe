@@ -1,0 +1,10 @@
+{
+  "faithful": false,
+  "languages": {
+    "ru-RU": true,
+    "ar-IQ": false,
+    "tg-TJ": false,
+    "en-US": true
+  },
+  "reason": "ru-RU and en-US faithfully preserve crop identity (carrot), all numbers/units (40, 55–65, 80 °F; 14–21 days), source geography (Utah State University Extension, semi-arid US climate), and the limitation disclaimer that no recommendations for Iran were derived. ar-IQ mistranslates the excerpt: 'استقرار پوچ' (poor establishment) becomes 'استقرار جزر فارغ' (empty carrot establishment), inserting a nonexistent crop descriptor. Its title replaces 'بررسی' (examination) with 'دراسة' (study), a meaningful shift. tg-TJ contains severe lexical corruption: the heading 'شرایط رویایی نشانه‌ی شکست تفسیر' (Ideal conditions / Sign of failure / Interpretation) is rendered as 'Шароити орзувор Аломати нокомӣ Тафсир' where 'орзувор' (dreamy/desirable) mistranslates 'رویایی'; 'چندپاشонӣ' appears to be an invented or incorrect term for sprinkling/irrigation; 'می‌شود' becomes 'میорад' (a nonsensical verb form in this context); 'پوچ' (poor/failed) is lost in the excerpt. These errors constitute meaningful omissions and wrong renderings of source content."
+}
