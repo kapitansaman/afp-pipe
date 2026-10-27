@@ -8,17 +8,26 @@ ID='ops-three-fresh-persian-sources-bounded-v1'
 TOPICS=('agri-c2b086b47679','agri-96d735d5bd11','agri-3c1cdef82c04')
 MAX_TEXT=27;MAX_IMAGE=15;MAX_TOTAL=42;PER_FAMILY=14
 
-def expected_request():
+REPAIR_ID='ops-three-fresh-persian-sources-repair-v2'
+
+def expected_request(request_id=ID):
+ if request_id==REPAIR_ID:
+  r=expected_request();r.update(request_id=REPAIR_ID,operation='repair-three-persian-source-trial-within-original-budget',resume_from_request=ID,prior_total_model_calls=3,original_total_model_budget=42,max_total_text_calls=24,max_total_model_calls=39,max_model_calls_per_family=13);return r
+ if request_id!=ID:raise ValueError('Unknown three-source request')
  return {'version':1,'request_id':ID,'operation':'bounded-three-fresh-persian-source-trial','authorized':True,'max_text_health_calls':0,'max_image_health_calls':0,'max_pilot_families':3,'enable_schedule':False,'reset_attempts':False,'topic_ids':list(TOPICS),'max_total_text_calls':MAX_TEXT,'max_image_calls':MAX_IMAGE,'max_total_model_calls':MAX_TOTAL,'max_model_calls_per_family':PER_FAMILY,'max_wordpress_mutations':21,'max_source_posts':3,'max_total_posts':3,'max_translations':0,'max_media_uploads':6,'max_provider_wait_seconds':3600,'change_default_model':False}
 
-def admitted(env,data):
+def admitted(env,data,request_id=ID):
  from .operation_request import authorize
- if not authorize(env,data) or load_json(data/'status/owner-operation-admission.json')['request_id']!=ID:raise ValueError('Exact three-source trial admission required')
+ if not authorize(env,data) or load_json(data/'status/owner-operation-admission.json')['request_id']!=request_id:raise ValueError('Exact three-source trial admission required')
 
-def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None):
- admitted(env,data)
+def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID):
+ admitted(env,data,request_id)
  from .parallel_control import reserve,policy
- policy(env,data);root=out/'parallel/operations'/ID;rp=root/'prepare.json'
+ policy(env,data);root=out/'parallel/operations'/request_id;rp=root/'prepare.json'
+ repair=request_id==REPAIR_ID
+ if repair:
+  from .three_source_repair import verify_prior
+  prior=verify_prior(data,out)
  if rp.exists():return {'status':'three_source_trial_already_reserved','model_calls':0,'published_posts':0}
  manifest=load_json(data/'manifest.json')
  if manifest.get('counts')!={'new':2905,'merge':593,'hold':370}:raise ValueError('Immutable manifest counts changed')
@@ -26,13 +35,19 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None):
  if any(t in {r['topic_id'] for r in owners['families']} for t in TOPICS):raise ValueError('Never steal active family ownership')
  topics=[get_topic('new',t,data) for t in TOPICS]
  for t in topics:
-  if (out/'new'/t['id']).exists() or (data/'briefs'/(t['id']+'.json')).exists():raise ValueError('Fresh trial topics only; never reset exhausted files')
+  if not repair and ((out/'new'/t['id']).exists() or (data/'briefs'/(t['id']+'.json')).exists()):raise ValueError('Fresh trial topics only; never reset exhausted files')
   from .scoped_research import entries_for
   if not entries_for(t,data):raise ValueError('No university discovery lead')
- if (reserve if reserve_fn is None else reserve_fn)('operation',ID,env) is None:return {'status':'three_source_trial_already_reserved','model_calls':0,'published_posts':0}
+ if (reserve if reserve_fn is None else reserve_fn)('operation',request_id,env) is None:return {'status':'three_source_trial_already_reserved','model_calls':0,'published_posts':0}
  # Store old state bindings, not file contents; no credentials are captured.
  before={str(p.relative_to(out)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (out/'new').rglob('*') if p.is_file()}
- r={'request_id':ID,'operation':expected_request()['operation'],'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'status':'three_source_trial_preflight','topic_ids':list(TOPICS),'titles':{t['id']:t['title'] for t in topics},'topic_id':TOPICS[0],'title':'آزمون محدود سه مقاله فارسی','source_only':True,'model_calls':0,'image_calls':0,'published_posts':0,'wordpress_calls':0,'production_activated':False,'schedule_activated':False,'attempts_reset':False,'max_total_model_calls':MAX_TOTAL,'max_model_calls_per_family':PER_FAMILY,'max_total_posts':3,'source_readiness':'University discovery leads, not yet approved briefs or articles','prior_source_files':before,'assignment_sha256':hashlib.sha256(assignments.read_bytes()).hexdigest(),'manifest_sha256':hashlib.sha256((data/'manifest.json').read_bytes()).hexdigest(),'results':[]};atomic_json(rp,r)
+ if repair:before=prior['prior_source_files']
+ limits=expected_request(request_id)
+ r={'request_id':request_id,'operation':limits['operation'],'run_id':env['GITHUB_RUN_ID'],'started_at':utcnow(),'status':'three_source_trial_preflight','topic_ids':list(TOPICS),'titles':{t['id']:t['title'] for t in topics},'topic_id':TOPICS[0],'title':'آزمون محدود سه مقاله فارسی','source_only':True,'model_calls':0,'image_calls':0,'published_posts':0,'wordpress_calls':0,'production_activated':False,'schedule_activated':False,'attempts_reset':False,'max_total_model_calls':limits['max_total_model_calls'],'max_model_calls_per_family':limits['max_model_calls_per_family'],'max_total_posts':3,'source_readiness':'University discovery leads, not yet approved briefs or articles','prior_source_files':before,'assignment_sha256':hashlib.sha256(assignments.read_bytes()).hexdigest(),'manifest_sha256':hashlib.sha256((data/'manifest.json').read_bytes()).hexdigest(),'results':[]};
+ if repair:
+  from .three_source_repair import original_files
+  r.update(resume_from_request=ID,prior_model_calls=3,original_operation_files=original_files(out))
+ atomic_json(rp,r)
  try:
   from .wordpress import WordPress
   wp=WordPress(env=env) if wp_factory is None else wp_factory();r['authenticated_preflight']=wp.preflight();inventory=wp.inventory()
@@ -44,12 +59,16 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None):
   r.update(status='three_source_trial_blocked',failure=failure_details(exc))
  atomic_json(rp,r);return r
 
-def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None,worker_fn=None):
- admitted(env,data);root=out/'parallel/operations'/ID;rp=root/'prepare.json';r=load_json(rp)
+def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None,worker_fn=None,request_id=ID):
+ admitted(env,data,request_id);root=out/'parallel/operations'/request_id;rp=root/'prepare.json';r=load_json(rp)
+ limits=expected_request(request_id);max_total=limits['max_total_model_calls'];per_family=limits['max_model_calls_per_family'];max_text=limits['max_total_text_calls'];repair=request_id==REPAIR_ID
+ if repair:
+  from .three_source_repair import verify_prior
+  verify_prior(data,out)
  if r.get('run_id')!=env['GITHUB_RUN_ID'] or r.get('status')!='three_source_trial_prepared':return {'status':'three_source_trial_not_admitted','published_posts':0}
  gate=root/'pilot-reserved.json'
  if gate.exists():return {'status':'three_source_trial_already_reserved','published_posts':0}
- atomic_json(gate,{'at':utcnow(),'max_total_posts':3,'max_total_model_calls':MAX_TOTAL,'max_model_calls_per_family':PER_FAMILY})
+ atomic_json(gate,{'at':utcnow(),'max_total_posts':3,'max_total_model_calls':max_total,'max_model_calls_per_family':per_family})
  def waiting(until):
   if r.get('provider_retry_at_epoch')!=until:print('Respecting existing provider deadline:',int(until),flush=True)
   r.update(status='three_source_trial_provider_waiting',provider_retry_at_epoch=until);atomic_json(rp,r)
@@ -60,13 +79,13 @@ def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None
  from .failure_diagnostics import failure_details
  from . import family_lifecycle as f
  health=load_json(out/'parallel/health/latest.json');db=root/'pool.sqlite'
- initialize(db,list(dict.fromkeys(health.get('eligible_text_slots',[])+health.get('eligible_image_slots',[]))),text_limit=1,image_limit=1,max_calls=MAX_TOTAL,per_worker=PER_FAMILY,prior_usage=routing_counts(out))
+ initialize(db,list(dict.fromkeys(health.get('eligible_text_slots',[])+health.get('eligible_image_slots',[]))),text_limit=1,image_limit=1,max_calls=max_total,per_worker=per_family,prior_usage=routing_counts(out))
  class Counted(ParallelModelClient):
   def request(self,kind,path,payload,timeout,attempts=None):
    if active_cooldown(out):raise PoolDeferred('shared_provider_hold')
    if payload.get('model')!=('agnes-2.5-flash' if kind=='text' else 'agnes-image-2.5-flash'):raise ValueError('Trial model scope mismatch')
    p=root/'model-calls.json';row=load_json(p) if p.exists() else {'text':0,'image':0,'history':[]}
-   if row[kind]>=(MAX_TEXT if kind=='text' else MAX_IMAGE) or row['text']+row['image']>=MAX_TOTAL:raise PoolDeferred('trial_model_budget_exhausted')
+   if row[kind]>=(max_text if kind=='text' else MAX_IMAGE) or row['text']+row['image']>=max_total:raise PoolDeferred('trial_model_budget_exhausted')
    row[kind]+=1;row['history'].append({'kind':kind,'topic_id':self.env['AFP_PARALLEL_TOPIC'],'model':payload.get('model'),'at':utcnow()});atomic_json(p,row)
    return super().request(kind,path,payload,timeout,attempts=1)
  try:
@@ -77,6 +96,9 @@ def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None
    try:
     if active_cooldown(out) or snapshot(db)['cooldown_until_epoch']>time.time():item.update(status='provider_deferred',model_calls=0)
     else:
+     if repair:
+      from .three_source_repair import prepare_topic
+      prepare_topic(topic,data,out,env['GITHUB_RUN_ID'])
      worker=dict(env,AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB=str(db),AFP_PARALLEL_TOPIC=ident,AFP_PARALLEL_FAMILY='three-source-trial-'+ident)
      clean=dict(worker)
      for k in ('AFP_WP_BASE_URL','AFP_WP_USERNAME','AFP_WP_APP_PASSWORD'):clean.pop(k,None)
@@ -96,7 +118,9 @@ def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None
  finally:
   pool=snapshot(db);record_routing(out,pool);ledger=load_json(root/'model-calls.json') if (root/'model-calls.json').exists() else {'text':0,'image':0};r.update(pool=pool,model_calls=ledger['text'],image_calls=ledger['image'],reserved_total_model_calls=pool['model_requests_reserved'],wordpress_calls=sum(load_json(p).get('reserved_mutations',0) for p in (root/'publish').glob('*/wordpress-mutations.json')),prior_sources_unchanged=preserved_files(out,r['prior_source_files']),assignments_unchanged=hashlib.sha256((out/'parallel/families/assignments.json').read_bytes()).hexdigest()==r['assignment_sha256'],manifest_unchanged=hashlib.sha256((data/'manifest.json').read_bytes()).hexdigest()==r['manifest_sha256'],completed_at=utcnow())
   if pool['cooldown_until_epoch']>time.time():atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text_or_image','retry_at_epoch':pool['cooldown_until_epoch'],'at':utcnow(),'reason':'three_source_trial_shared_provider_hold'})
-  review=[x for x in r['results'] if x['status']!='source_public_verified'];atomic_json(out/'parallel/three-source-trial/review-queue.json',{'request_id':ID,'items':review,'automatic_approval':False,'schedule_enabled':False,'updated_at':utcnow()})
-  if not all(r[k] for k in ('prior_sources_unchanged','assignments_unchanged','manifest_unchanged')):r['status']='three_source_trial_preservation_failed'
+  if repair:
+   r['original_operation_unchanged']=preserved_files(out,r['original_operation_files']);r['combined_total_model_calls']=3+ledger['text']+ledger['image']
+  review=[x for x in r['results'] if x['status']!='source_public_verified'];atomic_json(out/'parallel/three-source-trial/review-queue.json',{'request_id':request_id,'items':review,'automatic_approval':False,'schedule_enabled':False,'updated_at':utcnow()})
+  if not all(r[k] for k in ('prior_sources_unchanged','assignments_unchanged','manifest_unchanged')) or repair and not r['original_operation_unchanged']:r['status']='three_source_trial_preservation_failed'
   atomic_json(rp,r)
  return r

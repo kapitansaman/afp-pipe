@@ -196,6 +196,25 @@
         "https://mcgregorlab.uga.edu/files/2020/02/Paudel-2019-Egusi.pdf"
       ],
       "scientific_crop_mapping": "edible-seed watermelon Citrullus types; do not assume equivalence to African egusi or dessert watermelon"
+    },
+    {
+      "crops": [
+        "لوبیا چیتی"
+      ],
+      "intents": [
+        "soil_sensor"
+      ],
+      "urls": [
+        "https://extension.umn.edu/irrigation/soil-moisture-sensors-irrigation-scheduling"
+      ],
+      "scope": "University of Minnesota GENERAL field soil-moisture sensor placement methods: representative soil zones, crop-row placement, root-zone-relative depth and direct soil contact. NOT a pinto-specific fixed rooting depth, local trigger, calendar interval or irrigation rate. Determine actual active root depth in the field. Distinguish live Phaseolus vulgaris crop from stored dry grain; do not import chickpea or soybean rooting depths.",
+      "scientific_crop_mapping": "Living field crop Phaseolus vulgaris L., pinto market class; sensor method is general and must retain that limit.",
+      "discovery_terms": [
+        "sensor",
+        "placement",
+        "root zone",
+        "soil moisture"
+      ]
     }
   ]
 }
