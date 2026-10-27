@@ -1,0 +1,17 @@
+{
+  "family_id": "family-03",
+  "topic_id": "agri-934dd1366a8b",
+  "title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "title_sha256": "360b9924ec8f0d74826b6ce95e4f26981314ae1601a5c963cf4ad12a02ca6f11",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY9",
+    "AGNES_API_KEY10",
+    "AGNES_API_KEY11",
+    "AGNES_API_KEY12"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-8c5efc7fc888",
+  "title": "چرا بذر لوبیا چیتی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-8c5efc7fc888",
+    "status": "blocked",
+    "reason": "legacy_research_budget_exhausted"
+  },
+  "proof": {
+    "kind": "legacy_budget_exhausted",
+    "stage": "legacy_research",
+    "attempts_preserved": 2,
+    "attempt_limit": 2,
+    "reason": "legacy_research_budget_exhausted",
+    "last_run_id": null
+  },
+  "bindings": {
+    "topic_sha256": "e8756a2eeeac893e9cdd5f5e979768fc4c6ff6fdaabc8d410ca9cc757dc23345",
+    "topic_files": {
+      "family-context/40298864446.json": "9cd037ff860aa8fa6996bfeff1727d207e143bc720c6e732d78aba2e09629f49",
+      "family-context/40522647019.json": "a5bacb673327a680eb40380f148550b452c43c97e73a25c5d08f169a85aa679b",
+      "lifecycle-evidence/existing-content.json": "f910bd06707425c5ec5417ec469fcb0955c2bea016b9f3da89caf217b459892a"
+    },
+    "legacy_research_sha256": "109e1784ea00b9d2ee5264385913a5db4542561d75b49b4b23b6a1f65db9d821",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T14:38:48.528898+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

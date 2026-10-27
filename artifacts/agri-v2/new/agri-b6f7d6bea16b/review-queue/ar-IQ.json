@@ -5,20 +5,60 @@
   "language": "ar-IQ",
   "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
   "status": "waiting",
-  "reason": "provider_backpressure",
-  "attempts": 0,
-  "model_calls_spent": 0,
-  "next_attempt_at": "2026-10-27T07:32:59.350329+00:00",
+  "reason": "translation_or_review_needs_another_attempt",
+  "attempts": 1,
+  "model_calls_spent": 2,
+  "next_attempt_at": "2026-10-27T20:39:53.710688+00:00",
   "history": [
     {
       "event": "provider_deferred_without_attempt",
       "previous_next_attempt_at": "2026-10-27T12:32:59.366759+00:00",
       "retry_at": "2026-10-27T07:32:59.350329+00:00",
       "at": "2026-10-27T06:38:57.082503+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 1,
+      "max_calls": 4,
+      "at": "2026-10-27T14:39:33.124882+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 1,
+      "reserved_model_calls": 2,
+      "status": "waiting",
+      "at": "2026-10-27T14:39:53.710607+00:00"
     }
   ],
   "created_at": "2026-10-27T06:32:59.365772+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,
-  "primary_finished": true
+  "primary_finished": true,
+  "last_started_at": "2026-10-27T14:39:33.124870+00:00",
+  "pending_issues": [
+    {
+      "id": 3,
+      "detail": "Unsafe translated text"
+    },
+    {
+      "id": 11,
+      "detail": "Unsafe translated text"
+    },
+    {
+      "id": 15,
+      "detail": "Unsafe translated text"
+    },
+    {
+      "id": 41,
+      "detail": "Unsafe translated text"
+    },
+    {
+      "id": 51,
+      "detail": "Unsafe translated text"
+    }
+  ],
+  "last_failure": {
+    "kind": "validation",
+    "category": "unspecified"
+  }
 }

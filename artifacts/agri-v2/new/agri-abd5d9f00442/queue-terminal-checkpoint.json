@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-abd5d9f00442",
+  "title": "زمان مناسب برداشت لوبیا چیتی؛ نشانه‌های رسیدگی و معیار بازار",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-abd5d9f00442",
+    "status": "stage_failed",
+    "stage": "existing_content_audit-000"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "existing_content_audit-000",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "existing_content_overlap_or_uncertain",
+    "last_run_id": "40522647019"
+  },
+  "bindings": {
+    "topic_sha256": "f6231de4cb055ab1d9d28e7b6294d1d838a0e6155c38fb74423391e820e91f10",
+    "topic_files": {
+      "family-context/40298864446.json": "a46839ac2fcca23b4eef528bbf7e1773d708b9f6ae422b76235fbdbbb087c637",
+      "family-context/40522647019.json": "9d6a59c5d86144c3b3aa62048d47e4f81ab5d582a131d252e2aa4fa685ffe021",
+      "lifecycle/existing_content_audit-000/rejected/1/000.raw.json": "768c68eccd7e18bfb89cad8adf3f4d530f389d40410324a425e2c7a7ca6524ec",
+      "lifecycle/existing_content_audit-000/rejected/2/000.raw.json": "8fcbacaca4443fdcd4f04b19219d01fe692b08f7b8dbf323cfc9ea9418d9af1d",
+      "lifecycle/existing_content_audit-000/state.json": "4c18d4c894a109810cceb52eafb0852921b087d566fa59dcb77948e7aca97daf",
+      "lifecycle/research_extract/state.json": "ce0a644f257a348787b2b2316322b0d7a4a34d949304c2631391ec83bf684b90",
+      "lifecycle/research_sources/state.json": "5eb6deca19d4408112053e8bdcea48741f54060ffce82a5cb099ff854ad3d4e9",
+      "lifecycle-evidence/candidate-raw.json": "7f14bdce16e252ab6830672ce4575ca78ac42d23b38dbe969129d2cd83c8a929",
+      "lifecycle-evidence/candidate.json": "cc390e35ea1b443c351f5014002f338dd1fa5b36806e8683aa9d1bee5f9fe9a0",
+      "lifecycle-evidence/existing-content.json": "50b58951c259e4aca3e8342640c7983125af2055196ff0420febdba3150fbcab",
+      "lifecycle-evidence/overlap-batches/000.raw.json": "c542dd12ddf699d1d4a1a1ca6559d3aeb519281667f6b2eb4f5e9d59bdf6b7ff",
+      "lifecycle-evidence/source-discovery-report.json": "f9861dcb3fac87b44babcd76649a64be4334bdc808ff78e07cc168957057533e",
+      "lifecycle-evidence/source-fetch-report.json": "10e3d141e92ddf76bca2854bd1882326f2241ada99894eb5f3d1017365eada6f",
+      "lifecycle-evidence/sources.json": "53c444f7a5979e6b55ff99a8e5370c1be470d4b65b50528010aa04ef5023a9bd"
+    },
+    "legacy_research_sha256": "36bf7cbe0462c419d93e2a3c936ef56afd21125e7b2158834d7c9424798a55fd",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T14:39:11.278286+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

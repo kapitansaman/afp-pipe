@@ -4,21 +4,46 @@
   "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
   "language": "en-US",
   "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
-  "status": "waiting",
-  "reason": "provider_backpressure",
-  "attempts": 0,
-  "model_calls_spent": 0,
-  "next_attempt_at": "2026-10-27T07:32:59.350329+00:00",
+  "status": "approved",
+  "reason": "source_bound_fidelity_passed",
+  "attempts": 1,
+  "model_calls_spent": 2,
+  "next_attempt_at": null,
   "history": [
     {
       "event": "provider_deferred_without_attempt",
       "previous_next_attempt_at": "2026-10-27T12:32:59.371469+00:00",
       "retry_at": "2026-10-27T07:32:59.350329+00:00",
       "at": "2026-10-27T06:38:57.083216+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 1,
+      "max_calls": 4,
+      "at": "2026-10-27T14:39:53.712780+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 1,
+      "reserved_model_calls": 2,
+      "status": "approved",
+      "at": "2026-10-27T14:40:20.379476+00:00"
+    },
+    {
+      "event": "publication_failed",
+      "attempt": 1,
+      "at": "2026-10-27T14:41:16.865240+00:00"
     }
   ],
   "created_at": "2026-10-27T06:32:59.370544+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,
-  "primary_finished": true
+  "primary_finished": true,
+  "last_started_at": "2026-10-27T14:39:53.712774+00:00",
+  "publication_attempts": 1,
+  "publication_failure": {
+    "kind": "validation",
+    "category": "unspecified"
+  },
+  "publication_next_attempt_at": "2026-10-27T20:41:16.865261+00:00"
 }

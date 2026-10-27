@@ -1,0 +1,17 @@
+{
+  "family_id": "family-12",
+  "topic_id": "agri-8c5efc7fc888",
+  "title": "چرا بذر لوبیا چیتی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "title_sha256": "b187ae0b0b19d20dd61c5bec9b35add12e79cf63f43daba33fd53fa679d16b1e",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY45",
+    "AGNES_API_KEY46",
+    "AGNES_API_KEY47",
+    "AGNES_API_KEY48"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

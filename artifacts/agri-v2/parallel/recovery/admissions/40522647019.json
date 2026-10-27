@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "run_id": "40522647019",
+  "remote_flight_sha": "e781fde9e4a61d9e09988f78babe9074ba050159",
+  "reserved_row_sha256": "d039066d49ef6f3417496fd239512f57249a321d4089e78a8279695ae9d4969b",
+  "intent": {
+    "version": 1,
+    "policy": "write-ahead-lifecycle-v1",
+    "repository": "kapitansaman/afp-pipe",
+    "branch": "feat/agri-generator-v2-2905-merge593",
+    "status": "in_flight",
+    "run_id": "40522647019",
+    "topics": [
+      {
+        "topic_id": "agri-b6ffe49a4638",
+        "family_id": "family-01"
+      },
+      {
+        "topic_id": "agri-7736a471e8c1",
+        "family_id": "family-02"
+      },
+      {
+        "topic_id": "agri-934dd1366a8b",
+        "family_id": "family-03"
+      },
+      {
+        "topic_id": "agri-3ab6116ba6cf",
+        "family_id": "family-04"
+      },
+      {
+        "topic_id": "agri-621734b38aa9",
+        "family_id": "family-05"
+      },
+      {
+        "topic_id": "agri-ee13684b7f1a",
+        "family_id": "family-06"
+      },
+      {
+        "topic_id": "agri-1f58a0e82783",
+        "family_id": "family-07"
+      },
+      {
+        "topic_id": "agri-c0e160d88554",
+        "family_id": "family-08"
+      },
+      {
+        "topic_id": "agri-e7dcf0bf2ffd",
+        "family_id": "family-09"
+      },
+      {
+        "topic_id": "agri-a83aaf27045f",
+        "family_id": "family-10"
+      },
+      {
+        "topic_id": "agri-3aec9f066bb5",
+        "family_id": "family-11"
+      },
+      {
+        "topic_id": "agri-8c5efc7fc888",
+        "family_id": "family-12"
+      },
+      {
+        "topic_id": "agri-dd97e1add9df",
+        "family_id": "family-13"
+      },
+      {
+        "topic_id": "agri-f5f2d5ed4de0",
+        "family_id": "family-14"
+      },
+      {
+        "topic_id": "agri-2bffca9fad0a",
+        "family_id": "family-15"
+      },
+      {
+        "topic_id": "agri-7dd8dae22417",
+        "family_id": "family-16"
+      },
+      {
+        "topic_id": "agri-d52cdebf818e",
+        "family_id": "family-17"
+      },
+      {
+        "topic_id": "agri-abd5d9f00442",
+        "family_id": "family-18"
+      },
+      {
+        "topic_id": "agri-681d9e957593",
+        "family_id": "family-19"
+      },
+      {
+        "topic_id": "agri-15439ad51313",
+        "family_id": "family-20"
+      }
+    ],
+    "started_at": "2026-10-27T14:38:44.022777+00:00",
+    "automatic_uncertain_replay": false,
+    "original_attempts_reset": false
+  },
+  "secret_values_stored": false
+}

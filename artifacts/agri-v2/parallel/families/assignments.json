@@ -68,11 +68,11 @@
     },
     {
       "family_id": "family-08",
-      "topic_id": "agri-c0e160d88554",
-      "title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
-      "assigned_at": "2026-10-26T05:06:57.188619+00:00",
+      "topic_id": "agri-69e85f55cdc9",
+      "title": "آخرین آبیاری لوبیا چیتی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "assigned_at": "2026-10-27T14:41:16.922532+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "source_discovery_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -104,11 +104,11 @@
     },
     {
       "family_id": "family-12",
-      "topic_id": "agri-8c5efc7fc888",
-      "title": "چرا بذر لوبیا چیتی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
-      "assigned_at": "2026-10-26T08:45:16.202939+00:00",
+      "topic_id": "agri-bacb80d5fede",
+      "title": "تنظیم آبیاری لوبیا چیتی پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "assigned_at": "2026-10-27T14:41:16.922965+00:00",
       "assignment_status": "assigned",
-      "work_stage": "research_budget_exhausted",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -144,7 +144,7 @@
       "title": "انتخاب رقم لوبیا قرمز برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
       "assigned_at": "2026-10-26T07:06:54.524835+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "ready_for_drafting",
       "publication_authorized_by_assignment": false
     },
     {
@@ -158,11 +158,11 @@
     },
     {
       "family_id": "family-18",
-      "topic_id": "agri-abd5d9f00442",
-      "title": "زمان مناسب برداشت لوبیا چیتی؛ نشانه‌های رسیدگی و معیار بازار",
-      "assigned_at": "2026-10-26T07:06:54.525083+00:00",
+      "topic_id": "agri-5a15e78285ed",
+      "title": "برآورد عملکرد لوبیا چیتی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "assigned_at": "2026-10-27T14:41:16.927471+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "scope_review_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -328,6 +328,42 @@
       "completed_at": "2026-10-26T08:45:16.176811+00:00",
       "completion": "deferred_to_research_backlog",
       "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-c0e160d88554",
+      "title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "assigned_at": "2026-10-26T05:06:57.188619+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T14:41:16.905624+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "independent_scoped_review_rejected"
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-8c5efc7fc888",
+      "title": "چرا بذر لوبیا چیتی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "assigned_at": "2026-10-26T08:45:16.202939+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_budget_exhausted",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T14:41:16.908669+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "legacy_research_budget_exhausted"
+    },
+    {
+      "family_id": "family-18",
+      "topic_id": "agri-abd5d9f00442",
+      "title": "زمان مناسب برداشت لوبیا چیتی؛ نشانه‌های رسیدگی و معیار بازار",
+      "assigned_at": "2026-10-26T07:06:54.525083+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T14:41:16.913743+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "existing_content_overlap_or_uncertain"
     }
   ],
   "publication_authorized_by_assignment": false,
@@ -650,5 +686,178 @@
       "previous_family_id": "family-15"
     }
   },
-  "research_backlog_count": 12
+  "research_backlog_count": 12,
+  "exception_backlog": {
+    "agri-c0e160d88554": {
+      "kind": "stage_budget_exhausted",
+      "stage": "research_review",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "independent_scoped_review_rejected",
+      "last_run_id": "40298864446",
+      "topic_id": "agri-c0e160d88554",
+      "title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-27T14:41:16.905624+00:00",
+      "terminal_checkpoint_sha256": "5114a99edc8e2d93f129031b5cf9653ec2397ad4e27da5e1260f34865a0bb68a",
+      "bindings": {
+        "topic_sha256": "37a98a287e21e296ffdef3349bd69f43cb5596d0c9fdd25275bfe71ceb0e24ff",
+        "topic_files": {
+          "family-context/40298864446.json": "1fb8ea626399bab9a0059fa9a7374d862f50be06c8260aa7aeea692cb7116855",
+          "family-context/40522647019.json": "7f1ad9d1a28ec4392c2259662cf09d40bec766fcbee6730bae78e3d4e411e503",
+          "lifecycle/existing_content_audit-000/rejected/1/000.raw.json": "7e1ed17572ae041752bc21e986e6b2bfeb3929cff9a415cbb963c1c1b93b89bb",
+          "lifecycle/existing_content_audit-000/state.json": "624e074a34b83d4382685d481586683ca14ef72c55326e96c18868002adcaf91",
+          "lifecycle/existing_content_audit-001/state.json": "4efdc91ab35d68f2fe210ae751f4b18726d5f15ceaa40ab7b433204db7f2c649",
+          "lifecycle/existing_content_audit-002/state.json": "273d6bbab4d4d5cfba5eb3cef22b138037fddb7ab40e35953c44429882b5b523",
+          "lifecycle/existing_content_audit-003/state.json": "35bb8d0b3b747d64f0ff667d26486701334f85c57f87982a687b313598b2e28a",
+          "lifecycle/existing_content_audit-004/state.json": "8c75f2fb7ca0b047988937992718f3b5cdddfee0f7cce289476517dac340aa37",
+          "lifecycle/existing_content_audit_finalize/state.json": "048bd58b434e0a73f203864853d7ea62f87e3219146574656c8fb990a6b8e8ed",
+          "lifecycle/research_extract/rejected/1/candidate-raw.json": "6beca657d56b0784b85b860bf8e27f3624dc02c55c845fa0a2cdff84a20ec937",
+          "lifecycle/research_extract/state.json": "41a395298d16cec1402fb8880e74b7c5d8c2de3b903de4116bc181fd7950f292",
+          "lifecycle/research_review/rejected/1/review-raw.json": "7900905dbadf20d91c9e27bc91dea7532a3f7efb26b69f06ca0c7c283d5ae730",
+          "lifecycle/research_review/rejected/2/review-raw.json": "e206cf7450e3aec6c4c3e9c9f41de20605234f423264937a0c1271f150d689ba",
+          "lifecycle/research_review/state.json": "2e62f970e1313afa4ea7da914faf58442d7cededcac3087feeb376b64d49de43",
+          "lifecycle/research_sources/rejected/1/sources.json": "cb1b8a91a2c525dc42c4852d34e076655e632b498a611e251cb7df1e03b05dcc",
+          "lifecycle/research_sources/state.json": "697eca9b3b347de63e9d970563a90fe0f82e9a9628d4d044efec4dae3e774a9d",
+          "lifecycle/research_validate_saved/state.json": "67c1a0ab49f2a52ad779641efee641b6c491103b2ae8f82c536d6ba4965d6095",
+          "lifecycle-evidence/candidate-raw.json": "07a9fa9022d26c707a13c52bd97b9b726de0122b056c0094bab3e6b37588e9ae",
+          "lifecycle-evidence/candidate.json": "c77c8f31950f22139700a181ea3482c5cee0377722f33a7e0b9f372c7b331054",
+          "lifecycle-evidence/existing-content.json": "15c1d48fa93a5e9fa557366ecdc6392e9c51390e98c5ef3ad4294e880ef9a6d7",
+          "lifecycle-evidence/overlap-batches/000.json": "a05b0d421f4347779a4f442680f38df635b024ed447610ac5bdd9e1abde3ca26",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "0b685bcf580d7890f6686f34830dbefedeb8dd33e9f01f3f7acab4797fee6ad7",
+          "lifecycle-evidence/overlap-batches/001.json": "13671362214070ea02ba96818b11170fa24ec0e5a0944e376ca99a2e9271ba95",
+          "lifecycle-evidence/overlap-batches/001.raw.json": "c130ac250ba580c5d907893451e77962236135b10432e5bf4be7044577d1e9a6",
+          "lifecycle-evidence/overlap-batches/002.json": "4fd1adc93041bd613f2f8f3d4ac1abdc2405c0db980cde0f6c00256af138432a",
+          "lifecycle-evidence/overlap-batches/002.raw.json": "5e344304cfde0ab20f19f026398d5dee59b84e8346344574aa6f37ff3102fc94",
+          "lifecycle-evidence/overlap-batches/003.json": "24a2074b6436f721e777a38837337d28b9c7b0b7124725f2d801403beb5aabb2",
+          "lifecycle-evidence/overlap-batches/003.raw.json": "74fe9d8339aefd2be8f0ca53527b2e5953a124afd585c27f013efb8db84fd4e5",
+          "lifecycle-evidence/overlap-batches/004.json": "c2f0cab0134f05a246f2db0a596ed2980243c0ddf63ff4847ba76b780d7d62d7",
+          "lifecycle-evidence/overlap-batches/004.raw.json": "21e10e7e03c3fde641c2a5426e7ec41f8a7edddbe5fb3fb5925f1569064692e8",
+          "lifecycle-evidence/overlap.json": "174ebc8affc6567ce7fc7430965f1c7bb36df41772643126532726c7454d30c5",
+          "lifecycle-evidence/review-raw.json": "bd201e48052949c956b3d02795f478eb2b2208daba7944d9d77cd01b77724ae3",
+          "lifecycle-evidence/saved-candidate-validation.json": "e05a3227fdd9e7c32b0304d3d9e20a6fdc1d422329ba2ede833a6d4d66274c81",
+          "lifecycle-evidence/source-discovery-report.json": "b1d43d7b60fbc1febf10e6d7ef70dce62b3e759a5f19f2aa3599649876ef87db",
+          "lifecycle-evidence/source-fetch-report.json": "6a62a0575b3d7e75a52356ab3ab36843eea1483f479beeaef0abcef8eb950ece",
+          "lifecycle-evidence/sources.json": "c5233587d3d4be4396ce189a67187a59d424a8252f29b203ee2f00e31345212f"
+        },
+        "legacy_research_sha256": "fd3a7812238446b22f00e44c3a8a28d9e1752c4ae6310a2ca66f3f0c39325112",
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-08"
+    },
+    "agri-8c5efc7fc888": {
+      "kind": "legacy_budget_exhausted",
+      "stage": "legacy_research",
+      "attempts_preserved": 2,
+      "attempt_limit": 2,
+      "reason": "legacy_research_budget_exhausted",
+      "last_run_id": null,
+      "topic_id": "agri-8c5efc7fc888",
+      "title": "چرا بذر لوبیا چیتی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-27T14:41:16.908669+00:00",
+      "terminal_checkpoint_sha256": "0c144610024d57e916d7f73e25e2b5b6a45146752a8f61f2bf347438d30e0fd0",
+      "bindings": {
+        "topic_sha256": "e8756a2eeeac893e9cdd5f5e979768fc4c6ff6fdaabc8d410ca9cc757dc23345",
+        "topic_files": {
+          "family-context/40298864446.json": "9cd037ff860aa8fa6996bfeff1727d207e143bc720c6e732d78aba2e09629f49",
+          "family-context/40522647019.json": "a5bacb673327a680eb40380f148550b452c43c97e73a25c5d08f169a85aa679b",
+          "lifecycle-evidence/existing-content.json": "f910bd06707425c5ec5417ec469fcb0955c2bea016b9f3da89caf217b459892a"
+        },
+        "legacy_research_sha256": "109e1784ea00b9d2ee5264385913a5db4542561d75b49b4b23b6a1f65db9d821",
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-12"
+    },
+    "agri-abd5d9f00442": {
+      "kind": "stage_budget_exhausted",
+      "stage": "existing_content_audit-000",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "existing_content_overlap_or_uncertain",
+      "last_run_id": "40522647019",
+      "topic_id": "agri-abd5d9f00442",
+      "title": "زمان مناسب برداشت لوبیا چیتی؛ نشانه‌های رسیدگی و معیار بازار",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-27T14:41:16.913743+00:00",
+      "terminal_checkpoint_sha256": "c193854791d9f422ac9ac2efb3e73f3addcfd14c813d39ea256c04c160583f20",
+      "bindings": {
+        "topic_sha256": "f6231de4cb055ab1d9d28e7b6294d1d838a0e6155c38fb74423391e820e91f10",
+        "topic_files": {
+          "family-context/40298864446.json": "a46839ac2fcca23b4eef528bbf7e1773d708b9f6ae422b76235fbdbbb087c637",
+          "family-context/40522647019.json": "9d6a59c5d86144c3b3aa62048d47e4f81ab5d582a131d252e2aa4fa685ffe021",
+          "lifecycle/existing_content_audit-000/rejected/1/000.raw.json": "768c68eccd7e18bfb89cad8adf3f4d530f389d40410324a425e2c7a7ca6524ec",
+          "lifecycle/existing_content_audit-000/rejected/2/000.raw.json": "8fcbacaca4443fdcd4f04b19219d01fe692b08f7b8dbf323cfc9ea9418d9af1d",
+          "lifecycle/existing_content_audit-000/state.json": "4c18d4c894a109810cceb52eafb0852921b087d566fa59dcb77948e7aca97daf",
+          "lifecycle/research_extract/state.json": "ce0a644f257a348787b2b2316322b0d7a4a34d949304c2631391ec83bf684b90",
+          "lifecycle/research_sources/state.json": "5eb6deca19d4408112053e8bdcea48741f54060ffce82a5cb099ff854ad3d4e9",
+          "lifecycle-evidence/candidate-raw.json": "7f14bdce16e252ab6830672ce4575ca78ac42d23b38dbe969129d2cd83c8a929",
+          "lifecycle-evidence/candidate.json": "cc390e35ea1b443c351f5014002f338dd1fa5b36806e8683aa9d1bee5f9fe9a0",
+          "lifecycle-evidence/existing-content.json": "50b58951c259e4aca3e8342640c7983125af2055196ff0420febdba3150fbcab",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "c542dd12ddf699d1d4a1a1ca6559d3aeb519281667f6b2eb4f5e9d59bdf6b7ff",
+          "lifecycle-evidence/source-discovery-report.json": "f9861dcb3fac87b44babcd76649a64be4334bdc808ff78e07cc168957057533e",
+          "lifecycle-evidence/source-fetch-report.json": "10e3d141e92ddf76bca2854bd1882326f2241ada99894eb5f3d1017365eada6f",
+          "lifecycle-evidence/sources.json": "53c444f7a5979e6b55ff99a8e5370c1be470d4b65b50528010aa04ef5023a9bd"
+        },
+        "legacy_research_sha256": "36bf7cbe0462c419d93e2a3c936ef56afd21125e7b2158834d7c9424798a55fd",
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-18"
+    }
+  },
+  "exception_backlog_count": 3
 }

@@ -1,0 +1,38 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": false,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "تک‌منبعی بودن: تنها یک منبع دانشگاهی ویسکانسین (UW-Madison) بارگذاری شده است و همه مشاهدات مربوط به اقلیم سرد و خاک‌های غرب آمریکا است. هیچ منبع مستقل دوم موجود نیست. عمق کاشت «یک اینچ ایده‌آل» و توصیه‌های خاک سبک/سنگین مستقیماً به شرایط ویسکانسین/غرب USA محدودند و برای ایران یا اقلیم‌های گرم‌تر قابل تعمیم نیستند. ترجمه عناوین انگلیسی به فارسی صرفاً راهبرد جستجو بوده و معادل گونه/دسته بازاری نیست. عنوان اصلی «عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج» پاسخ مستقیم دارد اما محدودیت جغرافیایی مبدأ باید صراحتاً در متن نهایی درج شود؛ در غیر این صورت خواننده ممکن‌است ارزش توصیه را فراتر از محدوده شواهد تعمیم دهد. هیچ بازبینی انسانی دانشمندانه‌ای انجام نشده است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": true
+}

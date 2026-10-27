@@ -1,0 +1,24 @@
+{
+  "attempts": 1,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "failed",
+      "last_run_id": "40522647019",
+      "started_at": "2026-10-27T14:38:48.629627+00:00",
+      "completed_at": "2026-10-27T14:38:48.764148+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "saved_evidence_declares_insufficient_scope"
+      }
+    }
+  ],
+  "status": "failed",
+  "last_run_id": "40522647019",
+  "started_at": "2026-10-27T14:38:48.629627+00:00",
+  "failure": {
+    "kind": "validation",
+    "category": "saved_evidence_declares_insufficient_scope"
+  },
+  "completed_at": "2026-10-27T14:38:48.764148+00:00"
+}
