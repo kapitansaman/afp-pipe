@@ -1,47 +1,10 @@
 {
-  "request_id": "ops-three-fresh-persian-sources-bounded-v1",
+  "request_id": "ops-three-fresh-persian-sources-repair-v2",
   "items": [
     {
       "topic_id": "agri-c2b086b47679",
       "title": "چرا بذر لوبیا قرمز سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
-      "started_at": "2026-10-27T07:35:31.882056+00:00",
-      "published_posts": 0,
-      "worker_result": {
-        "status": "stage_failed",
-        "stage": "research_extract",
-        "failure": {
-          "kind": "validation",
-          "category": "number_absent_from_literal_source"
-        },
-        "topic_id": "agri-c2b086b47679",
-        "steps": [
-          {
-            "status": "stage_completed",
-            "stage": "research_sources",
-            "result": {
-              "fetched_sources": 5
-            }
-          },
-          {
-            "status": "stage_failed",
-            "stage": "research_extract",
-            "failure": {
-              "kind": "validation",
-              "category": "number_absent_from_literal_source"
-            }
-          }
-        ],
-        "published_posts": 0
-      },
-      "status": "stage_failed",
-      "duration_seconds": 29.85,
-      "model_calls": 1,
-      "completed_at": "2026-10-27T07:36:01.731610+00:00"
-    },
-    {
-      "topic_id": "agri-96d735d5bd11",
-      "title": "نگهداری لوبیا چیتی پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات",
-      "started_at": "2026-10-27T07:36:01.763655+00:00",
+      "started_at": "2026-10-27T08:09:08.122389+00:00",
       "published_posts": 0,
       "worker_result": {
         "status": "stage_failed",
@@ -50,15 +13,8 @@
           "kind": "validation",
           "category": "every_number_requires_unit_and_scope_binding"
         },
-        "topic_id": "agri-96d735d5bd11",
+        "topic_id": "agri-c2b086b47679",
         "steps": [
-          {
-            "status": "stage_completed",
-            "stage": "research_sources",
-            "result": {
-              "fetched_sources": 5
-            }
-          },
           {
             "status": "stage_failed",
             "stage": "research_extract",
@@ -71,49 +27,72 @@
         "published_posts": 0
       },
       "status": "stage_failed",
-      "duration_seconds": 25.53,
+      "duration_seconds": 31.42,
       "model_calls": 1,
-      "completed_at": "2026-10-27T07:36:27.290375+00:00"
+      "completed_at": "2026-10-27T08:09:39.538253+00:00"
     },
     {
-      "topic_id": "agri-3c1cdef82c04",
-      "title": "پایش رطوبت خاک در مزرعه لوبیا چیتی؛ انتخاب محل و عمق حسگر",
-      "started_at": "2026-10-27T07:36:27.322100+00:00",
+      "topic_id": "agri-96d735d5bd11",
+      "title": "نگهداری لوبیا چیتی پس از برداشت؛ دما، رطوبت و پیشگیری از ضایعات",
+      "started_at": "2026-10-27T08:09:39.568826+00:00",
       "published_posts": 0,
       "worker_result": {
         "status": "stage_failed",
         "stage": "research_extract",
         "failure": {
           "kind": "validation",
-          "category": "scoped_intent_or_local_prescription_rejected"
+          "category": "every_number_requires_unit_and_scope_binding"
         },
-        "topic_id": "agri-3c1cdef82c04",
+        "topic_id": "agri-96d735d5bd11",
         "steps": [
-          {
-            "status": "stage_completed",
-            "stage": "research_sources",
-            "result": {
-              "fetched_sources": 7
-            }
-          },
           {
             "status": "stage_failed",
             "stage": "research_extract",
             "failure": {
               "kind": "validation",
-              "category": "scoped_intent_or_local_prescription_rejected"
+              "category": "every_number_requires_unit_and_scope_binding"
             }
           }
         ],
         "published_posts": 0
       },
       "status": "stage_failed",
-      "duration_seconds": 9.85,
+      "duration_seconds": 19.68,
       "model_calls": 1,
-      "completed_at": "2026-10-27T07:36:37.168430+00:00"
+      "completed_at": "2026-10-27T08:09:59.245380+00:00"
+    },
+    {
+      "topic_id": "agri-3c1cdef82c04",
+      "title": "پایش رطوبت خاک در مزرعه لوبیا چیتی؛ انتخاب محل و عمق حسگر",
+      "started_at": "2026-10-27T08:09:59.274200+00:00",
+      "published_posts": 0,
+      "worker_result": {
+        "status": "stage_failed",
+        "stage": "research_extract",
+        "failure": {
+          "kind": "validation",
+          "category": "literal_measurement_unit_required"
+        },
+        "topic_id": "agri-3c1cdef82c04",
+        "steps": [
+          {
+            "status": "stage_failed",
+            "stage": "research_extract",
+            "failure": {
+              "kind": "validation",
+              "category": "literal_measurement_unit_required"
+            }
+          }
+        ],
+        "published_posts": 0
+      },
+      "status": "stage_failed",
+      "duration_seconds": 51.79,
+      "model_calls": 1,
+      "completed_at": "2026-10-27T08:10:51.060192+00:00"
     }
   ],
   "automatic_approval": false,
   "schedule_enabled": false,
-  "updated_at": "2026-10-27T07:36:37.194169+00:00"
+  "updated_at": "2026-10-27T08:10:51.088421+00:00"
 }

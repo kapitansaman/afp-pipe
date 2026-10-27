@@ -1,5 +1,5 @@
 {
-  "attempts": 1,
+  "attempts": 2,
   "history": [
     {
       "attempts": 1,
@@ -11,14 +11,25 @@
         "kind": "validation",
         "category": "every_number_requires_unit_and_scope_binding"
       }
+    },
+    {
+      "attempts": 2,
+      "status": "failed",
+      "last_run_id": "40471364777",
+      "started_at": "2026-10-27T08:09:39.574699+00:00",
+      "completed_at": "2026-10-27T08:09:59.244178+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "every_number_requires_unit_and_scope_binding"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40467890941",
-  "started_at": "2026-10-27T07:36:03.015214+00:00",
+  "last_run_id": "40471364777",
+  "started_at": "2026-10-27T08:09:39.574699+00:00",
+  "completed_at": "2026-10-27T08:09:59.244178+00:00",
   "failure": {
     "kind": "validation",
     "category": "every_number_requires_unit_and_scope_binding"
-  },
-  "completed_at": "2026-10-27T07:36:27.289149+00:00"
+  }
 }

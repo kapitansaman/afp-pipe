@@ -1,0 +1,25 @@
+{
+  "topic_id": "agri-c2b086b47679",
+  "candidate_sha256": "4bf3ed286130c39cc961bd5d74a09b7c287ef56f924c914670c3809dcbf899ab",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 4,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "عمق کاشت باید تقریباً ۲ تا ۳ برابر قطر بذر باشد.",
+        "conditions": "عمق کاشت؛ منطقه منابع: University of Maryland Extension؛ محصول: بذر لوبیا و سایر سبزیجات",
+        "evidence_id": "d0-e6",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e6",
+        "source_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+        "quote": "enetics/Slow germination Lima bean, parsley, watermelon, and okra are examples of vegetable crops that germinate relatively slowly (10-21 days) at typical spring soil temperatures. Seeds planted incorrectly Seeds planted too deep may not germinate or emerge and those planted too shallow may wash away, fail to germinate or be eaten by wildlife. The rule of thumb is to plant seeds at a depth that is 2-3 times their diameter. It is easy to plant seeds too deeply, especially when covering the seed with soil. On light, sandy soils, seed can be planted more deeply. On heavy, clay soils, seed should be planted shallower. The seed of celery and lettuce should be left uncovered. Their seed germinates best in light. The spatial orientation of planted seed does not have much influence on seeds. Beans, especially limas, are an exception. They should be planted with the \"eye\" (the hilum) facing down."
+      }
+    }
+  ],
+  "candidate_error": "every_number_requires_unit_and_scope_binding",
+  "declared_insufficiency": null
+}

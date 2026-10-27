@@ -1,10 +1,15 @@
 {
-  "requested": 1,
-  "loaded": 1,
+  "requested": 2,
+  "loaded": 2,
   "sources": [
     {
-      "url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
-      "canonical_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "canonical_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
       "status": "cache_valid"
     }
   ]

@@ -1,0 +1,32 @@
+{
+  "topic_id": "agri-3c1cdef82c04",
+  "candidate_sha256": "a837cdf739cb11ddd7f1a249a2df42f54ca90bfc740c0bb776deeb41944e8784",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 1,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "برای خاک‌های درشت‌بافت، آستانه هشدار کشش تقریباً 25 تا 45 cb است؛ این حد باید بر اساس مشاهدات مزرعه‌ای بومی شده و مقادیر ثابت برای گونه‌های دیگر (نخود، سویا) جایز نیست.",
+        "conditions": "خاک‌های درشت‌بافت؛ حسگر کششی/تنsiometer؛ نیاز به کالیبره محلی دارد",
+        "evidence_id": "d2-e17",
+        "numeric_bindings": [
+          {
+            "value": "25-45",
+            "unit_quote": "25-45 cb",
+            "geographic_scope": "عام/منبع: University of Minnesota Extension",
+            "product_scope": "خاک‌های درشت‌بافت (coarse textured soils)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e17",
+        "source_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+        "quote": "water tension indicates the energy required by plant roots to extract water from soil particles. As soil water is removed from soil, soil tension increases. Soil tension is expressed in centibars (cb) or bars of atmospheric pressure. When the soil is full of water, soil water tension is close to zero. For coarse textured soils, AWC is 50% depleted when soil tension is at 25-45 cb . In these soils, a crop should be irrigated before the sensor indicates 25-45 cb. However, soil tension measurements are soil specific and can be inaccurate.Depending on your crop and soil observations, soil tension limits should be refined. For example, note the soil tension at the earliest indication of water stress and always make sure that you irrigate before it reaches that point. You can also track your water movement by taking measurement right after an irrigation event. If your bottom sensor after irrig"
+      }
+    }
+  ],
+  "candidate_error": "literal_measurement_unit_required",
+  "declared_insufficiency": null
+}

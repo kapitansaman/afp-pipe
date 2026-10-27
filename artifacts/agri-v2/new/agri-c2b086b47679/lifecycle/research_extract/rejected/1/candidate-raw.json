@@ -1,0 +1,84 @@
+{
+  "topic_id": "agri-c2b086b47679",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "لوبیا قرمز (دانه خشک)",
+  "slug": "red-kidney-dry-bean-germination-temperature-moisture-crust",
+  "outline": [
+    "سبب دومی: کرم و رطوبت خاک — پاتوژن‌های کمپوست‌پوس و ترش‌ریشه",
+    "سبب سومی: دمای پایین خاک — بذر در خاک سرد و نمناک می‌پوسد",
+    "سبب چهارمی: سله و پوسته خاک — خاک رس یا فشرده مانع خروج دوکوتیلیون می‌شود"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "بذر لوبیا قرمز در خاک سرد و نمناک می‌پوسد و به‌جای سبز شدن، دچار پوسیدگی قبل از سبزشدن می‌شود.",
+      "conditions": "خاک سرد (دمای پایین‌تر از ۵۰ درجه فارنهایت) همراه با رطوبت زیاد؛ منطقه منابع: ایالت‌های میانه-اطلسی آمریکا",
+      "evidence_id": "d0-e8",
+      "numeric_bindings": [
+        {
+          "value": "50",
+          "unit_quote": "50° F.",
+          "geographic_scope": "eastern US extension regions",
+          "product_scope": "bean seed germination threshold"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "تنها خاک گرم و زهکشی‌شده مناسب است؛ خاک مرطوب و سرد منجر به پوسیدگی بذر می‌شود.",
+      "conditions": "گرما و زهکشی مناسب خاک؛ منطقه منابع: ایالت میسیسیپی، آمریکا",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "خاک‌های رسی و فشرده مانع خروج دوکوتیلیون (نیمه‌های بزرگ بذر) شده و جوانه‌زنی را ضعیف می‌کنند؛ پوسته سطحی خاک نیز مانعemergence می‌شود.",
+      "conditions": "بافت رس/فشرده خاک; منطقه: میسیسیپی، آمریکا; محصول: تمام لوبیاهای باغی",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در صورت تشکیل پوسته روی خاک، می‌توان با شکستن ملایم پوسته یا آبپاشی سبک چندمرحله‌ای، آن را نرم کرد و جوانه‌زنی را تسهیل نمود.",
+      "conditions": "پوسته خاک; منطقه: میسیسیپی، آمریکا; محصول: لوبیای باغی",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عمق کاشت باید حدود ۲ تا ۳ برابر قطر بذر باشد؛ بذر لوبیا با عمق نامناسب either پوسیده می‌شود یا emergence نمی‌کند.",
+      "conditions": "عمق کاشت; منطقه: منابع عمومی Extension; محصول: لوبیا و سایر حبوبات",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های سنگین و متراکم که دانه‌های پوسیده و غلتکی دارند، جوانه‌زنی و ظهور بذر را مهار می‌کنند.",
+      "conditions": "بافت خاک; منطقه: مریلند، آمریکا",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای ۶۵ تا ۷۵ درجه فارنهایت برای جوانه‌زنی بیشتر بذور سبزیجات مناسب است؛ بذر لوبیا نیز در این بازه دمای_mix مناسب عمل می‌کند.",
+      "conditions": "دمای mix بذر/خاک; منطقه: مریلند، آمریکا",
+      "evidence_id": "d4-e20",
+      "numeric_bindings": [
+        {
+          "value": "65 to 75",
+          "unit_quote": "65° to 75°F",
+          "geographic_scope": "US Mid-Atlantic extension region",
+          "product_scope": "vegetable seed germination potting mix temperature"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری زیاد و خیس ماندن مداوم media باعث رشد آبکِندان (Pythium, Phytophthora, Rhizoctonia) و بیماری damping-off می‌شود که بذر و نشا را از بین می‌برد.",
+      "conditions": "رطوبت بیش از حد; منطقه: مریلند، آمریکا",
+      "evidence_id": "d4-e24",
+      "numeric_bindings": []
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+  "requested_url": "https://extension.umn.edu/irrigation-management-strategies/soil-moisture-sensors-irrigation-scheduling",
+  "redirect_chain": [
+    "https://extension.umn.edu/irrigation-management-strategies/soil-moisture-sensors-irrigation-scheduling",
+    "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling"
+  ],
+  "text": "[table row] Coarse sands | 10 cb: 0 in/ft [table row] Coarse sands | 30 cb: 0.1 in/ft [table row] Coarse sands | 50 cb: 0.2 in/ft [table row] Coarse sands | 70 cb: 0.3 in/ft [table row] Coarse sands | 100 cb: 0.4 in/ft [table row] Coarse sands | 200 cb: 0.6 in/ft [table row] Coarse sands | 1500* cb: 0.7 in/ft [table row] Fine sands | 10 cb: 0 in/ft [table row] Fine sands | 30 cb: 0.3 in/ft [table row] Fine sands | 50 cb: 0.4 in/ft [table row] Fine sands | 70 cb: 0.6 in/ft [table row] Fine sands | 100 cb: 0.7 in/ft [table row] Fine sands | 200 cb: 0.9 in/ft [table row] Fine sands | 1500* cb: 1.1 in/ft [table row] Loamy sands | 10 cb: 0 in/ft [table row] Loamy sands | 30 cb: 0.4 in/ft [table row] Loamy sands | 50 cb: 0.5 in/ft [table row] Loamy sands | 70 cb: 0.8 in/ft [table row] Loamy sands | 100 cb: 0.9 in/ft [table row] Loamy sands | 200 cb: 1.1 in/ft [table row] Loamy sands | 1500* cb: 1.4 in/ft [table row] Sandy loams | 10 cb: 0 in/ft [table row] Sandy loams | 30 cb: 0.5 in/ft [table row] Sandy loams | 50 cb: 0.7 in/ft [table row] Sandy loams | 70 cb: 0.9 in/ft [table row] Sandy loams | 100 cb: 1.0 in/ft [table row] Sandy loams | 200 cb: 1.3 in/ft [table row] Sandy loams | 1500* cb: 1.7 in/ft [table row] Loams | 10 cb: 0 in/ft [table row] Loams | 30 cb: 0.2 in/ft [table row] Loams | 50 cb: 0.5 in/ft [table row] Loams | 70 cb: 0.8 in/ft [table row] Loams | 100 cb: 1.0 in/ft [table row] Loams | 200 cb: 1.6 in/ft [table row] Loams | 1500* cb: 2.4 in/ft [table row] Soil Layer | B: Thickness [table row] Soil Layer | C: Field capacity (FC) [table row] Soil Layer | D: Available water holding capacity (AWC) [table row] Soil Layer | E: Volumetric water content (VWC) measured by the sensor [table row] Soil Layer | F = D x B: Depth of water at available water holding capacity = (AWC x Thickness) [table row] Soil Layer | G = F x 0.50: Depth of water at MAD = (AWC x Thickness) x 50% [table row] Soil Layer | H = (C x B) - (E x B): Soil water depletion (D) = (FC x thickness) - (VWC x Thickness) [table row] inch | B: inch [table row] inch | C: inch/inch [table row] inch | D: inch/inch [table row] inch | E: inch/inch [table row] inch | F = D x B: inch [table row] inch | G = F x 0.50: inch [table row] inch | H = (C x B) - (E x B): inch [table row] 0-12 | B: 12 [table row] 0-12 | C: 0.16 [table row] 0-12 | D: 0.1 [table row] 0-12 | E: 0.13 [table row] 0-12 | F = D x B: 1.2 [table row] 0-12 | G = F x 0.50: 0.6 [table row] 0-12 | H = (C x B) - (E x B): 0.36 [table row] 12-24 | B: 12 [table row] 12-24 | C: 0.15 [table row] 12-24 | D: 0.09 [table row] 12-24 | E: 0.1 [table row] 12-24 | F = D x B: 1.08 [table row] 12-24 | G = F x 0.50: 0.54 [table row] 12-24 | H = (C x B) - (E x B): 0.6 [table row] 24-36 | B: 12 [table row] 24-36 | C: 0.11 [table row] 24-36 | D: 0.07 [table row] 24-36 | E: 0.1 [table row] 24-36 | F = D x B: 0.84 [table row] 24-36 | G = F x 0.50: 0.42 [table row] 24-36 | H = (C x B) - (E x B): 0.12 Soil moisture sensors for irrigation scheduling | UMN Extension Home Natural Resources Conservation Agricultural soil and water Irrigation Soil moisture sensors for irrigation scheduling Efficient irrigation management can improve yields, grain quality, conserve water and energy, and reduce nutrient leaching. One of the easiest and most effective ways to improve irrigation efficiency is to implement soil sensor technology in irrigation scheduling. This article provides basic knowledge and practical recommendations for using soil moisture sensors for irrigation scheduling. Types of soil moisture sensors Soil moisture sensors are divided into two categories depending on the technology they use: 1) Sensors that measure volumetric water content and 2) Sensors that measure soil tension when placed in the soil profile. Lists of the most common sensors available in each category and their pros, cons and costs are below. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Pros, cons and costs of volumetric water content sensors Volumetric water content sensors Capacitance (Spectrum SMEC300, SM100; Sentek Enviroscan, Diviner 2000; METER 5TE, 5TN etc.) Advantages Response time is very fast Remote access available Very accurate if site calibrated Less expensive than TDR Can be used in high saline soils compared to TDR Disadvantages Small sensing area Affected by soil conditions - salinity, clay content, temperature, bulk density Site/soil specific calibration preferred Cost $250-350 per sensor Data logger is $500-2,500 TDR* (Acclima true TDR 315, 315L, 310 S; Spectrum Field Scout TDR; CS 655, 650 tec) Advantages Very accurate Soil/site calibration usually not required Remote access of data available Disadvantages Very small area of influence Expensive technology Cost $250-350 per sensor Data logger is $1,000-3,500 Neutron probe (CPN-Instrotek; Troxller) Advantages Accurate measurements. Samples a relatively large area. One sensor for all sites & depths. Unaffected by salinity and air gaps around access tube. Disadvantages Soil/site specific calibration usually required. Very expensive (~$10,000) Heavy Contains radioactive material (safety hazard). Licensing is required. Manual reading and recording (~3 min./access tube) Not good at shallow depths (<6 inches) Cost ~$10,000 and $25-30 for access tubes Plus sign (+) if content is closed, 'X' if content is open. Pros, cons and costs of soil water tension sensors Tensiometers (Irrometer tensiometers, etc.) Advantages Inexpensive. Not affected by salinity. Comes in different lengths. Disadvantages Small operative range - not sufficient for fine-textured soils (0-90 kPa). Slow response time to soil water changes. Frequent maintenance required. Do not withstand cold temperatures. Manual readings and data collection. Cost $80 per sensor $140 - $155 for transducer Granular matrix sensor (Irrometer watermark sensors, etc.) Advantages Good accuracy in medium to fine soils. Inexpensive. Data can be logged and retrieved remotely. Large soil tension range (0-220 cb). Continuous measurement at same location. Disadvantages Relatively slow response time to soil water changes. Less accurate in sandy soils. Sensitive to temperature and salinity. Needs to be calibrated for each soil type. Cost $40-50 per sensor. $250 for handheld meter $500 for the data logger Soil moisture sensors measure or estimate the amount of water in the soil. These sensors can be stationary or portables such as handheld probes. Stationary sensors are placed at the predetermined locations and depths in the field, whereas portable soil moisture probes can measure soil moisture at several locations. A better understanding of the basic principles, definitions, and terms behind the soil-water-plant relationship is essential to effectively utilize soil moisture sensors. For more information, see Basics of irrigation scheduling . Volumetric water content (VWC) soil moisture sensors Volumetric water content is the volume of liquid water per volume of soil. It is usually expressed as a percentage. For example, 25% volumetric water content (VWC) means 0.25 cubic inch of water per cubic inch of soil. When compared with the maximum amount of water that the soil can hold or field capacity, volumetric water content (VWC) measurements can be used to measure soil water deficit for irrigation scheduling: Soil water depletion/deficit (inches) = soil water content at field capacity (inches) - current soil water content (inches) Note: %Soil water content measurements must be multiplied by the depth of the root zone to give total water in that soil depth. For example: If a 12-inch soil profile has a VWC of 9%, then Total water in a 12-inch profile = 0.09 x 12 inches = 1.08 inches water If field capacity is 18%, then Soil water depletion/deficit = (0.18 x 12 inches) - 1.08 inches = 1.08 inches Soil water deficits and crop stress For irrigation scheduling, it's important to understand the soil water content at which a crop begins to experience stress. In general, most crops begin to experience stress when soil water depletion/deficit is 30-50% of available water holding capacity (AWC). This is called management allowable depletion (MAD) or irrigation trigger point. MAD can vary depending upon crop, growth stage and an irrigation system’s pumping capacity. For more information, see MAD strategies by growth stage/season . Irrigation should be triggered when the % soil water depletion is equal or close to the % MAD. Volumetric water content (VWC) can be used to calculate %soil water depletion using the following formula: Where PWP is permanent wilting point and FC is field capacity. Field capacity can be measured very easily in the field using soil moisture sensors. The VWC measurements provided by the soil moisture sensor after 12-24 hours of heavy irrigation or rain is the field capacity of the soil. Get a detailed look at your field’s FC, PWP and AWC at NRCS' Web Soil Survey . The example calculations for measuring soil water deficit for irrigation scheduling using volumetric soil moisture sensors are given at the end this publication. The most common soil water content or volumetric water content sensors follow: Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Electromagnetic sensors The most common electromagnetic sensors are capacitance sensors or frequency domain reflectometry (FDR) sensors and time domain reflectometry (TDR) sensors. These sensors indirectly measure VWC based on the dielectric and electric properties of the soil medium (soil bulk permittivity or soil dielectric constant). The dielectric constant is a measure of the ability of the substance to store electrical energy. Since soil particles, water, and air, all have different dielectric constants, their ability to store or dissipate electrical energy is different. This is how it can be correlated to soil water content. These sensors can be portable or stationary. They read soil moisture for varied range of soil textures and moistures instantly. Capacitance or frequency domain sensors Typically, these sensors are in the form of two parallel rods (two electrodes) (Figure 1) or a pair of metal rings (two electrode) mounted along the length of a PVC pipe (Figure 2). The capacitor along the length of the PVC pipe allows simultaneous measurements of soil moisture at different depths. Portable capacitance probes also allow measurements at several locations through access tubes. When electric current passes through these electrodes, they form an electromagnetic field in the soil. The probe measures the permittivity of a soil medium by measuring the charge time of a capacitor made with that medium and thus the soil water content. Figure 1. An example of a stationary capacitance sensor. Photo: ICT international. http://www.ictinternational.com Figure 2. An example of a portable capacitance soil moisture sensor probe. Photo: Delta-T Devices http://www.delta-t.co.uk Plus sign (+) if content is closed, 'X' if content is open. Time domain reflectometry (TDR) sensors TDR sensors consist of two or three parallel rods inserted into the soil acting as waveguides. When a defined voltage pulse is sent to the sensor it travels along the waveguide. When this pulse reaches the end of the waveguide it reflects back. This reflection is measured by the oscilloscope connected to the senor. As the soil water increases, the dielectric constant of the soil increases. Consequently, the travel time of the pulse decreases and thus, the soil moisture content can be estimated using the calibration equation. Figure 3a. Example of time domain reflectometry (TDR) soil moisture sensors. Photo http://www.campbellsci.com Figure 3b. Example of time domain reflectometry (TDR) soil moisture sensors. Photo: http://acclima.com Plus sign (+) if content is closed, 'X' if content is open. Neutron probe Figure 4. Measuring soil moisture with a neutron probe. The neutron probe method is considered to be the most accurate method of measuring soil moisture. Neutron probes consist of a neutron source, detector, and an electronic counting scale. Measurements at desired depths are made by lowering the probe into an access tube installed vertically in the soil. This radioactive probe emits high-energy neutrons (Americium 241/Beryllium) in all directions into the soil. When these neutron collide with hydrogen atoms in the soil, the speed of the neutron is attenuated or slowed down. The rate of attenuation is dependent on the amount of water present. For using neutron probe the operator must be licensed and should receive special training. The unit is expensive and requires a lot of time to take field readings (Figure 4). Soil water tension or matric potential sensors Soil water tension indicates the energy required by plant roots to extract water from soil particles. As soil water is removed from soil, soil tension increases. Soil tension is expressed in centibars (cb) or bars of atmospheric pressure. When the soil is full of water, soil water tension is close to zero. For coarse textured soils, AWC is 50% depleted when soil tension is at 25-45 cb . In these soils, a crop should be irrigated before the sensor indicates 25-45 cb. However, soil tension measurements are soil specific and can be inaccurate.Depending on your crop and soil observations, soil tension limits should be refined. For example, note the soil tension at the earliest indication of water stress and always make sure that you irrigate before it reaches that point. You can also track your water movement by taking measurement right after an irrigation event. If your bottom sensor after irrigation indicates zero reading that means you might have irrigated more than required, but if it shows no movement that means you irrigated less. Charts like Table 1 can also be used to convert the tension readings from sensors to soil water deficit values. Then these soil water deficit values can be used for irrigation scheduling as shown in example calculations at the end of this article. The most common soil tension sensors follow: Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Tensiometers Figure 5. Tensiometer with vacuum gauge. These sensors are made from a porous ceramic tip sealed to the base of a water-filled plastic tube, sealed at the top with a removable airtight cap. A vacuum gauge connected to the tube measures the soil tension (Figure 5). Plus sign (+) if content is closed, 'X' if content is open. Electrical resistance sensors These sensors indirectly estimate soil tension by measuring the electrical resistance between two wire grids embedded in a block of gypsum, plaster, or a special material which maintains its moisture content in equilibrium with adjacent soil (Figure 6). The electrical resistance within the block varies with soil water content. A manufacturer's calibration curve converts the reading to soil tension. These sensors can be glued to a PVC pipe (figure 6b) for easier installation at deeper depths. Then Table 1 can be used to estimate the soil water deficit from soil tension measurement for the specific soil. Figure 6a. Watermark granular matrix electrical resistance sensor. Figure 6b. Sensors glued to PVC pipe for easier installation. Table 1. Soil water deficits in inches per foot of soil for various soil tensions (cb). Soil type 10 cb 30 cb 50 cb 70 cb 100 cb 200 cb 1500* cb Coarse sands 0 in/ft 0.1 in/ft 0.2 in/ft 0.3 in/ft 0.4 in/ft 0.6 in/ft 0.7 in/ft Fine sands 0 in/ft 0.3 in/ft 0.4 in/ft 0.6 in/ft 0.7 in/ft 0.9 in/ft 1.1 in/ft Loamy sands 0 in/ft 0.4 in/ft 0.5 in/ft 0.8 in/ft 0.9 in/ft 1.1 in/ft 1.4 in/ft Sandy loams 0 in/ft 0.5 in/ft 0.7 in/ft 0.9 in/ft 1.0 in/ft 1.3 in/ft 1.7 in/ft Loams 0 in/ft 0.2 in/ft 0.5 in/ft 0.8 in/ft 1.0 in/ft 1.6 in/ft 2.4 in/ft *Soil deficit at 1500 Cbs is equal to total available soil water capacity. Sensor installation and placement Sensors should be placed at several different depths and locations in the field. Typically, sensors are placed in pairs at one-third and two-thirds the depth of the crop root zone and at two or more locations in the field, preferably in the representative soil type away from high points, depressions and slopes. Some fields contain both heavy and light textured soils. In those fields, it is recommended that each soil type be monitored and managed separately for irrigation. Field mapping technologies can be used to identify different soil, such as electromagnetic conductivity (EM) mapping. By identifying different soils (different water holding capacities), management zones can be created that can be managed separately. Where to place sensors Place stationary sensors between plants within a crop row at their desired depths. Flag the sensors so field equipment operators can see where they are and prevent damage to them. Do not install the sensors close to the pivot wheel track and make sure that the sensor is in direct contact with soil and there is minimal soil disturbance during installation. How to install sensors The method of installation is dependent upon the design of the sensor. Follow the installation instructions given by the manufacturer. In general, soil moisture sensor installation is done in one of two ways: By digging a hole or a trench and installing sensors horizontally at different depths or By using an auger or soil sampling probe to bore a hole and install sensors vertically. Care must be taken when drilling the hole. Do not install the sensor in an oversize hole as it may cause voids and air gaps. To prevent air gaps, some users use a mixture of soil and water (soil slurry) during the installation; however, in many cases, the structure of the slurry does not match the surrounding soil, which may adversely affect the sensor reading. Other recommendations Use data loggers to store and log the data. This will help in data interpretation and quick decision making. Use soil moisture data with irrigation scheduling tools such as checkbook method or daily crop water use data from Central Minnesota Ag Weather Network . Read the sensors every two to three days. Flag the location of the sensor for easy accessibility. Always irrigate to replenish the soil moisture to less than field capacity so that there is some room for potential rainfall. Consider your pumping capacity and application efficiency for scheduling irrigation. See Pumping capacity in Irrigation management strategies. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Example calculations: Using a volumetric water content sensor In this example, you will estimate soil water depletion using a volumetric water content sensor. The following measurements are given: Three moisture sensors are installed at depths of 1 foot, 2 feet and 3 feet (Column A). The soil moisture sensor reads 0.13, 0.10 and 0.10 (or 13%, 10% and 10%) for 1, 2 and 3 foot depths, respectively (Column E). Available water holding capacity (AWC) from the Web soil survey is 0.70, 0.09 and 0.07 for 1, 2 and 3 foot depths, respectively (Column D). Measured field capacity (FC) is 0.16, 0.15 and 0.10 in./in. for 1, 2 and 3 foot depths, respectively (Column C). 50% depletion of available water is allowed, i.e. Management allowable depletion (MAD)=50%. A B C D E F = D x B G = F x 0.50 H = (C x B) - (E x B) Soil Layer Thickness Field capacity (FC) Available water holding capacity (AWC) Volumetric water content (VWC) measured by the sensor Depth of water at available water holding capacity = (AWC x Thickness) Depth of water at MAD = (AWC x Thickness) x 50% Soil water depletion (D) = (FC x thickness) - (VWC x Thickness) inch inch inch/inch inch/inch inch/inch inch inch inch 0-12 12 0.16 0.1 0.13 1.2 0.6 0.36 12-24 12 0.15 0.09 0.1 1.08 0.54 0.6 24-36 12 0.11 0.07 0.1 0.84 0.42 0.12 Profile total : 3.12 1.56 1.08 To convert %soil water content to depth of water in inches, multiply % water with soil profile thickness. Solution In this example, the 36-inch soil profile can hold a maximum of 3.12 inches of water available (AWC) for crops to use. Crops can deplete 1.56 inches of AWC before irrigation is needed (MAD = 50% of AWC). Currently, the soil water depletion is 1.08 inches. That means water available in the soil profile before stress occurs = 1.56 - 1.08 = 0.48 inches For example, if daily crop water use or evapotranspiration is 0.2 inches per day and assuming no rainfall will occur, when should the next irrigation be applied? Days until next irrigation = 0.48 inches / 0.2 inches/day = ~2 days Cautions Crop water use, irrigation system efficiency and soil observations should also be used as feedback to make decisions. Irrigation amount should be applied to replenish soil moisture to 85% of field capacity (FC) to leave some room for rain. Consider your pumping capacity and application efficiency for scheduling irrigation. Acknowledgements The author wishes to thank former University of Minnesota colleagues Joshua Stamper and Jerry Wright for their previous development efforts in earlier iterations of this content. Plus sign (+) if content is closed, 'X' if content is open. Sources Evett, S. R. and P. Cepuder. 2008. Capacitance sensors for use in access tube. In, Evett, S. R., L. K. Heng, P. Moutonnet, and M. L. Nguyen (Eds), Field estimation of soil water content: A practical guide to methods, instrumentations, and sensor technology. IAEATCS-30. Int. Atomic Energy Agency, Vienna, Austria, pp. 73-90 Irmak, S., J. O. Payero, B. VanDeWalle, J. Rees, G. Zoubek, D. L. Martin, W. L. Keanz, D. E. Eisenhauer and D. Leininger. 2016. \"Principles and operation characteristics of watermark granular matrix sensor to measure soil water status and its practical application for irrigation management in various soil textures\". Nebraska Extension Circular, EC783. Sharma, V. 2018. Methods and techniques for soil moisture monitoring. University of Wyoming Extension. B-1331, November 2018. Peters, T. R., K. Desta and L. Nelson. 2013. Practical use of soil moisture sensors and their data for irrigation scheduling . Washington State University Extension Fact Sheet. FS083E Topp, G.C., Davis, J.L. and Annan, A.P. 1980. Electromagnetic determination of soil water content: measurements in coaxial transmission lines. Water Res. Res. 16: 574-582. Vasudha Sharma, Extension irrigation specialist Reviewed in 2019 Page survey © 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer. This work is supported by the U.S. Department of Agriculture’s National Institute of Food and Agriculture. Report Web Accessibility Issues | Privacy Statement | Staff intranet",
+  "links": [
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+      "label": "Skip to navigation"
+    },
+    {
+      "url": "https://extension.umn.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Debalin%20at%20Field%20School.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/471",
+      "label": "Building a stronger Minnesota together"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/what-we-do",
+      "label": "What we do"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/local",
+      "label": "Local offices"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/tribal-outreach",
+      "label": "Tribal outreach"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/regional-partnerships",
+      "label": "Regional partnerships"
+    },
+    {
+      "url": "https://agreett.umn.edu/",
+      "label": "AGREETT"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/global-initiatives",
+      "label": "Global initiatives"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/ask-a-question",
+      "label": "Ask a question"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/apply-for-a-job",
+      "label": "Apply for a job"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extensionstaff.umn.edu/",
+      "label": "Staff"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/news",
+      "label": "Extension news"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/newsletters",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/podcasts",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/White%20baneberry%20berries%20and%20red%20stalks.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/event/spooky-plants-for-the-spooky-season",
+      "label": "Spooky plants for the spooky season | Nov 3"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events",
+      "label": "Courses and events"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events/for-organizations",
+      "label": "For organizations"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179506",
+      "label": "For professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Aerial%20view%20of%20group%20in%20field_screen.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/7781",
+      "label": "Institute for Ag Professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/beef",
+      "label": "Beef"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/horse",
+      "label": "Horse"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/livestock-operations",
+      "label": "Livestock operations"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-production/growing-corn",
+      "label": "Corn"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "label": "Cover crops"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "label": "Nutrient management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/soybean",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/sugarbeet",
+      "label": "Sugarbeet"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/weed-management",
+      "label": "Weed management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agricultural-business-management",
+      "label": "Ag business management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/farm-safety",
+      "label": "Farm safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/growing-safe-food",
+      "label": "On-farm food safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/small-farms",
+      "label": "Small farms"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production",
+      "label": "Commercial Fruit"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming",
+      "label": "Vegetable farming"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/tornado-storm-clouds-above-the-shed-in-the-countryside.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/158556",
+      "label": "COMET Training"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/economy-and-development",
+      "label": "Economy and development"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/leadership-skill-building",
+      "label": "Leadership skill building"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/tourism-and-outdoor-recreation",
+      "label": "Tourism and outdoor recreation"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/175686",
+      "label": "Managing money"
+    },
+    {
+      "url": "https://extension.umn.edu/node/177516",
+      "label": "Mental health"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/raising-kids",
+      "label": "Raising kids"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/rural-stress",
+      "label": "Rural stress"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Tomatoes-peppers-on-outside-table-UMN-extension.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/9161",
+      "label": "Take a class: Preserving food at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home",
+      "label": "Cooking at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/commercial-kitchens",
+      "label": "Commercial kitchens"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/cottage-food-safety-in-minnesota",
+      "label": "Cottage foods"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/rural-grocery-stores",
+      "label": "Rural grocery stores"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/supershelf",
+      "label": "Supershelf"
+    },
+    {
+      "url": "https://extension.umn.edu/food/nutrition/healthy-eating",
+      "label": "Healthy eating"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Garden%20Tour%202023.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/26856",
+      "label": "Read Yard and Garden News"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota",
+      "label": "Gardening in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota",
+      "label": "Lawns and landscapes in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects",
+      "label": "Yard and garden insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems",
+      "label": "Yard and garden problems"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/home-maintenance-and-safety",
+      "label": "Home maintenance and safety"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects",
+      "label": "Household insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/water-usage-and-water-damage-in-homes",
+      "label": "Water usage and water damage in homes"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Copy%20of%20IMG_3906.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/100581",
+      "label": "Minnesota Woodland Stewards"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179281",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/wild-pollinators",
+      "label": "Wild pollinators"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water",
+      "label": "Agricultural soil and water"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/shoreland-watersheds-and-wetlands",
+      "label": "Shoreland, watersheds and wetlands"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/weather-and-climate/prepare-for-risks-to-your-home-and-community",
+      "label": "Prepare for risks"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/4-H-State-Ambassadors-greeting-fairgoers-at-state-fair-4-H-Building-entrance.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/4h-building-campaign/home",
+      "label": "Help us transform the 4‑H Building"
+    },
+    {
+      "url": "https://extension.umn.edu/4-h-and-youth/minnesota-4-h",
+      "label": "Minnesota 4-H"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160906",
+      "label": "Belonging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160921",
+      "label": "Leadership and skills"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160911",
+      "label": "Learning and readiness"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160896",
+      "label": "Program quality"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160926",
+      "label": "Resilience"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources",
+      "label": "Natural Resources"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation",
+      "label": "Conservation"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
+      "label": "Irrigation"
+    },
+    {
+      "url": "https://extension.umn.edu/node/24271",
+      "label": "Basics of irrigation scheduling"
+    },
+    {
+      "url": "https://extension.umn.edu/irrigation/irrigation-management-strategies",
+      "label": "MAD strategies by growth stage/season"
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://extension.umn.edu/irrigation-management-strategies/soil-moisture-sensors-irrigation-scheduling",
+      "label": "example calculations"
+    },
+    {
+      "url": "https://z.umn.edu/irrigationpumpingcapacity",
+      "label": "Pumping capacity"
+    },
+    {
+      "url": "https://extension.umn.edu/about-extension/contact-us",
+      "label": "Contact"
+    },
+    {
+      "url": "https://extension.umn.edu/cdn-cgi/l/email-protection",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://z.umn.edu/report-accessibility-issue?ref_url=https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+      "label": "Report Web Accessibility Issues"
+    },
+    {
+      "url": "https://myextension.umn.edu",
+      "label": "Staff intranet"
+    }
+  ],
+  "fetched_at": "2026-10-27T08:10:00.280133+00:00",
+  "sha256": "3870047d02279e39bf40ca0558c486963825acef6afe26c5f6039de3f1c87bda",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

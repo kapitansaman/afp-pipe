@@ -1,0 +1,24 @@
+{
+  "text": 3,
+  "image": 0,
+  "history": [
+    {
+      "kind": "text",
+      "topic_id": "agri-c2b086b47679",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:09:08.155157+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-96d735d5bd11",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:09:39.595695+00:00"
+    },
+    {
+      "kind": "text",
+      "topic_id": "agri-3c1cdef82c04",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T08:10:00.291368+00:00"
+    }
+  ]
+}

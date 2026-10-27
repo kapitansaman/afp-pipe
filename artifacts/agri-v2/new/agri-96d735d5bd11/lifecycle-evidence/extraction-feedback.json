@@ -1,0 +1,54 @@
+{
+  "topic_id": "agri-96d735d5bd11",
+  "candidate_sha256": "6defcec08efdc9e001f7cea9bd1a5c2638f4eae946bd2a4275f27644b7913bfd",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "دمای ایده‌آل انبار برای مواد غذایی خشک در محدوده خنک تا معتدل (حدود ۴۰ تا ۷۰ درجه فارنهایت) توصیف شده و انجماد کنسروها توصیه نمی‌شود.",
+        "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)؛ محصول: مواد غذایی خشک و کنسروی؛ شرایط بهینه انبار خانگی/بلندمدت",
+        "evidence_id": "d4-e0"
+      },
+      "literal_evidence": {
+        "id": "d4-e0",
+        "source_url": "https://extension.usu.edu/preserve-the-harvest/research/storage-conditions",
+        "quote": "Food Storage Conditions | USU Utah State University sites use cookies. By continuing to use this site you accept our privacy and cookie policy . I agree Skip to content Food Storage Conditions Moisture and temperature are the two critical factors in optimal food storage. Moisture The humidity in the storage environment should be low. If dried foods pick up moisture from the storage area, molds and bacteria can grow. This can lead to spoilage and illness. Moisture can also lead to the breakdown of some packaging materials (paper degradation and metal rusting). In areas of high environmental humidity a dehumidifier may be needed. Temperature The optimal temperature range is in the cool to moderate range, approximately 40 - 70 degrees F. Research at Brigham Young University (Ref. 1.) on long term storage has shown that wheat retained an acceptable quality for 25 years stored cold (basement)"
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "لوبیای چیتی بسته‌بندی خرده‌فروشی حتی پس از ۳۰ سال نگهداری در شرایط مناسب، بیش از ۸۰ درصد پذیرش طعم توسط پنل مصرف‌کننده داشت و برای انبار بلندمدت قابل قبول تشخیص داده شد.",
+        "conditions": "منبع دانشگاهی ایالات متحده (USU Extension؛ مطالعه Brigham Young University)؛ محصول: لوبیای چیتی (pinto bean) بسته‌بندی خرده‌فروشی با حذف اکسیژن؛ ذخیره‌سازی بلندمدت",
+        "evidence_id": "d2-e2"
+      },
+      "literal_evidence": {
+        "id": "d2-e2",
+        "source_url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+        "quote": "nsumer taste panel for emergency food use. The study concluded that pinto beans should be considered acceptable for use in long-term food storage efforts. Nutrition & Allergies Dry beans average about 22 percent protein in the seed, the highest protein content of any seed crop. They contain all essential amino acids, except methionine. Methionine can be obtained from corn, rice, or meat. Beans are an excellent source of fiber, starch, minerals and some vitamins. Some beans have a human digestion enzyme inhibitor. This enzyme can cause a nutritional deficiency if the beans are eaten raw. Cooking destroys the enzyme. Most beans naturally contain cyanogens4. These are sugars with a cyanide component attached (C-N). The Environmental Protection Agency (EPA) allows levels of cyanide in dried beans up to 25 ppm. Small amounts can be handled by the human liver and are not toxic. Cooking will al"
+      }
+    },
+    {
+      "fact_index": 7,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "بسته‌بندی‌های پلی‌اتیلن معمولی (درجه غذایی) حداقل یک سال ماندگاری دارند، در حالی که قوطی‌های #10 یا کیسه‌های نوع میرار با جذب اکسیژن می‌توانند ده سال یا بیشتر عمر قفسه‌ای بدهند.",
+        "conditions": "منبع دانشگاهی ایالات متحده (USU Extension، یوتا)؛ محصول: انواع لوبیای خشک از جمله پینتو؛ شرایط بسته‌بندی و انبارداری",
+        "evidence_id": "d2-e1"
+      },
+      "literal_evidence": {
+        "id": "d2-e1",
+        "source_url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+        "quote": "ackaging choices are #10 cans or Mylar-type bags. Canning jars are suitable for smaller quantities providing the jars are stored in a dark place. Oxygen absorbers should be used to remove oxygen from the packages to extend shelf life and minimize off-flavors. Storage Conditions Beans in normal polyethylene (food-grade) bags have a shelf life of 1 year or more. Like most stored foods, colder storage temperatures will increase shelf life. When packaged in #10 cans or Mylar-type bags, with the oxygen removed, they have a shelf life of 10 or more years. A BYU study indicated that pinto beans did experience a slight loss of quality during storage. However, samples that had been stored up to 30 years had greater than 80 percent acceptance by a consumer taste panel for emergency food use. The study concluded that pinto beans should be considered acceptable for use in long-term food storage effo"
+      }
+    }
+  ],
+  "candidate_error": "every_number_requires_unit_and_scope_binding",
+  "declared_insufficiency": null
+}
