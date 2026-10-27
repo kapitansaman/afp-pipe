@@ -53,8 +53,12 @@ class WordPress:
  def publish(self,folder,topic,brief,authorized=False):
   if not authorized or brief.get('publish_authorized') is not True:raise WPError('Explicit publication authorization required')
   folder=Path(folder);rp=folder/'wordpress-receipt.json';r=load_json(rp) if rp.exists() else {'topic_id':topic['id'],'media':[],'status':'starting'}
+  from . import display_units as units
+  if not rp.exists():r.update(display_units_policy=units.VERSION,display_locale='fa-IR')
+  localize=r.get('display_units_policy')==units.VERSION
   marker='<!-- afp-agri-v2:'+topic['id']+' -->';payload=load_json(folder/'wordpress-draft-payload.json');slug=payload['slug']
   article=load_json(folder/'article.json') if (folder/'article.json').exists() else {}
+  if localize:units.content(article.get('content_html','')+' '.join(str(f.get(k,'')) for f in article.get('faq',[]) for k in ('question','answer')),'fa-IR')
   if 'commercial_matrix' in article:
    from .content_matrix import validate as validate_matrix
    validate_matrix(article,topic,brief);topic=dict(topic,commercial_matrix=article['commercial_matrix']);r['commercial_matrix']=article['commercial_matrix']
@@ -83,7 +87,7 @@ class WordPress:
    # A public post owned by somebody else with this slug is also a hard conflict.
    public,_=self.call('posts?slug='+urllib.parse.quote(slug))
    if public:raise WPError('Public slug already exists')
-   draft=dict(payload,content=marker+'\n'+payload['content'],categories=[35],comment_status='closed',ping_status='closed',status='draft')
+   draft=dict(payload,title=units.text(payload.get('title',topic.get('title','')),'fa-IR') if localize else payload.get('title',topic.get('title','')),excerpt=units.text(payload.get('excerpt',article.get('excerpt','')),'fa-IR') if localize else payload.get('excerpt',article.get('excerpt','')),content=marker+'\n'+(units.content(payload['content'],'fa-IR') if localize else payload['content']),categories=[35],comment_status='closed',ping_status='closed',status='draft')
    post,_=self.call('posts','POST',draft);r.update(post_id=post['id'],status='draft_created');atomic_json(rp,r)
   require_all(folder,topic,load_json(folder/'article.json'))
   if not targets_verified:validate_targets(internal)
@@ -102,6 +106,7 @@ class WordPress:
   media=sorted((m for m in r['media'] if m['index'] in roles),key=lambda m:m['index']);r['image_layout']=layout_for(roles);r['internal_links_policy']=LINK_POLICY;content=illustrated_content(linked,media,topic['crop'])
   content+=DISCLOSURE+faq_html(load_json(folder/'article.json')['faq'])
   # Update only our marker-owned draft, then explicitly publish one post.
+  if localize:content=units.content(content,'fa-IR')
   current,_=self.call('posts/'+str(r['post_id'])+'?context=edit')
   if current['author']!=self.user_id or marker not in current['content']['raw'] or current['status']!='draft':raise WPError('Draft ownership/status changed; stop')
   self.call('posts/'+str(r['post_id']),'POST',{'content':marker+'\n'+content,'featured_media':media[0]['id'],'categories':[35],'status':'draft'})
@@ -112,7 +117,9 @@ class WordPress:
   return publish_family(self,folder,topic,result)
  def verify(self,post_id,topic,receipt_path):
   post,_=self.call('posts/'+str(post_id));r=load_json(receipt_path)
-  if post['status']!='publish' or norm(html.unescape(post['title']['rendered']))!=norm(topic['title']) or not post.get('featured_media'):raise WPError('Published post verification failed')
+  from . import display_units as units
+  expected_title=units.text(topic['title'],'fa-IR') if r.get('display_units_policy')==units.VERSION else topic['title']
+  if post['status']!='publish' or norm(html.unescape(post['title']['rendered']))!=norm(expected_title) or not post.get('featured_media'):raise WPError('Published post verification failed')
   roles=tuple(r.get('selected_image_roles',PRODUCTION_IMAGE_ROLES))
   if roles not in ((1,),(2,),(1,2)):raise WPError('Invalid selected media roles')
   media=sorted((m for m in r.get('media',[]) if m.get('index') in roles),key=lambda m:m['index'])
@@ -126,5 +133,5 @@ class WordPress:
   try:
    with urllib.request.urlopen(post['link'],timeout=45) as x:body=x.read(3*1024*1024).decode('utf-8','replace');status=x.status
   except Exception:raise WPError('Public URL fetch failed') from None
-  if status!=200 or topic['title'] not in html.unescape(body):raise WPError('Public HTML/title verification failed')
+  if status!=200 or expected_title not in html.unescape(body):raise WPError('Public HTML/title verification failed')
   r.update(public_http_status=status,verified_at=utcnow(),featured_media=post['featured_media'],public_verified=True);atomic_json(receipt_path,r);return {k:r[k] for k in ['post_id','url','status','public_verified']}

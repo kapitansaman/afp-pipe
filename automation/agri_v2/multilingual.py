@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from .queue import DATA,OUT,load_json,atomic_json,utcnow
 from .pipeline import numbers,digest
 from .client import ModelClient
+from .display_units import text as display_text,VERSION as DISPLAY_UNITS_POLICY
 LANGUAGES=('ru-RU','ar-IQ','tg-TJ','en-US')
 LABELS={'ru-RU':'Russian','ar-IQ':'clear professional Arabic for Iraqi readers','tg-TJ':'Tajik in Cyrillic, not Persian script','en-US':'English'}
 PHRASES={'ru-RU':'Оборудование для орошения','ar-IQ':'معدات الري','tg-TJ':'Таҷҳизоти обёрӣ','en-US':'Irrigation equipment'}
@@ -124,7 +125,8 @@ def localized_body(row,media,policy,fetcher=None):
  matches=list(re.finditer('<h2>',body));at=matches[len(matches)//2].start() if len(matches)>1 else len(body)
  if len(media)>1:body=body[:at]+'<figure class="wp-block-image"><img src="'+html.escape(media[1]['url'],quote=True)+'" alt="'+html.escape(row['title'],quote=True)+'" loading="lazy"/></figure>'+body[at:]
  body+='<p><em>'+DISCLOSURES[lang]+'</em></p><h2>'+FAQ_LABEL[lang]+'</h2><div class="faq-section">'+''.join('<details><summary>'+html.escape(f['question'])+'</summary><p>'+html.escape(f['answer'])+'</p></details>' for f in row['faq'])+'</div>'
- return body
+ from .display_units import content as display_content
+ return display_content(body,lang)
 
 def publish_family(wp,folder,topic,source_result):
  from .internal_links import anchors
@@ -183,10 +185,12 @@ def publish_family(wp,folder,topic,source_result):
     if post['status'] not in ('draft','publish'):raise ValueError('Translation status changed')
    else:
     if rp.exists():raise ValueError('Translation receipt missing remote post')
-    post,_=wp.call('posts','POST',{'title':row['title'],'slug':slug,'content':marker+'\n'+content,'excerpt':row['excerpt'],'featured_media':media[0]['id'],'status':'draft','comment_status':'closed','ping_status':'closed','afp_language':lang,'afp_source_post_id':source_result['post_id']})
+    post,_=wp.call('posts','POST',{'title':display_text(row['title'],lang),'slug':slug,'content':marker+'\n'+content,'excerpt':display_text(row['excerpt'],lang),'featured_media':media[0]['id'],'status':'draft','comment_status':'closed','ping_status':'closed','afp_language':lang,'afp_source_post_id':source_result['post_id']})
     atomic_json(rp,{'post_id':post['id'],'status':'draft','shared_media':media})
    post,_=wp.call('posts/'+str(post['id'])+'?context=edit')
    if post.get('afp_language')!=lang or post.get('afp_source_post_id')!=source_result['post_id'] or post.get('featured_media')!=media[0]['id']:raise ValueError('Translation language/media registration failed')
+   if post['status']=='draft' and (post.get('content',{}).get('raw')!=marker+'\n'+content or html.unescape(post.get('title',{}).get('rendered',''))!=display_text(row['title'],lang)):
+    post,_=wp.call('posts/'+str(post['id']),'POST',{'title':display_text(row['title'],lang),'excerpt':display_text(row['excerpt'],lang),'content':marker+'\n'+content})
    rendered=post['content'].get('rendered','')
    if len(media)>1 and media[1]['url'] not in rendered:raise ValueError('Shared inline image missing')
    for u,text in anchors(rendered):
@@ -194,8 +198,8 @@ def publish_family(wp,folder,topic,source_result):
    if post['status']=='draft':post,_=wp.call('posts/'+str(post['id']),'POST',{'status':'publish'})
    verify_target(post['link'],lang)
    final,_=wp.call('posts/'+str(post['id']))
-   if final.get('status')!='publish' or final.get('afp_language')!=lang or html.unescape(final.get('title',{}).get('rendered',''))!=row['title'] or final.get('featured_media')!=media[0]['id'] or len(media)>1 and media[1]['url'] not in final.get('content',{}).get('rendered',''):raise ValueError('Published translation verification failed')
-   receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
+   if final.get('status')!='publish' or final.get('afp_language')!=lang or html.unescape(final.get('title',{}).get('rendered',''))!=display_text(row['title'],lang) or final.get('featured_media')!=media[0]['id'] or len(media)>1 and media[1]['url'] not in final.get('content',{}).get('rendered',''):raise ValueError('Published translation verification failed')
+   receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'display_units_policy':'localized-display-units-v1','verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
    if split and review_state(folder,lang).exists():
     queued=load_json(review_state(folder,lang));queued.update(status='published',next_attempt_at=None,published_receipt=receipt);atomic_json(review_state(folder,lang),queued)
   except Exception as error:

@@ -3,6 +3,7 @@ import hashlib,re
 from .queue import DATA,OUT,load_json,atomic_json,utcnow
 from .role_skills_launch import TOPIC,SOURCE_SHA,source_inputs,files_hash,preserved_files
 from .wordpress import WordPress,WPError
+from .display_units import text as display_text
 ID='ops-one-approved-persian-source-single-image-v1'
 MAX_MUTATIONS=5
 
@@ -11,19 +12,20 @@ def expected_request():
 
 class SourceOnlyPublisher(WordPress):
  """The existing WordPress.publish implementation; only locale fan-out is off."""
- def __init__(self,env,root,topic,slug):
-  super().__init__(env=env);self.root=root;self.topic=topic;self.slug=slug
+ def __init__(self,env,root,topic,slug,mutation_limit=5,media_limit=1):
+  if (mutation_limit,media_limit) not in ((5,1),(7,2)):raise WPError('Unsupported bounded source media scope')
+  super().__init__(env=env);self.root=root;self.topic=topic;self.slug=slug;self.mutation_limit=mutation_limit;self.media_limit=media_limit
  def call(self,path,method='GET',data=None,blob=None,headers=None):
   if method not in ('GET','OPTIONS','POST'):raise WPError('Source pilot method not authorized')
   if method=='POST':
    if path not in ('posts','media') and not re.fullmatch(r'(posts|media)/[1-9][0-9]*',path):raise WPError('Source pilot route not authorized')
    if data and any(k.startswith('afp_') for k in data):raise WPError('Translation mutation forbidden')
-   if path=='posts' and (not data or data.get('title')!=self.topic['title'] or data.get('slug')!=self.slug or data.get('status')!='draft'):raise WPError('Only exact Persian source draft allowed')
+   if path=='posts' and (not data or data.get('title')!=display_text(self.topic['title'],'fa-IR') or data.get('slug')!=self.slug or data.get('status')!='draft'):raise WPError('Only exact Persian source draft allowed')
    p=self.root/'wordpress-mutations.json';r=load_json(p) if p.exists() else {'reserved_mutations':0,'created_post_requests':0,'media_upload_requests':0,'history':[]}
-   if r['reserved_mutations']>=MAX_MUTATIONS:raise WPError('Source pilot mutation budget exhausted')
+   if r['reserved_mutations']>=self.mutation_limit:raise WPError('Source pilot mutation budget exhausted')
    field='created_post_requests' if path=='posts' else 'media_upload_requests' if path=='media' else None
    if field:
-    if r[field]>=1:raise WPError('Only one source and one media upload authorized')
+    if r[field]>=(1 if field=='created_post_requests' else self.media_limit):raise WPError('Source/media creation limit reached')
     r[field]+=1
    r['reserved_mutations']+=1;r['history'].append({'method':method,'path':path,'at':utcnow()});atomic_json(p,r)
   return super().call(path,method,data,blob,headers)

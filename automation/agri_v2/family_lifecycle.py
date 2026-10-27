@@ -247,12 +247,16 @@ def stage_outputs(folder,stage):
  if stage.startswith('translation-'):return [folder/'translations'/(stage[len('translation-'):]+'.raw.json')]
  return []
 
-def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClient):
+def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClient,source_only=False):
  env=os.environ if env is None else env;p=settings(data);folder=out/'new'/topic['id'];run_id=env['GITHUB_RUN_ID'];steps=[]
+ if source_only:
+  from .operation_request import authorize
+  from .three_source_trial import ID as trial_id,TOPICS as trial_topics
+  if not authorize(env,data) or load_json(data/'status/owner-operation-admission.json')['request_id']!=trial_id or topic['id'] not in trial_topics:raise StageBlocked('Exact source-only trial admission required')
  if env.get('AFP_PARALLEL_WORKER')!='1' or env.get('AFP_PARALLEL_TOPIC')!=topic['id']:raise StageBlocked('isolated_owned_topic_required')
  from .matrix_pilot import bound as matrix_bound
  matrix_pilot=matrix_bound(env,data)
- pilot=env.get('AFP_WHITE_BEAN_PILOT')=='1' or matrix_pilot
+ pilot=env.get('AFP_WHITE_BEAN_PILOT')=='1' or matrix_pilot or source_only
  research_only=env.get('AFP_FULL_QUEUE_RESEARCH_ONLY')=='1'
  if env.get('AFP_WHITE_BEAN_PILOT')=='1':
   from .white_bean_pilot import prepare
@@ -266,6 +270,8 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    # A language-local failure must never stop the valid source or its siblings.
    from .language_review_queue import path as review_path,defer
    lang=stage[len('language_primary-'):];qp=review_path(folder,lang);qr=load_json(qp)
+   if source_only:
+    qr['primary_finished']=True;qr['reason']='independent_translation_after_source_trial';qr['history'].append({'event':'source_only_trial_handoff_without_attempt','at':utcnow()});atomic_json(qp,qr);steps.append({'status':'language_handed_to_review','language':lang,'model_calls':0});continue
    from .recovery import circuit_open
    if circuit_open('text') or not health.get('eligible_text_slots'):
     from .language_review_queue import defer_provider
