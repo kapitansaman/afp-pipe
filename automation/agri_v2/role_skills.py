@@ -37,5 +37,5 @@ class RoleClient:
  def __getattr__(self,name):return getattr(self.base,name)
  def text(self,prompt,*args,**kwargs):return self.base.text(enrich(prompt,self.role,self.language,self.data),*args,**kwargs)
 def for_stage(client,stage,data=DATA):
- role='persian-writer' if stage=='text' else 'evidence-reviewer' if stage in ('article_evidence_review','research_review','existing_content_audit_finalize') or stage.startswith('existing_content_audit') else 'researcher' if stage.startswith('research_') else None
+ role='persian-writer' if stage in ('text','article_quality_repair') else 'evidence-reviewer' if stage in ('article_evidence_review','article_quality_recheck','research_review','existing_content_audit_finalize') or stage.startswith('existing_content_audit') else 'researcher' if stage.startswith('research_') else None
  return RoleClient(client,role,data=data) if role else client

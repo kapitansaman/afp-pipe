@@ -105,11 +105,10 @@ def next_stage(topic,data=DATA,out=OUT):
  if not (folder/'article.json').exists():return 'text',None
  try:article=article_checked(folder,topic,brief)
  except (ValueError,KeyError,TypeError):return 'blocked','saved_validated_article_changed'
- if article.get('writing_policy')!='practical-direct-html-v1' and (brief.get('review_mode')=='automated_scoped_evidence_review_v1' or article.get('commercial_matrix',{}).get('irrigation_relationship') in {'direct','conditional','distant'}):
-  from .content_matrix import commercial_review_flags
-  proof=folder/'article-evidence-review.json'
-  if not proof.exists() or load_json(proof).get('article_sha256')!=digest(article) or load_json(proof).get('brief_sha256')!=digest(brief) or not all(load_json(proof).get('review',{}).get(k) is True for k in ('all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review')+tuple(commercial_review_flags(article))):return 'article_evidence_review',None
- if article.get('writing_policy')=='practical-direct-html-v1':
+ from .quality_index import next_stage as quality_next
+ quality_stage=quality_next(folder,article,brief,data)
+ if quality_stage:return quality_stage
+ if article.get('writing_policy')=='practical-direct-html-v1' or brief.get('review_mode')=='automated_scoped_evidence_review_v1' or article.get('commercial_matrix',{}).get('irrigation_relationship') in {'direct','conditional','distant'}:
   from .scoped_research import validate_article_review_result
   proof=folder/'article-evidence-review.json'
   if not proof.exists() or load_json(proof).get('article_sha256')!=digest(article) or load_json(proof).get('brief_sha256')!=digest(brief):return 'article_evidence_review',None
@@ -206,7 +205,10 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
   from .translation_review_repair import run as review
   rows={lang:load_json(folder/'translations'/(lang+'.json')) for lang in LANGUAGES}
   return review(client,article,rows,folder)
- if stage=='article_evidence_review':
+ if stage=='article_quality_repair':
+  from .quality_index import repair
+  return repair(topic,article,brief,folder,client)
+ if stage in ('article_evidence_review','article_quality_recheck'):
   from .scoped_research import review_article
   return review_article(topic,article,brief,folder,client)
  if stage.startswith('image-'):
@@ -232,7 +234,8 @@ def stage_outputs(folder,stage):
  ev=folder/'lifecycle-evidence'
  if stage=='text':return [folder/'model-candidate.json',folder/'grounded-text-candidate.json',folder/'practical-text-candidate.json',folder/'practical-text-normalization.json',folder/'practical-text-contract.json']
  if stage=='translation_fidelity_review':return [folder/'translation-fidelity-review.raw.json']
- if stage=='article_evidence_review':return [folder/'article-evidence-review.raw.json']
+ if stage in ('article_evidence_review','article_quality_recheck'):return [folder/'article-evidence-review.raw.json']
+ if stage=='article_quality_repair':return [folder/'article-quality-repair.raw.json']
  if stage=='research_sources':return [ev/'sources.json']
  if stage=='research_extract':return [ev/'candidate-raw.json']
  if stage=='research_review':return [ev/'review-raw.json']
@@ -315,7 +318,10 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    qa=state(folder,'vision-'+stage.split('-')[1]);gen=state(folder,stage)
    if gen.get('last_run_id')==run_id:return {'status':'stage_failed','stage':stage,'reason':'visual_rejection_retry_next_run','topic_id':topic['id'],'steps':steps,'published_posts':0}
    if gen.get('status')=='validated':gen['status']='failed';atomic_json(row_path(folder,stage),gen)
-  result=attempt(folder,stage,run_id,lambda:run_stage(topic,stage,client,data,out),outputs,p['max_attempts_per_stage']);steps.append(result)
+  result=attempt(folder,stage,run_id,lambda:run_stage(topic,stage,client,data,out),outputs,1 if stage in ('article_quality_repair','article_quality_recheck') else p['max_attempts_per_stage']);steps.append(result)
+  if stage=='article_evidence_review' and result['status']=='stage_failed':
+   proposed,_=next_stage(topic,data,out)
+   if proposed=='article_quality_repair':continue
   if result['status']!='stage_completed':return dict(result,topic_id=topic['id'],steps=steps,published_posts=0)
  # A last allowed stage may have completed the family. Recheck without a model call.
  final_stage,final_reason=next_stage(topic,data,out)

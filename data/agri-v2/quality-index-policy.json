@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "policy": "publishable-quality-v1",
+  "enabled": true,
+  "minimum_score": 70,
+  "max_article_repairs": 1,
+  "max_article_rechecks": 1,
+  "manual_article_monitoring": false,
+  "reset_attempts": false,
+  "dimensions": {
+    "answer_usefulness": 25,
+    "source_fidelity": 30,
+    "readability": 20,
+    "commercial_fit": 10,
+    "language_and_units": 15
+  },
+  "critical_codes": [
+    "invented_source",
+    "wrong_crop_or_product",
+    "unsafe_advice",
+    "unsupported_material_quantity",
+    "fabricated_human_approval",
+    "meaning_reversal",
+    "unsupported_marketing_guarantee"
+  ],
+  "minimum_source_fidelity": 15
+}
