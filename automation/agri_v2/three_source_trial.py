@@ -11,8 +11,11 @@ MAX_TEXT=27;MAX_IMAGE=15;MAX_TOTAL=42;PER_FAMILY=14
 REPAIR_ID='ops-three-fresh-persian-sources-repair-v2'
 SAVED_ID='ops-three-fresh-persian-sources-saved-validation-v3'
 OVERLAP_ID='ops-three-fresh-persian-sources-overlap-input-v4'
+FAMILY_CONTEXT_ID='ops-three-fresh-persian-sources-family-context-v5'
 
 def expected_request(request_id=ID):
+ if request_id==FAMILY_CONTEXT_ID:
+  r=expected_request(OVERLAP_ID);r.update(request_id=FAMILY_CONTEXT_ID,operation='continue-three-persian-sources-with-isolated-family-context',resume_from_request=OVERLAP_ID);return r
  if request_id==OVERLAP_ID:
   r=expected_request(SAVED_ID);r.update(request_id=OVERLAP_ID,operation='fetch-existing-content-and-continue-three-persian-sources',resume_from_request=SAVED_ID);return r
  if request_id==SAVED_ID:
@@ -30,7 +33,7 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
  admitted(env,data,request_id)
  from .parallel_control import reserve,policy
  policy(env,data);root=out/'parallel/operations'/request_id;rp=root/'prepare.json'
- repair=request_id in (REPAIR_ID,SAVED_ID,OVERLAP_ID)
+ repair=request_id in (REPAIR_ID,SAVED_ID,OVERLAP_ID,FAMILY_CONTEXT_ID)
  if repair:
   from .three_source_repair import verify_prior
   prior=verify_prior(data,out,request_id)
@@ -63,7 +66,7 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
   # The isolated worker cannot read authenticated WordPress. Fetch complete
   # overlap inputs here, as the standard lifecycle coordinator already does.
   from .scoped_research import prefetch_existing
-  r['existing_content_fetch']=prefetch_existing(topics,inventory,wp,out,env['GITHUB_RUN_ID'])
+  r['existing_content_fetch']=prefetch_existing([dict(t,family_id='three-source-trial-'+t['id']) for t in topics],inventory,wp,out,env['GITHUB_RUN_ID'])
   r['status']='three_source_trial_prepared'
  except Exception as exc:
   from .failure_diagnostics import failure_details
@@ -72,7 +75,7 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
 
 def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None,worker_fn=None,request_id=ID):
  admitted(env,data,request_id);root=out/'parallel/operations'/request_id;rp=root/'prepare.json';r=load_json(rp)
- limits=expected_request(request_id);max_total=limits['max_total_model_calls'];per_family=limits['max_model_calls_per_family'];max_text=limits['max_total_text_calls'];repair=request_id in (REPAIR_ID,SAVED_ID,OVERLAP_ID)
+ limits=expected_request(request_id);max_total=limits['max_total_model_calls'];per_family=limits['max_model_calls_per_family'];max_text=limits['max_total_text_calls'];repair=request_id in (REPAIR_ID,SAVED_ID,OVERLAP_ID,FAMILY_CONTEXT_ID)
  if repair:
   from .three_source_repair import verify_prior
   verify_prior(data,out,request_id)

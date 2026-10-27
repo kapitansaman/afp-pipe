@@ -31,3 +31,5 @@ Run 40471976381 confirmed saved validation for all three topics: five/five/seven
 Trial preparation now calls the same `prefetch_existing` coordinator used by the standard lifecycle, with the fresh authenticated inventory, complete related article bodies and preserved missing/truncation checks. Model workers still receive no WordPress secrets. No title-only overlap approval or scope trimming is introduced.
 
 The exact follow-up consumes the same remaining 36-call allowance; previous six model calls remain charged. Existing saved candidates are validated again at admission without generating or rewriting them. Three earlier operation trees remain hash-preserved.
+
+The first coordinator preflight (40472329795) exposed missing transient `family_id` on fresh queue topics. It failed before any model calls or WordPress mutation. Preparation now supplies the same isolated `three-source-trial-<topic_id>` context as the worker; it does not modify persistent family assignments. The coordinator regression test now executes the real full-text fetch/bundle function with a mock read-only WordPress transport instead of mocking away that dependency.
