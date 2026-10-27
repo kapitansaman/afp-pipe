@@ -59,7 +59,8 @@
     "missing_counterpart": "omit_link_never_fallback_to_other_language",
     "require_wordpress_language_bridge": true,
     "max_source_families_per_cycle": 1,
-    "max_translation_posts_per_source": 4
+    "max_translation_posts_per_source": 4,
+    "independent_publication": true
   },
   "repository": "kapitansaman/afp-pipe",
   "credential_set_id": "afp-pipe-30-keys-v1",

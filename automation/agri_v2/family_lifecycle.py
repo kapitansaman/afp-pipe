@@ -125,6 +125,10 @@ def next_stage(topic,data=DATA,out=OUT):
    if qa.get('status')=='reviewed' and qa.get('verdict',{}).get('passed') is False:return 'image-'+str(kind),None
    return 'vision-'+str(kind),None
  if cfg.get('multilingual',{}).get('enabled'):
+  from .language_review_queue import enabled as independent,primary_next
+  if independent(data):
+   lang=primary_next(topic,article,folder,data)
+   return ('language_primary-'+lang,None) if lang else ('publish',None)
   from .multilingual import LANGUAGES,render_translation
   from .translation_review_repair import recover_if_approved
   try:recover_if_approved(folder,article)
@@ -186,6 +190,9 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
   atomic_json(prior,value)
   article=normalize_article(value,brief);validate_article(article,topic,brief);validate_for_publication(article);atomic_json(folder/'article.json',article);return {'article_validated':True}
  article=article_checked(folder,topic,brief)
+ if stage.startswith('language_primary-'):
+  from .language_review_queue import run_item,path
+  return run_item(path(folder,stage[len('language_primary-'):]),client,data)
  if stage=='translation_fidelity_review':
   from .multilingual import LANGUAGES
   from .translation_review_repair import run as review
@@ -244,6 +251,22 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
   if research_only and stage not in ('blocked','complete') and not (stage.startswith('research_') or stage.startswith('existing_content_audit')):return {'status':'research_ready','topic_id':topic['id'],'next_stage':stage,'steps':steps,'published_posts':0,'research_only':True}
   if stage in ('blocked','complete','publish'):return {'status':'publication_ready' if stage=='publish' else stage,'reason':reason,'topic_id':topic['id'],'steps':steps,'published_posts':0}
   if stage=='text' and not pilot and p.get('research_only_for_scoped_rollout') and (data/'briefs'/(topic['id']+'.json')).exists() and load_json(data/'briefs'/(topic['id']+'.json')).get('review_mode')=='automated_scoped_evidence_review_v1':return {'status':'research_ready','topic_id':topic['id'],'steps':steps,'published_posts':0}
+  if stage.startswith('language_primary-'):
+   # A language-local failure must never stop the valid source or its siblings.
+   from .language_review_queue import path as review_path,defer
+   lang=stage[len('language_primary-'):];qp=review_path(folder,lang);qr=load_json(qp)
+   from .recovery import circuit_open
+   if circuit_open('text') or not health.get('eligible_text_slots'):
+    qr['primary_finished']=True;defer(qr,qp,'primary_provider_unavailable',data);steps.append({'status':'language_handed_to_review','language':lang});continue
+   if lang=='tg-TJ' and client_factory is LifecycleClient:
+    from .alternate_reviewer_verification import AlternateDiagnosticClient
+    client=AlternateDiagnosticClient(health,allow_calls=True,capabilities=('text',));client.alternate_model='agnes-3.0-flash';client.declared_models=[]
+   else:client=client_factory(health,allow_calls=True,capabilities=('text',))
+   result=attempt(folder,stage,run_id,lambda:run_stage(topic,stage,client,data,out),limit=1);steps.append(result)
+   qr=load_json(qp);qr['primary_finished']=True
+   if result['status']!='stage_completed':defer(qr,qp,'primary_stage_incomplete',data)
+   else:atomic_json(qp,qr)
+   continue
   kind='image' if stage.startswith('image-') else 'text'
   from .recovery import circuit_open
   if circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
@@ -379,12 +402,34 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   if research_only:continue
   if next_stage(topic,data,out)[0]!='publish':continue
   if len(report['publication_results'])>=p['max_published_families']:break
-  if load_json(data/'config.json').get('multilingual',{}).get('enabled'):
+  from .language_review_queue import enabled as independent
+  if load_json(data/'config.json').get('multilingual',{}).get('enabled') and not independent(data):
    schema,_=wp.call('posts',method='OPTIONS')
    if not {'afp_language','afp_source_post_id'}<=schema.get('schema',{}).get('properties',{}).keys():
     report['publication_results'].append({'status':'publication_deferred','reason':'wordpress_language_bridge_required','topic_id':topic['id']});continue
   result=attempt(out/'new'/topic['id'],'publish',run_id,lambda t=topic:publish_ready(wp,t,data,out),limit=3)
   report['publication_results'].append(dict(result,topic_id=topic['id']));report['published_posts']+=result.get('result',{}).get('published_posts',0);atomic_json(rp,report)
+ from .language_review_queue import enabled as independent,process_due,index as review_index,publication_due
+ if independent(data) and not research_only and not matrix_pilot and env.get('AFP_WHITE_BEAN_PILOT')!='1':
+  report['language_review_budget_max_calls']=8
+  try:report['language_review_queue']=process_due(env,health,data,out)
+  except Exception as error:report['language_review_queue']={'status':'review_queue_deferred','failure':failure_details(error),'model_calls':0}
+  report['max_total_model_calls']+=8
+  # Same single publisher handles ready backlog translations, even after owner handoff.
+  reviewed_publication_topics=set()
+  for review_path in sorted((out/'new').glob('*/review-queue/*.json')):
+   entry=load_json(review_path)
+   if not publication_due(entry) or entry['topic_id'] in reviewed_publication_topics or len(reviewed_publication_topics)>=2:continue
+   source_receipt=out/'new'/entry['topic_id']/'wordpress-receipt.json'
+   # Backlog publication is for translations of a VERIFIED source only. Never
+   # use a new stage name to bypass an exhausted original source-publish budget.
+   if not source_receipt.exists() or load_json(source_receipt).get('public_verified') is not True:continue
+   reviewed_publication_topics.add(entry['topic_id'])
+   from .queue import get_topic
+   queued_topic=get_topic('new',entry['topic_id'],data)
+   result=attempt(out/'new'/queued_topic['id'],'publish-review-'+run_id,run_id,lambda t=queued_topic:publish_ready(wp,t,data,out),limit=1)
+   report['publication_results'].append(dict(result,topic_id=queued_topic['id']));report['published_posts']+=result.get('result',{}).get('published_posts',0)
+  review_index(out)
  if not matrix_pilot:allocate(data,out,allow_deferral=env.get('AFP_WHITE_BEAN_PILOT')!='1')
  failures=[x for x in report['results'] if x.get('status') in {'stage_failed','worker_failed'}]+[x for x in report['publication_results'] if x['status']=='stage_failed']
  report.update(status='completed_with_failures' if failures else 'completed',operational_failures=len(failures),waiting_families=sum(x.get('status') in {'blocked','capability_required','stage_deferred','stage_budget_exhausted'} for x in report['results']),publication_ready_workers=sum(x.get('status')=='publication_ready' for x in report['results']),completed_at=utcnow())

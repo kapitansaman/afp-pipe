@@ -1,0 +1,30 @@
+{
+  "status": "local_unit_and_regression_tests_passed",
+  "validated_at": "2026-10-27T05:02:52.451398+00:00",
+  "base_commit": "1805f9fda4a7d8d4141b98a695a8a6b423e40cfa",
+  "command": "python -m unittest discover -s tests/agri_v2",
+  "tests_passed": 731,
+  "new_queue_tests": 17,
+  "live_model_calls": 0,
+  "live_image_calls": 0,
+  "live_wordpress_calls": 0,
+  "schedule_activated": false,
+  "immutable_queues_verified": {
+    "new": 2905,
+    "merge": 593,
+    "hold": 370
+  },
+  "existing_artifact_files_modified": false,
+  "prior_experimental_calls_retained": 7,
+  "prior_experimental_repair_rounds_retained": 2,
+  "experimental_entry_is_auto_retry_eligible": false,
+  "tested_file_sha256": {
+    "automation/agri_v2/language_review_queue.py": "b06d0c41e9485b550ca34b369abb91040badc7b2298babbea08efffabdcd15aa",
+    "data/agri-v2/language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+    "tests/agri_v2/test_language_review_queue.py": "feb7d24aa9f55c4451cbda48d5f446a1e280104dcc6b35781eb6155b0647e949",
+    "automation/agri_v2/family_lifecycle.py": "3fe1b1ed84770b1e64c6de26243c32dbfb9d41ca4231ad31b528eb7e2947cbad",
+    "automation/agri_v2/family_scheduler.py": "9df12d8e7e7cad907f0b637cff04a3e5ea1f4f3ae2e5f8df4ea51abf3d93f249",
+    "automation/agri_v2/multilingual.py": "72e3ae8c78f7f9936814577b69f0f3fb2f62a04e78343204c80d3f3117943f48",
+    "data/agri-v2/config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3"
+  }
+}

@@ -83,6 +83,10 @@ def translate_one(article,lang,folder,health,client_factory=TranslationClient):
 def start(article,folder,health):
  cfg=load_json(DATA/'config.json').get('multilingual',{})
  if not cfg.get('enabled'):return None
+ if cfg.get('independent_publication'):
+  from .language_review_queue import handoff
+  from .queue import get_topic
+  handoff(get_topic('new',folder.name),article,folder);return None
  from .recovery import circuit_open
  if circuit_open('text'):return None
  pool=concurrent.futures.ThreadPoolExecutor(max_workers=2)
@@ -125,6 +129,9 @@ def publish_family(wp,folder,topic,source_result):
  from .internal_links import anchors
  folder=__import__('pathlib').Path(folder);cfg=load_json(DATA/'config.json').get('multilingual',{})
  if not cfg.get('enabled'):return source_result
+ if cfg.get('independent_publication'):
+  from .language_review_queue import handoff
+  handoff(topic,load_json(folder/'article.json'),folder)
  status=folder/'translations'/'publication-status.json'
  schema,_=wp.call('posts',method='OPTIONS');properties=schema.get('schema',{}).get('properties',{})
  if not {'afp_language','afp_source_post_id'}<=properties.keys():
@@ -145,40 +152,57 @@ def publish_family(wp,folder,topic,source_result):
   for lang,url in original.get('afp_translation_links',{}).items():
    if lang in LANGUAGES:policy[lang].append({'anchor':related_labels[lang],'url':url})
  for lang in LANGUAGES:
-  pp=folder/'translations'/f'{lang}.json'
-  if not pp.exists():done[lang]={'status':'translation_pending'};continue
-  row=load_json(pp)
-  if row['source_article_sha256']!=digest(load_json(folder/'article.json')):raise ValueError('Translated source changed')
-  rp=folder/'translations'/f'{lang}.wordpress.json';slug=load_json(folder/'wordpress-draft-payload.json')['slug']+'-'+lang.lower()
-  marker='<!-- afp-agri-v2:'+topic['id']+':'+lang+' -->'
-  content=localized_body(row,media,policy)
-  matches=[]
-  if rp.exists():
-   known=load_json(rp);post,_=wp.call('posts/'+str(known['post_id'])+'?context=edit');matches=[post]
-   if post.get('slug')!=slug:raise ValueError('Receipt slug changed')
-  else:
-   for state in ('publish','draft','pending','future','private'):
-    found,_=wp.call('posts?slug='+slug+'&status='+state+'&context=edit');matches+=found
-  if len(matches)>1:raise ValueError('Ambiguous translated slug')
-  if matches:
-   post=matches[0]
-   if post['author']!=wp.user_id or marker not in post['content']['raw']:raise ValueError('Translation not owned')
-   if post['status'] not in ('draft','publish'):raise ValueError('Translation status changed')
-  else:
-   if rp.exists():raise ValueError('Translation receipt missing remote post')
-   post,_=wp.call('posts','POST',{'title':row['title'],'slug':slug,'content':marker+'\n'+content,'excerpt':row['excerpt'],'featured_media':media[0]['id'],'status':'draft','comment_status':'closed','ping_status':'closed','afp_language':lang,'afp_source_post_id':source_result['post_id']})
-   atomic_json(rp,{'post_id':post['id'],'status':'draft','shared_media':media})
-  post,_=wp.call('posts/'+str(post['id'])+'?context=edit')
-  if post.get('afp_language')!=lang or post.get('afp_source_post_id')!=source_result['post_id'] or post.get('featured_media')!=media[0]['id']:raise ValueError('Translation language/media registration failed')
-  rendered=post['content'].get('rendered','')
-  if media[1]['url'] not in rendered:raise ValueError('Shared inline image missing')
-  for u,text in anchors(rendered):
-   if urllib.parse.urlsplit(u).hostname=='navar-abyari.ir':verify_target(u,lang)
-  if post['status']=='draft':post,_=wp.call('posts/'+str(post['id']),'POST',{'status':'publish'})
-  verify_target(post['link'],lang)
-  final,_=wp.call('posts/'+str(post['id']))
-  if final.get('status')!='publish' or final.get('afp_language')!=lang or html.unescape(final.get('title',{}).get('rendered',''))!=row['title'] or final.get('featured_media')!=media[0]['id'] or media[1]['url'] not in final.get('content',{}).get('rendered',''):raise ValueError('Published translation verification failed')
-  receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
+  try:
+   from .language_review_queue import enabled as independent,approved as language_approved,path as review_state,publication_due
+   split=independent(DATA)
+   if split and load_json(review_state(folder,lang)).get('status')=='published' and language_approved(folder,article,lang):
+    done[lang]=load_json(folder/'translations'/(lang+'.wordpress.json'));continue
+   if split and (not language_approved(folder,article,lang) or not publication_due(load_json(review_state(folder,lang)))):
+    done[lang]={'status':'pending_separate_review'};continue
+   pp=folder/'translations'/f'{lang}.json'
+   if not pp.exists():done[lang]={'status':'translation_pending'};continue
+   row=load_json(pp)
+   if row['source_article_sha256']!=digest(load_json(folder/'article.json')):raise ValueError('Translated source changed')
+   rp=folder/'translations'/f'{lang}.wordpress.json';slug=load_json(folder/'wordpress-draft-payload.json')['slug']+'-'+lang.lower()
+   marker='<!-- afp-agri-v2:'+topic['id']+':'+lang+' -->'
+   content=localized_body(row,media,policy)
+   matches=[]
+   if rp.exists():
+    known=load_json(rp);post,_=wp.call('posts/'+str(known['post_id'])+'?context=edit');matches=[post]
+    if post.get('slug')!=slug:raise ValueError('Receipt slug changed')
+   else:
+    for state in ('publish','draft','pending','future','private'):
+     found,_=wp.call('posts?slug='+slug+'&status='+state+'&context=edit');matches+=found
+   if len(matches)>1:raise ValueError('Ambiguous translated slug')
+   if matches:
+    post=matches[0]
+    if post['author']!=wp.user_id or marker not in post['content']['raw']:raise ValueError('Translation not owned')
+    if post['status'] not in ('draft','publish'):raise ValueError('Translation status changed')
+   else:
+    if rp.exists():raise ValueError('Translation receipt missing remote post')
+    post,_=wp.call('posts','POST',{'title':row['title'],'slug':slug,'content':marker+'\n'+content,'excerpt':row['excerpt'],'featured_media':media[0]['id'],'status':'draft','comment_status':'closed','ping_status':'closed','afp_language':lang,'afp_source_post_id':source_result['post_id']})
+    atomic_json(rp,{'post_id':post['id'],'status':'draft','shared_media':media})
+   post,_=wp.call('posts/'+str(post['id'])+'?context=edit')
+   if post.get('afp_language')!=lang or post.get('afp_source_post_id')!=source_result['post_id'] or post.get('featured_media')!=media[0]['id']:raise ValueError('Translation language/media registration failed')
+   rendered=post['content'].get('rendered','')
+   if media[1]['url'] not in rendered:raise ValueError('Shared inline image missing')
+   for u,text in anchors(rendered):
+    if urllib.parse.urlsplit(u).hostname=='navar-abyari.ir':verify_target(u,lang)
+   if post['status']=='draft':post,_=wp.call('posts/'+str(post['id']),'POST',{'status':'publish'})
+   verify_target(post['link'],lang)
+   final,_=wp.call('posts/'+str(post['id']))
+   if final.get('status')!='publish' or final.get('afp_language')!=lang or html.unescape(final.get('title',{}).get('rendered',''))!=row['title'] or final.get('featured_media')!=media[0]['id'] or media[1]['url'] not in final.get('content',{}).get('rendered',''):raise ValueError('Published translation verification failed')
+   receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
+   if split and review_state(folder,lang).exists():
+    queued=load_json(review_state(folder,lang));queued.update(status='published',next_attempt_at=None,published_receipt=receipt);atomic_json(review_state(folder,lang),queued)
+  except Exception as error:
+   from .language_review_queue import enabled as independent
+   if not independent(DATA) or getattr(error,'code',None) in (401,403,429) or isinstance(getattr(error,'code',None),int) and error.code>=500:raise
+   from .failure_diagnostics import failure_details
+   from .language_review_queue import publication_failed
+   publication_failed(review_state(folder,lang),error)
+   done[lang]={'status':'publication_deferred','failure':failure_details(error)}
+
  atomic_json(status,{'status':'complete' if all(r.get('public_verified') for r in done.values()) else 'pending','languages':done,'at':utcnow()})
  return dict(source_result,translations=done)
 
@@ -192,6 +216,12 @@ def backfill_one(wp,out=OUT):
   if status.exists() and load_json(status).get('status')=='complete':continue
   schema,_=wp.call('posts',method='OPTIONS')
   if not {'afp_language','afp_source_post_id'}<=schema.get('schema',{}).get('properties',{}).keys():return None
+  if cfg.get('independent_publication'):
+   from .language_review_queue import handoff,approved
+   from .queue import get_topic
+   article=load_json(folder/'article.json');topic=get_topic('new',receipt['topic_id']);handoff(topic,article,folder)
+   if not any(approved(folder,article,lang) for lang in LANGUAGES):continue
+   wp.preflight();return publish_family(wp,folder,topic,receipt)
   if not all((folder/'translations'/f'{lang}.json').exists() for lang in LANGUAGES):
    from .recovery import circuit_open
    if circuit_open('text'):continue

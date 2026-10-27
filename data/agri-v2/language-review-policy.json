@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "max_automatic_attempts": 3,
+  "max_model_calls_per_attempt": 4,
+  "max_model_calls_per_item": 12,
+  "max_items_per_run": 2,
+  "retry_hours": [
+    6,
+    24,
+    72
+  ],
+  "schedule_enabled": false
+}

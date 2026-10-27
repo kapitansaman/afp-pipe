@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "topic_id": "agri-b6f7d6bea16b",
+  "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "language": "tg-TJ",
+  "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
+  "status": "needs_attention",
+  "reason": "experimental_two_repair_round_limit_reached_independent_language_quality_check_required",
+  "attempts": 2,
+  "model_calls_spent": 7,
+  "next_attempt_at": null,
+  "history": [
+    {
+      "event": "imported_previous_workflow",
+      "operation": "ops-clean-persian-full-tajik-flash3-v1",
+      "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40449142638",
+      "model_calls": 4,
+      "repair_rounds": 1
+    },
+    {
+      "event": "imported_previous_workflow",
+      "operation": "ops-tajik-reference-feedback-final-round-v2",
+      "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40449811756",
+      "model_calls": 3,
+      "repair_rounds": 1
+    },
+    {
+      "event": "queued_without_new_model_calls",
+      "at": "2026-10-27T05:01:50.600479+00:00",
+      "note": "Original experimental outputs, two-repair limit and seven-of-eight ledger preserved; not eligible for production or automatic retry."
+    }
+  ],
+  "created_at": "2026-10-27T05:01:50.594069+00:00",
+  "experimental_only": true,
+  "publication_authorized_by_queue": false,
+  "primary_finished": true,
+  "prior_experiment_authorized_cap": 8,
+  "prior_experiment_repair_rounds": 2,
+  "additional_experimental_calls_authorized": false,
+  "pending_issues": [
+    {
+      "id": 39,
+      "wrong_form": "кштзор",
+      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+    },
+    {
+      "id": 43,
+      "wrong_form": "кштзор",
+      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+    },
+    {
+      "id": 49,
+      "wrong_form": "кштзор",
+      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+    }
+  ]
+}

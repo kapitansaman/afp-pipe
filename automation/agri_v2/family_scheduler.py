@@ -66,7 +66,9 @@ def allocate(data=DATA,out=OUT,*,allow_deferral=False):
   if set(backlog)&{r['topic_id'] for r in old}:raise ValueError('Topic both active and deferred; explicit reconciliation required')
   kept={};history=list(state.get('history',[]))
   for row in old:
-   if family_complete(row['topic_id'],data,out):history.append(dict(row,completed_at=utcnow(),completion='verified_source_and_required_translations'))
+   from .language_review_queue import released
+   complete=family_complete(row['topic_id'],data,out)
+   if complete or released(row['topic_id'],data,out):history.append(dict(row,completed_at=utcnow(),completion='verified_source_and_required_translations' if complete else 'verified_source_languages_handed_to_review_queue'))
    else:
     deferred=deferral(by_id[row['topic_id']],data,out) if allow_deferral else None
     if deferred is None:kept[row['family_id']]=row
