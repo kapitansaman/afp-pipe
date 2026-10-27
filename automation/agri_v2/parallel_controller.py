@@ -16,15 +16,56 @@ def eligible_topics(inventory,data=DATA,out=OUT,limit=MAX_FAMILIES):
  state=allocate(data,out)
  return assigned_topics(state,data)[:limit],{}
 
+def atomic_copy(source,destination):
+ """A failed copy cannot truncate a previously valid checkpoint file."""
+ destination=Path(destination);destination.parent.mkdir(parents=True,exist_ok=True)
+ fd,name=tempfile.mkstemp(prefix='.checkpoint-',dir=destination.parent);os.close(fd)
+ try:shutil.copy2(source,name);os.replace(name,destination)
+ finally:
+  if os.path.exists(name):os.unlink(name)
+ return str(destination)
+
+def checkpoint_retirements(source,destination):
+ """Only explicit, byte-identical stage archives retire an active output.
+ Missing files alone are not deletion authority: a timed-out worker may be partial.
+ Validate all conflicts before copying any worker state or advancing counters.
+ """
+ from .family_lifecycle import stage_outputs
+ retired=[]
+ for stage_folder in sorted((source/'lifecycle').glob('*')):
+  if not stage_folder.is_dir():continue
+  stage=stage_folder.name;state=stage_folder/'state.json';old=destination/'lifecycle'/stage/'state.json'
+  if state.exists() and old.exists():
+   attempts=load_json(state).get('attempts',0);prior=load_json(old).get('attempts',0)
+   if type(attempts)is not int or type(prior)is not int or attempts<prior:raise ValueError('Stage attempts decreased; never reset during merge')
+  for active in stage_outputs(source,stage):
+   target=destination/active.relative_to(source)
+   if active.exists() or not target.exists():continue
+   archives=list((stage_folder/'rejected').glob('*/'+active.name))
+   if not archives:continue
+   expected=hashlib.sha256(target.read_bytes()).hexdigest()
+   matching=[a for a in archives if a.is_file() and hashlib.sha256(a.read_bytes()).hexdigest()==expected]
+   if not matching:raise ValueError('Archived output conflict; coordinator changed since worker copy')
+   retired.append((target,destination/matching[0].relative_to(source),expected))
+ return retired
+
 def merge_worker(ident,worker_data,worker_out,data=DATA,out=OUT):
  safe_id(ident)
  bp=worker_data/'briefs'/f'{ident}.json';dest_brief=data/'briefs'/bp.name
  if bp.exists() and dest_brief.exists() and dest_brief.read_bytes()!=bp.read_bytes():raise ValueError('Existing brief changed; never overwrite')
+ retired=checkpoint_retirements(worker_out/'new'/ident,out/'new'/ident)
  for rel in ['research/'+ident+'.json','research-evidence/'+ident,'new/'+ident]:
   source=worker_out/rel;dest=out/rel
-  if source.is_dir():shutil.copytree(source,dest,dirs_exist_ok=True)
-  elif source.exists():dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,dest)
- if bp.exists():dest_brief.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(bp,dest_brief)
+  if source.is_dir():shutil.copytree(source,dest,dirs_exist_ok=True,copy_function=atomic_copy)
+  elif source.exists():atomic_copy(source,dest)
+ # Persist archived bytes before removing a retired active copy. Repeating a merge
+ # is safe even if interrupted between the copy and this reconciliation.
+ for active,archived,expected in retired:
+  if not archived.is_file() or hashlib.sha256(archived.read_bytes()).hexdigest()!=expected:raise ValueError('Archived output not durably copied')
+  if active.exists():
+   if hashlib.sha256(active.read_bytes()).hexdigest()!=expected:raise ValueError('Archived output conflict during merge')
+   active.unlink()
+ if bp.exists():atomic_copy(bp,dest_brief)
  from .source_loading import valid_document
  from .research import source_host
  for source in (worker_out/'source-cache').glob('*.json'):
@@ -142,7 +183,9 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
    for future in concurrent.futures.as_completed(futures):
     topic=futures[future]
     try:
-     ident,wd,wo,result=future.result();merge_worker(ident,wd,wo,data,out)
+     ident,wd,wo,result=future.result()
+     if ident!=topic['id'] or result.get('topic_id')!=ident:raise ValueError('Worker identity mismatch')
+     merge_worker(ident,wd,wo,data,out)
     except Exception:result={'status':'worker_or_merge_failed','topic_id':topic['id'],'published_posts':0,'reason':'Inspect sanitized receipts; no automatic replay'}
     result['family_id']=topic.get('family_id')
     report['results'].append(result);report.update(status='running',completed_workers=len(report['results']));atomic_json(rp,report)
