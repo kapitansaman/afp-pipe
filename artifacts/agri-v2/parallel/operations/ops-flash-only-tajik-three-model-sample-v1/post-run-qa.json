@@ -1,0 +1,30 @@
+{
+  "test_scope": "Four source-bound Tajik snippets, not an independent full-article fidelity audit. The glossary was supplied as feedback, not a blind vocabulary test.",
+  "models": [
+    {
+      "model": "agnes-2.5-flash",
+      "raw_sha256": "640dced11726e8a422507f97a1a078f765bb27498b0409e8288cff75c8bc51be",
+      "reviewer_crop_claim_withdrawn": true,
+      "mixed_cyrillic_latin_segment_ids": [
+        35,
+        53
+      ],
+      "independent_full_article_semantic_review_passed": false,
+      "publication_authorized": false
+    },
+    {
+      "model": "agnes-3.0-flash",
+      "raw_sha256": "4e637fe649f14396ebf5f78af640e5d0722c2045328346b8e5b5d852af979547",
+      "reviewer_crop_claim_withdrawn": true,
+      "mixed_cyrillic_latin_segment_ids": [],
+      "independent_full_article_semantic_review_passed": false,
+      "publication_authorized": false
+    }
+  ],
+  "requested_flash_2_0": "Not advertised by the authenticated provider catalog; not called. The image 2.0 model is not a text substitute.",
+  "interpretation": "Both tested models answered and passed the original bounded ID/number/unit/crop-feedback checks. Those checks do not prove translation quality. Manual inspection found mixed-script words in 2.5 output. 3.0 output also remains semantically unverified; no superiority or production readiness is claimed.",
+  "production_model_changed": false,
+  "translations_overwritten": false,
+  "model_calls": 2,
+  "pro_calls": 0
+}
