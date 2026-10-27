@@ -21,3 +21,8 @@ class PracticalVerificationTests(unittest.TestCase):
   for key,value in [('max_writer_calls',1),('max_total_text_calls',13),('max_wordpress_mutations',1),('resume_from_request','other')]:
    bad=dict(req);bad[key]=value
    with self.assertRaises(ValueError):op.validate_request(bad)
+ def test_saved_review_continuation_has_no_new_writer_or_review_call(self):
+  req=self.req();req.update(request_id=p.REVIEW_ID,operation='nonpublishing-reviewed-practical-four-translations',max_total_text_calls=11,max_writer_calls=0,max_final_article_reviews=0,resume_from_request=p.CONT_ID);op.validate_request(req)
+  for key,value in [('max_total_text_calls',12),('max_writer_calls',1),('max_final_article_reviews',1),('max_wordpress_mutations',1)]:
+   bad=dict(req);bad[key]=value
+   with self.assertRaises(ValueError):op.validate_request(bad)

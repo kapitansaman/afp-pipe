@@ -46,3 +46,13 @@ class PracticalDraftingTests(unittest.TestCase):
   with self.assertRaisesRegex(ValueError,'550'):validate_article(legacy,t,b)
   tiny=dict(r,content_html='<p>متن ناقص <a href="'+b['sources'][0]['url']+'">منبع</a></p><table><tr><td>نکته</td></tr></table>')
   with self.assertRaises(ValueError):p.normalize(tiny,t,b)
+ def test_unified_final_review_requires_core_truth_and_never_ignores_negative_commercial_judgment(self):
+  from automation.agri_v2 import scoped_research as s
+  t,b,r=fixture();a,_=p.normalize(r,t,b);value={k:True for k in ['all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review']};value['reason']='The actual source claims, units, scope, reader answer and commercial context were independently checked without fabricated claims.';s.validate_article_review_result(a,value)
+  for key in ['all_article_claims_supported','answers_canonical_intent','product_claims_not_invented','irrigation_bridge_supported_or_omitted']:
+   bad=dict(value);bad[key]=False
+   with self.assertRaises(ValueError):s.validate_article_review_result(a,bad)
+ def test_old_commercial_review_contract_is_not_retroactively_weakened(self):
+  from automation.agri_v2 import scoped_research as s
+  t,b,r=fixture();a,_=p.normalize(r,t,b);a.pop('writing_policy');value={k:True for k in ['all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review']};value['reason']='The actual source claims and scope were independently checked without fabricated claims or scientific review.'
+  with self.assertRaises(ValueError):s.validate_article_review_result(a,value)

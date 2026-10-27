@@ -104,10 +104,16 @@ def next_stage(topic,data=DATA,out=OUT):
  if not (folder/'article.json').exists():return 'text',None
  try:article=article_checked(folder,topic,brief)
  except (ValueError,KeyError,TypeError):return 'blocked','saved_validated_article_changed'
- if brief.get('review_mode')=='automated_scoped_evidence_review_v1' or article.get('commercial_matrix',{}).get('irrigation_relationship') in {'direct','conditional','distant'}:
+ if article.get('writing_policy')!='practical-direct-html-v1' and (brief.get('review_mode')=='automated_scoped_evidence_review_v1' or article.get('commercial_matrix',{}).get('irrigation_relationship') in {'direct','conditional','distant'}):
   from .content_matrix import commercial_review_flags
   proof=folder/'article-evidence-review.json'
   if not proof.exists() or load_json(proof).get('article_sha256')!=digest(article) or load_json(proof).get('brief_sha256')!=digest(brief) or not all(load_json(proof).get('review',{}).get(k) is True for k in ('all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review')+tuple(commercial_review_flags(article))):return 'article_evidence_review',None
+ if article.get('writing_policy')=='practical-direct-html-v1':
+  from .scoped_research import validate_article_review_result
+  proof=folder/'article-evidence-review.json'
+  if not proof.exists() or load_json(proof).get('article_sha256')!=digest(article) or load_json(proof).get('brief_sha256')!=digest(brief):return 'article_evidence_review',None
+  try:validate_article_review_result(article,load_json(proof).get('review'))
+  except ValueError:return 'article_evidence_review',None
  for kind in (1,2):
   image=folder/f'image-{kind}.webp'
   if not image.exists():return 'image-'+str(kind),None
