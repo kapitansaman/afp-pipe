@@ -19,3 +19,9 @@ Run `40461248497` completed the image fallback check, but NOT the full generator
 Provider-only language deferral now preserves attempts/calls and follows the provider deadline instead of creating a new 6/24-hour editorial delay. Existing later editorial backoff remains intact. The four test queues were reconciled to the recorded provider deadline with their former dates retained in history. Imported experimental rows are hidden from the dashboard only when a canonical row with the same source hash exists; original experiment files are untouched.
 
 Full language verification, real publishing and 20-family timing calibration remain unperformed. This result is not permission to activate production.
+
+## Language-only bounded continuation
+
+`ops-image-fallback-language-only-after-cooldown-v1` may wait at most 3600 seconds for the existing provider deadline, without clearing it. Then it may use the remaining 16 text calls from the original 17-text-call test budget (one was spent on visual review), one attempt per language, no image calls, no uploads and no publishing. Existing language attempts and per-item caps remain binding, including Tajik's already spent 2 attempts / 7 calls. Fourth-image generation cannot replay. Existing images, source, original experiment, prior test report and family assignments are protected.
+
+A mixed `text_or_image` circuit was incorrectly omitted by one text-only cooldown helper; it now blocks that route as well. The owner workflow uses the isolated offline runner instead of inheriting the live circuit in unit tests. Its bounded job timeout allows the existing provider wait plus the language-only check; it is not a recurring schedule. 801 offline tests pass; this is not a live-language success claim.

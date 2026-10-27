@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "validated_at": "2026-10-27T06:38:57.083487+00:00",
-  "tests_passed": 786,
+  "validated_at": "2026-10-27T06:44:59.429571+00:00",
+  "tests_passed": 801,
   "offline_test_command": "python tests/agri_v2/run_offline.py",
   "test_isolation": "Only recovery.OUT is a temporary empty fixture; real provider circuit is unchanged. Individual circuit tests can override fixture.",
   "initial_unisolated_test_result": {
@@ -55,5 +55,11 @@
   "provider_circuit_unchanged": true,
   "provider_retry_at": "2026-10-27T07:32:59.350329+00:00",
   "queue_deadline_reconciliation": "Provider-only holds aligned to actual provider retry; existing attempts, calls and history retained. Original deadlines recorded in appended history events. No attempt performed.",
-  "next_required_check": "After provider cooldown, complete bounded nonpublishing language verification; do not activate scheduler on partial success."
+  "next_required_check": "After provider cooldown, complete bounded nonpublishing language verification; do not activate scheduler on partial success.",
+  "language_continuation_prepared": true,
+  "language_continuation_status": "code_verified_not_yet_executed",
+  "new_provider_guard_test": "text_or_image shared holds now block text continuation and diagnostic routes",
+  "remaining_authorized_text_calls": 16,
+  "total_text_budget_including_prior": 17,
+  "total_model_budget_including_prior": 18
 }

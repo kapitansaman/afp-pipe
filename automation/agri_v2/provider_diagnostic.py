@@ -10,7 +10,7 @@ def active_cooldown(out=OUT):
  p=out/'provider-circuit.json'
  if p.exists():
   row=load_json(p)
-  if row.get('open') is True and row.get('request_kind') in (None,'text'):until=max(until,row.get('retry_at_epoch',0))
+  if row.get('open') is True and row.get('request_kind') not in ('image',):until=max(until,row.get('retry_at_epoch',0))
  p=out/'parallel/lifecycle/latest.json'
  if p.exists():until=max(until,load_json(p).get('pool',{}).get('cooldown_until_epoch',0))
  return until if until>time.time() else 0
