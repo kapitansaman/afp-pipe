@@ -1,5 +1,5 @@
 {
-  "image_sha256": "d4dbf660697e4c0c68e5a059ec23c17e749a4b38e4bee624f66c92a3f7015e93",
+  "image_sha256": "95345bc9e7cb843505030dc17b154f23b3705455a8b91e4203f6f4e52c6f9e25",
   "contract_sha256": "6e6271e6176313d507c9f741a1b2477a2366563636ed48813cc49a66ea9d32e7",
   "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
   "policy": "agri-topic-scene-aghala-v6-topic-routed",
@@ -7,7 +7,7 @@
   "topic_id": "agri-b6f7d6bea16b",
   "review_model": "agnes-2.5-flash",
   "review_policy": "agri-vision-qa-v12-critical-checks",
-  "checked_at": "2026-10-27T05:43:11.950024+00:00",
+  "checked_at": "2026-10-27T05:51:32.056897+00:00",
   "reviewer": "automated_multimodal_model",
   "human_review_claimed": false,
   "status": "reviewed",
@@ -17,28 +17,34 @@
     "checks": {
       "hardware_identity_match": true,
       "hardware_sealed_all_ports_connected": true,
-      "crop_stage_match": false,
+      "crop_stage_match": true,
       "role_camera_match": false,
-      "topic_evidence_match": false,
+      "topic_evidence_match": true,
       "product_identity_match": true,
       "single_product": true,
       "product_scale_match": true,
       "product_fully_in_frame": true,
       "package_separate_from_plumbing": true,
       "physical_geometry_plausible": true,
-      "packaging_closed_no_protruding_material": true,
+      "packaging_closed_no_protruding_material": false,
       "no_people": true,
       "no_added_text": true,
       "phone_label_correct": true
     },
-    "score": 35,
+    "score": 58,
     "reasons": [
-      "Critical failure: crop_stage_match is false — the plants shown have broad, fleshy, rounded leaves characteristic of leafy greens (e.g., spinach or chard), NOT carrot (هویج) which has distinctive finely divided feathery/frond leaves. This is a species misidentification that materially contradicts the brief.",
-      "topic_evidence_match is false because the primary botanical evidence — the crop beside the drip tape — is not carrots, making the topical claim for a carrot-germination scene visually unsupported.",
-      "role_camera_match is false — the camera is a low-side/field-level perspective looking down rows with visible linear furrows and horizon, contradicting the required near-overhead tight detail with no horizon or vanishing-point furrows.",
-      "The AFP drip irrigation tape carton visually matches the reference product identity guide (white body, blue AFP logo, water-drop emblem, blue band).",
-      "The phone label reads exactly 'AFP | 09134922013' at lower right, correctly formatted.",
-      "No fabricated hardware is present (hardware_required=false), and no extraneous text, people, or protruding packaging material is visible."
+      "packaging_closed_no_protruding_material FAILED: a thin white strip of tape peels away from the roll and lies exposed on the soil surface, constituting protruding material from the package.",
+      "role_camera_match is false: the reference calls for a near-overhead tight detail with no horizon or vanishing-point furrows, but the image is shot at a side/oblique angle showing a visible horizon line and background crop rows.",
+      "hardware_required is false; no invented filter/valve/pipe assembly is present, so hardware checks are passed.",
+      "crop_stage_match: young carrot seedlings with feathery leaves are visible alongside root-zone soil, consistent with the named crop هویج and its early growth stage.",
+      "product_identity_match: the AFP Drip Irrigation Tape cartoon with the blue water-drop logo and blue band at the base matches the authorized reference product identity.",
+      "package_separate_from_plumbing: the roll sits on bare soil with no pipe passing through its core and no tubing emerging from underneath it.",
+      "product_scale_match: the roll occupies approximately 18-22% of frame width, within the specified [0.18, 0.23] interval, and within the max height of 0.32.",
+      "product_fully_in_frame: all edges of the cylindrical roll carton are visible.",
+      "single_product: exactly one intact white-blue AFP carton is present with no additional rolls or bottles.",
+      "phone_label_correct: the bottom-right label reads exactly 'AFP | 09134922013'.",
+      "topic_evidence_match: the scene is recognizably about carrot cultivation with seedlings and drip tape, consistent with the agricultural context.",
+      "score reflects overall usable quality reduced by the critical packaging failure (protruding tape strip) and the non-conforming camera angle."
     ]
   }
 }

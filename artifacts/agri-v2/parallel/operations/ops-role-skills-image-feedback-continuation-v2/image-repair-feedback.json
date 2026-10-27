@@ -1,0 +1,28 @@
+{
+  "rejected_image_sha256": "d4dbf660697e4c0c68e5a059ec23c17e749a4b38e4bee624f66c92a3f7015e93",
+  "checks": {
+    "hardware_identity_match": true,
+    "hardware_sealed_all_ports_connected": true,
+    "crop_stage_match": false,
+    "role_camera_match": false,
+    "topic_evidence_match": false,
+    "product_identity_match": true,
+    "single_product": true,
+    "product_scale_match": true,
+    "product_fully_in_frame": true,
+    "package_separate_from_plumbing": true,
+    "physical_geometry_plausible": true,
+    "packaging_closed_no_protruding_material": true,
+    "no_people": true,
+    "no_added_text": true,
+    "phone_label_correct": true
+  },
+  "reasons": [
+    "Critical failure: crop_stage_match is false — the plants shown have broad, fleshy, rounded leaves characteristic of leafy greens (e.g., spinach or chard), NOT carrot (هویج) which has distinctive finely divided feathery/frond leaves. This is a species misidentification that materially contradicts the brief.",
+    "topic_evidence_match is false because the primary botanical evidence — the crop beside the drip tape — is not carrots, making the topical claim for a carrot-germination scene visually unsupported.",
+    "role_camera_match is false — the camera is a low-side/field-level perspective looking down rows with visible linear furrows and horizon, contradicting the required near-overhead tight detail with no horizon or vanishing-point furrows.",
+    "The AFP drip irrigation tape carton visually matches the reference product identity guide (white body, blue AFP logo, water-drop emblem, blue band).",
+    "The phone label reads exactly 'AFP | 09134922013' at lower right, correctly formatted.",
+    "No fabricated hardware is present (hardware_required=false), and no extraneous text, people, or protruding packaging material is visible."
+  ]
+}
