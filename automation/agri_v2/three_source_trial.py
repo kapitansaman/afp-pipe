@@ -10,8 +10,11 @@ MAX_TEXT=27;MAX_IMAGE=15;MAX_TOTAL=42;PER_FAMILY=14
 
 REPAIR_ID='ops-three-fresh-persian-sources-repair-v2'
 SAVED_ID='ops-three-fresh-persian-sources-saved-validation-v3'
+OVERLAP_ID='ops-three-fresh-persian-sources-overlap-input-v4'
 
 def expected_request(request_id=ID):
+ if request_id==OVERLAP_ID:
+  r=expected_request(SAVED_ID);r.update(request_id=OVERLAP_ID,operation='fetch-existing-content-and-continue-three-persian-sources',resume_from_request=SAVED_ID);return r
  if request_id==SAVED_ID:
   r=expected_request(REPAIR_ID);r.update(request_id=SAVED_ID,operation='validate-saved-three-persian-source-extractions-within-original-budget',resume_from_request=REPAIR_ID,prior_total_model_calls=6,max_total_text_calls=21,max_total_model_calls=36,max_model_calls_per_family=12);return r
  if request_id==REPAIR_ID:
@@ -27,7 +30,7 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
  admitted(env,data,request_id)
  from .parallel_control import reserve,policy
  policy(env,data);root=out/'parallel/operations'/request_id;rp=root/'prepare.json'
- repair=request_id in (REPAIR_ID,SAVED_ID)
+ repair=request_id in (REPAIR_ID,SAVED_ID,OVERLAP_ID)
  if repair:
   from .three_source_repair import verify_prior
   prior=verify_prior(data,out,request_id)
@@ -56,7 +59,12 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
   wp=WordPress(env=env) if wp_factory is None else wp_factory();r['authenticated_preflight']=wp.preflight();inventory=wp.inventory()
   from .pipeline import fresh_inventory
   ip=root/'inventory.json';atomic_json(ip,inventory);fresh_inventory(ip)
-  r['inventory_count']=len(inventory['records']);r['status']='three_source_trial_prepared'
+  r['inventory_count']=len(inventory['records'])
+  # The isolated worker cannot read authenticated WordPress. Fetch complete
+  # overlap inputs here, as the standard lifecycle coordinator already does.
+  from .scoped_research import prefetch_existing
+  r['existing_content_fetch']=prefetch_existing(topics,inventory,wp,out,env['GITHUB_RUN_ID'])
+  r['status']='three_source_trial_prepared'
  except Exception as exc:
   from .failure_diagnostics import failure_details
   r.update(status='three_source_trial_blocked',failure=failure_details(exc))
@@ -64,7 +72,7 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
 
 def pilot(env,data=DATA,out=OUT,client_factory=None,wp_factory=None,wait_fn=None,worker_fn=None,request_id=ID):
  admitted(env,data,request_id);root=out/'parallel/operations'/request_id;rp=root/'prepare.json';r=load_json(rp)
- limits=expected_request(request_id);max_total=limits['max_total_model_calls'];per_family=limits['max_model_calls_per_family'];max_text=limits['max_total_text_calls'];repair=request_id in (REPAIR_ID,SAVED_ID)
+ limits=expected_request(request_id);max_total=limits['max_total_model_calls'];per_family=limits['max_model_calls_per_family'];max_text=limits['max_total_text_calls'];repair=request_id in (REPAIR_ID,SAVED_ID,OVERLAP_ID)
  if repair:
   from .three_source_repair import verify_prior
   verify_prior(data,out,request_id)

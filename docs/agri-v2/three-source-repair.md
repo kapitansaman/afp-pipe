@@ -23,3 +23,11 @@ Run 40471364777 spent another three text calls, zero images, zero WordPress muta
 New extraction now applies this existing conservative salvage immediately after strict validation fails; it retains the raw response and all diagnostics. Scientific insufficiency is never flipped, fewer than four valid facts still rejects, and no brief/publication is approved by salvage alone.
 
 The exact saved-output continuation uses zero extraction calls and no new source refresh. Its maximum remaining allowance is 21 text + 15 images = 36, twelve per topic. Together with six already-spent text calls, the original 42-call cap remains unchanged. Original source/extraction counters, both previous operation trees and all earlier artifacts remain preserved.
+
+## Coordinator overlap-input fix
+
+Run 40471976381 confirmed saved validation for all three topics: five/five/seven retained facts, zero new model or image calls. It stopped correctly because the isolated trial coordinator had not fetched the full previous-site content required by the standard overlap audit. No publication occurred.
+
+Trial preparation now calls the same `prefetch_existing` coordinator used by the standard lifecycle, with the fresh authenticated inventory, complete related article bodies and preserved missing/truncation checks. Model workers still receive no WordPress secrets. No title-only overlap approval or scope trimming is introduced.
+
+The exact follow-up consumes the same remaining 36-call allowance; previous six model calls remain charged. Existing saved candidates are validated again at admission without generating or rewriting them. Three earlier operation trees remain hash-preserved.
