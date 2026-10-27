@@ -27,5 +27,21 @@
   "all_three_articles_approved": false,
   "prior_sources_unchanged": true,
   "assignments_unchanged": true,
-  "manifest_unchanged": true
+  "manifest_unchanged": true,
+  "offline_tests_passed": 865,
+  "last_live_run_id": "40472933013",
+  "last_live_status": "three_source_trial_partial",
+  "last_live_model_calls": 10,
+  "last_live_image_calls": 3,
+  "last_live_published_posts": 0,
+  "last_live_wordpress_mutations": 0,
+  "combined_original_budget_calls": 19,
+  "original_model_budget": 42,
+  "source_extraction_fixed": true,
+  "full_overlap_inputs_loaded": 7,
+  "crop_specific_image_skills": true,
+  "storage_visual_route_fixed": true,
+  "reviewer_feedback_without_forced_approval": true,
+  "post_fix_live_retest_pending_provider_hold": true,
+  "schedule_enabled": false
 }

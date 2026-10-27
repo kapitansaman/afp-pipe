@@ -27,6 +27,8 @@ class ThreeSourceRepairTests(unittest.TestCase):
   self.assertIn('NOT a pinto-specific fixed rooting depth',rows[0]['scope'])
  def fixture(self,d):
   data=Path(d)/'data';out=Path(d)/'out';shutil.copytree(DATA,data)
+  # Rebuild only this historical test fixture, never alter live briefs.
+  for ident in t.TOPICS:(data/'briefs'/(ident+'.json')).unlink(missing_ok=True)
   for ident,row in BASE['topics'].items():
    for path,value in row['files'].items():atomic_json(out/'new'/ident/path,value)
   atomic_json(out/'parallel/operations'/t.ID/'prepare.json',BASE['prepare']);atomic_json(out/'parallel/operations'/t.ID/'model-calls.json',BASE['model_calls']);atomic_json(out/'parallel/families/assignments.json',{})

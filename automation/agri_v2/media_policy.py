@@ -43,6 +43,10 @@ def crop_spec(topic):
 def scene_plan(topic,kind,article=None):
  if type(kind)is not int or kind not in (1,2,3):raise ValueError('Only three approved image roles')
  text=norm(topic['title']);harvest='لوبیا' in norm(topic.get('crop','')) and 'سبز' not in norm(topic.get('crop','')) and any(x in text for x in ('برداشت','رسیدگی','خشک'))
+ stored=topic.get('intent')=='storage' and 'لوبیا' in norm(topic.get('crop',''))
+ if stored:
+  seed='beige dry pinto beans with brown mottling' if 'چیتی' in norm(topic.get('crop','')) else 'the named dry edible bean grain'
+  return {'hardware_required':False,'policy':POLICY,'role':kind,'scene_route':'postharvest-dry-bean-storage-v1','camera':'wide elevated indoor storage overview' if kind==1 else 'near-overhead close detail of harvested dry bean grain and its storage packaging','evidence':'clean dry harvested '+seed+' in food-storage packaging raised clear of the floor in a shaded dry store; no living plants, roots, field furrows, irrigation pipes, or other crop species','botany':'harvested '+seed+', Phaseolus vulgaris; not fresh green pods or living plants','context':article_context(topic,article),'product_family':'drip_tape_carton','reference_mode':'original_product_identity_only','product_frame_width':(.14,.20),'product_max_frame_height':.32}
  if kind==1:camera='elevated wide crop-dominant overview';evidence='mature dry bean plants and straw-colored pods still attached, not a green vegetable harvest' if harvest else 'the named crop at the growth stage discussed in the article'
  elif kind==2:camera='near-overhead tight detail, no horizon or vanishing-point furrows';evidence='a short naturally senescent dry-bean stem resting on soil, with attached straw-brown papery pods and one naturally split pod revealing small curved burgundy kidney-shaped seeds; no hand, tray or basket' if use_red_bean_close(topic) else 'attached dry straw-colored bean pods with visible seed bulges on a senescent plant' if harvest else 'recognizable crop-specific leaves and root-zone soil beside a thin flattened drip-tape lateral; do not invent disease symptoms'
  elif needs_filter(topic):
@@ -67,10 +71,10 @@ def image_prompt(topic,kind,article=None):
   +f"Camera MUST be {plan['camera']}. Main scene: {plan['evidence']}. "
   +f"Crop/stage: {plan['botany']}. "
   +f'LOWER LEFT: exactly one small intact fully enclosed white-and-blue AFP drip-tape carton matching the supplied identity reference, approximately {int(plan["product_frame_width"][0]*100)}-{int(plan["product_frame_width"][1]*100)} percent of image width, at most 32 percent height. Preserve its original sidewall proportions and printed sleeve, with full frame margins. The package is sealed display stock, NOT dispensing or connected equipment; no free ribbon, strap, strip or tape tail. '
-  +'Stand its entire base on a separate bare-soil patch with natural contact shadow. Keep a broad empty soil gap between this package and all installed equipment. No pipe crosses the carton or its core. '
+  +('Stand its entire base on a separate clean dry storage surface with natural contact shadow. Keep the unopened AFP display package separate from all food and food-storage packaging; do not imply irrigation tape preserves stored grain. No field scene or plumbing. ' if plan.get('scene_route')=='postharvest-dry-bean-storage-v1' else 'Stand its entire base on a separate bare-soil patch with natural contact shadow. Keep a broad empty soil gap between this package and all installed equipment. No pipe crosses the carton or its core. ')
   +('No filter, valve or extra pipe assembly. ' if not plan['hardware_required'] else '')
-  +'Natural daylight, realistic perspective, landscape 16:9. No people, second package, loose coil, inset, caption or added writing. Keep bottom-right clear for the phone label added later. '
-  +f"FINAL shot: {plan['camera']}; focus on {plan['evidence']}; the same single sealed AFP carton stays lower-left, with crop/soil details to the right; never add a second package.")
+  +('Soft indoor natural window light, realistic perspective, landscape 16:9.' if plan.get('scene_route')=='postharvest-dry-bean-storage-v1' else 'Natural daylight, realistic perspective, landscape 16:9.')+' No people, second package, loose coil, inset, caption or added writing. Keep bottom-right clear for the phone label added later. '
+  +f"FINAL shot: {plan['camera']}; focus on {plan['evidence']}; the same single sealed AFP carton stays lower-left, with the assigned scene details to the right; never add a second package.")
 def contract_hash(topic,kind,article=None):
  return hashlib.sha256(json.dumps(scene_plan(topic,kind,article),sort_keys=True,ensure_ascii=False).encode()).hexdigest()
 def add_phone_watermark(image):
@@ -87,7 +91,7 @@ def add_phone_watermark(image):
 
 def generate_role(client,topic,kind,article=None):
  from .role_skills import pack
- prompt=image_prompt(topic,kind,article);skill=pack('image-generator')
+ prompt=image_prompt(topic,kind,article);skill=pack('image-generator',topic=topic)
  if skill:prompt=skill['instructions']+'\n\n'+prompt
  # Candidate-specific feedback is data, never an approval override or changed QA contract.
  feedback=getattr(client,'image_feedback',None)

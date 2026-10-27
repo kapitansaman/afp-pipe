@@ -2,7 +2,7 @@
 import hashlib,json
 from .queue import DATA
 ROLES={'image-generator','researcher','persian-writer','evidence-reviewer','translator','translation-reviewer','image-reviewer'}
-def pack(role,language=None,data=DATA):
+def pack(role,language=None,data=DATA,topic=None):
  if role not in ROLES:raise ValueError('Unknown role skill')
  p=data/'role-skills'/(role+'.md')
  # Older temporary data fixtures do not silently borrow another workspace's skills.
@@ -11,6 +11,10 @@ def pack(role,language=None,data=DATA):
  if language=='tg-TJ':
   extra=data/'role-skills/tajik-agriculture.md'
   if not extra.exists():raise ValueError('Tajik role reference missing')
+  text+='\n\n'+extra.read_text(encoding='utf-8');resources.append(extra.name)
+ if role in ('image-generator','image-reviewer') and isinstance(topic,dict) and str(topic.get('crop','')).strip()=='هویج':
+  extra=data/'role-skills'/(role+'-carrot.md')
+  if not extra.exists():raise ValueError('Crop-specific image role reference missing')
   text+='\n\n'+extra.read_text(encoding='utf-8');resources.append(extra.name)
  if not text.strip() or len(text)>7000:raise ValueError('Role pack must stay concise')
  return {'id':role,'version':1,'language':language,'sha256':hashlib.sha256(text.encode()).hexdigest(),'resources':resources,'instructions':text}

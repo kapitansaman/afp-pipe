@@ -1,0 +1,3 @@
+# Carrot-only visual reference
+Apply ONLY when the current crop is هویج (Daucus carota).
+Translate a Persian crop name into its real botanical morphology before drawing. For هویج use carrot (Daucus carota): emerging seedlings have two narrow elongated cotyledons; recognizable young TRUE leaves are delicate, deeply divided, fern-like/bipinnate with narrow fine leaflets. Do NOT substitute broad fleshy whole spinach/chard/lettuce leaves or leafy vegetable heads. For a germination/emergence topic use a few young carrot seedlings and root-zone soil, not a mature leafy vegetable harvest. For other crops, preserve their own actual morphology; never apply the carrot example indiscriminately.

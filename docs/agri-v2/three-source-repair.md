@@ -33,3 +33,17 @@ Trial preparation now calls the same `prefetch_existing` coordinator used by the
 The exact follow-up consumes the same remaining 36-call allowance; previous six model calls remain charged. Existing saved candidates are validated again at admission without generating or rewriting them. Three earlier operation trees remain hash-preserved.
 
 The first coordinator preflight (40472329795) exposed missing transient `family_id` on fresh queue topics. It failed before any model calls or WordPress mutation. Preparation now supplies the same isolated `three-source-trial-<topic_id>` context as the worker; it does not modify persistent family assignments. The coordinator regression test now executes the real full-text fetch/bundle function with a mock read-only WordPress transport instead of mocking away that dependency.
+
+## Last completed live test: 40472933013
+
+- Full-text overlap inputs: seven related article references loaded, no scope trimmed.
+- Germination: overlap/source/draft stages passed; final article review rejected. No forced approval. The reviewer explanation itself includes a potentially misplaced source exception, so subsequent review now receives its earlier verdict as untrusted feedback and must re-check literal quotations and the current article. Correcting a reviewer explanation does not approve an unsupported threshold.
+- Storage: source, overlap, article and final text review passed. Two generated candidates visibly showed the wrong crop (carrots), so both were rejected. The third image request returned HTTP 503; the shared provider hold remains unchanged.
+- Sensor: deferred after the shared provider hold, not rejected for lack of source evidence.
+- This run: ten text requests, three image requests, no WordPress mutations/posts. Combined with prior runs: nineteen of forty-two model requests; original histories preserved.
+
+The image skill packs had unconditional carrot-specific examples. Those examples are now supplied only for actual carrot topics, to both generator and reviewer. Bean topics receive only their own morphology. This reduces prompt contamination; it is not a live-proven guarantee that the image model will obey.
+
+Storage now has a specific harvested-dry-grain indoor-storage scene, rather than the generic mature-field/pod scene. The AFP display package remains separate from food; no irrigation/storage benefit is implied. Existing critical visual checks remain required.
+
+No further live request was started during the recorded provider hold. Production schedule remains off. Final offline tests cover role isolation, storage scene routing and reviewer feedback without forced approval.
