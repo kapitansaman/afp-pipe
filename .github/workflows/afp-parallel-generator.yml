@@ -139,3 +139,13 @@ jobs:
       - name: Preserve sanitized results and original progress
         if: always()
         run: bash .github/scripts/persist-agri-v2.sh
+      - name: Preserve sanitized recovery evidence even when checkpoint fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generator-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 7
+          path: |
+            artifacts/agri-v2/
+            data/agri-v2/briefs/
+            data/agri-v2/status/lifecycle-flight.json
