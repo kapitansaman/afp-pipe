@@ -7,6 +7,7 @@ GROUNDED_ID='ops-97-pilot-grounded-v3'
 SUPPLEMENT_ID='ops-97-pilot-editorial-v4'
 FULL_QUEUE_ID='ops-full-queue-routes-research-v1'
 from .matrix_pilot import ID as MATRIX_ID,CONTINUATION_ID as MATRIX_CONT_ID,TOPIC as MATRIX_TOPIC,PRIOR_RUN as MATRIX_PRIOR_RUN,RECHECK_ID as MATRIX_RECHECK_ID,RECHECK_PRIOR_RUN as MATRIX_RECHECK_RUN,TEXT_ID as MATRIX_TEXT_ID,TEXT_PRIOR_RUN as MATRIX_TEXT_RUN,STRUCTURED_ID as MATRIX_STRUCTURED_ID,STRUCTURED_PRIOR_RUN as MATRIX_STRUCTURED_RUN
+from .provider_diagnostic import ID as DIAGNOSTIC_ID
 PATH='.github/afp-operations/request.json'
 WORKFLOW='kapitansaman/afp-pipe/.github/workflows/afp-owner-operation.yml@refs/heads/main'
 
@@ -15,7 +16,7 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
  if rid in (MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID):
   expected.update(operation='structured-commercial-matrix-text' if rid==MATRIX_STRUCTURED_ID else 'retry-commercial-matrix-text' if rid==MATRIX_TEXT_ID else 'recheck-commercial-matrix-overlap' if rid==MATRIX_RECHECK_ID else ('one-commercial-matrix-family' if rid==MATRIX_ID else 'continue-commercial-matrix-family'),topic_id=MATRIX_TOPIC,max_worker_model_calls=14 if rid==MATRIX_STRUCTURED_ID else 15 if rid==MATRIX_TEXT_ID else 18 if rid==MATRIX_RECHECK_ID else (24 if rid==MATRIX_ID else 23),max_image_generations=2,max_source_posts=1,max_translations=4,max_total_posts=5)
@@ -23,6 +24,8 @@ def validate_request(req):
   if rid==MATRIX_RECHECK_ID:expected['prior_run_id']=MATRIX_RECHECK_RUN
   if rid==MATRIX_TEXT_ID:expected['prior_run_id']=MATRIX_TEXT_RUN
   if rid==MATRIX_STRUCTURED_ID:expected['prior_run_id']=MATRIX_STRUCTURED_RUN
+ if rid==DIAGNOSTIC_ID:
+  expected.update(operation='97-text-health-and-two-schema-probes',max_text_health_calls=97,max_image_health_calls=0,max_pilot_families=0,max_schema_probe_calls=2,max_total_text_calls=99,max_wordpress_mutations=0)
  if rid==FULL_QUEUE_ID:
   expected.update(operation='full-queue-research-only',max_pilot_families=20,max_worker_text_calls=80,max_worker_image_calls=0,max_wordpress_mutations=0)
  if not isinstance(req,dict) or set(req)!=set(expected)|{'code_revision'} or any(req.get(k)!=v or type(req.get(k)) is not type(v) for k,v in expected.items()):raise ValueError('Exact bounded owner request required')
@@ -95,6 +98,9 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None):
 
 def prepare(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env);admission=load_owner_request(env,data)
+ if admission['request_id']==DIAGNOSTIC_ID:
+  from .provider_diagnostic import run as diagnose
+  return diagnose(env,data,out)
  from .parallel_control import reserve,policy
  policy(env,data)
  from .production_readiness import run as readiness
@@ -122,6 +128,7 @@ def pilot(env=None,data=DATA,out=OUT):
  if not authorize(env,data):raise ValueError('Bound current owner operation admission required')
  rid=load_json(data/'status/owner-operation-admission.json')['request_id']
  rp=out/'parallel/operations'/rid/'prepare.json';report=load_json(rp)
+ if rid==DIAGNOSTIC_ID:return {'status':'diagnostic_completed' if report.get('status')=='diagnostic_completed' else 'diagnostic_not_completed','model_calls':0,'published_posts':0,'article_attempts_modified':False}
  if report.get('run_id')!=env['GITHUB_RUN_ID'] or report.get('status') not in ('pilot_prerequisites_passed','research_prerequisites_passed'):return {'status':'pilot_not_admitted','published_posts':0}
  from .parallel_controller import run
  if rid==FULL_QUEUE_ID:
@@ -139,5 +146,5 @@ def main():
  result=prepare() if args.phase=='prepare' else pilot()
  failures=[{k:row[k] for k in ('topic_id','family_id','stage','status','failure') if k in row} for row in result.get('results',[]) if row.get('failure')]
  print(json.dumps({'phase':args.phase,'status':result.get('status'),'run_id':os.environ.get('GITHUB_RUN_ID'),'published_posts':result.get('published_posts',0),'stage_failures':failures},ensure_ascii=False))
- return 0 if result.get('status') in ('pilot_prerequisites_passed','research_prerequisites_passed','completed') else 2
+ return 0 if result.get('status') in ('pilot_prerequisites_passed','research_prerequisites_passed','completed','diagnostic_completed') else 2
 if __name__=='__main__':raise SystemExit(main())
