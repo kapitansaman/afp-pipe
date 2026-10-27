@@ -35,3 +35,15 @@ class TranslationChunkTests(unittest.TestCase):
  def test_injected_markup_still_rejected_when_absent_from_source(self):
   for text in ['<script>bad</script>','Text <a href="https://evil.example/">bad</a>','<b>Text</b>']:
    with self.assertRaises(ValueError):t.normalize_batch({'translations':[{'id':0,'text':text}]},[{'id':0,'text':'متن'}])
+ def test_one_source_bound_language_repair_is_cached(self):
+  from test_multilingual import response
+  from automation.agri_v2.multilingual import source_segments
+  with tempfile.TemporaryDirectory() as td:
+   a=article();_,values=source_segments(a);c=Mock();c.text.return_value=response(a,'tg-TJ');folder=Path(td);prior={'translations':[]};row=t.repair_language(c,a,'tg-TJ',folder,values,prior,{'https://extension.msu.edu/source'});again=t.repair_language(c,a,'tg-TJ',folder,values,prior,{'https://extension.msu.edu/source'});self.assertEqual(row,again);self.assertEqual(c.text.call_count,1)
+ def test_provider_failure_during_language_repair_is_not_replayed(self):
+  from automation.agri_v2.multilingual import source_segments
+  with tempfile.TemporaryDirectory() as td:
+   a=article();_,values=source_segments(a);c=Mock();c.text.side_effect=RuntimeError('provider');folder=Path(td)
+   for _ in range(2):
+    with self.assertRaises(Exception):t.repair_language(c,a,'tg-TJ',folder,values,{'translations':[]},{'https://extension.msu.edu/source'})
+   self.assertEqual(c.text.call_count,1)

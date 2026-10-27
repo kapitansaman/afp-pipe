@@ -55,7 +55,12 @@ def validate_rows(result,values,lang):
 
 def render_translation(article,result,lang):
  parser,values=source_segments(article);translated=validate_rows(result,values,lang);n=len(parser.texts)
- return {'language':lang,'title':translated[n],'excerpt':translated[n+1],'content_html':parser.render(translated),'faq':[{'question':translated[n+2+i*2],'answer':translated[n+3+i*2]} for i in range(3)],'source_article_sha256':digest(article)}
+ row={'language':lang,'title':translated[n],'excerpt':translated[n+1],'content_html':parser.render(translated),'faq':[{'question':translated[n+2+i*2],'answer':translated[n+3+i*2]} for i in range(3)],'source_article_sha256':digest(article)}
+ if article.get('commercial_matrix',{}).get('crop')=='هویج':
+  expected={'ru-RU':r'морков','ar-IQ':r'جزر','tg-TJ':r'сабзӣ|сабзи','en-US':r'carrot'}[lang]
+  if not re.search(expected,row['title'],re.I):raise ValueError('Translation crop identity changed')
+  if lang=='tg-TJ' and 'ҷуворимакка' in str(row).lower() and 'ذرت' not in str(article):raise ValueError('Translation crop identity changed')
+ return row
 class TranslationClient(ModelClient):
  def request(self,kind,path,payload,timeout,attempts=None):return super().request(kind,path,payload,timeout,attempts=1)
 

@@ -133,6 +133,14 @@ def next_stage(topic,data=DATA,out=OUT):
     value=load_json(pp);raw=load_json(pp.with_suffix('.raw.json'))
     if value!=render_translation(article,raw,lang):return 'blocked','saved_translation_changed'
    except (ValueError,KeyError,TypeError,FileNotFoundError):return 'blocked','translation_evidence_missing_or_changed'
+ if article.get('writing_policy')=='practical-direct-html-v1':
+  from .translation_review import binding,validate as validate_fidelity
+  rp=folder/'translation-fidelity-review.json';translations={lang:load_json(folder/'translations'/(lang+'.json')) for lang in LANGUAGES}
+  if not rp.exists():return 'translation_fidelity_review',None
+  proof=load_json(rp)
+  if any(proof.get(k)!=v for k,v in binding(article,translations).items()):return 'translation_fidelity_review',None
+  try:validate_fidelity(proof.get('review'))
+  except ValueError:return 'translation_fidelity_review',None
  return 'publish',None
 
 def run_stage(topic,stage,client,data=DATA,out=OUT):
@@ -173,6 +181,11 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
   atomic_json(prior,value)
   article=normalize_article(value,brief);validate_article(article,topic,brief);validate_for_publication(article);atomic_json(folder/'article.json',article);return {'article_validated':True}
  article=article_checked(folder,topic,brief)
+ if stage=='translation_fidelity_review':
+  from .multilingual import LANGUAGES
+  from .translation_review import review
+  rows={lang:load_json(folder/'translations'/(lang+'.json')) for lang in LANGUAGES}
+  return review(client,article,rows,folder)
  if stage=='article_evidence_review':
   from .scoped_research import review_article
   return review_article(topic,article,brief,folder,client)
@@ -195,6 +208,7 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
 def stage_outputs(folder,stage):
  ev=folder/'lifecycle-evidence'
  if stage=='text':return [folder/'model-candidate.json',folder/'grounded-text-candidate.json',folder/'practical-text-candidate.json',folder/'practical-text-normalization.json',folder/'practical-text-contract.json']
+ if stage=='translation_fidelity_review':return [folder/'translation-fidelity-review.raw.json']
  if stage=='article_evidence_review':return [folder/'article-evidence-review.raw.json']
  if stage=='research_sources':return [ev/'sources.json']
  if stage=='research_extract':return [ev/'candidate-raw.json']
