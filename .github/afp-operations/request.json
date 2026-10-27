@@ -1,18 +1,19 @@
 {
   "version": 1,
-  "request_id": "ops-practical-writer-translation-v1",
-  "operation": "nonpublishing-practical-writer-four-translations",
+  "request_id": "ops-practical-saved-draft-v2",
+  "operation": "nonpublishing-saved-practical-draft-four-translations",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 0,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_total_text_calls": 13,
-  "max_writer_calls": 1,
+  "max_total_text_calls": 12,
+  "max_writer_calls": 0,
   "max_final_article_reviews": 1,
   "max_translation_languages": 4,
   "max_wordpress_mutations": 0,
   "topic_id": "agri-b6f7d6bea16b",
-  "code_revision": "de299c85073691fe6eb3d4aae8434b232da2c2fd"
+  "code_revision": "4544f5d2062112a7d18231a21a3cd321fbbcd560",
+  "resume_from_request": "ops-practical-writer-translation-v1"
 }
