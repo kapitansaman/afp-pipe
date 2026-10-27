@@ -1,0 +1,10 @@
+{
+  "rejected_image_sha256": "32479ccc8fc41e0d8f141e29a4d1158d8de736b092c17ca977efc03d5f50f391",
+  "checks": {
+    "crop_stage_match": false
+  },
+  "reasons": [
+    "Direct inspection contradicted prior automated approval: broad serrated leaves, not fine divided carrot true leaves or narrow emerging cotyledons. Do not reuse this image as a carrot illustration."
+  ],
+  "prior_model_approval_overruled_by_direct_inspection": true
+}

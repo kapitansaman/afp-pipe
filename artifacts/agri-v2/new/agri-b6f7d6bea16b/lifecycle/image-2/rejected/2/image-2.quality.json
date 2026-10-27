@@ -1,0 +1,50 @@
+{
+  "image_sha256": "95345bc9e7cb843505030dc17b154f23b3705455a8b91e4203f6f4e52c6f9e25",
+  "contract_sha256": "6e6271e6176313d507c9f741a1b2477a2366563636ed48813cc49a66ea9d32e7",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-b6f7d6bea16b",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-27T05:51:32.056897+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": true,
+      "role_camera_match": false,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": false,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 58,
+    "reasons": [
+      "packaging_closed_no_protruding_material FAILED: a thin white strip of tape peels away from the roll and lies exposed on the soil surface, constituting protruding material from the package.",
+      "role_camera_match is false: the reference calls for a near-overhead tight detail with no horizon or vanishing-point furrows, but the image is shot at a side/oblique angle showing a visible horizon line and background crop rows.",
+      "hardware_required is false; no invented filter/valve/pipe assembly is present, so hardware checks are passed.",
+      "crop_stage_match: young carrot seedlings with feathery leaves are visible alongside root-zone soil, consistent with the named crop هویج and its early growth stage.",
+      "product_identity_match: the AFP Drip Irrigation Tape cartoon with the blue water-drop logo and blue band at the base matches the authorized reference product identity.",
+      "package_separate_from_plumbing: the roll sits on bare soil with no pipe passing through its core and no tubing emerging from underneath it.",
+      "product_scale_match: the roll occupies approximately 18-22% of frame width, within the specified [0.18, 0.23] interval, and within the max height of 0.32.",
+      "product_fully_in_frame: all edges of the cylindrical roll carton are visible.",
+      "single_product: exactly one intact white-blue AFP carton is present with no additional rolls or bottles.",
+      "phone_label_correct: the bottom-right label reads exactly 'AFP | 09134922013'.",
+      "topic_evidence_match: the scene is recognizably about carrot cultivation with seedlings and drip tape, consistent with the agricultural context.",
+      "score reflects overall usable quality reduced by the critical packaging failure (protruding tape strip) and the non-conforming camera angle."
+    ]
+  }
+}

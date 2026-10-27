@@ -1,0 +1,26 @@
+{
+  "text": 2,
+  "image": 2,
+  "history": [
+    {
+      "kind": "image",
+      "model": "agnes-image-2.5-flash",
+      "at": "2026-10-27T05:58:32.320782+00:00"
+    },
+    {
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T06:01:33.262906+00:00"
+    },
+    {
+      "kind": "image",
+      "model": "agnes-image-2.5-flash",
+      "at": "2026-10-27T06:02:05.072521+00:00"
+    },
+    {
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T06:03:11.935290+00:00"
+    }
+  ]
+}

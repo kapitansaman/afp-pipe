@@ -1,5 +1,5 @@
 {
-  "image_sha256": "32479ccc8fc41e0d8f141e29a4d1158d8de736b092c17ca977efc03d5f50f391",
+  "image_sha256": "16ed3a9631d16957fdbe6cfd65c7fdd007784b9b3635ad3a151125d5b1e5ddff",
   "contract_sha256": "eb817f78e8ed0998b80d9daadd88c29ee77c4ff3c80138c6090e743d999d6386",
   "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
   "policy": "agri-topic-scene-aghala-v6-topic-routed",
@@ -7,7 +7,7 @@
   "topic_id": "agri-b6f7d6bea16b",
   "review_model": "agnes-2.5-flash",
   "review_policy": "agri-vision-qa-v12-critical-checks",
-  "checked_at": "2026-10-27T05:41:15.385140+00:00",
+  "checked_at": "2026-10-27T06:01:33.260604+00:00",
   "reviewer": "automated_multimodal_model",
   "human_review_claimed": false,
   "status": "reviewed",
@@ -31,18 +31,20 @@
       "no_added_text": true,
       "phone_label_correct": true
     },
-    "score": 78,
+    "score": 85,
     "reasons": [
-      "hardware_required is false; no invented filter/valve/pipe assembly is present — correct for this role.",
-      "Crop shows early-stage carrot seedlings with rosette foliage in tilled soil rows, consistent with the germination/emergence article topic.",
-      "Camera angle is elevated wide overview as specified for role 1.",
-      "AFP Drip Irrigation Tape carton matches the approved identity (blue logo, 'AFP Drip Irrigation Tape' text, blue bottom band).",
-      "Only one AFP carton present; no extra rolls, bottles, or additional packaging.",
-      "Carton height exceeds the product_max_frame_height of 0.32 — the roll appears too tall relative to the frame, violating the scale specification.",
-      "All carton edges are visible; no pipes pass through or under the package; soil gap is clear around it.",
-      "Packaging is a fully closed roll/carton with no protruding tape, ribbon, strap, or protruding material.",
-      "No people present; no added text beyond authentic package print and the correct deterministic phone label.",
-      "Phone label reads exactly 'AFP | 09134922013' at lower right."
+      "hardware_required=false; no invented filter/valve/pipe assembly present — hardware checks pass.",
+      "Crop is carrot (هویج): visible seedlings show fine, feathery/pinnately divided young true leaves consistent with Daucus carota morphology — not broad spinach-like leaves, so crop_stage_match=true.",
+      "Product identity: the white-blue AFP Drip Irrigation Tape carton matches the reference brand logo, typography, and color scheme.",
+      "Single intact carton present; no extra rolls or bottles.",
+      "Carton edges are fully visible within frame — product_fully_in_frame=true.",
+      "Carton width occupies roughly 0.14–0.16 of frame width, falling slightly below the required 0.18–0.23 product_frame_width interval — product_scale_match=false.",
+      "Empty soil gap all around carton; no pipe through its core, no tubing under its base — package_separate_from_plumbing=true.",
+      "Fully closed self-contained carton with no white ribbon, protruding strip, strap, or tape tail — packaging_closed_no_protruding_material=true.",
+      "Contact shadow and perspective are believable; no floating or merged parts — physical_geometry_plausible=true.",
+      "No people visible — no_people=true.",
+      "Only authentic package print and deterministic phone label present — no_added_text=true.",
+      "Phone label reads 'AFP | 09134922013' at lower right — phone_label_correct=true."
     ]
   }
 }
