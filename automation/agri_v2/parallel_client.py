@@ -13,20 +13,29 @@ class ParallelModelClient(ModelClient):
   policy=load_json(DATA/'parallel-policy.json')
   if report.get('repository')!='kapitansaman/afp-pipe' or report.get('credential_set_id')!=policy['credential_set_id'] or not 0<=age_hours(report['checked_at'])<24:raise CapabilityError('Fresh parallel capability evidence required')
   if (report.get('text_model'),report.get('image_model'),report.get('api_base'))!=(TEXT_MODEL,IMAGE_MODEL,API_BASE):raise CapabilityError('Parallel model/base mismatch')
+  from .family_keys import slots_for,check_unique_values
+  self.family_key_slots,self.family_key_binding=slots_for(self.env.get('AFP_PARALLEL_FAMILY'),DATA)
+  if self.family_key_slots is not None:check_unique_values(self.env)
   self.report=report;self.used={'text':0,'image':0};self.keys={}
   for kind in ('text','image'):
    names=report.get('eligible_'+kind+'_slots',[])
    if any(n not in SLOTS for n in names):raise CapabilityError('Unknown parallel capability slot')
+   if self.family_key_slots is not None:names=[n for n in names if n in self.family_key_slots]
    seen=set();pool=[]
    for n in names:
     key=self.env.get(n,'').strip()
     if key and key not in seen:pool.append((n,key));seen.add(key)
    self.keys[kind]=pool
-   if kind in capabilities and not pool:raise CapabilityError('No verified '+kind+' capability')
+   if kind in capabilities and not pool:
+    if self.family_key_slots is not None:
+     from .family_keys import FamilyCapabilityRequired
+     raise FamilyCapabilityRequired(kind)
+    raise CapabilityError('No verified '+kind+' capability')
   self.image_rotation_enabled=bool(self.keys['image']);self.image_rotation_binding=policy['credential_set_id']
   self.image_candidates=list(self.keys['image'])
  def request(self,kind,path,payload,timeout,attempts=None):
   db=self.env['AFP_PARALLEL_POOL_DB'];pool=self.keys[kind];values=dict(pool)
+  if self.family_key_slots is not None and not set(values)<=set(self.family_key_slots):raise CapabilityError('Foreign family credential rejected before lease')
   with lease(db,kind,list(values),self.env.get('AFP_PARALLEL_TOPIC','worker')) as slot:
    self.keys[kind]=[(slot,values[slot])]
    try:return super().request(kind,path,payload,timeout,attempts=1)
@@ -40,4 +49,5 @@ class ParallelModelClient(ModelClient):
   slot=getattr(self,'last_'+kind+'_slot',None)
   if slot not in SLOTS:return
   row={'repository':'kapitansaman/afp-pipe','credential_set_id':self.image_rotation_binding,'kind':kind,'slot':slot,'model':model,'verified_at':utcnow(),'verification':'actual_successful_parallel_response','family_id':self.env.get('AFP_PARALLEL_FAMILY'),'topic_id':self.env.get('AFP_PARALLEL_TOPIC')}
+  if self.family_key_binding is not None:row.update(family_key_allocation_sha256=self.family_key_binding,assigned_key_slots=list(self.family_key_slots))
   atomic_json(OUT/'parallel-runtime'/kind/(slot+'.json'),row)

@@ -15,14 +15,32 @@ def inspect(data=DATA,out=OUT,wp=None):
  except (KeyError,ValueError,TypeError):fresh=False
  bound=(health.get('repository')=='kapitansaman/afp-pipe' and health.get('credential_set_id')==CREDENTIAL_SET_ID and (health.get('text_model'),health.get('image_model'),health.get('api_base'))==(TEXT_MODEL,IMAGE_MODEL,API_BASE) and fresh and health.get('audit_status')=='completed')
  add('fresh_text_capacity',bound and len(set(health.get('eligible_text_slots',[]))&set(SLOTS))>=MAX_FAMILIES,'Actual fresh proof bound to the 97-key cohort, with at least 20 eligible text credentials')
- image_proven=False
+ image_proven=False;image_proven_slots=set()
  for slot in set(health.get('eligible_image_slots',[]))&set(SLOTS):
   proof=out/'parallel/runtime/image'/(slot+'.json')
   if not proof.exists():continue
   row=load_json(proof)
-  try:image_proven|=(row.get('slot')==slot and row.get('repository')=='kapitansaman/afp-pipe' and row.get('credential_set_id')==CREDENTIAL_SET_ID and row.get('model')==IMAGE_MODEL and row.get('verification') in ('actual_successful_parallel_response','actual_successful_parallel_capability_probe') and 0<=age_hours(row['verified_at'])<24)
+  try:
+   valid=(row.get('slot')==slot and row.get('repository')=='kapitansaman/afp-pipe' and row.get('credential_set_id')==CREDENTIAL_SET_ID and row.get('model')==IMAGE_MODEL and row.get('verification') in ('actual_successful_parallel_response','actual_successful_parallel_capability_probe') and 0<=age_hours(row['verified_at'])<24)
+   image_proven|=valid
+   if valid:image_proven_slots.add(slot)
   except (KeyError,ValueError,TypeError):pass
  add('fresh_image_capacity',bound and image_proven,'Separate actual successful fresh bound image proof; text success is not image approval')
+ key_allocation=None
+ if policy.get('family_key_allocation_required') is True or (data/'family-key-allocation.json').exists():
+  try:
+   from .family_keys import load as key_policy,binding as key_binding
+   allocation=key_policy(data)
+   key_allocation={'allocation_sha256':key_binding(allocation),'families':[{
+    'family_id':family,'assigned_slots':slots,
+    'eligible_text_slots':[n for n in slots if bound and n in health.get('eligible_text_slots',[])],
+    'proven_image_slots':[n for n in slots if bound and n in image_proven_slots]} for family,slots in allocation['families'].items()],
+    'central_slots':allocation['central_slots'],'automatic_family_fallback':False}
+   add('family_key_allocation',True,'Exact disjoint 20 x 4 family ownership plus 17 central slots')
+   add('family_owned_text_capacity',all(r['eligible_text_slots'] for r in key_allocation['families']),'Each family needs its own fresh text-capable credential; global healthy count is insufficient')
+   add('family_owned_image_capacity',all(r['proven_image_slots'] for r in key_allocation['families']),'Each family needs its own actual fresh image proof; no borrowing from central/other families')
+  except (ValueError,KeyError,TypeError,RuntimeError):
+   add('family_key_allocation',False,'Missing or invalid required family key allocation; no shared-pool fallback')
  auth_path=out/'parallel/readiness/authenticated-preflight.json';auth=load_json(auth_path) if auth_path.exists() else {}
  if wp is not None:
   try:
@@ -47,7 +65,7 @@ def inspect(data=DATA,out=OUT,wp=None):
  if 'administrator' in auth.get('roles',[]):warnings.append('Publisher account is administrator; a dedicated least-privilege Author account is recommended, not silently substituted.')
  warnings+=['Fresh text/image health expires after 24h. The fixed create-only audit ID does not implement unattended recurring health renewal.','Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.','A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.','Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency.']
  blockers=[name for name,v in gates.items() if not v['passed']]
- result={'status':'readiness_checked' if not blockers else 'readiness_blocked','checked_at':utcnow(),'technical_ready':not blockers,'blockers':blockers,'gates':gates,'warnings':warnings,'families':families,'research_backlog':load_json(ap).get('research_backlog',{}) if ap.exists() else {},'model_calls':0,'image_calls':0,'post_mutations':0,'authenticated_check_performed':wp is not None}
+ result={'status':'readiness_checked' if not blockers else 'readiness_blocked','checked_at':utcnow(),'technical_ready':not blockers,'blockers':blockers,'gates':gates,'warnings':warnings,'families':families,'research_backlog':load_json(ap).get('research_backlog',{}) if ap.exists() else {},'model_calls':0,'image_calls':0,'post_mutations':0,'authenticated_check_performed':wp is not None,'family_key_allocation':key_allocation}
  return result
 
 def run(data=DATA,out=OUT):

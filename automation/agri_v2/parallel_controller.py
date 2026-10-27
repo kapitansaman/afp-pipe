@@ -80,6 +80,8 @@ def merge_worker(ident,worker_data,worker_out,data=DATA,out=OUT):
 
 def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env=None):
  env=dict(os.environ if env is None else env);ident=topic['id'];base=workspace/ident;wd=base/'data';wo=base/'out'
+ from .family_keys import restrict_env
+ env,key_context=restrict_env(env,topic.get('family_id'),data)
  shutil.copytree(data,wd)
  # A research worker cannot be blocked by another topic's historical ready-brief buffer.
  kept_brief=(data/'briefs'/f'{ident}.json')
@@ -109,7 +111,7 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL
  run_id=str(env.get('GITHUB_RUN_ID',''))
  if not run_id.isdigit():raise ValueError('Verified run identity required for family context')
- atomic_json(wo/'new'/ident/'family-context'/(run_id+'.json'),{'family_id':topic.get('family_id'),'topic_id':ident,'title':topic['title'],'title_sha256':hashlib.sha256(topic['title'].encode()).hexdigest(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'context_isolation':'one owned topic and output directory; other families outputs not supplied','scope':'planned requests, not model success or publication approval'})
+ atomic_json(wo/'new'/ident/'family-context'/(run_id+'.json'),{'family_id':topic.get('family_id'),'topic_id':ident,'title':topic['title'],'title_sha256':hashlib.sha256(topic['title'].encode()).hexdigest(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'context_isolation':'one owned topic and output directory; other families outputs not supplied','scope':'planned requests, not model success or publication approval',**key_context})
  for name in ['provider-circuit.json']:
   if (out/name).exists():wo.mkdir(parents=True,exist_ok=True);shutil.copyfile(out/name,wo/name)
  env.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_TOPIC=ident,AFP_PARALLEL_FAMILY=topic.get('family_id','unassigned'),AFP_PARALLEL_POOL_DB=str(pool_db),AFP_AGRI_DATA_DIR=str(wd),AFP_AGRI_OUT_DIR=str(wo),AFP_PROGRESS_ENABLED='0')
