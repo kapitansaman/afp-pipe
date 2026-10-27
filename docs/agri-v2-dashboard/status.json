@@ -1,0 +1,311 @@
+{
+  "version": 2,
+  "generated_at": "2026-10-27T05:17:33.041243+00:00",
+  "source": {
+    "branch": "feat/agri-generator-v2-2905-merge593",
+    "commit": "b7429f05321ae959971e6c3572bb190a7a8d4339"
+  },
+  "automation": {
+    "schedule_enabled": false,
+    "automatic_generation": false,
+    "legacy_publication_enabled": false,
+    "gated_publisher_enabled": true,
+    "research_only": true,
+    "independent_languages": true,
+    "configured_workers": 20
+  },
+  "metrics": {
+    "total": 2905,
+    "remaining": 2904,
+    "published": 1,
+    "published_as_of": "2026-10-26T04:05:00.083407+00:00",
+    "merge": 593,
+    "hold": 370,
+    "review_waiting": 1,
+    "review_approved": 0,
+    "assigned": 20
+  },
+  "health": {
+    "bound": true,
+    "checked_at": "2026-10-27T01:13:12.848376+00:00",
+    "text_ok": 93,
+    "image_ok": 0,
+    "capacity": 97,
+    "text_model": "agnes-2.5-flash",
+    "image_model": "agnes-image-2.5-flash",
+    "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40431194330"
+  },
+  "experiment": {
+    "topic_id": "agri-b6f7d6bea16b",
+    "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+    "status": "revised_pair_verified_after_reference_feedback",
+    "at": "2026-10-27T04:28:29.823833+00:00",
+    "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40449811756",
+    "operation": "ops-tajik-reference-feedback-final-round-v2",
+    "model": "agnes-3.0-flash",
+    "model_calls": 7,
+    "published_posts": 0,
+    "source_reviewed": true,
+    "tajik_quality_pending": true,
+    "native_review_done": false,
+    "image_calls": 0,
+    "wordpress_calls": 0
+  },
+  "reviews": [
+    {
+      "topic_id": "agri-b6f7d6bea16b",
+      "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "language": "tg-TJ",
+      "status": "needs_attention",
+      "attempts": 2,
+      "model_calls_spent": 7,
+      "next_attempt_at": null,
+      "experimental_only": true,
+      "reason": "experimental_two_repair_round_limit_reached_independent_language_quality_check_required",
+      "publication_next_attempt_at": null,
+      "state_url": "https://github.com/kapitansaman/afp-pipe/blob/feat/agri-generator-v2-2905-merge593/artifacts/agri-v2/parallel/writer-verification/ops-tajik-reference-feedback-final-round-v2/agri-b6f7d6bea16b/review-queue/tg-TJ.json"
+    }
+  ],
+  "families": [
+    {
+      "id": "agri-b6ffe49a4638",
+      "family": "family-01",
+      "title": "زمان کاشت لوبیا قرمز؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:54.267689+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-7736a471e8c1",
+      "family": "family-02",
+      "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:50.474695+00:00",
+      "reason": "numeric_units_not_in_literal_source",
+      "public_verified": false
+    },
+    {
+      "id": "agri-934dd1366a8b",
+      "family": "family-03",
+      "title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:58.816191+00:00",
+      "reason": "every_number_requires_unit_and_scope_binding",
+      "public_verified": false
+    },
+    {
+      "id": "agri-3ab6116ba6cf",
+      "family": "family-04",
+      "title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:46.529202+00:00",
+      "reason": "every_number_requires_unit_and_scope_binding",
+      "public_verified": false
+    },
+    {
+      "id": "agri-621734b38aa9",
+      "family": "family-05",
+      "title": "میزان برداشت لوبیا سفید در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "text-editorial-supplement-v1",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T08:10:11.782783+00:00",
+      "reason": "text_empty_or_invalid_content",
+      "public_verified": false
+    },
+    {
+      "id": "agri-ee13684b7f1a",
+      "family": "family-06",
+      "title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:37.261996+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-1f58a0e82783",
+      "family": "family-07",
+      "title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:24:03.353726+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-c0e160d88554",
+      "family": "family-08",
+      "title": "انتخاب رقم کنجد برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "stage": "research_review",
+      "status": "failed",
+      "attempts": 3,
+      "at": "2026-10-26T09:23:51.941738+00:00",
+      "reason": "independent_scoped_review_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-e7dcf0bf2ffd",
+      "family": "family-09",
+      "title": "عمق کاشت بذر لوبیا چیتی در خاک سبک و سنگین؛ خطاهای رایج",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:36.500970+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-a83aaf27045f",
+      "family": "family-10",
+      "title": "اولین آبیاری لوبیا چیتی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:57.911848+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-3aec9f066bb5",
+      "family": "family-11",
+      "title": "زمان مناسب برداشت عدس؛ نشانه‌های رسیدگی و معیار بازار",
+      "stage": "existing_content_audit-004",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:24:01.061763+00:00",
+      "reason": "overlap_quote_id_not_bound_to_article",
+      "public_verified": false
+    },
+    {
+      "id": "agri-8c5efc7fc888",
+      "family": "family-12",
+      "title": "چرا بذر لوبیا چیتی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "stage": "research_budget_exhausted",
+      "status": "assigned",
+      "attempts": null,
+      "at": "2026-10-26T08:45:16.202939+00:00",
+      "reason": null,
+      "public_verified": false
+    },
+    {
+      "id": "agri-dd97e1add9df",
+      "family": "family-13",
+      "title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:46.946483+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-f5f2d5ed4de0",
+      "family": "family-14",
+      "title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:51.635528+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-2bffca9fad0a",
+      "family": "family-15",
+      "title": "دور آبیاری لوبیا چیتی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:43.491525+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-7dd8dae22417",
+      "family": "family-16",
+      "title": "انتخاب رقم لوبیا قرمز برای مزرعه؛ معیارهای اقلیمی و بازارپسندی",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:25:12.286162+00:00",
+      "reason": "unknown_scoped_evidence_id",
+      "public_verified": false
+    },
+    {
+      "id": "agri-d52cdebf818e",
+      "family": "family-17",
+      "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:45.846726+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-abd5d9f00442",
+      "family": "family-18",
+      "title": "زمان مناسب برداشت لوبیا چیتی؛ نشانه‌های رسیدگی و معیار بازار",
+      "stage": "existing_content_audit-000",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:24:14.288119+00:00",
+      "reason": "existing_content_overlap_or_uncertain",
+      "public_verified": false
+    },
+    {
+      "id": "agri-681d9e957593",
+      "family": "family-19",
+      "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:23:53.034278+00:00",
+      "reason": "scoped_intent_or_local_prescription_rejected",
+      "public_verified": false
+    },
+    {
+      "id": "agri-15439ad51313",
+      "family": "family-20",
+      "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "stage": "research_extract",
+      "status": "failed",
+      "attempts": 1,
+      "at": "2026-10-26T09:24:01.782759+00:00",
+      "reason": "number_absent_from_literal_source",
+      "public_verified": false
+    }
+  ],
+  "publications": [
+    {
+      "title": "کاهش تلفات برداشت لوبیا چیتی؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
+      "url": "https://navar-abyari.ir/pinto-bean-harvest-loss-timing-tools/",
+      "published_at": "2026-10-25T07:42:12.451544+00:00",
+      "verified_at": "2026-10-25T07:58:06.799785+00:00",
+      "public_verified": true
+    }
+  ],
+  "last_lifecycle": {
+    "status": "pilot_incomplete",
+    "at": "2026-10-26T12:21:10.316907+00:00",
+    "run_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40321377851",
+    "published_posts": 0
+  },
+  "local_tests": {
+    "passed": 731,
+    "at": "2026-10-27T05:02:52.451398+00:00",
+    "live_test": false
+  }
+}
