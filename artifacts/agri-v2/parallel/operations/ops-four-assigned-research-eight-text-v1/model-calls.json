@@ -1,0 +1,54 @@
+{
+  "text": 7,
+  "image": 0,
+  "per_topic": {
+    "agri-7736a471e8c1": 2,
+    "agri-3aec9f066bb5": 2,
+    "agri-7dd8dae22417": 2,
+    "agri-abd5d9f00442": 1
+  },
+  "history": [
+    {
+      "topic_id": "agri-7736a471e8c1",
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T12:53:40.418105+00:00"
+    },
+    {
+      "topic_id": "agri-7736a471e8c1",
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T12:53:50.967881+00:00"
+    },
+    {
+      "topic_id": "agri-3aec9f066bb5",
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T12:53:59.871887+00:00"
+    },
+    {
+      "topic_id": "agri-3aec9f066bb5",
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T12:54:10.276062+00:00"
+    },
+    {
+      "topic_id": "agri-7dd8dae22417",
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T12:54:16.933446+00:00"
+    },
+    {
+      "topic_id": "agri-7dd8dae22417",
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T12:54:24.159487+00:00"
+    },
+    {
+      "topic_id": "agri-abd5d9f00442",
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T12:54:39.150269+00:00"
+    }
+  ]
+}

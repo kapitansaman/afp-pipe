@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://www.hort.purdue.edu/newcrop/CropFactSheets/lentil.html",
+      "canonical_url": "https://www.hort.purdue.edu/newcrop/CropFactSheets/lentil.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Lentil.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Lentil.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Pulses/USADryPeaCouncil%20FactSheet.pdf",
+      "canonical_url": "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Pulses/USADryPeaCouncil%20FactSheet.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

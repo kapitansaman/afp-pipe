@@ -1,0 +1,57 @@
+{
+  "topic_id": "agri-7dd8dae22417",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "لوبیا قرمز خشک؛ بازارکلاس light red kidney از گونه Phaseolus vulgaris؛ بذر خشک (نه محصول سبز یا علوفه‌ای)",
+  "slug": "red-kidney-dry-bean-variety-selection-criteria",
+  "outline": [
+    "تعریف محصول و جایگاه بازارکلاس لوبیا قرمز خشک در تولید آمریکای شمالی",
+    "شواهد استقرار و تراکم کشت متناسب با بازارکلاس",
+    "معیارهای گزینش رقم: بازارپسندی، عملکرد نسبی و مقاومت به بیماری"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "لوبیا قرمز (light red kidney) یک بازارکلاس مستقایل از لوبیای خشک خوراکی است که گونه آن Phaseolus vulgaris می‌باشد؛ این بازارکلاس هم در فرآوری کنسرو و هم در بسته‌بندی بذر کامل استفاده می‌شود.",
+      "conditions": "بازارکلاس light red kidney؛ گونه Phaseolus vulgaris; منشأ: توسعه و بازاریابی ایالات متحده (Iowa State University Extension)",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در گزینش رقم، ابتدا باید بازارکلاسی انتخاب شود که بتوان آن را در بازار محلی با سودآوری قابل قبول عرضه کرد و سپس رقمی برگزید که بیشترین پتانسیل عملکرد را برای آن بازارکلاس و موقعیت جغرافیایی مورد نظر داشته باشد.",
+      "conditions": "معیار گزینش رقم لوبیای خشک; منطقه: میزوری و مناطق مرکزی/شمالی ایالات متحده (Iowa State University Extension)",
+      "evidence_id": "d0-e9",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "مقاومت به بیماری‌ها یکی از معیارهای گزینش رقم محسوب می‌شود و انتخاب ارقام مقاوم همراه با چرخش محصول و پایش حشرات ناقل، از راهبردهای کنترل بیماری در لوبیای خشک است.",
+      "conditions": "معیار گزینش رقم; مقاومت به بیماری؛ منطقه: میزوری و مناطق مشابه مرطوب ایالات متحده (Iowa State University Extension)",
+      "evidence_id": "d0-e15",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آزمونه‌های مقایسه‌ای رقم لوبیای خشک در نبراسکا بیش از چهار دهه است به طور پیوسته اجرا می‌شود تا به تولیدکنندگان در انتخاب رقم مناسب برای مناطق غربی آن ایالت کمک کند.",
+      "conditions": "برنامه آزمون رقم; منطقه: غرب نبراسکا، ایالات متحده (University of Nebraska Extension)",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ظاهر و کیفیت ظاهری بذر لوبیای خشک به اندازه عملکرد در تعیین قیمت فروش تأثیر دارد؛ ارقامی که در برابر آسیب‌های ميكروفیسی و بیماری‌های پس از برداشت مقاوم‌تر باشند، معمولاً بازارپسندترند.",
+      "conditions": "معیار بازارپسندی و کیفیت بذر; منطقه: ایالات متحده (Iowa State University Extension / USDA)",
+      "evidence_id": "d0-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عمر ذخیره‌سازی و حفظ کیفیت بذر خشک به رطوبت اولیه بذر پس از خشک‌کردن و نحوه حمل‌ونقل آرام بستگی دارد؛ ضربه و ریختن بذر از ارتفاع روی سطوح سخت باعث شکستگی و کاهش ارزش بازار می‌شود.",
+      "conditions": "معیار کیفیت پس از برداشت; منطقه: میزوری و مناطق تولید لوبیای خشک ایالات متحده (Iowa State University Extension)",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": []
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

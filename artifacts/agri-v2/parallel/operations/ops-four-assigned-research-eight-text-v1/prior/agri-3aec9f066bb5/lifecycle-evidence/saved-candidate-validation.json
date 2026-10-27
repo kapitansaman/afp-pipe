@@ -1,0 +1,31 @@
+{
+  "dropped_facts": [
+    {
+      "index": 0,
+      "reason": "every_number_requires_unit_and_scope_binding"
+    },
+    {
+      "index": 4,
+      "reason": "numeric_units_not_in_literal_source"
+    },
+    {
+      "index": 6,
+      "reason": "number_absent_from_literal_source"
+    },
+    {
+      "index": 7,
+      "reason": "numeric_units_not_in_literal_source"
+    }
+  ],
+  "metadata_repairs": [
+    {
+      "index": 0,
+      "field": "kind",
+      "reason": "numeric_claim_requires_observation_review"
+    }
+  ],
+  "claims_rewritten": false,
+  "scientific_rejection_overridden": false,
+  "independent_review_still_required": true,
+  "original_candidate_sha256": "79ea0b9205452db4a1cb679cf384890a5609ed7a332c7cbcf56d8e4500e32a93"
+}

@@ -1,0 +1,35 @@
+{
+  "attempts": 2,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "failed",
+      "last_run_id": "40276651023",
+      "started_at": "2026-10-26T05:54:45.649867+00:00",
+      "completed_at": "2026-10-26T05:55:08.692045+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "product_definition_required"
+      }
+    },
+    {
+      "attempts": 2,
+      "status": "failed",
+      "last_run_id": "40277748344",
+      "started_at": "2026-10-26T06:07:42.328470+00:00",
+      "completed_at": "2026-10-26T06:08:07.652471+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "every_number_requires_unit_and_scope_binding"
+      }
+    }
+  ],
+  "status": "failed",
+  "last_run_id": "40277748344",
+  "started_at": "2026-10-26T06:07:42.328470+00:00",
+  "completed_at": "2026-10-26T06:08:07.652471+00:00",
+  "failure": {
+    "kind": "validation",
+    "category": "every_number_requires_unit_and_scope_binding"
+  }
+}

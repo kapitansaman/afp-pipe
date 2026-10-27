@@ -1,0 +1,25 @@
+{
+  "attempts": 2,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "validated",
+      "last_run_id": "40276651023",
+      "started_at": "2026-10-26T05:54:44.356648+00:00",
+      "completed_at": "2026-10-26T05:54:45.648738+00:00",
+      "failure": null
+    },
+    {
+      "attempts": 2,
+      "status": "validated",
+      "last_run_id": "40277748344",
+      "started_at": "2026-10-26T06:07:40.980994+00:00",
+      "completed_at": "2026-10-26T06:07:42.325847+00:00",
+      "failure": null
+    }
+  ],
+  "status": "validated",
+  "last_run_id": "40277748344",
+  "started_at": "2026-10-26T06:07:40.980994+00:00",
+  "completed_at": "2026-10-26T06:07:42.325847+00:00"
+}

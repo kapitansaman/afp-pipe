@@ -1,0 +1,30 @@
+{
+  "requested": 4,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Barley/Default.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Barley/Default.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains/heat-canker-in-wheat-barley-and-oats",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/small-grains/heat-canker-in-wheat-barley-and-oats",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains/yellow-wheat",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/small-grains/yellow-wheat",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-specific-needs/barley-fertilizer-recommendations",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/fertilizing-barley",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

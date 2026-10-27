@@ -1,0 +1,18 @@
+{
+  "dropped_facts": [
+    {
+      "index": 1,
+      "reason": "unknown_scoped_evidence_id"
+    },
+    {
+      "index": 2,
+      "reason": "unknown_scoped_evidence_id"
+    }
+  ],
+  "metadata_repairs": [],
+  "claims_rewritten": false,
+  "scientific_rejection_overridden": false,
+  "independent_review_still_required": true,
+  "research_route_version": "full-queue-research-routes-v1",
+  "original_candidate_sha256": "b33acabd7384b5be498aff948244788131a82b15cbab5e2601d06439610484ff"
+}
