@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "request_id": "ops-role-skills-controlled-launch-v1",
-  "operation": "role-skills-controlled-launch",
+  "request_id": "ops-role-skills-image-feedback-continuation-v2",
+  "operation": "image-feedback-controlled-continuation",
   "authorized": true,
   "max_text_health_calls": 0,
-  "max_image_health_calls": 1,
+  "max_image_health_calls": 0,
   "max_pilot_families": 1,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_total_text_calls": 19,
-  "max_image_calls": 3,
-  "max_total_model_calls": 22,
+  "max_total_text_calls": 17,
+  "max_image_calls": 1,
+  "max_total_model_calls": 18,
   "max_wordpress_mutations": 15,
   "max_source_posts": 1,
   "max_translations": 4,
@@ -20,5 +20,9 @@
   "source_article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
   "separate_launch_budget": true,
   "change_default_model": false,
-  "code_revision": "0da3f6b2f381c52bce5770284e17b89c48f82f5e"
+  "prior_request": "ops-role-skills-controlled-launch-v1",
+  "prior_reserved_model_calls": 6,
+  "max_combined_model_calls": 24,
+  "replace_rejected_image_sha256": "d4dbf660697e4c0c68e5a059ec23c17e749a4b38e4bee624f66c92a3f7015e93",
+  "code_revision": "b78555971d7b6db5d0d1cea3fe02a3f164fadbbe"
 }

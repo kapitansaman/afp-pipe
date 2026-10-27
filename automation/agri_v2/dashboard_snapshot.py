@@ -53,12 +53,12 @@ def build(root,commit='',now=None):
  latest=max(ops,key=lambda x:x[0],default=None);experiment=None
  if latest:
   _,p,r=latest;ident=r.get('topic_id');folder=out/'parallel/writer-verification'/p.parent.name/str(ident)
-  if r.get('request_id')=='ops-role-skills-controlled-launch-v1':folder=out/'new'/str(ident)
+  if r.get('request_id') in ('ops-role-skills-controlled-launch-v1','ops-role-skills-image-feedback-continuation-v2'):folder=out/'new'/str(ident)
   article=read(folder/'article.json');quality=read(folder/'language-quality-status.json');evidence=read(folder/'article-evidence-review.json');tg=read(folder/'translations/tg-TJ.json')
   quality_bound=bool(article) and quality.get('source_article_sha256')==sha(article) and bool(tg) and quality.get('translation_sha256')==sha(tg)
   brief=read(data/'briefs'/(str(ident)+'.json'))
   source_ok=bool(article) and bool(brief) and evidence.get('article_sha256')==sha(article) and evidence.get('brief_sha256')==sha(brief) and all(evidence.get('review',{}).get(k) is True for k in ('all_article_claims_supported','no_additional_numbers_or_advice','units_geography_product_preserved','answers_canonical_intent','no_fabricated_human_review'))
-  experiment={'topic_id':ident,'title':article.get('title') or r.get('title') or ident or 'آزمون فنی','status':r.get('status'),'at':stamp(r),'run_url':run_url(r),'operation':p.parent.name,'model':r.get('model'),'model_calls':quality.get('model_calls_across_both_runs') if quality_bound else r.get('model_calls'),'published_posts':r.get('published_posts'),'source_reviewed':source_ok,'tajik_quality_pending':quality_bound and quality.get('status')=='experimental_draft_pending_independent_language_quality_check','native_review_done':quality.get('independent_native_language_review_done') is True if quality_bound else None,'image_calls':r.get('image_calls'),'wordpress_calls':r.get('wordpress_calls')}
+  experiment={'topic_id':ident,'title':article.get('title') or r.get('title') or ident or 'آزمون فنی','status':r.get('status'),'at':stamp(r),'run_url':run_url(r),'operation':p.parent.name,'model':r.get('model') or r.get('models',{}).get('default_text'),'model_calls':quality.get('model_calls_across_both_runs') if quality_bound else r.get('model_calls'),'published_posts':r.get('published_posts'),'source_reviewed':source_ok,'tajik_quality_pending':quality_bound and quality.get('status')=='experimental_draft_pending_independent_language_quality_check','native_review_done':quality.get('independent_native_language_review_done') is True if quality_bound else None,'image_calls':r.get('image_calls'),'wordpress_calls':r.get('wordpress_calls'),'failed_stage':r.get('failed_stage')}
  canonical=read(out/'parallel/lifecycle/latest.json')
  publications=[]
  canonical_posts=[]
