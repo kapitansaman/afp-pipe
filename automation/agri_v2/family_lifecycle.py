@@ -398,6 +398,8 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  from .parallel_client import ParallelModelClient
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
  if health.get('audit_status')!='completed' or health.get('repository')!='kapitansaman/afp-pipe' or health.get('credential_set_id')!=load_json(data/'parallel-policy.json')['credential_set_id'] or not 0<=age_hours(health['checked_at'])<24 or (health.get('text_model'),health.get('image_model'),health.get('api_base'))!=(TEXT_MODEL,IMAGE_MODEL,API_BASE):raise StageBlocked('fresh_parallel_capability_required')
+ from .family_keys import load as load_key_allocation,check_unique_values
+ if load_key_allocation(data) is not None:check_unique_values(env)
  if wp_factory is None:
   from .wordpress import WordPress
   wp_factory=WordPress

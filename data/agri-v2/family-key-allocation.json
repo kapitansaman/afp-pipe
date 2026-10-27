@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "policy": "stable-family-key-ownership-v1",
+  "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+  "enabled": true,
+  "revision": 1,
+  "cross_family_borrowing": false,
+  "automatic_reserve_promotion": false,
+  "families": {
+    "family-01": [
+      "AGNES_API_KEY",
+      "AGNES_API_KEY2",
+      "AGNES_API_KEY3",
+      "AGNES_API_KEY4"
+    ],
+    "family-02": [
+      "AGNES_API_KEY5",
+      "AGNES_API_KEY6",
+      "AGNES_API_KEY7",
+      "AGNES_API_KEY8"
+    ],
+    "family-03": [
+      "AGNES_API_KEY9",
+      "AGNES_API_KEY10",
+      "AGNES_API_KEY11",
+      "AGNES_API_KEY12"
+    ],
+    "family-04": [
+      "AGNES_API_KEY13",
+      "AGNES_API_KEY14",
+      "AGNES_API_KEY15",
+      "AGNES_API_KEY16"
+    ],
+    "family-05": [
+      "AGNES_API_KEY17",
+      "AGNES_API_KEY18",
+      "AGNES_API_KEY19",
+      "AGNES_API_KEY20"
+    ],
+    "family-06": [
+      "AGNES_API_KEY21",
+      "AGNES_API_KEY22",
+      "AGNES_API_KEY23",
+      "AGNES_API_KEY24"
+    ],
+    "family-07": [
+      "AGNES_API_KEY25",
+      "AGNES_API_KEY26",
+      "AGNES_API_KEY27",
+      "AGNES_API_KEY28"
+    ],
+    "family-08": [
+      "AGNES_API_KEY29",
+      "AGNES_API_KEY30",
+      "AGNES_API_KEY31",
+      "AGNES_API_KEY32"
+    ],
+    "family-09": [
+      "AGNES_API_KEY33",
+      "AGNES_API_KEY34",
+      "AGNES_API_KEY35",
+      "AGNES_API_KEY36"
+    ],
+    "family-10": [
+      "AGNES_API_KEY37",
+      "AGNES_API_KEY38",
+      "AGNES_API_KEY39",
+      "AGNES_API_KEY40"
+    ],
+    "family-11": [
+      "AGNES_API_KEY41",
+      "AGNES_API_KEY42",
+      "AGNES_API_KEY43",
+      "AGNES_API_KEY44"
+    ],
+    "family-12": [
+      "AGNES_API_KEY45",
+      "AGNES_API_KEY46",
+      "AGNES_API_KEY47",
+      "AGNES_API_KEY48"
+    ],
+    "family-13": [
+      "AGNES_API_KEY49",
+      "AGNES_API_KEY50",
+      "AGNES_API_KEY51",
+      "AGNES_API_KEY52"
+    ],
+    "family-14": [
+      "AGNES_API_KEY53",
+      "AGNES_API_KEY54",
+      "AGNES_API_KEY55",
+      "AGNES_API_KEY56"
+    ],
+    "family-15": [
+      "AGNES_API_KEY57",
+      "AGNES_API_KEY58",
+      "AGNES_API_KEY59",
+      "AGNES_API_KEY60"
+    ],
+    "family-16": [
+      "AGNES_API_KEY61",
+      "AGNES_API_KEY62",
+      "AGNES_API_KEY63",
+      "AGNES_API_KEY64"
+    ],
+    "family-17": [
+      "AGNES_API_KEY65",
+      "AGNES_API_KEY66",
+      "AGNES_API_KEY67",
+      "AGNES_API_KEY68"
+    ],
+    "family-18": [
+      "AGNES_API_KEY69",
+      "AGNES_API_KEY70",
+      "AGNES_API_KEY71",
+      "AGNES_API_KEY72"
+    ],
+    "family-19": [
+      "AGNES_API_KEY73",
+      "AGNES_API_KEY74",
+      "AGNES_API_KEY75",
+      "AGNES_API_KEY76"
+    ],
+    "family-20": [
+      "AGNES_API_KEY77",
+      "AGNES_API_KEY78",
+      "AGNES_API_KEY79",
+      "AGNES_API_KEY80"
+    ]
+  },
+  "central_slots": [
+    "AGNES_API_KEY81",
+    "AGNES_API_KEY82",
+    "AGNES_API_KEY83",
+    "AGNES_API_KEY84",
+    "AGNES_API_KEY85",
+    "AGNES_API_KEY86",
+    "AGNES_API_KEY87",
+    "AGNES_API_KEY88",
+    "AGNES_API_KEY89",
+    "AGNES_API_KEY90",
+    "AGNES_API_KEY91",
+    "AGNES_API_KEY92",
+    "AGNES_API_KEY93",
+    "AGNES_API_KEY94",
+    "AGNES_API_KEY95",
+    "AGNES_API_KEY96",
+    "AGNES_API_KEY97"
+  ],
+  "central_scope": "independent language backlog and explicitly admitted diagnostics; never automatic family fallback"
+}

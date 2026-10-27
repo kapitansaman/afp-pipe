@@ -36,7 +36,10 @@ def main():
   if isinstance(e,TrialValidation):failure['category']=e.code
   from .parallel_pool import PoolDeferred
   if isinstance(e,PoolDeferred):failure={'kind':'shared_pool','category':'cooldown_or_budget_or_busy'}
-  r={'status':'worker_operational_failure','topic_id':a.topic,'family_id':os.environ.get('AFP_PARALLEL_FAMILY'),'published_posts':0,'wordpress_write_calls':0,'failure':failure};atomic_json(OUT/'worker-result.json',r)
-  print(json.dumps(r,ensure_ascii=False));return 2
+  from .family_keys import FamilyCapabilityRequired
+  missing=isinstance(e,FamilyCapabilityRequired)
+  if missing:failure={'kind':'family_key_capability','category':'assigned_'+e.kind+'_capability_required'}
+  r={'status':'capability_required' if missing else 'worker_operational_failure','topic_id':a.topic,'family_id':os.environ.get('AFP_PARALLEL_FAMILY'),'published_posts':0,'wordpress_write_calls':0,'failure':failure};atomic_json(OUT/'worker-result.json',r)
+  print(json.dumps(r,ensure_ascii=False));return 0 if missing else 2
  print(json.dumps(r,ensure_ascii=False));return 0
 if __name__=='__main__':raise SystemExit(main())
