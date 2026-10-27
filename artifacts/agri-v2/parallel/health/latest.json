@@ -97,7 +97,9 @@
     "AGNES_API_KEY96",
     "AGNES_API_KEY97"
   ],
-  "eligible_image_slots": [],
+  "eligible_image_slots": [
+    "AGNES_API_KEY"
+  ],
   "audit_status": "completed",
   "unique_credentials_tested": 97,
   "checked_at": "2026-10-27T01:13:12.848376+00:00",
@@ -1465,5 +1467,12 @@
     }
   ],
   "capability_scope": "text_only_no_image_approval",
-  "source_request_id": "ops-97-text-schema-diagnostic-v2"
+  "source_request_id": "ops-97-text-schema-diagnostic-v2",
+  "image_pool_audit": {
+    "request_id": "ops-role-skills-controlled-launch-v1",
+    "updated_at": "2026-10-27T05:39:52.564097+00:00",
+    "max_image_calls": 1,
+    "model": "agnes-image-2.5-flash",
+    "publication_visual_approval": false
+  }
 }

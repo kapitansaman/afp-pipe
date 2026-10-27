@@ -1,0 +1,15 @@
+{
+  "status": "image_capability_verified",
+  "slot": "AGNES_API_KEY",
+  "run_id": "40456266202",
+  "image_calls": 1,
+  "publication_visual_approval": false,
+  "started_at": "2026-10-27T05:37:05.214963+00:00",
+  "result": {
+    "state": "healthy",
+    "http_status": 200,
+    "reference_conditioned": true,
+    "publication_visual_approval": false
+  },
+  "completed_at": "2026-10-27T05:39:52.566231+00:00"
+}
