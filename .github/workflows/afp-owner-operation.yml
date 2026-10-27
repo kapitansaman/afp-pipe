@@ -128,12 +128,12 @@ jobs:
       - run: python -m pip install --disable-pip-version-check pillow "pypdf>=5,<7"
       - name: Offline safety tests
         run: python tests/agri_v2/run_offline.py
-      - name: Read-only WordPress preflight, bounded text audit, one image probe
+      - name: Read-only preflight and exact bounded operation admission
         run: python -m automation.agri_v2.operation_request --phase prepare
       - name: Persist capability receipts before pilot
         if: always()
         run: bash .github/scripts/persist-agri-v2.sh
-      - name: One owned pilot; every original source and publication gate remains
+      - name: Run the exact bounded pilot; source and publication gates remain
         if: success()
         run: python -m automation.agri_v2.operation_request --phase pilot
       - name: Preserve final progress without resetting attempts
