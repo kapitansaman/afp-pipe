@@ -75,3 +75,27 @@ class OwnerOperationTests(unittest.TestCase):
    with patch.object(op,'load_owner_request',return_value={'request_id':op.GROUNDED_ID,'request':req}),patch('automation.agri_v2.parallel_control.policy'),patch('automation.agri_v2.parallel_control.reserve',return_value={}),patch('automation.agri_v2.production_readiness.run',return_value=readiness),patch('automation.agri_v2.parallel_audit.run') as audit,patch.object(op,'image_capability') as image:
     r=op.prepare(self.env(),d,o)
    self.assertEqual(r['status'],'pilot_prerequisites_passed');audit.assert_not_called();image.assert_not_called()
+
+ def test_retry_prepare_passes_current_id_to_image_probe(self):
+  from automation.agri_v2.parallel_pool import SLOTS
+  with tempfile.TemporaryDirectory() as t:
+   d=Path(t)/'data';o=Path(t)/'out';e=self.env();self.health(o)
+   h=load_json(o/'parallel/health/latest.json');h['eligible_text_slots']=SLOTS[:20];atomic_json(o/'parallel/health/latest.json',h)
+   req=self.req();req['request_id']=op.RETRY_ID
+   readiness={'gates':{k:{'passed':True} for k in ['fresh_text_capacity','fresh_image_capacity','authenticated_publisher','translation_bridge','lifecycle_enabled']}}
+   with patch.object(op,'load_owner_request',return_value={'request_id':op.RETRY_ID,'request':req}),patch('automation.agri_v2.parallel_control.policy'),patch('automation.agri_v2.parallel_control.reserve',return_value={}),patch('automation.agri_v2.production_readiness.run',return_value=readiness),patch('automation.agri_v2.parallel_audit.run',return_value={'status':'completed'}),patch.object(op,'image_capability',return_value={'status':'image_capability_verified'}) as image:
+    result=op.prepare(e,d,o)
+   image.assert_called_once_with(e,d,o,request_id=op.RETRY_ID)
+   self.assertEqual(result['status'],'pilot_prerequisites_passed')
+
+ def test_retry_image_proof_is_separate_from_consumed_original(self):
+  with tempfile.TemporaryDirectory() as t:
+   o=Path(t);self.health(o);old=o/'parallel/operations'/op.ID/'image-proof.json'
+   atomic_json(old,{'status':'reserved','run_id':'old'});before=old.read_bytes()
+   probe=Mock(return_value=({'state':'healthy','http_status':200},b'verified-by-production-probe'))
+   with patch('automation.agri_v2.recovery.circuit_open',return_value=False):
+    result=op.image_capability(self.env(),out=o,probe_fn=probe,request_id=op.RETRY_ID)
+    replay=op.image_capability(self.env(),out=o,probe_fn=probe,request_id=op.RETRY_ID)
+   self.assertEqual(result['status'],'image_capability_verified');self.assertEqual(replay['status'],'already_reserved');self.assertEqual(probe.call_count,1)
+   self.assertEqual(old.read_bytes(),before)
+   self.assertEqual(load_json(o/'parallel/operations'/op.RETRY_ID/'image-proof.json')['status'],'image_capability_verified')

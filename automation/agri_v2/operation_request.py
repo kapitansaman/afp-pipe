@@ -201,7 +201,7 @@ def prepare(env=None,data=DATA,out=OUT):
  h=load_json(out/'parallel/health/latest.json') if (out/'parallel/health/latest.json').exists() else {}
  from .parallel_capacity import CREDENTIAL_SET_ID
  text_ready=h.get('credential_set_id')==CREDENTIAL_SET_ID and h.get('audit_status')=='completed' and 0<=age_hours(h['checked_at'])<24 and len(h.get('eligible_text_slots',[]))>=20
- if text_ready and admission['request']['max_image_health_calls']:report['image']=image_capability(env,data,out);atomic_json(rp,report)
+ if text_ready and admission['request']['max_image_health_calls']:report['image']=image_capability(env,data,out,request_id=rid);atomic_json(rp,report)
  after=readiness(data,out);report['readiness_after']=after
  required=['fresh_text_capacity','fresh_image_capacity','authenticated_publisher','translation_bridge','lifecycle_enabled']
  if rid==FULL_QUEUE_ID:required=['configured_capacity','fresh_text_capacity','authenticated_publisher','lifecycle_enabled']
