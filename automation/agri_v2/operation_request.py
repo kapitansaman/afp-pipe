@@ -3,6 +3,7 @@ import argparse,json,os,subprocess,urllib.request
 from .queue import DATA,OUT,ROOT,atomic_json,load_json,utcnow,age_hours
 ID='ops-97-readiness-pilot-v1'
 RETRY_ID='ops-97-readiness-pilot-v2'
+from .ready_storage_pilot import ID as READY_STORAGE_ID
 CONTINUATION_ID='ops-97-pilot-citation-v2'
 GROUNDED_ID='ops-97-pilot-grounded-v3'
 SUPPLEMENT_ID='ops-97-pilot-editorial-v4'
@@ -28,8 +29,11 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,RETRY_ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID,IMAGE_FALLBACK_TEST_ID,LANGUAGE_FALLBACK_CONT_ID,PERSIAN_SOURCE_ID,THREE_SOURCE_ID,THREE_SOURCE_REPAIR_ID,THREE_SOURCE_SAVED_ID,THREE_SOURCE_OVERLAP_ID,THREE_SOURCE_FAMILY_CONTEXT_ID):raise ValueError('Unknown bounded owner request')
+ if rid not in (ID,RETRY_ID,READY_STORAGE_ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID,IMAGE_FALLBACK_TEST_ID,LANGUAGE_FALLBACK_CONT_ID,PERSIAN_SOURCE_ID,THREE_SOURCE_ID,THREE_SOURCE_REPAIR_ID,THREE_SOURCE_SAVED_ID,THREE_SOURCE_OVERLAP_ID,THREE_SOURCE_FAMILY_CONTEXT_ID):raise ValueError('Unknown bounded owner request')
  expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid in (ID,RETRY_ID) else 0,'max_image_health_calls':1 if rid in (ID,RETRY_ID) else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
+ if rid==READY_STORAGE_ID:
+  from .ready_storage_pilot import expected_request as ready_request
+  expected=ready_request()
  if rid in (THREE_SOURCE_ID,THREE_SOURCE_REPAIR_ID,THREE_SOURCE_SAVED_ID,THREE_SOURCE_OVERLAP_ID,THREE_SOURCE_FAMILY_CONTEXT_ID):
   from .three_source_trial import expected_request as trial_request
   expected=trial_request(rid)
@@ -146,6 +150,9 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None,request_id=ID):
 
 def prepare(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env);admission=load_owner_request(env,data)
+ if admission['request_id']==READY_STORAGE_ID:
+  from .ready_storage_pilot import run as ready_pilot
+  return ready_pilot(env,data,out)
  if admission['request_id'] in (THREE_SOURCE_ID,THREE_SOURCE_REPAIR_ID,THREE_SOURCE_SAVED_ID,THREE_SOURCE_OVERLAP_ID,THREE_SOURCE_FAMILY_CONTEXT_ID):
   from .three_source_trial import prepare as prepare_trial
   return prepare_trial(env,data,out,request_id=admission['request_id'])
@@ -211,6 +218,9 @@ def pilot(env=None,data=DATA,out=OUT):
  env=dict(os.environ if env is None else env)
  if not authorize(env,data):raise ValueError('Bound current owner operation admission required')
  rid=load_json(data/'status/owner-operation-admission.json')['request_id']
+ if rid==READY_STORAGE_ID:
+  from .ready_storage_pilot import result as ready_result
+  return ready_result(env,data,out)
  if rid in (THREE_SOURCE_ID,THREE_SOURCE_REPAIR_ID,THREE_SOURCE_SAVED_ID,THREE_SOURCE_OVERLAP_ID,THREE_SOURCE_FAMILY_CONTEXT_ID):
   from .three_source_trial import pilot as run_trial
   return run_trial(env,data,out,request_id=rid)
@@ -247,5 +257,5 @@ def main():
  result=prepare() if args.phase=='prepare' else pilot()
  failures=[{k:row[k] for k in ('topic_id','family_id','stage','status','failure') if k in row} for row in result.get('results',[]) if row.get('failure')]
  print(json.dumps({'phase':args.phase,'status':result.get('status'),'run_id':os.environ.get('GITHUB_RUN_ID'),'published_posts':result.get('published_posts',0),'stage_failures':failures},ensure_ascii=False))
- return 0 if result.get('status') in ('three_source_trial_prepared','three_source_trial_complete','source_only_pilot_prepared','source_only_pilot_public_verified','image_fallback_verification_passed','role_skills_launch_prepared','controlled_launch_published','pilot_prerequisites_passed','research_prerequisites_passed','completed','diagnostic_completed','verification_completed','alternate_reviewer_validated','flash_samples_completed','revised_pair_verified','revised_pair_verified_after_reference_feedback') else 2
+ return 0 if result.get('status') in ('ready_nonpublishing_pilot_verified','three_source_trial_prepared','three_source_trial_complete','source_only_pilot_prepared','source_only_pilot_public_verified','image_fallback_verification_passed','role_skills_launch_prepared','controlled_launch_published','pilot_prerequisites_passed','research_prerequisites_passed','completed','diagnostic_completed','verification_completed','alternate_reviewer_validated','flash_samples_completed','revised_pair_verified','revised_pair_verified_after_reference_feedback') else 2
 if __name__=='__main__':raise SystemExit(main())
