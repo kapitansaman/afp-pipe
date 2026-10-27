@@ -4,21 +4,53 @@
   "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
   "language": "ru-RU",
   "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
-  "status": "waiting",
-  "reason": "provider_backpressure",
-  "attempts": 0,
-  "model_calls_spent": 0,
-  "next_attempt_at": "2026-10-27T07:32:59.350329+00:00",
+  "status": "published",
+  "reason": "source_bound_fidelity_passed",
+  "attempts": 1,
+  "model_calls_spent": 2,
+  "next_attempt_at": null,
   "history": [
     {
       "event": "provider_deferred_without_attempt",
       "previous_next_attempt_at": "2026-10-27T12:32:59.365084+00:00",
       "retry_at": "2026-10-27T07:32:59.350329+00:00",
       "at": "2026-10-27T06:38:57.081784+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 1,
+      "max_calls": 4,
+      "at": "2026-10-27T14:56:29.799681+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 1,
+      "reserved_model_calls": 2,
+      "status": "approved",
+      "at": "2026-10-27T14:56:57.018275+00:00"
     }
   ],
   "created_at": "2026-10-27T06:32:59.363777+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,
-  "primary_finished": true
+  "primary_finished": true,
+  "last_started_at": "2026-10-27T14:56:29.799670+00:00",
+  "published_receipt": {
+    "post_id": 524191,
+    "url": "https://navar-abyari.ir/carrot-germination-temperature-moisture-crusted-soil-ru-ru/",
+    "language": "ru-RU",
+    "source_post_id": 524186,
+    "status": "published",
+    "public_verified": true,
+    "shared_media": [
+      {
+        "index": 1,
+        "id": 524187,
+        "url": "https://navar-abyari.ir/wp-content/uploads/agri-b6f7d6bea16b-image-1.webp"
+      }
+    ],
+    "new_media_uploads": 0,
+    "display_units_policy": "localized-display-units-v1",
+    "verified_at": "2026-10-27T14:58:23.655311+00:00"
+  }
 }

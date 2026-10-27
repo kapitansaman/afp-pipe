@@ -1,0 +1,84 @@
+{
+  "topic_id": "agri-d52cdebf818e",
+  "candidate_sha256": "d707fb929445830b92fa52d1aa6da3cc10a707d96266ea41103247bdc9697dd1",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "منابع ترویجی دانشگاهی آمریکا عمدتاً دامنه عملکرد چغندر لبویی را در مقیاس مزرعه کوچک خانگی گزارش می‌کنند؛ تبدیل مستقیم به عملکرد تجاری در هکتار در این منابع موجود نیست.",
+        "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا؛ محصول: ریشه چغندر لبویی تازه; واحد: پوند در هر ۱۰ فوت طول ردیف; دامنه: ۵ تا ۱۰ پوند در هر ۱۰ فوت ردیف کشت‌شده",
+        "evidence_id": "d0-e8",
+        "numeric_bindings": [
+          {
+            "value": "5-10",
+            "unit_quote": "5-10 lbs.",
+            "geographic_scope": "Utah home garden",
+            "product_scope": "beet roots, fresh"
+          },
+          {
+            "value": "10",
+            "unit_quote": "10 linear feet",
+            "geographic_scope": "Utah home garden",
+            "product_scope": "planted row length"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e8",
+        "source_url": "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden",
+        "quote": " larger they tend to get more fibrous. Use a digging fork to loosen soil and pull up needed plants by the tops and trim off leaves. Wash and store at 32ºF and 95% relative humidity for 2-4 months. Young leaves may be cooked and eaten as well. Harvest beet leaves when they are 4-6 inches tall. Beets should be harvested before heavy frosts or freezes. Beet Plant Productivity Plant 5-10 feet of row per person for fresh use and an additional 10-20 feet for storage or canning. Expect about 5-10 lbs. of beet roots per 10 linear feet of planted row. Beet Nutrition Beets are low in calories and are a good source of vitamin C. A medium sized root has only 50 calories, no fat, and supplies 4% of the daily vitamin C requirement. Beet tops (greens) are an excellent source of vitamin A and provide more minerals and vitamins than the root. Frequently Asked Questions Why do my beets flower rather than "
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "دماهای بالاتر از ۸۵ درجه فارنهایت همراه با کم‌آبی می‌تواند منجر به ایجاد ریشه‌های چوبی و کاهش کیفیت محصول شود.",
+        "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا; محصول: چغندر لبویی; واحد: کیفی; محدودیت: توصیف کیفی بدون نرخ عددی کاهش عملکرد",
+        "evidence_id": "d0-e9",
+        "numeric_bindings": [
+          {
+            "value": "85",
+            "unit_quote": "85ºF",
+            "geographic_scope": "Utah home garden",
+            "product_scope": "beet root quality"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e9",
+        "source_url": "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden",
+        "quote": " an excellent source of vitamin A and provide more minerals and vitamins than the root. Frequently Asked Questions Why do my beets flower rather than form a bulb? Beets require some chilling to form flower stalks. If planted too early, this can occur. Why do some of my beets fail to form a bulb? Beets need some room to grow. Over-crowding can contribute to poor bulb development. What can I do to reduce woody beet roots? Hot weather and water stress can cause woody bulbs. Keep plants well-watered when temperature go above 85ºF. Published May 2020 Utah State University Extension Peer-reviewed fact sheet Download PDF Authors Dan Drost, Vegetable Specialist Daniel Drost Former Vegetable Specialist PSC Dept Related Research Apple Production and Variety Recommendations for the Utah Home Garden This bulletin presents appropriate information pertaining to growing apple trees in the home orchard."
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "عملکرد چغندر لبویی بسته به ارقام مختلف در بازۀ ۶۰ تا ۸۰ روز از کاشت به بلوغ می‌رسد.",
+        "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا; محصول: چغندر لبویی; واحد: روز; دامنه: ۶۰ تا ۸۰ روز تا بلوغ ریشه",
+        "evidence_id": "d0-e7",
+        "numeric_bindings": [
+          {
+            "value": "60-80",
+            "unit_quote": "60-80 days",
+            "geographic_scope": "Utah home garden",
+            "product_scope": "beet root maturity"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e7",
+        "source_url": "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden",
+        "quote": "ll seedlings. Control with chemicals at seeding or after seedlings have emerged from the soil. Disease Symptom Control Leaf Spots Fungal diseases that cause circular spotting on infected leaves. Occur when foliage remains wet for long periods. More common late in the year. Root Rots Fungal diseases that cause decay and rotting of the root. May affect plant stands Crop rotation, improved soil drainage, and seed treatments are effective control options. Yellows Yellow discoloration of plants. Carried by leafhoppers. Cover plants with fabric mulch. No known control. How to Harvest and Store Beets Beets can be harvested as soon as the roots begin to size. Generally roots are mature 60-80 days from seeding, depending on variety. As the roots get larger they tend to get more fibrous. Use a digging fork to loosen soil and pull up needed plants by the tops and trim off leaves. Wash and store at "
+      }
+    }
+  ],
+  "candidate_error": "numeric_fact_cannot_be_qualitative",
+  "declared_insufficiency": null
+}

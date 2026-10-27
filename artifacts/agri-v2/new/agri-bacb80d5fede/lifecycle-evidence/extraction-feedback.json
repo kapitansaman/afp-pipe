@@ -1,0 +1,32 @@
+{
+  "topic_id": "agri-bacb80d5fede",
+  "candidate_sha256": "67ebdb135895d86a87a9bd9de6da8e33c956a03c7795a0017ecd6fe04b17593e",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 2,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "مقاله سنجشگرهای رطوبت خاک اصول کلی زمان‌بندی آبیar irrigation scheduling with sensors را توضیح می‌دهد ولی برای لوبیای چیتی پس از باران دستورالعمل اختصاصی ارائه نمی‌کند.",
+        "conditions": "مبانی FC، PWP، AWC، MAD 50% و روش‌های اندازه‌گیری VWC/tension توصیف شده‌اند؛ این اصول برای هر محصولی قابل انتقال‌اند اما passage صراحتاً درباره زمان شروع آبیar irrigation restart بعد از باران برای پینتو صحبت نمی‌کند.",
+        "evidence_id": "d5-e10",
+        "numeric_bindings": [
+          {
+            "value": "50%",
+            "unit_quote": "Management allowable depletion (MAD)=50%",
+            "geographic_scope": "general sensor-article examples",
+            "product_scope": "generic crop, not pinto dry bean"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e10",
+        "source_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+        "quote": "s must be multiplied by the depth of the root zone to give total water in that soil depth. For example: If a 12-inch soil profile has a VWC of 9%, then Total water in a 12-inch profile = 0.09 x 12 inches = 1.08 inches water If field capacity is 18%, then Soil water depletion/deficit = (0.18 x 12 inches) - 1.08 inches = 1.08 inches Soil water deficits and crop stress For irrigation scheduling, it's important to understand the soil water content at which a crop begins to experience stress. In general, most crops begin to experience stress when soil water depletion/deficit is 30-50% of available water holding capacity (AWC). This is called management allowable depletion (MAD) or irrigation trigger point. MAD can vary depending upon crop, growth stage and an irrigation system’s pumping capacity. For more information, see MAD strategies by growth stage/season . Irrigation should be triggered "
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "No fetched source directly addresses post-rainfall irrigation timing for pinto dry bean (Phaseolus vulgaris L., pinto market class). Existing passages cover general bean watering guidelines, soil moisture sensor technology, poor germination in wet soils, direct-harvest logistics, and USDA grade standards — none of which provide a decision criterion (qualitative or quantitative) for when to resume irrigation after a rainfall event for this specific crop/product. To answer the title, a directly relevant university/trends source stating observed soil-moisture thresholds, crop-stage triggers, or measured depletion values specific to pinto dry bean after rain is required."
+}

@@ -1,0 +1,90 @@
+{
+  "topic_id": "agri-a83aaf27045f",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی خشک (pinto dry bean, Phaseolus vulgaris) — محصول برداشت‌شده: دانه خشک؛ هدف: مدیریت رطوبت پس از کاشت",
+  "slug": "first-irrigation-pinto-dry-bean-establishment-moisture",
+  "outline": [
+    "پایش رطوبت اولیه و وضعیت خاک پس از کاشت",
+    "شرایط کیفی شروع اولین آبیاری و حساسیت به خشکی یا غرقابی",
+    "ملاحظات مربوط به بستر استقرار و جلوگیری از پوسته‌بندی",
+    "حدود و محدودیت‌های منابع موجود برای تعیین زمان دقیق اولین آبیاری لوبیا چیتی"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "بذر لوبیا در خاک سرد و خیس مستعد پوسیدگی است؛ بذرها در چنین شرایطی به‌جای جوانه‌زنی فاسد می‌شوند.",
+      "conditions": "منطقه: ایالات متحده (Mississippi State University Extension). محصول: لوبیا باقلائی (common bean) از جمله انواع خشک. واحد: کیفی. حد: بذر در خاک سرد-ترشح‌نشده.",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "هر دو حالت رطوبت بیش‌ازحد و کم‌بودن آبیاری در مرحله گل‌دهی سبب ریزش گل و غلاف کوچک می‌شود.",
+      "conditions": "منطقه: ایالات متحده (Mississippi State University Extension). محصول: لوبیا سبز و خشک. واحد: کیفی. حد: مرحله گل‌دهی و تشکیل غلاف.",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های رسی و فشرده مانع خروج کپلوله‌ها شده و جوانه‌زنی را کاهش می‌دهند؛ تشکیل پوسته سخت روی خاک نیز جوانه‌زنی را مختل می‌کند.",
+      "conditions": "منطقه: ایالات متحده (Mississippi State University Extension / University of Maryland Extension). محصول: لوبیا باقلائی. واحد: کیفی. حد: مرحله کاشت و استقرار اولیه.",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های با زهکشی ضعیف و رطوبت ماندگار پس از باران، زمینه‌ساز بیماری پوسیدگی ساقه و ریشه (damping-off) در بذرهای بزرگ از جمله لوبیا می‌شوند.",
+      "conditions": "منطقه: ایالات متحده (University of Maryland Extension). محصول: سبزیجات از جمله لوبیا. واحد: کیفی. حد: خاک مرطوب سرد و زهکشی نامناسب.",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در خاک‌های با حفظ رطوبت بهتر، لوبیا معمولاً تنها در شرایط خشکسالی نیاز به آبیاری دارد؛ آبیاری حدود یک اینچ در هفته برای نفوذ تا عمق مشخص توصیه شده است.",
+      "conditions": "منطقه: مینه‌سوتا، ایالات متحده (University of Minnesota Extension). محصول: لوبیا باقلائی (dry/snap/shelling bean). واحد: اینچ آب / اینچ نفوذ در خاک. حد: فقط برای خاک‌های شنی نفوذ تا ۱۰ اینچ و خاک‌های رسی سنگین نفوذ تا ۶ اینچ ثبت شده است.",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": [
+        {
+          "value": "1",
+          "unit_quote": "One inch of rainfall per week is good.",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "beans (Phaseolus vulgaris)"
+        },
+        {
+          "value": "10",
+          "unit_quote": "An inch of water will wet a sandy soil to a depth of ten inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "sandy soil under beans"
+        },
+        {
+          "value": "6",
+          "unit_quote": "a heavy clay soil to six inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "heavy clay soil under beans"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کود نیتروژن‌دار زیاد و خاک‌های غنی از نیتروژن باعث رشد رویشی افراطی و عدمformation غلاف می‌شوند؛ آبیاری سنگین بدون تعادل، اثر مشابه ایجاد می‌کند.",
+      "conditions": "منطقه: ایالات متحده (Mississippi State University Extension / University of Minnesota Extension). محصول: لوبیا. واحد: کیفی. حد: تغذیه و آبیاری همزمان.",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای ارزیابی عمق خیس‌شدگی خاک بعد از آبیاری، استفاده از بیلچه دستی توصیه شده است.",
+      "conditions": "منطقه: مینه‌سوتا، ایالات متحده (University of Minnesota Extension). محصول: لوبیا. واحد: کیفی. حد: پایش مزرعه‌ای پس از آبیاری.",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "هیچ‌یک از منابع بررسی‌شده، زمان دقیق اولین آبیاری پس از کاشت لوبیا چیتی یا آستانه رطوبت ویژه‌ای برای آغاز آبیاری اول معرفی نکرده‌اند؛ دستورالعمل‌ها کلی و منطقه‌ای هستند.",
+      "conditions": "منطقه: ایالات متحده (چندمنبعه). محصول: لوبیا خشک (common dry bean). واحد: —. حد: عدم ارائه زمان‌بندی کمی آبیاری نخست برای لوبیا چیتی.",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": []
+    }
+  ]
+}

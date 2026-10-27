@@ -1,0 +1,77 @@
+{
+  "topic_id": "agri-1f58a0e82783",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی (Pinto dry bean, Phaseolus vulgaris L., harvested as mature dry seed)",
+  "slug": "planting-time-pinto-dry-bean",
+  "outline": [
+    "تعریف محصول و سامانه کشت",
+    "شواهد استقرار و دمای خاک",
+    "پایش و تصمیم‌گیری برای زمان کاشت",
+    "خطاها و محدودیت انتقال منبع"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "بذر لوبیا در خاک سرد و تر دچار پوسیدگی می‌شود و جایگزین سبز شدن نمی‌گردد.",
+      "conditions": "خاک سرد و مرطوب، اقلیم معتدل-سرد؛ منطقه منشأ: ایالات متحده (Mississippi, Minnesota)",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "تخم‌مرغ بذر لوبیا در دمای خاک کمتر از ۵۰ درجه فارنهایت جوانه نمی‌زند و رشد آن کُند و ناهموار است.",
+      "conditions": "دمای خاک، محصولات گرمادوست شامل لوبیا؛ منطقه منشأ: ایالات متحده (Maryland)",
+      "evidence_id": "d1-e7",
+      "numeric_bindings": [
+        {
+          "value": "50",
+          "unit_quote": "below 50° F",
+          "geographic_scope": "US (Maryland extension)",
+          "product_scope": "beans (warm-season vegetable crops, general)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کاشت بذر لوبیا مشترک باید پس از گرم شدن خاک انجام شود؛ در بخش‌هایی از مینه‌سوتا این زمان به اواخر مه یا اوایل ژوئن موکول می‌شود.",
+      "conditions": "گرم شدن خاک، اقلیم سرد-معتدل؛ منطقه منشأ: مینه‌سوتا، ایالات متحده",
+      "evidence_id": "d2-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کشت مستقیم لوبیای خشک table-class پینتو نیازمند انتخاب رقم قائم، سطح campo صاف، کنترل علف‌های هرز و کمباین flex draper head مناسب است؛ تاریخ کاشت اختصاصی برای ایران در منابع موجود نیست.",
+      "conditions": "لوبیای خشک پینتو، سامانه direct harvest؛ منطقه منشأ: نبراسکا، ایالات متحده",
+      "evidence_id": "d5-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در آزمون نبراسکا، بذر پینتو در ۷ ژوئن کاشته شد و برداشت در ۱۶ سپتامبر انجام گرفت؛ این یک مشاهده فصلی آمریکایی است و تقویم کاشت ایران را تعیین نمی‌کند.",
+      "conditions": "پینتو dry bean، direct harvest trial؛ منطقه منشأ: Box Butte County, Nebraska, US",
+      "evidence_id": "d3-e5",
+      "numeric_bindings": [
+        {
+          "value": "June 7",
+          "unit_quote": "June 7",
+          "geographic_scope": "Nebraska Panhandle, US",
+          "product_scope": "pinto dry bean (direct harvest trial)"
+        },
+        {
+          "value": "Sept. 16",
+          "unit_quote": "harvest was Sept. 16",
+          "geographic_scope": "Nebraska Panhandle, US",
+          "product_scope": "pinto dry bean (direct harvest trial)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منابع_fetch شده عمدتاً مربوط به لوبیا اسناک، لیمابین و لوبیای مشترک generic هستند؛ هیچ منبع تاریخ کاشت اختصاصی لوبیا چیتی خشک بر پایه دمای خاک برای اقلیم ایران ارائه نمی‌دهد.",
+      "conditions": "بررسی تطبیقی منابع؛ محدوده: عمومی",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    }
+  ]
+}

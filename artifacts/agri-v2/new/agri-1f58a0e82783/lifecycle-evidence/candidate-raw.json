@@ -2,76 +2,77 @@
   "topic_id": "agri-1f58a0e82783",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی (Pinto dry bean, Phaseolus vulgaris L., harvested as mature dry seed)",
-  "slug": "planting-time-pinto-dry-bean",
+  "product_definition": "لوبیا چیتی (pinto dry bean, Phaseolus vulgaris L., dry market class)",
+  "slug": "planting-time-pinto-dry-bean-soil-temp-climate",
   "outline": [
-    "تعریف محصول و سامانه کشت",
-    "شواهد استقرار و دمای خاک",
-    "پایش و تصمیم‌گیری برای زمان کاشت",
-    "خطاها و محدودیت انتقال منبع"
+    "تعریف محصول و دامنه شواهد",
+    "شرایط کیفی دما و خاک برای استقرار",
+    "محدودیت‌های انتقال اقلیمی و کمبود شواهد",
+    "پایش و تصمیم‌گیری مبتنی بر منبع"
   ],
   "facts": [
     {
-      "kind": "source_observation",
-      "claim": "بذر لوبیا در خاک سرد و تر دچار پوسیدگی می‌شود و جایگزین سبز شدن نمی‌گردد.",
-      "conditions": "خاک سرد و مرطوب، اقلیم معتدل-سرد؛ منطقه منشأ: ایالات متحده (Mississippi, Minnesota)",
-      "evidence_id": "d0-e0",
+      "kind": "qualitative",
+      "claim": "ذرت و لوبیا از دانه‌های بزرگ هستند که در خاک سرد و تر پوسیده می‌شوند.",
+      "conditions": "منطقه منبع: ایالات متحده (University of Maryland Extension). محصول: بذر لوبیا و ذرت. محدودیت: آستانه دمایی عددی برای لوبیای چیتی در اینجا ذکر نشده است.",
+      "evidence_id": "d1-e8",
       "numeric_bindings": []
     },
     {
-      "kind": "source_observation",
-      "claim": "تخم‌مرغ بذر لوبیا در دمای خاک کمتر از ۵۰ درجه فارنهایت جوانه نمی‌زند و رشد آن کُند و ناهموار است.",
-      "conditions": "دمای خاک، محصولات گرمادوست شامل لوبیا؛ منطقه منشأ: ایالات متحده (Maryland)",
-      "evidence_id": "d1-e7",
-      "numeric_bindings": [
-        {
-          "value": "50",
-          "unit_quote": "below 50° F",
-          "geographic_scope": "US (Maryland extension)",
-          "product_scope": "beans (warm-season vegetable crops, general)"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "کاشت بذر لوبیا مشترک باید پس از گرم شدن خاک انجام شود؛ در بخش‌هایی از مینه‌سوتا این زمان به اواخر مه یا اوایل ژوئن موکول می‌شود.",
-      "conditions": "گرم شدن خاک، اقلیم سرد-معتدل؛ منطقه منشأ: مینه‌سوتا، ایالات متحده",
+      "kind": "qualitative",
+      "claim": "بذر لوبیا در خاک سرد احتمال پوسیدگی دارد تا جوانه‌زنی، و رشد گیاه در هوای خنک بسیار کند خواهد بود.",
+      "conditions": "منطقه منبع: مینسوتا، ایالات متحده (UMN Extension). محصول: لوبیای common bean. محدودیت: توصیه کیفی، فاقد آستانه دمایی عددی اختصاصی برای لوبیای چیتی.",
       "evidence_id": "d2-e12",
       "numeric_bindings": []
     },
     {
-      "kind": "qualitative",
-      "claim": "کشت مستقیم لوبیای خشک table-class پینتو نیازمند انتخاب رقم قائم، سطح campo صاف، کنترل علف‌های هرز و کمباین flex draper head مناسب است؛ تاریخ کاشت اختصاصی برای ایران در منابع موجود نیست.",
-      "conditions": "لوبیای خشک پینتو، سامانه direct harvest؛ منطقه منشأ: نبراسکا، ایالات متحده",
-      "evidence_id": "d5-e5",
-      "numeric_bindings": []
-    },
-    {
       "kind": "source_observation",
-      "claim": "در آزمون نبراسکا، بذر پینتو در ۷ ژوئن کاشته شد و برداشت در ۱۶ سپتامبر انجام گرفت؛ این یک مشاهده فصلی آمریکایی است و تقویم کاشت ایران را تعیین نمی‌کند.",
-      "conditions": "پینتو dry bean، direct harvest trial؛ منطقه منشأ: Box Butte County, Nebraska, US",
-      "evidence_id": "d3-e5",
+      "claim": "در بیشتر مینسوتا زمان مناسب کاشت بعد از گرم شدن خاک، اواخر مه یا اوایل ژوئن است.",
+      "conditions": "منطقه منبع: مینسوتا، ایالات متحده (UMN Extension). محصول: لوبیا. محدودیت: بازه ماهانه منطقه‌ای آمریکای شمالی؛ تقویم محلی ایران نیست.",
+      "evidence_id": "d2-e12",
       "numeric_bindings": [
         {
-          "value": "June 7",
-          "unit_quote": "June 7",
-          "geographic_scope": "Nebraska Panhandle, US",
-          "product_scope": "pinto dry bean (direct harvest trial)"
+          "value": "late May",
+          "unit_quote": "not until late May",
+          "geographic_scope": "Minnesota, United States",
+          "product_scope": "beans (general Phaseolus vulgaris)"
         },
         {
-          "value": "Sept. 16",
-          "unit_quote": "harvest was Sept. 16",
-          "geographic_scope": "Nebraska Panhandle, US",
-          "product_scope": "pinto dry bean (direct harvest trial)"
+          "value": "early June",
+          "unit_quote": "or even early June",
+          "geographic_scope": "Minnesota, United States",
+          "product_scope": "beans (general Phaseolus vulgaris)"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "منابع_fetch شده عمدتاً مربوط به لوبیا اسناک، لیمابین و لوبیای مشترک generic هستند؛ هیچ منبع تاریخ کاشت اختصاصی لوبیا چیتی خشک بر پایه دمای خاک برای اقلیم ایران ارائه نمی‌دهد.",
-      "conditions": "بررسی تطبیقی منابع؛ محدوده: عمومی",
+      "claim": "لوبیا به خاک سرد و دمای هوای سرد حساس است و در خاک سرد و تر بذر لوبیای رنگی به‌طور نسبی مقاومت بیشتری دارد نسبت به بذر سفید.",
+      "conditions": "منطقه منبع: میسیسیپی، ایالات متحده (Mississippi State Extension). محصول: garden beans (عمومی). محدودیت: اشاره کلی به حساسیت به سرما؛ آستانه عددی دقیق برای پینتو درج نشده.",
       "evidence_id": "d0-e0",
       "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک رسی یا فشرده مانع خروج کتیلهای during germination می‌شود و جوانه‌زنی ضعیف خواهد بود.",
+      "conditions": "منطقه منبع: میسیسیپی، ایالات متحده (Mississippi State Extension). محصول: garden beans. محدودیت: کیفیت ساختار خاک، فاقد محدوده دمایی عددی.",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کاشت در عمق حدود یک اینچ توصیه شده است و دانه‌های ریزتر باید سطحی‌تر کاشته شوند.",
+      "conditions": "منطقه منبع: مینسوتا، ایالات متحده (UMN Extension). محصول: لوبیا. محدودیت: عمق کاشت؛ پاسخ‌گوی آستانه دمایی کاشت برای لوبیای چیتی نیست.",
+      "evidence_id": "d2-e12",
+      "numeric_bindings": [
+        {
+          "value": "an inch",
+          "unit_quote": "about an inch deep",
+          "geographic_scope": "Minnesota, United States",
+          "product_scope": "beans (general Phaseolus vulgaris)"
+        }
+      ]
     }
-  ]
+  ],
+  "insufficiency_reason": "موضوع درخواست‌کننده تقویم کاشت لوبیای چیتی بر پایه دمای خاک و اقلیم است، اما شواهد موجود فاقد هر یک از موارد زیر است: (۱) آستانه دمایی عددی اختصاصی برای جوانه‌زنی لوبیای چیتی/pinto، (۲) بازه تقویمی بومی ایران یا منطقه مورد نظر کاربر، (۳) روش کمی پایش دمای خاک ویژه این گونه. شواهد ارائه‌شده فقط اصول کیفی عمومی لوبیا و بازه‌های ماهانه منطقه‌ای ایالات متحده را پوشش می‌دهند و تبدیل آن‌ها به دستورالعمل کاشت محلی لوبیای چیتی امکان‌پذیر نیست."
 }

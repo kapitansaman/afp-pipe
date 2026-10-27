@@ -2,145 +2,146 @@
   "topic_id": "agri-934dd1366a8b",
   "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "بذر خشک لوبیا چشم‌بلبلی (Vigna unguiculata)",
-  "slug": "cowpea-yield-per-hectare",
+  "product_definition": "دانه خشک لوبیا چشم‌بلبلی (cowpea, Vigna unguiculata)؛ محصول قابل‌فروش: بذر خشک و نیز غلاف سبز",
+  "slug": "cowpea-yield-per-hectar-range-factors",
   "outline": [
-    "تعریف محصول و دامنه",
+    "تعریف محصول و دامنه عملکرد",
     "مشاهدات مستند عملکرد",
     "عوامل مستند تغییر عملکرد",
     "کاربرد و محدودیت نتایج"
   ],
   "facts": [
     {
-      "kind": "source_observation",
-      "claim": "عملکرد بذر خشک لوبیا چشم‌بلبلی در تگزاس (۱۹۷۸ و ۱۹۷۹) نشان‌دهنده نوسان قابل‌توجه بود.",
-      "conditions": "منطقه: تگزاس، ایالات متحده؛ محصول: بذر خشک؛ واحد: lb/acre؛ مبنای برداشت: دیم/آبی؛ تاریخ: ۱۹۷۸ و ۱۹۷۹",
-      "evidence_id": "d0-e28",
-      "numeric_bindings": [
-        {
-          "value": "625",
-          "unit_quote": "625 and 1400 lb/acre",
-          "geographic_scope": "Texas, USA",
-          "product_scope": "green cowpeas"
-        },
-        {
-          "value": "1400",
-          "unit_quote": "625 and 1400 lb/acre",
-          "geographic_scope": "Texas, USA",
-          "product_scope": "green cowpeas"
-        },
-        {
-          "value": "570",
-          "unit_quote": "570 and 1000 lb/acre for dry seed",
-          "geographic_scope": "Texas, USA",
-          "product_scope": "dry cowpea seed"
-        },
-        {
-          "value": "1000",
-          "unit_quote": "570 and 1000 lb/acre for dry seed",
-          "geographic_scope": "Texas, USA",
-          "product_scope": "dry cowpea seed"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "در مینه‌سوتا، عملکرد بذر خشک ارقام selected بین حدود ۱۱۵۰ تا ۲۰۰۰ پوند در هر acre در سال ۱۹۸۳ ثبت شد.",
-      "conditions": "منطقه: مینه‌سوتا، ایالات متحده؛ محصول: بذر خشک؛ واحد: lb/acre؛ مبنای برداشت: دانه خشک؛ سایت: Becker، ۱۹۸۳",
-      "evidence_id": "d0-e15",
-      "numeric_bindings": [
-        {
-          "value": "1152",
-          "unit_quote": "lb/acre Calico 1783",
-          "geographic_scope": "Becker, Minnesota, USA",
-          "product_scope": "dry cowpea seed (Calico type)"
-        },
-        {
-          "value": "2001",
-          "unit_quote": "lb/acre Holstein 2001",
-          "geographic_scope": "Becker, Minnesota, USA",
-          "product_scope": "dry cowpea seed (Holstein type)"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "عملکرد بذر خشک ارقام MN 13 و MN 150 در آبیاری مینه‌سوتا در دو سال ۱۹۸۱ و ۱۹۸۲ به ترتیب بین ۱۷۴۶ تا ۲۹۶۸ و ۱۵۹۸ تا ۲۰۵۰ lb/acre گزارش شد.",
-      "conditions": "منطقه: مینه‌سوتا، ایالات متحده؛ محصول: بذر خشک؛ واحد: lb/acre؛ سایت: Becker و Waseca؛ سال: ۱۹۸۱ و ۱۹۸۲",
-      "evidence_id": "d0-e5",
-      "numeric_bindings": [
-        {
-          "value": "1746",
-          "unit_quote": "1746 -- lb/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry cowpea seed (MN139 cultivar, 1981)"
-        },
-        {
-          "value": "2968",
-          "unit_quote": "2968 2525 lb/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry cowpea seed (Colossus cultivar, 1981 at 1000 plants/acre)"
-        },
-        {
-          "value": "1598",
-          "unit_quote": "1598 -- lb/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry cowpea seed (MN150 cultivar, 1982)"
-        },
-        {
-          "value": "2050",
-          "unit_quote": "2050 lb/acre LSD 5%",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry cowpea seed (MN150 at 1000 plants/acre, 1982)"
-        }
-      ]
-    },
-    {
       "kind": "qualitative",
-      "claim": "عملکرد و بازدهی ارقام مختلف تحت تأثیر تاریخ کاشت، تراکم گیاهی، عمق کاشت و نوع رقم (دیم یا آبی) قرار دارد.",
-      "conditions": "منطقه: ایالات متحده؛ محصول: لوبیا چشم‌بلبلی؛ عوامل: تاریخ کاشت، تراکم گیاهی، عمق کاشت، نوع رقم",
-      "evidence_id": "d0-e11",
+      "claim": "لوبیا چشم‌بلبلی یک حبوبات یک‌ساله گرمسیری است که به‌صورت دانه خشک یا غلاف سبز برداشت می‌شود.",
+      "conditions": "گونه: Vigna unguiculata؛ سامانه‌های کشت: آبی و خشک؛ محدوده جغرافیایی مشاهدات: ایالات متحده (مینه‌سوتا، ویسکانسین، تگزاس، کالیفرنیا)، سال‌های ۱۹۸۱-۱۹۸۵",
+      "evidence_id": "d0-e2",
       "numeric_bindings": []
     },
     {
       "kind": "source_observation",
-      "claim": "عملکرد دانه خشک ارقام MN 13 و MN 150 پس از ۶۰ روز رشد به صورت علوفه‌ای بین ۱٫۳ تا ۱٫۸ تن در acre گزارش شده است.",
-      "conditions": "منطقه: مینه‌سوتا، ایالات متحده؛ محصول: کل گیاه خشک (علوفه)؛ واحد: ton/acre؛ سن: ۶۰ روز",
+      "claim": "عملکرد بایومس خشک برخی ارقام در مینه‌سوتا بر حسب جمعیت بوته و سال متفاوت بود و بازه گسترده‌ای را نشان داد.",
+      "conditions": "محصول: بایومس خشک کل گیاه؛ منطقه: Becker و Waseca، مینه‌سوتا، ایالات متحده؛ سال‌ها: ۱۹۸۱ و ۱۹۸۲؛ تراکم: ۵۳ و ۱۰۶ هزار بوته در هر acre",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "1746",
+          "unit_quote": "(lb/acre) 1746",
+          "geographic_scope": "Becker و Waseca, Minnesota, United States",
+          "product_scope": "dry-matter yield (whole plant)"
+        },
+        {
+          "value": "3775",
+          "unit_quote": "3775 lb/acre",
+          "geographic_scope": "Becker و Waseca, Minnesota, United States",
+          "product_scope": "dry-matter yield (whole plant)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد دانه خشک ارقام MN 13 و MN 150 در مینه‌سوتا پس از ۶۰ روز رشد، تقریباً معادل ۱.۳ تا ۱.۸ تن در acre گزارش شد.",
+      "conditions": "محصول: دانه خشک؛ منطقه: Becker, Minnesota, United States؛ سال: ۱۹۸۳؛ نوع کشت: آبی؛ خاک: sandy loam",
       "evidence_id": "d0-e14",
       "numeric_bindings": [
         {
           "value": "1.3",
           "unit_quote": "1.3 to 1.8 ton/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "whole plant dry matter (forage)"
+          "geographic_scope": "Becker, Minnesota, United States",
+          "product_scope": "seed yield (dry)"
         },
         {
           "value": "1.8",
           "unit_quote": "1.3 to 1.8 ton/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "whole plant dry matter (forage)"
+          "geographic_scope": "Becker, Minnesota, United States",
+          "product_scope": "seed yield (dry)"
         }
       ]
     },
     {
-      "kind": "qualitative",
-      "claim": "عمق کاشت بذر باید ۱ تا ۱۲ اینچ باشد و تماس خوب بذر با خاک مهم است.",
-      "conditions": "منطقه: ایالات متحده؛ محصول: لوبیا چشم‌بلبلی؛ عامل: عمق کاشت",
-      "evidence_id": "d0-e11",
+      "kind": "source_observation",
+      "claim": "عملکرد دانه خشک چهار رقم انتخابی در آزمایش‌های مینه‌سوتا تحت شرایط آبی بین ۱۵۷۰ تا ۲۱۸۲ پوند در acre و تحت شرایط خشک‌دشتی بین ۱۰۵۶ تا ۱۷۹۱ پوند در acre متغیر بود.",
+      "conditions": "محصول: دانه خشک; منطقه: Rosemont و Becker, Minnesota, United States; سال‌ها: ۱۹۸۴-۱۹۸۵; شرایط: آبی و dryland",
+      "evidence_id": "d0-e30",
       "numeric_bindings": [
         {
-          "value": "1 to 12",
-          "unit_quote": "1 to 12 in. deep",
-          "geographic_scope": "USA (general)",
-          "product_scope": "cowpea seeding depth"
+          "value": "1570",
+          "unit_quote": "1570 lb/acre",
+          "geographic_scope": "Rosemont و Becker, Minnesota, United States",
+          "product_scope": "seed yield (dry)"
+        },
+        {
+          "value": "2182",
+          "unit_quote": "2182 lb/acre",
+          "geographic_scope": "Rosemont و Becker, Minnesota, United States",
+          "product_scope": "seed yield (dry)"
+        },
+        {
+          "value": "1056",
+          "unit_quote": "1056 lb/acre",
+          "geographic_scope": "Rosemont و Becker, Minnesota, United States",
+          "product_scope": "seed yield (dry) — dryland"
+        },
+        {
+          "value": "1791",
+          "unit_quote": "1791 lb/acre",
+          "geographic_scope": "Rosemont و Becker, Minnesota, United States",
+          "product_scope": "seed yield (dry) — dryland"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "متوسط عملکرد دانه خشک لوبیا چشم‌بلبلی در تگزاس در سال‌های ۱۹۷۸ و ۱۹۷۹ به‌ترتیب بین ۵۷۰ تا ۱۰۰۰ پوند در acre متغیر بود.",
+      "conditions": "محصول: دانه خشک; منطقه: تگزاس, United States; سال‌ها: ۱۹۷۸ و ۱۹۷۹",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": [
+        {
+          "value": "570",
+          "unit_quote": "570 and 1000 lb/acre for dry seed",
+          "geographic_scope": "Texas, United States",
+          "product_scope": "seed yield (dry)"
+        },
+        {
+          "value": "1000",
+          "unit_quote": "570 and 1000 lb/acre for dry seed",
+          "geographic_scope": "Texas, United States",
+          "product_scope": "seed yield (dry)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "متوسط عملکرد غلاف سبز در تگزاس در سال‌های ۱۹۷۸ و ۱۹۷۹ بین ۶۲۵ تا ۱۴۰۰ پوند در acre گزارش شده است.",
+      "conditions": "محصول: غلاف سبز (green cowpea); منطقه: Texas, United States; سال‌ها: ۱۹۷۸ و ۱۹۷۹",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": [
+        {
+          "value": "625",
+          "unit_quote": "625 and 1400 lb/acre for green cowpeas",
+          "geographic_scope": "Texas, United States",
+          "product_scope": "green pod yield"
+        },
+        {
+          "value": "1400",
+          "unit_quote": "625 and 1400 lb/acre for green cowpeas",
+          "geographic_scope": "Texas, United States",
+          "product_scope": "green pod yield"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "عملکرد بذر خشک در مناطق گرم‌تر با اقلیم گرم‌تر ممکن است با مناطق شمالی آمریکا متفاوت باشد.",
-      "conditions": "منطقه: مقایسه‌ای بین مناطق گرم و Upper Midwest؛ محصول: بذر خشک",
-      "evidence_id": "d0-e27",
+      "claim": "نوع رشد (اندeterminate vs determinate)، تراکم بوته‌ای، عمق شخم و وجود لایه سخت (hardpan) از عوامل تغییر عملکرد هستند.",
+      "conditions": "منطقه: کلی (Upper Midwest و southern United States); سامانه: اطلاعات رشد، فشرده‌بندی خاک و آبیاری",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری باعث افزایش رشد رویشی و تأخیر جزئی در رسیدن می‌شود و دوره بحرانی نیاز رطوبتی درست قبل از گلدهی و در طول آن است.",
+      "conditions": "سامانه: آبی vs dryland; منطقه: general cowpea-growing regions, United States",
+      "evidence_id": "d0-e9",
       "numeric_bindings": []
     }
   ]

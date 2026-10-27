@@ -1,0 +1,101 @@
+{
+  "topic_id": "agri-3ab6116ba6cf",
+  "candidate_sha256": "068e45dc1745aab87810db60280e60adb6163590f2f22a1446df7fd4ce8c0814",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "میانگین عملکرد ذرت دانه‌ای در ایالت مینه‌سوتا در سال زراعی ۲۰۲۵ معادل ۲۰۱ بوگل در هر آکر ثبت شد.",
+        "conditions": "حاصل‌دستگاه زراعی مینه‌سوتا، ایالات متحده؛ پایه محصول خشک (dry grain corn)؛ میانگین کشوری-استانی گزارش شده توسط USDA.",
+        "evidence_id": "d5-e12",
+        "numeric_bindings": [
+          {
+            "value": "201",
+            "unit_quote": "201 bushels per acre",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "dry grain corn"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e12",
+        "source_url": "https://extension.umn.edu/agriculture/crop-production/corn",
+        "quote": "d water management, soil management and health, climate and weather, and pesticide safety. Plus sign (+) if content is closed, 'X' if content is open. Sources *Corn by-the-numbers from the USDA Crop Production Summary 2025 : 8.9 million acres in corn in Minnesota, based on the USDA-NIFA report for the 2025 crop year. This number has fluctuated between 8.2 and 8.9 million acres over 2023-2026. Minnesota consistently ranks fourth in the nation for corn production according to the USDA. Average yield in Minnesota in 2025, according to the USDA report, was 201 bushels per acre at an average return of $4 per bushel. There is a similar gross return per acre for corn silage compared with corn grain. 201 bushels/acre x 8,900,000 acres x $4/bushel = $7,155,600,000 Page survey © 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity ed"
+      }
+    },
+    {
+      "fact_index": 1,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "میزان بازده اقتصادی متوسط ذرت دانه‌ای در مینه‌سوتا حدود ۴ دلار به ازای هر بوگل بوده است.",
+        "conditions": "مینه‌سوتا، ایالات متحده؛ سال ۲۰۲۵؛ منظور قیمت مزرعه-بازار پایه بوگل ذرت خشک.",
+        "evidence_id": "d5-e12",
+        "numeric_bindings": [
+          {
+            "value": "4",
+            "unit_quote": "$4 per bushel",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "dry grain corn"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e12",
+        "source_url": "https://extension.umn.edu/agriculture/crop-production/corn",
+        "quote": "d water management, soil management and health, climate and weather, and pesticide safety. Plus sign (+) if content is closed, 'X' if content is open. Sources *Corn by-the-numbers from the USDA Crop Production Summary 2025 : 8.9 million acres in corn in Minnesota, based on the USDA-NIFA report for the 2025 crop year. This number has fluctuated between 8.2 and 8.9 million acres over 2023-2026. Minnesota consistently ranks fourth in the nation for corn production according to the USDA. Average yield in Minnesota in 2025, according to the USDA report, was 201 bushels per acre at an average return of $4 per bushel. There is a similar gross return per acre for corn silage compared with corn grain. 201 bushels/acre x 8,900,000 acres x $4/bushel = $7,155,600,000 Page survey © 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity ed"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "مساحت کشت ذرت در مینه‌سوتا حدود ۸٫۹ میلیون آکر است و این ایالت رتبه چهارم تولید ذرت در آمریکا را دارد.",
+        "conditions": "ایالات متحده؛ مینه‌سوتا؛ گزارش USDAcrop year 2025؛ منظور ذرت بوته‌ای زراعی (field corn).",
+        "evidence_id": "d5-e12",
+        "numeric_bindings": [
+          {
+            "value": "8.9",
+            "unit_quote": "8.9 million acres",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "field corn"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e12",
+        "source_url": "https://extension.umn.edu/agriculture/crop-production/corn",
+        "quote": "d water management, soil management and health, climate and weather, and pesticide safety. Plus sign (+) if content is closed, 'X' if content is open. Sources *Corn by-the-numbers from the USDA Crop Production Summary 2025 : 8.9 million acres in corn in Minnesota, based on the USDA-NIFA report for the 2025 crop year. This number has fluctuated between 8.2 and 8.9 million acres over 2023-2026. Minnesota consistently ranks fourth in the nation for corn production according to the USDA. Average yield in Minnesota in 2025, according to the USDA report, was 201 bushels per acre at an average return of $4 per bushel. There is a similar gross return per acre for corn silage compared with corn grain. 201 bushels/acre x 8,900,000 acres x $4/bushel = $7,155,600,000 Page survey © 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity ed"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "دامنه نوسان سطح کشت ذرت مینه‌سوتا بین ۸٫۲ تا ۸٫۹ میلیون آکر در دوره ۲۰۲۳ تا ۲۰۲۶ مشاهده شده است.",
+        "conditions": "مینه‌سوتا؛ گزارش USDA؛ پایه عددی سطح زیرکشت، نه عملکرد.",
+        "evidence_id": "d5-e12",
+        "numeric_bindings": [
+          {
+            "value": "8.2",
+            "unit_quote": "between 8.2 and 8.9 million acres",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "field corn"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e12",
+        "source_url": "https://extension.umn.edu/agriculture/crop-production/corn",
+        "quote": "d water management, soil management and health, climate and weather, and pesticide safety. Plus sign (+) if content is closed, 'X' if content is open. Sources *Corn by-the-numbers from the USDA Crop Production Summary 2025 : 8.9 million acres in corn in Minnesota, based on the USDA-NIFA report for the 2025 crop year. This number has fluctuated between 8.2 and 8.9 million acres over 2023-2026. Minnesota consistently ranks fourth in the nation for corn production according to the USDA. Average yield in Minnesota in 2025, according to the USDA report, was 201 bushels per acre at an average return of $4 per bushel. There is a similar gross return per acre for corn silage compared with corn grain. 201 bushels/acre x 8,900,000 acres x $4/bushel = $7,155,600,000 Page survey © 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity ed"
+      }
+    }
+  ],
+  "candidate_error": "every_number_requires_unit_and_scope_binding",
+  "declared_insufficiency": null
+}

@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 503
+    },
+    {
+      "url": "https://extension.umn.edu/irrigation/soil-moisture-sensors-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "canonical_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+      "canonical_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.ams.usda.gov/grades-standards/beans",
+      "canonical_url": "https://www.ams.usda.gov/grades-standards/beans",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

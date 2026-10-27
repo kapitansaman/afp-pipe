@@ -1,0 +1,99 @@
+{
+  "topic_id": "agri-b6ffe49a4638",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا قرمز (لوبیای خشک بازار کیدنی)",
+  "slug": "red-kidney-dry-bean-planting-calendar",
+  "outline": [
+    "تعریف گونه و کلاس بازرگانی",
+    "شواهد آمریکایی درباره زمان و دمای کاشت",
+    "پایش و تصمیم‌گیری",
+    "خطاها و محدودیت انتقال به ایران"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "لوبیای خشک کیدنی روشن از یک گونه Phaseolus vulgaris L. است و با سایر کلاس‌های بازرگانی لوبیای خشک تفاوت دارد.",
+      "conditions": "گونه: Phaseolus vulgaris L.؛ کلاس بازرگانی: light red kidney؛ محصول برداشت: دانه خشک",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در میزوری، بازه زمانی کاشت معمول لوبیای خشک از میانه مه تا میانه ژوئن گزارش شده است.",
+      "conditions": "منطقه جغرافیایی: میزوری، ایالات متحده; محصول: لوبیای خشک",
+      "evidence_id": "d0-e10",
+      "numeric_bindings": [
+        {
+          "value": "mid-May and mid-June",
+          "unit_quote": "mid-May and mid-June",
+          "geographic_scope": "میزوری، ایالات متحده",
+          "product_scope": "لوبیای خشک"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در آزمون‌های داکوتای شمالی، کاشت «عادی» به‌عنوان دهه آخر مه تا دهه اول ژوئن تعریف شده است.",
+      "conditions": "منطقه جغرافیایی: داکوتای شمالی، ایالات متحده; محصول: لوبیای خشک",
+      "evidence_id": "d2-e10",
+      "numeric_bindings": [
+        {
+          "value": "last 10 days of May through the first 10 days of June",
+          "unit_quote": "last 10 days of May through the first 10 days of June",
+          "geographic_scope": "داکوتای شمالی، ایالات متحده",
+          "product_scope": "لوبیای خشک"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در Trials نبراسکا، کاشت لوبیای خشک در تاریخ‌های اوایل ژوئن انجام شده است.",
+      "conditions": "منطقه جغرافیایی: نبراسکا، ایالات متحده; محصول: لوبیای خشک",
+      "evidence_id": "d3-e1",
+      "numeric_bindings": [
+        {
+          "value": "June 8 and 3",
+          "unit_quote": "June 8 and 3",
+          "geographic_scope": "نبراسکا، ایالات متحده",
+          "product_scope": "لوبیای خشک"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کشت لوبیای خشک به خاک زهکشی‌شده مناسب نیاز دارد و به غرقابی بودن حساس است.",
+      "conditions": "محصول: لوبیای خشک; سامانه کشت: دانه در خاک زهکشی‌شده",
+      "evidence_id": "d0-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دانه‌های لوبیای خشک در خاک سرد و تر مستعد پوسیدگی هستند.",
+      "conditions": "محصول: دانه لوبیای خشک; شرایط استقرار: خاک سرد و مرطوب",
+      "evidence_id": "d5-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "تعیین زمان برداشت لوبیای خشک بر اساس کاهش رطوبت دانه تا حدود ۱۸ درصد و تغییر رنگ نیام‌ها گزارش شده است.",
+      "conditions": "منطقه جغرافیایی: میزوری، ایالات متحده; محصول: دانه لوبیای خشک; واحد: درصد رطوبت و رنگ نیام",
+      "evidence_id": "d0-e18",
+      "numeric_bindings": [
+        {
+          "value": "18%",
+          "unit_quote": "18% moisture",
+          "geographic_scope": "میزوری، ایالات متحده",
+          "product_scope": "دانه لوبیای خشک"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "شواهد موجود درباره زمان کاشت صرفاً مشاهده‌ای، منطقه‌ای و مبتنی بر_trial است و به‌تنهایی تقویم کاشت محلی یا توصیه رقمی برای ایران نیست.",
+      "conditions": "ماهیت شواهد: مشاهده‌ای/آزمایشی; دامنه جغرافیایی: ایالات متحده; محصول: لوبیای خشک",
+      "evidence_id": "d0-e10",
+      "numeric_bindings": []
+    }
+  ]
+}

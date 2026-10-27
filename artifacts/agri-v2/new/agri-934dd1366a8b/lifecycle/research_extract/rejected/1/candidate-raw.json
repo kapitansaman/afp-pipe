@@ -1,0 +1,147 @@
+{
+  "topic_id": "agri-934dd1366a8b",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "بذر خشک لوبیا چشم‌بلبلی (Vigna unguiculata)",
+  "slug": "cowpea-yield-per-hectare",
+  "outline": [
+    "تعریف محصول و دامنه",
+    "مشاهدات مستند عملکرد",
+    "عوامل مستند تغییر عملکرد",
+    "کاربرد و محدودیت نتایج"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد بذر خشک لوبیا چشم‌بلبلی در تگزاس (۱۹۷۸ و ۱۹۷۹) نشان‌دهنده نوسان قابل‌توجه بود.",
+      "conditions": "منطقه: تگزاس، ایالات متحده؛ محصول: بذر خشک؛ واحد: lb/acre؛ مبنای برداشت: دیم/آبی؛ تاریخ: ۱۹۷۸ و ۱۹۷۹",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": [
+        {
+          "value": "625",
+          "unit_quote": "625 and 1400 lb/acre",
+          "geographic_scope": "Texas, USA",
+          "product_scope": "green cowpeas"
+        },
+        {
+          "value": "1400",
+          "unit_quote": "625 and 1400 lb/acre",
+          "geographic_scope": "Texas, USA",
+          "product_scope": "green cowpeas"
+        },
+        {
+          "value": "570",
+          "unit_quote": "570 and 1000 lb/acre for dry seed",
+          "geographic_scope": "Texas, USA",
+          "product_scope": "dry cowpea seed"
+        },
+        {
+          "value": "1000",
+          "unit_quote": "570 and 1000 lb/acre for dry seed",
+          "geographic_scope": "Texas, USA",
+          "product_scope": "dry cowpea seed"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در مینه‌سوتا، عملکرد بذر خشک ارقام selected بین حدود ۱۱۵۰ تا ۲۰۰۰ پوند در هر acre در سال ۱۹۸۳ ثبت شد.",
+      "conditions": "منطقه: مینه‌سوتا، ایالات متحده؛ محصول: بذر خشک؛ واحد: lb/acre؛ مبنای برداشت: دانه خشک؛ سایت: Becker، ۱۹۸۳",
+      "evidence_id": "d0-e15",
+      "numeric_bindings": [
+        {
+          "value": "1152",
+          "unit_quote": "lb/acre Calico 1783",
+          "geographic_scope": "Becker, Minnesota, USA",
+          "product_scope": "dry cowpea seed (Calico type)"
+        },
+        {
+          "value": "2001",
+          "unit_quote": "lb/acre Holstein 2001",
+          "geographic_scope": "Becker, Minnesota, USA",
+          "product_scope": "dry cowpea seed (Holstein type)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد بذر خشک ارقام MN 13 و MN 150 در آبیاری مینه‌سوتا در دو سال ۱۹۸۱ و ۱۹۸۲ به ترتیب بین ۱۷۴۶ تا ۲۹۶۸ و ۱۵۹۸ تا ۲۰۵۰ lb/acre گزارش شد.",
+      "conditions": "منطقه: مینه‌سوتا، ایالات متحده؛ محصول: بذر خشک؛ واحد: lb/acre؛ سایت: Becker و Waseca؛ سال: ۱۹۸۱ و ۱۹۸۲",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "1746",
+          "unit_quote": "1746 -- lb/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "dry cowpea seed (MN139 cultivar, 1981)"
+        },
+        {
+          "value": "2968",
+          "unit_quote": "2968 2525 lb/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "dry cowpea seed (Colossus cultivar, 1981 at 1000 plants/acre)"
+        },
+        {
+          "value": "1598",
+          "unit_quote": "1598 -- lb/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "dry cowpea seed (MN150 cultivar, 1982)"
+        },
+        {
+          "value": "2050",
+          "unit_quote": "2050 lb/acre LSD 5%",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "dry cowpea seed (MN150 at 1000 plants/acre, 1982)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد و بازدهی ارقام مختلف تحت تأثیر تاریخ کاشت، تراکم گیاهی، عمق کاشت و نوع رقم (دیم یا آبی) قرار دارد.",
+      "conditions": "منطقه: ایالات متحده؛ محصول: لوبیا چشم‌بلبلی؛ عوامل: تاریخ کاشت، تراکم گیاهی، عمق کاشت، نوع رقم",
+      "evidence_id": "d0-e11",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد دانه خشک ارقام MN 13 و MN 150 پس از ۶۰ روز رشد به صورت علوفه‌ای بین ۱٫۳ تا ۱٫۸ تن در acre گزارش شده است.",
+      "conditions": "منطقه: مینه‌سوتا، ایالات متحده؛ محصول: کل گیاه خشک (علوفه)؛ واحد: ton/acre؛ سن: ۶۰ روز",
+      "evidence_id": "d0-e14",
+      "numeric_bindings": [
+        {
+          "value": "1.3",
+          "unit_quote": "1.3 to 1.8 ton/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "whole plant dry matter (forage)"
+        },
+        {
+          "value": "1.8",
+          "unit_quote": "1.3 to 1.8 ton/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "whole plant dry matter (forage)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عمق کاشت بذر باید ۱ تا ۱۲ اینچ باشد و تماس خوب بذر با خاک مهم است.",
+      "conditions": "منطقه: ایالات متحده؛ محصول: لوبیا چشم‌بلبلی؛ عامل: عمق کاشت",
+      "evidence_id": "d0-e11",
+      "numeric_bindings": [
+        {
+          "value": "1 to 12",
+          "unit_quote": "1 to 12 in. deep",
+          "geographic_scope": "USA (general)",
+          "product_scope": "cowpea seeding depth"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد بذر خشک در مناطق گرم‌تر با اقلیم گرم‌تر ممکن است با مناطق شمالی آمریکا متفاوت باشد.",
+      "conditions": "منطقه: مقایسه‌ای بین مناطق گرم و Upper Midwest؛ محصول: بذر خشک",
+      "evidence_id": "d0-e27",
+      "numeric_bindings": []
+    }
+  ]
+}

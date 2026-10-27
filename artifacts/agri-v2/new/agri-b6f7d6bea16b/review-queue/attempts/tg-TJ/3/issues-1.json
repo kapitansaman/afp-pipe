@@ -1,0 +1,17 @@
+[
+  {
+    "id": 39,
+    "category": "wrong_language",
+    "detail": "The word 'кштзор' is missing the letter 'и' and should be 'киштзор' according to the supplied glossary and standard Tajik spelling for 'farm/cultivated field'."
+  },
+  {
+    "id": 43,
+    "category": "wrong_language",
+    "detail": "The word 'кштзор' is misspelled; it should be 'киштзор' to match the glossary and correct Cyrillic Tajik spelling."
+  },
+  {
+    "id": 49,
+    "category": "wrong_language",
+    "detail": "The word 'кштзор' is misspelled; it should be 'киштзор' to match the glossary and correct Cyrillic Tajik spelling."
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "attempts": 1,
+  "attempts": 2,
   "history": [
     {
       "attempts": 1,
@@ -11,14 +11,18 @@
         "kind": "validation",
         "category": "scoped_intent_or_local_prescription_rejected"
       }
+    },
+    {
+      "attempts": 2,
+      "status": "validated",
+      "last_run_id": "40525360938",
+      "started_at": "2026-10-27T14:55:00.653004+00:00",
+      "completed_at": "2026-10-27T14:55:20.384736+00:00",
+      "failure": null
     }
   ],
-  "status": "failed",
-  "last_run_id": "40298864446",
-  "started_at": "2026-10-26T09:23:28.902501+00:00",
-  "failure": {
-    "kind": "validation",
-    "category": "scoped_intent_or_local_prescription_rejected"
-  },
-  "completed_at": "2026-10-26T09:23:45.846726+00:00"
+  "status": "validated",
+  "last_run_id": "40525360938",
+  "started_at": "2026-10-27T14:55:00.653004+00:00",
+  "completed_at": "2026-10-27T14:55:20.384736+00:00"
 }

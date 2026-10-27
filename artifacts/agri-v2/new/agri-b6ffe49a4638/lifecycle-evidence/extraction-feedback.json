@@ -1,0 +1,32 @@
+{
+  "topic_id": "agri-b6ffe49a4638",
+  "candidate_sha256": "cd6b6d3b99c3c6fdb87efe5b7f1765dc70f0e027380e2124091b7cb07979be76",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 2,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "دمای خاک زیر ۵۰ درجه فارنهایت برای جوانه‌زنی بیشتر سبزیجات فصل گرم از جمله لوبیا نامناسب است.",
+        "conditions": "آستانه دمای خاک برای جوانه‌زنی لوبیا و سایر محصولات فصل گرم; منطقه عمومی آمریکا; محصول: لوبیا و سایر سبزیجات فصل گرم",
+        "evidence_id": "d5-e7",
+        "numeric_bindings": [
+          {
+            "value": "50",
+            "unit_quote": "50° F",
+            "geographic_scope": "عمومی (آمریکا)",
+            "product_scope": "لوبیا و سبزیجات فصل گرم"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e7",
+        "source_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+        "quote": " seed does not have much influence on seeds. Beans, especially limas, are an exception. They should be planted with the \"eye\" (the hilum) facing down. The young root will emerge from the \"eye\" and thus will be heading in the right direction. Seeds sown \"eye\" down will produce a more uniform and productive stand. Weather conditions The seeds of most warm-season vegetable crops (beans, squash, cucumbers, etc.) will not germinate if soil temperatures are below 50° F. Lettuce, pea, radish, carrot, beet, spinach, and other cool-season crops will germinate if soil temperature is above 40° F. (High soil temperatures- over 85° F. are usually only a problem for spinach and lettuce seed.) Seed germination in low-temperature soil is spotty and slow. Determine germination requirements of the crops you grow. Use a soil thermometer or online soil temperature map to check soil temperatures prior to pla"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع ارائه‌شده آستانه دمایی دقیق خاک اختصاصی برای تعیین زمان کاشت لوبیای قرمز خشک را ارائه نمی‌دهند. فقط معیارهای کیفی عمومی (دمای خاک زیر ۵۰ درجه فارنهایت نامناسب برای جوانه‌زنی لوبیا، کاشت در عمق یک تا دو اینچ، خطر پوسیدگی بذر در خاک سرد و مرطوب) و بازه‌های تاریخی کاشت منطقه‌ای (میزوری: اواسط مه تا اواسط ژوئن؛ شمال داکوتا: اواخر مه تا اوایل ژوئن) موجود است. هیچ آستانه دمایی کمی اندازه‌گیری‌شده مستقیماً برای لوبیای قرمز خشک در منبع ترویجی معتبر گزارش نشده است."
+}

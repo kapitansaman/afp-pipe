@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T14:41:16.870530+00:00",
+  "updated_at": "2026-10-27T14:58:23.669110+00:00",
   "items": [
     {
       "topic_id": "agri-b6f7d6bea16b",
@@ -59,6 +59,21 @@
       "reason": null,
       "publication_attempts": null,
       "publication_next_attempt_at": null,
+      "state_path": "new/agri-b6f7d6bea16b/review-queue/candidate-ru-RU.json"
+    },
+    {
+      "topic_id": null,
+      "title": null,
+      "language": null,
+      "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
+      "status": null,
+      "attempts": null,
+      "model_calls_spent": null,
+      "next_attempt_at": null,
+      "experimental_only": null,
+      "reason": null,
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
       "state_path": "new/agri-b6f7d6bea16b/review-queue/candidate-tg-TJ.json"
     },
     {
@@ -81,12 +96,12 @@
       "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
       "language": "ru-RU",
       "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
-      "status": "waiting",
-      "attempts": 0,
-      "model_calls_spent": 0,
-      "next_attempt_at": "2026-10-27T07:32:59.350329+00:00",
+      "status": "published",
+      "attempts": 1,
+      "model_calls_spent": 2,
+      "next_attempt_at": null,
       "experimental_only": false,
-      "reason": "provider_backpressure",
+      "reason": "source_bound_fidelity_passed",
       "publication_attempts": null,
       "publication_next_attempt_at": null,
       "state_path": "new/agri-b6f7d6bea16b/review-queue/ru-RU.json"
@@ -96,12 +111,12 @@
       "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
       "language": "tg-TJ",
       "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
-      "status": "waiting",
-      "attempts": 2,
-      "model_calls_spent": 7,
-      "next_attempt_at": "2026-10-27T07:32:59.350329+00:00",
+      "status": "needs_attention",
+      "attempts": 3,
+      "model_calls_spent": 9,
+      "next_attempt_at": null,
       "experimental_only": false,
-      "reason": "provider_backpressure",
+      "reason": "translation_or_review_needs_another_attempt",
       "publication_attempts": null,
       "publication_next_attempt_at": null,
       "state_path": "new/agri-b6f7d6bea16b/review-queue/tg-TJ.json"
@@ -122,7 +137,7 @@
       "state_path": "parallel/writer-verification/ops-tajik-reference-feedback-final-round-v2/agri-b6f7d6bea16b/review-queue/tg-TJ.json"
     }
   ],
-  "item_count": 8,
+  "item_count": 9,
   "schedule_enabled": false,
   "approval_is_not_guaranteed_by_attempt_count": true
 }

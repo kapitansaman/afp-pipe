@@ -1,9 +1,71 @@
 {
   "topic_id": "agri-e7dcf0bf2ffd",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": null,
-  "slug": null,
-  "outline": [],
-  "facts": []
+  "product_definition": "لوبیا چیتی (نوع خشک لوبیای معمولی، Phaseolus vulgaris L.)",
+  "slug": "pinto-dry-bean-planting-depth-light-heavy-soils-common-mistakes",
+  "outline": [
+    "شرایط و تعریف کشت",
+    "شواهد استقرار",
+    "پایش و تصمیم‌گیری",
+    "خطاها و محدودیت انتقال"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "قاعده کلی عمق کاشت بذر لوبیا دو تا سه برابر قطر دانه است و این اصل برای لوبیای معمولی (از جمله بازار کلاس پینتو) کاربرد دارد.",
+      "conditions": "عمق نسبی بر پایه قطر دانه، منبع: دانشگاه مریلند (UMD)، محصول: لوبیای معمولی (Phaseolus vulgaris)، محدوده: توصیه عمومی کاشت سبزیجات",
+      "evidence_id": "d1-e6",
+      "numeric_bindings": [
+        {
+          "value": "2-3",
+          "unit_quote": "2-3 times their diameter",
+          "geographic_scope": "University of Maryland Extension (US general guidance)",
+          "product_scope": "common bean (Phaseolus vulgaris)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در خاک‌های سبک و شنی بذر را می‌توان عمیق‌تر کاشت و در خاک‌های سنگین رسی باید کاشت را سطحی‌تر انجام داد.",
+      "conditions": "تفاوت عمق بر اساس بافت خاک (شنی سبک در مقابل رسی سنگین)، منبع: دانشگاه مریلند (UMD)، محصول: لوبیای معمولی",
+      "evidence_id": "d1-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "به طور کلی بذور لوبیا حدود یک اینچ عمق کاشت می‌شوند و بذور کوچک‌تر باید سطحی‌تر کاشته شوند.",
+      "conditions": "عمق تقریبی برای لوبیا، منبع: دانشگاه مینه‌سوتا (UMN Extension)، محصول: لوبیای معمولی (dry beans)",
+      "evidence_id": "d2-e12",
+      "numeric_bindings": [
+        {
+          "value": "an inch",
+          "unit_quote": "about an inch deep",
+          "geographic_scope": "University of Minnesota Extension",
+          "product_scope": "common bean (Phaseolus vulgaris)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "جهت‌گیری دانه مهم است؛ سوراخ گیوه (هیلوم) لوبیا باید به سمت پایین باشد تا ریشه جوان در جهت صحیح خارج شود.",
+      "conditions": "جهت‌گیری دانه (هیلوم رو به پایین)، منبع: دانشگاه مریلند (UMD)، محصول: لوبیا (به‌ویژه لیماما و لوبیای معمولی)",
+      "evidence_id": "d1-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک کلوخه‌ای و فشرده با بافت رسی بالا، جوانه‌زنی و خروج بوته را مهار می‌کند و تشکیل پوسته سخت روی خاک پس از خشک‌شدن نیز مانعEmergence مؤثر می‌شود.",
+      "conditions": "شرایط خاک نامناسب (کلوخه‌ای، فشرده، پوسته‌بند)، منبع: دانشگاه مریلند (UMD)، محصول: لوبیا و سایر سبزیجات",
+      "evidence_id": "d1-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای تسهیل خروج کوتیلدون از لایه خاک در خاک‌های سنگین، باید بذر را با مصالح غیرپوسته‌ساز مانند ماسه، پیت‌ماس، ورمی‌کولیت یا پرلیت بپوشاند و در صورت تشکیل پوسته، آن را شکست یا با آب ملایم نرم کرد.",
+      "conditions": "اصلاح بافت سطحی خاک و پیشگیری از تشکیل پوسته سخت، منبع: دانشگاه ایالتی میسیسیپی (MSU Extension)، محصول: لوبیا",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    }
+  ]
 }

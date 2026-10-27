@@ -2,183 +2,129 @@
   "topic_id": "agri-15439ad51313",
   "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "بادام‌زمینی (Arachis hypogaea) — پوک خشک (dry pods) به‌عنوان محصول برداشت‌شده، بر پایه وزن پوک خشک",
+  "product_definition": "بادام‌زمینی (پوست‌دار خشک / dry pods)",
   "slug": "peanut-yield-range-factors",
   "outline": [
     "تعریف محصول و دامنه عملکرد",
-    "مشاهدات مستند عملکرد بر پایه خاک و اقلیم",
+    "مشاهدات مستند عملکرد",
     "عوامل مستند تغییر عملکرد",
     "کاربرد و محدودیت نتایج"
   ],
   "facts": [
     {
-      "kind": "qualitative",
-      "claim": "عملکرد بادام‌زمینی در مبناي وزن پوک خشک گزارش می‌شود؛ معیار برداشت زمانی است که بیش‌تر پوک‌ها سطح رگه‌ای دارند و ۷۵٪ پوک‌ها تیره‌شدگی داخل پوسته نشان می‌دهند.",
-      "conditions": "کشورهای ایالات متحده آمریکا، اقلیم گرم معتدل؛ محصول: پوک خشک بادام‌زمینی",
-      "evidence_id": "d0-e10",
-      "numeric_bindings": []
-    },
-    {
       "kind": "source_observation",
-      "claim": "در مینسوتا، عملکرد پوک خشک بر پایه بافت خاک از حدود ۵۴۰ تا ۱۸۲۰ پوند در آکر متغیر بود؛ بیش‌ترین عملکرد در ماسه آبیاری‌شده و کم‌ترین در ارقام وایروینگا گزارش شد.",
-      "conditions": "آزمایشگاه مینسوتا، ایالات متحده؛ سه بافت خاک شامل لومی سیلت، ماسه خشک‌زار و ماسه آبیاری‌شده؛ مبنای عملکرد: پوند پوک خشک در آکر",
-      "evidence_id": "d0-e24",
-      "numeric_bindings": [
-        {
-          "value": "540",
-          "unit_quote": "540 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods"
-        },
-        {
-          "value": "1820",
-          "unit_quote": "1820 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, irrigated sand"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "در ویسکانسین، میانگین عملکرد ۲۶۸۴ پوند پوک خشک در آکر مشاهده شد؛ دامنه ارقام از ۲۳۲۳ تا ۳۱۰۰ پوند در آکر گزارش گردید.",
-      "conditions": "آزمایشگاه هانوک، ویسکانسین، ایالات متحده؛ مبنای عملکرد: پوند پوک خشک در آکر",
-      "evidence_id": "d0-e25",
-      "numeric_bindings": [
-        {
-          "value": "2684",
-          "unit_quote": "Average 2684 lb Pods/acre",
-          "geographic_scope": "Wisconsin, USA",
-          "product_scope": "dry peanut pods"
-        },
-        {
-          "value": "3100",
-          "unit_quote": "3100 lb Pods/acre",
-          "geographic_scope": "Wisconsin, USA",
-          "product_scope": "dry peanut pods, Spanish type A-114"
-        },
-        {
-          "value": "2323",
-          "unit_quote": "2323 lb Pods/acre",
-          "geographic_scope": "Wisconsin, USA",
-          "product_scope": "dry peanut pods, Spanish type Tamnut"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "زمان کاشت بر عملکرد تأثیر مستند داشت؛ کاشت اوایل مه در مینسوتا عملکرد ۱۳۸۰ پوند در آکر (میانگین سه خاک) داد در حالی که کاشت ژوئن به ۹۴۰ پوند در آکر کاهش یافت.",
-      "conditions": "آزمایشگاه مینسوتا، ایالات متحده؛ تاریخ کاشت: آوریل-مه و ژوئن؛ مبنای عملکرد: پوند پوک خشک در آکر",
-      "evidence_id": "d0-e15",
-      "numeric_bindings": [
-        {
-          "value": "1380",
-          "unit_quote": "1380 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, early May planting, avg 3 soils"
-        },
-        {
-          "value": "940",
-          "unit_quote": "940 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, June planting, avg 3 soils"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "فاصله ردیف ۱۸ اینچ در مقایسه با ۳۰ اینچ بر ماسه آبیاری‌شده عملکرد ۱۸۷۰ پوند در آکر و بر ماسه خشک‌زار ۱۲۱۰ پوند در آکر داد؛ بر لوم سیلت به ترتیب ۱۵۸۰ و ۱۳۷۰ پوند در آکر بود.",
-      "conditions": "آزمایشگاه مینسوتا، ایالات متحده؛ فاصله ردیف: ۱۸ اینچ و ۳۰ اینچ؛ مبنای عملکرد: پوند پوک خشک در آکر",
+      "claim": "عملکرد بادام‌زمینی بر پایه پوست خشک در مینسوتا تحت آبیاری شن ۱۸۷۰ پوند در هر آکر ثبت شد.",
+      "conditions": "آزمایش مینسوتا، خاک شن آبیاری‌شده، فصل ۱۹۸۱-۱۹۸۲",
       "evidence_id": "d0-e19",
       "numeric_bindings": [
         {
           "value": "1870",
           "unit_quote": "1870 lb Pods/acre",
           "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, irrigated sand, 18 in row spacing"
-        },
-        {
-          "value": "1680",
-          "unit_quote": "1680 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, irrigated sand, 30 in row spacing"
-        },
-        {
-          "value": "1580",
-          "unit_quote": "1580 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, silt loam, 18 in row spacing"
-        },
-        {
-          "value": "1370",
-          "unit_quote": "1370 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, silt loam, 30 in row spacing"
-        },
-        {
-          "value": "1210",
-          "unit_quote": "1210 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, dryland sand, 18 in row spacing"
-        },
-        {
-          "value": "1250",
-          "unit_quote": "1250 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, dryland sand, 30 in row spacing"
+          "product_scope": "dry peanut pods"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "آبیاری ماسه در مینسوتا میانگین عملکرد را ۱۰۰۰ تا ۱۴۵۰ پوند در آکر افزایش داد؛ زمان بحرانی آبیاری دوره گلدهی گزارش شد.",
-      "conditions": "آزمایشگاه مینسوتا، ایالات متحده؛ اقلیم سردتر از مناطق اصلی کشت بادام‌زمینی؛ مبنای عملکرد: پوند پوک خشک در آکر",
+      "claim": "در هانکاک ویسکانسین، میانگین عملکرد ۲۶۸۴ پوند پوست خشک در هر آکر بود.",
+      "conditions": "مزرعه هانکاک، ویسکانسین، ۱۹۷۶، کشت می ۱۵، برداشت اکتبر ۷",
+      "evidence_id": "d0-e25",
+      "numeric_bindings": [
+        {
+          "value": "2684",
+          "unit_quote": "Average Yield 2 Pounds of dry pods/acre",
+          "geographic_scope": "Hancock, Wisconsin, USA",
+          "product_scope": "dry peanut pods"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کاشت زودهنگام (اوایل آوریل تا اوایل مه) در خاک شن آبیاری‌شده، عملکرد ۱۸۴۰ پوند در هر آکر تولید کرد؛ کاشت دیرتر (ژوئن) به ۱۱۷۰ پوند کاهش یافت.",
+      "conditions": "آزمایش مینسوتا، خاک شن آبیاری‌شده، مقایسه تاریخ کاشت ۱۹۸۱-۱۹۸۲",
+      "evidence_id": "d0-e15",
+      "numeric_bindings": [
+        {
+          "value": "1840",
+          "unit_quote": "1840 lb Pods/acre April 29 – May 6 Irrigated Sand",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "dry peanut pods"
+        },
+        {
+          "value": "1170",
+          "unit_quote": "1170 lb Pods/acre June 1 – June 2 Irrigated Sand",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "dry peanut pods"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "فاصله ردیف ۱۸ اینچی در مقایسه با ۳۰ اینچی، عملکرد بیشتری در خاک گِل‌رسیبه و شن آبیاری‌شده نشان داد.",
+      "conditions": "آزمایش مینسوتا، خاک گِل‌رسیبه و شن آبیاری‌شده، ۱۹۸۱-۱۹۸۲",
+      "evidence_id": "d0-e19",
+      "numeric_bindings": [
+        {
+          "value": "18",
+          "unit_quote": "Row Spacing 18 in. Silt Loam 1580 lb Pods/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "dry peanut pods"
+        },
+        {
+          "value": "30",
+          "unit_quote": "Row Spacing 30 in. Silt Loam 1370 lb Pods/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "dry peanut pods"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آبیاری خاک شن در مینسوتا طی ۶ سال، میانگین عملکرد را ۱۰۰۰ تا ۱۴۵۰ پوند در هر آکر افزایش داد.",
+      "conditions": "آزمایش دانشگاه مینسوتا، خاک شن، دوره ۶ ساله",
       "evidence_id": "d0-e12",
       "numeric_bindings": [
         {
           "value": "1000",
-          "unit_quote": "1000 lb/acre",
+          "unit_quote": "1,000 to 1,450 lb/acre",
           "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, irrigation yield increase"
+          "product_scope": "dry peanut pods"
         },
         {
           "value": "1450",
-          "unit_quote": "1450 lb/acre",
+          "unit_quote": "1,000 to 1,450 lb/acre",
           "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, irrigation yield increase"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "تلقیح ریزوبیال بر ماسه آبیاری‌شده عملکرد ۱۳۸۰ پوند در آکر و بدون تیمار ۹۳۰ پوند در آکر داد؛ نیتروژن ۱۵۰ پوند در آکر معادل تلقیح عمل کرد.",
-      "conditions": "آزمایشگاه مینسوتا، ایالات متحده؛ خاک ماسه آبیاری‌شده و خشک‌زار؛ مبنای عملکرد: پوند پوک خشک در آکر",
-      "evidence_id": "d0-e21",
-      "numeric_bindings": [
-        {
-          "value": "1380",
-          "unit_quote": "1380 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, irrigated sand, inoculation"
-        },
-        {
-          "value": "930",
-          "unit_quote": "930 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, irrigated sand, untreated"
-        },
-        {
-          "value": "1390",
-          "unit_quote": "1390 lb Pods/acre",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "dry peanut pods, irrigated sand, N 150 lbs/acre"
+          "product_scope": "dry peanut pods"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "عوامل مستند تغییر عملکرد شامل بافت خاک، فاصله ردیف، زمان کاشت، آبیاری، تلقیح ریزوبیال و انتخاب رقم است؛ حداقل ۳۰۰۰ درجه‌روز (با پایه ۵۰ درجه فارنهایت) برای رشد مناسب لازم است و دمای بهینه حدود ۸۶ درجه فارنهایت گزارش شده است.",
-      "conditions": "کشورهای ایالات متحده آمریکا و کانادا؛ محدودیت اقلیمی: مناطق شمالی با کمبود گرما؛ محصول: پوک خشک بادام‌زمینی",
-      "evidence_id": "d0-e11",
+      "claim": "زمان بحرانی مصرف آب در بادام‌زمینی دوره گل‌دهی است.",
+      "conditions": "تحقیق انتاریو، کانادا",
+      "evidence_id": "d0-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نوع اسپانیایی (A-114) در ویسکانسین بالاترین عملکرد ۳۱۰۰ پوند پوست خشک در هر آکر را ثبت کرد.",
+      "conditions": "مزرعه هانکاک، ویسکانسین، ۱۹۷۶",
+      "evidence_id": "d0-e25",
+      "numeric_bindings": [
+        {
+          "value": "3100",
+          "unit_quote": "A-114 Spanish Yield 2 3100 Pounds of dry pods/acre",
+          "geographic_scope": "Hancock, Wisconsin, USA",
+          "product_scope": "dry peanut pods"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد و قیمت مزارع بر پایه پوست (pod) محاسبه می‌شود نه پایه دانه.",
+      "conditions": "سیاست سنجش عملکرد بادام‌زمینی",
+      "evidence_id": "d0-e10",
       "numeric_bindings": []
     }
   ]

@@ -4,11 +4,11 @@
   "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
   "language": "tg-TJ",
   "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
-  "status": "waiting",
-  "reason": "provider_backpressure",
-  "attempts": 2,
-  "model_calls_spent": 7,
-  "next_attempt_at": "2026-10-27T07:32:59.350329+00:00",
+  "status": "needs_attention",
+  "reason": "translation_or_review_needs_another_attempt",
+  "attempts": 3,
+  "model_calls_spent": 9,
+  "next_attempt_at": null,
   "history": [
     {
       "event": "old_experimental_history_imported_without_reset",
@@ -22,6 +22,19 @@
       "previous_next_attempt_at": "2026-10-28T06:32:59.369847+00:00",
       "retry_at": "2026-10-27T07:32:59.350329+00:00",
       "at": "2026-10-27T06:38:57.082874+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 3,
+      "max_calls": 4,
+      "at": "2026-10-27T14:56:57.020555+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 3,
+      "reserved_model_calls": 2,
+      "status": "waiting",
+      "at": "2026-10-27T14:57:17.825345+00:00"
     }
   ],
   "created_at": "2026-10-27T06:32:59.367497+00:00",
@@ -31,18 +44,26 @@
     {
       "id": 39,
       "wrong_form": "кштзор",
-      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+      "detail": "The word 'кштзор' is missing the letter 'и' and should be 'киштзор' according to the supplied glossary and standard Tajik spelling for 'farm/cultivated field'.",
+      "category": "wrong_language"
     },
     {
       "id": 43,
       "wrong_form": "кштзор",
-      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+      "detail": "The word 'кштзор' is misspelled; it should be 'киштзор' to match the glossary and correct Cyrillic Tajik spelling.",
+      "category": "wrong_language"
     },
     {
       "id": 49,
       "wrong_form": "кштзор",
-      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+      "detail": "The word 'кштзор' is misspelled; it should be 'киштзор' to match the glossary and correct Cyrillic Tajik spelling.",
+      "category": "wrong_language"
     }
   ],
-  "primary_finished": true
+  "primary_finished": true,
+  "last_started_at": "2026-10-27T14:56:57.020533+00:00",
+  "last_failure": {
+    "kind": "validation",
+    "category": "unspecified"
+  }
 }

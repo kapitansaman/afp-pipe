@@ -2,48 +2,62 @@
   "topic_id": "agri-2bffca9fad0a",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی (Pinto dry bean, Phaseolus vulgaris) — دانه خشک (دانه‌ی برداشت‌شده)",
+  "product_definition": "لوبیا چیتی (پروتئین‌دار) — محصول برداشت‌شده: دانه خشک لوبیا رایج Phaseolus vulgaris L.، طبقه بازارdry edible/پروتئینی",
   "slug": "pinto-dry-bean-irrigation-soil-moisture",
   "outline": [
-    "ماهیت هدف: تعیین دور آبیاری با تکیه بر رطوبت خاک به جای تقویم ثابت",
-    "بررسی شواهد: منابع موجود صرفاً مقادیر کیفی رطوبت و باران هفتگی برای لوبیای عمومی ارائه می‌دهند و فاقد معیار پایش رطوبت خاک یا جدول دور آبیاری هستند",
-    "نتیجه: پاسخ اجرایی با رطوبت خاک برای این محصول در دسترس نیست"
+    "ورودی‌های اندازه‌گیری‌شده (مقدار آب، عمق نفوذ بر اساس بافت خاک)",
+    "منطق تصمیم و واحدها (نیاز به سنسور رطوبت خاک و آستانه‌های مرحله رشد)",
+    "پایش مزرعه یا شبکه (گسترهٔ شواهد: مدیریت کلی آبیاری نه برنامه‌ریزی مبتنی بر رطوبت‌سنج)",
+    "خطاها و حدود کاربرد (نبود آستانهٔ عملیاتی سنجش رطوبت خاک برای لوبیا چیتی)"
   ],
   "facts": [
     {
       "kind": "source_observation",
-      "claim": "هر دو حالت کم‌آبی و پُرآبی می‌تواند باعث ریزش گل و غلاف شود.",
-      "conditions": "منطقه: ایالت میسیسیپی، آمریکا؛ محصول: لوبیای باغی عمومی (Phaseolus vulgaris، شامل انواع خشک و تازه‌خوری)؛ منبع: Mississippi State University Extension",
-      "evidence_id": "d0-e1",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "وقتی دما و خشکی خاک در تابستان بسیار بالا باشد، لوبیا گل‌ها و غلاف‌های کوچک خود را می‌ریزد.",
-      "conditions": "منطقه: ایالت میسیسیپی، آمریکا؛ محصول: لوبیای خشک و صدفی; منبع: Mississippi State University Extension",
-      "evidence_id": "d0-e4",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "یک اینچ باران در هفته مناسب است؛ یک اینچ آب خاک سبک شنی را تا عمق ده اینچ و خاک رسی سنگین را تا عمق شش اینچ مرطوب می‌کند.",
-      "conditions": "منطقه: مینه‌سوتا، آمریکا; محصول: لوبیای باغی (Phaseolus vulgaris); واحد: inch (inches); منبع: University of Minnesota Extension",
+      "claim": "در خاک‌های حفظ‌کنندهٔ رطوبت، لوبیا ممکن است فقط در شرایط خشک به آبیاری نیاز داشته باشد؛ در خاک‌های شنی آبیاری مکرر ضروری است.",
+      "conditions": "جامعهٔ گیاهی Phaseolus vulgaris (لوبیای رایج) — دانشگاه مینه‌سوتا، منطقهٔ مینه‌سوتا/امریکای شمالی؛ محدوده: مدیریت کلی آبیاری، نه سنسور رطوبت خاک؛ محصول: گیاه زنده در مزرعه (نه محصول ذخیره‌شده)",
       "evidence_id": "d2-e14",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "یک اینچ باران یا آبیاری در هفته کافی دانسته می‌شود؛ یک اینچ آب خاک شنی را تا عمق ده اینچ و خاک رسی سنگین را تا عمق شش اینچ مرطوب می‌کند.",
+      "conditions": "جامعهٔ گیاهی Phaseolus vulgaris (لوبیای رایج) — دانشگاه مینه‌سوتا، منطقهٔ مینه‌سوتا/امریکای شمالی؛ واحد: اینچ (inch)/عمق نفوذ؛ محصول: گیاه زنده در مزرعه (نه محصول ذخیره‌شده)",
+      "evidence_id": "d2-e15",
       "numeric_bindings": [
         {
           "value": "1",
-          "unit_quote": "One inch of rainfall per week is good. An inch of water will wet a sandy soil to a depth of ten inches, a heavy clay soil to six inches.",
-          "geographic_scope": "Minnesota, USA",
-          "product_scope": "Phaseolus vulgaris (common bean)"
+          "unit_quote": "one inch of rainfall per week",
+          "geographic_scope": "Minnesota / North America",
+          "product_scope": "common bean field crop (living)"
+        },
+        {
+          "value": "10",
+          "unit_quote": "ten inches",
+          "geographic_scope": "Minnesota / North America",
+          "product_scope": "sandy soil wetting depth"
+        },
+        {
+          "value": "6",
+          "unit_quote": "six inches",
+          "geographic_scope": "Minnesota / North America",
+          "product_scope": "heavy clay soil wetting depth"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "میزان آب مصرفی واقعی (ET) یا روش پایش رطوبت خاک مانند tensiometer/TPS ارائه نشده است.",
-      "conditions": "منطقه: ایالات متحده; محصول: لوبیا; محدودیت: فاقد شاخص رطوبت خاک؛ صرفاً مقدار آب/باران هفتگی و عمق نفوذ ذکر شده است.",
-      "evidence_id": "d2-e14",
+      "claim": "هم آبیاری بیش از حد و هم کم‌آبیاری باعث ریزش گل و مقوا (pods) کوچک می‌شود.",
+      "conditions": "جامعهٔ گیاهی Phaseolus vulgaris (لوبیای رایج) — دانشگاه ایالت میسی‌سی‌پی، منطقهٔ ایالات متحده؛ محدودیت: مشاهده کیفی، فاقد آستانه عددی رطوبت خاک؛ محصول: مرحله گل‌دهی/مقوا",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در معرض دمای بسیار بالا و خاک‌های خشک قرار گرفتن، باعث ریختن گل‌ها و مقوای کوچک می‌شود.",
+      "conditions": "لوبیای رونده (pole snap bean) — دانشگاه ایالت میسی‌سی‌پی، منطقهٔ ایالات متحده؛ محدودیت: مشاهده کیفی، فاقد آستانه عددی رطوبت خاک؛ محصول: مرحله گل‌دهی/مقوا",
+      "evidence_id": "d0-e4",
       "numeric_bindings": []
     }
-  ]
+  ],
+  "insufficiency_reason": "منابع موجود مدیریت کلی آبیاری لوبیای رایج (Phaseolus vulgaris) را ارائه می‌دهند: مقدار آب هفتگی و عمق نفوذ بر بافت خاک (یک اینچ در هفته، ده اینچ در خاک شنی، شش اینچ در خاک رسی سنگین). اما هیچ منبعی آستانه عملیاتی سنجش رطوبت خاک (مثلاً درصد رطوبت هدف، ولتاژ سنسور، یا نقطه پژمردهگی) را برای مرحله رشد مشخص‌شده لوبیا چیتی ارائه نمی‌دهد و هیچ روش تصمیم‌گیری مبتنی بر اندازه‌گیری مستقیم رطوبت خاک به جای تقویم ثابت موجود نیست. عنوان صراحتاً «تصمیم‌گیری با رطوبت خاک» را درخواست می‌کند؛ شواهد فقط به مقدار آبیاری و اثرات کیفی خشکی/آب‌بیشینه می‌پردازند."
 }

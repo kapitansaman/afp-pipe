@@ -1,0 +1,82 @@
+{
+  "topic_id": "agri-681d9e957593",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "بذر ماشک (مشخص نیست)، محصول برداشت‌شده در منابع: علوفه سبز/کنگر/چرای ماشک معمولی (Vicia sativa) و ماشک پرمو (Vicia villosa)",
+  "slug": "vetch-seed-rate-hectare-calculation",
+  "outline": [
+    "تعیین گونه و محصول هدف (علوفه در برابر بذر)",
+    "نرخ‌های کاشت مشاهده‌شده در منابع دانشگاهی و کاربردهای آن‌ها",
+    "محدودیت‌های عدم پوشش روش محاسبه و درصد جوانه‌زنی"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "نرخ کاشت ماشک معمولی (Vicia sativa) در منابع ترویجی ایالات متحده برای مصارف علوفه‌ای از ۲۰ تا ۴۰ پوند در acre گزارش شده است.",
+      "conditions": "سرزمین میسیسیپی، ایالات متحده؛ محصول هدف علوفه/چرا/کngr/پوشش خاک؛ نه تولید بذر",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": [
+        {
+          "value": "20",
+          "unit_quote": "20 to 40 lb/ac",
+          "geographic_scope": "Mississippi, USA",
+          "product_scope": "common vetch forage planting rate"
+        },
+        {
+          "value": "40",
+          "unit_quote": "20 to 40 lb/ac",
+          "geographic_scope": "Mississippi, USA",
+          "product_scope": "common vetch forage planting rate"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "نرخ کاشت ماشک پرمو (Vicia villosa) به صورت بذرآلوده‌شده درزرودر از ۲۵ تا ۳۵ پوند در acre با کاهش حدود ۲۵ درصد در مخلوط با چاودار گزارش شده است.",
+      "conditions": "ویسکانسین/مینسوتا، ایالات متحده؛ محصول هدف بهبود خاک/علوفه/چرا؛ نه تولید بذر؛ تاریخ کاشت: اواخر ژوئیه تا ۳۰ اوت",
+      "evidence_id": "d2-e8",
+      "numeric_bindings": [
+        {
+          "value": "25",
+          "unit_quote": "25 to 35 lb/acre",
+          "geographic_scope": "Wisconsin/Minnesota, USA",
+          "product_scope": "hairy vetch drilled seeding rate for soil improvement/pasture"
+        },
+        {
+          "value": "35",
+          "unit_quote": "25 to 35 lb/acre",
+          "geographic_scope": "Wisconsin/Minnesota, USA",
+          "product_scope": "hairy vetch drilled seeding rate for soil improvement/pasture"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دانشگاه ویسکانسین اشاره می‌کند که تولید بذر ماشک پرمو دشوار است؛ خوشه‌ها ناهموار رسید می‌یابند و مستعد ریزش هستند.",
+      "conditions": "ویسکانسین، ایالات متحده؛ منظور بذر ماشک (محصول بذر)؛ نه علوفه",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منابع موجود نرخ‌های کاشت را صرفاً برای مصارف علوفه‌ای، کngr، چرا و بهبود خاک ارائه می‌دهند و روش محاسبه نرخ بذر بر پایه تراکم نشاء و درصد جوانه‌زنی را پوشش نمی‌دهند.",
+      "conditions": "تمام منابع استخراج‌شده؛ هدف موضوع: محاسبه بذر ماشک برای محصول نشایی با در نظر گرفتن تراکم و جوانه‌زنی — پوشش داده نمی‌شود",
+      "evidence_id": "d0-full",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ماندگاری بذر ماشک در منابع ۵ سال یا بیشتر گزارش شده است.",
+      "conditions": "ماشک معمولی و ماشک پرمو؛ شرایط ذخیره‌سازی در منابع ذکر نشده است",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": [
+        {
+          "value": "5",
+          "unit_quote": "5 years or longer",
+          "geographic_scope": "General (Mississippi State Extension)",
+          "product_scope": "vetch seed viability"
+        }
+      ]
+    }
+  ]
+}

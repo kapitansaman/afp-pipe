@@ -1,0 +1,69 @@
+{
+  "topic_id": "agri-f5f2d5ed4de0",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی (پینتو، محصول خشک)",
+  "slug": "pinto-dry-bean-irrigation-duration-tape-flow-rate",
+  "outline": [
+    "وضعیت رطوبت و حساسیت آبی لوبیا در مرحله گلدهی و تشکیل غلاف",
+    "مقدار کلی آب هفتگی مورد نیاز در شرایط باغبانی",
+    "عمق نفوذ آب در خاک‌های شنی و رسی",
+    "روش پایش رطوبت خاک با ابزار ساده"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "هر دو حالت کم‌آبی و پرمآبی رطوبت باعث ریزش گل و غلاف‌های کوچک در لوبیا می‌شود؛ دمای شدید تابستان نیز همین اثر را دارد.",
+      "conditions": "مرحله رشد گلدهی تا تشکیل غلاف — اقلیم گرم; منبع: گسترش ایالت میסי‌سی‌پی، آمریکا",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در خاک‌های مرطوب‌نگهدارنده آبیاری مکرر ضرورت ندارد مگر در شرایط خشک، اما خاک‌های شنی مستلزم آبیاری مکرر هستند.",
+      "conditions": "مدیریت آبیاری باغبانی لوبیا — مناطق سردسیر شمال غرب آمریکا (مینسوتا)",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "یک اینچ باران یا آب، خاک شنی را تا عمق ده اینچ و خاک رس سنگین را تا عمق شش اینچ مرطوب می‌کند.",
+      "conditions": "سنجش عمق ترشدگی — خاک شنی vs رس; منطقه: مینسوتا، آمریکا; واحد: اینچ باران/آب",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "1",
+          "unit_quote": "One inch of water",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "common bean (Phaseolus vulgaris) garden irrigation"
+        },
+        {
+          "value": "10",
+          "unit_quote": "depth of ten inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "sandy soil wetting depth"
+        },
+        {
+          "value": "6",
+          "unit_quote": "heavy clay soil to six inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "clay soil wetting depth"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای سنجش عمق ترشدگی از بیلچه استفاده شود؛ اگر تنها یک تا دو اینچ تر شده باشد، آبیاری ادامه یابد.",
+      "conditions": "روش پایش رطوبت خاک باغبانی — منطقه مینسوتا، آمریکا",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "1",
+          "unit_quote": "If it is only an inch or two",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "soil wetness threshold check"
+        }
+      ]
+    }
+  ]
+}

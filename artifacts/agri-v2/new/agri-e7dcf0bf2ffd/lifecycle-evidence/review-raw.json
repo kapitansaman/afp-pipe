@@ -1,0 +1,48 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "تمام شواهد از سه مؤسسه ترویجی دانشگاهی آمریکا (UMD, UMN, MSU) استخراج شده‌اند؛ هیچ منبع ایرانی یا منطقه‌ای یافت نشد. عمق کاشت در منابع اصلی به صورت 'حدود ۱ اینچ' (تقریبی ~۲.۵ سانتی‌متر) یا '۲ تا ۳ برابر قطر دانه' بیان شده و هیچ مقدار دقیق عددی برای پینتوی خشک ارائه نگردیده است. عمق ۲-۳ برابر قطر دانه برای کل خانواده Phaseolus vulgaris (از جمله لیماما و اسنپ بีน) بیان عمومی است و اختصاصاً برای کلاس بازاری پینتو تصدیق نشده است. جهت‌گیری هیلوم-روبه-پایین در UMD صراحتاً برای لوبیای لیماما (lima bean) به عنوان استثنا ذکر شده و تعمیم آن به لوبیا چیتی بدون تصدیق مستقل است. هیچ تقویم کشت، دمای خاک، یا نرخ بذر بومی ایران استخراج نشد.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": false,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
+}

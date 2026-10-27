@@ -1,0 +1,43 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منبع واحد ترویجی دانشگاهی (Utah State University Extension) با دامنه جغرافیایی محدود به ایالت یوتا، ایالات متحده است. هدف منبع راهنمای باغبانی خانگی است و فاقد داده‌های عملکرد تجاری در مقیاس هکتار می‌باشد. تمامی ارقام گزارش‌شده بر اساس واحدهای سفارشی آمریکایی (پوند، فوت ردیف، درجه فارنهایت) ارائه شده و تبدیل به متریک فقط به صورت قطعی و با ذکر حدود تخمینی انجام پذیر است. نتایج قابل تعمیم به شرایط ایران نیست و هیچ توصیه کشت، تقویم یا رقم ایرانی از این منبع استخراج نشده است. عدم وجود منابع مستقل مضاعف، اعتبار آماری دامنه عملکرد را به یک مشاهده دانشگاهی محدود می‌کند.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": true
+}

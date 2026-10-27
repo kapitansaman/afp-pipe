@@ -1,126 +1,89 @@
 {
   "topic_id": "agri-d52cdebf818e",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "چغندر لبویی (ریشه قابل مصرف)، محصول table beet / beetroot",
-  "slug": "table-beet-beetroot-yield",
+  "product_definition": "چغندر لبویی (ریشه خوراکی Betavulgaris Group Cicla/Conditiva)",
+  "slug": "table-beet-yield-domain",
   "outline": [
-    "تعریف محصول و دامنهٔ برداشت",
-    "مشاهدات مستند برداشت (مقیاس باغبانی)",
-    "عوامل مستند کاهش یا محدودیت عملکرد",
-    "محدودیت‌های کاربرد نتایج برای هکتار"
+    "تعریف محصول و دامنه عملکرد مستند",
+    "مشاهدات مستند عملکرد مزرعه کوچک",
+    "عوامل مستند تغییر عملکرد",
+    "کاربرد و محدودیت نتایج"
   ],
   "facts": [
     {
-      "kind": "source_observation",
-      "claim": "عملکرد ریشه چغندر لبویی در مقیاس باغبانی خانگی حدود ۵ تا ۱۰ پوند ریشه از هر ۱۰ فوت طول ردیف کشت انتظار می‌رود.",
-      "conditions": "منبع: Utah State University Extension؛ محصول: rیشه خوراکی چغندر لبویی؛ واحد: پوند و فوت طول ردیف؛ جغرافیا: یوتا، آمریکا (باغبانی خانگی)؛ مرز: مقیاس ردیفی باغبانی، نه مزرعه تجاری هکتاری",
+      "kind": "qualitative",
+      "claim": "منابع ترویجی دانشگاهی آمریکا عمدتاً دامنه عملکرد چغندر لبویی را در مقیاس مزرعه کوچک خانگی گزارش می‌کنند؛ تبدیل مستقیم به عملکرد تجاری در هکتار در این منابع موجود نیست.",
+      "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا؛ محصول: ریشه چغندر لبویی تازه; واحد: پوند در هر ۱۰ فوت طول ردیف; دامنه: ۵ تا ۱۰ پوند در هر ۱۰ فوت ردیف کشت‌شده",
       "evidence_id": "d0-e8",
       "numeric_bindings": [
         {
-          "value": "5",
-          "unit_quote": "5-10 lbs",
-          "geographic_scope": "Utah, USA (home garden)",
-          "product_scope": "beet roots"
+          "value": "5-10",
+          "unit_quote": "5-10 lbs.",
+          "geographic_scope": "Utah home garden",
+          "product_scope": "beet roots, fresh"
         },
         {
           "value": "10",
-          "unit_quote": "5-10 lbs",
-          "geographic_scope": "Utah, USA (home garden)",
-          "product_scope": "beet roots"
-        },
-        {
-          "value": "10",
-          "unit_quote": "per 10 linear feet of planted row",
-          "geographic_scope": "Utah, USA (home garden)",
-          "product_scope": "beet roots"
+          "unit_quote": "10 linear feet",
+          "geographic_scope": "Utah home garden",
+          "product_scope": "planted row length"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "رسیدگی ریشه‌ها معمولاً ۶۰ تا ۸۰ روز پس از کاشت بذر رخ می‌دهد و اندازهٔ نوع بستگی دارد.",
-      "conditions": "منبع: Utah State University Extension؛ محصول: ریشه چغندر لبویی؛ واحد: روز؛ جغرافيا: عمومی (توصیف گونه)؛ مرز: دامنهٔ زمانی رسیدگی، نه عملکرد تجاری",
-      "evidence_id": "d0-e7",
+      "claim": "فشار آبی در شش هفته اول رشد اغلب منجر به گلدهی زودهنگام و کاهش عملکرد می‌شود.",
+      "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا; محصول: چغندر لبویی; مرحله رشد: هفتۀ اول تا ششم پس از کاشت; واحد: کیفی; محدوده: کاهش عملکرد تحت تنش آبی",
+      "evidence_id": "d0-e4",
       "numeric_bindings": [
         {
-          "value": "60",
-          "unit_quote": "60-80 days",
-          "geographic_scope": "general description",
-          "product_scope": "beet root maturity"
-        },
-        {
-          "value": "80",
-          "unit_quote": "60-80 days",
-          "geographic_scope": "general description",
-          "product_scope": "beet root maturity"
+          "value": "6",
+          "unit_quote": "first 6 weeks of growth",
+          "geographic_scope": "Utah home garden",
+          "product_scope": "beet root crop"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "تنش آبی در شش هفتهٔ نخست رشد اغلب منجر به گل‌دهی زودرس و عملکرد پایین می‌شود.",
-      "conditions": "منبع: Utah State University Extension؛ محصول: ریشه چغندر لبویی؛ جغرافیا: عمومی (توصیف کشت)؛ مرز: عامل کیفی کاهش عملکرد",
+      "claim": "نوسانات رطوبتی خاک باعث ترک خوردن ریشه، کاهش رشد برگ و کاهش عملکرد می‌شود.",
+      "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا; محصول: چغندر لبویی; واحد: کیفی; محدودیت: ارتباط مستقیم نوسان رطوبت با افت عملکرد بدون عدد کمی گزارش شده است",
       "evidence_id": "d0-e4",
       "numeric_bindings": []
     },
     {
       "kind": "qualitative",
-      "claim": "نوپایان رشد در دمای بالاتر از ۸۵ درجه فارنهایت ممکن است چوبی و فیبری شوند.",
-      "conditions": "منبع: Utah State University Extension؛ محصول: ریشه چغندر لبویی؛ واحد: درجه فارنهایت؛ جغرافیا: عمومی؛ مرز: عامل کیفی کیفیت محصول",
-      "evidence_id": "d0-e3",
+      "claim": "دماهای بالاتر از ۸۵ درجه فارنهایت همراه با کم‌آبی می‌تواند منجر به ایجاد ریشه‌های چوبی و کاهش کیفیت محصول شود.",
+      "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا; محصول: چغندر لبویی; واحد: کیفی; محدودیت: توصیف کیفی بدون نرخ عددی کاهش عملکرد",
+      "evidence_id": "d0-e9",
       "numeric_bindings": [
         {
           "value": "85",
-          "unit_quote": "above 85ºF",
-          "geographic_scope": "general",
+          "unit_quote": "85ºF",
+          "geographic_scope": "Utah home garden",
           "product_scope": "beet root quality"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "کاشت متراکم و عدم تنک کردن مناسب باعث توسعهٔ ضعیف کلوخه و عملکرد پایین می‌شود.",
-      "conditions": "منبع: Utah State University Extension؛ محصول: ریشه چغندر لبویی؛ جغرافیا: عمومی؛ مرز: عامل کیفی",
-      "evidence_id": "d0-e9",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "فاصلهٔ توصیه‌شدهٔ بوته‌ها در ردیف ۳ تا ۴ اینچ و عرض ردیف ۱۲ تا ۱۸ اینچ است.",
-      "conditions": "منبع: Utah State University Extension؛ محصول: چغندر لبویی؛ واحد: اینچ؛ جغرافيا: عمومی (توصیف کشت)؛ مرز: ابعاد باغبانی، نه مزرعهٔ هکتاری",
-      "evidence_id": "d0-e4",
+      "claim": "عملکرد چغندر لبویی بسته به ارقام مختلف در بازۀ ۶۰ تا ۸۰ روز از کاشت به بلوغ می‌رسد.",
+      "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا; محصول: چغندر لبویی; واحد: روز; دامنه: ۶۰ تا ۸۰ روز تا بلوغ ریشه",
+      "evidence_id": "d0-e7",
       "numeric_bindings": [
         {
-          "value": "3",
-          "unit_quote": "3-4 inches between plants",
-          "geographic_scope": "general cultivation",
-          "product_scope": "beet planting spacing"
-        },
-        {
-          "value": "4",
-          "unit_quote": "3-4 inches between plants",
-          "geographic_scope": "general cultivation",
-          "product_scope": "beet planting spacing"
-        },
-        {
-          "value": "12",
-          "unit_quote": "rows 12-18 inches apart",
-          "geographic_scope": "general cultivation",
-          "product_scope": "beet row spacing"
-        },
-        {
-          "value": "18",
-          "unit_quote": "rows 12-18 inches apart",
-          "geographic_scope": "general cultivation",
-          "product_scope": "beet row spacing"
+          "value": "60-80",
+          "unit_quote": "60-80 days",
+          "geographic_scope": "Utah home garden",
+          "product_scope": "beet root maturity"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "منبع مذکور فاقد دادهٔ عملکرد تجاری در مبنای هکتار است و نتیجهٔ برداشت صرفاً در مقیاس ردیفی باغبانی خانگی گزارش شده است.",
-      "conditions": "منبع: Utah State University Extension؛ محصول: چغندر لبویی؛ جغرافيا: یوتا/عمومی؛ مرز: عدم وجود تبدیل یا برآورد عملکرد هکتاری از دادهٔ باغبانی",
+      "claim": "کشاورزی چغندر لبویی در ایالات متحده عمدتاً در مقیاس مزرعه کوچک خانگی گزارش شده و داده‌های عملکرد تجاری در هکتار در این منبع یافت نمی‌شود.",
+      "conditions": "منطقه جغرافیایی: ایالت یوتا، آمریکا; محصول: چغندر لبویی; واحد: N/A; محدودیت: دامنه گزارش تا متر مربع و فوت ردیف; عدم دسترسی به نرخ عملکرد در هکتار",
       "evidence_id": "d0-e8",
       "numeric_bindings": []
     }

@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
+      "canonical_url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+      "canonical_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2016/direct-harvest-dry-edible-beans/",
+      "canonical_url": "https://cropwatch.unl.edu/2016/direct-harvest-dry-edible-beans/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 503
+    },
+    {
+      "url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+      "canonical_url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/irrigation/soil-moisture-sensors-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

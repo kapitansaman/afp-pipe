@@ -2,7 +2,22 @@
   "status": "pending",
   "languages": {
     "ru-RU": {
-      "status": "pending_separate_review"
+      "post_id": 524191,
+      "url": "https://navar-abyari.ir/carrot-germination-temperature-moisture-crusted-soil-ru-ru/",
+      "language": "ru-RU",
+      "source_post_id": 524186,
+      "status": "published",
+      "public_verified": true,
+      "shared_media": [
+        {
+          "index": 1,
+          "id": 524187,
+          "url": "https://navar-abyari.ir/wp-content/uploads/agri-b6f7d6bea16b-image-1.webp"
+        }
+      ],
+      "new_media_uploads": 0,
+      "display_units_policy": "localized-display-units-v1",
+      "verified_at": "2026-10-27T14:58:23.655311+00:00"
     },
     "ar-IQ": {
       "status": "pending_separate_review"
@@ -11,12 +26,8 @@
       "status": "pending_separate_review"
     },
     "en-US": {
-      "status": "publication_deferred",
-      "failure": {
-        "kind": "validation",
-        "category": "unspecified"
-      }
+      "status": "pending_separate_review"
     }
   },
-  "at": "2026-10-27T14:41:16.866255+00:00"
+  "at": "2026-10-27T14:58:23.662207+00:00"
 }
