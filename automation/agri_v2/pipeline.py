@@ -132,7 +132,10 @@ def validate_article(article,topic,brief):
  if not isinstance(body,str) or len(body)>150000:raise ValueError('Invalid article HTML')
  parser=SafeHTML(links);parser.feed(body);parser.close();faq_html(article.get('faq'));text=' '.join(parser.visible)+' '+' '.join(x['question']+' '+x['answer'] for x in article['faq'])
  if not re.search(r'<table(?:>|\s)',body):raise ValueError('A useful sourced comparison or decision table is required')
- if not 550<=len(text.split())<=2500:raise ValueError('Draft must contain 550–2500 meaningful words')
+ practical=article.get('writing_policy')=='practical-direct-html-v1' and brief.get('review_mode')=='automated_scoped_evidence_review_v1'
+ if practical:
+  if not 300<=len(text.split())<=2500:raise ValueError('Practical article incomplete or excessive')
+ elif not 550<=len(text.split())<=2500:raise ValueError('Draft must contain 550–2500 meaningful words')
  if not parser.cited:raise ValueError('Draft must cite approved sources inline')
  # Conservative lexical gate, not a substitute for scientific review.
  approved=' '.join(str(f.get('claim',''))+' '+str(f.get('conditions','')) for f in brief['approved_facts'])

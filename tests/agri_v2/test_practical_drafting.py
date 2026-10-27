@@ -35,3 +35,14 @@ class PracticalDraftingTests(unittest.TestCase):
   t,b,r=fixture();c=Mock();c.text.return_value=r
   with tempfile.TemporaryDirectory() as td:
    article=g.generate(c,t,b,Path(td));request=json.loads(c.text.call_args.args[0]);self.assertEqual(c.text.call_count,1);self.assertNotIn('response_schema',c.text.call_args.kwargs);self.assertEqual(c.text.call_args.kwargs['max_tokens'],14000);self.assertNotIn('9999',json.dumps(request));self.assertNotIn('constraints',request);self.assertIn('commercial_matrix',article)
+ def test_below_editorial_target_warns_but_fragment_still_rejected(self):
+  import re
+  from automation.agri_v2.pipeline import validate_article
+  t,b,r=fixture();n=[0]
+  def short(match):
+   n[0]+=1;start=['آغاز','شواهد','رطوبت','خاک','حدود','تصمیم','پایش','نتیجه'][n[0]-1];return '<p>'+start+' '+('توضیح مرتبط با شواهد محدود موجود و شرایط کاربرد آن برای خواننده روشن است. '*3)+'</p>'
+  r['content_html']=re.sub(r'<p>.*?</p>',short,r['content_html']);r['content_html']+='<p><a href="'+b['sources'][0]['url']+'">منبع</a></p>'
+  a,report=p.normalize(r,t,b);self.assertTrue(any(x['kind']=='overall_length_below_editorial_target_not_blocker' for x in report['warnings']));legacy=dict(a);legacy.pop('writing_policy')
+  with self.assertRaisesRegex(ValueError,'550'):validate_article(legacy,t,b)
+  tiny=dict(r,content_html='<p>متن ناقص <a href="'+b['sources'][0]['url']+'">منبع</a></p><table><tr><td>نکته</td></tr></table>')
+  with self.assertRaises(ValueError):p.normalize(tiny,t,b)

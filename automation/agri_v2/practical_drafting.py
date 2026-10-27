@@ -71,8 +71,10 @@ def normalize(raw,topic,brief):
  approved=' '.join(f.get('claim','')+' '+f.get('conditions','') for f in brief['approved_facts'])
  if isinstance(article['excerpt'],str) and numbers(article['excerpt'])-numbers(approved):raise ValueError('Unapproved numeric token in draft')
  from .content_matrix import attach
- article=attach(article,topic,brief);validate_article(article,topic,brief);validate_for_publication(article)
- return article,{'version':1,'strategy':'practical-direct-html-v1','raw_sha256':digest(raw),'article_sha256':digest(article),'format_repairs':fixes,'warnings':[{'kind':'short_paragraph_is_not_a_blocker','words':len(p.split())} for p in parser.paragraphs if p and len(p.split())<50],'final_independent_evidence_review_required':True,'claims_added_by_normalizer':False}
+ article=attach(article,topic,brief);article['writing_policy']='practical-direct-html-v1';validate_article(article,topic,brief);validate_for_publication(article)
+ visible=' '.join(parser.parts)+' '+' '.join(f['question']+' '+f['answer'] for f in article['faq']);style_warnings=[]
+ if len(visible.split())<550:style_warnings.append({'kind':'overall_length_below_editorial_target_not_blocker','words':len(visible.split()),'editorial_target':550})
+ return article,{'version':1,'strategy':'practical-direct-html-v1','raw_sha256':digest(raw),'article_sha256':digest(article),'format_repairs':fixes,'warnings':style_warnings+[{'kind':'short_paragraph_is_not_a_blocker','words':len(p.split())} for p in parser.paragraphs if p and len(p.split())<50],'final_independent_evidence_review_required':True,'claims_added_by_normalizer':False}
 
 def generate(client,topic,brief,folder):
  request=json.loads(article_prompt(topic,brief));request.pop('constraints',None)

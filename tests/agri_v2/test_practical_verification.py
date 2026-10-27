@@ -16,3 +16,8 @@ class PracticalVerificationTests(unittest.TestCase):
     row={'run_id':run,'status':'pilot_incomplete','matrix_pilot':True,'assigned_count':1,'published_posts':0,'pool':{'model_requests_reserved':calls,'peak_image_leases':0},'results':[{'topic_id':p.TOPIC}]};path=out/'parallel/lifecycle/runs'/run/'report.json';atomic_json(path,row)
    self.assertEqual(p.remaining(out),13);row['pool']['model_requests_reserved']=2;atomic_json(path,row)
    with self.assertRaises(ValueError):p.remaining(out)
+ def test_saved_continuation_allows_no_new_writer_call(self):
+  req=self.req();req.update(request_id=p.CONT_ID,operation='nonpublishing-saved-practical-draft-four-translations',max_total_text_calls=12,max_writer_calls=0,resume_from_request=p.ID);op.validate_request(req)
+  for key,value in [('max_writer_calls',1),('max_total_text_calls',13),('max_wordpress_mutations',1),('resume_from_request','other')]:
+   bad=dict(req);bad[key]=value
+   with self.assertRaises(ValueError):op.validate_request(bad)
