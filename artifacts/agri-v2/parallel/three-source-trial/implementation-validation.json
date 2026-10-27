@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "validated_at": "2026-10-27T07:33:13.871708+00:00",
-  "tests_passed": 844,
+  "validated_at": "2026-10-27T07:42:15.894830+00:00",
+  "tests_passed": 847,
   "offline_test_command": "python tests/agri_v2/run_offline.py",
-  "live_trial_status": "not_yet_executed",
+  "live_trial_status": "three_source_trial_partial",
   "display_units_policy": "localized-display-units-v1",
   "source_only_trial": true,
   "max_source_posts": 3,
@@ -17,5 +17,15 @@
   "prior_single_source_live_test_passed": true,
   "prior_source_evidence_commit": "0c534bec0429bed8719a46e4ead1aa59f3883061",
   "prior_exhausted_attempts_reset": false,
-  "fresh_candidates_are_not_claimed_to_be_approved_articles": true
+  "fresh_candidates_are_not_claimed_to_be_approved_articles": true,
+  "live_run_id": "40467890941",
+  "live_evidence_commit": "b9af9ade90ad142af46522eeb3181c5e13efdaeb",
+  "live_text_calls": 3,
+  "live_image_calls": 0,
+  "live_published_posts": 0,
+  "live_wordpress_mutations": 0,
+  "all_three_articles_approved": false,
+  "prior_sources_unchanged": true,
+  "assignments_unchanged": true,
+  "manifest_unchanged": true
 }

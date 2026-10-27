@@ -37,3 +37,7 @@ class DisplayUnitsTests(unittest.TestCase):
  def test_english_body_and_faq_use_same_policy(self):
   from automation.agri_v2.multilingual import localized_body
   row={'language':'en-US','title':'Test','content_html':'<p>20 °C and 1 m</p>','faq':[{'question':'Temperature?','answer':'20 °C'}]};body=localized_body(row,[{'id':1,'url':'https://example.com/image.webp'}],{'en-US':[]});self.assertNotIn('°C',body);self.assertIn('68 °F',body);self.assertIn('3.281 ft (1 m)',body)
+
+ def test_persian_times_is_not_misread_as_bar_pressure(self):self.assertEqual(text('3 بار آبیاری','fa-IR'),'3 بار آبیاری')
+ def test_english_preposition_in_is_not_misread_as_inches(self):self.assertEqual(text('3 in 10 seeds','en-US'),'3 in 10 seeds')
+ def test_explicit_bar_pressure_still_converts(self):self.assertEqual(text('3 bar','fa-IR'),'300 kPa')
