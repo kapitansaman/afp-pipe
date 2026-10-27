@@ -1,0 +1,50 @@
+{
+  "topic_id": "agri-b6f7d6bea16b",
+  "media": [
+    {
+      "index": 1,
+      "id": 524187,
+      "url": "https://navar-abyari.ir/wp-content/uploads/agri-b6f7d6bea16b-image-1.webp"
+    }
+  ],
+  "status": "published",
+  "commercial_matrix": {
+    "version": "search-to-drip-content-matrix-v1",
+    "topic_id": "agri-b6f7d6bea16b",
+    "canonical_title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+    "crop": "هویج",
+    "intent": "germination",
+    "reader_question": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+    "reader_task": [
+      "شرایط و تعریف کشت",
+      "شواهد استقرار",
+      "پایش و تصمیم‌گیری",
+      "خطاها و محدودیت انتقال"
+    ],
+    "business_goal": "Answer the searcher first, then guide a relevant irrigation decision toward actual site drip-tape pages; this is not an encyclopedia or a product advertisement substituted for an answer.",
+    "irrigation_relationship": "conditional",
+    "bridge_fact_ids": [
+      "f5"
+    ],
+    "cta_mode": "source_supported_bridge",
+    "bridge_requirement": "Integrate only approved irrigation-related facts naturally into the practical answer. No invented causal link from irrigation to yield, quality, disease or profitability. If the exact title is distant or the required evidence is absent, do not force a product bridge.",
+    "product_scope": "Existing reviewed drip-tape landing/category pages only. No invented model, price, availability, discount, specification or guaranteed water saving/yield improvement.",
+    "cta_rule": "Invitation to inspect suitable options, not an endorsement or field prescription. The site renderer adds verified internal links separately; model must not invent product links.",
+    "search_demand_status": "unknown_not_an_exact_match_in_limited_export",
+    "content_gap_status": "requires_actual_existing_content_audit",
+    "queue_action": "retain_canonical_title",
+    "publication_authorized": false
+  },
+  "selected_image_roles": [
+    1
+  ],
+  "post_id": 524186,
+  "image_layout": "single-approved-featured-v2",
+  "internal_links_policy": "agri-internal-links-v1",
+  "url": "https://navar-abyari.ir/carrot-germination-temperature-moisture-crusted-soil/",
+  "published_at": "2026-10-27T07:07:08.294246+00:00",
+  "public_http_status": 200,
+  "verified_at": "2026-10-27T07:07:16.389207+00:00",
+  "featured_media": 524187,
+  "public_verified": true
+}
