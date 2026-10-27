@@ -1,0 +1,9 @@
+{
+  "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
+  "raw_sha256": "151425f07d92b3bc68283b955ed43b5ec9d7c57b4b751c142ed0d30515ed3e00",
+  "review": {
+    "faithful": true,
+    "reason": "The Tajik translation accurately reflects the revised Persian source, correctly maintaining the distinction between germination (сабзидан) and emergence (баромадани ниҳолча). All numerical values (40, 55-65, 80 °F, 14-21 days) and units are preserved. Geographic references (Utah, USA, Iran) and crop identity (сабзӣ for carrot) are consistent with the glossary and source. The translation uses natural, acceptable Tajik agricultural terminology (e.g., using 'устуворӣ' for 'estabilishment' and 'сабзӣ' for carrot) without introducing unsupported claims or semantic errors.",
+    "issues": []
+  }
+}

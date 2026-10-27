@@ -1,0 +1,10 @@
+{
+  "validation_error": "positive_review_contradicts_verified_field_reference",
+  "previous_review": {
+    "faithful": true,
+    "reason": "The Tajik translation accurately reflects the Persian source. The use of 'сабзӣ' for carrot (هویج) and 'сабзидан' for germination/sprouting is consistent with the provided glossary and agricultural context in Tajik. All numerical values, units (°F, days), and distinctions between germination (сабзидан) and seedling emergence (баромадани ниҳолча) are preserved. The translation maintains the uncertainty markers and geographic scope (Utah source vs. Iran application) present in the original text.",
+    "issues": []
+  },
+  "instruction": "Correct your own judgment, not the translation. Use actual indexed texts and the supplied glossary. Withdraw nonexistent quotes/IDs or false crop assertions. Keep genuine negative judgments; do not automatically approve.",
+  "actual_segments_for_reported_ids": []
+}

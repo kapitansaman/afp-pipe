@@ -1,0 +1,21 @@
+{
+  "faithful": false,
+  "reason": "The translation contains explicit meaning errors in segments 39, 43, and 49 where the Persian term for farm/field is incorrectly translated as 'бӯрон' (storm), contradicting the agricultural context and verified references.",
+  "issues": [
+    {
+      "id": 39,
+      "category": "meaning",
+      "detail": "Persian 'مزرعه' (farm/field) is incorrectly translated as 'бӯрон' (storm) instead of a natural agricultural term like 'киштзор'."
+    },
+    {
+      "id": 43,
+      "category": "meaning",
+      "detail": "Persian 'مزرعه' (farm/field) is incorrectly translated as 'бӯрон' (storm), breaking the semantic link to agricultural grounds."
+    },
+    {
+      "id": 49,
+      "category": "meaning",
+      "detail": "Persian 'مزرعه' (farm/field) is incorrectly translated as 'بӯрон' (storm), creating a logical contradiction in the context of experimental scope."
+    }
+  ]
+}
