@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "request_id": "ops-image-fallback-language-only-after-cooldown-v1",
-  "operation": "nonpublishing-language-only-after-provider-cooldown",
+  "request_id": "ops-one-approved-persian-source-single-image-v1",
+  "operation": "publish-one-existing-approved-persian-source",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
@@ -10,19 +10,17 @@
   "reset_attempts": false,
   "topic_id": "agri-b6f7d6bea16b",
   "source_article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
-  "prior_request": "ops-image-three-corrections-single-fallback-test-v1",
   "max_image_calls": 0,
-  "max_total_text_calls": 16,
-  "max_total_model_calls": 16,
-  "prior_text_calls": 1,
-  "max_combined_text_calls": 17,
-  "max_combined_model_calls": 18,
-  "max_wordpress_mutations": 0,
-  "max_source_posts": 0,
-  "max_total_posts": 0,
-  "max_translation_languages": 4,
-  "max_attempts_per_language_this_run": 1,
-  "max_provider_wait_seconds": 3600,
+  "max_total_text_calls": 0,
+  "max_total_model_calls": 0,
+  "max_wordpress_mutations": 5,
+  "max_source_posts": 1,
+  "max_total_posts": 1,
+  "max_translations": 0,
+  "max_media_uploads": 1,
+  "required_selected_roles": [
+    1
+  ],
   "change_default_model": false,
-  "code_revision": "214ba28a9b301c21d57b11d41cd5798aac77a47d"
+  "code_revision": "9c3c8134023d58f8d7081e3aaf9684070d4eb7d9"
 }
