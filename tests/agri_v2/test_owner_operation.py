@@ -58,6 +58,11 @@ class OwnerOperationTests(unittest.TestCase):
   r=self.req();r.update(request_id=op.CONTINUATION_ID,max_text_health_calls=0,max_image_health_calls=0);self.assertEqual(op.validate_request(r)['request_id'],op.CONTINUATION_ID)
   r['max_text_health_calls']=97
   with self.assertRaises(ValueError):op.validate_request(r)
+ def test_unique_retry_keeps_the_same_finite_health_budget(self):
+  r=self.req();r['request_id']=op.RETRY_ID
+  self.assertEqual(op.validate_request(r)['request_id'],op.RETRY_ID)
+  r['max_image_health_calls']=2
+  with self.assertRaises(ValueError):op.validate_request(r)
  def test_unknown_operation_does_not_create_an_unbounded_replay_path(self):
   r=self.req();r['request_id']='ops-97-arbitrary-retry'
   with self.assertRaises(ValueError):op.validate_request(r)
