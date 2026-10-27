@@ -1,31 +1,12 @@
 {
   "version": 1,
-  "request_id": "ops-three-fresh-persian-sources-family-context-v5",
-  "operation": "continue-three-persian-sources-with-isolated-family-context",
+  "request_id": "ops-97-readiness-pilot-v1",
+  "operation": "readiness-audit-image-pilot",
   "authorized": true,
-  "max_text_health_calls": 0,
-  "max_image_health_calls": 0,
-  "max_pilot_families": 3,
+  "max_text_health_calls": 97,
+  "max_image_health_calls": 1,
+  "max_pilot_families": 1,
   "enable_schedule": false,
   "reset_attempts": false,
-  "topic_ids": [
-    "agri-c2b086b47679",
-    "agri-96d735d5bd11",
-    "agri-3c1cdef82c04"
-  ],
-  "max_total_text_calls": 21,
-  "max_image_calls": 15,
-  "max_total_model_calls": 36,
-  "max_model_calls_per_family": 12,
-  "max_wordpress_mutations": 21,
-  "max_source_posts": 3,
-  "max_total_posts": 3,
-  "max_translations": 0,
-  "max_media_uploads": 6,
-  "max_provider_wait_seconds": 3600,
-  "change_default_model": false,
-  "resume_from_request": "ops-three-fresh-persian-sources-overlap-input-v4",
-  "prior_total_model_calls": 6,
-  "original_total_model_budget": 42,
-  "code_revision": "c400da3565983b228b1440aa3ab37b53940131ab"
+  "code_revision": "bcd506d25f899ee18e7bf2ba2610481ca1113a78"
 }
