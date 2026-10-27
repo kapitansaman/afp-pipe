@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "strategy": "practical-direct-html-v1",
+  "raw_sha256": "3c6f08d1721d39002dd7b92170a24346515966d2161e8da3a38569864d02b892",
+  "article_sha256": "0f0b5db296ea501b43e4df91b53b187b13ffa6334f6223f48f8d48d6b150d833",
+  "format_repairs": [],
+  "warnings": [
+    {
+      "kind": "overall_length_below_editorial_target_not_blocker",
+      "words": 537,
+      "editorial_target": 550
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 38
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 44
+    }
+  ],
+  "final_independent_evidence_review_required": true,
+  "claims_added_by_normalizer": false,
+  "reused_from_request": "ops-practical-writer-translation-v1",
+  "new_writer_calls": 0
+}
