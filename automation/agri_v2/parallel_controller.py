@@ -5,7 +5,7 @@ import argparse,concurrent.futures,hashlib,json,os,shutil,subprocess,sys,tempfil
 from pathlib import Path
 from .queue import DATA,OUT,ROOT,items,load_json,atomic_json,utcnow,age_hours,safe_id
 from .parallel_control import policy,reserve
-from .parallel_pool import initialize,snapshot,routing_counts,record_routing
+from .parallel_pool import initialize,snapshot,routing_counts,routing_backpressure,record_routing
 from .parallel_capacity import MAX_FAMILIES
 # Historical first-research ledger stays consumed; expansion does not replay it.
 ID='parallel-15-research-rollout-v1'
@@ -178,7 +178,7 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(rp,report)
  with tempfile.TemporaryDirectory(prefix='afp-parallel-') as td:
   workspace=Path(td);db=workspace/'pool.sqlite'
-  initialize(db,h['eligible_text_slots'],text_limit=min(MAX_FAMILIES,len(h['eligible_text_slots'])),image_limit=1,max_calls=3*len(topics),per_worker=3,prior_usage=routing_counts(out))
+  initialize(db,h['eligible_text_slots'],text_limit=min(MAX_FAMILIES,len(h['eligible_text_slots'])),image_limit=1,max_calls=3*len(topics),per_worker=3,prior_usage=routing_counts(out),prior_backpressure=routing_backpressure(out))
   started=time.monotonic()
   with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_FAMILIES,len(topics))) as executor:
    futures={executor.submit(worker_fn,t,workspace,db,h,inventory,data,out,env):t for t in topics}

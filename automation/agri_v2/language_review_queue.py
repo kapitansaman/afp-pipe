@@ -251,7 +251,7 @@ def run_item(p,client,data=DATA):
  return {'topic_id':row['topic_id'],'language':lang,'status':row['status'],'model_calls':spent}
 
 def process_due(env,health,data=DATA,out=OUT):
- from .parallel_pool import initialize,snapshot,routing_counts,record_routing
+ from .parallel_pool import initialize,snapshot,routing_counts,routing_backpressure,record_routing
  from .parallel_client import ParallelModelClient
  from .alternate_reviewer_verification import AlternateDiagnosticClient
  from .provider_diagnostic import active_cooldown
@@ -261,7 +261,7 @@ def process_due(env,health,data=DATA,out=OUT):
  if not todo:return {'status':'no_due_items','model_calls':0}
  run_id=env['GITHUB_RUN_ID'];db=out/'parallel/language-review-queue/runs'/run_id/'pool.sqlite'
  if db.exists():return {'status':'review_run_already_reserved','model_calls':0}
- initialize(db,health['eligible_text_slots'],text_limit=1,image_limit=1,max_calls=8,per_worker=4,prior_usage=routing_counts(out));results=[]
+ initialize(db,health['eligible_text_slots'],text_limit=1,image_limit=1,max_calls=8,per_worker=4,prior_usage=routing_counts(out),prior_backpressure=routing_backpressure(out));results=[]
  for p in todo:
   row=load_json(p);worker_env=dict(env,AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB=str(db),AFP_PARALLEL_TOPIC=row['topic_id']+'-'+row['language'],AFP_PARALLEL_FAMILY='separate-language-review-queue')
   factory=AlternateDiagnosticClient if row['language']=='tg-TJ' else ParallelModelClient

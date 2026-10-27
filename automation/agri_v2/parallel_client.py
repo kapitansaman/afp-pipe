@@ -1,7 +1,7 @@
 """Text-first parallel client; image capability must be proved separately, never inferred."""
 import os
 from .client import ModelClient,CapabilityError,TextProviderError,ImageProviderError
-from .parallel_pool import SLOTS,lease,defer,disable
+from .parallel_pool import SLOTS,lease,defer,defer_slot,disable
 from .queue import DATA,OUT,load_json,atomic_json,utcnow,age_hours
 from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
 
@@ -41,7 +41,8 @@ class ParallelModelClient(ModelClient):
    try:return super().request(kind,path,payload,timeout,attempts=1)
    except (TextProviderError,ImageProviderError) as e:
     if e.http_status in (401,403):disable(db,slot)
-    elif e.http_status in (402,429) or e.http_status is None or isinstance(e.http_status,int) and e.http_status>=500:defer(db,max(3600,e.retry_after_seconds or 0))
+    elif e.http_status in (402,429):defer_slot(db,slot,max(3600,e.retry_after_seconds or 0))
+    elif e.http_status is None or isinstance(e.http_status,int) and e.http_status>=500:defer(db,max(3600,e.retry_after_seconds or 0))
     raise
    finally:self.keys[kind]=pool
  def record_success(self,kind,model,blob=None):

@@ -107,10 +107,25 @@ class FamilyKeyTests(unittest.TestCase):
     with self.assertRaises(CapabilityError):c.request('text','/chat/completions',{},120)
    remote.assert_not_called();self.assertEqual(snapshot(e['AFP_PARALLEL_POOL_DB'])['model_requests_reserved'],0)
 
- def test_shared_quota_error_is_not_retried_on_another_group(self):
+ def test_account_quota_stops_one_request_without_blocking_independent_family(self):
   with tempfile.TemporaryDirectory() as td:
    d,o,h,e=self.setup(Path(td));a=self.client(d,h,e);b=self.client(d,h,dict(e,AFP_PARALLEL_FAMILY='family-02'))
-   with patch.object(ModelClient,'request',side_effect=TextProviderError(429,'rate_limited')) as remote:
+   chosen=[]
+   def request(client,*args,**kwargs):
+    chosen.append(client.keys['text'][0][0])
+    if len(chosen)==1:raise TextProviderError(429,'rate_limited')
+    return {'ok':True}
+   with patch.object(ModelClient,'request',autospec=True,side_effect=request) as remote:
+    with self.assertRaises(TextProviderError):a.request('text','/chat/completions',{},120)
+    self.assertEqual(remote.call_count,1)
+    self.assertEqual(b.request('text','/chat/completions',{},120),{'ok':True})
+   self.assertEqual(chosen,[SLOTS[0],SLOTS[4]])
+   row=snapshot(e['AFP_PARALLEL_POOL_DB']);self.assertEqual(row['model_requests_reserved'],2);self.assertEqual(row['cooldown_until_epoch'],0)
+
+ def test_shared_service_error_still_stops_other_groups(self):
+  with tempfile.TemporaryDirectory() as td:
+   d,o,h,e=self.setup(Path(td));a=self.client(d,h,e);b=self.client(d,h,dict(e,AFP_PARALLEL_FAMILY='family-02'))
+   with patch.object(ModelClient,'request',side_effect=TextProviderError(503,'provider_unavailable')) as remote:
     with self.assertRaises(TextProviderError):a.request('text','/chat/completions',{},120)
     with self.assertRaises(PoolDeferred):b.request('text','/chat/completions',{},120)
     self.assertEqual(remote.call_count,1)
