@@ -2,6 +2,7 @@
 import argparse,json,os,subprocess,urllib.request
 from .queue import DATA,OUT,ROOT,atomic_json,load_json,utcnow,age_hours
 ID='ops-97-readiness-pilot-v1'
+RETRY_ID='ops-97-readiness-pilot-v2'
 CONTINUATION_ID='ops-97-pilot-citation-v2'
 GROUNDED_ID='ops-97-pilot-grounded-v3'
 SUPPLEMENT_ID='ops-97-pilot-editorial-v4'
@@ -27,8 +28,8 @@ def context(env):
 
 def validate_request(req):
  rid=req.get('request_id') if isinstance(req,dict) else None
- if rid not in (ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID,IMAGE_FALLBACK_TEST_ID,LANGUAGE_FALLBACK_CONT_ID,PERSIAN_SOURCE_ID,THREE_SOURCE_ID,THREE_SOURCE_REPAIR_ID,THREE_SOURCE_SAVED_ID,THREE_SOURCE_OVERLAP_ID,THREE_SOURCE_FAMILY_CONTEXT_ID):raise ValueError('Unknown bounded owner request')
- expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid==ID else 0,'max_image_health_calls':1 if rid==ID else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
+ if rid not in (ID,RETRY_ID,CONTINUATION_ID,GROUNDED_ID,SUPPLEMENT_ID,FULL_QUEUE_ID,MATRIX_ID,MATRIX_CONT_ID,MATRIX_RECHECK_ID,MATRIX_TEXT_ID,MATRIX_STRUCTURED_ID,DIAGNOSTIC_ID,PRACTICAL_ID,PRACTICAL_CONT_ID,PRACTICAL_REVIEW_ID,PRACTICAL_TRANSLATION_ID,PRACTICAL_LANGUAGE_ID,PRACTICAL_EDITORIAL_ID,REPAIR_ID,ALT_REVIEW_ID,FLASH_ID,TAJIK_FULL_ID,TAJIK_QA_ID,ROLE_LAUNCH_ID,ROLE_LAUNCH_CONT_ID,ROLE_LAUNCH_PAIR_ID,IMAGE_FALLBACK_TEST_ID,LANGUAGE_FALLBACK_CONT_ID,PERSIAN_SOURCE_ID,THREE_SOURCE_ID,THREE_SOURCE_REPAIR_ID,THREE_SOURCE_SAVED_ID,THREE_SOURCE_OVERLAP_ID,THREE_SOURCE_FAMILY_CONTEXT_ID):raise ValueError('Unknown bounded owner request')
+ expected={'version':1,'request_id':rid,'operation':'readiness-audit-image-pilot','authorized':True,'max_text_health_calls':97 if rid in (ID,RETRY_ID) else 0,'max_image_health_calls':1 if rid in (ID,RETRY_ID) else 0,'max_pilot_families':1,'enable_schedule':False,'reset_attempts':False}
  if rid in (THREE_SOURCE_ID,THREE_SOURCE_REPAIR_ID,THREE_SOURCE_SAVED_ID,THREE_SOURCE_OVERLAP_ID,THREE_SOURCE_FAMILY_CONTEXT_ID):
   from .three_source_trial import expected_request as trial_request
   expected=trial_request(rid)
@@ -112,7 +113,7 @@ def image_capability(env,data=DATA,out=OUT,probe_fn=None,request_id=ID):
  from automation.blog_image_queue import ImageQueueBusy
  hp=out/'parallel/health/latest.json';h=load_json(hp)
  if h.get('repository')!='kapitansaman/afp-pipe' or h.get('credential_set_id')!=CREDENTIAL_SET_ID or h.get('audit_status')!='completed' or not 0<=age_hours(h['checked_at'])<24 or (h.get('text_model'),h.get('image_model'),h.get('api_base'))!=(TEXT_MODEL,IMAGE_MODEL,API_BASE):return {'status':'fresh_text_audit_required','image_calls':0}
- if request_id not in (ID,ROLE_LAUNCH_ID):raise ValueError('Unknown bounded image probe request')
+ if request_id not in (ID,RETRY_ID,ROLE_LAUNCH_ID):raise ValueError('Unknown bounded image probe request')
  rp=out/'parallel/operations'/request_id/'image-proof.json'
  if rp.exists():return {'status':'already_reserved','image_calls':0}
  if circuit_open('image'):return {'status':'shared_image_cooldown','image_calls':0}
@@ -200,7 +201,7 @@ def prepare(env=None,data=DATA,out=OUT):
  h=load_json(out/'parallel/health/latest.json') if (out/'parallel/health/latest.json').exists() else {}
  from .parallel_capacity import CREDENTIAL_SET_ID
  text_ready=h.get('credential_set_id')==CREDENTIAL_SET_ID and h.get('audit_status')=='completed' and 0<=age_hours(h['checked_at'])<24 and len(h.get('eligible_text_slots',[]))>=20
- if text_ready and admission['request']['max_image_health_calls']:report['image']=image_capability(env,data,out);atomic_json(rp,report)
+ if text_ready and admission['request']['max_image_health_calls']:report['image']=image_capability(env,data,out,request_id=rid);atomic_json(rp,report)
  after=readiness(data,out);report['readiness_after']=after
  required=['fresh_text_capacity','fresh_image_capacity','authenticated_publisher','translation_bridge','lifecycle_enabled']
  if rid==FULL_QUEUE_ID:required=['configured_capacity','fresh_text_capacity','authenticated_publisher','lifecycle_enabled']
