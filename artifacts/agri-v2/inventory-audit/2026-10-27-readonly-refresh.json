@@ -1,0 +1,17 @@
+{
+  "audit_version": 1,
+  "source": "https://navar-abyari.ir/wp-json/wp/v2/posts",
+  "retrieval_method": "public_read_only_get",
+  "retrieved_at": "2026-10-27T10:01:27+00:00",
+  "pages_fetched": 12,
+  "headers_total": 1190,
+  "records": 1190,
+  "unique_ids": 1190,
+  "unique_urls": 1190,
+  "all_status_publish": true,
+  "complete_snapshot_sha256": "937d52df927d4957f9a401ae7dfbf2f600abd723725bea69af7f2bd616f08745",
+  "model_calls": 0,
+  "image_calls": 0,
+  "publication_calls": 0,
+  "note": "The live cycle already obtains a fresh inventory through its authenticated read-only WordPress inventory call; this artifact records the independent complete public GET audit. The large JSON snapshot is not rewritten here to preserve a reviewable branch change."
+}
