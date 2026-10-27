@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "policy": "write-ahead-lifecycle-v1",
+  "enabled": true,
+  "require_remote_intent_before_work": true,
+  "close_only_with_committed_checkpoints": true,
+  "automatic_uncertain_replay": false,
+  "reset_attempts": false
+}

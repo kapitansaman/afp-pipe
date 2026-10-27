@@ -42,6 +42,8 @@ def archive(folder,stage,paths):
 def attempt(folder,stage,run_id,fn,outputs=(),limit=3,allow_same_run=False):
  if allow_same_run and not stage.startswith(('image-','vision-')):raise StageBlocked('same-run correction is image-only')
  s=state(folder,stage)
+ if s.get('status') in ('reserved','reconciliation_required'):
+  return {'status':'stage_reconciliation_required','stage':stage,'reason':'prior_request_outcome_unconfirmed','previous_run_id':s.get('last_run_id'),'attempts_preserved':s['attempts']}
  if s.get('last_run_id')==run_id and not allow_same_run:return {'status':'deferred_same_run','stage':stage}
  if s['attempts']>=limit:return {'status':'stage_budget_exhausted','stage':stage}
  # Preserve failed candidates/receipts before a fresh attempt, never erase history.
@@ -54,12 +56,14 @@ def attempt(folder,stage,run_id,fn,outputs=(),limit=3,allow_same_run=False):
   from .image_transport import AdmissionBlocked
   from automation.blog_image_queue import ImageQueueBusy
   deferred=isinstance(e,(PoolDeferred,AdmissionBlocked,ImageQueueBusy))
-  s.update(status='deferred' if deferred else 'failed',failure=failure_details(e),completed_at=utcnow())
+  from .execution_recovery import uncertain_outcome
+  uncertain=uncertain_outcome(e)
+  s.update(status='deferred' if deferred else 'reconciliation_required' if uncertain else 'failed',failure=failure_details(e),completed_at=utcnow())
   from .scoped_research import EvidenceBlocked
   if isinstance(e,EvidenceBlocked):s['failure']['category']=e.code
   # Admission is not an invalid billed output; retain admission history separately.
   if deferred:s['attempts']-=1
-  result={'status':'stage_deferred' if deferred else 'stage_failed','stage':stage,'failure':s['failure']}
+  result={'status':'stage_deferred' if deferred else 'stage_reconciliation_required' if uncertain else 'stage_failed','stage':stage,'failure':s['failure']}
  s.setdefault('history',[]).append({k:s.get(k) for k in ['attempts','status','last_run_id','started_at','completed_at','failure']});atomic_json(row_path(folder,stage),s);return result
 
 def article_checked(folder,topic,brief):
@@ -405,6 +409,10 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   from .scoped_research import prefetch_existing
   report['existing_content_fetch']=prefetch_existing(topics,inventory,wp,out,run_id)
   atomic_json(rp,report)
+ if not matrix_pilot and env.get('AFP_WHITE_BEAN_PILOT')!='1' and topics:
+  from .execution_recovery import begin as fence_run
+  flight=fence_run(env,topics,data,out)
+  if flight is not None:report['durable_flight_reserved']=True;atomic_json(rp,report)
  if worker_fn is None:
   from .parallel_controller import launch_worker
   worker_fn=launch_worker
@@ -430,6 +438,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
      if ident!=topic['id'] or result.get('topic_id')!=ident:raise StageBlocked('worker_identity_mismatch')
      from .parallel_controller import merge_worker
      merge_worker(ident,wd,wo,data,out)
+     result=dict(result,checkpoint_merged=True)
      if not matrix_pilot and env.get('AFP_WHITE_BEAN_PILOT')!='1':
       from .queue_exceptions import note_terminal
       terminal=note_terminal(topic,result,data,out)
@@ -473,7 +482,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   review_index(out)
  if not matrix_pilot:allocate(data,out,allow_deferral=env.get('AFP_WHITE_BEAN_PILOT')!='1')
  failures=[x for x in report['results'] if x.get('status') in {'stage_failed','worker_failed'}]+[x for x in report['publication_results'] if x['status']=='stage_failed']
- report.update(status='completed_with_failures' if failures else 'completed',operational_failures=len(failures),waiting_families=sum(x.get('status') in {'blocked','capability_required','stage_deferred','stage_budget_exhausted'} for x in report['results']),publication_ready_workers=sum(x.get('status')=='publication_ready' for x in report['results']),completed_at=utcnow())
+ report.update(status='completed_with_failures' if failures else 'completed',operational_failures=len(failures),waiting_families=sum(x.get('status') in {'blocked','capability_required','stage_deferred','stage_budget_exhausted','stage_reconciliation_required'} for x in report['results']),publication_ready_workers=sum(x.get('status')=='publication_ready' for x in report['results']),completed_at=utcnow())
  if matrix_pilot:
   report['matrix_pilot_complete']=all(family_complete(t['id'],data,out) for t in topics)
   if not report['matrix_pilot_complete']:report['status']='pilot_incomplete'
@@ -487,5 +496,6 @@ def run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=res
   run_id=env.get('GITHUB_RUN_ID','')
   if not str(run_id).isdigit():raise
   rp=out/'parallel/lifecycle/runs'/str(run_id)/'report.json';report=load_json(rp) if rp.exists() else {'run_id':run_id,'results':[],'published_posts':0}
-  report.update(status='completed_with_failures',coordinator_failure=failure_details(e),completed_at=utcnow())
+  from .execution_recovery import ReconciliationRequired
+  report.update(status='reconciliation_required' if isinstance(e,ReconciliationRequired) else 'completed_with_failures',coordinator_failure={'kind':'checkpoint_recovery','category':'unconfirmed_prior_run'} if isinstance(e,ReconciliationRequired) else failure_details(e),completed_at=utcnow())
   atomic_json(rp,report);atomic_json(out/'parallel/lifecycle/latest.json',report);return report

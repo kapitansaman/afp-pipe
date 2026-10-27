@@ -100,7 +100,9 @@ def publication_failed(p,error):
  row=load_json(p);n=row.get('publication_attempts',0)+1
  row.update(publication_attempts=n,publication_failure=failure_details(error))
  row['history'].append({'event':'publication_failed','attempt':n,'at':utcnow()})
- if n>=3:row.update(status='publication_needs_attention',publication_next_attempt_at=None)
+ from .execution_recovery import uncertain_outcome
+ if uncertain_outcome(error):row.update(status='publication_reconciliation_required',publication_next_attempt_at=None)
+ elif n>=3:row.update(status='publication_needs_attention',publication_next_attempt_at=None)
  else:row['publication_next_attempt_at']=(datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=6 if n==1 else 24)).isoformat()
  atomic_json(p,row)
 
@@ -168,7 +170,7 @@ def run_item(p,client,data=DATA):
  if row['status']=='reserved':
   # An interrupted attempt is never billed again, even if it has no response yet.
   history=row.get('history',[]);last=history[-1] if history else {}
-  row['model_calls_spent']+=min(last.get('max_calls',4),pol['max_model_calls_per_item']-row['model_calls_spent']);defer(row,p,'uncertain_attempt_not_replayed',data);return {'status':row['status'],'model_calls':0}
+  row['model_calls_spent']+=min(last.get('max_calls',4),pol['max_model_calls_per_item']-row['model_calls_spent']);row.update(status='reconciliation_required',next_attempt_at=None,reason='uncertain_attempt_not_replayed');atomic_json(p,row);return {'status':row['status'],'model_calls':0}
  if row['attempts']>=pol['max_automatic_attempts'] or row['model_calls_spent']>=pol['max_model_calls_per_item']:defer(row,p,'automatic_budget_exhausted',data);return {'status':'needs_attention','model_calls':0}
  n=row['attempts']+1;limit=min(pol['max_model_calls_per_attempt'],pol['max_model_calls_per_item']-row['model_calls_spent']);root=folder/'review-queue/attempts'/row['language']/str(n)
  if root.exists():raise RepairBlocked('review_attempt_artifacts_already_exist')
@@ -238,10 +240,13 @@ def run_item(p,client,data=DATA):
    raw=edit_rows(edits,issues,raw,source);atomic_json(candidate,{'article_sha256':digest(article),'raw':raw})
  except Exception as exc:
   from .failure_diagnostics import failure_details
-  row['last_failure']=failure_details(exc);row['status']='waiting'
+  from .execution_recovery import uncertain_outcome
+  uncertain=uncertain_outcome(exc)
+  row['last_failure']=failure_details(exc);row['status']='reconciliation_required' if uncertain else 'waiting'
  finally:
   spent=len(list(root.glob('*.receipt.json')));row['model_calls_spent']+=spent;row['history'].append({'event':'attempt_finished','attempt':n,'reserved_model_calls':spent,'status':row['status'],'at':utcnow()})
-  if row['status']!='approved':defer(row,p,'translation_or_review_needs_another_attempt',data)
+  if row['status']=='reconciliation_required':row.update(next_attempt_at=None,reason='uncertain_provider_response');atomic_json(p,row)
+  elif row['status']!='approved':defer(row,p,'translation_or_review_needs_another_attempt',data)
   else:atomic_json(p,row)
  return {'topic_id':row['topic_id'],'language':lang,'status':row['status'],'model_calls':spent}
 
