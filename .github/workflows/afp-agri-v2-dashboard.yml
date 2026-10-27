@@ -5,7 +5,17 @@ on:
     paths:
       - docs/agri-v2-dashboard/**
       - .github/workflows/afp-agri-v2-dashboard.yml
+      - automation/agri_v2/dashboard_snapshot.py
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - AFP one-shot owner operation - readiness, 97-key audit and pilot
+      - AFP parallel - 97-key pool and 20 resumable families
+      - AFP adaptive scheduler - gated 20-family cadence
+      - AFP agri v2 - isolated draft generator
+      - AFP agri v2 - one live pilot
+      - AFP agri v2 - research feeder rollout
+    types: [completed]
 permissions:
   contents: read
   pages: write
@@ -15,12 +25,22 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    if: github.repository == 'kapitansaman/afp-pipe' && (github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Read generator evidence (no generation or publication)
+        uses: actions/checkout@v4
+        with:
+          ref: feat/agri-generator-v2-2905-merge593
+          path: generator-evidence
+          persist-credentials: false
+      - name: Build read-only dashboard summary
+        run: |
+          python3 automation/agri_v2/dashboard_snapshot.py --root generator-evidence --output docs/agri-v2-dashboard/status.json --commit "$(git -C generator-evidence rev-parse HEAD)"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
