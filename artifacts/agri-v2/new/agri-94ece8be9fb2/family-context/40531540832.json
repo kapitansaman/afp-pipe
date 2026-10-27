@@ -1,0 +1,17 @@
+{
+  "family_id": "family-19",
+  "topic_id": "agri-94ece8be9fb2",
+  "title": "دور آبیاری کدو آجیلی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
+  "title_sha256": "3fb5ab063777bed085e13e789a99d598fbcd85e13f3d6b5e745a3168f5afea67",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY73",
+    "AGNES_API_KEY74",
+    "AGNES_API_KEY75",
+    "AGNES_API_KEY76"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

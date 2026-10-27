@@ -2,7 +2,7 @@
   "all_claims_supported": false,
   "crop_species_and_product_match": true,
   "answers_exact_intent": false,
-  "units_and_denominators_correct": false,
+  "units_and_denominators_correct": true,
   "geography_and_transfer_limits_retained": true,
   "no_iranian_prescription_inferred": true,
   "independent_sources": false,
@@ -10,7 +10,7 @@
   "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "منابع فقط شامل چند راهنمای عمومی ترویجی باغ‌های خانگی و زراعی دانشگاه‌های ایالات متحده هستند؛ هیچ منبع پویا/پایش مزرعه، داده آبیاری دقیق، یا سند فارسی مرتبط استخراج نشده است. گزارش از ادعاهای کیفی تا حدی پشتیبانی می‌شود اما ادعای عددی «یک اینچ آب در هفته» مستقیماً برای لوبیای چیتی، شرایط مزرعه‌ای یا هدف اولین آبیاری پس از کاشت تنظیم نشده و تعمیم آن به دامنه کاربرد عنوان اصلی نادرست است. هیچ توصیه بومی ایران، تقویم کشت، یا نرخ آبیاری محلی استخراج یا استنباط نشده است. نسخه واحد دانشگاهی اجازه تکیه بر یک منبع را می‌دهد، اما این به معنای پاسخ‌گویی کامل به نیت خاص پژوهش نیست.",
+  "limitations": "فقط یک منبع دانشگاهی ترویجی (University of Minnesota Extension) به‌عنوان منبع مستقیم مربوط به آبیاری لوبیا در شرایط خشک بارش‌شده است؛ منابع Mississippi State و University of Maryland فقط جنبه‌های جوانه‌زنی و بیماری‌های خاک‌زی را پوشش می‌دهند. هیچ‌یک از منابع ارائه‌شده مقدار، زمان یا دمای شروع اولین آبیاری پس از کاشت لوبیا چیتی (پیش از گلدهی/ست تولید) را مشخص نکرده‌اند. مقادیر «یک اینچ آب در هفته» و عمق‌های نفوذ ده و شش اینچ متعلق به باغ‌های خانگی مینه‌سوتا و بر پایه باران/آبیاری کلی هستند و برای مزارع لوبیای چیتی ایران قابل تعمیم نیستند. روش پایش با کلنگ (trowel) کیفی است و فاقد عدد آستانه رطوبت خاک یا درصد اشباع قابل استناد است.",
   "fact_checks": [
     {
       "fact_id": "f0",
@@ -19,13 +19,13 @@
     },
     {
       "fact_id": "f1",
-      "supported": true,
-      "scope_and_units_correct": true
+      "supported": false,
+      "scope_and_units_correct": false
     },
     {
       "fact_id": "f2",
-      "supported": false,
-      "scope_and_units_correct": false
+      "supported": true,
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f3",
@@ -47,5 +47,7 @@
       "supported": true,
       "scope_and_units_correct": true
     }
-  ]
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
 }

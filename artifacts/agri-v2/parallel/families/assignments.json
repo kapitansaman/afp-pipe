@@ -68,20 +68,20 @@
     },
     {
       "family_id": "family-08",
-      "topic_id": "agri-69e85f55cdc9",
-      "title": "آخرین آبیاری لوبیا چیتی پیش از برداشت؛ معیارهای قطع و کاهش آب",
-      "assigned_at": "2026-10-27T14:41:16.922532+00:00",
+      "topic_id": "agri-6aaba20b13cf",
+      "title": "تنظیم آبیاری کدو آجیلی پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "assigned_at": "2026-10-27T15:33:31.255511+00:00",
       "assignment_status": "assigned",
-      "work_stage": "source_discovery_required",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-09",
-      "topic_id": "agri-e7dcf0bf2ffd",
-      "title": "عمق کاشت بذر لوبیا چیتی در خاک سبک و سنگین؛ خطاهای رایج",
-      "assigned_at": "2026-10-26T08:45:16.202352+00:00",
+      "topic_id": "agri-71be4981f446",
+      "title": "برآورد عملکرد کدو آجیلی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "assigned_at": "2026-10-27T15:33:31.255742+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "scope_review_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -95,18 +95,18 @@
     },
     {
       "family_id": "family-11",
-      "topic_id": "agri-6b4f1f6e0cad",
-      "title": "چرا بذر کدو آجیلی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
-      "assigned_at": "2026-10-27T15:19:01.762540+00:00",
+      "topic_id": "agri-4e351a4fbdee",
+      "title": "راهنمای ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت",
+      "assigned_at": "2026-10-27T15:33:31.256109+00:00",
       "assignment_status": "assigned",
-      "work_stage": "research_budget_exhausted",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-12",
-      "topic_id": "agri-bacb80d5fede",
-      "title": "تنظیم آبیاری لوبیا چیتی پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
-      "assigned_at": "2026-10-27T14:41:16.922965+00:00",
+      "topic_id": "agri-fcc69d8bfd95",
+      "title": "مقدار بذر کدو آجیلی در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "assigned_at": "2026-10-27T15:33:31.256289+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -158,11 +158,11 @@
     },
     {
       "family_id": "family-18",
-      "topic_id": "agri-5a15e78285ed",
-      "title": "برآورد عملکرد لوبیا چیتی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
-      "assigned_at": "2026-10-27T14:41:16.927471+00:00",
+      "topic_id": "agri-18ff41bec566",
+      "title": "پایش رطوبت خاک در مزرعه کدو آجیلی؛ انتخاب محل و عمق حسگر",
+      "assigned_at": "2026-10-27T15:33:31.267702+00:00",
       "assignment_status": "assigned",
-      "work_stage": "scope_review_required",
+      "work_stage": "source_discovery_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -496,6 +496,66 @@
       "completed_at": "2026-10-27T15:19:01.750673+00:00",
       "completion": "deferred_to_research_backlog",
       "reason": "scoped_four_to_twelve_facts_required"
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-69e85f55cdc9",
+      "title": "آخرین آبیاری لوبیا چیتی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "assigned_at": "2026-10-27T14:41:16.922532+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "source_discovery_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:33:31.227369+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-09",
+      "topic_id": "agri-e7dcf0bf2ffd",
+      "title": "عمق کاشت بذر لوبیا چیتی در خاک سبک و سنگین؛ خطاهای رایج",
+      "assigned_at": "2026-10-26T08:45:16.202352+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:33:31.232692+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "independent_scoped_review_rejected"
+    },
+    {
+      "family_id": "family-11",
+      "topic_id": "agri-6b4f1f6e0cad",
+      "title": "چرا بذر کدو آجیلی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "assigned_at": "2026-10-27T15:19:01.762540+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "research_budget_exhausted",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:33:31.235078+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "legacy_research_budget_exhausted"
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-bacb80d5fede",
+      "title": "تنظیم آبیاری لوبیا چیتی پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "assigned_at": "2026-10-27T14:41:16.922965+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:33:31.235824+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-18",
+      "topic_id": "agri-5a15e78285ed",
+      "title": "برآورد عملکرد لوبیا چیتی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "assigned_at": "2026-10-27T14:41:16.927471+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "scope_review_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-27T15:33:31.240434+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
     }
   ],
   "publication_authorized_by_assignment": false,
@@ -1076,9 +1136,87 @@
       ],
       "prior_attempts_reset": false,
       "previous_family_id": "family-20"
+    },
+    "agri-69e85f55cdc9": {
+      "topic_id": "agri-69e85f55cdc9",
+      "title": "آخرین آبیاری لوبیا چیتی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40531540832",
+      "deferred_at": "2026-10-27T15:33:31.227369+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "2c49a25847ff4bd51a1c1f9f758cb8df601b14244a09f9756682cef1e40027cf",
+        "sources.json": "a26bb9a8af376d3a2709d0014669f30a1bc7c832484b1c96deb92b8578cbb5ba",
+        "candidate-raw.json": "19abc32234bb282b161486366d64f01eaf363ebb4a39c262de48e098630b78fc",
+        "state.json": "10ec03f3e6f892c427037e36766177285b78f7f61e4f6ff5c5a8c4a39935f2c3"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-08"
+    },
+    "agri-bacb80d5fede": {
+      "topic_id": "agri-bacb80d5fede",
+      "title": "تنظیم آبیاری لوبیا چیتی پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40531540832",
+      "deferred_at": "2026-10-27T15:33:31.235824+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "a95eefb5bbc1af7318762d99ac87f524c88f2a79863d5a40a1cdbb8b587d0b3f",
+        "sources.json": "9911fb425d33d01fb93b6a3c64c5f07c4d939e10f941987774f1ee9adbc1d275",
+        "candidate-raw.json": "0c758003ffd9d965f1ef84c09c9a33ff67b57daab213c9e9a03e534b9386a028",
+        "state.json": "0535bc21c02395474d209468bac1c30d409d1ac72e55ce4e17fa6ffc0ed47f54"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-12"
+    },
+    "agri-5a15e78285ed": {
+      "topic_id": "agri-5a15e78285ed",
+      "title": "برآورد عملکرد لوبیا چیتی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40531540832",
+      "deferred_at": "2026-10-27T15:33:31.240434+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "eb478f581a174323bcfdae08d9c7b96a185bf507cbe8be65730c164fb27ec32c",
+        "sources.json": "0622d2ee37f398fdebfad5247c8e60c5a4f74d340aea5a72233398fbdeaee796",
+        "candidate-raw.json": "677066ce3672907ddbf0d64a8c9963f26c98979565d3205f61c4708f9d1108da",
+        "state.json": "0df74bdb7d711c85175a44ae9e75e8b3230bf881aff71b593738b14cb69689d8"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-18"
     }
   },
-  "research_backlog_count": 22,
+  "research_backlog_count": 25,
   "exception_backlog": {
     "agri-c0e160d88554": {
       "kind": "stage_budget_exhausted",
@@ -1331,7 +1469,111 @@
         "all_original_research_quality_overlap_and_publication_gates"
       ],
       "previous_family_id": "family-11"
+    },
+    "agri-e7dcf0bf2ffd": {
+      "kind": "stage_budget_exhausted",
+      "stage": "research_review",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "independent_scoped_review_rejected",
+      "last_run_id": "40531540832",
+      "topic_id": "agri-e7dcf0bf2ffd",
+      "title": "عمق کاشت بذر لوبیا چیتی در خاک سبک و سنگین؛ خطاهای رایج",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-27T15:33:31.232692+00:00",
+      "terminal_checkpoint_sha256": "42919019594671b8c4f5d04f99f9d0acf15426427dd6945d6b0bcac5af67b220",
+      "bindings": {
+        "topic_sha256": "6e5baec199214ea5e8dadddc25abfd5c424be547532734e094885ad764543bc4",
+        "topic_files": {
+          "family-context/40298864446.json": "2d92cbf2076f1e03586b9b99e42262bce02c4765789aeb16d42b83680a66a644",
+          "family-context/40522647019.json": "88b9b72623c9b86d5fa08579288880e161a80bfe72ed6e012127e5c97823d8b1",
+          "family-context/40525360938.json": "88b9b72623c9b86d5fa08579288880e161a80bfe72ed6e012127e5c97823d8b1",
+          "family-context/40529029195.json": "88b9b72623c9b86d5fa08579288880e161a80bfe72ed6e012127e5c97823d8b1",
+          "family-context/40531540832.json": "88b9b72623c9b86d5fa08579288880e161a80bfe72ed6e012127e5c97823d8b1",
+          "lifecycle/existing_content_audit-000/state.json": "b128c9b43072e66e67ce60cccc5acb09b6c690fabd10fe93046e414b092885b9",
+          "lifecycle/existing_content_audit_finalize/state.json": "5fd28f7e6311279071ff1a0877898232c317e4ffb5b7d6ead703b1b6ced45702",
+          "lifecycle/research_extract/rejected/1/candidate-raw.json": "34d993418bb3aba80d8b1ceece5b4319f6c56fc7de8704cab8920aecd4ae8907",
+          "lifecycle/research_extract/state.json": "01712549e5398894c2998de4d99e8f930ad56cde86b43dcaeeee709e34c503cc",
+          "lifecycle/research_review/rejected/1/review-raw.json": "46d71d63913d9c36ec1feeb9f79458815279a0c646c4368123fd91a854613df1",
+          "lifecycle/research_review/rejected/2/review-raw.json": "0f14112fdadba8846f32eaf81856bbd3806b1f3995160efb1421f8c5a12ee0a7",
+          "lifecycle/research_review/state.json": "2b4724fe9b94789a756f6ad79a209122e283a7816b68b452e4aed4aa81af13b3",
+          "lifecycle/research_sources/state.json": "a3e2ec970a074d9ce43474f2cf1ae72f705710d6704bc86970452dac583ccced",
+          "lifecycle/research_validate_saved/state.json": "732595363990d7ff7dfda898b3b35aa3f7175d0e3c843886c6ce99edf9760213",
+          "lifecycle-evidence/candidate-raw.json": "f559a549504d2c806e42db005ad379da92a41eed5546d615d08798e37fc3075b",
+          "lifecycle-evidence/candidate.json": "3f8894197a56ad1ff1c415830fbdf3eed6da66614497c4a32bd3a6d776c67976",
+          "lifecycle-evidence/existing-content.json": "003ea6ba7ed9f1fbecbebf73e6d61bd52215e60d200b66d1221e0d3fe78839d0",
+          "lifecycle-evidence/overlap-batches/000.json": "541f88b9e2bb0a2866bc82be8e3a0f4ede3a859c638843c4d86aadeaeb27f8d7",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "ed7f9592e9c5367e99c1447901a72177fe23eb9d5a6395a040ed43b4a390efd3",
+          "lifecycle-evidence/overlap.json": "7ce65293b33359b00a42fea94d0e8f9d29e153baf82e0e38635fcce3e4f6b17d",
+          "lifecycle-evidence/review-raw.json": "084ae625a71278bcafd70eb37c41b05c6c4a2d06687a44780a70890d14a52382",
+          "lifecycle-evidence/source-discovery-report.json": "f7a5dcca378ffae5c52c9b9887e3ffe0f231fbb9fc8cb67a3d91aee5ed847a90",
+          "lifecycle-evidence/source-fetch-report.json": "d11b36ca467c8fdf4e5416808cb14fc680a372c74aac032705b9b63a4fef2fa6",
+          "lifecycle-evidence/sources.json": "4c45394e1457fa1f974756d6f8a9c7dd372c0f6f957577cdf40a03e51f1b03d9"
+        },
+        "legacy_research_sha256": null,
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-09"
+    },
+    "agri-6b4f1f6e0cad": {
+      "kind": "legacy_budget_exhausted",
+      "stage": "legacy_research",
+      "attempts_preserved": 2,
+      "attempt_limit": 2,
+      "reason": "legacy_research_budget_exhausted",
+      "last_run_id": null,
+      "topic_id": "agri-6b4f1f6e0cad",
+      "title": "چرا بذر کدو آجیلی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-27T15:33:31.235078+00:00",
+      "terminal_checkpoint_sha256": "a478e18827c78b40b6313ee29839788d1bd4c7328d311ead32291e26ce9e7554",
+      "bindings": {
+        "topic_sha256": "5782e79acc0fa41fe88f44fc9e08e32cc4b6e7e2744cb0fde5663946f9fa9445",
+        "topic_files": {
+          "family-context/40531540832.json": "1ecb6bfd8d0cb0e005e50dde98f119f53a0067ac29d86282db828c0a57c8257b",
+          "lifecycle-evidence/existing-content.json": "5fea8693f84517a1051c526a74a5fce272954907443a8562ec1958cf34b87365"
+        },
+        "legacy_research_sha256": "0dc8ce6a7cf3e3dffa74952b7a5c043eb9e51cbf2fe80c72d67fdf1379a716d2",
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-11"
     }
   },
-  "exception_backlog_count": 4
+  "exception_backlog_count": 6
 }

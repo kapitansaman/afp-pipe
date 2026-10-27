@@ -1,0 +1,30 @@
+{
+  "requested": 4,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://extension.oregonstate.edu/es/news/plan-now-harvest-store-pumpkins-winter-squash",
+      "canonical_url": "https://extension.oregonstate.edu/es/news/plan-now-harvest-store-pumpkins-winter-squash",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/horticulture-notes-pumpkins-and-winter-squash/",
+      "canonical_url": "https://www.aces.edu/blog/topics/crop-production/horticulture-notes-pumpkins-and-winter-squash/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/es/catalog/sp-50-767-preserving-pumpkins-winter-squash",
+      "canonical_url": "https://extension.oregonstate.edu/es/catalog/sp-50-767-preserving-pumpkins-winter-squash",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.illinois.edu/blogs/commercial-fruit-and-vegetable-growers/2023-07-31-time-pumpkin-disease-and-insect-management",
+      "canonical_url": "https://extension.illinois.edu/blogs/commercial-fruit-and-vegetable-growers/2023-07-31-time-pumpkin-disease-and-insect-management",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

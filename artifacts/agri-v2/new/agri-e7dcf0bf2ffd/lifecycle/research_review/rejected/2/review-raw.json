@@ -1,0 +1,46 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": false,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع اصلی از آمریکا (UMD/UMN/MSU Extension) هستند و صرفاً برای لوبیای معمولی (Phaseolus vulgaris) به‌صورت عمومی راهنمایی کرده‌اند؛ هیچ‌یک عمق کاشت اختصاصی برای «لوبیا چیتی/پینتو» (dry pinto bean) ارائه نکرده‌اند. ادعای f3 قاعده‌ای که منبع صرفاً برای «لوبیای لیمایی» بیان کرده را به‌طور ضمنی برای تمام لوبیاها تعمیم داده است. ادعای f5 محصول را «لوبیا» عنوان کرده درحال‌حال‌که منبع MSU بیشتر درباره snap/common bean بافت خاک و crust formation است و دقیقاً «پینتو خشک» نیست. هیچ برآورد عددی عمق کاشت (مثلاً اینچ یا سانتی‌متر) صرفاً در منبع UMN برای common/dry bean آمده؛ UMD فقط ضریب نسبی ۲-۳ برابر قطر را بیان کرده. ترجمه مفهومی از شرایط آلمان غربی و مینه‌سوتا به ایران بدون بررسی انتقال مجاز نیست.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": false,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": false
+    }
+  ]
+}

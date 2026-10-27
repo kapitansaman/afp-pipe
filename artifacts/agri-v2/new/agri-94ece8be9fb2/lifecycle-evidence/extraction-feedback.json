@@ -1,0 +1,8 @@
+{
+  "topic_id": "agri-94ece8be9fb2",
+  "candidate_sha256": "6610c5f3bd9525e523d5f35c93add6bfe2a77832769a266dce77e70cf840a905",
+  "scientific_approval": false,
+  "errors": [],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "Sources discuss general fruit-pumpkin drip-irrigation recommendations and fixed weekly water amounts but do not provide soil-moisture-based irrigation scheduling criteria for seed pumpkin. No source establishes measurement thresholds, sensor placement logic, or a decision method that uses soil moisture readings to replace a fixed irrigation calendar for seed-purpose Cucurbita. Utah Extension gives a generic 1-2 inches-per-week rule (d5-e7), Alabama recommends drip over overhead without scheduling detail (d3-e7), and Virginia Tech notes pre-plant/establishment irrigation only (d2-e5); none deliver the requested soil-moisture-trigger methodology, nor do they address the seed-harvest product specifically."
+}

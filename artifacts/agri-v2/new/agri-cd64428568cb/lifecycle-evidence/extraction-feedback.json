@@ -1,0 +1,32 @@
+{
+  "topic_id": "agri-cd64428568cb",
+  "candidate_sha256": "39f95cb24e7c2d71d339b1a6febab77db1529dfa16966d05624e5e85e87dca53",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 4,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "برای خاک‌های شنی درشت، تخلیهٔ ۵۰٪ آب قابل دسترس معمولاً هنگام کشش خاک ۲۵ تا ۴۵ cb رخ می‌دهد و در این محدوده باید آبیاری آغاز شود؛ مقادیر باید برای محصول و خاک محلی بازبینی شوند.",
+        "conditions": "آزمون‌شناسی کلی خاک/کشش; محصول گزارش common crop است؛ محدودهٔ گزارش‌شده مخصوص خاک‌های شنی درشت در منابع دانشگاهی آمریکا است و معادل تجویز محلی ایران نیست.",
+        "evidence_id": "d6-e17",
+        "numeric_bindings": [
+          {
+            "value": "25-45 cb",
+            "unit_quote": "For coarse textured soils, AWC is 50% depleted when soil tension is at 25-45 cb.",
+            "geographic_scope": "USA, general coarse-textured soil guidance",
+            "product_scope": "generic crop (not pinto dry bean specific)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d6-e17",
+        "source_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+        "quote": "water tension indicates the energy required by plant roots to extract water from soil particles. As soil water is removed from soil, soil tension increases. Soil tension is expressed in centibars (cb) or bars of atmospheric pressure. When the soil is full of water, soil water tension is close to zero. For coarse textured soils, AWC is 50% depleted when soil tension is at 25-45 cb . In these soils, a crop should be irrigated before the sensor indicates 25-45 cb. However, soil tension measurements are soil specific and can be inaccurate.Depending on your crop and soil observations, soil tension limits should be refined. For example, note the soil tension at the earliest indication of water stress and always make sure that you irrigate before it reaches that point. You can also track your water movement by taking measurement right after an irrigation event. If your bottom sensor after irrig"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "عنوان درخواست‌کننده برآورد حجم آب مورد نیاز لوبیای خشک پینتو را بر پایهٔ اقلیم و مرحله رشد می‌خواهد. شواهد ارائه‌شده شامل راهنمای تولید لوبیای خشک دانه‌ای (Iowa State)، دستورالعمل کشت باغی (UMN)، و روش‌شناسی سنسورهای رطوبت خاک (UMN) هستند، اما هیچ‌یک مقدار اندازه‌گیری‌شدهٔ نیاز آبی (ETc، inches/season، mm/ مرحله رشد یا rate/irrigation event) ویژهٔ لوبیای خشک پینتو را گزارش نمی‌کنند. تنها اشارهٔ کمی یافت‌شده یک توصیهٔ کلی باغی مینه‌سوتا است که معادل برآورد مزرعه‌ای فصلی محصول خشک پینتو نیست؛ بنابراین پاسخ_intent باید false برگردد."
+}

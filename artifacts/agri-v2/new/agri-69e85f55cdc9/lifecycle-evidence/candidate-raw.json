@@ -2,12 +2,63 @@
   "topic_id": "agri-69e85f55cdc9",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی (Phaseolus vulgaris L.، بازار پینتو، محصول خشک)",
-  "slug": "preharvest-water-pinto-dry-bean",
+  "product_definition": "لوبیا چیتی (Phaseolus vulgaris L., pinto market class dry bean)",
+  "slug": "preharvest-water-pinto-bean",
   "outline": [
-    "عدم دسترسی به معیار قطع یا کاهش آبیاری پیش از برداشت لوبیا چیتی",
-    "منابع موجود: راهنمای کلی کشت لوبیا، سنسور رطوبت خاک و برداشت مستقیم؛ هیچ‌یک آستانه زمانی یا کمّی مرحله پیش‌برداشت را پوشش نمی‌دهند",
-    "پیشنهاد جستجوی جایگزین با کلیدواژه‌های تخصصی‌تر"
+    "ورودی‌های اندازه‌گیری‌شده برای پایش رطوبت خاک در مرحله پایانی رشد لوبیا",
+    "معیارهای کیفی رسیدگی غلاف و دانه برای تعیین زمان قطع آبیاری",
+    "پایش مزرعه‌ای و شبکه‌ای حین کاهش و قطع آب پیش از برداشت"
   ],
-  "facts": []
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "منابع ارائه‌شده شامل راهنمای عمومی آبیاری لوبیا، سنسورهای رطوبت خاک و روش‌های برداشت مستقیم هستند و معیار مشخصی برای زمان قطع یا کاهش آبیاری لوبیا چیتی پیش از برداشت را ارائه نمی‌دهند.",
+      "conditions": "گونه: Phaseolus vulgaris L.، کلاس بازار: pinto dry bean؛ اقلیم منبع: ایالات متحده (Mississippi، Minnesota، Nebraska، Maryland)؛ سامانه: دامنه‌ای عمومی و مزرعه‌ای؛ محصول: لوبیای خشکچه (dry bean) بدون تفکیک مرحله growth پیش‌برداشت؛ واحد/حدود: none applicable",
+      "evidence_id": "d0-e0;d1-e0;d2-e0;d4-e0;d5-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "منبع دانشگاه مینسوتا درباره آبیاری عمومی بیان می‌کند یک اینچ باران در هفته کافی است و خاک‌های ماسه‌ای نیاز آبی بیشتری دارند، اما هیچ اشاره‌ای به قطع یا کاهش آبیاری در مرحله پر شدن غلاف تا رسیدن دانه خشک ندارد.",
+      "conditions": "گونه: Phaseolus vulgaris L.؛ محصول: لوبیا (snap/shelling/dry)؛ جغرافیا: مینسوتا ایالات متحده؛ واحد: one inch/week (عمومی، غیرپیش‌برداشت)؛ محدودیت: عدم تفکیک growth stage پیش‌برداشت",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "سنسورهای رطوبت خاک (VWC و tension) روش محاسبه MAD و جداول تبدیل cb به inches/ft را ارائه می‌دهند، اما threshold خاصی برای لوبیا چیتی در مرحله preharvest در این منابع تعریف نشده است.",
+      "conditions": "گونه: general soil sensor technology؛ محصول: non-crop-specific؛ جغرافیا: Minnesota extension؛ واحد: cb، in/ft، VWC percent؛ محدودیت: generic irrigation scheduling، بدون reference به bean preharvest stage",
+      "evidence_id": "d5-e0;d5-e17;d5-e20",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "منبع نبراسکا درباره برداشت مستقیم لوبیای خشک و desiccation پیش‌برداشت مطالبی دارد ولی درباره مدیریت آبیاری و معیارهای قطع آب هیچ داده‌ای ارائه نمی‌دهد.",
+      "conditions": "گونه: Phaseolus vulgaris L. pinto؛ محصول: dry pinto bean؛ جغرافیا: Nebraska Panhandle؛ واحد: bu/ac harvest loss، days (general)؛ محدودیت: focus on harvest method، نه irrigation management",
+      "evidence_id": "d4-e0;d4-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در منابع موجود معیار کیفی مشخصی مانند تشنگی برگ‌ها، تغییر رنگ غلاف، یا درصد رطوبت دانه برای قطع آبیاری لوبیا چیتی پیش‌برداشت ثبت نشده است.",
+      "conditions": "گونه: Phaseolus vulgaris L. pinto؛ محصول: dry bean at preharvest; جغرافیا: worldwide general؛ محدودیت: none in provided sources",
+      "evidence_id": null,
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "منابع USDA درباره grading classes لوبیا (pinto, blackeye, cranberry و غیره) مطالبی دارند اما هیچ ارتباطی به مدیریت آبیاری ندارند.",
+      "conditions": "گونه: Phaseolus vulgaris L.؛ محصول: graded dry beans؛ جغرافیا: US federal؛ محدودیت: commercial grading، نه agronomic irrigation guidance",
+      "evidence_id": "d3-e0;d3-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عدم تطابق intent: سؤال درباره preharvest water cessation criteria لوبیا چیتی است اما منابع صرفاً general bean agronomy، seed germination، soil sensor methodology و direct harvest logistics را پوشش می‌دهند.",
+      "conditions": "گونه: Phaseolus vulgaris L. pinto؛ intent: preharvest_water؛ محصول: dry pinto bean؛ محدودیت: no source covers preharvest irrigation cutoff criteria",
+      "evidence_id": null,
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "هیچ‌یک از منابع_fetch شده معیار مشخصی برای زمان قطع یا کاهش آبیاری لوبیا چیتی (Phaseolus vulgaris L., pinto dry bean) در مرحله پیش‌برداشت ارائه نمی‌دهند. منابع موجود شامل: (1) راهنمای عمومی کشت لوبیا از Mississippi State و UMN Extension — آبیاری کلی «یک اینچ در هفته» بدون تفکیک growth stage؛ (2) مقاله سنسورهای رطوبت خاک UMN — methodology generic بدون threshold crop-specific برای لوبیا؛ (3) مقاله برداشت مستقیم Nebraska Extension — focus بر harvest loss و desiccation نه irrigation management؛ (4) grades standards USDA — کاملاً unrelated. معیارهای مورد نیاز شامل: qualitative pod maturity signs (pod color change, shriveling)، seed moisture percentage threshold for safe harvest، leaf water-stress indicators، و soil tension/VWC trigger points خاص لوبیای خشک در stage physiological maturity — همگی در منابع موجود absent هستند. عدموجود منبع دانشگاهی/ترویجی مستقیماً relevant به preharvest irrigation cessation برای pinto dry bean در Iran یا اقلیم‌های مشابه باعث answers_intent:false می‌شود."
 }

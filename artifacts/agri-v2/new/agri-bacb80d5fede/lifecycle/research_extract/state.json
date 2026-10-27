@@ -1,5 +1,5 @@
 {
-  "attempts": 2,
+  "attempts": 3,
   "history": [
     {
       "attempts": 1,
@@ -22,12 +22,23 @@
         "kind": "validation",
         "category": "saved_evidence_declares_insufficient_scope"
       }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40531540832",
+      "started_at": "2026-10-27T15:32:11.073342+00:00",
+      "completed_at": "2026-10-27T15:32:39.365440+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "saved_evidence_declares_insufficient_scope"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40529029195",
-  "started_at": "2026-10-27T15:17:02.685300+00:00",
-  "completed_at": "2026-10-27T15:17:11.173578+00:00",
+  "last_run_id": "40531540832",
+  "started_at": "2026-10-27T15:32:11.073342+00:00",
+  "completed_at": "2026-10-27T15:32:39.365440+00:00",
   "failure": {
     "kind": "validation",
     "category": "saved_evidence_declares_insufficient_scope"

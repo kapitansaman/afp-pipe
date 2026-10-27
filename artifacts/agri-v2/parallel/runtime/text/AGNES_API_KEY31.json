@@ -1,9 +1,18 @@
 {
   "repository": "kapitansaman/afp-pipe",
-  "credential_set_id": "afp-pipe-parallel-75-keys-v1",
+  "credential_set_id": "afp-pipe-parallel-97-keys-v1",
   "kind": "text",
   "slot": "AGNES_API_KEY31",
   "model": "agnes-2.5-flash",
-  "verified_at": "2026-10-26T05:55:08.274217+00:00",
-  "verification": "actual_successful_parallel_response"
+  "verified_at": "2026-10-27T15:32:39.157811+00:00",
+  "verification": "actual_successful_parallel_response",
+  "family_id": "family-08",
+  "topic_id": "agri-69e85f55cdc9",
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+  "assigned_key_slots": [
+    "AGNES_API_KEY29",
+    "AGNES_API_KEY30",
+    "AGNES_API_KEY31",
+    "AGNES_API_KEY32"
+  ]
 }

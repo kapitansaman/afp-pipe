@@ -1,0 +1,51 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": false,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع فقط شامل چند راهنمای عمومی ترویجی باغ‌های خانگی و زراعی دانشگاه‌های ایالات متحده هستند؛ هیچ منبع پویا/پایش مزرعه، داده آبیاری دقیق، یا سند فارسی مرتبط استخراج نشده است. گزارش از ادعاهای کیفی تا حدی پشتیبانی می‌شود اما ادعای عددی «یک اینچ آب در هفته» مستقیماً برای لوبیای چیتی، شرایط مزرعه‌ای یا هدف اولین آبیاری پس از کاشت تنظیم نشده و تعمیم آن به دامنه کاربرد عنوان اصلی نادرست است. هیچ توصیه بومی ایران، تقویم کشت، یا نرخ آبیاری محلی استخراج یا استنباط نشده است. نسخه واحد دانشگاهی اجازه تکیه بر یک منبع را می‌دهد، اما این به معنای پاسخ‌گویی کامل به نیت خاص پژوهش نیست.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": false,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}

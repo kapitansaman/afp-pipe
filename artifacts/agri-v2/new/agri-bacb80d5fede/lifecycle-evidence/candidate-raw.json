@@ -2,14 +2,75 @@
   "topic_id": "agri-bacb80d5fede",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "لوبیا چیتی (فازولئوس ولیگاریس، کلاس پینتو، محصول خشک)",
-  "slug": "pinto-dry-bean-rain-adjustment-irrigation-timing",
+  "product_definition": "لوبیا چیتی (فازولئوس ووگاریس، کلاس پینتو)",
+  "slug": "pinto-dry-bean-rain-adjust-irrigation",
   "outline": [
-    "ورودی‌های اندازه‌گیری‌شده",
-    "منطق تصمیم و واحدها",
-    "پایش مزرعه یا شبکه",
-    "خطاها و حدود کاربرد"
+    "پایش رطوبت خاک پس از بارندگی",
+    "مفهوم MAD و آستانه تنش",
+    "ملاحظات نصب سنجشگر"
   ],
-  "facts": [],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "لوبیا در خاک‌های با زهکشی خوب بهتر رشد می‌کند؛ خاک‌های رسی یا فشربه برای جوانه‌زنی مناسب نیستند.",
+      "conditions": "کشاورزی خانوادگی، مینه‌سوتا، USA؛ محصول: لوبیای معمولی (Phaseolus vulgaris)؛ محدودیت: توصیه کلی برای کشت خانگی، نه تجاری.",
+      "evidence_id": "d2-e13",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "یک اینچ بارندگی در هفته برای لوبیا مناسب است؛ یک اینچ آب خاک شنی را تا عمق ده اینچ و خاک رسی سنگین را تا عمق شش اینچ مرطوب می‌کند.",
+      "conditions": "کشاورزی خانوادگی، مینه‌سوتا，USA؛ محصول: لوبیای معمولی؛ محدودیت: مقدار کلی آبیاری، نه معیار تصمیم‌گیری پس از باران.",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "One",
+          "unit_quote": "One inch",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "common bean (Phaseolus vulgaris)"
+        },
+        {
+          "value": "ten",
+          "unit_quote": "ten inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "common bean (Phaseolus vulgaris)"
+        },
+        {
+          "value": "six",
+          "unit_quote": "six inches",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "common bean (Phaseolus vulgaris)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "اغلب محصولات زمانی دچار تنش می‌شوند که تخلیه آب خاک معادل ۳۰ تا ۵۰ درصد ظرفیت نگهداری آب قابل دسترس باشد.",
+      "conditions": "عمومی (مینه‌سوتا، USA)؛ محصول: حبوبات خشک (Phaseolus vulgaris)؛ محدودیت: آستانه کلی MAD، اختصاصی برای پینتو پس از باران نیست.",
+      "evidence_id": "d5-e10",
+      "numeric_bindings": [
+        {
+          "value": "30-50%",
+          "unit_quote": "30-50%",
+          "geographic_scope": "General (Minnesota, USA)",
+          "product_scope": "dry common beans"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "سنجشگرها باید بین بوته‌ها در ردیف محصول و در عمق مورد نظر قرار گیرند.",
+      "conditions": "کشاورزی میدان، مینه‌سوتا，USA； محصول: حبوبات؛ محدودیت: روش نصب عمومی، نه زمان‌بندی آبیاری پس از باران.",
+      "evidence_id": "d5-e21",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "خاک‌های کلوخه‌ای و فشرده با درصد رس بالا مانع جوانه‌زنی و رویش بذر می‌شوند.",
+      "conditions": "باغ سبزیجات，مریلتند،USA； محصول: لوبیا و سبزیجات؛ محدودیت: شرط کاشت، نه مدیریت آبیاری.",
+      "evidence_id": "d1-e4",
+      "numeric_bindings": []
+    }
+  ],
   "insufficiency_reason": "هیچ منبع دریافت‌شده‌ای معیار تصمیم‌گیری (کیفی یا کمی) برای زمان شروع مجدد آبیاری پس از بارندگی در لوبیا چیتی (Phaseolus vulgaris L., کلاس پینتو) ارائه نمی‌دهد. passages موجود شامل اصول کلی سنجشگرهای رطوبت خاک (d5-e10)، آبیاری عمومی لوبیا (d2-e14/e15)، جوانه‌زنی در خاک‌های مرطوب (d1-e4/e5/d1-e8)، برداشت مستقیم (d4-e0/e1) و استانداردهای درجه‌بندی USDA (d3-e0/e1) هستند. passage d5-e10 اصول MAD و VWC را توصیف می‌کند اما صراحتاً درباره زمان شروع مجدد آبیاری بعد از باران برای پینتو صحبت نمی‌کند. برای پاسخ به عنوان، یک منبع دانشگاهی/ترویجی مستقیماً مرتبط که آستانه‌های رطوبت خاک مشاهده‌شده، محرک‌های مرحله رشد محصول، یا مقادیر تخلیه اندازه‌گیری‌شده را به‌طور اختصاصی برای لوبیای چیتی پس از باران بیان کند، ضروری است."
 }

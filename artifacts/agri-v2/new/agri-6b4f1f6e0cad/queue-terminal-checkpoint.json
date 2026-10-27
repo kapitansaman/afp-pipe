@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-6b4f1f6e0cad",
+  "title": "چرا بذر کدو آجیلی سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-6b4f1f6e0cad",
+    "status": "blocked",
+    "reason": "legacy_research_budget_exhausted"
+  },
+  "proof": {
+    "kind": "legacy_budget_exhausted",
+    "stage": "legacy_research",
+    "attempts_preserved": 2,
+    "attempt_limit": 2,
+    "reason": "legacy_research_budget_exhausted",
+    "last_run_id": null
+  },
+  "bindings": {
+    "topic_sha256": "5782e79acc0fa41fe88f44fc9e08e32cc4b6e7e2744cb0fde5663946f9fa9445",
+    "topic_files": {
+      "family-context/40531540832.json": "1ecb6bfd8d0cb0e005e50dde98f119f53a0067ac29d86282db828c0a57c8257b",
+      "lifecycle-evidence/existing-content.json": "5fea8693f84517a1051c526a74a5fce272954907443a8562ec1958cf34b87365"
+    },
+    "legacy_research_sha256": "0dc8ce6a7cf3e3dffa74952b7a5c043eb9e51cbf2fe80c72d67fdf1379a716d2",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:32:11.941794+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

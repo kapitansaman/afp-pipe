@@ -1,0 +1,67 @@
+{
+  "topic_id": "agri-f2b95250ac75",
+  "candidate_sha256": "cc2c5cf6a007c69c0ab75f4c034b7fb618a9fc25792c68d0320d21248c5ffdaa",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 5,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "حداقل دمای مطلوب خاک برای جوانه‌زنی بذرها ۶۵ درجه فارنهایت است و دمای کمینه عملی ۶۵ فارنهایت با حداقل بهینه ۹۵ فارنهایت گزارش شده است.",
+        "conditions": "دمای خاک: حداقل ۶۵ ºF (کمینه)، بهینه ۹۵ ºF؛ محصول: کدو/کدوی زمستانه؛ مرحله: جوانه‌زنی بذر؛ جغرافیا: ایالات متحده، منبع دانشگاهی ویرجینیای جنوبی",
+        "evidence_id": "d2-e3",
+        "numeric_bindings": [
+          {
+            "value": "65",
+            "unit_quote": "minimum ... soil temperatures for seed germination are 65 F",
+            "geographic_scope": "US (Virginia Tech source)",
+            "product_scope": "pumpkin and squash"
+          },
+          {
+            "value": "95",
+            "unit_quote": "optimum ... 95 F",
+            "geographic_scope": "US (Virginia Tech source)",
+            "product_scope": "pumpkin and squash"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e3",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": "ting is by direct seeding or occasionally transplanting through holes punched or burned in the plastic cover. Drip irrigation or fertigation is used with the plasticulture system. Black plastic aids weed control, clear is used in northern areas to increase soil temperatures especially for early season planting of summer squash. No-till pumpkin production works well and is rapidly gaining popularity. A cover crop is used and pumpkins are seeded directly or transplanted into the dead cover crop residue when the soil is sufficiently warm in the early summer. Pumpkins and squash are generally planted from seed. However, both crops are sometimes transplanted in northern areas but are very sensitive to transplant shock and should be planted only as a plug with a root ball. The minimum, optimum, and maximum soil temperatures for seed germination are 65 F, 95 F and 100 F, respectively. Germinati"
+      }
+    },
+    {
+      "fact_index": 7,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "بذر در عمق ۰٫۵ تا ۱ اینچ کاشته می‌شود و در فواصل ردیفی حدود ۶ اینچ قرار می‌گیرد؛ گیاهان در مرحله ۲ تا ۴ برگی نازک می‌شوند.",
+        "conditions": "عمق کاشت: ۰٫۵ تا ۱ اینچ؛ فاصله درون‌ردیفی: حدود ۶ اینچ؛ مرحله نازک‌کردن: ۲ تا ۴ برگی؛ محصول: کدو/کدوی زمستانه؛ جغرافیا: ایالات متحده، منبع دانشگاهی ویرجینیای جنوبی",
+        "evidence_id": "d2-e4",
+        "numeric_bindings": [
+          {
+            "value": "0.5 to 1.0",
+            "unit_quote": "Seeds are placed at 0.5 to 1.0 inches deep",
+            "geographic_scope": "US (Virginia Tech source)",
+            "product_scope": "pumpkin and squash"
+          },
+          {
+            "value": "6",
+            "unit_quote": "In-row spacings of 6 inches are common",
+            "geographic_scope": "US (Virginia Tech source)",
+            "product_scope": "pumpkin and squash"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e4",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": "as a plug with a root ball. The minimum, optimum, and maximum soil temperatures for seed germination are 65 F, 95 F and 100 F, respectively. Germination is slow and erratic when soil temperature is below 68 F. Fruit maturing when daily mean air temperatures are below 70 F have poorer quality. Pumpkins do well in hot weather, but very high temperatures (110-115 F) can cause temporary vine wilting, sunburned fruit, and soft fruit at harvest with reduced shelf life. Spacing depends on whether cultivars are bush or vining. Large fruited pumpkins and squash are often planted in hills 6 to 8 feet apart with rows 6 to 8 feet apart. Bush cultivars are planted at much closer spacing with in-row spacing as close as 3 feet with 6 feet between rows. Large acreages can be seeded in rows six to ten feet apart. Seeds are placed at 0.5 to 1.0 inches deep. In-row spacings of 6 inches are common and plant"
+      }
+    }
+  ],
+  "candidate_error": "numeric_units_not_in_literal_source",
+  "declared_insufficiency": null
+}

@@ -1,0 +1,78 @@
+{
+  "topic_id": "agri-887448ed952f",
+  "candidate_sha256": "1006051decb07989a1e2bcb472c40caf048311e462879866c7cb73b86799c9e4",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 2,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "برداشت با چاقوی تیز یا قیچی باغبانی انجام شود و حداقل ۲ تا ۴ اینچ از ساقه روی میوه باقی بماند؛ شکستن ساقه عمر انبار ماندگاری را کاهش می‌دهد.",
+        "conditions": "منطقه: ایالات متحده (دانشگاه ایالت اورگون). محصول: میوه کامل کدو و کدوی زمستانه. واحد: طول ساقه باقی‌مانده (۲ تا ۴ اینچ). محدودیت: دستورالعمل برای میوه کامل است و درباره ضایعات حین استخراج دانه یا راندمان ماشین‌آلات دانه‌گیر گفته‌ای ندارد.",
+        "evidence_id": "d1-e1",
+        "numeric_bindings": [
+          {
+            "value": "2 to 4",
+            "unit_quote": "leaving 2 to 4 inches of stem",
+            "geographic_scope": "Oregon State University Extension, ایالات متحده",
+            "product_scope": "میوه کامل کدو و کدوی زمستانه"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e1",
+        "source_url": "https://extension.oregonstate.edu/news/plan-now-harvest-store-pumpkins-winter-squash",
+        "quote": "er turns too cold or wet. If left in the garden too long, they can suffer cold damage or begin to rot in storage. Watch the weather. When temperatures dip below 50°F for more than a week or rain becomes frequent, it's time to bring in your harvest. Here’s how to tell when they’re ready: Winter squash are mature when the rind resists scratching with a fingernail. Pumpkins are ripe when they are bright orange. Use a sharp knife or pruners to cut the fruit from the vine, leaving 2 to 4 inches of stem. Avoid breaking off the stem — pumpkins without stems won’t store well. An exception is hubbard-type squash, which store best with the stems completely removed. Handle with care Bruising can shorten storage life, so handle your harvest gently. Don’t drop or stack pumpkins and squash in piles. Any damaged fruit should be used promptly, as injuries can lead to spoilage. Cure before storing If pos"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "تولید دانه کدو و کدو حدود ۱۶ هفته از گرده‌افشانی تا بلوغ دانه طول می‌کشد؛ در این زمان پوسته سخت شده و رنگ از سبز به نارنجی یا از زرد طلایی به رنگ کاه تغییر می‌کند.",
+        "conditions": "منطقه: ایالات متحده (دانشگاه ویرجینیا تک). محصول: دانه کدو/کدو (Seed Harvest). واحد: مدت زمان (۱۶ هفته). محدودیت: این مشاهده مربوط به تولید دانه است، اما درباره شیوه کاهش تلفات برش میوه، ابزار برداشت، یا ضایعات مکانیکی استخراج دانه داده‌ای ارائه نمی‌دهد.",
+        "evidence_id": "d3-e12",
+        "numeric_bindings": [
+          {
+            "value": "sixteen",
+            "unit_quote": "approximately sixteen weeks from anthesis to seed maturity",
+            "geographic_scope": "Virginia Tech Vegetable Seed Production, ایالات متحده",
+            "product_scope": "دانه کدو و کدو"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d3-e12",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": " elements are larger and less susceptible to clogging. Still, this disease, which is spread by cucumber beetles, has been reported to occur on these crops. Cutworms Aphids Squash bug Leafminers Rindworms Seed Harvest All squashes, pumpkins and marrows take approximately sixteen weeks from anthesis to seed maturity. By this stage the rind has hardened and changed color. The green types change to a yellow-orange color and the yellow-gold colored types change to a straw color. For large-scale production fruit may be placed in windrows ready for the mobile thresher and extractor. Alternatively they are left on the vine for an automatic vine harvester to pass through the field. The fruits of some cucurbits such as winter squashes are relatively dry by the time the seed is mature and ready for extraction. In this case water has to be introduced into the separator to wash the seeds free from fr"
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "کدوهای بزرگ معمولاً در تلی‌های ۶ تا ۸ فوتی و ردیف‌های ۶ تا ۸ فوتی کاشته می‌شوند؛ چیدمان نزدیک‌تر میوه‌های کوچک‌تر تولید می‌کند.",
+        "conditions": "منطقه: ایالات متحده (دانشگاه ویرجینia تک). محصول: کدو و کدو (Seed Production). واحد: فاصله کشت (۶ تا ۸ فوت). محدودیت: این اطلاعات درباره تراکم کشت است و درباره شیوه کاهش تلفات برداشت یا ابزار جمع‌آوری دانه هیچ اشاره‌ای ندارد.",
+        "evidence_id": "d3-e4",
+        "numeric_bindings": [
+          {
+            "value": "6 to 8",
+            "unit_quote": "hills 6 to 8 feet apart with rows 6 to 8 feet apart",
+            "geographic_scope": "Virginia Tech Vegetable Seed Production, ایالات متحده",
+            "product_scope": "کدو و کدو (تولید دانه)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d3-e4",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": "as a plug with a root ball. The minimum, optimum, and maximum soil temperatures for seed germination are 65 F, 95 F and 100 F, respectively. Germination is slow and erratic when soil temperature is below 68 F. Fruit maturing when daily mean air temperatures are below 70 F have poorer quality. Pumpkins do well in hot weather, but very high temperatures (110-115 F) can cause temporary vine wilting, sunburned fruit, and soft fruit at harvest with reduced shelf life. Spacing depends on whether cultivars are bush or vining. Large fruited pumpkins and squash are often planted in hills 6 to 8 feet apart with rows 6 to 8 feet apart. Bush cultivars are planted at much closer spacing with in-row spacing as close as 3 feet with 6 feet between rows. Large acreages can be seeded in rows six to ten feet apart. Seeds are placed at 0.5 to 1.0 inches deep. In-row spacings of 6 inches are common and plant"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع موجود دربارهٔ میوه کامل کدوی زمستانه و شاخص‌های برداشت آن (سختی پوست، طول ساقه، زمان قطع) پشتیبانی دارند، اما دربارهٔ ضایعات اختصاصی برداشت کدوی آجیلی (seed-purpose pumpkin) که هدف موضوع است—از جمله معیارهای کمی یا کیفیِ کاهش تلفات حین برش بوته، تنظیم دستگاه‌های تراشر/استخراج‌کننده دانه، شیوهٔ جدا کردن دانه از میوه، ضایعات دانه‌های شکسته/ناپخته، و استانداردهای پاک‌سازی و دسته‌بندی دانه—شواهد مستقیم و متناسب با «کاهش تلفات برداشت دانه» وجود ندارد. منبع d3-e12 تنها به‌صورت کلی به windrow placement و automatic vine harvester اشاره کرده و هیچ رقم تلفات، آستانه تنظیم یا معیار کنترل کیفیت دانه استخراج‌شده ارائه نمی‌دهد. بنابراین پاسخ Intent برای سؤال «تنظیم زمان، ابزار و شیوه جمع‌آوری برای کاهش تلفات برداشت کدو آجیلی» با شواهد فراهم‌شده بسته نمی‌شود."
+}

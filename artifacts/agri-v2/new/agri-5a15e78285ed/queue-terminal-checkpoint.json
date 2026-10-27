@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-5a15e78285ed",
+  "title": "برآورد عملکرد لوبیا چیتی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-5a15e78285ed",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40531540832"
+  },
+  "bindings": {
+    "topic_sha256": "0ceb6eab746f20fdfc53485482508b822c85aab2c7ebd996486ea12478bc4ea1",
+    "topic_files": {
+      "family-context/40525360938.json": "f5ae78e3842b4b3fbbcaa89cf38dfe0df3f21d5b40f91acd36101ba58670bb57",
+      "family-context/40529029195.json": "f5ae78e3842b4b3fbbcaa89cf38dfe0df3f21d5b40f91acd36101ba58670bb57",
+      "family-context/40531540832.json": "f5ae78e3842b4b3fbbcaa89cf38dfe0df3f21d5b40f91acd36101ba58670bb57",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "40dd11bbec7b73365a8907bab0a3aa4bbfa297fc851be0b4114e7eca321b1431",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "366071b2c679ec0de87dd7abec43756900ec61c545868b411d16da79315da57b",
+      "lifecycle/research_extract/state.json": "0df74bdb7d711c85175a44ae9e75e8b3230bf881aff71b593738b14cb69689d8",
+      "lifecycle/research_sources/state.json": "66c16e0c1f0a803e39a701a4ccc33b61e99b363a20dcbbcb2bbe4a6fce060fe1",
+      "lifecycle-evidence/candidate-raw.json": "677066ce3672907ddbf0d64a8c9963f26c98979565d3205f61c4708f9d1108da",
+      "lifecycle-evidence/existing-content.json": "9ec031825d4e8a7f8829faf459bc85ad9f79fa281343eb3ee62152f689007f11",
+      "lifecycle-evidence/extraction-feedback.json": "7734fd3e1a0cbf39a60e11f9377cf4bff0bf5a85a61c8a39b9a2f10cad0e722e",
+      "lifecycle-evidence/source-discovery-report.json": "eb478f581a174323bcfdae08d9c7b96a185bf507cbe8be65730c164fb27ec32c",
+      "lifecycle-evidence/source-fetch-report.json": "8ffc31dad9012f236a7ef5dd3a692a0b33e660385b49345118c7fcf6b36195ac",
+      "lifecycle-evidence/source-hub-fetch-report.json": "aa85ef52f8ceb6f849932b561d3b25b8149522a101004e0c23cd8b37b9a529e8",
+      "lifecycle-evidence/source-link-fetch-report.json": "d5fb1cc4a42dbc2abcba5faf7689a8d370d39194a811dd4f40b616d1d8356d56",
+      "lifecycle-evidence/sources.json": "0622d2ee37f398fdebfad5247c8e60c5a4f74d340aea5a72233398fbdeaee796"
+    },
+    "legacy_research_sha256": "bcd0954b4803a30f7ca0b542194a92242dc49004aac7d340f956245fca6e73a0",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:32:37.379843+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

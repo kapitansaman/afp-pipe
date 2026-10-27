@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-69e85f55cdc9",
+  "title": "آخرین آبیاری لوبیا چیتی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-69e85f55cdc9",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40531540832"
+  },
+  "bindings": {
+    "topic_sha256": "247725f6dd6af262cc3ea2b89f8f2277c8f85cf701e8d54381d090bcb1c0d7d1",
+    "topic_files": {
+      "family-context/40525360938.json": "a8ae3cc1838fb2f29ab35ace11f964658a4d977c908038dbcd43586d27ca00d1",
+      "family-context/40529029195.json": "a8ae3cc1838fb2f29ab35ace11f964658a4d977c908038dbcd43586d27ca00d1",
+      "family-context/40531540832.json": "a8ae3cc1838fb2f29ab35ace11f964658a4d977c908038dbcd43586d27ca00d1",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "ce67c6edddd8d7c8b195ade7031ae96eeb2cd9ad7c108244d544a64b800947bb",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "c360cd0c5da564b18ab161eed1eb3d77b369313ef8bafe4df5d984da63393b55",
+      "lifecycle/research_extract/state.json": "10ec03f3e6f892c427037e36766177285b78f7f61e4f6ff5c5a8c4a39935f2c3",
+      "lifecycle/research_sources/state.json": "362374b0e98b86ee01e71be4b05f153183f16b8d56789b3760e35b4d7ee4fd30",
+      "lifecycle-evidence/candidate-raw.json": "19abc32234bb282b161486366d64f01eaf363ebb4a39c262de48e098630b78fc",
+      "lifecycle-evidence/existing-content.json": "bdcb4d657b0ce9ce22722921b611eb82be01591b6e88c22037cfa5b8ddcd4493",
+      "lifecycle-evidence/extraction-feedback.json": "56c9751642d96c04d94ff890ed0620e261a8dda4e981032d624df1abe2cb4cb1",
+      "lifecycle-evidence/source-discovery-report.json": "2c49a25847ff4bd51a1c1f9f758cb8df601b14244a09f9756682cef1e40027cf",
+      "lifecycle-evidence/source-fetch-report.json": "408136bf65c2ec20abd079fd70c848dbcd5035985ef3f8fcfe9651a858c1d503",
+      "lifecycle-evidence/source-hub-fetch-report.json": "450ac6f4e5cf7feb934ddbeed3698c3b0ea322db812a6cd178696ecd2265aa00",
+      "lifecycle-evidence/source-link-fetch-report.json": "d5fb1cc4a42dbc2abcba5faf7689a8d370d39194a811dd4f40b616d1d8356d56",
+      "lifecycle-evidence/sources.json": "a26bb9a8af376d3a2709d0014669f30a1bc7c832484b1c96deb92b8578cbb5ba"
+    },
+    "legacy_research_sha256": "f3f3edac1a6a990dabfc28b6aebb71a33a0ef3ef4cb91fbb15e0e13e486b1ec7",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-27T15:32:39.215479+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

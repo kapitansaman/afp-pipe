@@ -1,6 +1,6 @@
 {
-  "all_claims_supported": false,
-  "crop_species_and_product_match": false,
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
   "answers_exact_intent": false,
   "units_and_denominators_correct": true,
   "geography_and_transfer_limits_retained": true,
@@ -10,7 +10,7 @@
   "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "منابع اصلی از آمریکا (UMD/UMN/MSU Extension) هستند و صرفاً برای لوبیای معمولی (Phaseolus vulgaris) به‌صورت عمومی راهنمایی کرده‌اند؛ هیچ‌یک عمق کاشت اختصاصی برای «لوبیا چیتی/پینتو» (dry pinto bean) ارائه نکرده‌اند. ادعای f3 قاعده‌ای که منبع صرفاً برای «لوبیای لیمایی» بیان کرده را به‌طور ضمنی برای تمام لوبیاها تعمیم داده است. ادعای f5 محصول را «لوبیا» عنوان کرده درحال‌حال‌که منبع MSU بیشتر درباره snap/common bean بافت خاک و crust formation است و دقیقاً «پینتو خشک» نیست. هیچ برآورد عددی عمق کاشت (مثلاً اینچ یا سانتی‌متر) صرفاً در منبع UMN برای common/dry bean آمده؛ UMD فقط ضریب نسبی ۲-۳ برابر قطر را بیان کرده. ترجمه مفهومی از شرایط آلمان غربی و مینه‌سوتا به ایران بدون بررسی انتقال مجاز نیست.",
+  "limitations": "تمام شواهد از سه مؤسسه ترویجی دانشگاهی آمریکا (UMD، UMN، MSU) برداشت شده‌اند و هیچ‌یک بر اساس آزمون‌های مزرعه‌ای ایران ارائه نشده‌اند. منبع واحد مستقل (UMD) به‌تنهایی برای پاسخ قطعی به سؤال «خطاهای رایج کاشت لوبیا چیتی در خاک‌های ایران» کافی نیست؛ مطالب دیگر مکمل کیفی هستند. عمق کاشت ذکرشده در منابع (حدود ۱ اینچ / ۲.۵ سانتی‌متر و قاعده ۲–۳ برابر قطر دانه) برای شرایط اقلیمی و خاکی ایالت‌های مریلند، مینه‌سوتا و میسیسیپی آمریکا گزارش شده و مستقیماً برای خاک‌های ایران قابل تعمیم نیست. جهت‌گیری هیلوم رو به پایین در منبع UMD صراحتاً برای «لوبیای لیماما» به‌عنوان استثنا ذکر شده و تعمیم به تمام لوبیاها نیاز به بررسی دارد. هیچ داده‌ای دربارهٔ عمق بهینه کاشت لوبیا چیتی (پینتو) در خاک‌های رسی یا شنی ایران، دوره‌های کشت، دمای خاک محلی، یا خطاهای رایج بومی ارائه نشده است. تبدیل واحدها (۱ اینچ ≈ ۲.۵۴ سانتی‌متر) قطعی و فقط جهت درک بهتر ارائه شده است.",
   "fact_checks": [
     {
       "fact_id": "f0",
@@ -25,11 +25,11 @@
     {
       "fact_id": "f2",
       "supported": true,
-      "scope_and_units_correct": true
+      "scope_and_units_correct": false
     },
     {
       "fact_id": "f3",
-      "supported": false,
+      "supported": true,
       "scope_and_units_correct": false
     },
     {
@@ -40,7 +40,9 @@
     {
       "fact_id": "f5",
       "supported": true,
-      "scope_and_units_correct": false
+      "scope_and_units_correct": true
     }
-  ]
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
 }
