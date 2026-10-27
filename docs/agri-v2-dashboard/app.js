@@ -27,9 +27,10 @@ function render(d){
   $('experiment-title').textContent=e.title||'آزمون فنی';
   const rows=[['فارسی',e.source_reviewed?'منبع تأیید شد':'بررسی ثبت نشده',e.source_reviewed?'good':'neutral'],['تاجیکی',e.tajik_quality_pending?'نیازمند بررسی':e.native_review_done?'بازبینی مستقل شد':'تأیید مستقل ندارد',e.tajik_quality_pending?'attention':'neutral'],['تصویر',e.image_calls===0?'آزموده نشد':'مشاهده گزارش','neutral'],['انتشار',e.published_posts===0?'منتشر نشد':'مشاهده گزارش','neutral']];
   $('experiment-stages').replaceChildren(...rows.map(([label,value,tone])=>{const x=node('div',null,'stage');x.dataset.tone=tone;x.append(node('span',label),node('strong',value));return x;}));
-  $('experiment-meta').textContent=time(e.at)+(typeof e.model_calls==='number'?' · '+num(e.model_calls)+' درخواست متن':'');link($('experiment-link'),e.run_url);
+  $('experiment-meta').textContent=time(e.at)+(typeof e.model_calls==='number'?' · '+num(e.model_calls)+' درخواست متن':'')+(e.failed_stage?' · توقف در '+stageLabel(e.failed_stage):e.status==='controlled_launch_published'?' · انتشار تأیید شد':'');link($('experiment-link'),e.run_url);
  }else{$('experiment-title').textContent='آزمایشی ثبت نشده';$('experiment-stages').replaceChildren();$('experiment-meta').textContent='—';}
  const blockers=[];
+ if(e?.failed_stage&&e.status==='controlled_launch_blocked')blockers.push(['آخرین آزمون',stageLabel(e.failed_stage)+' نیازمند اصلاح است؛ گزارش اجرا را ببینید.']);
  if(a.research_only)blockers.push(['آزادسازی تولید عمومی','تولید اصلی هنوز پژوهش‌محور است.']);
  if(e?.tajik_quality_pending)blockers.push(['کیفیت تاجیکی','تأیید خودکار مدل، تأیید نهایی زبان نیست.']);
  if(!h.bound||!h.image_ok||healthAge>=24)blockers.push(['شاهد تازهٔ سلامت تصویر','آزمون متن جای آزمون تصویر را نمی‌گیرد.']);
