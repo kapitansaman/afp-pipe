@@ -37,3 +37,19 @@ changes are allowed. No human or independent-native-speaker review is claimed.
 
 711 local regression tests passed before the live run; a live outcome must be
 read from this operation's persisted report, not inferred from those tests.
+
+## Actual post-review QA and remaining-budget continuation
+
+The first real run used four calls, repaired one mixed-script segment and returned
+an automated positive fidelity verdict. Post-review inspection found a documented
+false positive: Persian «مزرعه» became Tajik «бӯрон» (storm) in IDs 39,43,49.
+The positive raw verdict/report are retained as history, not accepted as sufficient
+quality evidence; a separate post-review QA record records the defects/references.
+
+A continuation is limited to the remaining four of the same eight calls and ONE
+additional edit round (two total). It feeds the documented false approval back to
+the reviewer, edits identified IDs, then rechecks. No extra full translation or
+source audit is bought. A positive verdict cannot pass while that explicit
+source/reference mismatch remains; other natural field synonyms are allowed.
+The false-positive correction uses the experiment's one reviewer self-correction
+allowance. Unresolved quality after this final round remains held; no third round.

@@ -44,3 +44,8 @@ class TajikFullTests(unittest.TestCase):
    c.text.side_effect=[bad]
    with self.assertRaises(ValueError):f.reviewed(c,Path(d),'review1',a,source,raw)
    self.assertEqual(c.text.call_count,3)
+ def test_positive_review_cannot_approve_storm_for_farm(self):
+  a,raw,source=self.fixture();source[0]='مزرعه';raw['translations'][0]['text']='бӯрон'
+  self.assertEqual(f.reference_issues(source,raw)[0]['id'],0)
+  with self.assertRaisesRegex(ValueError,'reference'):f.check_review({'faithful':True,'reason':'All fine','issues':[]},source,raw,a)
+  raw['translations'][0]['text']='замини кишт';self.assertEqual(f.reference_issues(source,raw),[])

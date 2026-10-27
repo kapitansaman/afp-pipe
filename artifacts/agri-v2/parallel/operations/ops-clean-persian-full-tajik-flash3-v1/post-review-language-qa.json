@@ -1,0 +1,61 @@
+{
+  "status": "automated_positive_review_not_sufficient",
+  "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
+  "verified_defects": [
+    {
+      "id": 39,
+      "category": "meaning",
+      "detail": "The actual Persian says farm/field, but the actual Tajik uses бӯрон (storm). This is a meaning error, not style. Use a natural agricultural field term.",
+      "reference": {
+        "source_term": "مزرعه",
+        "wrong_target_stem": "бӯрон",
+        "wrong_target_meaning": "storm",
+        "acceptable_examples": [
+          "киштзор",
+          "замини кишт"
+        ],
+        "storm_reference": "https://en.wiktionary.org/wiki/%D0%B1%D3%AF%D1%80%D0%BE%D0%BD",
+        "field_reference": "https://glosbe.com/en/tg/field",
+        "policy": "Only flag the explicit wrong storm word in a segment whose Persian source says farm; no exact synonym preference or full fluency approval."
+      }
+    },
+    {
+      "id": 43,
+      "category": "meaning",
+      "detail": "The actual Persian says farm/field, but the actual Tajik uses бӯрон (storm). This is a meaning error, not style. Use a natural agricultural field term.",
+      "reference": {
+        "source_term": "مزرعه",
+        "wrong_target_stem": "бӯрон",
+        "wrong_target_meaning": "storm",
+        "acceptable_examples": [
+          "киштзор",
+          "замини кишт"
+        ],
+        "storm_reference": "https://en.wiktionary.org/wiki/%D0%B1%D3%AF%D1%80%D0%BE%D0%BD",
+        "field_reference": "https://glosbe.com/en/tg/field",
+        "policy": "Only flag the explicit wrong storm word in a segment whose Persian source says farm; no exact synonym preference or full fluency approval."
+      }
+    },
+    {
+      "id": 49,
+      "category": "meaning",
+      "detail": "The actual Persian says farm/field, but the actual Tajik uses бӯрон (storm). This is a meaning error, not style. Use a natural agricultural field term.",
+      "reference": {
+        "source_term": "مزرعه",
+        "wrong_target_stem": "бӯрон",
+        "wrong_target_meaning": "storm",
+        "acceptable_examples": [
+          "киштзор",
+          "замини кишт"
+        ],
+        "storm_reference": "https://en.wiktionary.org/wiki/%D0%B1%D3%AF%D1%80%D0%BE%D0%BD",
+        "field_reference": "https://glosbe.com/en/tg/field",
+        "policy": "Only flag the explicit wrong storm word in a segment whose Persian source says farm; no exact synonym preference or full fluency approval."
+      }
+    }
+  ],
+  "publication_authorized": false,
+  "continuation_budget_remaining": 4,
+  "max_additional_repairs": 1,
+  "original_positive_report_and_raw_verdict_preserved": true
+}
