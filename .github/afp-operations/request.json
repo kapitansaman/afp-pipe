@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "request_id": "ops-three-fresh-persian-sources-overlap-input-v4",
-  "operation": "fetch-existing-content-and-continue-three-persian-sources",
+  "request_id": "ops-three-fresh-persian-sources-family-context-v5",
+  "operation": "continue-three-persian-sources-with-isolated-family-context",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
@@ -24,8 +24,8 @@
   "max_media_uploads": 6,
   "max_provider_wait_seconds": 3600,
   "change_default_model": false,
-  "resume_from_request": "ops-three-fresh-persian-sources-saved-validation-v3",
+  "resume_from_request": "ops-three-fresh-persian-sources-overlap-input-v4",
   "prior_total_model_calls": 6,
   "original_total_model_budget": 42,
-  "code_revision": "1d4c62d71ffb70c0ad691315f27c06c271366885"
+  "code_revision": "c400da3565983b228b1440aa3ab37b53940131ab"
 }
