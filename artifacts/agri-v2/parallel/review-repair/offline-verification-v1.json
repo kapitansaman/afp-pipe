@@ -1,0 +1,24 @@
+{
+  "status": "offline_regression_passed",
+  "suite_tests": 688,
+  "actual_saved_family_fixture": "agri-b6f7d6bea16b",
+  "fixture_check": "zero-budget isolation; no semantic approval claimed",
+  "fixture_result": {
+    "four_languages_semantically_reviewed": false,
+    "translation_repair_status": "needs_editorial_review",
+    "pending_languages": [
+      "ru-RU",
+      "ar-IQ",
+      "tg-TJ",
+      "en-US"
+    ],
+    "other_families_continue": true
+  },
+  "model_calls": 0,
+  "original_fixture_unchanged": true,
+  "image_calls": 0,
+  "wordpress_calls": 0,
+  "schedule_enabled": false,
+  "live_repair_tested": false,
+  "legacy_budgets_reset": false
+}

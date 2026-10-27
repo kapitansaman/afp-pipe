@@ -126,6 +126,9 @@ def next_stage(topic,data=DATA,out=OUT):
    return 'vision-'+str(kind),None
  if cfg.get('multilingual',{}).get('enabled'):
   from .multilingual import LANGUAGES,render_translation
+  from .translation_review_repair import recover_if_approved
+  try:recover_if_approved(folder,article)
+  except (ValueError,KeyError,TypeError,FileNotFoundError):return 'blocked','translation_repair_recovery_required'
   for lang in LANGUAGES:
    pp=folder/'translations'/(lang+'.json')
    if not pp.exists():return 'translation-'+lang,None
@@ -136,6 +139,8 @@ def next_stage(topic,data=DATA,out=OUT):
  if article.get('writing_policy')=='practical-direct-html-v1':
   from .translation_review import binding,validate as validate_fidelity
   rp=folder/'translation-fidelity-review.json';translations={lang:load_json(folder/'translations'/(lang+'.json')) for lang in LANGUAGES}
+  from .translation_review_repair import hold_matches
+  if hold_matches(folder,article,translations):return 'blocked','translation_editorial_review_required'
   if not rp.exists():return 'translation_fidelity_review',None
   proof=load_json(rp)
   if any(proof.get(k)!=v for k,v in binding(article,translations).items()):return 'translation_fidelity_review',None
@@ -183,7 +188,7 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
  article=article_checked(folder,topic,brief)
  if stage=='translation_fidelity_review':
   from .multilingual import LANGUAGES
-  from .translation_review import review
+  from .translation_review_repair import run as review
   rows={lang:load_json(folder/'translations'/(lang+'.json')) for lang in LANGUAGES}
   return review(client,article,rows,folder)
  if stage=='article_evidence_review':
