@@ -1,21 +1,25 @@
 {
   "version": 1,
-  "request_id": "ops-practical-editorial-completion-v6",
-  "operation": "nonpublishing-editorial-finish-four-translations",
+  "request_id": "ops-translation-local-repair-five-calls-v1",
+  "operation": "nonpublishing-semantic-local-repair",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 0,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_total_text_calls": 4,
-  "max_writer_calls": 0,
-  "max_final_article_reviews": 0,
-  "max_translation_languages": 4,
+  "max_total_text_calls": 5,
+  "max_repair_rounds": 2,
   "max_wordpress_mutations": 0,
+  "max_image_calls": 0,
   "topic_id": "agri-b6f7d6bea16b",
-  "code_revision": "bf86d136e01ec4eed9d25befed846dff3536be50",
-  "resume_from_request": "ops-practical-language-repair-v5",
-  "max_language_repairs": 0,
-  "max_translation_fidelity_reviews": 1
+  "source_request": "ops-practical-editorial-completion-v6",
+  "source_article_sha256": "0f0b5db296ea501b43e4df91b53b187b13ffa6334f6223f48f8d48d6b150d833",
+  "editable_languages": [
+    "ar-IQ",
+    "tg-TJ"
+  ],
+  "review_languages": 4,
+  "separate_authorized_budget": true,
+  "code_revision": "74cf59b246f37814e929088fec438af99180d443"
 }
