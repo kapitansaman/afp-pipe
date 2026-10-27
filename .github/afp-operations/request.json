@@ -1,22 +1,30 @@
 {
   "version": 1,
-  "request_id": "ops-alternate-tajik-reviewer-feedback-two-remaining-v1",
-  "operation": "nonpublishing-alternate-tajik-reviewer-feedback",
+  "request_id": "ops-flash-only-tajik-three-model-sample-v1",
+  "operation": "nonpublishing-flash-only-tajik-samples",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 0,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_total_text_calls": 2,
-  "max_catalog_gets": 1,
+  "max_total_text_calls": 3,
+  "max_calls_per_model": 1,
   "max_wordpress_mutations": 0,
   "max_image_calls": 0,
   "topic_id": "agri-b6f7d6bea16b",
-  "source_request": "ops-translation-local-repair-five-calls-v1",
-  "prior_budget_calls": 3,
-  "total_authorized_budget": 5,
+  "models": [
+    "agnes-2.0-flash",
+    "agnes-2.5-flash",
+    "agnes-3.0-flash"
+  ],
+  "sample_ids": [
+    35,
+    52,
+    53,
+    57
+  ],
   "modify_translations": false,
   "change_default_model": false,
-  "code_revision": "59f0df61e26ee3157120a9502b1e051d8a742b56"
+  "code_revision": "ef685b73afd7ce9d987fae1b6c549ec40895cc26"
 }
