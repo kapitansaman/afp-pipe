@@ -1,25 +1,22 @@
 {
   "version": 1,
-  "request_id": "ops-translation-local-repair-five-calls-v1",
-  "operation": "nonpublishing-semantic-local-repair",
+  "request_id": "ops-alternate-tajik-reviewer-feedback-two-remaining-v1",
+  "operation": "nonpublishing-alternate-tajik-reviewer-feedback",
   "authorized": true,
   "max_text_health_calls": 0,
   "max_image_health_calls": 0,
   "max_pilot_families": 0,
   "enable_schedule": false,
   "reset_attempts": false,
-  "max_total_text_calls": 5,
-  "max_repair_rounds": 2,
+  "max_total_text_calls": 2,
+  "max_catalog_gets": 1,
   "max_wordpress_mutations": 0,
   "max_image_calls": 0,
   "topic_id": "agri-b6f7d6bea16b",
-  "source_request": "ops-practical-editorial-completion-v6",
-  "source_article_sha256": "0f0b5db296ea501b43e4df91b53b187b13ffa6334f6223f48f8d48d6b150d833",
-  "editable_languages": [
-    "ar-IQ",
-    "tg-TJ"
-  ],
-  "review_languages": 4,
-  "separate_authorized_budget": true,
-  "code_revision": "74cf59b246f37814e929088fec438af99180d443"
+  "source_request": "ops-translation-local-repair-five-calls-v1",
+  "prior_budget_calls": 3,
+  "total_authorized_budget": 5,
+  "modify_translations": false,
+  "change_default_model": false,
+  "code_revision": "59f0df61e26ee3157120a9502b1e051d8a742b56"
 }
