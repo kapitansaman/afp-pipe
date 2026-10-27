@@ -6,7 +6,7 @@ from pathlib import Path
 from .queue import DATA,OUT,atomic_json,load_json,utcnow,age_hours
 from .pipeline import check_brief,digest,normalize_article,validate_article,validate_for_publication
 from .family_scheduler import allocate,assigned_topics,family_complete
-from .parallel_pool import initialize,snapshot,routing_counts,record_routing,PoolDeferred
+from .parallel_pool import initialize,snapshot,routing_counts,routing_backpressure,record_routing,PoolDeferred
 from .parallel_control import policy,reserve
 from .failure_diagnostics import failure_details
 
@@ -428,7 +428,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   per_worker_limit=matrix_budget(env,data,out) if matrix_pilot else 4 if research_only else p['max_model_requests_per_family']
   report['max_text_model_calls']=per_worker_limit*len(topics) if research_only else None
   report['max_total_model_calls']=per_worker_limit*len(topics)
-  initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=per_worker_limit*len(topics),per_worker=per_worker_limit,prior_usage=routing_counts(out))
+  initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=per_worker_limit*len(topics),per_worker=per_worker_limit,prior_usage=routing_counts(out),prior_backpressure=routing_backpressure(out))
   with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_FAMILIES,max(1,len(topics)))) as ex:
    futures={ex.submit(worker_fn,t,workspace,db,health,inventory,data,out,env):t for t in topics}
    def timing_tick():
