@@ -1,0 +1,31 @@
+{
+  "text": 3,
+  "image": 2,
+  "history": [
+    {
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T05:40:00.578464+00:00"
+    },
+    {
+      "kind": "image",
+      "model": "agnes-image-2.5-flash",
+      "at": "2026-10-27T05:40:09.138229+00:00"
+    },
+    {
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T05:41:15.387324+00:00"
+    },
+    {
+      "kind": "image",
+      "model": "agnes-image-2.5-flash",
+      "at": "2026-10-27T05:42:06.187563+00:00"
+    },
+    {
+      "kind": "text",
+      "model": "agnes-2.5-flash",
+      "at": "2026-10-27T05:43:11.952134+00:00"
+    }
+  ]
+}

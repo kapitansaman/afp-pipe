@@ -1,7 +1,7 @@
 {
   "version": 1,
   "cursor": 1,
-  "last_selected_slot": "AGNES_API_KEY2",
-  "selected_at_epoch": 1792972528.6585383,
+  "last_selected_slot": "AGNES_API_KEY",
+  "selected_at_epoch": 1793079726.4259062,
   "scope": "owner-selected persistent verified round-robin; shared cooldowns and per-key holds enforced; no immediate error failover"
 }
