@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "topic_id": "agri-b6f7d6bea16b",
+  "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "language": "tg-TJ",
+  "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
+  "status": "waiting",
+  "reason": "provider_backpressure",
+  "attempts": 2,
+  "model_calls_spent": 7,
+  "next_attempt_at": "2026-10-28T06:32:59.369847+00:00",
+  "history": [
+    {
+      "event": "old_experimental_history_imported_without_reset",
+      "prior_attempts": 2,
+      "prior_calls": 7,
+      "scope": "ops-image-three-corrections-single-fallback-test-v1",
+      "at": "2026-10-27T06:32:59.368002+00:00"
+    }
+  ],
+  "created_at": "2026-10-27T06:32:59.367497+00:00",
+  "experimental_only": false,
+  "publication_authorized_by_queue": false,
+  "pending_issues": [
+    {
+      "id": 39,
+      "wrong_form": "кштзор",
+      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+    },
+    {
+      "id": 43,
+      "wrong_form": "кштзор",
+      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+    },
+    {
+      "id": 49,
+      "wrong_form": "кштзор",
+      "detail": "Observed кштзор conflicts with supplied agricultural glossary киштзор; correct spelling and independently check language quality. Do not infer native quality from model approval."
+    }
+  ],
+  "primary_finished": true
+}

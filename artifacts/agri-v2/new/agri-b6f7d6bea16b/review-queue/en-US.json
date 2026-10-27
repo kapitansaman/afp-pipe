@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "topic_id": "agri-b6f7d6bea16b",
+  "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "language": "en-US",
+  "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
+  "status": "waiting",
+  "reason": "provider_backpressure",
+  "attempts": 0,
+  "model_calls_spent": 0,
+  "next_attempt_at": "2026-10-27T12:32:59.371469+00:00",
+  "history": [],
+  "created_at": "2026-10-27T06:32:59.370544+00:00",
+  "experimental_only": false,
+  "publication_authorized_by_queue": false,
+  "primary_finished": true
+}

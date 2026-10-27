@@ -1,7 +1,7 @@
 {
   "open": true,
-  "request_kind": "text",
-  "retry_at_epoch": 1793020870.1754313,
-  "at": "2026-10-26T12:21:10.279136+00:00",
-  "reason": "parallel_lifecycle_shared_provider_limit"
+  "request_kind": "text_or_image",
+  "retry_at_epoch": 1793086379.350329,
+  "at": "2026-10-27T06:32:59.380263+00:00",
+  "reason": "nonpublishing_image_fallback_test_backpressure"
 }
