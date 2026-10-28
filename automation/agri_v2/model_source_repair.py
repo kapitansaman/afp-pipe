@@ -91,7 +91,18 @@ def validate_plan(value,topic):
   if any(not isinstance(row[k],str) or not 20<=len(row[k])<=1200 for k in ('why_relevant','expected_evidence')):raise RepairBlocked('source_plan_lead_reason_required')
  return value
 
-def discover(topic,client,data,out):
+def web_mode(stage,folder,data):
+ from .source_search import enabled as web_enabled
+ if not web_enabled(data):return False
+ if stage=='research_discover':return True
+ p=folder/'lifecycle-evidence'/PLAN
+ return stage=='research_refetch' and p.exists() and load_json(p).get('version')==2
+
+def discover(topic,client,data,out,env=None):
+ if web_mode('research_discover',out/'new'/topic['id'],data):
+  from .web_source_repair import create_plan
+  import os
+  return create_plan(topic,client,data,out,os.environ if env is None else env)
  from .research_routes import plan as research_plan
  folder=out/'new'/topic['id'];ev=folder/'lifecycle-evidence'
  if next_stage(topic,folder,data)!='research_discover':raise RepairBlocked('source_repair_not_admitted')
@@ -105,7 +116,11 @@ def discover(topic,client,data,out):
  atomic_json(ev/PLAN,{'version':1,'created_at':utcnow(),'topic_id':topic['id'],'input_binding':before,'plan':value,'search_engine_used':False,'queries_executed':False,'model_calls':1,'publication_authorized':False})
  return {'unverified_leads':len(value['leads']),'search_engine_used':False,'publication_authorized':False}
 
-def refetch(topic,data,out,fetcher=None):
+def refetch(topic,data,out,fetcher=None,client=None,env=None):
+ if web_mode('research_refetch',out/'new'/topic['id'],data):
+  from .web_source_repair import refetch as web_refetch
+  import os
+  return web_refetch(topic,client,data,out,os.environ if env is None else env,fetcher=fetcher)
  from .scoped_sources import fetch
  from .source_scout import collect
  folder=out/'new'/topic['id'];ev=folder/'lifecycle-evidence'

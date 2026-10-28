@@ -183,7 +183,7 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
  ident=topic['id'];folder=out/'new'/ident;folder.mkdir(parents=True,exist_ok=True);ev=folder/'lifecycle-evidence';bp=data/'briefs'/(ident+'.json')
  if stage in ('research_discover','research_refetch'):
   from .model_source_repair import discover,refetch
-  return discover(topic,client,data,out) if stage=='research_discover' else refetch(topic,data,out)
+  return discover(topic,client,data,out,env=getattr(client,'source_search_env',None)) if stage=='research_discover' else refetch(topic,data,out,client=client,env=getattr(client,'source_search_env',None))
  from . import research as r
  from .scoped_research import entries_for,SUPPORTED
  if (stage in {'research_sources','research_extract','research_validate_saved','existing_content_audit','research_review','existing_content_audit_finalize'} or stage.startswith('existing_content_audit-')) and settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED:
@@ -323,11 +323,18 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    if result['status']=='images_ready':continue
    return dict(result,topic_id=topic['id'],published_posts=0)
   kind='image' if stage.startswith('image-') else 'text'
-  no_model=stage in ('research_sources','research_validate_saved','research_refetch','existing_content_audit_finalize')
+  from .model_source_repair import web_mode
+  real_search=stage in ('research_discover','research_refetch') and web_mode(stage,folder,data)
+  if real_search:
+   from .source_search import require as require_search,SearchConnectionRequired
+   try:require_search(env)
+   except SearchConnectionRequired:return {'status':'capability_required','kind':'source_search','reason':'brave_search_connection_required','stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
+  no_model=stage in ('research_sources','research_validate_saved','existing_content_audit_finalize') or stage=='research_refetch' and not real_search
   from .recovery import circuit_open
   if not no_model and circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
   if not no_model and not health.get('eligible_'+kind+'_slots'):return {'status':'capability_required','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
   client=None if no_model else client_factory(health,allow_calls=True,capabilities=(kind,))
+  if real_search:client.source_search_env=env
   # Legacy paid attempts still constrain the new stage system; never reset them.
   old=folder/'cycle-attempts.json'
   if old.exists() and load_json(old).get('attempts',0)>=2:return {'status':'blocked','reason':'legacy_generation_budget_exhausted','topic_id':topic['id'],'steps':steps,'published_posts':0}
@@ -444,6 +451,8 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   report['max_text_model_calls']=per_worker_limit*len(topics) if research_only else None
   report['max_total_model_calls']=per_worker_limit*len(topics)
   initialize(db,slots,text_limit=MAX_FAMILIES,image_limit=1,max_calls=per_worker_limit*len(topics),per_worker=per_worker_limit,prior_usage=routing_counts(out),prior_backpressure=routing_backpressure(out))
+  from .source_search import initialize as initialize_search,persist as persist_search,enabled as web_enabled
+  if web_enabled(data):initialize_search(db,out)
   with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_FAMILIES,max(1,len(topics)))) as ex:
    futures={ex.submit(worker_fn,t,workspace,db,health,inventory,data,out,env):t for t in topics}
    def timing_tick():
@@ -466,6 +475,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
       if terminal is not None:result=dict(result,terminal_exception_checkpoint_saved=True)
     except Exception as e:result={'status':'worker_failed','topic_id':topic['id'],'failure':failure_details(e)}
     report['results'].append(dict(result,family_id=topic['family_id']));timing_tick();atomic_json(rp,report)
+  report['source_search']=persist_search(db,out)
   report['pool']=snapshot(db);record_routing(out,report['pool'])
   if report['pool']['cooldown_until_epoch']>time.time():atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text','retry_at_epoch':report['pool']['cooldown_until_epoch'],'at':utcnow(),'reason':'parallel_lifecycle_shared_provider_limit'})
  # Only this single coordinator can write WordPress; never publish on worker's word alone.

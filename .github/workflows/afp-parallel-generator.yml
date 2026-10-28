@@ -21,6 +21,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ github.token }}
       AFP_PROGRESS_ENABLED: "0"
+      AFP_SOURCE_SEARCH_API_KEY: ${{ secrets.AFP_SOURCE_SEARCH_API_KEY }}
       AGNES_API_KEY: ${{ secrets.AGNES_API_KEY_1 }}
       AGNES_API_KEY2: ${{ secrets.AGNES_API_KEY_2 }}
       AGNES_API_KEY3: ${{ secrets.AGNES_API_KEY_3 }}

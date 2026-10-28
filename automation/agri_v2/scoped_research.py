@@ -26,6 +26,7 @@ def entries_for(topic,data):
  return leads(topic,data,'scoped-source-catalog.json')
 
 def institutions(docs):
+ from .source_registry import institution
  # Shared content on two university hosts is not two independent publications.
  independent=[]
  for d in docs:
@@ -34,7 +35,7 @@ def institutions(docs):
   for old,g in independent:
    if grams and g and len(grams&g)/min(len(grams),len(g))>.72:duplicate=True;break
   if not duplicate:independent.append((d,grams))
- return {d.get('publisher_id') or '.'.join(source_host(d['url']).split('.')[-2:]) for d,_ in independent}
+ return {d.get('publisher_id') or institution(source_host(d['url'])) for d,_ in independent}
 
 def derived_conversions(facts):
  from decimal import Decimal,ROUND_HALF_UP

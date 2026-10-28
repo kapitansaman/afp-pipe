@@ -11,7 +11,8 @@ MAX_FETCHES=12
 class ScoutBlocked(ValueError):pass
 
 def institutions(documents,source_host):
- return {'.'.join(source_host(d['url']).split('.')[-2:]) for d in documents}
+ from .source_registry import institution
+ return {institution(source_host(d['url'])) for d in documents}
 
 def collect(entries,fetcher,out,source_host,evdir,*,allow_pdf=False,topic_id=None):
  from .source_discovery import ranked_seed_urls

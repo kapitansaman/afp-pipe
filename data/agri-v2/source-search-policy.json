@@ -1,0 +1,1 @@
+{"version":1,"enabled":true,"backend":"brave","rounds":2,"queries_per_round":2,"results_per_query":6,"max_source_fetches":12,"max_search_requests_per_run":80,"search_concurrency":1,"search_cache_hours":6,"reset_original_attempts":false,"publication_authorized":false}

@@ -14,6 +14,7 @@ def failure_details(exc):
  category=validation_codes.get(str(exc)) if type(exc)is ValueError else getattr(exc,'category',None)
  validation_codes.update({'Exact owned approved fact references required':'unapproved_fact_reference','Approved source binding required':'unapproved_source_binding','Four to five substantive grounded sections required':'grounded_section_count_invalid','Substantive nonduplicate paragraph length required':'grounded_paragraph_length_or_duplicate','At least eight grounded paragraphs required':'grounded_paragraph_count_invalid','Plain reader-facing prose required':'grounded_plain_prose_required','Structured grounded article required':'grounded_article_schema_invalid','Persian article contains unrelated CJK script':'unexpected_mixed_language','Exactly three grounded FAQs required':'grounded_faq_schema_invalid'})
  if type(exc)is ValueError:category=validation_codes.get(str(exc))
+ allowed.update({'source_search_rate_limited','source_search_auth','source_search_unavailable','source_search_response_invalid'})
  allowed.update(validation_codes.values())
  row={'kind':kind,'category':category if category in allowed else 'unspecified'}
  status=getattr(exc,'http_status',None)
