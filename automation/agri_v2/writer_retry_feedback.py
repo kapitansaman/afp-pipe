@@ -4,6 +4,9 @@ No previous prose is edited, and feedback cannot approve a claim or reset budget
 import hashlib
 from .queue import load_json
 GUIDANCE={
+ 'article_faq_count_invalid':'Return a separate faq array with exactly three grounded question/answer objects at the root, not only an FAQ section inside content_html. Use only approved facts and their scope limits. The server must not invent or fill missing FAQs.',
+ 'article_faq_fields_incomplete':'Every FAQ must have plain-text question and answer strings, with a meaningful question of at least 10 characters and an answer of at least 30 characters. Use approved facts only; do not pad with invented advice.',
+ 'article_faq_entry_schema_invalid':'Each of the three faq entries must be an object with question and answer strings, not a bare string or HTML block.',
  'unexpected_mixed_language':'Write the reader-facing body, headings, excerpt and every FAQ entirely in Persian. Do not emit CJK fragments or unrelated language tokens. Approved source URLs and exact scientific Latin names are not a license for mixed-language prose. Recompose supported prose; never hide, encode or mechanically delete rejected characters to bypass validation.',
  'unapproved_numeric_claim':'Only numeric_authority_contract grants numeric authority. Omit unsupported measurements or metadata years; do not spell them out to evade checks or invent conversions.',
  'missing_approved_inline_citation':'Cite the exact approved source URL beside the supported claim. Do not invent a URL or use a bibliography as a replacement for inline evidence.',

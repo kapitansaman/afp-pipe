@@ -70,6 +70,9 @@ def normalize(raw,topic,brief):
  balance=Balanced();balance.feed(article['content_html']);balance.close()
  if balance.stack:
   article['content_html']+=''.join('</'+tag+'>' for tag in reversed(balance.stack));fixes.append({'kind':'close_unclosed_inert_tags_at_end'})
+ if not isinstance(article['faq'],list) or len(article['faq'])!=3:raise ValueError('Exactly three reviewed FAQs required')
+ if any(not isinstance(row,dict) for row in article['faq']):raise ValueError('FAQ entries must be objects')
+ if any(not isinstance(row.get(k),str) for row in article['faq'] for k in ('question','answer')):raise ValueError('Complete FAQ question and answer required')
  if isinstance(article['faq'],list):
   from .text_fields import plain_citations
   clean=[]
@@ -101,6 +104,8 @@ def generate(client,topic,brief,folder):
  request=json.loads(article_prompt(topic,brief));request.pop('constraints',None)
  from .writer_retry_feedback import feedback
  request['previous_rejection_feedback']=feedback(folder)
+ request['response_contract']={'version':1,'root_type':'object','required_fields':['content_html','excerpt','faq'],'faq':{'type':'array','exact_items':3,'item_type':'object','required_fields':['question','answer'],'field_type':'plain_text','minimum_question_characters':10,'minimum_answer_characters':30,'do_not_embed_faq_only_in_content_html':True},'immutable_identity_fields_generated':False,'missing_faq_must_not_be_synthesized_by_server':True}
+ request['task']+=' The response_contract is mandatory: return all three root fields, including faq as a separate array of exactly three question/answer objects, not just FAQ paragraphs embedded in content_html. FAQs must use only approved facts and retain scope limits. No omission of faq.'
  from .numeric_drafting_contract import contract as numeric_contract,audit as numeric_audit
  request['numeric_authority_contract']=numeric_contract(brief)
  request['task']+=' The numeric_authority_contract is mandatory and overrides any suggestion to copy incidental metadata numbers or perform new conversions.'
