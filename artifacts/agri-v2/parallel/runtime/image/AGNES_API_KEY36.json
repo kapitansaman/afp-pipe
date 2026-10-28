@@ -1,0 +1,18 @@
+{
+  "repository": "kapitansaman/afp-pipe",
+  "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+  "family_id": "family-09",
+  "slot": "AGNES_API_KEY36",
+  "kind": "image",
+  "model": "agnes-image-2.5-flash",
+  "verified_at": "2026-10-28T04:51:33.770690+00:00",
+  "verification": "actual_successful_parallel_capability_probe",
+  "run_id": "40634259622",
+  "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+  "image_sha256": "f646376cb2c725346f22c02d58247f95ca444edfa2b8b7b98dac5372c1cfb33c",
+  "publication_visual_approval": false,
+  "followup_request_id": "family09-image-followup-v1",
+  "original_receipt_sha256": "eb3ade86108f16b84192ea20d3c70858a4f62519d06064e12b16a7916ee4d170",
+  "original_outcome_resolved": false
+}

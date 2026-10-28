@@ -1,0 +1,23 @@
+{
+  "request_id": "family09-image-followup-v1",
+  "family_id": "family-09",
+  "slot": "AGNES_API_KEY36",
+  "model": "agnes-image-2.5-flash",
+  "original_receipt": "parallel/capability-refresh/20261028/image/AGNES_API_KEY36.json",
+  "original_receipt_sha256": "eb3ade86108f16b84192ea20d3c70858a4f62519d06064e12b16a7916ee4d170",
+  "max_new_image_requests": 1,
+  "automatic_retry": false,
+  "original_outcome_resolved": false,
+  "publication_authorized": false,
+  "run_id": "40634259622",
+  "image_calls": 1,
+  "model_calls": 0,
+  "published_posts": 0,
+  "original_attempts_reset": false,
+  "status": "followup_verified_new_diagnostic",
+  "started_at": "2026-10-28T04:48:44.045936+00:00",
+  "provider_state": "healthy",
+  "http_status": 200,
+  "completed_at": "2026-10-28T04:51:33.769671+00:00",
+  "proven_families": 20
+}
