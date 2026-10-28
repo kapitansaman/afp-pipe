@@ -12,9 +12,11 @@ def reference_product():
  raw=base64.b64decode((ASSETS/'afp-tape.webp.b64').read_text().strip(),validate=True)
  product=Image.open(io.BytesIO(raw)).convert('RGB');product.thumbnail((240,210),Image.Resampling.LANCZOS)
  return product
+def common_bean(topic):
+ return norm((topic or {}).get('crop','')) in {'لوبیا قرمز','لوبیا سفید','لوبیا چیتی','لوبیا سبز'}
 def use_red_bean_close(topic):
  text=norm((topic or {}).get('crop','')+' '+(topic or {}).get('title',''))
- return 'لوبیا قرمز' in text and any(x in text for x in ('برداشت','رسیدگی','خشک'))
+ return norm((topic or {}).get('crop',''))=='لوبیا قرمز' and any(x in text for x in ('برداشت','رسیدگی','خشک'))
 def needs_filter(topic):
  # Hardware is a topic requirement, never an invented requirement for every article.
  text=norm((topic or {}).get('title',''))
@@ -32,18 +34,20 @@ def article_context(topic,article=None):
  return {'title':topic['title'],'crop':topic.get('crop',''),'excerpt':norm(a.get('excerpt',''))[:300],'summary':norm(plain)[:600]}
 def crop_spec(topic):
  text=norm(str(topic.get('crop',''))+' '+topic['title']);dry=bool('برداشت' in text or 'رسیدگی' in text or 'خشک' in text)
- if 'لوبیا' in text:
+ if norm(topic.get('crop',''))=='لوبیا چشم بلبلی':
+  return 'cowpea (Vigna unguiculata), trifoliate leaves and long slender cowpea pods; the black eye belongs to the harvested seed coat. This is NOT common bean (Phaseolus vulgaris), mung bean, pepper or chili fruit.'
+ if common_bean(topic):
   if 'سبز' in norm(topic.get('crop','')):return 'common green bean (Phaseolus vulgaris), trifoliate leaves and attached green pods; not chili peppers'
   seed='deep burgundy kidney-shaped seeds' if 'قرمز' in text else 'beige kidney-shaped seeds with brown mottling' if 'چیتی' in text else 'kidney-shaped dry bean seeds'
   if dry:return ('dry common bean (Phaseolus vulgaris) at harvest maturity: low bushy plants, senescent yellow-brown trifoliate foliage; beige or straw-brown papery pods with visible rounded seed bulges, a few naturally split dry pods revealing '+seed+'. Red refers to seed-coat color, NEVER bright red pod walls. No fleshy red chili-shaped fruit, peppers, lush green harvest canopy or decorative piles of produce')
-  return 'common bean (Phaseolus vulgaris), low branching plants with trifoliate leaves and bean pods with seed bulges; not pepper plants or chili fruit'
+  return 'common bean (Phaseolus vulgaris), low branching plants with trifoliate leaves and green bean pods with rounded seed bulges; not pepper plants or chili fruit'+('; red kidney means deep burgundy KIDNEY-SHAPED SEED COATS INSIDE the pods, never red fleshy fruit, red pod walls or peppers attached to stems' if norm(topic.get('crop',''))=='لوبیا قرمز' else '')
  for key in sorted(CROP_DATA['CROPS'],key=len,reverse=True):
   if re.search(r'(?<!\w)'+re.escape(norm(key))+r'(?!\w)',text):return CROP_DATA['CROP_VISUALS'].get(key,CROP_DATA['CROPS'][key]+' with botanically accurate leaves, stems and growth stage')
  return 'the named crop '+str(topic.get('crop',''))+' with accurate morphology; do not substitute another species'
 def scene_plan(topic,kind,article=None):
  if type(kind)is not int or kind not in (1,2,3):raise ValueError('Only three approved image roles')
- text=norm(topic['title']);harvest='لوبیا' in norm(topic.get('crop','')) and 'سبز' not in norm(topic.get('crop','')) and any(x in text for x in ('برداشت','رسیدگی','خشک'))
- stored=topic.get('intent')=='storage' and 'لوبیا' in norm(topic.get('crop',''))
+ text=norm(topic['title']);harvest=common_bean(topic) and 'سبز' not in norm(topic.get('crop','')) and any(x in text for x in ('برداشت','رسیدگی','خشک'))
+ stored=topic.get('intent')=='storage' and common_bean(topic)
  if stored:
   seed='beige dry pinto beans with brown mottling' if 'چیتی' in norm(topic.get('crop','')) else 'the named dry edible bean grain'
   return {'hardware_required':False,'policy':POLICY,'role':kind,'scene_route':'postharvest-dry-bean-storage-v1','camera':'wide elevated indoor storage overview' if kind==1 else 'near-overhead close detail of harvested dry bean grain and its storage packaging','evidence':'clean dry harvested '+seed+' in food-storage packaging raised clear of the floor in a shaded dry store; no living plants, roots, field furrows, irrigation pipes, or other crop species','botany':'harvested '+seed+', Phaseolus vulgaris; not fresh green pods or living plants','context':article_context(topic,article),'product_family':'drip_tape_carton','reference_mode':'original_product_identity_only','product_frame_width':(.14,.20),'product_max_frame_height':.32}
