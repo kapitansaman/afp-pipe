@@ -28,6 +28,20 @@ def inspect(data=DATA,out=OUT,wp=None):
  add('fresh_image_capacity',bound and image_proven,'Separate actual successful fresh bound image proof; text success is not image approval')
  from .family_model_routing import load as load_roles,slots as model_slots,binding as routing_binding
  roles=load_roles(data)
+ # Readiness must never treat fresh capacity as permission during a live hold.
+ from .family_capability_refresh import active_hold
+ try:
+  circuit_path=out/'provider-circuit.json';circuit=load_json(circuit_path) if circuit_path.exists() else {'open':False}
+  well_formed=(isinstance(circuit,dict) and type(circuit.get('open')) is bool and circuit.get('request_kind') in (None,'text','image'))
+  circuits_clear=well_formed and not any(active_hold(out,kind) for kind in ('text','image'))
+ except (ValueError,KeyError,TypeError,AttributeError):circuits_clear=False
+ add('provider_circuits_clear',circuits_clear,'No active text/image/global provider hold; malformed evidence blocks release')
+ accepted_path=out/'parallel/scoped-family-pilot/accepted.json'
+ try:
+  accepted=load_json(accepted_path) if accepted_path.exists() else {}
+  pilot_valid=(accepted.get('status')=='scoped_family_pilot_verified' and accepted.get('public_verified') is True and accepted.get('image_model')==IMAGE_MODEL and bool(accepted.get('post_id')) and bool(accepted.get('article_sha256')) and bool(accepted.get('image_sha256')) and (roles is None or accepted.get('family_model_routing_sha256')==routing_binding(roles)))
+ except (ValueError,KeyError,TypeError,AttributeError):pilot_valid=False
+ add('accepted_live_pilot',pilot_valid,'A retained actual public pilot acceptance is required; a policy flag alone is not acceptance')
  if roles is not None:
   proof_slots=set()
   from .family_capability_refresh import image_proofs

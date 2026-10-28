@@ -25,3 +25,23 @@ class ProductionReadinessTests(unittest.TestCase):
  def test_bound_actual_image_response_is_separate_from_eligible_slot_declaration(self):
   with tempfile.TemporaryDirectory() as td:
    d,o,h=self.setup(Path(td));atomic_json(o/'parallel/runtime/image'/(SLOTS[-1]+'.json'),{'repository':'kapitansaman/afp-pipe','credential_set_id':CREDENTIAL_SET_ID,'slot':SLOTS[-1],'model':IMAGE_MODEL,'verified_at':utcnow(),'verification':'actual_successful_parallel_response'});self.assertTrue(self.inspect(d,o)['gates']['fresh_image_capacity']['passed'])
+
+ def test_active_text_image_or_global_hold_blocks_readiness_without_mutation(self):
+  import time
+  for kind in ('text','image',None):
+   with tempfile.TemporaryDirectory() as td:
+    d,o,h=self.setup(Path(td));p=o/'provider-circuit.json';atomic_json(p,{'open':True,'request_kind':kind,'retry_at_epoch':time.time()+3600});before=p.read_bytes();v=self.inspect(d,o)
+    self.assertFalse(v['gates']['provider_circuits_clear']['passed']);self.assertIn('provider_circuits_clear',v['blockers']);self.assertEqual(before,p.read_bytes());self.assertEqual(v['model_calls'],0)
+ def test_expired_hold_is_not_cleared_and_malformed_hold_fails_closed(self):
+  import time
+  with tempfile.TemporaryDirectory() as td:
+   d,o,h=self.setup(Path(td));p=o/'provider-circuit.json';atomic_json(p,{'open':True,'request_kind':'image','retry_at_epoch':time.time()-1});before=p.read_bytes();self.assertTrue(self.inspect(d,o)['gates']['provider_circuits_clear']['passed']);self.assertEqual(before,p.read_bytes());p.write_text('{bad');self.assertFalse(self.inspect(d,o)['gates']['provider_circuits_clear']['passed'])
+ def test_release_flag_is_not_live_pilot_acceptance(self):
+  with tempfile.TemporaryDirectory() as td:
+   d,o,h=self.setup(Path(td));v=self.inspect(d,o);self.assertTrue(v['gates']['scoped_rollout_released']['passed']);self.assertFalse(v['gates']['accepted_live_pilot']['passed'])
+   atomic_json(o/'parallel/scoped-family-pilot/accepted.json',{'status':'scoped_family_pilot_verified','public_verified':True,'image_model':IMAGE_MODEL,'post_id':123,'article_sha256':'a'*64,'image_sha256':{'1':'b'*64}});self.assertTrue(self.inspect(d,o)['gates']['accepted_live_pilot']['passed'])
+
+ def test_unknown_circuit_scope_or_invalid_shape_cannot_be_ignored(self):
+  for circuit in ({'open':True,'request_kind':'unknown'},[],{}, {'open':'false'}):
+   with tempfile.TemporaryDirectory() as td:
+    d,o,h=self.setup(Path(td));atomic_json(o/'provider-circuit.json',circuit);self.assertFalse(self.inspect(d,o)['gates']['provider_circuits_clear']['passed'])
