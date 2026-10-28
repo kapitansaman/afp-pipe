@@ -1,0 +1,138 @@
+{
+  "status": "image_capability_batch_completed",
+  "run_id": "40632695901",
+  "image_model": "agnes-image-2.5-flash",
+  "model_calls": 0,
+  "image_calls": 11,
+  "max_image_calls": 20,
+  "max_scheduling_seconds": 2400,
+  "published_posts": 0,
+  "cases": [
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY40",
+      "family_id": "family-10",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:31:53.107698+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:34:26.414922+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY44",
+      "family_id": "family-11",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:34:27.858368+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:35:34.230999+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY48",
+      "family_id": "family-12",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:35:35.690572+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:36:42.135164+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY52",
+      "family_id": "family-13",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:36:43.379282+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:37:49.684788+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY56",
+      "family_id": "family-14",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:37:50.943893+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:38:56.936932+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY60",
+      "family_id": "family-15",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:38:58.328561+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:40:05.041703+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY64",
+      "family_id": "family-16",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:40:06.387454+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:41:12.669461+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY68",
+      "family_id": "family-17",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:41:14.050043+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:42:20.956913+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY72",
+      "family_id": "family-18",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:42:22.273238+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:43:28.616850+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY76",
+      "family_id": "family-19",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:43:29.991060+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:44:36.336325+00:00"
+    },
+    {
+      "status": "verified",
+      "slot": "AGNES_API_KEY80",
+      "family_id": "family-20",
+      "model": "agnes-image-2.5-flash",
+      "image_calls": 1,
+      "started_at": "2026-10-28T04:44:37.599546+00:00",
+      "provider_state": "healthy",
+      "http_status": 200,
+      "completed_at": "2026-10-28T04:45:43.544453+00:00"
+    }
+  ],
+  "publication_visual_approval": false,
+  "original_attempts_reset": false,
+  "proven_families": 19,
+  "pending_families": 1,
+  "completed_at": "2026-10-28T04:45:43.700297+00:00"
+}
