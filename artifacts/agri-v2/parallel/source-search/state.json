@@ -1,7 +1,7 @@
 {
   "version": 1,
   "backend": "tavily",
-  "updated_at": "2026-10-28T02:23:37.946858+00:00",
+  "updated_at": "2026-10-28T02:54:48.777873+00:00",
   "cooldown_until_epoch": 0.0,
   "cache": {
     "0ffcf2f68d107042fae4f3d405814fc82858b3814f37394f5155c3f716e44c29": {

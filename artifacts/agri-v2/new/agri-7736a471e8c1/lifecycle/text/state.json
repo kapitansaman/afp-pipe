@@ -1,5 +1,5 @@
 {
-  "attempts": 1,
+  "attempts": 2,
   "history": [
     {
       "attempts": 1,
@@ -11,14 +11,25 @@
         "kind": "validation",
         "category": "unspecified"
       }
+    },
+    {
+      "attempts": 2,
+      "status": "failed",
+      "last_run_id": "40623459746",
+      "started_at": "2026-10-28T02:54:30.987488+00:00",
+      "completed_at": "2026-10-28T02:54:48.692139+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "unapproved_numeric_claim"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40620377487",
-  "started_at": "2026-10-28T02:23:14.545947+00:00",
+  "last_run_id": "40623459746",
+  "started_at": "2026-10-28T02:54:30.987488+00:00",
+  "completed_at": "2026-10-28T02:54:48.692139+00:00",
   "failure": {
     "kind": "validation",
-    "category": "unspecified"
-  },
-  "completed_at": "2026-10-28T02:23:37.869225+00:00"
+    "category": "unapproved_numeric_claim"
+  }
 }

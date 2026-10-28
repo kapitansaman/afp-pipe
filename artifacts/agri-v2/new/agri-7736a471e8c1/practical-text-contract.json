@@ -1,5 +1,12 @@
 {
   "strategy": "practical-direct-html-v1",
+  "identity_contract_version": 2,
+  "identity_authority": "canonical_queue",
+  "generated_fields": [
+    "content_html",
+    "excerpt",
+    "faq"
+  ],
   "response_format": "json_object",
   "paragraph_length_hard_gate": false,
   "fixed_section_count": false,

@@ -2,7 +2,7 @@
   "owned_scoped_family_pilot": true,
   "matrix_pilot": false,
   "research_only": false,
-  "run_id": "40620377487",
+  "run_id": "40623459746",
   "status": "completed_with_failures",
   "assigned_count": 1,
   "pilot_topic_only": false,
@@ -12,7 +12,7 @@
       "stage": "text",
       "failure": {
         "kind": "validation",
-        "category": "unspecified"
+        "category": "unapproved_numeric_claim"
       },
       "topic_id": "agri-7736a471e8c1",
       "steps": [
@@ -21,7 +21,7 @@
           "stage": "text",
           "failure": {
             "kind": "validation",
-            "category": "unspecified"
+            "category": "unapproved_numeric_claim"
           }
         }
       ],
@@ -38,7 +38,7 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-28T02:22:30.076123+00:00",
+  "started_at": "2026-10-28T02:53:54.536714+00:00",
   "existing_content_fetch": {
     "families": 1,
     "families_with_bounded_full_scope": 1,
@@ -102,7 +102,7 @@
       },
       {
         "name": "AGNES_API_KEY7",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
@@ -661,7 +661,7 @@
   "operational_failures": 1,
   "waiting_families": 0,
   "publication_ready_workers": 0,
-  "completed_at": "2026-10-28T02:23:38.014478+00:00",
+  "completed_at": "2026-10-28T02:54:48.843204+00:00",
   "scoped_pilot_acceptance": {
     "status": "pilot_not_yet_publicly_verified",
     "global_rollout_released": false
