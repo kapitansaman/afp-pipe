@@ -7,17 +7,8 @@
       "title_sha256": "9614916e47946e2b7e3e6cdfc3166dff4fa91e19b1dc9563557fc4fdd47650e9"
     }
   ],
-  "selected_count": 0,
+  "selected_count": 1,
   "waiting": [
-    {
-      "topic_id": "agri-6fc1032cdf42",
-      "family_id": "family-07",
-      "stage": "publish",
-      "due": false,
-      "reason": "translation_review_backoff",
-      "next_attempt_epoch": null,
-      "publication_authorized": false
-    },
     {
       "topic_id": "agri-357023cf27d6",
       "family_id": "family-08",
@@ -29,6 +20,6 @@
     }
   ],
   "manual_verification_required": true,
-  "run_id": "40698806905",
+  "run_id": "40781912949",
   "automatic_promotion": false
 }

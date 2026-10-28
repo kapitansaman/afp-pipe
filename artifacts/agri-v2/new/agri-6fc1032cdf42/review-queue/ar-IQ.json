@@ -4,22 +4,35 @@
   "title": "آخرین آبیاری یونجه پیش از برداشت؛ معیارهای قطع و کاهش آب",
   "language": "ar-IQ",
   "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
-  "status": "waiting",
-  "reason": "primary_stage_incomplete",
-  "attempts": 1,
-  "model_calls_spent": 0,
-  "next_attempt_at": "2026-10-28T19:11:29.238924+00:00",
+  "status": "approved",
+  "reason": "source_bound_fidelity_passed",
+  "attempts": 2,
+  "model_calls_spent": 2,
+  "next_attempt_at": null,
   "history": [
     {
       "event": "reserved",
       "attempt": 1,
       "max_calls": 4,
       "at": "2026-10-28T13:11:29.236209+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 2,
+      "max_calls": 4,
+      "at": "2026-10-28T22:43:59.703252+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 2,
+      "reserved_model_calls": 2,
+      "status": "approved",
+      "at": "2026-10-28T22:44:27.092835+00:00"
     }
   ],
   "created_at": "2026-10-28T13:11:29.225840+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,
-  "last_started_at": "2026-10-28T13:11:29.236199+00:00",
+  "last_started_at": "2026-10-28T22:43:59.703244+00:00",
   "primary_finished": true
 }

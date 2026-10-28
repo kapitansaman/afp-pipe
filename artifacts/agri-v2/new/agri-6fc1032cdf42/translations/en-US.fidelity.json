@@ -1,0 +1,10 @@
+{
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "translation_sha256": "06ebc3f912ce78967cdd811998e7de0e137a13e48d5817e5dafdee708a51bb54",
+  "review": {
+    "faithful": true,
+    "reason": "The English target faithfully preserves the meaning, numerical values, units, geographic references, and uncertainty qualifiers of the Persian source. Crop identity (alfalfa/یونته) is consistent. No quantitative, terminological, or scope errors were found; style differences are natural.",
+    "issues": []
+  },
+  "reviewed_at": "2026-10-28T22:45:06.520800+00:00"
+}

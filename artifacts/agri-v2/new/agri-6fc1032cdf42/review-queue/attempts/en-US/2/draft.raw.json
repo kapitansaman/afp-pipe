@@ -1,0 +1,312 @@
+{
+  "translations": [
+    {
+      "id": 0,
+      "text": "Short answer: irrigation cutoff criteria"
+    },
+    {
+      "id": 1,
+      "text": "In practice, "
+    },
+    {
+      "id": 2,
+      "text": "irrigation continues until there is sufficient time for the soil between cuts to dry out"
+    },
+    {
+      "id": 3,
+      "text": ". In the climates studied, this time is about "
+    },
+    {
+      "id": 4,
+      "text": "2 inches of cumulative ET"
+    },
+    {
+      "id": 5,
+      "text": " after the last irrigation; that is, continue irrigating until the soil between cuts drains sufficiently, then stop "
+    },
+    {
+      "id": 6,
+      "text": "source"
+    },
+    {
+      "id": 7,
+      "text": "."
+    },
+    {
+      "id": 8,
+      "text": "Measured inputs"
+    },
+    {
+      "id": 9,
+      "text": "For decision-making, there are two reported numerical inputs:"
+    },
+    {
+      "id": 10,
+      "text": "• Growing-season consumption:"
+    },
+    {
+      "id": 11,
+      "text": " more than "
+    },
+    {
+      "id": 12,
+      "text": "0.30 inches per day"
+    },
+    {
+      "id": 13,
+      "text": "source"
+    },
+    {
+      "id": 14,
+      "text": "• Fall consumption:"
+    },
+    {
+      "id": 15,
+      "text": " approximately "
+    },
+    {
+      "id": 16,
+      "text": "0.10 inches per day"
+    },
+    {
+      "id": 17,
+      "text": "source"
+    },
+    {
+      "id": 18,
+      "text": "• Drainage required before cutting:"
+    },
+    {
+      "id": 19,
+      "text": "2 inches ET"
+    },
+    {
+      "id": 20,
+      "text": " in silt loam soil of southern Idaho "
+    },
+    {
+      "id": 21,
+      "text": "source"
+    },
+    {
+      "id": 22,
+      "text": "Note: These values are reported for climates of the western United States (Nebraska, southern Idaho, Utah). Conversion to centimeters is for display purposes only and is not by itself a basis for management recommendations."
+    },
+    {
+      "id": 23,
+      "text": "Rationale for cutting and reducing water before harvest"
+    },
+    {
+      "id": 24,
+      "text": "Alfalfa, unlike many crops, "
+    },
+    {
+      "id": 25,
+      "text": "does not have a specific critical growth stage for water stress"
+    },
+    {
+      "id": 26,
+      "text": ". Under drought it enters dormancy and resumes growth after moisture returns "
+    },
+    {
+      "id": 27,
+      "text": "source"
+    },
+    {
+      "id": 28,
+      "text": ". For this reason, cutting irrigation before harvest generally does not harm the plant, but you should be careful:"
+    },
+    {
+      "id": 29,
+      "text": "the soil between cuts remains moist enough that fungi and crown rot do not become active"
+    },
+    {
+      "id": 30,
+      "text": "roots are nourished to store carbohydrates before winter cold"
+    },
+    {
+      "id": 31,
+      "text": "Field monitoring and timing criteria"
+    },
+    {
+      "id": 32,
+      "text": "The table below summarizes the decision criteria:"
+    },
+    {
+      "id": 33,
+      "text": "Criterion"
+    },
+    {
+      "id": 34,
+      "text": "Condition"
+    },
+    {
+      "id": 35,
+      "text": "Recommended action"
+    },
+    {
+      "id": 36,
+      "text": "ET drainage between irrigation and cutting"
+    },
+    {
+      "id": 37,
+      "text": "about "
+    },
+    {
+      "id": 38,
+      "text": "2 inches"
+    },
+    {
+      "id": 39,
+      "text": "reported"
+    },
+    {
+      "id": 40,
+      "text": "Soil is ready for cutting"
+    },
+    {
+      "id": 41,
+      "text": "Growing-season consumption"
+    },
+    {
+      "id": 42,
+      "text": "> "
+    },
+    {
+      "id": 43,
+      "text": "0.30 inches/day"
+    },
+    {
+      "id": 44,
+      "text": "Continue regular irrigation"
+    },
+    {
+      "id": 45,
+      "text": "Fall consumption"
+    },
+    {
+      "id": 46,
+      "text": "approximately "
+    },
+    {
+      "id": 47,
+      "text": "0.10 inches/day"
+    },
+    {
+      "id": 48,
+      "text": "Gradually reduce irrigation"
+    },
+    {
+      "id": 49,
+      "text": "Soil moisture monitoring"
+    },
+    {
+      "id": 50,
+      "text": "Soil between cuts"
+    },
+    {
+      "id": 51,
+      "text": "Wait until sufficient drainage"
+    },
+    {
+      "id": 52,
+      "text": "Errors and scope of application"
+    },
+    {
+      "id": 53,
+      "text": "Common error:"
+    },
+    {
+      "id": 54,
+      "text": "complete cessation of irrigation immediately before harvest without regard to soil moisture — this accelerates crown rot in the next cutting."
+    },
+    {
+      "id": 55,
+      "text": "Regional scope:"
+    },
+    {
+      "id": 56,
+      "text": "The above reports pertain to silt loam soils of the western United States. Always check soil texture, irrigation system, and local climate."
+    },
+    {
+      "id": 57,
+      "text": "Timing uncertainty:"
+    },
+    {
+      "id": 58,
+      "text": "The source does not provide an exact numerical range for \"days to wait after last irrigation before cutting\" across all soil textures "
+    },
+    {
+      "id": 59,
+      "text": "source"
+    },
+    {
+      "id": 60,
+      "text": "."
+    },
+    {
+      "id": 61,
+      "text": "Fall water storage"
+    },
+    {
+      "id": 62,
+      "text": "In some climates, fall irrigation through November (before freeze-up) can provide deep water reserves for rapid spring growth next year "
+    },
+    {
+      "id": 63,
+      "text": "source"
+    },
+    {
+      "id": 64,
+      "text": ". This method aims to store deep water, not to maximize yield in the current season."
+    },
+    {
+      "id": 65,
+      "text": "Reference"
+    },
+    {
+      "id": 66,
+      "text": "USU Extension – Strategies for Deficit Irrigation of Forage Crops"
+    },
+    {
+      "id": 67,
+      "text": "UNL CropWatch – Alfalfa Irrigation & Last Cutting"
+    },
+    {
+      "id": 68,
+      "text": "Alfalfa Symposium Proceedings – ET Before Cutting"
+    },
+    {
+      "id": 69,
+      "text": "Last alfalfa irrigation before harvest; criteria for stopping and reducing water"
+    },
+    {
+      "id": 70,
+      "text": "Practical criterion for stopping alfalfa irrigation before harvest: drainage of about 2 inches ET between the last irrigation and cutting in silt loam soil; growing-season consumption over 0.30 and fall consumption about 0.10 inches per day. Key point: alfalfa has no critical water-stress stage, but moisture between cuts must be controlled."
+    },
+    {
+      "id": 71,
+      "text": "Can alfalfa regrow after irrigation is stopped before harvest?"
+    },
+    {
+      "id": 72,
+      "text": "Yes. Alfalfa, unlike many crops, has no specific critical growth stage for water stress; under drought it enters dormancy and resumes growth after moisture returns."
+    },
+    {
+      "id": 73,
+      "text": "How much ET drainage is needed before cutting?"
+    },
+    {
+      "id": 74,
+      "text": "In silt loam soils of southern Idaho, about 2 inches of cumulative ET after irrigation and before cutting has been reported as sufficient for adequate soil drying."
+    },
+    {
+      "id": 75,
+      "text": "What is the purpose of fall irrigation?"
+    },
+    {
+      "id": 76,
+      "text": "Fall irrigation through November (before freeze-up) can provide deep water reserves for rapid spring growth next year; the goal is water storage, not maximizing yield in the current season."
+    }
+  ]
+}

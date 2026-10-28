@@ -1,0 +1,10 @@
+{
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "translation_sha256": "5e30e1cbadb8205ce93f5d6d1eda93091f3bd27d6f236c661371c8ba275d2784",
+  "review": {
+    "faithful": true,
+    "reason": "The Arabic translation accurately preserves the source meaning, numerical values, units (inch/بوصة), geographical scope (south Idaho, Nebraska, Utah), crop identity (یونته/یونجه → البرسيم/alfalfa), soil type (silt loam), and uncertainty markers. No unsupported additions or factual distortions were found.",
+    "issues": []
+  },
+  "reviewed_at": "2026-10-28T22:44:27.092437+00:00"
+}

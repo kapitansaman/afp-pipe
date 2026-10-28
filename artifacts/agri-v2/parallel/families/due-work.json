@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_at": "2026-10-28T13:43:26.349018+00:00",
+  "checked_at": "2026-10-28T22:43:02.968305+00:00",
   "families": [
     {
       "topic_id": "agri-ab20ad20b271",
@@ -60,8 +60,8 @@
       "topic_id": "agri-6fc1032cdf42",
       "family_id": "family-07",
       "stage": "publish",
-      "due": false,
-      "reason": "translation_review_backoff",
+      "due": true,
+      "reason": null,
       "next_attempt_epoch": null,
       "publication_authorized": false
     },
@@ -183,7 +183,7 @@
       "publication_authorized": false
     }
   ],
-  "due_count": 18,
+  "due_count": 19,
   "model_calls": 0,
   "wordpress_write_calls": 0,
   "attempts_reset": false
