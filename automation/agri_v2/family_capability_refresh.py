@@ -89,6 +89,14 @@ def text(env,data=DATA,out=OUT,post_fn=post_once,reserve_fn=reserve):
  if not halt and r['families_with_text']<20:r['status']='family_text_capacity_incomplete'
  atomic_json(rp,r);return r
 
+def image_diagnostic(safe):
+ # Never persist exception messages, response bodies, credentials or arbitrary provider text.
+ states={'healthy','uncertain','transport_or_decode_failed','response_too_large','model_mismatch','quota_limited','invalid_auth','forbidden','rate_limited','service_unavailable'}
+ errors={'TimeoutError','URLError','HTTPError','JSONDecodeError','ValueError','ImageProviderError','SSLError','ConnectionResetError','OSError'}
+ row={'provider_state':safe.get('state') if safe.get('state') in states else 'unclassified'}
+ if safe.get('error_type'):row['error_type']=safe['error_type'] if safe['error_type'] in errors else 'OtherError'
+ return row
+
 def images(env,data=DATA,out=OUT,probe_fn=None,reserve_fn=reserve,limit=4):
  if type(limit)is not int or limit not in (4,20):raise ValueError("Exact bounded image refresh size required")
  deadline=time.monotonic()+2400
@@ -113,8 +121,8 @@ def images(env,data=DATA,out=OUT,probe_fn=None,reserve_fn=reserve,limit=4):
    try:
     with lease(db,'image',[slot],family):safe,blob=(probe if probe_fn is None else probe_fn)(slot,env[slot],env=e)
    except (AdmissionBlocked,ImageQueueBusy):row.update(status='admission_blocked_not_sent',image_calls=0);result['image_calls']-=1;atomic_json(receipt,row);result['cases'].append(row);continue
-   except Exception:safe,blob={'http_status':None,'state':'uncertain'},None
-   status=safe.get('http_status');row.update(http_status=status,completed_at=utcnow(),status='verified' if safe.get('state')=='healthy' and blob else 'failed')
+   except Exception as exc:safe,blob={'http_status':None,'state':'uncertain','error_type':type(exc).__name__},None
+   status=safe.get('http_status');row.update(image_diagnostic(safe));row.update(http_status=status,completed_at=utcnow(),status='verified' if safe.get('state')=='healthy' and blob else 'failed')
    if row['status']=='verified':
     from PIL import Image
     import io,hashlib

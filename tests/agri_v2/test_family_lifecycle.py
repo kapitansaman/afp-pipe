@@ -57,8 +57,13 @@ class FamilyLifecycleTests(unittest.TestCase):
  def test_image_requires_actual_image_capability_not_75_text_passes(self):
   with tempfile.TemporaryDirectory() as td:
    d,o,t,e,h=self.setup(td);factory=Mock()
-   with patch.object(f,'next_stage',return_value=('image-1',None)):r=f.worker(t,h,d,o,e,factory)
+   with patch.object(f,'next_stage',return_value=('image-1',None)),patch('automation.agri_v2.recovery.circuit_open',return_value=False):r=f.worker(t,h,d,o,e,factory)
    self.assertEqual(r['status'],'capability_required');self.assertEqual(r['kind'],'image');factory.assert_not_called()
+ def test_real_image_cooldown_still_precedes_capability_and_spends_no_attempt(self):
+  with tempfile.TemporaryDirectory() as td:
+   d,o,t,e,h=self.setup(td);factory=Mock()
+   with patch.object(f,'next_stage',return_value=('image-1',None)),patch('automation.agri_v2.recovery.circuit_open',return_value=True):r=f.worker(t,h,d,o,e,factory)
+   self.assertEqual(r['status'],'stage_deferred');self.assertEqual(r['reason'],'provider_cooldown');factory.assert_not_called();self.assertEqual(f.state(o/'new'/t['id'],'image-1')['attempts'],0)
  def test_rejected_legacy_image_is_archived_not_destroyed(self):
   with tempfile.TemporaryDirectory() as td:
    folder=Path(td);image=folder/'image-1.webp';image.write_bytes(b'old rejected image');atomic_json(image.with_suffix('.quality.json'),{'status':'reviewed','verdict':{'passed':False}})
