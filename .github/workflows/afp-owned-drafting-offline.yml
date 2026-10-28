@@ -7,6 +7,7 @@ on:
     paths:
       - automation/agri_v2/**
       - tests/agri_v2/**
+      - data/agri-v2/*.json
       - .github/workflows/afp-parallel-generator.yml
       - .github/workflows/afp-owned-drafting-offline.yml
 permissions:
