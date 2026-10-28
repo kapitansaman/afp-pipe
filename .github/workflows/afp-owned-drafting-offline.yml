@@ -1,12 +1,14 @@
 name: AFP owned drafting offline validation
 on:
   push:
-    branches: [fix/canonical-owned-drafting-contract]
+    branches: [fix/canonical-owned-drafting-contract, fix/approved-numeric-drafting-contract]
   pull_request:
     branches: [feat/agri-generator-v2-2905-merge593]
     paths:
       - automation/agri_v2/practical_drafting.py
       - automation/agri_v2/failure_diagnostics.py
+      - automation/agri_v2/numeric_drafting_contract.py
+      - tests/agri_v2/test_numeric_drafting_contract.py
       - tests/agri_v2/test_owned_drafting_identity.py
       - .github/workflows/afp-owned-drafting-offline.yml
 permissions:

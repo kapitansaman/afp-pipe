@@ -99,9 +99,13 @@ def normalize(raw,topic,brief):
 
 def generate(client,topic,brief,folder):
  request=json.loads(article_prompt(topic,brief));request.pop('constraints',None)
+ from .numeric_drafting_contract import contract as numeric_contract,audit as numeric_audit
+ request['numeric_authority_contract']=numeric_contract(brief)
+ request['task']+=' The numeric_authority_contract is mandatory and overrides any suggestion to copy incidental metadata numbers or perform new conversions.'
  request['task']+=' Return the article object DIRECTLY at the root with ONLY content_html, excerpt and faq. Title, topic ID, family ID and slug are immutable application-owned context, NOT generated fields; do not return or rewrite them. Write ONLY about the exact canonical topic in the supplied context. HTML prose is the output, not a nested schema or fact-ID outline. There is NO required section count, paragraph count, per-paragraph word limit or per-paragraph fact-ID field. Use natural short and long paragraphs. Do not repeat scope caveats or pad text to meet length. Put source limits where needed and once in a concise limits section. Cite approved source URLs on the relevant claims. Exactly three FAQs; their question and answer fields must be plain text, never HTML or citation tags. Put source links in the article body.'
  atomic_json(folder/'practical-text-contract.json',{'strategy':'practical-direct-html-v1','identity_contract_version':2,'identity_authority':'canonical_queue','generated_fields':['content_html','excerpt','faq'],'response_format':'json_object','paragraph_length_hard_gate':False,'fixed_section_count':False,'per_paragraph_fact_ids_required':False,'final_evidence_audit_required':True})
  raw=client.text(json.dumps(request,ensure_ascii=False),attempts=1,max_tokens=14000,timeout=180)
  atomic_json(folder/'practical-text-candidate.json',raw)
+ atomic_json(folder/'practical-text-numeric-audit.json',numeric_audit(raw,brief))
  bound,identity=bind_generated_identity(raw,topic);atomic_json(folder/'practical-text-identity-binding.json',identity)
  article,report=normalize(bound,topic,brief);report['raw_sha256']=digest(raw);report['identity_contract_version']=2;atomic_json(folder/'practical-text-normalization.json',report);return article
