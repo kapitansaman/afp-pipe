@@ -25,10 +25,10 @@ def retry_seconds(value,now=None):
  if value.isdigit():return int(value)
  try:return max(0,int(email.utils.parsedate_to_datetime(value).timestamp()-(time.time() if now is None else now)))
  except (ValueError,TypeError,OverflowError):return None
-def probe(slot,key):
+def probe(slot,key,env=None):
  refs=reference_images()
  body={'model':IMAGE_MODEL,'prompt':'Capability test: photograph of one intact sealed white-blue AFP carton on bare soil, matching the reference identity. No humans, no additional text. Diagnostic '+slot+'.','size':'1K','ratio':'16:9','return_base64':True,'extra_body':{'response_format':'b64_json','image':refs}}
- with admission(slot,body,os.environ):
+ with admission(slot,body,os.environ if env is None else env):
   req=urllib.request.Request(API_BASE+'/images/generations',data=json.dumps(body).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json','User-Agent':'AFP-bounded-unique-image-audit'})
   try:
    with urllib.request.urlopen(req,timeout=180) as response:

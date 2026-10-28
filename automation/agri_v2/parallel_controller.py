@@ -131,6 +131,9 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
 
 def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,worker_fn=launch_worker):
  env=os.environ if env is None else env;p=policy(env,data)
+ if mode in ('health-refresh','image-refresh'):
+  from .family_capability_refresh import text,images
+  return (text if mode=='health-refresh' else images)(env,data,out)
  if mode=='source-search-check':
   from .source_search_check import run as check_search
   return check_search(env,data,out)
@@ -204,6 +207,6 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(out/'parallel/latest.json',report);return report
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness','source-search-check'],default='plan');a=p.parse_args()
- result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures','readiness_blocked','reconciliation_required','search_connection_blocked'} else 0
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness','source-search-check','health-refresh','image-refresh'],default='plan');a=p.parse_args()
+ result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures','readiness_blocked','reconciliation_required','search_connection_blocked','incomplete_provider_failure','family_text_capacity_incomplete','capability_already_reserved_no_replay','capability_reconciliation_required','shared_text_cooldown','shared_image_cooldown'} else 0
 if __name__=='__main__':raise SystemExit(main())

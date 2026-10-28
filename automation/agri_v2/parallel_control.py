@@ -21,8 +21,14 @@ def policy(env=None,data=DATA):
 
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
- if phase not in ('audit','research','trial','lifecycle','operation'):raise ValueError('Non-publication phase required')
- if phase=='lifecycle':
+ if phase not in ('audit','research','trial','lifecycle','operation','capability'):raise ValueError('Non-publication phase required')
+ if phase=='capability':
+  import datetime
+  from .parallel_pool import SLOTS
+  prefix='family-capability-'+datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%d')+'-'
+  if request_id not in [prefix+'text']+[prefix+'image-'+s for s in SLOTS]:raise ValueError('Current-day exact capability reservation required')
+  expected=request_id
+ elif phase=='lifecycle':
   if request_id!='family-lifecycle-run-'+str(env.get('GITHUB_RUN_ID','')) or not str(env.get('GITHUB_RUN_ID','')).isdigit():raise ValueError('Current run-bound lifecycle reservation required')
   expected=request_id
  elif phase=='operation':

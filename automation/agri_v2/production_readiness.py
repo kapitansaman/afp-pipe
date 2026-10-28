@@ -26,6 +26,13 @@ def inspect(data=DATA,out=OUT,wp=None):
    if valid:image_proven_slots.add(slot)
   except (KeyError,ValueError,TypeError):pass
  add('fresh_image_capacity',bound and image_proven,'Separate actual successful fresh bound image proof; text success is not image approval')
+ from .family_model_routing import load as load_roles,slots as model_slots,binding as routing_binding
+ roles=load_roles(data)
+ if roles is not None:
+  proof_slots=set()
+  from .family_capability_refresh import image_proofs
+  proof_slots=set(image_proofs(out,roles));image_proven_slots &= proof_slots
+  gates['fresh_image_capacity']['passed']=bound and bool(image_proven_slots)
  key_allocation=None
  if policy.get('family_key_allocation_required') is True or (data/'family-key-allocation.json').exists():
   try:
@@ -33,8 +40,8 @@ def inspect(data=DATA,out=OUT,wp=None):
    allocation=key_policy(data)
    key_allocation={'allocation_sha256':key_binding(allocation),'families':[{
     'family_id':family,'assigned_slots':slots,
-    'eligible_text_slots':[n for n in slots if bound and n in health.get('eligible_text_slots',[])],
-    'proven_image_slots':[n for n in slots if bound and n in image_proven_slots]} for family,slots in allocation['families'].items()],
+    'eligible_text_slots':[n for n in slots if bound and n in health.get('eligible_text_slots',[]) and (roles is None or n in model_slots(family,'text',data))],
+    'proven_image_slots':[n for n in slots if bound and n in image_proven_slots and (roles is None or n in model_slots(family,'image',data))]} for family,slots in allocation['families'].items()],
     'central_slots':allocation['central_slots'],'automatic_family_fallback':False}
    add('family_key_allocation',True,'Exact disjoint 20 x 4 family ownership plus 17 central slots')
    add('family_owned_text_capacity',all(r['eligible_text_slots'] for r in key_allocation['families']),'Each family needs its own fresh text-capable credential; global healthy count is insufficient')
@@ -63,7 +70,7 @@ def inspect(data=DATA,out=OUT,wp=None):
  add('distinct_assigned_families',len(families)==MAX_FAMILIES and len({r['topic_id'] for r in families})==MAX_FAMILIES,'Exactly one distinct immutable queue topic per family')
  add('work_remaining_with_budget',any(not r['retry_exhausted'] and r['next_stage'] not in ('blocked','complete') for r in families),'Do not repeatedly launch only blocked or exhausted work')
  if 'administrator' in auth.get('roles',[]):warnings.append('Publisher account is administrator; a dedicated least-privilege Author account is recommended, not silently substituted.')
- warnings+=['Fresh text/image health expires after 24h. The fixed create-only audit ID does not implement unattended recurring health renewal.','Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.','A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.','Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency.']
+ warnings+=['Fresh text/image health expires after 24h. Manual role-bound daily capability renewal is available; unattended renewal is not enabled.','Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.','A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.','Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency.']
  blockers=[name for name,v in gates.items() if not v['passed']]
  result={'status':'readiness_checked' if not blockers else 'readiness_blocked','checked_at':utcnow(),'technical_ready':not blockers,'blockers':blockers,'gates':gates,'warnings':warnings,'families':families,'research_backlog':load_json(ap).get('research_backlog',{}) if ap.exists() else {},'model_calls':0,'image_calls':0,'post_mutations':0,'authenticated_check_performed':wp is not None,'family_key_allocation':key_allocation}
  return result

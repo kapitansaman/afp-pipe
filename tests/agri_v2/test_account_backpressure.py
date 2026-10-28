@@ -9,6 +9,7 @@ from automation.agri_v2.queue import load_json,atomic_json
 class AccountBackpressureTests(unittest.TestCase):
  def client(self,db):
   c=pc.ParallelModelClient.__new__(pc.ParallelModelClient)
+  c.data=Path(db).parent/"fixture-data-without-role-policy"
   c.env={'AFP_PARALLEL_POOL_DB':str(db),'AFP_PARALLEL_TOPIC':'topic-a'}
   c.family_key_slots=tuple(p.SLOTS[:4]);c.keys={k:[(s,'PRIVATE-'+s) for s in p.SLOTS[:4]] for k in ('text','image')}
   return c

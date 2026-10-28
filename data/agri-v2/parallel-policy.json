@@ -20,5 +20,6 @@
   "extra_secret_slots_after_97": "not_used_without_separate_authorization",
   "previous_credential_set_id": "afp-pipe-parallel-75-keys-v1",
   "credential_expansion_policy": "A fresh 97-slot audit is mandatory; prior 75-slot capability evidence is not relabelled or reused.",
-  "family_key_allocation_required": true
+  "family_key_allocation_required": true,
+  "family_model_routing_required": true
 }
