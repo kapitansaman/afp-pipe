@@ -60,7 +60,7 @@ def check_brief(topic,brief):
  elif scoped_review:
   if 'research_route' in brief:
    from .research_routes import plan
-   if brief['research_route']!=plan(topic):raise ValueError('Research route/topic contract changed')
+   if brief['research_route']!=plan(dict(topic,regional_research_enabled=True) if brief.get('regional_research') else topic):raise ValueError('Research route/topic contract changed')
   from .scoped_research import verify_brief
   verify_brief(brief)
  elif ai_review:

@@ -19,7 +19,9 @@ class WPError(RuntimeError):pass
 class NoRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,*a,**kw):return None
 class WordPress:
- def __init__(self,env=None):
+ def __init__(self,env=None,data=None):
+  from .queue import DATA
+  self.data=DATA if data is None else data
   e=os.environ if env is None else env;self.site=e.get('AFP_WP_BASE_URL','').rstrip('/')
   if self.site!='https://navar-abyari.ir':raise WPError('Unapproved WordPress origin')
   user=e.get('AFP_WP_USERNAME','');password=e.get('AFP_WP_APP_PASSWORD','')
@@ -53,6 +55,10 @@ class WordPress:
  def publish(self,folder,topic,brief,authorized=False):
   if not authorized or brief.get('publish_authorized') is not True:raise WPError('Explicit publication authorization required')
   folder=Path(folder);rp=folder/'wordpress-receipt.json';r=load_json(rp) if rp.exists() else {'topic_id':topic['id'],'media':[],'status':'starting'}
+  if r.get('public_verified') is not True:
+   from .regional_sources import require_brief
+   from .queue import DATA
+   require_brief(brief,getattr(self,'data',DATA))
   from . import display_units as units
   if not rp.exists():r.update(display_units_policy=units.VERSION,display_locale='fa-IR')
   localize=r.get('display_units_policy')==units.VERSION

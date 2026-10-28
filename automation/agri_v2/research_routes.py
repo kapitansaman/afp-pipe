@@ -33,6 +33,8 @@ SPECIFIC_TERMS={
  'toxicity':['nitrate','prussic acid','forage testing'], 'bloat':['bloat','forage safety'], 'stigma':['saffron','stigma','drying'], 'corm_health':['saffron','corm health']}
 
 def plan(topic):
+ from .regional_sources import profile,route_queries
+ language=topic.get('research_language','fa-IR')
  intent=topic['intent'];crop=topic['crop']
  if intent not in ROUTES:raise ValueError('Unknown explicit research intent: '+str(intent))
  if crop not in CROPS:raise ValueError('Unknown exact crop mapping: '+str(crop))
@@ -42,8 +44,8 @@ def plan(topic):
   'product_ambiguity_policy':'For seed pumpkin and seed watermelon explicitly distinguish whole fruit before extraction from cleaned/dried seed. If the exact title and fetched evidence cannot resolve the product, flag unresolved_scope; never silently replace the title.',
   'source_policy':'One actually fetched directly relevant admitted university source may suffice; otherwise independent institutional sources remain required. Source count alone never proves the title is answerable.',
   'numeric_policy':'Only literal source observations with original units/product/geography and separately verified deterministic conversions; no invented input, unit conversion, price, local rate or forecast.',
-  'search_queries':[f'{label} {" ".join(SPECIFIC_TERMS.get(intent,[intent.replace("_"," ")]))} university extension',f'{label} {topic.get("cluster","")} production guide'],
-  'publication_authorized':False,'human_review_claimed':False}
+  'search_queries':(route_queries(topic,language) if topic.get('regional_research_enabled') else [f'{label} {" ".join(SPECIFIC_TERMS.get(intent,[intent.replace("_"," " )]))} university extension',f'{label} {topic.get("cluster","")} production guide']),
+  'publication_authorized':False,'human_review_claimed':False,**({'regional_profile':profile(language)} if topic.get('regional_research_enabled') else {})}
 
 def crop_terms(crop):
  label=CROPS[crop].lower();terms=[label]

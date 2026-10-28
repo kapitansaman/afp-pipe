@@ -35,7 +35,7 @@ class TwoImageLayoutTests(unittest.TestCase):
    atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':'<p>Intro <a href="https://example.edu/source">منبع</a></p><h2>A</h2><p>B</p>'})
    atomic_json(folder/'article.json',{'faq':[{'question':'این یک پرسش آزمایشی است؟','answer':'این پاسخ صرفاً برای آزمون قالب نوشته شده و توصیه علمی نیست.'}]*3})
    for i in (1,2):(folder/f'image-{i}.webp').write_bytes(b'fixture')
-   wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'})
+   wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'},data=folder/'test-data')
    wp.user_id=7;wp.preflight=Mock();wp.verify=Mock(return_value={'public_verified':True});wp.publish_family=lambda folder,topic,result:result;requests=[];uploads=[]
    def call(path,method='GET',data=None,blob=None,headers=None):
     requests.append((path,method,data))
@@ -53,9 +53,9 @@ class TwoImageLayoutTests(unittest.TestCase):
    self.assertEqual(updates[0]['featured_media'],101);self.assertEqual(updates[0]['content'].count('<figure '),1)
  def test_public_verification_accepts_two_and_rejects_wrong_featured(self):
   with tempfile.TemporaryDirectory() as tmp:
-   rp=Path(tmp)/'receipt.json';topic={'title':'عنوان آزمایشی'};media=[{'index':i,'id':100+i,'url':'https://navar-abyari.ir/media/'+str(i)} for i in (1,2)]
+   folder=Path(tmp);rp=folder/'receipt.json';topic={'title':'عنوان آزمایشی'};media=[{'index':i,'id':100+i,'url':'https://navar-abyari.ir/media/'+str(i)} for i in (1,2)]
    atomic_json(rp,{'media':media,'post_id':50,'status':'published','url':'https://navar-abyari.ir/fixture/'})
-   wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'})
+   wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'},data=folder/'test-data')
    post={'status':'publish','title':{'rendered':topic['title']},'featured_media':101,'content':{'rendered':media[1]['url']},'link':'https://navar-abyari.ir/fixture/'};wp.call=Mock(return_value=(post,{}))
    response=Mock();response.status=200;response.read.return_value=topic['title'].encode();response.__enter__=Mock(return_value=response);response.__exit__=Mock(return_value=False)
    with patch('automation.agri_v2.wordpress.urllib.request.urlopen',return_value=response):self.assertTrue(wp.verify(50,topic,rp)['public_verified'])
