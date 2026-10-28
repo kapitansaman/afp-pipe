@@ -216,7 +216,7 @@ def publish_family(wp,folder,topic,source_result):
    verify_sources(final['content']['rendered'],source_urls,lang)
    from .homepage_fallback import verify as verify_home
    verify_home(final['content']['rendered'],home_decision.get('link'))
-   receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'editorial_presentation_policy':EDITORIAL_POLICY,'editorial_home_fallback':home_decision,'editorial_related':[r for r in local_policy[lang] if r.get('kind')=='related'],'editorial_source_urls':[r['url'] for r in source_urls],'display_units_policy':'localized-display-units-v1','verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
+   receipt={'publication_content_sha256':__import__('hashlib').sha256((marker+'\n'+content).encode()).hexdigest(),'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'editorial_presentation_policy':EDITORIAL_POLICY,'editorial_home_fallback':home_decision,'editorial_related':[r for r in local_policy[lang] if r.get('kind')=='related'],'editorial_source_urls':[r['url'] for r in source_urls],'display_units_policy':'localized-display-units-v1','verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
    if split and review_state(folder,lang).exists():
     queued=load_json(review_state(folder,lang));queued.update(status='published',next_attempt_at=None,published_receipt=receipt);atomic_json(review_state(folder,lang),queued)
   except Exception as error:

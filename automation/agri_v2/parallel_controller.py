@@ -41,7 +41,7 @@ def checkpoint_retirements(source,destination):
   for active in stage_outputs(source,stage):
    target=destination/active.relative_to(source)
    if active.exists() or not target.exists():continue
-   archives=list((stage_folder/'rejected').glob('*/'+active.name))
+   archives=list((stage_folder/'rejected').glob('*/'+active.name))+list((stage_folder/'deferred').glob('*/'+active.name))
    if not archives:continue
    expected=hashlib.sha256(target.read_bytes()).hexdigest()
    matching=[a for a in archives if a.is_file() and hashlib.sha256(a.read_bytes()).hexdigest()==expected]
@@ -135,6 +135,15 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
 
 def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,worker_fn=launch_worker):
  env=os.environ if env is None else env;p=policy(env,data)
+ if mode=='rollout-verify':
+  from .staged_rollout import verify
+  return verify(env,data,out)
+ if mode=='rollout-plan':
+  from .staged_rollout import load
+  from .family_admission import project
+  from .family_scheduler import allocate,assigned_topics
+  topics=assigned_topics(allocate(data,out),data);due,rows=project(topics,data,out)
+  return {'status':'staged_rollout_plan','rollout':load(out),'families':rows,'due_count':len(due),'model_calls':0,'post_mutations':0}
  if mode=='editorial-repair-reconcile':
   from .editorial_repair import reconcile
   return reconcile(data,out)
@@ -226,6 +235,6 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(out/'parallel/latest.json',report);return report
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness','source-search-check','health-refresh','image-refresh','image-refresh-all','image-followup','family-pilot','editorial-repair','editorial-repair-reconcile'],default='plan');a=p.parse_args()
- result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'repair_stopped_reconciliation_required','already_reserved_no_replay','missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures','readiness_blocked','reconciliation_required','search_connection_blocked','incomplete_provider_failure','family_text_capacity_incomplete','capability_already_reserved_no_replay','capability_reconciliation_required','shared_text_cooldown','shared_image_cooldown','followup_already_reserved_no_replay','followup_reconciliation_required','followup_waiting_other_19','followup_waiting_accepted_pilot','followup_admission_blocked_not_sent','followup_failed','followup_failed_invalid_image'} else 0
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness','source-search-check','health-refresh','image-refresh','image-refresh-all','image-followup','family-pilot','editorial-repair','editorial-repair-reconcile','rollout-plan','rollout-verify'],default='plan');a=p.parse_args()
+ result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'repair_stopped_reconciliation_required','already_reserved_no_replay','missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures','readiness_blocked','reconciliation_required','search_connection_blocked','incomplete_provider_failure','family_text_capacity_incomplete','capability_already_reserved_no_replay','capability_reconciliation_required','shared_text_cooldown','shared_image_cooldown','followup_already_reserved_no_replay','followup_reconciliation_required','followup_waiting_other_19','followup_waiting_accepted_pilot','followup_admission_blocked_not_sent','followup_failed','followup_failed_invalid_image','staged_acceptance_not_ready','cohort_not_selected'} else 0
 if __name__=='__main__':raise SystemExit(main())

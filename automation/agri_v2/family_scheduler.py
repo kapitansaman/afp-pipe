@@ -71,7 +71,9 @@ def allocate(data=DATA,out=OUT,*,allow_deferral=False):
   for row in old:
    from .language_review_queue import released
    complete=family_complete(row['topic_id'],data,out)
-   if complete or released(row['topic_id'],data,out):history.append(dict(row,completed_at=utcnow(),completion='verified_source_and_required_translations' if complete else 'verified_source_languages_handed_to_review_queue'))
+   from .staged_rollout import protects_handoff
+   handed_off=released(row['topic_id'],data,out) and not protects_handoff(row['topic_id'],data,out)
+   if complete or handed_off:history.append(dict(row,completed_at=utcnow(),completion='verified_source_and_required_translations' if complete else 'verified_source_languages_handed_to_review_queue'))
    else:
     deferred=deferral(by_id[row['topic_id']],data,out) if allow_deferral else None
     if deferred is not None:

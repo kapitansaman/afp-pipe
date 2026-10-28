@@ -13,5 +13,6 @@
   "publication_writer": "single_coordinator_marker_owned_posts_only",
   "scoped_evidence_research": true,
   "specialist_review_policy": "actual institutional quotes, exact numeric/unit/scope bindings, independent per-fact review and actual full-content overlap audit; no human review claimed or Iranian rate transfer",
-  "research_only_for_scoped_rollout": false
+  "research_only_for_scoped_rollout": false,
+  "foundation_admission_required": true
 }
