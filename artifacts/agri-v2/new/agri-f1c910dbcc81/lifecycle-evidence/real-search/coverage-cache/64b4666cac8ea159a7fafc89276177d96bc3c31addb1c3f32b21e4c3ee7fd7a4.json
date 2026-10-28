@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "input_sha256": "64b4666cac8ea159a7fafc89276177d96bc3c31addb1c3f32b21e4c3ee7fd7a4",
+  "response_sha256": "9b91d8138cccf81b4f74577eaf9185f6ca4ba49c0d4160c69b2169e7cdeeacd3",
+  "created_at": "2026-10-28T10:41:50.321178+00:00",
+  "verdict": {
+    "topic_id": "agri-f1c910dbcc81",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge or flow-rate input (L/s or m³/h per tape length). s10, s13, s14 provide generic irrigation-duration and flow-measurement formulas but do not apply them to alfalfa with measured emitter/tape discharge and tape-length inputs."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document states original measurement units for discharge, tape length, emission rate, irrigation depth per event, or soil-moisture threshold in the context of alfalfa drip irrigation duration, nor does it specify geography and crop stage for those measurements."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s10",
+          "s11"
+        ],
+        "missing": ""
+      }
+    ],
+    "next_queries": [
+      "alfalfa subsurface drip irrigation emitter flow rate L/s calculated irrigation duration tape length university extension",
+      "subsurface drip irrigation alfalfa discharge per emitter m3/h drip tape specification irrigation set duration university research"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

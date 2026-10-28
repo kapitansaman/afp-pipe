@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "input_sha256": "68c36b99a74452d10faa28e00e30d43b8520c6a262fa8023b41da5050725a514",
+  "response_sha256": "ae73eae0d349216fe9e6fb54e2ae8c636ec5847545624e42f14d21c3ec85074a",
+  "created_at": "2026-10-28T10:40:17.117343+00:00",
+  "verdict": {
+    "topic_id": "agri-f1c910dbcc81",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge/flow-rate input (L/s or m³/h per tape length). s11 gives a generic net-applied-depth formula (Net time × Flow rate × 96.3 × Efficiency / Area) without tying it to alfalfa tape-length normalization or a cycle-duration result; s10 mentions a center-pivot flow rate (700 gpm) and capacity in in/day but not an alfalfa-cycle-duration computation from measured discharge."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document explicitly states original units for discharge, tape length, emission rate, irrigation-depth-per-event, or soil-moisture threshold linked to alfalfa irrigation duration with geography and crop stage. s11 provides AWC tables (in/ft), MAD percentages, rooting depth, and nozzle-flow tables but these are general scheduling references; s10 gives inches/acre and gpm examples without alfalfa-specific duration derivation; s12 gives AWC by texture but no flow-rate or discharge inputs."
+      },
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [],
+        "missing": "While several sources name Medicago sativa (s0, s1, s2, s10), none tie an alfalfa-specific measured irrigation-duration method to applied water distinct from ETc. s2 measures cutting frequency effects on yield/RFQ at Becker/St. Paul with 14 cm supplemental irrigation mentioned but not as a duration calculation; s11 and s12 are general scheduling guides that list alfalfa among crops without a product-specific discharge-based duration method; s10 discusses SDI design trade-offs but does not distinguish applied water from ETc in a measured-duration context."
+      }
+    ],
+    "next_queries": [
+      "alfalfa furrow irrigation duration calculation discharge flow rate L/s tape length site:edu OR site:gov",
+      "alfalfa irrigation set time calculation actual flow rate discharge per 100 ft tape university extension"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

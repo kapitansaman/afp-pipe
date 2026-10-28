@@ -1,0 +1,139 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T10:40:05.758018+00:00",
+  "queries": [
+    {
+      "query_id": "a67803ec889ce95f25da29494464548b8548e42e33935135c8319ea971d9c976",
+      "query": "chickpea drip irrigation irrigation interval duration calculation flow rate application rate mm/day university extension",
+      "cached": false,
+      "checked_at_epoch": 1793184007.520329,
+      "results": [
+        {
+          "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+          "title": "Drip Line Rate Calculator",
+          "description": "The drip line application rate is specific to your irrigation system and shouldn't change, so take a note of it. This constant rate is multiplied by all future irrigation set times to give the net application depths for those sets. Use this form to calculate the water application rate of drip irrigation lines (tape, tubing) given the flow rate from individual emitters, a constant spacing of the emitters along the drip line, and a constant spacing between the drip lines. Learn more about the [...] Home\n Login\n Cooperative Extension Search\n Irrigation Scheduling Program\n NRCS Soil Survey\n AgWeatherNet\n\n## \n\n# Irrigation in the Pacific Northwest\n\n Washington State University Extension\n Oregon State University Extension\n University of Idaho Extension [...] ## The Equation\n\nThis calculator uses this equation to determine the Application Rate of a drip line irrigation system.\n\nWSU Prosser - IAREC, 24106 N Bunn Rd, Prosser WA 99350-8694, 509-786-2226,Contact Us"
+        },
+        {
+          "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+          "title": "Determining How Long to Run Drip Irrigation Systems for Vegetables",
+          "description": "The store will not work correctly when cookies are disabled.\n\nSkip to Content\n\nPenn State ExtensionPenn State Extension\n\nSearch\n\nCart \n\nShopping Cart\n\nArticles\n\n# Determining How Long to Run Drip Irrigation Systems for Vegetables\n\nAs a general rule, vegetable crops require 1–1.5 acre-inches of water per week.\n\nSave for later  Print \n\n Share\n\nUpdated:\n\nDecember 16, 2025\n\nSkip to the end of the images gallery\n\nDrip irrigation running through crops\n\nDrip irrigation running through crops [...] | Available water holding capacity  (inch of water/inch depth of soil) | flow rate 0.2 | flow rate 0.3 | flow rate 0.4 | flow rate 0.45 | flow rate 0.5 | flow rate 0.6 |\n| 0.02 | 41 | 27 | 20 | 18 | 16 | 14 |\n| 0.03 | 61 | 41 | 31 | 28 | 24 | 20 |\n| 0.04 | 82 | 54 | 41 | 37 | 33 | 27 |\n| 0.05 | 102 | 68 | 51 | 46 | 41 | 34 |\n| 0.06 | 122 | 82 | 61 | 55 | 49 | 41 |\n| 0.07 | 143 | 95 | 71 | 64 | 57 | 48 |\n| 0.08 | 163 | 109 | 82 | 74 | 65 | 54 |\n| 0.09 | 184 | 122 | 92 | 83 | 73 | 61 | [...] For our example, the available water holding capacity is 0.12 inch of water/inch depth of soil, and the drip tube flow rate is 0.45 gpm per 100 ft. Using the table below, the drip system would be run 110 minute"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+          "title": "Water-yield relationships for chickpea under different irrigation regimes in Gezira Scheme, Sudan",
+          "description": "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.\n\nImage 6: RELX group home page\n\nPersistent link using digital object identifier (DOI) [...] ## Keywords\n\n_Water productivity_\n\n; \n\n_Vertisols_\n\n; \n\n_phenology_\n\n; \n\n_irrigation scheduling_\n\n; \n\n_ETc_\n\n; \n\n_act_\n\nLoading...\n\n## Data availability\n\nThe authors do not have permission to share data.\n\n## Recommended articles\n\nLoading...\n\n© 2026 The Authors. Published by Elsevier B.V.\n\nImage 5: Elsevier logo with wordmark\n\n   About ScienceDirect\n   Remote access\n   Contact and support\n   Terms and conditions\n   Privacy policy\n   Cookie settings [...] Skip to main contentSkip to article\n\nImage 2: Elsevier logo\n\n   Journals & Books\n\n   Help   \n   Search \n\nMy account\n\nSign in\n\nImage 3: Agricultural Water Management\n\n## Agricultural Water Management\n\nDate:30 April 2026\n\nArticle:110294\n\nVolume:Volume 327\n\nView accessibility information\n\n## Published by:Elsevier\n\n### Published by\n\nImage 4: Elsevier\n\nShow more\n\nResearch article\n\nOpen acce"
+        }
+      ]
+    },
+    {
+      "query_id": "7b47c71731d1231afd8cdd2200e2a19b61ff974d1f447085480bdcd0db55d953",
+      "query": "chickpea crop water requirement evapotranspiration mm day drip tape discharge measurement flow rate calculation",
+      "cached": false,
+      "checked_at_epoch": 1793184011.296454,
+      "results": [
+        {
+          "url": "https://www.nrc.gov/docs/ML1821/ML18215A282.pdf",
+          "title": "Guidelines for Predicting Crop Water Requirements.",
+          "description": "Above calculation assumes contiūü\"Ous operation of the system. Table 51 FLOW RATE PER DRIP E\"!ITTER IN 1/hr, CONTINFS'.TS FLOW, FOR DIFFERENT ET(CROP) AND NUMBER OF E'iITTERS PER ha Emitters per ha ET(crop)F mm/day --~-· ---i---250 _ļ___so_o __ !--_75_.o _,._1_0_0_0. _l~_5_o_o_ .... 0.52 1.04 1.56 1. 25 2.5 3.75 5.0 6.25 7.5 2.08 11 1.0I. 4.16 1 2.08 6.25 1 3.12 8.33 1 4.16 12.50 6.25 0.69 1. 38 2.08 2,77 3.47 4. 17 2.08 2.60 3. 13 0.35 0.69 1.04 1 • 39 1. 74 2.08 2000 0.26 0.52 0.78 1. 04 1. [...] , 1 000, 0.55 = 27 .5 mm. Irrigation interval I = d/ET(crop) = 27 .5/7 = 3.9 days. Maximum gross depth of application dg = d/(Tl x Eu) = (27,5)/(0.95 X 0,9) m 32 ITIIll, Duration of application It = (dg x Se x Sl) /qe = (32 X 0,6 X 1.2)/2 = 11.5 hr, Maximum number of operating units into which the field can be divided is N ((I x 24/Ii:)or <: (3.9 x 24)/11.5 or( 8.1 or 8. Required discharge of system is 2, 8 A/N x qe/ (Sl x Se} ~ 2.8 x 40/3 x 2/(0,6 x 1.2) = 39 1/sec. NB: Above calculation [...] 0.52 0.78 1. 04 1. 30 1.56 10~.41 5.12 -------'---· _ _L_ ___ _,_ _____ .1._ ____ ..L._. 2500 ----0.21 0.42 0.62 0.83 1, 04 J 1. 25 5000 0. 10 0. 21 0, 31 0.42 0.52 0.63 Example: With 1500 emitter"
+        },
+        {
+          "url": "https://www.fao.org/4/f2430e/f2430e.pdf",
+          "title": "Guidelines for predicting crop water requirements",
+          "description": "Calculation: ETo = 1.01 (0.77 x 6.6 + 0.23 x 0.90 x 17.5) = 8.8 nun/dav Using mean daily data for each month calculation of ETo in mm/day for each month: - 20 1/ Based on general climatic descriptions for Cairo; day/night wind ratio is some 1.5 produced by calm morning and mid-day conditions,with breezes in late afternoon; an exception would be the April and May 'Khanisin' winds which blow day and night but somewhat stronger during daytime. [...] Calculation: from Table 4 = 0.77 (C.) Adjustment factor (c) The adjustment factor (c) is given by the relationship between the radiation term (W.Rs) and reference crop evapotranspiration (ETo) and is shown graphically in Figure 2. It depends greatly 011 general levels of mean relative humidity (RHmean) and daytime wind (07.00-19.00 hours) at 2 m height above the soil surface.2/ EXAMPLE: Given: Cairo; latitude 30°N; altitude 95m; July; Rs = 11.2 mm/day; W = 0.77; W.Rs = 8.6 mm/day; wind daytime [...] data N hr/day 01) n/N calc (0.25+0.50 n/N) calc (12) Rs nu-n/day calc Rus mm/day (1 -10)Rs - 29 -FORMAT FOR CALCULATION OF PENMAN METHOD Penman reference crop ETo = c EW.Rn + (1-W)f(u)(ea-ed5] Country: 1/.40e Place: 4,,./.0 Latitude : Period :1"
+        },
+        {
+          "url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
+          "title": "Irrigation Chapter 6 - Crop Water Use | Irrigation Home Study Course - passel",
+          "description": "to maturity. The evapotranspiration is calculated using the pro­cedures previously outlined. Complete information is available on-line at .  The information is sometimes available­ from news media sources. [...] Reference Crop Evapotranspiration [...] Remember: crop evapotranspiration measurements are estimates from weather stations that are reasonably close in most situations, but certainly are not perfect. They are useful for estimating water availability in soil during the growing season, however, periodic field checks of soil water are very important to keeping any irrigation scheduling program on track.\n\n## Applying Evapotranspiration Information"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 6,
+    "loaded": 3,
+    "sources": [
+      {
+        "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+        "canonical_url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+        "canonical_url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+        "status": "unavailable",
+        "category": "http_error",
+        "temporary": true,
+        "http_status": 403
+      },
+      {
+        "url": "https://www.nrc.gov/docs/ML1821/ML18215A282.pdf",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://www.fao.org/4/f2430e/f2430e.pdf",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
+        "canonical_url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
+        "redirect_hops": 0,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 6,
+  "coverage": {
+    "topic_id": "agri-c4ef63638756",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a documented procedure or formula for computing each irrigation cycle duration from measured actual flow (discharge) and crop water demand with unit conversions in original source units, specifically for chickpea."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document reports original units for flow/discharge, application rate, soil/water inputs, and irrigation timing scoped to chickpea with geographic/contextual limits. s5 gives units for vegetables generically but not for chickpea; s4 gives a drip-line formula without chickpea context."
+      }
+    ],
+    "next_queries": [
+      "chickpea irrigation scheduling flow rate discharge duration university extension",
+      "Cicer arietinum irrigation interval calculation actual discharge water demand"
+    ]
+  },
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:24.714422+00:00"
+}

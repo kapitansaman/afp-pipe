@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "input_sha256": "f7b9b3f5454b8f2b88e529a6d74966583ab026156bb01d7e8e641e19f51f987b",
+  "response_sha256": "30124d6ec7571f81d37844b6e7662250b55b445b42f1cf16e9abcf35a4c014f4",
+  "created_at": "2026-10-28T10:40:31.948008+00:00",
+  "verdict": {
+    "topic_id": "agri-d7002ebd800c",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a specific decision rule or threshold for when to stop or reduce irrigation before chickpea harvest. s5 reports yield responses to different irrigation levels and notes dryland performed best, but gives no growth-stage, soil-moisture, or calendar-based cessation criterion for chickpea."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": true,
+        "document_ids": [
+          "s5"
+        ],
+        "missing": ""
+      }
+    ],
+    "next_queries": [
+      "chickpea preharvest irrigation cutoff decision rule university extension",
+      "chickpea soil moisture threshold stop irrigation before harvest research"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

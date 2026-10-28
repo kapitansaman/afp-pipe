@@ -1,0 +1,77 @@
+{
+  "topic_id": "agri-d5b18796a0dd",
+  "candidate_sha256": "af513e7ad28b3661331be6ab133dc28a129901649ae5ed8387791c5c179c27c8",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "محصول آبی نخود در مونتانا (Huntley) میانگین بیش از 3000 lb/acre ثبت کرده است در حالی که دیم بین 850 تا بیش از 3000 lb/acre متغیر بوده است.",
+        "conditions": "مونتانا، ایالات متحده؛ انواع kabuli و desi؛ دیم و آبی آزمایشی؛ دوره 2011-2016",
+        "evidence_id": "d0-e16",
+        "numeric_bindings": [
+          {
+            "value": "3000",
+            "unit_quote": "3000 lb/acre",
+            "geographic_scope": "Huntley, Montana, US",
+            "product_scope": "چکمه خشک نخود (dry chickpea grain)"
+          },
+          {
+            "value": "850",
+            "unit_quote": "850 and 3000 lb/acre",
+            "geographic_scope": "Montana dryland trials, US",
+            "product_scope": "چکمه خشک نخود (dry chickpea grain)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e16",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": " yields averaging over 1500 lb/acre (Table 2) across all varieties. Areas around Corvallis and Sidney have shown more stable production across varieties but yields in Conrad have been superior to other locations in the state. Irrigated production at Huntley shows promise with a trial average of more than 3000 lb/acre. TABLE 2. Trial yield means (lb/acre) for chickpeas at locations across Montana, 2011-2016 (4, 5). Environment Location Yield C.V. (%) Obs. Dryland Bozeman 1213 37 13 Conrad 2603 50 27 Corvallis 1368 27 24 Huntley 919 52 8 Moccasin 1123 36 52 Richland 1138 82 61 Sidney 3168 23 8 Irrigated Huntley 3076 30 20 Note: Trial entries varied but averaged 11 kabuli and 1 desi variety each year. n/a = not applicable. C.V. = coefficient of variation over years and varieties. Obs. = number of observations Varieties Most Montana producers contract with a company to grow a specific variet"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "آبیاری مکرر می‌تواند منجر به شیوع بیماری‌های قارچی/باکتریایی و گل‌دهی نامتعادل و رسیدن دیررس شود و کیفیت را کاهش دهد.",
+        "conditions": "شرایط مونتانا؛ تفسیر کیفی بر اساس مشاهدات آبیاری تکمیلی فوق (2-3 inch)",
+        "evidence_id": "d0-e17",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e17",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": "f variation over years and varieties. Obs. = number of observations Varieties Most Montana producers contract with a company to grow a specific variety prior to planting although some open market options are available. Results of statewide variety trials indicate a yield potential between 850 and 3000 lb/acre under dryland conditions. Variability in yield is high due to environmental factors like hail, disease incidence, and drought. Irrigated production in Huntley has greater yields as compared to dryland with minimal additional water (2-3 inches per season). Irrigating too often can lead to high disease incidence and enhanced indeterminate flowering and maturity resulting in poor quality. The better performing varieties in these trials have been those from Canada, with Frontier and Orion leading the list (Table 3). Myles has been the only Desi type tested and has performed consistently"
+      }
+    },
+    {
+      "fact_index": 5,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "در اورگان شرقی، Sinaloa (kabuli) تنها رقمی بود که تحت شرایط کم‌رطوبت خاک (>80% دانه درجه A) عملکرد پایدار نشان داد.",
+        "conditions": "اورگان شرقی، ایالات متحده؛ شرایط کم‌آبی و پس از فول",
+        "evidence_id": "d1-e0",
+        "numeric_bindings": [
+          {
+            "value": "80",
+            "unit_quote": ">80 percent of grade A beans",
+            "geographic_scope": "Eastern Oregon, US (CBARC)",
+            "product_scope": "نخود kabuli (دانه خشک)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e0",
+        "source_url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+        "quote": "[page 1] Evaluating Chickpea (Garbanzo Bean) for Adaptability to Eastern Oregon Stephen Machado, Christopher Humphreys, Brian Tuck, and Mary Corp Abstract Seven chickpea (Cicer arietinum L.) varieties were evaluated for suitability to eastern Oregon conditions. The chickpeas, six kabuli and one desi, were sown in mid-April 2002 and 2003 at the Columbia Basin Agricultural Research Center (CBARC) in Pendleton and Moro, Oregon. Data on plant stand, plant height, disease, phenology, and bean yield were collected. ‘Myles’, the only desi chickpea, produced the highest bean yield under both annual and fallow cropping systems. Unfortunately, desi chickpeas are low value chickpeas in the United States. The kabuli varieties produced higher yields and bigger beans when soil moisture was adequate (after fallow), but most produced lower bean yield and smaller beans when grown following wheat in a dro"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "پرسش کاربر درباره دو بخش است: (1) زمان اولویت‌دار آبیاری تکمیلی نخود دیم و (2) ارزیابی اقتصادی آن. شواهد دانشگاهی ارائه‌شده (د0-e16, d0-e17, d0-e28 و غیره) فقط تولید آبی در مقابل دیم را در مونتانا/اورگان نشان می‌دهند و هیچ‌کدام روش تشخیص زمان‌بندی (بر اساس مرحله رشد، رطوبت خاک، شاخص تنش) یا مبنای کمی ارزیابی اقتصادی (هزینه آب به ازای هر اینچ، قیمت بازار محلی، بازگشت سرمایه) را ارائه نمی‌دهند. بنابراین intent اصلی پاسخ‌دهی به پرسش اجرایی «زمان اولویت‌دار + ارزیابی اقتصادی» با شواهد موجود پوشش داده نمی‌شود."
+}

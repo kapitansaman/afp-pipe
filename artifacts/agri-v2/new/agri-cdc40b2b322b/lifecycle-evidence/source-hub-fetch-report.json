@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "canonical_url": "https://extension.msstate.edu/lawn-and-garden/vegetable-gardens/beans",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "canonical_url": "https://extension.umd.edu/resource/poor-germination-vegetable-seeds",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

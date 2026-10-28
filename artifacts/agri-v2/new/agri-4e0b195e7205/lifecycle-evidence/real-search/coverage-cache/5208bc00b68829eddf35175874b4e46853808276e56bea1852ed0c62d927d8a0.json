@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "input_sha256": "5208bc00b68829eddf35175874b4e46853808276e56bea1852ed0c62d927d8a0",
+  "response_sha256": "9410bca3a81349fa967e36d9f15e8096b3a779d7518034a3322e6ed1031260e2",
+  "created_at": "2026-10-28T10:40:27.232593+00:00",
+  "verdict": {
+    "topic_id": "agri-4e0b195e7205",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document specifies a chickpea first-irrigation trigger (soil-moisture threshold, pre-/post-emergence growth-stage cue, or calendar window). s0/s3 note chickpea is 'somewhat drought tolerant' and that 'too frequent' irrigation increases disease, but give no decision rule for the first event."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No source provides chickpea-specific measured inputs for first irrigation: volumetric water content, tension, depletion percentage, monitored depth, growth stage at recommendation, geography, or volume/timing interval. s0/s3 state chickpea 'uses water mostly from the top 12 inches of soil,' and s4/s5 give AWC/MAD tables for other crops only — chickpea is absent from those tables."
+      },
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "missing": "While Cicer arietinum is confirmed in s0/s1/s2/s3, none link the crop identity to an early-season/root-establishment irrigation recommendation; the irrigation-relevant text (s0/s3) discusses seasonal totals and disease risk from over-irrigation, not first-water decision criteria. s5 (chickpea-specific irrigation thresholds) is absent — its MAD table covers alfalfa, cantaloupe, corn, soybean, etc., but not chickpea."
+      }
+    ],
+    "next_queries": [
+      "chickpea first irrigation timing growth stage emergence soil moisture threshold university extension",
+      "Cicer arietinum irrigation scheduling management allowable depletion MAD soil water tension"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

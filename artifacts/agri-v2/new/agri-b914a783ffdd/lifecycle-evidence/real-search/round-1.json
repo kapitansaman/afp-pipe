@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T09:24:54.628862+00:00",
+  "started_at": "2026-10-28T10:39:57.261007+00:00",
   "queries": [
     {
       "query_id": "7521ec7c6fc0eb72ae20a90b95b6be0726772676ff6fa5880f893ba48d5e1f8b",
       "query": "chickpea sensitve growth stage water deficit flowering pod filling university",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179502.406117,
       "results": [
         {
@@ -23,7 +23,7 @@
     {
       "query_id": "e3021c9d940012b4006bb04b566d79c5f7dec3973657d435379b632cc54d5d6b",
       "query": "chickpea irrigation scheduling water stress stage critical period site:edu OR site:gov",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179507.0040116,
       "results": [
         {
@@ -68,14 +68,12 @@
       {
         "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
         "canonical_url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204",
         "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
@@ -85,8 +83,7 @@
       {
         "url": "https://content.ces.ncsu.edu/irrigation-scheduling-to-improve-water-and-energy-use-efficiency",
         "canonical_url": "https://content.ces.ncsu.edu/irrigation-scheduling-to-improve-water-and-energy-use-efficiency",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
@@ -98,8 +95,7 @@
       {
         "url": "https://www.fao.org/4/y3655e/y3655e03.htm",
         "canonical_url": "https://www.fao.org/4/y3655e/y3655e03.htm",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -111,20 +107,19 @@
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No document identifies the specific chickpea growth stage most vulnerable to water deficit with quantified yield loss AND provides an irrigation timing recommendation. s5 quantifies yield loss (15–33 % of well-watered) and flower/pod abortion under terminal drought during the reproductive stage, but it withholds water entirely rather than prescribing irrigation timing. s0 and s2 note that flowering/pod set under heat and drought reduces yield, yet offer no stage-specific yield-loss figure or irrigation-schedule recommendation."
+        "missing": "No fetched document identifies the specific chickpea growth stage(s) most vulnerable to water deficit with quantified yield loss tied to that stage, nor provides an irrigation timing recommendation linked to identified sensitive stages (e.g. pod set or seed fill). Document s5 reports that terminal drought imposed at flowering/podding reduces chickpea seed yield to 33% (Rupali) or 15% (Almaz) and documents flower and pod abortion increases, but does not provide irrigation timing recommendations or a prioritized schedule for water application across growth stages."
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [],
-        "missing": "No document supplies measured soil-water inputs tied to the identified sensitive stage in the required units (kPa, %, mm, mm/day). s5 reports predawn leaf water potential in MPa and soil water content as % field capacity, but not in kPa or as volumetric water content, and provides no ETc, applied irrigation depth, or distinction between crop water use and applied water. s0 gives only a qualitative \"2-3 inches per season\" for irrigated vs. dryland yield difference without stage linkage or ETc."
+        "missing": "No fetched document provides measured irrigation inputs in required units for chickpea (soil water potential in kPa, volumetric water content in %, applied irrigation depth in mm, or ETc in mm/day) tied to a specific sensitive chickpea growth stage. Document s5 records predawn leaf water potential in MPa and soil water content as % field capacity under controlled greenhouse drought, but these are stress-monitoring measurements under imposed terminal drought, not irrigation scheduling inputs distinguishing crop water use from applied water."
       },
       {
         "id": "species_product",
         "covered": true,
         "document_ids": [
           "s0",
-          "s1",
           "s2",
           "s3",
           "s4",
@@ -134,9 +129,10 @@
       }
     ],
     "next_queries": [
-      "chickpea Cicer arietinum growth stage water deficit yield loss percentage irrigation timing university extension",
-      "chickpea evapotranspiration ETc soil water potential kPa volumetric water content irrigation scheduling"
+      "chickpea growth stage water stress yield loss pod set seed fill irrigation timing university",
+      "chickpea Cicer arietinum deficit irrigation soil water potential kPa ETc sensitive stage"
     ]
   },
-  "completed_at": "2026-10-28T09:25:42.362329+00:00"
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:11.880644+00:00"
 }

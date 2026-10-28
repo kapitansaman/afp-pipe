@@ -1,0 +1,71 @@
+{
+  "topic_id": "agri-b914a783ffdd",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum L.) – گیاه یک‌ساله حبوبات خشک برای برداشت دانه پخته/خشک",
+  "slug": "chickpea-drought-sensitive-stages-water-priority",
+  "outline": [
+    "آستانه‌های کیفی تنش آب در مراحل رشد نخود",
+    "اولویت آبیاری بر پایه مرحله فنولوژیک",
+    "ملاحظات اقلیمی و گونه‌ای (دِسی/کابولی)",
+    "حدود کاربرد و منابع شواهد"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "کابولی نسبت به دِسی در قبال Abort فندق تحت تنش آبی انتهایی حساس‌تر است و کاهش عملکرد آن شدیدتر می‌باشد.",
+      "conditions": "ناحیه: همان آزمایشگاه کنترل‌شده غرب استرالیا. محصول: مقایسه cultivar کابولی (Almaz) و دِسی (Rupali). مرحله: دیرفصلی (podding) تحت withholding آب.",
+      "evidence_id": "d5-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود نسبت به لentiil و dry pea تحمل تنش گرمایی و خشکی بالاتری دارد، اما دماهای بالای 98 °F در طول گلدهی اولیه و تشکیل فندق باعث کاهش عملکرد می‌شود.",
+      "conditions": "ناحیه: مونتانا و واشنگتن، آمریکا. محصول: نخود خشک (Cicer arietinum L.). واحد دمایی: °F.",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": [
+        {
+          "value": "98",
+          "unit_quote": "98 °F",
+          "geographic_scope": "Montana / Washington, USA",
+          "product_scope": "chickpea (Cicer arietinum L.)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "پوشش سایه‌انداز کامل کانوپی نخود و مصرف حداکثر آب در مرحله mid-season رخ می‌دهد؛ قبل از آن عمق ریشه مؤثر محدود است.",
+      "conditions": "ناحیه: مونتانا، آمریکا. محصول: نخود. واحد عمق: اینچ.",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "30 inches",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea root zone"
+        },
+        {
+          "value": "12",
+          "unit_quote": "top 12 inches of soil",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea water uptake zone"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در شرایط کم‌آبی، رسیدگی زودتر (escape strategy) به دوری از تنش خشکی انتهای فصل کمک می‌کند، هرچند کیفیت بازارپسندی دانه ممکن است متفاوت باشد.",
+      "conditions": "ناحیه: شرق اورگان، آمریکا (CBARC Pendleton و Moro). محصول: نخود، مقایسه cultivarهای kabuli و desi Myles.",
+      "evidence_id": "d1-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ارقام کابولی بزرگ‌دانه تحت شرایط رطوبت کافی عملکرد و کیفیت بازارپسندی بالاتری دارند، اما در سال‌های کم‌باران و پس از محصول گندم (dryland recrop) عملکرد و اندازه دانه آن‌ها به شدت کاهش می‌یابد.",
+      "conditions": "ناحیه: شرق اورگان (Pendleton و Moro). محصول: نخود کابولی. شرایط: After fallow (moisture adequate) vs. following wheat in drought year.",
+      "evidence_id": "d1-e17",
+      "numeric_bindings": []
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

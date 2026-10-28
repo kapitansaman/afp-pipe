@@ -1,5 +1,5 @@
 {
-  "attempts": 0,
+  "attempts": 1,
   "history": [
     {
       "attempts": 0,
@@ -11,14 +11,18 @@
         "kind": "source_fetch_deferred",
         "category": "source_fetch_temporarily_unavailable"
       }
+    },
+    {
+      "attempts": 1,
+      "status": "validated",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:39:57.276431+00:00",
+      "completed_at": "2026-10-28T10:41:21.132639+00:00",
+      "failure": null
     }
   ],
-  "status": "deferred",
-  "last_run_id": "40663668445",
-  "started_at": "2026-10-28T09:25:06.593925+00:00",
-  "failure": {
-    "kind": "source_fetch_deferred",
-    "category": "source_fetch_temporarily_unavailable"
-  },
-  "completed_at": "2026-10-28T09:26:33.047125+00:00"
+  "status": "validated",
+  "last_run_id": "40673536160",
+  "started_at": "2026-10-28T10:39:57.276431+00:00",
+  "completed_at": "2026-10-28T10:41:21.132639+00:00"
 }

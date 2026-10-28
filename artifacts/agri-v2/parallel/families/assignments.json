@@ -23,11 +23,11 @@
     },
     {
       "family_id": "family-03",
-      "topic_id": "agri-78076167ad96",
-      "title": "کاهش تلفات برداشت یونجه؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
-      "assigned_at": "2026-10-28T05:36:22.223342+00:00",
+      "topic_id": "agri-4b687f285cda",
+      "title": "تراکم خاک در کشت لوبیا چیتی؛ نشانه‌ها و راه‌های اصلاح بستر ریشه",
+      "assigned_at": "2026-10-28T10:50:52.220863+00:00",
       "assignment_status": "assigned",
-      "work_stage": "ready_for_drafting",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -104,9 +104,9 @@
     },
     {
       "family_id": "family-12",
-      "topic_id": "agri-6d0759f7e898",
-      "title": "پایش رطوبت خاک در مزرعه یونجه؛ انتخاب محل و عمق حسگر",
-      "assigned_at": "2026-10-28T06:15:39.360225+00:00",
+      "topic_id": "agri-eb33d350e521",
+      "title": "هزینه کشت لوبیا چیتی در هکتار؛ جدول نهاده‌ها و روش به‌روزرسانی",
+      "assigned_at": "2026-10-28T10:50:52.224118+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -153,7 +153,7 @@
       "title": "زمان مناسب برداشت نخود؛ نشانه‌های رسیدگی و معیار بازار",
       "assigned_at": "2026-10-28T06:40:00.664779+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "ready_for_drafting",
       "publication_authorized_by_assignment": false
     },
     {
@@ -167,9 +167,9 @@
     },
     {
       "family_id": "family-19",
-      "topic_id": "agri-d7002ebd800c",
-      "title": "آخرین آبیاری نخود پیش از برداشت؛ معیارهای قطع و کاهش آب",
-      "assigned_at": "2026-10-28T06:40:00.664909+00:00",
+      "topic_id": "agri-dcc54746b3e8",
+      "title": "خشک‌کردن محصول لوبیا چیتی پس از برداشت؛ رطوبت ایمن و کیفیت انبار",
+      "assigned_at": "2026-10-28T10:50:52.226744+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -864,6 +864,42 @@
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false,
       "completed_at": "2026-10-28T09:27:01.353613+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "bounded_search_coverage_incomplete"
+    },
+    {
+      "family_id": "family-03",
+      "topic_id": "agri-78076167ad96",
+      "title": "کاهش تلفات برداشت یونجه؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
+      "assigned_at": "2026-10-28T05:36:22.223342+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "ready_for_drafting",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T10:50:52.211118+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "missing_approved_inline_citation"
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-6d0759f7e898",
+      "title": "پایش رطوبت خاک در مزرعه یونجه؛ انتخاب محل و عمق حسگر",
+      "assigned_at": "2026-10-28T06:15:39.360225+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T10:50:52.216166+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "bounded_search_coverage_incomplete"
+    },
+    {
+      "family_id": "family-19",
+      "topic_id": "agri-d7002ebd800c",
+      "title": "آخرین آبیاری نخود پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "assigned_at": "2026-10-28T06:40:00.664909+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T10:50:52.219939+00:00",
       "completion": "deferred_to_research_backlog",
       "reason": "bounded_search_coverage_incomplete"
     }
@@ -1867,9 +1903,63 @@
       ],
       "prior_attempts_reset": false,
       "previous_family_id": "family-18"
+    },
+    "agri-6d0759f7e898": {
+      "topic_id": "agri-6d0759f7e898",
+      "title": "پایش رطوبت خاک در مزرعه یونجه؛ انتخاب محل و عمق حسگر",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40673536160",
+      "deferred_at": "2026-10-28T10:50:52.216166+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "0dd2148958402254fa8ade43a4c365f4af54d035444949575184b89367144e70",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "3d558bbdea162813eed5a260f9ad15ebd53bcb05fc739728c1c373a2dfe37414",
+        "state.json": "0b48da79c42b79e168c0cbe0cef0c458692630763d3451481d263bd730f551a5",
+        "model-source-refetch.json": "a6bce1d90fb31476f68bbeaea192bbc3daccce0c2af79abc366dd35fd5b3cee2"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-12"
+    },
+    "agri-d7002ebd800c": {
+      "topic_id": "agri-d7002ebd800c",
+      "title": "آخرین آبیاری نخود پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40673536160",
+      "deferred_at": "2026-10-28T10:50:52.219939+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "efa68dc301f0e3783b57c88b2b144dfb7c7a95f86059716bc41a9e0e43b675a2",
+        "sources.json": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+        "candidate-raw.json": "8edfba8a80a8950f8386d0c185e4ae120041515ce0cc1295a63aaaf88207789b",
+        "state.json": "8fceb064cf9ee317ea6c1ea7d5c99f6aa2ffb98cb184e1ffedd5885f2c9bc350",
+        "model-source-refetch.json": "e56d996ed14e566b9424910db90413f680c7f117315b85f2b408ebac43353333"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-19"
     }
   },
-  "research_backlog_count": 38,
+  "research_backlog_count": 40,
   "exception_backlog": {
     "agri-c0e160d88554": {
       "kind": "stage_budget_exhausted",
@@ -3054,7 +3144,103 @@
         "all_original_research_quality_overlap_and_publication_gates"
       ],
       "previous_family_id": "family-11"
+    },
+    "agri-78076167ad96": {
+      "kind": "stage_budget_exhausted",
+      "stage": "text",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "missing_approved_inline_citation",
+      "last_run_id": "40673536160",
+      "topic_id": "agri-78076167ad96",
+      "title": "کاهش تلفات برداشت یونجه؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-28T10:50:52.211118+00:00",
+      "terminal_checkpoint_sha256": "5e3acfcfe98752a264ea8a5e0c5ecc673e0ac7166d3470e25dec5d295c0e5689",
+      "bindings": {
+        "topic_sha256": "9bd053c8638f0133c94ff7d757ab4c28acd608ec915ab9dec896627c72c97520",
+        "topic_files": {
+          "family-context/40641934753.json": "7905b35602ec6e2a94adcbe2aaaabd34240c3cb19970bebd158f92e9c5689b3e",
+          "family-context/40643892351.json": "7905b35602ec6e2a94adcbe2aaaabd34240c3cb19970bebd158f92e9c5689b3e",
+          "family-context/40663668445.json": "7905b35602ec6e2a94adcbe2aaaabd34240c3cb19970bebd158f92e9c5689b3e",
+          "family-context/40673536160.json": "7905b35602ec6e2a94adcbe2aaaabd34240c3cb19970bebd158f92e9c5689b3e",
+          "lifecycle/existing_content_audit-000/state.json": "b9128f5087cc34039681f49daa5abef35d77f245d8efefad25066d0fd0fde52c",
+          "lifecycle/existing_content_audit-001/state.json": "28d2d74684dfc9927e04c171269b16d3658fad84a71587c748baa5f5cea9fc8f",
+          "lifecycle/existing_content_audit-002/state.json": "cb48f734dcea7e619c017370adffd69184d7fdb3a70a96347fb53e11d0b9e10a",
+          "lifecycle/existing_content_audit-003/state.json": "040c812a27628976b6974cf1e8b4dc972281731f36b12e0f6cdc6db409854cc9",
+          "lifecycle/existing_content_audit-004/state.json": "4dee1620a1622a91162aae3d02c2cb83c8fee9a9e333d8c7574fb5459a2116c1",
+          "lifecycle/existing_content_audit-005/state.json": "2143818a6a14cfb7c210a9bacb246482d7fa5950c18502d3ca61466215046b10",
+          "lifecycle/existing_content_audit-006/state.json": "ad3cd1e8af841a427910989ea6ca968d7e555a0149fafff9c10e99fbaae105f3",
+          "lifecycle/existing_content_audit-007/state.json": "a0f3e28fa283a2e233d7583f77ba2d7f089e145a32cf57ec2326e51622d074db",
+          "lifecycle/existing_content_audit_finalize/state.json": "91412f2e95f5a89de74a157b39c8ede8f05dd99499ee14e8dccdc2fba3e97a6f",
+          "lifecycle/research_extract/state.json": "34cf96ddc2cd778df21742857b755eae4a4891c25e3830c12a47c6c6cc67d124",
+          "lifecycle/research_review/state.json": "75ae8be797fb8e8d5a3b854eec77a5d155062f7f7635ee48bc1882b2bc03d1de",
+          "lifecycle/research_sources/state.json": "aeab0d6064f687828460f662212f1579d70d64ff6a771ba6b12e2aac5f0eeabb",
+          "lifecycle/text/rejected/1/practical-text-candidate.json": "a973126eaccdfa266c3eff812634508387c6807cb4e4b866da9bb0e9fb5edda5",
+          "lifecycle/text/rejected/1/practical-text-contract.json": "c4844feaebb8c12722ac00225ca644f449900bf39f466faa32ab683c5006d2d2",
+          "lifecycle/text/rejected/1/practical-text-identity-binding.json": "d58fc1cb3668825270e90972444e81b9c5c3173390f589b75f402eec2d88f555",
+          "lifecycle/text/rejected/1/practical-text-numeric-audit.json": "2ccd7c842a22308eae678341a754c9efb838ee6ef4ec2f490e41e27afd7a2ee0",
+          "lifecycle/text/rejected/2/practical-text-candidate.json": "76d8c8a5167a0e019a15f4caa791a51b755169d23d6ff5406db6d16ebb45d930",
+          "lifecycle/text/rejected/2/practical-text-contract.json": "c4844feaebb8c12722ac00225ca644f449900bf39f466faa32ab683c5006d2d2",
+          "lifecycle/text/rejected/2/practical-text-identity-binding.json": "7fb0259f4866b97cf9c8b23fc7947ca7381a8d0825487e3a3a527adaae705356",
+          "lifecycle/text/rejected/2/practical-text-numeric-audit.json": "6bf98cda2ed9f6d8595f0a6f248c7f0501f6575c6b24dbf7de11369e13241b94",
+          "lifecycle/text/state.json": "c46ef31515cad603922f7eace9d18e17bc66f78fc7a376e5cfc97d0aa8712aaf",
+          "lifecycle-evidence/candidate-raw.json": "7b3a03031d149b27b126a3a2a2c11ba4ff4e22e2e6d9f754dbaa684a5416cd26",
+          "lifecycle-evidence/candidate.json": "1c59f7695aca5587c0fa7e7d09559516b5cb565a8be8342b25e28a74fe5a1bfb",
+          "lifecycle-evidence/existing-content.json": "2b9d3f794fefaf74970abbd5f260f0cd0f9aa4e7442b72c0150d9d68eb814908",
+          "lifecycle-evidence/extraction-feedback.json": "48de9987a6cf79cae565122c46d81c38a11dbdac9260859c935bb3ec98dfe3df",
+          "lifecycle-evidence/overlap-batches/000.json": "79ddcc85cba032c4eb8e27fee1263b52216ce0fd3809a55a5b26c868fbb5d7f1",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "babe04a7c13e36b76b241e851fa720590d0ba7d9ee500f68034ed2e8e9bf95f3",
+          "lifecycle-evidence/overlap-batches/001.json": "6fa0e41bbb78cfece2989e005fb14acdae255607a01da9ea0a12803a82d6b005",
+          "lifecycle-evidence/overlap-batches/001.raw.json": "eec51b1a9a2339bba8e81ea383a70bbaa68688a396f53881c64115970f2fb1cd",
+          "lifecycle-evidence/overlap-batches/002.json": "6109a62fe0bf4efc240540597695f02eaa2c26e3ec179deac6c9d7d872f6d83d",
+          "lifecycle-evidence/overlap-batches/002.raw.json": "178a32f20a6e1753c91b973410a2c441dc8ffc5c964c6d7bf6221efd2bd3d9c0",
+          "lifecycle-evidence/overlap-batches/003.json": "c9f953eff2e22f350861d98371b309f817ec69ba0c123c515cb77f95dcacf7eb",
+          "lifecycle-evidence/overlap-batches/003.raw.json": "67e5337e45bcb07904d8b3d1f176a7564415a35f2bb7e0baa468e0d8d0fe6145",
+          "lifecycle-evidence/overlap-batches/004.json": "96f8e64e6d202c914d4f4a318a8d8e08f27618eb68a61a7f64f3a52e058c526a",
+          "lifecycle-evidence/overlap-batches/004.raw.json": "343330cc6c0672d24552ff07fb158d9cdd2a4cf727b09ae64af68f46ff9d2d94",
+          "lifecycle-evidence/overlap-batches/005.json": "465e849c35020171eb1f8d11c9837ed6dd4986ba4438cdbb7acfcf2ab0803c5e",
+          "lifecycle-evidence/overlap-batches/005.raw.json": "a7937ce0ac8312a8626efeec3130593b04d179b1b9cb99ad1fe9fa441b153d1c",
+          "lifecycle-evidence/overlap-batches/006.json": "9020fe11c7dc19d4ac6f175875b6066dd58111b351f723f0adeb118bcdb14357",
+          "lifecycle-evidence/overlap-batches/006.raw.json": "436f1aebf4e2ed84a4baa5fea5730b7a89200645ef815604620ff07d46e6593c",
+          "lifecycle-evidence/overlap-batches/007.json": "fcdeb0fa3c70ccc134c0b2e8e82a68ec5c2e96dba919548a1b9a31f0aa34ddbe",
+          "lifecycle-evidence/overlap-batches/007.raw.json": "5a98b5e5ca7c78cc0ab2462eae07a449bd6731954921a5d33532e60eada8d926",
+          "lifecycle-evidence/overlap.json": "f9a5b3f5ab446183b2f72c98369703344f20eb1b4afe1f7e9290ecd6a76b0c15",
+          "lifecycle-evidence/review-raw.json": "dbe1348fcbcb4c186a2c6bcf91ed73057e4485d705953eede1ce49009cac58bf",
+          "lifecycle-evidence/saved-candidate-validation.json": "ed56665c9d0a98c41c13b3458e0b0387f4f6b2b63340a6a948a5d135c887fb29",
+          "lifecycle-evidence/source-discovery-report.json": "f564dbe3608cfe03eac5b7f962155b76886e8206f994d8f7080205f5fd3a1982",
+          "lifecycle-evidence/source-fetch-report.json": "37fdd8e4017bbd1d1f8e304ddb0acfaf5f9e540b58b31c6654a5f9debeab94f8",
+          "lifecycle-evidence/source-hub-fetch-report.json": "4f216d0a3c203fdfccd6c61b9eb6af4f1b6cb7f3584cc54ed4a0965695a574a3",
+          "lifecycle-evidence/source-link-fetch-report.json": "7ab7742c0e7e80c0958e095d7c765681e2decc08af87491bcf7cba2b46b8d802",
+          "lifecycle-evidence/sources.json": "59b168ff77b00ce701120ccc60be5c75457fd7dd7b9d55a3cddfeb3906ce22dd",
+          "practical-text-candidate.json": "22824f99265526d3771fbf5aa91117ee1e8738b951c15f0c9e14da8bcf6c88a3",
+          "practical-text-contract.json": "c4844feaebb8c12722ac00225ca644f449900bf39f466faa32ab683c5006d2d2",
+          "practical-text-identity-binding.json": "16fe6d3bef66fc5340d829d29d82194ab7fea0766f63774cb660443e94532c73",
+          "practical-text-numeric-audit.json": "383bff84455fb4d385cf14791e7cfc39865cebf5898a1a72549d35c44d7a228d"
+        },
+        "legacy_research_sha256": null,
+        "brief_sha256": "e88b47e7b9ed2eec85258a48677b67a8b2a75bd6b0320b797b0ce00e16b588f3",
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-03"
     }
   },
-  "exception_backlog_count": 17
+  "exception_backlog_count": 18
 }

@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T09:24:56.654585+00:00",
+  "started_at": "2026-10-28T10:39:57.292438+00:00",
   "queries": [
     {
       "query_id": "d5117b0e533ea8fd08b7d7a1ff8467f78e83a936ba60ae88d636a6b64f5f847c",
       "query": "chickpea first irrigation timing soil moisture threshold emergence university extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179498.0718212,
       "results": [
         {
@@ -38,7 +38,7 @@
     {
       "query_id": "48c8df030dd980e5829d7701953686d18ec1594e3d4a7a8ff43b53c56d6be1e5",
       "query": "chickpea germination emergence soil water status irrigation trigger research",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179504.8273687,
       "results": [
         {
@@ -89,8 +89,7 @@
       {
         "url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans",
         "canonical_url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -102,29 +101,31 @@
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "None of the fetched documents specify the first-irrigation decision trigger for chickpea after sowing. No soil-moisture threshold, growth-stage cue (pre- or post-emergence), or calendar window is stated, and no monitoring method for this decision is cited."
+        "missing": "No document specifies a chickpea first-irrigation trigger (soil-moisture threshold, pre-/post-emergence growth-stage cue, or calendar window). s0/s3 note chickpea is 'somewhat drought tolerant' and that 'too frequent' irrigation increases disease, but give no decision rule for the first event."
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [],
-        "missing": "No measured soil-moisture metric (VWC, tension, depletion %), monitored soil layer depth tied to chickpea first irrigation, chickpea growth stage at recommendation, geography/climate context specific to the first-irrigation trigger, or irrigation water volume/timing interval is provided in the fetched texts."
+        "missing": "No source provides chickpea-specific measured inputs for first irrigation: volumetric water content, tension, depletion percentage, monitored depth, growth stage at recommendation, geography, or volume/timing interval. s0/s3 state chickpea 'uses water mostly from the top 12 inches of soil,' and s4/s5 give AWC/MAD tables for other crops only — chickpea is absent from those tables."
       },
       {
         "id": "species_product",
-        "covered": true,
+        "covered": false,
         "document_ids": [
           "s0",
+          "s1",
           "s2",
           "s3"
         ],
-        "missing": ""
+        "missing": "While Cicer arietinum is confirmed in s0/s1/s2/s3, none link the crop identity to an early-season/root-establishment irrigation recommendation; the irrigation-relevant text (s0/s3) discusses seasonal totals and disease risk from over-irrigation, not first-water decision criteria. s5 (chickpea-specific irrigation thresholds) is absent — its MAD table covers alfalfa, cantaloupe, corn, soybean, etc., but not chickpea."
       }
     ],
     "next_queries": [
-      "chickpea first irrigation timing after sowing soil moisture threshold extension",
-      "chickpea early season irrigation scheduling growth stage recommendation"
+      "chickpea first irrigation timing growth stage emergence soil moisture threshold university extension",
+      "Cicer arietinum irrigation scheduling management allowable depletion MAD soil water tension"
     ]
   },
-  "completed_at": "2026-10-28T09:25:14.750115+00:00"
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:27.233083+00:00"
 }

@@ -1,0 +1,54 @@
+{
+  "topic_id": "agri-b914a783ffdd",
+  "candidate_sha256": "37da174d4197b6baa25ef47b88d0ea261bd01eb4690802f9e61442b869e24c75",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "نخود به عنوان یک محصول خشک‌دوست نسبتاً مقاوم توصیف شده است و تحت تنش گرمایی و خشکی عملکرد بهتری نسبت به نخود فرنگی خشک و عدس دارد.",
+        "conditions": "شرایط تولید در مونتانا (US Ext. MSU MontGuide MT201703AG). مناطق با ۶ تا ۱۰ اینچ بارش فصل رشد مناسب هستند؛ دمای بالاتر از ۹۸ °F در اوایل گلدهی و تشکیل غلاف می‌تواند عملکرد را کاهش دهد.",
+        "evidence_id": "d3-e8",
+        "numeric_bindings": [
+          {
+            "value": "6-10",
+            "unit_quote": "6-10 inches of growing season precipitation",
+            "geographic_scope": "Montana (US Ext. MSU Research Centers trial sites)",
+            "product_scope": "chickpea (Cicer arietinum L.) grain/pulse"
+          },
+          {
+            "value": "98",
+            "unit_quote": "above 98 °F",
+            "geographic_scope": "Montana",
+            "product_scope": "chickpea (Cicer arietinum L.)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d3-e8",
+        "source_url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf",
+        "quote": "significantly to input costs. Because of the threat of disease, and the risk of poor quality due to bleaching, uneven color, or harvest damage, chickpea is a high maintenance crop requiring constant monitoring and field scouting. Proper grain handling after harvest is also critical to maintaining a high quality food product which is destined for human consumption. Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F , and nighttime temperatures are between 64 and 70 °F . The crop does well in regions with 6-10 inches of growing season precipitation. T emperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolerant. Cultural Practices Soil Chickpea grows bes"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "نخود از عمق ریشه Taproot عمیق برخوردار است و می‌تواند از لایه‌های عمیق‌تر خاک آب خارج کند.",
+        "conditions": "انتشار Wisconsin (d2-e4): به دلیل ریشه taproot عمیق، نخود می‌تواند شرایط خشکی را تحمل کند.",
+        "evidence_id": "d2-e4",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d2-e4",
+        "source_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+        "quote": "eeded = 800 seeds/lb) varieties are generally taller than the desi (small-seeded = 1,500 seeds/lb) varieties. Because of its deep tap root system, chickpea can withstand drought conditions by extracting water from deeper in the soil profile. Flowers (self-pollinated) which are borne in groups of two or three are 2 to 1 in. long and come in purple, white, pink or blue color depending upon variety. Each flower produces a short, pubescent pod which is 3/4 to 2 in. long and which appears to be inflated. One or two seeds (2 to 1 in. diameter) are present in each pod. The seeds come with either rough or smooth surfaces and can be creme, yellow, brown, black or green in color. There is a definite groove visible between the cotyledons about two-thirds of the way around the seed, with a beak-like structure present. IV. Environment Requirements: A. Climate: Chickpea is a cool season annual crop pe"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع موجود اطلاعات کیفی درباره تاب‌آوری کلی نخود به خشکی، عمق ریشه و اثرات آبیاری مفرط را پوشش می‌دهند؛ اما هیچ‌یک مرحله حساس رشد نخود به کم‌آبی (مثلاً مرحله گلدهی، غلاف‌بندی، یا پرشدن دانه) یا دستورالعمل اولویت‌بندی/time-of-application آب را به صراحت تعیین نکرده‌اند. بنابراین پاسخ کامل به عنوان 'مراحل حساس نخود به کم‌آبی؛ اولویت‌بندی آب در طول رشد' از شواهد مستقیم پشتیبانی نمی‌شود."
+}

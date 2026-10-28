@@ -1,39 +1,31 @@
 {
-  "requested": 6,
+  "requested": 5,
   "loaded": 5,
   "sources": [
-    {
-      "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-      "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-      "status": "cache_valid"
-    },
-    {
-      "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
-      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
-      "status": "cache_valid"
-    },
-    {
-      "url": "https://crops.extension.iastate.edu/cropnews/2023/04/establishing-new-stand-alfalfa",
-      "canonical_url": "https://crops.extension.iastate.edu/cropnews/2023/04/establishing-new-stand-alfalfa",
-      "redirect_hops": 0,
-      "status": "fetched"
-    },
-    {
-      "url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag",
-      "canonical_url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag/",
-      "status": "cache_valid"
-    },
     {
       "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
       "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
       "status": "cache_valid"
     },
     {
-      "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
-      "status": "unavailable",
-      "category": "http_error",
-      "temporary": true,
-      "http_status": 403
+      "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+      "canonical_url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/installation-of-soil-sensors-for-irrigation-scheduling",
+      "canonical_url": "https://www.aces.edu/blog/topics/crop-production/installation-of-soil-sensors-for-irrigation-scheduling/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors",
+      "canonical_url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors/",
+      "status": "cache_valid"
     }
   ]
 }

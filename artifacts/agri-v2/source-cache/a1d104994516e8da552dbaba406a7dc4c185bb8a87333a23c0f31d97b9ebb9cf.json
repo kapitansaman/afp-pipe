@@ -1,0 +1,245 @@
+{
+  "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/",
+  "requested_url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+  "redirect_chain": [
+    "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+    "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/"
+  ],
+  "text": "[table row] (Crop) Water Demand | Definition: Amount of water a crop needs for optimal growth under ideal conditions, assuming no water stress. [table row] (Crop) Water Use / Crop Evapotranspiration (ETc) | Definition: Amount of water lost through evaporation from the soil surface and transpiration from plant leaves, representing the total amount of water used by the crop. [table row] (Crop) Water Stress | Definition: Condition when soil moisture is insufficient to meet crop water demand, causing reduced growth and water use. [table row] Runoff | Definition: Portion of rainfall and irrigation water that flows over the soil surface instead of infiltrating into the soil. [table row] Deep Percolation | Definition: Downward movement of water beyond the root zone when soil water exceeds its storage capacity and is no longer available to plants. [table row] Capillary Rise | Definition: Upward movement of water from groundwater into the root zone through small pores in the soil, similar to water climbing up a paper towel dipped in a glass of water. [table row] Field Capacity | Definition: Amount of water remaining in soil after excess water has drained away, similar to a sponge that is fully soaked and cannot hold any more water. [table row] Wilting Point | Definition: Soil water content below which plants cannot extract water, causing permanent wilting. [table row] Total Available Water (TAW) | Definition: Total water available to plants within the root zone. [table row] Readily Available Water (RAW) | Definition: Portion of TAW that can be used by plants without causing water stress. [table row] Soil Water Depletion Fraction (p) | Definition: Ratio of RAW to TAW that defines when a crop begins experiencing water stress. [table row] Management Allowed Depletion (MAD) | Definition: Fraction of TAW that can be depleted before irrigation is applied. [table row] Reference Evapotranspiration (ETo) | Definition: Evapotranspiration rate from a reference surface of dense, actively growing grass, about 0.12 m tall and not short of soil water. [table row] (Single) Crop Coefficient (Kc) | Definition: Factor used to convert ETo into ETc, reflecting crop type and growth stage. [table row] Basal Crop Coefficient (Kcb) | Definition: Portion of the crop coefficient that represents water loss through plant transpiration only. [table row] Evaporation Coefficient (Ke) | Definition: Portion of the crop coefficient that represents water loss due to evaporation from the soil surface. [table row] (Water) Stress Coefficient (Ks) | Definition: Factor that reduces crop water use when soil moisture falls below the RAW level. [table row] Corn | K c ini: 0.3 [table row] Corn | K c mid: 1.15 [table row] Corn | K c end: 1.05 [table row] Corn | Ini. (d): 20-30 [table row] Corn | Dev. (d): 20-40 [table row] Corn | Mid (d): 25-70 [table row] Corn | Late (d): 10 [table row] Soybeans | K c ini: 0.4 [table row] Soybeans | K c mid: 1.15 [table row] Soybeans | K c end: 0.5-1.0 [table row] Soybeans | Ini. (d): 15-20 [table row] Soybeans | Dev. (d): 15-35 [table row] Soybeans | Mid (d): 40-75 [table row] Soybeans | Late (d): 15-30 [table row] Cotton | K c ini: 0.35 [table row] Cotton | K c mid: 1.15-1.2 [table row] Cotton | K c end: 0.5-0.7 [table row] Cotton | Ini. (d): 30-45 [table row] Cotton | Dev. (d): 50-90 [table row] Cotton | Mid (d): 45-60 [table row] Cotton | Late (d): 45-55 [table row] Wheat | K c ini: 0.3 [table row] Wheat | K c mid: 1.15 [table row] Wheat | K c end: 0.25-0.4 [table row] Wheat | Ini. (d): 15-40 [table row] Wheat | Dev. (d): 25-60 [table row] Wheat | Mid (d): 40-65 [table row] Wheat | Late (d): 20-40 [table row] Groundnut | K c ini: 0.4 [table row] Groundnut | K c mid: 1.15 [table row] Groundnut | K c end: 0.6 [table row] Groundnut | Ini. (d): 25-35 [table row] Groundnut | Dev. (d): 35-45 [table row] Groundnut | Mid (d): 35-45 [table row] Groundnut | Late (d): 25-35 [table row] Grapes | K c ini: 0.8 [table row] Grapes | K c mid: 1.15 [table row] Grapes | K c end: 0.85 [table row] Grapes | Ini. (d): 20-30 [table row] Grapes | Dev. (d): 40-60 [table row] Grapes | Mid (d): 40-120 [table row] Grapes | Late (d): 20-80 [table row] Sweet Potatoes | K c ini: 0.5 [table row] Sweet Potatoes | K c mid: 1.15 [table row] Sweet Potatoes | K c end: 0.65 [table row] Sweet Potatoes | Ini. (d): 15-20 [table row] Sweet Potatoes | Dev. (d): 30 [table row] Sweet Potatoes | Mid (d): 50-60 [table row] Sweet Potatoes | Late (d): 30-40 [table row] Broccoli | K c ini: 0.7 [table row] Broccoli | K c mid: 1.05 [table row] Broccoli | K c end: 0.95 [table row] Broccoli | Ini. (d): 35 [table row] Broccoli | Dev. (d): 45 [table row] Broccoli | Mid (d): 40 [table row] Broccoli | Late (d): 15 [table row] Asparagus | K c ini: 0.5 [table row] Asparagus | K c mid: 0.95 [table row] Asparagus | K c end: 0.3 [table row] Asparagus | Ini. (d): 50-90 [table row] Asparagus | Dev. (d): 30 [table row] Asparagus | Mid (d): 100-200 [table row] Asparagus | Late (d): 45-50 [table row] 1 | ETo (in): 0.18 [table row] 1 | SWB (in): 1.54 [table row] 1 | P (in): 0 [table row] 1 | I (in): 1.57 [table row] 1 | Kc: 0.40 [table row] 1 | ETc (in): 0.07 [table row] 1 | EWB (in): 1.47 [table row] 1 | Soil Water deficit (%): 5 [table row] 2 | ETo (in): 0.20 [table row] 2 | SWB (in): 1.47 [table row] 2 | P (in): 0 [table row] 2 | I (in): 0 [table row] 2 | Kc: 0.40 [table row] 2 | ETc (in): 0.08 [table row] 2 | EWB (in): 1.39 [table row] 2 | Soil Water deficit (%): 10 [table row] 3 | ETo (in): 0.15 [table row] 3 | SWB (in): 1.39 [table row] 3 | P (in): 0 [table row] 3 | I (in): 0 [table row] 3 | Kc: 0.40 [table row] 3 | ETc (in): 0.06 [table row] 3 | EWB (in): 1.33 [table row] 3 | Soil Water deficit (%): 14 [table row] 4 | ETo (in): 0.17 [table row] 4 | SWB (in): 1.33 [table row] 4 | P (in): 0 [table row] 4 | I (in): 0 [table row] 4 | Kc: 0.40 [table row] 4 | ETc (in): 0.07 [table row] 4 | EWB (in): 1.26 [table row] 4 | Soil Water deficit (%): 18 [table row] 5 | ETo (in): 0.19 [table row] 5 | SWB (in): 1.26 [table row] 5 | P (in): 0 [table row] 5 | I (in): 0 [table row] 5 | Kc: 0.40 [table row] 5 | ETc (in): 0.08 [table row] 5 | EWB (in): 1.18 [table row] 5 | Soil Water deficit (%): 23 [table row] 6 | ETo (in): 0.11 [table row] 6 | SWB (in): 1.42 [table row] 6 | P (in): 0.24 [table row] 6 | I (in): 0 [table row] 6 | Kc: 0.40 [table row] 6 | ETc (in): 0.04 [table row] 6 | EWB (in): 1.38 [table row] 6 | Soil Water deficit (%): 10 [table row] 7 | ETo (in): 0.23 [table row] 7 | SWB (in): 1.38 [table row] 7 | P (in): 0 [table row] 7 | I (in): 0 [table row] 7 | Kc: 0.40 [table row] 7 | ETc (in): 0.09 [table row] 7 | EWB (in): 1.29 [table row] 7 | Soil Water deficit (%): 16 [table row] 8 | ETo (in): 0.20 [table row] 8 | SWB (in): 1.29 [table row] 8 | P (in): 0 [table row] 8 | I (in): 0 [table row] 8 | Kc: 0.40 [table row] 8 | ETc (in): 0.08 [table row] 8 | EWB (in): 1.21 [table row] 8 | Soil Water deficit (%): 21 [table row] 9 | ETo (in): 0.19 [table row] 9 | SWB (in): 1.21 [table row] 9 | P (in): 0 [table row] 9 | I (in): 0 [table row] 9 | Kc: 0.40 [table row] 9 | ETc (in): 0.08 [table row] 9 | EWB (in): 1.13 [table row] 9 | Soil Water deficit (%): 27 [table row] 10 | ETo (in): 0.20 [table row] 10 | SWB (in): 1.13 [table row] 10 | P (in): 0 [table row] 10 | I (in): 0 [table row] 10 | Kc: 0.40 [table row] 10 | ETc (in): 0.08 [table row] 10 | EWB (in): 1.05 [table row] 10 | Soil Water deficit (%): 32 [table row] 11 | ETo (in): 0.22 [table row] 11 | SWB (in): 1.05 [table row] 11 | P (in): 0 [table row] 11 | I (in): 0 [table row] 11 | Kc: 0.40 [table row] 11 | ETc (in): 0.09 [table row] 11 | EWB (in): 0.96 [table row] 11 | Soil Water deficit (%): 38 [table row] 12 | ETo (in): 0.22 [table row] 12 | SWB (in): 0.96 [table row] 12 | P (in): 0 [table row] 12 | I (in): 0 [table row] 12 | Kc: 0.40 [table row] 12 | ETc (in): 0.09 [table row] 12 | EWB (in): 0.87 [table row] 12 | Soil Water deficit (%): 44 [table row] 13 | ETo (in): 0.20 [table row] 13 | SWB (in): 0.87 [table row] 13 | P (in): 0 [table row] 13 | I (in): 0 [table row] 13 | Kc: 0.40 [table row] 13 | ETc (in): 0.08 [table row] 13 | EWB (in): 0.79 [table row] 13 | Soil Water deficit (%): 49 [table row] 14 | ETo (in): 0.19 [table row] 14 | SWB (in): 1.50 [table row] 14 | P (in): 0 [table row] 14 | I (in): 0.71 [table row] 14 | Kc: 0.40 [table row] 14 | ETc (in): 0.08 [table row] 14 | EWB (in): 1.42 [table row] 14 | Soil Water deficit (%): 8 [table row] 1 | ETo (in/d): 0.18 [table row] 1 | Zr (in): 11.81 [table row] 1 | RAW (in): 0.92 [table row] 1 | D i start (in): 0.00 [table row] 1 | P-RO (in): 0 [table row] 1 | I (in): 1.57 [table row] 1 | Ks: 1 [table row] 1 | Kcb: 0.30 [table row] 1 | Ke: 0.91 [table row] 1 | Kc: 1.21 [table row] 1 | ETc (in/d): 0.22 [table row] 1 | DP (in): 0.65 [table row] 1 | D i end (in): 0.22 [table row] 2 | ETo (in/d): 0.20 [table row] 2 | Zr (in): 12.2 [table row] 2 | RAW (in): 0.95 [table row] 2 | D i start (in): 0.22 [table row] 2 | P-RO (in): 0 [table row] 2 | I (in): 0 [table row] 2 | Ks: 1 [table row] 2 | Kcb: 0.31 [table row] 2 | Ke: 0.90 [table row] 2 | Kc: 1.21 [table row] 2 | ETc (in/d): 0.24 [table row] 2 | DP (in): 0 [table row] 2 | D i end (in): 0.46 [table row] 3 | ETo (in/d): 0.15 [table row] 3 | Zr (in): 12.2 [table row] 3 | RAW (in): 0.95 [table row] 3 | D i start (in): 0.46 [table row] 3 | P-RO (in): 0 [table row] 3 | I (in): 0 [table row] 3 | Ks: 1 [table row] 3 | Kcb: 0.32 [table row] 3 | Ke: 0.72 [table row] 3 | Kc: 1.04 [table row] 3 | ETc (in/d): 0.16 [table row] 3 | DP (in): 0 [table row] 3 | D i end (in): 0.62 [table row] 4 | ETo (in/d): 0.17 [table row] 4 | Zr (in): 12.6 [table row] 4 | RAW (in): 0.98 [table row] 4 | D i start (in): 0.62 [table row] 4 | P-RO (in): 0 [table row] 4 | I (in): 0 [table row] 4 | Ks: 1 [table row] 4 | Kcb: 0.33 [table row] 4 | Ke: 0.37 Irrigation Scheduling Methods: Checkbook vs FAO-56 | Land-Grant Press https://lgpress.clemson.edu Irrigation Scheduling Methods: Checkbook vs FAO-56 Published: Jun 5, 2026 | Printable Version (PDF) | Adarsha Neupane and Vidya Samadi LGP 1226 Irrigation scheduling addresses two critical questions: when to irrigate and how much water to apply. Providing the optimal amount of water at the right time enhances water use efficiency, leading to improved crop production, while minimizing water losses and ensuring sustainable water management. This article compares two widely used soil water balance-based irrigation scheduling methods—Checkbook and FAO-56—by evaluating their principles, advantages, and limitations, with a focus on how each method tracks and manages soil moisture. To illustrate their differences, we present example calculations demonstrating how each method estimates irrigation timing and amount. The Checkbook Method is widely adopted for its simplicity, while FAO-56 offers greater accuracy and is better suited for long-term irrigation planning. By presenting both approaches, followed by a practical “Which Method is Right for Me?” decision guide, this article serves as a valuable resource for farmers, extension specialists, and irrigation managers, helping them choose a method that aligns with their needs and management goals. Introduction Irrigation scheduling helps farmers decide when to irrigate and how much water to apply so that soil moisture stays at levels that support healthy plant growth. Too little water can cause water stress, which occurs when a plant’s water requirement exceeds water uptake from the soil, creating a water deficit in the crop root zone and reducing yields. Too much irrigation, on the other hand, can lead to waterlogging, where excess water fills the soil and prevents roots from getting enough oxygen, increasing disease risks in crops that are sensitive to low levels of soil oxygen, such as tobacco, maize, and potatoes. 1,2 Over-irrigation also wastes money on water, fertilizer, and labor, and can degrade groundwater quality through the leaching of nitrates, salts, and pesticides. 1,3 Efficient irrigation scheduling can significantly enhance water-use efficiency while reducing unnecessary losses. 4 Studies conducted in Nebraska have shown that proper irrigation scheduling can save up to 35% of water and energy costs. 5 Scheduling also becomes critical when water resources are limited, allowing irrigation managers to strategically apply water at growth stages where crops can tolerate moderate stress without significant yield reductions. Several irrigation scheduling tools are available, from soil moisture sensors (e.g., soil probes) to soil water balance (SWB) methods. Soil moisture sensors provide real-time data, enabling farmers to decide whether irrigation is needed. SWB methods, on the other hand, track soil moisture by recording all water inputs (e.g., irrigation, rainfall) and outputs (e.g., crop water use). These methods estimate soil moisture status without requiring expensive sensors, making them a cost-effective alternative. Two widely used SWB methods are: The Checkbook Method – A manual, spreadsheet-based approach that estimates soil moisture changes using crop water use (ETc), rainfall, and irrigation inputs. It simplifies the soil water balance by relying on fixed assumptions for crop water use. The FAO-56 Method – A standardized approach that separately accounts for transpiration from vegetation and evaporation from soil. It provides a more comprehensive soil water balance by dynamically tracking soil moisture while considering crop growth stages, changes in root zone depth, and crop water stress. While the FAO-56 Method relies on software programs like CROPWAT 6 or the FAO ETo calculator, 7 the Checkbook Method can be done by hand with pen and paper, or with a simple spreadsheet. The choice between Checkbook and FAO-56 methods has implications not only for farmers and irrigation managers but also for extension specialists, extension agents, and policymakers involved in sustainable irrigation planning. While farmers prefer the Checkbook Method for its simplicity, its lack of precision can lead to errors in scheduling and potentially impact crop yields. In contrast, FAO-56 provides a more systematic approach, making it a valuable tool for effective irrigation scheduling and water management decisions in large-scale agricultural operations. This publication compares these two SWB-based scheduling methods and provides guidance on selecting the most appropriate approach based on management needs and the desired level of accuracy. Definition of Key Terms Term Definition (Crop) Water Demand Amount of water a crop needs for optimal growth under ideal conditions, assuming no water stress. (Crop) Water Use / Crop Evapotranspiration (ETc) Amount of water lost through evaporation from the soil surface and transpiration from plant leaves, representing the total amount of water used by the crop. (Crop) Water Stress Condition when soil moisture is insufficient to meet crop water demand, causing reduced growth and water use. Runoff Portion of rainfall and irrigation water that flows over the soil surface instead of infiltrating into the soil. Deep Percolation Downward movement of water beyond the root zone when soil water exceeds its storage capacity and is no longer available to plants. Capillary Rise Upward movement of water from groundwater into the root zone through small pores in the soil, similar to water climbing up a paper towel dipped in a glass of water. Field Capacity Amount of water remaining in soil after excess water has drained away, similar to a sponge that is fully soaked and cannot hold any more water. Wilting Point Soil water content below which plants cannot extract water, causing permanent wilting. Total Available Water (TAW) Total water available to plants within the root zone. Readily Available Water (RAW) Portion of TAW that can be used by plants without causing water stress. Soil Water Depletion Fraction (p) Ratio of RAW to TAW that defines when a crop begins experiencing water stress. Management Allowed Depletion (MAD) Fraction of TAW that can be depleted before irrigation is applied. Reference Evapotranspiration (ETo) Evapotranspiration rate from a reference surface of dense, actively growing grass, about 0.12 m tall and not short of soil water. (Single) Crop Coefficient (Kc) Factor used to convert ETo into ETc, reflecting crop type and growth stage. Basal Crop Coefficient (Kcb) Portion of the crop coefficient that represents water loss through plant transpiration only. Evaporation Coefficient (Ke) Portion of the crop coefficient that represents water loss due to evaporation from the soil surface. (Water) Stress Coefficient (Ks) Factor that reduces crop water use when soil moisture falls below the RAW level. Checkbook Method The Checkbook Method of irrigation scheduling allows farmers to monitor daily soil water balance by tracking crop water use, rainfall, soil moisture deficit, and irrigation in terms of inches or millimeters (mm) of water. 3 In simple terms, this method functions like managing a checking account: water added to the soil through irrigation or rainfall acts as a deposit, while water lost through crop water use, also known as crop evapotranspiration (ETc), functions as a withdrawal. 8,9 Just as maintaining a balanced checkbook prevents overspending, tracking soil moisture helps to ensure that plants receive the right amount of water at the right time. Many farmers prefer this method due to its simplicity—it requires tracking only a few key components and allows for manual recording of daily changes to calculate soil water deficits using structured, easy-to-follow steps. However, it has several limitations. It does not account for water losses due to deep percolation and runoff, and relies on a simplified representation of soil water balance processes. Additionally, it does not consider root depth variations. These limitations make the Checkbook Method less precise, leading to suboptimal irrigation scheduling. Therefore, this method is generally more suitable for simpler applications where ease of use is prioritized over precision. There are various irrigation scheduling tools available that utilize the Checkbook Method. Printable soil water balance sheets that can be manually filled out and used in the field by farmers are available in Scherer 8 and Melvin 9 and can also be downloaded from the MSU’s Soil Water Balance Sheet. 10 A spreadsheet-based version, MSU Irrigation Scheduler, can be downloaded from MSU’s website. 10 Additionally, Irris Scheduler, developed by Purdue University’s Department of Agronomy, is a software tool designed for irrigation scheduling and is available at Purdue Irrigation Scheduler. 10 To successfully implement this method, three key components must be determined: (1) available water capacity (AWC) and management allowed depletion (MAD), (2) crop water use, and (3) rainfall and irrigation amounts. By monitoring these values, farmers can easily assess soil moisture levels daily and determine when irrigation is necessary. Available Water Capacity and Management Allowed Depletion Soil acts as a reservoir, holding water from rainfall and irrigation. However, once it reaches field capacity, any excess water either percolates deeper into the ground or runs off into nearby water bodies. This means over-irrigation beyond field capacity wastes both water and energy and can cause environmental degradation. While soil moisture is available to plants, not all of it can be extracted. As plants use soil moisture, the water content decreases until it reaches the wilting point—when water is so tightly bound to soil particles that plant roots can no longer absorb it. Beyond this point, crops experience severe water stress and may not survive. The difference between field capacity and wilting point determines the AWC, which varies based on soil type. AWC, thus refers to the total amount of water stored in the soil that is accessible for plant uptake. Farmers can find AWC values for their specific soil type using the NRCS Soil Survey. 11 While AWC indicates the amount of water the soil can store for plants, the total available water (TAW) refers to how much of that water is actually held within the crop’s rooting depth. To prevent excessive crop stress, however, irrigation should be applied before the soil moisture reaches the wilting point. Growers and irrigation managers usually allow a certain percentage of available soil water to be depleted before irrigation is necessary—this is called the MAD. They typically set MAD at 50% of TAW, although it may range from 40% to 60% depending on crop type, to ensure irrigation is scheduled before moisture levels become critically low. When planning irrigation schedules, they typically select a specific MAD value for the entire growing period. Crop Water Use Crop water use, also known as crop evapotranspiration (ETc) is a crucial indicator of a crop’s water demand throughout its growth cycle. Understanding ETc helps farmers and irrigation managers optimize irrigation schedules to ensure crops receive the right amount of water at the right time. In the Checkbook Method, several approaches are used to estimate ETc, with the choice depending on data availability and accuracy requirements. One approach is to use local crop water use curves, which estimate a crop’s water usage at various growth stages. Because crop water use is strongly influenced by local climate, the magnitude of these curves can vary considerably from one region to another. For this reason, irrigation scheduling is generally more accurate when locally developed crop water use curves are available. Figure 1, adapted from Evans et al., 12 shows a typical corn water use curve across its development. The curve indicates that corn uses water nearly three times more during the pollination period (65-75 days after planting, ~0.25 inch per day) compared to the knee-high stage (35-40 days after planting, ~0.08 inch per day). Similarly, crop water use tables provide empirically derived ETc estimates for specific crops using growth stage and maximum temperature categories. Interested readers can refer to Tables 6 to 14 of Scherer et al., 8 which provide average daily water use for irrigated crops in North Dakota across different growth periods. While these methods are simple and easy to implement, they vary based on location, as local weather conditions influence crop water demand. Another method for estimating ETc is using pan evaporation (Ep), which involves measuring the evaporation of water from a standardized pan. This value can be obtained from weather stations and is multiplied by the pan coefficient (Kp) to determine ETc. Although this method can be useful, it is less commonly applied because weather stations that measure Ep are often located far from the farm, making these values unreliable for localized irrigation scheduling. Figure 1. Corn daily water use curve at different growth stages (adapted from Evans et al.12). The most widely used method for estimating ETc is based on ETo. ETo values are provided by the National Weather Service (NWS), which even offers a 7-day forecast of ETo across the U.S. through its Graphical Forecasts website. 13 ETc is then calculated by multiplying ETo with a crop coefficient (Kc). This approach, known as the single crop coefficient method in FAO-56, has been integrated into the Checkbook Method’s soil water balance sheets, making it widely used by farmers and irrigation managers. As shown in Figure 2, Kc values vary with the growth stage of a crop. Early in the season, when the plant canopy is small, crop water use (ETc) is low, and Kc values are correspondingly small (K c ini ). As the plant develops, ETc increases and reaches its maximum when the canopy is fully developed (K c mid ). Toward the end of the season, as the crop reaches physiological maturity, water use declines again (K c end ). These seasonal patterns are reflected in Table ",
+  "links": [
+    {
+      "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/",
+      "label": "Skip to main navigation"
+    },
+    {
+      "url": "https://my.clemson.edu/",
+      "label": "Phonebook"
+    },
+    {
+      "url": "https://iamatiger.clemson.edu/home",
+      "label": "Make a Gift"
+    },
+    {
+      "url": "https://lgpress.clemson.edu",
+      "label": ""
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agriculture/",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agribusiness/",
+      "label": "Agribusiness"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agronomic-crops/",
+      "label": "Agronomic Crops"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agronomic-crops/corn/",
+      "label": "Corn"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agronomic-crops/cotton/",
+      "label": "Cotton"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agronomic-crops/peanut/",
+      "label": "Peanut"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agronomic-crops/sorghum/",
+      "label": "Sorghum"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/soybean/",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agronomic-crops/tobacco/",
+      "label": "Tobacco"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/horticulture/",
+      "label": "Horticulture"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/horticulture/watermelon/",
+      "label": "Watermelon"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/livestock/",
+      "label": "Livestock"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/forages/",
+      "label": "Forages"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/health/",
+      "label": "Health"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/food-systems-and-safety/",
+      "label": "Food Systems and Safety"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/nutrition/",
+      "label": "Nutrition"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/natural-resources/",
+      "label": "Natural Resources"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/forestry/",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/water/",
+      "label": "Water"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/water/ponds/",
+      "label": "Ponds"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/youth/",
+      "label": "Youth"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/agricultural-education/",
+      "label": "Agricultural Education"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/youth/4-h-curricula/",
+      "label": "4-H Curricula"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/category/teaching-section/",
+      "label": "Teaching Section"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/about/",
+      "label": "About"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/about/for-authors/",
+      "label": "For Authors"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/about/for-authors/cooperative-extension-series/",
+      "label": "Cooperative Extension Series"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/about/for-authors/cafls-ts-submittals/",
+      "label": "Teaching Section"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/contact/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/about/didnt-find-what-you-were-looking-for/",
+      "label": "Didn’t find what you were looking for?"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/wp-content/uploads/sites/3/2026/06/figure-of-a-graph-of-corn-daily-water-use-curve-at.png",
+      "label": ""
+    },
+    {
+      "url": "https://lgpress.clemson.edu/wp-content/uploads/sites/3/2026/06/figure-of-a-graph-showing-schematic-crop-coefficie.png",
+      "label": ""
+    },
+    {
+      "url": "https://www.fao.org/4/x0490e/x0490e00.htm",
+      "label": "https://www.fao.org/4/x0490e/x0490e00.htm"
+    },
+    {
+      "url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+      "label": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling"
+    },
+    {
+      "url": "https://www.fao.org/land-water/databases-and-software/cropwat/en/",
+      "label": "https://www.fao.org/land-water/databases-and-software/cropwat/en/"
+    },
+    {
+      "url": "https://www.fao.org/land-water/databases-and-software/eto-calculator/en/",
+      "label": "https://www.fao.org/land-water/databases-and-software/eto-calculator/en/"
+    },
+    {
+      "url": "https://extensionpubs.unl.edu/publication/ec709/2009/pdf/view/ec709-2009.pdf",
+      "label": "https://extensionpubs.unl.edu/publication/ec709/2009/pdf/view/ec709-2009.pdf"
+    },
+    {
+      "url": "https://www.ncdc.noaa.gov/cdo-web/search",
+      "label": "https://www.ncdc.noaa.gov/cdo-web/search"
+    },
+    {
+      "url": "https://digital.weather.gov",
+      "label": "https://digital.weather.gov"
+    },
+    {
+      "url": "https://smallfarms.oregonstate.edu/system/files/how_to_use_web_soil_survey_to_assess_soil_available_water_holding_capacity_0.pdf",
+      "label": "https://smallfarms.oregonstate.edu/system/files/how_to_use_web_soil_survey_to_assess_soil_available_water_holding_capacity_0.pdf"
+    },
+    {
+      "url": "https://www.ndsu.edu/agriculture/sites/default/files/2024-02/ae792.pdf",
+      "label": "https://www.ndsu.edu/agriculture/sites/default/files/2024-02/ae792.pdf"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/author/adarsha-neupane/",
+      "label": "Adarsha Neupane"
+    },
+    {
+      "url": "https://www.clemson.edu/cafls/faculty_staff/profiles/adarshn",
+      "label": "Adarsha Neupane"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/author/vidya-samadi/",
+      "label": "Vidya Samadi"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/all-publications/",
+      "label": "See Complete List of Publications"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/publication/homemade-hydraulic-ram-pump-for-livestock-water/",
+      "label": "Homemade Hydraulic Ram Pump for Livestock Water"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/publication/the-importance-of-headwater-streams/",
+      "label": "The Importance of Headwater Streams"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/publication/south-carolinas-coastal-habitats-and-regional-comparison/",
+      "label": "South Carolina’s Coastal Habitats and Regional Comparison"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/publication/valuing-ecosystem-services-of-coastal-marshes-and-wetlands/",
+      "label": "Valuing Ecosystem Services of Coastal Marshes and Wetlands"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/publication/water-systems-safety-during-the-covid-19-pandemic/",
+      "label": "Water Systems Safety During the COVID-19 Pandemic"
+    },
+    {
+      "url": "https://hgic.clemson.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://clemson.edu/extension",
+      "label": ""
+    },
+    {
+      "url": "https://www.clemson.edu/extension/about/legal.html",
+      "label": "Civil Rights"
+    }
+  ],
+  "fetched_at": "2026-10-28T10:40:56.016826+00:00",
+  "sha256": "8d25807c682acba49b57c1bd3e9507172d500452ea49084adc9ae19eecc01ed7",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

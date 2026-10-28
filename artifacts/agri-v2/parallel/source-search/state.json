@@ -1,9 +1,479 @@
 {
   "version": 1,
   "backend": "tavily",
-  "updated_at": "2026-10-28T09:27:00.607275+00:00",
+  "updated_at": "2026-10-28T10:47:57.793306+00:00",
   "cooldown_until_epoch": 0.0,
   "cache": {
+    "567ec551ce83b0c748d51760e2a0db564d72f4860c5cce7caeaea14042d525b5": {
+      "checked": 1793184065.969805,
+      "results": [
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "| Crop | MAD (%) | Soil water  tension  (kPa or cb) | Loamy sand  (%) | Sandy loam  (%) | Loam  (%) | Silt loam  (%) | Clay loam  (%) |\n| Alfalfa | 50-60 | 80-150 | 12 | 15 | 20 | 23 | 24 |\n| Cantaloupe  /melons | 40-45 | 35-40 | 12 | 16 | 21 | 24 | 25 |\n| Carrots | 35 | 55-65 | 13 | 17 | 22 | 25 | 25 |\n| Corn | 50-55 | 50-80 | 12 | 15 | 20 | 23 | 24 |\n| Cotton | 65 | 100-120 | 10 | 13 | 17 | 20 | 22 |\n| Small grain  (vegetative stage) | 50 | 40-50 | 12 | 15 | 20 | 23 | 24 | [...] Table 2 presents MAD values for different crops, as well as the soil water tension and volumetric water content values at which these depletion levels occur. These values should be taken as general guidelines because the optimal irrigation threshold will vary depending on crop type, soil conditions, and management practices. For instance, drought-resistant varieties should be resistant to higher levels of depletion than what is indicated in this table. Irrigation events on large fields with [...] | Soil condition | Loamy sand | Sandy loam | Loam | Silt loam | Clay loam |\n| Field capacity | 10 | 15 | 20 | 20 | 25 |\n| Typical irrigation threshold | 25-30 | 30-40 | 35-50 | 40-60 | 60-80 |\n\nTable 1b. Volumetr"
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "Maximum allowable depletion (also called \"management allowed depletion\" or MAD) specifies the maximum amount of soil water the irrigation manager allows the crop to extract from the active rooting zone between irrigations. Only a portion of the available water-holding capacity is easily used by the crop before crop water stress develops. A soil’s MAD is less than its total AWC. [...] MAD is usually expressed as a percentage of the total available water capacity in the rooting zone. It needs to be converted to inches of soil water for a specific crop and soil situation. To convert depletion percentage to inches of water, multiply the given depletion percentage by the total available water in the root zone.\n\nFor example, if a 30 percent depletion limit is desired for a soil holding 3.50 inches of water, the depletion level in inches of soil water would be 1.05 inches: [...] For irrigation scheduling, whenever the soil water deficit is equal to or higher than MAD, irrigation should be triggered. Irrigation amounts should refill the rooting zone to field capacity while also leaving some room for possible precipitation.\n\n## Crop rooting depth\n\nImage 14: soil water extraction pattern gra"
+        },
+        {
+          "url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors",
+          "title": "Irrigation Scheduling Using Soil Water Tension Sensors - Alabama Cooperative Extension System",
+          "description": "Advances in research, sensing, and computing technology have resulted in development of irrigation scheduling tools to make irrigation decisions easier for farmers. Among the most used tools are soil water matric potential sensors, or soil water tension sensors (figure 1). These sensors deliver data that relate tension values to crop-available water. [...] The amount of water that a soil can hold is determined by the difference between volumetric soil moisture at field capacity and permanent wilting point. Heavy- textured soils present a soil water holding capacity in the order of 1.5 to 2 inches per foot of soil, while light- textured soil holds much less water, in the order of 0.8 to 1 inch per foot of soil.\n\n# Using Soil Water Tension Sensors to Track Soil Water Status [...] the irrigation trigger threshold."
+        }
+      ]
+    },
+    "b70c77bd25dd96c08791f6e2e3ded7a36a2b6c481ab7b61b7cd2acfdd21a2b0f": {
+      "checked": 1793184062.6311185,
+      "results": [
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+          "title": "Soil moisture sensors for irrigation scheduling | UMN Extension",
+          "description": "Three moisture sensors are installed at depths of 1 foot, 2 feet and 3 feet (Column A).\n The soil moisture sensor reads 0.13, 0.10 and 0.10 (or 13%, 10% and 10%) for 1, 2 and 3 foot depths, respectively (Column E).\n Available water holding capacity (AWC) from the Web soil survey is 0.70, 0.09 and 0.07 for 1, 2 and 3 foot depths, respectively (Column D).\n Measured field capacity (FC) is 0.16, 0.15 and 0.10 in./in. for 1, 2 and 3 foot depths, respectively (Column C). [...] \\Soil deficit at 1500 Cbs is equal to total available soil water capacity.\n\n## Sensor installation and placement\n\nSensors should be placed at several different depths and locations in the field. Typically, sensors are placed in pairs at one-third and two-thirds the depth of the crop root zone and at two or more locations in the field, preferably in the representative soil type away from high points, depressions and slopes. [...] The method of installation is dependent upon the design of the sensor. Follow the installation instructions given by the manufacturer. In general, soil moisture sensor installation is done in one of two ways:\n\n1. By digging a hole or a trench and installing sensors horizontally at different"
+        },
+        {
+          "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+          "title": "Guidance for Soil Moisture Sensor Selection: Market Analysis and Decision-Making Strategies | UA Cooperative Extension",
+          "description": "In-situ soil moisture sensors can be installed at different depths within the root zone, horizontally or vertically, depending on their designs and measurement requirements (individual sensors or multi-depth probes). The most common range of installation depths varies from 6 inches (0.15 m) to 60 inches (1.5 m) to capture reliable soil moisture fluctuations. It is important to follow the installation steps of the sensors as recommended by manufacturers to achieve the most accurate results. For [...] | Sensor | Technology | Depth Options |\n| HOBOnet Teros 12 | Capacitance | Single depth (4.5 in. length) |\n| Decent Lab DL-SMTP-001 | Capacitance | multi-depth (24-in. depth) |\n| Dragino LSE01 | Frequency Domain Reflectometry (FDR) | Single depth (7.7- in. depth) |\n| GroPoint 2625-ST | Time Domain Transmissivity (TDT) | multi-depth (up to 8 depths every 6 in.) |\n| Sensoterra single depth | Impedence (soil resistivity & capacitance) | Single depth (6-in, 12-in, 24-in, 36- in.) | [...] | AquaSpy® Legacy | Radio Frequency (RF) Permittivity | multi-depth (12 depths every 4 in.) |\n| HOBOnet HS10 | Capacitance | Single depth (6.5- in.) |\n| Pycno Terra Series | Capacitance | Multi-depth (3 dep"
+        },
+        {
+          "url": "https://www.aces.edu/blog/topics/crop-production/installation-of-soil-sensors-for-irrigation-scheduling",
+          "title": "Installation of Soil Sensors for Irrigation Scheduling - Alabama Cooperative Extension System",
+          "description": "Step 1 (figure 5). Dig a hole between two healthy plants that is slightly bigger than the sensor diameter (2.5 inches capacitance) and up to the deepest target depth for monitoring (48 inches for capacitance-based sensor). You can use a manual or engine-powered auger. Be careful not to open an oversize hole; air gaps will result in erroneous data. [...] When using this soil sensor for irrigation scheduling, keep available moisture within the green band and irrigate to increase available moisture to the full point. The water level in the soil profile from capacitance- based sensor probes is collected every 4 inches up to 48 inches soil depth. [...] Step 2 (figure 10). Insert TDR sensors horizontally with respect to the soil surface and perpendicular to the crop row. Use the installation guide provided by the manufacturer to prevent sensor rods from bending and ensure that rods are evenly separated during installation. Sensor readings will be affected if rods get bent. Install sensors from bottom to top; alternatively, the bottom sensor can be installed vertically. Repact soil using the same soil order/type extracted from the hole."
+        }
+      ]
+    },
+    "8a34e0f1017d803773bf87b36f3cc50880ca1e5dfcbf17761e071035f147e651": {
+      "checked": 1793184059.268967,
+      "results": [
+        {
+          "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+          "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+          "description": "Soil moisture was measured using neutron attenuation down to a 5-foot depth to schedule irrigation and quantify changes in stored soil water. ET was calculated using the soil water balance, which is the summation of irrigation (I), precipitation (P), deep percolation (DP), and seasonal soil water change (SWC). [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top 2.5 feet of the soil profile (Figure 4). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 4).\n\nGraph of soil volumetric water content for field peas in 2018 [...] Figure 4. Soil volumetric water content for chickpeas and field peas at planting and at harvest for dryland (DRY), deficit (DI) and fully irrigated (FI) treatments during the 2018 and 2019 growing seasons in Grant. The vertical line at the 2.5-foot depth separates topsoil (where most of the seasonal changes in soil water occurred) from subsoil.\n\n \n\n## Conclusions"
+        },
+        {
+          "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+          "title": "Chickpea Production",
+          "description": "6 of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. If weeds are present at harvest time, glyphosate (Roundup or other generics), paraquat (Gramoxone), saflufenacil (Sharpen), and flumioxazin (Valor) can be used for chickpea and weed desiccation. [...] aid to terminate the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] 4 The effective rooting depth of chickpea is no more than 30 inches and the crop uses water mostly from the top 12 inches of soil (6). Chickpea is a full-season crop that will continue to grow into August or even early September in many Montana locations. Depending on precipitatio"
+        },
+        {
+          "url": "https://www.ars.usda.gov/ARSUserFiles/30100500/Publications%202000-2009/2PDF%20Production%20Functions%20for%20Chickpea,%20Field%20Pea,%20and%20Lentil%20in%20the%20Central%20Great%20Plains.pdf",
+          "title": "Production Functions for Chickpea, Field Pea, and Lentil in ...",
+          "description": "soil depths gives average soil water use of 91 mm (SD 5 These legumes could be harvested successfully with 15 mm) for chickpea, 131 mm (SD 5 20 mm) for field a stripper header. The stripper header leaves greater pea, and 118 mm (SD 5 13 mm) for lentil. The low amounts of standing residue than a conventional com-value for chickpea is, in part, a consequence of the high bine header equipped with a cutter bar. The additional rainfall before harvest in 1999. [...] remaining at legume harvest would be 144, 104, and 124 mm for chickpea, field pea, and lentil. These amounts of remaining soil water should allow the use of these ning and ending soil water contents in the upper four legumes in rotation with winter wheat. [...] MATERIALS AND METHODS Studies were conducted with chickpea (‘UC5’), field pea (‘Profi’), and lentil (‘Brewer’) during the 1996–1999 growing seasons at the USDA Central Great Plains Research Station, 6.4 km east of Akron, CO (408099 N, 1038099 W; elevation of 1384 m). The soil is a Weld silt loam (fine, smectitic, mesic Aridic Argiustolls). Planting and harvest dates, seeding rates, Fig. 1. Plot layout for water use–yield studies."
+        }
+      ]
+    },
+    "a45bf708e2b5f6c7f3002cc1ff1c7e3b195a5ffd7c316d5fd54229f1999b180e": {
+      "checked": 1793184056.8458638,
+      "results": [
+        {
+          "url": "https://plant-pest-advisory.rutgers.edu/pre-harvest-water-requirements-under-the-produce-safety-rule",
+          "title": "Pre-Harvest Water Requirements Under the Produce Safety Rule — Plant & Pest Advisory",
+          "description": "Plant & Pest Advisory\n\nRutgers Cooperative Extension\n\nRutgers University\n\nNJAES\n\nPesticide User Responsibility\n\n Home\n Commercial Ag Updates\n On-Farm Food Safety\n Plant Diagnostic Lab\n\n Vegetable Crops\n  + Organic Production\n  + Disease Forecasting\n Fruit Crops\n Field, Forage & Livestock\n Landscape, Ornamentals, Nursery, & Turf\n Christmas Trees\n\nJuly 23, 2024 Wes Kline, Jennifer Matthews and Meredith Melendez\n\n# Pre-Harvest Water Requirements Under the Produce Safety Rule [...] Cooperating Agencies: Rutgers, The State University of New Jersey, U.S. Department of Agriculture, and Boards of County Commissioners. Rutgers Cooperative Extension, a unit of the Rutgers New Jersey Agricultural Experiment Station, is an equal opportunity program provider and employer. [...] The pre-harvest water (irrigation, spray water, frost protection, fertigation, dust abatement, etc.) requirements for the FSMA/PSR became effective on July 5, 2024, however this does not mean a grower needed to start complying on that date.  Compliance dates are staggered over the next three years depending on the size of the operation.  Farms having an inspection in 2024 should expect Subpart E to be discussed by inspec"
+        },
+        {
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+          "title": "FSMA Final Rule on Pre-Harvest Agricultural Water | FDA",
+          "description": "The final rule establishes requirements for systems-based pre-harvest agricultural water assessments for hazard identification and risk management decision-making. Covered farms - those that are subject to the requirements in the Produce Safety Rule – that use pre-harvest agricultural water for covered produce (other than sprouts) are required to conduct agricultural water assessments once annually, and whenever a significant change occurs that increases the likelihood that a known or [...] The FDA published a final rule that revises certain pre-harvest agricultural water provisions for covered produce (other than sprouts) in Subpart E of the FDA Food Safety Modernization Act (FSMA) Produce Safety Rule. Specifically, this rule replaces the previous microbial quality criteria and testing requirements for pre-harvest agricultural water for covered produce (other than sprouts) with requirements for systems-based, pre-harvest agricultural water assessments for hazard identification [...] ### 4. Compliance Dates\n\nThe rule establishes compliance dates for the pre-harvest agricultural water provisions for covered produce (other than sprouts) as follows:\n\n|  |  |  |\n --- \n| Large farms | 9"
+        },
+        {
+          "url": "https://extension.uconn.edu/publication/fsma-ag-rule-harvest",
+          "title": "FSMA Final Agricultural Rule on Pre-harvest and Post- ...",
+          "description": "This factsheet outlines the update on Subpart E pre-harvest agricultural water releases in 2024 and requirements for post-harvest activities, according to the"
+        },
+        {
+          "url": "https://extension.missouri.edu/news/fda-finalizes-the-preharvest-water-rule-what-does-it-mean-for-produce-growers",
+          "title": "FDA finalizes the preharvest water rule: What does it mean ...",
+          "description": "This article focuses on the final ruling made by the FDA on preharvest water. The postharvest water requirements of the rule remain unchanged."
+        }
+      ]
+    },
+    "91d1d0dc25ee86b227d8f32a8886d2efa054900b2f65a82ef93df341fb4fca4e": {
+      "checked": 1793184054.6260774,
+      "results": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+          "title": "Water-yield relationships for chickpea under different irrigation regimes in Gezira Scheme, Sudan",
+          "description": "regimes—including full irrigation and stage-specific deficit schedules—on chickpea (_Cicer arietinum_ L.) yield, seasonal actual crop evapotranspiration (ETc,act), and water productivity under Vertisols conditions. Full irrigation produced the highest yields (1816 and 1280 kg ha⁻¹), whereas deficits imposed during reproductive stages reduced yield by up to 33%. In contrast, a controlled vegetative-stage deficit (W3) saved 6% of seasonal irrigation water (35 mm) without significant yield"
+        },
+        {
+          "url": "https://ask.ifas.ufl.edu/publication/SS491",
+          "title": "SL 278/SS491: Crop Water Use and Irrigation Scheduling Guide for North Florida",
+          "description": "When calculating the irrigation demand, account for the irrigation system inefficiencies and amount of precipitation within the period under consideration. In this publication, adjustments were made to ETc values considering the irrigation system efficiency of 75%. In case irrigation system efficiency is more than 75%, adjust the irrigation application rate as Iadj:\n\nIadj = Chart Irrigation Application Rate (Tables 1 and 2) \\ 0.75/Actual Irrigation Efficiency [...] |  |  |\n --- |\n| Rooting depth (AMD) | Crop water use (inch per day) |\n|  | 0.04 | 0.08 | 0.12 | 0.16 | 0.2 | 0.24 | 0.28 |\n| Irrigation interval and application amount |\n| 3\"  MAD = 0.09\" | 0.11\" every 2 days | 0.11\" every 2 days | 0.16\" every 1 day | X | X | X | X |\n| 6\"  MAD = 0.18\" | 0.21\" every 4 days | 0.21\" every 2 days | 0.24\" every 1.5 days | 0.21\" every 1 day | 0.27\" every 1 day | 0.32\" every 1 day | X | [...] |  |  |\n --- |\n| Rooting depth (AMD) | Crop water use (inch per day) |\n|  | 0.04 | 0.08 | 0.12 | 0.16 | 0.2 | 0.24 | 0.28 |\n| Irrigation interval and application amount |\n| 3\"  MAD = 0.13\" | 0.16\" every 3 days | 0.11\" every 1 day | 0.16\" every 1 day | X | X | X | X |\n| 6\"  MAD = 0.25\" | 0.27\" every 5 days"
+        },
+        {
+          "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+          "title": "Irrigation Scheduling Methods: Checkbook vs FAO-56 | Land-Grant Press",
+          "description": "in Table 1, which provides Kc values together with approximate stage lengths for major agronomic crops at different growth stages, partially adapted from Allen et al.14 Using ETo for ETc calculations is advantageous because it accounts for local weather conditions, making the estimates more accurate. For example, even if crop water curves suggest high water use during peak growth, actual water demand may be lower on cool, humid days. This approach allows farmers to adjust irrigation schedules"
+        }
+      ]
+    },
+    "361e5fecc42f1423705b9894c7523f6d2494eea822e3bfc29396c5296bb9322d": {
+      "checked": 1793184051.4572618,
+      "results": [
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+          "title": "Irrigation water scheduling | OSU Extension Service",
+          "description": "1. Read the discharge directly in gpm.\n2. If discharge is provided in cubic feet per second (cfs), convert using:\n\n1 cfs = 448.8 gpm\n\nExample: Determining the flow rate using a bucket test\n\nFive sprinkler nozzles were tested on a wheel line. The average time to fill a 5-gallon bucket was 66 seconds.\n\n Flow rate = 5 gal/66 sec × 60\n Flow rate (gpm) = 4.5 gpm\n The average flow rate or discharge = 4.5 gpm [...] You should irrigate for approximately 10 hours per set to refill the plant-available water without overirrigating.\n\nImportant note:\n\nThis approach can be used for any sprinkler system once you know the flow rate, irrigated area and efficiency.\n\nThis process provides a quantitative foundation for irrigation scheduling and allows producers to adapt irrigation decisions to soil, crop and weather conditions.\n\nSection anchor \"advancing-water-management-skills\" [...] Unlike the wheel line example above, the pivot formula uses the total system flow (sum of all nozzle discharges) and the entire irrigated area covered during one complete revolution (Note: 1 acre = 43,560 square feet).\n\nGiven:\n\n Pivot rotation time: 24 hours\n Total system flow rate: 247 gpm\n Field area: 33 acres (1,437,4"
+        },
+        {
+          "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+          "title": "Irrigation Scheduling: The Water Balance Approach | Colorado State University Extension",
+          "description": "| 135 | 0.64 |  | 0.95 | 0.22 | 0.81 | 0.20 | 1.00 |  |\n| 140 | 0.58 |  | 0.95 | 0.22 | 0.80 | 0.20 | 0.96 |  | [...] Dc=Dp+ETc -P-Irr-U+SRO+DP [1]\n\nwhere Dc is the soil water deficit (net irrigation requirement) in the root zone on the current day, Dp is the soil water deficit on the previous day, ETc is the crop evapotranspiration rate for the current day, P is the gross precipitation for the current day, Irr is the net irrigation amount infiltrated into the soil for the current day, U is upflux of shallow ground water into the root zone, SRO is surface runoff, and DP is deep percolation or drainage. [...] during the stand establishment phase (June 1 to June 30), when the soil water deficit (Dc) becomes equal to or greater than 1.4 inches, then irrigation water must be applied. Similar calculations were done for the other growth phases in Table 4."
+        },
+        {
+          "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+          "title": "Irrigation Scheduling Methods: Checkbook vs FAO-56 | Land-Grant Press",
+          "description": "8. Melvin, S. R., & Yonts, C. D. (2009). Irrigation scheduling: Checkbook method (Extension Circular EC709). University of Nebraska–Lincoln Extension. \n9. National Centers for Environmental Information. (n.d.). Climate Data Online. National Oceanic and Atmospheric Administration. Retrieved August 2025, from \n10. National Weather Service. (n.d.). Graphical forecast. National Oceanic and Atmospheric Administration. Retrieved August 2025, from [...] 5. Food and Agriculture Organization of the United Nations. (n.d.). CROPWAT. Land & Water. Retrieved April 2026, from \n6. Food and Agriculture Organization of the United Nations. (n.d.). ETo calculator. Land & Water. Retrieved February 2025, from \n7. Kelly, L., Dong, Y., & Gradiz, A. (2025). Irrigation scheduling tools. Michigan State University Extension & Purdue University Extension. [...] 1. Allen, R. G., Pereira, L. S., Raes, D., & Smith, M. (1998). Crop evapotranspiration: Guidelines for computing crop water requirements (FAO Irrigation and Drainage Paper No. 56). Food and Agriculture Organization of the United Nations. \n2. Broner, I. (2005). Irrigation scheduling (Fact Sheet No. 4.708). Colorado State University Extension."
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "Fischbach, P.E. (editor) 1988. Irrigation Scheduling—Management Handbook. Cooperative Extension Service, University of Nebraska.\n\nStegman, E.C. 1988. Chapter V. _Water Management._ Best Management Practices Manual for Oakes Irrigation Area. North Dakota State University.\n\nAuthor: Vasudha Sharma, Extension irrigation specialist [...] Skip to navigationSkip to main contentSkip to footer\n\nImage 1: Extension Logo\n\nImage 2: Extension Logo\n\nUniversity of Minnesota Extension  \nextension.umn.edu\n\n× \"Clear search box\")\n\n    About Toggle submenu \n\nImage 3: A university researcher and participant discuss weeds in a research crop field   ## Building a stronger Minnesota together\n\nBringing Minnesotans together to build a better future through University science-based knowledge, expertise and training.       \n\n        Our work [...] The Irrigation Management Assistant (IMA) helps Minnesota growers improve irrigation efficiency across a variety of crops, including corn, soybean, potato, and other irrigated crops. The tool works best when using precipitation data near your field and is optimized for Minnesota conditions.\n\n Sources \n\nAl-Kaisi, M.M, I. Broner and A.A. Andales. 2014. Crop water use a"
+        }
+      ]
+    },
+    "f440f0a929d1886eedc3cbe6bbe95095d3de546d16112f53aa2fdfe26ead2273": {
+      "checked": 1793184049.0059247,
+      "results": [
+        {
+          "url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
+          "title": "Estimating First Crop Alfalfa Harvest using PEAQ | Integrated Crop Management",
+          "description": "Photo 1. Measuring the tallest alfalfa stem. Photo by Josh Michel, Iowa State University\n\nSteps for using PEAQ to determine when to harvest first crop alfalfa\n\nStep 1.Choose a representative two square foot area in the field.\n\nStep 2.Determine the stage of the most mature stem as defined in Table 1. [...] Authored by\n\nShelby Gruss\n\nShelby Gruss\n\n Assistant Professor\n Forage Extension Specialist [...] Iowa State University Extension and Outreach maintains a PEAQ website that includes a fact sheet to explain how to use the PEAQ method to determine when to harvest first crop alfalfa. This website also includes postings of PEAQ values from alfalfa fields across Iowa that are monitored by Iowa State University Extension and Outreach staff. Following these reports is helpful in tracking alfalfa development, but remember that crop conditions vary field-by-field. Therefore, it is recommended to"
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2022/08/do-stem-and-plant-density-predict.html",
+          "title": "Do stem and plant density predict alfalfa yield?",
+          "description": "Our results with seedling to second year healthy alfalfa stands showed that stem density was a better predictor of yield than plant density."
+        },
+        {
+          "url": "https://dairy.osu.edu/newsletter/buckeye-dairy-news/volume-13-issue-2/estimating-alfalfa-ndf-field",
+          "title": "Estimating Alfalfa NDF in the Field | Ohio Dairy Industry Resources Center",
+          "description": "The Ohio State University\n\n Help\n BuckeyeLink\n Map\n Find People\n Webmail\n Search Ohio State\n\nCFAES Give Today\n\nOhio Dairy Industry Resources Center \n\nOhio Dairy Industry Resources Center  \n \n\nCFAES Logo\n\nOhio State University Extension\n\nCFAES\n\n# Estimating Alfalfa NDF in the Field\n\n## Breadcrumb Menu\n\nHome  //  Buckeye Dairy News  //  Volume 13 Issue 2  //  Estimating Alfalfa NDF in the Field\n\nDr. Mark Sulc, Forage Extension Specialist, The Ohio State University [...] First harvest of alfalfa is fast approaching. Timely cutting is critical for obtaining high quality forage. For lactating dairy cows, the optimal NDF of pure alfalfa ranges from 35 to 42%. You can quickly and easily estimate the forage NDF of alfalfa as it stands in your fields using the method outlined below. This method, developed at the University of Wisconsin, has been referred to as PEAQ, for Predictive Equations for Alfalfa Quality. [...] The PEAQ method is designed for pure alfalfa stands and will not accurately reflect the NDF concentration of mixed grass-alfalfa stands or weedy stands. If grass is present in the alfalfa stand, begin harvesting earlier. As a reference point, pure grass stands should be cut in "
+        },
+        {
+          "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8299HarvestStrategies_free.pdf",
+          "title": "Harvest Strategies for Alfalfa",
+          "description": "PEAQ A variation of this system, which is easier to use, was developed to predict the for­ age quality of alfalfa. The system is called Predictive Equations for Alfalfa Quality (PEAQ). This method uses the numeric growth stages, as determined by the scoring system described in Chapter 3. The PEAQ method involves evaluat­ ing only the most mature stem in a sample and the height of the single tallest stem to predict the forage quality of a standing alfalfa crop. PEAQ has worked well to predict [...] yield increased from 65–221 pounds (29–100 kg) of dry mat­ ter per acre (33–112 kg/ha) per day as alfalfa matured from the vegetative pre-bud stage to full bloom (Fig. 13.4). [...] Harvest Strategies for Alfalfa Steve B. Orloff Farm Advisor, University of California Cooperative Extension, Yreka, CA Daniel H. Putnam Forage Extension Specialist, Department of Plant Sciences, University of California, Davis H arvest management decisions are critical to the profit­ ability of an alfalfa crop. The timing of alfalfa harvests is the primary method by which growers can influence the nutritional quality of alfalfa hay. Additionally, harvest timing has a profound influence on forage"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.931403/full",
+          "title": "Frontiers | Yield gap analysis of rainfed alfalfa in the United States",
+          "description": "was determined by equating derivative of frontier yield with respect to GSR to zero, and solving the equation for this particular rainfall amount returns the maximum yield value. The quadratic nature of this function is justified as Ya is expected to decline at lower or greater rainfall amounts due to insufficient or excessive water supply or harvesting losses due to continuous or heavy rainfall during harvesting time. [...] | Wisconsin | 107 (16-Apr) | 300 (25-Oct) | 193 ± 14 | 22.1 ± 1.1 | 10.5 ± 1.1 | 16.3 ± 0.8 | 2,155 ± 210 |\n| Mean | 98 (7-Apr) | 302 (28-Oct) | 204 ± 22 | 24 ± 0.8 | 110 ± 0.9 | 18 ± 0.8 | 2,530 ± 422 | [...] 122\n\nWellsS.HolenD.SheafferC. (2018). Alfalfa establishment: steps to maximize yield. University of Minessota Extension. Available at:  (Accessed September 24, 2021).\n\n123\n\nWolfD.BlaserR. (1972). Growth rate and physiology of alfalfa as influenced by canopy and light 1. Crop Sci.12, 23–26. doi: 10.2135/cropsci1972.0011183X001200010008x\n\n124"
+        },
+        {
+          "url": "https://bookstore.ksre.ksu.edu/pubs/alfalfa-production-handbook_C683.PDF",
+          "title": "C683 Alfalfa Production Handbook - KSRE Bookstore",
+          "description": "1 WK.\nKansas State University Agricultural Experiment Station and Cooperative Extension Service C683 (Revised) October 1998 K-State Research and Extension is an equal opportunity provider and employer. Issued in furtherance of Cooperative Extension Work, Acts of May 8 and June 30, 1914, as amended. Kansas State University, County Extension Councils, Extension Districts, and United States Department of Agriculture Cooperating, John D. Floros, Director. [...] Alfalfa is generally considered more responsive to sulfur than other common agronomic crops. Soil testing to determine sulfur and organic-matter levels is needed to make a sulfur recommendation. Sulfur should be applied based on this equation: Srec = (YG × 6) – SOM – SH2O – SMan – SST, where YG = yield goal, SOM = sulfur in organic matter (2.5 pounds of sulfur per 1 percent organic matter), SH2O = sulfur in irrigation water, and SST = soil-test sulfur. [...] Alfalfa Production Handbook Kansas State University Agricultural Experiment Station and Cooperative Extension Service Manhattan, Kansas 1 Contents Cultural Practices James P . Shroyer, Extension Specialist, Crop Production Paul C. St. Amand, Assistant Professor, Alfalfa Bree"
+        }
+      ]
+    },
+    "150929ef5e9ccb49cfcf98f45353ba3e8d093132efad17f4471a2f87f9a0343b": {
+      "checked": 1793184045.8121295,
+      "results": [
+        {
+          "url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+          "title": "Methods Available to Estimate Forage Quality — Extension and Ag Research News",
+          "description": "PEAQ (predictive equations for alfalfa quality): This method is based on an equation that uses the length of the tallest alfalfa stem and the stage of the most mature alfalfa plant (these likely will be two different plants) in the area sampled. The current modified PEAQ method uses a scale of three stages of maturity (late vegetative, bud and flower). Measuring sticks, calibrated for the three plant maturity stages, are used to obtain estimates of NDF. [...] Use the PEAQ stick or GDD to predict NDF for the first-cutting alfalfa harvest. Only the PEAQ stick should be used for the second cutting. Do not use the PEAQ or GDD method for the third cutting.\n Begin cutting alfalfa at 40 percent NDF (750 GDD, base 41 F) for upright silos and 38 percent NDF (680 GDD, base 41F) for horizontal silos. Start even earlier for horizontal silos if finishing the harvest takes more than a week.\n Do not use the GDD and PEAQ methods for fields containing grass. [...] The PEAQ and GDD methods were developed for pure stands of alfalfa. The NDF estimates from the PEAQ will not account for weeds or grasses in the stands, Schroeder says. Also, the PEAQ is not reliable for estimating NDF when alfalfa is ver"
+        },
+        {
+          "url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
+          "title": "Estimating the First-Crop Alfalfa Harvest using PEAQ | Integrated Crop Management",
+          "description": "To help producers better estimate the optimal harvest window, the University of Wisconsin developed the Predictive Equations for Alfalfa Quality (PEAQ) method. This method uses the height and maturity stage of the tallest alfalfa stem (vegetative, bud, or flower stage) to estimate relative feed value (RFV).\n\n## How to Use the PEAQ Method [...] Using PEAQ to determine your first cutting date is very important to ensure you are meeting animal requirements; lactating dairy cattle need RFV of 140 or greater, while cow-calf needs ~ 125 RFV. Using the PEAQ method helps ensure harvesting at the correct time, particularly as the first harvest can be approximately 40% of the year’s total yield. [...] | Tallest Stem Height (inches) | RFV - Stage of the Most Mature Stem |\n| Late Vegetative | Bud Stage | Flower Stage |\n| 16 | 237 | 225 | 210 |\n| 17 | 230 | 218 | 204 |\n| 18 | 224 | 212 | 198 |\n| 19 | 219 | 207 | 193 |\n| 20 | 211 | 201 | 188 |\n| 21 | 205 | 196 | 183 |\n| 22 | 200 | 190 | 178 |\n| 23 | 195 | 185 | 174 |\n| 24 | 190 | 181 | 170 |\n| 25 | 185 | 176 | 166 |\n| 26 | 180 | 172 | 162 |\n| 27 | 175 | 168 | 158 |\n| 28 | 171 | 164 | 154 |\n| 29 | 167 | 160 | 151 |\n| 30 | 163 | 156 | 147 |"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+          "title": "How to estimate alfalfa quality in the field using PEAQ | UMN Extension",
+          "description": "You can estimate alfalfa relative feed value (RFV) and neutral detergent fiber (NDF) levels with the Predictive Equations for Alfalfa Quality (PEAQ) system, which gives alfalfa producers a simple way to schedule harvests. A PEAQ stick can be a useful tool when implementing this approach.\n\nThe PEAQ stick is currently used in the central Minnesota Harvest Alert/Scissor Cut Program Link is external. [...] | 29 inches | 167 | 160 | 151 |\n| 30 inches | 163 | 156 | 147 |\n| 31 inches | 159 | 152 | 144 |\n| 32 inches | 155 | 149 | 140 |\n| 33 inches | 152 | 145 | 137 |\n| 34 inches | 148 | 142 | 134 |\n| 35 inches | 145 | 139 | 131 |\n| 36 inches | 142 | 136 | 128 |\n| 37 inches | 138 | 133 | 126 |\n| 38 inches | 135 | 130 | 123 |\n| 39 inches | 132 | 127 | 121 |\n| 40 inches | 129 | 124 | 118 | [...] | Length of tallest stem | Late vegetative % NDF | Bud stage % NDF | Flower stage % NDF |\n ---  --- |\n| 16 inches | 28.5 | 29.7 | 31.4 |\n| 17 inches | 29.2 | 30.4 | 32 |\n| 18 inches | 29.9 | 31.1 | 32.7 |\n| 19 inches | 30.6 | 31.8 | 33.4 |\n| 20 inches | 31.3 | 32.5 | 34.1 |\n| 21 inches | 32 | 33.2 | 34.8 |\n| 22 inches | 32.7 | 33.9 | 35.5 |\n| 23 inches | 33.4 | 34.6 | 36.2 |\n| 24 inches | 34 | 35.3 | "
+        }
+      ]
+    },
+    "6d99970444a5d43226ba4f6ed097fa449fa3c1ab87b935f29973ec68f6edcbfa": {
+      "checked": 1793184042.933317,
+      "results": [
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+          "title": "Irrigation water scheduling | OSU Extension Service",
+          "description": "Once we know how much water can be stored within the effective rooting zone (our bucket), we need to determine the amount of water that can be depleted before irrigation is required to avoid crop water stress.\n\nMaximum allowable depletion, or MAD, is the fraction of plant available water that can be removed from the soil through evapotranspiration (the evaporation from the soil and leaf surfaces plus the transpiration from the plant) before crop stress (Figure 3). [...] Using the previous example, we determined that pasture/hay grass has a maximum allowable depletion value of 60% (Table 1). We also determined that the soil within the effective root zone can store 2.8 inches of plant-available water.\n\nTo determine the maximum allowable depletion for pasture/hay:\n\n MAD = Storage in effective root depth (in) × Crop MAD % (Table1)\n MAD = 2.8 inches × 0.6\n MAD = 1.7 inches [...] Maximum allowable depletion: The fraction of plant-available water that can be depleted before irrigation is needed to prevent crop stress. Maximum allowable depletion is expressed as a percentage of available water capacity and varies by crop type and growth stage.\n\nPermanent wilting point: Water remains in the"
+        }
+      ]
+    },
+    "142acf2c4d58a603f2a38c4afd70d385043e94f8cc843be4209472de8955b2cd": {
+      "checked": 1793184040.3231573,
+      "results": [
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
+          "title": "Irrigation management | UMN Extension",
+          "description": "5. Initiate an irrigation when the soil water deficit is expected to approach the selected management allowable soil water depletion limit by the time the irrigation cycle is completed. [...] 1. Determine the crop’s active rooting depth and the corresponding available water-holding capacity for each soil type in the field.\n2. Select the predominant soil type(s) that should be used for irrigation water management purposes.\n3. Define the management allowable soil water depletion (MAD) limits for the selected soil types and the crop(s) to be grown.\n4. Establish a soil moisture monitoring system and regularly (at least twice a week) keep track of the soil water deficit or depletion. [...] When soil moisture drops below recommended thresholds, the IMA highlights the field and provides irrigation recommendations. All data and recommendations are field-specific and adjust automatically if you update irrigation, rainfall, or soil moisture values.\n\nAccessible on desktop, tablet, or smartphone, the IMA allows you to check your fields and update records from anywhere. You can also save fields for reuse each season, eliminating the need to redraw boundaries year after year."
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+          "title": "Alfalfa during drought",
+          "description": "Water budgeting approaches or “checkbook scheduling” involves monitoring soil moisture and determining daily crop water use through evapotranspiration (ET). Soil moisture can be monitored using moisture-sensing instruments. With alfalfa, irrigation typically begins with about 50% depletion of available water in the root zone.\n\nIrrigation scheduling considerations unique to alfalfa: [...] ©2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer.\n\n  \nImage 14: A QR code linking to the current webpage.  \n\nPlease scan the above QR code to visit the live webpage for links.\n\n✓\n\nThanks for sharing!\n\nAddToAny\n\nMore…\n\nBack to top [...] This website is available in English and Spanish.\n\n© 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer. This work is supported by the U.S. Department of Agriculture’s National Institute of Food and Agriculture.\n\nReport Web Accessibility Issues Link is external|Privacy Statement Link is external|Staff intranet Link is external"
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "Maximum allowable depletion (also called \"management allowed depletion\" or MAD) specifies the maximum amount of soil water the irrigation manager allows the crop to extract from the active rooting zone between irrigations. Only a portion of the available water-holding capacity is easily used by the crop before crop water stress develops. A soil’s MAD is less than its total AWC. [...] .30 x 3.50 inches = 1.05 inches\n\nSee management guidelines for developing a management plan and setting maximum allowable depletion (MAD) limits.\n\nThe following table lists recommended maximum allowable soil water depletion limits and management strategies for several irrigated crops grown in Minnesota. These recommendations resulted from several research projects in the North Central states and published guidelines from other states.\n\nOpen all|Close all\n\n Recommended MAD [...] that should be used for irrigation water management purposes.\n3.   Define the management allowable soil water depletion (MAD) limits for the selected soil types and the crop(s) to be grown.\n4.   Establish a soil moisture monitoring system and regularly (at least twice a week) keep track of the soil water deficit or depletion."
+        },
+        {
+          "url": "https://forevergreen.umn.edu/crops/alfalfa",
+          "title": "Alfalfa - Forever Green Initiative - University of Minnesota",
+          "description": "Alfalfa can be an important crop in a grower's rotation that aids in the protection of water and soil resources, enhances soil fertility, and sequesters soil"
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+          "title": "Irrigation management strategies",
+          "description": "To provide adequate soil moisture in the root zone to carry the crop to maturity without reducing yields. To deplete the soil moisture farther than normal (i.e."
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2026/10/prepare-your-alfalfa-field-for-winter.html",
+          "title": "Prepare Your Alfalfa Field for Winter",
+          "description": "Extension Wordmark\n\n# Minnesota Crop News\n\n### Search This Blog\n\n### Prepare Your Alfalfa Field for Winter\n\nBeatriz Bizzuti, Assistant Professor and Forage Extension Agronomist\n\nAs summer comes to an end and temperatures cool, it is time to start preparing the stand for winter.\n\n before the first killing frost. [...] ### The goal is a healthy stand next spring\n\nFall management is ultimately an investment in next year’s crop.  \n The decisions made now can influence how well alfalfa survives the winter and how quickly it resumes growth in the spring. We cannot change the weather, but we can change the stand management.  \n For more information on alfalfa winterkill, see the articles below.\n\nAlfalfa winter injury: Weather and management effects.\n\nPredicting alfalfa winter survival? [...] How much time remains before the first killing frost? The recommendation is to allow at least 5 to 6 weeks, or more than 900 growing degree days (GDDs, base 41ºF) between the last cut and the first killing frost. This interval allows plants to regrow and replenish crown and root carbohydrate reserves needed for winter survival and spring regrowth. Alternatively, harvesting within approximately 2 weeks "
+        }
+      ]
+    },
+    "00a528e0c839ef8fcadf3176e52ae66c71eb8afe3eb08725ecb9e5ff16616577": {
+      "checked": 1793184037.1206813,
+      "results": [
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "Soil moisture sensors can support irrigation scheduling by telling you how much water is present in your soil at any time. Irrigation should be applied when soil moisture levels drop below a minimum threshold. Enough water should be applied so that soil moisture levels increase across the root zone of the plant, but not so much that water runs off or drains below the root zone. Soil moisture sensors can help determine when, how much, and how quickly irrigation should be applied. However, this [...] Using soil sensors for irrigation requires determining an irrigation threshold that is suitable for the soil, crop, and management choices for the field being irrigated. Irrigation thresholds are sometimes based on soil water tension values for different soil types (table 1). However, a limitation with this approach is that it bases irrigation decisions on the soil dryness alone rather than on the impact that soil dryness has on the crop. An alternative approach to irrigation scheduling is [...] | Crop | MAD (%) | Soil water  tension  (kPa or cb) | Loamy sand  (%) | Sandy loam  (%) | Loam  (%) | Silt loam  (%) | Clay loam  (%) |\n| Alfalfa | 50-60 | 80-150 | 12 | 15 | 20 | 23 | 24 |\n| Can"
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+          "title": "Soil moisture sensors for irrigation scheduling | UMN Extension",
+          "description": "Soil/site specific calibration usually required.\n Very expensive (~$10,000)\n Heavy\n Contains radioactive material (safety hazard). Licensing is required.\n Manual reading and recording (~3 min./access tube)\n Not good at shallow depths (<6 inches)\n\n##### Cost\n\n ~$10,000 and $25-30 for access tubes\n\n#### Tensiometers\n\n(Irrometer tensiometers, etc.)\n\n##### Advantages\n\n Inexpensive.\n Not affected by salinity.\n Comes in different lengths.\n\n##### Disadvantages [...] ##### Advantages\n\n Response time is very fast\n Remote access available\n Very accurate if site calibrated\n Less expensive than TDR\n Can be used in high saline soils compared to TDR\n\n##### Disadvantages\n\n Small sensing area\n Affected by soil conditions - salinity, clay content, temperature, bulk density\n Site/soil specific calibration preferred\n\n##### Cost\n\n $250-350 per sensor\n Data logger is $500-2,500\n\n#### TDR\\\n\n(Acclima true TDR 315, 315L, 310 S; Spectrum Field Scout TDR; CS 655, 650 tec) [...] Charts like Table 1 can also be used to convert the tension readings from sensors to soil water deficit values. Then these soil water deficit values can be used for irrigation scheduling as shown in example calculations at the end of"
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+          "title": "Soil moisture monitoring to support irrigation scheduling | OSU Extension Service",
+          "description": "For additional guidance on installation and operation, see Tensiometers: Installation and Operation.\n\nTable 1. Approximate tensiometer readings at different soil moisture levels for various soil textures\n\n| Soil type | Saturated soils (cbars) | Field capacity (cbars) | Typical irrigation threshold (cbars) | cbars) |\n| Loamy sand/sandy loam | 0–10 | 10–15 | 20–30 | 45–60 |\n| Loam/silt loam | 0–10 | 20–30 | 30–50 | 50–70 |\n| Clay loam/clay | 0–10 | 30–40 | 50–60 | 60–100 | [...] Install sensors within the effective rooting depth of your crop.\n Monitor at least two to three soil depths to capture soil water distribution.\n  + For deep-rooted crops such as alfalfa, consider installing the sensors at 1-foot increments up to 3 feet.\n  + For shallow-rooted crops, two depths are typically sufficient.\n Multidepth monitoring allows detection of:\n  + Overirrigation (deep percolation)\n  + Shallow drying\n  + Root-zone depletion patterns [...] | Capacitance |  Continuous measurement can be collected with data logger  Response time is very fast  Remote access available  Accurate if site calibrated (2%–3%)  Less expensive than time domain reflectometry  Can be used in high-saline soils compared to "
+        }
+      ]
+    },
+    "de1023871341632a42e590d67deff68ab5fd4a68edb1118c32c065ff2ccb32b1": {
+      "checked": 1793184034.7271366,
+      "results": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s13593-023-00903-x",
+          "title": "Effect of soil water on flowering and pod-set in chickpea: implications for modelling and managing frost and heat stress | Agronomy for Sustainable Development | Springer Nature Link",
+          "description": "In this study, we extended the effect of soil water influencing pod-set timing. Currently, pod-set in the chickpea crop is mainly limited by the mean ambient temperature below 15 °C when soil moisture is adequate (Croser et al. 2003 Low-temperature stress: implications for chickpea (Cicer arietinum L.) improvement. Crit Rev Plant Sci 22(2):185–219\")). The later work from Western Australia indicated this threshold to be 21 °C (Berger et al. 2012 Temperature-stratified screening of chickpea [...] TT (°Cd) is the daily thermal time, and TTm (°Cd) is the thermal time scaled by fractional available soil water (FASW) in the surface 60 cm layer from the emergence stage, which is called stage 3 in APSIMc. TTm equals TT when FASW ≤ 0.65, leading to faster thermal time accumulation when FASW ≤ 0.65. In all three models, the daily mean ambient temperature up to 30 °C adds TT of 30 °Cd and declined proportionally to become 0 °Cd when it reached the ceiling temperature of 40 °C (Robertson et al. [...] Richards et al. 2020 Sowing date affects the timing and duration of key chickpea (Cicer arietinum L.) growth phases. Plants 9(10):1257\"))."
+        },
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "title": "Chickpea Production - Extension Store",
+          "description": "are widespread in Montana, and there may be a potential risk of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. [...] ground-crack stage, or after emergence, because severe crop injury will occur. Troublesome broadleaf weeds like kochia and Russian thistle can be controlled in chickpea with sulfentrazone (Spartan). Sulfentrazone applied pre-emergence in chickpea is very effective on kochia and Russian thistle, while higher rates of this herbicide may be needed to control wild buckwheat. Sulfentrazone can be applied from up to 30 days prior to planting to 3 days after planting. Soil factors such as pH, texture, [...] We encourage the use of this document for nonprofit educational purposes. This document may be reprinted for nonprofit educational purposes if no endorsement of a commercial product, service or company is stated or implied, and if appropriate credit is given to the author and MSU Extension. To use these documents in electro"
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "| Edible beans | Emergence 1-Auxiliary budding Auxiliary budding-Beginning flower Flowering-Full pod Maturity | 60-70 60 50 50-70 |\n| Small grain | Emergence 1-First node First node-Flowering Flowering-Milk Maturity | 60 40-50 40 50-70 | [...] The Irrigation Management Assistant (IMA) helps Minnesota growers improve irrigation efficiency across a variety of crops, including corn, soybean, potato, and other irrigated crops. The tool works best when using precipitation data near your field and is optimized for Minnesota conditions.\n\n Sources \n\nAl-Kaisi, M.M, I. Broner and A.A. Andales. 2014. Crop water use and growth stages. Colorado State University Extension. Fact sheet no. 4.715. [...] | Crop | Growth stage | MAD (%) |\n --- \n| Corn | Emergence 1-12 leaf (V12) 12 leaf-Pollination Pollination-Early dent Maturity | 60-70 40-50 50 60-70 |\n| Potatoes | Emergence 1-Tuber yield Tuber yield-Formation initiation Formation initiation-Bulking Ripening period | 40-60 30-40 30-40 40-65 |\n| Soybeans | Emergence 1-Beginning flower Beginning flower-Beginning pod Beginning pod-Full pod Maturity | 65-70 60-65 50 50-70 |"
+        },
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n\nDatta, S., S. Taghvaeian, J. Stivers. 2025. Understanding soil water content and thresholds for irrigation management. BAE-1537.  \nOklahoma State Cooperative Extension. Available at: [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] The timing of the last irrigation can be a tricky decision at the end of the cropping season. For summer crops, this is the time when crop ET demand is declining due to decline in green leaf area and cooler weather patterns. Similar moisture trends can be used to make decisions for the last irrigation events, w"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+          "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+          "description": "Soil moisture was measured using neutron attenuation down to a 5-foot depth to schedule irrigation and quantify changes in stored soil water. ET was calculated using the soil water balance, which is the summation of irrigation (I), precipitation (P), deep percolation (DP), and seasonal soil water change (SWC). [...] By Strahinja Stepanović - Former Extension Educator, Ognjen Zivkovic – Agronomy Student at the University of Belgrade-Serbia, Milica Bogdanovic - Agronomy Student at the University of Belgrade-Serbia, Jovan Radojičić – Agronomy Student at the University of Belgrade-Serbia\n\nStudy of irrigated chickpeas at Grant (left) and harvesting irrigated chickpea plot in 2019. [...] In 2018, field peas were planted on March 14 and harvested on July 16, while chickpeas were planted March 24 and harvested August 17. In 2019, field peas were planted on March 28 and harvested on July 17, while chickpeas were planted April 23 and harvested August 10."
+        }
+      ]
+    },
+    "5628885cce418043d85cb93ae98a979483c4be87fb753b11702a073bcc51fae1": {
+      "checked": 1793184032.117916,
+      "results": [
+        {
+          "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+          "title": "Irrigating Alfalfa in Arid Regions",
+          "description": "Table 7.10 Irrigation cutoff distance for border-irrigated alfalfa field (Border width 65 ft [20 m], border length 1,200 ft [366 m], slope 0.1%) Time (min)/100 ft [30 m] of advance Flow rate (cfs)1 2.0 2.2 2.4 2.6 2.8 Estimated cutoff distance (ft)2 16 845 855 18 850 865 875 885 895 20 890 890 910 920 925 22 915 925 935 945 950 24 940 950 955 965 970 26 960 970 975 985 990 28 975 985 990 1,000 1,005 30 990 1,000 1,005 1,010 32 1,000 1,010 1,020 11 cubic foot per second (cfs) = 449 gallons per [...] Determine the application rate (AR) of the • sprinkler. This method is appropriate for wheel-line and hand-move sprinkler sys­ tems. The irrigation set time is calculated from Equation 3: T = D ÷ AR [Eq. 3] where T equals the irrigation set time (hours) and AR is the application rate (inches [mm] per hour). The application rate depends on the discharge rate of an individual sprinkler and the overlapped sprinkler spacing, and can be determined from Equation 4: AR = (96.3 × q) ÷ (Sl × Sm) [Eq. 4] [...] A trial-and-error approach will be needed to determine the irrigation set time for flood irrigation. The irrigation set time should equal the time for the water to flow to about 70 to 90 per"
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+          "title": "Irrigation water scheduling | OSU Extension Service",
+          "description": "Net water applied (in) = 2.28 inches applied\n\n#### Calculating the correct set time\n\nYou can also rearrange the equation to determine how long you should irrigate to replace only the water that has been depleted.\n\nSet time (hr) = Net water needed (in) × Irrigated area (sq ft)/Flow rate (gpm) × 96.3 × System efficiency\n\nUsing the same example\n\n1.7 in × 2,400 sqft/6.6 gpm× 96.3 × 0.65 = 9.8 hours [...] Now that you have assembled the key pieces of information described above, you can begin improving your irrigation water management. The first step is determining your current net water application depth (inches) — the amount of water stored in the soil after accounting for system efficiency.\n\nThis can be calculated using the following formula:\n\nNet water applied (inches) = Net time (hr) × Flow rate (gpm) × 96.3 × System efficiency/Irrigated area (sq ft) [...] 1. Select sprinkler nozzles at representative locations along the system (not only near the pump) as flow rate tends to vary due to friction loss along the lateral.\n2. Direct the sprinkler discharge into a container of known volume (for example, 5 gallons)\n3. Measure the time to fill the container.\n4. Repeat this process on sever"
+        },
+        {
+          "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
+          "title": "effects of irrigation amount on alfalfa yield",
+          "description": "Tianjin, China); the average wind speed during the test was 1.1 m s-1. The test was investigated with percent timer settings of 30%. The flow rates of the whole system and of the end gun were calculated based on the measured water application depth and irrigated area. During the test, the calculated flow rates of the whole system and the end gun were 59 and 28 m3 h-1 at a system operating pressure of 414 kPa. CULTURAL PRACTICES AND HARVEST PROCEDURES Alfalfa (Medicago sativa) cultivar ‘Zhongmu [...] annual yield, CP concentration, and RFV of the whole system were 5% to 12%, 2% to 8%, and 1% to 8%, respectively, while the CVs for actual irrigation amount ranged from 11% to 13%. The annual alfalfa yield for the end gun was higher than for the first span, second span, and overhang because of excess irrigation (table 4). The actual irrigation amount applied by the end gun was 1.2 times the average applied by the first span, second span, and overhang, which was less than the factor of 1.7 found [...] actual irrigation amount (fig. 1). Figure 1. (a) Schematic diagram of center-pivot system and layout of plots, catch cans, and tensiometers, and (b) layout of samples and catch cans in a pl"
+        }
+      ]
+    },
+    "36c8cbdff3cfc113997a98160d9449db4d48818551151fa8b4691d1cc4e4dac6": {
+      "checked": 1793184029.0401645,
+      "results": [
+        {
+          "url": "https://directives.nrcs.usda.gov/sites/default/files2/1712930921/31803.pdf",
+          "title": "Chapter 15 Irrigation",
+          "description": "multiplied by width (equals area), the sprinkler conversion equation can be used for all situations where the flow rate is given in terms of liters per second (gallons per minute). Example 2 can be used as an illustration. d (cm) = 24 x 12 x 357.7 20 x 50 = 10 cm d (in) = 375 x 12 x 96.3 660 x 165 = 4 in (14) In furrow irrigation work, the rate of flow as measured in individual furrows often is converted to average depth as follows: d (cm) = L/m flow per 100m of furrow length x hours furrow [...] L/s (15 gal/s). The small tubes usually are used for furrow irrigation, although a number of them may be used together for border or contour ditch irrigation. (2) For furrow irrigation, the tube sizes usually are selected so that two or three tubes per furrow will deliver the maximum stream recommended for the slope being irrigated. After the water has crossed the field, one tube is removed to provide the \"cutback\" stream. The approximate discharge of small aluminum siphon tubes is given in [...] Assume: Moderately coarse-textured soil (factor = 1.33) Furrow spacing = 0.91 m (3.0 ft) Total irrigating time = 8.0 hr Average intake Opportunity time = 6.9 hr Determine: The average intake depth"
+        },
+        {
+          "url": "https://extensionpublications.unl.edu/assets/html/g1338/build/g1338.htm",
+          "title": "Managing Furrow Irrigation Systems",
+          "description": "The gross depth of water applied can be figured by calculating the rate. Divide the pump discharge in gallons per minute (gpm) by the number of furrows flowing"
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
+          "title": "Irrigation water: How it's delivered, how it's measured | OSU Extension Service",
+          "description": "A pump delivers 200 gpm (Q) to a 20-acre (A) hay field and runs for 120 hours (t) to irrigate the entire field before the pump is turned off and the wheel line is moved back to the start position. Following the gross irrigation application equation (Equation 2), calculate the depth of water applied(D):\n\n#### Step 1:Convert flow rate (Q) to ac-in/hr\n\nQ= 200 gpm x  (0.99 ac-in/hr)/(448.8 gpm) Q=0.44 ac-in/hr\n\nCredit: © Oregon State University\n\n#### Step 2: Calculate depth (d) [...] (D = 0.44 ac — in/hr x 120 h4)divided by 20 ac; D = 2.6 inches applied\n\nCredit: © Oregon State University\n\nd = (Q x t)/A\n\nEquation 1. Where:\n\n D = The depth of water applied (in inches).\n Q = The flow rate in ac-inch/hr (converted from gpm).\n t = The time period (duration in hours) the water was applied.\n A = The area that was irrigated (usually in acres).\n\nNote: Q = Must be converted to acre-inches per hour, as it is commonly expressed in gpm. [...] To calculate flow rate:\n\n1. Measure the average cross-sectional area of the channel (in square feet or square meters).\n2. Record the time it takes for the float to travel a set distance and determine surface velocity.\n3. Multiply the average area by the correc"
+        }
+      ]
+    },
+    "8aac52c759cae2a3b0a360bebb2cf1f776493fac8ae567c9c68e653eadf46b49": {
+      "checked": 1793184026.2689378,
+      "results": [
+        {
+          "url": "https://scholars.georgiasouthern.edu/en/publications/regulated-deficit-irrigation-during-vegetative-growth-enhances-cr",
+          "title": "Regulated Deficit Irrigation during Vegetative Growth Enhances Crop Water Productivity in Chickpea (Cicer arietinum L.) - Georgia Southern University",
+          "description": "CWP, were tested through a complete randomized block experiment during the years 2020 and 2021, comparing full irrigation (FI, ETc = 100%), SDI (SDI75, ETc = 75% during all stages), and six RDI treatments varying in ETc% across phenology: VG50, VG75, F50, F75, PF50, and PF75. VG75 had higher CWP while minimizing impacts on productivity. During 2020, the plants were taller (0.44 ± 4.4 m), and increased in harvest index (0.47 ± 0.06), and CWP (0.90 ± 0.2 kg m−3) (p < 0.05), while in 2021, plants [...] and CWP, were tested through a complete randomized block experiment during the years 2020 and 2021, comparing full irrigation (FI, ETc = 100%), SDI (SDI75, ETc = 75% during all stages), and six RDI treatments varying in ETc% across phenology: VG50, VG75, F50, F75, PF50, and PF75. VG75 had higher CWP while minimizing impacts on productivity. During 2020, the plants were taller (0.44 ± 4.4 m), and increased in harvest index (0.47 ± 0.06), and CWP (0.90 ± 0.2 kg m−3) (p < 0.05), while in 2021, [...] and CWP, were tested through a complete randomized block experiment during the years 2020 and 2021, comparing full irrigation (FI, ETc = 100%), SDI (SDI75, ETc = 75% during all stages), and six"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+          "title": "Water-yield relationships for chickpea under different irrigation regimes in Gezira Scheme, Sudan",
+          "description": "regimes—including full irrigation and stage-specific deficit schedules—on chickpea (_Cicer arietinum_ L.) yield, seasonal actual crop evapotranspiration (ETc,act), and water productivity under Vertisols conditions. Full irrigation produced the highest yields (1816 and 1280 kg ha⁻¹), whereas deficits imposed during reproductive stages reduced yield by up to 33%. In contrast, a controlled vegetative-stage deficit (W3) saved 6% of seasonal irrigation water (35 mm) without significant yield [...] ## Highlights\n\n   •Deficit irrigation evaluated for chickpea on Vertisols in Sudan. \n   •Reproductive-stage deficits reduced yield by 25–34%. \n   •Vegetative-stage deficits caused < 7% yield reduction. \n   •Peak water productivity occurred at 519–538 mm irrigation. \n   •Elevated VPD and wind reduced yields by ∼30%. \n\n## Abstract [...] significant yield reduction and achieved the highest crop water productivity (CWP) and irrigation water productivity (IWP). Grain yield correlated strongly with ETc,act but exhibited diminishing returns at greater irrigation depths, reflecting soil hydraulic constraints and surface irrigation inefficiencies. Seasonal climatic variability—particularly elevated vap"
+        }
+      ]
+    },
+    "e1695ae34b550d6aa47ac34681224ebe03b197086151dc2d17970c14f444f868": {
+      "checked": 1793184023.7720318,
+      "results": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6277783",
+          "title": "Drought or/and Heat-Stress Effects on Seed Filling in Food Crops: Impacts on Functional Biochemistry, Seed Yields, and Nutritional Quality",
+          "description": "115. Nayyar H., Kaur S., Singh S., Upadhyaya H. D. (2006). Differential sensitivity of Desi (small- seeded) and Kabuli (large-seeded) chickpea genotypes to water stress during seed filling: effects on accumulation of seed reserves and yield. J. Sci. Food Agric. 86 2076 – 2082. doi:10.1002/jsfa.2574 [...] 136. Purcell L. C., King C. A. (1996). Drought and nitrogen source effects on nitrogen nutrition, seed growth, and yield in soybean. J. Plant Nutr. 19 969 – 993. doi:10.1080/01904169609365173\n137. Pushpavalli R., Zaman-Allah M., Turner N. C., Baddam R., Rao M. V., Vadez V. (2014). Higher flower and seed number leads to higher yield under water stress conditions imposed during reproduction in chickpea. Funct. Plant Biol. 42 162 – 174. doi:10.1071/FP14135 PMID:32480662 [...] 18. Behboudian M. H., Ma Q., Turner N. C., Palta J. A. (2001). Reactions of chickpea to water stress: yield and seed composition. J. Sci. Food Agric. 81 1288 – 1291. doi:10.1002/jsfa.939\n19. Bellaloui N., Hu Y., Mengistu A., Kassem M. A., Abel C. A. (2013). Effects of foliar boron application on seed composition, cell wall boron, and seed δ 15 N and δ 13 C isotopes in water-stressed soybean plants. Front. Plant S"
+        },
+        {
+          "url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+          "title": "Deficit irrigation practices",
+          "description": "reported that cowpea had the ability to maintain seed yields when subjected to drought during the vegetative stage provided subsequent irrigation intervals did not exceed eight days. The work of Korte et al. (1983), Eck et al. (1987), Speck et al. (1989), and of many others, has shown that soybean is amenable to limited irrigation. Stegman et al. (1990) indicated that although short-term water stress in soybean during early flowering may result in flower and pod drop in the lower canopy, [...] Previous PageTable Of ContentsNext Page\n\nPrevious Page\nTable Of Contents\nNext Page\n\n# Deficit irrigation scheduling based on plant growth stages showing water stress tolerance\n\nC. Kirda,  \nCukuroya University,  \nAdana, Turkey\n\n## Summary [...] Yavuz, M.Y. 1993. Farkli Sulama Yontemlerinin Pamukta Verim ve su Kullanimina Etkileri (Ph.D. Thesis). Adana, Turkey, Cukurova University, Faculty of Agriculture.\n\nZiska, L.H. & Hall, A.E. 1983. Seed yields and water use of cowpeas (Vigna unguiculata L. Walp.) subjected to planned water deficit irrigation. Irrigation Science 3: 237-245.\n\nPrevious PageTop Of PageNext Page\n\nPrevious Page\nTop Of Page\nNext Page"
+        },
+        {
+          "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+          "title": "Chickpea Production",
+          "description": "Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of environmental stress, such as drought or extreme heat. Late season rains can cause plants that appear to have gone dormant to resume development including flowering and seed set, complicating harvest management. Chemical [...] Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F, and nighttime temperatures are between 64 and 70 °F. The crop does well in regions with 6-10 inches of growing season precipitation. Temperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolerant. Cultural [...] the growth habit of chickpea is more upright than peas or lentils and seeds are set higher on the plant. If you are rolling a field, do so prior to seed emergence as newly emerged stems can be b"
+        }
+      ]
+    },
+    "c2bdd376eeda228cfac9464df565bc8bf99845d8148b95884ff3831506abc6cd": {
+      "checked": 1793184021.3055072,
+      "results": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377423003190",
+          "title": "Maximizing the water productivity and economic returns of alfalfa by deficit irrigation in China: A meta-analysis",
+          "description": "practices that strike a balance between costs and returns in China. A total of 28 published papers covering 26 locations showed that deficit irrigation reduced alfalfa yields by 17.4%±1.2% and increased WP levels by 14%±2.5% relative to full irrigation. The yield and WP changes were significantly (P<0.05) caused by the irrigation application rate and timing, soil texture, soil field capacity and soil organic matter. The application of deficit irrigation only at the budding stage effectively [...] ## Highlights\n\n   •Effects of deficit irrigation on alfalfa production was analyzed by meta-analysis. \n   •Deficit irrigation reduced alfalfa yields by 17% versus full irrigation. \n   •Deficit irrigation increased water productivity by 14% versus full irrigation. \n   •Deficit irrigation only at the budding stage reduced alfalfa yield losses. \n\n## Abstract [...] Alfalfa (_Medicago sativa_ L.) is a high-water-use crop primarily cultivated in water-scarce areas in China. Deficit irrigation is still considered a promising strategy to improve regional water productivity (WP) despite the risk of yield loss. The objectives of this paper were to better understand the effects of deficit irrigation "
+        },
+        {
+          "url": "https://naes.unr.edu/publication.aspx?PubID=2381",
+          "title": "Humboldt County Alfalfa Hay Establishment, Production Costs and Returns | Experiment Station | University of Nevada, Reno",
+          "description": "Yield. The 500 acre farm yields 5.5 tons of alfalfa hay per acre across four annual cuttings.\n\nReturns. Returns are based on 2004 market prices across a range of hay quality levels. An estimated price of $98.00 per ton of hay was used to calculate returns. Returns will vary during the growing season due to market conditions.\n\n### Overhead and Capital Recovery Costs [...] Yield. The 500 acre farm yields 5.5 tons of alfalfa hay per acre across four annual cuttings.\n\nReturns. Returns are based on 2004 market prices across a range of hay quality levels. An estimated price of $98.00 per ton of hay was used to calculate returns. Returns will vary during the growing season due to market conditions.\n\n### Overhead and Capital Recovery Costs [...] 1 ton per acre. The land market value in 2004 was approximately $800 per acre."
+        },
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+          "title": "Estimating Financial Costs and Benefits of Supplemental Irrigation with the Irrigation Financial Estimator Tool (IFET) | VCE Publications | Virginia Tech",
+          "description": "The final tab in the tool is the “Detailed Benefits Results” tab. This tab shows users a range of additional revenue they can expect from additional yield under irrigation. This tab contains a table and several different graphs. The table (Figure 5) shows the range of benefits that users can expect including average additional annual income, additional revenue after operating expenses, and additional revenue after operating expenses and loan repayment. These values all represent long-term [...] between income earned from the maximum irrigated yield and rain-fed yield is the additional estimated income that could result from using irrigation. [...] Effective, well-managed irrigation can improve crop yields and farm revenues. However, installing an irrigation system is expensive, both in the initial expense and operating costs. Deciding whether or not to install an irrigation system requires producers to determine if these costs will lead to sufficient financial returns. The Irrigation Financial Estimator Tool provides estimated cost/benefit projections based on user-supplied information unique to an individual farm. While precisely"
+        }
+      ]
+    },
+    "1c9f2713923fc11d32e3a4e57ba335be2614d725628de919c1d2e7977a2ed172": {
+      "checked": 1793184018.803055,
+      "results": [
+        {
+          "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+          "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
+          "description": "Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, [...] By Todd Whitney - Extension Educator, Ben Beckman - Extension Educator, Samantha Daniel - Extension Educator\n\nGrasshopper on plant leaf\n\nMonitoring grasshopper populations using the square-foot method can help prevent damage to late summer alfalfa and forage crops, with insecticide treatments considered if thresholds are exceeded.\n\n \n\n## Fall Alfalfa Irrigation\n\nBy Todd Whitney [...] To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring."
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+          "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+          "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] Utah State University sites use cookies. By continuing to use this site you accept our privacy and cookie policy.\n\nSkip to content\n\nUtah State University logo\n\nCrop Resources Extension\n\nUState logo\n\nUSU Extension Crops\n\n Calendar\n Crops \n\n  Crop Information\n\n  + Alfalfa\n  + Pasture/Grass Hay\n  + Other Hay\n  + Small Grains\n  + Corn\n  + Safflower\n  + Other Oilseeds\n  + Other Crops\n Tools \n\n  Tools [...] Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363835",
+          "title": "Yield gap analysis of rainfed alfalfa in the United States",
+          "description": "- Wisconsin | 107 (16-Apr) | 300 (25-Oct) | 193 ± 14 | 22.1 ± 1.1 | 10.5 ± 1.1 | 16.3 ± 0.8 | 2,155 ± 210\n- Mean | 98 (7-Apr) | 302 (28-Oct) | 204 ± 22 | 24 ± 0.8 | 110 ± 0.9 | 18 ± 0.8 | 2,530 ± 422 [...] The growing season of alfalfa is defined as the number of days in a year when the mean temperature is equal to or above the alfalfa’s base temperature, which is 5°C (Wolf and Blaser, 1972; Onstad and Fick, 1983; Fick et al., 1988; Sharratt et al., 1989; Confalonieri and Bechini, 2004). The selection of this temperature threshold is justified because alfalfa plants stop or significantly reduce their growth and development when temperatures fall below it. To delineate the alfalfa growing season, [...] 94. Schneekloth J., Andales A. (2017). Seasonal water needs and opportunities for limited irrigation for Colorado crops. Colorado State University Extension (4.718) to Fact Sheet No. 4.718. Available at:  (Accessed December 18, 2021).\n95. Sharratt B., Sheaffer C., Baker D. (1989). Base temperature for the application of the growing-degree-day model to field-grown alfalfa. Field Crop Res. 21, 95 – 102. doi: doi:10.1016/0378-4290(89)90045-2"
+        }
+      ]
+    },
+    "c79c064f3f4fbe2ea3b8da97bb0f6fb58dcdc41b434678a4bba7df38113c8f27": {
+      "checked": 1793184015.9330575,
+      "results": [
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+          "title": "Late-season irrigation: Tips for yield protection and water stewardship",
+          "description": "Typically, corn at R2 (blister) uses approximately 6 to 7 inches of water to maturity; Soybeans at R4 (full pod) uses approximately 3 to 4 inches of water to maturity; and Potato at tuber bulking uses 4 to 5 inches of water to maturity. [...] As of early August, most irrigated corn in central and west-central Minnesota is close to the R2 growth stage. Soybeans are progressing through pod fill (R3–R5), with seed fill just beginning. These stages represent a critical period for grain yield determination. [...] Daily crop evapotranspiration (ETc) rates remain high at this time of the season, especially during hot and windy spells, but start declining after mid-August. Central Minnesota reference evapotranspiration (ETo) is averaging 0.20 inches/day, meaning soils can dry quickly if rainfall is limited.  \n  \nIf soil moisture sensors or hand probes show dry conditions in the top 12–18 inches, strategic irrigation may still be warranted to protect kernel or seed fill."
+        },
+        {
+          "url": "https://www.canr.msu.edu/news/is-it-time-for-the-last-irrigation",
+          "title": "Is it time for the last irrigation?",
+          "description": "Several studies show that stopping irrigation too early during pod fill can reduce seed size, accelerate senescence and ultimately lower yields."
+        },
+        {
+          "url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season",
+          "title": "Scheduling the Last Irrigation of the Season - CropWatch",
+          "description": "During the heart of the irrigation season, we recommend keeping the available soil water level above the 50% depletion level. To do this we recommend irrigating"
+        }
+      ]
+    },
+    "6249323ea23015b184fb4d5b04dae9ecf9942fdbae6107e3faad70198c92f24a": {
+      "checked": 1793184013.6721685,
+      "results": [
+        {
+          "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+          "title": "Chickpea Production",
+          "description": "aid to terminate the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] 6 of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. If weeds are present at harvest time, glyphosate (Roundup or other generics), paraquat (Gramoxone), saflufenacil (Sharpen), and flumioxazin (Valor) can be used for chickpea and weed desiccation. [...] Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of envir"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+          "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+          "description": "Soil moisture was measured using neutron attenuation down to a 5-foot depth to schedule irrigation and quantify changes in stored soil water. ET was calculated using the soil water balance, which is the summation of irrigation (I), precipitation (P), deep percolation (DP), and seasonal soil water change (SWC). [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top 2.5 feet of the soil profile (Figure 4). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 4).\n\nGraph of soil volumetric water content for field peas in 2018 [...] In 2018, field peas were planted on March 14 and harvested on July 16, while chickpeas were planted March 24 and harvested August 17. In 2019, field peas were planted on March 28 and harvested on July 17, while chickpeas were planted April 23 and harvested August 10."
+        }
+      ]
+    },
+    "7b47c71731d1231afd8cdd2200e2a19b61ff974d1f447085480bdcd0db55d953": {
+      "checked": 1793184011.296454,
+      "results": [
+        {
+          "url": "https://www.nrc.gov/docs/ML1821/ML18215A282.pdf",
+          "title": "Guidelines for Predicting Crop Water Requirements.",
+          "description": "Above calculation assumes contiūü\"Ous operation of the system. Table 51 FLOW RATE PER DRIP E\"!ITTER IN 1/hr, CONTINFS'.TS FLOW, FOR DIFFERENT ET(CROP) AND NUMBER OF E'iITTERS PER ha Emitters per ha ET(crop)F mm/day --~-· ---i---250 _ļ___so_o __ !--_75_.o _,._1_0_0_0. _l~_5_o_o_ .... 0.52 1.04 1.56 1. 25 2.5 3.75 5.0 6.25 7.5 2.08 11 1.0I. 4.16 1 2.08 6.25 1 3.12 8.33 1 4.16 12.50 6.25 0.69 1. 38 2.08 2,77 3.47 4. 17 2.08 2.60 3. 13 0.35 0.69 1.04 1 • 39 1. 74 2.08 2000 0.26 0.52 0.78 1. 04 1. [...] , 1 000, 0.55 = 27 .5 mm. Irrigation interval I = d/ET(crop) = 27 .5/7 = 3.9 days. Maximum gross depth of application dg = d/(Tl x Eu) = (27,5)/(0.95 X 0,9) m 32 ITIIll, Duration of application It = (dg x Se x Sl) /qe = (32 X 0,6 X 1.2)/2 = 11.5 hr, Maximum number of operating units into which the field can be divided is N ((I x 24/Ii:)or <: (3.9 x 24)/11.5 or( 8.1 or 8. Required discharge of system is 2, 8 A/N x qe/ (Sl x Se} ~ 2.8 x 40/3 x 2/(0,6 x 1.2) = 39 1/sec. NB: Above calculation [...] 0.52 0.78 1. 04 1. 30 1.56 10~.41 5.12 -------'---· _ _L_ ___ _,_ _____ .1._ ____ ..L._. 2500 ----0.21 0.42 0.62 0.83 1, 04 J 1. 25 5000 0. 10 0. 21 0, 31 0.42 0.52 0.63 Example: With 1500 emitter"
+        },
+        {
+          "url": "https://www.fao.org/4/f2430e/f2430e.pdf",
+          "title": "Guidelines for predicting crop water requirements",
+          "description": "Calculation: ETo = 1.01 (0.77 x 6.6 + 0.23 x 0.90 x 17.5) = 8.8 nun/dav Using mean daily data for each month calculation of ETo in mm/day for each month: - 20 1/ Based on general climatic descriptions for Cairo; day/night wind ratio is some 1.5 produced by calm morning and mid-day conditions,with breezes in late afternoon; an exception would be the April and May 'Khanisin' winds which blow day and night but somewhat stronger during daytime. [...] Calculation: from Table 4 = 0.77 (C.) Adjustment factor (c) The adjustment factor (c) is given by the relationship between the radiation term (W.Rs) and reference crop evapotranspiration (ETo) and is shown graphically in Figure 2. It depends greatly 011 general levels of mean relative humidity (RHmean) and daytime wind (07.00-19.00 hours) at 2 m height above the soil surface.2/ EXAMPLE: Given: Cairo; latitude 30°N; altitude 95m; July; Rs = 11.2 mm/day; W = 0.77; W.Rs = 8.6 mm/day; wind daytime [...] data N hr/day 01) n/N calc (0.25+0.50 n/N) calc (12) Rs nu-n/day calc Rus mm/day (1 -10)Rs - 29 -FORMAT FOR CALCULATION OF PENMAN METHOD Penman reference crop ETo = c EW.Rn + (1-W)f(u)(ea-ed5] Country: 1/.40e Place: 4,,./.0 Latitude : Period :1"
+        },
+        {
+          "url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
+          "title": "Irrigation Chapter 6 - Crop Water Use | Irrigation Home Study Course - passel",
+          "description": "to maturity. The evapotranspiration is calculated using the pro­cedures previously outlined. Complete information is available on-line at .  The information is sometimes available­ from news media sources. [...] Reference Crop Evapotranspiration [...] Remember: crop evapotranspiration measurements are estimates from weather stations that are reasonably close in most situations, but certainly are not perfect. They are useful for estimating water availability in soil during the growing season, however, periodic field checks of soil water are very important to keeping any irrigation scheduling program on track.\n\n## Applying Evapotranspiration Information"
+        }
+      ]
+    },
+    "a67803ec889ce95f25da29494464548b8548e42e33935135c8319ea971d9c976": {
+      "checked": 1793184007.520329,
+      "results": [
+        {
+          "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+          "title": "Drip Line Rate Calculator",
+          "description": "The drip line application rate is specific to your irrigation system and shouldn't change, so take a note of it. This constant rate is multiplied by all future irrigation set times to give the net application depths for those sets. Use this form to calculate the water application rate of drip irrigation lines (tape, tubing) given the flow rate from individual emitters, a constant spacing of the emitters along the drip line, and a constant spacing between the drip lines. Learn more about the [...] Home\n Login\n Cooperative Extension Search\n Irrigation Scheduling Program\n NRCS Soil Survey\n AgWeatherNet\n\n## \n\n# Irrigation in the Pacific Northwest\n\n Washington State University Extension\n Oregon State University Extension\n University of Idaho Extension [...] ## The Equation\n\nThis calculator uses this equation to determine the Application Rate of a drip line irrigation system.\n\nWSU Prosser - IAREC, 24106 N Bunn Rd, Prosser WA 99350-8694, 509-786-2226,Contact Us"
+        },
+        {
+          "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+          "title": "Determining How Long to Run Drip Irrigation Systems for Vegetables",
+          "description": "The store will not work correctly when cookies are disabled.\n\nSkip to Content\n\nPenn State ExtensionPenn State Extension\n\nSearch\n\nCart \n\nShopping Cart\n\nArticles\n\n# Determining How Long to Run Drip Irrigation Systems for Vegetables\n\nAs a general rule, vegetable crops require 1–1.5 acre-inches of water per week.\n\nSave for later  Print \n\n Share\n\nUpdated:\n\nDecember 16, 2025\n\nSkip to the end of the images gallery\n\nDrip irrigation running through crops\n\nDrip irrigation running through crops [...] | Available water holding capacity  (inch of water/inch depth of soil) | flow rate 0.2 | flow rate 0.3 | flow rate 0.4 | flow rate 0.45 | flow rate 0.5 | flow rate 0.6 |\n| 0.02 | 41 | 27 | 20 | 18 | 16 | 14 |\n| 0.03 | 61 | 41 | 31 | 28 | 24 | 20 |\n| 0.04 | 82 | 54 | 41 | 37 | 33 | 27 |\n| 0.05 | 102 | 68 | 51 | 46 | 41 | 34 |\n| 0.06 | 122 | 82 | 61 | 55 | 49 | 41 |\n| 0.07 | 143 | 95 | 71 | 64 | 57 | 48 |\n| 0.08 | 163 | 109 | 82 | 74 | 65 | 54 |\n| 0.09 | 184 | 122 | 92 | 83 | 73 | 61 | [...] For our example, the available water holding capacity is 0.12 inch of water/inch depth of soil, and the drip tube flow rate is 0.45 gpm per 100 ft. Using the table below, the drip system would be run 110 minute"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+          "title": "Water-yield relationships for chickpea under different irrigation regimes in Gezira Scheme, Sudan",
+          "description": "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.\n\nImage 6: RELX group home page\n\nPersistent link using digital object identifier (DOI) [...] ## Keywords\n\n_Water productivity_\n\n; \n\n_Vertisols_\n\n; \n\n_phenology_\n\n; \n\n_irrigation scheduling_\n\n; \n\n_ETc_\n\n; \n\n_act_\n\nLoading...\n\n## Data availability\n\nThe authors do not have permission to share data.\n\n## Recommended articles\n\nLoading...\n\n© 2026 The Authors. Published by Elsevier B.V.\n\nImage 5: Elsevier logo with wordmark\n\n   About ScienceDirect\n   Remote access\n   Contact and support\n   Terms and conditions\n   Privacy policy\n   Cookie settings [...] Skip to main contentSkip to article\n\nImage 2: Elsevier logo\n\n   Journals & Books\n\n   Help   \n   Search \n\nMy account\n\nSign in\n\nImage 3: Agricultural Water Management\n\n## Agricultural Water Management\n\nDate:30 April 2026\n\nArticle:110294\n\nVolume:Volume 327\n\nView accessibility information\n\n## Published by:Elsevier\n\n### Published by\n\nImage 4: Elsevier\n\nShow more\n\nResearch article\n\nOpen acce"
+        }
+      ]
+    },
     "7cabf434fe1cc16a1aed35bf97c9b533f18c4517640dadcbaac2715a9baa79e6": {
       "checked": 1793179594.6771557,
       "results": [
@@ -1768,7 +2238,7 @@
   },
   "monthly_budget": {
     "month": "2026-10",
-    "reserved": 85
+    "reserved": 107
   },
   "secret_values_stored": false
 }

@@ -1,0 +1,118 @@
+{
+  "topic_id": "agri-d5b18796a0dd",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود دیم (Cicer arietinum L.) — دانه خشک و برشته‌شده (desi/kabuli pulse)",
+  "slug": "chickpea-supplemental-irrigation-timing-economics",
+  "outline": [
+    "وضعیت شاهدی: نتایج کشت آبی و دیم در مونتانا و اورگان به‌عنوان زمینه مقایسه‌ای",
+    "شکاف‌های شواهد برای پرسش اولویت‌بندی زمان آبیاری تکمیلی",
+    "حدود کاربرد و هشدارهای کیفیت محصول در شرایط کم‌آب/پرآب"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "محصول آبی نخود در مونتانا (Huntley) میانگین بیش از 3000 lb/acre ثبت کرده است در حالی که دیم بین 850 تا بیش از 3000 lb/acre متغیر بوده است.",
+      "conditions": "مونتانا، ایالات متحده؛ انواع kabuli و desi؛ دیم و آبی آزمایشی؛ دوره 2011-2016",
+      "evidence_id": "d0-e16",
+      "numeric_bindings": [
+        {
+          "value": "3000",
+          "unit_quote": "3000 lb/acre",
+          "geographic_scope": "Huntley, Montana, US",
+          "product_scope": "چکمه خشک نخود (dry chickpea grain)"
+        },
+        {
+          "value": "850",
+          "unit_quote": "850 and 3000 lb/acre",
+          "geographic_scope": "Montana dryland trials, US",
+          "product_scope": "چکمه خشک نخود (dry chickpea grain)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "تولید آبی در Huntley نسبت به دیم با افزودن حداقل 2 تا 3 اینچ آب در فصل رشد بازدهی بالاتری داشته است.",
+      "conditions": "مونتانا، ایالات متحده؛ کشت آبی تکمیلی به اندازه بسیار کم در کنار باران دیم",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": [
+        {
+          "value": "2-3",
+          "unit_quote": "2-3 inches per season",
+          "geographic_scope": "Huntley, Montana, US",
+          "product_scope": "نخود دیم تحت آبیاری تکمیلی"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آبیاری مکرر می‌تواند منجر به شیوع بیماری‌های قارچی/باکتریایی و گل‌دهی نامتعادل و رسیدن دیررس شود و کیفیت را کاهش دهد.",
+      "conditions": "شرایط مونتانا؛ تفسیر کیفی بر اساس مشاهدات آبیاری تکمیلی فوق (2-3 inch)",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عمق موثر ریشه نخود حداکثر 30 اینچ است و محصول عمدتاً آب را از 12 اینچ بالایی خاک می‌گیرد.",
+      "conditions": "مونتانا، ایالات متحده؛ توصیف رشد ریشه",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "30 inches",
+          "geographic_scope": "Montana, US",
+          "product_scope": "نخود (Cicer arietinum)"
+        },
+        {
+          "value": "12",
+          "unit_quote": "12 inches of soil",
+          "geographic_scope": "Montana, US",
+          "product_scope": "نخود (Cicer arietinum)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود در مناطق با 6 تا 10 اینچ باران فصل رشدی عملکرد خوبی دارد و به خشکی نسبتاً مقاوم است.",
+      "conditions": "مونتانا، ایالات متحده؛ محدوده ترجیحی بارندگی فصل رشدی",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": [
+        {
+          "value": "6-10",
+          "unit_quote": "6-10 inches of growing season precipitation",
+          "geographic_scope": "Montana, US (arid/semi-arid region)",
+          "product_scope": "نخود دیم"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در اورگان شرقی، Sinaloa (kabuli) تنها رقمی بود که تحت شرایط کم‌رطوبت خاک (>80% دانه درجه A) عملکرد پایدار نشان داد.",
+      "conditions": "اورگان شرقی، ایالات متحده؛ شرایط کم‌آبی و پس از فول",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": [
+        {
+          "value": "80",
+          "unit_quote": ">80 percent of grade A beans",
+          "geographic_scope": "Eastern Oregon, US (CBARC)",
+          "product_scope": "نخود kabuli (دانه خشک)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منابع موجود برنامه زمانی اختصاصی برای آغاز آبیاری تکمیلی در نخود دیم ارائه نکرده‌اند.",
+      "conditions": "مونتانا و اورگان؛ گزارش‌های دانشگاهی; عدم وجود زمان‌بندی تصمیم",
+      "evidence_id": "d0-e16",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ارزیابی اقتصادی آبیاری تکمیلی (نسبت هزینه آب/تجهیزات به درآمد اضافی) در منابع فارسی-زبان هدف بررسی نشده است.",
+      "conditions": "پرسش اصلی مقاله درباره ارزیابی اقتصادی; شواهد موجود تنها بازدهی کیلویی گزارش می‌دهند",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "پرسش کاربر درباره دو بخش است: (1) زمان اولویت‌دار آبیاری تکمیلی نخود دیم و (2) ارزیابی اقتصادی آن. شواهد دانشگاهی ارائه‌شده (د0-e16, d0-e17, d0-e28 و غیره) فقط تولید آبی در مقابل دیم را در مونتانا/اورگان نشان می‌دهند و هیچ‌کدام روش تشخیص زمان‌بندی (بر اساس مرحله رشد، رطوبت خاک، شاخص تنش) یا مبنای کمی ارزیابی اقتصادی (هزینه آب به ازای هر اینچ، قیمت بازار محلی، بازگشت سرمایه) را ارائه نمی‌دهند. بنابراین intent اصلی پاسخ‌دهی به پرسش اجرایی «زمان اولویت‌دار + ارزیابی اقتصادی» با شواهد موجود پوشش داده نمی‌شود."
+}

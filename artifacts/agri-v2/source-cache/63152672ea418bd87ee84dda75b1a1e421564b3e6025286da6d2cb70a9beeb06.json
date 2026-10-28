@@ -1,0 +1,816 @@
+{
+  "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+  "requested_url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+  "redirect_chain": [
+    "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables"
+  ],
+  "text": "[table row] Low flow | Emitter Spacing (inches): 12 [table row] Low flow | Drip tube flow rate @ 8 psi (gph/100 ft): 13.2 [table row] Low flow | Drip tube flow rate @ 8 psi (gpm/100 ft): 0.22 [table row] Low flow | Time to apply 1 inch of water (hours): 11.8 [table row] Low flow | Emitter Spacing (inches): 8 [table row] Low flow | Drip tube flow rate @ 8 psi (gph/100 ft): 20.4 [table row] Low flow | Drip tube flow rate @ 8 psi (gpm/100 ft): 0.34 [table row] Low flow | Time to apply 1 inch of water (hours): 7.6 [table row] Medium flow | Emitter Spacing (inches): 12 [table row] Medium flow | Drip tube flow rate @ 8 psi (gph/100 ft): 20.4 [table row] Medium flow | Drip tube flow rate @ 8 psi (gpm/100 ft): 0.34 [table row] Medium flow | Time to apply 1 inch of water (hours): 7.6 [table row] Medium flow | Emitter Spacing (inches): 8 [table row] Medium flow | Drip tube flow rate @ 8 psi (gph/100 ft): 30.6 [table row] Medium flow | Drip tube flow rate @ 8 psi (gpm/100 ft): 0.51 [table row] Medium flow | Time to apply 1 inch of water (hours): 5.1 [table row] High flow | Emitter Spacing (inches): 12 [table row] High flow | Drip tube flow rate @ 8 psi (gph/100 ft): 27 [table row] High flow | Drip tube flow rate @ 8 psi (gpm/100 ft): 0.45 [table row] High flow | Time to apply 1 inch of water (hours): 5.8 [table row] High flow | Emitter Spacing (inches): 8 [table row] High flow | Drip tube flow rate @ 8 psi (gph/100 ft): 40.2 [table row] High flow | Drip tube flow rate @ 8 psi (gpm/100 ft): 0.67 [table row] High flow | Time to apply 1 inch of water (hours): 3.9 [table row] High flow | Emitter Spacing (inches): 4 [table row] High flow | Drip tube flow rate @ 8 psi (gph/100 ft): 80.4 [table row] High flow | Drip tube flow rate @ 8 psi (gpm/100 ft): 1.34 [table row] High flow | Time to apply 1 inch of water (hours): 1.9 [table row] Coarse sand / compacted sands | Available water holding capacity (inch of water/inch depth of soil): 0.02-0.06 [table row] Fine sand | Available water holding capacity (inch of water/inch depth of soil): 0.04-0.09 [table row] Loamy sand | Available water holding capacity (inch of water/inch depth of soil): 0.06-0.12 [table row] Sandy loam | Available water holding capacity (inch of water/inch depth of soil): 0.11-0.15 [table row] Fine sandy loam / compacted loam | Available water holding capacity (inch of water/inch depth of soil): 0.14-0.18 [table row] Loam and silt loam | Available water holding capacity (inch of water/inch depth of soil): 0.17-0.23 [table row] Clay loam and silty clay loam | Available water holding capacity (inch of water/inch depth of soil): 0.14-0.21 [table row] Silty clay and clay | Available water holding capacity (inch of water/inch depth of soil): 0.13-0.18 [table row] 0.02 | flow rate 0.2: 41 [table row] 0.02 | flow rate 0.3: 27 [table row] 0.02 | flow rate 0.4: 20 [table row] 0.02 | flow rate 0.45: 18 [table row] 0.02 | flow rate 0.5: 16 [table row] 0.02 | flow rate 0.6: 14 [table row] 0.03 | flow rate 0.2: 61 [table row] 0.03 | flow rate 0.3: 41 [table row] 0.03 | flow rate 0.4: 31 [table row] 0.03 | flow rate 0.45: 28 [table row] 0.03 | flow rate 0.5: 24 [table row] 0.03 | flow rate 0.6: 20 [table row] 0.04 | flow rate 0.2: 82 [table row] 0.04 | flow rate 0.3: 54 [table row] 0.04 | flow rate 0.4: 41 [table row] 0.04 | flow rate 0.45: 37 [table row] 0.04 | flow rate 0.5: 33 [table row] 0.04 | flow rate 0.6: 27 [table row] 0.05 | flow rate 0.2: 102 [table row] 0.05 | flow rate 0.3: 68 [table row] 0.05 | flow rate 0.4: 51 [table row] 0.05 | flow rate 0.45: 46 [table row] 0.05 | flow rate 0.5: 41 [table row] 0.05 | flow rate 0.6: 34 [table row] 0.06 | flow rate 0.2: 122 [table row] 0.06 | flow rate 0.3: 82 [table row] 0.06 | flow rate 0.4: 61 [table row] 0.06 | flow rate 0.45: 55 [table row] 0.06 | flow rate 0.5: 49 [table row] 0.06 | flow rate 0.6: 41 [table row] 0.07 | flow rate 0.2: 143 [table row] 0.07 | flow rate 0.3: 95 [table row] 0.07 | flow rate 0.4: 71 [table row] 0.07 | flow rate 0.45: 64 [table row] 0.07 | flow rate 0.5: 57 [table row] 0.07 | flow rate 0.6: 48 [table row] 0.08 | flow rate 0.2: 163 [table row] 0.08 | flow rate 0.3: 109 [table row] 0.08 | flow rate 0.4: 82 [table row] 0.08 | flow rate 0.45: 74 [table row] 0.08 | flow rate 0.5: 65 [table row] 0.08 | flow rate 0.6: 54 [table row] 0.09 | flow rate 0.2: 184 [table row] 0.09 | flow rate 0.3: 122 [table row] 0.09 | flow rate 0.4: 92 [table row] 0.09 | flow rate 0.45: 83 [table row] 0.09 | flow rate 0.5: 73 [table row] 0.09 | flow rate 0.6: 61 [table row] 0.10 | flow rate 0.2: 204 [table row] 0.10 | flow rate 0.3: 136 [table row] 0.10 | flow rate 0.4: 102 [table row] 0.10 | flow rate 0.45: 92 [table row] 0.10 | flow rate 0.5: 82 [table row] 0.10 | flow rate 0.6: 68 [table row] 0.11 | flow rate 0.2: 224 [table row] 0.11 | flow rate 0.3: 150 [table row] 0.11 | flow rate 0.4: 112 [table row] 0.11 | flow rate 0.45: 101 [table row] 0.11 | flow rate 0.5: 90 [table row] 0.11 | flow rate 0.6: 75 [table row] 0.12 | flow rate 0.2: 245 [table row] 0.12 | flow rate 0.3: 163 [table row] 0.12 | flow rate 0.4: 122 [table row] 0.12 | flow rate 0.45: 110 [table row] 0.12 | flow rate 0.5: 98 [table row] 0.12 | flow rate 0.6: 82 [table row] 0.13 | flow rate 0.2: 255 [table row] 0.13 | flow rate 0.3: 177 [table row] 0.13 | flow rate 0.4: 132 [table row] 0.13 | flow rate 0.45: 119 [table row] 0.13 | flow rate 0.5: 106 [table row] 0.13 | flow rate 0.6: 89 [table row] 0.14 | flow rate 0.2: 266 [table row] 0.14 | flow rate 0.3: 190 [table row] 0.14 | flow rate 0.4: 142 [table row] 0.14 | flow rate 0.45: 128 [table row] 0.14 | flow rate 0.5: 114 [table row] 0.14 | flow rate 0.6: 96 [table row] 0.15 | flow rate 0.2: 276 [table row] 0.15 | flow rate 0.3: 204 [table row] 0.15 | flow rate 0.4: 153 [table row] 0.15 | flow rate 0.45: 138 [table row] 0.15 | flow rate 0.5: 123 [table row] 0.15 | flow rate 0.6: 102 [table row] 0.16 | flow rate 0.2: 287 [table row] 0.16 | flow rate 0.3: 217 [table row] 0.16 | flow rate 0.4: 163 [table row] 0.16 | flow rate 0.45: 147 [table row] 0.16 | flow rate 0.5: 131 [table row] 0.16 | flow rate 0.6: 109 [table row] 0.17 | flow rate 0.2: 297 [table row] 0.17 | flow rate 0.3: 231 [table row] 0.17 | flow rate 0.4: 173 [table row] 0.17 | flow rate 0.45: 156 [table row] 0.17 | flow rate 0.5: 139 [table row] 0.17 | flow rate 0.6: 116 Determining How Long to Run Drip Irrigation Systems for Vegetables The store will not work correctly when cookies are disabled. Submit Skip to Content Articles Determining How Long to Run Drip Irrigation Systems for Vegetables As a general rule, vegetable crops require 1–1.5 acre-inches of water per week. Save for later Print Share Updated: December 16, 2025 Skip to the end of the images gallery Drip irrigation running through crops Skip to the beginning of the images gallery When plants are small, aim for the lower end, and when they are large, aim for the upper end. Additionally, when it is excessively hot and/or windy, plants may need more than 1.5 inches of water in a week. When using a plastic mulch, the entire 1–1.5 inches will need to be applied weekly regardless of rain events. With bare ground or when using water-permeable mulches (for example, straw or paper mulch), the amount of water applied by irrigation should be reduced by the amount of rainfall the field receives. For example, if it rains ¼ inch, reduce the amount of irrigation water applied by ¼ inch for that week. The time it takes a drip system to apply 1 inch of water to the soil depends on the drip tube flow rate and width the roots extend, which is generally the same as the width of most beds: about 30 inches. The table below shows how long, in hours, to run a drip system to apply 1 inch of water to the 30-inch width based on the drip tube flow rate. Table 1. The time (hours) it takes to run a drip system to apply 1 inch of water based on emitter spacing and flow rate. Emitter Spacing (inches) Drip tube flow rate @ 8 psi (gph/100 ft) Drip tube flow rate @ 8 psi (gpm/100 ft) Time to apply 1 inch of water (hours) Low flow 12 13.2 0.22 11.8 Low flow 8 20.4 0.34 7.6 Medium flow 12 20.4 0.34 7.6 Medium flow 8 30.6 0.51 5.1 High flow 12 27 0.45 5.8 High flow 8 40.2 0.67 3.9 High flow 4 80.4 1.34 1.9 If you have a drip tape with a flow rate of 0.45 gpm per 100 ft it would take 5.8 hours to apply 1 inch of water to the 30-inch beds. Typically, this is applied through several weekly applications. How the Values in the Table Were Determined Visualize an acre with beds on 6 ft centers. The values needed are the: width of the bed, which is generally 30 inches or 2.5 feet; number of gallons in an acre inch of water: 27,154; number of square feet in an acre: 43,560; and, drip tube flow rate: this varies; for example, we'll use 0.45 gpm/100 ft. -- First, determine how much drip tape is needed by dividing the area in an acre by the row spacing. 43,560 ft 2 ÷ 6 ft = 7,260 ft of drip tape needed. -- Next, determine the area of the acre to which the water will be applied. 7,260 ft drip tape x 2.5 ft wide beds = 18,150 ft 2 . (0.42 acre.) -- Determine the number of gallons of water needed to apply. 27,154 gal/acre-in x 0.42 acre = 11,405 gal. -- Determine the number of 100-foot units of drip tape used. 7,260 ft ÷ 100 ft = 72.6 units. -- Determine the number of gallons per minute needed using the drip tube flow rate. 72.6 units x 0.45 gpm = 32.67 gpm. If your well does not have this capacity, you will need to water in zones. -- Lastly, determine the amount of time to run the system. 11,405 gal needed/32.67 gpm = 349 minutes or 5.8 hours. Soil texture and available water holding capacity determine the rate at which water moves through the soil and, therefore how long to run the drip system per application. To determine how long to run the drip system at one time, first find the available water holding capacity of the soil using a table such as the one below. Table 2. Water holding capacity based on soil texture type Soil Texture Available water holding capacity (inch of water/inch depth of soil) Coarse sand / compacted sands 0.02-0.06 Fine sand 0.04-0.09 Loamy sand 0.06-0.12 Sandy loam 0.11-0.15 Fine sandy loam / compacted loam 0.14-0.18 Loam and silt loam 0.17-0.23 Clay loam and silty clay loam 0.14-0.21 Silty clay and clay 0.13-0.18 For example, if you have a sandy loam, available water holding capacity is 0.11 to 0.15 inch of water/inch depth of soil. Pick a number within the range, say 0.12. Then, using the table below and the drip tube flow rate, find the maximum time in minutes to run the drip system at one time. For our example, the available water holding capacity is 0.12 inch of water/inch depth of soil, and the drip tube flow rate is 0.45 gpm per 100 ft. Using the table below, the drip system would be run 110 minutes for each irrigation event, typically in a 24-hour period, to avoid leaching and runoff. Repeat events until the system is run for 5.8 hours in a week to apply 1 inch of water. Table 3. Maximum minutes per application of water based on tubing flow rate (gpm per 100 ft). Note: assumes 10-inch deep root zone and irrigation at 50% soil moisture depletion Available water holding capacity (inch of water/inch depth of soil) flow rate 0.2 flow rate 0.3 flow rate 0.4 flow rate 0.45 flow rate 0.5 flow rate 0.6 0.02 41 27 20 18 16 14 0.03 61 41 31 28 24 20 0.04 82 54 41 37 33 27 0.05 102 68 51 46 41 34 0.06 122 82 61 55 49 41 0.07 143 95 71 64 57 48 0.08 163 109 82 74 65 54 0.09 184 122 92 83 73 61 0.10 204 136 102 92 82 68 0.11 224 150 112 101 90 75 0.12 245 163 122 110 98 82 0.13 255 177 132 119 106 89 0.14 266 190 142 128 114 96 0.15 276 204 153 138 123 102 0.16 287 217 163 147 131 109 0.17 297 231 173 156 139 116 As a general rule, vegetable crops require 1–1.5 acre-inches of water per week. With some basic information -- the flow rate of your drip tube, the width of your crops' rooting system, and your soil's texture and available water holding capacity -- you can calculate the length of time you need to operate your irrigation system in order to meet your crops' water needs. Agenda Authors Elsa Sánchez, Ph.D. Professor of Horticultural Systems Management Expertise Sustainable vegetable systems Organic vegetable systems Field vegetable production systems High tunnel vegetable production systems More By Elsa Sánchez, Ph.D. Ask Tilva™ Your trusted source for science-based answers—now powered by PlantVillage+ Ask Tilva™ You may also be interested in ... Guides and Publications Beekeeping Basics $25.00 Guides and Publications A Field Guide to Honey Bees and Their Maladies $12.00 Guides and Publications Mid-Atlantic Commercial Vegetable Production Recommendations Online Courses Beekeeping 101 $159.00 Videos High Tunnel Structures: The Basics Articles Tomato Cultivar Evaluation: Marketable Yield Articles Hydroponics Systems: Nutrient Solution Programs and Recipes Articles The ABCs of Microgreens Articles Asparagus Production $1.80 Articles Sweet Corn Production $2.00 Personalize your experience with Penn State Extension and stay informed of the latest in agriculture. Newsletter Sign Up for Our Newsletter: Subscribe Email address is required to login Please enter your email address below to create account. Email Sign In",
+  "links": [
+    {
+      "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+      "label": "Skip to Content"
+    },
+    {
+      "url": "https://extension.psu.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock",
+      "label": "Animals and Livestock"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy/product-quality",
+      "label": "Product Quality"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy/reproduction-and-genetics",
+      "label": "Reproduction and Genetics"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy/manure-and-nutrient-management",
+      "label": "Manure and Nutrient Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/dairy/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/production-and-management",
+      "label": "Production and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/product-quality",
+      "label": "Product Quality"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/reproduction-and-genetics",
+      "label": "Reproduction and Genetics"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/manure-and-nutrient-management",
+      "label": "Manure and Nutrient Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/poultry/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle",
+      "label": "Beef Cattle"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/production-and-management",
+      "label": "Production and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/product-quality",
+      "label": "Product Quality"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/reproduction-and-genetics",
+      "label": "Reproduction and Genetics"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/manure-and-nutrient-management",
+      "label": "Manure and Nutrient Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/beef-cattle/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine",
+      "label": "Equine"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine/pasture-and-environment-management",
+      "label": "Pasture and Environment Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine/reproduction-and-genetics",
+      "label": "Reproduction and Genetics"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine/manure-and-nutrient-management",
+      "label": "Manure and Nutrient Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/equine/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/production-and-management",
+      "label": "Production and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/product-quality",
+      "label": "Product Quality"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/reproduction-and-genetics",
+      "label": "Reproduction and Genetics"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/manure-and-nutrient-management",
+      "label": "Manure and Nutrient Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/swine/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats",
+      "label": "Goats"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/production-and-management",
+      "label": "Production and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/product-quality",
+      "label": "Product Quality"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/reproduction-and-genetics",
+      "label": "Reproduction and Genetics"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/manure-and-nutrient-management",
+      "label": "Manure and Nutrient Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/goats/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep",
+      "label": "Sheep"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/production-and-management",
+      "label": "Production and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/product-quality",
+      "label": "Product Quality"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/reproduction-and-genetics",
+      "label": "Reproduction and Genetics"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/manure-and-nutrient-management",
+      "label": "Manure and Nutrient Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/sheep/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/llamas-and-alpacas",
+      "label": "Llamas and Alpacas"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/llamas-and-alpacas/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/llamas-and-alpacas/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/llamas-and-alpacas/manure-and-nutrient-management",
+      "label": "Manure and Nutrient Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/llamas-and-alpacas/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/llamas-and-alpacas/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/canine",
+      "label": "Canine"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/canine/nutrition-and-feeding",
+      "label": "Nutrition and Feeding"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/canine/behavior-and-welfare",
+      "label": "Behavior and Welfare"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/canine/health-and-care",
+      "label": "Health and Care"
+    },
+    {
+      "url": "https://extension.psu.edu/animals-and-livestock/canine/reproduction-and-genetics",
+      "label": "Reproduction and Genetics"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops",
+      "label": "Forage and Food Crops"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops",
+      "label": "Agronomic Crops"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/production-and-harvesting",
+      "label": "Production and Harvesting"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/species-and-varieties",
+      "label": "Species and Varieties"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/soil-fertility-and-management",
+      "label": "Soil Fertility and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/weed-management",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/organic-production",
+      "label": "Organic Production"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/sustainable-agriculture",
+      "label": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops",
+      "label": "Cover Crops"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/production-and-harvesting",
+      "label": "Production and Harvesting"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/species-and-varieties",
+      "label": "Species and Varieties"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/soil-fertility-and-management",
+      "label": "Soil Fertility and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/weed-management",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/organic-production",
+      "label": "Organic Production"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/sustainable-agriculture",
+      "label": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/production-and-harvesting",
+      "label": "Production and Harvesting"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/species-and-varieties",
+      "label": "Species and Varieties"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/soil-fertility-and-management",
+      "label": "Soil Fertility and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/forage-quality-and-testing",
+      "label": "Forage Quality and Testing"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/weed-management",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/organic-production",
+      "label": "Organic Production"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/sustainable-agriculture",
+      "label": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit",
+      "label": "Fruit"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/production-and-harvesting",
+      "label": "Production and Harvesting"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/cultivars-and-rootstocks",
+      "label": "Cultivars and Rootstocks"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/soil-fertility-and-management",
+      "label": "Soil Fertility and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/weed-management",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/organic-production",
+      "label": "Organic Production"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/sustainable-agriculture",
+      "label": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/mushrooms",
+      "label": "Mushrooms"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/mushrooms/production-and-harvesting",
+      "label": "Production and Harvesting"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/mushrooms/substrate-management",
+      "label": "Substrate Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/mushrooms/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/mushrooms/food-safety",
+      "label": "Food Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/mushrooms/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables",
+      "label": "Vegetables"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/production-and-harvesting",
+      "label": "Production and Harvesting"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/species-and-varieties",
+      "label": "Species and Varieties"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/soil-fertility-and-management",
+      "label": "Soil Fertility and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/weed-management",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/organic-production",
+      "label": "Organic Production"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/sustainable-agriculture",
+      "label": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping",
+      "label": "Trees, Lawns, and Landscaping"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/aquatic-plants-and-algae",
+      "label": "Aquatic Plants and Algae"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/aquatic-plants-and-algae/species-and-varieties",
+      "label": "Species and Varieties"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/aquatic-plants-and-algae/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/aquatic-plants-and-algae/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/christmas-trees",
+      "label": "Christmas Trees"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/christmas-trees/production-and-harvesting",
+      "label": "Production and Harvesting"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/christmas-trees/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/christmas-trees/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening",
+      "label": "Home Gardening"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/planting-and-growing",
+      "label": "Planting and Growing"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/species-and-varieties",
+      "label": "Species and Varieties"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/soil-management",
+      "label": "Soil Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/weed-management",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/eco-friendly-gardening",
+      "label": "Eco-Friendly Gardening"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/pollination-and-bees",
+      "label": "Pollination and Bees"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/landscaping-for-wildlife",
+      "label": "Landscaping for Wildlife"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/animal-control",
+      "label": "Animal Control"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/ornamentals-and-floriculture",
+      "label": "Ornamentals and Floriculture"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/ornamentals-and-floriculture/production",
+      "label": "Production"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/ornamentals-and-floriculture/species-and-varieties",
+      "label": "Species and Varieties"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/ornamentals-and-floriculture/soil-management",
+      "label": "Soil Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/ornamentals-and-floriculture/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/ornamentals-and-floriculture/weed-management",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/ornamentals-and-floriculture/facilities-and-technology",
+      "label": "Facilities and Technology"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/ornamentals-and-floriculture/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/trees-and-shrubs",
+      "label": "Trees and Shrubs"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/trees-and-shrubs/production",
+      "label": "Production"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/trees-and-shrubs/species-and-varieties",
+      "label": "Species and Varieties"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/trees-and-shrubs/soil-management",
+      "label": "Soil Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/trees-and-shrubs/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/trees-and-shrubs/weed-management",
+      "label": "Weed Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/trees-and-shrubs/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/trees-and-shrubs/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care",
+      "label": "Turfgrass and Lawn Care"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/species-and-cultivars",
+      "label": "Species and Cultivars"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/establishment-and-renovation",
+      "label": "Establishment and Renovation"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/fertility-and-soil-management",
+      "label": "Fertility and Soil Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/cultural-practices",
+      "label": "Cultural Practices"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/pests-and-diseases",
+      "label": "Pests and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/weed-management",
+      "label": "Weed Identification and Management"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/athletic-fields-and-sports-turf",
+      "label": "Athletic Fields and Sports Turf"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/golf-course-turf",
+      "label": "Golf Course Turf"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/personal-safety",
+      "label": "Personal Safety"
+    },
+    {
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/turfgrass-and-lawn-care/business-management",
+      "label": "Business Management"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases",
+      "label": "Insects, Pests, and Diseases"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pest-disease-and-weed-identification",
+      "label": "Pest, Disease and Weed Identification"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pest-disease-and-weed-identification/insect-identification-and-control",
+      "label": "Insect Identification and Control"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pest-disease-and-weed-identification/weed-identification-and-control",
+      "label": "Weed Identification and Control"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pest-disease-and-weed-identification/plant-disease-identification-and-control",
+      "label": "Plant Disease Identification and Control"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pesticide-applicators",
+      "label": "Pesticide Applicators"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pesticide-applicators/certification-and-study-materials",
+      "label": "Certification and Study Materials"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pesticide-applicators/recertification",
+      "label": "Recertification"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pesticide-applicators/resources-and-best-practices",
+      "label": "Resources and Best Practices"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pest-management-and-education",
+      "label": "Pest Management and Education"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pest-management-and-education/agriculture",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pest-management-and-education/public-homeowners",
+      "label": "Public and Homeowners"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pest-management-and-education/educators-and-teachers",
+      "label": "Educators and Teachers"
+    },
+    {
+      "url": "https://extension.psu.edu/insects-pests-and-diseases/pollinators",
+      "label": "Pollinators"
+    }
+  ],
+  "fetched_at": "2026-10-28T10:40:11.784501+00:00",
+  "sha256": "b3e3778654b8c9f3e776f30173169e144fa4e44c4bca19f794ff2c53209ccd30",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

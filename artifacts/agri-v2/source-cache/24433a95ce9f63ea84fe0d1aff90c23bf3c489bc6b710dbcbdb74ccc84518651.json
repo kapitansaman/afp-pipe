@@ -1,0 +1,428 @@
+{
+  "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+  "requested_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+  "redirect_chain": [
+    "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies"
+  ],
+  "text": "[table row] Late dent | 1989: Yield: 199 bu/ac [table row] Late dent | 1989: Irrigation: 8.2 inches [table row] Late dent | 1989: Rain: 3.7 in. [table row] Late dent | 1990: Yield: 148 bu/ac [table row] Late dent | 1990: Irrigation: 9.0 in. [table row] Late dent | 1990: Rain: 1.9 in. [table row] First dent | 1989: Yield: 202 bu/ac [table row] First dent | 1989: Irrigation: 7.5 in. [table row] First dent | 1989: Rain: 5.8 in. [table row] First dent | 1990: Yield: 144 bu/ac [table row] First dent | 1990: Irrigation: 8.3 in. [table row] First dent | 1990: Rain: 3.5 in. [table row] Dough | 1989: Yield: 202 bu/ac [table row] Dough | 1989: Irrigation: 6.2 in. [table row] Dough | 1989: Rain: 6.5 in. [table row] Dough | 1990: Yield: 141 bu/ac [table row] Dough | 1990: Irrigation: 7.6 in. [table row] Dough | 1990: Rain: 3.7 in. [table row] Blister | 1989: Yield: 204 bu/ac [table row] Blister | 1989: Irrigation: 4.2 in. [table row] Blister | 1989: Rain: 6.7 in. [table row] Blister | 1990: Yield: 122 bu/ac [table row] Blister | 1990: Irrigation: 5.3 in. [table row] Blister | 1990: Rain: 3.8 in. [table row] LSD(0.05) | 1989: Yield: 8.0 bu/ac [table row] LSD(0.05) | 1989: Irrigation: -- [table row] LSD(0.05) | 1989: Rain: -- [table row] LSD(0.05) | 1990: Yield: 5.2 bu/ac [table row] LSD(0.05) | 1990: Irrigation: -- [table row] LSD(0.05) | 1990: Rain: -- [table row] 1 | Parameters: Date Field Crop Soil type Crop growth stage (Tables 3&4) [table row] 1 | Example: Test 1 Corn Estherville sandy loam Dough [table row] 1 | Example: Test 2 Soybean Dakota loam Beginning seed [table row] 2 | Parameters: Water use to crop maturity (WUCM) (from Table 5) [table row] 2 | Example: 2.5 [table row] 2 | Example: 2.9 [table row] 3 | Parameters: Allowable soil moisture deficit (ASMD) (from Table 6) [table row] 3 | Example: 1.5 [table row] 3 | Example: 3.45 [table row] 4 | Parameters: Current soil moisture deficit (CSMD) (measured) [table row] 4 | Example: 0 [table row] 4 | Example: 0.5 [table row] 5 | Parameters: Remaining useable water (RUSM) (Step 3 minus Step 4) [table row] 5 | Example: 1.5 [table row] 5 | Example: 2.95 [table row] 6 | Parameters: Irrigation water requirements (IWR) assuming no rain, inches (Step 2 minus Step 5) [table row] 6 | Example: 1 [table row] 6 | Example: 0* [table row] Blister (R2) | Description: 10-12 days after silking. Kernel is visible and resembles a \"blister\" filled with clear fluid and embryo is barely visible. Approximately 85% moisture content. [table row] Milk (R3) | Description: 18-20 days after silking. Kernel is colored yellow with the inside containing \"milky\" white fluid. Kernel moisture content is approximately 80% [table row] Dough (R4) | Description: 24-26 days after silking. Interior of kernel has thickened to a dough or paste-like substance. Kernel moisture content is approximately 70% [table row] Beginning Dent (R4.7) | Description: Kernels begin to dent at the base of the ear. [table row] Full Dent (R5) | Description: 31-33 days after silking. Kernels dented at kernel top with the \"milk line\" separating the liquid and solid (starch) portions. Within R5 stage, kernels are often staged according to the progression of the milk line: 1/4 milk line (R5.25), 1/2 milk line (R5.5), 3/4 milk line (R5.75) [table row] Full flowering (R2) | Description: Open flower at one of the two uppermost nodes [table row] Full pod (R4) | Description: Pod is ¾\" long at one of the four uppermost nodes [table row] Beginning seed (R5) | Description: Seed is 1/8\" long in pod at one of the four uppermost nodes. [table row] Full seed (R6) | Description: Pod containing a green seed that fills the pod cavity at one of the four uppermost nodes [table row] Beginning Maturity (R7) | Description: At least one pod with its final mature color is present anywhere [table row] Blister (R2) | Approximate number of days to maturity: 40-50 [table row] Blister (R2) | Water use (ET) to maturity (inches): 7-7.5 [table row] Milk (R3) | Approximate number of days to maturity: 38-42 [table row] Milk (R3) | Water use (ET) to maturity (inches): 4.8-5.3 [table row] Dough (R4) | Approximate number of days to maturity: 30-35 [table row] Dough (R4) | Water use (ET) to maturity (inches): 3.2-3.6 [table row] Beginning Dent (R4.7) | Approximate number of days to maturity: 23-27 [table row] Beginning Dent (R4.7) | Water use (ET) to maturity (inches): 2.1-2.4 [table row] Full Dent (R5) | Approximate number of days to maturity: 19-21 [table row] Full Dent (R5) | Water use (ET) to maturity (inches): 1.6-1.8 [table row] 1/2 milk line (R5.5) | Approximate number of days to maturity: 12-14 [table row] 1/2 milk line (R5.5) | Water use (ET) to maturity (inches): 0.9-1.2 [table row] 3/4 milk line (R5.75) | Approximate number of days to maturity: 6-8 [table row] 3/4 milk line (R5.75) | Water use (ET) to maturity (inches): 0.4-0.6 [table row] Full flowering (R2) | Approximate number of days to maturity: 48-54 [table row] Full flowering (R2) | Water use (ET) to maturity (inches): 6.8-7.6 [table row] Full pod (R4) | Approximate number of days to maturity: 35-39 [table row] Full pod (R4) | Water use (ET) to maturity (inches): 4.0-4.8 [table row] Beginning seed (R5) | Approximate number of days to maturity: 27-31 [table row] Beginning seed (R5) | Water use (ET) to maturity (inches): 2.7-3.3 [table row] Full seed (R6) | Approximate number of days to maturity: 15-18 [table row] Full seed (R6) | Water use (ET) to maturity (inches): 1.0-1.4 [table row] Beginning Maturity (R7) | Approximate number of days to maturity: 9-11 [table row] Beginning Maturity (R7) | Water use (ET) to maturity (inches): 0.4-0.7 [table row] Becker (fine sandy loam) | Total available water* (TAW) (inches): 4 [table row] Becker (fine sandy loam) | Allowable soil moisture deficit (ASMD) (60% depletion) (inches): 2.4 [table row] Dakota (loam) | Total available water* (TAW) (inches): 5.75 [table row] Dakota (loam) | Allowable soil moisture deficit (ASMD) (60% depletion) (inches): 3.45 [table row] Estherville (sandy loam) | Total available water* (TAW) (inches): 2.5 [table row] Estherville (sandy loam) | Allowable soil moisture deficit (ASMD) (60% depletion) (inches): 1.5 [table row] Hubbard (loamy sandy) | Total available water* (TAW) (inches): 2.6 [table row] Hubbard (loamy sandy) | Allowable soil moisture deficit (ASMD) (60% depletion) (inches): 1.56 [table row] Renshaw (loam) | Total available water* (TAW) (inches): 3.75 [table row] Renshaw (loam) | Allowable soil moisture deficit (ASMD) (60% depletion) (inches): 2.25 [table row] Sioux (loamy sand) | Total available water* (TAW) (inches): 1.2 [table row] Sioux (loamy sand) | Allowable soil moisture deficit (ASMD) (60% depletion) (inches): 0.72 [table row] 4 gallons per minute (gpm) per acre | 65% efficiency: 0.14 net in./day [table row] 4 gallons per minute (gpm) per acre | 75% efficiency: 0.16 net in./day [table row] 4 gallons per minute (gpm) per acre | 85% efficiency: 0.18 net in./day [table row] 5 gpm per acre | 65% efficiency: 0.17 net in./day [table row] 5 gpm per acre | 75% efficiency: 0.20 net in./day [table row] 5 gpm per acre | 85% efficiency: 0.23 net in./day [table row] 6 gpm per acre | 65% efficiency: 0.21 net in./day [table row] 6 gpm per acre | 75% efficiency: 0.24 net in./day [table row] 6 gpm per acre | 85% efficiency: 0.27 net in./day [table row] 7 gpm per acre | 65% efficiency: 0.24 net in./day [table row] 7 gpm per acre | 75% efficiency: 0.28 net in./day [table row] 7 gpm per acre | 85% efficiency: 0.32 net in./day [table row] 8 gpm per acre | 65% efficiency: 0.28 net in./day [table row] 8 gpm per acre | 75% efficiency: 0.32 net in./day [table row] 8 gpm per acre | 85% efficiency: 0.36 net in./day [table row] 9 gpm per acre | 65% efficiency: 0.31 net in./day [table row] 9 gpm per acre | 75% efficiency: 0.36 net in./day [table row] 9 gpm per acre | 85% efficiency: 0.41 net in./day Irrigation management strategies | Irrigation Home Natural Resources Conservation Agricultural soil and water Irrigation Irrigation management strategies Deciding when to irrigate to optimize production is a daily judgment call that requires you to consider several factors. Many of these factors change as the crop develops. Below are some general guidelines to consider when developing a water management plan and setting allowable soil water deficit limits. Strategies by season and growth stage Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Early season strategies In the spring, always make sure the soil in the germination and early-growth root zone is moist when planting. If necessary, irrigate to wet this zone. As the plant grows, moist soil is necessary for proper root development, as roots will not grow through a dry layer of soil. A dry layer will result in a shallower rooting depth than desirable. For corn, experience shows that the soil water deficit can be as high as 60 to 65 percent in the early vegetative growth stage (germinating to 10th leaf) without affecting plant development. Root zone at this time may only be half to two-thirds of the crop's potential. Holding back on irrigating during the early vegetative growth stages promotes deeper root growth, increases the opportunity to store rainfall when it occurs and decreases the risk for leaching valuable nutrients. Plus sign (+) if content is closed, 'X' if content is open. Mid-season strategies As the crop nears its critical growth period or its usual peak water-use period, reduce the selected allowable soil water deficit to minimize the risks of not meeting the crop's water needs and causing yield losses. For most crops, this may mean changing to a 30 to 40 percent soil water deficit limit before entering the critical growth stage – such as the 10th to 12th leaf stage for corn, or early flower for soybeans. During these critical periods of high water use, regularly project the next two to three days of water needs to plan ahead and avoid stressing any part of the field before it’s irrigated. For example, when using a center pivot, which takes three days to cover the field, project what the water deficit will be after three days and use this to determine when to start irrigating. To reduce the leaching potential of a rainfall event, always consider the weather forecast when scheduling the next irrigation. Plus sign (+) if content is closed, 'X' if content is open. Late-season strategies As the crop nears maturity, you can generally increase the soil water deficit to greater limits without causing stress to the crop. For example, after corn kernels have begun to dent, research has shown that allowing the soil water deficit to increase to 60 to 70 percent should not reduce yields in most years. Table 1 shows field test results which support this early cutoff strategy. These results are from a 1989-1990 Agricultural Utilization Research Institute (AURI)-supported research/demonstration project conducted in west central Minnesota on a Renshaw sandy loam soil with 3.5 inches available water holding capacity (AWC). Table 1: Impact of early irrigation cutoff on corn grown in west central Minnesota on a Renshaw soil. Growth stage at cutoff 1989: Yield 1989: Irrigation 1989: Rain 1990: Yield 1990: Irrigation 1990: Rain Late dent 199 bu/ac 8.2 inches 3.7 in. 148 bu/ac 9.0 in. 1.9 in. First dent 202 bu/ac 7.5 in. 5.8 in. 144 bu/ac 8.3 in. 3.5 in. Dough 202 bu/ac 6.2 in. 6.5 in. 141 bu/ac 7.6 in. 3.7 in. Blister 204 bu/ac 4.2 in. 6.7 in. 122 bu/ac 5.3 in. 3.8 in. LSD(0.05) 8.0 bu/ac -- -- 5.2 bu/ac -- -- Source: Westgate, Olness and Wright (1991). Generally, a corn crop will need about 2 to 2.5 inches of evapotranspiration (ET) after first dent to come to full maturity, depending on emergence date. For soils holding at least 3.5 inches of available water at this time, you shouldn’t need additional irrigation if air temperatures remain at or below normal. A heavier soil may tolerate an even earlier cutoff, but a lighter soil may need one or two more irrigations. Plus sign (+) if content is closed, 'X' if content is open. Predicting the last irrigation for corn and soybeans in central Minnesota Determining the amount and timing of the last few irrigations of the season is one of the most critical water management decisions. Discontinuing too early in the season to save water or reduce pumping cost could mean a much greater reduction in yield returns than the cost of pumping. On the other hand, irrigating right up to crop maturity may mean using 1 to 3 inches more irrigation water than necessary and increasing operating costs $3 to $15 per acre depending on power source. Here we present some guidelines for predicting the last irrigation for corn and soybeans when irrigation water supplies are adequate. Basic requirements for estimating the last irrigation of the season The two basic irrigation water management strategies that an operator should keep in mind when predicting the last irrigation are: To provide adequate soil moisture in the root zone to carry the crop to maturity without reducing yields. To deplete the soil moisture farther than normal (i.e., 60-70% of available water can be depleted at maturity) when nearing maturity. This will minimize irrigation water supply needs, fuel and labor for the season and allow the off-season precipitation to recharge the soil profile. These requirements may appear to be conflicting, but the problem can be solved rather easily if adequate field information is available or is predictable. The following field information is necessary to predict the date of the last irrigation: Current crop growth stage and predicted crop maturity date. Predicted rate of water use by the crop to maturity. Remaining useable water in the root zone. The probability of significant amounts of rainfall before crop maturity. Information on the probability of rainfall will not be discussed in this article. But, the latest weather forecast at the time of predicting the last irrigation should be considered in the decision. Also, if you are located in an area having some level of drought, the ongoing drought situation can be monitored at the University of Minnesota climate web site: www.climate.umn.edu . Steps to schedule the last irrigation Record the date, field, crop, soil type, and the crop growth stage (Table 2). The soil type information can be obtained from the NRCS Web Soil Survey and Tables 3-4 can be used to determine the crop growth stage. Determine the water use by the crop to reach maturity (WUCM). Table 5 presents the approximate water use at particular growth stage to reach maturity. Determine the allowable soil moisture deficit (ASMD) or management allowable depletion (MAD) for the soil listed in step 1. The ASMD values for different soil types are presented in Table 6. Measure the current soil moisture deficit (CSMD). Calculate the remaining useable soil moisture (RUSM) in the rooting zone by subtracting CSMD from step 4 from ASMD found in step 3. Calculate the irrigation water requirement (IWR) by subtracting the remaining usable soil moisture found in step 5 from water use to crop maturity found in step 2. If the remaining usable water (step 5) is greater than the water use to crop maturity (step 2), then no irrigation is required. Table 2. Requirements for estimating the last irrigation (form) Step Parameters Example Example Your field 1 Date Field Crop Soil type Crop growth stage (Tables 3&4) Test 1 Corn Estherville sandy loam Dough Test 2 Soybean Dakota loam Beginning seed 2 Water use to crop maturity (WUCM) (from Table 5) 2.5 2.9 3 Allowable soil moisture deficit (ASMD) (from Table 6) 1.5 3.45 4 Current soil moisture deficit (CSMD) (measured) 0 0.5 5 Remaining useable water (RUSM) (Step 3 minus Step 4) 1.5 2.95 6 Irrigation water requirements (IWR) assuming no rain, inches (Step 2 minus Step 5) 1 0* *Note: If line 5 is greater than or equal to line 2, no additional irrigation is needed. Table 3. Corn reproductive growth stages. Corn growth stage Description Blister (R2) 10-12 days after silking. Kernel is visible and resembles a \"blister\" filled with clear fluid and embryo is barely visible. Approximately 85% moisture content. Milk (R3) 18-20 days after silking. Kernel is colored yellow with the inside containing \"milky\" white fluid. Kernel moisture content is approximately 80% Dough (R4) 24-26 days after silking. Interior of kernel has thickened to a dough or paste-like substance. Kernel moisture content is approximately 70% Beginning Dent (R4.7) Kernels begin to dent at the base of the ear. Full Dent (R5) 31-33 days after silking. Kernels dented at kernel top with the \"milk line\" separating the liquid and solid (starch) portions. Within R5 stage, kernels are often staged according to the progression of the milk line: 1/4 milk line (R5.25), 1/2 milk line (R5.5), 3/4 milk line (R5.75) Source: Corn growth and development, PMR 1009, Iowa State University, 2011. Table 4. Soybean reproductive growth stages. Soybean growth stage Description Full flowering (R2) Open flower at one of the two uppermost nodes Full pod (R4) Pod is ¾\" long at one of the four uppermost nodes Beginning seed (R5) Seed is 1/8\" long in pod at one of the four uppermost nodes. Full seed (R6) Pod containing a green seed that fills the pod cavity at one of the four uppermost nodes Beginning Maturity (R7) At least one pod with its final mature color is present anywhere Source: Soybean growth and development, PM 1945, Iowa State University, 2014 Table 5. Estimated normal water requirements for corn (95 RM) and soybeans between various growth stages and maturity in central Minnesota. Stage of Growth Approximate number of days to maturity Water use (ET) to maturity (inches) Corn Blister (R2) 40-50 7-7.5 Milk (R3) 38-42 4.8-5.3 Dough (R4) 30-35 3.2-3.6 Beginning Dent (R4.7) 23-27 2.1-2.4 Full Dent (R5) 19-21 1.6-1.8 1/2 milk line (R5.5) 12-14 0.9-1.2 3/4 milk line (R5.75) 6-8 0.4-0.6 Soybeans Full flowering (R2) 48-54 6.8-7.6 Full pod (R4) 35-39 4.0-4.8 Beginning seed (R5) 27-31 2.7-3.3 Full seed (R6) 15-18 1.0-1.4 Beginning Maturity (R7) 9-11 0.4-0.7 Table 6. Available soil water capacity and allowable soil moisture deficit at maturity for several irrigated soils in Minnesota. Soil Type Total available water* (TAW) (inches) Allowable soil moisture deficit (ASMD) (60% depletion) (inches) Becker (fine sandy loam) 4 2.4 Dakota (loam) 5.75 3.45 Estherville (sandy loam) 2.5 1.5 Hubbard (loamy sandy) 2.6 1.56 Renshaw (loam) 3.75 2.25 Sioux (loamy sand) 1.2 0.72 *Water capacity in the top 3 feet or less for soils having root restrictive layer, like coarse gravel. Step 1. Crop growth stage Corn and soybean plants require some moisture right up to the time of maturity. However, with shorter and cooler days towards the end of the season, the crop is using less water per day than during the rest of the season. Since some of the required moisture near the end of the season can be obtained from the soil moisture reservoir, the last irrigation can usually be applied two to three weeks prior to physiological maturity depending on the soil's water holding capacity. To estimate the number of days left to reach maturity and water use by crop until maturity, knowledge of crop growth stage is very important. Maturity of a crop is defined as the time when the kernels or seeds have reached maximum dry weight. For corn, a black layer formation at the tip of the kernel is the normal indication of physiological maturity. This occurs approximately 7 days after the kernel has reached the ¼ milk line. For soybeans, beginning maturity is generally identified when one normal pod on the main stem has reached its mature yellow or brown color. Tables 3 and 4 of this article describe the reproductive growth stages of corn and soybeans. More detailed information about crop growth can be found in the source provided at the end of each table. Step 2. Water use to maturity (WUCM) Estimating crop water use until maturity involves summing the daily estimates of crop evapotranspiration (ET) from the growth stage of interest until maturity. ET is the combination of evaporation from the soil surface and transpiration from the plants. It is the total amount of water used by the crop. Evapotranspiration is affected by many factors including weather (radiation, air temperature, humidity and winds speed), crop factors such as crop type, variety and development stage, and management conditions. The evapotranspiration from a reference surface (grass and alfalfa) not short of water is called reference evapotranspiration (ET ref ). To estimate the crop ET for a particular crop at a particular growing stage, reference ET must be multiplied by a crop coefficient (Kc): Crop ET = ET ref x Kc Table 5 shows the estimated water requirements (ET) between a given growth stage and maturity for corn and soybeans for central Minnesota under normal climatic conditions. These estimates were calculated by using normal crop development rates for 95 RM corn and central soybean maturity zone and normal water use patterns for central Minnesota. Step 3. Determining available soil moisture deficit (ASMD) or management allowable depletion (MAD) The available water holding capacity (AWC) of different soils varies. It is a function of soil texture, soil structure and organic matter of the soil. It is the soil moisture (water) that can be extracted and used by plants. Available water holding capacity (AWC) is the amount of water the soil holds between the upper limit, i.e., field capacity, and the lower limit, i.e., permanent wilting point. To determine the total available water (TAW) in the root zone depth, the AWC is multiplied by root zone depth (RZD). TAW = AWC x RZD Table 6 presents the TAW of different soil types in top 3 feet or less. The AWC for other soil types can be obtained from NRCS web soil survey https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm Since most fields have several types of soils, the lowest water holding capacity soil covering at least 25 percent of the field should be used in the above calculations. Lower water holding soils found on ridges or hill tops should not be used to plan the next irrigation. Research shows that 60 to 70 percent of the TAW can be depleted at crop maturity without reducing the grain yield. Therefore, the ASMD in top 3 feet or less can be calculated by the following equation: ASMD = 0.60 x TAW Step 4. Measuring current soil moisture deficit (CSMD) The current soil moisture deficit is the difference between the TAW and the actual soil moisture status in the root zone depth in field. There are many methods available to measure the current soil moisture deficit. These methods include measuring soil moisture electronically using neutron gauge or resistance blocks, measuring by physical methods like tensiometers, estimating using traditional hand feel or appearance method, and using irrigation scheduling methods such as checkbook method which uses ET data. More information on estimating the current soil moisture deficit can be found on the University of Minnesota Extension irrigation website . Steps 5-6. Remaining usable water (RUSM) and irrigation water requirement (IWR) Once we determined the ASMD and the CSMD, the remaining usable soil moisture (RUSM) in the root zone can be calculated by subtracting the current soil moisture deficit (CSMD) from the allowable soil moisture deficit (ASMD) at maturity. RUSM = ASMD - CSMD Irrigation water requirement (IWR) can be calculated by subtracting the RUSM from the WUCM: IWR = WUCM – RUSM Note: If IWR is negative that means no irrigation is needed. Increase allowable soil water deficit Another possible irrigation water management plan is to set the allowable soil water deficit equal to, or slightly greater than, the irrigation system’s normal net application amount. For example, if the typical application is .75 inches net, then choose a planning deficit limit of .75 to 1 inch. If th",
+  "links": [
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+      "label": "Skip to navigation"
+    },
+    {
+      "url": "https://extension.umn.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Debalin%20at%20Field%20School.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/471",
+      "label": "Building a stronger Minnesota together"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/what-we-do",
+      "label": "What we do"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/local",
+      "label": "Local offices"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/tribal-outreach",
+      "label": "Tribal outreach"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/regional-partnerships",
+      "label": "Regional partnerships"
+    },
+    {
+      "url": "https://agreett.umn.edu/",
+      "label": "AGREETT"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/global-initiatives",
+      "label": "Global initiatives"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/ask-a-question",
+      "label": "Ask a question"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/apply-for-a-job",
+      "label": "Apply for a job"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extensionstaff.umn.edu/",
+      "label": "Staff"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/news",
+      "label": "Extension news"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/newsletters",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/podcasts",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/White%20baneberry%20berries%20and%20red%20stalks.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/event/spooky-plants-for-the-spooky-season",
+      "label": "Spooky plants for the spooky season | Nov 3"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events",
+      "label": "Courses and events"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events/for-organizations",
+      "label": "For organizations"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179506",
+      "label": "For professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Aerial%20view%20of%20group%20in%20field_screen.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/7781",
+      "label": "Institute for Ag Professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/beef",
+      "label": "Beef"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/horse",
+      "label": "Horse"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/livestock-operations",
+      "label": "Livestock operations"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-production/growing-corn",
+      "label": "Corn"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "label": "Cover crops"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "label": "Nutrient management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/soybean",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/sugarbeet",
+      "label": "Sugarbeet"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/weed-management",
+      "label": "Weed management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agricultural-business-management",
+      "label": "Ag business management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/farm-safety",
+      "label": "Farm safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/growing-safe-food",
+      "label": "On-farm food safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/small-farms",
+      "label": "Small farms"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production",
+      "label": "Commercial Fruit"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming",
+      "label": "Vegetable farming"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/tornado-storm-clouds-above-the-shed-in-the-countryside.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/158556",
+      "label": "COMET Training"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/economy-and-development",
+      "label": "Economy and development"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/leadership-skill-building",
+      "label": "Leadership skill building"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/tourism-and-outdoor-recreation",
+      "label": "Tourism and outdoor recreation"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/175686",
+      "label": "Managing money"
+    },
+    {
+      "url": "https://extension.umn.edu/node/177516",
+      "label": "Mental health"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/raising-kids",
+      "label": "Raising kids"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/rural-stress",
+      "label": "Rural stress"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Tomatoes-peppers-on-outside-table-UMN-extension.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/9161",
+      "label": "Take a class: Preserving food at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home",
+      "label": "Cooking at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/commercial-kitchens",
+      "label": "Commercial kitchens"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/cottage-food-safety-in-minnesota",
+      "label": "Cottage foods"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/rural-grocery-stores",
+      "label": "Rural grocery stores"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/supershelf",
+      "label": "Supershelf"
+    },
+    {
+      "url": "https://extension.umn.edu/food/nutrition/healthy-eating",
+      "label": "Healthy eating"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Garden%20Tour%202023.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/26856",
+      "label": "Read Yard and Garden News"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota",
+      "label": "Gardening in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota",
+      "label": "Lawns and landscapes in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects",
+      "label": "Yard and garden insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems",
+      "label": "Yard and garden problems"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/home-maintenance-and-safety",
+      "label": "Home maintenance and safety"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects",
+      "label": "Household insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/water-usage-and-water-damage-in-homes",
+      "label": "Water usage and water damage in homes"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Copy%20of%20IMG_3906.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/100581",
+      "label": "Minnesota Woodland Stewards"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179281",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/wild-pollinators",
+      "label": "Wild pollinators"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water",
+      "label": "Agricultural soil and water"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/shoreland-watersheds-and-wetlands",
+      "label": "Shoreland, watersheds and wetlands"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/weather-and-climate/prepare-for-risks-to-your-home-and-community",
+      "label": "Prepare for risks"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/4-H-State-Ambassadors-greeting-fairgoers-at-state-fair-4-H-Building-entrance.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/4h-building-campaign/home",
+      "label": "Help us transform the 4‑H Building"
+    },
+    {
+      "url": "https://extension.umn.edu/4-h-and-youth/minnesota-4-h",
+      "label": "Minnesota 4-H"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160906",
+      "label": "Belonging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160921",
+      "label": "Leadership and skills"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160911",
+      "label": "Learning and readiness"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160896",
+      "label": "Program quality"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160926",
+      "label": "Resilience"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources",
+      "label": "Natural Resources"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation",
+      "label": "Conservation"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
+      "label": "Irrigation"
+    },
+    {
+      "url": "https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm",
+      "label": "NRCS Web Soil Survey"
+    },
+    {
+      "url": "https://extension.umn.edu/node/6461",
+      "label": "University of Minnesota Extension irrigation website"
+    },
+    {
+      "url": "https://ndawn.ndsu.nodak.edu//crop-water-use-map-form.html",
+      "label": "NDAWN Crop water use"
+    },
+    {
+      "url": "https://agweather.cals.wisc.edu/weather/et",
+      "label": "Daily ET estimates"
+    },
+    {
+      "url": "https://extension.umn.edu/about-extension/contact-us",
+      "label": "Contact"
+    },
+    {
+      "url": "https://extension.umn.edu/cdn-cgi/l/email-protection",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://z.umn.edu/report-accessibility-issue?ref_url=https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+      "label": "Report Web Accessibility Issues"
+    },
+    {
+      "url": "https://myextension.umn.edu",
+      "label": "Staff intranet"
+    }
+  ],
+  "fetched_at": "2026-10-28T10:40:40.643296+00:00",
+  "sha256": "d412b9508ef382a0f945c492341c1571188a9fa714b5cc97e771ebf3514c50dc",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

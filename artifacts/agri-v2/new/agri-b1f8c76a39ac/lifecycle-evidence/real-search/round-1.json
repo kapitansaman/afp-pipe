@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T09:25:00.231271+00:00",
+  "started_at": "2026-10-28T10:39:57.372687+00:00",
   "queries": [
     {
       "query_id": "23259624cba397de9aac12b7f937b3a1abe3da6ad77acc3ca73e5052d4ca51de",
       "query": "PEAQ alfalfa pre-harvest yield estimation university extension protocol",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179526.1579845,
       "results": [
         {
@@ -38,7 +38,7 @@
     {
       "query_id": "c9e1bfd7a5247b8f379065cc3e0093a809c13b836bafbb6b4010d06065bf5246",
       "query": "alfalfa field sampling quadrat method yield prediction before cut",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179528.2370262,
       "results": [
         {
@@ -89,26 +89,22 @@
       {
         "url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq",
         "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
         "canonical_url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://crops.extension.iastate.edu/cropnews/2021/05/estimating-first-crop-alfalfa-harvest-using-peaq-steps",
         "canonical_url": "https://crops.extension.iastate.edu/cropnews/2021/05/estimating-first-crop-alfalfa-harvest-using-peaq-steps",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
         "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://dairy.osu.edu/newsletter/buckeye-dairy-news/volume-13-issue-2/estimating-alfalfa-ndf-field",
@@ -120,8 +116,7 @@
       {
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
         "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -131,29 +126,28 @@
     "requirements": [
       {
         "id": "species_product",
-        "covered": true,
-        "document_ids": [
-          "s13"
-        ],
-        "missing": ""
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document provides a university extension or peer-reviewed field-sampling protocol specifically for estimating alfalfa yield (not quality/RFV) prior to harvest with explicitly stated measured inputs and output units in t DM/ha. PEAQ is named in s10, s11, and s13 but estimates RFV (Relative Feed Value), not yield. s2 provides actual harvest yield measurements but is a post-harvest research trial, not a pre-harvest estimation protocol. s14 uses LiDAR/multispectral ML models, not a stated field-sampling protocol."
       },
       {
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No fetched source provides a deterministic conversion from measured pre-harvest inputs (plant height, stem density, etc.) to estimated yield in t DM/ha or similar units. PEAQ (s10–s13) estimates RFV/NDF, not yield; s2 measures cut-plot yield post-harvest but gives no pre-harvest estimation formula."
+        "missing": "No supplied document provides a step-by-step sampling procedure with a deterministic conversion from measured field inputs (plant height, stem density, etc.) to estimated yield in t DM/ha. PEAQ procedures in s10/s11/s13 convert height + maturity stage to RFV, not DM yield. s2 documents post-harvest cutting of 0.91×4 m plots to 5 cm stubble and drying at 60 °C to determine DM — this is an actual harvest method, not a pre-harvest prediction method."
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [],
-        "missing": "While s13 (UMN Extension) and s10 (UW Madison) are university-affiliated and pre-harvest, they estimate relative feed value (RFV) and NDF, not dry-matter yield. s2 reports hand-cut plot DM yields (Mg ha⁻¹) but after harvest, not as a pre-harvest field-sampling estimator."
+        "missing": "None of the supplied documents are scoped to pre-harvest field measurement for yield estimation only. s2 and s14 are post-harvest biomass/yield research. s10, s11, s13 cover pre-harvest RFV estimation, not yield. The scope restriction excludes post-harvest quality data, cumulative DM-rate papers, and growth-index indices — no supplied source meets the pre-harvest yield-estimation-only scope with primary agricultural research or university extension sourcing."
       }
     ],
     "next_queries": [
-      "PEAQ alfalfa yield estimation formula dry matter tons per hectare university extension",
-      "hand-cut quadrat alfalfa biomass prediction pre-harvest field sampling protocol yield t DM/ha"
+      "alfalfa predictive equations yield PEAQ Pre-Harvest Estimation Of Yield method t DM/ha extension",
+      "alfalfa pre-harvest yield estimation plant height stem density quadratic equation university extension"
     ]
   },
-  "completed_at": "2026-10-28T09:26:07.116618+00:00"
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:14.447381+00:00"
 }

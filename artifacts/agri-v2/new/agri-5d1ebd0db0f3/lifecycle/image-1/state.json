@@ -1,0 +1,41 @@
+{
+  "attempts": 4,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "validated",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:41:40.808308+00:00",
+      "completed_at": "2026-10-28T10:44:02.461163+00:00",
+      "failure": null
+    },
+    {
+      "attempts": 2,
+      "status": "validated",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:44:14.569519+00:00",
+      "completed_at": "2026-10-28T10:45:22.718770+00:00",
+      "failure": null
+    },
+    {
+      "attempts": 3,
+      "status": "validated",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:45:33.290828+00:00",
+      "completed_at": "2026-10-28T10:46:40.950234+00:00",
+      "failure": null
+    },
+    {
+      "attempts": 4,
+      "status": "validated",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:46:50.121383+00:00",
+      "completed_at": "2026-10-28T10:47:57.672694+00:00",
+      "failure": null
+    }
+  ],
+  "status": "validated",
+  "last_run_id": "40673536160",
+  "started_at": "2026-10-28T10:46:50.121383+00:00",
+  "completed_at": "2026-10-28T10:47:57.672694+00:00"
+}

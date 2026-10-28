@@ -6,9 +6,9 @@
   "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
   "status": "waiting",
   "reason": "translation_or_review_needs_another_attempt",
-  "attempts": 1,
-  "model_calls_spent": 1,
-  "next_attempt_at": "2026-10-28T10:18:55.492249+00:00",
+  "attempts": 2,
+  "model_calls_spent": 5,
+  "next_attempt_at": "2026-10-29T10:49:40.089875+00:00",
   "history": [
     {
       "event": "reserved",
@@ -22,15 +22,70 @@
       "reserved_model_calls": 1,
       "status": "waiting",
       "at": "2026-10-28T04:18:55.492192+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 2,
+      "max_calls": 4,
+      "at": "2026-10-28T10:47:59.019399+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 2,
+      "reserved_model_calls": 4,
+      "status": "waiting",
+      "at": "2026-10-28T10:49:40.089823+00:00"
     }
   ],
   "created_at": "2026-10-28T04:18:55.462180+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,
-  "last_started_at": "2026-10-28T04:18:55.466733+00:00",
+  "last_started_at": "2026-10-28T10:47:59.019389+00:00",
   "last_failure": {
-    "kind": "unexpected",
+    "kind": "validation",
     "category": "unspecified"
   },
-  "primary_finished": true
+  "primary_finished": true,
+  "pending_issues": [
+    {
+      "id": 4,
+      "detail": "‘التربة المتقشرة (Crust)’ mistranslates ‘خاک crust‌شده’ (crust-formed soil). ‘متقشرة’ implies cracking/fracturing; correct term is ‘التربة المتقشرة’ or ‘المُقسّرة’ referring to a hard surface seal."
+    },
+    {
+      "id": 6,
+      "detail": "‘خطر التشقق السطحي (Crust)’ uses ‘التشقق’ (cracking) instead of ‘تكون القشرة’ (crust formation). ‘Crust’ in soil science is a hard sealed layer, not fractured ground."
+    },
+    {
+      "id": 10,
+      "detail": "‘التتشقق السطحي’ mistranslates ‘پوسته‌بستن’ (crusting). ‘التتشقق’ means cracking; the correct agricultural term is ‘تكوين القشرة السطحية’."
+    },
+    {
+      "id": 21,
+      "detail": "‘خطر التشقق السطحي (Crust)’ repeats the same mistranslation as ID 6. Should be ‘خطر تكون القشرة السطحية (Crust)’."
+    },
+    {
+      "id": 25,
+      "detail": "‘مقاومة التشقق السطحي’ incorrectly renders ‘مقاومت به پوسته‌بستن’ (resistance to crusting). ‘التشققة’ denotes cracking, not crust formation."
+    },
+    {
+      "id": 27,
+      "detail": "‘التربة المتقشرة (Crust)’ again mistranslates ‘خاک crust‌شده’. Same factual error as ID 4."
+    },
+    {
+      "id": 41,
+      "detail": "‘خطر التشقق السطحي (Crust)’ in summary statement repeats the error. Should be ‘خطر تكون القشرة السطحية (Crust)’."
+    },
+    {
+      "id": 43,
+      "detail": "‘التربة المتشققة (Crust)’ in FAQ answer uses ‘متشققة’ (fractured) instead of ‘متقشرة’ or ‘مُقسّرة’ for crust soils."
+    },
+    {
+      "id": 45,
+      "detail": "‘خطر التشقق السطحي (Crust)’ in another FAQ repeats the mistranslation."
+    },
+    {
+      "id": 47,
+      "detail": "Unsupported addition: target mentions ‘الإجهاد الميكانيكي (Mechanical)’ which does not appear in source. Source only discusses lodging and grain quality reduction, not mechanical stress."
+    }
+  ]
 }

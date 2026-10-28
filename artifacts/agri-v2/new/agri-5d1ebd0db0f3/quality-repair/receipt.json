@@ -1,0 +1,9 @@
+{
+  "status": "repaired_pending_independent_recheck",
+  "original_article_sha256": "14880732cbaf4fc3ba1e8f4fd4f9d119c86a333729d194a3368eb64dab7ea0df",
+  "repaired_article_sha256": "e66293b581fa89368e9b75362f5e092167367f4bd87a7a0eedf68d98e6323cf4",
+  "brief_sha256": "cb50fc874476d8821cfe2fd74fec62485e75e4e617d0f22ce1a32fdc0156157f",
+  "max_repairs": 1,
+  "human_review_claimed": false,
+  "at": "2026-10-28T10:41:33.762280+00:00"
+}

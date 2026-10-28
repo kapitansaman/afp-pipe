@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T09:24:54.305393+00:00",
+  "started_at": "2026-10-28T10:39:57.405563+00:00",
   "queries": [
     {
       "query_id": "ae08d17b83809ce0b60a45bd2d12c4b0ccd8bb86634821e30e730a0942135c28",
       "query": "rainfed alfalfa supplemental irrigation timing decision criteria extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179495.752263,
       "results": [
         {
@@ -28,7 +28,7 @@
     {
       "query_id": "2eeb6359c651bd083f2876a61e6488f734e8aeaae5ec877c5e4e96d666727392",
       "query": "alfalfa deficit irrigation economic analysis cost benefit university research",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179500.2612865,
       "results": [
         {
@@ -78,8 +78,7 @@
       {
         "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
         "canonical_url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
@@ -89,8 +88,7 @@
       {
         "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-managing-drought-stunted-alfalfa-and-first-cutting-irrigation",
         "canonical_url": "https://cropwatch.unl.edu/pasture-and-forage-minute-managing-drought-stunted-alfalfa-and-first-cutting-irrigation/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1648&context=etd2023",
@@ -109,8 +107,7 @@
       {
         "url": "https://www.climatehubs.usda.gov/sites/default/files/water-optimizaiton-on-utah-farms.pdf",
         "canonical_url": "https://www.climatehubs.usda.gov/sites/default/files/water-optimizaiton-on-utah-farms.pdf",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -120,31 +117,28 @@
     "requirements": [
       {
         "id": "species_product",
-        "covered": true,
-        "document_ids": [
-          "s2"
-        ],
-        "missing": ""
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document reports a confirmed rainfed (dryland/non-irrigated baseline) alfalfa production system compared with a supplemental irrigation treatment. s12 discusses drought-stressed dryland alfalfa and first-cutting irrigation strategy generally, and s13 mentions season-long deficit irrigation for wheat/barley/oat and alfalfa but without a rainfed baseline versus supplemental-irrigation treatment for alfalfa; s2 irrigated one experimental site (14 cm/yr) uniformly rather than comparing rainfed to supplemental."
       },
       {
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No source provides a documented soil-moisture or plant-stress threshold, or growth-stage-based decision rule specifying when supplemental irrigation should be applied to rainfed alfalfa. s12 mentions drought stress indicators (plant color, height <10 in) but not an irrigation-trigger rule; s10 describes evaporation-pan scheduling for full irrigation, not supplemental triggers."
+        "missing": "No supplied document provides a documented irrigation-scheduling decision rule or threshold (soil-moisture percentage, plant-stress indicator, or growth-stage trigger) specific to supplemental irrigation on rainfed alfalfa. s10 describes evaporation-pan-based scheduling at a 1:1 alfalfa-to-pan ratio for general irrigation timing, and s12 gives rule-of-thumb totals (4–6 in root-available water per ton; 6–7 in per cutting) but neither identifies when supplemental irrigation should be applied or the trigger threshold."
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
-        "document_ids": [
-          "s12"
-        ],
-        "missing": "s12 supplies applied-water estimates (4–6 in water per ton forage; 6–7 in per first cutting) but no measured yield-response delta from supplemental irrigation nor an economic-return calculation with input costs and output value. s2 gives yield (Mg/ha) and net returns but for cutting-frequency treatments, not supplemental-irrigation water-volume vs. rainfed yield/response economics."
+        "document_ids": [],
+        "missing": "No supplied document supplies measured water-application volumes in mm/inches/acre-ft together with yield response in ton/acre or kg/ha, plus an economic-return calculation with input costs and output value for supplemental irrigation on rainfed alfalfa. s12 states a need of 4–6 inches of root-available water per ton and 6–7 inches per subsequent cutting, and s13 reports 10–15% water savings with scheduling technologies but neither provides the paired measured application, yield response, and full cost–return calculation required."
       }
     ],
     "next_queries": [
-      "alfalfa rainfed supplemental irrigation timing threshold soil moisture university extension",
-      "supplemental irrigation rainfed alfalfa yield response economic return cost benefit"
+      "rainfed alfalfa supplemental irrigation decision threshold soil moisture growth stage university extension",
+      "supplemental irrigation alfalfa yield response cost-benefit economic return mm per ton"
     ]
   },
-  "completed_at": "2026-10-28T09:25:20.208808+00:00"
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:13.128786+00:00"
 }

@@ -26,8 +26,7 @@
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337",
       "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/",
-      "redirect_hops": 1,
-      "status": "fetched"
+      "status": "cache_valid"
     }
   ]
 }

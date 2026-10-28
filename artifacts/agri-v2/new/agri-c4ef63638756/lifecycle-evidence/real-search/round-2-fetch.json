@@ -1,0 +1,33 @@
+{
+  "requested": 5,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+      "canonical_url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+      "canonical_url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+      "canonical_url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://ask.ifas.ufl.edu/publication/SS491",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    }
+  ]
+}

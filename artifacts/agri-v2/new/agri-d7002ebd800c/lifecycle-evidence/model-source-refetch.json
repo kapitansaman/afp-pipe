@@ -1,0 +1,302 @@
+{
+  "coverage_contract_version": 1,
+  "final_coverage_complete": false,
+  "version": 2,
+  "topic_id": "agri-d7002ebd800c",
+  "input_binding": {
+    "topic_sha256": "3c5fa9e704d5b4e711d627b193591d1c185ddfba363b1e17720b79b506cb5aa5",
+    "sources_sha256": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+    "raw_sha256": "8edfba8a80a8950f8386d0c185e4ae120041515ce0cc1295a63aaaf88207789b"
+  },
+  "completed_at": "2026-10-28T10:41:08.175106+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T10:40:06.432874+00:00",
+      "queries": [
+        {
+          "query_id": "6249323ea23015b184fb4d5b04dae9ecf9942fdbae6107e3faad70198c92f24a",
+          "query": "chickpea irrigation termination before harvest soil moisture threshold stage",
+          "cached": false,
+          "checked_at_epoch": 1793184013.6721685,
+          "results": [
+            {
+              "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+              "title": "Chickpea Production",
+              "description": "aid to terminate the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] 6 of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. If weeds are present at harvest time, glyphosate (Roundup or other generics), paraquat (Gramoxone), saflufenacil (Sharpen), and flumioxazin (Valor) can be used for chickpea and weed desiccation. [...] Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of envir"
+            },
+            {
+              "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+              "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+              "description": "Soil moisture was measured using neutron attenuation down to a 5-foot depth to schedule irrigation and quantify changes in stored soil water. ET was calculated using the soil water balance, which is the summation of irrigation (I), precipitation (P), deep percolation (DP), and seasonal soil water change (SWC). [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top 2.5 feet of the soil profile (Figure 4). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 4).\n\nGraph of soil volumetric water content for field peas in 2018 [...] In 2018, field peas were planted on March 14 and harvested on July 16, while chickpeas were planted March 24 and harvested August 17. In 2019, field peas were planted on March 28 and harvested on July 17, while chickpeas were planted April 23 and harvested August 10."
+            }
+          ]
+        },
+        {
+          "query_id": "c79c064f3f4fbe2ea3b8da97bb0f6fb58dcdc41b434678a4bba7df38113c8f27",
+          "query": "chickpea final irrigation timing pod fill maturity water stress prevention",
+          "cached": false,
+          "checked_at_epoch": 1793184015.9330575,
+          "results": [
+            {
+              "url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+              "title": "Late-season irrigation: Tips for yield protection and water stewardship",
+              "description": "Typically, corn at R2 (blister) uses approximately 6 to 7 inches of water to maturity; Soybeans at R4 (full pod) uses approximately 3 to 4 inches of water to maturity; and Potato at tuber bulking uses 4 to 5 inches of water to maturity. [...] As of early August, most irrigated corn in central and west-central Minnesota is close to the R2 growth stage. Soybeans are progressing through pod fill (R3–R5), with seed fill just beginning. These stages represent a critical period for grain yield determination. [...] Daily crop evapotranspiration (ETc) rates remain high at this time of the season, especially during hot and windy spells, but start declining after mid-August. Central Minnesota reference evapotranspiration (ETo) is averaging 0.20 inches/day, meaning soils can dry quickly if rainfall is limited.  \n  \nIf soil moisture sensors or hand probes show dry conditions in the top 12–18 inches, strategic irrigation may still be warranted to protect kernel or seed fill."
+            },
+            {
+              "url": "https://www.canr.msu.edu/news/is-it-time-for-the-last-irrigation",
+              "title": "Is it time for the last irrigation?",
+              "description": "Several studies show that stopping irrigation too early during pod fill can reduce seed size, accelerate senescence and ultimately lower yields."
+            },
+            {
+              "url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season",
+              "title": "Scheduling the Last Irrigation of the Season - CropWatch",
+              "description": "During the heart of the irrigation season, we recommend keeping the available soil water level above the 50% depletion level. To do this we recommend irrigating"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 5,
+        "loaded": 4,
+        "sources": [
+          {
+            "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+            "canonical_url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+            "status": "cache_valid"
+          },
+          {
+            "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+            "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
+            "status": "cache_valid"
+          },
+          {
+            "url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+            "canonical_url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.canr.msu.edu/news/is-it-time-for-the-last-irrigation",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season",
+            "canonical_url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 5,
+      "coverage": {
+        "topic_id": "agri-d7002ebd800c",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document provides a specific decision rule or threshold for when to stop or reduce irrigation before chickpea harvest. s5 reports yield responses to different irrigation levels and notes dryland performed best, but gives no growth-stage, soil-moisture, or calendar-based cessation criterion for chickpea."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": true,
+            "document_ids": [
+              "s5"
+            ],
+            "missing": ""
+          }
+        ],
+        "next_queries": [
+          "chickpea preharvest irrigation cutoff decision rule university extension",
+          "chickpea soil moisture threshold stop irrigation before harvest research"
+        ]
+      },
+      "coverage_cache_hit": false,
+      "completed_at": "2026-10-28T10:40:31.949336+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T10:40:31.950053+00:00",
+      "queries": [
+        {
+          "query_id": "a45bf708e2b5f6c7f3002cc1ff1c7e3b195a5ffd7c316d5fd54229f1999b180e",
+          "query": "chickpea preharvest irrigation cutoff decision rule university extension",
+          "cached": false,
+          "checked_at_epoch": 1793184056.8458638,
+          "results": [
+            {
+              "url": "https://plant-pest-advisory.rutgers.edu/pre-harvest-water-requirements-under-the-produce-safety-rule",
+              "title": "Pre-Harvest Water Requirements Under the Produce Safety Rule — Plant & Pest Advisory",
+              "description": "Plant & Pest Advisory\n\nRutgers Cooperative Extension\n\nRutgers University\n\nNJAES\n\nPesticide User Responsibility\n\n Home\n Commercial Ag Updates\n On-Farm Food Safety\n Plant Diagnostic Lab\n\n Vegetable Crops\n  + Organic Production\n  + Disease Forecasting\n Fruit Crops\n Field, Forage & Livestock\n Landscape, Ornamentals, Nursery, & Turf\n Christmas Trees\n\nJuly 23, 2024 Wes Kline, Jennifer Matthews and Meredith Melendez\n\n# Pre-Harvest Water Requirements Under the Produce Safety Rule [...] Cooperating Agencies: Rutgers, The State University of New Jersey, U.S. Department of Agriculture, and Boards of County Commissioners. Rutgers Cooperative Extension, a unit of the Rutgers New Jersey Agricultural Experiment Station, is an equal opportunity program provider and employer. [...] The pre-harvest water (irrigation, spray water, frost protection, fertigation, dust abatement, etc.) requirements for the FSMA/PSR became effective on July 5, 2024, however this does not mean a grower needed to start complying on that date.  Compliance dates are staggered over the next three years depending on the size of the operation.  Farms having an inspection in 2024 should expect Subpart E to be discussed by inspec"
+            },
+            {
+              "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+              "title": "FSMA Final Rule on Pre-Harvest Agricultural Water | FDA",
+              "description": "The final rule establishes requirements for systems-based pre-harvest agricultural water assessments for hazard identification and risk management decision-making. Covered farms - those that are subject to the requirements in the Produce Safety Rule – that use pre-harvest agricultural water for covered produce (other than sprouts) are required to conduct agricultural water assessments once annually, and whenever a significant change occurs that increases the likelihood that a known or [...] The FDA published a final rule that revises certain pre-harvest agricultural water provisions for covered produce (other than sprouts) in Subpart E of the FDA Food Safety Modernization Act (FSMA) Produce Safety Rule. Specifically, this rule replaces the previous microbial quality criteria and testing requirements for pre-harvest agricultural water for covered produce (other than sprouts) with requirements for systems-based, pre-harvest agricultural water assessments for hazard identification [...] ### 4. Compliance Dates\n\nThe rule establishes compliance dates for the pre-harvest agricultural water provisions for covered produce (other than sprouts) as follows:\n\n|  |  |  |\n --- \n| Large farms | 9"
+            },
+            {
+              "url": "https://extension.uconn.edu/publication/fsma-ag-rule-harvest",
+              "title": "FSMA Final Agricultural Rule on Pre-harvest and Post- ...",
+              "description": "This factsheet outlines the update on Subpart E pre-harvest agricultural water releases in 2024 and requirements for post-harvest activities, according to the"
+            },
+            {
+              "url": "https://extension.missouri.edu/news/fda-finalizes-the-preharvest-water-rule-what-does-it-mean-for-produce-growers",
+              "title": "FDA finalizes the preharvest water rule: What does it mean ...",
+              "description": "This article focuses on the final ruling made by the FDA on preharvest water. The postharvest water requirements of the rule remain unchanged."
+            }
+          ]
+        },
+        {
+          "query_id": "8a34e0f1017d803773bf87b36f3cc50880ca1e5dfcbf17761e071035f147e651",
+          "query": "chickpea soil moisture threshold stop irrigation before harvest research",
+          "cached": false,
+          "checked_at_epoch": 1793184059.268967,
+          "results": [
+            {
+              "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+              "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+              "description": "Soil moisture was measured using neutron attenuation down to a 5-foot depth to schedule irrigation and quantify changes in stored soil water. ET was calculated using the soil water balance, which is the summation of irrigation (I), precipitation (P), deep percolation (DP), and seasonal soil water change (SWC). [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top 2.5 feet of the soil profile (Figure 4). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 4).\n\nGraph of soil volumetric water content for field peas in 2018 [...] Figure 4. Soil volumetric water content for chickpeas and field peas at planting and at harvest for dryland (DRY), deficit (DI) and fully irrigated (FI) treatments during the 2018 and 2019 growing seasons in Grant. The vertical line at the 2.5-foot depth separates topsoil (where most of the seasonal changes in soil water occurred) from subsoil.\n\n \n\n## Conclusions"
+            },
+            {
+              "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+              "title": "Chickpea Production",
+              "description": "6 of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. If weeds are present at harvest time, glyphosate (Roundup or other generics), paraquat (Gramoxone), saflufenacil (Sharpen), and flumioxazin (Valor) can be used for chickpea and weed desiccation. [...] aid to terminate the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] 4 The effective rooting depth of chickpea is no more than 30 inches and the crop uses water mostly from the top 12 inches of soil (6). Chickpea is a full-season crop that will continue to grow into August or even early September in many Montana locations. Depending on precipitatio"
+            },
+            {
+              "url": "https://www.ars.usda.gov/ARSUserFiles/30100500/Publications%202000-2009/2PDF%20Production%20Functions%20for%20Chickpea,%20Field%20Pea,%20and%20Lentil%20in%20the%20Central%20Great%20Plains.pdf",
+              "title": "Production Functions for Chickpea, Field Pea, and Lentil in ...",
+              "description": "soil depths gives average soil water use of 91 mm (SD 5 These legumes could be harvested successfully with 15 mm) for chickpea, 131 mm (SD 5 20 mm) for field a stripper header. The stripper header leaves greater pea, and 118 mm (SD 5 13 mm) for lentil. The low amounts of standing residue than a conventional com-value for chickpea is, in part, a consequence of the high bine header equipped with a cutter bar. The additional rainfall before harvest in 1999. [...] remaining at legume harvest would be 144, 104, and 124 mm for chickpea, field pea, and lentil. These amounts of remaining soil water should allow the use of these ning and ending soil water contents in the upper four legumes in rotation with winter wheat. [...] MATERIALS AND METHODS Studies were conducted with chickpea (‘UC5’), field pea (‘Profi’), and lentil (‘Brewer’) during the 1996–1999 growing seasons at the USDA Central Great Plains Research Station, 6.4 km east of Akron, CO (408099 N, 1038099 W; elevation of 1384 m). The soil is a Weld silt loam (fine, smectitic, mesic Aridic Argiustolls). Planting and harvest dates, seeding rates, Fig. 1. Plot layout for water use–yield studies."
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 5,
+        "loaded": 5,
+        "sources": [
+          {
+            "url": "https://plant-pest-advisory.rutgers.edu/pre-harvest-water-requirements-under-the-produce-safety-rule",
+            "canonical_url": "https://plant-pest-advisory.rutgers.edu/pre-harvest-water-requirements-under-the-produce-safety-rule/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+            "canonical_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.uconn.edu/publication/fsma-ag-rule-harvest",
+            "canonical_url": "https://extension.uconn.edu/publication/fsma-ag-rule-harvest/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.missouri.edu/news/fda-finalizes-the-preharvest-water-rule-what-does-it-mean-for-produce-growers",
+            "canonical_url": "https://extension.missouri.edu/news/fda-finalizes-the-preharvest-water-rule-what-does-it-mean-for-produce-growers",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.ars.usda.gov/ARSUserFiles/30100500/Publications%202000-2009/2PDF%20Production%20Functions%20for%20Chickpea,%20Field%20Pea,%20and%20Lentil%20in%20the%20Central%20Great%20Plains.pdf",
+            "canonical_url": "https://www.ars.usda.gov/ARSUserFiles/30100500/Publications%202000-2009/2PDF%20Production%20Functions%20for%20Chickpea,%20Field%20Pea,%20and%20Lentil%20in%20the%20Central%20Great%20Plains.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 5,
+      "coverage": {
+        "topic_id": "agri-d7002ebd800c",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s12"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document provides a specific decision rule or threshold for when to stop or reduce irrigation before chickpea harvest. Documents mention that irrigation can increase disease (Ascochyta blight) and that late irrigation may cause indeterminate flowering and poor quality, but no explicit cut-off timing, soil-moisture threshold, growth-stage trigger, or calendar rule is stated."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No quantitative preharvest irrigation cut-off values (e.g., kPa soil water potential, % volumetric water content, days after flowering, mm applied water) are provided for chickpea. Document s5 reports season-total ET and irrigation amounts (inches) for dryland vs deficit vs full irrigation treatments but does not give a preharvest stop criterion. Document s12 reports yield-per-mm water-use response slopes (kg ha⁻¹ mm⁻¹) but no harvest-time irrigation threshold. Geographic scope is limited to USA (Nebraska, Colorado, Montana)."
+          }
+        ],
+        "next_queries": [
+          "chickpea preharvest irrigation stop timing university extension soil moisture threshold",
+          "chickpea Cicer arietinum late season water management deficit irrigation harvest guide"
+        ]
+      },
+      "coverage_cache_hit": false,
+      "completed_at": "2026-10-28T10:41:08.174513+00:00"
+    }
+  ],
+  "fetches_reserved": 10,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": false,
+  "status": "bounded_search_coverage_incomplete",
+  "unapproved_documents_sha256": "a790bff25b8b1e026a2855e2aa10a779b496c0488720d993ed0e6f337906e019",
+  "new_sources": 0,
+  "unapproved_fetched_sources": 9,
+  "repair_exhausted": true
+}

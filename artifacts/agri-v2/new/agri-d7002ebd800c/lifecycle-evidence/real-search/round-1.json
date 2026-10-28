@@ -1,0 +1,131 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T10:40:06.432874+00:00",
+  "queries": [
+    {
+      "query_id": "6249323ea23015b184fb4d5b04dae9ecf9942fdbae6107e3faad70198c92f24a",
+      "query": "chickpea irrigation termination before harvest soil moisture threshold stage",
+      "cached": false,
+      "checked_at_epoch": 1793184013.6721685,
+      "results": [
+        {
+          "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+          "title": "Chickpea Production",
+          "description": "aid to terminate the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] 6 of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. If weeds are present at harvest time, glyphosate (Roundup or other generics), paraquat (Gramoxone), saflufenacil (Sharpen), and flumioxazin (Valor) can be used for chickpea and weed desiccation. [...] Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of envir"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+          "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+          "description": "Soil moisture was measured using neutron attenuation down to a 5-foot depth to schedule irrigation and quantify changes in stored soil water. ET was calculated using the soil water balance, which is the summation of irrigation (I), precipitation (P), deep percolation (DP), and seasonal soil water change (SWC). [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top 2.5 feet of the soil profile (Figure 4). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 4).\n\nGraph of soil volumetric water content for field peas in 2018 [...] In 2018, field peas were planted on March 14 and harvested on July 16, while chickpeas were planted March 24 and harvested August 17. In 2019, field peas were planted on March 28 and harvested on July 17, while chickpeas were planted April 23 and harvested August 10."
+        }
+      ]
+    },
+    {
+      "query_id": "c79c064f3f4fbe2ea3b8da97bb0f6fb58dcdc41b434678a4bba7df38113c8f27",
+      "query": "chickpea final irrigation timing pod fill maturity water stress prevention",
+      "cached": false,
+      "checked_at_epoch": 1793184015.9330575,
+      "results": [
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+          "title": "Late-season irrigation: Tips for yield protection and water stewardship",
+          "description": "Typically, corn at R2 (blister) uses approximately 6 to 7 inches of water to maturity; Soybeans at R4 (full pod) uses approximately 3 to 4 inches of water to maturity; and Potato at tuber bulking uses 4 to 5 inches of water to maturity. [...] As of early August, most irrigated corn in central and west-central Minnesota is close to the R2 growth stage. Soybeans are progressing through pod fill (R3–R5), with seed fill just beginning. These stages represent a critical period for grain yield determination. [...] Daily crop evapotranspiration (ETc) rates remain high at this time of the season, especially during hot and windy spells, but start declining after mid-August. Central Minnesota reference evapotranspiration (ETo) is averaging 0.20 inches/day, meaning soils can dry quickly if rainfall is limited.  \n  \nIf soil moisture sensors or hand probes show dry conditions in the top 12–18 inches, strategic irrigation may still be warranted to protect kernel or seed fill."
+        },
+        {
+          "url": "https://www.canr.msu.edu/news/is-it-time-for-the-last-irrigation",
+          "title": "Is it time for the last irrigation?",
+          "description": "Several studies show that stopping irrigation too early during pod fill can reduce seed size, accelerate senescence and ultimately lower yields."
+        },
+        {
+          "url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season",
+          "title": "Scheduling the Last Irrigation of the Season - CropWatch",
+          "description": "During the heart of the irrigation season, we recommend keeping the available soil water level above the 50% depletion level. To do this we recommend irrigating"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 5,
+    "loaded": 4,
+    "sources": [
+      {
+        "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+        "canonical_url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+        "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+        "canonical_url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.canr.msu.edu/news/is-it-time-for-the-last-irrigation",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season",
+        "canonical_url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 5,
+  "coverage": {
+    "topic_id": "agri-d7002ebd800c",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a specific decision rule or threshold for when to stop or reduce irrigation before chickpea harvest. s5 reports yield responses to different irrigation levels and notes dryland performed best, but gives no growth-stage, soil-moisture, or calendar-based cessation criterion for chickpea."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": true,
+        "document_ids": [
+          "s5"
+        ],
+        "missing": ""
+      }
+    ],
+    "next_queries": [
+      "chickpea preharvest irrigation cutoff decision rule university extension",
+      "chickpea soil moisture threshold stop irrigation before harvest research"
+    ]
+  },
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:31.949336+00:00"
+}

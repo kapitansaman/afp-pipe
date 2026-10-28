@@ -1,0 +1,17 @@
+{
+  "family_id": "family-09",
+  "topic_id": "agri-b1f8c76a39ac",
+  "title": "برآورد عملکرد یونجه پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+  "title_sha256": "53a3d3db947234ace139131289e690d7341e4cedd789437d60cb83fad2f5b4d8",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY33",
+    "AGNES_API_KEY34",
+    "AGNES_API_KEY35",
+    "AGNES_API_KEY36"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

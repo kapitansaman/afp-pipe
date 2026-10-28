@@ -1,0 +1,84 @@
+{
+  "topic_id": "agri-ab20ad20b271",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum) محصول حبوبات خشک",
+  "slug": "chickpea-rain-adjust-irrigation",
+  "outline": [
+    "عمق ریشه و لایه فعال جذب آب",
+    "پیش‌نیازهای تصمیم‌گیری پس از بارندگی",
+    "خطای محتمل: آبیاری مازاد پس از باران"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "ریشه چغالی نخود تا عمق حدود 30 اینچ نفوذ می‌کند و جذب آب بیشتر از 12 اینچ بالایی خاک انجام می‌شود.",
+      "conditions": "منطقه: ایالات متحده (مونتانا/اورگن)؛ محصول: نخود Cicer arietinum; واحد: اینچ; محدوده: عمق مؤثر ریشه ≤30 اینچ، مصرف آب عمدتاً از 12 اینچ بالایی خاک",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "30 inches",
+          "geographic_scope": "US Montana trials",
+          "product_scope": "chickpea Cicer arietinum"
+        },
+        {
+          "value": "12",
+          "unit_quote": "top 12 inches of soil",
+          "geographic_scope": "US Montana trials",
+          "product_scope": "chickpea Cicer arietinum"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "باران‌های اواخر فصل می‌تواند گیاهان به‌ظاهر نهفته را مجدداً به رشد، گلدهی و دانه‌بندی وادارد و مدیریت برداشت را پیچیده کند.",
+      "conditions": "منطقه: ایالات متحده (مونتانا)؛ محصول: نخود; واحد: کیفی; محدوده: رویداد اواخر فصل",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آبیاری با مقدار کم اضافی (2 تا 3 اینچ در فصل) محصول آبی را نسبت به دیم افزایش می‌دهد، اما آبیاری زیاد می‌تواند بیماری‌زایی و گلدهی نامعین را افزایش دهد و کیفیت را کاهش دهد.",
+      "conditions": "منطقه: ایالات متحده (مونتانا، Huntley)؛ محصول: نخود; واحد: اینچ; محدوده: آبیاری مکمل فصلی",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": [
+        {
+          "value": "2-3",
+          "unit_quote": "2-3 inches per season",
+          "geographic_scope": "Huntley Montana irrigated trial",
+          "product_scope": "chickpea"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود به باران 6 تا 10 اینچ در فصل رشد نیاز دارد و در شرایط کم‌آب و گرم بهتر از نخود فرنگی و عدس عمل می‌کند.",
+      "conditions": "منطقه: ایالات متحده (مونتانا/واشینگتن/آیداهو)؛ محصول: نخود; واحد: اینچ; محدوده: باران فصل رشد",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": [
+        {
+          "value": "6-10",
+          "unit_quote": "6-10 inches of growing season precipitation",
+          "geographic_scope": "US Northern Plains extension region",
+          "product_scope": "chickpea"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک باید زهکش tốt داشته باشد؛ نخود به خاک‌های نمکی سازگار نیست و خاک غرقابی را تحمل نمی‌کند.",
+      "conditions": "منطقه: ایالات متحده (مونتانا)؛ محصول: نخود; واحد: کیفی; محدوده: وضعیت هیدروپتی خاک",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "مرحله تصمیم‌گیری برای زمان آبیاری مجدد پس از بارندگی و روش اندازه‌گیری رطوبت خاک در منابع موجود ارائه نشده است.",
+      "conditions": "منطقه: نامشخص؛ محصول: نخود; واحد: N/A; محدوده: شکاف شواهد",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "منابع موجود توصیف کلی رطوبت مطلوب و هشدار درباره آبیاری مازاد را ارائه می‌دهند، اما روش تعیین زمان آبیاری مجدد پس از بارندگی (آستانه رطوبت خاک، معیار پایش، فاصله زمانی تصمیم‌گیری) را برای نخود ارائه نمی‌کنند. هیچ منبعی جدول یا چک‌لیست اجرایی برای «چه زمانی دوباره آب بدهیم» ندارد."
+}

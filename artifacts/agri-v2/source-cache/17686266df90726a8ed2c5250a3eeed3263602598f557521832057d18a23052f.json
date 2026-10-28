@@ -1,0 +1,604 @@
+{
+  "url": "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
+  "requested_url": "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
+  "redirect_chain": [
+    "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured"
+  ],
+  "text": "[table row] Cubic feet (ft³) | Flow rate: Cubic feet per second (cfs) [table row] Gallons (gal) | Flow rate: Gallons per minute (gpm) [table row] Liters (L) | Flow rate: Liters per second (L/s) [table row] Acre-feet (ac-ft) | Flow rate: Acre-foot per day (ac-in/day) [table row] Acre-inches (ac-in) | Flow rate: Acre-inches per hour (ac-in/hr) [table row] Cubic meters (m³) | Flow rate: Cubic meters per second (cms) [table row] 2\" | Factor (Y = 6\"): 5.02 [table row] 2\" | Factor (Y = 12\"): 3.52 [table row] 3\" | Factor (Y = 6\"): 11.13 [table row] 3\" | Factor (Y = 12\"): 7.77 [table row] 4\" | Factor (Y = 6\"): 17.18 [table row] 4\" | Factor (Y = 12\"): 13.40 [table row] 6\" | Factor (Y = 6\"): 43.70 [table row] 6\" | Factor (Y = 12\"): 30.60 [table row] 8\" | Factor (Y = 6\"): 76.00 [table row] 8\" | Factor (Y = 12\"): 52.90 [table row] 10\" | Factor (Y = 6\"): 120.00 [table row] 10\" | Factor (Y = 12\"): 83.50 [table row] 12\" | Factor (Y = 6\"): 173.00 [table row] 12\" | Factor (Y = 12\"): 120.00 [table row] Trajectory (pipe outlet) | Typical accuracy: ±10% [table row] Trajectory (pipe outlet) | Best application: Quick, rough estimate [table row] Float (ditch) | Typical accuracy: ±10%–20% [table row] Float (ditch) | Best application: Temporary field checks [table row] Weirs | Typical accuracy: ±3%–5% [table row] Weirs | Best application: Canals, small ditches [table row] Flumes | Typical accuracy: ±3%–5% [table row] Flumes | Best application: Canals, moderate flows [table row] Flow meters | Typical accuracy: ±2%–4% [table row] Flow meters | Best application: Pressurized systems, pipelines Irrigation water: How it's delivered, how it's measured | OSU Extension Service Skip to main content OSU Extension Catalog Peer reviewed (Orange level) Irrigation water: How it's delivered, how it's measured Irrigation Technology and Management Program — Technical Guide 5 English Español María Isabel Zamora Re and Todd M. Peplin EM 9612 | April 2026 | Print-friendly version Contents Benefits of knowing how your water is delivered and measured How is water delivered? Types of water delivery Depth-to-volume relationship Gross irrigation application Three ways to measure irrigation water Key takeaways References and resources Effective irrigation water management begins with understanding how much water is available to apply and how it is delivered throughout your irrigation system. Knowing your delivery method and accurately measuring both the total volume applied (the total acre-feet per irrigation) and the flow rate (gallons per minute or cubic feet per second) ensures the proper amount of water is delivered at each irrigation event. This management technical guide outlines common irrigation delivery types and methods used to measure flow and volume in pipelines and open channels. Accurate measurement helps verify application rates, improve irrigation efficiency, and align irrigation scheduling with crop consumptive use, supporting optimum crop growth and sustainable water management. Section anchor \"benefits-knowing-how-water-delivered-measured\" Benefits of knowing how your water is delivered and measured Knowing how irrigation water is delivered and measured is a key element of efficient water management, helping ensure water applications align with crop water use (evapotranspiration, or ET). This knowledge provides several important benefits: Accurate scheduling: Determining the flow rate and application volume ensures you can meet crop water requirements. Efficient use of limited water supplies : Helps optimize available water resources during drought or curtailment periods, ensuring that every unit of water applied contributes effectively to crop production. System performance and efficiency optimization : Confirms that your irrigation system operates within its design flow rates, maintaining application uniformity and preventing over- or underirrigation. Early problem detection: Identifies leaks, pressure loss or clogged emitters that reduce uniformity and efficiency of your irrigation system. Fulfilling your reporting requirements: Many water rights in Oregon require that you submit your water use information to the Oregon Water Resources Department annually. Measurement ensures that you have the data needed to submit your report. Read more on reporting. Measurement and reporting requirements are detailed within the water-right permit or certificate. Read the document thoroughly to determine OWRD requirements. Governmental entities such as irrigation districts are required to report water use under OAR 690-085-0005. There are multiple tools and techniques available to measure irrigation water, such as mechanical and electronic flow meters, pressure-differential meters, weirs, flumes and velocity-area methods. Understanding how these work allows you to select the most appropriate option for your operation. Section anchor \"how-is-water-delivered\" How is water delivered? Successful irrigation depends on having water available when needed, at an adequate rate, and for a sufficient duration to meet crop water requirements. Three key delivery factors — frequency, rate and duration — govern irrigation water supply and efficiency . Frequency refers to how often irrigation water is delivered to the property (for example, daily, weekly or by scheduled rotation). Rate is the quantity of water delivered in a given period of time, typically expressed as gallons per minute (gpm) or cubic feet per second (cfs). Duration is the length of time water is available or applied, usually measured in hours or days. Water availability may fluctuate throughout the irrigation season due to source limitations, allocation schedules or infrastructure constraints. For example, a junior water-right holder may experience reduced or interrupted water deliveries during dry periods when senior rights are fully satisfied first. In contrast, a senior water-right holder or an irrigator supplied by a reliable ground water source may have more consistent access to water throughout the season. Rate can also be affected by pump constraints, well capacity or pumping restrictions. Understanding these constraints helps irrigators plan application timing and amounts to maintain crop water balance and system efficiency. Section anchor \"types-water-delivery\" Types of water delivery Different delivery types determine how much control you have over irrigation timing and flow. Water can be supplied to farms in one of three general ways: In rotational delivery, water is delivered to each property according to a fixed, predetermined schedule established by the irrigation district or company. Examples include canal systems serving multiple users with shared allocations. In arranged delivery, the landowner requests or schedules delivery based on irrigations within district guidelines. Examples include district-managed systems offering flexible scheduling by request. In on-demand delivery, the irrigator controls frequency, rate and duration of delivery, typically from a private source such as a well, on-farm pond or permitted stream diversion. Examples include pressurized systems, private wells, storage reservoirs (such as ponds) or permitted stream diversion. Improving water delivery systems Water delivery systems vary in efficiency and reliability depending on local infrastructure, terrain and management practices. Evaluate opportunities for improvement on a case-by-case basis , considering factors such as water rights, cost, site conditions and environmental impacts. In some situations, efficiency and control can be improved by: Reducing conveyance losses through maintenance of ditches, canals or pipelines to minimize leakage, sediment buildup or vegetation obstruction. Upgrading or maintaining control structures (such as gates, valves or measuring devices) to improve flow regulation and measurement accuracy. Using pipelines or enclosed conveyance systems to reduce seepage and improve flow consistency where practical and cost-effective. Incorporating on-farm storage ponds or tanks to buffer fluctuations in delivery schedules when appropriate and permitted. However, not all sites or operations benefit from structural changes. In many cases, improved water management — such as better scheduling, maintenance, or measurement practices — provides the most cost-effective way to enhance delivery reliability and irrigation efficiency. Section anchor \"depth-volume-relationship\" Depth-to-volume relationship Irrigation water can be described both as a depth (similar to rainfall) and a volume of water applied over an area. Because irrigation is essentially artificial rainfall , irrigators commonly express the amount of water applied in inches or acre-inches (Figure 1). The volume (V) of water applied is the product of on the flow rate (Q) of the irrigation system and time (t) water is applied, assuming the flow rate does not change over time. This relationship is expressed as: Q x T = A x D, where: Q = System flow rate (commonly in gpm) T = Time (duration) of water application (in hours) A = Area irrigated (usually in acres or hectares) D = Depth of water applied (commonly in inches or cm) Table 1. Typical conversion factors used in water measurement Water volume units 1 cubic foot (ft 3 ) = 7.48 gallons (gal) = 28.3 liters (L) 1 acre-foot (ac-ft) = 43,560 (ft3) = 325,829 (gal) = 1,234 cubic meters (m 3 ) 1 acre-inches (ac-in) = 3,630 cubic feet (ft 3 ) = 27,154 (gal) 1 m 3 = 1000 L = 35.3 ft 3 Flow units 1 cubic foot per second (cfs) = 448.8 gallons per minute (gpm) = 28.32 liters per second (L/s) 1 (cfs) for 1 hour = 0.99 acre-inches/hr (ac-in/hr) 448.8 gallons per minute (gpm) = 0.99 acre-inches/hr (ac-in/hr) 1 (cfs) for 24 hour = 1.98 acre foot (ac-ft) 1,000 gpm = 2.23 cfs 1,000 gpm for 24 hr = 4.42 ac-ft 1 gpm per acre = 0.053 acre-inch/acre/day 1 cubic meter per second (cms) = 35.3 cfs 1 L/s = 15.85 gpm Pressure 1 pound per square inch (psi) = 2.31 feet (ft) of pressure Length and area 1 mile (mi) = 5280 feet (ft) = 1.61 kilometers (km) 1 meter (m) = 3.28 ft = 39.37 inches (in) 1 acre (ac) = 43,560 square feet (sqft) 1 hectare (ha) = 2.47 ac Adapted from USDA Natural Resource Conservation Service National Engineering Handbook, Part 650 — Irrigation (2021) Figure 1. The relationship among the volume of water applied, land area and depth applied. Credit: Kellen Grist, © Oregon State University. Adapted from Eisenhaeuer, et al., 2021. Table 2. Measurement type Volume Flow rate Cubic feet (ft³) Cubic feet per second (cfs) Gallons (gal) Gallons per minute (gpm) Liters (L) Liters per second (L/s) Acre-feet (ac-ft) Acre-foot per day (ac-in/day) Acre-inches (ac-in) Acre-inches per hour (ac-in/hr) Cubic meters (m³) Cubic meters per second (cms) Section anchor \"gross-irrigation-application\" Gross irrigation application Gross irrigation application refers to the average depth of water applied over a given field during one irrigation event or across a season. It’s the most practical way for irrigators to estimate how much water their system applies. To calculate it, you will need: Flow rate (Q): The amount of water delivered by your system, usually measured by flow meter (in gallons per minute [gpm] or cubic feet per second [cfs]). Time (t): the total time water is applied (in hours). Area (A): the size of the irrigated field (in acres). Gross irrigation application (depth [ D ], in inches) can be calculated using Equation 1. Example 1: Wheel-line sprinkler system A pump delivers 200 gpm (Q) to a 20-acre (A) hay field and runs for 120 hours (t) to irrigate the entire field before the pump is turned off and the wheel line is moved back to the start position. Following the gross irrigation application equation (Equation 2), calculate the depth of water applied ( D): Step 1: Convert flow rate (Q) to ac-in/hr Credit: © Oregon State University Step 2: Calculate depth (d) Credit: © Oregon State University Equation 1. Where: D = The depth of water applied (in inches). Q = The flow rate in ac-inch/hr (converted from gpm). t = The time period (duration in hours) the water was applied. A = The area that was irrigated (usually in acres). Note: Q = Must be converted to acre-inches per hour, as it is commonly expressed in gpm. From conversion factors (Table 4 — flow units): 448.8 gpm = 1 csfs = 0.99 ac-in/hr Credit: © Oregon State University Quick reference 1 cfs = 448.8 gpm = 0.99 ac-in/hr 1 ac-ft = 325,851 gallons = 43,560 ft³ 1 inch of water applied over 1 acre = 27,154 gallons Example 2: Center pivot A pivot irrigates 130 acres. The pump delivers 1.85 cfs and takes 72 hours (three days) to complete one circle. Step 1: Convert flow rate (Q) from csf to ac-in/hr Credit: © Oregon State University Step 2: Calculate depth (d) Credit: © Oregon State University Example 3: Using a flow meter totalizer A center pivot irrigates 130 acres. The flow meter’s totalizer shows: Start of the season = 2,980 acre-inches End of the season = 4,540 acre-inches Step 1: Calculate total water applied throughout the season Credit: © Oregon State University Step 2: Determine average depth (D) applied Credit: © Oregon State University Flow meters equipped with a totalizer can track the total volume of water applied during the irrigation season. By recording the meter readings at the start and end of the season, irrigators can determine total water use. If you are required to report to the OWRD, then you must take a measurement at the end of each month to capture the volume of water used for each month of the irrigation season. Subtract the beginning reading from the ending reading, then divide by the number of acres irrigated to estimate the gross depth of water applied (in inches) for the season. Section anchor \"3-ways-measure-irrigation-water\" 3 ways to measure irrigation water Irrigation flow rate can be measured using three main methods: Bucket-measurement method Velocity-area method Constricted-flow measurement method Considerations for selecting a measurement method The volume or flow rate being measured. The degree of accuracy required. Whether you need a measuring device to record the volume, such as a totalizing flow meter. The cost and installation needs of the measuring device. The operating environment (pipe, ditch or open channel). The type of measurement that will be required for the type of water right (reservoir storage, well, diversion on a stream, etc.) you possess. When designing an irrigation system, please ensure that the regulating agency can verify flow using a measurement. Consult with your local watermaster for appropriate options. — Adapted from USDA NRCS NEH, National Engineering Handbook Bucket-measurement method This method is suitable for small flows such as from siphon tubes, sprinkler nozzles or gated pipe outlets. It involves timing how long it takes to fill a container of a known volume (for example, 1 or 5 gallons). To ensure accuracy: Repeat the measurement three to five times and calculate the average. Measure under steady flow conditions to minimize error. Best used for: Small discharge rates and troubleshooting localized flow issues. Accuracy: ±5% when performed carefully. Velocity-area method The velocity–area method determines flow by measuring both the water velocity and the cross-sectional area of the flow path (pipe or open channel). This approach includes three techniques: Flow meters Flow meters are widely used in irrigation systems to measure flow rate and total volume of water. There are many types of flow meters available, each with its own design, installation requirements, measurement units and multipliers. Common types include impeller (propeller), magnetic and ultrasonic meters. Accuracy and performance depend on proper sizing, placement and maintenance. Impeller meters contain a small, multi-bladed propeller that rotates with the water flow. The display may show either instantaneous flow rate (in gpm or cfs) or total accumulated volume, known as the totalizer. Totalizers may be displayed in acre-inches, gallons or cubic feet. Accuracy: ±2%–4% when installed and maintained correctly. Tips Always verify your meter’s units, multipliers and flow range before recording readings. Ensure the meter is rated for irrigation use, correctly sized for your pipe diameter and expected flow, and compliant with any reporting or water-right requirements in your area. If you are uncertain about which meter type best fits your system — or how to interpret your meter’s readings — consult your local pump dealer, irrigation equipment supplier or USDA Natural Resources Conservation Service office for technical assistance. How to read a flow meter Flow meters commonly display two types of information: Total volume (totalizer) Many meters have a sweep hand that works like the minute hand of a clock. One complete revolution of the sweep hand typically represents a fixed volume — often 100 gallons — that has passed through the meter. The register (the series of numbers displayed) is called the totalizer. The totalizer shows the cumulative volume of water applied, similar to an odometer in a car. Reading the totalizer at the start and end of an irrigation period allows you to calculate total water use over time. Flow rate indicator Some meters include a flow rate dial or pointer, which functions like a speedometer. It shows the instantaneous flow rate (for example, 20 gallons per minute) moving through the system at that moment. The meter may also include a smaller sweep hand and totalizer for cumulative readings. Tip: Always note the units and multipliers displayed on your meter (gallons, cubic feet or acre-inches). Record readings consistently to ensure accurate tracking of water use. Figure 2. Possible components of a flow meter: sweep hand, totalizer and flow rate indicator. Credit: Kellen Grist, Oregon State University, adapted from USDA NRCS NEH, National Engineering Handbook Float-measurement method The float method estimates the rate of flow in an open ditch or canal. A floating object (such as a piece of wood or a ball) is placed on the water surface and timed as it travels a known distance. To calculate flow rate: Measure the average cross-sectional area of the channel (in square feet or square meters). Record the time it takes for the float to travel a set distance and determine surface velocity. Multiply the average area by the corrected velocity (surface velocity × correction factor) to estimate the flow rate. The correction factor ranges from 0.65 to 0.8, depending on the depth of the reach. Accuracy: This method is quick and inexpensive but only provides rough estimates (accuracy ±10%–20%). Use it for temporary or approximate checks, not for regulatory reporting or precise water management. Figure 3. Float-measurement method. Credit: Kellen Grist, Oregon State University, adapted from Taghvaeian, S., Irrigation Water Flow Measurement, BAE-1502, Oklahoma Cooperative Extension Service Trajectory method The trajectory method is used when water is discharging freely from a horizontal pipe flowing full. By measuring how far the water jet travels before it falls, you can estimate the flow rate. This method is especially useful when no flow meter is available. Water leaving a full pipe follows a curved path (trajectory). The horizontal distance (X) the water travels and the vertical drop (Y) from the top of the pipe indicate the velocity of the jet. When combined with the pipe diameter, these measurements allow flow to be estimated using standard discharge factors. To calculate flow: Measure the horizontal distance (X) from the pipe outlet to the point where the stream lands. Measure the vertical drop (Y) from the centerline of the pipe to the landing point. Using standard discharge tables, find the discharge factor for the pipe diameter and the measured Y-value. Multiply the discharge value factor by X to estimate flow (in gallons per minute). Figure 4. Trajectory measurement method. Credit: Kellen Grist, Oregon State University, adapted from Taghvaeian, S., Irrigation Water Flow Measurement, BAE-1502, Oklahoma Cooperative Extension Service Table 3. Discharge factors for full pipe flow when Y= 6 inches, or Y=12 inches (measured from centerline of pipe to the landing point Nominal pipe diameter Factor (Y = 6\") Factor (Y = 12\") 2\" 5.02 3.52 3\" 11.13 7.77 4\" 17.18 13.40 6\" 43.70 30.60 8\" 76.00 52.90 10\" 120.00 83.50 12\" 173.00 120.00 Example: A grower measures water discharging from a 6-inch pipe. The water stream lands 14 inches from the pipe outlet, and the vertical drop (Y) is 6 inches. Discharge factor for 6\" pipe at Y = 6\" (Using discharge factors from Table 3) = 43.7 Flow estimate: 43.7 x 14 = 612 gallons per minute Accuracy: This method provides a quick, visual estimate of discharge and is more accurate than the float method (typically within ±10%) but less precise than flow meters or calibrated flumes. Constricted-flow measurement The constricted-flow measurement method determines flow by forcing water through a structure of known dimensions, such as a weir, flume or orifice. This constriction causes a predictable relationship between the water depth (head) and discharge rate, allowing flow to be calculated from a single or few measurements. This method is common in irrigation canals, ditches and open conveyance systems where water passes through a fixed structure. Accuracy: When properly installed and maintained, these systems provide reliable measurements with an accuracy of ±3–5%. Weirs A weir is a vertical barrier across a channel with a precisely shaped opening over which the water flows. By measuring the depth of water (head) upstream of the weir crest, you can estimate flow using equations or rating tables. Common types of weirs include: Cipolletti (trapezoidal): Most common for on-farm applications; side slopes 4:1 (horizontal:vertical). V-notch (90°): Used for small, low-flow applications; highly sensitive to small changes in flow depth. Rectangular: Used for large channels with uniform approach flow. Sharp-crested: Used for small flow rates. Features a sharp, thin upstream edge over which water flows. Rectangular sharp-crested weir: Used for measuring flow in an open channel. The head (H) is measured at a designated upstream point (typically at least four times the maximum head from the crest) to determine discharge using standard weir rating equations. Accurate head measurement and proper installation are essential for reliable flow estimates. Broad-crested: Used for higher flows; less head loss than sharp-crested types. Accuracy: Typical accuracy of these weirs is ±5%. Field tips: The Cipolletti weir’s side slopes should have a 4:1 (horizontal:vertical) ratio, measured at least four times the height (H) (that is, flow depth upstream). L = Measure the head along the bottom of the weir crest, not at the water surface. If installing a weir on your property, contact your local irrigation district or water master for specifications and associated tables to calculate flow rate. Flow rate calculators and specifications for different weir types are available at Washington State University Irrigation Water Measurement Calculators . Figure 5. Cipolletti weir. Credit: Kellen Grist, Oregon State University, adapted from National Engineering Handbook, USDA NRCS Figure 6. V-notch weir. Credit: Kellen Grist, Oregon State University, adapted from National Engineering Handbook, USDA NRCS Figure 7. Rectangular weir. Credit: Kellen Grist, Oregon State University, adapted from National Engineering Handbook, USDA NRCS Figure 8. Sharp-crested weir. Credit: Kellen Grist, Oregon State University, adapted from National Engineering Handbook, USDA NRCS Figure 9. Rectangular sharp-crested weir. Credit: Kellen Grist, Oregon State University, adapted from National Engineering Handbook, USDA NRCS Figure 10. Broad-crested weir. Credit: Kellen Grist, Oregon State University, adapted from National Engineering Handbook, USDA NRCS Flumes A flume measures flow",
+  "links": [
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/",
+      "label": "OSU Extension Service"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/topics",
+      "label": "Topics"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock",
+      "label": "Animals and livestock"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/beef",
+      "label": "Beef cattle"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/pollinators",
+      "label": "Bees and pollinators"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/fishing",
+      "label": "Commercial fishing, crabbing and clamming"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/horses",
+      "label": "Horses"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/poultry-rabbits",
+      "label": "Poultry and rabbits"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/sheep-goats",
+      "label": "Sheep and goats"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics",
+      "label": "Business and economics"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/management",
+      "label": "Business management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/marketing",
+      "label": "Business marketing"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/estate-planning",
+      "label": "Estate and succession planning"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/finance",
+      "label": "Finance, budgeting and taxes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/rural-development",
+      "label": "Rural economic development"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality",
+      "label": "Community vitality"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/community-technology",
+      "label": "AI technology and community development"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/disaster-prep",
+      "label": "Community disaster preparedness"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/health-outreach",
+      "label": "Health outreach"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/food-systems",
+      "label": "Local, regional and community food systems"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/work-skills",
+      "label": "Work skills"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production",
+      "label": "Crop production"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/berries",
+      "label": "Berries, table grapes and kiwifruit"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/produce-forage/field-crops",
+      "label": "Field crops"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/fruit-trees",
+      "label": "Fruit trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/nuts",
+      "label": "Hazelnuts and nut crops"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/hemp",
+      "label": "Hemp"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/nursery-greenhouse",
+      "label": "Nursery and greenhouse"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/organic",
+      "label": "Organic agriculture"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/pastures-forages",
+      "label": "Pastures and forages"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/soil",
+      "label": "Soil"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/vegetables",
+      "label": "Vegetables and specialty seeds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/wine-grapes",
+      "label": "Wine grapes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food",
+      "label": "Food"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/processing",
+      "label": "Commercial food processing"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/farm-food-safety",
+      "label": "Farm food safety"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/food-security",
+      "label": "Food security"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/preservation",
+      "label": "Home food preservation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/home-food-safety-storage",
+      "label": "Home food safety and storage"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/nutrition",
+      "label": "Nutrition and healthy eating"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/recipes",
+      "label": "Recipes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/wine-beer",
+      "label": "Wine, beer, cider and spirits"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests",
+      "label": "Forests, woodlands and rangelands"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/christmas-trees",
+      "label": "Christmas trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/cutting-selling",
+      "label": "Cutting and selling trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/fire",
+      "label": "Fire"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/health-management",
+      "label": "Forest health and management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/non-timber-products",
+      "label": "Non-timber forest products"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/range",
+      "label": "Rangeland conservation and management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/tree-care",
+      "label": "Tree care"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/wood-processing",
+      "label": "Wood processing and products"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening",
+      "label": "Gardening, lawn and landscape"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/collection/monthly-garden-calendars",
+      "label": "Monthly garden calendars"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/berries-fruit",
+      "label": "Berries and fruit"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees",
+      "label": "Flowers, shrubs and trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/soil-compost",
+      "label": "Garden soil and compost"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/techniques",
+      "label": "Gardening techniques"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/vegetables",
+      "label": "Garden vegetables and herbs"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/lawn",
+      "label": "Lawn and turfgrass"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/urban-forestry",
+      "label": "Urban forestry"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/wildlife",
+      "label": "Wildlife"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments",
+      "label": "Outdoors and environments"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/climate-change",
+      "label": "Climate change"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/environmental-education",
+      "label": "Environmental education (PreK-12)"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/fish",
+      "label": "Fish and aquatic life"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/sustainability",
+      "label": "Sustainability"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases",
+      "label": "Pests, weeds and diseases"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/healthy-homes",
+      "label": "Healthy homes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/insects",
+      "label": "Insects"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/ipm",
+      "label": "Integrated pest management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/nuisance-wildlife",
+      "label": "Nuisance wildlife"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/pesticides",
+      "label": "Pesticide safety and education"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/plant-diseases",
+      "label": "Plant diseases"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/weeds",
+      "label": "Weeds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water",
+      "label": "Water and watersheds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/irrigation",
+      "label": "Irrigation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/residential-water",
+      "label": "Residential water and wells"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/riparian-areas",
+      "label": "Riparian areas"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/watersheds",
+      "label": "Water management and conservation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health",
+      "label": "Youth, families and health"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/emergency-prep",
+      "label": "Family emergency preparedness"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/parenting",
+      "label": "Parenting"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/physical-activity",
+      "label": "Physical activity"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/youth",
+      "label": "Youth education resources"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/programs",
+      "label": "Get involved"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about",
+      "label": "About"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/our-leadership",
+      "label": "Our leadership"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/get-involved",
+      "label": "Get involved"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/news",
+      "label": "News"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/career-opportunities",
+      "label": "Career opportunities"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/find-us",
+      "label": "Contact us"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/people/directory",
+      "label": "Faculty and staff"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/ask-extension",
+      "label": "Ask Extension"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog",
+      "label": "OSU Extension Catalog"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/peer-review-guidelines",
+      "label": "Peer reviewed (Orange level)"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/es/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
+      "label": "Español"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9612.pdf",
+      "label": "Print-friendly version"
+    },
+    {
+      "url": "https://www.oregon.gov/owrd/programs/WaterRights/Reporting/WUR/Pages/default.aspx",
+      "label": "Read more on reporting."
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/acre-inch-1.png?itok=BOMGik3O",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/screenshot-2025-11-12-at-3.56.26-pm.png?itok=pWmsNmww",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-01/screenshot-2026-01-02-at-2.03.03-pm.png?itok=vLwaz17b",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-01/screenshot-2026-01-02-at-1.53.48-pm.png?itok=c92J9Sst",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/screenshot-2025-11-12-at-4.55.29-pm.png?itok=tqPPifM9",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-01/screenshot-2026-01-02-at-2.03.13-pm.png?itok=3k_oJEPH",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-01/screenshot-2026-01-02-at-2.03.30-pm.png?itok=p_wc85v1",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-01/screenshot-2026-01-02-at-2.03.47-pm.png?itok=5L5Zf3V9",
+      "label": ""
+    },
+    {
+      "url": "https://directives.nrcs.usda.gov/sites/default/files2/1712930921/31803.pdf",
+      "label": "National Engineering Handbook"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/flow-meter.png?itok=cvmgQ--n",
+      "label": ""
+    },
+    {
+      "url": "https://www.usbr.gov/tsc/techreferences/mands/wmm/chap13_10.html",
+      "label": "correction factor"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/float-timer.png?itok=s86BMmcV",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/trajectory-measurement.png?itok=tdJCA743",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/cipolletti-weir.png?itok=hS0oJ8yR",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/v-notch-weir.png?itok=pbsfhdFN",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/rectangular-weir.png?itok=cGET7MIv",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-12/sharp-crest-weir-2-copy_0.png?itok=7jE6Di0_",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-02/measuring-weir-depth.png?itok=uzAIzjbX",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/broad-crest-weir.png?itok=mPo0VIJf",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-12/parshall_flume.png?itok=UGlhPf9L",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-02/ramp-flume.jpg?itok=OBWJCyoI",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/free-flowing-orifice.png?itok=aVlPxfgU",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2025-11/submerged-orifice-1.png?itok=bdwqK4-4",
+      "label": ""
+    },
+    {
+      "url": "https://s3.wp.wsu.edu/uploads/sites/2166/2018/01/Guidelines-Use-of-Propeller-Type-Irrigation-Water-Meters.pdf",
+      "label": "Guidelines for Use of Propeller-type Irrigation Water Meters"
+    },
+    {
+      "url": "https://extension.okstate.edu/fact-sheets/irrigation-water-flow-measurement.html",
+      "label": "Irrigation Water Flow Measurement,"
+    },
+    {
+      "url": "https://bee.oregonstate.edu/users/maria-zamora-re?gid=25345",
+      "label": "María Isabel Zamora Re"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/collection/irrigation-technology-management-program-technical-guides",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9544-soil-plant-water-relationships",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9867-irrigation-technologies",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/help",
+      "label": "How to use this website"
+    },
+    {
+      "url": "https://ir.library.oregonstate.edu/?locale=en",
+      "label": "ScholarsArchive@OSU"
+    },
+    {
+      "url": "https://ourimpact.oregonstate.edu/",
+      "label": "Our impact"
+    },
+    {
+      "url": "https://beaverhealthy.oregonstate.edu",
+      "label": "Beaver Healthy"
+    },
+    {
+      "url": "https://employee.extension.oregonstate.edu/",
+      "label": "For employees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/cas",
+      "label": "Log in"
+    },
+    {
+      "url": "https://engagement.oregonstate.edu/",
+      "label": "Division of Extension and Engagement"
+    },
+    {
+      "url": "https://oregonstate.edu/land-acknowledgement",
+      "label": "See our land acknowledgement."
+    },
+    {
+      "url": "https://oregonstate.edu/copyright",
+      "label": "Copyright"
+    },
+    {
+      "url": "https://engagement.oregonstate.edu/privacy",
+      "label": "Web disclaimer/privacy"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/equal-opportunity-accessibility",
+      "label": "Equal opportunity/accessibility"
+    }
+  ],
+  "fetched_at": "2026-10-28T10:40:32.761314+00:00",
+  "sha256": "fd5775db72f6db04bed9a1f94a1e361a004466763825e6ec4b674b193d0a3a21",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

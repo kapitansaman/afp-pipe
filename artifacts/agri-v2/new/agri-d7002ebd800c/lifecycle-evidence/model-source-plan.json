@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T10:40:06.427836+00:00",
+  "topic_id": "agri-d7002ebd800c",
+  "input_binding": {
+    "topic_sha256": "3c5fa9e704d5b4e711d627b193591d1c185ddfba363b1e17720b79b506cb5aa5",
+    "sources_sha256": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+    "raw_sha256": "8edfba8a80a8950f8386d0c185e4ae120041515ce0cc1295a63aaaf88207789b"
+  },
+  "plan": {
+    "topic_id": "agri-d7002ebd800c",
+    "gap": "Existing university sources mention over-irrigation risks and late-season rain complicating harvest, but provide no measurable threshold, growth-stage indicator, soil-moisture target, or decision protocol for when to cut or reduce preharvest chickpea irrigation. Specific evidence is needed on crop physiological stage at irrigation cessation, any soil-water or tensiometer targets, regional management protocols with defined units, and the consequences quantified in yield/quality terms.",
+    "queries": [
+      "chickpea irrigation termination before harvest soil moisture threshold stage",
+      "chickpea final irrigation timing pod fill maturity water stress prevention"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Confirm the crop is chickpea (Cicer arietinum, dry pea class) and that the guidance applies to field-grown chickpea for grain harvest, not a different legume or pulse crop."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Identify the specific method or decision rule used to determine when to stop or reduce irrigation before chickpea harvest, including whether it is based on growth stage (e.g., physiological maturity, pod senescence), soil-moisture measurement, calendar timing, or visual/crop indicators."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Extract any quantitative values with original units (e.g., soil water potential in kPa, volumetric water content %, days after flowering, mm of applied water) and geographic region, and distinguish chickpea crop water use from irrigation discharge or system pressure."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

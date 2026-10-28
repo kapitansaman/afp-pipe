@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "input_sha256": "6b46eef7e8339095c64d6a96d53accee48ce21cd27f40478b7ec2c192b6b98ab",
+  "response_sha256": "73648301564d5a06f2940d6fc5ca1092afdd900102b77289b54c3072400ff411",
+  "created_at": "2026-10-28T10:40:54.156420+00:00",
+  "verdict": {
+    "topic_id": "agri-4e0b195e7205",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document identifies the first-irrigation decision trigger for chickpea (soil-moisture threshold, growth-stage cue, or calendar window) nor documents the monitoring method cited for that trigger."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document reports measured soil-moisture metric, monitored soil-layer depth, chickpea growth stage at recommendation, geography/climate context, or irrigation volume/timing interval specific to first post-sowing irrigation."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3",
+          "s7"
+        ],
+        "missing": ""
+      }
+    ],
+    "next_queries": [
+      "chickpea first irrigation decision trigger soil moisture threshold university extension",
+      "chickpea Ascochyta blight irrigation timing disease risk establishment"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

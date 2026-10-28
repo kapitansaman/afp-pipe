@@ -1,54 +1,106 @@
 {
   "topic_id": "agri-b914a783ffdd",
-  "candidate_sha256": "37da174d4197b6baa25ef47b88d0ea261bd01eb4690802f9e61442b869e24c75",
+  "candidate_sha256": "bb437401e77806a6aa8286b8a99a54c0c96e398b4b7bf7dd292d8514e508ab9a",
   "scientific_approval": false,
   "errors": [
     {
       "fact_index": 0,
       "code": "number_absent_from_literal_source",
       "rejected_fact": {
-        "kind": "source_observation",
-        "claim": "نخود به عنوان یک محصول خشک‌دوست نسبتاً مقاوم توصیف شده است و تحت تنش گرمایی و خشکی عملکرد بهتری نسبت به نخود فرنگی خشک و عدس دارد.",
-        "conditions": "شرایط تولید در مونتانا (US Ext. MSU MontGuide MT201703AG). مناطق با ۶ تا ۱۰ اینچ بارش فصل رشد مناسب هستند؛ دمای بالاتر از ۹۸ °F در اوایل گلدهی و تشکیل غلاف می‌تواند عملکرد را کاهش دهد.",
-        "evidence_id": "d3-e8",
+        "kind": "qualitative",
+        "claim": "در نخود، تنش آبی انتهای فصل (terminal drought) در مرحله تولیدمثل، مهم‌ترین محدود تولید است که باعث کاهش شدید تولید گل، افزایش Abort گل و فندق و افت شدید عملکرد دانه می‌شود.",
+        "conditions": "ناحیه: آزمایش کنترل‌شده گلدانی، دانشگاه غرب استرالیا (Perth, Western Australia, 31°57′ S, 115°47′ E). محصول: Cicer arietinum L.؛ ژنوتیپ‌های Rupali (desi) و Almaz (kabuli). مرحله: شروع withholding آب از 78 روز پس از کاشت (DAS) هنگامی که هر دو ژنوتیپ دارای غنچه، گل و فندق جوان بودند. واحد: درصد保留 عملکرد دانه نسبی در مقایسه با تیمار آبی کامل.",
+        "evidence_id": "d5-e5",
         "numeric_bindings": [
           {
-            "value": "6-10",
-            "unit_quote": "6-10 inches of growing season precipitation",
-            "geographic_scope": "Montana (US Ext. MSU Research Centers trial sites)",
-            "product_scope": "chickpea (Cicer arietinum L.) grain/pulse"
+            "value": "33",
+            "unit_quote": "33% of the yields",
+            "geographic_scope": "Western Australia (Perth)",
+            "product_scope": "chickpea (Cicer arietinum L.), desi cultivar Rupali"
           },
           {
+            "value": "15",
+            "unit_quote": "15% of the yields",
+            "geographic_scope": "Western Australia (Perth)",
+            "product_scope": "chickpea (Cicer arietinum L.), kabuli cultivar Almaz"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e5",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204/",
+        "quote": "This paper is available online free of all access charges (see http://jxb.oxfordjournals.org/open_access.html for further details) PMC Copyright notice PMCID: PMC2803204 PMID: 19854801 Abstract Terminal drought during the reproductive stage is a major constraint to yield of chickpea in many regions of the world. Termination of watering (WS) during podding in a small-seeded desi chickpea ( Cicer arietinum L.) cultivar, Rupali, and a large-seeded kabuli chickpea cultivar, Almaz, induced a decrease in predawn leaf water potential ( LWP ), in the rate of photosynthesis, and in stomatal conductance. Compared to well-watered (WW) controls, the WS treatment reduced flower production by about two-thirds. In the WW treatment, about 15% of the flowers aborted and 42% (Rupali) and 67% (Almaz) of the pods aborted, whereas in the WS treatment 37% and 56% of the flowers aborted and 54% and 73% of the "
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در مرحله رویشی، مدیریت تنش آبی تنظیم‌شده (regulated deficit irrigation) می‌تواند بهره‌وری آب محصول (CWP) را بدون کاهش معنی‌دار عملکرد بهبود بخشد؛ اما حفظ آبیاری کامل در مرحله گلدهی حیاتی است.",
+        "conditions": "ناحیه: مکزیک (مقاله Agronomy 2023). محصول: نخود خشک (Cicer arietinum L. var. Blanoro). مراحل فنولوژیک: رویشی (VG)، گلدهی (F)، پر شدن فندق (PF). واحد: درصد نیاز آبی محصول (ETc%).",
+        "evidence_id": "d9-e2",
+        "numeric_bindings": [
+          {
+            "value": "75",
+            "unit_quote": "ETc = 75%",
+            "geographic_scope": "Mexico ( Agronomy 2023 field trial)",
+            "product_scope": "chickpea (Cicer arietinum L., var. Blanoro), vegetative growth stage"
+          },
+          {
+            "value": "100",
+            "unit_quote": "ETc = 100%",
+            "geographic_scope": "Mexico ( Agronomy 2023 field trial)",
+            "product_scope": "chickpea (Cicer arietinum L., var. Blanoro), flowering stage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d9-e2",
+        "source_url": "https://scholars.georgiasouthern.edu/en/publications/regulated-deficit-irrigation-during-vegetative-growth-enhances-cr/",
+        "quote": " harvest index, and CWP, were tested through a complete randomized block experiment during the years 2020 and 2021, comparing full irrigation (FI, ETc = 100%), SDI (SDI75, ETc = 75% during all stages), and six RDI treatments varying in ETc% across phenology: VG50, VG75, F50, F75, PF50, and PF75. VG75 had higher CWP while minimizing impacts on productivity. During 2020, the plants were taller (0.44 ± 4.4 m), and increased in harvest index (0.47 ± 0.06), and CWP (0.90 ± 0.2 kg m−3) (p < 0.05), while in 2021, plants were heavier (11.4 ± 2.8 g) and increased in caliber (46.1 ± 3.0 grains); grain yield did not differ between the years (p ˃ 0.05), reaching 861.8 (2020) and 944.7 kg ha−1 (2021). Our results highlight the relevance of maintaining 100% ETc during flowering, and the maintenance of RDI at 75% ETc during vegetative growth. Original language English Article number 917 Number of pages"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "آبیاری مکرر و بیش‌ازحد در نخود می‌تواند منجر به افزایش بیماری‌زایی و گلدهی/رسیدگی ناهمگون شود که کیفیت محصول نهایی را کاهش می‌دهد.",
+        "conditions": "ناحیه: ایالت مونتانا، آمریکا (آزمایش‌های Variety trials). محصول: نخود خشک. سامانه: آبیاری مکمل کم (2-3 inches per season) در مقایسه با dryland.",
+        "evidence_id": "d0-e17",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e17",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": "f variation over years and varieties. Obs. = number of observations Varieties Most Montana producers contract with a company to grow a specific variety prior to planting although some open market options are available. Results of statewide variety trials indicate a yield potential between 850 and 3000 lb/acre under dryland conditions. Variability in yield is high due to environmental factors like hail, disease incidence, and drought. Irrigated production in Huntley has greater yields as compared to dryland with minimal additional water (2-3 inches per season). Irrigating too often can lead to high disease incidence and enhanced indeterminate flowering and maturity resulting in poor quality. The better performing varieties in these trials have been those from Canada, with Frontier and Orion leading the list (Table 3). Myles has been the only Desi type tested and has performed consistently"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "نخود نسبت به لentiil و dry pea تحمل تنش گرمایی و خشکی بالاتری دارد، اما دماهای بالای 98 °F در طول گلدهی اولیه و تشکیل فندق باعث کاهش عملکرد می‌شود.",
+        "conditions": "ناحیه: مونتانا و واشنگتن، آمریکا. محصول: نخود خشک (Cicer arietinum L.). واحد دمایی: °F.",
+        "evidence_id": "d0-e20",
+        "numeric_bindings": [
+          {
             "value": "98",
-            "unit_quote": "above 98 °F",
-            "geographic_scope": "Montana",
+            "unit_quote": "98 °F",
+            "geographic_scope": "Montana / Washington, USA",
             "product_scope": "chickpea (Cicer arietinum L.)"
           }
         ]
       },
       "literal_evidence": {
-        "id": "d3-e8",
-        "source_url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf",
-        "quote": "significantly to input costs. Because of the threat of disease, and the risk of poor quality due to bleaching, uneven color, or harvest damage, chickpea is a high maintenance crop requiring constant monitoring and field scouting. Proper grain handling after harvest is also critical to maintaining a high quality food product which is destined for human consumption. Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F , and nighttime temperatures are between 64 and 70 °F . The crop does well in regions with 6-10 inches of growing season precipitation. T emperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolerant. Cultural Practices Soil Chickpea grows bes"
-      }
-    },
-    {
-      "fact_index": 4,
-      "code": "every_number_requires_unit_and_scope_binding",
-      "rejected_fact": {
-        "kind": "source_observation",
-        "claim": "نخود از عمق ریشه Taproot عمیق برخوردار است و می‌تواند از لایه‌های عمیق‌تر خاک آب خارج کند.",
-        "conditions": "انتشار Wisconsin (d2-e4): به دلیل ریشه taproot عمیق، نخود می‌تواند شرایط خشکی را تحمل کند.",
-        "evidence_id": "d2-e4",
-        "numeric_bindings": []
-      },
-      "literal_evidence": {
-        "id": "d2-e4",
-        "source_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
-        "quote": "eeded = 800 seeds/lb) varieties are generally taller than the desi (small-seeded = 1,500 seeds/lb) varieties. Because of its deep tap root system, chickpea can withstand drought conditions by extracting water from deeper in the soil profile. Flowers (self-pollinated) which are borne in groups of two or three are 2 to 1 in. long and come in purple, white, pink or blue color depending upon variety. Each flower produces a short, pubescent pod which is 3/4 to 2 in. long and which appears to be inflated. One or two seeds (2 to 1 in. diameter) are present in each pod. The seeds come with either rough or smooth surfaces and can be creme, yellow, brown, black or green in color. There is a definite groove visible between the cotyledons about two-thirds of the way around the seed, with a beak-like structure present. IV. Environment Requirements: A. Climate: Chickpea is a cool season annual crop pe"
+        "id": "d0-e20",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": "9 815 1066 1509 1152 Note: Not all varieties were present in each location every year. Locations included Bozeman, Conrad, Corvallis, Huntley, Moccasin, Richland, and Sidney MT. Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F, and nighttime temperatures are between 64 and 70 °F. The crop does well in regions with 6-10 inches of growing season precipitation. Temperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolerant. Cultural Practices Soil Chickpea grows best on well drained soils with a neutral pH. It is not well adapted to saline soils and does not tolerate wet or waterlogged soils. Chickpea can be successfully grown in a wide range of soil typ"
       }
     }
   ],
-  "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "منابع موجود اطلاعات کیفی درباره تاب‌آوری کلی نخود به خشکی، عمق ریشه و اثرات آبیاری مفرط را پوشش می‌دهند؛ اما هیچ‌یک مرحله حساس رشد نخود به کم‌آبی (مثلاً مرحله گلدهی، غلاف‌بندی، یا پرشدن دانه) یا دستورالعمل اولویت‌بندی/time-of-application آب را به صراحت تعیین نکرده‌اند. بنابراین پاسخ کامل به عنوان 'مراحل حساس نخود به کم‌آبی؛ اولویت‌بندی آب در طول رشد' از شواهد مستقیم پشتیبانی نمی‌شود."
+  "candidate_error": "number_absent_from_literal_source",
+  "declared_insufficiency": null
 }

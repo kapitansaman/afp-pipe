@@ -1,0 +1,139 @@
+{
+  "round": 2,
+  "started_at": "2026-10-28T10:40:24.714960+00:00",
+  "queries": [
+    {
+      "query_id": "361e5fecc42f1423705b9894c7523f6d2494eea822e3bfc29396c5296bb9322d",
+      "query": "chickpea irrigation scheduling flow rate discharge duration university extension",
+      "cached": false,
+      "checked_at_epoch": 1793184051.4572618,
+      "results": [
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+          "title": "Irrigation water scheduling | OSU Extension Service",
+          "description": "1. Read the discharge directly in gpm.\n2. If discharge is provided in cubic feet per second (cfs), convert using:\n\n1 cfs = 448.8 gpm\n\nExample: Determining the flow rate using a bucket test\n\nFive sprinkler nozzles were tested on a wheel line. The average time to fill a 5-gallon bucket was 66 seconds.\n\n Flow rate = 5 gal/66 sec × 60\n Flow rate (gpm) = 4.5 gpm\n The average flow rate or discharge = 4.5 gpm [...] You should irrigate for approximately 10 hours per set to refill the plant-available water without overirrigating.\n\nImportant note:\n\nThis approach can be used for any sprinkler system once you know the flow rate, irrigated area and efficiency.\n\nThis process provides a quantitative foundation for irrigation scheduling and allows producers to adapt irrigation decisions to soil, crop and weather conditions.\n\nSection anchor \"advancing-water-management-skills\" [...] Unlike the wheel line example above, the pivot formula uses the total system flow (sum of all nozzle discharges) and the entire irrigated area covered during one complete revolution (Note: 1 acre = 43,560 square feet).\n\nGiven:\n\n Pivot rotation time: 24 hours\n Total system flow rate: 247 gpm\n Field area: 33 acres (1,437,4"
+        },
+        {
+          "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+          "title": "Irrigation Scheduling: The Water Balance Approach | Colorado State University Extension",
+          "description": "| 135 | 0.64 |  | 0.95 | 0.22 | 0.81 | 0.20 | 1.00 |  |\n| 140 | 0.58 |  | 0.95 | 0.22 | 0.80 | 0.20 | 0.96 |  | [...] Dc=Dp+ETc -P-Irr-U+SRO+DP [1]\n\nwhere Dc is the soil water deficit (net irrigation requirement) in the root zone on the current day, Dp is the soil water deficit on the previous day, ETc is the crop evapotranspiration rate for the current day, P is the gross precipitation for the current day, Irr is the net irrigation amount infiltrated into the soil for the current day, U is upflux of shallow ground water into the root zone, SRO is surface runoff, and DP is deep percolation or drainage. [...] during the stand establishment phase (June 1 to June 30), when the soil water deficit (Dc) becomes equal to or greater than 1.4 inches, then irrigation water must be applied. Similar calculations were done for the other growth phases in Table 4."
+        },
+        {
+          "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+          "title": "Irrigation Scheduling Methods: Checkbook vs FAO-56 | Land-Grant Press",
+          "description": "8. Melvin, S. R., & Yonts, C. D. (2009). Irrigation scheduling: Checkbook method (Extension Circular EC709). University of Nebraska–Lincoln Extension. \n9. National Centers for Environmental Information. (n.d.). Climate Data Online. National Oceanic and Atmospheric Administration. Retrieved August 2025, from \n10. National Weather Service. (n.d.). Graphical forecast. National Oceanic and Atmospheric Administration. Retrieved August 2025, from [...] 5. Food and Agriculture Organization of the United Nations. (n.d.). CROPWAT. Land & Water. Retrieved April 2026, from \n6. Food and Agriculture Organization of the United Nations. (n.d.). ETo calculator. Land & Water. Retrieved February 2025, from \n7. Kelly, L., Dong, Y., & Gradiz, A. (2025). Irrigation scheduling tools. Michigan State University Extension & Purdue University Extension. [...] 1. Allen, R. G., Pereira, L. S., Raes, D., & Smith, M. (1998). Crop evapotranspiration: Guidelines for computing crop water requirements (FAO Irrigation and Drainage Paper No. 56). Food and Agriculture Organization of the United Nations. \n2. Broner, I. (2005). Irrigation scheduling (Fact Sheet No. 4.708). Colorado State University Extension."
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "Fischbach, P.E. (editor) 1988. Irrigation Scheduling—Management Handbook. Cooperative Extension Service, University of Nebraska.\n\nStegman, E.C. 1988. Chapter V. _Water Management._ Best Management Practices Manual for Oakes Irrigation Area. North Dakota State University.\n\nAuthor: Vasudha Sharma, Extension irrigation specialist [...] Skip to navigationSkip to main contentSkip to footer\n\nImage 1: Extension Logo\n\nImage 2: Extension Logo\n\nUniversity of Minnesota Extension  \nextension.umn.edu\n\n× \"Clear search box\")\n\n    About Toggle submenu \n\nImage 3: A university researcher and participant discuss weeds in a research crop field   ## Building a stronger Minnesota together\n\nBringing Minnesotans together to build a better future through University science-based knowledge, expertise and training.       \n\n        Our work [...] The Irrigation Management Assistant (IMA) helps Minnesota growers improve irrigation efficiency across a variety of crops, including corn, soybean, potato, and other irrigated crops. The tool works best when using precipitation data near your field and is optimized for Minnesota conditions.\n\n Sources \n\nAl-Kaisi, M.M, I. Broner and A.A. Andales. 2014. Crop water use a"
+        }
+      ]
+    },
+    {
+      "query_id": "91d1d0dc25ee86b227d8f32a8886d2efa054900b2f65a82ef93df341fb4fca4e",
+      "query": "Cicer arietinum irrigation interval calculation actual discharge water demand",
+      "cached": false,
+      "checked_at_epoch": 1793184054.6260774,
+      "results": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+          "title": "Water-yield relationships for chickpea under different irrigation regimes in Gezira Scheme, Sudan",
+          "description": "regimes—including full irrigation and stage-specific deficit schedules—on chickpea (_Cicer arietinum_ L.) yield, seasonal actual crop evapotranspiration (ETc,act), and water productivity under Vertisols conditions. Full irrigation produced the highest yields (1816 and 1280 kg ha⁻¹), whereas deficits imposed during reproductive stages reduced yield by up to 33%. In contrast, a controlled vegetative-stage deficit (W3) saved 6% of seasonal irrigation water (35 mm) without significant yield"
+        },
+        {
+          "url": "https://ask.ifas.ufl.edu/publication/SS491",
+          "title": "SL 278/SS491: Crop Water Use and Irrigation Scheduling Guide for North Florida",
+          "description": "When calculating the irrigation demand, account for the irrigation system inefficiencies and amount of precipitation within the period under consideration. In this publication, adjustments were made to ETc values considering the irrigation system efficiency of 75%. In case irrigation system efficiency is more than 75%, adjust the irrigation application rate as Iadj:\n\nIadj = Chart Irrigation Application Rate (Tables 1 and 2) \\ 0.75/Actual Irrigation Efficiency [...] |  |  |\n --- |\n| Rooting depth (AMD) | Crop water use (inch per day) |\n|  | 0.04 | 0.08 | 0.12 | 0.16 | 0.2 | 0.24 | 0.28 |\n| Irrigation interval and application amount |\n| 3\"  MAD = 0.09\" | 0.11\" every 2 days | 0.11\" every 2 days | 0.16\" every 1 day | X | X | X | X |\n| 6\"  MAD = 0.18\" | 0.21\" every 4 days | 0.21\" every 2 days | 0.24\" every 1.5 days | 0.21\" every 1 day | 0.27\" every 1 day | 0.32\" every 1 day | X | [...] |  |  |\n --- |\n| Rooting depth (AMD) | Crop water use (inch per day) |\n|  | 0.04 | 0.08 | 0.12 | 0.16 | 0.2 | 0.24 | 0.28 |\n| Irrigation interval and application amount |\n| 3\"  MAD = 0.13\" | 0.16\" every 3 days | 0.11\" every 1 day | 0.16\" every 1 day | X | X | X | X |\n| 6\"  MAD = 0.25\" | 0.27\" every 5 days"
+        },
+        {
+          "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+          "title": "Irrigation Scheduling Methods: Checkbook vs FAO-56 | Land-Grant Press",
+          "description": "in Table 1, which provides Kc values together with approximate stage lengths for major agronomic crops at different growth stages, partially adapted from Allen et al.14 Using ETo for ETc calculations is advantageous because it accounts for local weather conditions, making the estimates more accurate. For example, even if crop water curves suggest high water use during peak growth, actual water demand may be lower on cool, humid days. This approach allows farmers to adjust irrigation schedules"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 5,
+    "loaded": 4,
+    "sources": [
+      {
+        "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+        "canonical_url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+        "canonical_url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach/",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+        "canonical_url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      },
+      {
+        "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+        "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://ask.ifas.ufl.edu/publication/SS491",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      }
+    ]
+  },
+  "fetches_reserved": 5,
+  "coverage": {
+    "topic_id": "agri-c4ef63638756",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No source provides a documented procedure or formula that explicitly computes chickpea irrigation cycle duration from measured actual flow/discharge combined with chickpea crop water demand, with unit conversions shown in original source units. Generic drip-scheduling tables (s4, s5), checkbook/FAO-56 water-balance methods (s7, s8, s9), and the general ET-based scheduling guidance (s6, s10) do not address chickpea specifically."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document reports measured flow/discharge, application rate, soil/water inputs, and irrigation timing specifically for chickpea alongside geographic context sufficient to avoid silent generalization. Generic extension materials (s4–s10) cover units for other crops/systems but not chickpea-specific measurements."
+      }
+    ],
+    "next_queries": [
+      "chickpea Cicer arietinum irrigation scheduling formula discharge flow rate duration university extension",
+      "chickpea drip irrigation set time calculation actual flow crop water demand site:edu OR site:gov"
+    ]
+  },
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:41:05.463664+00:00"
+}

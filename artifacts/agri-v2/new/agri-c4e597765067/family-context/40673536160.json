@@ -1,0 +1,17 @@
+{
+  "family_id": "family-11",
+  "topic_id": "agri-c4e597765067",
+  "title": "نیاز آبی نخود در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+  "title_sha256": "45be02ad5d51f2c2892be50d52d0c24d2d6b2f154ca14b803d3ae9cc40480b19",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY41",
+    "AGNES_API_KEY42",
+    "AGNES_API_KEY43",
+    "AGNES_API_KEY44"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

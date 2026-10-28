@@ -1,0 +1,34 @@
+{
+  "requested": 5,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+      "canonical_url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+      "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2025/08/late-season-irrigation-tips-for-yield.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.canr.msu.edu/news/is-it-time-for-the-last-irrigation",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season",
+      "canonical_url": "https://cropwatch.unl.edu/scheduling-last-irrigation-season/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,30 +1,40 @@
 {
-  "requested": 4,
-  "loaded": 3,
+  "requested": 6,
+  "loaded": 5,
   "sources": [
     {
       "url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
       "canonical_url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
       "canonical_url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/08/do-stem-and-plant-density-predict.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/08/do-stem-and-plant-density-predict.html",
       "redirect_hops": 0,
       "status": "fetched"
     },
     {
-      "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-      "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-      "status": "cache_valid"
+      "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8299HarvestStrategies_free.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
     },
     {
-      "url": "https://www.sciencedirect.com/science/article/pii/S2772375524002028",
-      "status": "unavailable",
-      "category": "http_error",
-      "temporary": true,
-      "http_status": 403
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.931403/full",
+      "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.931403/full",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://bookstore.ksre.ksu.edu/pubs/alfalfa-production-handbook_C683.PDF",
+      "canonical_url": "https://bookstore.ksre.ksu.edu/pubs/alfalfa-production-handbook_C683.PDF",
+      "redirect_hops": 0,
+      "status": "fetched"
     }
   ]
 }

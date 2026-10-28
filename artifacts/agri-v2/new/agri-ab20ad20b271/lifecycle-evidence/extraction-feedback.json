@@ -1,0 +1,38 @@
+{
+  "topic_id": "agri-ab20ad20b271",
+  "candidate_sha256": "07239de2d6782a148c9733d0df393dc762037cbc5894442fec383cdeee837273",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "ریشه چغالی نخود تا عمق حدود 30 اینچ نفوذ می‌کند و جذب آب بیشتر از 12 اینچ بالایی خاک انجام می‌شود.",
+        "conditions": "منطقه: ایالات متحده (مونتانا/اورگن)؛ محصول: نخود Cicer arietinum; واحد: اینچ; محدوده: عمق مؤثر ریشه ≤30 اینچ، مصرف آب عمدتاً از 12 اینچ بالایی خاک",
+        "evidence_id": "d0-e28",
+        "numeric_bindings": [
+          {
+            "value": "30",
+            "unit_quote": "30 inches",
+            "geographic_scope": "US Montana trials",
+            "product_scope": "chickpea Cicer arietinum"
+          },
+          {
+            "value": "12",
+            "unit_quote": "top 12 inches of soil",
+            "geographic_scope": "US Montana trials",
+            "product_scope": "chickpea Cicer arietinum"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e28",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": "ease organisms (namely, Ascochyta blight) become established. Since many disease organisms survive on plant residue, a break in pulse crop production of three or more years provides enough time for pulse residue to completely disappear which is good management for long-term production of this crop. Small grains complement pulse crops by providing a bed of straw and residue in which to plant. Standing straw encourages upright growth, higher seed set, and is effective in minimizing evaporation while conserving precipitation for use by the pulse crop. The effective rooting depth of chickpea is no more than 30 inches and the crop uses water mostly from the top 12 inches of soil (6) . Chickpea is a full-season crop that will continue to grow into August or even early September in many Montana locations. Depending on precipitation recharge in late summer, it may be difficult to follow chickpea"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع موجود توصیف کلی رطوبت مطلوب و هشدار درباره آبیاری مازاد را ارائه می‌دهند، اما روش تعیین زمان آبیاری مجدد پس از بارندگی (آستانه رطوبت خاک، معیار پایش، فاصله زمانی تصمیم‌گیری) را برای نخود ارائه نمی‌کنند. هیچ منبعی جدول یا چک‌لیست اجرایی برای «چه زمانی دوباره آب بدهیم» ندارد."
+}

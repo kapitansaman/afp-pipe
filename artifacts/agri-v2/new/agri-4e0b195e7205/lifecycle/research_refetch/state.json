@@ -11,14 +11,25 @@
         "kind": "source_fetch_deferred",
         "category": "source_fetch_temporarily_unavailable"
       }
+    },
+    {
+      "attempts": 0,
+      "status": "deferred",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:39:57.278587+00:00",
+      "completed_at": "2026-10-28T10:40:54.171676+00:00",
+      "failure": {
+        "kind": "source_fetch_deferred",
+        "category": "source_fetch_temporarily_unavailable"
+      }
     }
   ],
   "status": "deferred",
-  "last_run_id": "40663668445",
-  "started_at": "2026-10-28T09:24:56.651686+00:00",
+  "last_run_id": "40673536160",
+  "started_at": "2026-10-28T10:39:57.278587+00:00",
+  "completed_at": "2026-10-28T10:40:54.171676+00:00",
   "failure": {
     "kind": "source_fetch_deferred",
     "category": "source_fetch_temporarily_unavailable"
-  },
-  "completed_at": "2026-10-28T09:25:44.096936+00:00"
+  }
 }

@@ -1,0 +1,63 @@
+{
+  "topic_id": "agri-adc9b5a7dea9",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی (لوبیا خشک بازارگونه پینتو)",
+  "slug": "pinto-dry-bean-bed-preparation",
+  "outline": [
+    "تسطیح و آماده‌سازی سطح زمین",
+    "شرایط زهکشی و بافت خاک",
+    "ویژگی‌های بستر کاشت برای نشأت بذر"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "لوبیا چیتی (پینتو) بستر کاشت را نیازمند زهکشی مناسب می‌داند و در خاک‌های سنگین رسی و شرایط غرقابی عملکرد مناسبی ندارد.",
+      "conditions": "محصول زنده لوبیا خشک Phaseolus vulgaris L., بازارگونه پینتو؛ مزارع یونیورسیتی ایالت‌های میشیگان، نبراسکا، داکوتای شمالی و کالیفرنیا",
+      "evidence_id": "d0-e8",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای کشت مستقیم و برداشت بدون خواباندن ردیف، سطح مزرعه باید تسطیح شده باشد تا تلفات برداشت افزایش نیابد.",
+      "conditions": "مزرعه مزارع نبراسکا، سیستم برداشت مستقیم لوبیای خشک پینتو",
+      "evidence_id": "d5-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "بذر در خاک سرد و خیس مستعد پوسیدگی است و نوع رنگی بذر tolerancse بیشتری نسبت به نوع سفید نشان می‌دهد.",
+      "conditions": "نیشأت بذر لوبیا خشک در خاک سرد و مرطوب",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های سنگین رسی یا فشرده‌شده بستر نامناسبی برای نشأت و خروج کوتیلدون هستند و ممکن است باعث تشکیل پوسته سطحی شوند.",
+      "conditions": "بذر نشأت لوبیا، بافت خاک سنگین رسی و فشرده",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "استانداردهای درجه‌بندی USDA بازارگونه پینتو را یکی از کلاس‌های تجاری رسمی لوبیای خشک تعریف می‌کند.",
+      "conditions": "اصناف و طبقه‌بندی تجاری لوبیای خشک",
+      "evidence_id": "d4-e0",
+      "numeric_bindings": [
+        {
+          "value": "2.0",
+          "unit_quote": "not more than 2.0 percent of beans of contrasting classes",
+          "geographic_scope": "USDA standards",
+          "product_scope": "pinto dry bean"
+        },
+        {
+          "value": "15.0",
+          "unit_quote": "not more than 15.0 percent of beans of other classes that blend",
+          "geographic_scope": "USDA standards",
+          "product_scope": "pinto dry bean"
+        }
+      ]
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

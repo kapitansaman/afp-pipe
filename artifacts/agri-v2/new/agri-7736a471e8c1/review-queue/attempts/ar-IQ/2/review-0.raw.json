@@ -1,0 +1,18 @@
+{
+  "faithful": false,
+  "reason": "The translation consistently mistranslates the agronomic concept of 'soil crust' as التربة المتشققة ('fractured/cracked soil'), which denotes tectonic/structural fissuring rather than the formation of a hard surface seal after rain or heavy irrigation. This changes the scientific meaning and is contradicted internally by the translation's own use of القشرة السطحية in IDs 11/45.",
+  "issues": [
+    {
+      "id": 4,
+      "detail": "التربة المتشققة (Crust) mistranslates 'crust-formed soils' as 'fractured/cracked soil.' Soil crust is a hard sealed surface layer, not structurally fractured ground. Source says 'خاک‌های crust‌شده' (crust soils)."
+    },
+    {
+      "id": 5,
+      "detail": "التربة التي تميل إلى التتشقق السطحي mistranslates 'خاک‌هایی که تمایل به پوسته‌بستن دارند' (soils prone to crusting). التتشقق means cracking/fracturing; the correct term is التقشرة السطحية or تكوين القشرة."
+    },
+    {
+      "id": 27,
+      "detail": "التربة المتشققة (Crust) mistranslates 'خاک crust‌شده' (crust-formed soil). Same factual error as ID 4; 'crust' ≠ fractured soil."
+    }
+  ]
+}

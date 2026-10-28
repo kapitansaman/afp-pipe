@@ -8,13 +8,13 @@
     "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
     "raw_sha256": "74ef50a935089e440c1ea51047b8101edd8333fa2b6865a2960d0a48cfa0ff2a"
   },
-  "completed_at": "2026-10-28T09:25:38.721187+00:00",
+  "completed_at": "2026-10-28T10:40:54.316804+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T09:24:49.951612+00:00",
+      "started_at": "2026-10-28T10:39:57.188823+00:00",
       "queries": [
         {
           "query_id": "6536279e399da536e166bb87aaabcc2b57d6eb311b239ff1ee9336f03b60cbaa",
@@ -142,18 +142,13 @@
             "id": "exact_reader_method",
             "covered": false,
             "document_ids": [],
-            "missing": "No document documents an alfalfa-specific research method showing which soil moisture sensor type was used with its trigger threshold in original units and how readings replace calendar scheduling. s10 describes tensiometer, capacitance, TDR, and resistance block methods but without alfalfa-specific thresholds; s11 provides generic alfalfa tension thresholds (80–150 kPa) cited from multi-crop synthesis rather than from a study measuring and acting on those readings versus a calendar."
+            "missing": "No document describes a specific alfalfa research study that used a named soil moisture sensor (tensiometer, FDR/TDR capacitance, gypsum block) with an explicitly stated trigger threshold in original units and demonstrated how the farmer/system acted on readings instead of a calendar schedule. s10 describes sensor types generically; s11 gives general alfalfa thresholds (80-150 kPa) without tying them to a named sensor method or farmer decision workflow versus calendar; s12 and s14 use corn examples or general guidance."
           },
           {
             "id": "species_product",
             "covered": true,
             "document_ids": [
-              "s1",
-              "s2",
-              "s10",
-              "s11",
-              "s12",
-              "s13"
+              "s11"
             ],
             "missing": ""
           },
@@ -162,75 +157,81 @@
             "covered": false,
             "document_ids": [
               "s11",
-              "s12"
+              "s10"
             ],
-            "missing": "s11 gives alfalfa soil water tension thresholds (80–150 kPa) and MAD (50–60%) but mixes crops and does not present measured alfalfa research with those exact units tied to field decisions. s12 gives corn-specific SWT tables and does not address alfalfa. No supplied document distinguishes crop evapotranspiration (ETc) from applied irrigation water volume for alfalfa, nor specifies growth-stage or seasonal threshold adjustments for alfalfa."
+            "missing": "s11 provides alfalfa MAD 50-60%, soil water tension 80-150 kPa/cb, and %VWC by soil type but does not distinguish crop ETc from applied irrigation water volume, nor specify growth-stage or season adjustments to the threshold. s10 covers sensor units (kPa, cbar, %VWC) and general methodology but does not present alfalfa-specific threshold data with ETc/application separation or stage adjustments."
           }
         ],
         "next_queries": [
-          "alfalfa irrigation scheduling soil moisture sensor threshold tensiometer FDR university research",
-          "alfalfa soil water tension trigger kPa evapotranspiration irrigation volume research"
+          "alfalfa irrigation scheduling soil moisture sensor tensiometer threshold research site-specific",
+          "alfalfa soil moisture management allowable depletion irrigation trigger University of Minnesota extension"
         ]
       },
-      "completed_at": "2026-10-28T09:25:08.890647+00:00"
+      "coverage_cache_hit": false,
+      "completed_at": "2026-10-28T10:40:12.498301+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T09:25:08.891416+00:00",
+      "started_at": "2026-10-28T10:40:12.498921+00:00",
       "queries": [
         {
-          "query_id": "6fb3e2ad4deff617f64d419aa2ec807b1a336786e42e8dcaa9df8677796a1062",
-          "query": "alfalfa irrigation scheduling soil moisture sensor threshold tensiometer FDR university research",
+          "query_id": "00a528e0c839ef8fcadf3176e52ae66c71eb8afe3eb08725ecb9e5ff16616577",
+          "query": "alfalfa irrigation scheduling soil moisture sensor tensiometer threshold research site-specific",
           "cached": false,
-          "checked_at_epoch": 1793179515.1032534,
+          "checked_at_epoch": 1793184037.1206813,
           "results": [
+            {
+              "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+              "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+              "description": "Soil moisture sensors can support irrigation scheduling by telling you how much water is present in your soil at any time. Irrigation should be applied when soil moisture levels drop below a minimum threshold. Enough water should be applied so that soil moisture levels increase across the root zone of the plant, but not so much that water runs off or drains below the root zone. Soil moisture sensors can help determine when, how much, and how quickly irrigation should be applied. However, this [...] Using soil sensors for irrigation requires determining an irrigation threshold that is suitable for the soil, crop, and management choices for the field being irrigated. Irrigation thresholds are sometimes based on soil water tension values for different soil types (table 1). However, a limitation with this approach is that it bases irrigation decisions on the soil dryness alone rather than on the impact that soil dryness has on the crop. An alternative approach to irrigation scheduling is [...] | Crop | MAD (%) | Soil water  tension  (kPa or cb) | Loamy sand  (%) | Sandy loam  (%) | Loam  (%) | Silt loam  (%) | Clay loam  (%) |\n| Alfalfa | 50-60 | 80-150 | 12 | 15 | 20 | 23 | 24 |\n| Can"
+            },
             {
               "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
               "title": "Soil moisture sensors for irrigation scheduling | UMN Extension",
-              "description": "The most common soil water content or volumetric water content sensors follow:\n\n|\n\nThe most common electromagnetic sensors are capacitance sensors or frequency domain reflectometry (FDR) sensors and time domain reflectometry (TDR) sensors. [...] Charts like Table 1 can also be used to convert the tension readings from sensors to soil water deficit values. Then these soil water deficit values can be used for irrigation scheduling as shown in example calculations at the end of this article.\n\nThe most common soil tension sensors follow:\n\n|\n\ntensiometer\n\nFigure 5. Tensiometer with vacuum gauge. [...] Three moisture sensors are installed at depths of 1 foot, 2 feet and 3 feet (Column A).\n The soil moisture sensor reads 0.13, 0.10 and 0.10 (or 13%, 10% and 10%) for 1, 2 and 3 foot depths, respectively (Column E).\n Available water holding capacity (AWC) from the Web soil survey is 0.70, 0.09 and 0.07 for 1, 2 and 3 foot depths, respectively (Column D).\n Measured field capacity (FC) is 0.16, 0.15 and 0.10 in./in. for 1, 2 and 3 foot depths, respectively (Column C)."
+              "description": "Soil/site specific calibration usually required.\n Very expensive (~$10,000)\n Heavy\n Contains radioactive material (safety hazard). Licensing is required.\n Manual reading and recording (~3 min./access tube)\n Not good at shallow depths (<6 inches)\n\n##### Cost\n\n ~$10,000 and $25-30 for access tubes\n\n#### Tensiometers\n\n(Irrometer tensiometers, etc.)\n\n##### Advantages\n\n Inexpensive.\n Not affected by salinity.\n Comes in different lengths.\n\n##### Disadvantages [...] ##### Advantages\n\n Response time is very fast\n Remote access available\n Very accurate if site calibrated\n Less expensive than TDR\n Can be used in high saline soils compared to TDR\n\n##### Disadvantages\n\n Small sensing area\n Affected by soil conditions - salinity, clay content, temperature, bulk density\n Site/soil specific calibration preferred\n\n##### Cost\n\n $250-350 per sensor\n Data logger is $500-2,500\n\n#### TDR\\\n\n(Acclima true TDR 315, 315L, 310 S; Spectrum Field Scout TDR; CS 655, 650 tec) [...] Charts like Table 1 can also be used to convert the tension readings from sensors to soil water deficit values. Then these soil water deficit values can be used for irrigation scheduling as shown in example calculations at the end of"
             },
             {
               "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
               "title": "Soil moisture monitoring to support irrigation scheduling | OSU Extension Service",
-              "description": "### Tensiometers\n\nTensiometers are soil moisture sensors used to measure soil water tension (matric potential). Producers in horticultural, vegetable and specialty crop systems commonly use tensiometers where irrigation is frequent and soils are monitored closely.\n\n#### How they work\n\nA tensiometer (Figure 4) consists of:\n\n A water-filled tube approximately 1 inch in diameter\n A vacuum gauge, at the upper end\n A porous ceramic cup, at the lower end [...] For additional guidance on installation and operation, see Tensiometers: Installation and Operation.\n\nTable 1. Approximate tensiometer readings at different soil moisture levels for various soil textures\n\n| Soil type | Saturated soils (cbars) | Field capacity (cbars) | Typical irrigation threshold (cbars) | cbars) |\n| Loamy sand/sandy loam | 0–10 | 10–15 | 20–30 | 45–60 |\n| Loam/silt loam | 0–10 | 20–30 | 30–50 | 50–70 |\n| Clay loam/clay | 0–10 | 30–40 | 50–60 | 60–100 | [...] Install sensors within the effective rooting depth of your crop.\n Monitor at least two to three soil depths to capture soil water distribution.\n  + For deep-rooted crops such as alfalfa, consider installing the sensors at 1-foot increments up to 3 feet.\n  + F"
-            },
-            {
-              "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
-              "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
-              "description": "Soil moisture sensors can help make data-informed decisions about scheduling irrigation. Previous studies have shown that the soil moisture estimates may vary from one sensor to the other even if installed side-by-side, and the sensor estimates may not represent the exact moisture levels in the soil. However, all soil moisture sensors exhibit trends in recharge and decline in soil moisture conditions. These soil moisture trends can be used to make informed decisions to adjust irrigation and [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] ## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n"
-            },
-            {
-              "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
-              "title": "Archive of Proceedings",
-              "description": "Down Arrow\nAlfalfa Leaf Image\nAlfalfa Leaf Image\nImage Splash [...] | 1975 | 5th California Alfalfa Symposium | Fresno, CA |\n| 1974 | 4th California Alfalfa Symposium | Fresno, CA |\n| 1973 | 3rd California Alfalfa Symposium | El Centro, CA |\n| 1972 | 2nd California Alfalfa Symposium | Fresno, CA |\n| 1971 | 1st California Alfalfa Production Symposium | Fresno, CA | [...] | 2004 | 34th California Alfalfa & Forage Symposium & National Alfalfa Symposium | San Diego, CA |\n| 2003 | 33rd California Alfalfa & Forage Symposium | Monterey, CA |\n| 2002 | 32nd Western Alfalfa & Forage Conference | Reno, NV |\n| 2001 | 31st California Alfalfa & Forage Symposium | Modesto, CA |\n| 2000 | 30th California Alfalfa & Forage Symposium & National Alfalfa Symposium | Las Vegas, NV |\n| 1999 | 29th California Alfalfa Symposium | Fresno, CA |"
+              "description": "For additional guidance on installation and operation, see Tensiometers: Installation and Operation.\n\nTable 1. Approximate tensiometer readings at different soil moisture levels for various soil textures\n\n| Soil type | Saturated soils (cbars) | Field capacity (cbars) | Typical irrigation threshold (cbars) | cbars) |\n| Loamy sand/sandy loam | 0–10 | 10–15 | 20–30 | 45–60 |\n| Loam/silt loam | 0–10 | 20–30 | 30–50 | 50–70 |\n| Clay loam/clay | 0–10 | 30–40 | 50–60 | 60–100 | [...] Install sensors within the effective rooting depth of your crop.\n Monitor at least two to three soil depths to capture soil water distribution.\n  + For deep-rooted crops such as alfalfa, consider installing the sensors at 1-foot increments up to 3 feet.\n  + For shallow-rooted crops, two depths are typically sufficient.\n Multidepth monitoring allows detection of:\n  + Overirrigation (deep percolation)\n  + Shallow drying\n  + Root-zone depletion patterns [...] | Capacitance |  Continuous measurement can be collected with data logger  Response time is very fast  Remote access available  Accurate if site calibrated (2%–3%)  Less expensive than time domain reflectometry  Can be used in high-saline soils compared to "
             }
           ]
         },
         {
-          "query_id": "750ee8f21edf78b63010215306255228bbbbf848cd3dd89380cc18584dfb1d14",
-          "query": "alfalfa soil water tension trigger kPa evapotranspiration irrigation volume research",
+          "query_id": "142acf2c4d58a603f2a38c4afd70d385043e94f8cc843be4209472de8955b2cd",
+          "query": "alfalfa soil moisture management allowable depletion irrigation trigger University of Minnesota extension",
           "cached": false,
-          "checked_at_epoch": 1793179518.5731251,
+          "checked_at_epoch": 1793184040.3231573,
           "results": [
             {
-              "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
-              "title": "Frontiers | Alternate partial root zone subsurface drip irrigation increases alfalfa water production function by increasing hay yield, rather than actual crop evapotranspiration",
-              "description": "higher than the CI treatment soil water storage at the 3rd harvest with a 20 mm irrigation volume (Figure 4). Wang et al. (2021) also found that AI reduced the one-year-old alfalfa ETa, mainly caused by the alfalfa ETa at the 2nd harvest. Although we did not measure soil evaporation, it was speculated that the low alfalfa coverage at the seedling stage increased soil evaporation and greatly reduced the soil water storage. Furthermore, our soil moisture monitoring revealed that deep soil water [...] and soil water storage dynamics to explain the changes in alfalfa ETa. We focused on two issues: (i) the effects of two IMs on alfalfa ETa and hay yield under three irrigation volumes, use the dynamic changes in soil moisture and soil water storage during the process to explain the differences in ETa among different treatments; and (ii) the effects of different IMs on the alfalfa–water production function, explain whether these changes are primarily driven by hay yield or ETa. This research is [...] and those of other research. The first reason is that our maximum irrigation volume may not reach the maximum evapotranspiration required by alfalfa. The second reason may be that the rainfal"
+              "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
+              "title": "Irrigation management | UMN Extension",
+              "description": "5. Initiate an irrigation when the soil water deficit is expected to approach the selected management allowable soil water depletion limit by the time the irrigation cycle is completed. [...] 1. Determine the crop’s active rooting depth and the corresponding available water-holding capacity for each soil type in the field.\n2. Select the predominant soil type(s) that should be used for irrigation water management purposes.\n3. Define the management allowable soil water depletion (MAD) limits for the selected soil types and the crop(s) to be grown.\n4. Establish a soil moisture monitoring system and regularly (at least twice a week) keep track of the soil water deficit or depletion. [...] When soil moisture drops below recommended thresholds, the IMA highlights the field and provides irrigation recommendations. All data and recommendations are field-specific and adjust automatically if you update irrigation, rainfall, or soil moisture values.\n\nAccessible on desktop, tablet, or smartphone, the IMA allows you to check your fields and update records from anywhere. You can also save fields for reuse each season, eliminating the need to redraw boundaries year after year."
             },
             {
-              "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
-              "title": "Irrigation Management and Crop Characteristics of Alfalfa",
-              "description": "The matric potential reading will increase as the soil becomes drier. After the field is irrigated, the matric potential readings typically return to lower values (i.e., 0 to 10 kPa). These wetting and drying cycles continue throughout the season as the crop is irrigated and the soil dries with crop water use and surface soil evaporation. The key to proper irrigation management using soil water sensors is to monitor the sensors regularly, track the soil water level, and irrigate when the [...] irrigate when the kilopascal (1 kPa = 1 cbar) readings are in the desired range for your soil type (See Table I; Orloff et al., 2001). Irrigating when the soil water readings exceed the desired range may result in crop stress and yield loss. Irrigation before the readings reach the desired range may result in excessive irrigation, water wastage or runoff. [...] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n ---  ---  ---  ---  ---  ---  --- |\n| |  |  | Table I. Suggested values of soil matric potential at which irrigations should be applied for alfalfa for different soil types. | | Soil type | Average soil matric potential   reading of top three sensors (kPa) | | Sand or loamy sand | 40-50 | | "
+              "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+              "title": "Alfalfa during drought",
+              "description": "Water budgeting approaches or “checkbook scheduling” involves monitoring soil moisture and determining daily crop water use through evapotranspiration (ET). Soil moisture can be monitored using moisture-sensing instruments. With alfalfa, irrigation typically begins with about 50% depletion of available water in the root zone.\n\nIrrigation scheduling considerations unique to alfalfa: [...] ©2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer.\n\n  \nImage 14: A QR code linking to the current webpage.  \n\nPlease scan the above QR code to visit the live webpage for links.\n\n✓\n\nThanks for sharing!\n\nAddToAny\n\nMore…\n\nBack to top [...] This website is available in English and Spanish.\n\n© 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer. This work is supported by the U.S. Department of Agriculture’s National Institute of Food and Agriculture.\n\nReport Web Accessibility Issues Link is external|Privacy Statement Link is external|Staff intranet Link is external"
             },
             {
-              "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
-              "title": "effects of irrigation amount on alfalfa yield",
-              "description": "not significantly different at a probability level of p < 0.05. NS = not significant at a probability level of p < 0.05 and  = significant at a probability level of p < 0.01. 60(5): 1633-1644 1641 (207 kPa). Consequently, the flow rate of the end gun in the water distribution test was greater. Compared with the aver-age value for the first span, second span, and overhang, the increased irrigation with the end gun could not obtain the same increase in yield, especially for the 100% ET irrigation [...] factor of 1.7 found in the water dis-tribution test. The water distribution test was conducted in October 2013, when the water table in the well recovered after irrigation, and the system working pressure (414 kPa) was higher than in the alfalfa irrigation experiment Table 4. Actual irrigation amount, annual alfalfa yield, crop water use, and WUE for the first span, second span, overhang, and end gun of the center-pivot system during the entire growing season in 2014 and 2015.[a] Location Year [...] sandy loam with a bulk density of 1.3 g cm-3 and pH of 8.5. The field capacity (FC) and permanent wilting point of the topsoil layer (0 to 30 cm) were 0.257 and 0.104 cm3 cm-3, respectively"
+              "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+              "title": "Basics of irrigation scheduling",
+              "description": "Maximum allowable depletion (also called \"management allowed depletion\" or MAD) specifies the maximum amount of soil water the irrigation manager allows the crop to extract from the active rooting zone between irrigations. Only a portion of the available water-holding capacity is easily used by the crop before crop water stress develops. A soil’s MAD is less than its total AWC. [...] .30 x 3.50 inches = 1.05 inches\n\nSee management guidelines for developing a management plan and setting maximum allowable depletion (MAD) limits.\n\nThe following table lists recommended maximum allowable soil water depletion limits and management strategies for several irrigated crops grown in Minnesota. These recommendations resulted from several research projects in the North Central states and published guidelines from other states.\n\nOpen all|Close all\n\n Recommended MAD [...] that should be used for irrigation water management purposes.\n3.   Define the management allowable soil water depletion (MAD) limits for the selected soil types and the crop(s) to be grown.\n4.   Establish a soil moisture monitoring system and regularly (at least twice a week) keep track of the soil water deficit or depletion."
             },
             {
-              "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2012/12-52.pdf",
-              "title": "Key Irrigation Management Practices for Alfalfa",
-              "description": "– receiving only one irrigation in September. Soil moisture tension in this chart is pictured as a positive number and with values exceeding 80 cb tension it is likely that alfalfa ET was reduced in September. This was ac-tually a planned strategy to get the hay harvested before the on-set of fall frosts and rain. -100 -80 -60 -40 -20 0 3/2 3/23 4/13 5/4 5/25 6/15 7/6 7/27 8/17 9/7 9/28 10/19 11/9 11/30 Soil Moisture Tension (cb) 18\" 36\" 60\" 100 feet from mainline. Big gun irrigation 1/cutting. [...] Table 6. Recommended soil moisture tension levels as a trigger for irrigation of alfalfa. Flood: Advantages – gopher control is least problematic, low to no energy cost, no filtration necessary, total infiltrated water depth varies over season, tailwater return systems improve uni-formity and provide better stand quality by draining check ends. Disadvantages – land must be leveled, pushing in head ditches, water-logging ends, stress between irrigations and cuttings. Sprinkler: Advantages – [...] season and still have sufficient moisture for decent tonnage. Ta-ble 6 provides approximate soil moisture tension guidelines for scheduling irrigations for coarse to fine soils for various dept"
+              "url": "https://forevergreen.umn.edu/crops/alfalfa",
+              "title": "Alfalfa - Forever Green Initiative - University of Minnesota",
+              "description": "Alfalfa can be an important crop in a grower's rotation that aids in the protection of water and soil resources, enhances soil fertility, and sequesters soil"
+            },
+            {
+              "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+              "title": "Irrigation management strategies",
+              "description": "To provide adequate soil moisture in the root zone to carry the crop to maturity without reducing yields. To deplete the soil moisture farther than normal (i.e."
+            },
+            {
+              "url": "https://blog-crop-news.extension.umn.edu/2026/10/prepare-your-alfalfa-field-for-winter.html",
+              "title": "Prepare Your Alfalfa Field for Winter",
+              "description": "Extension Wordmark\n\n# Minnesota Crop News\n\n### Search This Blog\n\n### Prepare Your Alfalfa Field for Winter\n\nBeatriz Bizzuti, Assistant Professor and Forage Extension Agronomist\n\nAs summer comes to an end and temperatures cool, it is time to start preparing the stand for winter.\n\n before the first killing frost. [...] ### The goal is a healthy stand next spring\n\nFall management is ultimately an investment in next year’s crop.  \n The decisions made now can influence how well alfalfa survives the winter and how quickly it resumes growth in the spring. We cannot change the weather, but we can change the stand management.  \n For more information on alfalfa winterkill, see the articles below.\n\nAlfalfa winter injury: Weather and management effects.\n\nPredicting alfalfa winter survival? [...] How much time remains before the first killing frost? The recommendation is to allow at least 5 to 6 weeks, or more than 900 growing degree days (GDDs, base 41ºF) between the last cut and the first killing frost. This interval allows plants to regrow and replenish crown and root carbohydrate reserves needed for winter survival and spring regrowth. Alternatively, harvesting within approximately 2 weeks "
             }
           ]
         }
@@ -255,13 +256,12 @@
         "s16",
         "s17",
         "s18",
-        "s19",
-        "s20"
+        "s19"
       ],
       "publication_authorized": false,
       "fetch_report": {
-        "requested": 6,
-        "loaded": 6,
+        "requested": 5,
+        "loaded": 5,
         "sources": [
           {
             "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
@@ -269,36 +269,31 @@
             "status": "cache_valid"
           },
           {
-            "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
-            "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/index.aspx?from=alfalfa",
-            "status": "cache_valid"
-          },
-          {
-            "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
-            "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
+            "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
+            "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
             "redirect_hops": 0,
             "status": "fetched"
           },
           {
-            "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
-            "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+            "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
             "status": "cache_valid"
           },
           {
-            "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
-            "canonical_url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
+            "url": "https://forevergreen.umn.edu/crops/alfalfa",
+            "canonical_url": "https://forevergreen.umn.edu/crops/alfalfa",
             "redirect_hops": 0,
             "status": "fetched"
           },
           {
-            "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2012/12-52.pdf",
-            "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2012/12-52.pdf",
+            "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+            "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
             "redirect_hops": 0,
             "status": "fetched"
           }
         ]
       },
-      "fetches_reserved": 6,
+      "fetches_reserved": 5,
       "coverage": {
         "topic_id": "agri-e3a66b5b76f2",
         "requirements": [
@@ -306,30 +301,38 @@
             "id": "exact_reader_method",
             "covered": false,
             "document_ids": [],
-            "missing": "No supplied document documents the specific soil moisture measurement method (tensiometer, FDR, TDR, gypsum block), a trigger threshold in original units, and a documented operational sequence showing how a farmer or automated system acts on that reading versus a fixed calendar schedule. Tables in s11/s13/s18 list threshold values but do not describe the measurement method, decision protocol, or system actuation."
+            "missing": "No supplied document describes a specific soil-moisture measurement method (tensiometer, FDR, TDR, gypsum block) with an alfalfa-specific trigger threshold in original units and how the reading replaces a calendar schedule. s10 and s15 discuss sensor types broadly but without alfalfa-specific trigger values; s11 gives generic MAD/threshold tables without sensor-method detail tied to alfalfa; s17 states 'about 50% depletion' for alfalfa but does not identify the measurement device or original units used in that recommendation."
           },
           {
             "id": "species_product",
-            "covered": false,
-            "document_ids": [],
-            "missing": "While s17 explicitly names Medicago sativa L. and s11/s13 include alfalfa-specific tables, none of the supplied documents is fetched as directly relevant evidence specifically answering the alfalfa irrigation-scheduling-by-soil-moisture question; the threshold tables lack the method-and-decision context required, and no fetched document independently establishes crop-identity proof for the reader's question."
+            "covered": true,
+            "document_ids": [
+              "s11",
+              "s12",
+              "s13",
+              "s14",
+              "s15",
+              "s17"
+            ],
+            "missing": ""
           },
           {
             "id": "measurement_units_and_scope",
             "covered": false,
             "document_ids": [],
-            "missing": "No supplied document provides measured soil moisture values with original units (kPa/cbar/%VWC) together with a clear distinction between crop evapotranspiration (ETc) and applied irrigation water volume, plus growth-stage or season adjustments to the threshold. S11 provides MAD/kPa thresholds but does not separately quantify ETc versus applied water, and no document documents stage-specific threshold adjustments for alfalfa."
+            "missing": "No supplied document provides alfalfa-specific measured soil-moisture values with original units alongside explicit distinction between ETc and applied irrigation volume. s11 lists an alfalfa row with 'Soil water tension (kPa or cb): 80-150' and MAD 50-60%, and s17 notes irrigation typically begins with 'about 50% depletion of available water,' but neither isolates alfalfa as the sole test crop, presents ETc separately from applied depth, nor documents growth-stage/season threshold adjustments specific to alfalfa."
           }
         ],
         "next_queries": [
-          "alfalfa soil moisture sensor irrigation scheduling decision threshold university extension",
-          "alfalfa evapotranspiration ETc vs applied irrigation water soil tension tensiometer"
+          "alfalfa soil moisture sensor irrigation threshold tensiometer capacitance research site:edu",
+          "Medicago sativa irrigation scheduling soil water tension kPa ETc applied water growth stage"
         ]
       },
-      "completed_at": "2026-10-28T09:25:38.720339+00:00"
+      "coverage_cache_hit": false,
+      "completed_at": "2026-10-28T10:40:54.316084+00:00"
     }
   ],
-  "fetches_reserved": 12,
+  "fetches_reserved": 11,
   "publication_authorized": false,
   "scientific_acceptance": false,
   "temporary_source_failure": true,

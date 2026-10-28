@@ -1,6 +1,6 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T09:24:49.951612+00:00",
+  "started_at": "2026-10-28T10:39:57.188823+00:00",
   "queries": [
     {
       "query_id": "6536279e399da536e166bb87aaabcc2b57d6eb311b239ff1ee9336f03b60cbaa",
@@ -128,18 +128,13 @@
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No document documents an alfalfa-specific research method showing which soil moisture sensor type was used with its trigger threshold in original units and how readings replace calendar scheduling. s10 describes tensiometer, capacitance, TDR, and resistance block methods but without alfalfa-specific thresholds; s11 provides generic alfalfa tension thresholds (80–150 kPa) cited from multi-crop synthesis rather than from a study measuring and acting on those readings versus a calendar."
+        "missing": "No document describes a specific alfalfa research study that used a named soil moisture sensor (tensiometer, FDR/TDR capacitance, gypsum block) with an explicitly stated trigger threshold in original units and demonstrated how the farmer/system acted on readings instead of a calendar schedule. s10 describes sensor types generically; s11 gives general alfalfa thresholds (80-150 kPa) without tying them to a named sensor method or farmer decision workflow versus calendar; s12 and s14 use corn examples or general guidance."
       },
       {
         "id": "species_product",
         "covered": true,
         "document_ids": [
-          "s1",
-          "s2",
-          "s10",
-          "s11",
-          "s12",
-          "s13"
+          "s11"
         ],
         "missing": ""
       },
@@ -148,15 +143,16 @@
         "covered": false,
         "document_ids": [
           "s11",
-          "s12"
+          "s10"
         ],
-        "missing": "s11 gives alfalfa soil water tension thresholds (80–150 kPa) and MAD (50–60%) but mixes crops and does not present measured alfalfa research with those exact units tied to field decisions. s12 gives corn-specific SWT tables and does not address alfalfa. No supplied document distinguishes crop evapotranspiration (ETc) from applied irrigation water volume for alfalfa, nor specifies growth-stage or seasonal threshold adjustments for alfalfa."
+        "missing": "s11 provides alfalfa MAD 50-60%, soil water tension 80-150 kPa/cb, and %VWC by soil type but does not distinguish crop ETc from applied irrigation water volume, nor specify growth-stage or season adjustments to the threshold. s10 covers sensor units (kPa, cbar, %VWC) and general methodology but does not present alfalfa-specific threshold data with ETc/application separation or stage adjustments."
       }
     ],
     "next_queries": [
-      "alfalfa irrigation scheduling soil moisture sensor threshold tensiometer FDR university research",
-      "alfalfa soil water tension trigger kPa evapotranspiration irrigation volume research"
+      "alfalfa irrigation scheduling soil moisture sensor tensiometer threshold research site-specific",
+      "alfalfa soil moisture management allowable depletion irrigation trigger University of Minnesota extension"
     ]
   },
-  "completed_at": "2026-10-28T09:25:08.890647+00:00"
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:12.498301+00:00"
 }

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "input_sha256": "27e94474757be99053b9e905264657525163d53a6d7f05aacda21ca0863fde39",
+  "response_sha256": "8a1495baae9e3523af80d0090be30874aaf736c703f009da25250f4c31ba3749",
+  "created_at": "2026-10-28T10:41:08.174007+00:00",
+  "verdict": {
+    "topic_id": "agri-d7002ebd800c",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s12"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a specific decision rule or threshold for when to stop or reduce irrigation before chickpea harvest. Documents mention that irrigation can increase disease (Ascochyta blight) and that late irrigation may cause indeterminate flowering and poor quality, but no explicit cut-off timing, soil-moisture threshold, growth-stage trigger, or calendar rule is stated."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No quantitative preharvest irrigation cut-off values (e.g., kPa soil water potential, % volumetric water content, days after flowering, mm applied water) are provided for chickpea. Document s5 reports season-total ET and irrigation amounts (inches) for dryland vs deficit vs full irrigation treatments but does not give a preharvest stop criterion. Document s12 reports yield-per-mm water-use response slopes (kg ha⁻¹ mm⁻¹) but no harvest-time irrigation threshold. Geographic scope is limited to USA (Nebraska, Colorado, Montana)."
+      }
+    ],
+    "next_queries": [
+      "chickpea preharvest irrigation stop timing university extension soil moisture threshold",
+      "chickpea Cicer arietinum late season water management deficit irrigation harvest guide"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

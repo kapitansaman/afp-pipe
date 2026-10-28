@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+      "canonical_url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+      "canonical_url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.nrc.gov/docs/ML1821/ML18215A282.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://www.fao.org/4/f2430e/f2430e.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
+      "canonical_url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

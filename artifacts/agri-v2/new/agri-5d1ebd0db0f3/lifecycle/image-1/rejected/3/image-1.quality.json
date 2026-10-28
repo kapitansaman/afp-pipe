@@ -1,0 +1,52 @@
+{
+  "image_sha256": "19406152fc7f1b5e206bfa5c0669ccde296a1dc88301da83b2cd474f6053302d",
+  "contract_sha256": "52413cea48692af8dfd7665aa849f9b3bd34e18e4600d1e5ecec20206ae81270",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 1,
+  "topic_id": "agri-5d1ebd0db0f3",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T10:46:40.952462+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 86,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "packaging_closed_no_protruding_material"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": true,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": false,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 38,
+    "reasons": [
+      "CRITICAL: crop_stage_match is FALSE — the scene shows lush young green chickpea seedlings/bushes, but the brief explicitly requires yellowing/maturing plants with ripe pods at harvest stage (زرد شده و غلاف ها به رنگ بالغ رسیده باشند). These are clearly early-growth plants, not approaching maturity.",
+      "CRITICAL: packaging_closed_no_protruding_material is FALSE — a flat white ribbon/stripe of material visibly protrudes horizontally from the lower-right side of the AFP carton, which violates the requirement for a fully closed self-contained carton with no protruding strips or tape tails.",
+      "Role camera matches elevated wide overview perspective. Product identity on the AFP carton matches the reference. Phone label reads correctly. No hardware required, so hardware checks pass. One intact carton present with physical gap from soil. Overall score reflects the two critical failures despite acceptable technical rendering."
+    ]
+  }
+}

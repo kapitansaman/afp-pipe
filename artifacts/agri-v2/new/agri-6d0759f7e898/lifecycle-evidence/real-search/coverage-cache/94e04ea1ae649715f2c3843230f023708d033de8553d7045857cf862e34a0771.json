@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "input_sha256": "94e04ea1ae649715f2c3843230f023708d033de8553d7045857cf862e34a0771",
+  "response_sha256": "81f9bbbc5ac09e1282966569592d187632b5ac11925ce88f360b2c6bb6ebb224",
+  "created_at": "2026-10-28T10:40:17.272173+00:00",
+  "verdict": {
+    "topic_id": "agri-6d0759f7e898",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document provides concrete, alfalfa-specific evidence on sensor installation protocol including sensor type (TDR/FDR/capacitance/neutron probe), number of sensors per field, spatial distribution pattern, and precise installation depth for alfalfa fields. s11 gives general sensor placement advice (minimum 3 stations, depth based on root zone, shallow at 6 inches and deep at 18–24 inches) and cites a root-depth table in BSE-239P, but does not give alfalfa-specific depth recommendations or sensor counts for alfalfa. s10 describes sensor technologies generally without alfalfa-specific placement guidance."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document provides measured or recommended soil moisture threshold values with original units explicitly tied to alfalfa irrigation scheduling decisions. s11 Table 2 lists alfalfa MAD (50–60%) and soil water tension (80–150 kPa/cb) with volumetric water content by soil texture, but the table appears structurally truncated in the source text and lacks the complete unit context and geographic/source attribution needed. s10 provides generic threshold tables by soil texture but no alfalfa-specific values."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s11"
+        ],
+        "missing": ""
+      }
+    ],
+    "next_queries": [
+      "alfalfa soil moisture sensor installation depth TDR capacitance university extension placement protocol",
+      "alfalfa irrigation scheduling soil water tension threshold volumetric water content MAD Virginia Tech or similar extension"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

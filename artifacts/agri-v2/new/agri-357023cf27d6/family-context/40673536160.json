@@ -1,0 +1,17 @@
+{
+  "family_id": "family-08",
+  "topic_id": "agri-357023cf27d6",
+  "title": "کاهش تلفات برداشت نخود؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
+  "title_sha256": "301f87f4f51433751a5db13813197c40b461737e688724f431f7e98d2c3d539c",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY29",
+    "AGNES_API_KEY30",
+    "AGNES_API_KEY31",
+    "AGNES_API_KEY32"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

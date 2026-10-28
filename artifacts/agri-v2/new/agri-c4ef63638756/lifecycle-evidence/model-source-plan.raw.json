@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-c4ef63638756",
+  "gap": "No evidence found for calculating individual irrigation cycle duration for chickpea; missing: flow-rate measurement method (actual discharge), application rate determination, crop water-use values in mm/day or similar units, and the explicit formula or procedure linking volume/discharge to cycle time for drip-tape chickpea irrigation.",
+  "queries": [
+    "chickpea drip irrigation irrigation interval duration calculation flow rate application rate mm/day university extension",
+    "chickpea crop water requirement evapotranspiration mm day drip tape discharge measurement flow rate calculation"
+  ],
+  "requirements": [
+    {
+      "id": "exact_reader_method",
+      "need": "A documented procedure or formula for computing each irrigation cycle duration from measured actual flow (discharge) and crop water demand, with unit conversions shown in original source units."
+    },
+    {
+      "id": "species_product",
+      "need": "Evidence explicitly for chickpea (Cicer arietinum), not inferred from another legume; if another crop is used, the gap must be flagged."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Original reported units for flow/discharge, application rate, soil/water inputs, and irrigation timing, together with the geographic/contextual scope so results are not silently generalized."
+    }
+  ]
+}

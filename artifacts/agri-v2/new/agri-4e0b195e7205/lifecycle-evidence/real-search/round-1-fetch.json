@@ -28,8 +28,7 @@
     {
       "url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans",
       "canonical_url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans/",
-      "redirect_hops": 1,
-      "status": "fetched"
+      "status": "cache_valid"
     }
   ]
 }

@@ -1,0 +1,92 @@
+{
+  "topic_id": "agri-c4e597765067",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum) — حبوبات خشک خوراکی، محصول زنده مزرعه‌ای",
+  "slug": "chickpea-water-need-season-estimate-volume-climate-growth-stage",
+  "outline": [
+    "عمق مؤثر ریشه و لایه مصرف آب",
+    "بارش فصلی مطلوب و حساسیت به خشکی",
+    "حد دمای تنش و توقف رشد",
+    "تفکیک آب حاصلخیزی از آب آبیاری"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "عمق مؤثر ریشه نخود تا ۳۰ اینچ است و بخش عمده آب مصرفی از ۱۲ اینچ بالایی خاک جذب می‌شود.",
+      "conditions": "مزرعه‌ای، Cicer arietinum، مناطق آمریکا (مونتانای خشک و آبیاری‌شده)؛ منبع دانشگاهی",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "30 inches",
+          "geographic_scope": "US (Montana et al.)",
+          "product_scope": "Cicer arietinum field crop"
+        },
+        {
+          "value": "12",
+          "unit_quote": "top 12 inches",
+          "geographic_scope": "US (Montana et al.)",
+          "product_scope": "Cicer arietinum root zone"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "نخود در نواحی با ۶ تا ۱۰ اینچ بارش فصل رشد عملکرد خوبی دارد و نسبت به نخود سبز و عدس tolerans خشکی بیشتری نشان می‌دهد.",
+      "conditions": "اقلیم سردسیری/نیمه‌خشک، Cicer arietinum، ایالت‌های غربی آمریکا؛ منبع دانشگاهی",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": [
+        {
+          "value": "6-10",
+          "unit_quote": "6-10 inches",
+          "geographic_scope": "US (Western states extension)",
+          "product_scope": "Cicer arietinum growing season"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای بالای ۹۸ درجه فارنهایت در زمان گلدهی اولیه و توسعه غلاف باعث تنش و کاهش عملکرد می‌شود.",
+      "conditions": "Cicer arietinum، مراحل گلدهی-غلاف‌بندی، مناطق آزمایشی آمریکا",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": [
+        {
+          "value": "98",
+          "unit_quote": "98 °F",
+          "geographic_scope": "US field trials",
+          "product_scope": "Cicer arietinum flowering-pod development"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری بیش از حد یا مکرر می‌تواند بیماری‌زایی را افزایش دهد و گلدهی نامعین را تشدید کند که منجر به کیفیت پایین‌تر محصول می‌شود.",
+      "conditions": "مزرعه‌ای، Cicer arietinum، آبیاری مکمل در مونتانای آمریکا",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در شرایط آبیاری هلنتلی میانگین Trial بیش از ۳۰۰۰ پوند/آکر ثبت شده است.",
+      "conditions": "محیط آبیاری، مرکز Huntley مونتانای آمریکا، Cicer arietinum",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "3076",
+          "unit_quote": "3076 lb/acre",
+          "geographic_scope": "Huntley MT trial",
+          "product_scope": "Cicer arietinum irrigated"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "نخود گیاه تمام‌فصل است تا August یا حتی اوایل September در بسیاری از مکان‌های مونتانای آمریکا رشد می‌کند.",
+      "conditions": "اقلیم سردسیری، Cicer arietinum، مونتانای آمریکا",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "منابع موجود محتوای کمی درباره برآورد حجم آب آبیاری (ETc، عمق灌水، دبی یا زمان آبیاری بر اساس مرحله رشد) ندارند. داده‌های جداول مربوط به عملکرد (lb/acre) و سطح زیرکشت هستند، نه ورودی‌های اندازه‌گیری‌شده آب یا discharge. هیچ منبعی شاخص آب مورد نیاز نخود بر حسب اقلیم-مرحله رشد ارائه نکرده است؛ بنابراین پاسخ هدف «برآورد حجم آب با اقلیم و مرحله رشد» با شواهد فعلی غیرممکن است."
+}

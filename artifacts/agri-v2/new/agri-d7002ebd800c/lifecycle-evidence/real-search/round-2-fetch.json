@@ -1,0 +1,36 @@
+{
+  "requested": 5,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://plant-pest-advisory.rutgers.edu/pre-harvest-water-requirements-under-the-produce-safety-rule",
+      "canonical_url": "https://plant-pest-advisory.rutgers.edu/pre-harvest-water-requirements-under-the-produce-safety-rule/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+      "canonical_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.uconn.edu/publication/fsma-ag-rule-harvest",
+      "canonical_url": "https://extension.uconn.edu/publication/fsma-ag-rule-harvest/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.missouri.edu/news/fda-finalizes-the-preharvest-water-rule-what-does-it-mean-for-produce-growers",
+      "canonical_url": "https://extension.missouri.edu/news/fda-finalizes-the-preharvest-water-rule-what-does-it-mean-for-produce-growers",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.ars.usda.gov/ARSUserFiles/30100500/Publications%202000-2009/2PDF%20Production%20Functions%20for%20Chickpea,%20Field%20Pea,%20and%20Lentil%20in%20the%20Central%20Great%20Plains.pdf",
+      "canonical_url": "https://www.ars.usda.gov/ARSUserFiles/30100500/Publications%202000-2009/2PDF%20Production%20Functions%20for%20Chickpea,%20Field%20Pea,%20and%20Lentil%20in%20the%20Central%20Great%20Plains.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

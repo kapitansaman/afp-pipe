@@ -1,0 +1,38 @@
+{
+  "topic_id": "agri-adc9b5a7dea9",
+  "candidate_sha256": "78c43110a4fbcd34412cacbf15eda6b50a08ffc869395eb031a7fe78d7eaf29a",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 2,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "در ارزیابی عملکرد برداشت مستقیم، مطلوب است که حداقل ۹۰٪ غلاف‌ها در زمان برداشت فاصله عمقی ۲ اینچ یا بیشتر نسبت به سطح خاک داشته باشند.",
+        "conditions": "مزرعه نبراسکا، لوبیای خشک پینتو، سطح باقیمانده پس از تگرگ",
+        "evidence_id": "d5-e6",
+        "numeric_bindings": [
+          {
+            "value": "90",
+            "unit_quote": "90% of the pods",
+            "geographic_scope": "Nebraska, USA",
+            "product_scope": "pinto dry bean"
+          },
+          {
+            "value": "2",
+            "unit_quote": "2 inches or more above the soil surface",
+            "geographic_scope": "Nebraska, USA",
+            "product_scope": "pinto dry bean"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e6",
+        "source_url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
+        "quote": "anting was June 7 and harvest was Sept. 16 with a Case 7088 combine and a Case (by MacDon) 2162 flex draper head (30 foot). The crop was desiccated on Sept. 6. The varieties compared in this trial were Torreon, La Paz, Sinaloa and Monterrey, all good upright pinto varieties suitable for direct harvest. They are classified as a 2b upright indeterminate bush type bean as opposed to the type 3 prostrate plant types. See Nebraska Dry Bean Variety Trials to observe the growth types of different varieties. These four varieties had yields ranging from 43 to 45 bu/ac ( Figure 1 ). These were good yields and would have been better if the field had not been damaged by an early August hailstorm. Torreon had a significantly higher harvest loss than the other three varieties at 3.6 bu/ac ( Figure 2 ). This may be due to a slightly higher yield and beans being a little dryer at harvest due to maturity"
+      }
+    }
+  ],
+  "candidate_error": "number_absent_from_literal_source",
+  "declared_insufficiency": null
+}

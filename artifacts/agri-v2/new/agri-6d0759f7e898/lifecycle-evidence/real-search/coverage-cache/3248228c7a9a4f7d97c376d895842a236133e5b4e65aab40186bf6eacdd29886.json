@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "input_sha256": "3248228c7a9a4f7d97c376d895842a236133e5b4e65aab40186bf6eacdd29886",
+  "response_sha256": "8d84fd23cec5ce4265a302c6614d92b1d27d42de89c7afe19042e8996ea31ece",
+  "created_at": "2026-10-28T10:41:21.092744+00:00",
+  "verdict": {
+    "topic_id": "agri-6d0759f7e898",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides alfalfa-specific sensor installation protocol covering sensor type selection, number per field, spatial distribution pattern, and depth/installation procedure together. s11 gives general sensor placement (≥3 stations, shallow ~6 in. early season, deep 18–24 in. at root-zone bottom) but targets general crops. s14 lists sensor types and general placement rules but no alfalfa-specific count, spatial pattern, or depth protocol. s16 describes capacitance/tensiometer/TDR installation steps for corn and cotton only. s17 lists 48 in. rooting depth for alfalfa but provides no sensor-type or installation guidance."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": true,
+        "document_ids": [
+          "s11"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document ties alfalfa-specific sensor placement and installation protocol guidance to Medicago sativa. s11 is crop-generic; s14 is sensor-type generic; s16 references corn and cotton; s17 mentions 48 in. alfalfa rooting depth only as a table row without sensor-method detail. Requirement 1 and 3 depend on the same missing alfalfa-specific method evidence."
+      }
+    ],
+    "next_queries": [
+      "alfalfa soil moisture sensor installation depth University of Minnesota Extension",
+      "alfalfa irrigation scheduling soil sensor placement FDR TDR neutron probe research"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

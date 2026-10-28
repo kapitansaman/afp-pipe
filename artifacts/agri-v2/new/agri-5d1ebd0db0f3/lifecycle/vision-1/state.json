@@ -1,0 +1,57 @@
+{
+  "attempts": 3,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "failed",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:44:02.461922+00:00",
+      "completed_at": "2026-10-28T10:44:14.567116+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
+    },
+    {
+      "attempts": 2,
+      "status": "failed",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:45:22.719644+00:00",
+      "completed_at": "2026-10-28T10:45:33.288390+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:46:40.951043+00:00",
+      "completed_at": "2026-10-28T10:46:50.119160+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
+    },
+    {
+      "attempts": 3,
+      "status": "deferred",
+      "last_run_id": "40673536160",
+      "started_at": "2026-10-28T10:47:57.673442+00:00",
+      "completed_at": "2026-10-28T10:47:57.677218+00:00",
+      "failure": {
+        "kind": "admission_deferred",
+        "category": "model_request_budget_deferred"
+      }
+    }
+  ],
+  "status": "deferred",
+  "last_run_id": "40673536160",
+  "started_at": "2026-10-28T10:47:57.673442+00:00",
+  "completed_at": "2026-10-28T10:47:57.677218+00:00",
+  "failure": {
+    "kind": "admission_deferred",
+    "category": "model_request_budget_deferred"
+  }
+}

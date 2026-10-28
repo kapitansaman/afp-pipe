@@ -1,0 +1,17 @@
+{
+  "family_id": "family-13",
+  "topic_id": "agri-46cf2473ba02",
+  "title": "آبیاری تکمیلی یونجه دیم؛ زمان اولویت‌دار و ارزیابی اقتصادی",
+  "title_sha256": "cbdfd814bbf34387bc7d6a3f8ca6056b6c39e5eea49e641a2e0831b56bc899ef",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY49",
+    "AGNES_API_KEY50",
+    "AGNES_API_KEY51",
+    "AGNES_API_KEY52"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

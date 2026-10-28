@@ -1,0 +1,84 @@
+{
+  "topic_id": "agri-c4e597765067",
+  "candidate_sha256": "79d52f569f1798b137fd6ab6c661590468fbaf6af9bbb9cdb91bb76adc4a7de4",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "عمق مؤثر ریشه نخود تا ۳۰ اینچ است و بخش عمده آب مصرفی از ۱۲ اینچ بالایی خاک جذب می‌شود.",
+        "conditions": "مزرعه‌ای، Cicer arietinum، مناطق آمریکا (مونتانای خشک و آبیاری‌شده)؛ منبع دانشگاهی",
+        "evidence_id": "d0-e13",
+        "numeric_bindings": [
+          {
+            "value": "30",
+            "unit_quote": "30 inches",
+            "geographic_scope": "US (Montana et al.)",
+            "product_scope": "Cicer arietinum field crop"
+          },
+          {
+            "value": "12",
+            "unit_quote": "top 12 inches",
+            "geographic_scope": "US (Montana et al.)",
+            "product_scope": "Cicer arietinum root zone"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e13",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": " The majority of this crop is grown overseas with India producing and consuming the most (Figure 1). The U.S. produces only 1% of the world total. Still, chickpea production has significantly increased in the U.S. over the past 5 years (Table 1) with 96,000 acres harvested in Montana in 2016 and with acreage projected to increase in the future. Montana accounts for a large percentage of the U.S. increase from 2001 to 2016 where chickpea acreage grew from 134,000 to 320,000 acres. FIGURE 1. India dominates in World chickpea production. The U.S. production of approximately 125,000 metric tons is approximately 1% of world annual production *(2) .*** Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development"
+      }
+    },
+    {
+      "fact_index": 1,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "نخود در نواحی با ۶ تا ۱۰ اینچ بارش فصل رشد عملکرد خوبی دارد و نسبت به نخود سبز و عدس tolerans خشکی بیشتری نشان می‌دهد.",
+        "conditions": "اقلیم سردسیری/نیمه‌خشک، Cicer arietinum، ایالت‌های غربی آمریکا؛ منبع دانشگاهی",
+        "evidence_id": "d0-e20",
+        "numeric_bindings": [
+          {
+            "value": "6-10",
+            "unit_quote": "6-10 inches",
+            "geographic_scope": "US (Western states extension)",
+            "product_scope": "Cicer arietinum growing season"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e20",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": "9 815 1066 1509 1152 Note: Not all varieties were present in each location every year. Locations included Bozeman, Conrad, Corvallis, Huntley, Moccasin, Richland, and Sidney MT. Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F, and nighttime temperatures are between 64 and 70 °F. The crop does well in regions with 6-10 inches of growing season precipitation. Temperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolerant. Cultural Practices Soil Chickpea grows best on well drained soils with a neutral pH. It is not well adapted to saline soils and does not tolerate wet or waterlogged soils. Chickpea can be successfully grown in a wide range of soil typ"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "در شرایط آبیاری هلنتلی میانگین Trial بیش از ۳۰۰۰ پوند/آکر ثبت شده است.",
+        "conditions": "محیط آبیاری، مرکز Huntley مونتانای آمریکا، Cicer arietinum",
+        "evidence_id": "d0-e5",
+        "numeric_bindings": [
+          {
+            "value": "3076",
+            "unit_quote": "3076 lb/acre",
+            "geographic_scope": "Huntley MT trial",
+            "product_scope": "Cicer arietinum irrigated"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e5",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": " [table row] Tordon | Plant-back interval (months): 36** [table row] Assure II (Quizalofop) | Application Timing: POST [table row] Assure II (Quizalofop) | Product Rate per acre: 7 to 12 fl oz [table row] Assure II (Quizalofop) | Weeds: Annual grasses and quackgrass [table row] Assure II (Quizalofop) | Remarks: Apply oil adjuvant at 1% v/v [table row] Poast | Application Timing: POST [table row] Poast | Weeds: Annual grasses [table row] Select Max (Clethodim) | Application Timing: POST [table row] Select Max (Clethodim) | Product Rate per acre: 9 to 16 fl oz/a [table row] Select Max (Clethodim) | Weeds: Annual grasses and quackgrass [table row] Dual (Metolachlor) | Application Timing: PPI, PRE [table row] Dual (Metolachlor) | Product Rate per acre: 1 -2 pt [table row] Dual (Metolachlor) | Weeds: Grasses (not wild oat), some broadleaf weeds [table row] Dual (Metolachlor) | Remarks: PPI im"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع موجود محتوای کمی درباره برآورد حجم آب آبیاری (ETc، عمق灌水، دبی یا زمان آبیاری بر اساس مرحله رشد) ندارند. داده‌های جداول مربوط به عملکرد (lb/acre) و سطح زیرکشت هستند، نه ورودی‌های اندازه‌گیری‌شده آب یا discharge. هیچ منبعی شاخص آب مورد نیاز نخود بر حسب اقلیم-مرحله رشد ارائه نکرده است؛ بنابراین پاسخ هدف «برآورد حجم آب با اقلیم و مرحله رشد» با شواهد فعلی غیرممکن است."
+}

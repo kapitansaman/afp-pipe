@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "input_sha256": "20cf33bc02c4d642a08cf5b36e09e19616fc632e87fefc10a7b8d100502cac5a",
+  "response_sha256": "f13e7489a3fe842d15716063365c276114a6a231053bb0dca6e220e262d0538a",
+  "created_at": "2026-10-28T10:40:12.497835+00:00",
+  "verdict": {
+    "topic_id": "agri-e3a66b5b76f2",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document describes a specific alfalfa research study that used a named soil moisture sensor (tensiometer, FDR/TDR capacitance, gypsum block) with an explicitly stated trigger threshold in original units and demonstrated how the farmer/system acted on readings instead of a calendar schedule. s10 describes sensor types generically; s11 gives general alfalfa thresholds (80-150 kPa) without tying them to a named sensor method or farmer decision workflow versus calendar; s12 and s14 use corn examples or general guidance."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s11"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [
+          "s11",
+          "s10"
+        ],
+        "missing": "s11 provides alfalfa MAD 50-60%, soil water tension 80-150 kPa/cb, and %VWC by soil type but does not distinguish crop ETc from applied irrigation water volume, nor specify growth-stage or season adjustments to the threshold. s10 covers sensor units (kPa, cbar, %VWC) and general methodology but does not present alfalfa-specific threshold data with ETc/application separation or stage adjustments."
+      }
+    ],
+    "next_queries": [
+      "alfalfa irrigation scheduling soil moisture sensor tensiometer threshold research site-specific",
+      "alfalfa soil moisture management allowable depletion irrigation trigger University of Minnesota extension"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

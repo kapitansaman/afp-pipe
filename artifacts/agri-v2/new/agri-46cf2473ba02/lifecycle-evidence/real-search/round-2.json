@@ -1,50 +1,50 @@
 {
   "round": 2,
-  "started_at": "2026-10-28T09:25:20.209782+00:00",
+  "started_at": "2026-10-28T10:40:13.129344+00:00",
   "queries": [
     {
-      "query_id": "619252340adb752baf6c35fc3e062b203d659b4fcde1e3f9747fdf3a4727fe6e",
-      "query": "alfalfa rainfed supplemental irrigation timing threshold soil moisture university extension",
+      "query_id": "1c9f2713923fc11d32e3a4e57ba335be2614d725628de919c1d2e7977a2ed172",
+      "query": "rainfed alfalfa supplemental irrigation decision threshold soil moisture growth stage university extension",
       "cached": false,
-      "checked_at_epoch": 1793179583.3340752,
+      "checked_at_epoch": 1793184018.803055,
       "results": [
         {
-          "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
-          "title": "Irrigating Alfalfa: Some Guidelines - MSU Extension Water Quality | Montana State University",
-          "description": "Alfalfa is quite tolerant of drought or extended periods without highly available water. As much as 50 to 65% of the available soil moisture can be removed between irrigations early and late in the season, but only 35 to 50% removal will give better results during high water-use periods. Maintaining higher levels, especially with slow-draining soils, may cause loss of stand and competition from grass invasion. Texture and depth of soil have little influence on water requirements of alfalfa, but [...] ### Water Use Characteristics\n\nAlfalfa is a high water use crop because it has a long growing season, a deep root system, and a dense mass of vegetation. The amount of water needed is governed by temperature, wind, humidity, and the amount and intensity of light. However, the irrigation requirement for alfalfa is governed by rainfall and the water holding capacity of the soils growing the crop. Commonly cited ranges in water requirements for alfalfa are 18 to 36 inches of water per season. [...] of alfalfa, but these factors affect the amount of moisture which can be stored in the soil. Naturally, the amount of moisture stored affects frequency of irrigation and the amount to apply at "
-        },
-        {
-          "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
-          "title": "Irrigating Alfalfa in Arid Regions",
-          "description": "Install at least two sites of blocks for every 40 acres (16 ha). This might consist of one site about 200 feet (61 m) from the head end of the field and a second site 200 to 300 feet (61–91 m) from the tail Sidebar 1: Installing Watermark Electrical Resistance Blocks Table 7.6 Threshold values of soil-moisture tension at which irrigation should occur for alfalfa for different soil types (Orloff et al. 2001). Values are based on a 50 percent depletion of available soil moisture for different [...] Sprinkler Timing The amount of water applied should equal the alfalfa ET or soil moisture depletion between irrigations and an additional amount to account for the irrigation efficiency. The irriga­ tion set time needed for sprinkler irrigation can be determined using either of the two following methods: Calculate the required irrigation set time • using Equation 2 (below). The flow rate into the field is required for this approach. [...] Irrigation Scheduling—Determining Timing and Quantity The procedure for determining when to irrigate based on an allowable depletion is as follows: Step 1: Determine the total allowable soil mois­ ture depletion by multiplying the available soil moisture "
+          "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+          "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
+          "description": "Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, [...] By Todd Whitney - Extension Educator, Ben Beckman - Extension Educator, Samantha Daniel - Extension Educator\n\nGrasshopper on plant leaf\n\nMonitoring grasshopper populations using the square-foot method can help prevent damage to late summer alfalfa and forage crops, with insecticide treatments considered if thresholds are exceeded.\n\n \n\n## Fall Alfalfa Irrigation\n\nBy Todd Whitney [...] To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring."
         },
         {
           "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
           "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
-          "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension. [...] Lindenmayer, R.B., Hansen, N.C., Brummer, J., & Pritchett, J.G. (2011). Deficit irrigation of alfalfa for water-savings in the Great Plains and Intermountain West: A review and analysis of the literature. Agronomy Journal, 103, 45–50. \n Orloff, S., Putnam, D., & Bali, K. (2015). Drought strategies for alfalfa. University of California Extension. ANR Publication 8522."
+          "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] Utah State University sites use cookies. By continuing to use this site you accept our privacy and cookie policy.\n\nSkip to content\n\nUtah State University logo\n\nCrop Resources Extension\n\nUState logo\n\nUSU Extension Crops\n\n Calendar\n Crops \n\n  Crop Information\n\n  + Alfalfa\n  + Pasture/Grass Hay\n  + Other Hay\n  + Small Grains\n  + Corn\n  + Safflower\n  + Other Oilseeds\n  + Other Crops\n Tools \n\n  Tools [...] Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension."
         },
         {
-          "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
-          "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
-          "description": "To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. [...] By Todd Whitney - Extension Educator, Ben Beckman - Extension Educator, Samantha Daniel - Extension Educator\n\nGrasshopper on plant leaf\n\nMonitoring grasshopper populations using the square-foot method can help prevent damage to late summer alfalfa and forage crops, with insecticide treatments considered if thresholds are exceeded.\n\n \n\n## Fall Alfalfa Irrigation\n\nBy Todd Whitney [...] Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant,"
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363835",
+          "title": "Yield gap analysis of rainfed alfalfa in the United States",
+          "description": "- Wisconsin | 107 (16-Apr) | 300 (25-Oct) | 193 ± 14 | 22.1 ± 1.1 | 10.5 ± 1.1 | 16.3 ± 0.8 | 2,155 ± 210\n- Mean | 98 (7-Apr) | 302 (28-Oct) | 204 ± 22 | 24 ± 0.8 | 110 ± 0.9 | 18 ± 0.8 | 2,530 ± 422 [...] The growing season of alfalfa is defined as the number of days in a year when the mean temperature is equal to or above the alfalfa’s base temperature, which is 5°C (Wolf and Blaser, 1972; Onstad and Fick, 1983; Fick et al., 1988; Sharratt et al., 1989; Confalonieri and Bechini, 2004). The selection of this temperature threshold is justified because alfalfa plants stop or significantly reduce their growth and development when temperatures fall below it. To delineate the alfalfa growing season, [...] 94. Schneekloth J., Andales A. (2017). Seasonal water needs and opportunities for limited irrigation for Colorado crops. Colorado State University Extension (4.718) to Fact Sheet No. 4.718. Available at:  (Accessed December 18, 2021).\n95. Sharratt B., Sheaffer C., Baker D. (1989). Base temperature for the application of the growing-degree-day model to field-grown alfalfa. Field Crop Res. 21, 95 – 102. doi: doi:10.1016/0378-4290(89)90045-2"
         }
       ]
     },
     {
-      "query_id": "0c3cb55892f9e4793590773ad6cf5834c1d52b9d60b3f292ca387c30859eb157",
-      "query": "supplemental irrigation rainfed alfalfa yield response economic return cost benefit",
+      "query_id": "c2bdd376eeda228cfac9464df565bc8bf99845d8148b95884ff3831506abc6cd",
+      "query": "supplemental irrigation alfalfa yield response cost-benefit economic return mm per ton",
       "cached": false,
-      "checked_at_epoch": 1793179585.8353446,
+      "checked_at_epoch": 1793184021.3055072,
       "results": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377423003190",
+          "title": "Maximizing the water productivity and economic returns of alfalfa by deficit irrigation in China: A meta-analysis",
+          "description": "practices that strike a balance between costs and returns in China. A total of 28 published papers covering 26 locations showed that deficit irrigation reduced alfalfa yields by 17.4%±1.2% and increased WP levels by 14%±2.5% relative to full irrigation. The yield and WP changes were significantly (P<0.05) caused by the irrigation application rate and timing, soil texture, soil field capacity and soil organic matter. The application of deficit irrigation only at the budding stage effectively [...] ## Highlights\n\n   •Effects of deficit irrigation on alfalfa production was analyzed by meta-analysis. \n   •Deficit irrigation reduced alfalfa yields by 17% versus full irrigation. \n   •Deficit irrigation increased water productivity by 14% versus full irrigation. \n   •Deficit irrigation only at the budding stage reduced alfalfa yield losses. \n\n## Abstract [...] Alfalfa (_Medicago sativa_ L.) is a high-water-use crop primarily cultivated in water-scarce areas in China. Deficit irrigation is still considered a promising strategy to improve regional water productivity (WP) despite the risk of yield loss. The objectives of this paper were to better understand the effects of deficit irrigation "
+        },
+        {
+          "url": "https://naes.unr.edu/publication.aspx?PubID=2381",
+          "title": "Humboldt County Alfalfa Hay Establishment, Production Costs and Returns | Experiment Station | University of Nevada, Reno",
+          "description": "Yield. The 500 acre farm yields 5.5 tons of alfalfa hay per acre across four annual cuttings.\n\nReturns. Returns are based on 2004 market prices across a range of hay quality levels. An estimated price of $98.00 per ton of hay was used to calculate returns. Returns will vary during the growing season due to market conditions.\n\n### Overhead and Capital Recovery Costs [...] Yield. The 500 acre farm yields 5.5 tons of alfalfa hay per acre across four annual cuttings.\n\nReturns. Returns are based on 2004 market prices across a range of hay quality levels. An estimated price of $98.00 per ton of hay was used to calculate returns. Returns will vary during the growing season due to market conditions.\n\n### Overhead and Capital Recovery Costs [...] 1 ton per acre. The land market value in 2004 was approximately $800 per acre."
+        },
         {
           "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
           "title": "Estimating Financial Costs and Benefits of Supplemental Irrigation with the Irrigation Financial Estimator Tool (IFET) | VCE Publications | Virginia Tech",
-          "description": "between income earned from the maximum irrigated yield and rain-fed yield is the additional estimated income that could result from using irrigation. [...] To estimate irrigation cost and benefit information, IFET requires users to input information about their farm operation along with financial information associated with the purchase of an irrigation system. Users specify where their farm is located, how many acres of each crop are grown, and the predominant type of soil. This data specifies which yield equation and weather data to use when calculating rain-fed and irrigated crop yield. IFET requires users to select which type of irrigation [...] will always be uncertain due to variability in rainfall, crop response to water deficits in a specific location, and prices for crops, fuel, and the irrigation system itself. The tool accounts for this uncertainty and presents a range of values for system costs and benefits. This information can be used to estimate typical irrigation costs, compare different types of systems and irrigation scheduling methods, and determine if it is economically advantageous to install an irrigation system."
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426003422",
-          "title": "Combined effects of water-retaining agents and deficit ...",
-          "description": "This study investigated the combined effects of WRAs and DI on irrigation water productivity and economic benefits in alfalfa using a controlled pot experiment."
+          "description": "The final tab in the tool is the “Detailed Benefits Results” tab. This tab shows users a range of additional revenue they can expect from additional yield under irrigation. This tab contains a table and several different graphs. The table (Figure 5) shows the range of benefits that users can expect including average additional annual income, additional revenue after operating expenses, and additional revenue after operating expenses and loan repayment. These values all represent long-term [...] between income earned from the maximum irrigated yield and rain-fed yield is the additional estimated income that could result from using irrigation. [...] Effective, well-managed irrigation can improve crop yields and farm revenues. However, installing an irrigation system is expensive, both in the initial expense and operating costs. Deciding whether or not to install an irrigation system requires producers to determine if these costs will lead to sufficient financial returns. The Irrigation Financial Estimator Tool provides estimated cost/benefit projections based on user-supplied information unique to an individual farm. While precisely"
         }
       ]
     }
@@ -66,18 +66,18 @@
     "s13",
     "s14",
     "s15",
-    "s16"
+    "s16",
+    "s17"
   ],
   "publication_authorized": false,
   "fetch_report": {
     "requested": 5,
-    "loaded": 3,
+    "loaded": 5,
     "sources": [
       {
-        "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
-        "status": "unavailable",
-        "category": "source_policy_or_content_rejected",
-        "temporary": false
+        "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+        "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
@@ -85,22 +85,21 @@
         "status": "cache_valid"
       },
       {
-        "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
-        "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
-        "status": "cache_valid"
-      },
-      {
-        "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
-        "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363835",
+        "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363835/",
         "redirect_hops": 1,
         "status": "fetched"
       },
       {
-        "url": "https://www.sciencedirect.com/science/article/pii/S0378377426003422",
-        "status": "unavailable",
-        "category": "http_error",
-        "temporary": true,
-        "http_status": 403
+        "url": "https://naes.unr.edu/publication.aspx?PubID=2381",
+        "canonical_url": "https://naes.unr.edu/publication.aspx?PubID=2381",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+        "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+        "status": "cache_valid"
       }
     ]
   },
@@ -111,28 +110,32 @@
       {
         "id": "species_product",
         "covered": false,
-        "document_ids": [],
-        "missing": "No supplied document confirms a rainfed (non-irrigated baseline) alfalfa system receiving supplemental irrigation. s14 and s12 address deficit irrigation (reducing water below full ET on already-irrigated stands), not supplemental irrigation on dryland/rainfed alfalfa. s2 mentions 14 cm of irrigation at Becker but describes it as supplemental to natural precipitation in an experiment, not a confirmed rainfed baseline system. s10 and s11 discuss general irrigated alfalfa guidelines without establishing a rainfed control."
+        "document_ids": [
+          "s16"
+        ],
+        "missing": "No fetched document documents a field trial with an explicitly confirmed rainfed (non-irrigated baseline) alfalfa system compared to a supplemental-irrigation treatment. s16 reports county-level yield gaps in rainfed alfalfa but contains no supplemental-irrigation treatment. s2 includes a 14 cm irrigation application at Becker but the study focuses on cutting frequency, not rainfed vs. supplemental comparisons. s15 reports deficit-irrigation reductions from an already-irrigated baseline rather than rainfed-to-supplemental responses."
       },
       {
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No supplied document provides a documented irrigation scheduling decision rule or threshold (soil moisture %, plant stress indicator, or growth-stage trigger) for when supplemental irrigation should be applied to rainfed alfalfa. s10 mentions estimating water use from evaporation pans and a 1:1 pan-to-crop ratio as a scheduling approximation, but this is a general guideline for full irrigation, not a supplemental-irrigation trigger threshold. s12 mentions ET gages or soil moisture monitoring as scheduling tools in a general sense but provides no actionable threshold. s14 describes deficit-irrigation percentages (25%, 50% reductions) but not a trigger-based decision rule."
+        "missing": "No fetched document provides a documented irrigation-scheduling decision rule or threshold (soil-moisture percentage, plant-stress indicator, or defined growth-stage trigger) specifically for when supplemental irrigation should be applied to rainfed alfalfa. s12 mentions ET gages and soil-moisture monitoring for scheduling efficiency but gives no numeric threshold or growth-stage rule. s10 describes evaporation-pan-based scheduling for general alfalfa irrigation, not supplemental-irrigation triggers for rainfed stands. s2 and s15 do not address irrigation-scheduling decision rules."
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [
-          "s14"
+          "s2",
+          "s15"
         ],
-        "missing": "s14 reports measured water application volumes (13.5 inches total over two cuttings, with 25% and 50% reductions) and yield responses (0.75 ton/acre loss at 25% reduction, 1.2 ton/acre loss at 50% reduction) in appropriate units (inches, tons/acre). However, the economic return calculation with input costs and output value is absent. The document notes research is ongoing on crop profit and water use efficiency but does not present completed economic analysis with input costs, output values, or net returns for alfalfa under supplemental/supplementary irrigation. s2 includes net returns but for an intensive-cutting-frequency experiment (not supplemental irrigation). No document pairs measured yield response with a complete cost-benefit or return-on-investment calculation for supplemental irrigation of rainfed alfalfa."
+        "missing": "s2 and s15 report measured irrigation volumes (14 cm in s2; 13.5 inches in s15) and yield responses (Mg ha⁻¹ or tons acre⁻¹), and s2 includes net-return calculations linked to milk price ($0.385 kg⁻¹ in 2015; $0.358 kg⁻¹ in 2016). However, neither provides a complete, explicit economic-return calculation with itemized input costs and output value for a rainfed-to-supplemental-irrigation comparison. s16 provides yield-gap metrics but no irrigation-application volumes or economic calculations. No fetched document satisfies all three measured components (water volume, yield response, and full cost-benefit accounting) for supplemental irrigation on rainfed alfalfa."
       }
     ],
     "next_queries": [
-      "rainfed alfalfa supplemental irrigation timing yield response university extension",
-      "supplemental irrigation alfalfa deficit decision threshold soil moisture evapotranspiration"
+      "alfalfa supplemental irrigation rainfed yield response university field trial",
+      "supplemental irrigation alfalfa scheduling threshold soil moisture growth stage university extension"
     ]
   },
-  "completed_at": "2026-10-28T09:26:46.299631+00:00"
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:44.742847+00:00"
 }

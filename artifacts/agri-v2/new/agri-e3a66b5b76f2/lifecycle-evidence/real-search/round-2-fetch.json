@@ -1,6 +1,6 @@
 {
-  "requested": 6,
-  "loaded": 6,
+  "requested": 5,
+  "loaded": 5,
   "sources": [
     {
       "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
@@ -8,30 +8,25 @@
       "status": "cache_valid"
     },
     {
-      "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
-      "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/index.aspx?from=alfalfa",
-      "status": "cache_valid"
-    },
-    {
-      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
-      "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
       "redirect_hops": 0,
       "status": "fetched"
     },
     {
-      "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
-      "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
       "status": "cache_valid"
     },
     {
-      "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
-      "canonical_url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
+      "url": "https://forevergreen.umn.edu/crops/alfalfa",
+      "canonical_url": "https://forevergreen.umn.edu/crops/alfalfa",
       "redirect_hops": 0,
       "status": "fetched"
     },
     {
-      "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2012/12-52.pdf",
-      "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2012/12-52.pdf",
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
       "redirect_hops": 0,
       "status": "fetched"
     }

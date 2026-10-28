@@ -1,0 +1,14 @@
+{
+  "faithful": false,
+  "reason": "Two substantive defects found: (1) id=38 contains a geographic overreach — the source specifies Wisconsin and the northwestern US as evidence scope, but the target changes this to 'the northwestern US' alone, implying the evidence covers only that region. (2) id=47 introduces a non-existent term 'mechanical stress pressure' not present in the source, which reads awkwardly and could be construed as an unsupported addition.",
+  "issues": [
+    {
+      "id": "38",
+      "detail": "Geographic scope altered: source lists both Wisconsin and the northwestern US as the evidence basis ('اقلیم ویسکانسین و شمال غرب آمریکا'), but target replaces this with only 'northwestern US,' dropping Wisconsin and narrowing the stated scope in a way not supported by the source."
+    },
+    {
+      "id": "47",
+      "detail": "Unsupported addition: target inserts the phrase 'mechanical stress pressure' in the sentence about nitrogen management. This concept does not appear in the source (id=14), which only states that excessive nitrogen causes lodging and reduces grain quality. The insertion changes the meaning and introduces terminology absent from the source."
+    }
+  ]
+}

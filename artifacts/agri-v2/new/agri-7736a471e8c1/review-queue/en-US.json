@@ -6,9 +6,9 @@
   "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
   "status": "waiting",
   "reason": "translation_or_review_needs_another_attempt",
-  "attempts": 1,
-  "model_calls_spent": 1,
-  "next_attempt_at": "2026-10-28T10:18:55.568742+00:00",
+  "attempts": 2,
+  "model_calls_spent": 4,
+  "next_attempt_at": "2026-10-29T10:50:52.173062+00:00",
   "history": [
     {
       "event": "reserved",
@@ -22,15 +22,38 @@
       "reserved_model_calls": 1,
       "status": "waiting",
       "at": "2026-10-28T04:18:55.568686+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 2,
+      "max_calls": 4,
+      "at": "2026-10-28T10:49:40.091813+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 2,
+      "reserved_model_calls": 3,
+      "status": "waiting",
+      "at": "2026-10-28T10:50:52.173008+00:00"
     }
   ],
   "created_at": "2026-10-28T04:18:55.539586+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,
-  "last_started_at": "2026-10-28T04:18:55.544060+00:00",
+  "last_started_at": "2026-10-28T10:49:40.091809+00:00",
   "last_failure": {
-    "kind": "unexpected",
+    "kind": "validation",
     "category": "unspecified"
   },
-  "primary_finished": true
+  "primary_finished": true,
+  "pending_issues": [
+    {
+      "id": 38,
+      "detail": "Geographic scope altered: source lists both Wisconsin and the northwestern US as the evidence basis ('اقلیم ویسکانسین و شمال غرب آمریکا'), but target replaces this with only 'northwestern US,' dropping Wisconsin and narrowing the stated scope in a way not supported by the source."
+    },
+    {
+      "id": 47,
+      "detail": "Unsupported addition: target inserts the phrase 'mechanical stress pressure' in the sentence about nitrogen management. This concept does not appear in the source (id=14), which only states that excessive nitrogen causes lodging and reduces grain quality. The insertion changes the meaning and introduces terminology absent from the source."
+    }
+  ]
 }

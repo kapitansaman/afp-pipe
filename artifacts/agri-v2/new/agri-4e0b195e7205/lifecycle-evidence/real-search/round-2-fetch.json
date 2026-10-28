@@ -1,24 +1,22 @@
 {
   "requested": 3,
-  "loaded": 3,
+  "loaded": 2,
   "sources": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s13593-023-00903-x",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
     {
       "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
       "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
-      "redirect_hops": 1,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
-      "url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas",
-      "canonical_url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas/",
-      "redirect_hops": 1,
-      "status": "fetched"
-    },
-    {
-      "url": "https://corn.aae.wisc.edu/Crops/Chickpea.aspx",
-      "canonical_url": "https://corn.aae.wisc.edu/Crops/Chickpea.aspx",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+      "canonical_url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+      "status": "cache_valid"
     }
   ]
 }

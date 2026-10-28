@@ -1,0 +1,38 @@
+{
+  "topic_id": "agri-465d6abf0e91",
+  "candidate_sha256": "1c6a5b2d2e099b60f5d5ec0ff5e905711bc2c53f681655f54cf4ad4b7e41f1cb",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 2,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "عملکرد مزرعه‌ای نخود در_trialهای ایالات متحده بین ۸۵۰ تا بیش از ۳۰۰۰ پوند بر acre گزارش شده است.",
+        "conditions": "ایالات متحده: مونتانا (دیم و آبی)، واشنگتن، آیداهو; محصول: نخود; واحد: پوند بر acre; محدودیت: داده عملکرد نهایی، بدون روش پیش‌بینی",
+        "evidence_id": "d0-e16",
+        "numeric_bindings": [
+          {
+            "value": "850",
+            "unit_quote": "850 and 3000 lb/acre",
+            "geographic_scope": "Montana, USA (dryland trials)",
+            "product_scope": "chickpea grain"
+          },
+          {
+            "value": "3000",
+            "unit_quote": "3000 lb/acre",
+            "geographic_scope": "Huntley, Montana, USA (irrigated trial)",
+            "product_scope": "chickpea grain"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e16",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": " yields averaging over 1500 lb/acre (Table 2) across all varieties. Areas around Corvallis and Sidney have shown more stable production across varieties but yields in Conrad have been superior to other locations in the state. Irrigated production at Huntley shows promise with a trial average of more than 3000 lb/acre. TABLE 2. Trial yield means (lb/acre) for chickpeas at locations across Montana, 2011-2016 (4, 5). Environment Location Yield C.V. (%) Obs. Dryland Bozeman 1213 37 13 Conrad 2603 50 27 Corvallis 1368 27 24 Huntley 919 52 8 Moccasin 1123 36 52 Richland 1138 82 61 Sidney 3168 23 8 Irrigated Huntley 3076 30 20 Note: Trial entries varied but averaged 11 kabuli and 1 desi variety each year. n/a = not applicable. C.V. = coefficient of variation over years and varieties. Obs. = number of observations Varieties Most Montana producers contract with a company to grow a specific variet"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "موضوع درخواستی روش نمونه‌برداری میدانی پیش از برداشت برای برآورد عملکرد نخود است. هیچ‌یک از منابع استخراج‌شده (Montana State University Extension، Oregon State University variety trials، University of Wisconsin/Minnesota Extension) روش نمونه‌برداری، فرمول تخمین عملکرد پیش از برداشت، یا پروتکل اندازه‌گیری میدانی عملکرد را ارائه نمی‌دهند. شواهد موجود تنها شامل داده‌های عملکرد نهایی (lb/acre)، معیارهای برداشت (رطوبت بذر ~13%)، و ضرایب تغییرات آزمون‌های واریته‌ای هستند. روش برآورد عملکرد پیش از برداشت در این منابع وجود ندارد."
+}

@@ -1,0 +1,83 @@
+{
+  "topic_id": "agri-465d6abf0e91",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum) — محصول сухادایی (دانه خشک)",
+  "slug": "chickpea-pre-harvest-yield-estimation-sampling",
+  "outline": [
+    "اطلاعات موجود درباره برآورد عملکرد",
+    "محدودیت شواهد موجود",
+    "نتیجه‌گیری"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "منابع استخراج‌شده روش نمونه‌برداری میدانی پیش از برداشت برای برآورد عملکرد نخود را توصیف نمی‌کنند.",
+      "conditions": "منابع دانشگاهی ایالات متحده (مونتاگا، اورگن، ویسکانسین/مینسوتا)؛ محصول: نخود (Cicer arietinum L.)؛ سامانه: دیم و آبی; بدون روش نمونه‌برداری عملکرد",
+      "evidence_id": "d0-e11",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "زمان برداشت با مشاهده زرد/قهوه‌ای شدن غلاف و حدود ۱۳٪ رطوبت بذر تعیین می‌شود.",
+      "conditions": "ایالات متحده؛ کالیفرنیا، واشنگتن شرقی، آیداهو، مونتانا; محصول: نخود; اندازه‌گیری: رطوبت بذر; واحد: درصد; محدودیت: زمان برداشت، نه روش برآورد عملکرد",
+      "evidence_id": "d2-e17",
+      "numeric_bindings": [
+        {
+          "value": "13",
+          "unit_quote": "seed moisture about 13%",
+          "geographic_scope": "United States (California, eastern Washington, Idaho, Montana)",
+          "product_scope": "chickpea (Cicer arietinum L.) dry seed"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد مزرعه‌ای نخود در_trialهای ایالات متحده بین ۸۵۰ تا بیش از ۳۰۰۰ پوند بر acre گزارش شده است.",
+      "conditions": "ایالات متحده: مونتانا (دیم و آبی)، واشنگتن، آیداهو; محصول: نخود; واحد: پوند بر acre; محدودیت: داده عملکرد نهایی، بدون روش پیش‌بینی",
+      "evidence_id": "d0-e16",
+      "numeric_bindings": [
+        {
+          "value": "850",
+          "unit_quote": "850 and 3000 lb/acre",
+          "geographic_scope": "Montana, USA (dryland trials)",
+          "product_scope": "chickpea grain"
+        },
+        {
+          "value": "3000",
+          "unit_quote": "3000 lb/acre",
+          "geographic_scope": "Huntley, Montana, USA (irrigated trial)",
+          "product_scope": "chickpea grain"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود گیاه با دوره رشد طولانی است و تا اوت یا اوایل سپتامبر در مونتانا رشد می‌کند.",
+      "conditions": "مونتانا، ایالات متحده; محصول: نخود; محدودیت: اطلاعات فنولوژیک، بدون روش نمونه‌برداری عملکرد",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "پیش‌بینی عملکرد با استفاده از آزمون‌های واریته‌ای سراسری و ضریب تغییرات (C.V.) گزارش شده است.",
+      "conditions": "مونتاما، ایالات متحده; محصول: نخود; واحد: درصد C.V.; محدودیت: معیار آماری آزمون، نه روش نمونه‌برداری میدانی برآورد عملکرد",
+      "evidence_id": "d0-e15",
+      "numeric_bindings": [
+        {
+          "value": "37",
+          "unit_quote": "C.V. (%): 37",
+          "geographic_scope": "Bozeman, Montana, USA",
+          "product_scope": "chickpea trial data"
+        },
+        {
+          "value": "30",
+          "unit_quote": "C.V. (%): 30",
+          "geographic_scope": "Huntley, Montana, USA (irrigated)",
+          "product_scope": "chickpea trial data"
+        }
+      ]
+    }
+  ],
+  "insufficiency_reason": "موضوع درخواستی روش نمونه‌برداری میدانی پیش از برداشت برای برآورد عملکرد نخود است. هیچ‌یک از منابع استخراج‌شده (Montana State University Extension، Oregon State University variety trials، University of Wisconsin/Minnesota Extension) روش نمونه‌برداری، فرمول تخمین عملکرد پیش از برداشت، یا پروتکل اندازه‌گیری میدانی عملکرد را ارائه نمی‌دهند. شواهد موجود تنها شامل داده‌های عملکرد نهایی (lb/acre)، معیارهای برداشت (رطوبت بذر ~13%)، و ضرایب تغییرات آزمون‌های واریته‌ای هستند. روش برآورد عملکرد پیش از برداشت در این منابع وجود ندارد."
+}

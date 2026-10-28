@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T09:25:06.598517+00:00",
+  "started_at": "2026-10-28T10:39:57.309437+00:00",
   "queries": [
     {
       "query_id": "311f9248d20623c29205a466b612fd2d8e502857fd2c04bb25692f723ed98b73",
       "query": "alfalfa soil moisture sensor placement depth TDR FDR university extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179509.2426114,
       "results": [
         {
@@ -33,7 +33,7 @@
     {
       "query_id": "9960d56197d7d5d957254bddd8ba1c77e453c55850b61c3d798f69b539c0857f",
       "query": "alfalfa irrigation scheduling soil moisture sensor network depth spacing peer-reviewed",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793179511.679873,
       "results": [
         {
@@ -94,8 +94,7 @@
       {
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337",
         "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -107,30 +106,28 @@
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No supplied document provides alfalfa-specific sensor type, number per field, spatial distribution pattern, or installation protocol. s10 (OSU Extension) gives general sensor placement guidance (e.g., ~3 stations/field, shallow ~6 in, deep ~18–24 in) and lists sensor types (capacitance/FDR, TDR, neutron probe), but does not tie these recommendations to alfalfa. s11 (VT Extension) references rooting-depth-based sensor placement via a table in another publication but does not give alfalfa-specific depths, counts, or protocols."
+        "missing": "No supplied document provides concrete, alfalfa-specific evidence on sensor installation protocol including sensor type (TDR/FDR/capacitance/neutron probe), number of sensors per field, spatial distribution pattern, and precise installation depth for alfalfa fields. s11 gives general sensor placement advice (minimum 3 stations, depth based on root zone, shallow at 6 inches and deep at 18–24 inches) and cites a root-depth table in BSE-239P, but does not give alfalfa-specific depth recommendations or sensor counts for alfalfa. s10 describes sensor technologies generally without alfalfa-specific placement guidance."
       },
       {
         "id": "measurement_units_and_scope",
-        "covered": true,
-        "document_ids": [
-          "s11"
-        ],
-        "missing": ""
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document provides measured or recommended soil moisture threshold values with original units explicitly tied to alfalfa irrigation scheduling decisions. s11 Table 2 lists alfalfa MAD (50–60%) and soil water tension (80–150 kPa/cb) with volumetric water content by soil texture, but the table appears structurally truncated in the source text and lacks the complete unit context and geographic/source attribution needed. s10 provides generic threshold tables by soil texture but no alfalfa-specific values."
       },
       {
         "id": "species_product",
         "covered": true,
         "document_ids": [
-          "s10",
           "s11"
         ],
         "missing": ""
       }
     ],
     "next_queries": [
-      "alfalfa soil moisture sensor installation depth spacing university extension Minnesota Wisconsin",
-      "alfalfa irrigation scheduling soil sensor placement FDR TDR extension guide"
+      "alfalfa soil moisture sensor installation depth TDR capacitance university extension placement protocol",
+      "alfalfa irrigation scheduling soil water tension threshold volumetric water content MAD Virginia Tech or similar extension"
     ]
   },
-  "completed_at": "2026-10-28T09:25:35.276957+00:00"
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T10:40:17.272642+00:00"
 }
