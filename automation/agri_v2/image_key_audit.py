@@ -25,9 +25,13 @@ def retry_seconds(value,now=None):
  if value.isdigit():return int(value)
  try:return max(0,int(email.utils.parsedate_to_datetime(value).timestamp()-(time.time() if now is None else now)))
  except (ValueError,TypeError,OverflowError):return None
-def probe(slot,key,env=None):
+def probe(slot,key,env=None,diagnostic_id=None):
+ if diagnostic_id is not None:
+  import re
+  if not isinstance(diagnostic_id,str) or not re.fullmatch(r"[a-z0-9-]{1,80}",diagnostic_id):raise ValueError("Safe diagnostic identity required")
  refs=reference_images()
  body={'model':IMAGE_MODEL,'prompt':'Capability test: photograph of one intact sealed white-blue AFP carton on bare soil, matching the reference identity. No humans, no additional text. Diagnostic '+slot+'.','size':'1K','ratio':'16:9','return_base64':True,'extra_body':{'response_format':'b64_json','image':refs}}
+ if diagnostic_id is not None:body['prompt']+=' New independent diagnostic '+diagnostic_id+'. Not a replay of a prior request.'
  with admission(slot,body,os.environ if env is None else env):
   req=urllib.request.Request(API_BASE+'/images/generations',data=json.dumps(body).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json','User-Agent':'AFP-bounded-unique-image-audit'})
   try:
