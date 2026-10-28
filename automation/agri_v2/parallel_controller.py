@@ -47,7 +47,8 @@ def checkpoint_retirements(source,destination):
    matching=[a for a in archives if a.is_file() and hashlib.sha256(a.read_bytes()).hexdigest()==expected]
    if not matching:raise ValueError('Archived output conflict; coordinator changed since worker copy')
    retired.append((target,destination/matching[0].relative_to(source),expected))
- return retired
+ from .model_source_repair import checkpoint_retirements as source_retirements
+ return retired+source_retirements(source,destination)
 
 def merge_worker(ident,worker_data,worker_out,data=DATA,out=OUT):
  safe_id(ident)

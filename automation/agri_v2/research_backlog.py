@@ -36,6 +36,8 @@ def deferral(topic,data,out):
  s=load_json(p) if p.exists() else {}
  gap=source_gap(ev,ident)
  if gap is not None and s.get('status')=='failed' and s.get('attempts',0)>0:
+  from .model_source_repair import discovery_pending,initial_source_gap
+  if initial_source_gap(topic,folder) and discovery_pending(topic,folder,data):return None
   return record(topic,'additional_source_discovery_required','research_sources',s,ev,p,gap['blocking_kind'])
  policy=data/'family-lifecycle-policy.json'
  limit=load_json(policy).get('max_attempts_per_stage') if policy.exists() else None
