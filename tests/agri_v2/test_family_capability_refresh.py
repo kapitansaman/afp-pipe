@@ -89,3 +89,12 @@ class CapabilityRefreshTests(unittest.TestCase):
    with patch.object(r.time,'monotonic',side_effect=[0,2401]):rr=r.images(e,d,o,api,Mock(return_value={}),limit=20)
    self.assertEqual(rr['image_calls'],0);api.assert_not_called()
    with self.assertRaises(ValueError):r.images(e,d,o,api,Mock(),limit=97)
+
+ def test_transport_diagnostics_persist_class_without_secrets_or_replay(self):
+  with tempfile.TemporaryDirectory() as td:
+   d,o,e,roles=self.setup(Path(td));probe=Mock(side_effect=TimeoutError('PRIVATE credential body'));rr=r.images(e,d,o,probe,Mock(return_value={}))
+   self.assertEqual(rr['cases'][0]['error_type'],'TimeoutError');self.assertEqual(rr['cases'][0]['provider_state'],'uncertain');self.assertNotIn('PRIVATE',json.dumps(rr));probe.assert_called_once()
+   second=Mock();held=r.images(dict(e,GITHUB_RUN_ID='124'),d,o,second,Mock(return_value={}));self.assertEqual(held['status'],'shared_image_cooldown');second.assert_not_called()
+ def test_probe_decode_class_retained_but_arbitrary_text_never_persisted(self):
+  self.assertEqual(r.image_diagnostic({'state':'transport_or_decode_failed','error_type':'JSONDecodeError','body':'PRIVATE'}),{'provider_state':'transport_or_decode_failed','error_type':'JSONDecodeError'})
+  self.assertEqual(r.image_diagnostic({'state':'PRIVATE','error_type':'PRIVATE'}),{'provider_state':'unclassified','error_type':'OtherError'})
