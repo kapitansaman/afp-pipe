@@ -1,0 +1,10 @@
+{
+  "status": "reconciliation_required",
+  "slot": "AGNES_API_KEY36",
+  "family_id": "family-09",
+  "model": "agnes-image-2.5-flash",
+  "image_calls": 1,
+  "started_at": "2026-10-28T02:05:42.467992+00:00",
+  "http_status": null,
+  "completed_at": "2026-10-28T02:05:43.984939+00:00"
+}

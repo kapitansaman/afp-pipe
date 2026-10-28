@@ -92,7 +92,11 @@
     "AGNES_API_KEY4",
     "AGNES_API_KEY8",
     "AGNES_API_KEY12",
-    "AGNES_API_KEY16"
+    "AGNES_API_KEY16",
+    "AGNES_API_KEY20",
+    "AGNES_API_KEY24",
+    "AGNES_API_KEY28",
+    "AGNES_API_KEY32"
   ],
   "image_capability_proofs": {
     "AGNES_API_KEY4": {
@@ -153,6 +157,66 @@
       "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
       "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
       "image_sha256": "e3b110c9fa4b0b5cdb7f6eaec89323ea4c9f4d08048214ab1edad0081b94d307",
+      "publication_visual_approval": false
+    },
+    "AGNES_API_KEY20": {
+      "repository": "kapitansaman/afp-pipe",
+      "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+      "family_id": "family-05",
+      "slot": "AGNES_API_KEY20",
+      "kind": "image",
+      "model": "agnes-image-2.5-flash",
+      "verified_at": "2026-10-28T02:02:22.499844+00:00",
+      "verification": "actual_successful_parallel_capability_probe",
+      "run_id": "40618152827",
+      "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+      "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+      "image_sha256": "211ef8c3ce9051fd982e8f040e756af85829f30eab9b4d20fcc0bf2fdda31add",
+      "publication_visual_approval": false
+    },
+    "AGNES_API_KEY24": {
+      "repository": "kapitansaman/afp-pipe",
+      "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+      "family_id": "family-06",
+      "slot": "AGNES_API_KEY24",
+      "kind": "image",
+      "model": "agnes-image-2.5-flash",
+      "verified_at": "2026-10-28T02:03:28.376531+00:00",
+      "verification": "actual_successful_parallel_capability_probe",
+      "run_id": "40618152827",
+      "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+      "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+      "image_sha256": "394c36f209de9df715feba0e94022961fee55a8cbea22bf254fb9c1ab8e2f865",
+      "publication_visual_approval": false
+    },
+    "AGNES_API_KEY28": {
+      "repository": "kapitansaman/afp-pipe",
+      "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+      "family_id": "family-07",
+      "slot": "AGNES_API_KEY28",
+      "kind": "image",
+      "model": "agnes-image-2.5-flash",
+      "verified_at": "2026-10-28T02:04:34.858010+00:00",
+      "verification": "actual_successful_parallel_capability_probe",
+      "run_id": "40618152827",
+      "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+      "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+      "image_sha256": "e63189ec8d7f32f1d084a5b28be60a8139b722353b3c1b77abbdc8e0d60c3fe7",
+      "publication_visual_approval": false
+    },
+    "AGNES_API_KEY32": {
+      "repository": "kapitansaman/afp-pipe",
+      "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+      "family_id": "family-08",
+      "slot": "AGNES_API_KEY32",
+      "kind": "image",
+      "model": "agnes-image-2.5-flash",
+      "verified_at": "2026-10-28T02:05:41.198946+00:00",
+      "verification": "actual_successful_parallel_capability_probe",
+      "run_id": "40618152827",
+      "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+      "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+      "image_sha256": "cfe8e43b5c9d8df86a2af3c304ebb429d30bf0eacc1154211c07329aeb199f3c",
       "publication_visual_approval": false
     }
   },
