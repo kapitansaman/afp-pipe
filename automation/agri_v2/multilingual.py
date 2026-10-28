@@ -9,7 +9,8 @@ LANGUAGES=('ru-RU','ar-IQ','tg-TJ','en-US')
 LABELS={'ru-RU':'Russian','ar-IQ':'clear professional Arabic for Iraqi readers','tg-TJ':'Tajik in Cyrillic, not Persian script','en-US':'English'}
 PHRASES={'ru-RU':'Оборудование для орошения','ar-IQ':'معدات الري','tg-TJ':'Таҷҳизоти обёрӣ','en-US':'Irrigation equipment'}
 FAQ_LABEL={'ru-RU':'Часто задаваемые вопросы','ar-IQ':'الأسئلة الشائعة','tg-TJ':'Саволҳои маъмул','en-US':'Frequently asked questions'}
-DISCLOSURES={'ru-RU':'Материал подготовлен с помощью ИИ и университетских источников и не заменяет оценку местного специалиста.','ar-IQ':'أُعد هذا المقال بمساعدة الذكاء الاصطناعي ومصادر جامعية ولا يغني عن تقييم ظروف الحقل واستشارة مختص محلي.','tg-TJ':'Ин мақола бо ёрии зеҳни сунъӣ ва манбаъҳои донишгоҳӣ омода шудааст ва ҷойгузини арзёбии шароити маҳаллӣ нест.','en-US':'Prepared with AI assistance and university sources; not a substitute for local field assessment and professional advice.'}
+# Do not append public AI/provenance boilerplate in any language.
+DISCLOSURES={lang:'' for lang in LANGUAGES}
 class Segments(HTMLParser):
  def __init__(self):super().__init__(convert_charrefs=True);self.parts=[];self.texts=[];self.unwrapped=[]
  def handle_starttag(self,tag,attrs):
@@ -123,15 +124,18 @@ def localized_body(row,media,policy,fetcher=None):
  # All in-site links must come from an explicit verified same-language map.
  from .internal_links import anchors
  if any(urllib.parse.urlsplit(u).hostname=='navar-abyari.ir' for u,t in anchors(body)):raise ValueError('Unmapped in-site link in translation')
- for target in rows:verify_target(target['url'],lang,fetcher)
+ for target in rows:
+  if target.get('kind')!='homepage_fallback':verify_target(target['url'],lang,fetcher)
  related_labels={'ru-RU':'Связанные статьи','ar-IQ':'مقالات ذات صلة','tg-TJ':'Мақолаҳои марбут','en-US':'Related articles'}
  for kind,label in (('primary',PHRASES[lang]),('related',related_labels[lang])):
   group=[r for r in rows if r.get('kind','primary')==kind]
   if group:body+='<p>'+label+': '+' · '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in group)+'</p>'
  matches=list(re.finditer('<h2>',body));at=matches[len(matches)//2].start() if len(matches)>1 else len(body)
  if len(media)>1:body=body[:at]+'<figure class="wp-block-image"><img src="'+html.escape(media[1]['url'],quote=True)+'" alt="'+html.escape(row['title'],quote=True)+'" loading="lazy"/></figure>'+body[at:]
- body+='<p><em>'+DISCLOSURES[lang]+'</em></p><h2>'+FAQ_LABEL[lang]+'</h2><div class="faq-section">'+''.join('<details><summary>'+html.escape(f['question'])+'</summary><p>'+html.escape(f['answer'])+'</p></details>' for f in row['faq'])+'</div>'
+ body+='<h2>'+FAQ_LABEL[lang]+'</h2><div class="faq-section">'+''.join('<details><summary>'+html.escape(f['question'])+'</summary><p>'+html.escape(f['answer'])+'</p></details>' for f in row['faq'])+'</div>'
  from .display_units import content as display_content
+ from .homepage_fallback import add as add_home
+ for home in [r for r in rows if r.get('kind')=='homepage_fallback']:body=add_home(body,home,lang)
  return end_sources(display_content(body,lang),sources,lang)
 
 def publish_family(wp,folder,topic,source_result):
@@ -173,7 +177,11 @@ def publish_family(wp,folder,topic,source_result):
    marker='<!-- afp-agri-v2:'+topic['id']+':'+lang+' -->'
    current_url=wp.site+'/'+slug+'/' if isinstance(getattr(wp,'site',None),str) else 'https://navar-abyari.ir/'+slug+'/'
    local_policy={lang:list(policy[lang])}
-   local_policy[lang].extend(translated_related(wp,related_rows,lang,current_url))
+   localized_relations=translated_related(wp,related_rows,lang,current_url)
+   local_policy[lang].extend(localized_relations)
+   from .homepage_fallback import resolve as home_fallback
+   home_decision=home_fallback(source_receipt.get('editorial_home_fallback',{}).get('irrigation_context') is True,localized_relations,lang,current_url)
+   if home_decision.get('link'):local_policy[lang].append(home_decision['link'])
    content=localized_body(row,media,local_policy)
    matches=[]
    if rp.exists():
@@ -206,7 +214,9 @@ def publish_family(wp,folder,topic,source_result):
    from .editorial_presentation import verify_sources,VERSION as EDITORIAL_POLICY
    source_urls=[{'url':u} for u,t in anchors(row['content_html']) if urllib.parse.urlsplit(u).scheme=='https' and urllib.parse.urlsplit(u).hostname!='navar-abyari.ir']
    verify_sources(final['content']['rendered'],source_urls,lang)
-   receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'editorial_presentation_policy':EDITORIAL_POLICY,'editorial_related':[r for r in local_policy[lang] if r.get('kind')=='related'],'editorial_source_urls':[r['url'] for r in source_urls],'display_units_policy':'localized-display-units-v1','verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
+   from .homepage_fallback import verify as verify_home
+   verify_home(final['content']['rendered'],home_decision.get('link'))
+   receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'editorial_presentation_policy':EDITORIAL_POLICY,'editorial_home_fallback':home_decision,'editorial_related':[r for r in local_policy[lang] if r.get('kind')=='related'],'editorial_source_urls':[r['url'] for r in source_urls],'display_units_policy':'localized-display-units-v1','verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
    if split and review_state(folder,lang).exists():
     queued=load_json(review_state(folder,lang));queued.update(status='published',next_attempt_at=None,published_receipt=receipt);atomic_json(review_state(folder,lang),queued)
   except Exception as error:

@@ -100,9 +100,13 @@ class WordPress:
    atomic_json(rp,r)
   from .multilingual import verify_target
   for target in r['editorial_related']:verify_target(target['url'],'fa-IR')
-  topic=dict(topic,editorial_related=r['editorial_related'])
+  from .homepage_fallback import irrigation_context,resolve as home_fallback
+  if 'editorial_home_fallback' not in r:
+   r['editorial_home_fallback']=home_fallback(irrigation_context(topic,brief),r['editorial_related'],'fa-IR',self.site+'/'+slug+'/')
+   atomic_json(rp,r)
+  topic=dict(topic,editorial_related=r['editorial_related'],editorial_home=r['editorial_home_fallback'].get('link'))
   internal=selected_links(topic,self.site+'/'+slug+'/');linked=augment(payload['content'],topic,self.site+'/'+slug+'/')
-  validate_targets(internal)
+  validate_targets([row for row in internal if row.get('kind')!='homepage_fallback'])
   for i in roles:
    if any(x['index']==i for x in r['media']):continue
    name=topic['id']+'-image-'+str(i);existing,_=self.call('media?slug='+name+'&context=edit')
@@ -142,6 +146,9 @@ class WordPress:
    if m['url'] not in post['content']['rendered']:raise WPError('Inline image verification failed')
   if r.get('commercial_matrix') is not None:topic=dict(topic,commercial_matrix=r['commercial_matrix'])
   if 'editorial_related' in r:topic=dict(topic,editorial_related=r['editorial_related'])
+  if 'editorial_home_fallback' in r:
+   from .homepage_fallback import verify as verify_home
+   home=r['editorial_home_fallback'].get('link');topic=dict(topic,editorial_home=home);verify_home(post['content']['rendered'],home)
   if r.get('editorial_presentation_policy'):
    from .editorial_presentation import VERSION as EDITORIAL_POLICY,verify_sources
    if r['editorial_presentation_policy']!=EDITORIAL_POLICY:raise WPError('Unknown editorial presentation policy')

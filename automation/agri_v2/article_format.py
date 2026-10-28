@@ -1,6 +1,7 @@
 """Deterministic FAQ markup matching the site's existing faq-section details/summary pattern."""
 import html
-DISCLOSURE='<p><em>این مطلب با کمک هوش مصنوعی و بررسی منابع دانشگاهی تهیه شده و جایگزین بررسی شرایط مزرعه و نظر کارشناس محلی نیست.</em></p>'
+# Compatibility export for historical renderers; provenance stays in private artifacts.
+DISCLOSURE=''
 def faq_html(faq):
  if not isinstance(faq,list) or len(faq)!=3:raise ValueError('Exactly three reviewed FAQs required')
  out=['<h2>سؤالات متداول</h2><div class="faq-section" style="margin-top:24px;border-top:2px solid #eee;padding-top:20px;">']
