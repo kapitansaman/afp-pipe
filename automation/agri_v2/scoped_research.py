@@ -279,18 +279,30 @@ def stage(topic,kind,client,data,out):
 def content_digest(bundle):
  return hashlib.sha256(json.dumps({'related_ids':bundle['related_ids'],'documents':[{'id':d['id'],'sha256':d['sha256'],'text_truncated':d['text_truncated']} for d in bundle['documents']],'unavailable':bundle['unavailable']},sort_keys=True).encode()).hexdigest()
 
-def prefetch_existing(topics,inventory,wp,out,run_id):
+def prefetch_existing(topics,inventory,wp,out,run_id,data=None):
  from .family_trial import collect_existing
- expanded=[]
+ if data is None:
+  from .queue import DATA
+  data=DATA
+ from .overlap_continuation import bound,compare
+ expanded=[];bindings={}
  for t in topics:
+  binding=bound(t,data,out,wp)
+  if binding is not None:bindings[t['id']]=binding
+  owned=set(binding['owned_ids']) if binding else set()
   ids=list(dict.fromkeys(t.get('related_existing_ids',[])+[r['id'] for r in inventory['records'] if crop_in_title(t['crop'],r['title'])]))
+  ids=[i for i in ids if i not in owned]
   # Never silently drop a related article just to make a small prompt pass.
   if len(ids)>100:
+   if binding is not None:raise EvidenceBlocked('approved_overlap_context_exceeds_budget')
    atomic_json(out/'new'/t['id']/'lifecycle-evidence/existing-content.json',{'topic_id':t['id'],'related_ids':ids,'documents':[],'unavailable':[{'category':'complete_overlap_scope_exceeds_trial_budget'}]});continue
   expanded.append(dict(t,related_existing_ids=ids))
  bundles=collect_existing(expanded,inventory,wp,out,request_id='lifecycle-'+str(run_id),max_refs=300)
  for t in expanded:
   b=bundles[t['id']]
+  # Never overwrite the exact context already bound to an approved brief.
+  if t['id'] in bindings:
+   compare(t,bindings[t['id']],b,out,run_id);continue
   # Audit batches bound model context without dropping any fetched article.
   atomic_json(out/'new'/t['id']/'lifecycle-evidence/existing-content.json',b)
  return {'families':len(topics),'families_with_bounded_full_scope':len(expanded),'article_refs':sum(len(b['related_ids']) for b in bundles.values()),'article_refs_loaded':sum(len(b['documents']) for b in bundles.values()),'scope_limited_families':len(topics)-len(expanded)}

@@ -66,7 +66,7 @@ def prepare(env,data=DATA,out=OUT,reserve_fn=None,wp_factory=None,request_id=ID)
   # The isolated worker cannot read authenticated WordPress. Fetch complete
   # overlap inputs here, as the standard lifecycle coordinator already does.
   from .scoped_research import prefetch_existing
-  r['existing_content_fetch']=prefetch_existing([dict(t,family_id='three-source-trial-'+t['id']) for t in topics],inventory,wp,out,env['GITHUB_RUN_ID'])
+  r['existing_content_fetch']=prefetch_existing([dict(t,family_id='three-source-trial-'+t['id']) for t in topics],inventory,wp,out,env['GITHUB_RUN_ID'],data=data)
   r['status']='three_source_trial_prepared'
  except Exception as exc:
   from .failure_diagnostics import failure_details

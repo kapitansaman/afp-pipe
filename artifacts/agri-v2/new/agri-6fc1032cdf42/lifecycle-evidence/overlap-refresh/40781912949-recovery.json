@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "topic_id": "agri-6fc1032cdf42",
+  "failed_continuation_run_id": "40781912949",
+  "original_snapshot_commit": "c3b09ce27b95c693fd18df8df505fec90402986a",
+  "restored_file_sha256": "d20e2eed1d05f8526e61e50710c330d5b454fe41dd58c0e626b1acd31d4b45bd",
+  "preserved_faulty_refresh_sha256": "affd2eeb36099f9a28e4b6aad8be45dbcb8e058c687833a8a7a5db4febbb34f1",
+  "restored_overlap_content_sha256": "1406083612cad2b0ecf3d735b2895778337b783f5596e156b0c17838e8cab693",
+  "added_id_in_faulty_refresh": 524204,
+  "other_existing_article_hashes_unchanged": true,
+  "brief_article_attempts_and_translation_approvals_changed": false,
+  "live_promotion_claimed": false
+}
