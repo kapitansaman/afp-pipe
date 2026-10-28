@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "slot": "AGNES_API_KEY4",
+  "family_id": "family-01",
+  "model": "agnes-image-2.5-flash",
+  "image_calls": 1,
+  "started_at": "2026-10-28T01:51:43.861034+00:00",
+  "http_status": 200,
+  "completed_at": "2026-10-28T01:54:00.903946+00:00"
+}
