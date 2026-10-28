@@ -25,7 +25,7 @@ class DisplayUnitsTests(unittest.TestCase):
  def test_unknown_locale_is_not_guessed(self):
   with self.assertRaises(UnitReviewRequired):text('1 m','unknown')
  def test_unsupported_compound_not_converted_as_simple_length(self):
-  with self.assertRaises(UnitReviewRequired):text('10 mm/day','en-US')
+  with self.assertRaises(UnitReviewRequired):text('10 mm/hour','en-US')
  def test_supported_yield_ratio_is_allowed(self):self.assertEqual(text('100 kg/ha','en-US'),'89.218 lb/acre (100 kg/ha)')
  def test_fraction_not_misread_as_integer_quantity(self):
   with self.assertRaises(UnitReviewRequired):text('1/2 inch','fa-IR')

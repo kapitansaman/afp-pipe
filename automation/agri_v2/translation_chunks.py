@@ -3,7 +3,7 @@ import json
 from .queue import atomic_json,load_json,utcnow
 from .pipeline import digest,numbers
 from .multilingual import source_segments,render_translation,LABELS
-from .text_fields import plain_citations
+from .text_fields import plain_citations,has_unsafe_angles,comparison_operators
 
 def chunks(values,max_chars=6000,max_segments=30):
  result=[];current=[];chars=0
@@ -28,12 +28,13 @@ def normalize_batch(raw,batch,allowed_urls=None):
   if isinstance(ident,str) and ident.isascii() and ident.isdigit():ident=int(ident)
   if type(ident)is not int or ident not in expected or ident in mapping:raise ValueError('Translation IDs changed')
   text=row.get('text')
-  from .text_fields import plain_citations
+  from .text_fields import plain_citations,has_unsafe_angles,comparison_operators
   source_plain,source_urls=plain_citations(expected[ident],allowed_urls)
   if isinstance(text,str):text,_=plain_citations(text,set(source_urls))
   import re
-  if not isinstance(text,str) or not text.strip() or re.search(r'[<>\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]',text):raise ValueError('Unsafe translated text')
+  if not isinstance(text,str) or not text.strip() or has_unsafe_angles(text) or re.search(r'[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]',text):raise ValueError('Unsafe translated text')
   if numbers(text)!=numbers(source_plain):raise ValueError('Translation changed numbers')
+  if comparison_operators(text)!=comparison_operators(source_plain):raise ValueError('Translation changed comparison operators')
   mapping[ident]=text
  if set(mapping)!=set(expected):raise ValueError('Translation IDs changed')
  return [{'id':r['id'],'text':mapping[r['id']]} for r in batch]
