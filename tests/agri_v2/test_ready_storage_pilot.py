@@ -17,7 +17,11 @@ class ReadyStoragePilotTests(unittest.TestCase):
   shutil.copytree(OUT/'new'/p.TOPIC,out/'new'/p.TOPIC)
   atomic_json(out/'new/agri-621734b38aa9/protected.json',{'attempts':3})
   atomic_json(out/'parallel/families/assignments.json',{'unchanged':True})
-  h=load_json(OUT/'parallel/health/latest.json');h['checked_at']=utcnow();atomic_json(out/'parallel/health/latest.json',h)
+  # Synthetic capability fixture: never infer image capability from live text health.
+  from automation.agri_v2.parallel_capacity import CREDENTIAL_SET_ID
+  from automation.agri_v2.healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
+  h={'repository':'kapitansaman/afp-pipe','credential_set_id':CREDENTIAL_SET_ID,'audit_status':'completed','checked_at':utcnow(),'text_model':TEXT_MODEL,'image_model':IMAGE_MODEL,'api_base':API_BASE,'eligible_text_slots':['AGNES_API_KEY81'],'eligible_image_slots':['AGNES_API_KEY82']}
+  atomic_json(out/'parallel/health/latest.json',h)
   return data,out
  def test_exact_request_rejects_expanded_or_publishing_scope(self):
   self.assertEqual(op.validate_request(self.request())['request_id'],p.ID)
