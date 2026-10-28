@@ -1,5 +1,5 @@
 """Practical direct-HTML writing; repair inert formatting, never invent or approve facts."""
-import html,json,re
+import copy,html,json,re
 from html.parser import HTMLParser
 from .pipeline import article_prompt,normalize_article,validate_article,validate_for_publication,digest,numbers
 from .queue import atomic_json
@@ -35,6 +35,19 @@ def unwrap(raw):
  visit(raw,[],0)
  if len(found)!=1:raise ValueError('Ambiguous or missing article object')
  return found[0]
+
+def bind_generated_identity(raw,topic):
+ """Only newly generated prose uses this contract. Saved evidence is never rewritten.
+ Queue identity is application-owned; model metadata is not an identity proposal.
+ This does not validate prose, intent, evidence, numbers, or publication readiness.
+ """
+ if not isinstance(topic.get('title'),str) or not topic['title'].strip():raise ValueError('Canonical queue title required')
+ path,_=unwrap(raw);bound=copy.deepcopy(raw);row=bound
+ for key in path:row=row[key]
+ ignored=sorted(key for key in ('title','id','topic_id','family_id','slug') if key in row)
+ for key in ignored:row.pop(key)
+ row['title']=topic['title']
+ return bound,{'version':1,'identity_authority':'canonical_queue','model_identity_fields_ignored':ignored,'raw_sha256':digest(raw),'canonical_title_sha256':digest(topic['title']),'body_semantically_approved':False,'claims_added_by_identity_binding':False}
 
 def normalize(raw,topic,brief):
  path,row=unwrap(raw);fixes=[]
@@ -86,8 +99,9 @@ def normalize(raw,topic,brief):
 
 def generate(client,topic,brief,folder):
  request=json.loads(article_prompt(topic,brief));request.pop('constraints',None)
- request['task']+=' Return the article object DIRECTLY at the root with title, content_html, excerpt and faq. HTML prose is the output, not a nested schema or fact-ID outline. There is NO required section count, paragraph count, per-paragraph word limit or per-paragraph fact-ID field. Use natural short and long paragraphs. Do not repeat scope caveats or pad text to meet length. Put source limits where needed and once in a concise limits section. Cite approved source URLs on the relevant claims. Exactly three FAQs; their question and answer fields must be plain text, never HTML or citation tags. Put source links in the article body.'
- atomic_json(folder/'practical-text-contract.json',{'strategy':'practical-direct-html-v1','response_format':'json_object','paragraph_length_hard_gate':False,'fixed_section_count':False,'per_paragraph_fact_ids_required':False,'final_evidence_audit_required':True})
+ request['task']+=' Return the article object DIRECTLY at the root with ONLY content_html, excerpt and faq. Title, topic ID, family ID and slug are immutable application-owned context, NOT generated fields; do not return or rewrite them. Write ONLY about the exact canonical topic in the supplied context. HTML prose is the output, not a nested schema or fact-ID outline. There is NO required section count, paragraph count, per-paragraph word limit or per-paragraph fact-ID field. Use natural short and long paragraphs. Do not repeat scope caveats or pad text to meet length. Put source limits where needed and once in a concise limits section. Cite approved source URLs on the relevant claims. Exactly three FAQs; their question and answer fields must be plain text, never HTML or citation tags. Put source links in the article body.'
+ atomic_json(folder/'practical-text-contract.json',{'strategy':'practical-direct-html-v1','identity_contract_version':2,'identity_authority':'canonical_queue','generated_fields':['content_html','excerpt','faq'],'response_format':'json_object','paragraph_length_hard_gate':False,'fixed_section_count':False,'per_paragraph_fact_ids_required':False,'final_evidence_audit_required':True})
  raw=client.text(json.dumps(request,ensure_ascii=False),attempts=1,max_tokens=14000,timeout=180)
  atomic_json(folder/'practical-text-candidate.json',raw)
- article,report=normalize(raw,topic,brief);atomic_json(folder/'practical-text-normalization.json',report);return article
+ bound,identity=bind_generated_identity(raw,topic);atomic_json(folder/'practical-text-identity-binding.json',identity)
+ article,report=normalize(bound,topic,brief);report['raw_sha256']=digest(raw);report['identity_contract_version']=2;atomic_json(folder/'practical-text-normalization.json',report);return article
