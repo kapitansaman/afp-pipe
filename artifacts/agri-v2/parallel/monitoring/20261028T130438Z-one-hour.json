@@ -1,0 +1,1120 @@
+{
+  "version": 1,
+  "repository": "kapitansaman/afp-pipe",
+  "branch": "feat/agri-generator-v2-2905-merge593",
+  "request": "One-hour supervised controlled rollout; advance only on real end-to-end acceptance",
+  "window_start": "2026-10-28T13:04:38.220768+00:00",
+  "window_end": "2026-10-28T14:04:38.220768+00:00",
+  "report_created_at": "2026-10-28T14:04:46.189754+00:00",
+  "requested_seconds": 3600,
+  "actual_elapsed_seconds": 3608,
+  "observation_count": 32,
+  "observation_method": "Repeated GitHub run/job API checks, committed checkpoint review, offline reproductions/tests, authenticated remote reconciliation in Actions, public article checks",
+  "cohort": [
+    {
+      "topic_id": "agri-6fc1032cdf42",
+      "family_id": "family-07",
+      "title_sha256": "9614916e47946e2b7e3e6cdfc3166dff4fa91e19b1dc9563557fc4fdd47650e9"
+    }
+  ],
+  "phase_limit_before": 1,
+  "phase_limit_after": 1,
+  "promotion_performed": false,
+  "promotion_blocker": "Four required translations retain original six-hour review backoff; no end-to-end family acceptance yet",
+  "schedule_enabled": false,
+  "attempts_reset": false,
+  "unknown_family08_sha256": "9fcea1735c36f28500d73e57e8f3289d4b6aed5d2f598c300b84463f6fb8348d",
+  "unknown_family08_replayed": false,
+  "final_fence_status": "checkpointed",
+  "final_fence_run_id": "40697692866",
+  "new_publications": 1,
+  "source_publication": {
+    "post_id": 524204,
+    "url": "https://navar-abyari.ir/preharvest-alfalfa-irrigation-criteria/",
+    "public_verified": true,
+    "public_http_status": 200,
+    "featured_media": 524205,
+    "publication_content_sha256": "f1b1ea5d104983333dd42f4592d54cacc26d7580f49c930190133b8cd7d49312"
+  },
+  "source_media": [
+    {
+      "index": 1,
+      "id": 524205,
+      "url": "https://navar-abyari.ir/wp-content/uploads/agri-6fc1032cdf42-image-1.webp"
+    },
+    {
+      "index": 2,
+      "id": 524206,
+      "url": "https://navar-abyari.ir/wp-content/uploads/agri-6fc1032cdf42-image-2.webp"
+    }
+  ],
+  "source_article_regenerated_on_continuation": false,
+  "images_regenerated_on_continuation": false,
+  "required_translation_backlog": [
+    {
+      "language": "ar-IQ",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 0,
+      "next_attempt_at": "2026-10-28T19:11:29.238924+00:00",
+      "reason": "primary_stage_incomplete"
+    },
+    {
+      "language": "en-US",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 0,
+      "next_attempt_at": "2026-10-28T19:11:29.302068+00:00",
+      "reason": "primary_stage_incomplete"
+    },
+    {
+      "language": "ru-RU",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 0,
+      "next_attempt_at": "2026-10-28T19:11:29.207174+00:00",
+      "reason": "primary_stage_incomplete"
+    },
+    {
+      "language": "tg-TJ",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 0,
+      "next_attempt_at": "2026-10-28T19:11:29.270351+00:00",
+      "reason": "primary_stage_incomplete"
+    }
+  ],
+  "public_editorial_check": {
+    "post_id": 524204,
+    "status": "publish",
+    "url": "https://navar-abyari.ir/preharvest-alfalfa-irrigation-criteria/",
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "پاسخ کوتاه: معیار قطع آب"
+      },
+      {
+        "tag": "h2",
+        "text": "ورودی‌های اندازه‌گیری‌شده"
+      },
+      {
+        "tag": "h2",
+        "text": "منطق قطع و کاهش آب پیش از برداشت"
+      },
+      {
+        "tag": "h2",
+        "text": "پایش مزرعه و معیارهای زمانی"
+      },
+      {
+        "tag": "h2",
+        "text": "خطاها و حدود کاربرد"
+      },
+      {
+        "tag": "h3",
+        "text": "ذخیره آب پاییزه"
+      },
+      {
+        "tag": "h2",
+        "text": "مرجع"
+      },
+      {
+        "tag": "h2",
+        "text": "سؤالات متداول"
+      },
+      {
+        "tag": "h2",
+        "text": "منابع"
+      }
+    ],
+    "links": [
+      {
+        "href": "#i",
+        "text": "پاسخ کوتاه: معیار قطع آب"
+      },
+      {
+        "href": "#i-2",
+        "text": "ورودی‌های اندازه‌گیری‌شده"
+      },
+      {
+        "href": "#i-3",
+        "text": "منطق قطع و کاهش آب پیش از برداشت"
+      },
+      {
+        "href": "#i-4",
+        "text": "پایش مزرعه و معیارهای زمانی"
+      },
+      {
+        "href": "#i-5",
+        "text": "خطاها و حدود کاربرد"
+      },
+      {
+        "href": "#i-6",
+        "text": "ذخیره آب پاییزه"
+      },
+      {
+        "href": "#i-7",
+        "text": "مرجع"
+      },
+      {
+        "href": "#i-8",
+        "text": "سؤالات متداول"
+      },
+      {
+        "href": "#i-9",
+        "text": "منابع"
+      },
+      {
+        "href": "https://navar-abyari.ir/",
+        "text": "نوار تیپ"
+      },
+      {
+        "href": "https://navar-abyari.ir/product-category/%d9%86%d9%88%d8%a7%d8%b1-%d8%aa%db%8c%d9%be/",
+        "text": "نوار آبیاری قطره‌ای"
+      },
+      {
+        "href": "https://navar-abyari.ir/%d8%a2%d8%a8%db%8c%d8%a7%d8%b1%db%8c-%d8%ae%d8%b1%d8%b3%d8%a7%d8%a8%db%8c-%d8%af%d8%b1-%da%a9%d8%b4%d8%aa-%db%8c%d9%88%d9%86%d8%ac%d9%87-%d9%85%d8%b2%d8%a7%db%8c%d8%a7/",
+        "text": "آبیاری خرسابی در کشت یونجه: راهکاری برای افزایش بهره‌وری و کاهش مصرف آب"
+      },
+      {
+        "href": "https://navar-abyari.ir/%d8%a2%d8%a8%db%8c%d8%a7%d8%b1%db%8c-%d9%82%d8%b7%d8%b1%d9%87%d8%a7%db%8c-%d8%a8%d8%a7-%d9%86%d9%88%d8%a7%d8%b1-%d8%aa%db%8c%d9%be-%d8%af%d8%b1-%da%a9%d8%b4%d8%aa-%db%8c%d9%88%d9%86%d8%ac%d9%87-%d9%be/",
+        "text": "آبیاری قطره‌ای با نوار تیپ در کشت یونجه: راهنمای جامع پیش‌نیازها و اجرای عملی"
+      },
+      {
+        "href": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+        "text": "alfalfasymposium.ucdavis.edu — 02 065.pdf"
+      },
+      {
+        "href": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+        "text": "cropwatch.unl.edu — pasture and forage minute alfalfa irrigation and last cutting grasshopper management"
+      },
+      {
+        "href": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+        "text": "extension.usu.edu — strategies for deficit irrigation of forage crops"
+      }
+    ],
+    "public_checked_epoch": 1793196050.8509474,
+    "public_http": 200,
+    "public_status": "publish",
+    "rendered_content_unchanged": true,
+    "rendered_content_sha256": "07826c29742be292deac63deb9cae4387952e9e306b6f51a75095b0334cb759d",
+    "source_links_end_only": true,
+    "ai_boilerplate_present": false,
+    "source_footer_follows_faq": true
+  },
+  "fixes": [
+    {
+      "pull_request": 45,
+      "url": "https://github.com/kapitansaman/afp-pipe/pull/45",
+      "summary": "Comparison-only plain translation segments, preserved comparison operators, typed daily water-depth units, allowlisted diagnostics",
+      "offline_tests": 1281,
+      "ci": "success"
+    },
+    {
+      "pull_request": 46,
+      "url": "https://github.com/kapitansaman/afp-pipe/pull/46",
+      "summary": "Canonical locale-only backlog scan and narrow evidence-bound manual checkpoint reconciliation",
+      "offline_tests": 1289,
+      "ci": "success"
+    }
+  ],
+  "manual_reconciliation": {
+    "run_id": "40697268448",
+    "model_calls": 0,
+    "post_mutations": 0,
+    "proof_path": "artifacts/agri-v2/parallel/recovery/reconciliations/40693172990.json",
+    "original_failed_report_preserved": true
+  },
+  "runs": [
+    {
+      "id": 40693172990,
+      "status": "completed",
+      "conclusion": "failure",
+      "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990"
+    },
+    {
+      "id": 40695418975,
+      "status": "completed",
+      "conclusion": "failure",
+      "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975"
+    },
+    {
+      "id": 40697268448,
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448"
+    },
+    {
+      "id": 40697692866,
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866"
+    },
+    {
+      "id": 40698806905,
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905"
+    }
+  ],
+  "run_checkpoint_summaries": [
+    {
+      "run_id": "40693172990",
+      "status": "completed_with_failures",
+      "assigned_count": 1,
+      "no_due_work": null,
+      "published_posts": 0,
+      "model_calls": null,
+      "post_mutations": null,
+      "coordinator_failure": {
+        "kind": "unexpected",
+        "category": "unspecified"
+      }
+    },
+    {
+      "run_id": "40695418975",
+      "status": "reconciliation_required",
+      "assigned_count": 1,
+      "no_due_work": null,
+      "published_posts": 0,
+      "model_calls": null,
+      "post_mutations": null,
+      "coordinator_failure": {
+        "kind": "checkpoint_recovery",
+        "category": "unconfirmed_prior_run"
+      }
+    },
+    {
+      "run_id": "40697692866",
+      "status": "completed",
+      "assigned_count": 1,
+      "no_due_work": null,
+      "published_posts": 1,
+      "model_calls": null,
+      "post_mutations": null,
+      "coordinator_failure": null
+    },
+    {
+      "run_id": "40698806905",
+      "status": "completed",
+      "assigned_count": 0,
+      "no_due_work": true,
+      "published_posts": 0,
+      "model_calls": 0,
+      "post_mutations": 0,
+      "coordinator_failure": null
+    }
+  ],
+  "observations": [
+    {
+      "observed_at": "2026-10-28T13:04:45.425158+00:00",
+      "runs": [
+        {
+          "id": 40693172990,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": [
+            "Run actions/checkout@v4"
+          ]
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:06:37.417381+00:00",
+      "runs": [
+        {
+          "id": 40693172990,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": [
+            "Bounded coordinator; advance publishes only fully validated families"
+          ]
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:09:40.219698+00:00",
+      "runs": [
+        {
+          "id": 40693172990,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": [
+            "Bounded coordinator; advance publishes only fully validated families"
+          ]
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:11:05.198895+00:00",
+      "runs": [
+        {
+          "id": 40693172990,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": [
+            "Bounded coordinator; advance publishes only fully validated families"
+          ]
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:12:20.696962+00:00",
+      "runs": [
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:17:14.817328+00:00",
+      "runs": [
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:19:45.446473+00:00",
+      "runs": [
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:19:45.446526+00:00",
+      "runs": [
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:21:13.685383+00:00",
+      "runs": [
+        {
+          "id": 40695418975,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": [
+            "Bounded coordinator; advance publishes only fully validated families"
+          ]
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:22:16.020917+00:00",
+      "runs": [
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:23:53.007265+00:00",
+      "runs": [
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:24:46.708622+00:00",
+      "runs": [
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:27:17.510435+00:00",
+      "runs": [
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:29:48.371242+00:00",
+      "runs": [
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:32:19.166956+00:00",
+      "runs": [
+        {
+          "id": 40697268448,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": [
+            "Run actions/checkout@v4"
+          ]
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:33:51.151658+00:00",
+      "runs": [
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:34:50.273206+00:00",
+      "runs": [
+        {
+          "id": 40697692866,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": [
+            "Run actions/checkout@v4"
+          ]
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:37:19.827931+00:00",
+      "runs": [
+        {
+          "id": 40697692866,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": [
+            "Bounded coordinator; advance publishes only fully validated families"
+          ]
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:37:21.464059+00:00",
+      "runs": [
+        {
+          "id": 40697692866,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": [
+            "Bounded coordinator; advance publishes only fully validated families"
+          ]
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:39:52.874601+00:00",
+      "runs": [
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:40:06.520351+00:00",
+      "runs": [
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        },
+        {
+          "id": 40693172990,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40693172990",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:42:24.224125+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": [
+            "Run actions/checkout@v4"
+          ]
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:44:06.036798+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:44:55.676203+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:47:27.011045+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:49:58.472529+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:52:30.039134+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:55:01.302187+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T13:57:32.639681+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T14:00:04.011195+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T14:02:35.657926+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-10-28T14:04:38.422490+00:00",
+      "runs": [
+        {
+          "id": 40698806905,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40698806905",
+          "active_steps": []
+        },
+        {
+          "id": 40697692866,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697692866",
+          "active_steps": []
+        },
+        {
+          "id": 40697268448,
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40697268448",
+          "active_steps": []
+        },
+        {
+          "id": 40695418975,
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/kapitansaman/afp-pipe/actions/runs/40695418975",
+          "active_steps": []
+        }
+      ]
+    }
+  ],
+  "next_step": "After retained translation deadlines, continue the same family under original budgets; run manual rollout-verify only once source and all four translations pass; then start phase 3. No timer or automatic continuation was enabled."
+}
