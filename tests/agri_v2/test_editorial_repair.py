@@ -51,3 +51,26 @@ class EditorialRepairTests(unittest.TestCase):
   for key,value in (('max_model_calls',1),('max_new_posts',1),('max_existing_posts',3),('authorized',False)):
    bad=copy.deepcopy(req);bad[key]=value
    with self.assertRaises(ValueError):r.validate(bad)
+
+ def test_reconciliation_reads_existing_persian_update_and_writes_only_untouched_english(self):
+  with tempfile.TemporaryDirectory() as td,patch.object(r,'get_topic',return_value={'crop':'چغندر لبویی'}),patch.object(r,'verify_target'),patch.object(r,'validate_targets'):
+   data,out,wp,posts,mutations=self.setup(Path(td))
+   with patch.object(r,'verify_sources',side_effect=ValueError('Old WP wrapper validation')):first=r.run(data,out,wp)
+   self.assertEqual(first['status'],'repair_stopped_reconciliation_required');self.assertEqual(len(mutations),1)
+   final=r.reconcile(data,out,wp);self.assertEqual(final['status'],'public_presentation_verified');self.assertEqual([i for i,p in mutations],[524196,524200]);self.assertFalse(final['results']['fa-IR']['new_write_during_reconciliation']);self.assertTrue(final['results']['en-US']['new_write_during_reconciliation']);self.assertIn('failure',final)
+ def test_reconciliation_blocks_newer_live_content_before_any_additional_write(self):
+  with tempfile.TemporaryDirectory() as td,patch.object(r,'get_topic',return_value={'crop':'چغندر لبویی'}),patch.object(r,'verify_target'),patch.object(r,'validate_targets'):
+   data,out,wp,posts,mutations=self.setup(Path(td))
+   with patch.object(r,'verify_sources',side_effect=ValueError('Old wrapper')):r.run(data,out,wp)
+   posts[524196]['content']['raw']+='<p>Human update</p>'
+   with self.assertRaises(r.WPError):r.reconcile(data,out,wp)
+   self.assertEqual(len(mutations),1)
+ def test_reconciliation_never_replays_successful_but_unconfirmed_write(self):
+  with tempfile.TemporaryDirectory() as td,patch.object(r,'get_topic',return_value={'crop':'چغندر لبویی'}),patch.object(r,'verify_target'),patch.object(r,'validate_targets'):
+   data,out,wp,posts,mutations=self.setup(Path(td));original=wp.call
+   def unknown(path,method='GET',data=None):
+    value=original(path,method,data)
+    if path=='posts/524200' and method=='POST':raise RuntimeError('Response lost after committed update')
+    return value
+   wp.call=unknown;self.assertEqual(r.run(data,out,wp)['status'],'repair_stopped_reconciliation_required');self.assertEqual(len(mutations),2)
+   final=r.reconcile(data,out,wp);self.assertEqual(final['status'],'public_presentation_verified');self.assertFalse(final['results']['en-US']['new_write_during_reconciliation']);self.assertEqual(len(mutations),2)

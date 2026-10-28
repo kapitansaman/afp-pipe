@@ -35,3 +35,9 @@ class EditorialPresentationTests(unittest.TestCase):
    if lang=='fa-IR':continue
    row={'language':lang,'title':'Title','content_html':'<p>Fact <a href="https://extension.usu.edu/beets">Source</a></p>','faq':[{'question':'Q','answer':'A'}]}
    body=m.localized_body(row,[{'url':'https://navar-abyari.ir/image.webp'}],{lang:[]});self.assertEqual(e.verify_sources(body,self.sources(),lang),['https://extension.usu.edu/beets']);self.assertIn('<h2>'+label+'</h2>',body);self.assertLess(body.index(m.FAQ_LABEL[lang]),body.index(e.START))
+
+ def test_wordpress_autop_and_toc_wrappers_preserve_logical_end_section(self):
+  r=e.end_sources('<p>Fact <a href="https://extension.usu.edu/beets">Source</a></p>',self.sources())
+  rendered=r.replace(e.START,'<p>'+e.START+'</p>').replace(e.END,'<p>'+e.END+'</p>').replace('<h2>منابع</h2>','<h2><span id="i-7">منابع</span></h2>')+'\n'
+  self.assertEqual(e.verify_sources(rendered,self.sources()),['https://extension.usu.edu/beets']);self.assertEqual(e.end_sources(rendered,self.sources()),rendered)
+  with self.assertRaises(ValueError):e.verify_sources(rendered+'<p>New scientific text</p>',self.sources())

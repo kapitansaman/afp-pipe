@@ -55,11 +55,14 @@ def end_sources(body,sources,language='fa-IR'):
  verify_sources(result,sources,language);return result
 
 def verify_sources(body,sources,language='fa-IR'):
- if body.count(START)!=1 or body.count(END)!=1 or not body.rstrip().endswith(END):raise ValueError('Sources must be the final post section')
+ if body.count(START)!=1 or body.count(END)!=1:raise ValueError('Sources must be the final post section')
  before,tail=body.split(START);block,after=tail.split(END)
+ # WordPress wpautop may wrap marker comments in p; TOC adds spans inside h2.
+ if not re.fullmatch(r'\s*(?:</(?:p|div|section)>\s*)*',after):raise ValueError('Sources must be the final post section')
+ headings=[html.unescape(re.sub(r'<[^>]+>','',h)) for h in re.findall(r'<h2\b[^>]*>(.*?)</h2>',block,re.S|re.I)]
  allowed={s['url'] for s in sources};external=lambda part:[u for u,t in anchors(part) if urllib.parse.urlsplit(u).scheme in ('https','http') and urllib.parse.urlsplit(u).hostname!='navar-abyari.ir']
  urls=external(block)
- if external(before) or not urls or len(set(urls))!=len(urls) or not set(urls)<=allowed or '<h2>'+LABELS[language]+'</h2>' not in block:raise ValueError('Invalid final scientific bibliography')
+ if external(before) or not urls or len(set(urls))!=len(urls) or not set(urls)<=allowed or not any(norm(h)==norm(LABELS[language]) for h in headings):raise ValueError('Invalid final scientific bibliography')
  return urls
 
 def words(text):return re.sub(r'[^\w\s\u200c]',' ',html.unescape(text)).replace('ي','ی').replace('ك','ک').replace('\u200c',' ').split()
