@@ -50,8 +50,12 @@ def validate_coverage(value,topic,plan,docs):
  if any(not r['covered'] for r in rows) and not queries:raise RepairBlocked('source_coverage_missing_search_plan')
  return value
 
-def coverage(topic,plan,docs,client,round_number):
- value=client.text(json.dumps(coverage_request(topic,plan,docs,round_number),ensure_ascii=False),attempts=1,max_tokens=3000)
+def coverage(topic,plan,docs,client,round_number,raw_directory=None):
+ request=coverage_request(topic,plan,docs,round_number)
+ value=client.text(json.dumps(request,ensure_ascii=False),attempts=1,max_tokens=3000)
+ if raw_directory is not None:
+  key=coverage_fingerprint(request);response_sha=coverage_fingerprint(value)
+  atomic_json(raw_directory/key/(response_sha+'.json'),{'version':1,'input_sha256':key,'response_sha256':response_sha,'response':value,'scientific_acceptance':False,'publication_authorized':False})
  return validate_coverage(value,topic,plan,docs)
 
 def coverage_fingerprint(value):
@@ -64,7 +68,7 @@ def cached_coverage(topic,plan,docs,client,round_number,work):
   row=load_json(p)
   if row.get('version')!=1 or row.get('input_sha256')!=key or row.get('scientific_acceptance') is not False or row.get('publication_authorized') is not False or row.get('response_sha256')!=coverage_fingerprint(row.get('verdict')):raise RepairBlocked('source_coverage_cache_binding_invalid')
   return validate_coverage(row.get('verdict'),topic,plan,docs),True
- value=coverage(topic,plan,docs,client,round_number)
+ value=coverage(topic,plan,docs,client,round_number,work/'coverage-responses')
  atomic_json(p,{'version':1,'input_sha256':key,'response_sha256':coverage_fingerprint(value),'created_at':utcnow(),'verdict':value,'scientific_acceptance':False,'publication_authorized':False})
  return value,False
 
