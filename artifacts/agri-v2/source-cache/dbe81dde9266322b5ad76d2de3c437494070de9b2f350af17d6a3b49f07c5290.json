@@ -1,0 +1,428 @@
+{
+  "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+  "requested_url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+  "redirect_chain": [
+    "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php"
+  ],
+  "text": "Drip Line Rate Calculator Home Login Cooperative Extension Search Irrigation Scheduling Program NRCS Soil Survey AgWeatherNet Irrigation in the Pacific Northwest Washington State University Extension Oregon State University Extension University of Idaho Extension Home Mobile Irrigation Calculators Popular Drip Line Rate Sprinkler Application Rate Nozzle Requirements Water Application Rate Pipeline Pressure Loss Technoglogy Cost-Benefit Irrigation Management Calculators Irrigation Frequency Set Times Water Depth Water Application Rate Drip Drip Line Rate Drip Design for Landscapes Sprinkler Sprinkler Application Rate Nozzle Requirements Lateral Friction Loss Hand Move Sprinklers Sprinkler Density Sprinkler Discharge Rate Traveling Big Gun Sprinkler Traveling Sprinkler Center Pivot Percent Timer Setting 1\" Application Time Center Pivot Acreage Pivot Full Rotation Time Pivot Movement Costs Residential Drip Design for Landscapes Garden Hose Flow Rate Lawn Water Management Tree Water Management General Design Calculators Field Area Irrigatable Area Irrigation Frequency Irrig Set Run Time Season Operating Hours Required Water Pump Horsepower Irrigation Water Costs System Pumping Requirements NPSHA Total Dynamic Head Pipe Size Estimate Pipe Velocity and Diameter Pipeline Pressure Loss Pressure Loss with Outlets Fitting Pressure Loss Pipeline Pressure Rating Required Maximum Flow Rate Water Application Rate Water Depth Water Hammer Irrigation System Capacity Water Measurement Calculators Cipolletti (Trapezoidal) Weir 90° Triangular Notch Weir Parshall Flume Rectangular Contracted Weir Rectangular Submerged Orifices Trapezoidal Flume Vertical Pipes Chemigation Chemical Injection Rate (Volume) Chemical Injection Rate (Mass) Chemical Injection Rate (Water Chemistry Control) Maximum Solution Concentration Mixing Dry Chemicals Batch/Bulk Application Minimum Batch Volume Calibration Quantity Per Sprinkler Setting FAQs & Tutorials Agricultural FAQs Residential FAQs Basic Irrigation Tutorials Water Holding Home Experiment Irrigation Resources Irrigation Scheduler Mobile Irrigation Schedule Tables Irrigation Fact Sheets Irrigation Glossary Unit Descriptions Unit Conversions Washington Washington Irrigation Water Needs Days-of-Year. 21 Points Days-of-Year. 5 Points Growing-Deg-Dys. 21 Points One Crop, All Stations One Station, All Crops Simple Irrigation Schedules Woodruff Charts for Washington Irrigation System Design Capacity Columbia Basin Soil Survey Available Water Map Irrigation Suggestions By Crop Type WSU Irrigation Research Washington Irrigation Links Idaho Idaho Irrigation Links Oregon Oregon Irrigation Links About Us Contact Us Drip Line Rate The drip line application rate is specific to your irrigation system and shouldn't change, so take a note of it. This constant rate is multiplied by all future irrigation set times to give the net application depths for those sets. Use this form to calculate the water application rate of drip irrigation lines (tape, tubing) given the flow rate from individual emitters , a constant spacing of the emitter s along the drip line, and a constant spacing between the drip lines. Learn more about the units used on this page. Emitter flow rate: gph lph ml per min gpm lps Spacing between emitters in the tubing or tape: in ft mm cm m Distance between drip lines: in ft mm cm m Application Rate: in/hr in/day mm/hr mm/day cm/hr cm/day The Equation This calculator uses this equation to determine the Application Rate of a drip line irrigation system. WSU Prosser - IAREC , 24106 N Bunn Rd, Prosser WA 99350-8694, 509-786-2226, Contact Us",
+  "links": [
+    {
+      "url": "https://irrigation.wsu.edu/index.php",
+      "label": "Home"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Resources/Information/Administration-Login.php",
+      "label": "Login"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/mobileirr/index.html",
+      "label": "Mobile"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Select-Calculators.php",
+      "label": "Irrigation Calculators"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Popular.php",
+      "label": "Popular"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+      "label": "Drip Line Rate"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler/Sprinkler-Application-Rate.php",
+      "label": "Sprinkler Application Rate"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler/Nozzle-Requirements.php",
+      "label": "Nozzle Requirements"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Water-Application-Rate.php",
+      "label": "Water Application Rate"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Pipeline-Pressure-Loss.php",
+      "label": "Pipeline Pressure Loss"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/CostBenefit/CostBenefit.php",
+      "label": "Technoglogy Cost-Benefit"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Irrigation-Management-Calculators.php",
+      "label": "Irrigation Management Calculators"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Irrigation-Frequency.php",
+      "label": "Irrigation Frequency"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Set-Times.php",
+      "label": "Set Times"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Water-Depth.php",
+      "label": "Water Depth"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Drip-Calculators.php",
+      "label": "Drip"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Residential/Drip-Design-For-Landscapes.php",
+      "label": "Drip Design for Landscapes"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler-Calculators.php",
+      "label": "Sprinkler"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler/Lateral-Friction-Loss.php",
+      "label": "Lateral Friction Loss"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler/Hand-Move-Sprinklers.php",
+      "label": "Hand Move Sprinklers"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler/Sprinkler-Density.php",
+      "label": "Sprinkler Density"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler/Sprinkler-Discharge.php",
+      "label": "Sprinkler Discharge Rate"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler/Traveling-Big-Gun-Sprinkler.php",
+      "label": "Traveling Big Gun Sprinkler"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Sprinkler/Traveling-Sprinkler.php",
+      "label": "Traveling Sprinkler"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Center-Pivot-Calculators.php",
+      "label": "Center Pivot"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Center-Pivot/Percent-Timer.php",
+      "label": "Percent Timer Setting"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Center-Pivot/1-Inch-Application-Time.php",
+      "label": "1\" Application Time"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Center-Pivot/Pivot-Acreage.php",
+      "label": "Center Pivot Acreage"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Center-Pivot/Full-Rotation.php",
+      "label": "Pivot Full Rotation Time"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Center-Pivot/Pivot-Movement-Costs.php",
+      "label": "Pivot Movement Costs"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Residential-Calculators.php",
+      "label": "Residential"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Residential/Garden-Hose-Flow.php",
+      "label": "Garden Hose Flow Rate"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Residential/Lawn-Water-Management.php",
+      "label": "Lawn Water Management"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Residential/Tree-Water-Management.php",
+      "label": "Tree Water Management"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General-Design-Calculators.php",
+      "label": "General Design Calculators"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Field-Area.php",
+      "label": "Field Area"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Irrigatable-Area-By-Water-Supply.php",
+      "label": "Irrigatable Area"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Irrigation-Run-Time.php",
+      "label": "Irrig Set Run Time"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Operating-Hrs.php",
+      "label": "Season Operating Hours"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Required-Water-Pump-HP.php",
+      "label": "Required Water Pump Horsepower"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Irrigation-Water-Costs.php",
+      "label": "Irrigation Water Costs"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/System-Pumping-Requirements.php",
+      "label": "System Pumping Requirements"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/NPSHA.php",
+      "label": "NPSHA"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Total-Dynamic-Head.php",
+      "label": "Total Dynamic Head"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Pipe-Size-Estimate.php",
+      "label": "Pipe Size Estimate"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Pipe-Velocity.php",
+      "label": "Pipe Velocity and Diameter"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Pressure-Loss-With-Outlets.php",
+      "label": "Pressure Loss with Outlets"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Fitting-Pressure-Loss.php",
+      "label": "Fitting Pressure Loss"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Pipe-Pressure-Rating.php",
+      "label": "Pipeline Pressure Rating"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Required-Maximum-Flow-Rate.php",
+      "label": "Required Maximum Flow Rate"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Water-Hammer.php",
+      "label": "Water Hammer"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/General/Water-Supply-Design.php",
+      "label": "Irrigation System Capacity"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Water-Measurement-Calculators.php",
+      "label": "Water Measurement Calculators"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Water-Measurements/Cipolletti-Weir.php",
+      "label": "Cipolletti (Trapezoidal) Weir"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Water-Measurements/90-Degree-Triangular-Notch-Weirs.php",
+      "label": "90° Triangular Notch Weir"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Water-Measurements/Parshall-Flume.php",
+      "label": "Parshall Flume"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Water-Measurements/Rectangular-Contracted-Weir.php",
+      "label": "Rectangular Contracted Weir"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Water-Measurements/Rectangular-Submerged-Orifices.php",
+      "label": "Rectangular Submerged Orifices"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Water-Measurements/Trapezoidal-Flume.php",
+      "label": "Trapezoidal Flume"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Water-Measurements/Vertical-Pipe-Flow.php",
+      "label": "Vertical Pipes"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation-Calculators.php",
+      "label": "Chemigation"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Injection-Rate-By-Volume.php",
+      "label": "Chemical Injection Rate (Volume)"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Injection-Rate-By-Mass.php",
+      "label": "Chemical Injection Rate (Mass)"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Chemical-Injection-Rate-Water-Chemistry-Control.php",
+      "label": "Chemical Injection Rate (Water Chemistry Control)"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Maximum-Solution-Concentration.php",
+      "label": "Maximum Solution Concentration"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Mixing-Dry-Chemicals.php",
+      "label": "Mixing Dry Chemicals"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Batch-Bulk-Application.php",
+      "label": "Batch/Bulk Application"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Minimum-Batch-Volume.php",
+      "label": "Minimum Batch Volume"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Calibration.php",
+      "label": "Calibration"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Chemigation/Set-Sprinklers.php",
+      "label": "Quantity Per Sprinkler Setting"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/FAQs-and-Tutorials.php",
+      "label": "FAQs & Tutorials"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/FAQs-Tutorials/Agricultural-Irrigator-FAQs.php",
+      "label": "Agricultural FAQs"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/FAQs-Tutorials/Residential-Irrigator-FAQs.php",
+      "label": "Residential FAQs"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/FAQs-Tutorials/Basics-of-Plant-Soil-Water-Relations-Tutorials.php",
+      "label": "Basic Irrigation Tutorials"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/FAQs-Tutorials/Water-Holding-Tutorial.php",
+      "label": "Water Holding Home Experiment"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Irrigation-Resources.php",
+      "label": "Irrigation Resources"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Resources/Irrigation-Scheduling-Aids-Tools.php",
+      "label": "Irrigation Scheduler Mobile"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Resources/Irrigation-Schedule-Tables.php",
+      "label": "Irrigation Schedule Tables"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Resources/Irrigation-Fact-Sheets.php",
+      "label": "Irrigation Fact Sheets"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Resources/Irrigation-Glossary.php",
+      "label": "Irrigation Glossary"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Resources/Irrigation-Unit-Descriptions.php",
+      "label": "Unit Descriptions"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Resources/Irrigation-Unit-Conversions.php",
+      "label": "Unit Conversions"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Washington-Irrigation.php",
+      "label": "Washington"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/ET_IWR_For_WA.php",
+      "label": "Washington Irrigation Water Needs"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Historic/StationCropDOY.php",
+      "label": "Days-of-Year. 21 Points"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Historic/StationCrop5Stage.php",
+      "label": "Days-of-Year. 5 Points"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Historic/StationCrop21Point.php",
+      "label": "Growing-Deg-Dys. 21 Points"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Historic/AllStations1Crop.php",
+      "label": "One Crop, All Stations"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Historic/AllCrops1Station.php",
+      "label": "One Station, All Crops"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Historic/SimpleSched.php",
+      "label": "Simple Irrigation Schedules"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Historic/WoodruffChart.php",
+      "label": "Woodruff Charts for Washington"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Calculators/Historic/IrrigDesignCap.php",
+      "label": "Irrigation System Design Capacity"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Washington/Columbia-Basin-Soil-Survey.php",
+      "label": "Columbia Basin Soil Survey"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Washington/Columbia-Basin-Available-Water-Map.php",
+      "label": "Available Water Map"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Washington/Irrigation-Suggestions-By-Crop-Type.php",
+      "label": "Irrigation Suggestions By Crop Type"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Washington/WSU-Irrigation-Research.php",
+      "label": "WSU Irrigation Research"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Washington/Washington-Irrigation-Links.php",
+      "label": "Washington Irrigation Links"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Idaho-Irrigation.php",
+      "label": "Idaho"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Idaho/Idaho-Irrigation-Links.php",
+      "label": "Idaho Irrigation Links"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Oregon-Irrigation.php",
+      "label": "Oregon"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Oregon/Oregon-Irrigation-Links.php",
+      "label": "Oregon Irrigation Links"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/About-Us.php",
+      "label": "About Us"
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Contact-Us.php",
+      "label": "Contact Us"
+    }
+  ],
+  "fetched_at": "2026-10-28T09:25:40.051864+00:00",
+  "sha256": "2886b4f276ea78e6411993be6e818c6e56cdab3f6f609449e04bc508ee949fa3",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

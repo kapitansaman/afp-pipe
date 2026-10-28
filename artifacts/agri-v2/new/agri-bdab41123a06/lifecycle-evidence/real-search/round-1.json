@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T06:29:28.843686+00:00",
+  "started_at": "2026-10-28T09:24:49.909869+00:00",
   "queries": [
     {
       "query_id": "d96329ab19d39d96eb8d3631e486a12de13d2a80153926ce89882c04b5f43bae",
       "query": "alfalfa irrigation resume after rain soil moisture threshold university extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793168999.3983514,
       "results": [
         {
@@ -33,7 +33,7 @@
     {
       "query_id": "5a27d8a1b2ebbecbcc6637cc8f97562b5e38b8d253462e610356585606f338f2",
       "query": "post-rain alfalfa soil water tension refill deficit when to irrigate again",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793169003.0658476,
       "results": [
         {
@@ -88,32 +88,27 @@
       {
         "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
         "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://sites.udel.edu/weeklycropupdate?p=13798",
         "canonical_url": "https://sites.udel.edu/weeklycropupdate/?p=13798",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
         "canonical_url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
         "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
         "canonical_url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -125,18 +120,26 @@
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No supplied document specifies a decision rule for when to resume alfalfa irrigation after rainfall. Sources cover general irrigation scheduling (soil moisture tension, ET-based checkbook method) and fall/winter irrigation timing, but none address the post-rainfall interval—e.g., how long to wait after rain before re-irrigating, or a soil moisture threshold to act upon after rainfall."
+        "missing": "No supplied document provides a university or peer-reviewed decision rule for when to resume alfalfa irrigation after rainfall. s11 gives general soil-moisture depletion triggers (50%/40% of available water) and visual cues (darkening leaf color), but does not specify how to adjust or delay irrigation timing in response to a rain event. s10 mentions pausing irrigation before cutting but not rain-adjusted resumption rules."
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [],
-        "missing": "No supplied document provides a post-rainfall irrigation threshold with explicit units (kPa matric potential, cm H2O, % available water, or mm) scoped to field-grown alfalfa irrigation after rainfall. Document s11 includes matric potential tables for routine scheduling but not for the rain-adjust scenario; document s12 mentions '50% depletion' without post-rainfall specificity or unit context for this intent."
+        "missing": "No supplied document pairs explicit irrigation-threshold units (kPa matric potential, cm H2O, % available water remaining, or mm depth) with a rain-adjustment decision rule for field-grown alfalfa. s11 reports kPa ranges by soil texture and 50%/40% depletion levels under general scheduling, but these are not framed as post-rainfall resumption thresholds, nor are they scoped to a specific growth/harvest stage or geography for the rain-adjust intent."
       },
       {
         "id": "species_product",
         "covered": true,
         "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
           "s10",
           "s11",
           "s12"
@@ -145,9 +148,9 @@
       }
     ],
     "next_queries": [
-      "alfalfa irrigation after rainfall university extension when to resume",
-      "alfalfa soil moisture tension threshold post-rainfall irrigation scheduling"
+      "alfalfa irrigation scheduling after rainfall university extension decision rule",
+      "alfalfa soil moisture threshold resume irrigation after rain University of Nebraska Minnesota"
     ]
   },
-  "completed_at": "2026-10-28T06:30:16.029632+00:00"
+  "completed_at": "2026-10-28T09:25:14.275308+00:00"
 }

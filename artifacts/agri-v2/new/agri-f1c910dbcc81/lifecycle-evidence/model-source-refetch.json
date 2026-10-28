@@ -8,18 +8,18 @@
     "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
     "raw_sha256": "7c0b3c4bbe232860b4555e5e973d72a41893e3bb63cf1b3b8ff3479c5116a1c3"
   },
-  "completed_at": "2026-10-28T06:31:18.851075+00:00",
+  "completed_at": "2026-10-28T09:26:00.133412+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T06:29:29.023807+00:00",
+      "started_at": "2026-10-28T09:24:50.000142+00:00",
       "queries": [
         {
           "query_id": "72d5afb0d2cbdb7ebab3a1a672a7897f8ce1eb0d1053839e8586f6d23b1e85e3",
           "query": "alfalfa drip irrigation cycle duration flow rate discharge L/s university extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793168973.8864627,
           "results": [
             {
@@ -42,7 +42,7 @@
         {
           "query_id": "40208dc3f171ba5c939eb1a88f2e9e5763caefe9c0a1dee05d04e21e99fc451f",
           "query": "alfalfa trickle tape irrigation scheduling application rate mm per event measured discharge",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793168976.2283576,
           "results": [
             {
@@ -103,20 +103,17 @@
           {
             "url": "https://bookstore.ksre.ksu.edu/pubs/subsurface-drip-irrigation-for-alfalfa_MF2867.pdf",
             "canonical_url": "https://bookstore.ksre.ksu.edu/pubs/subsurface-drip-irrigation-for-alfalfa_MF2867.pdf",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
             "canonical_url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
             "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://www.sciencedirect.com/science/article/pii/S0378377424000283",
@@ -135,13 +132,13 @@
             "id": "exact_reader_method",
             "covered": false,
             "document_ids": [],
-            "missing": "No document presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge or flow-rate input (L/s or m³/h per tape length). s10 gives a center-pivot capacity example (gpm → in/day) but does not compute an irrigation set duration from emitter discharge and tape length. s11 and s12 provide scheduling theory (AWC, MAD, flow rate tables) with generic formulas but no crop-specific measured duration for alfalfa drip/tape."
+            "missing": "No source presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge/flow-rate input (L/s or m³/h per tape length). s11 provides system-level flow-rate determination methods (bucket test, pitot, nozzle tables) and a sample calculation, but uses a generic wheel-line example with no alfalfa-specific duration-from-discharge calculation. s10 discusses SDI capacity conceptually but gives no formula or worked example converting discharge to tape-duration for alfalfa."
           },
           {
             "id": "measurement_units_and_scope",
             "covered": false,
             "document_ids": [],
-            "missing": "No document states original discharge/emitter units, tape length, emission rate, irrigation-depth-per-event, and soil-moisture threshold together for alfalfa with geography and crop stage. s11 gives rooting depth (4 ft) and MAD (60 %) for alfalfa but no discharge or tape data. s10 mentions SDI spacing and depth but not discharge per emitter or calculated set duration. s12 gives rooting depth (48 in) and AWC tables but no flow or tape parameters for alfalfa."
+            "missing": "No source supplies the required original measurement units—actual discharge (L/s or m³/h per tape length), emitter emission rate, tape length, or irrigation depth per event—explicitly tied to alfalfa with geography and crop stage. s10 reports total seasonal application depth (20–25 in/yr) and gross capacity (0.29 in/day for a 128-acre pivot), but these are system-wide totals, not per-event discharge-derived duration inputs. s11 gives nozzle flow tables and a generic application-rate example but without alfalfa, tape length, or discharge-per-unit-length inputs."
           },
           {
             "id": "species_product",
@@ -153,59 +150,49 @@
           }
         ],
         "next_queries": [
-          "alfalfa subsurface drip irrigation discharge per emitter L/s set duration calculation university extension",
-          "alfalfa drip tape irrigation scheduling flow rate application depth per event site:extension.usda.gov OR site:ksu.edu"
+          "alfalfa drip tape irrigation duration calculation flow rate per emitter L/s discharge university extension",
+          "subsurface drip irrigation alfalfa emitters flow rate application depth calculation per event university research"
         ]
       },
-      "completed_at": "2026-10-28T06:30:53.132995+00:00"
+      "completed_at": "2026-10-28T09:25:32.216486+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T06:30:53.133611+00:00",
+      "started_at": "2026-10-28T09:25:32.217457+00:00",
       "queries": [
         {
-          "query_id": "d733a3b79a633cd32938586607ce0725db532d110786a7d24924ce35f739e5fc",
-          "query": "alfalfa subsurface drip irrigation discharge per emitter L/s set duration calculation university extension",
+          "query_id": "54dc12be2efea8c9e88b4f59eb69ce6bc6eee3e5dcd1e9f02e75e8a8598e6657",
+          "query": "alfalfa drip tape irrigation duration calculation flow rate per emitter L/s discharge university extension",
           "cached": false,
-          "checked_at_epoch": 1793169055.101995,
+          "checked_at_epoch": 1793179536.2612624,
           "results": [
             {
-              "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
-              "title": "Irrigating Alfalfa in Arid Regions",
-              "description": "Drip irrigation systems discharge small amounts of water through emitters peri­ odically installed at set distances along drip lines. Emitter discharge rates can range from 0.13 gallons (0.59 l) per hour to 2 gallons (9.1 l) per hour, depending on the type of material and size of hose used for drip laterals. [...] Determine the application rate (AR) of the • sprinkler. This method is appropriate for wheel-line and hand-move sprinkler sys­ tems. The irrigation set time is calculated from Equation 3: T = D ÷ AR [Eq. 3] where T equals the irrigation set time (hours) and AR is the application rate (inches [mm] per hour). The application rate depends on the discharge rate of an individual sprinkler and the overlapped sprinkler spacing, and can be determined from Equation 4: AR = (96.3 × q) ÷ (Sl × Sm) [Eq. 4] [...] Sprinkler Timing The amount of water applied should equal the alfalfa ET or soil moisture depletion between irrigations and an additional amount to account for the irrigation efficiency. The irriga­ tion set time needed for sprinkler irrigation can be determined using either of the two following methods: Calculate the required irrigation set time • using Equation 2 (below). T"
+              "url": "https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/HO122.pdf",
+              "title": "Simple Calculations for Drip Irrigation - Extension Publications",
+              "description": "our 36 rows is 200 ft long so we will need about 36 x 200 ft = 7,200 ft of drip tape. From the irrigation supply catalog or from the label on the roll of drip tape (Figure 2) we see that the flow rate of our tape is 0.5 gallons per minute (gpm) for each 100 ft of tape when the system is pressurized at 8 psi. So to de­ termine our total flow in this one-acre plot through 7,200 ft of drip tape, first divide 7,200 ft by 100 = 72 and multiply the result by 0.5 gpm (72 x 0.5 gpm = 36 psi = pounds [...] per acre and its total flow rate per acre. Row spacing (inch) Drip tape/acre (ft) Drip tape emitter spacing (inch) 8\" 8\" 12\" 12\" 16\" 16\" 24\" Drip tape flow rate (gpm per 100 ft) 0.67 0.34 0.45 0.22 0.34 0.17 0.28 30 17,424 117 59 78 38 59 30 49 32 16,335 109 56 74 36 56 28 46 34 15,374 103 52 69 34 52 26 43 36 (3 ft) 14,520 97 49 65 32 49 25 41 38 13,756 92 47 62 30 47 23 39 40 13,068 88 44 59 29 44 22 37 42 12,446 83 42 56 27 42 21 35 44 11,880 80 40 53 26 40 20 33 46 11,363 76 39 51 25 39 19 [...] to 34 x 208.7 ft = 7,096 ft. In this example we will use the same drip tape with a flow rate of 0.5 gpm per 100 ft. So to calculate the total flow through 7,096 ft of drip tape, first divide 7"
             },
             {
-              "url": "https://bookstore.ksre.ksu.edu/download/subsurface-drip-irrigation-for-alfalfa_MF2867",
-              "title": "MF2867 Subsurface Drip Irrigation for Alfalfa - KSRE Bookstore",
-              "description": "Subsurface drip irrigation also shows improved crop yield because it eliminates leaf scalding in alfalfa, which may occur when using sprinkler irrigation ("
-            },
-            {
-              "url": "https://digitalcommons.usu.edu/etd2023/715",
-              "title": "\"Effects of Subsurface-Drip-Irrigation on Alfalfa ...",
-              "description": "Subsurface drip irrigation (SDI), which delivers water directly to plant roots through buried drip lines, it often reduces water consumption and increases"
+              "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+              "title": "Drip Line Rate Calculator",
+              "description": "The drip line application rate is specific to your irrigation system and shouldn't change, so take a note of it. This constant rate is multiplied by all future irrigation set times to give the net application depths for those sets. Use this form to calculate the water application rate of drip irrigation lines (tape, tubing) given the flow rate from individual emitters, a constant spacing of the emitters along the drip line, and a constant spacing between the drip lines. Learn more about the [...] Home\n Login\n Cooperative Extension Search\n Irrigation Scheduling Program\n NRCS Soil Survey\n AgWeatherNet\n\n## \n\n# Irrigation in the Pacific Northwest\n\n Washington State University Extension\n Oregon State University Extension\n University of Idaho Extension"
             }
           ]
         },
         {
-          "query_id": "c1f134fbf5206842573ca1b213a76e313ac595ca6de13edf15fd3b4dfc657314",
-          "query": "alfalfa drip tape irrigation scheduling flow rate application depth per event site:extension.usda.gov OR site:ksu.edu",
+          "query_id": "e0984f889831781ef0bcc676b788190b342f73e78250772b9ad5a63774f986b9",
+          "query": "subsurface drip irrigation alfalfa emitters flow rate application depth calculation per event university research",
           "cached": false,
-          "checked_at_epoch": 1793169059.2903643,
+          "checked_at_epoch": 1793179539.125062,
           "results": [
-            {
-              "url": "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Alfalfa/AlfalfaProductionManual.pdf",
-              "title": "ALFALFA PRODUCTION MANUAL",
-              "description": "Subsurface drip irrigation on alfalfa is used in a number of areas in the arid west. Experience on medium textured soils has shown that driplines with 24 inch dripper spacing, rows positioned 40-60 inches apart and buried 12 to 18 inches deep result in very even growth over the total soil surface area. Dripper flow rate and spacing are determined by the soil properties and water availability. The common method for the scheduling of irrigation is based on crop water use. Commercial yields of up [...] At a given row spacing, the flow out of each dripper and the spacing between drippers will determine the application rate. The application rate desired is dependent on water requirements, water availability and cultural practices. A common system may use 0.16 GPH Typhoon emitters spaced 24 inches apart. This will give an application rate of 0.038 inches/hour or 0.91 inches in a 24 hour period. Factors that affect dripline spacing, emitter flow rate and spacing, and dripline depth of placement [...] To calculate the flow rate expected for each zone use the following formula: Flow rate (GPM) = (0.2) X total length of dripline (ft) in zone X dripper flow rate (GPH) / dripper spacing (in) C"
-            },
             {
               "url": "https://www.sciencedirect.com/science/article/pii/S0378377424000283",
               "title": "Simulated soil water distribution patterns and water use of Alfalfa under different subsurface drip irrigation depths",
-              "description": "in topsoil volumetric soil water content was observed for drip lines at 45 cm depth as compared with 15 cm depth. Drip lines at 30 cm depth are likely the optimal for RWU and free drainage; however, drip lines at 45 cm depth may allow growers to provide additional irrigation events (without increasing the topsoil volumetric soil water content) closer to the harvest date, potentially resulting in higher yield and water use efficiency. [...] Alfalfa is one of the major perennial forage crops in California, vital for the livestock industry, and provides environmental benefits to the ecosystem in the state. Information on subsurface drip irrigation (SDI) practices on alfalfa is limited particularly in areas related to drip tape spacings and installation depths and their impacts on topsoil profile wetting patterns and alfalfa productivity. The objective of this study was to compare three different depths of drip lines: 15, 30, and 45 [...] ## Highlights\n\n   •HYDRUS simulated soil profile moisture distribution of SDI for alfalfa well. \n   •There was no significant difference between root water uptake (RWU) among drip depths. \n   •A 10%, and 20% reduction in topsoil moisture content was o"
+              "description": "in topsoil volumetric soil water content was observed for drip lines at 45 cm depth as compared with 15 cm depth. Drip lines at 30 cm depth are likely the optimal for RWU and free drainage; however, drip lines at 45 cm depth may allow growers to provide additional irrigation events (without increasing the topsoil volumetric soil water content) closer to the harvest date, potentially resulting in higher yield and water use efficiency. [...] All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.\n\nImage 7: RELX group home page\n\nPersistent link using digital object identifier (DOI) [...] ## Highlights\n\n   •HYDRUS simulated soil profile moisture distribution of SDI for alfalfa well. \n   •There was no significant difference between root water uptake (RWU) among drip depths. \n   •A 10%, and 20% reduction in topsoil moisture content was obtained for drip lines at 30 cm, and 45 cm depth. \n   •Drip lines at 45 cm depth allow growers to practice additional irrigation events closer to the h"
             },
             {
-              "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
-              "title": "Irrigating Alfalfa in Arid Regions",
-              "description": "Normally, drip irrigation of row crops uses a flexible drip tape that inflates upon pressurization. The drip tape may be either installed on the ground surface (surface drip system) or buried (subsurface drip systems). Depending on the grower’s preferences for cultivation equipment and crop rotation, drip lines are usually installed at depths of 9 to 18 inches (229–457 mm). Because of harvesting and other traffic considerations, surface drip is not practical for alfalfa. Subsurface drip lines [...] drip lines may need to be installed as deep as 18 to 24 inches (457 to 610 mm) to prevent wetting of the soil surface during irrigation, which could cause problems for the harvesting equipment. A drip tape wall thickness of 15 mil provides sufficiently heavy walls to prevent damage by wireworms and other subterranean insects with scraping mouthparts that can cause pin­ hole leaks in the tape. However, a 10‑mil wall thickness is the most common compromise between cost and this type of possible [...] Drip irrigation systems discharge small amounts of water through emitters peri­ odically installed at set distances along drip lines. Emitter discharge rates can range from 0.13 gallons (0.59 "
+              "url": "https://bookstore.ksre.ksu.edu/pubs/subsurface-drip-irrigation-for-alfalfa_MF2867.pdf",
+              "title": "MF2867 Subsurface Drip Irrigation for Alfalfa - KSRE Bookstore",
+              "description": "3 observations on systems in Kan­ sas have shown harvest during irrigation to be possible. Since suspended irrigation time for harvest is less of an issue for SDI systems, the irri­ gation capacity of the system is less affected. Irrigation capacity is normally considered to be the effective application depth that the system can supply to a field if the entire field was watered daily. For example, a 128-acre cen­ ter pivot system with a flow rate of 700 gpm has a gross irriga­ tion capacity of [...] tion capacity of 0.29 inches per day, which on good soils would be considered a high irrigation capacity. This system could apply 8.7 inches of water in a 30-day typical harvest cycle for alfalfa; if seven days are required to have the field surface dry enough for harvest operations, only 6.67 inches can be applied. This will mean that the effective irrigation capacity is only 0.22 inches per day, which would be regarded as low irrigation capacity. Because alfalfa yield is linearly related to [...] using sprinkler irrigation (Henggeler, 1995). Subsurface Drip Irrigation for Alfalfa Mahbub Alam Extension Irrigation Engineer Southwest Research and Extension Center Danny H. Rogers Extensio"
             }
           ]
         }
@@ -233,15 +220,15 @@
         "loaded": 2,
         "sources": [
           {
-            "url": "https://bookstore.ksre.ksu.edu/download/subsurface-drip-irrigation-for-alfalfa_MF2867",
-            "canonical_url": "https://bookstore.ksre.ksu.edu/download/subsurface-drip-irrigation-for-alfalfa_MF2867",
+            "url": "https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/HO122.pdf",
+            "canonical_url": "https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/HO122.pdf",
             "redirect_hops": 0,
             "status": "fetched"
           },
           {
-            "url": "https://digitalcommons.usu.edu/etd2023/715",
-            "canonical_url": "https://digitalcommons.usu.edu/etd2023/715/",
-            "redirect_hops": 1,
+            "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+            "canonical_url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+            "redirect_hops": 0,
             "status": "fetched"
           }
         ]
@@ -254,32 +241,30 @@
             "id": "exact_reader_method",
             "covered": false,
             "document_ids": [],
-            "missing": "No fetched document presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge/flow-rate input (L/s or m³/h per tape length). s11 gives a generic set-time formula but no alfalfa-specific worked example with measured discharge; s10/s13 mention gross capacity conceptually without a per-tape-length duration calculation."
+            "missing": "No source presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge/flow-rate input (L/s or m³/h per tape length). s10 discusses SDI capacity conceptually without per-tape or per-meter discharge and set-time calculation. s11 gives a general formula (net water applied = time × flow × 96.3 × efficiency / area) but applies it only to a wheel-line sprinkler example, not alfalfa with explicit emitter flow or tape-length basis."
           },
           {
             "id": "measurement_units_and_scope",
             "covered": false,
             "document_ids": [],
-            "missing": "No document explicitly states original measurement units (discharge, tape length, emitter emission rate, irrigation-depth-per-event, or soil-moisture threshold) tied to alfalfa with geographic and crop-stage context. s11 lists rooting depth (4 ft) and MAD (60%) generically; s12 lists 48-inch rooting depth; s10/s13 give total seasonal water needs (3–5 in/ton) but not per-event inputs with units."
+            "missing": "No supplied document states original discharge units (L/s or m³/h), emission rate per emitter or per tape length, irrigation-depth-per-event for alfalfa, or soil-moisture threshold with an associated geography and crop stage. s11 provides rooting depth and MAD percentages for alfalfa but pairs them with a generic wheel-line example rather than alfalfa-specific event depths or measured set times. s10 reports total seasonal application (inches) and dripline spacing, not per-event duration."
           },
           {
             "id": "species_product",
             "covered": true,
             "document_ids": [
               "s10",
-              "s11",
-              "s12",
-              "s13"
+              "s11"
             ],
             "missing": ""
           }
         ],
         "next_queries": [
-          "alfalfa drip tape irrigation duration calculation actual flow rate L/s emitter spacing extension",
-          "alfalfa subsurface drip irrigation set time calculation discharge per emitter university"
+          "alfalfa drip tape emission rate L/h per 100m set-time calculation discharge university extension",
+          "alfalfa irrigation set duration formula flow rate application depth crop stage university"
         ]
       },
-      "completed_at": "2026-10-28T06:31:18.850471+00:00"
+      "completed_at": "2026-10-28T09:26:00.132554+00:00"
     }
   ],
   "fetches_reserved": 8,

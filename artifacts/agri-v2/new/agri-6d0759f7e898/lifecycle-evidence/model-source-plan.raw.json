@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-6d0759f7e898",
+  "gap": "No source examined provides direct methodological guidance on soil moisture sensor placement, installation depth, spatial distribution pattern, or decision thresholds for alfalfa. All reviewed sources address harvesting, nutrition, pest, or winter-dormancy topics, leaving the sensor methodology gap unaddressed.",
+  "queries": [
+    "alfalfa soil moisture sensor placement depth TDR FDR university extension",
+    "alfalfa irrigation scheduling soil moisture sensor network depth spacing peer-reviewed"
+  ],
+  "requirements": [
+    {
+      "id": "exact_reader_method",
+      "need": "Concrete evidence on where and how deep soil moisture sensors are installed in alfalfa fields — sensor type (TDR, FDR/capacitance, neutron probe), number per field, spatial distribution pattern, and installation protocol — from a university extension or peer-reviewed primary source."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Measured or recommended soil moisture threshold values (volumetric water content or tension) for alfalfa irrigation scheduling decisions, with original units (cSt, MPa, % θv, etc.) and geographic/source context; must not be inferred from unrelated crops."
+    },
+    {
+      "id": "species_product",
+      "need": "Evidence explicitly tied to alfalfa (Medicago sativa) crop stage and growing system — not generalized sensor placement guidance — to confirm relevance for Persian-language alfalfa field monitoring context."
+    }
+  ]
+}

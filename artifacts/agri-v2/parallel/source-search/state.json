@@ -1,9 +1,879 @@
 {
   "version": 1,
   "backend": "tavily",
-  "updated_at": "2026-10-28T06:38:38.269089+00:00",
+  "updated_at": "2026-10-28T09:27:00.607275+00:00",
   "cooldown_until_epoch": 0.0,
   "cache": {
+    "7cabf434fe1cc16a1aed35bf97c9b533f18c4517640dadcbaac2715a9baa79e6": {
+      "checked": 1793179594.6771557,
+      "results": [
+        {
+          "url": "https://extension.psu.edu/diagnosing-soil-compaction-using-a-penetrometer-soil-compaction-tester",
+          "title": "Diagnosing Soil Compaction Using a Penetrometer (Soil Compaction Tester)",
+          "description": "Table 1. Interpretation of penetration resistance measurements.\n\n| Percentage of measuring points having cone index > 300 psi in top 15 inches | Compaction rating | Subsoiling recommended |\n| <30 | Little-none | No |\n| 30-50 | Slight | No |\n| 50-75 | Moderate | Yes |\n| >75 | Severe | Yes |\n\nAdapted from: Lloyd Murdock, Tim Gray, Freddie Higgins, and Ken Wells, 1995. Soil Compaction in Kentucky. Cooperative Extension Service, University of Kentucky, AGR-161. [...] The store will not work correctly when cookies are disabled.\n\nSkip to Content\n\nPenn State ExtensionPenn State Extension\n\nSearch\n\nCart \n\nShopping Cart\n\nArticles\n\n# Diagnosing Soil Compaction Using a Penetrometer (Soil Compaction Tester)\n\nA diagnostic tool to measure the extent and depth of subsurface compaction is a penetrometer, or soil compaction tester.\n\nSave for later  Print \n\n Share\n\nUpdated:\n\nSeptember 9, 2025\n\nSkip to the end of the images gallery [...] drawings of side view and top view of a penetrometer, or soil compaction tester\")\n\nFigure 1a. A penetrometer, or soil compaction tester, has a graded shaft and separate reading scales for each tip. (Figure courtesy of Dickey John)"
+        },
+        {
+          "url": "https://efotg.sc.egov.usda.gov/references/public/RI/Using_Penetrometer_PSU.pdf",
+          "title": "[PDF] Diagnosing Soil Compaction Using a Penetrometer (soil ... - USDA",
+          "description": "Percentage of measuring points having cone index > 300 psi in top 15 inches Compaction rating Subsoiling recommended <30 Little-none No 30-50 Slight No 50-75 Moderate Yes >75 Severe Yes Adapted from: Lloyd Murdock, Tim Gray, Freddie Higgins, and Ken Wells, 1995. Soil Compaction in Kentucky. Cooperative Extension Service, University of Kentucky, AGR-161. [...] programs are funded in part by Pennsylvania counties, the Commonwealth of Pennsylvania, and the U. S. Department of Agriculture. This publication is available from the Publications Distribution Center, The Pennsylvania State University, 112 Agricultural Administration Building, University Park, PA 16802. For information telephone 814-865-6713. Issued in furtherance of Cooperative Extension Work, Acts of Congress May 8 and June 30, 1914, in cooperation with the U.S. Department of Agriculture and [...] of Agriculture and the Pennsylvania Legislature. T. R. Alter, Director of Cooperative Extension, The Pennsylvania State University. Where trade names appear, no discrimination is intended, and no endorsement by the Penn State College of Agricultural Sciences is implied. This publication is available in alternative media on request"
+        },
+        {
+          "url": "https://cropsandsoils.extension.wisc.edu/articles/proper-use-of-cone-penetrometers-for-detecting-soil-compaction",
+          "title": "Proper Use of Cone Penetrometers for Detecting Soil Compaction – Crops and Soils",
+          "description": "Skip to content\n\nUW Madison Crest\n\nCrops and Soils\n\nDivision of Extension\n\nUniversity of Wisconsin-Extension\n\nArticles   >  Soils, Nutrient Management & Soil Health\n\n# Proper Use of Cone Penetrometers for Detecting Soil Compaction\n\nWritten by Crops and Soils Program and Francisco Arriaga\n\nShare\n\n Share:\n\nCopied!\n\nDownload This Publication\n\nPublication ID: A4144\n\n## Proper Use of Cone Penetrometers for Detecting Soil Compaction\n\n### Cone Penetrometer Design\n\n### Penetration Force [...] Since the penetration force is calculated using the cone’s base diameter, the value is referred to as the cone index and can be expressed in units of pounds per square inch (psi) or other metric equivalents. Penetrometers that have a dial gauge provide scales for both the ½ and ¾ inch tips. Digital penetrometers account for tip size and may have advanced features like GPS and internal data logging. [...] ## Cone Penetrometer Design\n\nThe American Society of Agricultural and Biological Engineers (ASABE) developed cone penetrometer design standards for soil compaction to help maintain uniform, consistent measurements across products from different manufacturers.\n\nThe top of the penetrometer has a T-shape"
+        },
+        {
+          "url": "https://extension.wvu.edu/natural-resources/soil-water/soil-testing",
+          "title": "Soil Testing | Extension | West Virginia University",
+          "description": "An easy way to select the soil tests you want, submit information and pay for your soil samples is by going to the WVU Extension online store.\n\nUpon entering the store, there will be a messages that says \"Welcome to the WVU Marketplace Mall.\" Scroll down the page to find \"WVU Extension ANR\" and click on it.\n\nA prompt noting entering the Extension Service Store will appear. Click \"continue.\" [...] Soil test submission forms are available at your local WVU Extension office or you can download a copy directly from this website. Two versions of the submission form are available — a print-only version that can be filled out with a pen or pencil OR a digital version that can be completed using a computer or tablet. If possible, it is recommended that you use the digital version of the form because the typed information is easier for our lab staff to read as they enter it into the database. [...] Extension\n\nExtension Employees WVU Home\n\n Home\n Natural Resources\n Soil & Water\n Soil Testing\n\n# Soil Testing\n\nShare this  Facebook logo Twitter logo LinkedIn logo Pinterest logo Email logo Print Friendly logo\n\nFillable WVU Soil Testing Form Printable WVU Soil Testing Form How to Complete the For"
+        },
+        {
+          "url": "https://extension.sdstate.edu/soil-penetration-resistance-soil-health-indicator",
+          "title": "Soil Penetration Resistance as a Soil Health Indicator",
+          "description": "September 10, 2026\n\nSouth Dakota State University Extension will host a series of webinars for farmers and ranchers interested in learning more about soil health. [...] South Dakota State University extension logo\n\n# Soil Penetration Resistance as a Soil Health Indicator\n\nSoil penetration resistance is the force required to move a specially-tipped metal rod through the soil. The soil penetration resistance value is comparable to the force required for a plant root to grow through the soil. Penetration resistance is also used to identify soil density. [...] A penetrometer is used to measure soil penetration resistance. The two types of penetrometers that are frequently used are static and dynamic penetrometers.\n\n## Measuring Soil Penetration Resistance\n\nMan using a dynamic cone penetrometer.\n\nFigure 1. An example of a dynamic cone penetrometer. Courtesy: Service Supply"
+        }
+      ]
+    },
+    "233b330ca7da1b3ceeb4741b1cb8aaf18bc7e8c37c84ceec5f3363a8baa0c3d1": {
+      "checked": 1793179592.1582675,
+      "results": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11478928",
+          "title": "Optimizing Water, Temperature, and Density Conditions for In Vitro Pea (Pisum sativum L.) Germination",
+          "description": "These findings suggest that the optimal water potential for pea growth and dry weight accumulation lies between 8 mL and 14 mL, with even minimal levels like 2 mL sufficient to initiate germination. However, the optimal range for achieving the highest dry mass and germination percentage is between 6.95 mL and 11.6 mL. These results provide valuable insights for optimizing water usage in pea cultivation to enhance growth efficiency and yield (Table 3). [...] Ensuring that pea seeds are sown in environments where temperatures are maintained within the optimal range of 20–30 °C can maximize germination success and seedling vigor. This knowledge is particularly relevant in the context of climate change, where temperature extremes may become more common. However, the controlled laboratory conditions may not fully replicate field environments, where additional factors such as soil moisture, light availability, and microbial interactions can also [...] The germination percentage was consistently high across most antifungal treatments, with the 1 ppm, 10 ppm, 100 ppm, and 1000 ppm treatments showing similar germination rates (95.56 ± 9.94 to 100.0 ± 0.0), and slightly lower in the 10,000 p"
+        },
+        {
+          "url": "https://extension.umd.edu/resource/growing-green-peas-home-garden",
+          "title": "Growing Green Peas in a Home Garden | University of Maryland Extension",
+          "description": "Growth is inhibited by acid soils, pH 6.0 and lower.\n Peas are hardy, but seed germination is delayed when soil temperatures are below 40°F. Warmer soils (up to 75°F.) will speed germination and emergence. Plant growth is favored by intermediate temperatures (65° - 70°F) while flowering is accelerated by long, cool days. [...] Pre-germination is another method of starting seeds. Sprouting the seeds before they are planted gives them a head start before being planted in the garden. By closely controlling temperature and moisture you can achieve a higher and quicker rate of germination. [...] Days to maturity: 50 to 70 from direct seeding.\n Fertilizer needs: Heavy user of nitrogen (peas fix little nitrogen). Incorporate fertilizer before seeding. Growth is inhibited by acid soils, pH 6.0 and lower. Refer to Fertilizing Vegetables for details.\n Approximate yield: 3 to 5 pounds per 10-foot row."
+        },
+        {
+          "url": "https://nrcs.usda.gov/plantmaterials/nypmctn13507.pdf",
+          "title": "Peas (Pisum sativum L.) Characteristics for Use and Successful Planting",
+          "description": "o will germinate at a soil temperature of 40 ℉. Emergence normally takes 10 to 14 \n\ndays ;\n\no need ample soil moisture when seed is being established for optimal germination ;\n\no low tolerance to saline conditions .\n\n• Disease and Insects - Pea can be used as a br eak crop for disease control and will \n\nimprove soil fertility . B elow are some of the major diseases effecting pea s (Cousin, \n\n1997) :\n\no Ascochyta blight ;\n\no powdery and downy mildew ;\n\no fusarium wilt and root rot ; [...] • white flowered, green cotyledons \n\nand clear seed coat - Excellent \n\npalatability \n\n• short internode, semi -leafless , semi dwarf stature \n\n• resistant to mosaic virus \n\n• seeding rates : 30 -100 lb/acre \n\n• seeding dates : plant in late summer to fall when adequate soil moisture is available 9\n\n‘Maxum’ winter field p ea \n\n• green forage -type field pea \n\n• days to maturity or bloom: 52 -75 \n\n• dry yellow peas \n\n• purple flowers \n\n• seeding dates: spring or fall [...] significant impacts on seed production (Martin et al, 1994) .\n\n• Soils- Peas are adapted to a wide variety of soil types and conditions (Kumari et. Al. \n\n2015) (Endres et al , 2016) , from sandy loams to heavy clays. They also: \n\no"
+        },
+        {
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "title": "Growing peas in home gardens | UMN Extension",
+          "description": "Have your soil tested Link is external.\n  + If your soil tests high in phosphorus, use low phosphorus (such as 32-3-10, 27-3- 3, or 25-3-12) or no phosphorus (such as 30-0-10 or 24-0-15) fertilizer.\n Many soils, from sandy to heavy clay, are good for peas as long as you have well-drained soil.\n Peas grow best in soil with a pH between 6 and 7.5.\n Use well-rotted manure or compost at planting. [...] Report Web Accessibility Issues Link is external\n|\nPrivacy Statement Link is external\n|\nStaff intranet Link is external\n\n©2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer.\n\n  \nA QR code linking to the current webpage.  \n\nPlease scan the above QR code to visit the live webpage for links.\n\n|  |  |\n --- |\n|  |  | [...] Treat the pea seed carefully. Cracked seeds are unlikely to germinate, especially in cool, moist soil in early spring.\n Place the seeds in a shallow trench, six to seven inches apart. For a wide row, broadcast the seed over the prepared seedbed, with seeds about two inches apart in all directions.\n Evenly place the seeds into a narrow trench in the soil. Make sure they are at a uniform "
+        },
+        {
+          "url": "https://extension.psu.edu/a-gardeners-guide-to-peas",
+          "title": "A Gardener's Guide to Peas",
+          "description": "Accessibility\n\n© 2026 The Pennsylvania State University [...] ### Personalize your experience with Penn State Extension and stay informed of the latest in agriculture.\n\nPenn State Extension Logo\nPenn State Extension Logo\n\nCollege of Agricultural Sciences\n\nThe Pennsylvania State University\n\n323 Agricultural Administration Building\n\nUniversity Park, PA 16802\n\nAbout Extension\n\nAbout  \nLeadership  \nCareers  \nExtension News  \nPress  \nCounty Offices\n\nYouth Safety\n\nPrivacy and Legal Statements\n\nVeterinary Advice Statement\n\nNon-Discrimination\n\nAccessibility [...] JavaScript seems to be disabled in your browser.  For the best experience on our site, be sure to turn on Javascript in your browser.\n\nPenn State Extension\nPenn State Extension\n\n## Main Navigation Menu\n\n# A Gardener's Guide to Peas\n\nFour peas in a pod; Photo credit: Diane Diiffenderfer\n\nFour peas in a pod; Photo credit: Diane Diiffenderfer\n\n## Introduction"
+        }
+      ]
+    },
+    "a2002f2f27fba966cb97ea55093944186432868c9ae50a4e0d9cce1adaa1b01f": {
+      "checked": 1793179588.2764363,
+      "results": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
+          "title": "A Method for Predicting Alfalfa Biomass Based on Multimodal Data and Ensemble Learning Model",
+          "description": "(1 m × 1 m) was taken from each plot. Biomass yield was measured for each plot based on quadrat sampling, and the effects of cultivar, fertilizer type, and fertilizer level on biomass production were further analyzed (Figure A1). [...] levels. For potassium treatments, K was applied at 0, 5, 7.5, 10 (conventional rate), 12.5, and 15 kg·mu−1, while N and P were kept at their conventional application rates. Each fertilization treatment was arranged with three replicates in a randomized block design, and each plot had an area of 64 m2 (8 m × 8 m). All plots were managed uniformly according to the local high-yield cultivation practices, except for differences in fertilizer application. During sampling, a quadrat (1 m × 1 m) was [...] After the collection was completed, the alfalfa field biomass was measured. In each treatment area, three duplicate quadrats (each with an area of 1 m × 1 m) were randomly set up according to the diagonal method, and the quadrats were placed after avoiding the edge of the plot for at least 1 m. The shoot plants were cut evenly along the soil surface in each quadrat. All plant samples were collected and placed into paper bags and marked. The samples were ta"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2772375524002028",
+          "title": "Estimation of aboveground biomass of Alfalfa using field ...",
+          "description": "by J Singh · 2024 · Cited by 5 — This study focused on the development of crop height measurement systems for estimating the aboveground biomass yield of Alfalfa (Medicago sativa L.). Five ...Read more"
+        }
+      ]
+    },
+    "0c3cb55892f9e4793590773ad6cf5834c1d52b9d60b3f292ca387c30859eb157": {
+      "checked": 1793179585.8353446,
+      "results": [
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+          "title": "Estimating Financial Costs and Benefits of Supplemental Irrigation with the Irrigation Financial Estimator Tool (IFET) | VCE Publications | Virginia Tech",
+          "description": "between income earned from the maximum irrigated yield and rain-fed yield is the additional estimated income that could result from using irrigation. [...] To estimate irrigation cost and benefit information, IFET requires users to input information about their farm operation along with financial information associated with the purchase of an irrigation system. Users specify where their farm is located, how many acres of each crop are grown, and the predominant type of soil. This data specifies which yield equation and weather data to use when calculating rain-fed and irrigated crop yield. IFET requires users to select which type of irrigation [...] will always be uncertain due to variability in rainfall, crop response to water deficits in a specific location, and prices for crops, fuel, and the irrigation system itself. The tool accounts for this uncertainty and presents a range of values for system costs and benefits. This information can be used to estimate typical irrigation costs, compare different types of systems and irrigation scheduling methods, and determine if it is economically advantageous to install an irrigation system."
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426003422",
+          "title": "Combined effects of water-retaining agents and deficit ...",
+          "description": "This study investigated the combined effects of WRAs and DI on irrigation water productivity and economic benefits in alfalfa using a controlled pot experiment."
+        }
+      ]
+    },
+    "619252340adb752baf6c35fc3e062b203d659b4fcde1e3f9747fdf3a4727fe6e": {
+      "checked": 1793179583.3340752,
+      "results": [
+        {
+          "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+          "title": "Irrigating Alfalfa: Some Guidelines - MSU Extension Water Quality | Montana State University",
+          "description": "Alfalfa is quite tolerant of drought or extended periods without highly available water. As much as 50 to 65% of the available soil moisture can be removed between irrigations early and late in the season, but only 35 to 50% removal will give better results during high water-use periods. Maintaining higher levels, especially with slow-draining soils, may cause loss of stand and competition from grass invasion. Texture and depth of soil have little influence on water requirements of alfalfa, but [...] ### Water Use Characteristics\n\nAlfalfa is a high water use crop because it has a long growing season, a deep root system, and a dense mass of vegetation. The amount of water needed is governed by temperature, wind, humidity, and the amount and intensity of light. However, the irrigation requirement for alfalfa is governed by rainfall and the water holding capacity of the soils growing the crop. Commonly cited ranges in water requirements for alfalfa are 18 to 36 inches of water per season. [...] of alfalfa, but these factors affect the amount of moisture which can be stored in the soil. Naturally, the amount of moisture stored affects frequency of irrigation and the amount to apply at "
+        },
+        {
+          "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+          "title": "Irrigating Alfalfa in Arid Regions",
+          "description": "Install at least two sites of blocks for every 40 acres (16 ha). This might consist of one site about 200 feet (61 m) from the head end of the field and a second site 200 to 300 feet (61–91 m) from the tail Sidebar 1: Installing Watermark Electrical Resistance Blocks Table 7.6 Threshold values of soil-moisture tension at which irrigation should occur for alfalfa for different soil types (Orloff et al. 2001). Values are based on a 50 percent depletion of available soil moisture for different [...] Sprinkler Timing The amount of water applied should equal the alfalfa ET or soil moisture depletion between irrigations and an additional amount to account for the irrigation efficiency. The irriga­ tion set time needed for sprinkler irrigation can be determined using either of the two following methods: Calculate the required irrigation set time • using Equation 2 (below). The flow rate into the field is required for this approach. [...] Irrigation Scheduling—Determining Timing and Quantity The procedure for determining when to irrigate based on an allowable depletion is as follows: Step 1: Determine the total allowable soil mois­ ture depletion by multiplying the available soil moisture "
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+          "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+          "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension. [...] Lindenmayer, R.B., Hansen, N.C., Brummer, J., & Pritchett, J.G. (2011). Deficit irrigation of alfalfa for water-savings in the Great Plains and Intermountain West: A review and analysis of the literature. Agronomy Journal, 103, 45–50. \n Orloff, S., Putnam, D., & Bali, K. (2015). Drought strategies for alfalfa. University of California Extension. ANR Publication 8522."
+        },
+        {
+          "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+          "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
+          "description": "To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. [...] By Todd Whitney - Extension Educator, Ben Beckman - Extension Educator, Samantha Daniel - Extension Educator\n\nGrasshopper on plant leaf\n\nMonitoring grasshopper populations using the square-foot method can help prevent damage to late summer alfalfa and forage crops, with insecticide treatments considered if thresholds are exceeded.\n\n \n\n## Fall Alfalfa Irrigation\n\nBy Todd Whitney [...] Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant,"
+        }
+      ]
+    },
+    "df8d1cbb669d9132b6cb6a08fc09a919d008e0ae181c6e678a33fa8efb628c98": {
+      "checked": 1793179581.205847,
+      "results": [
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+          "title": "Soil moisture sensors for irrigation scheduling | UMN Extension",
+          "description": "The most common soil water content or volumetric water content sensors follow:\n\n|\n\nThe most common electromagnetic sensors are capacitance sensors or frequency domain reflectometry (FDR) sensors and time domain reflectometry (TDR) sensors. [...] \\Soil deficit at 1500 Cbs is equal to total available soil water capacity.\n\n## Sensor installation and placement\n\nSensors should be placed at several different depths and locations in the field. Typically, sensors are placed in pairs at one-third and two-thirds the depth of the crop root zone and at two or more locations in the field, preferably in the representative soil type away from high points, depressions and slopes. [...] Figure 2. An example of a portable capacitance soil moisture sensor probe. Photo: Delta-T Devices \n\nTDR sensors consist of two or three parallel rods inserted into the soil acting as waveguides. When a defined voltage pulse is sent to the sensor it travels along the waveguide. When this pulse reaches the end of the waveguide it reflects back. This reflection is measured by the oscilloscope connected to the senor."
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+          "title": "Soil moisture monitoring to support irrigation scheduling | OSU Extension Service",
+          "description": "Install sensors within the effective rooting depth of your crop.\n Monitor at least two to three soil depths to capture soil water distribution.\n  + For deep-rooted crops such as alfalfa, consider installing the sensors at 1-foot increments up to 3 feet.\n  + For shallow-rooted crops, two depths are typically sufficient.\n Multidepth monitoring allows detection of:\n  + Overirrigation (deep percolation)\n  + Shallow drying\n  + Root-zone depletion patterns [...] A TDR sensor consists of two or three parallel stainless steel rods (waveguides) inserted into the soil (Figure 7A-B). The instrument sends a high-frequency electromagnetic pulse along the rods. TDRs measure the time required for the pulse to travel through the soil and reflect back to the sensor.\n\nBecause electromagnetic waves travel more slowly in wetter soils (due to higher dielectric permittivity), travel time increases as soil water content increases.\n\nTDR sensors are: [...] Close of photo of a person's hands place a soil sensor in the ground.\n\nFigure 10.Proper installation of a soil moisture sensor within the crop root zone. Sensors should be installed in representative management zones with firm soil contact and minimal di"
+        },
+        {
+          "url": "https://www.canr.msu.edu/resources/utilizing-soil-moisture-sensors-for-efficient-irrigation-management",
+          "title": "Utilizing Soil Moisture Sensors for Efficient Irrigation ...",
+          "description": "Soil moisture sensor reading. For effective irrigation scheduling with TDR and FDR sensors, consider that soil texture, as volumetric water"
+        },
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "agriculture. For information on moisture sensor types, functions, and installation, readers are referred to OSU extension factsheet Soil Moisture-Sensing Systems for Improving Irrigation Scheduling [...] Irrigation scheduling with soil moisture sensors follows traditional principles of field capacity (FC), plant available water, maximum allowable depletion (MAD) which is also called management allowable depletion, and permanent wilting point (PWP). Figure 1 shows the transition of soil moisture levels from FC to MAD and PWP in a typical soil. The maximum amount of water that a soil can hold after drainage effectively ceases is called field capacity (readers are referred to Determining Field [...] ## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n\nDatta, S., S. Taghvaeian, J. Stivers. 2025. Understanding soil water content and thresholds for irrigation management. BAE-1537.  \nOklahoma State Cooperative Extension. Available at:"
+        }
+      ]
+    },
+    "a0bf3d66623fd8f831f494f1288bf403607cbc343c5594bfeedb46af290ada26": {
+      "checked": 1793179577.3142018,
+      "results": [
+        {
+          "url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq",
+          "title": "Estimating Alfalfa RFV in the Field Using PEAQ – Crops and Soils",
+          "description": "Skip to content\n\nUW Madison Crest\n\nCrops and Soils\n\nDivision of Extension\n\nUniversity of Wisconsin-Extension\n\nArticles   >  Alfalfa\n\n# Estimating Alfalfa RFV in the Field Using PEAQ\n\nWritten by Crops and Soils Program\n\nShare\n\n Share:\n\nCopied!\n\nStep 1:Choose a representative 2-square-foot area in the field.\n\nStep 2: Determine the most mature stem in the 2-square-foot sampling area using the criteria shown in the table to the right. [...] Step 3: Measure the length of the tallest stem in the 2-square-foot area. Measure if from the soil surface (next to plant crown) to the tip of the stem (NOT to the tip of the highest leaf blade). Straighten the stem for an accurate measure of its length. The tallest stem may not be the most mature stem.\n\nStep 4: Based on the most mature stem and length of the tallest stem, use the chart to the right to determine estimated RFV content of the standing alfalfa forage. [...] The PEAQ system for estimating alfalfa quality in the field was developed by agronomists at the University of Wisconsin – Madison\n\nPrint This Page\n\n### You May Also Like\n\n Machinery Wheel Traffic in Alfalfa FieldsMachinery Wheel Traffic in Alfalfa Fields\n ▶ 2026 Mid-Summer Alfalfa a"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+          "title": "How to estimate alfalfa quality in the field using PEAQ | UMN Extension",
+          "description": "| Length of tallest stem | Late vegetative % NDF | Bud stage % NDF | Flower stage % NDF |\n ---  --- |\n| 16 inches | 28.5 | 29.7 | 31.4 |\n| 17 inches | 29.2 | 30.4 | 32 |\n| 18 inches | 29.9 | 31.1 | 32.7 |\n| 19 inches | 30.6 | 31.8 | 33.4 |\n| 20 inches | 31.3 | 32.5 | 34.1 |\n| 21 inches | 32 | 33.2 | 34.8 |\n| 22 inches | 32.7 | 33.9 | 35.5 |\n| 23 inches | 33.4 | 34.6 | 36.2 |\n| 24 inches | 34 | 35.3 | 36.9 |\n| 25 inches | 34.7 | 35.9 | 37.6 |\n| 26 inches | 35.4 | 36.6 | 38.3 | [...] ## Estimating tables\n\n|\n\nThe PEAQ sampling procedure estimates alfalfa relative feed value (RFV) of the standing crop based on alfalfa maturity and height. It doesn't account for changes in quality due to wilting, harvesting and storage. These factors may further lower RFV by 15 to 25 points, assuming good wilting and harvesting conditions.\n\nThe general recommendation is to harvest when the PEAQ estimate is 15 to 25 RFV points higher than what you want to have in the feed bunk. [...] You can estimate alfalfa relative feed value (RFV) and neutral detergent fiber (NDF) levels with the Predictive Equations for Alfalfa Quality (PEAQ) system, which gives alfalfa producers a simple way to schedule harvests. A "
+        },
+        {
+          "url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+          "title": "Methods Available to Estimate Forage Quality — Extension and Ag Research News",
+          "description": "PEAQ (predictive equations for alfalfa quality): This method is based on an equation that uses the length of the tallest alfalfa stem and the stage of the most mature alfalfa plant (these likely will be two different plants) in the area sampled. The current modified PEAQ method uses a scale of three stages of maturity (late vegetative, bud and flower). Measuring sticks, calibrated for the three plant maturity stages, are used to obtain estimates of NDF. [...] Use the PEAQ stick or GDD to predict NDF for the first-cutting alfalfa harvest. Only the PEAQ stick should be used for the second cutting. Do not use the PEAQ or GDD method for the third cutting.\n Begin cutting alfalfa at 40 percent NDF (750 GDD, base 41 F) for upright silos and 38 percent NDF (680 GDD, base 41F) for horizontal silos. Start even earlier for horizontal silos if finishing the harvest takes more than a week.\n Do not use the GDD and PEAQ methods for fields containing grass. [...] (Click the image below to view a high-resolution image that can be downloaded)\n\n This PEAQ stick can help producers determine when alfalfa is at its peak quality.  \n\n  This PEAQ stick can help producers determine when alfalfa is at its pe"
+        },
+        {
+          "url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
+          "title": "Estimating First Crop Alfalfa Harvest using PEAQ",
+          "description": "PEAQ uses alfalfa height and maturity stage (vegetative, bud, or open flower) to estimate relative feed value (RFV). In general, it is"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+          "title": "Alfalfa Nutrient Management Guide | USU",
+          "description": "Table 1. Average Nutrient Concentrations and Removal by Alfalfa During Harvest\n\n|  | Dry matter concentration | Removal per ton of hay |\n --- \n|  | 0.85–4.65% K₂O | 55 lbs K₂O |\n|  | 0.42–0.81% P₂O₅ | 12 lbs P₂O₅ |\n|  | 0.3% S | 4–6 lbs S |\n|  | 0.002% Zn | 0.04 lb Zn |\n|  | 0.003% B | 0.05 lb B | [...] |  |  |\n --- |\n| Soil test potassium (ppm) | Recommendation (lb K₂O/acre) |\n| 0–50\\ | 180–220 |\n| 50–70 | 140–180 |\n| 70–100 | 100–140 |\n| 100–150 | 60–100 |\n| >150 | 0 |\n\nNotes. \\Low soil test levels can severely limit yield. Test soil annually or often until levels are adequate.  \nRecommendations are based on a 12-inch sample depth and sodium bicarbonate (Olsen method) soil extractant.\n\n## Sulfur [...] Alfalfa is the most important field crop grown in Utah because of our dry climate, the quality of feed produced, and economic return to farm businesses. Utah growers produce roughly 2 million tons of alfalfa hay per year, averaging 4.1 tons per acre in 2022 (National Agricultural Statistics Service [NASS], 2024). Much of the alfalfa grown in Utah feeds dairy and beef cattle, with some being exported. Proper nutrient management is key to maintaining high yields, quality, and stand lo"
+        }
+      ]
+    },
+    "9bfbdbfec6ebbf9c7b4351f6f67b69a60d3bfcc47d4c21cfd45793a53022215c": {
+      "checked": 1793179574.9236674,
+      "results": [
+        {
+          "url": "https://www.ndsu.edu/agriculture/extension/publications/field-pea-production",
+          "title": "Field Pea Production | NDSU Agriculture",
+          "description": "Pea seed may be stored at 14% moisture content as long as the seed temperature is kept below 60 degrees. It may be stored at 16% moisture if the seed temperature is kept below 50 degrees. If the temperature of stored pea cannot be maintained below 60 degrees, then the recommended storage moisture content is 13%. [...] Field pea should be combined with seed moisture of 17% to 20% to reduce splitting and seed coat cracking. Breakage increases at moisture contents below 14% to 16%. At this moisture range, the seeds are firm and no longer penetrable with a thumbnail.\n\nLosses from shattering may be reduced by harvesting field pea before all pods are dry. Field pea does not ripen as uniformly as other crops, therefore harvesting while green leaves and pods remain may be necessary. [...] Crop maturity (stage of uniformity): Look for a large majority of plants with tan pods on the bottom, yellow to tan pods in the middle, and yellow-green pods on the top.\n Seed moisture content: Swath or desiccate field pea when the seed moisture content has reached 25% to 30%. Straight combine field pea when the seed moisture content has reached 18% to 20%.\n Presence of weed growth: Do not wait for green "
+        },
+        {
+          "url": "https://extension.psu.edu/soil-crusting",
+          "title": "Soil Crusting",
+          "description": "also slows or completely inhibits seedling emergence. [...] The store will not work correctly when cookies are disabled.\n\nSkip to Content\n\nPenn State ExtensionPenn State Extension\n\nSearch\n\nCart \n\nShopping Cart\n\nArticles\n\n# Soil Crusting\n\nSoil crusting can be a serious problem on soils with poor aggregate stability. It leads to reduced water infiltration and inhibits seedling emergence. What leads to crusting and what can be done to avoid it?\n\nSave for later  Print \n\n Share\n\nUpdated:\n\nFebruary 24, 2025\n\nSkip to the end of the images gallery [...] the row instead of with a drill with 7.5-inch row spacing and wider spacing in the row. Increasing seeding rates may also help for the same reason. Seeding depth may also be a factor to consider, deep planting should be avoided in a crust-sensitive soil to allow the seedling to emerge before the crust re-forms. It is also advisable to avoid very early planting, so crusts do not have time to form above the seedlings prior to emergence."
+        },
+        {
+          "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+          "title": "Soil crust-busters | Integrated Crop Management",
+          "description": "If fields exhibit soil crusting, consider a crust-busting operation. With any crust-breaking method, some crop loss is possible. Soil crusting can be broken by working a rotary hoe at a very shallow depth, no deeper than the depth of the crust. Don't worry about damaging the seedlings--crop damage from the hoe can occur and should be checked when operating the hoe, but plant damage is often less than 2 percent. Compared with the damage of soil crusting, breaking crust is usually much less [...] Most producers have been advised to plant a little deeper this year to achieve good seed-to-soil contact and access to adequate soil moisture. But if a crust forms above the seed, it requires the combined pressure of several plants to crack through a crust, reducing emergence. Seedling crops trapped under a crust grow and elongate below the crust until the seed runs out of stored energy. Deep planting also presents risks because the plants leaf out underground, inhibiting growth and vigor and [...] ## Strategies to avoid soil crusting\n\nTypically, mulch-tillage or no-till systems leave larger amounts of surface residues on and near the soil surface. The resulting benefit of reduced tillage sy"
+        }
+      ]
+    },
+    "094174d702259423906889e94d18c05d3bfc770ff579511017116550c7e8a0eb": {
+      "checked": 1793179572.5031867,
+      "results": [
+        {
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "title": "Growing peas in home gardens | UMN Extension",
+          "description": "Young pea plants can survive light frost and will grow at any temperature above 40°F. Good growing temperatures are between 55°F and 65°F. Once the plants have started to flower and set a crop, frost can be damaging. Watch for any forecast of late spring frost and cover the plants with sheets or row covers if necessary.\n\n## Watering [...] ## Quick facts\n\n Good growing temperatures are between 55°F and 65°F.\n Peas need less fertilizer than other crops.\n Plant seeds as soon as the ground has thawed and the soil is workable.\n As soon as you pick the peas, cool them quickly. They will keep in the refrigerator for a week or more.\n\n## Shelling, snow and sugar snap peas\n\nGreen harvested peas [...] ## Starting seeds\n\nPea growing season is short wherever a cool spring turns quickly to a hot summer, as it does in much of Minnesota. Areas near Lake Superior and in the far northern part of the state may stay cooler into the summer and have a longer time to grow peas.\n\nMost varieties of peas need about 60 days of growth before harvest. But they will stop growing and not produce flowers or pods once temperatures get above 85°F, as often happens in June."
+        },
+        {
+          "url": "https://www.ag.ndsu.edu/news/columns/dakota-gardener/dakota-gardener-sowing-vegetable-seeds-during-a-fickle-spring",
+          "title": "Dakota Gardener: Sowing Vegetable Seeds During a Fickle Spring — Extension and Ag Research News",
+          "description": "Lettuce and peas should be planted when the average soil temperature reaches 40 F or higher. Likewise, carrots, radishes and spinach have an optimum germination range that starts at 45 F,  while beets, Swiss chard and onions prefer 50 F.\n\nWarm-season crops such as beans and cucumbers should not be sowed until the soil temperature reaches at least 60 F and the danger of frost is past. [...] However, the minimum temperature is not necessarily the optimum germination range. Lettuce, for example, will take 49 days on average to germinate at 32 F and is quite susceptible to seed rot at that temperature. In contrast, lettuce seed will germinate in 15 days at a soil temperature of 41 F. [...] The most important rule is don’t plant when the soil is still sopping wet. If soil sticks to your shovel when you insert it into the garden bed, you know it is too wet. The danger is that working in the garden will compact the soil and destroy soil structure. Instead, wait until the soil is drier.\n\nThen, use soil temperature to guide your planting decisions. The earliest vegetable crops such as lettuce and spinach have a minimum soil germination temperature of 32 to 35 degrees Fahrenheit."
+        },
+        {
+          "url": "https://extension.umn.edu/about/our-stories/news/yard-and-garden-news/a-minnesota-guide-to-garden-timing",
+          "title": "A Minnesota guide to garden timing | UMN Extension",
+          "description": "Early, cool-season crops can be planted when soil temperatures reach 40-50°F, usually from late April to early May. These plants tolerate cold soil, light frosts, and include peas, spinach, lettuce, radishes, carrots, beets, kale, Swiss chard, onions grown from sets or transplants, and potatoes.\n\nMany cool-season vegetables thrive in spring weather but may bolt or turn bitter if planted too late.\n\n## Air temperature and frost risk [...] Moderately warm-season crops do best when soil temperatures reach 55-60°F, typically from mid- to late May. Broccoli, cabbage, cauliflower, and Brussels sprouts are cold-tolerant above ground but establish stronger roots once the soil has warmed. [...] Heat-loving crops should wait until soil temperatures reach 65°F or warmer and all danger of frost has passed, usually from late May to early June. This group includes tomatoes, peppers, cucumbers, squash and pumpkins, beans, corn, basil, and melons. Planting these too early often leads to slow growth, yellowing leaves, and reduced yields, even if the plants survive.\n\nThe Upper Midwest gardening calendar has more information on when to do what in the garden."
+        },
+        {
+          "url": "https://hort.extension.wisc.edu/articles/when-is-the-right-time-to-plant-vegetable-seeds-check-soil-temperature",
+          "title": "When Is the Right Time to Plant Vegetable Seeds? Check Soil Temperature  – Wisconsin Horticulture",
+          "description": "| Asparagus | Minimum Soil temperature: 50° F | Optimum Soil temperature: 75° F | Germination temperature viable range: 60-85° F |\n| Peas | Minimum Soil temperature: 50° F | Optimum Soil temperature: 75° F | Germination temperature viable range: 40-85° F |\n| Turnip | Minimum Soil temperature: 50° F | Optimum Soil temperature: 85° F | Germination temperature viable range: 40-105° F | [...] | Crop Seed Type | Minimum Soil temperature | Optimum Soil temperature | Germination temperature viable range |\n ---  --- |\n| Beets | 45° F | 85° F | 40-95° F |\n| Carrots | 45° F | 80° F | 40-95° F |\n| Lettuce | 45° F | 75° F | 35-85° F |\n| Parsley | 45° F | 75° F | 40-90° F |\n| Radish | 45° F | 85° F | 40-95° F |\n| Spinach | 45° F | 70° F | 35-85° F |\n| Asparagus | 50° F | 75° F | 60-85° F |\n| Peas | 50° F | 75° F | 40-85° F |\n| Turnip | 50° F | 85° F | 40-105° F | [...] | Squash | Minimum Soil temperature: 70° F | Optimum Soil temperature: 95° F | Germination temperature viable range: 60-100° F |\n| Tomato | Minimum Soil temperature: 70° F | Optimum Soil temperature: 85° F | Germination temperature viable range: 50-95° F |\n| Beans | Minimum Soil temperature: 72° F | Optimum Soil temperature: 80° "
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/soil-temperature-conditions-vegetable-seed-germination",
+          "title": "Soil temperature conditions for vegetable seed germination | OSU Extension Service",
+          "description": "| Crop | Minimum | Optimum Range | Optimum | Maximum |\n| Asparagus | 50 | 60–85 | 75 | 95 |\n|\n| Bean | 60 | 60–85 | 80 | 95 |\n| Beet | 40 | 50–85 | 85 | 95 |\n| Cabbage | 40 | 45–5 | 85 | 100 |\n| Carrot | 40 | 45–85 | 80 | 95 |\n| Cauliflower | 40 | 45–85 | 80 | 100 |\n| Chard, Swiss | 40 | 50–85 | 85 | 95 |\n| Corn | 50 | 60–95 | 95 | 105 |\n| Cucumber | 60 | 60–95 | 95 | 105 |\n| Eggplant | 60 | 75–90 | 85 | 95 |\n| Lettuce | 35 | 40–80 | 75 | 95 |\n| Muskmelon | 60 | 75–95 | 90 | 100 | [...] | Onion | 35 | 50–95 | 75 | 95 |\n| Parsley | 40 | 50–85 | 75 | 90 |\n| Parsnip | 35 | 50–70 | 65 | 85 |\n| Pea | 40 | 40–75 | 75 | 85 |\n| Pepper | 60 | 65–95 | 85 | 95 |\n| Pumpkin | 60 | 70–90 | 95 | 100 |\n| Radish | 40 | 45–90 | 85 | 95 |\n| Spinach | 35 | 45–75 | 70 | 85 |\n| Squash | 60 | 70–95 | 95 | 100 |\n| Tomato | 50 | 60–85 | 85 | 95 |\n| Turnip | 40 | 60–105 | 85 | 105 |\n| Watermelon | 60 | 70–95 | 95 | 105 | [...] | Parsnip | 171 | 57 | 27 | 19 | 14 | 15 | 32 | Little or no germination | Little or no germination |\n| Pea | Not tested | 36 | 13 | 9 | 7 | 6 | 6 | Not tested | Not tested |\n| Pepper | Little or no germination | Little or no germination | Little or no germination | 25 | 12 | 8 | 8 | "
+        },
+        {
+          "url": "https://extension.psu.edu/a-gardeners-guide-to-peas",
+          "title": "A Gardener's Guide to Peas",
+          "description": "The two primary diseases found in peas are powdery mildew and damping off. To control powdery mildew on peas, apply neem oil to the foliage. However, do not apply neem oil to peas if the temperature is above 90°F. Alternatively, the foliage may be sprayed with a commercial fungicide labeled for treating powdery mildew on peas. Always follow label directions when applying any type of synthetic or organic pest control.\n\nPowdery mildew on peas [...] JavaScript seems to be disabled in your browser.  For the best experience on our site, be sure to turn on Javascript in your browser.\n\nPenn State Extension\nPenn State Extension\n\n## Main Navigation Menu\n\n# A Gardener's Guide to Peas\n\nFour peas in a pod; Photo credit: Diane Diiffenderfer\n\nFour peas in a pod; Photo credit: Diane Diiffenderfer\n\n## Introduction [...] Days to harvest for most peas are between 50 to 70 days. Check the growing instructions for details. For a steady supply of peas, sow new seeds every two to four weeks. When the plant turns yellow, it's time for it to go. If the plant is free of insect and/or disease pests, the plant may be cut down at ground level. Leave the roots in the ground. Peas, like other legumes, fix nitro"
+        }
+      ]
+    },
+    "2a8f1e695016d464128171ec6ee11ac0c6ac39a275cdc3181a5bcf407f99a924": {
+      "checked": 1793179569.9997134,
+      "results": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858",
+          "title": "Optimizing Management of Alfalfa (Medicago sativa L ... - PMC",
+          "description": "by Y Duan · 2025 · Cited by 2 — alfalfa significantly enhances soil fertility and reduces erosion, cuts ranged from 2.24 to 4.61% alfalfa yield against nitrogen application"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1526648/full",
+          "title": "Nitrogen and phosphorus fertilizer use efficiency improves ...",
+          "description": "by Y Sun · 2025 · Cited by 14 — In April 2019, the alfalfa was sown at a rate of 18.0 kg·ha-1, using a manual row seeding method. Row spacing was 20 cm, and the sowing"
+        },
+        {
+          "url": "https://www.cdfa.ca.gov/is/ffldrs/frep/FertilizationGuidelines/Alfalfa.html",
+          "title": "CDFA - FREP - CA Fertilization Guidelines - Alfalfa",
+          "description": "K availability, foliar K applications are likely to have limited effect on yield.  ClosePotassium Fertilization  ---  Application Rate The preplant K application rate should be based on soil test results, while the K status of established alfalfa stands is best assessed with a plant tissue test (#Potassium).  Approximately 48 lbs K2O/acre (40 lbs K/acre) are removed with each ton of alfalfa hay (#Potassium). Therefore, with a yield of 10 tons/acre, approximately 480 lbs K2O /acre are removed [...] /acre are removed each year. When the soil or tissue K values suggest adequate K availability, applying the amount of K removed at harvest ensures that the soil K status is maintained in the long term. However, in soils with adequate K availability, fertilization may not result in a yield response. For more information, contact your local farm advisor.  For high soil or leaf K values, the application rate can be reduced, while for low values it should be increased (see Soil K Test). When plant [...] (#Potassium):    Samples can be collected at any cutting. The first cutting is preferred for sulfur analysis. However, in non-dormant areas, the first cutting should be avoided for P and K ana"
+        }
+      ]
+    },
+    "bb6ea94cb9444418e16ee07a370542bdd6a7adbc780e31cf83d9fd771f493ba0": {
+      "checked": 1793179567.0125656,
+      "results": [
+        {
+          "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+          "title": "Irrigating Alfalfa in Arid Regions",
+          "description": "Influence of Cutting Schedule Scheduling irrigations of alfalfa is complicated by the harvest schedule, which occurs about every 28 to 30 days in most areas. The first irrigation after harvest cannot occur until the alfalfa bales are removed. The final irrigation between harvests will need to occur at a time that provides sufficient soil drying before the harvest. Thus, irrigation scheduling of alfalfa is often controlled by the harvest schedule, not by allowable soil mois­ ture depletion. [...] Irrigate before the yield is reduced by insuf­ ficient soil moisture. This requires irrigating frequently enough to prevent excessive soil moisture depletion. A standard approach to irrigation scheduling (called the water balance or checkbook method) is to determine how much soil moisture can be depleted between irrigations without reducing crop yield, then irrigate when total alfalfa ET between irriga­ tions equals that depletion. An allowable soil moisture depletion commonly used for alfalfa [...] Summary Irrigation management is one of the most criti­ cal aspects of successful alfalfa production. Water levels (deficit or excess) limit alfalfa production to a greater degree than any other"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-considerations-fall-forage-harvest-alfalfa-irrigation-and-last-cutting",
+          "title": "Pasture and Forage Minute: Considerations for Fall Forage Harvest, Alfalfa Irrigation and Last Cutting | CropWatch | Nebraska",
+          "description": "To reduce field compaction, pause irrigating two to three days before cutting the alfalfa and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evapotranspiration) measurement gages or soil moisture monitoring. [...] Finally, some fields have lower water infiltration rates, so irrigating now through November may be the right time for building water reserves. “Irrigation Management and Crop Characteristics of Alfalfa” (Nebraska Extension NebGuide G1778) provides more details.\n\n### Last Alfalfa Cutting\n\nBy Ben Beckman\n\nTiming the last fall alfalfa cutting can be a difficult thing to plan for and varies among growers. A balance between stand health, yield and quality must be maintained. [...] During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall cooler days water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa growth extends longer into the fall and does not have specific critical growth stages for water stress like most traditional annual crops. So, when moisture stressed, the plant will slow growth, go dormant, and then resume growth once conditions become favorable agai"
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+          "title": "Alfalfa during drought",
+          "description": "Water budgeting approaches or “checkbook scheduling” involves monitoring soil moisture in addition to determining daily crop water use through evapotranspiration (ET). Soil moisture can be monitored using moisture-sensing instrumentation. With alfalfa, irrigation typically begins with only about 50% depletion of available water in the root zone. See more about irrigation scheduling in Minnesota at: [...] Other irrigation scheduling considerations unique to alfalfa include: 1) avoid scheduling during times of peak ET in the summer months, 2) avoid irrigation 1 week before harvest to facilitate harvest equipment and to avoid compaction, 3) irrigate immediately after a harvest, and 4) avoid irrigation when alfalfa is undergoing the dormancy reaction in the fall. [...] The growth stage at which alfalfa can tolerate extended soil moisture deficits has not been established, but by 8 weeks, the risk of drought damage is minimized as plants have a well-developed crown and multiple stems.   \n\n## Irrigation\n\nDetermining how much irrigation water to apply is critical for water conservation and for profitable use of irrigation. Most irrigation scheduling focuses on prevention of yield-reducing"
+        },
+        {
+          "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+          "title": "Effect of drought on alfalfa and managing for the next growing season – Crops and Soils",
+          "description": "Skip to content\n\nUW Madison Crest\n\nCrops and Soils\n\nDivision of Extension\n\nUniversity of Wisconsin-Extension\n\nArticles   >  Alfalfa\n\n# Effect of drought on alfalfa and managing for the next growing season\n\nWritten by Dan Undersander\n\nShare\n\n Share:\n\nCopied! [...] If stand is over 10 inches tall and flowering, harvest if economic to do so. Moisture stressed alfalfa should be mowed at the normal cutting height. There is no advantage to raising the cutting height. Alfalfa can regrow from axillary buds on the stubble but these shoots are smaller and produce lower yield than stems growing from the crown buds. Since quality is not declining as rapidly with advancing maturity as under normal growing conditions, let the plants approach 100% bloom before [...] Drought can significantly reduce alfalfa yield. Timing of drought can be critical. First cutting may be reduced in the case of a dry March. Alfalfa root systems die back to some extent over winter. The root system requires good soil moisture in the early spring to regrow. If a strong root system forms then high yields will occur on first cutting. If the root system growth is restricted by dry soil, then the top growth will be reduced,"
+        }
+      ]
+    },
+    "d1debf0f32f1fc5f5ad87b89019cb15b1e6067bb75031638f226cd42b4c6af1f": {
+      "checked": 1793179563.6275632,
+      "results": [
+        {
+          "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+          "title": "Irrigation Scheduling: The Water Balance Approach | Colorado State University Extension",
+          "description": "The water requirement of a crop must be satisfied to achieve potential yields. The crop water requirement is also called crop evapotranspiration and is usually represented as ETc. Evapotranspiration is a combination of two processes – evaporation of water from the ground surface or wet surfaces of plants; and transpiration of water through the stomata of leaves. The water requirement can be supplied by stored soil water, precipitation, and irrigation. Irrigation is required when ETc (crop water [...] Dc=Dp+ETc -P-Irr-U+SRO+DP [1]\n\nwhere Dc is the soil water deficit (net irrigation requirement) in the root zone on the current day, Dp is the soil water deficit on the previous day, ETc is the crop evapotranspiration rate for the current day, P is the gross precipitation for the current day, Irr is the net irrigation amount infiltrated into the soil for the current day, U is upflux of shallow ground water into the root zone, SRO is surface runoff, and DP is deep percolation or drainage. [...] ETc (crop water demand) exceeds the supply of water from soil water and precipitation. As ETc varies with plant development stage and weather conditions, both the amount and timing of irrigation a"
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+          "title": "Soil-water basics for irrigation scheduling",
+          "description": "Soil water deficit can be monitored directly using soil moisture sensors or indirectly by estimating crop water use (evapotranspiration) and using water-balance equation. [...] Available water holding capacity (AWC) –The amount of water that soil can store to be extracted by the plant. It is the water held between field capacity and permanent wilting point.  \n   \n Management allowable depletion (MAD) –The soil water content where crops begin to experience water stress. Usually, most of the crop do not experience water stress before 40-60% of AWC has removed.  \n   \n Soil water deficit –The amount of water removed by the crop from active rooting depth. [...] or higher than MAD, irrigation should be triggered. Irrigation amounts should be refilling the rooting zone to approximately 80% AWC, leaving some room for possible precipitation."
+        }
+      ]
+    },
+    "b43c6a082330b3ebc75213a7f7c6c226ba23ad80441be81acd1607266edab74f": {
+      "checked": 1793179560.3115842,
+      "results": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+          "title": "Water-yield relationships for chickpea under different ...",
+          "description": "by MKA Jabow · 2026 · Cited by 2 — Reproductive-stage deficits reduced yield by 25–34%. on chickpea (Cicer arietinum L.) Full irrigation produced the highest yields … deficits imposed during"
+        },
+        {
+          "url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+          "title": "Deficit irrigation practices",
+          "description": "The field crop WUE was 1.09 times higher than when no ET deficit occurred. This suggests that increasing the areas irrigated with the water saved would compensate for any yield loss. If the planned ET deficit is imposed throughout the season, it is possible to calculate the total irrigation water saved if one knows total crop water requirement. However, if the stress is imposed during a specific growth stage, one needs to know the total water requirement (i.e. crop water consumption) during [...] stage(s). With a 25 percent deficit, WUE was 1.2 times that achieved under normal irrigation practices. Irrigation scheduling based on deficit irrigation requires careful evaluation to ensure enhanced efficiency of use of increasingly scarce supplies of irrigation water. [...] |  |  |  |  |  |  |\n ---  ---  --- |\n| Crop | Stage when ET deficit occurred | ky | Irrigation method | Expected relative yield | Relative water use efficiency |\n| Common bean | Vegetative;Yield formation | 0.57 0.87 | Furrow | 0.86 0.78 | 1.14 1.04 |\n| Cotton | Whole season; Boll formation and flowering | 0.86 0.48 | Drip Furrow | 0.79 0.88 | 1.05 1.17 |\n| Groundnut | Flowering | 0.74 | Furrow | 0.82 | 1.09 |\n| Maiz"
+        },
+        {
+          "url": "https://scholars.georgiasouthern.edu/en/publications/regulated-deficit-irrigation-during-vegetative-growth-enhances-cr",
+          "title": "Regulated Deficit Irrigation during Vegetative Growth ...",
+          "description": "by JD Osuna-Amador · 2023 · Cited by 9 — We compared regulated deficit irrigation (RDI) and sustained deficit irrigation (SDI) in chickpea (Cicer arietinum L. var. Blanoro), expecting ...Read more"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+          "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+          "description": "| Crop | Irrigation | P   (in) | I   (in) | RO   (in) | DP   (in) | ET   (in) | SWC   (in) | Yield   (bu/ac) | CWUE   (bu/ac-in) |\n| Field peas 2018 |\n| Dryland | 15.7 | 0 | 0 | 2.8 | 13.7 | -3.8 | 56 | 4.08 |\n| Deficit | 15.7 | 1.8 | 0 | 3.1 | 16.0 | -3.1 | 61 | 3.85 |\n| Full | 15.7 | 3.6 | 0 | 4.0 | 16.5 | 0.8 | 62 | 3.80 |\n| Chickpeas 2018 |\n| Dryland | 19.6 | 0 | 0.1 | 4.2 | 16.7 | -1.4 | 53 | 3.21 |\n| Deficit | 19.6 | 2.2 | 0.1 | 3.0 | 19.0 | -0.1 | 37 | 1.95 | [...] | Full | 19.6 | 4.4 | 0.1 | 4.6 | 19.9 | -1.5 | 25 | 1.26 |\n| Field peas 2019 |\n| Dryland | 11.9 | 0 | 0 | 2.1 | 13.5 | -3.2 | 55 | 4.06 |\n| Deficit | 11.9 | 2.3 | 0 | 1.2 | 14.4 | -2.7 | 59 | 4.45 |\n| Full | 11.9 | 4.4 | 0 | 1.5 | 15.4 | -1.1 | 57 | 3.70 |\n| Chickpeas 2019 |\n| Dryland | 11.2 | 0 | 0 | 2.6 | 9.9 | -1.4 | 8.4 | 0.85 |\n| Deficit | 11.2 | 0.8 | 0 | 3.1 | 10.5 | -1.3 | 6.6 | 0.63 |\n| Full | 11.2 | 1.6 | 0 | 1.7 | 10.7 | -2.1 | 5.9 | 0.55 | [...] In contrast, irrigating chickpeas resulted in a yield decrease (Table 1, Figure 3). In 2018, chickpea yield under deficit irrigation (2.2 inches applied) and full irrigation (4.4 inches applied) was 16.5 bu/ac and 28.5 bu/ac yield less than dryland, respective"
+        },
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "title": "Chickpea Production - Extension Store",
+          "description": "We encourage the use of this document for nonprofit educational purposes. This document may be reprinted for nonprofit educational purposes if no endorsement of a commercial product, service or company is stated or implied, and if appropriate credit is given to the author and MSU Extension. To use these documents in electronic formats, permission must be sought from the Extension Communications Director, 135 Culbertson Hall, Montana State University, Bozeman, MT 59717; E-mail: [...] The U.S. Department of Agriculture (USDA), Montana State University and Montana State University Extension prohibit discrimination in all of their programs and activities on the basis of race, color, national origin, gender, religion, age, disability, political beliefs, sexual orientation, and marital and family status. Issued in furtherance of cooperative extension work in agriculture and home economics, acts of May 8 and June 30, 1914, in cooperation with the U.S. Department of Agriculture, [...] with the seed should not exceed a total of 15 lb of K2O + N per acre."
+        }
+      ]
+    },
+    "1ff99c1804a7454f03d8e3f8540b98e5cc2a31320f45a0b919f3d624386f2f24": {
+      "checked": 1793179557.312481,
+      "results": [
+        {
+          "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+          "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
+          "description": "To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. [...] Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, [...] The main advantage of fall irrigation is lower evaporation compared to summer; thus, improving irrigation efficiency. Further, most irrigated alfalfa fields never get much water stored below four feet depth, although alfalfa plants can grow roots down eight feet or more. Since roots will not grow through dry soil to reach wet soil, deep soil water storage reserves may be lacking if field soil wetting does no"
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+          "title": "Alfalfa during drought",
+          "description": "Water budgeting approaches or “checkbook scheduling” involves monitoring soil moisture in addition to determining daily crop water use through evapotranspiration (ET). Soil moisture can be monitored using moisture-sensing instrumentation. With alfalfa, irrigation typically begins with only about 50% depletion of available water in the root zone. See more about irrigation scheduling in Minnesota at: [...] Extension Wordmark\n\n# Minnesota Crop News\n\n### Search This Blog\n\n### Alfalfa during drought\n\nJared Goplen, Extension educator - crops, and Craig Sheaffer, Professor, Department of Agronomy and Plant Genetics\n\n## Overview\n\n|  |\n\n| A recently harvested alfalfa plant will become dormant if subject to drought and high temperatures. It will survive several months of dormancy and resume regrowth when moisture conditions are favorable. Photo: C.C Sheaffer. | [...] Other irrigation scheduling considerations unique to alfalfa include: 1) avoid scheduling during times of peak ET in the summer months, 2) avoid irrigation 1 week before harvest to facilitate harvest equipment and to avoid compaction, 3) irrigate immediately after a harvest, and 4) avoid irrigation when alfalfa is undergoing the"
+        },
+        {
+          "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+          "title": "Irrigating Alfalfa: Some Guidelines - MSU Extension Water Quality | Montana State University",
+          "description": "Alfalfa is quite tolerant of drought or extended periods without highly available water. As much as 50 to 65% of the available soil moisture can be removed between irrigations early and late in the season, but only 35 to 50% removal will give better results during high water-use periods. Maintaining higher levels, especially with slow-draining soils, may cause loss of stand and competition from grass invasion. Texture and depth of soil have little influence on water requirements of alfalfa, but [...] ### Water Use Characteristics\n\nAlfalfa is a high water use crop because it has a long growing season, a deep root system, and a dense mass of vegetation. The amount of water needed is governed by temperature, wind, humidity, and the amount and intensity of light. However, the irrigation requirement for alfalfa is governed by rainfall and the water holding capacity of the soils growing the crop. Commonly cited ranges in water requirements for alfalfa are 18 to 36 inches of water per season. [...] of alfalfa, but these factors affect the amount of moisture which can be stored in the soil. Naturally, the amount of moisture stored affects frequency of irrigation and the amount to apply at "
+        },
+        {
+          "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+          "title": "Effect of drought on alfalfa and managing for the next growing season – Crops and Soils",
+          "description": "Drought can significantly reduce alfalfa yield. Timing of drought can be critical. First cutting may be reduced in the case of a dry March. Alfalfa root systems die back to some extent over winter. The root system requires good soil moisture in the early spring to regrow. If a strong root system forms then high yields will occur on first cutting. If the root system growth is restricted by dry soil, then the top growth will be reduced, even if good rain occurs in the later part of the first [...] Cell enlargement is inhibited.\n The number of basal buds and the number of shoots or stems/plant is reduced when moisture stress occurs in the first 14 days after a harvest.\n The stem internode length is reduced; thus, the flowering is seen at reduced plant height.\n Leaf area/leaf size and leaf growth rate is reduced, although to a lesser degree than stem growth. Therefore, leaf to stem ratio is higher under moisture stress. [...] If stand is over 10 inches tall and flowering, harvest if economic to do so. Moisture stressed alfalfa should be mowed at the normal cutting height. There is no advantage to raising the cutting height. Alfalfa can regrow from axillary buds on the stubble but these"
+        }
+      ]
+    },
+    "d67bf982afa6a039ea8685db9f15a5056690a72845a0977a01570d943a02061d": {
+      "checked": 1793179555.181575,
+      "results": [
+        {
+          "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+          "title": "Irrigating Alfalfa: Some Guidelines - MSU Extension Water Quality | Montana State University",
+          "description": "One of the most practical methods of scheduling irrigations involves estimating plant water use by measuring evaporation from a standard evaporation pan. Practical experience has shown that on-farm scheduling can be approximated by measuring the water use from a wash tub. Alfalfa water use and evaporation is approximately on a 1:1 ratio (one inch is used by the crop while one inch evaporates from the pan). Under surface irrigation the water-holding capacity of the soil must be known to use this [...] ### Water Use Characteristics\n\nAlfalfa is a high water use crop because it has a long growing season, a deep root system, and a dense mass of vegetation. The amount of water needed is governed by temperature, wind, humidity, and the amount and intensity of light. However, the irrigation requirement for alfalfa is governed by rainfall and the water holding capacity of the soils growing the crop. Commonly cited ranges in water requirements for alfalfa are 18 to 36 inches of water per season. [...] On low water holding soils, hay cutting periods and irrigation scheduling take extra planning. Quick hay removal is needed because most sprinkler systems are not designed to allow many days of "
+        },
+        {
+          "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2019/Li%20et%20al_2019_CEA_163-2019-10pgs.pdf",
+          "title": "A real-time fuzzy decision support system for alfalfa irrigation",
+          "description": "or 0.7 to 0.8 when precipitation (P) is less than 5 mm, 5 to 50 mm, or greater than 50 mm, respectively. [...] make scheduling of agricultural machinery accordingly. Using weather forecast data, the IDSS provided the user with predictive variation of soil water in following days. The irrigation was triggered by the soil water threshold prescribed by the user. Both the precipitation predic-tion and alfalfa harvest management were used to determine whether irrigation should be executed. Finally, the irrigation efficiency for a given irrigation system was taken account into the irrigation amount. [...] change in 7 days with weather forecast data (Fig. 4(e)). After the threshold of soil water was set, the interface would go to irrigation management. The system required the user to set the irrigation efficiency according to the irrigation system. Then, the software generated an initial irrigation timing and quantity (Fig. 4(f)). The irrigation scheduling process was recalculated when users changed the irrigation plan, the software then produced a new regime of irrigation timing and amount."
+        },
+        {
+          "url": "https://sites.udel.edu/weeklycropupdate?p=13798",
+          "title": "Irrigation Scheduling – When to Resume After Rain | Weekly Crop Update",
+          "description": "Weekly Crop Update\n\nfrom UD Cooperative Extension\n\n# Irrigation Scheduling – When to Resume After Rain\n\nGail Hermenau\n\nJames Adkins, Agricultural Engineer; adkins@udel.edu [...] The information presented below is an example of the soil moisture status at University of Delaware’s Warrington Irrigation Research Farm. Actual field values will vary greatly depending on crop stage, soil type and local rainfall. There are many tools available that provide field by field values to assist farmers in making irrigation scheduling decisions including paid services through local crop consultants, irrigation equipment manufacturer’s, Climate Corp, etc and free tools like KanSched [...] Coarse loamy sand soils only hold 1.6” in the entire 18” root zone and need to maintain a minimum of 50% of the available water to avoid yield loss. This means a farmer with sandy loam soils needs to initiate irrigation before 0.8” of crop water use. With daily evapotranspiration averaging 0.2”-0.25” per day irrigation should start no more than 3 days after a major (1 inch plus) rain. Sandy loams average 2.34” of holding capacity meaning a 50% managed allowable depletion of 1.17”, or a 4-day"
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "The Irrigation Management Assistant (IMA) helps Minnesota growers improve irrigation efficiency across a variety of crops, including corn, soybean, potato, and other irrigated crops. The tool works best when using precipitation data near your field and is optimized for Minnesota conditions.\n\n Sources \n\nAl-Kaisi, M.M, I. Broner and A.A. Andales. 2014. Crop water use and growth stages. Colorado State University Extension. Fact sheet no. 4.715. [...] Fischbach, P.E. (editor) 1988. Irrigation Scheduling—Management Handbook. Cooperative Extension Service, University of Nebraska.\n\nStegman, E.C. 1988. Chapter V. _Water Management._ Best Management Practices Manual for Oakes Irrigation Area. North Dakota State University.\n\nAuthor: Vasudha Sharma, Extension irrigation specialist [...] Skip to navigationSkip to main contentSkip to footer\n\nImage 1: Extension Logo\n\nImage 2: Extension Logo\n\nUniversity of Minnesota Extension  \nextension.umn.edu\n\n× \"Clear search box\")\n\n    About Toggle submenu \n\nImage 3: A university researcher and participant discuss weeds in a research crop field   ## Building a stronger Minnesota together\n\nBringing Minnesotans together to build a better future through Universi"
+        }
+      ]
+    },
+    "c234ce0bacbc7617964c8f0cad1860d69fe90b20333660afc30150650daf244e": {
+      "checked": 1793179552.3319795,
+      "results": [
+        {
+          "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+          "title": "Alfalfa Nutrient Management Guide | USU",
+          "description": "the plants actively absorbing the nutrient and the slow release of plant-available P from soil minerals (Koenig et al., 2009). Current guidelines in Tables 2–4 are based on soil samples collected to a 12-inch sample depth. This may be recalibrated to shallower depths in the future, but we currently recommend sampling to 12 inches. Find more details for soil sample collection and handling in USU Extension’s fact sheet Soil Sampling Guide for Crops (Yost et al., 2023). [...] Grewal, H. S. & Williams, R. (2000). Zinc nutrition affects alfalfa responses to water stress and excessive moisture. Journal of Plant Nutrition, 23(7), 949–962. DOI: 10.1080/01904160009382073\n\nHannaway, D., Bohle, M., Miles, D., Lin, Y., & Randow, B. (2019). Alfalfa soil fertility and fertilization requirements[Fact sheet]. Oregon State University Extension. \n\nKelling, K. (2000). Alfalfa fertilization[Fact Sheet]. University of Wisconsin Extension. [...] |  |  |\n --- |\n| Soil test potassium (ppm) | Recommendation (lb K₂O/acre) |\n| 0–50\\ | 180–220 |\n| 50–70 | 140–180 |\n| 70–100 | 100–140 |\n| 100–150 | 60–100 |\n| >150 | 0 |\n\nNotes. \\Low soil test levels can severely limit yield. Test soil annually or often until l"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+          "title": "Alfalfa during drought",
+          "description": "For successful establishment, alfalfa should be seeded at 1/4- to 1/2-inch depth into firm seedbeds. These conditions provide good soil-seed contact that allows seeds to absorb water while minimizing exposure to extremes in temperature and moisture. [...] Skip to navigationSkip to main contentSkip to footer\n\nImage 1: Extension Logo\n\nImage 2: Extension Logo\n\nUniversity of Minnesota Extension  \nextension.umn.edu\n\n× \"Clear search box\")\n\n    About Toggle submenu \n\nImage 3: A university researcher and participant discuss weeds in a research crop field   ## Building a stronger Minnesota together\n\nBringing Minnesotans together to build a better future through University science-based knowledge, expertise and training.       \n\n        Our work [...] Water budgeting approaches or “checkbook scheduling” involves monitoring soil moisture and determining daily crop water use through evapotranspiration (ET). Soil moisture can be monitored using moisture-sensing instruments. With alfalfa, irrigation typically begins with about 50% depletion of available water in the root zone.\n\nIrrigation scheduling considerations unique to alfalfa:"
+        },
+        {
+          "url": "https://crops.extension.iastate.edu/cropnews/2023/04/establishing-new-stand-alfalfa",
+          "title": "Establishing a New Stand of Alfalfa | Integrated Crop Management",
+          "description": "Proper soil fertility is important when establishing a new stand of alfalfa. Soil sampling and fertilizing based on soil test results helps ensure that a new stand will get off to a good start. An updated Iowa State University Extension and Outreach publication, “General Guide for Crop Nutrient and Limestone Recommendations in Iowa,” is a great resource when looking up alfalfa fertility requirements. The recommended soil pH for alfalfa is 6.8 to 7."
+        },
+        {
+          "url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag",
+          "title": "2024 Wisconsin alfalfa seedings a mixed bag – Crops and Soils",
+          "description": "Skip to content\n\nUW Madison Crest\n\nCrops and Soils\n\nDivision of Extension\n\nUniversity of Wisconsin-Extension\n\n# 2024 Wisconsin alfalfa seedings a mixed bag\n\nWritten by Scott Newell Posted on\n\nShare\n\n Share:\n\nCopied!"
+        }
+      ]
+    },
+    "0989dd9ec601640ab873068be52432d1f13f7ca3428c363ec82a75ba1ebbb8c1": {
+      "checked": 1793179548.9607534,
+      "results": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12870302",
+          "title": "Recommendation of nitrogen, phosphorus and potassium balanced fertilizer based on soil status/soil availability and economic benefits of alfalfa in salt-affected soils of North China plain",
+          "description": "25. 25. Barbarick KA. Potassium fertilization of alfalfa growth on a soil high in potassium Agron J 1985 77 3 442 5 doi:10.2134/agronj1985.00021962007700030020x Barbarick KA. Potassium fertilization of alfalfa growth on a soil high in potassium. Agron J. 1985;77(3):442–5. [...] 68. 68. Li X, An J, Hou X. Effects of six consecutive years of irrigation and phosphorus fertilization on alfalfa yield Plants 2023 12 11 2227 doi:10.3390/plants12112227 PMID:37299206 PMCID:PMC10255143 Li X, An J, Hou X. Effects of six consecutive years of irrigation and phosphorus fertilization on alfalfa yield. Plants. 2023;12(11):2227. PMID:37299206 doi:10.3390/plants12112227 PMCID:PMC10255143 [...] 61. 61. Lloveras J, Chocarro C, Torres L, Viladrich D, Costafreda R, Santiveri F. Alfalfa yield components and soil potassium depletion as affected by potassium fertilization Agron J 2012 104 729 34 doi:10.2134/agronj2011.0293 Lloveras J, Chocarro C, Torres L, Viladrich D, Costafreda R, Santiveri F. Alfalfa yield components and soil potassium depletion as affected by potassium fertilization. Agron J. 2012;104:729–34."
+        },
+        {
+          "url": "https://crops.extension.iastate.edu/post/forage-fertilization-considerations",
+          "title": "Forage Fertilization Considerations | Integrated Crop Management",
+          "description": "Similar to alfalfa, grass can remove a large amount of K and P from your system. The potassium removal rate is estimated to be at 50 lbs per ton and 15 lbs per ton for P. Outside of P and K, grasses need nitrogen for growth, while alfalfa and other legumes can fixate their own. Typically, a split N fertilization application rate is recommended at 40 lbs at spring green-up and directly following each hay cutting. This will help boost the regrowth and yields. Although a single application can be [...] Outside of soil testing you can determine how much to apply by estimates of how much you removed. It is estimated that with every ton of alfalfa harvested 15 to 20 pounds of phosphorus is removed and 50 to 60 pounds of potassium. So, if you removed 5 tons/acre of alfalfa hay off your field last year, you should replace at least 75 lbs/acre of phosphorus and 250 lbs/acre of potassium. Potassium is particularly important to help prevent winterkill. [...] A good fertilization program for your alfalfa hayfield is a key component for persistence and high-producing stands. As spring is here, fertilization of your alfalfa stands should be on your mind.  The key aspects of your program should i"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+          "title": "Alfalfa Nutrient Management Guide | USU",
+          "description": "Koenig, R., Hurst, C., Barnhill, J., Kitchen, B., Winger, M., & Johnson, M. (1999). Fertilizer Management for Alfalfa[Fact Sheet]. Utah State University Extension. \n\nKoenig, R. T., Kitchen, B., Hurst, C., & Barnhill, J. (1999). Phosphorus and potassium fertilization of irrigated alfalfa in Utah. In T.L. Tindall (Ed.), Proceedings of the Western Nutrient Management Conference, March 4–5, Salt Lake City, UT, pp. 57–62. [...] Koenig, R., Horneck, D., Platt, T., Petersen, P., Stevens, R., Fransen, S., & Brown, B. (2009). Nutrient management guide for dryland and irrigated alfalfa in the inland Northwest[Fact sheet]. Washington State University. \n\nLissbrant, S., Berg, W. K., Volenec, J., Brouder, S., Joern, B., Cunningham, S., & Johnson, K. (2009). Phosphorus and potassium fertilization of alfalfa[Fact sheet]. Purdue Extension. [...] Table 2. Phosphorus Recommendations for Alfalfa Production\n\n|  |  |\n --- |\n| Soil test phosphorus (ppm) | Recommendation (lb P₂O₅/acre) |\n| 0–4\\ | 200–250 |\n| 5–7\\ | 150–200 |\n| 8–10 | 100–150 |\n| 11–15 | 50–100 |\n| >15 | 0 |\n\nNotes. \\Low soil tests levels can severely limit yield. Test soil annually or often until levels are adequate.  \nRecommendations are"
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/beef119-alfalfa-soil-fertility-fertilization-requirements",
+          "title": "Alfalfa soil fertility and fertilization requirements | OSU Extension Service",
+          "description": "Oregon State University \n\n## OSU Extension Service\n\n1. OSU Extension Catalog\n\nPeer reviewed (Orange level)\n\n# Alfalfa soil fertility and fertilization requirements\n\n English\n Español\n\nDavid Hannaway, Mylen Bohle, Daniel Miles, Yitian Lin and Brianna Randow\n\nBEEF119 | Published September 2019, Reviewed 2026 | \n\nPrint (or Save as PDF)\n\n |   Share\n\n## Introduction [...] Since legume forages are capable of fixing atmospheric nitrogen (N2) with effective nodules, N fertilizer is not needed or recommended. Some N in the soil and applied fertilizer (up to 40 lb N/acre) may be necessary for initial alfalfa growth. [...] Festner, W.E., C.J. Oredah and G.W. Rehm. 1993. Boron for Minnesota Soils. University of Minn. Ext. Pub. WW-00723-GO.\n\nGardener, Hugh, D.B. Hannaway, V. Pumphrey and B. Wilcox. 1983. Fertilizer Guide: Alfalfa Eastern Oregon – East of Cascades, FG 20.\n\nHannaway, D.B., and P.E. Shuler. 1993. Nitrogen Fertilization in Alfalfa Production. J. Prod. Agric. 6:80-85."
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2021.715936/full",
+          "title": "Potassium and Phosphorus Fertilizer Impacts on Alfalfa ...",
+          "description": "by WK Berg · 2021 · Cited by 22 — Numerous studies have also shown that plant nutrition, and in particular P and K fertility, plays a key role in alfalfa growth and stress"
+        }
+      ]
+    },
+    "631f70c3c7246f0b00e1e3551f96a6006781da32dcf4eecd35b04a5163205df4": {
+      "checked": 1793179546.5278318,
+      "results": [
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+          "title": "Alfalfa during drought",
+          "description": "Other irrigation scheduling considerations unique to alfalfa include: 1) avoid scheduling during times of peak ET in the summer months, 2) avoid irrigation 1 week before harvest to facilitate harvest equipment and to avoid compaction, 3) irrigate immediately after a harvest, and 4) avoid irrigation when alfalfa is undergoing the dormancy reaction in the fall. [...] Extension Wordmark\n\n# Minnesota Crop News\n\n### Search This Blog\n\n### Alfalfa during drought\n\nJared Goplen, Extension educator - crops, and Craig Sheaffer, Professor, Department of Agronomy and Plant Genetics\n\n## Overview\n\n|  |\n\n| A recently harvested alfalfa plant will become dormant if subject to drought and high temperatures. It will survive several months of dormancy and resume regrowth when moisture conditions are favorable. Photo: C.C Sheaffer. | [...] Water budgeting approaches or “checkbook scheduling” involves monitoring soil moisture in addition to determining daily crop water use through evapotranspiration (ET). Soil moisture can be monitored using moisture-sensing instrumentation. With alfalfa, irrigation typically begins with only about 50% depletion of available water in the root zone. See more about irrigat"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+          "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+          "description": "Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension. [...] Lindenmayer, R.B., Hansen, N.C., Brummer, J., & Pritchett, J.G. (2011). Deficit irrigation of alfalfa for water-savings in the Great Plains and Intermountain West: A review and analysis of the literature. Agronomy Journal, 103, 45–50. \n Orloff, S., Putnam, D., & Bali, K. (2015). Drought strategies for alfalfa. University of California Extension. ANR Publication 8522. [...] Utah State University sites use cookies. By continuing to use this site you accept our privacy and cookie policy.\n\nSkip to content\n\nUtah State University logo\n\nCrop Resources Extension\n\nUState logo\n\nUSU Extension Crops\n\n Calendar\n Crops \n\n  Crop Information\n\n  + Alfalfa\n  + Pasture/Grass Hay\n  + Other Hay\n  + Small Grains\n  + Corn\n  + Safflower\n  + Other Oilseeds\n  + Other Crops\n Tools \n\n  Tools"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-considerations-fall-forage-harvest-alfalfa-irrigation-and-last-cutting",
+          "title": "Considerations for Fall Forage Harvest, Alfalfa Irrigation and ...",
+          "description": "To reduce field compaction, pause irrigating two to three days before cutting the alfalfa and irrigate again when alfalfa regrowth begins."
+        }
+      ]
+    },
+    "3379c8f6b74116f64bef61b26fb4682c0f75aa96f3fce6a3e0a89ea0c2c98b77": {
+      "checked": 1793179544.391196,
+      "results": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092",
+          "title": "Base water potential but not hydrotime predicts seedling emergence of Medicago sativa under water stress conditions",
+          "description": "and with seedling establishment in the field, while no correlation was observed between θH, σφb and seedling emergence and establishment. These results suggest that Ψb(50) can be used to rank the vigor of alfalfa seed lots and thus predict seedling emergence and establishment under water stress conditions. [...] conditions, further supporting the assumption that tolerance of alfalfa seed lots to stressful conditions can be identified by a decrease in Ψb(50). Thus, Ψb(50) can be applicable for predicting early seed vigor and seedling establishment in the field. [...] Table 4 · Pearson correlation coefficient between overall mean of seed germination percentage and rate (mean of four levels of water potential and three replicates), emergence percentage and index and hydrotime parameters (θH, Ψb(50), σφb) at different environmental conditions of control, water stress, salinity stress and field sowing for 10 alfalfa seed lots."
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
+          "title": "Drought risks to late summer alfalfa seedings",
+          "description": "Drought during late August and September will delay germination until favorable soil moisture is available. To germinate, alfalfa seeds must absorb over 100% of their weight in water. Delayed emergence caused by dry soils increases the risk of establishment failure through winter injury because seedlings do not have time to adequately develop crowns and roots. Plants with a high probability of survival will have at least four trifoliolate leaves (Figure 1). [...] If adequate moisture is available, alfalfa seeds continue to germinate throughout the fall and even during winter. Alfalfa can germinate at temperatures as low as 32 F although it can take 2 weeks for germination. Unfortunately, seeds that germinate after mid-September have little chance of developing into plants that survive till spring. Growers can expect significant yield reductions from surviving plants. [...] Seed germination and seedling emergence by early September at near optimum temperatures of 65-75 F will allow for 8 or more weeks of growth before a significant killing frost. In an earlier Crop News, we showed that alfalfa seedlings had good tolerance to air temperatures as low as 24F. For much of central and so"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+          "title": "Frontiers | Drought–salinity interaction suppresses seed germination and seedling growth in alfalfa by altering water status, membrane stability, and antioxidant responses",
+          "description": "During the 10-day germination period, the number of germinated seeds was recorded daily. Germination was defined as visible radicle protrusion through the seed coat. Germination parameters were calculated according to the ISTA rules and previously described methods with minor modifications (ISTA, 2018; Upretee et al., 2024). Germination percentage and germination potential were calculated using Equations 1 and 2, respectively. Germination potential was calculated on day 3, and germination [...] Seed germination is the first and most critical stage in the growth of alfalfa, and its sensitivity to environmental stress largely determines subsequent seedling emergence and stand establishment (Bewley, 1997; Finch-Savage and Leubner-Metzger, 2006). The results of this study showed that as PEG and NaCl concentrations increased, germination percentage, germination potential, germination index, and vigor index generally decreased, which agrees with previous studies showing that osmotic stress [...] early establishment responds to drought and salinity stress is essential for improving pasture formation under adverse environments. Seed germination and early seedling growth are the most vulner"
+        },
+        {
+          "url": "https://research.fs.usda.gov/download/treesearch/39168.pdf",
+          "title": "Using hydrothermal time concepts to model seed germination ...",
+          "description": "from time course data at two or more Y and T values (Bradford, 1990; Dahal and Bradford, 1994; Christensen et al., 1996). Because base water potential is inversely proportional to germination rate at a given Y, treatments or conditions that increase Yb(g) will decrease the germination rate, while those that decrease Yb(g) will increase the germination rate. Further, where a shift in Yb(50) changes the fraction of the seed population that is at or below Yb(g) at a particular Y, germination [...] by the temperature and water potential of incubation in relation to the base temperature and base water potential for that seed. The larger the differences (T–Tb) and (Y–Yb(g)), the faster the seed will accrue hydrothermal time and the sooner it will germinate. [...] Keywords: after-ripening, dormancy, Elymus elymoides, hydrothermal time, modelling, priming, seed germination Introduction Seed germination is strongly inﬂuenced by temperature (T) and water potential (Y). Accumula-tion of progress toward radicle emergence under various combinations of T and Y can be described using hydrothermal time (Gummerson, 1986; Dahal and Bradford, 1994; Bradford, 1995): where qHT is the hydrothermal time "
+        }
+      ]
+    },
+    "97d3bfaa38ad52bf0ddc93b940f2032ed2e6815e22707e65f652e95d8c8bab81": {
+      "checked": 1793179541.7351372,
+      "results": [
+        {
+          "url": "https://extension.umn.edu/growing-forages/managing-alfalfa-winter-injury",
+          "title": "Alfalfa winter injury: Weather and management effects",
+          "description": "Growing degree days for alfalfa are determined by averaging the high and low temperatures for a day, then subtracting the base temperature of 41°F. At 41°F, alfalfa growth is negligible. For example, if the daily high was 70°F and the daily low was 42°F, the average is 56°F. Subtract the base 41°F, and you have 13 alfalfa GDD accumulated for that day. [...] ©2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer.\n\n  \nA QR code linking to the current webpage.  \n\nPlease scan the above QR code to visit the live webpage for links.\n\n|  |  |\n --- |\n|  |  | [...] Dormant alfalfa varieties can suffer winter injury at temperatures ranging from  5 to 15°F.   Winter injury occurs because ice crystals form within and among plant cells and damage cell membranes.\n\nIn contrast, periods of warm soil temperatures (more than 41 degrees) in later winter and spring can cause alfalfa to deharden and break dormancy. If followed by extreme cold or icy weather, severe winter injury may result.\n\n### Ice sheeting"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-establishment-management-strategies",
+          "title": "Alfalfa establishment: Management strategies",
+          "description": "In addition to locating well-drained, deep soils, following alfalfa with newly-seeded alfalfa in the rotation is not advisable due to autotoxicity. Because buffering soil pH can take time, soil test and apply and incorporate lime (calcium carbonate) 6 to 12 months prior to alfalfa seeding based on soil reports. Soil phosphorus (P), potassium (K), and sulfur (S) levels should be assess before seeding and annually throughout the alfalfa lifecycle. ### Seeding alfalfa. Alfalfa can be successfully seeded in spring or late summer in Minnesota. ##### Table 2: Pros and cons of spring and summer alfalfa seeding dates. Proper seedbed preparation is essential for providing adequate seed-to-soil contact and controlling perennial and annual weeds. Generally, alfalfa should be seeded from 1/4 to 1/2 inch deep on medium and fine-textured soils and 1/2 to 3/4 inch deep on sandy soils. Alfalfa emergence as determined by seeding depth and soil type. There are two approaches to weed control when seeding alfalfa:. Small grain companion crops can suppress growth of alfalfa seedlings; to reduce competition, small grains should be seeded at only one bushel per acre and harvested at boot stage before gra"
+        },
+        {
+          "url": "https://extension.umn.edu/planting-forages/alfalfa-establishment-management-strategies",
+          "title": "Alfalfa establishment: Management strategies | UMN Extension",
+          "description": "Title: Alfalfa establishment: Management strategies | UMN Extension\nIn addition to locating well-drained, deep soils, following alfalfa with newly-seeded alfalfa in the rotation is not advisable due to autotoxicity. Because buffering soil pH can take time, soil test and apply and incorporate lime (calcium carbonate) 6 to 12  months prior to alfalfa seeding based on soil reports. Soil phosphorus (P), potassium (K), and sulfur (S) levels should be assess before seeding and annually throughout the alfalfa lifecycle. ### Seeding alfalfa. Alfalfa can be successfully seeded in spring or late summer in Minnesota. ##### Table 2: Pros and cons of spring and summer alfalfa seeding dates. Best time to seed alfalfa-grass mixtures | Lack of available soil moisture, sclerotinia crown rot may be prevalent, need six to seven weeks of growth to survive the winter |. Generally, alfalfa should be seeded from 1/4 to 1/2 inch deep on medium and fine-textured soils and 1/2 to 3/4 inch deep on sandy soils. line graph of declining alfalfa emergence with seeding depth by soil type. Alfalfa emergence as determined by seeding depth and soil type. There are two approaches to weed control when seeding alfalfa:"
+        },
+        {
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/harvesting-and-storing-home-garden-vegetables",
+          "title": "Harvesting and storing home garden vegetables | UMN Extension",
+          "description": "### Watermelons\n\n Harvest when the underside turns yellow or the fruit produces a dull sound when slapped.\n Store in a cool spot (55 degrees Fahrenheit) in the kitchen in perforated plastic bags. Storage in the refrigerator is also possible for a few days.\n Watermelon will decay if stored below 50 degrees Fahrenheit for more than a few days.\n The expected shelf-life is two weeks.\n\nCindy Tong, Extension post-harvest horticulturist\n\nReviewed in\n2026\n\nPage survey [...] ### Basil\n\n Harvest when leaves are still tender.\n Store at room temperature.\n Keep stems in water. Basil will discolor if kept in the refrigerator for 10 days.\n The expected shelf-life is five days.\n\n### Beans, snap\n\n Harvest two to three weeks after bloom when the seeds are still immature.\n Store in cold and moist conditions.\n Beans will develop pitting if stored below 40 degrees Fahrenheit.\n The expected shelf-life is one week.\n\n### Beets [...] For cold conditions, 32 degrees Fahrenheit is the ideal temperature. This temperature is not easy to attain in most homes. Expect shortened shelf-lives for your vegetables as storage conditions deviate from the ideal temperature. This shortening of their life span can be up to"
+        },
+        {
+          "url": "https://extension.umn.edu/food/preparing/commercial-kitchens/keep-food-safe-with-time-and-temperature-control",
+          "title": "Keep food safe with time and temperature control | UMN Extension",
+          "description": "©2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer.\n\n  \nA QR code linking to the current webpage.  \n\nPlease scan the above QR code to visit the live webpage for links.\n\n|  |  |\n --- |\n|  |  | [...] Page survey\n\n©\n2026\nRegents of the University of Minnesota. All rights reserved.\nThe University of Minnesota is an equal opportunity educator and employer.\nThis work is supported by the U.S. Department of Agriculture’s National Institute of Food and Agriculture.\n\nReport Web Accessibility Issues Link is external\n|\nPrivacy Statement Link is external\n|\nStaff intranet Link is external [...] A leading cause of foodborne illness is time and temperature abuse of TCS (food requiring time and temperature control for safety) foods. TCS foods are time and temperature abused any time they’re in the temperature danger zone, 41 to 135 degrees Fahrenheit. This occurs when food is:\n\n Not cooked to the recommended minimum internal temperature.\n Not held at the proper temperature.\n Not cooled or reheated properly.\n\nTemperature danger zone: 41 to 135 degrees Fahrenheit."
+        },
+        {
+          "url": "https://extension.umn.edu/food-service/keep-food-safe-time-and-temperature-control",
+          "title": "Keep food safe with time and temperature control | UMN Extension",
+          "description": "Title: Keep food safe with time and temperature control | UMN Extension\n# Keep food safe with time and temperature control. A leading cause of foodborne illness is time and temperature abuse of **TCS** (food requiring **time** and **temperature control for safety**) foods. TCS foods are time and temperature abused any time they’re in the temperature danger zone, 41 to 135 degrees Fahrenheit. * Not cooked to the recommended minimum internal temperature. * Not held at the proper temperature. Temperature danger zone: 41 to 135 degrees Fahrenheit. The longer food is in the temperature danger zone, the more time pathogens have to grow. The goal is to reduce the amount of time TCS food spends in the temperature danger zone. If food is held in this range for four or more hours, you must throw it out. ## Time and temperature. For a quick and reliable reference, print a copy of the Minnesota Department of Health fact sheet, Temperature Requirements for Potentially Hazardous Foods. ### Cold holding - 41 degrees Fahrenheit or less. Cold foods must be maintained at 41 F or less. The following MUST be cooked to listed internal temperatures and times:. #### 145 Fahrenheit or above for 15 seconds"
+        }
+      ]
+    },
+    "e0984f889831781ef0bcc676b788190b342f73e78250772b9ad5a63774f986b9": {
+      "checked": 1793179539.125062,
+      "results": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377424000283",
+          "title": "Simulated soil water distribution patterns and water use of Alfalfa under different subsurface drip irrigation depths",
+          "description": "in topsoil volumetric soil water content was observed for drip lines at 45 cm depth as compared with 15 cm depth. Drip lines at 30 cm depth are likely the optimal for RWU and free drainage; however, drip lines at 45 cm depth may allow growers to provide additional irrigation events (without increasing the topsoil volumetric soil water content) closer to the harvest date, potentially resulting in higher yield and water use efficiency. [...] All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.\n\nImage 7: RELX group home page\n\nPersistent link using digital object identifier (DOI) [...] ## Highlights\n\n   •HYDRUS simulated soil profile moisture distribution of SDI for alfalfa well. \n   •There was no significant difference between root water uptake (RWU) among drip depths. \n   •A 10%, and 20% reduction in topsoil moisture content was obtained for drip lines at 30 cm, and 45 cm depth. \n   •Drip lines at 45 cm depth allow growers to practice additional irrigation events closer to the h"
+        },
+        {
+          "url": "https://bookstore.ksre.ksu.edu/pubs/subsurface-drip-irrigation-for-alfalfa_MF2867.pdf",
+          "title": "MF2867 Subsurface Drip Irrigation for Alfalfa - KSRE Bookstore",
+          "description": "3 observations on systems in Kan­ sas have shown harvest during irrigation to be possible. Since suspended irrigation time for harvest is less of an issue for SDI systems, the irri­ gation capacity of the system is less affected. Irrigation capacity is normally considered to be the effective application depth that the system can supply to a field if the entire field was watered daily. For example, a 128-acre cen­ ter pivot system with a flow rate of 700 gpm has a gross irriga­ tion capacity of [...] tion capacity of 0.29 inches per day, which on good soils would be considered a high irrigation capacity. This system could apply 8.7 inches of water in a 30-day typical harvest cycle for alfalfa; if seven days are required to have the field surface dry enough for harvest operations, only 6.67 inches can be applied. This will mean that the effective irrigation capacity is only 0.22 inches per day, which would be regarded as low irrigation capacity. Because alfalfa yield is linearly related to [...] using sprinkler irrigation (Henggeler, 1995). Subsurface Drip Irrigation for Alfalfa Mahbub Alam Extension Irrigation Engineer Southwest Research and Extension Center Danny H. Rogers Extensio"
+        }
+      ]
+    },
+    "54dc12be2efea8c9e88b4f59eb69ce6bc6eee3e5dcd1e9f02e75e8a8598e6657": {
+      "checked": 1793179536.2612624,
+      "results": [
+        {
+          "url": "https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/HO122.pdf",
+          "title": "Simple Calculations for Drip Irrigation - Extension Publications",
+          "description": "our 36 rows is 200 ft long so we will need about 36 x 200 ft = 7,200 ft of drip tape. From the irrigation supply catalog or from the label on the roll of drip tape (Figure 2) we see that the flow rate of our tape is 0.5 gallons per minute (gpm) for each 100 ft of tape when the system is pressurized at 8 psi. So to de­ termine our total flow in this one-acre plot through 7,200 ft of drip tape, first divide 7,200 ft by 100 = 72 and multiply the result by 0.5 gpm (72 x 0.5 gpm = 36 psi = pounds [...] per acre and its total flow rate per acre. Row spacing (inch) Drip tape/acre (ft) Drip tape emitter spacing (inch) 8\" 8\" 12\" 12\" 16\" 16\" 24\" Drip tape flow rate (gpm per 100 ft) 0.67 0.34 0.45 0.22 0.34 0.17 0.28 30 17,424 117 59 78 38 59 30 49 32 16,335 109 56 74 36 56 28 46 34 15,374 103 52 69 34 52 26 43 36 (3 ft) 14,520 97 49 65 32 49 25 41 38 13,756 92 47 62 30 47 23 39 40 13,068 88 44 59 29 44 22 37 42 12,446 83 42 56 27 42 21 35 44 11,880 80 40 53 26 40 20 33 46 11,363 76 39 51 25 39 19 [...] to 34 x 208.7 ft = 7,096 ft. In this example we will use the same drip tape with a flow rate of 0.5 gpm per 100 ft. So to calculate the total flow through 7,096 ft of drip tape, first divide 7"
+        },
+        {
+          "url": "https://irrigation.wsu.edu/Content/Calculators/Drip/Drip-Line-Rate.php",
+          "title": "Drip Line Rate Calculator",
+          "description": "The drip line application rate is specific to your irrigation system and shouldn't change, so take a note of it. This constant rate is multiplied by all future irrigation set times to give the net application depths for those sets. Use this form to calculate the water application rate of drip irrigation lines (tape, tubing) given the flow rate from individual emitters, a constant spacing of the emitters along the drip line, and a constant spacing between the drip lines. Learn more about the [...] Home\n Login\n Cooperative Extension Search\n Irrigation Scheduling Program\n NRCS Soil Survey\n AgWeatherNet\n\n## \n\n# Irrigation in the Pacific Northwest\n\n Washington State University Extension\n Oregon State University Extension\n University of Idaho Extension"
+        }
+      ]
+    },
+    "e188b908b78aea48c687a75169627e1b2aef24065d318a8b3fc5d0baf2ab8bfb": {
+      "checked": 1793179533.6151178,
+      "results": [
+        {
+          "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+          "title": "Irrigation Management and Crop Characteristics of Alfalfa",
+          "description": "The matric potential reading will increase as the soil becomes drier. After the field is irrigated, the matric potential readings typically return to lower values (i.e., 0 to 10 kPa). These wetting and drying cycles continue throughout the season as the crop is irrigated and the soil dries with crop water use and surface soil evaporation. The key to proper irrigation management using soil water sensors is to monitor the sensors regularly, track the soil water level, and irrigate when the [...] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n ---  ---  ---  ---  ---  ---  --- |\n| |  |  | Table I. Suggested values of soil matric potential at which irrigations should be applied for alfalfa for different soil types. | | Soil type | Average soil matric potential   reading of top three sensors (kPa) | | Sand or loamy sand | 40-50 | | Sandy loam | 50-70 | | Loam | 60-90 | | Silt loam | 80-100 | | Clay loam or clay | 100-120 | | [...] Alfalfa does not have a stage of growth that is extremely critical or less sensitive to water stress. If water is not available, the plant will slow or stop growing and go dormant. When water becomes available, growth will resume. However, lack of moisture will r"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445",
+          "title": "Water–Fertilizer Synergistic Effects and Resource Optimization for Alfalfa Production: A Central Composite Design and Response Surface Methodology Approach",
+          "description": "field study that water deficit during the branching stage significantly affects alfalfa yield, confirming this period as critical for water requirements. Similarly, Liu et al.  identified the branching stage as the most drought-sensitive period for alfalfa, with optimal effects of water stress application during the bud-forming stage, which is consistent with our observations. These findings underscore the distinct response mechanisms of alfalfa to environmental stresses at different growth [...] as the optimal timing for implementing growth regulation in alfalfa . Nonetheless, the identification of drought-sensitive phenological stages and appropriate deficit levels remains challenging due to variations in geographical location, climatic conditions, soil characteristics, and irrigation methods. These factors significantly influence alfalfa’s response to water stress, with reported yield responses varying from −5% to −40% under similar deficit levels across different regions . [...] exceeding 0.94, 0.90, 0.86, and 13.6, respectively. Sensitivity analysis indicated that water regulation during critical growth stages, particularly the branching stage, had the most significant impact "
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+          "title": "Alfalfa during drought",
+          "description": "Because of its high stem density and dense canopy, alfalfa has a high rate of water use. Alfalfa uses 0.1 to 0.3 inches of water per day (Table 1). Daily water use is influenced by plant growth stage and environmental factors like air temperature and wind speed. For example, on a windy, 90° F day in Minnesota, alfalfa will likely use 0.30 inches of water. Water use is greatest when alfalfa has a full vegetative canopy before harvest and is greater during summer months when solar energy and air [...] Over the growing season alfalfa may use more total water than other crops because of its long growing season. There is generally a linear relationship between crop water use and forage yield, although aspects of this relationship vary somewhat based on other environmental factors. Water use ranges from 4 to 7 inches per ton of forage depending on the environment (Figure 1).   \n\n## Alfalfa tolerates drought, but is not resistant\n\n|  | [...] Within 24 to 48 hours after seeding, alfalfa will absorb water. Within 4-7 days, the root (called a radicle) emerges through the seed coat. Before radical emergence, the germination process can be stopped if moisture deficits occur. After radicle emer"
+        }
+      ]
+    },
+    "e9431dd7edc4a36bce27927ef4df9e3ef881bce6578a2e46d1951f96267702c7": {
+      "checked": 1793179531.1503453,
+      "results": [
+        {
+          "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+          "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+          "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] ## Alfalfa [...] ### Alfalfa"
+        }
+      ]
+    },
+    "c9e1bfd7a5247b8f379065cc3e0093a809c13b836bafbb6b4010d06065bf5246": {
+      "checked": 1793179528.2370262,
+      "results": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
+          "title": "A Method for Predicting Alfalfa Biomass Based on Multimodal ...",
+          "description": "by Y Zhang · 2026 · Cited by 1 — During sampling, a quadrat (1 m × 1 m) was taken from each plot. Biomass yield was measured for each plot based on quadrat sampling, and the effects of"
+        },
+        {
+          "url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+          "title": "Methods Available to Estimate Forage Quality",
+          "description": "Use the PEAQ stick or GDD to predict NDF for the first-cutting alfalfa harvest. · Begin cutting alfalfa at 40 percent NDF (750 GDD, base 41 F)"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-scissors-cut-sampling-procedure",
+          "title": "Alfalfa scissors cut sampling procedure | UMN Extension",
+          "description": "Producers can use the sampling procedure called the scissors cut method to estimate the pre-harvest quality of alfalfa. To use the scissors cut method,"
+        },
+        {
+          "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1996/96-183.Pdf",
+          "title": "Methods To Assess Alfalfa Forage Quality In The Field",
+          "description": "by SB Orlo · Cited by 5 — A rapid, reliable, and accurate method to predict alfalfa forage quality prior to harvest would assist growers with harvest decisions."
+        }
+      ]
+    },
+    "23259624cba397de9aac12b7f937b3a1abe3da6ad77acc3ca73e5052d4ca51de": {
+      "checked": 1793179526.1579845,
+      "results": [
+        {
+          "url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq",
+          "title": "Estimating Alfalfa RFV in the Field Using PEAQ",
+          "description": "This procedure estimates alfalfa RFV content of the standing crop. It does not account for changes in quality due to wilting, harvesting, and storage."
+        },
+        {
+          "url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
+          "title": "Estimating the First-Crop Alfalfa Harvest using PEAQ",
+          "description": "May 6, 2025 — This method uses the height and maturity stage of the tallest alfalfa stem (vegetative, bud, or flower stage) to estimate relative feed value ( ...Read more"
+        },
+        {
+          "url": "https://crops.extension.iastate.edu/cropnews/2021/05/estimating-first-crop-alfalfa-harvest-using-peaq-steps",
+          "title": "Estimating First Crop Alfalfa Harvest using PEAQ - Steps",
+          "description": "May 5, 2021 — The PEAQ method uses alfalfa stand height and maturity stage (vegetative, bud, or open flower) to estimate the relative feed value (RFV). In ...Read more"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+          "title": "How to estimate alfalfa quality in the field using PEAQ",
+          "description": "The PEAQ sampling procedure estimates alfalfa relative feed value (RFV) of the standing crop based on alfalfa maturity and height. It doesn't account for ...Read more"
+        },
+        {
+          "url": "https://dairy.osu.edu/newsletter/buckeye-dairy-news/volume-13-issue-2/estimating-alfalfa-ndf-field",
+          "title": "Estimating Alfalfa NDF in the Field | Ohio Dairy Industry ...",
+          "description": "The PEAQ method is designed for pure alfalfa stands and will not accurately reflect the NDF concentration of mixed grass-alfalfa stands or weedy stands. If ...Read more"
+        }
+      ]
+    },
+    "e87f2ea027adae1b4a87bfd8a21facc97ea456dbee41615d5fdaab3a3cc81422": {
+      "checked": 1793179523.4365427,
+      "results": [
+        {
+          "url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas",
+          "title": "Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+          "description": "#### Conclusions\n\nThis study highlighted the potential for field peas and chickpeas to be used in areas with limited irrigation. Both crops were able to efficiently utilize early season precipitation and produce very good dryland yields.\n\nIn a wet year, field peas may benefit from\n\n light irrigation amounts,\n careful consideration of current soil water levels, and\n a favorable 10 day-weather forecast (little rain and dry weather). [...] The field experiment was conducted during the 2018 growing season at the Henry J. Stumpf International Wheat Center near Grant. The following irrigation treatments were applied to chickpeas and field peas:\n\n dryland (DRY, no-irrigation applied),\n deficit irrigation (DI), and\n full irrigation (FI). [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top three feet of the soil profile (Figure 2). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 2)."
+        },
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "title": "Chickpea Production - Extension Store",
+          "description": "season). Irrigating too often can lead to high disease incidence and enhanced indeterminate flowering and maturity resulting in poor quality. [...] Chickpea is a poor competitor with weeds at all stages of growth. Slow growth during the seedling stages, in addition to an open canopy architecture and low growth nature of chickpea plants, reduces its ability to compete with weeds. Producers have identified weed control as a major challenge to profitable chickpea production. Crop rotation and field selection are cultural methods that should be used as part of an integrated weed management program. Cultural weed control begins with avoidance. [...] The effective rooting depth of chickpea is no more than 30 inches and the crop uses water mostly from the top 12 inches of soil (6). Chickpea is a full-season crop that will continue to grow into August or even early September in many Montana locations. Depending on precipitation recharge in late summer, it may be difficult to follow chickpea with winter wheat. A spring crop (wheat, barley, canola, flax) may be a better choice to follow chickpea. The crop the year following could be winter"
+        },
+        {
+          "url": "https://corn.aae.wisc.edu/Crops/Chickpea.aspx",
+          "title": "Chickpea",
+          "description": "Chickpea is a cool season species and is frost tolerant as seedlings so seeds should\nbe planted in early to mid-April when the small grains are planted in the Upper\nMidwest. Later planting dates result in shorter plants, less yield and late maturity\nof late formed flowers and pods. Flower and pod abortion rates increase if flowering\nand pod set coincide with the hottest and driest weather pattern. More research\nis needed in this area using currently available varieties. [...] |  |  |  |  |  |  |  |\n ---  ---  --- \n| Table 1. Phosphate and potash recommendations forchickpeas (2000 to 4000 lb/acre). | | | | | | |\n|  | -----------------Soil test interpretation--------------- | | | | | |\n| Subsoil fert. group\\ | Very low | Low | Optimum | High | Very high | Excessively High1 |\n|  | ---------------------lbs P2O5 /acre-------------------- | | | | | |\n| A, B, C | 50 | 45 | 30 | 15  0 |\n| D, E, X | 45 | 40 | 30 | 15  0 |\n| O | 55 | 50 | 30 | 15  0 | [...] Fertility requirements for chickpea in Minnesota and Wisconsin are not well known,\nbut the crop will likely require the amounts of phosphorus, potassium and certain\nmicronutrients which are recommended for other pulse or legume crops in t"
+        }
+      ]
+    },
+    "ce290bbcd0adf4ab81e765ba14942a2eb451e36f4e976eac57296b2572ea27eb": {
+      "checked": 1793179521.0713086,
+      "results": [
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "title": "Chickpea Production - Extension Store",
+          "description": "the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] are widespread in Montana, and there may be a potential risk of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. [...] could be winter wheat or any of the spring crops just listed, prior to returning to chickpea in the rotation. Chickpea would benefit from a fallow period before planting, but since it accesses only the top 30 inches of soil for water, it might not be the best overall candidate after fallow. Chickpea stubble creates a dark surface which helps warm soils in the spring often permitting earlier seeding as compared to wheat stubble."
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "This procedure typically takes 5 to 20 minutes daily to keep updated after determining the initial soil water characteristics. If operator time is not available to regularly monitor and estimate soil moisture, a crop consultant can help you achieve your management objectives and adopt advanced cellular telemetry irrigation management options.\n\n## Terms to describe water thresholds\n\nImage 11: Available soil water holding capacity at different thresholds.\n\nSoil water reservoir thresholds. [...] | Edible beans | Emergence 1-Auxiliary budding Auxiliary budding-Beginning flower Flowering-Full pod Maturity | 60-70 60 50 50-70 |\n| Small grain | Emergence 1-First node First node-Flowering Flowering-Milk Maturity | 60 40-50 40 50-70 | [...] ## Extension resources\n\n   Irrigation management strategies\n   Soil moisture sensors for irrigation scheduling\n   Evapotranspiration-based irrigation scheduling or water-balance method\n   Estimating soil moisture by feel method\n   Irrigation scheduling checkbook method\n   Late-season irrigation\n   Variable Rate Irrigation\n\n### Irrigation Management Assistant"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+          "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+          "description": "Soil moisture was measured using neutron attenuation down to a 5-foot depth to schedule irrigation and quantify changes in stored soil water. ET was calculated using the soil water balance, which is the summation of irrigation (I), precipitation (P), deep percolation (DP), and seasonal soil water change (SWC). [...] In 2018, field peas were planted on March 14 and harvested on July 16, while chickpeas were planted March 24 and harvested August 17. In 2019, field peas were planted on March 28 and harvested on July 17, while chickpeas were planted April 23 and harvested August 10. [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top 2.5 feet of the soil profile (Figure 4). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 4).\n\nGraph of soil volumetric water content for field peas in 2018"
+        }
+      ]
+    },
+    "750ee8f21edf78b63010215306255228bbbbf848cd3dd89380cc18584dfb1d14": {
+      "checked": 1793179518.5731251,
+      "results": [
+        {
+          "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
+          "title": "Frontiers | Alternate partial root zone subsurface drip irrigation increases alfalfa water production function by increasing hay yield, rather than actual crop evapotranspiration",
+          "description": "higher than the CI treatment soil water storage at the 3rd harvest with a 20 mm irrigation volume (Figure 4). Wang et al. (2021) also found that AI reduced the one-year-old alfalfa ETa, mainly caused by the alfalfa ETa at the 2nd harvest. Although we did not measure soil evaporation, it was speculated that the low alfalfa coverage at the seedling stage increased soil evaporation and greatly reduced the soil water storage. Furthermore, our soil moisture monitoring revealed that deep soil water [...] and soil water storage dynamics to explain the changes in alfalfa ETa. We focused on two issues: (i) the effects of two IMs on alfalfa ETa and hay yield under three irrigation volumes, use the dynamic changes in soil moisture and soil water storage during the process to explain the differences in ETa among different treatments; and (ii) the effects of different IMs on the alfalfa–water production function, explain whether these changes are primarily driven by hay yield or ETa. This research is [...] and those of other research. The first reason is that our maximum irrigation volume may not reach the maximum evapotranspiration required by alfalfa. The second reason may be that the rainfal"
+        },
+        {
+          "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+          "title": "Irrigation Management and Crop Characteristics of Alfalfa",
+          "description": "The matric potential reading will increase as the soil becomes drier. After the field is irrigated, the matric potential readings typically return to lower values (i.e., 0 to 10 kPa). These wetting and drying cycles continue throughout the season as the crop is irrigated and the soil dries with crop water use and surface soil evaporation. The key to proper irrigation management using soil water sensors is to monitor the sensors regularly, track the soil water level, and irrigate when the [...] irrigate when the kilopascal (1 kPa = 1 cbar) readings are in the desired range for your soil type (See Table I; Orloff et al., 2001). Irrigating when the soil water readings exceed the desired range may result in crop stress and yield loss. Irrigation before the readings reach the desired range may result in excessive irrigation, water wastage or runoff. [...] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n ---  ---  ---  ---  ---  ---  --- |\n| |  |  | Table I. Suggested values of soil matric potential at which irrigations should be applied for alfalfa for different soil types. | | Soil type | Average soil matric potential   reading of top three sensors (kPa) | | Sand or loamy sand | 40-50 | | "
+        },
+        {
+          "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
+          "title": "effects of irrigation amount on alfalfa yield",
+          "description": "not significantly different at a probability level of p < 0.05. NS = not significant at a probability level of p < 0.05 and  = significant at a probability level of p < 0.01. 60(5): 1633-1644 1641 (207 kPa). Consequently, the flow rate of the end gun in the water distribution test was greater. Compared with the aver-age value for the first span, second span, and overhang, the increased irrigation with the end gun could not obtain the same increase in yield, especially for the 100% ET irrigation [...] factor of 1.7 found in the water dis-tribution test. The water distribution test was conducted in October 2013, when the water table in the well recovered after irrigation, and the system working pressure (414 kPa) was higher than in the alfalfa irrigation experiment Table 4. Actual irrigation amount, annual alfalfa yield, crop water use, and WUE for the first span, second span, overhang, and end gun of the center-pivot system during the entire growing season in 2014 and 2015.[a] Location Year [...] sandy loam with a bulk density of 1.3 g cm-3 and pH of 8.5. The field capacity (FC) and permanent wilting point of the topsoil layer (0 to 30 cm) were 0.257 and 0.104 cm3 cm-3, respectively"
+        },
+        {
+          "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2012/12-52.pdf",
+          "title": "Key Irrigation Management Practices for Alfalfa",
+          "description": "– receiving only one irrigation in September. Soil moisture tension in this chart is pictured as a positive number and with values exceeding 80 cb tension it is likely that alfalfa ET was reduced in September. This was ac-tually a planned strategy to get the hay harvested before the on-set of fall frosts and rain. -100 -80 -60 -40 -20 0 3/2 3/23 4/13 5/4 5/25 6/15 7/6 7/27 8/17 9/7 9/28 10/19 11/9 11/30 Soil Moisture Tension (cb) 18\" 36\" 60\" 100 feet from mainline. Big gun irrigation 1/cutting. [...] Table 6. Recommended soil moisture tension levels as a trigger for irrigation of alfalfa. Flood: Advantages – gopher control is least problematic, low to no energy cost, no filtration necessary, total infiltrated water depth varies over season, tailwater return systems improve uni-formity and provide better stand quality by draining check ends. Disadvantages – land must be leveled, pushing in head ditches, water-logging ends, stress between irrigations and cuttings. Sprinkler: Advantages – [...] season and still have sufficient moisture for decent tonnage. Ta-ble 6 provides approximate soil moisture tension guidelines for scheduling irrigations for coarse to fine soils for various dept"
+        }
+      ]
+    },
+    "6fb3e2ad4deff617f64d419aa2ec807b1a336786e42e8dcaa9df8677796a1062": {
+      "checked": 1793179515.1032534,
+      "results": [
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+          "title": "Soil moisture sensors for irrigation scheduling | UMN Extension",
+          "description": "The most common soil water content or volumetric water content sensors follow:\n\n|\n\nThe most common electromagnetic sensors are capacitance sensors or frequency domain reflectometry (FDR) sensors and time domain reflectometry (TDR) sensors. [...] Charts like Table 1 can also be used to convert the tension readings from sensors to soil water deficit values. Then these soil water deficit values can be used for irrigation scheduling as shown in example calculations at the end of this article.\n\nThe most common soil tension sensors follow:\n\n|\n\ntensiometer\n\nFigure 5. Tensiometer with vacuum gauge. [...] Three moisture sensors are installed at depths of 1 foot, 2 feet and 3 feet (Column A).\n The soil moisture sensor reads 0.13, 0.10 and 0.10 (or 13%, 10% and 10%) for 1, 2 and 3 foot depths, respectively (Column E).\n Available water holding capacity (AWC) from the Web soil survey is 0.70, 0.09 and 0.07 for 1, 2 and 3 foot depths, respectively (Column D).\n Measured field capacity (FC) is 0.16, 0.15 and 0.10 in./in. for 1, 2 and 3 foot depths, respectively (Column C)."
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+          "title": "Soil moisture monitoring to support irrigation scheduling | OSU Extension Service",
+          "description": "### Tensiometers\n\nTensiometers are soil moisture sensors used to measure soil water tension (matric potential). Producers in horticultural, vegetable and specialty crop systems commonly use tensiometers where irrigation is frequent and soils are monitored closely.\n\n#### How they work\n\nA tensiometer (Figure 4) consists of:\n\n A water-filled tube approximately 1 inch in diameter\n A vacuum gauge, at the upper end\n A porous ceramic cup, at the lower end [...] For additional guidance on installation and operation, see Tensiometers: Installation and Operation.\n\nTable 1. Approximate tensiometer readings at different soil moisture levels for various soil textures\n\n| Soil type | Saturated soils (cbars) | Field capacity (cbars) | Typical irrigation threshold (cbars) | cbars) |\n| Loamy sand/sandy loam | 0–10 | 10–15 | 20–30 | 45–60 |\n| Loam/silt loam | 0–10 | 20–30 | 30–50 | 50–70 |\n| Clay loam/clay | 0–10 | 30–40 | 50–60 | 60–100 | [...] Install sensors within the effective rooting depth of your crop.\n Monitor at least two to three soil depths to capture soil water distribution.\n  + For deep-rooted crops such as alfalfa, consider installing the sensors at 1-foot increments up to 3 feet.\n  + F"
+        },
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "Soil moisture sensors can help make data-informed decisions about scheduling irrigation. Previous studies have shown that the soil moisture estimates may vary from one sensor to the other even if installed side-by-side, and the sensor estimates may not represent the exact moisture levels in the soil. However, all soil moisture sensors exhibit trends in recharge and decline in soil moisture conditions. These soil moisture trends can be used to make informed decisions to adjust irrigation and [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] ## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n"
+        },
+        {
+          "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
+          "title": "Archive of Proceedings",
+          "description": "Down Arrow\nAlfalfa Leaf Image\nAlfalfa Leaf Image\nImage Splash [...] | 1975 | 5th California Alfalfa Symposium | Fresno, CA |\n| 1974 | 4th California Alfalfa Symposium | Fresno, CA |\n| 1973 | 3rd California Alfalfa Symposium | El Centro, CA |\n| 1972 | 2nd California Alfalfa Symposium | Fresno, CA |\n| 1971 | 1st California Alfalfa Production Symposium | Fresno, CA | [...] | 2004 | 34th California Alfalfa & Forage Symposium & National Alfalfa Symposium | San Diego, CA |\n| 2003 | 33rd California Alfalfa & Forage Symposium | Monterey, CA |\n| 2002 | 32nd Western Alfalfa & Forage Conference | Reno, NV |\n| 2001 | 31st California Alfalfa & Forage Symposium | Modesto, CA |\n| 2000 | 30th California Alfalfa & Forage Symposium & National Alfalfa Symposium | Las Vegas, NV |\n| 1999 | 29th California Alfalfa Symposium | Fresno, CA |"
+        }
+      ]
+    },
+    "9960d56197d7d5d957254bddd8ba1c77e453c55850b61c3d798f69b539c0857f": {
+      "checked": 1793179511.679873,
+      "results": [
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "Authored by Julie Shortridge, Assistant Professor and Extension Specialist, Virginia Tech Department of Biological Systems Engineering; and Wesley Porter, Associate Professor and Extension Specialist, University of Georgia Crop and Soil Sciences Department\n\nExpert Reviewed sealEXPERT REVIEWED [...] | Crop | MAD (%) | Soil water  tension  (kPa or cb) | Loamy sand  (%) | Sandy loam  (%) | Loam  (%) | Silt loam  (%) | Clay loam  (%) |\n| Alfalfa | 50-60 | 80-150 | 12 | 15 | 20 | 23 | 24 |\n| Cantaloupe  /melons | 40-45 | 35-40 | 12 | 16 | 21 | 24 | 25 |\n| Carrots | 35 | 55-65 | 13 | 17 | 22 | 25 | 25 |\n| Corn | 50-55 | 50-80 | 12 | 15 | 20 | 23 | 24 |\n| Cotton | 65 | 100-120 | 10 | 13 | 17 | 20 | 22 |\n| Small grain  (vegetative stage) | 50 | 40-50 | 12 | 15 | 20 | 23 | 24 | [...] Soil moisture sensors can support irrigation scheduling by telling you how much water is present in your soil at any time. Irrigation should be applied when soil moisture levels drop below a minimum threshold. Enough water should be applied so that soil moisture levels increase across the root zone of the plant, but not so much that water runs off or drains below the root zone. Soil moisture sensors can help de"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337",
+          "title": "Comparative Analysis of Soil Moisture- and Weather-Based Irrigation Scheduling for Drip-Irrigated Lettuce Using Low-Cost Internet of Things Capacitive Sensors",
+          "description": "42. Evett S., Schwartz R., Mazahrih N.T., Jitan M., Shaqir I. Soil water sensors for irrigation scheduling: Can they deliver a management allowed depletion? Acta Hortic. 2011 888 231 237 doi:10.17660/ActaHortic.2011.888.26 [...] Based on the reviewed literature, three main points could be concluded:\n\n- -One of the main challenges impeding the integration of smart data acquisition systems into irrigation management is the lack of cost-effective and reliable data-monitoring solutions.\n- -Capacitive soil moisture sensors have great potential to enhance on-farm irrigation management as they are easily integrated into smart irrigation systems.\n- -Yet, these sensors are mainly dependent on accurate calibration. [...] # Comparative Analysis of Soil Moisture- and Weather-Based Irrigation Scheduling for Drip-Irrigated Lettuce Using Low-Cost Internet of Things Capacitive Sensors\n\nAhmed A. Abdelmoneim, Christa M. Al Kalaany, Giovana Dragonetti, Bilal Derardja, Roula Khadra\n\nSensors (Basel, Switzerland) · 2025-03-04 · 25(5):1568 · DOI: 10.3390/s25051568 · PMID: 40096482 · PMCID: PMC11902337\n\n## Abstract"
+        }
+      ]
+    },
+    "311f9248d20623c29205a466b612fd2d8e502857fd2c04bb25692f723ed98b73": {
+      "checked": 1793179509.2426114,
+      "results": [
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+          "title": "Soil moisture monitoring to support irrigation scheduling | OSU Extension Service",
+          "description": "Install sensors within the effective rooting depth of your crop.\n Monitor at least two to three soil depths to capture soil water distribution.\n  + For deep-rooted crops such as alfalfa, consider installing the sensors at 1-foot increments up to 3 feet.\n  + For shallow-rooted crops, two depths are typically sufficient.\n Multidepth monitoring allows detection of:\n  + Overirrigation (deep percolation)\n  + Shallow drying\n  + Root-zone depletion patterns [...] TDR sensors are:\n\n Generally very accurate (±2%–3% volumetric water content under proper calibration)\n Less sensitive to salinity compared to capacitance sensors\n Available in probe lengths ranging from several inches to several feet\n\nCalibration may be soil-specific, especially for soils high in clay or organic matter.\n\nTo find out more about how these sensors are installed, see Soil Moisture Sensor Installation and Soil Water Content. [...] A TDR sensor consists of two or three parallel stainless steel rods (waveguides) inserted into the soil (Figure 7A-B). The instrument sends a high-frequency electromagnetic pulse along the rods. TDRs measure the time required for the pulse to travel through the soil and reflect back to the s"
+        },
+        {
+          "url": "https://www.canr.msu.edu/resources/utilizing-soil-moisture-sensors-for-efficient-irrigation-management",
+          "title": "Utilizing Soil Moisture Sensors for Efficient Irrigation ...",
+          "description": "Apr 22, 2025 — Sensor depth should align with the crop's root depth. Typical installation depths are at one-third, two-thirds, and the full depth of the crop'"
+        },
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "overirrigating by responding only to fluctuations in shallow soil moisture. In situations where soil texture changes with depth, sensors should be placed at depths so that each soil type encountered can be monitored. [...] Sensor depth should be based on typical rooting depths for the crops being monitored (a summary of root depths for common crops is provided in table 1 of VCE publication BSE-239P [Shortridge 2018]). Installing sensors at multiple depths provides information across the full soil profile and can be useful in optimizing irrigation during different stages of the growing season. For instance, installing a shallow sensor 6 inches below ground is important for monitoring soil moisture conditions early [...] | Crop | MAD (%) | Soil water  tension  (kPa or cb) | Loamy sand  (%) | Sandy loam  (%) | Loam  (%) | Silt loam  (%) | Clay loam  (%) |\n| Alfalfa | 50-60 | 80-150 | 12 | 15 | 20 | 23 | 24 |\n| Cantaloupe  /melons | 40-45 | 35-40 | 12 | 16 | 21 | 24 | 25 |\n| Carrots | 35 | 55-65 | 13 | 17 | 22 | 25 | 25 |\n| Corn | 50-55 | 50-80 | 12 | 15 | 20 | 23 | 24 |\n| Cotton | 65 | 100-120 | 10 | 13 | 17 | 20 | 22 |\n| Small grain  (vegetative stage) | 50 | 40-50 | 12 | 15 | 20 | 2"
+        },
+        {
+          "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
+          "title": "Archive of Proceedings",
+          "description": "Down Arrow\nAlfalfa Leaf Image\nAlfalfa Leaf Image\nImage Splash [...] | 2004 | 34th California Alfalfa & Forage Symposium & National Alfalfa Symposium | San Diego, CA |\n| 2003 | 33rd California Alfalfa & Forage Symposium | Monterey, CA |\n| 2002 | 32nd Western Alfalfa & Forage Conference | Reno, NV |\n| 2001 | 31st California Alfalfa & Forage Symposium | Modesto, CA |\n| 2000 | 30th California Alfalfa & Forage Symposium & National Alfalfa Symposium | Las Vegas, NV |\n| 1999 | 29th California Alfalfa Symposium | Fresno, CA | [...] | 1998 | 28th California/Nevada Alfalfa Symposium | Reno, NV |\n| 1997 | 27th California Alfalfa Symposium | Visalia, CA |\n| 1996 | 26th California Alfalfa Symposium & National Alfalfa Symposium | San Diego, CA |\n| 1995 | 25th California Alfalfa Symposium | Modesto, CA |\n| 1994 | 24th California Alfalfa Symposium | Redding, CA |\n| 1993 | 23rd California Alfalfa Symposium | Visalia, CA |\n| 1992 | 22nd California/Arizona Alfalfa Symposium | Holtville, CA |"
+        }
+      ]
+    },
+    "e3021c9d940012b4006bb04b566d79c5f7dec3973657d435379b632cc54d5d6b": {
+      "checked": 1793179507.0040116,
+      "results": [
+        {
+          "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+          "title": "Crop Water Use and Growth Stages | CSU Extension",
+          "description": "### Quick facts…\n\n Water stress during critical growth periods reduces yield and quality of crops.\n Crop water use (ET) at critical growth stages can be used in irrigation scheduling to avoid stressing crops.\n Crop water use (ET) is weather dependent as well as soil, water and plant dependent.\n Periodically check soil water at different depths within the root zone and at different growth stages to avoid stressing the crop during critical growth stages.\n\n#### Introduction [...] | Small grain | Boot and bloom stages | Dull green color, then firing of lower leaves | Last irrigation at milk stage |\n| Potatoes | Tuber formation to harvest | Wilting during heat of the day | Water stress during critical period may cause cracking of tubers |\n| Onions | Bulb formation | Wilting | Keep soil wet during bulb formation and dry near harvest |\n| Tomatoes | After fruit set | Wilting | Wilt and leaf rolling can be caused by disease | [...] A good irrigation scheduling scheme should consider sensitivity of the crop to water stress at different growth stages. This is accomplished by using a coefficient termed the Management Allowable Depletion (MAD), which is the amount of water allowed to be deplete"
+        },
+        {
+          "url": "https://content.ces.ncsu.edu/irrigation-scheduling-to-improve-water-and-energy-use-efficiency",
+          "title": "Irrigation Scheduling to Improve Water and Energy-Use Efficiency | NC State Extension Publications",
+          "description": "| 22 | 0.94 | 65 | 0.26 |  |  | 0.68 | 47 | Time to Irrigate |\n| 23 | 0.68 | 47 | 0.26 |  | 0.72 | 1.14 | 79 |  |\n| 24 | 1.14 | 79 | 0.26 |  |  | 0.88 | 61 |  |\n| 25 | 0.88 | 61 | 0.26 |  |  | 0.62 | 43 | Time to irrigate |\n| 26 | 0.62 | 43 | 0.25 |  | 0.72 | 1.08 | 75 |  |\n| 27 | 1.08 | 75 | 0.25 |  |  | 0.83 | 58 | (Critical stage, corn silking) |\n| 28 | 0.83 | 58 | 0.25 |  | 0.72 | 1.30 | 90 | Irrigate sooner than 50% |\n| 29 | 1.30 | 90 | 0.25 | 0.21 |  | 1.26 | 88 |  | [...] Corn planted between April 10 and 15 consumes the most water and is most susceptible to water deficits from June 5 to July 5. During that 30-day period, corn requires about 0.25 inches of water per day, or a total of 7.5 inches. Figure 3 shows that in only three years between 1956 and 1985 was rainfall adequate to satisfy the water needs of corn throughout this critical growth stage. The average 30-day rainfall was approximately 4 inches, indicating that the average amount of irrigation water [...] reduction would be greater if the water supply became depleted before the crop reaches a more critical stage of growth. If a high probability of rain-fall has been predicted during the next one or two days, it ma"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+          "title": "Water-yield relationships for chickpea under different ...",
+          "description": "by MKA Jabow · 2026 · Cited by 2 — The crop exhibits pronounced stage-dependent sensitivity to water stress: moderate deficits during vegetative growth are often tolerated, whereas stress during"
+        },
+        {
+          "url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+          "title": "Deficit irrigation practices",
+          "description": "reported that cowpea had the ability to maintain seed yields when subjected to drought during the vegetative stage provided subsequent irrigation intervals did not exceed eight days. The work of Korte et al. (1983), Eck et al. (1987), Speck et al. (1989), and of many others, has shown that soybean is amenable to limited irrigation. Stegman et al. (1990) indicated that although short-term water stress in soybean during early flowering may result in flower and pod drop in the lower canopy, [...] of water. Drip and sprinkler irrigation methods are preferable to less efficient traditional surface methods. It is necessary to develop new irrigation scheduling approaches, not necessarily based on full crop water requirement, but ones designed to ensure the optimal use of allocated water. Deficit (or regulated deficit) irrigation is one way of maximizing water use efficiency (WUE) for higher yields per unit of irrigation water applied: the crop is exposed to a certain level of water stress [...] Previous PageTable Of ContentsNext Page\n\nPrevious Page\nTable Of Contents\nNext Page\n\n# Deficit irrigation scheduling based on plant growth stages showing water stress tolerance\n\nC. Kirda,  \nCukuroya"
+        }
+      ]
+    },
+    "48c8df030dd980e5829d7701953686d18ec1594e3d4a7a8ff43b53c56d6be1e5": {
+      "checked": 1793179504.8273687,
+      "results": [
+        {
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans",
+          "title": "Chickpeas (Garbanzo Beans) • The Nutrition Source",
+          "description": "The name chickpea comes from the Latin word cicer, referring to the plant family of legumes, Fabaceae. It is also known by its popular Spanish-derived name, the garbanzo bean. Kidney beans, black beans, lima beans, and peanuts are other familiar foods found in this legume family. These plants produce edible seeds, called pulses, that have high nutritional value. Two main varieties of chickpeas are the larger round light-colored Kabuli-type, common in the United States, and the smaller dark [...] 1. Jukanti AK, Gaur PM, Gowda CL, Chibbar RN. Nutritional quality and health benefits of chickpea (Cicer arietinum L.): a review. British Journal of Nutrition. 2012 Aug;108(S1):S11-26..\n2. Gupta RK, Gupta K, Sharma A, Das M, Ansari IA, Dwivedi PD. Health Risks and Benefits of Chickpea (Cicer arietinum) Consumption. J Agric Food Chem. 2016 Dec 23;65(1):6-22. [...] Chickpeas appear in early recordings in Turkey about 3500 BCE and in France 6790 BCE. India produces the most chickpeas worldwide but they are grown in more than 50 countries. An excellent source of carbohydrate, protein, fiber, B vitamins, and some minerals, they are a nutritious staple of many diets.\n\n## Source Of\n\n Protein\n Fola"
+        }
+      ]
+    },
+    "7521ec7c6fc0eb72ae20a90b95b6be0726772676ff6fa5880f893ba48d5e1f8b": {
+      "checked": 1793179502.406117,
+      "results": [
+        {
+          "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+          "title": "Chickpea Production",
+          "description": "N deficiency will begin to occur as available N from the soil is exhausted. Soils rich in N may actually reduce nodulation leading to longer periods of vegetative growth with delayed flowering and seed set. [...] Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of environmental stress, such as drought or extreme heat. Late season rains can cause plants that appear to have gone dormant to resume development including flowering and seed set, complicating harvest management. Chemical [...] Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F, and nighttime temperatures are between 64 and 70 °F. The crop does well in regions with 6-10 inches of growing season precipitation. Temperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolera"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204",
+          "title": "Flower numbers, pod production, pollen viability, and pistil ...",
+          "description": "by X Fang · 2009 · Cited by 423 — The present study has demonstrated that terminal drought reduced flower and pod production, increased flower and pod abortion and therefore reduced seed yield"
+        }
+      ]
+    },
+    "2eeb6359c651bd083f2876a61e6488f734e8aeaae5ec877c5e4e96d666727392": {
+      "checked": 1793179500.2612865,
+      "results": [
+        {
+          "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1648&context=etd2023",
+          "title": "The Economic Impact of Drought on Alfalfa Price Formation ...",
+          "description": "by S Ardakani · 2025 — The study further evaluates the economic viability of upgrading wheel-line irrigation systems, using cost-benefit analysis and financial metrics."
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377423003190",
+          "title": "Maximizing the water productivity and economic returns of ...",
+          "description": "by M Li · 2023 · Cited by 54 — Deficit irrigation reduced alfalfa yields by 17% versus full irrigation. • Deficit irrigation increased water productivity by 14% versus full irrigation."
+        },
+        {
+          "url": "https://www.climatehubs.usda.gov/sites/default/files/water-optimizaiton-on-utah-farms.pdf",
+          "title": "Irrigation Management Techniques to Optimize Water Use ...",
+          "description": "technology cost/benefit calculator. Farmers input parameters of their farm and choose irrigation technologies to calculate water savings and for what cost. Trial of Till Versus No Till/USU PROJECT HIGHLIGHTS Height of Center Pivot Sprinklers Affects Water Loss: Researchers tested sprinklers at low and mid elevations, and drip irrigation. The low elevation and drip irrigation reduced water use by 25% and improved irrigation uniformity of corn and alfalfa. Season-Long Deficit Irrigation Simpler [...] and crop advisors, with the majority of which citing knowledge gain. Collaborators • See online for full list of collaborators LESSONS LEARNED Researchers discovered promising techniques that combine farming strategies to optimize water use on farms, while still being cost effective for farmers. Mid-elevation sprinklers combined with 50% reduction in irrigation maintained yields of wheat, barley, and oat, while the lower elevation sprinklers worked better for alfalfa. Researchers concluded [...] additional 2 to 4 million acre feet of conserved water across the basin from 2023 2026 to protect Lake Mead and Lake Powell. Utah State University (USU) researchers are investigating how to optim"
+        },
+        {
+          "url": "https://cap.unl.edu/news/economics-deficit-irrigation-utilizing-soil-moisture-probes",
+          "title": "The economics of deficit irrigation utilizing soil moisture probes | Center for Agricultural Profitability | Nebraska",
+          "description": "Deficit irrigation represents an important concept in managing water use through irrigation (Hargreaves and Samani 1984; Martin, Brocklin and Wilmes 1989; English 1990). Research on deficit irrigation has spanned across a wide range of applications (Galindo et al. 2018; Expósito and Berbel 2020), has focused corn production (Payero et al. 2006; Klocke et al. 2011), and for recent work that focuses on corn production with an economic component, has continued to advance the deficit irrigation [...] University of Nebraska–Lincoln \n\n + Visit the University of Nebraska–Lincoln\n + Apply to the University of Nebraska–Lincoln\n + Give to the University of Nebraska–Lincoln\n\nMy UNL\n\nSearch\n\nDepartment of Agricultural Economics\n\nCenter for Agricultural Profitability\n\nSearch\n\nMy UNL\n\n# The economics of deficit irrigation utilizing soil moisture probes\n\nby Lia Nogueira, Cory Walters, Emily O’Donnell, Wes Peterson, Suat Irmak\n\nDecember 8, 2023\n\nPivot in corn field.\n\n## Full Journal Article [...] Our results show that yield, and consequently profit, is heavily impacted by total water applied, similar to findings in past economic studies. Reducing irrigation causes a decrease in expected yield, res"
+        }
+      ]
+    },
+    "d5117b0e533ea8fd08b7d7a1ff8467f78e83a936ba60ae88d636a6b64f5f847c": {
+      "checked": 1793179498.0718212,
+      "results": [
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "title": "Chickpea Production - Extension Store",
+          "description": "are widespread in Montana, and there may be a potential risk of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. [...] the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] ground-crack stage, or after emergence, because severe crop injury will occur. Troublesome broadleaf weeds like kochia and Russian thistle can be controlled in chickpea with sulfentrazone (Spartan). Sulfentrazone applied pre-emergence in chickpea is very effective on kochia and Russian thistle, while higher rates of this herbicide may be needed to control wild buckwheat. Sulfentrazone can be applied from up to 30 days prior to pla"
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "| Edible beans | Emergence 1-Auxiliary budding Auxiliary budding-Beginning flower Flowering-Full pod Maturity | 60-70 60 50 50-70 |\n| Small grain | Emergence 1-First node First node-Flowering Flowering-Milk Maturity | 60 40-50 40 50-70 | [...] This procedure typically takes 5 to 20 minutes daily to keep updated after determining the initial soil water characteristics. If operator time is not available to regularly monitor and estimate soil moisture, a crop consultant can help you achieve your management objectives and adopt advanced cellular telemetry irrigation management options.\n\n## Terms to describe water thresholds\n\nImage 11: Available soil water holding capacity at different thresholds.\n\nSoil water reservoir thresholds. [...] Skip to navigationSkip to main contentSkip to footer\n\nImage 1: Extension Logo\n\nImage 2: Extension Logo\n\nUniversity of Minnesota Extension  \nextension.umn.edu\n\n× \"Clear search box\")\n\n    About Toggle submenu \n\nImage 3: A university researcher and participant discuss weeds in a research crop field   ## Building a stronger Minnesota together\n\nBringing Minnesotans together to build a better future through University science-based knowledge, expertise and tra"
+        },
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n\nDatta, S., S. Taghvaeian, J. Stivers. 2025. Understanding soil water content and thresholds for irrigation management. BAE-1537.  \nOklahoma State Cooperative Extension. Available at: [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] agriculture. For information on moisture sensor types, functions, and installation, readers are referred to OSU extension factsheet Soil Moisture-Sensing Systems for Improving Irrigation Scheduling"
+        },
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "Leib, B., T. Grant, A. McClure, and A. Shekoofa. 2019. The Basics of Soybean Irrigation in Tennessee. University of Tennessee Extension publication W 809-B.  Documents/W809-B.pdf.\n\nMaughan, T., D. Drost, and L. Niel Allen. 2015. Vegetable Irrigation: Sweet Pepper and Tomato. Utah State University Extension. Horticulture/ Vegetable 2015-03. Logan: USU Extension.  \n  cgi?article=1738&context=extension\\_curall. [...] Authored by Julie Shortridge, Assistant Professor and Extension Specialist, Virginia Tech Department of Biological Systems Engineering; and Wesley Porter, Associate Professor and Extension Specialist, University of Georgia Crop and Soil Sciences Department\n\nExpert Reviewed sealEXPERT REVIEWED [...] Soil moisture sensors can support irrigation scheduling by telling you how much water is present in your soil at any time. Irrigation should be applied when soil moisture levels drop below a minimum threshold. Enough water should be applied so that soil moisture levels increase across the root zone of the plant, but not so much that water runs off or drains below the root zone. Soil moisture sensors can help determine when, how much, and how quickly irrigation should be applied"
+        },
+        {
+          "url": "https://www.canr.msu.edu/news/early-summer-crop-water-needs",
+          "title": "Early summer crop water needs - Irrigation",
+          "description": "The first or spring crop will often deplete the soil moisture reserves, resulting in the need for irrigation to germinate the second crop. In"
+        }
+      ]
+    },
+    "ae08d17b83809ce0b60a45bd2d12c4b0ccd8bb86634821e30e730a0942135c28": {
+      "checked": 1793179495.752263,
+      "results": [
+        {
+          "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+          "title": "Irrigating Alfalfa: Some Guidelines - MSU Extension Water Quality | Montana State University",
+          "description": "One of the most practical methods of scheduling irrigations involves estimating plant water use by measuring evaporation from a standard evaporation pan. Practical experience has shown that on-farm scheduling can be approximated by measuring the water use from a wash tub. Alfalfa water use and evaporation is approximately on a 1:1 ratio (one inch is used by the crop while one inch evaporates from the pan). Under surface irrigation the water-holding capacity of the soil must be known to use this [...] ### Water Use Characteristics\n\nAlfalfa is a high water use crop because it has a long growing season, a deep root system, and a dense mass of vegetation. The amount of water needed is governed by temperature, wind, humidity, and the amount and intensity of light. However, the irrigation requirement for alfalfa is governed by rainfall and the water holding capacity of the soils growing the crop. Commonly cited ranges in water requirements for alfalfa are 18 to 36 inches of water per season. [...] Alfalfa is a relatively drought tolerant, deep rooted perennial crop with relatively high water use requirement. These facts offer some significant information about alfalfa irrigation manageme"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+          "title": "Alfalfa Nutrient Management Guide | USU",
+          "description": "Soil sampling before the growing season begins helps determine what the soil may provide and allows sufficient time to plan fertilizer applications and make profitable decisions. It allows for a proactive approach to fertilizer management that can be supplemented with in-season monitoring. Depending on intended fertilization timing, collect soil samples in the late fall or early spring when the alfalfa is dormant. In-season samples will have lower soil test P levels due to the plants actively [...] Utah State University (USU) Extension strives to provide research-based information and knowledge to help agricultural producers. Producers often have questions about several aspects of field crop production. This article is not comprehensive of all ques\n\nAccurate Irrigation Water Flow Measurement in Pipes### Accurate Irrigation Water Flow Measurement in Pipes [...] Grewal, H. S. & Williams, R. (2000). Zinc nutrition affects alfalfa responses to water stress and excessive moisture. Journal of Plant Nutrition, 23(7), 949–962. DOI: 10.1080/01904160009382073\n\nHannaway, D., Bohle, M., Miles, D., Lin, Y., & Randow, B. (2019). Alfalfa soil fertility and fertilization requirements[Fact sheet]. "
+        },
+        {
+          "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-managing-drought-stunted-alfalfa-and-first-cutting-irrigation",
+          "title": "Managing Drought-Stunted Alfalfa and First-Cutting Irrigation",
+          "description": "Depending on deep soil profile moisture during drought, survive up to 45 days without rainfall. alfalfa requires about 4 to 6 inches of root"
+        }
+      ]
+    },
     "c1f134fbf5206842573ca1b213a76e313ac595ca6de13edf15fd3b4dfc657314": {
       "checked": 1793169059.2903643,
       "results": [
@@ -894,46 +1764,11 @@
           "description": "The laboratory analysis for law enforcement, labeling, and general information as to seed quality, should determine the following for the sample analyzed:"
         }
       ]
-    },
-    "0ffcf2f68d107042fae4f3d405814fc82858b3814f37394f5155c3f716e44c29": {
-      "checked": 1793150460.3123972,
-      "results": [
-        {
-          "url": "https://blog-crop-news.extension.umn.edu/2021/06/early-season-drought-effects-on-corn.html",
-          "title": "Early season drought effects on corn and soybean",
-          "description": "In dry seasons when crop water demands are really high, like the one we are experiencing right now, water availability for irrigation could be an issue later in the season so it is beneficial to use this water cautiously at the stages that can withstand water stress and use that water later in the season near tasseling and early reproductive periods. [...] The term evapotranspiration (ETc) and crop water use are used synonymously to describe the water movement from the soil through evaporation and from the plant surface through transpiration. Understanding of the critical water use periods for corn and soybeans to maximize the yield potential and to improve water use efficiency can help in efficient irrigation management.\n\nFigure 2. Corn and soybean evapotranspiration at Becker, MN. [...] For irrigated fields, water applications in early growth stages can be reduced without impacting the yield much, as long as water stress is alleviated during early reproductive periods (Lamm and Kheira, 2008). For corn and soybean, soil water depletion can be as high as 60-70% in the early vegetative growth stage without affecting plant development."
-        },
-        {
-          "url": "https://blog-crop-news.extension.umn.edu/2022/07/quick-review-of-irrigation-management.html",
-          "title": "Quick review of irrigation management strategies",
-          "description": "As the crop nears its critical growth period or its usual peak water-use period, reduce the selected allowable soil water deficit to minimize the risks of not meeting the crop's water needs and causing yield losses. For most crops, this may mean changing soil water deficit limit to a 30 to 40 percent before entering the critical growth stage - such as the 10th to 12th leaf stage for corn, or early flower for soybeans. During these critical periods of high water use, regularly project the next [...] Another possible irrigation water management plan is to set the allowable soil water deficit equal to, or slightly greater than, the irrigation system’s normal net application amount. For example, if the typical application is 0.75 inches net, then choose a planning deficit limit of 0.75 to 1 inch. If this is greater than 50 percent of the available water capacity in the root zone, make the amount smaller, especially during the critical stages of crop growth, to reduce the risk of moisture [...] project the next two to three days of water needs to plan ahead and avoid stressing any part of the field before it’s irrigated. For example, when using a center pivot, which takes three days to "
-        },
-        {
-          "url": "https://blog-crop-news.extension.umn.edu/2023/09/how-do-wet-and-dry-years-affect-corn.html",
-          "title": "How do wet and dry years affect corn yield and nitrate leaching under different irrigation and nitrogen management strategies?",
-          "description": "In Minnesota, irrigation is common in the central region of the state and a necessary practice for the success of numerous crops such as corn, soybeans and potatoes. However, the lack of precise irrigation recommendations for Minnesota soils and production systems raises concerns about the impact of irrigation on ground and surface water resources and quality. High rates of groundwater withdrawals for irrigation can damage nearby lakes and streams, thus impacting aquatic lives and recreational [...] The data from three years of this project at Becker, MN indicates that reduced/limited irrigation startegy has potential to reduce irrigaion water use without significant reduction in grain yield, particularly in wet years. At the other location of this project (Westport, MN) we did not find any significant grain yield loss in 75% irrigation as compared to 100% irrigation even in the dry 2021 and 2022 years indicating that geographic location and climate at a particular location impact the [...] and recreational activities. Additionally, nitrate leaching into groundwater poses a threat to groundwater quality for drinking. Proper irrigation and nitrogen (N) fertilizer management for crop"
-        },
-        {
-          "url": "https://blog-crop-news.extension.umn.edu/2023/07/research-shows-precision-irrigation.html",
-          "title": "Research shows precision irrigation technology can improve irrigation water productivity in corn",
-          "description": "management zone 1 in both VRI and URI. Our results indicate that the yield distribution within each irrigation treatment followed a similar pattern in that the management zones with lower EC had higher yield. Overall, because of very dry conditions in the growing season, higher irrigation in URI plots did not cause any significant grain yield loss as the water use (crop evapotranspiration) by the crop was high. However, if the weather conditions would have been normal or precipitation would [...] Similar results were obtained in 2022, which was also dry compared to normal growing seasons. Figure 3c and Table 2 show corn yield with various irrigation treatments and management zones. The yield was slightly lower in 2022 compared to 2021, possibly due to reduced irrigation in 2022 than in 2021 (approximately 5 inches lower irrigation in URI) and slightly lower temperatures in 2022. The yield varied from 226.5 to 228 bu/ac in zone 1, 224 to 229 bu/ac in zone 2 and 225 to 222 bu/ac in zone 3 [...] By addressing in-field variability using VRI technology, we can optimize irrigation, maximize crop growth, and minimize negative environmental consequences. For this project, irrigation manage"
-        },
-        {
-          "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables",
-          "title": "Irrigation strategies for vegetables",
-          "description": "In addition to under-watering, too much water in vegetable crops, especially late in the season, can also reduce the quality and postharvest life of the crop. Applying excessive water wastes water and increases the risk of nutrient leaching.\n\n## In-season irrigation management strategies\n\nDeciding when to irrigate to optimize production is a daily judgment call that requires you to consider several factors. Many of these factors change as the crop develops. [...] Below are some general guidelines to consider when developing a water management plan and setting allowable soil water deficit limits.\n\nOpen all|Close all\n\n Irrigation basics \n\nBefore we dig more into different methods of irrigation scheduling, it is very important to understand the basics of irrigation and soil water attributes. Here are some common terms:\n\nSaturation – The water which readily percolates or drains out from the root zone by gravitational force. Also called gravitational water. [...] Irrigation scheduling was set up to maintain PAW at 60% of AWC (i.e., 40% MAD), using the 0.15 in 3 in-3 water (Readily available water (RAW)) as the trigger point to irrigate.\n   Whenever the volumetric water content from the "
-        },
-        {
-          "url": "https://blog-crop-news.extension.umn.edu/2023/06/field-notes-session-talks-soil-moisture.html",
-          "title": "Field Notes: Soil moisture and nitrogen management",
-          "description": "Crop water demand changes throughout the growing season. In corn, the period of highest water demand is when the crop is getting close to tasseling (when there are more than 10 leaf collars); it is during this time that 0.7-1 inches of irrigation water (also depending on soil type and irrigation system capacity) is recommended when irrigation is warranted. [...] After a crop’s stand is established, not only do the dry soil conditions favor roots growing deeper in the profile to mine water, crops can tolerate some early-season stress. Despite the lack of rainfall, at both the Becker and the Westport, MN (Pope County) UMN irrigation research locations, established crops have not yet been irrigated for these reasons. If hot, dry conditions continue, irrigation will need to take place in the next couple of weeks or producers risk the crop experiencing"
-        }
-      ]
     }
   },
   "monthly_budget": {
     "month": "2026-10",
-    "reserved": 47
+    "reserved": 85
   },
   "secret_values_stored": false
 }

@@ -1,0 +1,276 @@
+{
+  "coverage_contract_version": 1,
+  "final_coverage_complete": false,
+  "version": 2,
+  "topic_id": "agri-4e0b195e7205",
+  "input_binding": {
+    "topic_sha256": "6204cb64a7fa5b70064157be129b9c6c5a7535a01f8d0a3e05293f903200ecb8",
+    "sources_sha256": "c872765498d3076684ccfdb853de3a8990f7d0388ffc4130373171ad4dc85cc2",
+    "raw_sha256": "2575d7abe0a41b14fa88c9e1c1a459e4950a4cd7b9516b5ed7c2eed5d172b211"
+  },
+  "completed_at": "2026-10-28T09:25:44.075956+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T09:24:56.654585+00:00",
+      "queries": [
+        {
+          "query_id": "d5117b0e533ea8fd08b7d7a1ff8467f78e83a936ba60ae88d636a6b64f5f847c",
+          "query": "chickpea first irrigation timing soil moisture threshold emergence university extension",
+          "cached": false,
+          "checked_at_epoch": 1793179498.0718212,
+          "results": [
+            {
+              "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+              "title": "Chickpea Production - Extension Store",
+              "description": "are widespread in Montana, and there may be a potential risk of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. [...] the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] ground-crack stage, or after emergence, because severe crop injury will occur. Troublesome broadleaf weeds like kochia and Russian thistle can be controlled in chickpea with sulfentrazone (Spartan). Sulfentrazone applied pre-emergence in chickpea is very effective on kochia and Russian thistle, while higher rates of this herbicide may be needed to control wild buckwheat. Sulfentrazone can be applied from up to 30 days prior to pla"
+            },
+            {
+              "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+              "title": "Basics of irrigation scheduling",
+              "description": "| Edible beans | Emergence 1-Auxiliary budding Auxiliary budding-Beginning flower Flowering-Full pod Maturity | 60-70 60 50 50-70 |\n| Small grain | Emergence 1-First node First node-Flowering Flowering-Milk Maturity | 60 40-50 40 50-70 | [...] This procedure typically takes 5 to 20 minutes daily to keep updated after determining the initial soil water characteristics. If operator time is not available to regularly monitor and estimate soil moisture, a crop consultant can help you achieve your management objectives and adopt advanced cellular telemetry irrigation management options.\n\n## Terms to describe water thresholds\n\nImage 11: Available soil water holding capacity at different thresholds.\n\nSoil water reservoir thresholds. [...] Skip to navigationSkip to main contentSkip to footer\n\nImage 1: Extension Logo\n\nImage 2: Extension Logo\n\nUniversity of Minnesota Extension  \nextension.umn.edu\n\n× \"Clear search box\")\n\n    About Toggle submenu \n\nImage 3: A university researcher and participant discuss weeds in a research crop field   ## Building a stronger Minnesota together\n\nBringing Minnesotans together to build a better future through University science-based knowledge, expertise and tra"
+            },
+            {
+              "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+              "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+              "description": "## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n\nDatta, S., S. Taghvaeian, J. Stivers. 2025. Understanding soil water content and thresholds for irrigation management. BAE-1537.  \nOklahoma State Cooperative Extension. Available at: [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] agriculture. For information on moisture sensor types, functions, and installation, readers are referred to OSU extension factsheet Soil Moisture-Sensing Systems for Improving Irrigation Scheduling"
+            },
+            {
+              "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+              "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+              "description": "Leib, B., T. Grant, A. McClure, and A. Shekoofa. 2019. The Basics of Soybean Irrigation in Tennessee. University of Tennessee Extension publication W 809-B.  Documents/W809-B.pdf.\n\nMaughan, T., D. Drost, and L. Niel Allen. 2015. Vegetable Irrigation: Sweet Pepper and Tomato. Utah State University Extension. Horticulture/ Vegetable 2015-03. Logan: USU Extension.  \n  cgi?article=1738&context=extension\\_curall. [...] Authored by Julie Shortridge, Assistant Professor and Extension Specialist, Virginia Tech Department of Biological Systems Engineering; and Wesley Porter, Associate Professor and Extension Specialist, University of Georgia Crop and Soil Sciences Department\n\nExpert Reviewed sealEXPERT REVIEWED [...] Soil moisture sensors can support irrigation scheduling by telling you how much water is present in your soil at any time. Irrigation should be applied when soil moisture levels drop below a minimum threshold. Enough water should be applied so that soil moisture levels increase across the root zone of the plant, but not so much that water runs off or drains below the root zone. Soil moisture sensors can help determine when, how much, and how quickly irrigation should be applied"
+            },
+            {
+              "url": "https://www.canr.msu.edu/news/early-summer-crop-water-needs",
+              "title": "Early summer crop water needs - Irrigation",
+              "description": "The first or spring crop will often deplete the soil moisture reserves, resulting in the need for irrigation to germinate the second crop. In"
+            }
+          ]
+        },
+        {
+          "query_id": "48c8df030dd980e5829d7701953686d18ec1594e3d4a7a8ff43b53c56d6be1e5",
+          "query": "chickpea germination emergence soil water status irrigation trigger research",
+          "cached": false,
+          "checked_at_epoch": 1793179504.8273687,
+          "results": [
+            {
+              "url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans",
+              "title": "Chickpeas (Garbanzo Beans) • The Nutrition Source",
+              "description": "The name chickpea comes from the Latin word cicer, referring to the plant family of legumes, Fabaceae. It is also known by its popular Spanish-derived name, the garbanzo bean. Kidney beans, black beans, lima beans, and peanuts are other familiar foods found in this legume family. These plants produce edible seeds, called pulses, that have high nutritional value. Two main varieties of chickpeas are the larger round light-colored Kabuli-type, common in the United States, and the smaller dark [...] 1. Jukanti AK, Gaur PM, Gowda CL, Chibbar RN. Nutritional quality and health benefits of chickpea (Cicer arietinum L.): a review. British Journal of Nutrition. 2012 Aug;108(S1):S11-26..\n2. Gupta RK, Gupta K, Sharma A, Das M, Ansari IA, Dwivedi PD. Health Risks and Benefits of Chickpea (Cicer arietinum) Consumption. J Agric Food Chem. 2016 Dec 23;65(1):6-22. [...] Chickpeas appear in early recordings in Turkey about 3500 BCE and in France 6790 BCE. India produces the most chickpeas worldwide but they are grown in more than 50 countries. An excellent source of carbohydrate, protein, fiber, B vitamins, and some minerals, they are a nutritious staple of many diets.\n\n## Source Of\n\n Protein\n Fola"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 5,
+        "loaded": 3,
+        "sources": [
+          {
+            "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+            "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+            "status": "cache_valid"
+          },
+          {
+            "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": true,
+            "http_status": 403
+          },
+          {
+            "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+            "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+            "status": "cache_valid"
+          },
+          {
+            "url": "https://www.canr.msu.edu/news/early-summer-crop-water-needs",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans",
+            "canonical_url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 5,
+      "coverage": {
+        "topic_id": "agri-4e0b195e7205",
+        "requirements": [
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "None of the fetched documents specify the first-irrigation decision trigger for chickpea after sowing. No soil-moisture threshold, growth-stage cue (pre- or post-emergence), or calendar window is stated, and no monitoring method for this decision is cited."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No measured soil-moisture metric (VWC, tension, depletion %), monitored soil layer depth tied to chickpea first irrigation, chickpea growth stage at recommendation, geography/climate context specific to the first-irrigation trigger, or irrigation water volume/timing interval is provided in the fetched texts."
+          },
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s2",
+              "s3"
+            ],
+            "missing": ""
+          }
+        ],
+        "next_queries": [
+          "chickpea first irrigation timing after sowing soil moisture threshold extension",
+          "chickpea early season irrigation scheduling growth stage recommendation"
+        ]
+      },
+      "completed_at": "2026-10-28T09:25:14.750115+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T09:25:14.750818+00:00",
+      "queries": [
+        {
+          "query_id": "ce290bbcd0adf4ab81e765ba14942a2eb451e36f4e976eac57296b2572ea27eb",
+          "query": "chickpea first irrigation timing after sowing soil moisture threshold extension",
+          "cached": false,
+          "checked_at_epoch": 1793179521.0713086,
+          "results": [
+            {
+              "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+              "title": "Chickpea Production - Extension Store",
+              "description": "the crop, and to burn down immature weeds which can cause seed staining. Desiccants should be used only after pods have matured, seeds have changed color, and the seeds have detached themselves inside the pods (pods rattle upon shaking). Threshing can begin when seed reaches 18% moisture. However, lower moisture percentages are necessary for long term storage or for processors to accept. [...] are widespread in Montana, and there may be a potential risk of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. [...] could be winter wheat or any of the spring crops just listed, prior to returning to chickpea in the rotation. Chickpea would benefit from a fallow period before planting, but since it accesses only the top 30 inches of soil for water, it might not be the best overall candidate after fallow. Chickpea stubble creates a dark surface which helps warm soils in the spring often permitting earlier seeding as compared to wheat stubble."
+            },
+            {
+              "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+              "title": "Basics of irrigation scheduling",
+              "description": "This procedure typically takes 5 to 20 minutes daily to keep updated after determining the initial soil water characteristics. If operator time is not available to regularly monitor and estimate soil moisture, a crop consultant can help you achieve your management objectives and adopt advanced cellular telemetry irrigation management options.\n\n## Terms to describe water thresholds\n\nImage 11: Available soil water holding capacity at different thresholds.\n\nSoil water reservoir thresholds. [...] | Edible beans | Emergence 1-Auxiliary budding Auxiliary budding-Beginning flower Flowering-Full pod Maturity | 60-70 60 50 50-70 |\n| Small grain | Emergence 1-First node First node-Flowering Flowering-Milk Maturity | 60 40-50 40 50-70 | [...] ## Extension resources\n\n   Irrigation management strategies\n   Soil moisture sensors for irrigation scheduling\n   Evapotranspiration-based irrigation scheduling or water-balance method\n   Estimating soil moisture by feel method\n   Irrigation scheduling checkbook method\n   Late-season irrigation\n   Variable Rate Irrigation\n\n### Irrigation Management Assistant"
+            },
+            {
+              "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+              "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+              "description": "Soil moisture was measured using neutron attenuation down to a 5-foot depth to schedule irrigation and quantify changes in stored soil water. ET was calculated using the soil water balance, which is the summation of irrigation (I), precipitation (P), deep percolation (DP), and seasonal soil water change (SWC). [...] In 2018, field peas were planted on March 14 and harvested on July 16, while chickpeas were planted March 24 and harvested August 17. In 2019, field peas were planted on March 28 and harvested on July 17, while chickpeas were planted April 23 and harvested August 10. [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top 2.5 feet of the soil profile (Figure 4). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 4).\n\nGraph of soil volumetric water content for field peas in 2018"
+            }
+          ]
+        },
+        {
+          "query_id": "e87f2ea027adae1b4a87bfd8a21facc97ea456dbee41615d5fdaab3a3cc81422",
+          "query": "chickpea early season irrigation scheduling growth stage recommendation",
+          "cached": false,
+          "checked_at_epoch": 1793179523.4365427,
+          "results": [
+            {
+              "url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas",
+              "title": "Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+              "description": "#### Conclusions\n\nThis study highlighted the potential for field peas and chickpeas to be used in areas with limited irrigation. Both crops were able to efficiently utilize early season precipitation and produce very good dryland yields.\n\nIn a wet year, field peas may benefit from\n\n light irrigation amounts,\n careful consideration of current soil water levels, and\n a favorable 10 day-weather forecast (little rain and dry weather). [...] The field experiment was conducted during the 2018 growing season at the Henry J. Stumpf International Wheat Center near Grant. The following irrigation treatments were applied to chickpeas and field peas:\n\n dryland (DRY, no-irrigation applied),\n deficit irrigation (DI), and\n full irrigation (FI). [...] Chickpea soil water extraction was similar under dryland and irrigation with most of the soil water depletion occurring in the top three feet of the soil profile (Figure 2). Soil water recharge below the three-foot depth occurred in both dryland and full irrigation treatments and can be attributed to combined effects of abundant precipitation and slow crop development early in the spring (Figure 2)."
+            },
+            {
+              "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+              "title": "Chickpea Production - Extension Store",
+              "description": "season). Irrigating too often can lead to high disease incidence and enhanced indeterminate flowering and maturity resulting in poor quality. [...] Chickpea is a poor competitor with weeds at all stages of growth. Slow growth during the seedling stages, in addition to an open canopy architecture and low growth nature of chickpea plants, reduces its ability to compete with weeds. Producers have identified weed control as a major challenge to profitable chickpea production. Crop rotation and field selection are cultural methods that should be used as part of an integrated weed management program. Cultural weed control begins with avoidance. [...] The effective rooting depth of chickpea is no more than 30 inches and the crop uses water mostly from the top 12 inches of soil (6). Chickpea is a full-season crop that will continue to grow into August or even early September in many Montana locations. Depending on precipitation recharge in late summer, it may be difficult to follow chickpea with winter wheat. A spring crop (wheat, barley, canola, flax) may be a better choice to follow chickpea. The crop the year following could be winter"
+            },
+            {
+              "url": "https://corn.aae.wisc.edu/Crops/Chickpea.aspx",
+              "title": "Chickpea",
+              "description": "Chickpea is a cool season species and is frost tolerant as seedlings so seeds should\nbe planted in early to mid-April when the small grains are planted in the Upper\nMidwest. Later planting dates result in shorter plants, less yield and late maturity\nof late formed flowers and pods. Flower and pod abortion rates increase if flowering\nand pod set coincide with the hottest and driest weather pattern. More research\nis needed in this area using currently available varieties. [...] |  |  |  |  |  |  |  |\n ---  ---  --- \n| Table 1. Phosphate and potash recommendations forchickpeas (2000 to 4000 lb/acre). | | | | | | |\n|  | -----------------Soil test interpretation--------------- | | | | | |\n| Subsoil fert. group\\ | Very low | Low | Optimum | High | Very high | Excessively High1 |\n|  | ---------------------lbs P2O5 /acre-------------------- | | | | | |\n| A, B, C | 50 | 45 | 30 | 15  0 |\n| D, E, X | 45 | 40 | 30 | 15  0 |\n| O | 55 | 50 | 30 | 15  0 | [...] Fertility requirements for chickpea in Minnesota and Wisconsin are not well known,\nbut the crop will likely require the amounts of phosphorus, potassium and certain\nmicronutrients which are recommended for other pulse or legume crops in t"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 3,
+        "loaded": 3,
+        "sources": [
+          {
+            "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+            "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas",
+            "canonical_url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://corn.aae.wisc.edu/Crops/Chickpea.aspx",
+            "canonical_url": "https://corn.aae.wisc.edu/Crops/Chickpea.aspx",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 3,
+      "coverage": {
+        "topic_id": "agri-4e0b195e7205",
+        "requirements": [
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document states the first-irrigation decision trigger for chickpea after sowing—whether a soil-moisture threshold, a growth-stage cue (pre- or post-emergence), or a calendar window—or the monitoring method (sensor type, tensiometer, neutron probe, feel method) to apply. s1 and s3 mention total seasonal irrigation need (2–3 in/season) and caution against over-irrigation, but do not specify when the first event should occur or how to monitor it."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document provides a documented first-irrigation schedule for chickpea with explicit soil-moisture metric, monitored depth layer, growth stage at recommendation, and water volume/timing interval. s7 and s8 report neutron-probe VWC to 5 ft for whole-season water balance (inches) but not a first-irrigation trigger or growth-stage cue. s5 and s4 give generic MAD/VWC tables and rooting depths that do not include chickpea. s3 notes chickpea uses water mostly from the top 12 in of soil but gives no threshold or schedule."
+          },
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s3",
+              "s7",
+              "s8"
+            ],
+            "missing": ""
+          }
+        ],
+        "next_queries": [
+          "chickpea Cicer arietinum first irrigation trigger soil moisture threshold emergence university extension",
+          "chickpea early season irrigation scheduling growth stage monitoring method tensiometer sensor"
+        ]
+      },
+      "completed_at": "2026-10-28T09:25:44.071764+00:00"
+    }
+  ],
+  "fetches_reserved": 8,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": true,
+  "status": "temporary_source_fetch_failure",
+  "new_sources": 0,
+  "repair_exhausted": false
+}

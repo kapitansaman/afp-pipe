@@ -1,0 +1,99 @@
+{
+  "topic_id": "agri-5d1ebd0db0f3",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum) – دانه خشک پلوئیدی (dry pulse) برداشت‌شده به‌عنوان محصول غذایی انسانی",
+  "slug": "chickpea-harvest-maturity-market-criteria",
+  "outline": [
+    "تعریف محصول و هدف: نخود به‌عنوان پلوئید خشک، هدف رسیدگی و معیارهای بازار",
+    "معیارها و شواهد: نشانه‌های دیداری رسیدگی، زمان‌بندی فصلی و معیارهای کیفی",
+    "روش ثبت و کنترل کیفیت: رطوبت بذر، ارزیابی رنگ و اندازه، آستانه مجاز ناخالصی رنگی",
+    "محدودیت‌ها و پیشگیری از خطا: اثر باران پاییزه بر مدیریت برداشت، تفاوت کابولی و دزی"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "نشانه دیداری اصلی رسیدگی برای برداشت یا دسیکاسیون پیش‌برداشت: حداقل ۸۰ درصد غلاف‌ها به رنگ زرد/قهوه‌ای درآمده و بیش از ۴۰ درصد برگ‌ها هنوز سبز نباشند.",
+      "conditions": "منبع: راهنمای تولید نخود مونتانا ایالات متحده؛ محصول: نخود خشک (dry pulse)؛ محدوده: آستانه‌های درصدی رنگ غلاف و سبزی برگ برای زمان‌بندی دسیکاسیون پیش‌برداشت",
+      "evidence_id": "d0-e9",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برداشت نخود وقتی انجام می‌شود که گیاهان در حال زردشدن باشند و غلاف‌ها به رنگ بالغ خود رسیده باشند؛ پس از خیزندادن حدود یک هفته هوای خشک نیاز است.",
+      "conditions": "منبع: راهنمای ذرت و زراعت ویسکانسین-مینه‌سوتا؛ محصول: نخود خشک (dry pulse)؛ محدوده: نشانه‌های ظاهری رسیدگی فیزیکی",
+      "evidence_id": "d2-e17",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "رطوبت بذر حدود ۱۳ درصد باید باشد تا خیزنده‌رانی (swath) قابل کمباین‌زنی باشد.",
+      "conditions": "منبع: راهنمای ذرت و زراعت ویسکانسین-مینه‌سوتا؛ محصول: دانه نخود خشک؛ واحد: درصد رطوبت بذر; محدوده: آستانه رطوبت برای کمباین‌زنی",
+      "evidence_id": "d2-e17",
+      "numeric_bindings": [
+        {
+          "value": "13",
+          "unit_quote": "seed moisture about 13%",
+          "geographic_scope": "US (Wisconsin/Minnesota extension guidance)",
+          "product_scope": "chickpea dry seed"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کابولی معمولاً ۱۱۰ تا ۱۲۰ روز برای رسیدگی نیاز دارد؛ نوع دزی کمی زودتر رسیدگی می‌کند.",
+      "conditions": "منبع: راهنمای تولید نخود مونتانا؛ محصول: نخود خشک (dry pulse)؛ محدوده: دوره رشد تا رسیدگی بر اساس نوع تجاری",
+      "evidence_id": "d0-e14",
+      "numeric_bindings": [
+        {
+          "value": "110 to 120",
+          "unit_quote": "Kabuli chickpea usually matures in 110 to 120 days",
+          "geographic_scope": "US Montana trials",
+          "product_scope": "Kabuli chickpea dry seed"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در آزمون‌های اورگن، نویل (Myles) نوع دزی حدود ۸ تا ۱۲ روز زودتر از سایر ارقام رسیدگی کرد و این زودرس بودن به اجتناب از تنش خشکسالی اواخر فصل کمک کرد.",
+      "conditions": "منبع: ارزیابی سازگاری ارقام نخود در شرق اورگن؛ محصول: نخود خشک (dry pulse)؛ محدوده: تفاوت روزهای رسیدگی بین ارقام",
+      "evidence_id": "d1-e8",
+      "numeric_bindings": [
+        {
+          "value": "8 to 12",
+          "unit_quote": "Myles matured about 12 days earlier (in July) than other varieties ... In 2003 ... Myles ... reached maturity earlier",
+          "geographic_scope": "Eastern Oregon, USA (Pendleton and Moro trials)",
+          "product_scope": "Desi chickpea dry seed"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "رنگ دانه عامل مهم کیفی بازار است؛ خریداران رنگ زردی-کرمی را ترجیح می‌دهند و دانه‌های سبز و قهوه‌ای معمولاً نامطلوب‌اند.",
+      "conditions": "منبع: راهنمای ذرت و زراعت ویسکانسین-مینه‌سوتا؛ محصول: دانه نخود خشک برای بازار غذا; محدوده: معیار رنگ بصری خریدار",
+      "evidence_id": "d2-e17",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "حدود ۱ درصد دانه با رنگ نابالغ پیش از اعمال کسر قیمت مجاز است.",
+      "conditions": "منبع: راهنمای ذرت و زراعت ویسکانسین-مینه‌سوتا؛ محصول: دانه نخود خشک; محدوده: آستانه مجاز درصدی دانه نارس از نظر رنگ",
+      "evidence_id": "d2-e17",
+      "numeric_bindings": [
+        {
+          "value": "1",
+          "unit_quote": "About 1% immature color seed is allowed before deductions are implemented",
+          "geographic_scope": "US (Wisconsin/Minnesota extension guidance)",
+          "product_scope": "chickpea dry seed"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "باران‌های اواخر فصل می‌تواند گیاهان به‌ظاهر نهفته را دوباره به رشد از جمله گل‌دهی و دانه‌بندی وادارد و مدیریت برداشت را پیچیده کند.",
+      "conditions": "منبع: راهنمای تولید نخود مونتانا؛ محصول: نخود خشک; محدوده: ریسک کیفیت و تأخیر برداشت بر اثر باران پاییزه",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "approved-fact-numeric-contract-v1",
+  "raw_sha256": "2e5f69b026485be0509f9a21ce8eb99900344defba18bd16d0500b73311dec7a",
+  "allowed_numeric_tokens_exactly": [
+    "20",
+    "30",
+    "4.2",
+    "70"
+  ],
+  "violations": [
+    {
+      "field": "content_html",
+      "unapproved_numeric_tokens": [
+        "2022"
+      ],
+      "unapproved_token_count": 1
+    }
+  ],
+  "lexical_numeric_contract_passed": false,
+  "scientific_approval": false,
+  "candidate_rewritten": false,
+  "final_validation_unchanged": true
+}

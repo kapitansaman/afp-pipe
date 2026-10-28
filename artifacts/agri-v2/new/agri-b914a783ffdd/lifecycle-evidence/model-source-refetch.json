@@ -1,0 +1,305 @@
+{
+  "coverage_contract_version": 1,
+  "final_coverage_complete": false,
+  "version": 2,
+  "topic_id": "agri-b914a783ffdd",
+  "input_binding": {
+    "topic_sha256": "bfa22d907128c955ac5e7b2f1c5480040887ec4bbf3e296745f368ce707e2249",
+    "sources_sha256": "0e4481c8d276c73b735695a09ac1d2e770e7bc4ca451eb1a2ec94d03959d1533",
+    "raw_sha256": "528fe7b6459c3583590580590b9ef7f82e976e6a35bf9e526f3e903f36d1070f"
+  },
+  "completed_at": "2026-10-28T09:26:25.560048+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T09:24:54.628862+00:00",
+      "queries": [
+        {
+          "query_id": "7521ec7c6fc0eb72ae20a90b95b6be0726772676ff6fa5880f893ba48d5e1f8b",
+          "query": "chickpea sensitve growth stage water deficit flowering pod filling university",
+          "cached": false,
+          "checked_at_epoch": 1793179502.406117,
+          "results": [
+            {
+              "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+              "title": "Chickpea Production",
+              "description": "N deficiency will begin to occur as available N from the soil is exhausted. Soils rich in N may actually reduce nodulation leading to longer periods of vegetative growth with delayed flowering and seed set. [...] Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of environmental stress, such as drought or extreme heat. Late season rains can cause plants that appear to have gone dormant to resume development including flowering and seed set, complicating harvest management. Chemical [...] Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F, and nighttime temperatures are between 64 and 70 °F. The crop does well in regions with 6-10 inches of growing season precipitation. Temperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolera"
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204",
+              "title": "Flower numbers, pod production, pollen viability, and pistil ...",
+              "description": "by X Fang · 2009 · Cited by 423 — The present study has demonstrated that terminal drought reduced flower and pod production, increased flower and pod abortion and therefore reduced seed yield"
+            }
+          ]
+        },
+        {
+          "query_id": "e3021c9d940012b4006bb04b566d79c5f7dec3973657d435379b632cc54d5d6b",
+          "query": "chickpea irrigation scheduling water stress stage critical period site:edu OR site:gov",
+          "cached": false,
+          "checked_at_epoch": 1793179507.0040116,
+          "results": [
+            {
+              "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+              "title": "Crop Water Use and Growth Stages | CSU Extension",
+              "description": "### Quick facts…\n\n Water stress during critical growth periods reduces yield and quality of crops.\n Crop water use (ET) at critical growth stages can be used in irrigation scheduling to avoid stressing crops.\n Crop water use (ET) is weather dependent as well as soil, water and plant dependent.\n Periodically check soil water at different depths within the root zone and at different growth stages to avoid stressing the crop during critical growth stages.\n\n#### Introduction [...] | Small grain | Boot and bloom stages | Dull green color, then firing of lower leaves | Last irrigation at milk stage |\n| Potatoes | Tuber formation to harvest | Wilting during heat of the day | Water stress during critical period may cause cracking of tubers |\n| Onions | Bulb formation | Wilting | Keep soil wet during bulb formation and dry near harvest |\n| Tomatoes | After fruit set | Wilting | Wilt and leaf rolling can be caused by disease | [...] A good irrigation scheduling scheme should consider sensitivity of the crop to water stress at different growth stages. This is accomplished by using a coefficient termed the Management Allowable Depletion (MAD), which is the amount of water allowed to be deplete"
+            },
+            {
+              "url": "https://content.ces.ncsu.edu/irrigation-scheduling-to-improve-water-and-energy-use-efficiency",
+              "title": "Irrigation Scheduling to Improve Water and Energy-Use Efficiency | NC State Extension Publications",
+              "description": "| 22 | 0.94 | 65 | 0.26 |  |  | 0.68 | 47 | Time to Irrigate |\n| 23 | 0.68 | 47 | 0.26 |  | 0.72 | 1.14 | 79 |  |\n| 24 | 1.14 | 79 | 0.26 |  |  | 0.88 | 61 |  |\n| 25 | 0.88 | 61 | 0.26 |  |  | 0.62 | 43 | Time to irrigate |\n| 26 | 0.62 | 43 | 0.25 |  | 0.72 | 1.08 | 75 |  |\n| 27 | 1.08 | 75 | 0.25 |  |  | 0.83 | 58 | (Critical stage, corn silking) |\n| 28 | 0.83 | 58 | 0.25 |  | 0.72 | 1.30 | 90 | Irrigate sooner than 50% |\n| 29 | 1.30 | 90 | 0.25 | 0.21 |  | 1.26 | 88 |  | [...] Corn planted between April 10 and 15 consumes the most water and is most susceptible to water deficits from June 5 to July 5. During that 30-day period, corn requires about 0.25 inches of water per day, or a total of 7.5 inches. Figure 3 shows that in only three years between 1956 and 1985 was rainfall adequate to satisfy the water needs of corn throughout this critical growth stage. The average 30-day rainfall was approximately 4 inches, indicating that the average amount of irrigation water [...] reduction would be greater if the water supply became depleted before the crop reaches a more critical stage of growth. If a high probability of rain-fall has been predicted during the next one or two days, it ma"
+            },
+            {
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+              "title": "Water-yield relationships for chickpea under different ...",
+              "description": "by MKA Jabow · 2026 · Cited by 2 — The crop exhibits pronounced stage-dependent sensitivity to water stress: moderate deficits during vegetative growth are often tolerated, whereas stress during"
+            },
+            {
+              "url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+              "title": "Deficit irrigation practices",
+              "description": "reported that cowpea had the ability to maintain seed yields when subjected to drought during the vegetative stage provided subsequent irrigation intervals did not exceed eight days. The work of Korte et al. (1983), Eck et al. (1987), Speck et al. (1989), and of many others, has shown that soybean is amenable to limited irrigation. Stegman et al. (1990) indicated that although short-term water stress in soybean during early flowering may result in flower and pod drop in the lower canopy, [...] of water. Drip and sprinkler irrigation methods are preferable to less efficient traditional surface methods. It is necessary to develop new irrigation scheduling approaches, not necessarily based on full crop water requirement, but ones designed to ensure the optimal use of allocated water. Deficit (or regulated deficit) irrigation is one way of maximizing water use efficiency (WUE) for higher yields per unit of irrigation water applied: the crop is exposed to a certain level of water stress [...] Previous PageTable Of ContentsNext Page\n\nPrevious Page\nTable Of Contents\nNext Page\n\n# Deficit irrigation scheduling based on plant growth stages showing water stress tolerance\n\nC. Kirda,  \nCukuroya"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 6,
+        "loaded": 5,
+        "sources": [
+          {
+            "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+            "canonical_url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204",
+            "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+            "canonical_url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+            "status": "cache_valid"
+          },
+          {
+            "url": "https://content.ces.ncsu.edu/irrigation-scheduling-to-improve-water-and-energy-use-efficiency",
+            "canonical_url": "https://content.ces.ncsu.edu/irrigation-scheduling-to-improve-water-and-energy-use-efficiency",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": true,
+            "http_status": 403
+          },
+          {
+            "url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+            "canonical_url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 6,
+      "coverage": {
+        "topic_id": "agri-b914a783ffdd",
+        "requirements": [
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document identifies the specific chickpea growth stage most vulnerable to water deficit with quantified yield loss AND provides an irrigation timing recommendation. s5 quantifies yield loss (15–33 % of well-watered) and flower/pod abortion under terminal drought during the reproductive stage, but it withholds water entirely rather than prescribing irrigation timing. s0 and s2 note that flowering/pod set under heat and drought reduces yield, yet offer no stage-specific yield-loss figure or irrigation-schedule recommendation."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document supplies measured soil-water inputs tied to the identified sensitive stage in the required units (kPa, %, mm, mm/day). s5 reports predawn leaf water potential in MPa and soil water content as % field capacity, but not in kPa or as volumetric water content, and provides no ETc, applied irrigation depth, or distinction between crop water use and applied water. s0 gives only a qualitative \"2-3 inches per season\" for irrigated vs. dryland yield difference without stage linkage or ETc."
+          },
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5"
+            ],
+            "missing": ""
+          }
+        ],
+        "next_queries": [
+          "chickpea Cicer arietinum growth stage water deficit yield loss percentage irrigation timing university extension",
+          "chickpea evapotranspiration ETc soil water potential kPa volumetric water content irrigation scheduling"
+        ]
+      },
+      "completed_at": "2026-10-28T09:25:42.362329+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T09:25:42.363152+00:00",
+      "queries": [
+        {
+          "query_id": "b43c6a082330b3ebc75213a7f7c6c226ba23ad80441be81acd1607266edab74f",
+          "query": "chickpea Cicer arietinum growth stage water deficit yield loss percentage irrigation timing university extension",
+          "cached": false,
+          "checked_at_epoch": 1793179560.3115842,
+          "results": [
+            {
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+              "title": "Water-yield relationships for chickpea under different ...",
+              "description": "by MKA Jabow · 2026 · Cited by 2 — Reproductive-stage deficits reduced yield by 25–34%. on chickpea (Cicer arietinum L.) Full irrigation produced the highest yields … deficits imposed during"
+            },
+            {
+              "url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+              "title": "Deficit irrigation practices",
+              "description": "The field crop WUE was 1.09 times higher than when no ET deficit occurred. This suggests that increasing the areas irrigated with the water saved would compensate for any yield loss. If the planned ET deficit is imposed throughout the season, it is possible to calculate the total irrigation water saved if one knows total crop water requirement. However, if the stress is imposed during a specific growth stage, one needs to know the total water requirement (i.e. crop water consumption) during [...] stage(s). With a 25 percent deficit, WUE was 1.2 times that achieved under normal irrigation practices. Irrigation scheduling based on deficit irrigation requires careful evaluation to ensure enhanced efficiency of use of increasingly scarce supplies of irrigation water. [...] |  |  |  |  |  |  |\n ---  ---  --- |\n| Crop | Stage when ET deficit occurred | ky | Irrigation method | Expected relative yield | Relative water use efficiency |\n| Common bean | Vegetative;Yield formation | 0.57 0.87 | Furrow | 0.86 0.78 | 1.14 1.04 |\n| Cotton | Whole season; Boll formation and flowering | 0.86 0.48 | Drip Furrow | 0.79 0.88 | 1.05 1.17 |\n| Groundnut | Flowering | 0.74 | Furrow | 0.82 | 1.09 |\n| Maiz"
+            },
+            {
+              "url": "https://scholars.georgiasouthern.edu/en/publications/regulated-deficit-irrigation-during-vegetative-growth-enhances-cr",
+              "title": "Regulated Deficit Irrigation during Vegetative Growth ...",
+              "description": "by JD Osuna-Amador · 2023 · Cited by 9 — We compared regulated deficit irrigation (RDI) and sustained deficit irrigation (SDI) in chickpea (Cicer arietinum L. var. Blanoro), expecting ...Read more"
+            },
+            {
+              "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+              "title": "Update: Yield and Water Use of Field Peas and Chickpeas Under Irrigation | CropWatch | Nebraska",
+              "description": "| Crop | Irrigation | P   (in) | I   (in) | RO   (in) | DP   (in) | ET   (in) | SWC   (in) | Yield   (bu/ac) | CWUE   (bu/ac-in) |\n| Field peas 2018 |\n| Dryland | 15.7 | 0 | 0 | 2.8 | 13.7 | -3.8 | 56 | 4.08 |\n| Deficit | 15.7 | 1.8 | 0 | 3.1 | 16.0 | -3.1 | 61 | 3.85 |\n| Full | 15.7 | 3.6 | 0 | 4.0 | 16.5 | 0.8 | 62 | 3.80 |\n| Chickpeas 2018 |\n| Dryland | 19.6 | 0 | 0.1 | 4.2 | 16.7 | -1.4 | 53 | 3.21 |\n| Deficit | 19.6 | 2.2 | 0.1 | 3.0 | 19.0 | -0.1 | 37 | 1.95 | [...] | Full | 19.6 | 4.4 | 0.1 | 4.6 | 19.9 | -1.5 | 25 | 1.26 |\n| Field peas 2019 |\n| Dryland | 11.9 | 0 | 0 | 2.1 | 13.5 | -3.2 | 55 | 4.06 |\n| Deficit | 11.9 | 2.3 | 0 | 1.2 | 14.4 | -2.7 | 59 | 4.45 |\n| Full | 11.9 | 4.4 | 0 | 1.5 | 15.4 | -1.1 | 57 | 3.70 |\n| Chickpeas 2019 |\n| Dryland | 11.2 | 0 | 0 | 2.6 | 9.9 | -1.4 | 8.4 | 0.85 |\n| Deficit | 11.2 | 0.8 | 0 | 3.1 | 10.5 | -1.3 | 6.6 | 0.63 |\n| Full | 11.2 | 1.6 | 0 | 1.7 | 10.7 | -2.1 | 5.9 | 0.55 | [...] In contrast, irrigating chickpeas resulted in a yield decrease (Table 1, Figure 3). In 2018, chickpea yield under deficit irrigation (2.2 inches applied) and full irrigation (4.4 inches applied) was 16.5 bu/ac and 28.5 bu/ac yield less than dryland, respective"
+            },
+            {
+              "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+              "title": "Chickpea Production - Extension Store",
+              "description": "We encourage the use of this document for nonprofit educational purposes. This document may be reprinted for nonprofit educational purposes if no endorsement of a commercial product, service or company is stated or implied, and if appropriate credit is given to the author and MSU Extension. To use these documents in electronic formats, permission must be sought from the Extension Communications Director, 135 Culbertson Hall, Montana State University, Bozeman, MT 59717; E-mail: [...] The U.S. Department of Agriculture (USDA), Montana State University and Montana State University Extension prohibit discrimination in all of their programs and activities on the basis of race, color, national origin, gender, religion, age, disability, political beliefs, sexual orientation, and marital and family status. Issued in furtherance of cooperative extension work in agriculture and home economics, acts of May 8 and June 30, 1914, in cooperation with the U.S. Department of Agriculture, [...] with the seed should not exceed a total of 15 lb of K2O + N per acre."
+            }
+          ]
+        },
+        {
+          "query_id": "d1debf0f32f1fc5f5ad87b89019cb15b1e6067bb75031638f226cd42b4c6af1f",
+          "query": "chickpea evapotranspiration ETc soil water potential kPa volumetric water content irrigation scheduling",
+          "cached": false,
+          "checked_at_epoch": 1793179563.6275632,
+          "results": [
+            {
+              "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+              "title": "Irrigation Scheduling: The Water Balance Approach | Colorado State University Extension",
+              "description": "The water requirement of a crop must be satisfied to achieve potential yields. The crop water requirement is also called crop evapotranspiration and is usually represented as ETc. Evapotranspiration is a combination of two processes – evaporation of water from the ground surface or wet surfaces of plants; and transpiration of water through the stomata of leaves. The water requirement can be supplied by stored soil water, precipitation, and irrigation. Irrigation is required when ETc (crop water [...] Dc=Dp+ETc -P-Irr-U+SRO+DP [1]\n\nwhere Dc is the soil water deficit (net irrigation requirement) in the root zone on the current day, Dp is the soil water deficit on the previous day, ETc is the crop evapotranspiration rate for the current day, P is the gross precipitation for the current day, Irr is the net irrigation amount infiltrated into the soil for the current day, U is upflux of shallow ground water into the root zone, SRO is surface runoff, and DP is deep percolation or drainage. [...] ETc (crop water demand) exceeds the supply of water from soil water and precipitation. As ETc varies with plant development stage and weather conditions, both the amount and timing of irrigation a"
+            },
+            {
+              "url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+              "title": "Soil-water basics for irrigation scheduling",
+              "description": "Soil water deficit can be monitored directly using soil moisture sensors or indirectly by estimating crop water use (evapotranspiration) and using water-balance equation. [...] Available water holding capacity (AWC) –The amount of water that soil can store to be extracted by the plant. It is the water held between field capacity and permanent wilting point.  \n   \n Management allowable depletion (MAD) –The soil water content where crops begin to experience water stress. Usually, most of the crop do not experience water stress before 40-60% of AWC has removed.  \n   \n Soil water deficit –The amount of water removed by the crop from active rooting depth. [...] or higher than MAD, irrigation should be triggered. Irrigation amounts should be refilling the rooting zone to approximately 80% AWC, leaving some room for possible precipitation."
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 4,
+        "loaded": 4,
+        "sources": [
+          {
+            "url": "https://scholars.georgiasouthern.edu/en/publications/regulated-deficit-irrigation-during-vegetative-growth-enhances-cr",
+            "canonical_url": "https://scholars.georgiasouthern.edu/en/publications/regulated-deficit-irrigation-during-vegetative-growth-enhances-cr/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+            "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+            "canonical_url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+            "canonical_url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+            "status": "cache_valid"
+          }
+        ]
+      },
+      "fetches_reserved": 4,
+      "coverage": {
+        "topic_id": "agri-b914a783ffdd",
+        "requirements": [
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document identifies the specific chickpea growth stage most vulnerable to water deficit with quantified yield loss or physiological response, nor provides an irrigation timing recommendation. s5 documents terminal drought effects on flower/pod abortion and reports a 58–85% seed yield reduction (Rupali 33%, Almaz 15%) but does not identify which single growth stage is most sensitive or give an irrigation-timing prescription. s9 tests regulated deficit at VG50/VG75/F50/F75/PF50/PF75 but only concludes vegetative growth at 75% ETc maximizes water productivity; it does not quantify yield loss at a specific sensitive stage or prescribe when to irrigate."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document provides measured soil water potential (kPa), volumetric water content (%), applied irrigation depth (mm), or ETc (mm/day) tied to an identified sensitive chickpea stage. s5 reports predawn leaf water potential in MPa (e.g., –1.2, –2.0, –3.0 MPa) and soil water content as % field capacity, but these are experiment tracking metrics, not irrigation-scheduling thresholds tied to a sensitive growth stage. s10 reports seasonal ET and irrigation inches but does not tie them to a sensitive growth stage nor separate crop water use from applied water with discharge/pressure detail. s6, s7, s11, s12 are general irrigation-scheduling/soil-water guides and do not contain chickpea-specific measured inputs."
+          },
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s9",
+              "s10"
+            ],
+            "missing": ""
+          }
+        ],
+        "next_queries": [
+          "chickpea Cicer arietinum most sensitive growth stage water deficit quantified yield loss pod set irrigation timing",
+          "chickpea deficit irrigation soil water potential kPa ETc mm growth stage sensitive"
+        ]
+      },
+      "completed_at": "2026-10-28T09:26:25.559330+00:00"
+    }
+  ],
+  "fetches_reserved": 10,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": true,
+  "status": "temporary_source_fetch_failure",
+  "new_sources": 0,
+  "repair_exhausted": false
+}

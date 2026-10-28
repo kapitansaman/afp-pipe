@@ -1,40 +1,27 @@
 {
-  "requested": 6,
-  "loaded": 5,
+  "requested": 4,
+  "loaded": 3,
   "sources": [
     {
-      "url": "https://extension.unr.edu/publication.aspx?PubID=2575",
-      "canonical_url": "https://extension.unr.edu/publication.aspx?PubID=2575",
-      "redirect_hops": 0,
-      "status": "fetched"
-    },
-    {
-      "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
-      "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
-      "redirect_hops": 0,
-      "status": "fetched"
-    },
-    {
-      "url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
-      "canonical_url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
-      "redirect_hops": 0,
-      "status": "fetched"
-    },
-    {
-      "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1992/92-45.Pdf",
-      "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1992/92-45.Pdf",
+      "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+      "canonical_url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
       "redirect_hops": 0,
       "status": "fetched"
     },
     {
       "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2019/Li%20et%20al_2019_CEA_163-2019-10pgs.pdf",
       "status": "unavailable",
-      "category": "fetch_or_validation_failed",
-      "temporary": true
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
     },
     {
-      "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
-      "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+      "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season/",
       "status": "cache_valid"
     }
   ]

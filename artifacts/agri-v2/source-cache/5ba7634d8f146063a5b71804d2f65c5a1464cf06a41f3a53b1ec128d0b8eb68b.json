@@ -1,0 +1,229 @@
+{
+  "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach/",
+  "requested_url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+  "redirect_chain": [
+    "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+    "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach/"
+  ],
+  "text": "[table row] Coarse sands | Available water capacity Low: 0.05 [table row] Coarse sands | Available water capacity High: 0.07 [table row] Coarse sands | Available water capacity Average: 0.06 [table row] Fine sands | Available water capacity Low: 0.07 [table row] Fine sands | Available water capacity High: 0.08 [table row] Fine sands | Available water capacity Average: 0.08 [table row] Loamy sands | Available water capacity Low: 0.07 [table row] Loamy sands | Available water capacity High: 0.10 [table row] Loamy sands | Available water capacity Average: 0.08 [table row] Sandy loams | Available water capacity Low: 0.10 [table row] Sandy loams | Available water capacity High: 0.13 [table row] Sandy loams | Available water capacity Average: 0.12 [table row] Fine sandy loams | Available water capacity Low: 0.13 [table row] Fine sandy loams | Available water capacity High: 0.17 [table row] Fine sandy loams | Available water capacity Average: 0.15 [table row] Sandy clay loams | Available water capacity Low: 0.13 [table row] Sandy clay loams | Available water capacity High: 0.18 [table row] Sandy clay loams | Available water capacity Average: 0.16 [table row] Loams | Available water capacity Low: 0.18 [table row] Loams | Available water capacity High: 0.21 [table row] Loams | Available water capacity Average: 0.20 [table row] Silt loams | Available water capacity Low: 0.17 [table row] Silt loams | Available water capacity High: 0.21 [table row] Silt loams | Available water capacity Average: 0.19 [table row] Silty clay loams | Available water capacity Low: 0.13 [table row] Silty clay loams | Available water capacity High: 0.17 [table row] Silty clay loams | Available water capacity Average: 0.15 [table row] Clay loams | Available water capacity Low: 0.13 [table row] Clay loams | Available water capacity High: 0.17 [table row] Clay loams | Available water capacity Average: 0.15 [table row] Silty clay | Available water capacity Low: 0.13 [table row] Silty clay | Available water capacity High: 0.14 [table row] Silty clay | Available water capacity Average: 0.13 [table row] Clay | Available water capacity Low: 0.11 [table row] Clay | Available water capacity High: 0.13 [table row] Clay | Available water capacity Average: 0.12 [table row] Corn | Seedling: 12 [table row] Corn | Vegetative: 24 [table row] Corn | Flowering: 30 [table row] Corn | Mature: 36 to 48 [table row] Potatoes | Seedling: 12 [table row] Potatoes | Vegetative: 18 [table row] Potatoes | Flowering: 24 [table row] Potatoes | Mature: 24 to 48 [table row] Small grain | Seedling: 12 [table row] Small grain | Vegetative: 18 [table row] Small grain | Flowering: 24 [table row] Small grain | Mature: 36 to 48 [table row] Field beans | Seedling: 12 [table row] Field beans | Vegetative: 18 [table row] Field beans | Flowering: 24 [table row] Field beans | Mature: 24 to 30 [table row] Sugarbeets | Seedling: 12 [table row] Sugarbeets | Vegetative: 18 [table row] Sugarbeets | Flowering: 24 [table row] Sugarbeets | Mature: 36 to 48 [table row] Vegetables | Seedling: 6 to 12 [table row] Vegetables | Vegetative: 18 [table row] Vegetables | Flowering: 18 [table row] Vegetables | Mature: 18 to 24 [table row] Alfalfa | Seedling: 6 to 12 [table row] Alfalfa | Establishment: 24 to 36 [table row] Alfalfa | Mature: 48 to 72 [table row] Turf and lawns | Seedling: 6 [table row] Turf and lawns | Establishment: 12 [table row] Turf and lawns | Mature: 12 [table row] Grass and pasture | Seedling: 6 [table row] Grass and pasture | Establishment: 12 [table row] Grass and pasture | Mature: 24 [table row] 6/1 – 6/30 | Phase: stand establishment [table row] 6/1 – 6/30 | D rz , in: 12 [table row] 6/1 – 6/30 | TAW, in: 2.4 [table row] 6/1 – 6/30 | MAD , %: 60 [table row] 6/1 – 6/30 | d MAD , in: 1.4 [table row] 7/1 – 7/21 | Phase: rapid vegetative [table row] 7/1 – 7/21 | D rz , in: 20 [table row] 7/1 – 7/21 | TAW, in: 4.0 [table row] 7/1 – 7/21 | MAD , %: 60 [table row] 7/1 – 7/21 | d MAD , in: 2.4 [table row] 7/22 – 8/15 | Phase: flowering; pod dev’t. [table row] 7/22 – 8/15 | D rz , in: 30 [table row] 7/22 – 8/15 | TAW, in: 6.0 [table row] 7/22 – 8/15 | MAD , %: 50 [table row] 7/22 – 8/15 | d MAD , in: 3.0 [table row] 8/16 – 9/10 | Phase: pod fill and maturation [table row] 8/16 – 9/10 | D rz , in: 30 [table row] 8/16 – 9/10 | TAW, in: 6.0 [table row] 8/16 – 9/10 | MAD , %: 70 [table row] 8/16 – 9/10 | d MAD , in: 4.2 Irrigation Scheduling: The Water Balance Approach | Colorado State University Extension Skip to content Quick facts… The water balance approach to irrigation scheduling keeps track of the soil water deficit by accounting for all water additions and subtractions from the soil root zone. Crop water consumption or evapotranspiration accounts for the biggest subtraction of water from the root zone while precipitation and irrigation provide the major additions. Crop evapotranspiration can be obtained from the Colorado Agricultural Meteorological Network (CoAgMet) or by using atmometers. The soil in the root zone has an upper as well as a lower limit for storing water that can be used by crops. As the crop grows and extracts water from the soil to satisfy its ETc requirement, the stored soil water is gradually depleted. Atmometers are designed to simulate the water use of a well-watered reference crop. Introduction The water requirement of a crop must be satisfied to achieve potential yields. The crop water requirement is also called crop evapotranspiration and is usually represented as ET c . Evapotranspiration is a combination of two processes – evaporation of water from the ground surface or wet surfaces of plants; and transpiration of water through the stomata of leaves. The water requirement can be supplied by stored soil water, precipitation, and irrigation. Irrigation is required when ET c (crop water demand) exceeds the supply of water from soil water and precipitation. As ET c varies with plant development stage and weather conditions, both the amount and timing of irrigation are important. The water balance (accounting) method of irrigation scheduling is one method of estimating the required amount and timing of irrigation for crops. This method can be used if initial soil water content in the root zone, ET c , precipitation, and the available water capacity of the soil are known. Table 1: In irrigation practice, only a percentage of AWC is allowed to be depleted (inch of water / inch of soil) Soil Texture Available water capacity Low Available water capacity High Available water capacity Average Coarse sands 0.05 0.07 0.06 Fine sands 0.07 0.08 0.08 Loamy sands 0.07 0.10 0.08 Sandy loams 0.10 0.13 0.12 Fine sandy loams 0.13 0.17 0.15 Sandy clay loams 0.13 0.18 0.16 Loams 0.18 0.21 0.20 Silt loams 0.17 0.21 0.19 Silty clay loams 0.13 0.17 0.15 Clay loams 0.13 0.17 0.15 Silty clay 0.13 0.14 0.13 Clay 0.11 0.13 0.12 The soil in the root zone has an upper as well as a lower limit for storing water that can be used by crops. The upper limit is called the field capacity ( FC ), which is the amount of water that can be held by the soil against gravity after being saturated and drained; typically attained after 1 day of rain or irrigation for sandy soils and from two to three days for heavier-textured soils that contain more silt and clay. The lower limit is called permanent wilting point ( PWP ), which is the amount of water remaining in the soil when the plant permanently wilts because it can no longer extract water. The available water capacity ( AWC ), or total available water, of the soil is the amount of water between these two limits ( AWC = FC – PWP ) and is the maximum amount of soil water that can be used by the plants. The AWC of soil is typically expressed in terms of inches of water per inch of soil depth. General values of AWC are provided in Table 1. Available water capacity values for specific soils can be obtained from county soil surveys or online at Web Soil Survey . Water Balance Accounting As the crop grows and extracts water from the soil to satisfy its ET c requirement, the stored soil water is gradually depleted. In general, the net irrigation requirement is the amount of water required to refill the root zone soil water content back up to field capacity. This amount, which is the difference between field capacity and current soil water level, corresponds to the soil water deficit ( D ). The irrigation manager can keep track of D , which gives the net amount of irrigation water to apply. On a daily basis, D can be estimated using the following accounting equation for the soil root zone: D c =D p +ET c -P-Irr-U+SRO+DP [ 1] where D c is the soil water deficit (net irrigation requirement) in the root zone on the current day, D p is the soil water deficit on the previous day, ET c is the crop evapotranspiration rate for the current day, P is the gross precipitation for the current day, Irr is the net irrigation amount infiltrated into the soil for the current day, U is upflux of shallow ground water into the root zone, SRO is surface runoff, and DP is deep percolation or drainage. The last three variables in equation 1 ( U, SRO, DP ) are difficult to estimate in the field. In many situations, the water table is significantly deeper than the root zone and U is zero. Also, SRO and DP can be accounted for in a simple way by setting D c to zero whenever water additions ( P and Irr ) to the root zone are greater than D p + ET c . Using these assumptions, equation 1 can be simplified to: D c = D p + ET c -P-Irr (if D c is negative, then set it to 0.0) [2] Take note that D c is set equal to zero if its value becomes negative. This will occur if precipitation and/or irrigation exceed ( D p + ET c ) and means that water added to the root zone already exceeds field capacity within the plant root zone. Any excess water in the root zone is assumed to be lost through SRO or DP . The amounts of water used in the equations are typically expressed in depths of water per unit area (e.g., inches of water per acre). Equation 2 is a simplified version of the soil water balance with several underlying assumptions. First, any water additions ( P or Irr ) are assumed to readily infiltrate into the soil surface and the rates of P or Irr are assumed to be less than the long-term steady state infiltration rate of the soil. Actually, some water is lost to surface runoff if precipitation or irrigation rates exceed the soil infiltration rate. Thus, equation 2 will underestimate the soil water deficit or the net irrigation requirement if P or Irr rates are higher than the soil infiltration rate. Knowledge of effective precipitation ( P – SRO – DP ), irrigation, and soil infiltration rates (e.g., inches per hour) are required to obtain more accurate estimates of D c . Secondly, water added to the root zone from a shallow water table ( U ) is not considered. Groundwater contributions to soil water in the root zone must be subtracted from the right-hand side of the equation in case of a shallow water table. Equation 2 will over-estimate D c if any actual soil water additions from groundwater are neglected. It is a good practice to occasionally check (e.g., once a week) if D c from equation 2 is the same as the actual deficit in the field (soil water content readings using soil moisture sensors). Remember that D c is the difference between field capacity and current soil water content. Therefore, the actual deficit in the field can be determined by subtracting the current soil water content from the field capacity of the root zone. If D c from equation 2 is very different from the observed deficit, then use the observed deficit as the D c value for the next day. These corrections are necessary to compensate for uncertainties in the water balance variables. Field measurements of current soil water content can be performed using the gravimetric method (weighing of soil samples before and after drying) or using soil water sensors like gypsum blocks (resistance method). In irrigation practice, only a percentage of AWC is allowed to be depleted because of AWC is allowed to be depleted because plants start to experience water stress even before soil water is depleted down to PWP . Therefore, a management allowed depletion ( MAD , %) of the AWC must be specified. Refer to fact sheet number 4.715 ( Crop Water Use and Growth Stages ) for values of MAD for selected crops. Ranges of rooting depth for selected crops are given in Table 2. The rooting depth and MAD for a crop will change with developmental stage. The MAD can be expressed in terms of depth of water ( d MAD ; inches of water) using the following equation. d MAD = (MAD / 100) *AWC*D rz [3] where MAD is management allowed depletion (%), AWC is available water capacity of the root zone (inch of water per inch of soil), and D rz is depth of root zone (inches; see Table 2). The value of d MAD can be used as a guide for deciding when to irrigate. Typically, irrigation water should be applied when the soil water deficit ( D c ) approaches d MAD , or when D c ≥ d MAD . To minimize water stress on the crop, D c should be kept less than d MAD . If the irrigation system has enough capacity, then the irrigator can wait until D approaches d MAD before starting to irrigate. The net irrigation amount equal to D c can be applied to bring the soil water deficit to zero. Otherwise, if the irrigation system has limited capacity (maximum irrigation amount is less than d MAD ), then the irrigator should not wait for D c to approach d MAD , but should irrigate more frequently to ensure that D does not exceed d MAD . Table 2: Irrigation management soil depths ( D rz ) in inches for selected crops. (Assumes rooting is not restricted by compaction or shallow soils.) (Bauder and Schneekloth, 2006) Annual Crop Irrigation management depths Seedling Vegetative Flowering Mature Corn 12 24 30 36 to 48 Potatoes 12 18 24 24 to 48 Small grain 12 18 24 36 to 48 Field beans 12 18 24 24 to 30 Sugarbeets 12 18 24 36 to 48 Vegetables 6 to 12 18 18 18 to 24 Perennial crop Irrigation management depths Seedling Establishment Mature Alfalfa 6 to 12 24 to 36 48 to 72 Turf and lawns 6 12 12 Grass and pasture 6 12 24 Figure 1: Example crop coefficient curve that shows Kc values that change with crop development. However, keep in mind that more frequent irrigations increase evaporation of water from the soil surface, which is considered a loss. In addition, when rainfall is in the forecast, the irrigator might want to leave the root zone below field capacity to allow for storage of forecasted precipitation. Estimating Crop ET Estimating Crop ET Crop evapotranspiration ( ET c ), in inches per day, is estimated as: ET c = ET r × K c × Ks [ 4] where ET r is the evapotranspiration rate (inches/day) from a reference crop (e.g., alfalfa), K c is a crop coefficient that varies by crop development stage (ranges from 0 to 1), and K s is a water stress coefficient (ranges from 0 to 1). At any given point in the growing season, the K c for a crop is simply the ratio of its ET over the reference crop ET. The K c can be thought of as the fraction of the reference crop ET that is used by the actual crop. Values of K c typically range from 0.2 for young seedlings to 1.0 for crops at peak vegetative stage with canopies fully covering the ground. In some instances, peak K c might reach 1.05-1.10, for crops showing similar biomass characteristics as alfalfa, when the soil and canopies are wet (after irrigation/rain). A typical crop coefficient curve ( K c values that change with crop development) is shown in Figure 1. Crop coefficient values for commonly grown crops are given in Table 3. If D c remains less than d MAD , K s may be assumed to be 1. A K s of 1 means that the crop is not experiencing water stress. The Colorado Agricultural Meteorological Network (CoAgMet) provides daily values of ET c for common crops if K s = 1 (no water stress). CoAgMet calculates K c internally, based on planting date and weather data. Refer to fact sheet 4.723, The Colorado Agricultural Meteorological Network (CoAgMet) and Crop ET Reports, to obtain daily ET c values at many locations around the state. In cases when water availability is limited (e.g., lack of precipitation or irrigation; D c > d MAD ), then K s will be less than 1, and crop ET c will not occur at the potential (non-water-limited) rate. The water stress coefficient is calculated by (Allen et al., 1998): K s =(TAW-D) / (1-MAD) *TAW) (K s = 1 if D < d MAD ) [5] where TAW is total available water in the soil root zone (inches), D is the soil water deficit (inches), and MAD is management allowed depletion (decimal fraction). The value of TAW can be calculated from: TAW=AWC*D rz [6] where AWC is the available water capacity of the root zone (inch of water / inch of soil) and D rz is the total depth of the root zone (inches). In equation 5, MAD is specifically defined as the fraction of AWC that a crop can extract from the root zone without suffering water stress. Note that K s should be set equal to one when D is less than d MAD . The ET c obtained from CoAgMet should be multiplied by K s calculated from equation 5 to get an “actual” (water-stressed) ET c value that can be used in equation 2. Water balance calculations cannot begin until soil water content in the root zone is known. It may be established before or after crop emergence. Methods include gravimetric soil water samples or the hand-feel method. From this, the soil water content of successive days can be estimated using the water balance equation. Equations 2 through 6 can easily be entered as formulas into a spreadsheet, with columns for daily values of P , Irr , D rz , TAW , K s , ET c , and D c . Values of P , Irr , D rz , and potential (non-water-stressed) ET c can be input in the spreadsheet on a daily basis, and D c calculated automatically. Daily values of potential ET c and P can be obtained from CoAgMet, if your field is near enough to an existing CoAgMet weather station. Using Atmometers Figure 2: An atmometer installed in a field. Reference crop ET is estimated from changes in the water level, which is visible through the graduated site tube in front of the distilled water reservoir. An alternative to obtaining ET c values from CoAgMet is to obtain onsite measurements using a field instrument called an atmometer. This device can estimate reference crop ET at locations that do not have a CoAgMet weather station, have unusual micro-climate characteristics, or when a user does not have access to CoAgMet data. An atmometer can give reasonable estimates of alfalfa reference ET ( ET r ) but may underestimate ET r during periods of rain or high wind (Chen and Robinson, 2009). An atmometer consists of a wet, porous ceramic cup mounted on top of a cylindrical water reservoir (Figure 2). The ceramic cup is covered with a green fabric that simulates the canopy of a crop. The reservoir is filled with distilled water that evaporates out of the ceramic cup and is pulled through a suction tube that extends to the bottom of the reservoir. Underneath the fabric, the ceramic cup is covered by a special membrane that keeps rainwater from seeping into the ceramic cup. A rigid wire extending from the top keeps birds from perching on top of the gauge. A site tube on the instrument’s front allows the user to observe and record the water level, like a rain gauge. The ET rate for a given period is the difference in water level between two time periods. Atmometers are designed to simulate the water use of a well-watered reference crop, which is either alfalfa (represented as ET r ) or clipped grass (represented as ET o ) that is fully covering the ground. In Colorado, alfalfa reference ( ET r ) is commonly used. Actual ET from a specific crop can be estimated using equation 4, following a similar procedure described in the previous section. The atmometer provides an estimate of ET r , which must be multiplied by the appropriate K c and K s (if there is water stress) values to obtain ET c . Crop coefficients for commonly grown crops are provided in Table 3. For most non-water-stressed forage and grain crops at full canopy, water loss from an atmometer will be equal to actual crop ET. Table 3: Representative crop coefficients ( K c ) of commonly grown crops for use with alfalfa reference ET ( ET r ). Days from planting or green-up Corn Dry Beans Potatoes Winter Wheat Transplant onions Spring Small Grains (barley, oats, ET c ) Sugarbeets Alfalfa Pasture 5 0.25 0.23 0.22 0.30 0.38 0.20 0.19 0.25 0.33 10 0.25 0.30 0.21 0.33 0.38 0.25 0.20 0.43 0.33 15 0.26 0.33 0.26 0.44 0.39 0.32 0.20 0.82 0.45 20 0.27 0.44 0.33 0.52 0.40 0.40 0.21 0.82 0.56 25 0.27 0.57 0.40 0.65 0.42 0.50 0.22 1.00 0.68 30 0.29 0.71 0.50 0.74 0.43 0.60 0.27 1.00 0.79 35 0.35 0.89 0.59 0.82 0.45 0.69 0.30 1.00 0.79 40 0.41 1.00 0.70 0.89 0.46 0.78 0.33 1.00 0.79 45 0.49 1.00 0.73 0.95 0.47 0.88 0.36 1.00 0.79 50 0.58 1.00 0.81 1.00 0.48 0.96 0.38 1.00 0.79 55 0.67 1.00 0.87 1.00 0.50 1.00 0.43 1.00 0.79 60 0.73 1.00 0.94 1.00 0.52 1.00 0.50 0.33* 0.79 65 0.78 1.00 0.95 1.00 0.56 1.00 0.55 0.45 70 0.86 1.00 0.95 1.00 0.59 1.00 0.60 0.77 75 0.91 0.92 0.95 1.00 0.61 1.00 0.66 1.00 80 0.94 0.85 0.95 1.00 0.65 0.93 0.77 1.00 85 1.00 0.79 0.95 0.92 0.67 0.85 0.84 1.00 90 1.00 0.73 0.95 0.85 0.74 0.77 0.92 1.00 95 1.00 0.66 0.95 0.72 0.78 0.61 1.00 1.00 100 1.00 0.59 0.95 0.58 0.81 0.45 1.00 1.00 105 0.98 0.52 0.95 0.48 0.81 0.29 1.00 *After cutting 110 0.96 0.45 0.95 0.35 0.81 0.23 1.00 115 0.91 0.38 0.95 0.22 0.81 0.20 1.00 120 0.85 0.95 0.22 0.81 0.20 1.00 125 0.78 0.95 0.22 0.81 0.20 1.00 130 0.69 0.95 0.22 0.81 0.20 1.00 135 0.64 0.95 0.22 0.81 0.20 1.00 140 0.58 0.95 0.22 0.80 0.20 0.96 Source: Coefficients for all crops except pasture were from www.CoAgMet.com. CoAgMet K c curves were based on values developed by Wright (1981, 1982) at Kimberly, Idaho and were adapted for Colorado conditions by the U.S. Bureau of Reclamation. Coefficients for pasture were based on the Food and Agriculture Organization (FAO) paper 56 K c values (Allen et al., 1998). Atmometers are typically mounted on a wooden post near irrigated fields. A suitable location for placement is a border ridge in an alfalfa field. However, you may also locate the instrument alongside a dirt road if surrounded by low growing irrigated crops. Dust accumulation from the dirt road may require more frequent cleaning of the green fabric. The site should represent average field conditions. Do not install nearby farm buildings, trees, or tall crops that may block the wind. Additionally, avoid placement near dry, fallow fields. The top of the ceramic cup should be 39 inches above the ground. The manufacturer of a modified atmometer sold in Colorado ETgage® provides detailed instructions on how to install and maintain their instrument. Yuma, Colorado The example below is for a hypothetical dry bean field in Yuma, Colorado having Kuma silt loam soil with an available water capacity ( AWC ) of 0.20 inches of water per inch of soil for the top 30 inches. The AWC for this soil was taken from the online Web Soil Survey . The Web Soil Survey is an online soils database maintained by USDA-Natural Resources Conservation Service . Instructions on how to use the tool are given on the home page. The dry beans were planted on May 31, 2008, and the initial soil water was assumed to be at field capacity (profile was full). This meant that the soil water deficit ( D ) was zero at the start of the growing season. This assumption was reasonable because actual precipitation from January 15 to May 30, 2008, was 2.56 inches, which was greater than AWC for the top foot of soil (root zone during stand establishment phase). Water requirements of dry beans change throughout the season because rooting depth (access to available soil water) and the rate of ET c change as the crop develops and weather varies. Table 4 shows the assumed management rootin",
+  "links": [
+    {
+      "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach/",
+      "label": "Skip to content"
+    },
+    {
+      "url": "https://www.colostate.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.colostate.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.colostate.edu/topics/",
+      "label": "All Topics"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/agriculture/",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/community-economic-development/",
+      "label": "Community & Economic Development"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/emergency-planning/",
+      "label": "Emergency Planning"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/food-nutrition/",
+      "label": "Food & Nutrition"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/garden-landscape/",
+      "label": "Garden & Landscape"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/health-well-being/",
+      "label": "Health & Well-being"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/insects-pests/",
+      "label": "Insects & Pests"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/natural-resources/",
+      "label": "Natural Resources"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/youth-development/",
+      "label": "Youth Development"
+    },
+    {
+      "url": "https://extension.colostate.edu/programs-services/",
+      "label": "All Programs & Services"
+    },
+    {
+      "url": "https://agrability.colostate.edu",
+      "label": "AgrAbility"
+    },
+    {
+      "url": "https://co4h.colostate.edu/",
+      "label": "Colorado 4-H"
+    },
+    {
+      "url": "https://extension.colostate.edu/colorado-building-farmers/",
+      "label": "Colorado Building Farmers"
+    },
+    {
+      "url": "https://extension.colostate.edu/colorado-master-gardener/",
+      "label": "Colorado Master Gardener"
+    },
+    {
+      "url": "https://extension.colostate.edu/offering/cottage-food-safety-training/",
+      "label": "Cottage Food Safety Training"
+    },
+    {
+      "url": "https://extension.colostate.edu/extension-internship-program/",
+      "label": "Extension Internship Program"
+    },
+    {
+      "url": "https://extension.colostate.edu/family-leadership-training-institute/",
+      "label": "Family Leadership Training Institute"
+    },
+    {
+      "url": "https://extension.colostate.edu/grow-give/",
+      "label": "Grow & Give"
+    },
+    {
+      "url": "https://landscapeforlife.colostate.edu/",
+      "label": "Landscape for Life"
+    },
+    {
+      "url": "https://extension.colostate.edu/offering/lawncheck/",
+      "label": "Lawncheck"
+    },
+    {
+      "url": "https://extension.colostate.edu/offering/native-bee-watch-community-science-program/",
+      "label": "Native Bee Watch"
+    },
+    {
+      "url": "https://extension.colostate.edu/offering/native-plant-master/",
+      "label": "Native Plant Master"
+    },
+    {
+      "url": "https://learn.colostate.edu/ramcorps/",
+      "label": "RamCorps"
+    },
+    {
+      "url": "https://online.colostate.edu/certificates/naturalist/",
+      "label": "Rocky Mountain Naturalist"
+    },
+    {
+      "url": "https://extension.colostate.edu/resources/",
+      "label": "Resources"
+    },
+    {
+      "url": "https://extension.colostate.edu/events/",
+      "label": "Events"
+    },
+    {
+      "url": "https://extension.colostate.edu/extension-county-offices/",
+      "label": "Offices"
+    },
+    {
+      "url": "https://extension.colostate.edu/about-us/",
+      "label": "About CSU Extension"
+    },
+    {
+      "url": "https://extension.colostate.edu/our-work-impact/",
+      "label": "Our Work & Impact"
+    },
+    {
+      "url": "https://learn.colostate.edu/directory/",
+      "label": "Directory"
+    },
+    {
+      "url": "https://extension.colostate.edu/ask-us/",
+      "label": "Ask Us"
+    },
+    {
+      "url": "https://extension.colostate.edu/give/",
+      "label": "Give"
+    },
+    {
+      "url": "https://extension.colostate.edu",
+      "label": "Home"
+    },
+    {
+      "url": "https://coagmet.colostate.edu/",
+      "label": "The Colorado Agricultural Meteorological Network"
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/app/",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/",
+      "label": "USDA-Natural Resources Conservation Service"
+    },
+    {
+      "url": "https://learn.colostate.edu/",
+      "label": "Office of Engagement and Extension"
+    },
+    {
+      "url": "https://online.colostate.edu/certificates/professional-development-online.dot",
+      "label": "CSU Professional Education"
+    },
+    {
+      "url": "https://csfs.colostate.edu/",
+      "label": "Colorado State Forest Service"
+    },
+    {
+      "url": "https://watercenter.colostate.edu/",
+      "label": "Colorado Water Center"
+    },
+    {
+      "url": "https://learn.colostate.edu/newsroom-social-media/",
+      "label": "Newsroom & Social Media"
+    },
+    {
+      "url": "https://extension.colostate.edu/contact/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://jobs.colostate.edu/",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.colostate.edu/disclaimer/",
+      "label": "Disclaimer"
+    },
+    {
+      "url": "https://www.colostate.edu/accessibility-statement/",
+      "label": "Accessibility Statement"
+    },
+    {
+      "url": "https://www.colostate.edu/equal-opportunity/",
+      "label": "Equal Opportunity"
+    },
+    {
+      "url": "https://extension.colostate.edu/usda-non-discrimination-statement/",
+      "label": "Non-Discrimination Statement"
+    },
+    {
+      "url": "https://www.colostate.edu/privacy/",
+      "label": "Privacy Statement"
+    },
+    {
+      "url": "https://extension.colostate.edu/sitemap/",
+      "label": "Sitemap"
+    }
+  ],
+  "fetched_at": "2026-10-28T09:26:05.004339+00:00",
+  "sha256": "a25b8f22f604af8097f95c9c8f3b4821f415004c2d0674228b6ce958d552ad84",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

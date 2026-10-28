@@ -1,25 +1,11 @@
 {
-  "requested": 3,
+  "requested": 1,
   "loaded": 1,
   "sources": [
     {
-      "url": "https://www.sciencedirect.com/science/article/pii/S0378377426002180",
-      "status": "unavailable",
-      "category": "http_error",
-      "temporary": true,
-      "http_status": 403
-    },
-    {
-      "url": "https://worldalfalfacongress.ucdavis.edu/sites/g/files/dgvnsk8841/files/media/documents/Deficit%20irrigation%20strategies%3B%20why%20alfalfa%20is%20the%20best%20crop%20to%20have%20in%20a%20drought.pdf",
-      "status": "unavailable",
-      "category": "source_policy_or_content_rejected",
-      "temporary": false
-    },
-    {
       "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
       "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     }
   ]
 }

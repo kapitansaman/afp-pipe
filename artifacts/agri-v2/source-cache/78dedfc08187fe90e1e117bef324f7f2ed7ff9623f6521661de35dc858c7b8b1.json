@@ -1,0 +1,441 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/",
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858",
+  "redirect_chain": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/"
+  ],
+  "text": "Optimizing Management of Alfalfa (Medicago sativa L.) Nitrogen Fertilizer Based on Critical Nitrogen Concentration Dilution Curve Model - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Plants (Basel) . 2025 Jun 11;14(12):1782. doi: 10.3390/plants14121782 Optimizing Management of Alfalfa ( Medicago sativa L.) Nitrogen Fertilizer Based on Critical Nitrogen Concentration Dilution Curve Model Yaya Duan Yaya Duan 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Methodology, Validation, Data curation, Writing – original draft, Writing – review & editing Find articles by Yaya Duan 1 , Yi Ling Yi Ling 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Writing – original draft Find articles by Yi Ling 1 , Haiyan Li Haiyan Li 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Software Find articles by Haiyan Li 1 , Wenjing Chang Wenjing Chang 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Investigation Find articles by Wenjing Chang 1 , Jiandong Lu Jiandong Lu 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Investigation Find articles by Jiandong Lu 1 , Minhua Yin Minhua Yin 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Methodology, Formal analysis, Resources, Writing – review & editing, Visualization, Project administration Find articles by Minhua Yin 1, * , Yanxia Kang Yanxia Kang 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Conceptualization, Formal analysis Find articles by Yanxia Kang 1, * , Yanlin Ma Yanlin Ma 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Software, Project administration Find articles by Yanlin Ma 1 , Yayu Wang Yayu Wang 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Software Find articles by Yayu Wang 1 , Guangping Qi Guangping Qi 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) Conceptualization, Funding acquisition Find articles by Guangping Qi 1 , Guoyun Shen Guoyun Shen 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) 2 Gansu Province Jingtai Chuan Power Irrigation Water Resource Utilization Center, Baiyin 730400, China Supervision Find articles by Guoyun Shen 1, 2 Editors: Fangsen Xu , Sheliang Wang Author information Article notes Copyright and License information 1 College of Water Conservancy and Hydrpower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 1073323020376@st.gsau.edu.cn (Y.D.); 1073324120786@st.gsau.edu.cn (Y.L.); 107332201100@st.gsau.edu.cn (H.L.); 1073324120789@st.gsau.edu.cn (W.C.); 1073324120819@st.gsau.edu.cn (J.L.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); qigp@gsau.edu.cn (G.Q.); 20212201028@st.gsau.edu.cn (G.S.) 2 Gansu Province Jingtai Chuan Power Irrigation Water Resource Utilization Center, Baiyin 730400, China * Correspondence: yinmh@gsau.edu.cn (M.Y.); yanxiakang@gsau.edu.cn (Y.K.); Tel.: +86-151-0921-7864 (M.Y.); +86-151-0132-2879 (Y.K.) Roles Yaya Duan : Methodology, Validation, Data curation, Writing – original draft, Writing – review & editing Yi Ling : Writing – original draft Haiyan Li : Software Wenjing Chang : Investigation Jiandong Lu : Investigation Minhua Yin : Methodology, Formal analysis, Resources, Writing – review & editing, Visualization, Project administration Yanxia Kang : Conceptualization, Formal analysis Yanlin Ma : Software, Project administration Yayu Wang : Software Guangping Qi : Conceptualization, Funding acquisition Guoyun Shen : Supervision Fangsen Xu : Academic Editor Sheliang Wang : Academic Editor Received 2025 May 19; Revised 2025 Jun 4; Accepted 2025 Jun 9; Collection date 2025 Jun. © 2025 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( https://creativecommons.org/licenses/by/4.0/ ). PMC Copyright notice PMCID: PMC12196858 PMID: 40573770 Abstract The critical nitrogen dilution curve (CNDC) model enables precise nitrogen management by quantifying the threshold of nitrogen deficiency in crops, thereby enhancing both crop productivity and nitrogen use efficiency. However, its applicability to perennial crops remains unclear. In this study, alfalfa ( Medicago sativa L.), a perennial leguminous forage, was used as the model crop. Based on two years of field experiments, CNDC models of aboveground biomass were constructed under two nitrogen fertilizer regimes: urea (0, 80, 160, and 240 kg·ha −1 , applied in a 6:2:2 basal-to-topdressing ratio) and controlled-release urea (CRU; 0, 80, 160, and 240 kg·ha −1 , applied as a single basal dose). Using these models, the nitrogen nutrition index (NNI) and cumulative nitrogen deficit (N and ) models were developed to diagnose alfalfa nitrogen status, and the optimal nitrogen application rates were determined via regression analysis. The results showed that critical nitrogen concentration and aboveground biomass followed a power function relationship under both fertilizer types. For CRU treatments, parameters a and b were 3.41 and 0.20 (first cut), 3.15 and 0.12 (second cut), and 2.24 and 0.40 (third cut), respectively. For urea treatments, a and b were 3.13 and 0.35 (first cut), 2.21 and 0.16 (second cut), and 1.75 and 0.73 (third cut). The normalized root mean square error (n-RMSE) of the models ranged from 3.1% to 13%, indicating high model reliability. Based on the NNI, N and , and yield response models, the optimal nitrogen application rates were 175.44~181.71 kg·ha −1 for urea and 145.63~153.46 kg·ha −1 for CRU, corresponding to theoretical maximum yields of 14.76~17.40 t·ha −1 and 16.76~20.66 t·ha −1 , respectively. Compared to urea, CRU reduced nitrogen input by 18.41~20.47% while achieving equivalent or higher theoretical yields. This study provides a scientific basis for nitrogen status diagnosis and precision nitrogen application in alfalfa cultivation. Keywords: critical nitrogen concentration, nitrogen nutrition diagnostics, nitrogen application rates, alfalfa 1. Introduction N is an essential nutrient for crop growth, and its use efficiency directly influences the sustainability of agricultural production and environmental outcomes [ 1 , 2 ]. The application of exogenous nitrogen fertilizers plays a vital role in improving soil fertility, maintaining nutrient balance, and promoting crop growth [ 3 , 4 ]. Globally, the annual nitrogen input to agricultural land reaches 200 million tons. However, due to extensive and inefficient management, nitrogen use efficiency remains below 50%, with substantial nitrogen losses through leaching and volatilization. These losses contribute to soil acidification, groundwater contamination, and greenhouse gas emissions, while also increasing agricultural production costs [ 5 , 6 , 7 ]. Inappropriate nitrogen management can also lead to metabolic imbalances in crops, weakening stress resistance and impairing the synthesis of proteins, amino acids, and vitamins, thereby reducing yield and quality [ 8 ]. Ensuring a balance between nitrogen supply and crop demand throughout the growth period is key to addressing these issues [ 9 , 10 ]. Therefore, real-time monitoring of nitrogen status in both plants and soils, as well as implementing a demand-driven nitrogen supply strategy, are critical for achieving the goal of “reduced nitrogen input, improved efficiency, high yield, and high quality” in sustainable agricultural production. Real-time diagnosis of crop nitrogen nutrition is the foundation of rational nitrogen fertilization and plays a crucial role in balancing N supply and demand in the soil–plant system [ 11 , 12 ]. Current studies on crop N status monitoring mainly focus on two aspects: plant physiological responses and soil nitrogen supply. Plant-based approaches involve measurements such as leaf chlorophyll content, nitrogen accumulation, and vegetation indices derived from remote sensing. These methods aim to directly assess the plant’s nitrogen content or related physiological traits to indicate nitrogen uptake and utilization. However, their accuracy is often affected by factors such as leaf thickness, age gradient, and environmental stress, limiting their universality [ 13 , 14 ]. Emerging non-destructive remote sensing technologies, including multispectral and hyperspectral inversion models, estimate canopy nitrogen distribution based on near-infrared reflectance. While promising, these techniques are sensitive to climatic conditions, canopy structure, and varietal differences, and they often require high technical expertise and financial investment [ 15 , 16 ]. Soil is the source of nitrogen supply [ 17 ], and the existing monitoring of soil nitrogen nutrition mainly includes root zone nutrient (nitrate nitrogen, ammonium nitrogen, and total nitrogen content) monitoring, the 15N isotope tracer method, and nitrogen mineralization kinetic modeling [ 18 ]. These techniques effectively assess soil nitrogen supply capacity but have limitations in dynamic monitoring, equipment complexity, and the use of radioactive materials. The critical nitrogen concentration (N c ) refers to the minimum nitrogen concentration required to achieve maximum biomass at a given growth stage [ 19 ]. It decreases with increasing biomass and typically follows a power-law relationship [ 19 ]. When diagnosing plant nitrogen nutrition based on the critical nitrogen concentration dilution curve model, the deviation between the actual nitrogen concentration of the plant and the critical nitrogen concentration can be compared in real time, enabling dynamic diagnosis of crop nitrogen nutrition status and prediction of nitrogen requirements [ 20 ]. This method has good universality and continuity. In recent years, the critical nitrogen dilution curve (CNDC) model has been widely applied to various crops to monitor plant nitrogen status. These include grain crops like rice [ 21 ], wheat [ 22 ], and maize [ 23 ]; forage crops such as tobacco [ 24 ], ryegrass [ 25 ], and sugarcane [ 26 ]; and root/tuber crops like carrot [ 27 ], potato [ 28 ], and garlic [ 29 ], and the standardized root mean square error values of the critical nitrogen concentration dilution curve model are all below 20%, demonstrating high accuracy in plant nutrient diagnosis. Furthermore, it was shown that the CNDC modeling also breaks through the limitation of single-parameter diagnosis and can be constructed based on organs such as leaves, leaf sheaths, and stems. Parameters such as chlorophyll content and leaf area, respectively, can adapt more flexibly to the growth characteristics of different crops and the nutritional diagnosis needs of different growth stages, and it has become an economical and effective tool for real-time diagnosis of plant nitrogen [ 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 ], making it an effective and economical tool for real-time plant nitrogen diagnosis. To date, most CNDC studies have focused on annual grain and economic crops [ 30 ], while research on forage species, particularly perennial ones, such as Alfalfa, remains limited. Alfalfa ( Medicago sativa L.), the most widely cultivated forage crop globally, is known as the “king of forages” due to its high nutritional value and strong stress resistance [ 31 , 32 ]. As a leguminous species with a deep root system, high leaf biomass, and strong soil cover, alfalfa significantly enhances soil fertility and reduces erosion, offering both productive and ecological benefits [ 33 ]. Located in northwest China, Gansu Province has abundant solar radiation and large diurnal temperature variation, making it ideal for alfalfa cultivation. In recent years, Gansu has become a major production base for high-quality alfalfa, accounting for over 60% of China’s commercial planting area [ 34 ]. However, challenges such as arid climate and poor soils limit production potential [ 35 ]. In this context, the present study systematically analyzed nitrogen accumulation dynamics in alfalfa across different harvests under applied urea and controlled-release nitrogen fertilizer. The objectives were to (1) quantify differences in biomass accumulation and plant nitrogen concentration under the two nitrogen types and construct CNDC models; (2) develop nitrogen nutrition index (NNI) and cumulative nitrogen deficit (N and ) models based on CNDC to diagnose nitrogen surplus or deficiency thresholds throughout the growing season; and (3) evaluate the yield-increasing and nitrogen-saving potential of controlled-released urea (CRU) in arid regions of Northwest China to provide a theoretical basis for precision nitrogen management in alfalfa production. 2. Results and Analysis 2.1. Modeling of Critical Nitrogen Concentration Dilution Curves in Alfalfa 2.1.1. Effect of Nitrogen Fertilizer Management on Alfalfa Aboveground Biomass Nitrogen fertilizer management had a significant effect on the aboveground biomass of alfalfa ( p < 0.05, Figure 1 ). Overall, aboveground biomass followed the order: first cut > second cut > third cut, and it increased with rising nitrogen application rates. Under urea treatment, the aboveground biomass of alfalfa ranged from 4.79 to 9.03 t·ha −1 . Compared to N0, N1, N2, and N3 increased biomass by 5.24–30.68% (first cut), 4.16–28.82% (second cut), and 4.07–27.72% (third cut), respectively. Under controlled-release urea (CRU) treatment, aboveground biomass ranged from 4.79 to 10.36 t·ha −1 , with C1, C2, and C3 increasing biomass by 15.55–50.14% (first cut), 13.45–42.37% (second cut), and 11.27–39.56% (third cut), respectively, compared to C0. At the same nitrogen application level, CRU consistently resulted in 6.71–14.84% higher aboveground biomass than urea. In the mid to late stages of alfalfa growth, biomass accumulation rates of N2 and C2 exceeded those of N3 and C3, indicating a plateauing trend at higher nitrogen inputs. The biomass response followed statistically significant inequalities for the two nitrogen types: urea: N0 < N1 < N2 ≈ N3, CRU: C0 < C1 < C2 ≈ C3. Figure 1. Open in a new tab The dynamic accumulation of aboveground biomass of alfalfa. ( a – c ) show changes in aboveground biomass of alfalfa plants with urea application; ( d – f ) show changes in the aboveground biomass of alfalfa plants with CRU application. 2.1.2. Effects of Nitrogen Fertilizer Management on Alfalfa Plant Nitrogen Concentration The nitrogen concentration in alfalfa plants showed a decreasing trend as the growth period progressed ( Figure 2 ), indicating a nitrogen dilution effect during biomass accumulation. With increasing nitrogen application rates, the nitrogen concentration increased correspondingly. At the same nitrogen rate, CRU resulted in higher nitrogen concentrations in alfalfa plants compared to urea ( Table 1 ). Under urea treatment, nitrogen concentrations across the three cuts ranged from 2.24 to 4.61% ( Figure 2 a), 1.97 to 3.93% ( Figure 2 b), and 1.72 to 3.61% ( Figure 2 c), respectively. Significant differences were observed between N2 and N0, N3 and N0, and N3 and N1. Under CRU treatment, nitrogen concentrations ranged from 2.24 to 4.62% ( Figure 2 d), 1.97 to 4.16% ( Figure 2 e), and 1.72 to 3.83% ( Figure 2 f), respectively. Significant differences were found between C2 and C0, C3 and C0, and C3 and C1. Figure 2. Open in a new tab Changes in nitrogen concentration in alfalfa plants at different stages of growth. ( a – c ) show the changes in nitrogen concentration of alfalfa plants with urea application; ( d – f ) show the changes in nitrogen concentration of alfalfa plants with CRU application. Table 1. Effect of nitrogen fertilizer management on nitrogen concentration in alfalfa plants. Nitrogen Fertilizer Type Nitrogen Application Rate (kg·ha −1 ) The First Cut (%) The Second Cut (%) The Third Cut (%) Urea N0 2.96 e 2.59 d 2.35 d N1 3.17 d 2.76 cd 2.49 cd N2 3.35 cd 2.90 c 2.63 cb N3 3.61 ab 3.11 b 2.79 ab CRU C0 2.96 e 2.59 d 2.35 d C1 3.23 d 2.87 c 2.53 cd C2 3.49 bc 3.13 b 2.72 b C3 3.79 a 3.36 a 2.94 a Open in a new tab Different lowercase letters after the data indicate significant differences ( p < 0.05). 2.1.3. Construction of Critical Nitrogen Dilution Curve Models for Alfalfa Critical nitrogen dilution curve models were separately constructed for the aboveground biomass of alfalfa under urea and CRU treatments across the three cuts ( Figure 3 ). The models showed excellent fit, with all coefficients of determination (R 2 ) exceeding 0.99, indicating that the established models effectively described the relationship between aboveground biomass and critical nitrogen concentration. For the CRU treatments, the parameter a values for the first, second, and third cuts were 3.41, 3.15, and 2.24, respectively, all higher than those under urea treatments (3.13, 2.21, and 1.75). This suggests that CRU improved the nitrogen uptake capacity in alfalfa plants compared to urea. In contrast, the b values under CRU treatment (0.20, 0.12, and 0.40) were lower than those under urea (0.35, 0.16, and 0.73), indicating that nitrogen concentration in alfalfa plants decreased more slowly with biomass accumulation under CRU than under urea, i.e., a slower nitrogen dilution rate. Figure 3. Open in a new tab Nitrogen concentration dilution curves in aboveground biomass of alfalfa. 2.2. Validation of the Critical Nitrogen Dilution Curve Model for Alfalfa The critical nitrogen dilution models constructed in 2023 were validated using experimental data from the 2024 growing season. During the 2024 season, the maximum aboveground biomass of alfalfa under urea treatment for the first, second, and third cuts ranged from 6.9 to 8.4 t·ha −1 , 5.7 to 6.9 t·ha −1 , and 5.3 to 6.4 t·ha −1 , respectively. Under CRU treatment, the maximum aboveground biomass for the three cuts ranged from 7.0 to 9.3 t·ha −1 , 5.9 to 7.5 t·ha −1 , and 5.5 to 6.9 t·ha −1 , respectively. These maximum biomass values were substituted into the respective critical nitrogen dilution equations to calculate the simulated critical nitrogen concentrations. The simulated values were then compared with measured values through regression analysis ( Figure 4 ). The resulting coefficients of determination (R 2 ) ranged from 0.96 to 0.99, and the normalized root mean square error (n-RMSE) ranged from 3.1 to 13%. These results indicate that the critical nitrogen dilution models for alfalfa under both urea and CRU treatments exhibit high stability and accuracy. Figure 4. Open in a new tab The 1:1 relationship diagram of simulated and observed values of critical N concentration. 2.3. Nitrogen Nutrition Diagnosis of Alfalfa Plants Under Different Nitrogen Fertilizer Management Strategies 2.3.1. Nitrogen Nutrition Diagnosis Based on NNI The NNI of alfalfa plants increased with rising nitrogen application rates and decreased as the growth period progressed ( Figure 5 ). During the alfalfa growth cycle, the NNI values of N0, N1, C0, and C1 consistently remained below 1, indicating that these nitrogen application rates inhibited nitrogen uptake and biomass accumulation. In contrast, the NNI values of N3 and C3 were consistently above 1, suggesting that these application levels resulted in nitrogen surplus. The NNI value of N2 was slightly below 1, while that of C2 was slightly above 1. These results indicate that the optimal nitrogen application rate for alfalfa is slightly above 160 kg·ha −1 when using urea, and slightly below 160 kg·ha −1 when using CRU. Figure 5. Open in a new tab Dynamic changes in the NNI of alfalfa plants under different nitrogen fertilizer management. ( a – c ) ",
+  "links": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+      "label": "Account settings"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+      "label": "Journal List"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/pdf/plants-14-01782.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+      "label": "PMC Disclaimer"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+      "label": "PMC Copyright Notice"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Search in PMC"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Search in PubMed"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"Plants%20(Basel)\"[Title%20Abbreviation]",
+      "label": "View in NLM Catalog"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Add to search"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Duan%20Y\"[Author]",
+      "label": "Yaya Duan"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Ling%20Y\"[Author]",
+      "label": "Yi Ling"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Li%20H\"[Author]",
+      "label": "Haiyan Li"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Chang%20W\"[Author]",
+      "label": "Wenjing Chang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Lu%20J\"[Author]",
+      "label": "Jiandong Lu"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Yin%20M\"[Author]",
+      "label": "Minhua Yin"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Kang%20Y\"[Author]",
+      "label": "Yanxia Kang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Ma%20Y\"[Author]",
+      "label": "Yanlin Ma"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Wang%20Y\"[Author]",
+      "label": "Yayu Wang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Qi%20G\"[Author]",
+      "label": "Guangping Qi"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Shen%20G\"[Author]",
+      "label": "Guoyun Shen"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40573770/",
+      "label": "40573770"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g001.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g002a.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g002b.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/table/plants-14-01782-t001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g003.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g004.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g005.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g006.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f006/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g007.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f007/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g008.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f008/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/table/plants-14-01782-t002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12196858_plants-14-01782-g009.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/figure/plants-14-01782-f009/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/table/plants-14-01782-t003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/table/plants-14-01782-t004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8651835/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33715091/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11874573/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39964711/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9029003/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35448784/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9891995/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36646840/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505174/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37717014/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6907091/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31844583/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10610152/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37896121/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11597474/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39599353/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11639734/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38778072/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4548214/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26303807/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11054463/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38674511/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10818335/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38256824/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5408224/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28503181/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7403409/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32753694/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8831891/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35154221/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40269327/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11953412/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40155767/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11912222/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9804836/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36054464/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3425206/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22679222/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10302943/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37367873/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38825557/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11558593/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39650110/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7299380/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32555670/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+      "label": "NCBI RSS feed"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/web_policies.html",
+      "label": "Web Policies"
+    },
+    {
+      "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "label": "HHS Vulnerability Disclosure"
+    },
+    {
+      "url": "https://support.nlm.nih.gov/",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/accessibility.html",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/careers/careers.html",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/",
+      "label": "NLM"
+    },
+    {
+      "url": "https://www.nih.gov/",
+      "label": "NIH"
+    },
+    {
+      "url": "https://www.hhs.gov/",
+      "label": "HHS"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "fetched_at": "2026-10-28T09:26:10.609626+00:00",
+  "sha256": "1368eb02be3e9d6a8a08ad3b77c5b4853815a5c1b3875b21279789f93cbda598",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T06:29:27.184851+00:00",
+  "started_at": "2026-10-28T09:24:49.951612+00:00",
   "queries": [
     {
       "query_id": "6536279e399da536e166bb87aaabcc2b57d6eb311b239ff1ee9336f03b60cbaa",
       "query": "alfalfa soil moisture sensor irrigation scheduling threshold kPa university extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793168968.5683374,
       "results": [
         {
@@ -38,7 +38,7 @@
     {
       "query_id": "133469162f2ddd981a246c33b752c7a25597adc8dd146ac3094be91210b9f7bf",
       "query": "alfalfa tension meter soil water potential irrigation decision crop water use applied water",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793168970.8677292,
       "results": [
         {
@@ -89,8 +89,7 @@
       {
         "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
         "canonical_url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
@@ -100,8 +99,7 @@
       {
         "url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors",
         "canonical_url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
@@ -113,8 +111,7 @@
       {
         "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
         "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
@@ -130,12 +127,8 @@
       {
         "id": "exact_reader_method",
         "covered": false,
-        "document_ids": [
-          "s10",
-          "s13",
-          "s14"
-        ],
-        "missing": "Documents list sensor types (tensiometer, VWC probe, TDR, gypsum block, capacitance) and provide generic thresholds, but none specify an alfalfa-specific trigger method coupled with the explicit farmer decision rule 'irrigate when reading crosses threshold X rather than following a calendar date.' The how-the-farmer-acts-on-reading-vs-calendar bridge is absent."
+        "document_ids": [],
+        "missing": "No document documents an alfalfa-specific research method showing which soil moisture sensor type was used with its trigger threshold in original units and how readings replace calendar scheduling. s10 describes tensiometer, capacitance, TDR, and resistance block methods but without alfalfa-specific thresholds; s11 provides generic alfalfa tension thresholds (80–150 kPa) cited from multi-crop synthesis rather than from a study measuring and acting on those readings versus a calendar."
       },
       {
         "id": "species_product",
@@ -143,13 +136,10 @@
         "document_ids": [
           "s1",
           "s2",
-          "s3",
-          "s4",
-          "s5",
-          "s6",
-          "s7",
-          "s8",
-          "s9"
+          "s10",
+          "s11",
+          "s12",
+          "s13"
         ],
         "missing": ""
       },
@@ -157,15 +147,16 @@
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [
-          "s13"
+          "s11",
+          "s12"
         ],
-        "missing": "s13 gives an alfalfa-specific MAD (50–60%) and soil water tension trigger (80–150 kPa/cbar) with a 48-in rooting depth. However, no document explicitly distinguishes crop evapotranspiration (ETc) from applied irrigation water volume, and no growth-stage or season adjustment to the alfalfa threshold is provided (e.g., different MAD during vegetative vs flowering stages)."
+        "missing": "s11 gives alfalfa soil water tension thresholds (80–150 kPa) and MAD (50–60%) but mixes crops and does not present measured alfalfa research with those exact units tied to field decisions. s12 gives corn-specific SWT tables and does not address alfalfa. No supplied document distinguishes crop evapotranspiration (ETc) from applied irrigation water volume for alfalfa, nor specifies growth-stage or seasonal threshold adjustments for alfalfa."
       }
     ],
     "next_queries": [
-      "alfalfa soil moisture sensor irrigation trigger tensiometer VWC field study Mad crop evapotranspiration ETc distinction irrigation depth applied",
-      "alfalfa irrigation scheduling growth stage soil water tension threshold adjustment vegetative flowering late season university extension"
+      "alfalfa irrigation scheduling soil moisture sensor threshold tensiometer FDR university research",
+      "alfalfa soil water tension trigger kPa evapotranspiration irrigation volume research"
     ]
   },
-  "completed_at": "2026-10-28T06:29:47.179520+00:00"
+  "completed_at": "2026-10-28T09:25:08.890647+00:00"
 }

@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-46cf2473ba02",
+  "gap": "Missing operational decision criteria for supplemental irrigation timing in rainfed alfalfa, drought stress thresholds, cost-benefit analysis of irrigation application, and economic evaluation tables specific to rainfed systems",
+  "queries": [
+    "rainfed alfalfa supplemental irrigation timing decision criteria extension",
+    "alfalfa deficit irrigation economic analysis cost benefit university research"
+  ],
+  "requirements": [
+    {
+      "id": "species_product",
+      "need": "Confirmed rainfed (dried/non-irrigated baseline) alfalfa production system with supplemental irrigation treatment applied"
+    },
+    {
+      "id": "exact_reader_method",
+      "need": "Documented irrigation scheduling decision rule or threshold (soil moisture, plant stress indicator, growth stage) for when supplemental irrigation should be applied"
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Measured water application volume (mm, inches, acre-ft), yield response (ton/acre, kg/ha), and economic return calculation with input costs and output value"
+    }
+  ]
+}

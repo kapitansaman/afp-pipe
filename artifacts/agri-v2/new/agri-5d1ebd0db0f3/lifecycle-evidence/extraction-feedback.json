@@ -1,0 +1,117 @@
+{
+  "topic_id": "agri-5d1ebd0db0f3",
+  "candidate_sha256": "459d068498369ec51e4a0a0ed8a917e032f697261f9ae95e29e7b84094be8351",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "نشانه دیداری اصلی رسیدگی برای برداشت یا دسیکاسیون پیش‌برداشت: حداقل ۸۰ درصد غلاف‌ها به رنگ زرد/قهوه‌ای درآمده و بیش از ۴۰ درصد برگ‌ها هنوز سبز نباشند.",
+        "conditions": "منبع: راهنمای تولید نخود مونتانا ایالات متحده؛ محصول: نخود خشک (dry pulse)؛ محدوده: آستانه‌های درصدی رنگ غلاف و سبزی برگ برای زمان‌بندی دسیکاسیون پیش‌برداشت",
+        "evidence_id": "d0-e9",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e9",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": "Roundup (Glyphosate) | Weeds: Harvest aid and weed desiccant [table row] Roundup (Glyphosate) | Remarks: Apply with AMS at 8.5 lb/100 gal. Do not apply on crop grown for seed. Allow a 7-day PHI [table row] Gramoxone (Paraquat) | Application Timing: PRE-HARVEST [table row] Gramoxone (Paraquat) | Product Rate per acre: 1.5 to pt 2SL [table row] Gramoxone (Paraquat) | Weeds: Harvest aid and weed desiccant [table row] Gramoxone (Paraquat) | Remarks: Apply with NIS or COC. Allow a 7-day PHI [table row] Sharpen (saflufenacil) | Application Timing: PRE-HARVEST (at least 80% yellow/brown pods and no more than 40% of leaves still green) [table row] Sharpen (saflufenacil) | Product Rate per acre: 1 to 2 fl oz [table row] Sharpen (saflufenacil) | Weeds: Harvest aid and weed desiccant [table row] Sharpen (saflufenacil) | Remarks: Apply with MSO and AMS or UAN Allow a 2-day PHI [table row] Valor | Ap"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "رطوبت بذر حدود ۱۳ درصد باید باشد تا خیزنده‌رانی (swath) قابل کمباین‌زنی باشد.",
+        "conditions": "منبع: راهنمای ذرت و زراعت ویسکانسین-مینه‌سوتا؛ محصول: دانه نخود خشک؛ واحد: درصد رطوبت بذر; محدوده: آستانه رطوبت برای کمباین‌زنی",
+        "evidence_id": "d2-e17",
+        "numeric_bindings": [
+          {
+            "value": "13",
+            "unit_quote": "seed moisture about 13%",
+            "geographic_scope": "US (Wisconsin/Minnesota extension guidance)",
+            "product_scope": "chickpea dry seed"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e17",
+        "source_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+        "quote": "y in the season by attacking the germinating seed and destroying the growing point. If a serious insect problem develops in a field, consult your local Extension office or crop consultant for information about threshold value determinations and recommendations for control. I. Harvesting: Chickpea can be harvested direct or swathed prior to combining depending upon uniformity of maturity and weed problems. About 1 week of good drying weather is required in the swath. Chickpea can be swathed when the plants are yellowing and the pods are their mature color. This should be done when the plants are slightly damp to facilitate forming the swath without yield loss. When the vines, pods and seeds in the windrow are dry enough (seed moisture about 13%) the swath can be combined. Seed color is important (buyers prefer a yellowish-creme color) so greenish and brown seeds are generally unacceptable"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "کابولی معمولاً ۱۱۰ تا ۱۲۰ روز برای رسیدگی نیاز دارد؛ نوع دزی کمی زودتر رسیدگی می‌کند.",
+        "conditions": "منبع: راهنمای تولید نخود مونتانا؛ محصول: نخود خشک (dry pulse)؛ محدوده: دوره رشد تا رسیدگی بر اساس نوع تجاری",
+        "evidence_id": "d0-e14",
+        "numeric_bindings": [
+          {
+            "value": "110 to 120",
+            "unit_quote": "Kabuli chickpea usually matures in 110 to 120 days",
+            "geographic_scope": "US Montana trials",
+            "product_scope": "Kabuli chickpea dry seed"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e14",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": "lant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of environmental stress, such as drought or extreme heat. Late season rains can cause plants that appear to have gone dormant to resume development including flowering and seed set, complicating harvest management. Chemical desiccation to terminate growth is often necessary. Mature plants will be 15-30 inches tall, heavily branched, appearing as small bushes. Optimally, there will be 1-2 seeds per pod. A greater number of seeds per pod typically leads to smaller seed size at maturity. Kabuli chickpea usually matures in 110 to 120 days. Desi type will mature somewhat earlier. TABLE 1. Chickpea production (1,000 of harvested acres) since 2012 in the U.S> (3). Location 2012 2013 2014 2015 2016 Idaho 75.6 77.5 73.0 6"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "در آزمون‌های اورگن، نویل (Myles) نوع دزی حدود ۸ تا ۱۲ روز زودتر از سایر ارقام رسیدگی کرد و این زودرس بودن به اجتناب از تنش خشکسالی اواخر فصل کمک کرد.",
+        "conditions": "منبع: ارزیابی سازگاری ارقام نخود در شرق اورگن؛ محصول: نخود خشک (dry pulse)؛ محدوده: تفاوت روزهای رسیدگی بین ارقام",
+        "evidence_id": "d1-e8",
+        "numeric_bindings": [
+          {
+            "value": "8 to 12",
+            "unit_quote": "Myles matured about 12 days earlier (in July) than other varieties ... In 2003 ... Myles ... reached maturity earlier",
+            "geographic_scope": "Eastern Oregon, USA (Pendleton and Moro trials)",
+            "product_scope": "Desi chickpea dry seed"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e8",
+        "source_url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+        "quote": " in plant counts among the varieties (Table 1). There were some significant differences in plant height among the varieties (Table 1). Bean yields, however, were not significantly correlated (r = -0.28) with plant height. Disease incidences involving combinations of Fusarium solani, F. oxysporum, the bean leafroll, and alfalfa mosaic viruses (Table 1) appear to have influenced bean yields. ‘Myles’ and ‘Sanford’ were less affected by disease than the other 2 [page 3] varieties. Disease, however, only explained about 18 percent (r = -0.42) of yield variation, indicating that there were other factors with greater influence on bean yield. ‘Myles’ matured about 12 days earlier (in July) than other varieties and probably avoided increasing drought stress experienced in August when the other varieties matured. It is also probable that ‘Myles’ produced the highest yields through drought resistan"
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "حدود ۱ درصد دانه با رنگ نابالغ پیش از اعمال کسر قیمت مجاز است.",
+        "conditions": "منبع: راهنمای ذرت و زراعت ویسکانسین-مینه‌سوتا؛ محصول: دانه نخود خشک; محدوده: آستانه مجاز درصدی دانه نارس از نظر رنگ",
+        "evidence_id": "d2-e17",
+        "numeric_bindings": [
+          {
+            "value": "1",
+            "unit_quote": "About 1% immature color seed is allowed before deductions are implemented",
+            "geographic_scope": "US (Wisconsin/Minnesota extension guidance)",
+            "product_scope": "chickpea dry seed"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e17",
+        "source_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+        "quote": "y in the season by attacking the germinating seed and destroying the growing point. If a serious insect problem develops in a field, consult your local Extension office or crop consultant for information about threshold value determinations and recommendations for control. I. Harvesting: Chickpea can be harvested direct or swathed prior to combining depending upon uniformity of maturity and weed problems. About 1 week of good drying weather is required in the swath. Chickpea can be swathed when the plants are yellowing and the pods are their mature color. This should be done when the plants are slightly damp to facilitate forming the swath without yield loss. When the vines, pods and seeds in the windrow are dry enough (seed moisture about 13%) the swath can be combined. Seed color is important (buyers prefer a yellowish-creme color) so greenish and brown seeds are generally unacceptable"
+      }
+    }
+  ],
+  "candidate_error": "every_number_requires_unit_and_scope_binding",
+  "declared_insufficiency": null
+}

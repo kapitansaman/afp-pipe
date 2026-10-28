@@ -1,0 +1,17 @@
+{
+  "family_id": "family-17",
+  "topic_id": "agri-5d1ebd0db0f3",
+  "title": "زمان مناسب برداشت نخود؛ نشانه‌های رسیدگی و معیار بازار",
+  "title_sha256": "943503dce15ab4fbfda0a608f1c25b214fb6aad1349b1e229be0c60ffa8709c2",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY65",
+    "AGNES_API_KEY66",
+    "AGNES_API_KEY67",
+    "AGNES_API_KEY68"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

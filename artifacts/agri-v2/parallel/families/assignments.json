@@ -5,18 +5,18 @@
   "families": [
     {
       "family_id": "family-01",
-      "topic_id": "agri-cfaae7290b88",
-      "title": "مراحل حساس یونجه به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
-      "assigned_at": "2026-10-28T05:36:22.223016+00:00",
+      "topic_id": "agri-ab20ad20b271",
+      "title": "تنظیم آبیاری نخود پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "assigned_at": "2026-10-28T09:27:01.356717+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-02",
-      "topic_id": "agri-ed19dd100ebc",
-      "title": "چرا بذر یونجه سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
-      "assigned_at": "2026-10-28T04:20:01.077013+00:00",
+      "topic_id": "agri-465d6abf0e91",
+      "title": "برآورد عملکرد نخود پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "assigned_at": "2026-10-28T09:27:01.356933+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -32,9 +32,9 @@
     },
     {
       "family_id": "family-04",
-      "topic_id": "agri-108b007ce25b",
-      "title": "مدیریت یونجه بعد از چین؛ آبیاری و تغذیه برای رشد مجدد",
-      "assigned_at": "2026-10-28T06:15:39.359529+00:00",
+      "topic_id": "agri-5b193f221639",
+      "title": "پایش رطوبت خاک در مزرعه نخود؛ انتخاب محل و عمق حسگر",
+      "assigned_at": "2026-10-28T09:27:01.361286+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -63,7 +63,7 @@
       "title": "آخرین آبیاری یونجه پیش از برداشت؛ معیارهای قطع و کاهش آب",
       "assigned_at": "2026-10-28T05:36:22.224015+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "ready_for_drafting",
       "publication_authorized_by_assignment": false
     },
     {
@@ -86,18 +86,18 @@
     },
     {
       "family_id": "family-10",
-      "topic_id": "agri-604dc7bdda3f",
-      "title": "نیاز آبی کدو آجیلی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
-      "assigned_at": "2026-10-28T00:45:08.294262+00:00",
+      "topic_id": "agri-d5b18796a0dd",
+      "title": "آبیاری تکمیلی نخود دیم؛ زمان اولویت‌دار و ارزیابی اقتصادی",
+      "assigned_at": "2026-10-28T09:27:01.366574+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-11",
-      "topic_id": "agri-4e351a4fbdee",
-      "title": "راهنمای ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت",
-      "assigned_at": "2026-10-27T15:33:31.256109+00:00",
+      "topic_id": "agri-c4e597765067",
+      "title": "نیاز آبی نخود در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+      "assigned_at": "2026-10-28T09:27:01.366745+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -131,9 +131,9 @@
     },
     {
       "family_id": "family-15",
-      "topic_id": "agri-bdab41123a06",
-      "title": "تنظیم آبیاری یونجه پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
-      "assigned_at": "2026-10-28T05:36:22.225177+00:00",
+      "topic_id": "agri-adc9b5a7dea9",
+      "title": "آماده‌سازی زمین برای لوبیا چیتی؛ تسطیح، بستر کاشت و زهکشی",
+      "assigned_at": "2026-10-28T09:27:01.367315+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -158,11 +158,11 @@
     },
     {
       "family_id": "family-18",
-      "topic_id": "agri-e1268545eb02",
-      "title": "چرا بذر نخود سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
-      "assigned_at": "2026-10-28T06:15:39.368921+00:00",
+      "topic_id": "agri-cdc40b2b322b",
+      "title": "نقطه سربه‌سر کشت لوبیا چیتی؛ حداقل عملکرد و قیمت فروش لازم",
+      "assigned_at": "2026-10-28T09:27:01.367769+00:00",
       "assignment_status": "assigned",
-      "work_stage": "existing_content_audit_required",
+      "work_stage": "scope_review_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -782,6 +782,90 @@
       "completed_at": "2026-10-28T06:40:00.660636+00:00",
       "completion": "deferred_to_exception_backlog",
       "reason": "independent_scoped_review_rejected"
+    },
+    {
+      "family_id": "family-01",
+      "topic_id": "agri-cfaae7290b88",
+      "title": "مراحل حساس یونجه به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "assigned_at": "2026-10-28T05:36:22.223016+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T09:27:01.321405+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "bounded_search_coverage_incomplete"
+    },
+    {
+      "family_id": "family-02",
+      "topic_id": "agri-ed19dd100ebc",
+      "title": "چرا بذر یونجه سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "assigned_at": "2026-10-28T04:20:01.077013+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T09:27:01.323809+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "bounded_search_coverage_incomplete"
+    },
+    {
+      "family_id": "family-04",
+      "topic_id": "agri-108b007ce25b",
+      "title": "مدیریت یونجه بعد از چین؛ آبیاری و تغذیه برای رشد مجدد",
+      "assigned_at": "2026-10-28T06:15:39.359529+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T09:27:01.326533+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "bounded_search_coverage_incomplete"
+    },
+    {
+      "family_id": "family-10",
+      "topic_id": "agri-604dc7bdda3f",
+      "title": "نیاز آبی کدو آجیلی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+      "assigned_at": "2026-10-28T00:45:08.294262+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T09:27:01.337492+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "individual_scoped_fact_rejected"
+    },
+    {
+      "family_id": "family-11",
+      "topic_id": "agri-4e351a4fbdee",
+      "title": "راهنمای ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت",
+      "assigned_at": "2026-10-27T15:33:31.256109+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T09:27:01.344095+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "independent_scoped_review_rejected"
+    },
+    {
+      "family_id": "family-15",
+      "topic_id": "agri-bdab41123a06",
+      "title": "تنظیم آبیاری یونجه پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "assigned_at": "2026-10-28T05:36:22.225177+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T09:27:01.349474+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "bounded_search_coverage_incomplete"
+    },
+    {
+      "family_id": "family-18",
+      "topic_id": "agri-e1268545eb02",
+      "title": "چرا بذر نخود سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "assigned_at": "2026-10-28T06:15:39.368921+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T09:27:01.353613+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "bounded_search_coverage_incomplete"
     }
   ],
   "publication_authorized_by_assignment": false,
@@ -1648,9 +1732,144 @@
       ],
       "prior_attempts_reset": false,
       "previous_family_id": "family-18"
+    },
+    "agri-cfaae7290b88": {
+      "topic_id": "agri-cfaae7290b88",
+      "title": "مراحل حساس یونجه به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.321405+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "da8e982e05fb05589beab9e378dbf2d35ec4f78745020b3808ec80cc6d51ebab",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "18406f267f7aaf9511c2d55632ee203bb62dcad12e24c4aeac144df14f3c5b8a",
+        "state.json": "e5028e2c0a7989546f47289033a3528754363c522a188acead9056c1c877a72f",
+        "model-source-refetch.json": "51567fc135064508499a469f4eacdc1f3c494992685583f0bdae5cfd49eafe0f"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-01"
+    },
+    "agri-ed19dd100ebc": {
+      "topic_id": "agri-ed19dd100ebc",
+      "title": "چرا بذر یونجه سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.323809+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "f4e638269bbabea6966a4d5562be69e5e5ee7fe3a2d81b2f252c47903fbc30fe",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "5c8c7441dbfec962dce9ab71b8794a5f98ad053b3b5667649939cd68eb82b595",
+        "state.json": "3f357958f81c7b6ae21c26b4f4eeb6b152ac1d90df9bae6873502964de5d8f0d",
+        "model-source-refetch.json": "cb36dfe0eabc52578e75edb633dfb3ac00dc147800142ffed78ddc6ca20312a1"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-02"
+    },
+    "agri-108b007ce25b": {
+      "topic_id": "agri-108b007ce25b",
+      "title": "مدیریت یونجه بعد از چین؛ آبیاری و تغذیه برای رشد مجدد",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.326533+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "e04f172f2a8e683da0550713c5f1cdf4cbb9ef17b9ed6c647ca1ae46274ce847",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "9abb493b9783e4db87c079bc935b8769fa9c8444197dbbe8ce8c0951d0b9c848",
+        "state.json": "8ada16fc2c35463ee81ba7444e357aab4d5fd410fd3d610b20b0772f94242114",
+        "model-source-refetch.json": "9d694b47e969f4672e43ab94a661282904e88a4d40ce0e4d0d20d1474d6ca56b"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-04"
+    },
+    "agri-bdab41123a06": {
+      "topic_id": "agri-bdab41123a06",
+      "title": "تنظیم آبیاری یونجه پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.349474+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "b02a544f4a0f01a3cb7b2712a61fb9166d55119ac95e83dbce39b42e5f220391",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "93212397c0fcc7b62577d377fbb78b3a66989efdba0dc64374eb34823be85a45",
+        "state.json": "5365397958489148d0be0346eeb5fa759cd47f46723003f2042cf2e8d0189182",
+        "model-source-refetch.json": "bb1ef67184534c2294e5c65c1c085323941676822882b9fd1c867e1027c42ff2"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-15"
+    },
+    "agri-e1268545eb02": {
+      "topic_id": "agri-e1268545eb02",
+      "title": "چرا بذر نخود سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.353613+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "d181c541abdd8b569e3453b0ea780339323332c60ebac12aa0bad028b662c2c4",
+        "sources.json": "2e9aa910874241dd79f49adfca35fb482d9f076c9202736399a96b869951b5a5",
+        "candidate-raw.json": "da83b0ffe2f2b8d161d731c5051eed48fdd320842c2ce69d0410d1386268de02",
+        "state.json": "95223dca860a77dac10b00fee9ce19c16e557c2fbab2b1ca49d0c07b40ec4beb",
+        "model-source-refetch.json": "932a70e4e863ca678df91444eecfbe2583c9bf234160a3fdd31bddbe49c15157"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-18"
     }
   },
-  "research_backlog_count": 33,
+  "research_backlog_count": 38,
   "exception_backlog": {
     "agri-c0e160d88554": {
       "kind": "stage_budget_exhausted",
@@ -2689,7 +2908,153 @@
         "all_original_research_quality_overlap_and_publication_gates"
       ],
       "previous_family_id": "family-19"
+    },
+    "agri-604dc7bdda3f": {
+      "kind": "stage_budget_exhausted",
+      "stage": "research_review",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "individual_scoped_fact_rejected",
+      "last_run_id": "40663668445",
+      "topic_id": "agri-604dc7bdda3f",
+      "title": "نیاز آبی کدو آجیلی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-28T09:27:01.337492+00:00",
+      "terminal_checkpoint_sha256": "0f20f974f8047082db03e2f5874eb56cf543f3671064bd68cbcae624830ec4e3",
+      "bindings": {
+        "topic_sha256": "8866a7420b43a3d83edf816398a1f9814990dac40b76e67438df81ec74dd6fff",
+        "topic_files": {
+          "family-context/40637634935.json": "7676918a2e9069405ac1750981df6447d3484c8ee6cdcb6af6a4122db257de3e",
+          "family-context/40641934753.json": "7676918a2e9069405ac1750981df6447d3484c8ee6cdcb6af6a4122db257de3e",
+          "family-context/40643892351.json": "7676918a2e9069405ac1750981df6447d3484c8ee6cdcb6af6a4122db257de3e",
+          "family-context/40663668445.json": "7676918a2e9069405ac1750981df6447d3484c8ee6cdcb6af6a4122db257de3e",
+          "lifecycle/existing_content_audit-000/state.json": "a915041d8d700745914a8ee905a64b4a85ad0a173127783a4f1d9ca6932af13c",
+          "lifecycle/existing_content_audit-001/state.json": "71712f71946796984d02a3ab2fd95eb966fa32f84cd60e4d92cef605f9f387fc",
+          "lifecycle/existing_content_audit_finalize/state.json": "aa364398039f622e75c15da82a2f01cc40bccb8b965843d95ef5ed31ca09fc82",
+          "lifecycle/research_extract/state.json": "70152ade96a09c044e0cbb9f60c8a6c8737b53ef9b8b1570b0ffd42dfa536452",
+          "lifecycle/research_review/rejected/1/review-raw.json": "16bbb1bee01dcb9eee7acd6e85bf59374514cb3ab7e16324d2849eea4840148f",
+          "lifecycle/research_review/rejected/2/review-raw.json": "a7ad31909f517c0a0aea44caddd018570380306f6f42a868feb09c73084ad175",
+          "lifecycle/research_review/state.json": "aea00478c862f099b4e9f6a6c49adba818e6a3fff7e88aed6842e91384d78c5d",
+          "lifecycle/research_sources/state.json": "c969b4b8c8fce0f683ecde732598fafde608c11bc4b23ae730f0d5163ee6bb85",
+          "lifecycle-evidence/candidate-raw.json": "ccf2d5c998ec2d36b648fb2b24f1a4c0a02b23cd298265d515bd0bb33ce55d25",
+          "lifecycle-evidence/candidate.json": "48db81a78631a88abe9be582f725f1f79cb71fe55dcdcfd5fedf0550fc77595e",
+          "lifecycle-evidence/existing-content.json": "f096bb67d5ff6044f5dbd21b72a6ce46aaad5227d84f229142ad159d9c9f6a33",
+          "lifecycle-evidence/extraction-feedback.json": "fedefe31fae40c2cdd054907fa5e86f92febb8fdff89b386d73808faff8e61d2",
+          "lifecycle-evidence/overlap-batches/000.json": "e52b51f8e3e963e6ca33a037922017d52fc7006d909d44d0b31c751d891c8b5e",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "36ba423616f45620cfe1c0e6cb0154621f141772e9b88ff664582401f113dcff",
+          "lifecycle-evidence/overlap-batches/001.json": "c7633552214508d913585bdef6555c09b16e3891061edf3f3084c690bc2ffb52",
+          "lifecycle-evidence/overlap-batches/001.raw.json": "675da6f1b7153dec3a2ec3a5f326571f585e29b3e630bcb00078088467dfe22c",
+          "lifecycle-evidence/overlap.json": "78278ce824b566dcf8e4aa430d26ddb0e18c25d7ceecd29f1b12ff43f1adc0fd",
+          "lifecycle-evidence/review-raw.json": "3690d3f1701104dcfd1eb271a85443323f9f230b6ed879e2f4ced277e0f2fb28",
+          "lifecycle-evidence/saved-candidate-validation.json": "e70ad233ccc92f04f790a7e6df473c9f8ba24e4851f308da73b92ad26b55d1f0",
+          "lifecycle-evidence/source-discovery-report.json": "87b09f2da09591c2426808cf57efb13d7ac9fdd0b31386654985340586bc6f4b",
+          "lifecycle-evidence/source-fetch-report.json": "87409c0fb597fa83e38aa3177aa53560ee08c5d249f8ec2a81773f47dee4d5be",
+          "lifecycle-evidence/source-hub-fetch-report.json": "101c8cd8f9339e8f5a4610c340412355fcbdd4052639bec9a56d775e44bfcdb2",
+          "lifecycle-evidence/source-link-fetch-report.json": "d81cccfff841bd7fd5021557a5a379894b91286c9888d1d1884032e0a3618508",
+          "lifecycle-evidence/sources.json": "cb9731c66de86946918039d94c59b6d95d98f79da8f48fce90293905125d778d"
+        },
+        "legacy_research_sha256": null,
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-10"
+    },
+    "agri-4e351a4fbdee": {
+      "kind": "stage_budget_exhausted",
+      "stage": "research_review",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "independent_scoped_review_rejected",
+      "last_run_id": "40663668445",
+      "topic_id": "agri-4e351a4fbdee",
+      "title": "راهنمای ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-28T09:27:01.344095+00:00",
+      "terminal_checkpoint_sha256": "7f4c559f010f8228f67ccc7419459e878ff90e10b59fef5cdd8eb01a3c0b1aa2",
+      "bindings": {
+        "topic_sha256": "e6b30cd87e04062a37ade632b98c973ca82c802e524722b10e6f324b70b7ad2c",
+        "topic_files": {
+          "family-context/40610299326.json": "3c004887fe0809651569e7c701f1ae75cadf3de62eb7a69507ddb9d998b4eeaa",
+          "family-context/40637634935.json": "3c004887fe0809651569e7c701f1ae75cadf3de62eb7a69507ddb9d998b4eeaa",
+          "family-context/40641934753.json": "3c004887fe0809651569e7c701f1ae75cadf3de62eb7a69507ddb9d998b4eeaa",
+          "family-context/40643892351.json": "3c004887fe0809651569e7c701f1ae75cadf3de62eb7a69507ddb9d998b4eeaa",
+          "family-context/40663668445.json": "3c004887fe0809651569e7c701f1ae75cadf3de62eb7a69507ddb9d998b4eeaa",
+          "lifecycle/existing_content_audit-000/state.json": "5a9a8ec374c1891bcb0c3e51d69046df2841fa3f4055558f73cd9a5046d9f5ac",
+          "lifecycle/existing_content_audit_finalize/state.json": "855bab778ce010f876a116d5710ea92feb59f7859952d50c58622161d56cb70e",
+          "lifecycle/research_discover/state.json": "9c6a3f905f52515f6701d3c92f2d9ab021880e4ed7d218fa4ec434e75be299d1",
+          "lifecycle/research_extract/rejected/2/candidate-raw.json": "ea94792a6c1941639800a26d1f4c10056873a5a5dbf0c601ede089df5e27cd79",
+          "lifecycle/research_extract/state.json": "ae0f10928fa78c040362366751ea08a5f66b5ffcf928742fa30636cecebe53e0",
+          "lifecycle/research_refetch/state.json": "8068f0f8770bc9555d93d4b14c860799a37f0b00d2028e202d0be10df24528f1",
+          "lifecycle/research_review/rejected/1/review-raw.json": "74ee996f741ffebfc415667bab7428b17205ddfd399f3bea6c8c519800efb580",
+          "lifecycle/research_review/rejected/2/review-raw.json": "d73bb47ea14696ba27b0e7cced074900b560ba6c093287be49698de3a558b27c",
+          "lifecycle/research_review/state.json": "73e86902fb3601c71bb59f9b6b990c62a179c94e5f015bc581b9bed5a3ab813f",
+          "lifecycle/research_sources/state.json": "d65e3e717eb9ba3504ab0621cdcffe51a3203fa0247453e974fd6c9b7b2d2e34",
+          "lifecycle-evidence/candidate-raw.json": "f373ef227ca3881b5547fcf30fd2247902f0637534ab0eda9effd9c8a62ba9e6",
+          "lifecycle-evidence/candidate.json": "1d19fb27fbfc8f55810acaf04ff6d25b046c1b27eb1672e7cae030dde7faae4c",
+          "lifecycle-evidence/existing-content.json": "468ce8ca6fd2373e53505ec28c9e39cdb710052fc9e38fd5af2ee64b76cc2241",
+          "lifecycle-evidence/extraction-feedback.json": "0a6da71a35b6c17864433173a1e05832a9e8e1f064fa87eb64f0b13d2dc92acf",
+          "lifecycle-evidence/model-source-originals/candidate-raw.json": "245f4b41de51557598d90690e90cc99196cc635561746f26ec9ee3eb14fa61e0",
+          "lifecycle-evidence/model-source-originals/extraction-feedback.json": "ad78299335478b1753bf60ecfbe0d1a5d82e5cadd5aaaeb2c2cd2fb9d3fcbce4",
+          "lifecycle-evidence/model-source-originals/source-discovery-report.json": "a1582bbe761a0c5139d0ee4466372157df2d79281abc52ca00449d543d6e6164",
+          "lifecycle-evidence/model-source-originals/sources.json": "5d7bcd17c330baab208dfefcda1dfc0643844882e39afa45d962641c20586531",
+          "lifecycle-evidence/model-source-plan.json": "2d064a0269d1028bcf82705d5e31354eac9550582fbcb8ac171d657a342db046",
+          "lifecycle-evidence/model-source-plan.raw.json": "293837a9ff34f175a59837eb4dbbfae1498c4a2e37ce1eb2e403b33c49b82778",
+          "lifecycle-evidence/model-source-refetch.json": "1036098d258eaf3bb0ad63aa72f17bfb60a59957e9e76fa3fc45cde40ed7369f",
+          "lifecycle-evidence/overlap-batches/000.json": "6807316844e7769487dbb2ad7200ba65531a7d1dec35b77d5e9bc951a296e15a",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "e9d12b5dc38397a37681cf41ae15b329aa9a4003fedffb7d83ba21e5e56a9bc6",
+          "lifecycle-evidence/overlap.json": "724f6fe47686bead8a3aab71a31a6c54f41fe3528cf8ca39cd017d92c8134034",
+          "lifecycle-evidence/real-search/round-1-fetch.json": "fd3d727be3139347fcb80bd14b6cae401eafb2b40fda91cde80168ea279bbab4",
+          "lifecycle-evidence/real-search/round-1.json": "71d76f2be92731318839abd371e1d904e37b81d902073480f818d1a49b16b612",
+          "lifecycle-evidence/real-search/round-2-fetch.json": "f17e847fc567910a652566c4785b7336fe4fcf7323f84014f38b9a6efb959453",
+          "lifecycle-evidence/real-search/round-2.json": "200c2c79877f34e35ce30601b168b7bd5096cb152f6b7a7be2d91ce2cfe5f4de",
+          "lifecycle-evidence/review-raw.json": "d0b80ec1c11a24fef19ad44d609d81670a3c3e2e56a58b2135fe982056c1f1a2",
+          "lifecycle-evidence/saved-candidate-validation.json": "6d3af9a90f07068a38b96973e058efb3d31633f969a2c4faac8910df2a055c2a",
+          "lifecycle-evidence/source-discovery-report.json": "678c6a102f4f6de04f9f2095b60087304ce4dab1d3258fa8cfc2be3659289c8d",
+          "lifecycle-evidence/source-fetch-report.json": "9fd3bc0fb7e393af92355058238421c18c8ec3835d55a0893fedc73632745d62",
+          "lifecycle-evidence/source-hub-fetch-report.json": "3c41cc8d977f4808b67da68862c49b9574e5c8eb33c36cc4a080b42b835b12ed",
+          "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+          "lifecycle-evidence/sources.json": "a7252533f93ba72d9beba13f7cb86bfcb116198a503a3ca3c8a7f07f5cb5d310"
+        },
+        "legacy_research_sha256": null,
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-11"
     }
   },
-  "exception_backlog_count": 15
+  "exception_backlog_count": 17
 }

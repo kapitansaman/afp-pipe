@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T09:26:03.370472+00:00",
+  "topic_id": "agri-e1268545eb02",
+  "input_binding": {
+    "topic_sha256": "1b0f944cde2e6f70922f0fff659acb0d705db6ed115727a7992f665da46a4544",
+    "sources_sha256": "2e9aa910874241dd79f49adfca35fb482d9f076c9202736399a96b869951b5a5",
+    "raw_sha256": "da83b0ffe2f2b8d161d731c5051eed48fdd320842c2ce69d0410d1386268de02"
+  },
+  "plan": {
+    "topic_id": "agri-e1268545eb02",
+    "gap": "Exact numerical thresholds missing: minimum/optimal germination temperature (°C), target soil moisture percentage, and soil crust measurement method.",
+    "queries": [
+      "pea seed germination temperature minimum optimal range University of Minnesota extension",
+      "pea seed soil crusting emergence prevention soil moisture percentage measurement method"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Exact botanical species Pisum sativum (green pea), not chickpea (Cicer arietinum) or common bean (Phaseolus vulgaris). Source must distinguish whole fruit vs cleaned seed."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Numerical thresholds: minimum germination temperature (°C or °F), optimal range, target soil moisture percentage for emergence, and validated soil crust measurement method (penetrometer or visual rating scale)."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Source-region specific: temperature in °C/°F with date, soil moisture in % by volume or gravimetric, geography (not Iranian local calendar). Source must be university extension or peer-reviewed journal with original units."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

@@ -8,18 +8,18 @@
     "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
     "raw_sha256": "93212397c0fcc7b62577d377fbb78b3a66989efdba0dc64374eb34823be85a45"
   },
-  "completed_at": "2026-10-28T06:30:40.726448+00:00",
+  "completed_at": "2026-10-28T09:26:15.306710+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T06:29:28.843686+00:00",
+      "started_at": "2026-10-28T09:24:49.909869+00:00",
       "queries": [
         {
           "query_id": "d96329ab19d39d96eb8d3631e486a12de13d2a80153926ce89882c04b5f43bae",
           "query": "alfalfa irrigation resume after rain soil moisture threshold university extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793168999.3983514,
           "results": [
             {
@@ -47,7 +47,7 @@
         {
           "query_id": "5a27d8a1b2ebbecbcc6637cc8f97562b5e38b8d253462e610356585606f338f2",
           "query": "post-rain alfalfa soil water tension refill deficit when to irrigate again",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793169003.0658476,
           "results": [
             {
@@ -102,32 +102,27 @@
           {
             "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
             "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
-            "redirect_hops": 1,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://sites.udel.edu/weeklycropupdate?p=13798",
             "canonical_url": "https://sites.udel.edu/weeklycropupdate/?p=13798",
-            "redirect_hops": 1,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
             "canonical_url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
             "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
             "canonical_url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           }
         ]
       },
@@ -139,18 +134,26 @@
             "id": "exact_reader_method",
             "covered": false,
             "document_ids": [],
-            "missing": "No supplied document specifies a decision rule for when to resume alfalfa irrigation after rainfall. Sources cover general irrigation scheduling (soil moisture tension, ET-based checkbook method) and fall/winter irrigation timing, but none address the post-rainfall interval—e.g., how long to wait after rain before re-irrigating, or a soil moisture threshold to act upon after rainfall."
+            "missing": "No supplied document provides a university or peer-reviewed decision rule for when to resume alfalfa irrigation after rainfall. s11 gives general soil-moisture depletion triggers (50%/40% of available water) and visual cues (darkening leaf color), but does not specify how to adjust or delay irrigation timing in response to a rain event. s10 mentions pausing irrigation before cutting but not rain-adjusted resumption rules."
           },
           {
             "id": "measurement_units_and_scope",
             "covered": false,
             "document_ids": [],
-            "missing": "No supplied document provides a post-rainfall irrigation threshold with explicit units (kPa matric potential, cm H2O, % available water, or mm) scoped to field-grown alfalfa irrigation after rainfall. Document s11 includes matric potential tables for routine scheduling but not for the rain-adjust scenario; document s12 mentions '50% depletion' without post-rainfall specificity or unit context for this intent."
+            "missing": "No supplied document pairs explicit irrigation-threshold units (kPa matric potential, cm H2O, % available water remaining, or mm depth) with a rain-adjustment decision rule for field-grown alfalfa. s11 reports kPa ranges by soil texture and 50%/40% depletion levels under general scheduling, but these are not framed as post-rainfall resumption thresholds, nor are they scoped to a specific growth/harvest stage or geography for the rain-adjust intent."
           },
           {
             "id": "species_product",
             "covered": true,
             "document_ids": [
+              "s0",
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
               "s10",
               "s11",
               "s12"
@@ -159,69 +162,69 @@
           }
         ],
         "next_queries": [
-          "alfalfa irrigation after rainfall university extension when to resume",
-          "alfalfa soil moisture tension threshold post-rainfall irrigation scheduling"
+          "alfalfa irrigation scheduling after rainfall university extension decision rule",
+          "alfalfa soil moisture threshold resume irrigation after rain University of Nebraska Minnesota"
         ]
       },
-      "completed_at": "2026-10-28T06:30:16.029632+00:00"
+      "completed_at": "2026-10-28T09:25:14.275308+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T06:30:16.030280+00:00",
+      "started_at": "2026-10-28T09:25:14.276055+00:00",
       "queries": [
         {
-          "query_id": "72b685cf9b36554efc03be2dd1b5cbaf072ac80fc339c090111ec6bc0f080ce5",
-          "query": "alfalfa irrigation after rainfall university extension when to resume",
+          "query_id": "d67bf982afa6a039ea8685db9f15a5056690a72845a0977a01570d943a02061d",
+          "query": "alfalfa irrigation scheduling after rainfall university extension decision rule",
           "cached": false,
-          "checked_at_epoch": 1793169017.497681,
+          "checked_at_epoch": 1793179555.181575,
           "results": [
             {
-              "url": "https://extension.unr.edu/publication.aspx?PubID=2575",
-              "title": "How Much Water Does Alfalfa Need? | Extension | University of Nevada, Reno",
-              "description": "irrigation and precipitation water total 24 inches between late April and the latter part of August. [...] irrigation and precipitation water total 24 inches between late April and the latter part of August. [...] Irrigators may not appreciate just how much water can be used by a healthy alfalfa crop. During late April and early May, water use may be only 0.5 to 1.0 inches per week. By early June, this can increase to 1.5 inches per week, while during the warmest part of the irrigation season, water use might be as high as 2.0 inches per week. So, when irrigation starts, the best approach is to fill the profile with each irrigation. This will help leach salts downward while also reducing the percent of"
+              "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+              "title": "Irrigating Alfalfa: Some Guidelines - MSU Extension Water Quality | Montana State University",
+              "description": "One of the most practical methods of scheduling irrigations involves estimating plant water use by measuring evaporation from a standard evaporation pan. Practical experience has shown that on-farm scheduling can be approximated by measuring the water use from a wash tub. Alfalfa water use and evaporation is approximately on a 1:1 ratio (one inch is used by the crop while one inch evaporates from the pan). Under surface irrigation the water-holding capacity of the soil must be known to use this [...] ### Water Use Characteristics\n\nAlfalfa is a high water use crop because it has a long growing season, a deep root system, and a dense mass of vegetation. The amount of water needed is governed by temperature, wind, humidity, and the amount and intensity of light. However, the irrigation requirement for alfalfa is governed by rainfall and the water holding capacity of the soils growing the crop. Commonly cited ranges in water requirements for alfalfa are 18 to 36 inches of water per season. [...] On low water holding soils, hay cutting periods and irrigation scheduling take extra planning. Quick hay removal is needed because most sprinkler systems are not designed to allow many days of "
             },
             {
-              "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
-              "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
-              "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension. [...] Lindenmayer, R.B., Hansen, N.C., Brummer, J., & Pritchett, J.G. (2011). Deficit irrigation of alfalfa for water-savings in the Great Plains and Intermountain West: A review and analysis of the literature. Agronomy Journal, 103, 45–50. \n Orloff, S., Putnam, D., & Bali, K. (2015). Drought strategies for alfalfa. University of California Extension. ANR Publication 8522."
+              "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2019/Li%20et%20al_2019_CEA_163-2019-10pgs.pdf",
+              "title": "A real-time fuzzy decision support system for alfalfa irrigation",
+              "description": "or 0.7 to 0.8 when precipitation (P) is less than 5 mm, 5 to 50 mm, or greater than 50 mm, respectively. [...] make scheduling of agricultural machinery accordingly. Using weather forecast data, the IDSS provided the user with predictive variation of soil water in following days. The irrigation was triggered by the soil water threshold prescribed by the user. Both the precipitation predic-tion and alfalfa harvest management were used to determine whether irrigation should be executed. Finally, the irrigation efficiency for a given irrigation system was taken account into the irrigation amount. [...] change in 7 days with weather forecast data (Fig. 4(e)). After the threshold of soil water was set, the interface would go to irrigation management. The system required the user to set the irrigation efficiency according to the irrigation system. Then, the software generated an initial irrigation timing and quantity (Fig. 4(f)). The irrigation scheduling process was recalculated when users changed the irrigation plan, the software then produced a new regime of irrigation timing and amount."
             },
             {
-              "url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
-              "title": "CR646: Managing Alfalfa During Drought | New Mexico State University - BE BOLD. Shape the Future.",
-              "description": "Results from research conducted at Tucumcari, New Mexico and other parts of the west have shown that while yields can be severely reduced in the termination year, subsequent year yields can return to normal once full irrigation resumes and stand density may not be negatively impacted.4,9 [...] precipitation replenishing the state’s rivers and lakes, the goal is to preserve the health of the stand during drought so as to optimize growth once irrigation can be resumed. [...] Irrigations at any time, even when water is plentiful, should be applied between cuttings after the canopy has closed, if possible, to reduce evaporation and minimize germination of weeds that can outcompete the already weakened alfalfa plants.2 Salinity exacerbates problems associated with drought. If salinity of the soil or available irrigation water increases due to drought, water applied is less available to the plant, and the water requirement of alfalfa may also increase. Alfalfa yields"
+              "url": "https://sites.udel.edu/weeklycropupdate?p=13798",
+              "title": "Irrigation Scheduling – When to Resume After Rain | Weekly Crop Update",
+              "description": "Weekly Crop Update\n\nfrom UD Cooperative Extension\n\n# Irrigation Scheduling – When to Resume After Rain\n\nGail Hermenau\n\nJames Adkins, Agricultural Engineer; adkins@udel.edu [...] The information presented below is an example of the soil moisture status at University of Delaware’s Warrington Irrigation Research Farm. Actual field values will vary greatly depending on crop stage, soil type and local rainfall. There are many tools available that provide field by field values to assist farmers in making irrigation scheduling decisions including paid services through local crop consultants, irrigation equipment manufacturer’s, Climate Corp, etc and free tools like KanSched [...] Coarse loamy sand soils only hold 1.6” in the entire 18” root zone and need to maintain a minimum of 50% of the available water to avoid yield loss. This means a farmer with sandy loam soils needs to initiate irrigation before 0.8” of crop water use. With daily evapotranspiration averaging 0.2”-0.25” per day irrigation should start no more than 3 days after a major (1 inch plus) rain. Sandy loams average 2.34” of holding capacity meaning a 50% managed allowable depletion of 1.17”, or a 4-day"
             },
             {
-              "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
-              "title": "Alfalfa during drought",
-              "description": "Extension Wordmark\n\n# Minnesota Crop News\n\n### Search This Blog\n\n### Alfalfa during drought\n\nJared Goplen, Extension educator - crops, and Craig Sheaffer, Professor, Department of Agronomy and Plant Genetics\n\n## Overview\n\n|  |\n\n| A recently harvested alfalfa plant will become dormant if subject to drought and high temperatures. It will survive several months of dormancy and resume regrowth when moisture conditions are favorable. Photo: C.C Sheaffer. | [...] Other irrigation scheduling considerations unique to alfalfa include: 1) avoid scheduling during times of peak ET in the summer months, 2) avoid irrigation 1 week before harvest to facilitate harvest equipment and to avoid compaction, 3) irrigate immediately after a harvest, and 4) avoid irrigation when alfalfa is undergoing the dormancy reaction in the fall. [...] Drought and high temperatures will not kill established alfalfa but will cause it to go dormant.\n Dormant alfalfa will recover following rainfall or irrigation. Alfalfa stands that are drought stressed but ready for harvest should be cut because of the potential for leaf loss."
-            },
-            {
-              "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1992/92-45.Pdf",
-              "title": "Managing Alfalfa Production With Limited Irrigation Water",
-              "description": "irrigation skip in July and August, and a July tennination of irrigation until the following spring. [...] t\" Wet -irrigated two rimes per cutting in May and September and three times per cutting in June, July, and August Standard -iITigated two times per cutting throughout the season Dry -one irrigation per cutting throughout the season July/August Skip. irrigated twice per cutting in May, June, and September; not irrigated in July and August July Termination -irrigated twice per cutting in May and June, and no water except for rain until the following spring All treatments except for July [...] lCorresponding Author: Carol Frate. Farm Advisor, University of California Cooperative Extension, Agricultur.ll Building, County Civic C~nter, Visalia. CA 93291-4584. Bruce Roberts, Farm Advisor, University of California Cooperative Extension. Kings County."
+              "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+              "title": "Basics of irrigation scheduling",
+              "description": "The Irrigation Management Assistant (IMA) helps Minnesota growers improve irrigation efficiency across a variety of crops, including corn, soybean, potato, and other irrigated crops. The tool works best when using precipitation data near your field and is optimized for Minnesota conditions.\n\n Sources \n\nAl-Kaisi, M.M, I. Broner and A.A. Andales. 2014. Crop water use and growth stages. Colorado State University Extension. Fact sheet no. 4.715. [...] Fischbach, P.E. (editor) 1988. Irrigation Scheduling—Management Handbook. Cooperative Extension Service, University of Nebraska.\n\nStegman, E.C. 1988. Chapter V. _Water Management._ Best Management Practices Manual for Oakes Irrigation Area. North Dakota State University.\n\nAuthor: Vasudha Sharma, Extension irrigation specialist [...] Skip to navigationSkip to main contentSkip to footer\n\nImage 1: Extension Logo\n\nImage 2: Extension Logo\n\nUniversity of Minnesota Extension  \nextension.umn.edu\n\n× \"Clear search box\")\n\n    About Toggle submenu \n\nImage 3: A university researcher and participant discuss weeds in a research crop field   ## Building a stronger Minnesota together\n\nBringing Minnesotans together to build a better future through Universi"
             }
           ]
         },
         {
-          "query_id": "d421083d46c7643a400dc7937edb1c41960c94465b2cf51a214bde498302eb25",
-          "query": "alfalfa soil moisture tension threshold post-rainfall irrigation scheduling",
+          "query_id": "1ff99c1804a7454f03d8e3f8540b98e5cc2a31320f45a0b919f3d624386f2f24",
+          "query": "alfalfa soil moisture threshold resume irrigation after rain University of Nebraska Minnesota",
           "cached": false,
-          "checked_at_epoch": 1793169019.864596,
+          "checked_at_epoch": 1793179557.312481,
           "results": [
             {
-              "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2019/Li%20et%20al_2019_CEA_163-2019-10pgs.pdf",
-              "title": "A real-time fuzzy decision support system for alfalfa irrigation",
-              "description": "Fig. 7. Comparisons of measured and predicted soil water, the IDSS-based irrigation scheduling and SW-based irrigation scheduling in the Zhuozhou field. The soil water threshold was 50% field capacity (0.13 cm3 cm−3) in the field.\nM. Li, et al.\nC o m p u t e r s a n d E l e c t r o n i c s i n A g r i c u l t u r e 1 6 3 ( 2 0 1 9 ) 1 0 4 8 7 0 9 Drainage Division-ASCE 108 (3), 283–284. [...] change in 7 days with weather forecast data (Fig. 4(e)). After the threshold of soil water was set, the interface would go to irrigation management. The system required the user to set the irrigation efficiency according to the irrigation system. Then, the software generated an initial irrigation timing and quantity (Fig. 4(f)). The irrigation scheduling process was recalculated when users changed the irrigation plan, the software then produced a new regime of irrigation timing and amount. [...] make scheduling of agricultural machinery accordingly. Using weather forecast data, the IDSS provided the user with predictive variation of soil water in following days. The irrigation was triggered by the soil water threshold prescribed by the user. Both the precipitation predic-tion and alfalfa harve"
+              "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+              "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
+              "description": "To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. [...] Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, [...] The main advantage of fall irrigation is lower evaporation compared to summer; thus, improving irrigation efficiency. Further, most irrigated alfalfa fields never get much water stored below four feet depth, although alfalfa plants can grow roots down eight feet or more. Since roots will not grow through dry soil to reach wet soil, deep soil water storage reserves may be lacking if field soil wetting does no"
             },
             {
-              "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
-              "title": "Irrigating Alfalfa in Arid Regions",
-              "description": "reduce or eliminate crop stress due to insuf­ ficient soil moisture. Soil-moisture tensions just before harvest ranged from 50 to 70 centibars at 1 foot (30 cm) deep (Fig. 7.7). However, these soil-moisture tension values indicate that these irrigations probably occurred at soil moisture depletions smaller than the allowable deple­ tion, a situation that is unavoidable because of the harvest schedule. [...] Influence of Cutting Schedule Scheduling irrigations of alfalfa is complicated by the harvest schedule, which occurs about every 28 to 30 days in most areas. The first irrigation after harvest cannot occur until the alfalfa bales are removed. The final irrigation between harvests will need to occur at a time that provides sufficient soil drying before the harvest. Thus, irrigation scheduling of alfalfa is often controlled by the harvest schedule, not by allowable soil mois­ ture depletion. [...] Many soil moisture sensors are available for measuring either soil moisture or soil-moisture tension. Soil-moisture tension is the tenacity with which water is retained by the soil: the higher the tension, the drier the soil. The sensors should be installed at about one-fourth to one-thi"
+              "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+              "title": "Alfalfa during drought",
+              "description": "Water budgeting approaches or “checkbook scheduling” involves monitoring soil moisture in addition to determining daily crop water use through evapotranspiration (ET). Soil moisture can be monitored using moisture-sensing instrumentation. With alfalfa, irrigation typically begins with only about 50% depletion of available water in the root zone. See more about irrigation scheduling in Minnesota at: [...] Extension Wordmark\n\n# Minnesota Crop News\n\n### Search This Blog\n\n### Alfalfa during drought\n\nJared Goplen, Extension educator - crops, and Craig Sheaffer, Professor, Department of Agronomy and Plant Genetics\n\n## Overview\n\n|  |\n\n| A recently harvested alfalfa plant will become dormant if subject to drought and high temperatures. It will survive several months of dormancy and resume regrowth when moisture conditions are favorable. Photo: C.C Sheaffer. | [...] Other irrigation scheduling considerations unique to alfalfa include: 1) avoid scheduling during times of peak ET in the summer months, 2) avoid irrigation 1 week before harvest to facilitate harvest equipment and to avoid compaction, 3) irrigate immediately after a harvest, and 4) avoid irrigation when alfalfa is undergoing the"
             },
             {
-              "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
-              "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
-              "description": "| Crop | MAD (%) | Soil water  tension  (kPa or cb) | Loamy sand  (%) | Sandy loam  (%) | Loam  (%) | Silt loam  (%) | Clay loam  (%) |\n| Alfalfa | 50-60 | 80-150 | 12 | 15 | 20 | 23 | 24 |\n| Cantaloupe  /melons | 40-45 | 35-40 | 12 | 16 | 21 | 24 | 25 |\n| Carrots | 35 | 55-65 | 13 | 17 | 22 | 25 | 25 |\n| Corn | 50-55 | 50-80 | 12 | 15 | 20 | 23 | 24 |\n| Cotton | 65 | 100-120 | 10 | 13 | 17 | 20 | 22 |\n| Small grain  (vegetative stage) | 50 | 40-50 | 12 | 15 | 20 | 23 | 24 | [...] Using soil sensors for irrigation requires determining an irrigation threshold that is suitable for the soil, crop, and management choices for the field being irrigated. Irrigation thresholds are sometimes based on soil water tension values for different soil types (table 1). However, a limitation with this approach is that it bases irrigation decisions on the soil dryness alone rather than on the impact that soil dryness has on the crop. An alternative approach to irrigation scheduling is [...] Soil moisture sensors can support irrigation scheduling by telling you how much water is present in your soil at any time. Irrigation should be applied when soil moisture levels drop below a minimum threshold. Eno"
+              "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+              "title": "Irrigating Alfalfa: Some Guidelines - MSU Extension Water Quality | Montana State University",
+              "description": "Alfalfa is quite tolerant of drought or extended periods without highly available water. As much as 50 to 65% of the available soil moisture can be removed between irrigations early and late in the season, but only 35 to 50% removal will give better results during high water-use periods. Maintaining higher levels, especially with slow-draining soils, may cause loss of stand and competition from grass invasion. Texture and depth of soil have little influence on water requirements of alfalfa, but [...] ### Water Use Characteristics\n\nAlfalfa is a high water use crop because it has a long growing season, a deep root system, and a dense mass of vegetation. The amount of water needed is governed by temperature, wind, humidity, and the amount and intensity of light. However, the irrigation requirement for alfalfa is governed by rainfall and the water holding capacity of the soils growing the crop. Commonly cited ranges in water requirements for alfalfa are 18 to 36 inches of water per season. [...] of alfalfa, but these factors affect the amount of moisture which can be stored in the soil. Naturally, the amount of moisture stored affects frequency of irrigation and the amount to apply at "
+            },
+            {
+              "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+              "title": "Effect of drought on alfalfa and managing for the next growing season – Crops and Soils",
+              "description": "Drought can significantly reduce alfalfa yield. Timing of drought can be critical. First cutting may be reduced in the case of a dry March. Alfalfa root systems die back to some extent over winter. The root system requires good soil moisture in the early spring to regrow. If a strong root system forms then high yields will occur on first cutting. If the root system growth is restricted by dry soil, then the top growth will be reduced, even if good rain occurs in the later part of the first [...] Cell enlargement is inhibited.\n The number of basal buds and the number of shoots or stems/plant is reduced when moisture stress occurs in the first 14 days after a harvest.\n The stem internode length is reduced; thus, the flowering is seen at reduced plant height.\n Leaf area/leaf size and leaf growth rate is reduced, although to a lesser degree than stem growth. Therefore, leaf to stem ratio is higher under moisture stress. [...] If stand is over 10 inches tall and flowering, harvest if economic to do so. Moisture stressed alfalfa should be mowed at the normal cutting height. There is no advantage to raising the cutting height. Alfalfa can regrow from axillary buds on the stubble but these"
             }
           ]
         }
@@ -242,52 +245,38 @@
         "s12",
         "s13",
         "s14",
-        "s15",
-        "s16"
+        "s15"
       ],
       "publication_authorized": false,
       "fetch_report": {
-        "requested": 6,
-        "loaded": 5,
+        "requested": 4,
+        "loaded": 3,
         "sources": [
           {
-            "url": "https://extension.unr.edu/publication.aspx?PubID=2575",
-            "canonical_url": "https://extension.unr.edu/publication.aspx?PubID=2575",
-            "redirect_hops": 0,
-            "status": "fetched"
-          },
-          {
-            "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
-            "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
-            "redirect_hops": 0,
-            "status": "fetched"
-          },
-          {
-            "url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
-            "canonical_url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
-            "redirect_hops": 0,
-            "status": "fetched"
-          },
-          {
-            "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1992/92-45.Pdf",
-            "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1992/92-45.Pdf",
+            "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+            "canonical_url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
             "redirect_hops": 0,
             "status": "fetched"
           },
           {
             "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2019/Li%20et%20al_2019_CEA_163-2019-10pgs.pdf",
             "status": "unavailable",
-            "category": "fetch_or_validation_failed",
-            "temporary": true
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
           },
           {
-            "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
-            "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+            "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+            "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+            "status": "cache_valid"
+          },
+          {
+            "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+            "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season/",
             "status": "cache_valid"
           }
         ]
       },
-      "fetches_reserved": 6,
+      "fetches_reserved": 4,
       "coverage": {
         "topic_id": "agri-bdab41123a06",
         "requirements": [
@@ -295,37 +284,43 @@
             "id": "exact_reader_method",
             "covered": false,
             "document_ids": [],
-            "missing": "No supplied document specifies a decision rule for when to resume alfalfa irrigation after rainfall—e.g., a soil moisture tension threshold, % available water to refill, or plant/field indicator tied to a documented post-rainfall threshold."
+            "missing": "No supplied document provides a university or peer-reviewed decision rule specifying when to resume alfalfa irrigation after rainfall. Documents cover general soil-moisture thresholds (s11, s14), visual stress indicators (s11), and calendar/ET-based scheduling (s10, s11, s12), but none address the post-rainfall restart decision—e.g., whether to wait for ET depletion, what soil-water deficit percentage or matric potential triggers re-irrigation after rain, or a documented field indicator tied to a quantitative threshold."
           },
           {
             "id": "measurement_units_and_scope",
             "covered": false,
             "document_ids": [],
-            "missing": "No supplied document reports a post-rainfall irrigation-resumption threshold with explicit units (kPa matric potential, cm H2O, % available water, mm depth) scoped to field-grown alfalfa irrigation management."
+            "missing": "No supplied document reports a post-rainfall irrigation-resume threshold with explicit units and clear field-alfalfa scope. s11 provides matric-potential ranges by soil texture (e.g., sand 40–50 kPa, clay loam 100–120 kPa) and s14 gives AWC tables for Minnesota soils, but these are general irrigation-scheduling references, not thresholds tied to the specific question of when to restart irrigation after rainfall. No document states a % available-water-depletion or mm-depth trigger applicable after a rain event for field-grown alfalfa at a defined growth stage or geography."
           },
           {
             "id": "species_product",
             "covered": true,
             "document_ids": [
+              "s1",
+              "s2",
               "s10",
-              "s11"
+              "s11",
+              "s12",
+              "s14"
             ],
             "missing": ""
           }
         ],
         "next_queries": [
-          "alfalfa irrigation resume after rain soil moisture threshold extension",
-          "alfalfa reirrigation after rainfall decision rule field study"
+          "alfalfa irrigation resume after rainfall soil moisture threshold extension",
+          "alfalfa post-rainfall irrigation decision rule matric potential kPa university"
         ]
       },
-      "completed_at": "2026-10-28T06:30:40.725793+00:00"
+      "completed_at": "2026-10-28T09:26:15.305544+00:00"
     }
   ],
-  "fetches_reserved": 12,
+  "fetches_reserved": 10,
   "publication_authorized": false,
   "scientific_acceptance": false,
-  "temporary_source_failure": true,
-  "status": "temporary_source_fetch_failure",
+  "temporary_source_failure": false,
+  "status": "bounded_search_coverage_incomplete",
+  "unapproved_documents_sha256": "42f15e2ec5d36551c39ec0bda06bae7f86740e852696a3cb0da0c6bd697b8d1e",
   "new_sources": 0,
-  "repair_exhausted": false
+  "unapproved_fetched_sources": 6,
+  "repair_exhausted": true
 }

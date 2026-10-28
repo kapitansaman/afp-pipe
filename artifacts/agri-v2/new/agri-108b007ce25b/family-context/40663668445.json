@@ -1,0 +1,17 @@
+{
+  "family_id": "family-04",
+  "topic_id": "agri-108b007ce25b",
+  "title": "مدیریت یونجه بعد از چین؛ آبیاری و تغذیه برای رشد مجدد",
+  "title_sha256": "eb80a8eea2440a506de168508ca6a6b75c4b69a3ebee3bb1ab3b0445867eeaa7",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY13",
+    "AGNES_API_KEY14",
+    "AGNES_API_KEY15",
+    "AGNES_API_KEY16"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

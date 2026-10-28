@@ -1,0 +1,35 @@
+{
+  "requested": 5,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.canr.msu.edu/news/early-summer-crop-water-needs",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans",
+      "canonical_url": "https://nutritionsource.hsph.harvard.edu/food-features/chickpeas-garbanzo-beans/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+      "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas",
+      "canonical_url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.aae.wisc.edu/Crops/Chickpea.aspx",
+      "canonical_url": "https://corn.aae.wisc.edu/Crops/Chickpea.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T09:24:56.645687+00:00",
+  "topic_id": "agri-4e0b195e7205",
+  "input_binding": {
+    "topic_sha256": "6204cb64a7fa5b70064157be129b9c6c5a7535a01f8d0a3e05293f903200ecb8",
+    "sources_sha256": "c872765498d3076684ccfdb853de3a8990f7d0388ffc4130373171ad4dc85cc2",
+    "raw_sha256": "2575d7abe0a41b14fa88c9e1c1a459e4950a4cd7b9516b5ed7c2eed5d172b211"
+  },
+  "plan": {
+    "topic_id": "agri-4e0b195e7205",
+    "gap": "Existing sources provide only aggregate seasonal water amounts (2–3 inches) and vague surface-moisture language, but do not specify a measurable soil-moisture threshold, a defined crop-stage trigger (pre-emergence/post-emergence), or a practical monitoring method for the root establishment zone that determines when to apply the first irrigation to chickpea after planting.",
+    "queries": [
+      "chickpea first irrigation timing soil moisture threshold emergence university extension",
+      "chickpea germination emergence soil water status irrigation trigger research"
+    ],
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "need": "Identify the reader intent as determining the first irrigation decision trigger for chickpea after sowing—whether it is a soil-moisture threshold, a growth-stage cue (pre-/post-emergence), or a calendar window—and document the monitoring method cited in the source."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Extract measured inputs with original units and scope: soil moisture metric (volumetric water content, tension, depletion percentage, or depth-integrated water), depth of the monitored soil layer, chickpea growth stage at recommendation, geography/climate context, and irrigation water volume or timing interval if stated."
+      },
+      {
+        "id": "species_product",
+        "need": "Confirm the crop identity is chickpea (Cicer arietinum) and that the recommendation applies to early-season/root-establishment irrigation, not generic seasonal water requirements or legume-level generalizations."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

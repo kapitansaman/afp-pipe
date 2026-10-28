@@ -1,0 +1,29 @@
+{
+  "requested": 4,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://scholars.georgiasouthern.edu/en/publications/regulated-deficit-irrigation-during-vegetative-growth-enhances-cr",
+      "canonical_url": "https://scholars.georgiasouthern.edu/en/publications/regulated-deficit-irrigation-during-vegetative-growth-enhances-cr/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+      "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+      "canonical_url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+      "status": "cache_valid"
+    }
+  ]
+}

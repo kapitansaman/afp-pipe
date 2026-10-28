@@ -1,0 +1,53 @@
+{
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false,
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_satisfied": true,
+  "source_policy_version": "university-single-source-v1",
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع جمع‌آوری‌شده عمدتاً به آبیاری عمومی کدو (پمپکین) میوه‌ای/تندمرغوب می‌پردازند، نه «کدو آجیلی» تولید بذر خوراکی. فکت f5 مقدار ۱-۲ اینچ در هفته را صراحتاً برای «کدو (پمپکین)» گزارش کرده و شرایط اقلیمی یوتا را قید نموده است؛ تعمیم این عدد به کدو آجیلی بدون شواهد مستقل نادرست خواهد بود. هیچ‌یک از منابع، برآورد حجم آب را بر حسب مرحله رشد (جوانه‌زنی/ستایش/گلدهی/تکانیدن بذر/رسیدگی میوه) یا دامنه اقلیمی خاص ارائه نمی‌دهند. متن‌های ارسالی فاقد پارامترهای Et، Kc یا نیاز آبی مطلق/نسبی به‌صورت مرحله‌ای هستند. محدودیت اصلی: عنوان سوال «برآورد حجم آب با اقلیم و مرحله رشد» است که نیازمند داده‌های کمی تفکیک‌شده بر حسب stage × climate است؛ این بخش تاکنون پاسخ داده نشده و منبع واحد دانشگاهی موجود صرفاً به توصیه‌های کیفی/توصیفی (عمیق و نامنظم، کاهش آبیاری هنگام رسیدن) بسنده می‌کند.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}

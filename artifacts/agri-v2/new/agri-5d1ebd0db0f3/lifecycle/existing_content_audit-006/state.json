@@ -1,0 +1,24 @@
+{
+  "attempts": 0,
+  "history": [
+    {
+      "attempts": 0,
+      "status": "deferred",
+      "last_run_id": "40663668445",
+      "started_at": "2026-10-28T09:26:59.907609+00:00",
+      "completed_at": "2026-10-28T09:26:59.918671+00:00",
+      "failure": {
+        "kind": "admission_deferred",
+        "category": "shared_provider_cooldown"
+      }
+    }
+  ],
+  "status": "deferred",
+  "last_run_id": "40663668445",
+  "started_at": "2026-10-28T09:26:59.907609+00:00",
+  "failure": {
+    "kind": "admission_deferred",
+    "category": "shared_provider_cooldown"
+  },
+  "completed_at": "2026-10-28T09:26:59.918671+00:00"
+}

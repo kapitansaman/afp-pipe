@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-4e0b195e7205",
+  "gap": "Existing sources provide only aggregate seasonal water amounts (2–3 inches) and vague surface-moisture language, but do not specify a measurable soil-moisture threshold, a defined crop-stage trigger (pre-emergence/post-emergence), or a practical monitoring method for the root establishment zone that determines when to apply the first irrigation to chickpea after planting.",
+  "queries": [
+    "chickpea first irrigation timing soil moisture threshold emergence university extension",
+    "chickpea germination emergence soil water status irrigation trigger research"
+  ],
+  "requirements": [
+    {
+      "id": "exact_reader_method",
+      "need": "Identify the reader intent as determining the first irrigation decision trigger for chickpea after sowing—whether it is a soil-moisture threshold, a growth-stage cue (pre-/post-emergence), or a calendar window—and document the monitoring method cited in the source."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Extract measured inputs with original units and scope: soil moisture metric (volumetric water content, tension, depletion percentage, or depth-integrated water), depth of the monitored soil layer, chickpea growth stage at recommendation, geography/climate context, and irrigation water volume or timing interval if stated."
+    },
+    {
+      "id": "species_product",
+      "need": "Confirm the crop identity is chickpea (Cicer arietinum) and that the recommendation applies to early-season/root-establishment irrigation, not generic seasonal water requirements or legume-level generalizations."
+    }
+  ]
+}

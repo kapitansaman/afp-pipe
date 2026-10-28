@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11478928",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://extension.umd.edu/resource/growing-green-peas-home-garden",
+      "canonical_url": "https://extension.umd.edu/resource/growing-green-peas-home-garden",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://nrcs.usda.gov/plantmaterials/nypmctn13507.pdf",
+      "canonical_url": "https://www.nrcs.usda.gov/plantmaterials/nypmctn13507.pdf",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.psu.edu/diagnosing-soil-compaction-using-a-penetrometer-soil-compaction-tester",
+      "canonical_url": "https://extension.psu.edu/diagnosing-soil-compaction-using-a-penetrometer-soil-compaction-tester",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://efotg.sc.egov.usda.gov/references/public/RI/Using_Penetrometer_PSU.pdf",
+      "canonical_url": "https://efotg.sc.egov.usda.gov/references/public/RI/Using_Penetrometer_PSU.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropsandsoils.extension.wisc.edu/articles/proper-use-of-cone-penetrometers-for-detecting-soil-compaction",
+      "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/proper-use-of-cone-penetrometers-for-detecting-soil-compaction/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

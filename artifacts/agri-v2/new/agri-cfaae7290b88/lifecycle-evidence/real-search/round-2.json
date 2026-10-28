@@ -1,35 +1,40 @@
 {
   "round": 2,
-  "started_at": "2026-10-28T06:30:03.349520+00:00",
+  "started_at": "2026-10-28T09:25:15.776600+00:00",
   "queries": [
     {
-      "query_id": "4f39fe8428ec0b0fc2c24055f7d3531927b1377d2ff0c1fb5bcbb7d98571bbff",
-      "query": "alfalfa regulated deficit irrigation field trial soil moisture kPa ETc fraction unit",
+      "query_id": "e9431dd7edc4a36bce27927ef4df9e3ef881bce6578a2e46d1951f96267702c7",
+      "query": "alfalfa regulated deficit irrigation RDI soil moisture percentile stage-sensitive field trial mm irrigation",
       "cached": false,
-      "checked_at_epoch": 1793169006.1405716,
+      "checked_at_epoch": 1793179531.1503453,
       "results": [
         {
-          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426002180",
-          "title": "Field-scale evaluation of OpenET for quantifying ...",
-          "description": "by A Montazar · 2026 · Cited by 2 — Deficit irrigation reduced alfalfa ET by 40–50% during summer cutoffs. •. ET suppression under deficit irrigation was governed by soil moisture and canopy ...Read more"
-        },
-        {
-          "url": "https://worldalfalfacongress.ucdavis.edu/sites/g/files/dgvnsk8841/files/media/documents/Deficit%20irrigation%20strategies%3B%20why%20alfalfa%20is%20the%20best%20crop%20to%20have%20in%20a%20drought.pdf",
-          "title": "Deficit irrigation strategies: why alfalfa is the best crop to ...",
-          "description": "by DH Putnam · 2018 · Cited by 1 — Deficit irrigating all fields and applying less water than the alfalfa needs throughout the crop season. Partial Season Irrigation/Sudden Cutoff. Irrigated ...Read more5 pages"
+          "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+          "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+          "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] ## Alfalfa [...] ### Alfalfa"
         }
       ]
     },
     {
-      "query_id": "b404a7834301f26622c7fe2906c92387b92869c5b5625275fb8339df6b2e05fe",
-      "query": "alfalfa drought sensitive growth stage irrigation scheduling field measurement units mm kPa",
+      "query_id": "e188b908b78aea48c687a75169627e1b2aef24065d318a8b3fc5d0baf2ab8bfb",
+      "query": "alfalfa drought tolerance sensitive growth stage soil water potential kPa field measurement",
       "cached": false,
-      "checked_at_epoch": 1793169009.071291,
+      "checked_at_epoch": 1793179533.6151178,
       "results": [
         {
           "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
           "title": "Irrigation Management and Crop Characteristics of Alfalfa",
-          "description": "The matric potential reading will increase as the soil becomes drier. After the field is irrigated, the matric potential readings typically return to lower values (i.e., 0 to 10 kPa). These wetting and drying cycles continue throughout the season as the crop is irrigated and the soil dries with crop water use and surface soil evaporation. The key to proper irrigation management using soil water sensors is to monitor the sensors regularly, track the soil water level, and irrigate when the [...] irrigate when the kilopascal (1 kPa = 1 cbar) readings are in the desired range for your soil type (See Table I; Orloff et al., 2001). Irrigating when the soil water readings exceed the desired range may result in crop stress and yield loss. Irrigation before the readings reach the desired range may result in excessive irrigation, water wastage or runoff. [...] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n ---  ---  ---  ---  ---  ---  --- |\n| |  |  | Table I. Suggested values of soil matric potential at which irrigations should be applied for alfalfa for different soil types. | | Soil type | Average soil matric potential   reading of top three sensors (kPa) | | Sand or loamy sand | 40-50 | | "
+          "description": "The matric potential reading will increase as the soil becomes drier. After the field is irrigated, the matric potential readings typically return to lower values (i.e., 0 to 10 kPa). These wetting and drying cycles continue throughout the season as the crop is irrigated and the soil dries with crop water use and surface soil evaporation. The key to proper irrigation management using soil water sensors is to monitor the sensors regularly, track the soil water level, and irrigate when the [...] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n ---  ---  ---  ---  ---  ---  --- |\n| |  |  | Table I. Suggested values of soil matric potential at which irrigations should be applied for alfalfa for different soil types. | | Soil type | Average soil matric potential   reading of top three sensors (kPa) | | Sand or loamy sand | 40-50 | | Sandy loam | 50-70 | | Loam | 60-90 | | Silt loam | 80-100 | | Clay loam or clay | 100-120 | | [...] Alfalfa does not have a stage of growth that is extremely critical or less sensitive to water stress. If water is not available, the plant will slow or stop growing and go dormant. When water becomes available, growth will resume. However, lack of moisture will r"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445",
+          "title": "Water–Fertilizer Synergistic Effects and Resource Optimization for Alfalfa Production: A Central Composite Design and Response Surface Methodology Approach",
+          "description": "field study that water deficit during the branching stage significantly affects alfalfa yield, confirming this period as critical for water requirements. Similarly, Liu et al.  identified the branching stage as the most drought-sensitive period for alfalfa, with optimal effects of water stress application during the bud-forming stage, which is consistent with our observations. These findings underscore the distinct response mechanisms of alfalfa to environmental stresses at different growth [...] as the optimal timing for implementing growth regulation in alfalfa . Nonetheless, the identification of drought-sensitive phenological stages and appropriate deficit levels remains challenging due to variations in geographical location, climatic conditions, soil characteristics, and irrigation methods. These factors significantly influence alfalfa’s response to water stress, with reported yield responses varying from −5% to −40% under similar deficit levels across different regions . [...] exceeding 0.94, 0.90, 0.86, and 13.6, respectively. Sensitivity analysis indicated that water regulation during critical growth stages, particularly the branching stage, had the most significant impact "
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+          "title": "Alfalfa during drought",
+          "description": "Because of its high stem density and dense canopy, alfalfa has a high rate of water use. Alfalfa uses 0.1 to 0.3 inches of water per day (Table 1). Daily water use is influenced by plant growth stage and environmental factors like air temperature and wind speed. For example, on a windy, 90° F day in Minnesota, alfalfa will likely use 0.30 inches of water. Water use is greatest when alfalfa has a full vegetative canopy before harvest and is greater during summer months when solar energy and air [...] Over the growing season alfalfa may use more total water than other crops because of its long growing season. There is generally a linear relationship between crop water use and forage yield, although aspects of this relationship vary somewhat based on other environmental factors. Water use ranges from 4 to 7 inches per ton of forage depending on the environment (Figure 1).   \n\n## Alfalfa tolerates drought, but is not resistant\n\n|  | [...] Within 24 to 48 hours after seeding, alfalfa will absorb water. Within 4-7 days, the root (called a radicle) emerges through the seed coat. Before radical emergence, the germination process can be stopped if moisture deficits occur. After radicle emer"
         }
       ]
     }
@@ -55,31 +60,17 @@
   ],
   "publication_authorized": false,
   "fetch_report": {
-    "requested": 3,
+    "requested": 1,
     "loaded": 1,
     "sources": [
       {
-        "url": "https://www.sciencedirect.com/science/article/pii/S0378377426002180",
-        "status": "unavailable",
-        "category": "http_error",
-        "temporary": true,
-        "http_status": 403
-      },
-      {
-        "url": "https://worldalfalfacongress.ucdavis.edu/sites/g/files/dgvnsk8841/files/media/documents/Deficit%20irrigation%20strategies%3B%20why%20alfalfa%20is%20the%20best%20crop%20to%20have%20in%20a%20drought.pdf",
-        "status": "unavailable",
-        "category": "source_policy_or_content_rejected",
-        "temporary": false
-      },
-      {
         "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
         "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
-  "fetches_reserved": 3,
+  "fetches_reserved": 1,
   "coverage": {
     "topic_id": "agri-cfaae7290b88",
     "requirements": [
@@ -87,32 +78,43 @@
         "id": "species_product",
         "covered": true,
         "document_ids": [
+          "s0",
+          "s1",
           "s2",
-          "s14"
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s10",
+          "s12",
+          "s13",
+          "s14",
+          "s15",
+          "s16"
         ],
         "missing": ""
       },
       {
         "id": "exact_reader_method",
-        "covered": true,
+        "covered": false,
         "document_ids": [
-          "s10",
           "s14",
           "s15"
         ],
-        "missing": ""
+        "missing": "No supplied document explicitly distinguishes regulated deficit irrigation (RDI) as a defined methodology from drought-stress-tolerance studies. s14 applies water regulation at branching/budding stages using volumetric soil water percentage of field capacity (θ/θfc) but does not label or analyze it as RDI; s15 describes partial-season deficit irrigation at 25%/50% reduction rates and one 'targeted' strategy but does not specify whether the deficit was imposed by soil-moisture percentile, ETc fraction, or irrigation-volume reduction, nor does it classify the approach as RDI."
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [],
-        "missing": "No document reports field-measured soil moisture (kPa or θ), applied irrigation in mm/inches per cutting, or geographic/site context paired with growth-stage water-stress sensitivity; s14 is a pot experiment, s15 gives acre-inch reductions without stage-specific units, s10/s11 are generic crop guides without alfalfa-site measurements."
+        "missing": "No supplied document reports original measured irrigation inputs (mm applied, inch/acre, mm ETc fraction, kPa soil water potential) tied to deficit-treatment definitions for alfalfa drought-sensitivity by growth stage. s14 reports pot-level water consumption in 10^-3 m³/pot and expresses regulation as percentage of θfc but no field-scale irrigation volume or geographic site context; s15 reports seasonal irrigation totals in inches per acre but does not pair them with measured soil moisture or ETc fractions; s16 provides conceptual ET and crop-coefficient guidance without deficit-stage measurements."
       }
     ],
     "next_queries": [
-      "alfalfa regulated deficit irrigation growth stage sensitivity soil moisture kPa field trial",
-      "alfalfa drought stress sensitive stage irrigation priority cutting frequency field measurement mm"
+      "alfalfa regulated deficit irrigation growth stage sensitivity soil moisture kPa ETc fraction site",
+      "alfalfa deficit irrigation RDI vs drought stress tolerance original measured irrigation amount units field trial"
     ]
   },
-  "completed_at": "2026-10-28T06:30:23.250646+00:00"
+  "completed_at": "2026-10-28T09:26:05.530653+00:00"
 }

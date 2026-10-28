@@ -1,0 +1,24 @@
+{
+  "attempts": 1,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "reconciliation_required",
+      "last_run_id": "40663668445",
+      "started_at": "2026-10-28T09:24:50.268612+00:00",
+      "completed_at": "2026-10-28T09:26:50.453107+00:00",
+      "failure": {
+        "kind": "text_provider",
+        "category": "network_or_timeout"
+      }
+    }
+  ],
+  "status": "reconciliation_required",
+  "last_run_id": "40663668445",
+  "started_at": "2026-10-28T09:24:50.268612+00:00",
+  "failure": {
+    "kind": "text_provider",
+    "category": "network_or_timeout"
+  },
+  "completed_at": "2026-10-28T09:26:50.453107+00:00"
+}

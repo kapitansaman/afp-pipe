@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T06:29:29.023807+00:00",
+  "started_at": "2026-10-28T09:24:50.000142+00:00",
   "queries": [
     {
       "query_id": "72d5afb0d2cbdb7ebab3a1a672a7897f8ce1eb0d1053839e8586f6d23b1e85e3",
       "query": "alfalfa drip irrigation cycle duration flow rate discharge L/s university extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793168973.8864627,
       "results": [
         {
@@ -28,7 +28,7 @@
     {
       "query_id": "40208dc3f171ba5c939eb1a88f2e9e5763caefe9c0a1dee05d04e21e99fc451f",
       "query": "alfalfa trickle tape irrigation scheduling application rate mm per event measured discharge",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793168976.2283576,
       "results": [
         {
@@ -89,20 +89,17 @@
       {
         "url": "https://bookstore.ksre.ksu.edu/pubs/subsurface-drip-irrigation-for-alfalfa_MF2867.pdf",
         "canonical_url": "https://bookstore.ksre.ksu.edu/pubs/subsurface-drip-irrigation-for-alfalfa_MF2867.pdf",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
         "canonical_url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
         "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://www.sciencedirect.com/science/article/pii/S0378377424000283",
@@ -121,13 +118,13 @@
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No document presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge or flow-rate input (L/s or m³/h per tape length). s10 gives a center-pivot capacity example (gpm → in/day) but does not compute an irrigation set duration from emitter discharge and tape length. s11 and s12 provide scheduling theory (AWC, MAD, flow rate tables) with generic formulas but no crop-specific measured duration for alfalfa drip/tape."
+        "missing": "No source presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge/flow-rate input (L/s or m³/h per tape length). s11 provides system-level flow-rate determination methods (bucket test, pitot, nozzle tables) and a sample calculation, but uses a generic wheel-line example with no alfalfa-specific duration-from-discharge calculation. s10 discusses SDI capacity conceptually but gives no formula or worked example converting discharge to tape-duration for alfalfa."
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [],
-        "missing": "No document states original discharge/emitter units, tape length, emission rate, irrigation-depth-per-event, and soil-moisture threshold together for alfalfa with geography and crop stage. s11 gives rooting depth (4 ft) and MAD (60 %) for alfalfa but no discharge or tape data. s10 mentions SDI spacing and depth but not discharge per emitter or calculated set duration. s12 gives rooting depth (48 in) and AWC tables but no flow or tape parameters for alfalfa."
+        "missing": "No source supplies the required original measurement units—actual discharge (L/s or m³/h per tape length), emitter emission rate, tape length, or irrigation depth per event—explicitly tied to alfalfa with geography and crop stage. s10 reports total seasonal application depth (20–25 in/yr) and gross capacity (0.29 in/day for a 128-acre pivot), but these are system-wide totals, not per-event discharge-derived duration inputs. s11 gives nozzle flow tables and a generic application-rate example but without alfalfa, tape length, or discharge-per-unit-length inputs."
       },
       {
         "id": "species_product",
@@ -139,9 +136,9 @@
       }
     ],
     "next_queries": [
-      "alfalfa subsurface drip irrigation discharge per emitter L/s set duration calculation university extension",
-      "alfalfa drip tape irrigation scheduling flow rate application depth per event site:extension.usda.gov OR site:ksu.edu"
+      "alfalfa drip tape irrigation duration calculation flow rate per emitter L/s discharge university extension",
+      "subsurface drip irrigation alfalfa emitters flow rate application depth calculation per event university research"
     ]
   },
-  "completed_at": "2026-10-28T06:30:53.132995+00:00"
+  "completed_at": "2026-10-28T09:25:32.216486+00:00"
 }

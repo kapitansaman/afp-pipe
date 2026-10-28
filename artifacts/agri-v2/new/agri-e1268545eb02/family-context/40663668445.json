@@ -1,0 +1,17 @@
+{
+  "family_id": "family-18",
+  "topic_id": "agri-e1268545eb02",
+  "title": "چرا بذر نخود سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+  "title_sha256": "10a82aeacf964d3879388304b910541d5c5ac9fcb5148edf89f9080649e8572c",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY69",
+    "AGNES_API_KEY70",
+    "AGNES_API_KEY71",
+    "AGNES_API_KEY72"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

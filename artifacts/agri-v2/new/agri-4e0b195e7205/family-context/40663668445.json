@@ -1,0 +1,17 @@
+{
+  "family_id": "family-14",
+  "topic_id": "agri-4e0b195e7205",
+  "title": "اولین آبیاری نخود پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+  "title_sha256": "928665df1f7517489cfbae02ec2b75359aa2f35f49e7c827180cc680a1db52df",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY53",
+    "AGNES_API_KEY54",
+    "AGNES_API_KEY55",
+    "AGNES_API_KEY56"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

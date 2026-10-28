@@ -4,10 +4,10 @@
   "kind": "text",
   "slot": "AGNES_API_KEY53",
   "model": "agnes-2.5-flash",
-  "verified_at": "2026-10-28T05:25:30.231197+00:00",
+  "verified_at": "2026-10-28T09:24:56.643757+00:00",
   "verification": "actual_successful_parallel_response",
   "family_id": "family-14",
-  "topic_id": "agri-887448ed952f",
+  "topic_id": "agri-4e0b195e7205",
   "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
   "assigned_key_slots": [
     "AGNES_API_KEY53",

@@ -1,0 +1,43 @@
+{
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": true,
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منبع اصلی گزارش دانشگاهی ایالتی آمریکا (UT/UNL/UC) است؛ مقادیر inch/day و ET انباشته صرفاً برای اقلیم‌های غرب ایالات متحده گزارش شده‌اند. محدوده جغرافیایی یافته‌ها: نبراسکا، آیداهوی جنوبی و یوتا. تبدیل واحد به سانتی‌متر/میلی‌متر فقط جنبه نمایشی دارد و ارزش توجیهی توصیه‌های مدیریتی را تغییر نمی‌دهد. هیچ مرجع دانشگاهی ایرانی یا داده‌های سازگار با اقلیم ایران یافت نشد. داده‌های ET روی خاک silt loam جنوب آیداهو و شرایط آبیاری سطحی/محوری گزارش شده؛ تعمیم به سامانه‌های دیگر یا خاک‌های متفاوت نیاز به تأیید مستقل دارد. عدم قطعیت زمانی: منبع بازه عددی دقیق «روزهای منتظر ماندن پس از آخرین آبیاری تا برش» را برای همه بافت‌های خاک ارائه نمی‌دهد و باید با شرایط محلی تنظیم شود.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}

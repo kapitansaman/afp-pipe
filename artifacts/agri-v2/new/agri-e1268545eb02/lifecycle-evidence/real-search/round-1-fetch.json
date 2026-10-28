@@ -1,0 +1,41 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+      "canonical_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.ag.ndsu.edu/news/columns/dakota-gardener/dakota-gardener-sowing-vegetable-seeds-during-a-fickle-spring",
+      "canonical_url": "https://www.ag.ndsu.edu/news/columns/dakota-gardener/dakota-gardener-sowing-vegetable-seeds-during-a-fickle-spring",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/news/yard-and-garden-news/a-minnesota-guide-to-garden-timing",
+      "canonical_url": "https://extension.umn.edu/about/our-stories/news/yard-and-garden-news/a-minnesota-guide-to-garden-timing",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://hort.extension.wisc.edu/articles/when-is-the-right-time-to-plant-vegetable-seeds-check-soil-temperature",
+      "canonical_url": "https://hort.extension.wisc.edu/articles/when-is-the-right-time-to-plant-vegetable-seeds-check-soil-temperature/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/soil-temperature-conditions-vegetable-seed-germination",
+      "canonical_url": "https://extension.oregonstate.edu/catalog/soil-temperature-conditions-vegetable-seed-germination",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.psu.edu/a-gardeners-guide-to-peas",
+      "canonical_url": "https://extension.psu.edu/a-gardeners-guide-to-peas",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

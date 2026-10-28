@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq",
+      "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
+      "canonical_url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://crops.extension.iastate.edu/cropnews/2021/05/estimating-first-crop-alfalfa-harvest-using-peaq-steps",
+      "canonical_url": "https://crops.extension.iastate.edu/cropnews/2021/05/estimating-first-crop-alfalfa-harvest-using-peaq-steps",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://dairy.osu.edu/newsletter/buckeye-dairy-news/volume-13-issue-2/estimating-alfalfa-ndf-field",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

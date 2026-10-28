@@ -1,0 +1,39 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-considerations-fall-forage-harvest-alfalfa-irrigation-and-last-cutting",
+      "canonical_url": "https://cropwatch.unl.edu/pasture-and-forage-minute-considerations-fall-forage-harvest-alfalfa-irrigation-and-last-cutting/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12870302",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12870302/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://crops.extension.iastate.edu/post/forage-fertilization-considerations",
+      "canonical_url": "https://crops.extension.iastate.edu/post/forage-fertilization-considerations",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+      "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+      "status": "cache_valid"
+    }
+  ]
+}

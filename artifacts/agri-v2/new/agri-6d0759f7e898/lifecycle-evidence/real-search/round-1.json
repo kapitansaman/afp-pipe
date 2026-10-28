@@ -1,0 +1,136 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T09:25:06.598517+00:00",
+  "queries": [
+    {
+      "query_id": "311f9248d20623c29205a466b612fd2d8e502857fd2c04bb25692f723ed98b73",
+      "query": "alfalfa soil moisture sensor placement depth TDR FDR university extension",
+      "cached": false,
+      "checked_at_epoch": 1793179509.2426114,
+      "results": [
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+          "title": "Soil moisture monitoring to support irrigation scheduling | OSU Extension Service",
+          "description": "Install sensors within the effective rooting depth of your crop.\n Monitor at least two to three soil depths to capture soil water distribution.\n  + For deep-rooted crops such as alfalfa, consider installing the sensors at 1-foot increments up to 3 feet.\n  + For shallow-rooted crops, two depths are typically sufficient.\n Multidepth monitoring allows detection of:\n  + Overirrigation (deep percolation)\n  + Shallow drying\n  + Root-zone depletion patterns [...] TDR sensors are:\n\n Generally very accurate (±2%–3% volumetric water content under proper calibration)\n Less sensitive to salinity compared to capacitance sensors\n Available in probe lengths ranging from several inches to several feet\n\nCalibration may be soil-specific, especially for soils high in clay or organic matter.\n\nTo find out more about how these sensors are installed, see Soil Moisture Sensor Installation and Soil Water Content. [...] A TDR sensor consists of two or three parallel stainless steel rods (waveguides) inserted into the soil (Figure 7A-B). The instrument sends a high-frequency electromagnetic pulse along the rods. TDRs measure the time required for the pulse to travel through the soil and reflect back to the s"
+        },
+        {
+          "url": "https://www.canr.msu.edu/resources/utilizing-soil-moisture-sensors-for-efficient-irrigation-management",
+          "title": "Utilizing Soil Moisture Sensors for Efficient Irrigation ...",
+          "description": "Apr 22, 2025 — Sensor depth should align with the crop's root depth. Typical installation depths are at one-third, two-thirds, and the full depth of the crop'"
+        },
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "overirrigating by responding only to fluctuations in shallow soil moisture. In situations where soil texture changes with depth, sensors should be placed at depths so that each soil type encountered can be monitored. [...] Sensor depth should be based on typical rooting depths for the crops being monitored (a summary of root depths for common crops is provided in table 1 of VCE publication BSE-239P [Shortridge 2018]). Installing sensors at multiple depths provides information across the full soil profile and can be useful in optimizing irrigation during different stages of the growing season. For instance, installing a shallow sensor 6 inches below ground is important for monitoring soil moisture conditions early [...] | Crop | MAD (%) | Soil water  tension  (kPa or cb) | Loamy sand  (%) | Sandy loam  (%) | Loam  (%) | Silt loam  (%) | Clay loam  (%) |\n| Alfalfa | 50-60 | 80-150 | 12 | 15 | 20 | 23 | 24 |\n| Cantaloupe  /melons | 40-45 | 35-40 | 12 | 16 | 21 | 24 | 25 |\n| Carrots | 35 | 55-65 | 13 | 17 | 22 | 25 | 25 |\n| Corn | 50-55 | 50-80 | 12 | 15 | 20 | 23 | 24 |\n| Cotton | 65 | 100-120 | 10 | 13 | 17 | 20 | 22 |\n| Small grain  (vegetative stage) | 50 | 40-50 | 12 | 15 | 20 | 2"
+        },
+        {
+          "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
+          "title": "Archive of Proceedings",
+          "description": "Down Arrow\nAlfalfa Leaf Image\nAlfalfa Leaf Image\nImage Splash [...] | 2004 | 34th California Alfalfa & Forage Symposium & National Alfalfa Symposium | San Diego, CA |\n| 2003 | 33rd California Alfalfa & Forage Symposium | Monterey, CA |\n| 2002 | 32nd Western Alfalfa & Forage Conference | Reno, NV |\n| 2001 | 31st California Alfalfa & Forage Symposium | Modesto, CA |\n| 2000 | 30th California Alfalfa & Forage Symposium & National Alfalfa Symposium | Las Vegas, NV |\n| 1999 | 29th California Alfalfa Symposium | Fresno, CA | [...] | 1998 | 28th California/Nevada Alfalfa Symposium | Reno, NV |\n| 1997 | 27th California Alfalfa Symposium | Visalia, CA |\n| 1996 | 26th California Alfalfa Symposium & National Alfalfa Symposium | San Diego, CA |\n| 1995 | 25th California Alfalfa Symposium | Modesto, CA |\n| 1994 | 24th California Alfalfa Symposium | Redding, CA |\n| 1993 | 23rd California Alfalfa Symposium | Visalia, CA |\n| 1992 | 22nd California/Arizona Alfalfa Symposium | Holtville, CA |"
+        }
+      ]
+    },
+    {
+      "query_id": "9960d56197d7d5d957254bddd8ba1c77e453c55850b61c3d798f69b539c0857f",
+      "query": "alfalfa irrigation scheduling soil moisture sensor network depth spacing peer-reviewed",
+      "cached": false,
+      "checked_at_epoch": 1793179511.679873,
+      "results": [
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "Authored by Julie Shortridge, Assistant Professor and Extension Specialist, Virginia Tech Department of Biological Systems Engineering; and Wesley Porter, Associate Professor and Extension Specialist, University of Georgia Crop and Soil Sciences Department\n\nExpert Reviewed sealEXPERT REVIEWED [...] | Crop | MAD (%) | Soil water  tension  (kPa or cb) | Loamy sand  (%) | Sandy loam  (%) | Loam  (%) | Silt loam  (%) | Clay loam  (%) |\n| Alfalfa | 50-60 | 80-150 | 12 | 15 | 20 | 23 | 24 |\n| Cantaloupe  /melons | 40-45 | 35-40 | 12 | 16 | 21 | 24 | 25 |\n| Carrots | 35 | 55-65 | 13 | 17 | 22 | 25 | 25 |\n| Corn | 50-55 | 50-80 | 12 | 15 | 20 | 23 | 24 |\n| Cotton | 65 | 100-120 | 10 | 13 | 17 | 20 | 22 |\n| Small grain  (vegetative stage) | 50 | 40-50 | 12 | 15 | 20 | 23 | 24 | [...] Soil moisture sensors can support irrigation scheduling by telling you how much water is present in your soil at any time. Irrigation should be applied when soil moisture levels drop below a minimum threshold. Enough water should be applied so that soil moisture levels increase across the root zone of the plant, but not so much that water runs off or drains below the root zone. Soil moisture sensors can help de"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337",
+          "title": "Comparative Analysis of Soil Moisture- and Weather-Based Irrigation Scheduling for Drip-Irrigated Lettuce Using Low-Cost Internet of Things Capacitive Sensors",
+          "description": "42. Evett S., Schwartz R., Mazahrih N.T., Jitan M., Shaqir I. Soil water sensors for irrigation scheduling: Can they deliver a management allowed depletion? Acta Hortic. 2011 888 231 237 doi:10.17660/ActaHortic.2011.888.26 [...] Based on the reviewed literature, three main points could be concluded:\n\n- -One of the main challenges impeding the integration of smart data acquisition systems into irrigation management is the lack of cost-effective and reliable data-monitoring solutions.\n- -Capacitive soil moisture sensors have great potential to enhance on-farm irrigation management as they are easily integrated into smart irrigation systems.\n- -Yet, these sensors are mainly dependent on accurate calibration. [...] # Comparative Analysis of Soil Moisture- and Weather-Based Irrigation Scheduling for Drip-Irrigated Lettuce Using Low-Cost Internet of Things Capacitive Sensors\n\nAhmed A. Abdelmoneim, Christa M. Al Kalaany, Giovana Dragonetti, Bilal Derardja, Roula Khadra\n\nSensors (Basel, Switzerland) · 2025-03-04 · 25(5):1568 · DOI: 10.3390/s25051568 · PMID: 40096482 · PMCID: PMC11902337\n\n## Abstract"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 5,
+    "loaded": 4,
+    "sources": [
+      {
+        "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+        "canonical_url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://www.canr.msu.edu/resources/utilizing-soil-moisture-sensors-for-efficient-irrigation-management",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+        "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
+        "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/index.aspx?from=alfalfa",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337",
+        "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 5,
+  "coverage": {
+    "topic_id": "agri-6d0759f7e898",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document provides alfalfa-specific sensor type, number per field, spatial distribution pattern, or installation protocol. s10 (OSU Extension) gives general sensor placement guidance (e.g., ~3 stations/field, shallow ~6 in, deep ~18–24 in) and lists sensor types (capacitance/FDR, TDR, neutron probe), but does not tie these recommendations to alfalfa. s11 (VT Extension) references rooting-depth-based sensor placement via a table in another publication but does not give alfalfa-specific depths, counts, or protocols."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": true,
+        "document_ids": [
+          "s11"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s10",
+          "s11"
+        ],
+        "missing": ""
+      }
+    ],
+    "next_queries": [
+      "alfalfa soil moisture sensor installation depth spacing university extension Minnesota Wisconsin",
+      "alfalfa irrigation scheduling soil sensor placement FDR TDR extension guide"
+    ]
+  },
+  "completed_at": "2026-10-28T09:25:35.276957+00:00"
+}

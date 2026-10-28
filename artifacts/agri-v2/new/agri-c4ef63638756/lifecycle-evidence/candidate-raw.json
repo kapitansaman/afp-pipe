@@ -1,0 +1,71 @@
+{
+  "topic_id": "agri-c4ef63638756",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum L.) — حبوبات خشک صیادی",
+  "slug": "chickpea-irrigation-duration",
+  "outline": [
+    "ورودی‌های اندازه‌گیری‌شده برای محاسبه مدت آبیاری",
+    "منطق تصمیم و واحدها",
+    "پایش مزرعه یا شبکه",
+    "خطاها و حدود کاربرد"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "ریشه نخود تا عمق حدود ۳۰ اینچ نفوذ می‌کند و بخش عمده‌ای از آب مورد نیاز را عمدتاً از ۱۲ اینچ بالای خاک جذب می‌کند.",
+      "conditions": "دامنه ریشه موثر نخود در اقلیم مونتانا، آمریکا; عمق جذب آب از ۱۲ اینچ بالایی خاک; محصول: نخود خشک صیادی",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "30 inches",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea (Cicer arietinum)"
+        },
+        {
+          "value": "12",
+          "unit_quote": "top 12 inches of soil",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea water uptake zone"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "تولید آبیاری‌شده در هاuntley با افزایش حداقل آب (۲ تا ۳ اینچ در فصل) عملکرد بیشتری نسبت به دیم دارد و آبیاری مکرر می‌تواند منجر به بیماری بیشتر شود.",
+      "conditions": "مزرعه آزمایشی Huntley، مونتانا، آمریکا; افزودن آب صرفاً ۲ تا ۳ اینچ در کل فصل; محصول: نخود آبیاری‌شده خشک صیادی; هشدار کیفیت",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": [
+        {
+          "value": "2-3",
+          "unit_quote": "2-3 inches per season",
+          "geographic_scope": "Huntley, Montana, USA",
+          "product_scope": "irrigated chickpea supplemental water"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود در مناطق با ۶ تا ۱۰ اینچ بارندگی فصل رشدی به خوبی رشد می‌کند و تحمل نسبی به خشکی نشان می‌دهد.",
+      "conditions": "اقلیم مناسب نخود در غرب ایالات متحده; محدوده بارندگی ۶ تا ۱۰ اینچ; محصول: نخود خشک صیادی",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": [
+        {
+          "value": "6-10",
+          "unit_quote": "6-10 inches of growing season precipitation",
+          "geographic_scope": "U.S. Northern Plains",
+          "product_scope": "chickpea (Cicer arietinum)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منبع هیچ معیار کمی محاسبه مدت نوبت آبیاری با تیپ، دبی واقعی، روش اندازه‌گیری جریان یا فرمول زمان‌بندی آبیاری نخود ارائه نمی‌دهد.",
+      "conditions": "سامانه: تیپ (drip tape); محصول: نخود (Cicer arietinum); نیت: irrig_duration; محدوده: آمریکا (montana, oregon, wisconsin)",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "عنوان خواسته محاسبه مدت هر نوبت آبیاری نخود با تیپ بر مبنای دبی واقعی و نیاز آب است. منابع فراهم‌شده فقط نشان می‌دهند که ریشه نخود تا ۳۰ اینچ عمق می‌رود، آب مصرفی عمدتاً از ۱۲ اینچ بالایی خاک جذب می‌شود، و در تولید آبیاری‌شده مونتیکا به ۲ تا ۳ اینچ آب اضافی در فصل نیاز است. هیچ منبعی معیار تعیین مدت نوبت آبیاری، روش اندازه‌گیری دبی واقعی، نرخ_application، نیاز آبی بر حسب mm/روز، یا فرمول time=volume/discharge برای نخود ارائه نمی‌کند. بنابراین پاسخ به نیت irrig_duration فاقد شواهد مستقیم است."
+}

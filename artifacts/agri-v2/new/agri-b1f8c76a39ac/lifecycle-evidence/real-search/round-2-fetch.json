@@ -1,0 +1,30 @@
+{
+  "requested": 4,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+      "canonical_url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
+      "canonical_url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+      "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772375524002028",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    }
+  ]
+}

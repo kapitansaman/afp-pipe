@@ -1,6 +1,6 @@
 {
   "version": "approved-fact-numeric-contract-v1",
-  "raw_sha256": "2e5f69b026485be0509f9a21ce8eb99900344defba18bd16d0500b73311dec7a",
+  "raw_sha256": "d56149489905ff7ade450bd507a42c6a112297c56419064f55590c692a9ad121",
   "allowed_numeric_tokens_exactly": [
     "20",
     "30",
@@ -11,9 +11,10 @@
     {
       "field": "content_html",
       "unapproved_numeric_tokens": [
+        "05",
         "2022"
       ],
-      "unapproved_token_count": 1
+      "unapproved_token_count": 2
     }
   ],
   "lexical_numeric_contract_passed": false,

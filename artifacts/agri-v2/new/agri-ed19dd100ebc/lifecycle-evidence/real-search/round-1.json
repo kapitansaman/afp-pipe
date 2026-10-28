@@ -1,6 +1,6 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T06:29:21.028775+00:00",
+  "started_at": "2026-10-28T09:24:49.969443+00:00",
   "queries": [
     {
       "query_id": "7a130c7355340b6b6df08650abf1c47daf63700e0924926b279862891708315b",
@@ -113,30 +113,31 @@
         "covered": true,
         "document_ids": [
           "s1",
-          "s2",
           "s10",
-          "s11",
           "s12"
         ],
         "missing": ""
       },
       {
         "id": "exact_reader_method",
-        "covered": false,
-        "document_ids": [],
-        "missing": "No source addresses mechanical or management practices for preventing or breaking soil crust during alfalfa seedling emergence; the reader question about soil crust requires specific guidance that none of the fetched documents provide."
+        "covered": true,
+        "document_ids": [
+          "s10",
+          "s11"
+        ],
+        "missing": ""
       },
       {
         "id": "measurement_units_and_scope",
         "covered": false,
         "document_ids": [],
-        "missing": "No source provides germination temperature values with original units specifically for alfalfa seed imbibition or emergence, nor soil moisture metrics tied to imbibition, with source geography and date preserved."
+        "missing": "No source provides germination temperature values with original units tied directly to germination parameters, nor does any source supply soil moisture metrics explicitly linked to alfalfa seed imbibition or emergence rates. s11 reports 31.3–32.2 °F as the temperature range where modern varieties can germinate and notes a 50% germination time of 15 days at 32 °F versus 3 days at 50 °F, but does not present a germination-temperature range. s10 gives an 81 °F air / 54 °F soil optimum for growth, not germination. No document provides moisture-imbibition thresholds in MPa or volumetric terms for germination or emergence in the field."
       }
     ],
     "next_queries": [
-      "alfalfa soil crust breaking emergence management university extension",
-      "alfalfa seed imbibition temperature soil moisture threshold germination studies"
+      "alfalfa Medicago sativa seed imbibition germination temperature range optimal minimum degrees Fahrenheit site:extension.umn.edu OR site:extension.wsu.edu",
+      "alfalfa seed hydrotime base water potential theta_H germination emergence field moisture threshold"
     ]
   },
-  "completed_at": "2026-10-28T06:29:31.452703+00:00"
+  "completed_at": "2026-10-28T09:25:05.706802+00:00"
 }

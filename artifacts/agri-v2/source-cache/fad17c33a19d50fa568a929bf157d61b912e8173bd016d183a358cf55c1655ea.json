@@ -1,0 +1,325 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/",
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337",
+  "redirect_chain": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/"
+  ],
+  "text": "[table row] 2 May | Net Application (mm): 9 [table row] 8 May | Net Application (mm): 8 [table row] 12 May | Net Application (mm): 5.3 [table row] 18 May | Net Application (mm): 4.9 [table row] 23 May | Net Application (mm): 5.9 [table row] 25 May | Net Application (mm): 7.3 [table row] 27 May | Net Application (mm): 4.8 [table row] 29 May | Net Application (mm): 5 [table row] 1 June | Net Application (mm): 4.6 [table row] 3 June | Net Application (mm): 6.9 [table row] 9 June | Net Application (mm): 5.4 [table row] 11 June | Net Application (mm): 7.2 [table row] 13 June | Net Application (mm): 6.9 [table row] 17 June | Net Application (mm): 4.8 [table row] 18 June | Net Application (mm): 4.1 [table row] 19 June | Net Application (mm): 4 [table row] 20 June | Net Application (mm): 4.1 [table row] 22 June | Net Application (mm): 5.5 [table row] 23 June | Net Application (mm): 6.2 [table row] 24 June | Net Application (mm): 4.8 [table row] 27 June | Net Application (mm): 9.2 [table row] 28 June | Net Application (mm): 5 [table row] 29 June | Net Application (mm): 4.1 [table row] 30 June | Net Application (mm): 4.3 [table row] 2 July | Net Application (mm): 7.2 [table row] ESP32 Lolin | Quantity: 1 [table row] ESP32 Lolin | Cost (USD): 10 [table row] SEN0193 | Quantity: 4 [table row] SEN0193 | Cost (USD): 11.5 [table row] MP4056 | Quantity: 1 [table row] MP4056 | Cost (USD): 5.5 [table row] PVC pipe | Quantity: 2 m [table row] PVC pipe | Cost (USD): 2.25 [table row] Rubber cap | Quantity: 1 [table row] Rubber cap | Cost (USD): 3.20 [table row] 2000 mAh LiPo battery | Quantity: 1 [table row] 2000 mAh LiPo battery | Cost (USD): 8 [table row] 2.5 W, 5 V solar panel | Quantity: 1 [table row] 2.5 W, 5 V solar panel | Cost (USD): 8 [table row] Miscellaneous (wires, isolation tape, pins, etc.) | Quantity: 1 [table row] Miscellaneous (wires, isolation tape, pins, etc.) | Cost (USD): 10 [table row] PETG filament | Quantity: 200 gm [table row] PETG filament | Cost (USD): 3.5 [table row] Total | Cost (USD): 61.95 Comparative Analysis of Soil Moisture- and Weather-Based Irrigation Scheduling for Drip-Irrigated Lettuce Using Low-Cost Internet of Things Capacitive Sensors - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Sensors (Basel) . 2025 Mar 4;25(5):1568. doi: 10.3390/s25051568 Comparative Analysis of Soil Moisture- and Weather-Based Irrigation Scheduling for Drip-Irrigated Lettuce Using Low-Cost Internet of Things Capacitive Sensors Ahmed A Abdelmoneim Ahmed A Abdelmoneim 1 The Mediterranean Agronomic Institute, CIHEAM Bari, Valenzano, 70010 Bari, Italy; christamaria.kalaany@std.balamand.edu.lb (C.M.A.K.); dragonetti@iamb.it (G.D.); derardja@iamb.it (B.D.) Conceptualization, Methodology, Software, Writing – original draft, Writing – review & editing, Supervision Find articles by Ahmed A Abdelmoneim 1, * , Christa M Al Kalaany Christa M Al Kalaany 1 The Mediterranean Agronomic Institute, CIHEAM Bari, Valenzano, 70010 Bari, Italy; christamaria.kalaany@std.balamand.edu.lb (C.M.A.K.); dragonetti@iamb.it (G.D.); derardja@iamb.it (B.D.) Methodology, Software, Validation, Data curation, Writing – original draft Find articles by Christa M Al Kalaany 1 , Giovana Dragonetti Giovana Dragonetti 1 The Mediterranean Agronomic Institute, CIHEAM Bari, Valenzano, 70010 Bari, Italy; christamaria.kalaany@std.balamand.edu.lb (C.M.A.K.); dragonetti@iamb.it (G.D.); derardja@iamb.it (B.D.) Methodology, Validation, Investigation, Data curation Find articles by Giovana Dragonetti 1 , Bilal Derardja Bilal Derardja 1 The Mediterranean Agronomic Institute, CIHEAM Bari, Valenzano, 70010 Bari, Italy; christamaria.kalaany@std.balamand.edu.lb (C.M.A.K.); dragonetti@iamb.it (G.D.); derardja@iamb.it (B.D.) Formal analysis, Investigation, Data curation Find articles by Bilal Derardja 1 , Roula Khadra Roula Khadra 1 The Mediterranean Agronomic Institute, CIHEAM Bari, Valenzano, 70010 Bari, Italy; christamaria.kalaany@std.balamand.edu.lb (C.M.A.K.); dragonetti@iamb.it (G.D.); derardja@iamb.it (B.D.) Resources, Supervision, Project administration Find articles by Roula Khadra 1, * Editors: Mohamed Riduan Abid 1 , Tareq Abu Hamed 1 Author information Article notes Copyright and License information 1 The Mediterranean Agronomic Institute, CIHEAM Bari, Valenzano, 70010 Bari, Italy; christamaria.kalaany@std.balamand.edu.lb (C.M.A.K.); dragonetti@iamb.it (G.D.); derardja@iamb.it (B.D.) * Correspondence: ayoub@iamb.it (A.A.A.); khadra@iamb.it (R.K.) Roles Ahmed A Abdelmoneim : Conceptualization, Methodology, Software, Writing – original draft, Writing – review & editing, Supervision Christa M Al Kalaany : Methodology, Software, Validation, Data curation, Writing – original draft Giovana Dragonetti : Methodology, Validation, Investigation, Data curation Bilal Derardja : Formal analysis, Investigation, Data curation Roula Khadra : Resources, Supervision, Project administration Mohamed Riduan Abid : Academic Editor Tareq Abu Hamed : Academic Editor Received 2025 Jan 5; Revised 2025 Feb 25; Accepted 2025 Feb 27; Collection date 2025 Mar. © 2025 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( https://creativecommons.org/licenses/by/4.0/ ). PMC Copyright notice PMCID: PMC11902337 PMID: 40096482 Abstract Efficient irrigation management is crucial for optimizing water use and productivity in agriculture, particularly in water-scarce regions. This study evaluated the effectiveness of soil-based and weather-based irrigation management using a low-cost (DIY) Internet of Things (IoT) capacitive soil moisture sensor on drip-irrigated lettuce. A field experiment was conducted to compare water productivity and water use efficiency between the two management approaches. The soil-based system utilized real-time data from IoT sensors to guide irrigation scheduling, while the weather-based system relied on evapotranspiration data. The IoT-enabled system used 28.8% less water and reduced the pumping hours by 16.2% compared with the conventional weather-based methods. In terms of crop water productivity (CWP), the IoT system reached 16 kg/m 3 , which was 52.5% higher than the conventional method (10.5 kg/m 3 ). Furthermore, the developed DIY sensor was compared with existing commercial soil moisture sensors, namely, Teros 54 and Drill& Drop. The developed prototype demonstrated reliability and accuracy comparable to other commercial sensors, with an R 2 = 0.6, validating its utility for enhanced data-driven irrigation, giving its initial low cost (USD 62). These findings highlight the potential of low-cost soil-based IoT systems in enhancing irrigation efficiency and supporting sustainable agriculture, particularly in resource-limited settings. Keywords: smart irrigation, IoT, capacitive sensors, ESP32 MCU 1. Introduction Water scarcity is an escalating global issue, intensified by climate change, population growth, and rising food demand. Agriculture accounts for over 75% of the world’s freshwater consumption, making efficient water management in this sector essential [ 1 ]. One of the main aspects that could significantly contribute toward enhanced irrigation management is reliable data acquisition systems. Such systems can provide real-time information on soil moisture, weather conditions, and plant health, which forms the backbone of precision irrigation by ensuring timely and informed decision making. Yet, one of the primary challenges impeding the integration of such systems is the lack of cost-effective and reliable data-monitoring solutions. Given the inherent spatial variability of agricultural systems, the development and accessibility of low-cost, energy-autonomous data collection tools is essential [ 2 , 3 ]. Mapping spatial features is a critical step toward achieving more precise irrigation planning, real-time monitoring, and comprehensive evaluation of irrigation practices. The integration of Internet of Things technology (IoT) into irrigation management presents a forward-thinking strategy for resource management, particularly through the implementation of smart irrigation systems. In this study, a low-cost IoT capacitive soil moisture probe was developed and used for soil-based irrigation management. The developed prototype was compared with other commercial solutions, along with comparing the resulting irrigation scheduling with weather-based irrigation scheduling to evaluate the impact of water productivity on lettuce. Soil moisture conditions could be described using two primary terms: (i) mass-based soil water content (SWC) and (ii) energy-based soil water potential (SWP). The soil water potential is a fundamental parameter in describing soil’s moisture condition. It plays a critical role in determining the engineering, agronomic, geological, ecological, biological, and hydrological properties of the soil mass. It could be defined as the energy that needs to be exerted by plant roots to draw water from the soil, or it could be viewed as the force exerted by the soil matrix to hold the water [ 4 , 5 ]. The potential energy of soil water could be represented by Equation (1): ψ = ψ m + ψ o + ψ p + ψ g (1) where ψ is the potential energy per unit mass, volume, or weight of water, and the sub-scripts m, o, p, and g are the matric, osmotic, pressure, and gravitational potentials, respectively [ 6 ]. The soil water content refers to the amount of moisture within a given soil sample, expressed as a ratio of either the volume or weight to the total volume or weight of the sample [ 7 ]. It provides direct information on the water content in the soil, which is crucial information for plant growth, irrigation management, and hydrological modeling. It could be described by Equation (2). G W C = m w − m d m d × 100 (2) where m w is the soil wet weight (gm), and m d is the soil dry weight (gm) Two main approaches are used to measure the SWC: direct methods and indirect methods [ 8 , 9 ]. Direct methods involve obtaining actual soil moisture measurements through gravimetric analysis. This process entails extracting a soil sample and drying it in a laboratory oven at 105 °C for 24 h. Despite being labor-intensive, time-consuming, and destructive, this method remains the standard for soil moisture measurement due to its high accuracy [ 10 , 11 , 12 ]. However, it is unsuitable for in situ applications as it disrupts the soil structure and requires extensive manual effort. Meanwhile, indirect methods estimate the SWC by monitoring changes in an intrinsic property of the sensing system that correlates with soil moisture variations [ 13 ]. These techniques are advantageous as they offer instantaneous, continuous, and non-destructive measurements with acceptable accuracy [ 14 , 15 , 16 ]. One of the most used indirect methods for soil moisture sensing is capacitance sensing. Capacitance sensors, in particular, have become a cornerstone in precision agriculture due to their practicality, affordability, and ease of integration into smart farming systems [ 17 , 18 ]. Unlike TDR and FDR, which are more expensive and complex, capacitance sensors provide a cost-effective solution for large-scale deployment [ 19 ]. This practicality has made them a favored choice for real-time soil monitoring in irrigation systems, enabling efficient water management. However, their reliance on calibration to account for soil-specific variations remains a challenge, necessitating ongoing research to improve their accuracy and applicability [ 20 , 21 , 22 ]. Capacitive soil moisture sensors are pivotal for monitoring water availability in the root zone, enabling precision irrigation. Recent advancements in capacitive sensing include the integration of IoT (Internet of Things) technologies, machine learning models for calibration, and the development of multi-sensor systems to improve measurement accuracy across heterogeneous soils [ 23 , 24 ]. These innovations aim to overcome the challenges associated with traditional and modern methods, providing robust solutions for soil moisture monitoring in diverse applications. With this aim, a number of studies have discussed the potential of integrating capacitive soil moisture sensors for smart irrigation management. The authors of [ 22 ] investigated the effectiveness and accuracy of low-cost capacitive soil moisture sensors. The study found that measurements from capacitive sensors were notably affected by soil sample compaction. Specifically, variations in the output voltage of the sensors were observed. The authors of [ 25 ] designed a solar-powered capacitive soil moisture sensor and calibrated it for clay soils. The calibration results demonstrated a strong correlation between the sensor readings and soil volumetric water content, where the average determination coefficient (R2) was 0.967, while the root-mean-square error (RMSE) was 0.014. Meanwhile, ref. [ 26 ] reported a significant variability when using capacitive soil moisture sensors. The study examined the uncertainties in the measurement process plus the natural variability in the actual soil water dynamics. Measurements were collected by 57 sensors, located at 10 combinations of depth and position relative to the drippers. The results showed large sensor-to-sensor differences, even when installed at equivalent depths and coordinates relative to the drippers. In contrast, differences between virtual sensors simulated using a HYDRUS-3D model at those soil locations were one order of magnitude smaller. In an apple orchard trial, ref. [ 27 ] deployed 135 soil moisture sensors at 10, 20, 30, 50 and 80 cm depths. The objective of the experiment was to analyze the interplay between soil moisture dynamics and plant physiology. The study concluded that water consumption can be reduced without compromising the quality and quantity of apple production by introducing an irrigation schedule based on the information provided by capacitance sensors (ECH2O probe model EC-5). The authors of [ 28 ] evaluated the performance of capacitive soil moisture sensors in irrigated soils, comparing them with traditional methods like gravimetric measurements. The study also highlighted the potential for capacitive sensors to improve water use efficiency by up to 15–20% when integrated into automated irrigation systems, making them a valuable tool for precision irrigation. The authors of [ 29 ] evaluated the performance of capacitance probes for monitoring soil moisture in an automated drip irrigation system for watermelons. The study found that integrating the sensors reduced water consumption by approximately 15–20% compared with conventional irrigation methods. The authors of [ 30 ] assessed the effectiveness of capacitance probes for soil moisture monitoring in citrus orchards. The study revealed that irrigation based on the sensor data reduced water consumption by 18–22% compared with conventional irrigation methods. The probes helped maintain soil moisture at optimal levels (measuring a volumetric water content between 10 and 20%) for citrus root zones, resulting in improved growth and increased yield by 12–15% over the growing season. Based on the reviewed literature, three main points could be concluded: - One of the main challenges impeding the integration of smart data acquisition systems into irrigation management is the lack of cost-effective and reliable data-monitoring solutions. - Capacitive soil moisture sensors have great potential to enhance on-farm irrigation management as they are easily integrated into smart irrigation systems. - Yet, these sensors are mainly dependent on accurate calibration. Within this context, this research aimed to (i) field-validate an IoT low-cost capacitive soil moisture-sensing prototype and (ii) compare soil moisture-based irrigation management using the developed prototype with weather-based irrigation management in terms of yield and water productivity under field conditions using drip-irrigated lettuce. 2. Materials and Methods 2.1. The Study Area and Experimental Setup The experiment was carried out at CIHEAM Bari’s experimental field in Valenzano, located in the Puglia region of southern Italy (41°2′40.3872″ N, 16°53′3.8364″ E), between 2 May and 17 June 2024. The experimental area, measuring 15 m × 9 m, was divided into two plots, each 7.5 m × 9 m. The area was transplanted with Romaine lettuce ( Lactuca sativa L.). Both plots were equipped with a drip irrigation system, with lines spaced 1 m apart and drippers (corresponding to plant positions) spaced 0.25 m apart. The drippers were self-compensating, with a flow rate of 2 L per hour. Each 16 mm lateral feeding the drippers was fitted with a small butterfly valve to allow the precise control of individual dripper lines, a crucial feature given the differing irrigation schedules between the plots. Figure 1 illustrates the experimental setup. One of the plots was irrigated according to an irrigation schedule based on the weather data acquired from an adjacent weather station, while the other was irrigated using the installed sensors. Figure 1 shows the actual field setup using a drone image. Given the relatively small scale of the experiment (135 m 2 ), the impact of the soil spatial variability on the resulting yield was neglected. Figure 1. Open in a new tab The experimental field setup: ( a ) the weather-based plot; ( b ) the soil-based plot. 2.2. The Cultivated Crop (Lactuca sativa L.) Lactuca sativa L., commonly known as lettuce, is a leafy green crop belonging to the Asteraceae family. It is among the most significant leafy vegetables cultivated worldwide, particularly in the Mediterranean region, where it is typically grown as a winter crop between November and February, with a total growing cycle ranging from 105 to 140 days. A second cropping cycle begins in April and lasts for approximately 75 days [ 31 ]. Being a leafy crop distinguished by its short growing cycle, it was an ideal candidate to measure the impact of irrigation-scheduling approaches on yield. 2.3. Plot A: Weather-Based Scheduling (Control) In the first plot, the irrigation schedule was set based on the potential evapotranspiration (ET 0 ), calculated using the Penman–Monteith method (Equation (3)). This value was adjusted using crop coefficients corresponding to different growth stages, as outlined in FAO 56, to estimate the potential crop water requirement (Equation (4)). Additional agronomic and soil parameters required to simulate lettuce growth at the site were incorporated. Table 1 provides a summary of all parameters used to develop the irrigation schedule, including their sources and whether they were estimated or measured in the laboratory. E T 0 = 0.408 Δ R n − G + γ 900 T + 273 u 2 ( e s − e a ) Δ + γ ( 1 + 0.34 u 2 ) π r 2 (3) where ET 0 is the reference evapotranspiration (mm day −1 ), G is the soil heat flux density (MJ m −2 day −1 ), R n is the net radiation at the crop surface (MJ m −2 day −1 ), T is the air temperature at a 2 m height (°C), u 2 is the wind speed at a 2 m height (m s −1 ), e s −e a is the saturation vapor pressure deficit (kPa), e s is the saturation vapor pressure (kPa), e a is the actual vapor pressure (kPa), Δ is the slope vapor pressure curve (kPa °C −1 ), and γ is the psychrometric constant (kPa °C −1 ). E T c = E T 0 · K c (4) Table 1. Climatic, agronomic, and soil parameters used to generate the weather-based irrigation schedule. Parameter Reference/Source Rainfall (mm) Daily data for the past 3 years provided by the weather station situated close to the field at CIHEAM Bari Evapotranspiration (mm) Minimum and maximum Temperature (°C) Mean annual CO 2 concentration (ppm) MaunaLoa.CO 2 file from AquaCrop database Calendar Growing period From 21 April to 21 June 2024 Crop Description Display crop parameters: full set Development Initial canopy cover: 2.25% Type of planting method: transplanting Maximum canopy cover: 60 days after transplant Root deepening: shallow-rooted crop (max.: 0.30) Canopy growth coefficient (CGC): 15%/days [ 32 ] Fertility stress Not considered Salinity and cold stress Temperature Base temperature for crop development: 7 °C Upper temperature for crop development: 30 °C Water Canopy expansion: moderately tolerant water stress Upper threshold for canopy expansion: 0.25 Lower threshold for canopy expansion: 0.55 Shape factor for stress coefficient of canopy expansion Stomatal closure: moderately sensitive to water stress Upper threshold for canopy expansion: 0.50 Shape factor for stress coefficient for stomatal closure: 3 Type Annuals: leafy vegetable crops Type of photosynthetic pathway: C3 crop From the FAO irrigation and drainage paper No.56 “Crop evapotranspiration” Irrigation Mode Generation of irrigation schedule Chosen by user preferences Irrigation method Drip irrigation Percentage of soil surface wetted: 30% Time and depth criteria Time criteria: allowable depletion (20% of RAW) Depth criteria: back to field capacity Irrigation water quality: excellent Field None Soil profile Characteristics of soil horizons Description: silty loam (clay (17.25%), silt (59.25%), and sand (23.5)) Thickness: 1.20 m TAW: 130 mm/m PWP: 13 vol% FC: 26.0 vol% SAT: 46 vol% Hydraulic conductivity: 150 mm/day Measured through soil texture and structure analyses, performed in the CIHEAM Bari soil lab Groundwater None Open in a new tab ET c represents the potential evapotranspiration of the crop, which defines its water requirements. An effective irrigation schedule based on this model aims to replenish the ET c by supplying readily available water (RAW) within the plant’s effective root zone while minimizing water losses throughout the distribution system. This could be represented by Equation (5) [ 15 ]: R A W = M A D · ϴ f c − ϴ p w p · D r · 10 (5) where MAD is the management-allowed depletion (the fraction of total available water that is allowed to be depleted before the next event), θ fc is the volumetric water content at field capacity (cm 3 · cm −3 ), θ pwp is the volumetric water content at the permanent wilting point (cm 3 · cm −3 ), and Dr is the effective root zone depth in cm. RAW is expressed in mm. To streamline the calculation process, the AquaCrop model was employed to generate the irrigation schedule. Table 2 shows the resulting irrigation schedule. The irrigation management for this plot adhered to the generated schedule, with the daily gross irrigation requirements adjusted based on the observed rainfall during the growing season to prevent over-irrigation. The total amount of water supplied to the plot throughout the season was recorded using a water flowmeter installed upstream in the irrigation network. Table 2. Irrigation schedule generated by AquaCrop model for the irrigation of the control plot. Date Net Application (mm) 2 May 9 8 May 8 12 May 5.3 18 May 4.9 23 May 5.9 25 May 7.3 27 May 4.8 29 May 5 1 June 4.6 3 June 6.9 9 June 5.4 11 June 7.2 13 June 6.9 17 June 4.8 18 June 4.1 19 June 4 20 June 4.1 22 June 5.5 23 June 6.2 24 June 4.8 27 June 9.2 28 June 5 29 June 4.1 30 June 4.3 2 July 7.2 Open in a new tab AquaCrop was developed by the Food and Agriculture Organization (FAO) [ 33 ] as a tool to estimate the growth and yield of herbaceous crops, with a particular emphasis on wa",
+  "links": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+      "label": "Account settings"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+      "label": "Journal List"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/pdf/sensors-25-01568.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+      "label": "PMC Disclaimer"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+      "label": "PMC Copyright Notice"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"Sensors%20(Basel)\"[jour]",
+      "label": "Search in PMC"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Sensors%20(Basel)\"[jour]",
+      "label": "Search in PubMed"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"Sensors%20(Basel)\"[Title%20Abbreviation]",
+      "label": "View in NLM Catalog"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/?term=\"Sensors%20(Basel)\"[jour]",
+      "label": "Add to search"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Abdelmoneim%20AA\"[Author]",
+      "label": "Ahmed A Abdelmoneim"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Al%20Kalaany%20CM\"[Author]",
+      "label": "Christa M Al Kalaany"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Dragonetti%20G\"[Author]",
+      "label": "Giovana Dragonetti"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Derardja%20B\"[Author]",
+      "label": "Bilal Derardja"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Khadra%20R\"[Author]",
+      "label": "Roula Khadra"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40096482/",
+      "label": "40096482"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g001.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/table/sensors-25-01568-t001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/table/sensors-25-01568-t002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g002.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g003.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g005.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g006.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f006/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g007.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f007/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g008.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f008/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g009.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f009/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g010.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f010/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11902337_sensors-25-01568-g011.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/figure/sensors-25-01568-f011/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11902337/table/sensors-25-01568-t003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11193756/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38909134/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15286143/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9967655/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36837963/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7014303/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31936425/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5017457/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27537881/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7348898/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32630361/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11548622/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39517755/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10384587/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37512706/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8399650/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34450826/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570759/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32906820/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11768944/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39860712/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+      "label": "NCBI RSS feed"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/web_policies.html",
+      "label": "Web Policies"
+    },
+    {
+      "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "label": "HHS Vulnerability Disclosure"
+    },
+    {
+      "url": "https://support.nlm.nih.gov/",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/accessibility.html",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/careers/careers.html",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/",
+      "label": "NLM"
+    },
+    {
+      "url": "https://www.nih.gov/",
+      "label": "NIH"
+    },
+    {
+      "url": "https://www.hhs.gov/",
+      "label": "HHS"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "fetched_at": "2026-10-28T09:25:12.198120+00:00",
+  "sha256": "9c5f35aa490dfce7c4a7886fb929f4adf8d16b2ff6893f153594f7bbddad88ca",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

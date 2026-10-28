@@ -1,0 +1,35 @@
+{
+  "requested": 5,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+      "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12196858/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1526648/full",
+      "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1526648/full",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.cdfa.ca.gov/is/ffldrs/frep/FertilizationGuidelines/Alfalfa.html",
+      "canonical_url": "https://www.cdfa.ca.gov/is/ffldrs/frep/FertilizationGuidelines/Alfalfa.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

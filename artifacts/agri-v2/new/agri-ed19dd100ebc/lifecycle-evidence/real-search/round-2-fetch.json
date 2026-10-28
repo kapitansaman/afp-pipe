@@ -3,40 +3,39 @@
   "loaded": 4,
   "sources": [
     {
-      "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-      "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-      "redirect_hops": 0,
-      "status": "fetched"
-    },
-    {
-      "url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag",
-      "canonical_url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag/",
+      "url": "https://extension.umn.edu/growing-forages/managing-alfalfa-winter-injury",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/managing-alfalfa-winter-injury",
       "redirect_hops": 1,
       "status": "fetched"
     },
     {
-      "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
-      "canonical_url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-establishment-management-strategies",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-establishment-management-strategies",
       "redirect_hops": 0,
       "status": "fetched"
     },
     {
-      "url": "https://agcrops.osu.edu/newsletter/corn-newsletter/2025-20/soil-crusting-and-herbicide-carryover",
-      "status": "unavailable",
-      "category": "http_error",
-      "temporary": true,
-      "http_status": 403
+      "url": "https://extension.umn.edu/planting-forages/alfalfa-establishment-management-strategies",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-establishment-management-strategies",
+      "redirect_hops": 1,
+      "status": "fetched"
     },
     {
-      "url": "https://www.canr.msu.edu/news/improving_soybean_emergence_in_soils_prone_to_crusting",
-      "status": "unavailable",
-      "category": "source_policy_or_content_rejected",
-      "temporary": false
-    },
-    {
-      "url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
-      "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/harvesting-and-storing-home-garden-vegetables",
+      "canonical_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/harvesting-and-storing-home-garden-vegetables",
       "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/commercial-kitchens/keep-food-safe-with-time-and-temperature-control",
+      "canonical_url": "https://extension.umn.edu/food/preparing/commercial-kitchens/keep-food-safe-with-time-and-temperature-control",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/food-service/keep-food-safe-time-and-temperature-control",
+      "canonical_url": "https://extension.umn.edu/food/preparing/commercial-kitchens/keep-food-safe-with-time-and-temperature-control",
+      "redirect_hops": 1,
       "status": "fetched"
     }
   ]

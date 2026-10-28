@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://extension.usu.edu/yardandgarden/fruits-vegetables-herbs",
+      "canonical_url": "https://extension.usu.edu/yardandgarden/fruits-vegetables-herbs",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

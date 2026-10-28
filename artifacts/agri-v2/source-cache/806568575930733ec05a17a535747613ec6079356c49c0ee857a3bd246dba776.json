@@ -1,0 +1,485 @@
+{
+  "url": "https://www.pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+  "requested_url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+  "redirect_chain": [
+    "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+    "https://www.pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html"
+  ],
+  "text": "[table row] Installation Cost | Typical units in articles: Total Cost ($) [table row] Installation Cost | Units stored in tool: $/acre [table row] Installation Cost | Reason for final units: Accounts for different sizes of farms [table row] Installation Cost | Unit Conversion Method: Total price of the system was divided by the total acreage [table row] Power | Typical units in articles: $/AI [table row] Power | Units stored in tool: kWh/AI [table row] Power | Reason for final units: Allows the tool to account for different fuel sources and more accurately account for the amount of time the system is in use [table row] Power | Unit Conversion Method: Converted using the energy density and cost of the given fuel source [table row] Labor | Typical units in articles: $/AI [table row] Labor | Units stored in tool: Hours/AI [table row] Labor | Reason for final units: Allows the tool to account for the hourly wage users pay their employees [table row] Labor | Unit Conversion Method: Converted by dividing the cost per acre-inch by the hourly wage that the article states were paid to employees [table row] Maintenance | Typical units in articles: $/AI [table row] Maintenance | Units stored in tool: $/AI [table row] Maintenance | Reason for final units: Accurately accounts for the amount of time that the system is in use [table row] Maintenance | Unit Conversion Method: N/A Estimating Financial Costs and Benefits of Supplemental Irrigation with the Irrigation Financial Estimator Tool (IFET) | VCE Publications | Virginia Tech Estimating Financial Costs and Benefits of Supplemental Irrigation with the Irrigation Financial Estimator Tool (IFET) ID BSE-237P (BSE-358P) Authors as Published Authored by J. Mitchell Paoletti, Research Assistant, Virginia Tech Department of Biological Systems Engineering and Julie Shortridge, Assistant Professor and Extension Specialist, Virginia Tech Department of Biological Systems Engineering EXPERT REVIEWED Introduction Virginia agriculture has historically relied mostly on rainfall to water crops. For instance, a recent census taken by the U.S. Department of Agriculture (USDA) shows that only a small portion of Virginia’s farmland, about 70,000 acres, is irrigated (USDA 2014). However, in recent years, farmers in humid regions like Virginia have shown increased interest in irrigation. In fact, crop irrigation has increased in almost every state east of the Mississippi River over the past 10 years (Walton 2014). Studies show that irrigating crops can significantly increase their yield and save an agricultural producer’s harvest in times of drought. Still, farmers must also consider the additional costs before deciding to purchase an irrigation system. Irrigation systems have a high initial investment cost and additional annual operating expenses. One irrigation professional was recently quoted as saying “the cost of power is usually the biggest shock to a new irrigator” (Scates 2016). Determining whether the potential additional income earned from higher yields is worth the cost of installing an irrigation system is difficult to do, particularly in places like Virginia where, in many years, rainfall alone may be sufficient for crop water needs. The purpose of this publication is to describe the Irrigation Financial Estimator Tool (IFET). IFET is a Microsoft Excel spreadsheet tool to help Virginia’s row crop producers determine if it is financially advantageous to install an irrigation system on their farm. The tool is available for download from the Virginia Cooperative Extension website. Users input information about their farm, including location, size, crops grown, and soil type, as well as information about the desired irrigation system. The tool then calculates and provides a summary of financial returns that could result from installing an irrigation system on the farm with the specified characteristics. The report includes system purchase and installation costs, and annual operating expenses associated with fuel, labor, and maintenance. The tool also calculates the added revenue from increased crop yields a producer might expect to obtain with irrigation. Precise financial returns will always be uncertain due to variability in rainfall, crop response to water deficits in a specific location, and prices for crops, fuel, and the irrigation system itself. The tool accounts for this uncertainty and presents a range of values for system costs and benefits. This information can be used to estimate typical irrigation costs, compare different types of systems and irrigation scheduling methods, and determine if it is economically advantageous to install an irrigation system. Irrigation Financial Estimator Tool Calculations IFET works by combining user-provided information on farm characteristics with data on irrigation costs, historic weather and crop price data, and crop/ water response information. These figures are used to calculate a range of values for installation costs, operating costs, and additional revenues. IFET estimates installation costs for irrigation system type and size specified by the user, assuming all acres specified by the user are under irrigation. It then calculates how much irrigation water is needed and the yield improvements that would result from this additional water. The tool then uses this information to estimate the operating costs and additional revenue earned by applying that volume of water. An overview of this process is provided in figure 1, and additional details are described below. Figure 1: Overview of how the tool calculates costs and revenues. To estimate irrigation cost and benefit information, IFET requires users to input information about their farm operation along with financial information associated with the purchase of an irrigation system. Users specify where their farm is located, how many acres of each crop are grown, and the predominant type of soil. This data specifies which yield equation and weather data to use when calculating rain-fed and irrigated crop yield. IFET requires users to select which type of irrigation system they want the tool to analyze, along with some information about how the system will be financed. IFET uses this information to output cost information based on the selected system and information entered in the previous sections. Figure 2 shows the user input section of the tool and the information that users are required to enter. After all information has been entered, IFET calculates the annual costs of purchasing and operating the chosen irrigation system. Operating expenses are calculated based on the volume of irrigation water applied. Applied irrigation water is calculated by one of two user-selected options: “Rainfall Deficit” or “Scheduled.” If users select “Rainfall Deficit,” the tool assumes that the irrigation water applied is the minimum amount of water necessary to cover the deficit from rainfall and achieve maximum yield as determined by the crop modeling software AquaCrop version 6.1 (FAO 2018). This method would be appropriate if a grower planned on using soil moisture sensors or weather-based scheduling apps to apply water. If a user selects “Scheduled,” then the tool assumes that the same amount of irrigation water is applied each week. For instance, if a grower applied one inch of water per week throughout the growing season, this would be “scheduled.” If the “Rainfall Deficit” method is selected, then no information about the amount of water applied per week is necessary. IFET uses crop price data along with information on how crop yields respond to water deficits to calculate additional revenues from irrigating. IFET selects a random historic year within its dataset and uses stored weather information and equations to calculate rain-fed and irrigated yields that would be expected based on weather conditions for that year. IFET takes this estimated yield and uses historic crop prices to determine the estimated income for that year. The difference between income earned from the maximum irrigated yield and rain-fed yield is the additional estimated income that could result from using irrigation. Figure 2: The user-input section of the tool. When users click on a box to enter information, a guidance box (shown in light yellow) will appear that provides more detail about the information required. At the bottom, the suggested useful life for different types of systems is included for reference; users do not have to enter any information in this section. After users have entered all information, they click the “Calculate” button to see results. Many uncertain factors ultimately influence the costs and revenues associated with irrigating. For instance, no one can predict exactly how much rain will occur during the next 10 years or even if they will be wetter or dryer than average. No one can know for certain what crop or energy prices will be in coming years. In addition, certain conditions at an individual farm may make irrigation more or less expensive than it is on average. All of these issues mean there is uncertainty in any cost estimate, and it is important to account for such uncertainty. This is accomplished in IFET by repeating the above process thousands of times using different years of climate and cost data stored within the tool. By repeating the same process but with different data, the tool can account for the range of financial outcomes that could occur. From the calculated results, the tool presents the average, lower estimate, and upper estimate of costs and benefits. This way of displaying data provides information on the potential range of financial outcomes that might result from irrigating. How to Interpret Tool Outputs This section describes what results users can expect to see within the tool. Within IFET, the “Results Summary” allows users to see the estimated costs and benefits expected from purchasing an irrigation system. On this tab, users will see a table and a pie chart as shown in Figure 3. The table on this tab shows the breakdown of installation costs and operating expenses. At the bottom of the table, users will see a section about anticipated increased revenues. This section presents information about the potential additional income a producer could earn if their farm were irrigated. “Average annual additional income with irrigation” is the difference between income earned with irrigation and without irrigation. “Average Annual Net Revenue (including loan repayment)” is that same additional income minus the operating costs and loan repayment expenses. “Average Annual Net Revenue” (not including loan repayment) is the additional income minus operating costs, without including the annual loan repayment. This represents additional revenue with irrigation after the loan has been repaid. The pie chart on this tab graphically shows users the distribution of annual expenses. For example, Figure 3 shows users that the largest annual irrigation-related expenses that they should expect are fuel and loan repayment. The tab labeled “Detailed Cost Results” presents more information about the costs of purchasing and operating an irrigation system. Similar to the results summary tab, this tab contains a table and pie charts (figure 4). The table gives users a range of expected annual expenses that accounts for uncertainty stemming from system operation requirements, water requirements, and fuel costs. The two pie charts are similar to the one on the “Results Summary” tab, but show the full range of cost estimates. For instance, in Figure 4, users can see that average annual fuel costs for irrigation are likely to range from $6,200 to $11,300. The final tab in the tool is the “Detailed Benefits Results” tab. This tab shows users a range of additional revenue they can expect from additional yield under irrigation. This tab contains a table and several different graphs. The table (Figure 5) shows the range of benefits that users can expect including average additional annual income, additional revenue after operating expenses, and additional revenue after operating expenses and loan repayment. These values all represent long-term averages over the expected life of the irrigation system. Of course, the system will not result in the same amount of increased revenue each year. Added revenues will be highest in years with little rainfall and high crop prices. In years with heavy rainfall, operating the irrigation system may not result in any increased revenue at all. Figure 3: Results summary tab. This tab presents a table with a summary of different costs and expected additional revenue, as well as a pie chart showing the breakdown of annual costs. Results shown here are for a center pivot system growing 100 acres of corn in Culpeper County on loamy soil. Figure 4: Lower, average, and upper cost estimates for a center pivot system in Culpeper County for growing 100 acres of corn on loamy soil. Figure 5: Lower, average, and upper estimates of average annual additional revenue from irrigating. The graphs on this tab are designed to also help users see the factors that influence these year-to-year changes. Figure 6 shows two graphs that display projected income for 25 possible sample years. The top graph compares the income a producer would earn with and without irrigation, year-by-year. The bottom graph shows the additional income generated from irrigating (in other words, the difference between the irrigated and non-irrigated revenues shown in the top graph). It shows that in most years, using an irrigation system results in higher net revenue. However, there are years when operating costs and loan repayment expenses are greater than the additional income from irrigated yields. This situation is likely due to years of higher rainfall when irrigation makes less of an impact on yield. It is important to realize that this is not a prediction of how much additional income users will earn in a particular year, since no one can predict exactly how much rainfall will occur. However, it is a random selection of years that shows, on average, how often the grower can expect to earn additional revenue. The detailed benefits tab also shows how revenues from irrigation are impacted by the amount of growing season rainfall and crop commodity prices (figure 7). The top graph shows how additional revenue is possible with any amount of rainfall below about 23 inches. However, even in dry years, revenue can vary significantly based on crop prices. Collectively, these graphs demonstrate how both rainfall and crop prices contribute to the amount of additional revenue possible with irrigation. Figure 6: Twenty-five year projection of possible revenues with and without irrigation. Figure 7: Graphs showing how additional income from irrigating varies based on rainfall during the growing season (top) and crop prices (bottom). Limitations, Assumptions, and Future Improvements IFET was designed to be widely applicable to multiple irrigation system types, locations, farm sizes, crops, and soil types across the state. However, to make a tool that would apply in many different contexts, some simplifications and assumptions were made that limit the precision of the tool’s estimates. One simplification is that estimated rain-fed crop yields are based only on growing season rainfall and whether prolonged dry periods occurred. The tool does not account for the timing of when rainfall and dry periods occur during the growing season, and the different impacts that these can have on crop growth (although this was accounted for in the AquaCrop model). Also, the tool assumes that no other factors, such as nutrient shortages or pest damage, reduce estimated yields. Another assumption is that the cost per acre of each irrigation system is constant. Costs for each system are stored as cost per acre, and multiplied by the acres of a user’s farm to give the total installation cost. In reality, installation costs per acre will likely be higher for small farms than they are for large farms. For example, center pivot irrigation systems have a high initial cost and certain equipment that is required regardless of the farm size (such as the pivot point, drive unit, and control box), but have a low cost to scale up to larger farms since this may only require additional spans and flow capacity. Thus, users installing a center pivot on a large parcel may find that their installation costs are towards the lower end of the range provided. The opposite is true of subsurface drip irrigation systems. They have a much lower initial installation cost on smaller plots of land compared to a center pivot but their installation cost is higher with larger plots of land (O’Brien et al. 1998). IFET includes many, but not all, of the costs associated with installing and operating an irrigation system. For instance, IFET does not consider the costs of taxes and insurance since that information can differ substantially depending on the farm location and operational details, and the available studies used to estimate tax costs were not based in Virginia. For similar reasons, IFET does not include depreciation and the salvage value of equipment, assuming instead that users will keep the irrigation system until the end of its useful life. Finally, the tool does not include costs associated with obtaining a water withdrawal permit, which may be required to pump groundwater in Eastern regions of Virginia. For more information associated with obtaining a groundwater withdrawal permit, please see Virginia Cooperative Extension Publication BSE-215P, “Using Groundwater for Agricultural Irrigation in Virginia.” This first edition of IFET can provide initial information for planning purposes. Future versions will include improvements in terms of accuracy, scope, and areas of coverage. A current limitation within the tool is that it is only applicable to Virginia farmers, but in future research we hope to expand the tool’s coverage to other regions in the Southeast and Mid- Atlantic with similar climate and cropping conditions. Additionally, the tool’s current form requires that users have the ability to download and run Microsoft Excel on their computer. In future work, we hope to host the tool online, allowing easier access. The tool currently only allows users to pick from four crops and four irrigation system types. Future versions could also allow users to have more options of irrigation systems and types of crops. Future upgrades will allow users to select more than two different types of crops and account for crop rotations within fields. These versions will allow users to see a side-by-side comparison of cost-benefit information for different irrigation systems paired with different crops or crop rotations. All updates to the tool will be maintained on the Virginia Cooperative Extension website so that users can have access to the newest improvements. Conclusion Effective, well-managed irrigation can improve crop yields and farm revenues. However, installing an irrigation system is expensive, both in the initial expense and operating costs. Deciding whether or not to install an irrigation system requires producers to determine if these costs will lead to sufficient financial returns. The Irrigation Financial Estimator Tool provides estimated cost/benefit projections based on user-supplied information unique to an individual farm. While precisely predicting the costs and revenue associated with irrigation in a specific operation is impossible, IFET allows users to see a range of possible financial outcomes. By reviewing this information, growers can be better informed about the financial impacts of using irrigation. Acknowledgements The Irrigation Financial Estimator Tool and the information presented in this bulletin were developed through support from USDA/NIFA (National Institute of Food and Agriculture) under Award Number 2015- 49200-24228. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of USDA/NIFA. The authors would like to thank Dr. Brian Benham, professor of Biological Systems Engineering at Virginia Tech; Dr. Jose Payero, irrigation specialist at Clemson University; Mike Parrish, VCE agent for Dinwiddie County; and Watson Lawrence, VCE agent for the City of Chesapeake, for their review of this bulletin. Appendix - How the Tool was Created Irrigation System Cost Data The first step in developing IFET was to determine the initial investment costs and annual operating expenses associated with different types of irrigation systems. To ensure that these costs were both recent and accurate, we obtained cost data only from peer- reviewed scientific articles, Extension documents, and manufacturer websites that were published after 1990. Data from 14 documents were integrated into the tool, most of which included cost information on more than one irrigation system. From these documents, information was taken regarding four common irrigation systems: center pivot, linear move, subsurface drip, and hose pull. For each system, the tool considers three operating expenses: power necessary to operate the system, labor required to operate the system, and maintenance costs. Costs that were omitted include insurance, depreciation, cost of water and withdrawal permits, and opportunity cost. These costs were omitted because this information is often specialized to the specific location of a study and based on estimates that made them incompatible with the objectives of this tool. Each system has different initial installation costs and operating expenses, and different sources estimated different costs for the same type of system as well. Each individual study had a different method of calculating cost information that had to be converted into a consistent format for the tool. This was done by converting power requirements into kilowatt-hours (kWh) per acre-inch (AI), labor requirements into hours per acre-inch, maintenance cost into cost per acre-inch, and installation cost into cost per acre. Table 1 shows the typical units that these expenses were given in, the final units used within the tool, and the reasoning and methodology behind this conversion. Additional Yields and Revenue from Irrigation The AquaCrop model was used to estimate rain- fed and irrigated crop yields for four crops (corn, soybeans, wheat, and cotton) and seven soil types (silt loam, silt clay loam, loam, sandy loam, silt, loamy sand, and silt clay) using historic weather data (PRISM Climate Group, n.d.). While modeled yields will never be perfectly accurate, model results were validated against yields reported to the USDA National Agricultural Statistics Service (USDA 2018a). These model results were then used to develop regression equations that predicted yields for each combination of crop and soil type based on total growing season rainfall and the occurrence of prolonged dry periods. The tool uses these equations to estimate the difference between rain-fed yields and irrigated yields for a given amount of rainfall. IFET estimates revenues using historic crop prices from 1981 to 2016 taken from the USDA (USDA 2018b). These crop prices, along with 35 years of historic weather data on growing season rainfall and the occurrence of dry spells for each county in Virginia, is stored within the tool. By using historic crop prices along with estimated rain-fed and irrigated yields, the additional revenue from irrigation could be estimated. Table 1. Summary of operating costs, how they were converted, and the rationale for this conversion. Expense Typical units in articles Units stored in tool Reason for final units Unit Conversion Method Installation Cost Total Cost ($) $/acre Accounts for different sizes of farms Total price of the system was divided by the total acreage Power $/AI kWh/AI Allows the tool to account for diffe",
+  "links": [
+    {
+      "url": "https://www.pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.vt.edu",
+      "label": "Virginia Tech® home"
+    },
+    {
+      "url": "https://www.vt.edu/accessibility/barrier.html",
+      "label": "Report a barrier"
+    },
+    {
+      "url": "https://www.vt.edu/accessibility.html",
+      "label": "Accessibility portal"
+    },
+    {
+      "url": "https://www.vt.edu/apply.html",
+      "label": "Apply"
+    },
+    {
+      "url": "https://www.vt.edu/visit.html",
+      "label": "Visit"
+    },
+    {
+      "url": "https://give.vt.edu",
+      "label": "Give"
+    },
+    {
+      "url": "https://www.vt.edu/plates",
+      "label": "Hokie License Plates Part of every Virginia Tech plate purchase funds scholarships"
+    },
+    {
+      "url": "https://www.vt.edu/admissions.html",
+      "label": "Future Students"
+    },
+    {
+      "url": "https://www.vt.edu/resources/current-students.html",
+      "label": "Current Students"
+    },
+    {
+      "url": "https://www.vt.edu/resources/parents-and-families.html",
+      "label": "Parents and Families"
+    },
+    {
+      "url": "https://www.vt.edu/resources/faculty-and-staff.html",
+      "label": "Faculty and Staff"
+    },
+    {
+      "url": "https://alumni.vt.edu",
+      "label": "Alumni"
+    },
+    {
+      "url": "https://www.vt.edu/link.html",
+      "label": "Industry and Partners"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/",
+      "label": "Publications and Educational Resources"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/agriculture-nav-redirect.html",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/community-leadership-nav-redirect.html",
+      "label": "Community & Leadership"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/natural-resources-nav-redirect.html",
+      "label": "Natural Resources"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/family-nav-redirect.html",
+      "label": "Family"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/food-health-nav-redirect.html",
+      "label": "Food & Health"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/lawn-garden-nav-redirect.html",
+      "label": "Lawn & Garden"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/4h-nav-redirect.html",
+      "label": "4-H Youth Development"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/new-and-revised.html",
+      "label": "New and revised"
+    },
+    {
+      "url": "https://vt.edu/apply.html",
+      "label": "Apply"
+    },
+    {
+      "url": "https://vt.edu/visit.html",
+      "label": "Visit"
+    },
+    {
+      "url": "https://vt.edu/admissions.html",
+      "label": "Future Students"
+    },
+    {
+      "url": "https://vt.edu/resources/current-students.html",
+      "label": "Current Students"
+    },
+    {
+      "url": "https://vt.edu/resources/parents-and-families.html",
+      "label": "Parents and Families"
+    },
+    {
+      "url": "https://vt.edu/resources/faculty-and-staff.html",
+      "label": "Faculty and Staff"
+    },
+    {
+      "url": "https://vt.edu/resources/industry-and-partners.html",
+      "label": "Industry and Partners"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/",
+      "label": "VCE Publications /"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE.html",
+      "label": "BSE /"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-237.html",
+      "label": "BSE-237 /"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+      "label": "Estimating Financial Costs and Benefits of Supplemental Irrigation with the Irrigation Financial Estimator Tool (IFET) /"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-215P.html",
+      "label": "BSE-215P"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-226.html",
+      "label": "BSE-226"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-234.html",
+      "label": "BSE-234"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-237A.html",
+      "label": "BSE-237A"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-284.html",
+      "label": "BSE-284"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-342.html",
+      "label": "BSE-342"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-341.html",
+      "label": "BSE-341"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-339.html",
+      "label": "BSE-339"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-338.html",
+      "label": "BSE-338"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-348.html",
+      "label": "bse-348"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-349.html",
+      "label": "bse-349"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-352.html",
+      "label": "bse-352"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-351.html",
+      "label": "bse-351"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-357.html",
+      "label": "bse-357"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-346.html",
+      "label": "bse-346"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-362.html",
+      "label": "bse-362"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-367.html",
+      "label": "BSE-367"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-368.html",
+      "label": "BSE-368"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-369.html",
+      "label": "bse-369"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-371.html",
+      "label": "bse-371"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-372.html",
+      "label": "bse-372"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-370.html",
+      "label": "bse-370"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-375.html",
+      "label": "BSE-375"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-374.html",
+      "label": "bse-374"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-376.html",
+      "label": "bse-376"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-382.html",
+      "label": "Healthy Streams - Minnows"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-383.html",
+      "label": "Healthy Streams - Aquatic Insects"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-395-sodium-in-drinking-water.html",
+      "label": "Sodium in Drinking Water"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-388-drinking-water-advisories.html",
+      "label": "Drinking Water Advisories"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-389-whats-in-your-water.html",
+      "label": "What’s in your water? Understanding a Consumer Confidence Report (CCR)"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-390-drinking-water-101-public-water-systems.html",
+      "label": "Drinking Water 101: Public Water Systems"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-391-manganese-in-private-well-water.html",
+      "label": "Manganese in Private Well Water"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-392-renters-and-private-wells.html",
+      "label": "Renters and Private Wells"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-394-PFAS-in-virginia-private-wells.html",
+      "label": "PFAS in Virginia Private Wells"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/bse-393-rainwater-harvesting.html",
+      "label": "Rainwater Harvesting"
+    },
+    {
+      "url": "https://agcensus.library.cornell.edu/census_%20parts/2012-2013-farm-and-ranch-irrigation-survey/",
+      "label": "https://agcensus.library.cornell.edu/census_ parts/2012-2013-farm-and-ranch-irrigation-survey/"
+    },
+    {
+      "url": "https://quickstats.nass.usda.gov/",
+      "label": "https://quickstats.nass.usda.gov"
+    },
+    {
+      "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/croptr18.pdf",
+      "label": "Crop Production Historical Track Records. https://www.nass.usda.gov/Publications/Todays_Reports/ reports/croptr18.pdf."
+    },
+    {
+      "url": "https://ext.vt.edu/accessibility",
+      "label": "ext.vt.edu/accessibility"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/BSE/bse-237/BSE-358.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/BSE/BSE-237A/BSE-237A.html",
+      "label": "Supplemental Irrigation with the Irrigation Financial Estimator Tool (IFET)-Workbook (HTML)"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/author/p/paoletti-mitchell-j.resource.html",
+      "label": "J. Mitchell Paoletti"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/author/s/shortridge_julie.resource.html",
+      "label": "Julie Shortridge"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/tags.html/pubs_ext_vt_edu:agricultural-financial-mgmt",
+      "label": "Agricultural Financial Mgmt."
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/tags.html/pubs_ext_vt_edu:location/biological-systems-engineering",
+      "label": "Biological Systems Engineering"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/tags.html/pubs_ext_vt_edu:location/department/biological-systems-engineering",
+      "label": "Biological Systems Engineering"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/tags.html/pubs_ext_vt_edu:expert-reviewed",
+      "label": "Expert-Reviewed"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/tags.html/pubs_ext_vt_edu:farm-business-mgmt-planning",
+      "label": "Farm Business Mgmt. & Planning"
+    },
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/tags.html/pubs_ext_vt_edu:natural-resources-environmental-quality",
+      "label": "Natural Resources & Environmental Quality"
+    },
+    {
+      "url": "https://ext.vt.edu/navbar/jobs.html",
+      "label": "Jobs"
+    },
+    {
+      "url": "https://ext.vt.edu/navbar/volunteer.html",
+      "label": "Volunteering"
+    },
+    {
+      "url": "https://ext.vt.edu/navbar/internships.html",
+      "label": "Internships"
+    },
+    {
+      "url": "https://ext.vt.edu/navbar/giving.html",
+      "label": "Giving"
+    },
+    {
+      "url": "https://ext.vt.edu/navbar/local.html",
+      "label": "Local Offices"
+    },
+    {
+      "url": "https://ext.vt.edu/navbar/news.html",
+      "label": "News"
+    },
+    {
+      "url": "https://ext.vt.edu/navbar/about.html",
+      "label": "About"
+    },
+    {
+      "url": "https://ext.vt.edu/navbar/brand.html",
+      "label": "Brand Center"
+    },
+    {
+      "url": "https://ext.vt.edu/",
+      "label": "VCE Home"
+    },
+    {
+      "url": "https://ext.vt.edu/agriculture",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://ext.vt.edu/community-leadership",
+      "label": "Community and Leadership"
+    },
+    {
+      "url": "https://ext.vt.edu/family",
+      "label": "Family"
+    },
+    {
+      "url": "https://ext.vt.edu/food-health",
+      "label": "Food and Health"
+    },
+    {
+      "url": "https://ext.vt.edu/lawn-garden",
+      "label": "Lawn and Garden"
+    },
+    {
+      "url": "https://ext.vt.edu/natural-resources",
+      "label": "Natural Resources"
+    },
+    {
+      "url": "https://ext.vt.edu/4h-youth",
+      "label": "4-H Youth Development"
+    },
+    {
+      "url": "https://ext.vt.edu/offices.html",
+      "label": "Find your local office"
+    },
+    {
+      "url": "https://vt.edu",
+      "label": ""
+    },
+    {
+      "url": "https://vsu.edu",
+      "label": ""
+    },
+    {
+      "url": "https://www.vt.edu/maps/directions.html",
+      "label": "Get Directions"
+    },
+    {
+      "url": "https://www.vt.edu/maps.html",
+      "label": "See All Locations"
+    },
+    {
+      "url": "https://www.vt.edu/contacts.html",
+      "label": "Contact Virginia Tech"
+    },
+    {
+      "url": "https://www.vt.edu/status.html",
+      "label": "University Status"
+    },
+    {
+      "url": "https://www.vt.edu/principles-of-community.html",
+      "label": "Principles of Community"
+    },
+    {
+      "url": "https://www.vt.edu/privacy.html",
+      "label": "Privacy Statement"
+    },
+    {
+      "url": "https://www.vt.edu/acceptable-use.html",
+      "label": "Acceptable Use"
+    },
+    {
+      "url": "https://www.weremember.vt.edu/",
+      "label": "We Remember"
+    },
+    {
+      "url": "https://lib.vt.edu",
+      "label": "University Libraries"
+    },
+    {
+      "url": "https://aie.vt.edu/analytics-and-ai/public-disclosure-requirements/student-consumer-information.html",
+      "label": "Consumer Information"
+    },
+    {
+      "url": "https://www.vt.edu/admissions/cost-and-aid.html",
+      "label": "Cost & Aid"
+    },
+    {
+      "url": "https://safe.vt.edu",
+      "label": "SAFE at VT"
+    },
+    {
+      "url": "https://policies.vt.edu",
+      "label": "Policies"
+    },
+    {
+      "url": "https://www.vt.edu/equal-opportunity.html",
+      "label": "Equal Opportunity"
+    },
+    {
+      "url": "https://jobs.vt.edu",
+      "label": "Jobs at Virginia Tech"
+    }
+  ],
+  "fetched_at": "2026-10-28T09:26:27.220941+00:00",
+  "sha256": "d4acf6a7573c67a45bde5c3f9e8f697190e0753b1a65f752233d23610bfe13b2",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

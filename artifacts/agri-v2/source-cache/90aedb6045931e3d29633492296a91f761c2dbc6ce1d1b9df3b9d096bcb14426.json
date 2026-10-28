@@ -1,0 +1,433 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/",
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
+  "redirect_chain": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/"
+  ],
+  "text": "[table row] Zenmuse L2 (LiDAR) | Type: Active laser scanning [table row] Zenmuse L2 (LiDAR) | Resolution: Point cloud rate: 1.2 M pts/s (multi-return) [table row] Zenmuse L2 (LiDAR) | Characteristics: 905 nm laser [table row] Zenmuse L2 (LiDAR) | Output Data: 3D point cloud (XYZI), depth map [table row] Zenmuse L2 (LiDAR) | Accuracy: 5 cm (planar), 4 cm (vertical) @150 m [table row] RedEdge-P (multispectral) | Type: Passive multispectral imaging [table row] RedEdge-P (multispectral) | Resolution: 1.6 MP × 5 bands; 5.1 MP panchromatic; GSD 2 cm @60 m [table row] RedEdge-P (multispectral) | Characteristics: Blue 475 nm, Green 560 nm, Red 668 nm, Red-edge 717 nm, NIR 842 nm [table row] RedEdge-P (multispectral) | Output Data: Reflectance imagery (5 bands), pan-sharpened image [table row] RedEdge-P (multispectral) | Accuracy: Geometric accuracy depends on RTK [table row] multispectral Imagery | Numbers: 15 [table row] multispectral Imagery | Format: TIF [table row] multispectral Imagery | Size: 32.8 GB [table row] multispectral Imagery | Description: Five spectral bands: Blue, Green, Red, Red Edge, and NIR [table row] multispectral Imagery | Application: Spectral reflectance analysis and vegetation index computation [table row] LiDAR Point Cloud | Numbers: 15 [table row] LiDAR Point Cloud | Format: LAS [table row] LiDAR Point Cloud | Size: 422.5 GB [table row] LiDAR Point Cloud | Description: Point density of 150–200 pts/m 2 ; includes intensity and additional attributes [table row] LiDAR Point Cloud | Application: Extraction of point-density and elevation-based features [table row] CY3H | Number of Data Batches: 6 [table row] CY3H | ROIs per Batch: 54 [table row] CY3H | Total ROIs: 324 [table row] CY3H | Valid Samples: 108 [table row] XM4H | Number of Data Batches: 4 [table row] XM4H | ROIs per Batch: 54 [table row] XM4H | Total ROIs: 216 [table row] XM4H | Valid Samples: 72 [table row] ZM10H | Number of Data Batches: 5 [table row] ZM10H | ROIs per Batch: 54 [table row] ZM10H | Total ROIs: 270 [table row] ZM10H | Valid Samples: 90 [table row] Total | Number of Data Batches: 15 [table row] Total | ROIs per Batch: 162 [table row] Total | Total ROIs: 810 [table row] Total | Valid Samples: 270 [table row] NDVI | Calculation Formula: NDVI = N I R − R e d N I R + R e d [table row] NDRE | Calculation Formula: NDRE = N I R − R e d E d g e N I R + R e d E d g e [table row] GNDVI | Calculation Formula: GNDVI = N I R − G r e e n N I R + G r e e n [table row] MSR | Calculation Formula: MSR = N I R R e d − 1 N I R R e d + 1 [table row] EVI | Calculation Formula: EVI = 2.5 ⋅ N I R − R e d N I R + 6 ⋅ R e d − 7.5 ⋅ B l u e + 1 [table row] SAVI | Calculation Formula: SAVI = 1.5 ⋅ N I R − R e d N I R + R e d + L [table row] multispectral features | Representative Features: NDVI, NDRE, GNDVI, MSR, EVI, SAVI [table row] multispectral features | Quantity: 42 [table row] multispectral features | Description: Pixel statistics, quantiles, and distribution characteristics from 5 bands (Blue/Green/Red/RedEdge/NIR). [table row] LiDAR features | Representative Features: IntensityMean, LiDAR_area_m2, IntensityStd, Hcv [table row] LiDAR features | Quantity: 4 [table row] LiDAR features | Description: Based on the normalization of point cloud convex hull area and height, it mainly reflects the variation of echo intensity, structural area, and canopy morphology. [table row] ROI geometric features | Representative Features: roi_area_m2, count_total_pixels [table row] ROI geometric features | Quantity: 2 [table row] ROI geometric features | Description: Characterize the area and coverage of the sample plot to express data integrity and scale information. [table row] Handling variables | Representative Features: Fertilizer level [table row] Handling variables | Quantity: 1 [table row] Handling variables | Description: Independent variables related to experimental treatment, used to characterize the effect of treatment level on biomass. [table row] ANN | R 2: 0.413 [table row] ANN | RMSE: 0.318 [table row] ANN | MAE: 0.234 [table row] DNN | R 2: 0.611 [table row] DNN | RMSE: 0.258 [table row] DNN | MAE: 0.205 [table row] SVM-Linear | R 2: 0.760 [table row] SVM-Linear | RMSE: 0.203 [table row] SVM-Linear | MAE: 0.170 [table row] SVM-RBF | R 2: 0.734 [table row] SVM-RBF | RMSE: 0.214 [table row] SVM-RBF | MAE: 0.160 [table row] Random Forest (500 trees) | R 2: 0.763 [table row] Random Forest (500 trees) | RMSE: 0.201 [table row] Random Forest (500 trees) | MAE: 0.150 [table row] Random Forest (100 trees) | R 2: 0.769 [table row] Random Forest (100 trees) | RMSE: 0.199 [table row] Random Forest (100 trees) | MAE: 0.164 [table row] Extra Trees | R 2: 0.784 [table row] Extra Trees | RMSE: 0.192 [table row] Extra Trees | MAE: 0.158 [table row] HGB | R 2: 0.798 [table row] HGB | RMSE: 0.186 [table row] HGB | MAE: 0.152 [table row] Ensemble (RF + ET + HGB) | R 2: 0.813 [table row] Ensemble (RF + ET + HGB) | RMSE: 0.178 [table row] Ensemble (RF + ET + HGB) | MAE: 0.146 [table row] Early regrowth stage | R 2: 0.885 [table row] Early regrowth stage | MAE: 0.070 kg m −2 [table row] Early regrowth stage | RMSE: 0.086 kg m −2 [table row] Branching stage | R 2: 0.917 [table row] Branching stage | MAE: 0.034 kg m −2 [table row] Branching stage | RMSE: 0.040 kg m −2 [table row] Bud stage | R 2: 0.467 [table row] Bud stage | MAE: 0.142 kg m −2 [table row] Bud stage | RMSE: 0.183 kg m −2 [table row] Early flowering stage | R 2: 0.802 [table row] Early flowering stage | MAE: 0.043 kg m −2 [table row] Early flowering stage | RMSE: 0.049 kg m −2 [table row] Mid-flowering stage | R 2: 0.621 [table row] Mid-flowering stage | MAE: 0.117 kg m −2 [table row] Mid-flowering stage | RMSE: 0.122 kg m −2 [table row] Full flowering stage | R 2: 0.823 [table row] Full flowering stage | MAE: 0.074 kg m −2 [table row] Full flowering stage | RMSE: 0.091 kg m −2 [table row] Seed 1 | R 2: 0.813 [table row] Seed 1 | RMSE: 0.178 [table row] Seed 1 | MAE: 0.146 [table row] Seed 2 | R 2: 0.805 [table row] Seed 2 | RMSE: 0.182 [table row] Seed 2 | MAE: 0.151 [table row] Seed 3 | R 2: 0.821 [table row] Seed 3 | RMSE: 0.174 [table row] Seed 3 | MAE: 0.143 [table row] Seed 4 | R 2: 0.809 [table row] Seed 4 | RMSE: 0.181 [table row] Seed 4 | MAE: 0.149 [table row] Seed 5 | R 2: 0.816 [table row] Seed 5 | RMSE: 0.176 [table row] Seed 5 | MAE: 0.147 [table row] Top10 | R 2: 0.799 [table row] Top10 | RMSE: 0.181 [table row] Top10 | MAE: 0.151 [table row] Top20 | R 2: 0.806 [table row] Top20 | RMSE: 0.179 [table row] Top20 | MAE: 0.148 [table row] Top30 | R 2: 0.804 [table row] Top30 | RMSE: 0.180 [table row] Top30 | MAE: 0.149 [table row] Top40 | R 2: 0.809 [table row] Top40 | RMSE: 0.179 [table row] Top40 | MAE: 0.147 [table row] Full | R 2: 0.813 [table row] Full | RMSE: 0.178 [table row] Full | MAE: 0.146 [table row] Multispectral vegetation index computation | Mean Time (s): 1.8 [table row] Multispectral vegetation index computation | Std (s): 0.3 [table row] Multispectral vegetation index computation | Percentage of Total (%): 28.6% [table row] Multispectral vegetation index computation | Remarks: Includes reflectance preprocessing and VI calculation [table row] LiDAR structural feature extraction | Mean Time (s): 4.5 [table row] LiDAR structural feature extraction | Std (s): 0.7 [table row] LiDAR structural feature extraction | Percentage of Total (%): 71.4% [table row] LiDAR structural feature extraction | Remarks: Voxelization and convex hull computation are main bottlenecks [table row] Model inference (ensemble prediction) | Mean Time (s): 0.023 [table row] Model inference (ensemble prediction) | Std (s): 0.005 [table row] Model inference (ensemble prediction) | Percentage of Total (%): <1% [table row] Model inference (ensemble prediction) | Remarks: Tree-based regression prediction [table row] Total per sample | Mean Time (s): 6.3 [table row] Total per sample | Std (s): 0.8 [table row] Total per sample | Percentage of Total (%): 100% [table row] Total per sample | Remarks: End-to-end processing time [table row] Low (<1.0) | Multispectral MAE: 0.150 [table row] Low (<1.0) | LiDAR MAE: 0.191 [table row] Low (<1.0) | Fusion MAE: 0.147 [table row] Low (<1.0) | Fusion Improvement (%): +2.0% [table row] Medium-low (1.0–1.3) | Multispectral MAE: 0.135 [table row] Medium-low (1.0–1.3) | LiDAR MAE: 0.162 [table row] Medium-low (1.0–1.3) | Fusion MAE: 0.143 [table row] Medium-low (1.0–1.3) | Fusion Improvement (%): −5.9% [table row] Medium-high (1.3–1.6) | Multispectral MAE: 0.141 [table row] Medium-high (1.3–1.6) | LiDAR MAE: 0.225 [table row] Medium-high (1.3–1.6) | Fusion MAE: 0.131 [table row] Medium-high (1.3–1.6) | Fusion Improvement (%): +7.1% [table row] High (>1.6) | Multispectral MAE: 0.241 [table row] High (>1.6) | LiDAR MAE: 0.309 [table row] High (>1.6) | Fusion MAE: 0.222 [table row] High (>1.6) | Fusion Improvement (%): +7.9% [table row] NDVI | Description: NDVI = N I R − R e d N I R + R e d [table row] NDVI | References: [ 45 ] [table row] NDRE | Description: NDRE = N I R − R e d E d g e N I R + R e d E d g e [table row] NDRE | References: [ 45 ] [table row] Hmax | Description: Maximum crop height (from LiDAR or DSM) [table row] Hmax | References: [ 45 ] [table row] Hmean | Description: Mean crop height [table row] Hmean | References: [ 45 ] [table row] Hstd | Description: Height standard deviation [table row] Hstd | References: [ 45 ] [table row] Hcv | Description: Height coefficient of variation [table row] Hcv | References: [ 45 ] [table row] EVI | Description: EVI = 2.5 ⋅ N I R − R e d N I R + 6 ⋅ R e d − 7.5 ⋅ B l u e + 1 [table row] EVI | References: [ 45 ] [table row] RedEdge_std | Description: Standard deviation of Red Edge reflectance [table row] RedEdge_std | References: [ 45 ] [table row] roi_area_m2 | Description: Region of interest area size (image) [table row] roi_area_m2 | References: [ 45 ] [table row] GNDVI | Description: GNDVI = N I R − G r e e n N I R + G r e e n [table row] GNDVI | References: [ 46 ] [table row] MSR | Description: MSR = N I R R e d − 1 N I R R e d + 1 [table row] MSR | References: [ 46 ] [table row] SAVI | Description: SAVI = 1.5 ⋅ N I R − R e d N I R + R e d + L [table row] SAVI | References: [ 46 ] [table row] Blue_mean | Description: Mean reflectance in Blue band [table row] Blue_mean | References: [ 46 ] [table row] Green_mean | Description: Mean reflectance in Green band [table row] Green_mean | References: [ 46 ] [table row] Red_mean | Description: Mean reflectance in Red band [table row] Red_mean | References: [ 46 ] [table row] RedEdge_mean | Description: Mean reflectance in Red Edge band [table row] RedEdge_mean | References: [ 46 ] [table row] NIR_mean | Description: Mean reflectance in Near-Infrared band [table row] NIR_mean | References: [ 46 ] [table row] Blue_std | Description: Standard deviation of Blue reflectance [table row] Blue_std | References: [ 46 ] [table row] Green_std | Description: Standard deviation of Green reflectance [table row] Green_std | References: [ 46 ] [table row] Red_std | Description: Standard deviation of Red reflectance [table row] Red_std | References: [ 46 ] [table row] Red_pct10 | Description: 10th percentile reflectance in Red band [table row] Red_pct10 | References: [ 46 ] [table row] Red_pct25 | Description: 25th percentile reflectance in Red band [table row] Red_pct25 | References: [ 46 ] [table row] Red_pct90 | Description: 90th percentile reflectance in Red band [table row] Red_pct90 | References: [ 46 ] [table row] NIR_std | Description: Standard deviation of NIR reflectance [table row] NIR_std | References: [ 46 ] [table row] count_total_pixels | Description: Total pixel count in ROI [table row] count_total_pixels | References: [ 46 ] [table row] Fertilizer_level | Description: Fertilizer application treatment level [table row] Fertilizer_level | References: [ 46 ] [table row] RedEdge_median | Description: Median reflectance in Red Edge band [table row] RedEdge_median | References: [ 47 ] [table row] density_veg_pt_m2 | Description: Vegetation point density per m 2 [table row] density_veg_pt_m2 | References: [ 47 ] [table row] IntensityMean | Description: Mean LiDAR intensity [table row] IntensityMean | References: [ 47 ] [table row] IntensityStd | Description: Std of LiDAR intensity [table row] IntensityStd | References: [ 47 ] [table row] LiDAR_area_m2 | Description: LiDAR derived area [table row] LiDAR_area_m2 | References: [ 47 ] [table row] Hq25 | Description: 25th percentile crop height [table row] Hq25 | References: [ 47 ] [table row] Hq50 | Description: 50th percentile crop height [table row] Hq50 | References: [ 47 ] [table row] Hq90 | Description: 90th percentile crop height [table row] Hq90 | References: [ 47 ] [table row] RedEdge_pct10 | Description: 10th percentile reflectance in Red Edge [table row] RedEdge_pct10 | References: [ 47 ] [table row] RedEdge_pct25 | Description: 25th percentile reflectance in Red Edge [table row] RedEdge_pct25 | References: [ 47 ] [table row] RedEdge_pct90 | Description: 90th percentile reflectance in Red Edge [table row] RedEdge_pct90 | References: [ 47 ] [table row] NIR_pct25 | Description: 25th percentile reflectance in NIR band [table row] NIR_pct25 | References: [ 48 ] [table row] NIR_pct75 | Description: 75th percentile reflectance in NIR band [table row] NIR_pct75 | References: [ 48 ] [table row] NIR_pct90 | Description: 90th percentile reflectance in NIR band A Method for Predicting Alfalfa Biomass Based on Multimodal Data and Ensemble Learning Model - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Plants (Basel) . 2026 Mar 6;15(5):815. doi: 10.3390/plants15050815 A Method for Predicting Alfalfa Biomass Based on Multimodal Data and Ensemble Learning Model Yuehua Zhang Yuehua Zhang 1 College of Grassland Science, Inner Mongolia Agricultural University, Hohhot 010018, China; yuehua_zhang2023@emails.imau.edu.cn 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) Conceptualization, Methodology, Data curation, Writing – original draft, Writing – review & editing, Visualization Find articles by Yuehua Zhang 1, 2 , Zhaoming Wang Zhaoming Wang 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) 3 Key Laboratory of Cultivated Land Capability Conservation and Improvement in Agro-Pastoral Ecotone Ministry of Agriculture and Rural Affairs of the People’s Republic of China, Hohhot 010010, China Methodology, Data curation, Writing – review & editing, Visualization Find articles by Zhaoming Wang 2, 3 , Zhendong Tian Zhendong Tian 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) Data curation, Writing – review & editing Find articles by Zhendong Tian 2 , Haotian Deng Haotian Deng 4 College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China; 2025222001@stu.njau.edu.cn (H.D.); qingli@njau.edu.cn (Q.L.) Writing – review & editing Find articles by Haotian Deng 4 , Jungang Gao Jungang Gao 5 Inner Mongolia Grass Digital Agricultural Ecology Co., Ltd., Hohhot 010010, China; allfly@126.com (J.G.); xiaocaoshuzi@163.com (X.M.); ylwilll@126.com (L.Y.) Writing – review & editing Find articles by Jungang Gao 5 , Chen Chen Chen Chen 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) Writing – review & editing Find articles by Chen Chen 2 , Wei Zhao Wei Zhao 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) Writing – review & editing Find articles by Wei Zhao 2 , Xiaoping Ma Xiaoping Ma 5 Inner Mongolia Grass Digital Agricultural Ecology Co., Ltd., Hohhot 010010, China; allfly@126.com (J.G.); xiaocaoshuzi@163.com (X.M.); ylwilll@126.com (L.Y.) Writing – review & editing Find articles by Xiaoping Ma 5 , Xueqin Ding Xueqin Ding 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) Writing – review & editing Find articles by Xueqin Ding 2 , Haoran Yan Haoran Yan 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) Writing – review & editing Find articles by Haoran Yan 2 , Liu Yang Liu Yang 5 Inner Mongolia Grass Digital Agricultural Ecology Co., Ltd., Hohhot 010010, China; allfly@126.com (J.G.); xiaocaoshuzi@163.com (X.M.); ylwilll@126.com (L.Y.) Writing – review & editing Find articles by Liu Yang 5 , Hui Xie Hui Xie 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) Writing – review & editing Find articles by Hui Xie 2 , Qing Li Qing Li 4 College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China; 2025222001@stu.njau.edu.cn (H.D.); qingli@njau.edu.cn (Q.L.) Writing – review & editing Find articles by Qing Li 4 , Fengling Shi Fengling Shi 1 College of Grassland Science, Inner Mongolia Agricultural University, Hohhot 010018, China; yuehua_zhang2023@emails.imau.edu.cn Conceptualization, Writing – review & editing, Supervision, Project administration, Funding acquisition Find articles by Fengling Shi 1, * Editor: Charles Neal Stewart Jr Author information Article notes Copyright and License information 1 College of Grassland Science, Inner Mongolia Agricultural University, Hohhot 010018, China; yuehua_zhang2023@emails.imau.edu.cn 2 Technology R&D Center, M-Grass Ecology and Environment (Group) Co., Ltd., Hohhot 010010, China; wzhaoming0612@163.com (Z.W.); wstzd213@163.com (Z.T.); occo4565@163.com (C.C.); 13474700474@163.com (W.Z.); d9701056275@163.com (X.D.); yanhaoran1018@163.com (H.Y.); mnxiehui@126.com (H.X.) 3 Key Laboratory of Cultivated Land Capability Conservation and Improvement in Agro-Pastoral Ecotone Ministry of Agriculture and Rural Affairs of the People’s Republic of China, Hohhot 010010, China 4 College of Agriculture, Nanjing Agricultural University, Nanjing 210095, China; 2025222001@stu.njau.edu.cn (H.D.); qingli@njau.edu.cn (Q.L.) 5 Inner Mongolia Grass Digital Agricultural Ecology Co., Ltd., Hohhot 010010, China; allfly@126.com (J.G.); xiaocaoshuzi@163.com (X.M.); ylwilll@126.com (L.Y.) * Correspondence: shifengling@imau.edu.cn Roles Yuehua Zhang : Conceptualization, Methodology, Data curation, Writing – original draft, Writing – review & editing, Visualization Zhaoming Wang : Methodology, Data curation, Writing – review & editing, Visualization Zhendong Tian : Data curation, Writing – review & editing Haotian Deng : Writing – review & editing Jungang Gao : Writing – review & editing Chen Chen : Writing – review & editing Wei Zhao : Writing – review & editing Xiaoping Ma : Writing – review & editing Xueqin Ding : Writing – review & editing Haoran Yan : Writing – review & editing Liu Yang : Writing – review & editing Hui Xie : Writing – review & editing Qing Li : Writing – review & editing Fengling Shi : Conceptualization, Writing – review & editing, Supervision, Project administration, Funding acquisition Charles Neal Stewart Jr : Academic Editor Received 2026 Jan 15; Revised 2026 Feb 25; Accepted 2026 Mar 2; Collection date 2026 Mar. © 2026 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license . PMC Copyright notice PMCID: PMC12987253 PMID: 41829846 Abstract Accurate alfalfa biomass prediction is crucial for pasture management and sustainable livestock production. However, traditional methods often perform poorly under complex field conditions. To address the limited prediction accuracy of traditional methods under complex planting environments, this study proposes an alfalfa biomass prediction method combining multispectral and LiDAR data with ensemble learning model. Based on the multispectral images acquired by unmanned aerial vehicle (UAV) and airborne LiDAR data, the spectral features, three-dimensional structural features, and their interaction features are systematically extracted at the quadrat scale, and a high-quality modeling dataset is constructed by feature selection. Secondly, an ensemble model for alfalfa biomass prediction was constructed, which was composed of random forest, extra trees, and histogram gradient boosting. After model training, the coefficient of determination (R 2 ) of the integrated model on the test set reached 0.813, and the root mean square error (RMSE) and mean absolute error (MAE) were 0.178 kg m −2 and 0.146 kg m −2 , which were significantly better than those of similar single models. Under feature combinations, the fusion model was better than that of spectral indices only (R 2 = 0.773) and LiDAR traits only (R 2 = 0.576), and the model achieved the highest accuracy from bud emergence to early flowering (R 2 = 0.917). The overall prediction error of the model was approximately normal distribution, and the absolute error of more than 65% of the samples was less than 0.2. However, there was still a trend of underestimation in the high biomass interval. This research showed that the multimodal data fusion and ensemble learning method could achieve high-precision prediction of alfalfa biomass, which provided reliable technical support for pasture resources monitoring and precision agriculture management. Keywords: alfalfa, multispectral, LiDAR, machine learning, biomass prediction 1. Introduction As a legume perennial grass, alfalfa has become an indispensable high-quality forage resource in the global agricultural and animal husbandry production system due to its high protein content, strong nitrogen fixation efficiency, and wide ecological adaptability [ 1 , 2 ]. Accurate prediction of alfalfa biomass is the core technical link for implementing precise management, optimizing forage harvest regulation, and quantifying ecologic",
+  "links": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+      "label": "Account settings"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+      "label": "Journal List"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/pdf/plants-15-00815.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+      "label": "PMC Disclaimer"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+      "label": "PMC Copyright Notice"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Search in PMC"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Search in PubMed"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"Plants%20(Basel)\"[Title%20Abbreviation]",
+      "label": "View in NLM Catalog"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Add to search"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Zhang%20Y\"[Author]",
+      "label": "Yuehua Zhang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Wang%20Z\"[Author]",
+      "label": "Zhaoming Wang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Tian%20Z\"[Author]",
+      "label": "Zhendong Tian"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Deng%20H\"[Author]",
+      "label": "Haotian Deng"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Gao%20J\"[Author]",
+      "label": "Jungang Gao"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Chen%20C\"[Author]",
+      "label": "Chen Chen"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Zhao%20W\"[Author]",
+      "label": "Wei Zhao"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Ma%20X\"[Author]",
+      "label": "Xiaoping Ma"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Ding%20X\"[Author]",
+      "label": "Xueqin Ding"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Yan%20H\"[Author]",
+      "label": "Haoran Yan"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Yang%20L\"[Author]",
+      "label": "Liu Yang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Xie%20H\"[Author]",
+      "label": "Hui Xie"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Li%20Q\"[Author]",
+      "label": "Qing Li"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Shi%20F\"[Author]",
+      "label": "Fengling Shi"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41829846/",
+      "label": "41829846"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g001.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g002.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g003.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g004.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g005.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t006/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t007/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g006.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f006/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g007.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f007/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g008.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f008/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t008/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g009.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f009/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g010.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f010/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g011.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f011/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t0A1/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t0A2/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t0A3/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t0A4/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/table/plants-15-00815-t0A5/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g0A1.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f0A1/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12987253_plants-15-00815-g0A2.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/figure/plants-15-00815-f0A2/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10522575/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37752284/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9809988/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36686936/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11851979/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40001842/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11360157/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39205103/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10748049/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38139554/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8491082/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34608970/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12158197/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40508352/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12277874/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40685754/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11586217/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39588090/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397825/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39275705/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12473360/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41012054/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11106403/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38774220/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+      "label": "NCBI RSS feed"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/web_policies.html",
+      "label": "Web Policies"
+    },
+    {
+      "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "label": "HHS Vulnerability Disclosure"
+    },
+    {
+      "url": "https://support.nlm.nih.gov/",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/accessibility.html",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/careers/careers.html",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/",
+      "label": "NLM"
+    },
+    {
+      "url": "https://www.nih.gov/",
+      "label": "NIH"
+    },
+    {
+      "url": "https://www.hhs.gov/",
+      "label": "HHS"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "fetched_at": "2026-10-28T09:25:29.733189+00:00",
+  "sha256": "85e8602a352e5355b0c2cad86739d7d79d39a3459035cbb03bbb59e3e53a6745",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

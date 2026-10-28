@@ -1,0 +1,17 @@
+{
+  "family_id": "family-19",
+  "topic_id": "agri-d7002ebd800c",
+  "title": "آخرین آبیاری نخود پیش از برداشت؛ معیارهای قطع و کاهش آب",
+  "title_sha256": "41bff792e1eed9405cae2e9da3f0429294a8df2187731e29ae29fa04b2f33e53",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY73",
+    "AGNES_API_KEY74",
+    "AGNES_API_KEY75",
+    "AGNES_API_KEY76"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

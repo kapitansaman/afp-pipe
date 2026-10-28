@@ -1,0 +1,35 @@
+{
+  "requested": 5,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+      "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+      "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377426003422",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    }
+  ]
+}

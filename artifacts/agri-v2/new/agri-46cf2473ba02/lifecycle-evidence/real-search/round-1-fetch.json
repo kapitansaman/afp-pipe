@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+      "canonical_url": "https://waterquality.montana.edu/farm-ranch/irrigation/alfalfa/guidelines.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+      "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-managing-drought-stunted-alfalfa-and-first-cutting-irrigation",
+      "canonical_url": "https://cropwatch.unl.edu/pasture-and-forage-minute-managing-drought-stunted-alfalfa-and-first-cutting-irrigation/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1648&context=etd2023",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377423003190",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.climatehubs.usda.gov/sites/default/files/water-optimizaiton-on-utah-farms.pdf",
+      "canonical_url": "https://www.climatehubs.usda.gov/sites/default/files/water-optimizaiton-on-utah-farms.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

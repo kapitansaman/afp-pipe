@@ -1,0 +1,424 @@
+{
+  "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
+  "requested_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
+  "redirect_chain": [
+    "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full"
+  ],
+  "text": "Frontiers | Alternate partial root zone subsurface drip irrigation increases alfalfa water production function by increasing hay yield, rather than actual crop evapotranspiration ORIGINAL RESEARCH article Front. Plant Sci. , 26 August 2026 Sec. Crop and Product Physiology Volume 17 - 2026 | https://doi.org/10.3389/fpls.2026.1909849 Published in Frontiers in Plant Science Crop and Product Physiology 5.9 impact factor 10.8 citescore Part of a Research Topic Drip Fertigation and Integrated Water–Nutrient Management: Mechanisms, Innovations, and Pathways to Sustainable Crop Production Submission open 21k views 13 articles Editor & Reviewers Edited by J F Junliang Fan Reviewed by R K Ren Kingming X B Xiaoyuan Bao Outline Figures and Tables Figure 1 View in article Figure 2 View in article Figure 3 View in article Figure 4 View in article Figure 5 View in article Figure 6 View in article Table 1 Alfalfa hay yield as affected by irrigation method (IM) (AI and CI), irrigation volume (IV) (10 mm, 20 mm, and 30 mm), and their interaction (IM×IV) at three harvests in 2017 and four harvests in 2018. View in article ORIGINAL RESEARCH article Front. Plant Sci. , 26 August 2026 Sec. Crop and Product Physiology Volume 17 - 2026 | https://doi.org/10.3389/fpls.2026.1909849 Alternate partial root zone subsurface drip irrigation increases alfalfa water production function by increasing hay yield, rather than actual crop evapotranspiration Y W Yadong Wang 1 Y L Yansong Li 1 Q Z Qiuchi Zhang 1 K G Kai Gao 1 * D S Derong Su 2 * 1. College of Grassland Science, Inner Mongolia Minzu University, Tongliao, China 2. College of Grassland Science, Beijing Forestry University, Beijing, China Article metrics View details Abstract Both conventional subsurface drip irrigation (CI) and alternate partial root zone subsurface drip irrigation (AI) are water-saving irrigation methods (IMs) used to solve agricultural water crises. The responses of alfalfa ( Medicago sativa L.) actual evapotranspiration (ETa), and the relationship with hay yield to the two types of IMs have not been evaluated, which is crucial for the sustainable agricultural development of irrigation and water management. We investigated the effects of CI and AI and three irrigation volumes (IVs) (10, 20, and 30 mm) on alfalfa ETa, and their relationship with hay yield in 2017 and 2018. AI significantly reduced the alfalfa ETa by 10 and 17% under 20 and 30 mm irrigation volumes, respectively, in 2017 compared with CI. However, AI increased the ETa by 42 mm under 10 mm irrigation volume in 2017 and by 43 mm under a 30 mm irrigation volume in 2018. There was no significant effect on the alfalfa ETa between CI and AI under 10 and 20 mm IVs in 2018. The changes in alfalfa ETa could be explained by soil moisture and soil water storage dynamics. In addition, alfalfa ETa is also affected by irrigation volume and stand year. Over more, hay yield was linearly correlated with the alfalfa ETa, and the increase in the slope of the alfalfa–water production function of AI compared to the equivalent slope of CI was 180%. The increase is largely explained by the reproduce in hay yield. This study provides a better alfalfa–water production function irrigation method for promoting AI technology applied in farm production. 1 Introduction The world is facing a huge crisis in the use of fresh water, of which agriculture is the main user ( FAO, 2025 ). It is estimated that agricultural irrigation needs will increase in the future ( FAO, 2021 ). Therefore, water-saving irrigation technologies are being increasingly used to solve the problem of agricultural water shortage ( Romero et al., 2012 ; Wang et al., 2021 ; Ward and Pulido-Velazquez, 2008 ; Xiao et al., 2015 ). Without reducing the irrigation volume, the popularization and application of water-saving irrigation technology will not only improve crop yield but also reduce crop transpiration and soil evaporation loss ( Hong et al., 2021 ; Xie et al., 2020 ; Yang et al., 2020 ; Zhang et al., 2022 ). Actual crop evapotranspiration (ETa) refers to the total amount of soil moisture consumed by crops through evaporation and transpiration within a certain period of time ( Cao et al., 2021 ; Hong et al., 2021 ; Schwartz et al., 2019 ). The relationship between ETa and yield is often used to characterize the crop–water production function ( Çolak et al., 2018 ; Gençoğlan et al., 2006 ). Therefore, comparing the ETa, and the relationships with yield become increasingly important under the implementation of water-saving irrigation technology, which is crucial for the sustainable agricultural development of guiding crop irrigation and water management. How to develop irrigation agriculture under limited water resources is still a dilemma ( Chen et al., 2021 ; Ding et al., 2019 ; Li et al., 2021 ; Vogeler et al., 2016 ; Wang et al., 2018 ; Zhou et al., 2020 ). Therefore, many water-saving irrigation methods (IMs) in irrigated agriculture, such as furrow irrigation, subsurface drip irrigation, and partial root zone drying, have emerged (R. Liu et al., 2021 ; Romero et al., 2012 ; Wang et al., 2021 ; Xiao et al., 2015 ). Among them, subsurface drip irrigation is the most water-saving irrigation method ( Fu et al., 2021 ; Gao et al., 2021 ; Hondebrink et al., 2017 ; Wang et al., 2021 ). However, conventional subsurface drip irrigation (CI) also has its disadvantages; for example, the distance between drip pipes is too far in the conventional irrigation system, and a large irrigation volume is required to make the water migrate to all root zones ( Alam et al., 2002 ; Appels and Karimi, 2021 ; Kandelous et al., 2012 ; Lamm et al., 2012 ; Rodríguez-Sinobas et al., 2021 ). The introduced alternate partial root zone subsurface drip irrigation (AI) technology can effectively resolve this problem by alternating on both sides of the root system ( Wang et al., 2021 , Wang et al., 2024 , Wang et al., 2025 ). This has the disadvantage of increasing ETa and reducing yield for the application of AI technology compared with CI ( Çolak et al., 2018 ). However, another study showed that AI did not change the advantages of ETa compared to CI ( Sun et al., 2024 ). Another study has shown that the ETa and yield of one-year-old alfalfa are reduced under AI, while the ETa of two-year-old alfalfa significantly increases under AI compared with CI, and the yield also increases but without significant differences between the treatments ( Wang et al., 2021 ). The three field comparative studies have not reached a relatively consistent conclusion ( Çolak et al., 2018 ; Wang et al., 2021 , Wang et al., 2024 ). Wang et al. (2021) only compared the alfalfa ETa and hay yield under full irrigation. Although they later compared the yield differences between different AI and CI ( Wang et al., 2024 ), we still have a great deal of uncertainty regarding the comparison of ETa under different irrigation methods and irrigation volume interactions. And to explain the main influencing factors of these changes, namely, changes in soil water storage dynamics and changes in soil moisture. Alfalfa ( Medicago Sativa L.), a common forage species, is the most widely planted perennial leguminous forage worldwide. However, due to the large ETa of alfalfa compared with other crops ( Bacenetti et al., 2018 ; Cui et al., 2018 ; Jiang et al., 2015 ), it becomes more important to study the relationship between ETa and yield. The crop–water production function is an expression that describes the mathematical relationship between crop yield and ETa ( Çolak et al., 2018 ; Jiang et al., 2012 ; Wang et al., 2020 ). Previous studies have found that the crop–water production function is usually linear (D. Zhang et al., 2021 , Zhang et al., 2013 ) or quadratic ( Jiang et al., 2012 ; Wang et al., 2020 ). This uncertainty also appears in alfalfa research ( Li et al., 2023 ; Lindenmayer et al., 2011 ; Montazar and Sadeghi, 2008 ; Rogers et al., 2016 ; Wang et al., 2021 ). This uncertain alfalfa–water production function is not conducive to field management. The irrigation method is an important field management factor affecting the crop–water production function ( Çolak et al., 2018 ; Gençoğlan et al., 2006 ). Previous studies have shown that the effects of CI and AI have different responses in green bean ( Gençoğlan et al., 2006 ) and eggplant ( Çolak et al., 2018 ). Studies on green bean have shown that AI increases the slope between yield and ETa compared with CI ( Gençoğlan et al., 2006 ). This effect shows opposite results in eggplant ( Çolak et al., 2018 ). The inconsistency between the results of the two field studies shows the uncertainty of the relationship between yield and ETa under different irrigation methods. In addition, the alfalfa–water production function relationship between CI and AI in water management has yet to be verified. The Hexi Corridor is an arid area located in the northwest of China with limited water resources, scarce precipitation, and a large ETa, and it is a major alfalfa production area in China ( Wang et al., 2020 ; Wang et al., 2021 ; Zhou et al., 2020 ). Here, a two-year field experiment was conducted to investigate the effects of AI and CI on alfalfa ETa, and the relationship with hay yield under different irrigation volumes in this area. In addition, we studied the soil moisture and soil water storage dynamics to explain the changes in alfalfa ETa. We focused on two issues: (i) the effects of two IMs on alfalfa ETa and hay yield under three irrigation volumes, use the dynamic changes in soil moisture and soil water storage during the process to explain the differences in ETa among different treatments; and (ii) the effects of different IMs on the alfalfa–water production function, explain whether these changes are primarily driven by hay yield or ETa. This research is significant in providing insights into the effects of different IMs on alfalfa production in an arid region with limited water resources. 2 Materials and methods 2.1 Site description and experimental design The experiments were carried out during the growing seasons of 2017 and 2018 at the National Field Scientific Observation and Research Station of Oasis Agroecosystem (35°52′ N and 102°50′ E, altitude 1581 m), located in Wuwei in Gansu Province, China. The soil of the field was sandy loam, with an average field capacity of 0.29 cm 3 cm −3 , a wilting point of 0.09 cm 3 cm −3 , and a soil bulk density of 1.50 g cm −3 in the upper 1.6 m of soil. The mean annual precipitation and pan evaporation in this region are 164 mm and 2000 mm, respectively. The mean annual temperature is 8.8 °C, and the annual accumulated temperature (>0 °C) is 3550 °C. The average temperature, daily precipitation, and daily relative humidity (%) during the 2017 and 2018 alfalfa growing seasons are shown in Figure 1 . The precipitation received during the growing seasons was 109 and 192 mm in 2017 and 2018, respectively ( Figure 1 ). In addition, the daily reference crop evapotranspiration (ET 0 ) ( Allen et al., 1988 ) for 2017 and 2018 is shown in Figure 1 . Figure 1 Meteorological data and reference crop evapotranspiration (ET 0 ) ( Allen et al., 1988 ) in the experimental years. The dotted vertical orange line indicates the beginning of irrigation, and the dotted vertical gray line indicates the four harvests. For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article. In the experiments, AI (n = 3) and CI (n = 3) were compared under three different irrigation volumes (IVs) ( Table 1 ), and 18 plots were set up. The size of the plot was 6 m long and 4 m wide. The frequency of subsurface drip irrigation was once a week ( Wang et al., 2021 ). Due to excessive precipitation, schedules for July 29 and August 19 in 2017 and for August 8, August 19, August 26, and September 2 in 2018 were all delayed by 1 week. Accordingly, there were 13 irrigation events in 2017 (except for seedling irrigation and winter irrigation) and 19 irrigation events in 2018 ( Table 1 ). The total annual IVs were 180, 310, and 440 mm in 2017 and 190, 380, and 570 mm in 2018 for each treatment ( Table 1 ). Table 1 Treatment 2017 2018 2017 2018 1st 2nd 3rd 1st 2nd 3rd 4th CI+10 mm 3050.40d 2946.67cd 2072.93e 1781.33b 1320.67c 837.07c 1530.40d 8070.00e 5469.47d CI+20 mm 3391.73cd 3270.40bc 3109.47c 2508.53b 1497.07c 1498.67b 1861.20cd 9771.60c 7365.47c CI+30 mm 5825.47a 3995.60a 3935.80a 3886.67a 3038.93a 2752.13a 3065.60a 13756.86a 12743.33a Average 4089.20B 3404.22A 3039.40A 2725.51B 1952.22B 1695.96B 2152.40B 10532.82A 8526.09B AI+10 mm 3694.40c 2594.63d 2695.83d 2234.53b 2212.67b 1574.53b 2156.53bc 8984.86d 8178.27c AI+20 mm 4307.07b 3021.47bcd 3081.60c 3682.27a 3239.07a 2420.27a 2425.07b 10410.13c 11766.67b AI+30 mm 5717.47a 3517.33ab 3509.20b 4415.33a 3212.00a 2490.40a 3457.87a 12744.00b 13575.60a Average 4572.98A 3044.48B 3095.54A 3444.04A 2887.91A 2161.73A 2679.82A 10713.00A 11173.51A Tukey-adjusted 0.05 IM <0.001 0.0003 0.392 0.002 <0.001 <0.001 <0.001 0.149 0.001 IV <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 IM×IV 0.0006 0.0632 <0.001 0.237 <0.001 <0.001 0.430 <0.001 <0.001 Alfalfa hay yield as affected by irrigation method (IM) (AI and CI), irrigation volume (IV) (10 mm, 20 mm, and 30 mm), and their interaction (IM×IV) at three harvests in 2017 and four harvests in 2018. Different uppercase letters indicate significant differences between irrigation methods ( P < 0.05). Different lowercase letters indicate significant differences among six treatments, according to Tukey-adjusted ( P = 0.05). 10 mm, 20 mm, and 30 mm represent the three treatments under alternate partial root zone subsurface drip irrigation (AI), and conventional subsurface drip irrigation (CI). Bold values represent statistically significant differences. The subsurface drip irrigation systems were used to implement irrigation settings. The subsurface drip irrigation systems were buried at a depth of 0.2 m before the alfalfa was sown on the subplots. Inline emitters (DAYU Water-saving Group Co. Ltd., Gansu, China) with a discharge rate of 3 L h −1 were installed at 0.3 m intervals. Two groups of subsurface drip irrigation units were nested in a test subplot, and subsurface drip irrigation was realized using manual valves on distribution pipes ( Figure 2A ). The CI was established by one set of subsurface drip irrigation systems ( Figure 2A ). The AI systems were established by two sets of subsurface drip irrigation systems ( Figure 2B ), and detailed information was presented by Wang et al. (2021) , who used two sets of subsurface drip irrigation systems in two irrigation events: a) subsurface drip irrigation system used for 1, 3, 5… irrigation events and b) subsurface drip irrigation system used for 2, 4, 6… irrigation events ( Figure 2B ). Figure 2 Layout of the irrigation system for CI (A) and AI (B) . a and b are SDI systems irrigated in turn. For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article. Alfalfa (cv. MF4020) was planted at the standard of 20 kg hm −2 on May 20, 2017, by drilling, with a sowing depth of 0.05 m and a row space of 0.2 m ( Figure 2 ). The seedlings were irrigated with micro-sprinklers, with the irrigation volume of 10 mm each time and twice a week. The irrigation experiment started on June 24, 2017 and May 8, 2018 and ended on September 30, 2017 and September 20, 2018, respectively. The plots were harvested three times (July 15, August 18, and September 30) during the growing season in 2017 and four times (June 7, July 5, August 7, and September 20) in 2018. Pest control was applied as per best management practices throughout the experiment, and weeds were removed manually after each harvest. 2.2 Measurements Every 2–3 days, the Diviner 2000 system (Sentek Pty Ltd., Australia) was used to monitor the soil moisture in the vertical soil layer below 1.6 m (every 0.1 m) of the surface of each plot. Two Diviner 2000 system tubes were placed in each subplot has described in detail at the previous research ( Wang et al., 2021 ). In addition, the gravimetric soil moisture was measured via the oven-drying method and used to calibrate the data for the Diviner 2000 system (Sentek Pty Ltd., Australia) at each harvest stage. Alfalfa hay yield was determined by combining a large plot (1 m × 1 m) with a small plot (20 cm × 20 cm). The moisture content of alfalfa was measured in a small plot, and the hay yield of 1 m × 1 m sample plot was calculated based on fresh weight with a large sample plot. Five small plots were randomly selected from the test area, and the yield of fresh forage was determined immediately after harvest. Then, the samples from the small plot were placed in an oven for 1 h at 105 °C for sterilization. Alfalfa hay yield was determined after oven drying at 65 °C to a constant weight. 2.3 Calculation The actual crop evapotranspiration of each harvest was estimated using the soil water balance method, which involved assessing the changes in the soil moisture in the 0–1.6 m soil layer over a period of time, as showed in Equation 1 : where ETa is the actual crop evapotranspiration (mm), δ W is the change in soil water storage (mm), P is the precipitation (mm) recorded by the HOBO automatic weather station, I is the irrigation water volume (mm), S is the supplement of ground water (mm), and D is deep percolation (mm). At the experimental site, the groundwater contribution was negligible because the groundwater table was deeper than 25 m (S = 0). Additionally, in this experiment, the subsurface drip irrigation system delivered a controlled irrigation volume (D = 0). 2.4 Statistics Initial soil water storage, ultimate soil water storage, soil water storage change, ETa and hay yield were analyzed with one-way and two-way analysis of variance using IBM SPSS Statistics (IBM Corp., Armonk, NY, USA). All figures were drawn using Origin 2022 software (Origin Lab Corp., Northampton, MA, USA). 3 Results 3.1 Alfalfa actual crop evapotranspiration The IMs and IVs significantly affected the ETa of alfalfa in 2017–2018 ( P < 0.05), and the interaction between IMs and IVs only affected the alfalfa ETa in 2017 but had no significant effect on the alfalfa ETa in 2018 ( P = 0.089) ( Figure 3 ). A linear mixed-effects model also showed that irrigation method had no significant effect on ETa ( P = 0.872) ( Supplementary Table 1 ). In 2017, AI decreased the ETa by 98 and 54 mm under IVs of 20 and 30 mm, respectively, compared with CI, while AI increased the ETa by 43 mm compared with CI under IVs of 10 mm in 2017 and 30 mm in 2018. There was no significant difference between the two IMs under IVs of 10 and 20 mm in 2018. Figure 3 Alfalfa actual crop evapotranspiration (ETa) as affected by irrigation method (IM), irrigation volume (IV), and their interaction (IM*IV) at three harvests in 2017 and four harvests in 2018. 10 mm, 20 mm, and 30 mm represent the three treatments under alternate partial root zone subsurface drip irrigation (AI1, AI2, and AI3), and conventional subsurface drip irrigation (CI1, CI2, and CI3). Different uppercase letters indicate significant differences among irrigation volumes ( P < 0.05). Different lowercase letters indicate significant differences among six treatments, according to Tukey-adjusted ( P = 0.05). For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article. There were significant differences in alfalfa ETa under the two IM and three IV treatments at seven harvests in two years ( P < 0.05) ( Figure 3 ). The linear mixed-effects model also showed that harvest time and stand year had a significant impact on ETa, with P values of <0.001 and 0.002, respectively ( Supplementary Table 2 ). Significant differences in the IM and IV interaction were also found in the two years, except at the 1 st harvest in 2018 ( P < 0.05) ( Figure 3 ). In 2017, the CI2 treatment had the highest alfalfa ETa at the 1 st harvest, which was 133–154 mm higher than that in the AI treatments ( Figure 3 ). CI1 had the lowest alfalfa ETa at the 2 nd harvest, which was 2.98–3.91 times lower than that in the other treatments. CI3 had the highest alfalfa ETa at the 2 nd harvest. At the 3 rd harvest, especially under 10 and 20 mm irrigation volumes, the alfalfa ETa of AI treatments was significantly higher than that of CI by 29–38 mm ( P < 0.05). In 2018, at the 1 st harvest, with the same irrigation volume, the alfalfa ETa was 8–37 mm higher under CI treatment than under AI treatment. The alfalfa ETa of AI under 10 and 20 mm IVs was significantly lower than that of CI at the 1 st harvest. With the same irrigation volume, the alfalfa ETa was 11–33 mm lower under CI treatment than under AI treatment in 2018 at the 2 nd harvest. At the 3 rd harvest, the alfalfa ETa was 8–38 mm lower under CI treatment than under AI treatments. At the 4 th harvest, the alfalfa ETa was higher under CI than under AI with a 20 mm irrigation volume. 3.2 Alfalfa soil moisture and soil water storage The soil moisture at the depth of 10–160 cm with different IVs was compared at each harvest in 2017 and 2018 ( Figure 4 ). Shallow soil layers (10–40 cm) and deep soil layers (50–160 cm) showed different trends. Each harvest soil moisture value in 2017 was higher than the initial value under the AI treatment with 30 mm irrigation volume, especially in the deep soil layers ( Figure 4 ). Moreover, the compensation effect of a 30 mm irrigation volume in CI also occurred in 100–150 cm soil layers, mainly in the 1 st and 2 nd harvests ( Figure 4F ). The AI treatment soil water storage was 21 mm higher than the CI treatment soil water storage at the 3 rd harvest with a 20 mm irrigation volume ( Figure 4 ). The AI treatment mainly used shallow soil layer moisture during the 1 st harvest and deep soil layer moisture at the 2 nd or even the 3 rd harvest with a 10 mm irrigation volume ( Figure 4A ). However, the soil moisture at depths of 10–120 cm and 10–100 cm decreased significantly in the CI treatments with IVs of 10 and 20 mm, respectively, at the 3 rd harvest ( Figures 4D, E ). In 2018, soil moisture decreased to various degrees, especially in the deep soil layers in all treatments ( Figure 4 ). The deep soil moisture showed a decreasing trend with the increase in harvest regime, except for the CI treatment with a 30 mm irrigation volume. Compared with the 3 rd harvest, the soil moisture of the middle layers (50–100 cm) was compensated by the CI treatment with the 30 mm irrigation volume at the 4 th harvest, and the compensation volume was 19 mm ( Figure 4L ). In addition, the compensation effect of soil moisture was observed in shallow soil layers under the CI treatment with 20 and 30 mm IVs ( Figures 4K, L ). The soil water storage compensation amount was 7–24 mm among the four harvests ( Figures 4H, I ). Each irrigation treatment of AI showed water consumption in deep soil layers, and a water compensation effect occurred at the 3 rd harvest in shallow soil layers ( Figures 3G–I ). Compared with the initial water storage, AI increased by 0–10 mm in shallow soil layers ( Figures 4G–I ). By comparing the dynamics of shallow soil water storage under the two IMs with different irrigation volumes, it was found that the consumption of water in shallow soil layers under AI treatment was greater than that under CI treatment ( Figure 4 ). Figure 4 Alfalfa soil moisture at 10–160 cm soil depth at the initial and three harvests in 2017 and 2018. AI represents alternate partial root zone subsurface drip irrigation; CI represents convention irrigation with subsurface drip irrigation; and 10, 20, and 30 mm represent irrigation volumes at each irrigation event, respectively. The red dotted line indicates the average field water capacity, and the blue dot",
+  "links": [
+    {
+      "url": "https://www.frontiersin.org/",
+      "label": ""
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science",
+      "label": "Frontiers in Plant Science"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/mission",
+      "label": "Mission and values"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/history",
+      "label": "History"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/awards",
+      "label": "Awards"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/impact",
+      "label": "Frontiers' impact"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/annual-reports",
+      "label": "Our annual reports"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/thought-leadership",
+      "label": "Thought leadership"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/researcher-perspectives",
+      "label": "Researcher perspectives"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/how-we-publish",
+      "label": "How we publish"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/open-access",
+      "label": "Open access"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/quality",
+      "label": "Quality and research integrity"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/peer-review",
+      "label": "Peer review"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/technology-and-platforms",
+      "label": "Technology and platforms"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/research-topics",
+      "label": "Research Topics"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/fair-data-management",
+      "label": "Publish your data with FAIR²"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/fee-policy",
+      "label": "Fee policy"
+    },
+    {
+      "url": "https://www.frontiersin.org/open-access-agreements/consortia",
+      "label": "National consortia"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/open-access-agreements",
+      "label": "Institutional partnerships"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/collaboration-indexation",
+      "label": "Collaboration and indexation"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/frontiers-planet-prize",
+      "label": "Frontiers Planet Prize"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/sustainability",
+      "label": "Sustainability"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/contact",
+      "label": "Contact us"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals",
+      "label": "All journals"
+    },
+    {
+      "url": "https://www.frontiersin.org/articles",
+      "label": "All articles"
+    },
+    {
+      "url": "https://www.frontiersin.org/submission/submit?domainid=1&fieldid=66&specialtyid=0&entitytype=2&entityid=373",
+      "label": "Submit manuscript"
+    },
+    {
+      "url": "https://www.frontiersin.org/search",
+      "label": "Search"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/aquatic-photosynthetic-organisms",
+      "label": "Aquatic Photosynthetic Organisms"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/crop-and-product-physiology",
+      "label": "Crop and Product Physiology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/functional-plant-ecology",
+      "label": "Functional Plant Ecology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/functional-and-applied-plant-genomics",
+      "label": "Functional and Applied Plant Genomics"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/photosynthesis-and-photobiology",
+      "label": "Photosynthesis and Photobiology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-abiotic-stress",
+      "label": "Plant Abiotic Stress"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-bioinformatics",
+      "label": "Plant Bioinformatics"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-biophysics-and-modeling",
+      "label": "Plant Biophysics and Modeling"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-biotechnology",
+      "label": "Plant Biotechnology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-breeding",
+      "label": "Plant Breeding"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-cell-biology",
+      "label": "Plant Cell Biology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-development-and-evodevo",
+      "label": "Plant Development and EvoDevo"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-epigenetics-and-chromosome-biology",
+      "label": "Plant Genetics, Epigenetics and Chromosome Biology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-membrane-traffic-and-transport",
+      "label": "Plant Membrane Traffic and Transport"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-metabolism-and-chemodiversity",
+      "label": "Plant Metabolism and Chemodiversity"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-nutrition",
+      "label": "Plant Nutrition"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-pathogen-interactions",
+      "label": "Plant Pathogen Interactions"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-physiology",
+      "label": "Plant Physiology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-proteomics-and-protein-structural-biology",
+      "label": "Plant Proteomics and Protein Structural Biology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-symbiotic-interactions",
+      "label": "Plant Symbiotic Interactions"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution",
+      "label": "Plant Systematics and Evolution"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-systems-and-synthetic-biology",
+      "label": "Plant Systems and Synthetic Biology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/sustainable-and-intelligent-phytoprotection",
+      "label": "Sustainable and Intelligent Phytoprotection"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/technical-advances-in-plant-science",
+      "label": "Technical Advances in Plant Science"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles",
+      "label": "Articles"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/research-topics",
+      "label": "Research Topics"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/editors",
+      "label": "Editorial board"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/about",
+      "label": "Field chief editors"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/why-submit",
+      "label": "Why submit?"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/article-types",
+      "label": "Article types"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/author-guidelines",
+      "label": "Author guidelines"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/editor-guidelines",
+      "label": "Editor guidelines"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/publishing-fees",
+      "label": "Publishing fees"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/submission-checklist",
+      "label": "Submission checklist"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/contact-editorial-office",
+      "label": "Contact editorial office"
+    },
+    {
+      "url": "https://www.frontiersin.org/research-topics/75068/drip-fertigation-and-integrated-water-nutrient-management-mechanisms-innovations-and-pathways-to-sustainable-crop-production",
+      "label": "Part of a Research Topic Drip Fertigation and Integrated Water–Nutrient Management: Mechanisms, Innovations, and Pathways to Sustainable Crop Production Submission open 21k views 13 articles"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
+      "label": "Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38826717",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40046247",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29679827",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41341310",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33267994",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30780016",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33498109",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41531421",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28057341",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34247077",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34571228",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33736368",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34721454",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40144756",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30311153",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38477348",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22451721",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34844327",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30654563",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27203517",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31972954",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38379943",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40508248",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29127868",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19015510",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/pdf",
+      "label": "Download PDF"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/epub",
+      "label": "epub"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/xml",
+      "label": "XML"
+    },
+    {
+      "url": "https://www.frontiersin.org/guidelines/author-guidelines",
+      "label": "Author guidelines"
+    },
+    {
+      "url": "https://www.frontiersin.org/for-authors/author-services",
+      "label": "Services for authors"
+    },
+    {
+      "url": "https://www.frontiersin.org/guidelines/policies-and-publication-ethics",
+      "label": "Policies and publication ethics"
+    },
+    {
+      "url": "https://www.frontiersin.org/guidelines/editor-guidelines",
+      "label": "Editor guidelines"
+    },
+    {
+      "url": "https://www.frontiersin.org/research-topics",
+      "label": "Research Topics"
+    },
+    {
+      "url": "https://www.frontiersin.org/submission/submit",
+      "label": "Submit"
+    },
+    {
+      "url": "https://www.frontiersin.org/legal/privacy-policy",
+      "label": "Privacy policy"
+    },
+    {
+      "url": "https://www.frontiersin.org/legal/terms-and-conditions",
+      "label": "Terms and conditions"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/accessibility-statement",
+      "label": "Accessibility statement"
+    }
+  ],
+  "fetched_at": "2026-10-28T09:25:19.832587+00:00",
+  "sha256": "8d0217a73782929f6484259259003a27d90327f3c1ab61ef2ecf625257829caa",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

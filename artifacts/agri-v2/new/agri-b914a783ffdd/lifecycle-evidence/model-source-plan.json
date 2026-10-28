@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T09:24:54.619966+00:00",
+  "topic_id": "agri-b914a783ffdd",
+  "input_binding": {
+    "topic_sha256": "bfa22d907128c955ac5e7b2f1c5480040887ec4bbf3e296745f368ce707e2249",
+    "sources_sha256": "0e4481c8d276c73b735695a09ac1d2e770e7bc4ca451eb1a2ec94d03959d1533",
+    "raw_sha256": "528fe7b6459c3583590580590b9ef7f82e976e6a35bf9e526f3e903f36d1070f"
+  },
+  "plan": {
+    "topic_id": "agri-b914a783ffdd",
+    "gap": "No source explicitly identifies which chickpea growth stage is most sensitive to water deficit nor provides a quantified water-prioritization protocol across stages (e.g., flowering/pod-filling vs. vegetative). Measurements of soil-water content, evapotranspiration, or applied irrigation volume with units are absent, and discharge vs. pressure or crop water use vs. applied water is not distinguished.",
+    "queries": [
+      "chickpea sensitve growth stage water deficit flowering pod filling university",
+      "chickpea irrigation scheduling water stress stage critical period site:edu OR site:gov"
+    ],
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "need": "Identify the specific chickpea growth stage(s) most vulnerable to water deficit with quantified yield loss or physiological response (e.g., pod set, seed fill) and the irrigation timing recommendation."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Provide measured inputs such as soil water potential (kPa), volumetric water content (%), applied irrigation depth (mm), or ETc (mm/day) tied to the identified sensitive stage; distinguish crop water use from applied water and discharge from pressure."
+      },
+      {
+        "id": "species_product",
+        "need": "Confirm the crop is chickpea (Cicer arietinum) and not another legume; preserve the title's focus on growth-stage water prioritization rather than general drought tolerance or root depth."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

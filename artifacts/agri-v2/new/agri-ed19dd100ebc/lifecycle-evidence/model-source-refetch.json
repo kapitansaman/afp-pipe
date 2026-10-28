@@ -8,13 +8,13 @@
     "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
     "raw_sha256": "5c8c7441dbfec962dce9ab71b8794a5f98ad053b3b5667649939cd68eb82b595"
   },
-  "completed_at": "2026-10-28T06:30:39.578209+00:00",
+  "completed_at": "2026-10-28T09:26:07.537202+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T06:29:21.028775+00:00",
+      "started_at": "2026-10-28T09:24:49.969443+00:00",
       "queries": [
         {
           "query_id": "7a130c7355340b6b6df08650abf1c47daf63700e0924926b279862891708315b",
@@ -127,90 +127,101 @@
             "covered": true,
             "document_ids": [
               "s1",
-              "s2",
               "s10",
-              "s11",
               "s12"
             ],
             "missing": ""
           },
           {
             "id": "exact_reader_method",
-            "covered": false,
-            "document_ids": [],
-            "missing": "No source addresses mechanical or management practices for preventing or breaking soil crust during alfalfa seedling emergence; the reader question about soil crust requires specific guidance that none of the fetched documents provide."
+            "covered": true,
+            "document_ids": [
+              "s10",
+              "s11"
+            ],
+            "missing": ""
           },
           {
             "id": "measurement_units_and_scope",
             "covered": false,
             "document_ids": [],
-            "missing": "No source provides germination temperature values with original units specifically for alfalfa seed imbibition or emergence, nor soil moisture metrics tied to imbibition, with source geography and date preserved."
+            "missing": "No source provides germination temperature values with original units tied directly to germination parameters, nor does any source supply soil moisture metrics explicitly linked to alfalfa seed imbibition or emergence rates. s11 reports 31.3–32.2 °F as the temperature range where modern varieties can germinate and notes a 50% germination time of 15 days at 32 °F versus 3 days at 50 °F, but does not present a germination-temperature range. s10 gives an 81 °F air / 54 °F soil optimum for growth, not germination. No document provides moisture-imbibition thresholds in MPa or volumetric terms for germination or emergence in the field."
           }
         ],
         "next_queries": [
-          "alfalfa soil crust breaking emergence management university extension",
-          "alfalfa seed imbibition temperature soil moisture threshold germination studies"
+          "alfalfa Medicago sativa seed imbibition germination temperature range optimal minimum degrees Fahrenheit site:extension.umn.edu OR site:extension.wsu.edu",
+          "alfalfa seed hydrotime base water potential theta_H germination emergence field moisture threshold"
         ]
       },
-      "completed_at": "2026-10-28T06:29:31.452703+00:00"
+      "completed_at": "2026-10-28T09:25:05.706802+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T06:29:31.453375+00:00",
+      "started_at": "2026-10-28T09:25:05.707504+00:00",
       "queries": [
         {
-          "query_id": "4955ce63bd7603836b3ffee4e6ea61b0e1b6575c81a72ec02a0d0d047f616d2a",
-          "query": "alfalfa soil crust breaking emergence management university extension",
+          "query_id": "97d3bfaa38ad52bf0ddc93b940f2032ed2e6815e22707e65f652e95d8c8bab81",
+          "query": "alfalfa Medicago sativa seed imbibition germination temperature range optimal minimum degrees Fahrenheit site:extension.umn.edu OR site:extension.wsu.edu",
           "cached": false,
-          "checked_at_epoch": 1793168983.509742,
+          "checked_at_epoch": 1793179541.7351372,
           "results": [
             {
-              "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-              "title": "Alfalfa Nutrient Management Guide | USU",
-              "description": "Grewal, H. S. & Williams, R. (2000). Zinc nutrition affects alfalfa responses to water stress and excessive moisture. Journal of Plant Nutrition, 23(7), 949–962. DOI: 10.1080/01904160009382073\n\nHannaway, D., Bohle, M., Miles, D., Lin, Y., & Randow, B. (2019). Alfalfa soil fertility and fertilization requirements[Fact sheet]. Oregon State University Extension. \n\nKelling, K. (2000). Alfalfa fertilization[Fact Sheet]. University of Wisconsin Extension. [...] Koenig, R., Hurst, C., Barnhill, J., Kitchen, B., Winger, M., & Johnson, M. (1999). Fertilizer Management for Alfalfa[Fact Sheet]. Utah State University Extension. \n\nKoenig, R. T., Kitchen, B., Hurst, C., & Barnhill, J. (1999). Phosphorus and potassium fertilization of irrigated alfalfa in Utah. In T.L. Tindall (Ed.), Proceedings of the Western Nutrient Management Conference, March 4–5, Salt Lake City, UT, pp. 57–62. [...] McCauley, A., Jones, C., & Jacobsen, J. (2011). Plant nutrient functions and deficiency and toxicity symptoms [Fact sheet]. Montana State University Extension. \n\nMeyer, R., Marcum, D., Orloff, S., & Schmierer, J. (2007). Alfalfa fertilization strategies [Fact sheet]. University of California, Davis. \n\nMiller, R."
+              "url": "https://extension.umn.edu/growing-forages/managing-alfalfa-winter-injury",
+              "title": "Alfalfa winter injury: Weather and management effects",
+              "description": "Growing degree days for alfalfa are determined by averaging the high and low temperatures for a day, then subtracting the base temperature of 41°F. At 41°F, alfalfa growth is negligible. For example, if the daily high was 70°F and the daily low was 42°F, the average is 56°F. Subtract the base 41°F, and you have 13 alfalfa GDD accumulated for that day. [...] ©2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer.\n\n  \nA QR code linking to the current webpage.  \n\nPlease scan the above QR code to visit the live webpage for links.\n\n|  |  |\n --- |\n|  |  | [...] Dormant alfalfa varieties can suffer winter injury at temperatures ranging from  5 to 15°F.   Winter injury occurs because ice crystals form within and among plant cells and damage cell membranes.\n\nIn contrast, periods of warm soil temperatures (more than 41 degrees) in later winter and spring can cause alfalfa to deharden and break dormancy. If followed by extreme cold or icy weather, severe winter injury may result.\n\n### Ice sheeting"
             },
             {
-              "url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag",
-              "title": "2024 Wisconsin alfalfa seedings a mixed bag – Crops and Soils",
-              "description": "The presence of herbicide-resistant weed species on more farms has pushed widespread use of aggressive pre-emergence chemistries (Group 4, 14, and 27). As moisture is needed for breakdown of these chemistries, a dry 2023 may have led to less breakdown and could lead to undesirable effects on alfalfa establishment. Management that minimizes soil disturbance can also preserve concentrations in the top of the soil profile. From a recent study at UW, there is some evidence of potential interaction [...] Skip to content\n\nUW Madison Crest\n\nCrops and Soils\n\nDivision of Extension\n\nUniversity of Wisconsin-Extension\n\n# 2024 Wisconsin alfalfa seedings a mixed bag\n\nWritten by Scott Newell Posted on\n\nShare\n\n Share:\n\nCopied! [...] ### Other factors are possible. What about residual herbicide damage?\n\nThis year’s large rain events may have brought physical damage to stands, with washout occurring, tender seedlings being damaged by deluge, or soil crusting making emergence challenging. Another factor we are increasingly concerned about is herbicide carryover, this being the unintended residual effect on alfalfa seedlings of soil-incorporated herbicides used in previous crops to control weeds."
+              "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-establishment-management-strategies",
+              "title": "Alfalfa establishment: Management strategies",
+              "description": "In addition to locating well-drained, deep soils, following alfalfa with newly-seeded alfalfa in the rotation is not advisable due to autotoxicity. Because buffering soil pH can take time, soil test and apply and incorporate lime (calcium carbonate) 6 to 12 months prior to alfalfa seeding based on soil reports. Soil phosphorus (P), potassium (K), and sulfur (S) levels should be assess before seeding and annually throughout the alfalfa lifecycle. ### Seeding alfalfa. Alfalfa can be successfully seeded in spring or late summer in Minnesota. ##### Table 2: Pros and cons of spring and summer alfalfa seeding dates. Proper seedbed preparation is essential for providing adequate seed-to-soil contact and controlling perennial and annual weeds. Generally, alfalfa should be seeded from 1/4 to 1/2 inch deep on medium and fine-textured soils and 1/2 to 3/4 inch deep on sandy soils. Alfalfa emergence as determined by seeding depth and soil type. There are two approaches to weed control when seeding alfalfa:. Small grain companion crops can suppress growth of alfalfa seedlings; to reduce competition, small grains should be seeded at only one bushel per acre and harvested at boot stage before gra"
             },
             {
-              "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
-              "title": "Soil crust-busters | Integrated Crop Management",
-              "description": "Iowa State University Extension and Outreach\n\nSign Up for Updates\n\nIntegrated Crop Management\n\nIntegrated Crop Management\n\nSign Up for Updates\n\n# Soil crust-busters [...] Rotary hoes should be operated at 7 to 10 miles per hour. A side benefit of running the rotary hoe just prior to weed emergence is weed control. Although using a hoe to break a crust or incorporate moisture for a herbicide can be beneficial, hoeing is unnecessary if weeds or crust are not present. [...] Most producers have been advised to plant a little deeper this year to achieve good seed-to-soil contact and access to adequate soil moisture. But if a crust forms above the seed, it requires the combined pressure of several plants to crack through a crust, reducing emergence. Seedling crops trapped under a crust grow and elongate below the crust until the seed runs out of stored energy. Deep planting also presents risks because the plants leaf out underground, inhibiting growth and vigor and"
+              "url": "https://extension.umn.edu/planting-forages/alfalfa-establishment-management-strategies",
+              "title": "Alfalfa establishment: Management strategies | UMN Extension",
+              "description": "Title: Alfalfa establishment: Management strategies | UMN Extension\nIn addition to locating well-drained, deep soils, following alfalfa with newly-seeded alfalfa in the rotation is not advisable due to autotoxicity. Because buffering soil pH can take time, soil test and apply and incorporate lime (calcium carbonate) 6 to 12  months prior to alfalfa seeding based on soil reports. Soil phosphorus (P), potassium (K), and sulfur (S) levels should be assess before seeding and annually throughout the alfalfa lifecycle. ### Seeding alfalfa. Alfalfa can be successfully seeded in spring or late summer in Minnesota. ##### Table 2: Pros and cons of spring and summer alfalfa seeding dates. Best time to seed alfalfa-grass mixtures | Lack of available soil moisture, sclerotinia crown rot may be prevalent, need six to seven weeks of growth to survive the winter |. Generally, alfalfa should be seeded from 1/4 to 1/2 inch deep on medium and fine-textured soils and 1/2 to 3/4 inch deep on sandy soils. line graph of declining alfalfa emergence with seeding depth by soil type. Alfalfa emergence as determined by seeding depth and soil type. There are two approaches to weed control when seeding alfalfa:"
             },
             {
-              "url": "https://agcrops.osu.edu/newsletter/corn-newsletter/2025-20/soil-crusting-and-herbicide-carryover",
-              "title": "Soil Crusting and Herbicide Carryover",
-              "description": "Soil crusting inhibits seedling emergence, especially for broadleaf crops like soybean, reduces water infiltration, and increases runoff and erosion."
+              "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/harvesting-and-storing-home-garden-vegetables",
+              "title": "Harvesting and storing home garden vegetables | UMN Extension",
+              "description": "### Watermelons\n\n Harvest when the underside turns yellow or the fruit produces a dull sound when slapped.\n Store in a cool spot (55 degrees Fahrenheit) in the kitchen in perforated plastic bags. Storage in the refrigerator is also possible for a few days.\n Watermelon will decay if stored below 50 degrees Fahrenheit for more than a few days.\n The expected shelf-life is two weeks.\n\nCindy Tong, Extension post-harvest horticulturist\n\nReviewed in\n2026\n\nPage survey [...] ### Basil\n\n Harvest when leaves are still tender.\n Store at room temperature.\n Keep stems in water. Basil will discolor if kept in the refrigerator for 10 days.\n The expected shelf-life is five days.\n\n### Beans, snap\n\n Harvest two to three weeks after bloom when the seeds are still immature.\n Store in cold and moist conditions.\n Beans will develop pitting if stored below 40 degrees Fahrenheit.\n The expected shelf-life is one week.\n\n### Beets [...] For cold conditions, 32 degrees Fahrenheit is the ideal temperature. This temperature is not easy to attain in most homes. Expect shortened shelf-lives for your vegetables as storage conditions deviate from the ideal temperature. This shortening of their life span can be up to"
             },
             {
-              "url": "https://www.canr.msu.edu/news/improving_soybean_emergence_in_soils_prone_to_crusting",
-              "title": "Improving soybean emergence in soils prone to crusting",
-              "description": "The potential for soil crusting is high this spring and the following information will help you improve soybean emergence in soils prone to"
+              "url": "https://extension.umn.edu/food/preparing/commercial-kitchens/keep-food-safe-with-time-and-temperature-control",
+              "title": "Keep food safe with time and temperature control | UMN Extension",
+              "description": "©2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer.\n\n  \nA QR code linking to the current webpage.  \n\nPlease scan the above QR code to visit the live webpage for links.\n\n|  |  |\n --- |\n|  |  | [...] Page survey\n\n©\n2026\nRegents of the University of Minnesota. All rights reserved.\nThe University of Minnesota is an equal opportunity educator and employer.\nThis work is supported by the U.S. Department of Agriculture’s National Institute of Food and Agriculture.\n\nReport Web Accessibility Issues Link is external\n|\nPrivacy Statement Link is external\n|\nStaff intranet Link is external [...] A leading cause of foodborne illness is time and temperature abuse of TCS (food requiring time and temperature control for safety) foods. TCS foods are time and temperature abused any time they’re in the temperature danger zone, 41 to 135 degrees Fahrenheit. This occurs when food is:\n\n Not cooked to the recommended minimum internal temperature.\n Not held at the proper temperature.\n Not cooled or reheated properly.\n\nTemperature danger zone: 41 to 135 degrees Fahrenheit."
+            },
+            {
+              "url": "https://extension.umn.edu/food-service/keep-food-safe-time-and-temperature-control",
+              "title": "Keep food safe with time and temperature control | UMN Extension",
+              "description": "Title: Keep food safe with time and temperature control | UMN Extension\n# Keep food safe with time and temperature control. A leading cause of foodborne illness is time and temperature abuse of **TCS** (food requiring **time** and **temperature control for safety**) foods. TCS foods are time and temperature abused any time they’re in the temperature danger zone, 41 to 135 degrees Fahrenheit. * Not cooked to the recommended minimum internal temperature. * Not held at the proper temperature. Temperature danger zone: 41 to 135 degrees Fahrenheit. The longer food is in the temperature danger zone, the more time pathogens have to grow. The goal is to reduce the amount of time TCS food spends in the temperature danger zone. If food is held in this range for four or more hours, you must throw it out. ## Time and temperature. For a quick and reliable reference, print a copy of the Minnesota Department of Health fact sheet, Temperature Requirements for Potentially Hazardous Foods. ### Cold holding - 41 degrees Fahrenheit or less. Cold foods must be maintained at 41 F or less. The following MUST be cooked to listed internal temperatures and times:. #### 145 Fahrenheit or above for 15 seconds"
             }
           ]
         },
         {
-          "query_id": "e68125f136330f8cc810c49fe992e2c4c54aa520d72ffe607e29714bdeb07d58",
-          "query": "alfalfa seed imbibition temperature soil moisture threshold germination studies",
+          "query_id": "3379c8f6b74116f64bef61b26fb4682c0f75aa96f3fce6a3e0a89ea0c2c98b77",
+          "query": "alfalfa seed hydrotime base water potential theta_H germination emergence field moisture threshold",
           "cached": false,
-          "checked_at_epoch": 1793168985.8992286,
+          "checked_at_epoch": 1793179544.391196,
           "results": [
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092",
+              "title": "Base water potential but not hydrotime predicts seedling emergence of Medicago sativa under water stress conditions",
+              "description": "and with seedling establishment in the field, while no correlation was observed between θH, σφb and seedling emergence and establishment. These results suggest that Ψb(50) can be used to rank the vigor of alfalfa seed lots and thus predict seedling emergence and establishment under water stress conditions. [...] conditions, further supporting the assumption that tolerance of alfalfa seed lots to stressful conditions can be identified by a decrease in Ψb(50). Thus, Ψb(50) can be applicable for predicting early seed vigor and seedling establishment in the field. [...] Table 4 · Pearson correlation coefficient between overall mean of seed germination percentage and rate (mean of four levels of water potential and three replicates), emergence percentage and index and hydrotime parameters (θH, Ψb(50), σφb) at different environmental conditions of control, water stress, salinity stress and field sowing for 10 alfalfa seed lots."
+            },
             {
               "url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
               "title": "Drought risks to late summer alfalfa seedings",
-              "description": "Oct 19, 2022 — Alfalfa can germinate at temperatures as low as 32 F although it can take 2 weeks for germination. Unfortunately, seeds that germinate after mid ...Read more"
+              "description": "Drought during late August and September will delay germination until favorable soil moisture is available. To germinate, alfalfa seeds must absorb over 100% of their weight in water. Delayed emergence caused by dry soils increases the risk of establishment failure through winter injury because seedlings do not have time to adequately develop crowns and roots. Plants with a high probability of survival will have at least four trifoliolate leaves (Figure 1). [...] If adequate moisture is available, alfalfa seeds continue to germinate throughout the fall and even during winter. Alfalfa can germinate at temperatures as low as 32 F although it can take 2 weeks for germination. Unfortunately, seeds that germinate after mid-September have little chance of developing into plants that survive till spring. Growers can expect significant yield reductions from surviving plants. [...] Seed germination and seedling emergence by early September at near optimum temperatures of 65-75 F will allow for 8 or more weeks of growth before a significant killing frost. In an earlier Crop News, we showed that alfalfa seedlings had good tolerance to air temperatures as low as 24F. For much of central and so"
             },
             {
-              "url": "https://www.ndsu.edu/agriculture/ag-hub/ag-topics/crop-production/crops/alfalfa/time-seeding-new-alfalfa-establishment",
-              "title": "Time of Seeding for New Alfalfa Establishment",
-              "description": "This is because moisture is adequate in the spring and cool but not freezing conditions can support good germination and growth (germination begins at 40F ...Read more"
+              "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+              "title": "Frontiers | Drought–salinity interaction suppresses seed germination and seedling growth in alfalfa by altering water status, membrane stability, and antioxidant responses",
+              "description": "During the 10-day germination period, the number of germinated seeds was recorded daily. Germination was defined as visible radicle protrusion through the seed coat. Germination parameters were calculated according to the ISTA rules and previously described methods with minor modifications (ISTA, 2018; Upretee et al., 2024). Germination percentage and germination potential were calculated using Equations 1 and 2, respectively. Germination potential was calculated on day 3, and germination [...] Seed germination is the first and most critical stage in the growth of alfalfa, and its sensitivity to environmental stress largely determines subsequent seedling emergence and stand establishment (Bewley, 1997; Finch-Savage and Leubner-Metzger, 2006). The results of this study showed that as PEG and NaCl concentrations increased, germination percentage, germination potential, germination index, and vigor index generally decreased, which agrees with previous studies showing that osmotic stress [...] early establishment responds to drought and salinity stress is essential for improving pasture formation under adverse environments. Seed germination and early seedling growth are the most vulner"
             },
             {
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9654111",
-              "title": "The Effects of Temperature and Water on the Seed Germination and Seedling Development of Rapeseed (Brassica napus L.)",
-              "description": "Most seeds require a critical moisture content in order to germinate. This value was estimated to be 30% in maize, 40% in wheat, and 50% in soybeans . Once the critical seed moisture content is reached, sufficient moisture is present to initiate germination. Moreover, numerous studies have documented the minimum water potential required to induce seed imbibition [15,57]. Seed imbibition is a three-part process, commencing with an initial phase of water intake, followed by a plateau period with [...] Water is considered the primary germination regulator, as germination begins with seed imbibition. Sufficient moisture must be present for germination to take place. Some research studies stated that a lack of water availability is the primary limitation affecting seed germination [14,15]. It is necessary for enzymatic reactions and the mobilization of the seed storage reserves, including lipids, carbohydrates, and proteins . Therefore, the depletion of the soil water content influences seed [...] Water intake is a prerequisite for germination. It is required for seed imbibition, enzymatic activation, degradation, translocation, and the utilization of reserve storage material. The germi"
+              "url": "https://research.fs.usda.gov/download/treesearch/39168.pdf",
+              "title": "Using hydrothermal time concepts to model seed germination ...",
+              "description": "from time course data at two or more Y and T values (Bradford, 1990; Dahal and Bradford, 1994; Christensen et al., 1996). Because base water potential is inversely proportional to germination rate at a given Y, treatments or conditions that increase Yb(g) will decrease the germination rate, while those that decrease Yb(g) will increase the germination rate. Further, where a shift in Yb(50) changes the fraction of the seed population that is at or below Yb(g) at a particular Y, germination [...] by the temperature and water potential of incubation in relation to the base temperature and base water potential for that seed. The larger the differences (T–Tb) and (Y–Yb(g)), the faster the seed will accrue hydrothermal time and the sooner it will germinate. [...] Keywords: after-ripening, dormancy, Elymus elymoides, hydrothermal time, modelling, priming, seed germination Introduction Seed germination is strongly inﬂuenced by temperature (T) and water potential (Y). Accumula-tion of progress toward radicle emergence under various combinations of T and Y can be described using hydrothermal time (Gummerson, 1986; Dahal and Bradford, 1994; Bradford, 1995): where qHT is the hydrothermal time "
             }
           ]
         }
@@ -243,40 +254,39 @@
         "loaded": 4,
         "sources": [
           {
-            "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-            "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
-            "redirect_hops": 0,
-            "status": "fetched"
-          },
-          {
-            "url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag",
-            "canonical_url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag/",
+            "url": "https://extension.umn.edu/growing-forages/managing-alfalfa-winter-injury",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/managing-alfalfa-winter-injury",
             "redirect_hops": 1,
             "status": "fetched"
           },
           {
-            "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
-            "canonical_url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+            "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-establishment-management-strategies",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-establishment-management-strategies",
             "redirect_hops": 0,
             "status": "fetched"
           },
           {
-            "url": "https://agcrops.osu.edu/newsletter/corn-newsletter/2025-20/soil-crusting-and-herbicide-carryover",
-            "status": "unavailable",
-            "category": "http_error",
-            "temporary": true,
-            "http_status": 403
+            "url": "https://extension.umn.edu/planting-forages/alfalfa-establishment-management-strategies",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-establishment-management-strategies",
+            "redirect_hops": 1,
+            "status": "fetched"
           },
           {
-            "url": "https://www.canr.msu.edu/news/improving_soybean_emergence_in_soils_prone_to_crusting",
-            "status": "unavailable",
-            "category": "source_policy_or_content_rejected",
-            "temporary": false
-          },
-          {
-            "url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
-            "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/harvesting-and-storing-home-garden-vegetables",
+            "canonical_url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/harvesting-and-storing-home-garden-vegetables",
             "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/food/preparing/commercial-kitchens/keep-food-safe-with-time-and-temperature-control",
+            "canonical_url": "https://extension.umn.edu/food/preparing/commercial-kitchens/keep-food-safe-with-time-and-temperature-control",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/food-service/keep-food-safe-time-and-temperature-control",
+            "canonical_url": "https://extension.umn.edu/food/preparing/commercial-kitchens/keep-food-safe-with-time-and-temperature-control",
+            "redirect_hops": 1,
             "status": "fetched"
           }
         ]
@@ -290,41 +300,43 @@
             "covered": true,
             "document_ids": [
               "s1",
-              "s2",
               "s10",
-              "s12"
+              "s11",
+              "s13"
             ],
             "missing": ""
           },
           {
             "id": "exact_reader_method",
-            "covered": false,
-            "document_ids": [],
-            "missing": "No source combines laboratory or field germination parameters with mechanical or management practices for preventing or breaking soil crust during alfalfa seedling emergence. s11 gives lab germination data but does not address crust management; s18 addresses crust-breaking (rotary hoe) but for general row crops and not tied to alfalfa germination parameters."
+            "covered": true,
+            "document_ids": [
+              "s11",
+              "s17"
+            ],
+            "missing": ""
           },
           {
             "id": "measurement_units_and_scope",
             "covered": false,
-            "document_ids": [
-              "s11",
-              "s14"
-            ],
-            "missing": "Germination temperature values with original units and geography/date are present in s11 (31.3 °F–32.2 °F for germination near freezing, 60 °F optimum, Minnesota-based, 2022) and s14 (laboratory 20 °C, Gansu China, 2022). However, no source provides soil moisture metrics explicitly tied to alfalfa seed imbibition or emergence (e.g., water potential thresholds for radicle protrusion in field soil, or soil moisture content at planting linked to imbibition requirements with original units and geographic/date provenance preserved)."
+            "document_ids": [],
+            "missing": "No source provides alfalfa germination temperature thresholds expressed in °C; all temperature data are in °F only. Additionally, no source supplies explicit soil moisture or matric-potential thresholds (e.g., MPa or % field capacity) specifically tied to alfalfa seed imbibition or field emergence, beyond general statements about moisture need and water-stress experiments in unrelated contexts."
           }
         ],
         "next_queries": [
-          "alfalfa seed imbibition water potential soil moisture germination threshold university",
-          "alfalfa soil crust emergence rotary hoe management extension"
+          "alfalfa Medicago sativa germination temperature Celsius optimum minimum",
+          "alfalfa seed imbibition soil water potential matric potential emergence threshold"
         ]
       },
-      "completed_at": "2026-10-28T06:30:39.577442+00:00"
+      "completed_at": "2026-10-28T09:26:07.536281+00:00"
     }
   ],
   "fetches_reserved": 12,
   "publication_authorized": false,
   "scientific_acceptance": false,
-  "temporary_source_failure": true,
-  "status": "temporary_source_fetch_failure",
+  "temporary_source_failure": false,
+  "status": "bounded_search_coverage_incomplete",
+  "unapproved_documents_sha256": "b7991eee72ed565374d476eb60c67bb3be30c9019b882c0099c4c28cbf332867",
   "new_sources": 0,
-  "repair_exhausted": false
+  "unapproved_fetched_sources": 10,
+  "repair_exhausted": true
 }

@@ -1,0 +1,321 @@
+{
+  "coverage_contract_version": 1,
+  "final_coverage_complete": false,
+  "version": 2,
+  "topic_id": "agri-b1f8c76a39ac",
+  "input_binding": {
+    "topic_sha256": "d97fa7ddbd0c4e211566169066cb2578dc266011a802ab53a6a8a0a97914219a",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "5372c01c0c37567aecdd3f571885fe4ab46a091fb459dfdaaba53bbfdc76d558"
+  },
+  "completed_at": "2026-10-28T09:26:51.940436+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T09:25:00.231271+00:00",
+      "queries": [
+        {
+          "query_id": "23259624cba397de9aac12b7f937b3a1abe3da6ad77acc3ca73e5052d4ca51de",
+          "query": "PEAQ alfalfa pre-harvest yield estimation university extension protocol",
+          "cached": false,
+          "checked_at_epoch": 1793179526.1579845,
+          "results": [
+            {
+              "url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq",
+              "title": "Estimating Alfalfa RFV in the Field Using PEAQ",
+              "description": "This procedure estimates alfalfa RFV content of the standing crop. It does not account for changes in quality due to wilting, harvesting, and storage."
+            },
+            {
+              "url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
+              "title": "Estimating the First-Crop Alfalfa Harvest using PEAQ",
+              "description": "May 6, 2025 — This method uses the height and maturity stage of the tallest alfalfa stem (vegetative, bud, or flower stage) to estimate relative feed value ( ...Read more"
+            },
+            {
+              "url": "https://crops.extension.iastate.edu/cropnews/2021/05/estimating-first-crop-alfalfa-harvest-using-peaq-steps",
+              "title": "Estimating First Crop Alfalfa Harvest using PEAQ - Steps",
+              "description": "May 5, 2021 — The PEAQ method uses alfalfa stand height and maturity stage (vegetative, bud, or open flower) to estimate the relative feed value (RFV). In ...Read more"
+            },
+            {
+              "url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+              "title": "How to estimate alfalfa quality in the field using PEAQ",
+              "description": "The PEAQ sampling procedure estimates alfalfa relative feed value (RFV) of the standing crop based on alfalfa maturity and height. It doesn't account for ...Read more"
+            },
+            {
+              "url": "https://dairy.osu.edu/newsletter/buckeye-dairy-news/volume-13-issue-2/estimating-alfalfa-ndf-field",
+              "title": "Estimating Alfalfa NDF in the Field | Ohio Dairy Industry ...",
+              "description": "The PEAQ method is designed for pure alfalfa stands and will not accurately reflect the NDF concentration of mixed grass-alfalfa stands or weedy stands. If ...Read more"
+            }
+          ]
+        },
+        {
+          "query_id": "c9e1bfd7a5247b8f379065cc3e0093a809c13b836bafbb6b4010d06065bf5246",
+          "query": "alfalfa field sampling quadrat method yield prediction before cut",
+          "cached": false,
+          "checked_at_epoch": 1793179528.2370262,
+          "results": [
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
+              "title": "A Method for Predicting Alfalfa Biomass Based on Multimodal ...",
+              "description": "by Y Zhang · 2026 · Cited by 1 — During sampling, a quadrat (1 m × 1 m) was taken from each plot. Biomass yield was measured for each plot based on quadrat sampling, and the effects of"
+            },
+            {
+              "url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+              "title": "Methods Available to Estimate Forage Quality",
+              "description": "Use the PEAQ stick or GDD to predict NDF for the first-cutting alfalfa harvest. · Begin cutting alfalfa at 40 percent NDF (750 GDD, base 41 F)"
+            },
+            {
+              "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-scissors-cut-sampling-procedure",
+              "title": "Alfalfa scissors cut sampling procedure | UMN Extension",
+              "description": "Producers can use the sampling procedure called the scissors cut method to estimate the pre-harvest quality of alfalfa. To use the scissors cut method,"
+            },
+            {
+              "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1996/96-183.Pdf",
+              "title": "Methods To Assess Alfalfa Forage Quality In The Field",
+              "description": "by SB Orlo · Cited by 5 — A rapid, reliable, and accurate method to predict alfalfa forage quality prior to harvest would assist growers with harvest decisions."
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 6,
+        "loaded": 5,
+        "sources": [
+          {
+            "url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq",
+            "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
+            "canonical_url": "https://crops.extension.iastate.edu/cropnews/2025/05/estimating-first-crop-alfalfa-harvest-using-peaq",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://crops.extension.iastate.edu/cropnews/2021/05/estimating-first-crop-alfalfa-harvest-using-peaq-steps",
+            "canonical_url": "https://crops.extension.iastate.edu/cropnews/2021/05/estimating-first-crop-alfalfa-harvest-using-peaq-steps",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://dairy.osu.edu/newsletter/buckeye-dairy-news/volume-13-issue-2/estimating-alfalfa-ndf-field",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": true,
+            "http_status": 403
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
+            "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 6,
+      "coverage": {
+        "topic_id": "agri-b1f8c76a39ac",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s13"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No fetched source provides a deterministic conversion from measured pre-harvest inputs (plant height, stem density, etc.) to estimated yield in t DM/ha or similar units. PEAQ (s10–s13) estimates RFV/NDF, not yield; s2 measures cut-plot yield post-harvest but gives no pre-harvest estimation formula."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "While s13 (UMN Extension) and s10 (UW Madison) are university-affiliated and pre-harvest, they estimate relative feed value (RFV) and NDF, not dry-matter yield. s2 reports hand-cut plot DM yields (Mg ha⁻¹) but after harvest, not as a pre-harvest field-sampling estimator."
+          }
+        ],
+        "next_queries": [
+          "PEAQ alfalfa yield estimation formula dry matter tons per hectare university extension",
+          "hand-cut quadrat alfalfa biomass prediction pre-harvest field sampling protocol yield t DM/ha"
+        ]
+      },
+      "completed_at": "2026-10-28T09:26:07.116618+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T09:26:07.117350+00:00",
+      "queries": [
+        {
+          "query_id": "a0bf3d66623fd8f831f494f1288bf403607cbc343c5594bfeedb46af290ada26",
+          "query": "PEAQ alfalfa yield estimation formula dry matter tons per hectare university extension",
+          "cached": false,
+          "checked_at_epoch": 1793179577.3142018,
+          "results": [
+            {
+              "url": "https://cropsandsoils.extension.wisc.edu/articles/estimating-alfalfa-rfv-in-the-field-using-peaq",
+              "title": "Estimating Alfalfa RFV in the Field Using PEAQ – Crops and Soils",
+              "description": "Skip to content\n\nUW Madison Crest\n\nCrops and Soils\n\nDivision of Extension\n\nUniversity of Wisconsin-Extension\n\nArticles   >  Alfalfa\n\n# Estimating Alfalfa RFV in the Field Using PEAQ\n\nWritten by Crops and Soils Program\n\nShare\n\n Share:\n\nCopied!\n\nStep 1:Choose a representative 2-square-foot area in the field.\n\nStep 2: Determine the most mature stem in the 2-square-foot sampling area using the criteria shown in the table to the right. [...] Step 3: Measure the length of the tallest stem in the 2-square-foot area. Measure if from the soil surface (next to plant crown) to the tip of the stem (NOT to the tip of the highest leaf blade). Straighten the stem for an accurate measure of its length. The tallest stem may not be the most mature stem.\n\nStep 4: Based on the most mature stem and length of the tallest stem, use the chart to the right to determine estimated RFV content of the standing alfalfa forage. [...] The PEAQ system for estimating alfalfa quality in the field was developed by agronomists at the University of Wisconsin – Madison\n\nPrint This Page\n\n### You May Also Like\n\n Machinery Wheel Traffic in Alfalfa FieldsMachinery Wheel Traffic in Alfalfa Fields\n ▶ 2026 Mid-Summer Alfalfa a"
+            },
+            {
+              "url": "https://extension.umn.edu/agriculture/crop-production/forages/how-to-estimate-alfalfa-quality-in-the-field-using-peaq",
+              "title": "How to estimate alfalfa quality in the field using PEAQ | UMN Extension",
+              "description": "| Length of tallest stem | Late vegetative % NDF | Bud stage % NDF | Flower stage % NDF |\n ---  --- |\n| 16 inches | 28.5 | 29.7 | 31.4 |\n| 17 inches | 29.2 | 30.4 | 32 |\n| 18 inches | 29.9 | 31.1 | 32.7 |\n| 19 inches | 30.6 | 31.8 | 33.4 |\n| 20 inches | 31.3 | 32.5 | 34.1 |\n| 21 inches | 32 | 33.2 | 34.8 |\n| 22 inches | 32.7 | 33.9 | 35.5 |\n| 23 inches | 33.4 | 34.6 | 36.2 |\n| 24 inches | 34 | 35.3 | 36.9 |\n| 25 inches | 34.7 | 35.9 | 37.6 |\n| 26 inches | 35.4 | 36.6 | 38.3 | [...] ## Estimating tables\n\n|\n\nThe PEAQ sampling procedure estimates alfalfa relative feed value (RFV) of the standing crop based on alfalfa maturity and height. It doesn't account for changes in quality due to wilting, harvesting and storage. These factors may further lower RFV by 15 to 25 points, assuming good wilting and harvesting conditions.\n\nThe general recommendation is to harvest when the PEAQ estimate is 15 to 25 RFV points higher than what you want to have in the feed bunk. [...] You can estimate alfalfa relative feed value (RFV) and neutral detergent fiber (NDF) levels with the Predictive Equations for Alfalfa Quality (PEAQ) system, which gives alfalfa producers a simple way to schedule harvests. A "
+            },
+            {
+              "url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+              "title": "Methods Available to Estimate Forage Quality — Extension and Ag Research News",
+              "description": "PEAQ (predictive equations for alfalfa quality): This method is based on an equation that uses the length of the tallest alfalfa stem and the stage of the most mature alfalfa plant (these likely will be two different plants) in the area sampled. The current modified PEAQ method uses a scale of three stages of maturity (late vegetative, bud and flower). Measuring sticks, calibrated for the three plant maturity stages, are used to obtain estimates of NDF. [...] Use the PEAQ stick or GDD to predict NDF for the first-cutting alfalfa harvest. Only the PEAQ stick should be used for the second cutting. Do not use the PEAQ or GDD method for the third cutting.\n Begin cutting alfalfa at 40 percent NDF (750 GDD, base 41 F) for upright silos and 38 percent NDF (680 GDD, base 41F) for horizontal silos. Start even earlier for horizontal silos if finishing the harvest takes more than a week.\n Do not use the GDD and PEAQ methods for fields containing grass. [...] (Click the image below to view a high-resolution image that can be downloaded)\n\n This PEAQ stick can help producers determine when alfalfa is at its peak quality.  \n\n  This PEAQ stick can help producers determine when alfalfa is at its pe"
+            },
+            {
+              "url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
+              "title": "Estimating First Crop Alfalfa Harvest using PEAQ",
+              "description": "PEAQ uses alfalfa height and maturity stage (vegetative, bud, or open flower) to estimate relative feed value (RFV). In general, it is"
+            },
+            {
+              "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+              "title": "Alfalfa Nutrient Management Guide | USU",
+              "description": "Table 1. Average Nutrient Concentrations and Removal by Alfalfa During Harvest\n\n|  | Dry matter concentration | Removal per ton of hay |\n --- \n|  | 0.85–4.65% K₂O | 55 lbs K₂O |\n|  | 0.42–0.81% P₂O₅ | 12 lbs P₂O₅ |\n|  | 0.3% S | 4–6 lbs S |\n|  | 0.002% Zn | 0.04 lb Zn |\n|  | 0.003% B | 0.05 lb B | [...] |  |  |\n --- |\n| Soil test potassium (ppm) | Recommendation (lb K₂O/acre) |\n| 0–50\\ | 180–220 |\n| 50–70 | 140–180 |\n| 70–100 | 100–140 |\n| 100–150 | 60–100 |\n| >150 | 0 |\n\nNotes. \\Low soil test levels can severely limit yield. Test soil annually or often until levels are adequate.  \nRecommendations are based on a 12-inch sample depth and sodium bicarbonate (Olsen method) soil extractant.\n\n## Sulfur [...] Alfalfa is the most important field crop grown in Utah because of our dry climate, the quality of feed produced, and economic return to farm businesses. Utah growers produce roughly 2 million tons of alfalfa hay per year, averaging 4.1 tons per acre in 2022 (National Agricultural Statistics Service [NASS], 2024). Much of the alfalfa grown in Utah feeds dairy and beef cattle, with some being exported. Proper nutrient management is key to maintaining high yields, quality, and stand lo"
+            }
+          ]
+        },
+        {
+          "query_id": "a2002f2f27fba966cb97ea55093944186432868c9ae50a4e0d9cce1adaa1b01f",
+          "query": "hand-cut quadrat alfalfa biomass prediction pre-harvest field sampling protocol yield t DM/ha",
+          "cached": false,
+          "checked_at_epoch": 1793179588.2764363,
+          "results": [
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987253",
+              "title": "A Method for Predicting Alfalfa Biomass Based on Multimodal Data and Ensemble Learning Model",
+              "description": "(1 m × 1 m) was taken from each plot. Biomass yield was measured for each plot based on quadrat sampling, and the effects of cultivar, fertilizer type, and fertilizer level on biomass production were further analyzed (Figure A1). [...] levels. For potassium treatments, K was applied at 0, 5, 7.5, 10 (conventional rate), 12.5, and 15 kg·mu−1, while N and P were kept at their conventional application rates. Each fertilization treatment was arranged with three replicates in a randomized block design, and each plot had an area of 64 m2 (8 m × 8 m). All plots were managed uniformly according to the local high-yield cultivation practices, except for differences in fertilizer application. During sampling, a quadrat (1 m × 1 m) was [...] After the collection was completed, the alfalfa field biomass was measured. In each treatment area, three duplicate quadrats (each with an area of 1 m × 1 m) were randomly set up according to the diagonal method, and the quadrats were placed after avoiding the edge of the plot for at least 1 m. The shoot plants were cut evenly along the soil surface in each quadrat. All plant samples were collected and placed into paper bags and marked. The samples were ta"
+            },
+            {
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772375524002028",
+              "title": "Estimation of aboveground biomass of Alfalfa using field ...",
+              "description": "by J Singh · 2024 · Cited by 5 — This study focused on the development of crop height measurement systems for estimating the aboveground biomass yield of Alfalfa (Medicago sativa L.). Five ...Read more"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 4,
+        "loaded": 3,
+        "sources": [
+          {
+            "url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+            "canonical_url": "https://www.ag.ndsu.edu/news/newsreleases/2010/may-24-2010/methods-available-to-estimate-forage-quality",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
+            "canonical_url": "https://crops.extension.iastate.edu/post/estimating-first-crop-alfalfa-harvest-using-peaq",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+            "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+            "status": "cache_valid"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S2772375524002028",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": true,
+            "http_status": 403
+          }
+        ]
+      },
+      "fetches_reserved": 4,
+      "coverage": {
+        "topic_id": "agri-b1f8c76a39ac",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document names a pre-harvest field-sampling protocol (PEAQ, scaled hand-cut quadrat, etc.) explicitly designed to estimate alfalfa yield in t DM/ha or comparable dry-matter-yield units. s10/s11/s12/s13 describe PEAQ but output RFV and NDF (%), not DM yield. s2 records dry-matter yield via plot harvest but does not present a farmer-facing sampling protocol linking measurable field inputs to yield."
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document provides a deterministic, step-by-step conversion from measured field inputs (stem height, stem density, pod load, cut-area weight) to estimated yield with each variable named and its unit stated. PEAQ steps (s10, s11, s12, s13) estimate RFV/NDF, not yield; s2 gives a lab plot-harvest method but no field-level formula linking inputs to t DM/ha."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": true,
+            "document_ids": [
+              "s2"
+            ],
+            "missing": ""
+          }
+        ],
+        "next_queries": [
+          "alfalfa pre-harvest yield estimation field sampling protocol dry matter t DM/ha university extension",
+          "alfalfa stem height stem density to dry matter yield conversion formula PEAQ yield"
+        ]
+      },
+      "completed_at": "2026-10-28T09:26:51.936301+00:00"
+    }
+  ],
+  "fetches_reserved": 10,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": true,
+  "status": "temporary_source_fetch_failure",
+  "new_sources": 0,
+  "repair_exhausted": false
+}

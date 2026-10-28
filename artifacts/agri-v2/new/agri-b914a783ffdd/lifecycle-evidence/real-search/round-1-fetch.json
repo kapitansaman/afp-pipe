@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+      "canonical_url": "https://aes.colostate.edu/swrcr/wp-content/uploads/sites/92/2019/03/MSU-Extension-Chickpea-Production.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2803204/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+      "canonical_url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://content.ces.ncsu.edu/irrigation-scheduling-to-improve-water-and-energy-use-efficiency",
+      "canonical_url": "https://content.ces.ncsu.edu/irrigation-scheduling-to-improve-water-and-energy-use-efficiency",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+      "canonical_url": "https://www.fao.org/4/y3655e/y3655e03.htm",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

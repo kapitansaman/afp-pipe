@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T09:25:00.216933+00:00",
+  "topic_id": "agri-b1f8c76a39ac",
+  "input_binding": {
+    "topic_sha256": "d97fa7ddbd0c4e211566169066cb2578dc266011a802ab53a6a8a0a97914219a",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "5372c01c0c37567aecdd3f571885fe4ab46a091fb459dfdaaba53bbfdc76d558"
+  },
+  "plan": {
+    "topic_id": "agri-b1f8c76a39ac",
+    "gap": "Missing: source-supported step-by-step field sampling protocol for pre-harvest alfalfa yield estimation (e.g., PEAQ or scaled hand-cut quadrat method). Existing evidence covers post-harvest quality, cumulative dry-matter rate, and growth-stage indices — not the direct in-field measurement procedure with named inputs, units, and deterministic conversion to t/ha.",
+    "queries": [
+      "PEAQ alfalfa pre-harvest yield estimation university extension protocol",
+      "alfalfa field sampling quadrat method yield prediction before cut"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "One directly relevant university extension or peer-reviewed source that names a specific field-sampling protocol (e.g., PEAQ, scaled hand-cut quadrat) for estimating alfalfa yield prior to harvest, with explicitly stated measured inputs (plant height, stem density, pod load, or cut-area weight) and output units (t DM/ha or similar)."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "A step-by-step sampling procedure with deterministic conversion from measured field inputs to estimated yield — no fabricated formula, no site-specific dimensions, no example yield numbers. Must name each input variable and its unit."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Source must be primary agricultural research or public extension (university-affiliated). Evidence scoped to pre-harvest field measurement only; post-harvest quality data, cumulative DM-rate papers, and growth-index indices do not satisfy this requirement."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

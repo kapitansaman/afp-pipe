@@ -1,6 +1,6 @@
 {
-  "requested": 5,
-  "loaded": 3,
+  "requested": 6,
+  "loaded": 6,
   "sources": [
     {
       "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
@@ -8,27 +8,31 @@
       "status": "cache_valid"
     },
     {
-      "url": "https://ask.ifas.ufl.edu/publication/AE354",
-      "status": "unavailable",
-      "category": "source_policy_or_content_rejected",
-      "temporary": false
-    },
-    {
       "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
       "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/index.aspx?from=alfalfa",
-      "redirect_hops": 1,
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
+      "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1909849/full",
+      "redirect_hops": 0,
       "status": "fetched"
     },
     {
-      "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
-      "status": "unavailable",
-      "category": "source_policy_or_content_rejected",
-      "temporary": false
+      "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+      "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+      "status": "cache_valid"
     },
     {
-      "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-alfalfa-irrigation-turn-out-timing-and-equipment-maintenance",
-      "canonical_url": "https://cropwatch.unl.edu/pasture-and-forage-minute-alfalfa-irrigation-turn-out-timing-and-equipment-maintenance/",
-      "redirect_hops": 1,
+      "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
+      "canonical_url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2012/12-52.pdf",
+      "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2012/12-52.pdf",
+      "redirect_hops": 0,
       "status": "fetched"
     }
   ]

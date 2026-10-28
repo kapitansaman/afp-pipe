@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T09:24:54.291364+00:00",
+  "topic_id": "agri-46cf2473ba02",
+  "input_binding": {
+    "topic_sha256": "747a643cb986e93f870678cba1c68e381a9903c311d97f0b5b8ec373013e61ce",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "279c57beacded56477bfdda8871cb208e5cd0a620f744663b7e2ff71a13c5e47"
+  },
+  "plan": {
+    "topic_id": "agri-46cf2473ba02",
+    "gap": "Missing operational decision criteria for supplemental irrigation timing in rainfed alfalfa, drought stress thresholds, cost-benefit analysis of irrigation application, and economic evaluation tables specific to rainfed systems",
+    "queries": [
+      "rainfed alfalfa supplemental irrigation timing decision criteria extension",
+      "alfalfa deficit irrigation economic analysis cost benefit university research"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Confirmed rainfed (dried/non-irrigated baseline) alfalfa production system with supplemental irrigation treatment applied"
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Documented irrigation scheduling decision rule or threshold (soil moisture, plant stress indicator, growth stage) for when supplemental irrigation should be applied"
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Measured water application volume (mm, inches, acre-ft), yield response (ton/acre, kg/ha), and economic return calculation with input costs and output value"
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}
