@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://extension.okstate.edu/fact-sheets/watermelon-production-2.html",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+      "canonical_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

@@ -6,9 +6,9 @@
   "article_sha256": "e2e4b12048e1affeac212fdffc31c347f0c5cd6b7d629d717a213f947c484e73",
   "status": "waiting",
   "reason": "translation_or_review_needs_another_attempt",
-  "attempts": 1,
-  "model_calls_spent": 2,
-  "next_attempt_at": "2026-10-27T20:39:53.710688+00:00",
+  "attempts": 2,
+  "model_calls_spent": 3,
+  "next_attempt_at": "2026-10-29T00:44:21.159778+00:00",
   "history": [
     {
       "event": "provider_deferred_without_attempt",
@@ -28,13 +28,26 @@
       "reserved_model_calls": 2,
       "status": "waiting",
       "at": "2026-10-27T14:39:53.710607+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 2,
+      "max_calls": 4,
+      "at": "2026-10-28T00:44:18.086014+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 2,
+      "reserved_model_calls": 1,
+      "status": "waiting",
+      "at": "2026-10-28T00:44:21.159690+00:00"
     }
   ],
   "created_at": "2026-10-27T06:32:59.365772+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,
   "primary_finished": true,
-  "last_started_at": "2026-10-27T14:39:33.124870+00:00",
+  "last_started_at": "2026-10-28T00:44:18.086001+00:00",
   "pending_issues": [
     {
       "id": 3,

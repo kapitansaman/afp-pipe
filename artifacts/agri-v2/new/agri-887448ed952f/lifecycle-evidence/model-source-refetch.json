@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "topic_id": "agri-887448ed952f",
+  "input_binding": {
+    "topic_sha256": "a76c2d678103ffae7e8e4cee85b1ca3f34b83d81c88c8ea58beba4bcaaecfee9",
+    "sources_sha256": "60170af425ff0c5599ddc514be0cbac7877d36d98788be3c9a33789cb96f0f84",
+    "raw_sha256": "2cf10a0ca60dada6b821c00f1f6817aee5c247a4a90d2b8c041319663dbb8bc0"
+  },
+  "started_at": "2026-10-28T00:43:17.217599+00:00",
+  "model_calls": 0,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "status": "new_sources_fetched_requires_original_extraction",
+  "new_sources": 8,
+  "output_sources_sha256": "82fe708dbaca7b85aa3f8d2e76846f838b170aaf4b213546a7c63259dcfa6ac4",
+  "fetch_report": {
+    "version": 2,
+    "started_at": "2026-10-28T00:43:17.217861+00:00",
+    "discovery_backend": "verified_catalog_and_observed_institutional_links",
+    "model_generated_urls": false,
+    "max_fetches": 12,
+    "max_link_depth": 2,
+    "completed_at": "2026-10-28T00:43:18.535137+00:00",
+    "requested": 12,
+    "loaded": 10,
+    "independent_institutions": 3,
+    "observed_links": [
+      {
+        "url": "https://extension.okstate.edu/fact-sheets/watermelon-production-2.html",
+        "observed_on": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "observed_on": "https://welbaum.spes.vt.edu/seedproduction/Cucurbitaceae.html",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+        "observed_on": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+        "observed_on": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+        "observed_on": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+        "observed_on": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+        "observed_on": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+        "depth": 2
+      },
+      {
+        "url": "https://extension.umn.edu/agriculture/crop-production",
+        "observed_on": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+        "depth": 2
+      },
+      {
+        "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+        "observed_on": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+        "depth": 2
+      }
+    ],
+    "fetch_reports": [
+      {
+        "requested": 3,
+        "loaded": 3,
+        "sources": [
+          {
+            "url": "https://welbaum.spes.vt.edu/seedproduction/Cucurbitaceae.html",
+            "canonical_url": "https://welbaum.spes.vt.edu/seedproduction/Cucurbitaceae.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+            "canonical_url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.aces.edu/blog/topics/crop-production/horticulture-notes-pumpkins-and-winter-squash/",
+            "canonical_url": "https://www.aces.edu/blog/topics/crop-production/horticulture-notes-pumpkins-and-winter-squash/",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      {
+        "requested": 6,
+        "loaded": 5,
+        "sources": [
+          {
+            "url": "https://extension.okstate.edu/fact-sheets/watermelon-production-2.html",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": true,
+            "http_status": 403
+          },
+          {
+            "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+            "canonical_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      {
+        "requested": 3,
+        "loaded": 3,
+        "sources": [
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      }
+    ],
+    "topic_id": "agri-887448ed952f",
+    "source_policy_version": "university-single-source-v1",
+    "bounded_discovery_completed": true,
+    "temporary_source_failure": true,
+    "source_sufficiency": {
+      "version": "university-single-source-v1",
+      "satisfied": true,
+      "university_hosts": [
+        "extension.umn.edu",
+        "welbaum.spes.vt.edu",
+        "www.aces.edu"
+      ],
+      "independent_institutions": 3,
+      "single_university_exception": false,
+      "publication_authorized": false
+    },
+    "blocking_kind": null
+  },
+  "completed_at": "2026-10-28T00:43:18.545484+00:00"
+}

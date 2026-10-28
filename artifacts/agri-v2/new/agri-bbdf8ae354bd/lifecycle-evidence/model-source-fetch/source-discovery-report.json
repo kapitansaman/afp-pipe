@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "started_at": "2026-10-28T00:43:25.844126+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 2,
+  "completed_at": "2026-10-28T00:43:26.565608+00:00",
+  "requested": 3,
+  "loaded": 0,
+  "independent_institutions": 0,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 3,
+      "loaded": 0,
+      "sources": [
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/irrigation-management",
+          "status": "unavailable",
+          "category": "http_error",
+          "temporary": false,
+          "http_status": 404
+        },
+        {
+          "url": "https://extension.illinois.edu/crops/focus/irrigation",
+          "status": "unavailable",
+          "category": "http_error",
+          "temporary": false,
+          "http_status": 404
+        },
+        {
+          "url": "https://www.aces.edu/blog/topics/crop-production/specialty-crops/irrigation-management-for-pumpkins/",
+          "status": "unavailable",
+          "category": "http_error",
+          "temporary": false,
+          "http_status": 404
+        }
+      ]
+    }
+  ],
+  "topic_id": "agri-bbdf8ae354bd",
+  "source_policy_version": "university-single-source-v1",
+  "bounded_discovery_completed": true,
+  "temporary_source_failure": false,
+  "source_sufficiency": {
+    "version": "university-single-source-v1",
+    "satisfied": false,
+    "university_hosts": [],
+    "independent_institutions": 0,
+    "single_university_exception": false,
+    "publication_authorized": false
+  },
+  "blocking_kind": "insufficient_verified_source_coverage"
+}

@@ -92,10 +92,28 @@
       "decision": "invalid_partial_resumed_or_unpublished_sample_no_learning",
       "interval_seconds": 300,
       "observed_at": "2026-10-27T15:33:31.274866+00:00"
+    },
+    {
+      "elapsed_seconds": 180.53,
+      "reference_interval_seconds": 300,
+      "proposed_interval_seconds": 300,
+      "built_validated_families": 0,
+      "terminal_not_built": 20,
+      "active_families": 0,
+      "completion_definition": "article, required images, reviews and translations validated; publication verified separately",
+      "tail_adjustment_observed": false,
+      "events": [],
+      "run_id": "40610299326",
+      "sample_eligible": false,
+      "fresh_start": true,
+      "verified_complete_families": 0,
+      "decision": "invalid_partial_resumed_or_unpublished_sample_no_learning",
+      "interval_seconds": 300,
+      "observed_at": "2026-10-28T00:45:08.312240+00:00"
     }
   ],
   "last_observation": {
-    "elapsed_seconds": 141.501,
+    "elapsed_seconds": 180.53,
     "reference_interval_seconds": 300,
     "proposed_interval_seconds": 300,
     "built_validated_families": 0,
@@ -104,12 +122,12 @@
     "completion_definition": "article, required images, reviews and translations validated; publication verified separately",
     "tail_adjustment_observed": false,
     "events": [],
-    "run_id": "40531540832",
+    "run_id": "40610299326",
     "sample_eligible": false,
     "fresh_start": true,
     "verified_complete_families": 0,
     "decision": "invalid_partial_resumed_or_unpublished_sample_no_learning",
     "interval_seconds": 300,
-    "observed_at": "2026-10-27T15:33:31.274866+00:00"
+    "observed_at": "2026-10-28T00:45:08.312240+00:00"
   }
 }

@@ -2,97 +2,57 @@
   "topic_id": "agri-382a9f28f635",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "کدو آجیلی (seed-purpose pumpkin; Cucurbita pepo) — بذر خوراکی تهیه‌شده از میوه کامل زمستانه",
-  "slug": "pumpkin-seed-planting-depth-soil-texture",
+  "product_definition": "کدو آجیلی (بذر خوراکی کدو)",
+  "slug": "planting-depth-oilseed-pumpkin-soils-common-errors",
   "outline": [
-    "تعریف محصول و سامانه هدف",
-    "شواهد استقرار: عمق کاشت در منابع موجود",
-    "خطاها و محدودیت انتقال: فقدان سنجش بر پایه بافت خاک",
-    "جمع‌بندی و مسیر تکمیل شواهد"
+    "شرایط و تعریف کشت: محصول هدف و دامنه شواهد",
+    "عمق کاشت: شواهد موجود و محدودیت‌های آن",
+    "خطاهای رایج: فقدان شواهد مستقیم",
+    "پایش و تصمیم‌گیری: معیارهای کیفی استخراج‌شده"
   ],
   "facts": [
     {
       "kind": "source_observation",
-      "claim": "در مزارع تولید بذر کدو و کدو تنبل، بذرها در عمق ۰٫۵ تا ۱٫۰ اینچ قرار می‌گیرند.",
-      "conditions": "تولید بذر Cucurbita pepo / Cucurbita maxima؛ خاک مناسب زهکشی متوسط با ظرفیت نگهداری آب بالا؛ ایالت‌های غرب و شرق آمریکا; منبع: Virginia Tech Vegetable Seed Production",
-      "evidence_id": "d2-e4",
-      "numeric_bindings": [
-        {
-          "value": "0.5 to 1.0",
-          "unit_quote": "Seeds are placed at 0.5 to 1.0 inches deep",
-          "geographic_scope": "Western US and some places in the East",
-          "product_scope": "pumpkin and squash seed production"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "در Illinois Extension بذرها یک اینچ عمق می‌کارند و برای انواع بوچه، نیمه‌بوچه و رونده تکرار شده است.",
-      "conditions": "کشت صیفی‌جات خانگی/تجاری Pumpkin; Illinois Extension; محصول: میوه کدو (توصیف عمومی نه تفکیک بذر/میوه)",
-      "evidence_id": "d4-e1",
+      "claim": "بذر کدو در عمق ۱ اینچ (حدود ۲٫۵ سانتی‌متر) کاشته می‌شود.",
+      "conditions": "منبع: ایلینوی اگزینتشن، ایالات متحده. برای ارقام راننده، نیمه‌بوשי و مینیاتوری ذکر شده است.",
+      "evidence_id": "d0-e1",
       "numeric_bindings": [
         {
           "value": "one inch",
-          "unit_quote": "Plant seeds one inch deep",
+          "unit_quote": "one inch deep",
           "geographic_scope": "Illinois, USA",
-          "product_scope": "pumpkin (general fruit crop)"
+          "product_scope": "pumpkin (general)"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "Utah State توصیه می‌کند بذرها ۱ تا ۲ اینچ عمق در گودال‌های ۴ فوتی کار گذاشته شوند وقتی دمای خاک ۶۵ºF باشد.",
-      "conditions": "گarden pumpkins; Utah State University Extension; خاک آبرفتی/غنی; محصول: میوه کدو",
-      "evidence_id": "d5-e2",
+      "claim": "بذر کدو در عمق ۰٫۵ تا ۱٫۰ اینچ قرار می‌گیرد.",
+      "conditions": "منبع: دانشگاه ویرجینیا، بخش تولید بذر کدو و کدو تنبل. دامنه عمق عمومی گزارش شده است.",
+      "evidence_id": "d1-e4",
       "numeric_bindings": [
         {
-          "value": "1-2 inches",
-          "unit_quote": "Plant four to six seeds, 1-2 inches deep, in mounds",
-          "geographic_scope": "Utah, USA",
-          "product_scope": "pumpkin garden production"
-        },
-        {
-          "value": "65ºF",
-          "unit_quote": "when soils are 65ºF",
-          "geographic_scope": "Utah, USA",
-          "product_scope": "pumpkin garden production"
-        }
-      ]
-    },
-    {
-      "kind": "qualitative",
-      "claim": "دمای بهینه جوانه‌زنی بذر کدو ۹۵°F و حداقل آن ۶۵°F است و زیر ۶۸°F جوانه‌زنی کند و ناهموار رخ می‌دهد.",
-      "conditions": "تولید بذر Cucurbita; Virginia Tech; مربوط به دماست نه عمق کاشت بر پایه بافت خاک",
-      "evidence_id": "d2-e3",
-      "numeric_bindings": [
-        {
-          "value": "65 F",
-          "unit_quote": "minimum ... soil temperatures for seed germination are 65 F",
-          "geographic_scope": "US (general extension guidance)",
-          "product_scope": "pumpkin and squash seed germination"
-        },
-        {
-          "value": "95 F",
-          "unit_quote": "optimum ... 95 F",
-          "geographic_scope": "US (general extension guidance)",
-          "product_scope": "pumpkin and squash seed germination"
+          "value": "0.5 to 1.0 inches",
+          "unit_quote": "0.5 to 1.0 inches deep",
+          "geographic_scope": "US (Western and Eastern regions)",
+          "product_scope": "pumpkin and squash"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "خاک‌های رسی به‌دلیل تهویه ضعیف و زهکشی محدود می‌توانند رشد ریشه را محدود و پوسیدگی میوه را افزایش دهند.",
-      "conditions": "Seed production for pumpkin and squash; Virginia Tech; اشاره به عدم توصیه کشت در خاک رسی سنگین اما بدون بیان عمق جایگزین",
-      "evidence_id": "d2-e1",
+      "claim": "خاک‌های رسی سنگین به دلیل تهویه ضعیف و زهکشی محدود نامناسب هستند و رشد ریشه و پوسیدگی میوه را افزایش می‌دهند.",
+      "conditions": "منبع: دانشگاه ویرجینیا، بخش تولید بذر. خاک سبک/زهکشی‌شده با ظرفیت نگهداری آب متوسط به‌عنوان بهینه توصیف شده است.",
+      "evidence_id": "d1-e1",
       "numeric_bindings": []
     },
     {
-      "kind": "qualitative",
-      "claim": "فاصله ردیف و بوته بسته به عادت رشدی (بوچه/نیمه‌رونده/رونده) تنظیم می‌شود اما هیچ‌یک عمق کاشت را بر اساس سبک/سنگینی خاک تفکیک نمی‌کنند.",
-      "conditions": "Spacing guidance across Virginia Tech, Illinois Extension, Alabama Extension, Utah State; محصول: کدو آجیلی/میوه‌ای",
-      "evidence_id": "d2-e4",
+      "kind": "source_observation",
+      "claim": "کدو آجیلی (تولید بذر خوراکی) از دیدگاه گونه و محصول برداشت متفاوت از کدو هالووین/گوشتی است و شواهد فعلی پوشش دقیق این منظور را ندارند.",
+      "conditions": "منبع: Mapping علمی کاربردی؛ تفاوت محصول برداشت‌شده (بذر تمیز/خشک در مقابل میوه کامل) در منابع ذکر نشده است.",
+      "evidence_id": "d1-e4",
       "numeric_bindings": []
     }
   ],
-  "insufficiency_reason": "عنوان درخواستی نیازمند راهنمای اجرایی تفکیک‌شدهٔ عمق کاشت بذر کدو آجیلی در خاک سبک در مقابل خاک سنگین همراه با خطاهای رایج هر سامانه است. شواهد استخراج‌شده تنها یک بازهٔ عمومی ۰٫۵ تا ۲ اینچ را بدون تقسیم‌بندی بر پایهٔ بافت خاک ارائه می‌دهند؛ منبعی که معیار کمی یا کیفی تفاوت عمق در خاک سبک vs سنگین، یا فهرست خطاهای رایج خاص همان تقسیم‌بندی را گزارش کند، در داده‌های موجود وجود ندارد. بنابراین پاسخ بر اساس intent دقیق عنوان فراهم نیست."
+  "insufficiency_reason": "شواهد موجود عمق کاشت عمومی کدو (۰٫۵ تا ۱ اینچ) و ویژگی‌های خاک مناسب را ارائه می‌دهند، اما: (۱) تفاوت کمی عمق کاشت بر اساس بافت خاک سبک در برابر سنگین به‌طور مستقیم اندازه‌گیری یا مقایسه نشده است؛ (۲) هیچ منبعی خطاهای رایج کاشت (مثلاً کاشت بسیار سطحی، بسیار عمیق، یا فاصله نادرست در خاک‌های خاص) را برای کدو آجیلی گزارش نکرده است؛ (۳) منابع فعلی عمدتاً مربوط به کدوی معمولی/میوه‌ای آمریکا هستند و محصول هدف این موضوع (بذر خوراکی/آجیلی) به‌صورت صریح پوشش داده نشده است."
 }

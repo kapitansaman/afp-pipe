@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "topic_id": "agri-c2151ad96659",
+  "input_binding": {
+    "topic_sha256": "0f06e1bcca6b601c445df78af19a58f684b163129e22d6c9c60ce103446fac4e",
+    "sources_sha256": "b0c553f9109b73164f78c53928184aa73dba7b34241a3e9ab117144770d4b748",
+    "raw_sha256": "869123baadf778a85c2cc8130b8e1503a11cefb49c5de2d85e70bc36677ad397"
+  },
+  "started_at": "2026-10-28T00:43:15.851627+00:00",
+  "model_calls": 0,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "status": "new_sources_fetched_requires_original_extraction",
+  "new_sources": 10,
+  "output_sources_sha256": "b3caaa39906b4fb2ec6a24a04ce0b0bc6200f19cea9439f2d0fd7257998d1fe3",
+  "fetch_report": {
+    "version": 2,
+    "started_at": "2026-10-28T00:43:15.851885+00:00",
+    "discovery_backend": "verified_catalog_and_observed_institutional_links",
+    "model_generated_urls": false,
+    "max_fetches": 12,
+    "max_link_depth": 2,
+    "completed_at": "2026-10-28T00:43:20.048904+00:00",
+    "requested": 12,
+    "loaded": 10,
+    "independent_institutions": 2,
+    "observed_links": [
+      {
+        "url": "https://dda.msstate.edu/msu-extension-service",
+        "observed_on": "https://extension.msstate.edu/publications",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.msstate.edu/",
+        "observed_on": "https://extension.msstate.edu/publications",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.msstate.edu/about-extension",
+        "observed_on": "https://extension.msstate.edu/publications",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.msstate.edu/about-extension/disclaimer-notice",
+        "observed_on": "https://extension.msstate.edu/publications",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.msstate.edu/about-extension/economic-impacts",
+        "observed_on": "https://extension.msstate.edu/publications",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.msstate.edu/about-extension/legislative-update",
+        "observed_on": "https://extension.msstate.edu/publications",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.msstate.edu/publications/corn-seed-hybrid-trials-increase-profits",
+        "observed_on": "https://extension.msstate.edu/about-extension/economic-impacts",
+        "depth": 2
+      },
+      {
+        "url": "https://extension.msstate.edu/publications/cotton-seed-variety-trials-improve-yields",
+        "observed_on": "https://extension.msstate.edu/about-extension/economic-impacts",
+        "depth": 2
+      },
+      {
+        "url": "https://extension.msstate.edu/publications/mississippi-master-gardeners-extend-university-knowledge",
+        "observed_on": "https://extension.msstate.edu/about-extension/economic-impacts",
+        "depth": 2
+      }
+    ],
+    "fetch_reports": [
+      {
+        "requested": 3,
+        "loaded": 2,
+        "sources": [
+          {
+            "url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+            "canonical_url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/publications",
+            "canonical_url": "https://extension.msstate.edu/publications",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/publications",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": false,
+            "http_status": 404
+          }
+        ]
+      },
+      {
+        "requested": 6,
+        "loaded": 6,
+        "sources": [
+          {
+            "url": "https://dda.msstate.edu/msu-extension-service",
+            "canonical_url": "https://dda.msstate.edu/msu-extension-service",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/",
+            "canonical_url": "https://extension.msstate.edu/",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/about-extension",
+            "canonical_url": "https://extension.msstate.edu/about-extension",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/about-extension/disclaimer-notice",
+            "canonical_url": "https://extension.msstate.edu/about-extension/disclaimer-notice",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/about-extension/economic-impacts",
+            "canonical_url": "https://extension.msstate.edu/about-extension/economic-impacts",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/about-extension/legislative-update",
+            "canonical_url": "https://extension.msstate.edu/about-extension/legislative-update",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      {
+        "requested": 3,
+        "loaded": 3,
+        "sources": [
+          {
+            "url": "https://extension.msstate.edu/publications/corn-seed-hybrid-trials-increase-profits",
+            "canonical_url": "https://extension.msstate.edu/publications/corn-seed-hybrid-trials-increase-profits",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/publications/cotton-seed-variety-trials-improve-yields",
+            "canonical_url": "https://extension.msstate.edu/publications/cotton-seed-variety-trials-improve-yields",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/publications/mississippi-master-gardeners-extend-university-knowledge",
+            "canonical_url": "https://extension.msstate.edu/publications/mississippi-master-gardeners-extend-university-knowledge",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      }
+    ],
+    "topic_id": "agri-c2151ad96659",
+    "source_policy_version": "university-single-source-v1",
+    "bounded_discovery_completed": true,
+    "temporary_source_failure": false,
+    "source_sufficiency": {
+      "version": "university-single-source-v1",
+      "satisfied": true,
+      "university_hosts": [
+        "dda.msstate.edu",
+        "extension.msstate.edu",
+        "www.extension.iastate.edu"
+      ],
+      "independent_institutions": 2,
+      "single_university_exception": false,
+      "publication_authorized": false
+    },
+    "blocking_kind": null
+  },
+  "completed_at": "2026-10-28T00:43:20.055106+00:00"
+}

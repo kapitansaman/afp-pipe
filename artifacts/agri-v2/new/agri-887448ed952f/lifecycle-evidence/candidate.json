@@ -1,0 +1,95 @@
+{
+  "topic_id": "agri-887448ed952f",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "کدو آجیلی (تخم کدو خوراکی از گونه‌های Cucurbita)",
+  "slug": "reducing-harvest-loss-seed-pumpkin-time-tool-method",
+  "outline": [
+    "تعریف محصول و هدف (کدو آجیلی، تفاوت با کدوی گوشتی)",
+    "معیارها و شواهد (زمان برداشت بر پایه بلوغ ریشه‌ای و تغییر رنگ پوسته)",
+    "روش ثبت و کنترل کیفیت (برداشت مکانیکی در برابر برداشت دستی، عمل آوری)"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "برای تمام کدوها و خربزه‌ها، رسیدن دانه حدود شانزده هفته از گل‌دهی تا رسیدن دانه طول می‌کشد.",
+      "conditions": "منبع دانشگاهی ویرجینیا تک (آمریکا)، برای گونه‌های Cucurbita به‌صورت کلی؛ دقت منبع مربوط به مرحله رسیدن دانه است نه تولید میوه",
+      "evidence_id": "d2-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در مرحله رسیدن دانه، پوسته سفت شده و تغییر رنگ می‌دهد؛ انواع سبز به رنگ زرد-نارنجی و انواع زرد-طلایی به رنگ کاه‌ای تبدیل می‌شوند.",
+      "conditions": "منبع دانشگاهی ویرجینیا تک (آمریکا)، معیار کیفی رسیدگی دانه در کدو و خربزه",
+      "evidence_id": "d2-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در تولید انبوه می‌توان محصولات را در ردیف‌های خشک (windrow) قرار داد تا آماده درو توسط دستگاه ثریشر متحرک باشند یا میوه‌ها را روی بوته نگه داشت تا ماشین دروکننده خودکار از میان مزرعه عبور کند.",
+      "conditions": "منبع دانشگاهی ویرجینیا تک (آمریکا)، شیوه جمع‌آوری میوه قبل از استخراج دانه؛ منابع فارسی ممکن است روش‌های مشابه را در اقلیم خود توصیف کنند اما این منبع فقط بر اساس داده‌های خارجی ارائه شده است",
+      "evidence_id": "d2-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "پوست میوه‌هایی مانند خربزه زمستانی نسبتاً خشک است وقتی دانه بالغ و آماده استخراج شود، اما برای برخی میوه‌ها آب به separator اضافه می‌شود تا دانه از باقیمانده میوه جدا شود.",
+      "conditions": "منبع دانشگاهی ویرجینیا تک (آمریکا)، بخش مربوط به تمیز کردن دانه پس از استخراج؛ محدود به شرایط خارجی",
+      "evidence_id": "d2-e13",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برای نگهداری کدوهای زمستانی از جمله نوع پومپکین، دما باید بین 50 تا 55 درجه فارنهایت و رطوبت نسبی بین 50 تا 75 درصد باشد و میوه باید کاملاً رسیده باشد تا دو تا سه ماه نگهداری شود.",
+      "conditions": "منبع اکستنشن آلاباما (آمریکا)، محدوده‌ها برای نگهداری میوه کامل هستند و مستقیماً برای تخم کدو پس از استخراج کاربرد ندارند",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": [
+        {
+          "value": "50 to 55",
+          "unit_quote": "50 to 55 degrees F",
+          "geographic_scope": "Alabama Cooperative Extension System (آمریکا)",
+          "product_scope": "پومپکین (میوه کامل زمستانی)"
+        },
+        {
+          "value": "50 to 75",
+          "unit_quote": "50 to 75 percent",
+          "geographic_scope": "Alabama Cooperative Extension System (آمریکا)",
+          "product_scope": "پومپکین (میوه کامل زمستانی)"
+        },
+        {
+          "value": "2 to 3",
+          "unit_quote": "2 to 3 months",
+          "geographic_scope": "Alabama Cooperative Extension System (آمریکا)",
+          "product_scope": "پومپکین (میوه کامل زمستانی)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عمل آوری شامل افزایش دما به 80 تا 85 درجه فارنهایت با رطوبت نسبی 75 تا 80 درصد به مدت تقریبی ده روز است تا زخم‌ها بهبود یابند، رسیدن میوه‌های نارس کمک شود و رنگ بهبود یابد.",
+      "conditions": "منبع اکستنشن آلاباما (آمریکا)، عمل آوری برای میوه کامل؛ مستقیماً برای دانه کدو آجیلی پس از استخراج تایید نشده است",
+      "evidence_id": "d1-e3",
+      "numeric_bindings": [
+        {
+          "value": "80 to 85",
+          "unit_quote": "80 to 85 degrees F",
+          "geographic_scope": "Alabama Cooperative Extension System (آمریکا)",
+          "product_scope": "پومپکین و خربزه زمستانی (عمل آوری میوه)"
+        },
+        {
+          "value": "75 to 80",
+          "unit_quote": "75 to 80 percent",
+          "geographic_scope": "Alabama Cooperative Extension System (آمریکا)",
+          "product_scope": "پومپکین و خربزه زمستانی (عمل آوری میوه)"
+        },
+        {
+          "value": "10",
+          "unit_quote": "approximately 10 days",
+          "geographic_scope": "Alabama Cooperative Extension System (آمریکا)",
+          "product_scope": "پومپکین و خربزه زمستانی (عمل آوری میوه)"
+        }
+      ]
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

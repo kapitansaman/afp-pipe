@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "created_at": "2026-10-28T00:43:13.504325+00:00",
+  "topic_id": "agri-382a9f28f635",
+  "input_binding": {
+    "topic_sha256": "c7e4a7bdac12eae981c583549e756e8fce59808e58edbb6c53371f7ae8afce4f",
+    "sources_sha256": "bb4d2ab216a53023c7ebab32e353e917c05942e8bb12aa957cc3fe4f2cb3998b",
+    "raw_sha256": "0ed43e4de1dc9b130f98f2d4e643f6035a00ccd2ca9275f1b40f1598570028a8"
+  },
+  "plan": {
+    "topic_id": "agri-382a9f28f635",
+    "gap": "فراخوان‌های فشردهٔ استخراج‌شده یک عمق کاشت عمومی (حدود ۲٫۵ سانتی‌متر / ۱ اینچ) را بدون تفکیک بر پایهٔ بافت خاک (سبک vs سنگین) و بدون فهرست خطاهای رایج گزارش می‌کنند. هیچ منبع موجود معیار کمی تفاوت عمق بر حسب بافت خاک، یا خطاهای رایج خاص هر بافت را برای کدو آجیلی (پمپین تولیدبذر خوراکی) مستند نکرده است.",
+    "queries": [
+      "pumpkin grown for edible seeds planting depth soil texture light sand heavy clay university extension",
+      "Cucurbita pepo seed sowing depth sand versus clay soil germination emergence errors extension",
+      "کدو آجیلی عمق کاشت بذر خاک سبک خاک سنگین اشتباهات رایج راهنمای تولید بذر"
+    ],
+    "leads": [
+      {
+        "url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+        "kind": "document",
+        "why_relevant": "Illinois Extension pumpkin guide already provides one-inch depth for multiple growth forms but omits soil-texture differentiation and error catalogues; useful anchor if supplementary tail pages differentiate depth by texture.",
+        "expected_evidence": "Exact species/market class (pumpkin grown for edible seeds), propagule (seed), growth form, precise depth range with units, any texture-based adjustment, or explicit statement that depth is uniform across textures."
+      },
+      {
+        "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "kind": "document",
+        "why_relevant": "Virginia Tech seed-production manual covers pumpkin/squash planting under controlled seed-production conditions; seed-production contexts often specify depth more precisely and may flag establishment errors, including texture-related ones.",
+        "expected_evidence": "Quantitative sowing depth for Cucurbita pepo seeds intended for cleaned edible seed, explicitly tied to soil texture categories (light vs heavy) and any documented emergence failures or common planting errors per texture class."
+      },
+      {
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+        "kind": "document",
+        "why_relevant": "UMN Extension is an admitted .edu source in a major pumpkin-producing region; the specialty-crops portal may host a companion planting guide distinct from the harvested-fetch content shown.",
+        "expected_evidence": "Crop-establishment or planting guidance for pumpkins/squash in Minnesota, including depth values by soil texture and any listed planting errors, referenced separately from the harvesting excerpt already fetched."
+      }
+    ],
+    "no_source_found": false
+  },
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

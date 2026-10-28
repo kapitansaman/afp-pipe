@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "topic_id": "agri-382a9f28f635",
+  "input_binding": {
+    "topic_sha256": "c7e4a7bdac12eae981c583549e756e8fce59808e58edbb6c53371f7ae8afce4f",
+    "sources_sha256": "bb4d2ab216a53023c7ebab32e353e917c05942e8bb12aa957cc3fe4f2cb3998b",
+    "raw_sha256": "0ed43e4de1dc9b130f98f2d4e643f6035a00ccd2ca9275f1b40f1598570028a8"
+  },
+  "started_at": "2026-10-28T00:43:13.517059+00:00",
+  "model_calls": 0,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "status": "new_sources_fetched_requires_original_extraction",
+  "new_sources": 5,
+  "output_sources_sha256": "2eeb8867533e69854dec3e9e5df54e67523f7bb8670324255e619b5f3e709124",
+  "fetch_report": {
+    "version": 2,
+    "started_at": "2026-10-28T00:43:13.517355+00:00",
+    "discovery_backend": "verified_catalog_and_observed_institutional_links",
+    "model_generated_urls": false,
+    "max_fetches": 12,
+    "max_link_depth": 2,
+    "completed_at": "2026-10-28T00:43:14.648992+00:00",
+    "requested": 12,
+    "loaded": 9,
+    "independent_institutions": 3,
+    "observed_links": [
+      {
+        "url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2021/09/a-quick-guide-to-harvesting-and-storing.html",
+        "observed_on": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.illinois.edu/blogs/commercial-fruit-and-vegetable-growers/2023-07-31-time-pumpkin-disease-and-insect-management",
+        "observed_on": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.illinois.edu/pumpkins",
+        "observed_on": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.illinois.edu/pumpkins/answers-your-questions-about-pumpkins",
+        "observed_on": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.illinois.edu/pumpkins/choosing-pumpkin",
+        "observed_on": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.illinois.edu/pumpkins/preserving-pumpkin",
+        "observed_on": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+        "depth": 1
+      },
+      {
+        "url": "https://extension.illinois.edu/pumpkins/Drying%20seeds%20and%20roasting%20seeds%20are%20two%20different%20processes.%20To%20dry,%20carefully%20wash%20pumpkin%20seeds%20to%20remove%20the%20clinging%20fibrous%20pumpkin%20tissue.%20Pumpkin%20seeds%20can%20be%20dried%20in%20the%20sun,%20in%20a%20dehydrator%20at%20115-120ºF%20for%201%20to%202%20hours,%20or%20in%20an%20oven%20on%20warm%20for%203%20to%204%20hours.%20Stir%20them%20frequently%20to%20avoid%20scorching.",
+        "observed_on": "https://extension.illinois.edu/pumpkins/preserving-pumpkin",
+        "depth": 2
+      },
+      {
+        "url": "https://extension.illinois.edu/pumpkins/Fruit%20leathers%20are%20homemade%20fruit%20rolls.%20They%20are%20a%20tasty%20chewy,%20dried%20fruit%20product.%20Fruit%20leathers%20are%20made%20by%20pouring%20pureéd%20fruit%20onto%20a%20flat%20surface%20for%20drying.%20When%20dried,%20the%20fruit%20is%20pulled%20from%20the%20surface%20and%20rolled.%20It%20gets%20the%20name%20%22leather%22%20from%20the%20fact%20that%20when%20pureéd%20fruit%20is%20dried,%20it%20is%20shiny%20and%20has%20the%20texture%20of%20leather.",
+        "observed_on": "https://extension.illinois.edu/pumpkins/preserving-pumpkin",
+        "depth": 2
+      },
+      {
+        "url": "https://extension.illinois.edu/pumpkins/Wash,%20cut%20into%20cooking-size%20sections%20and%20remove%20seeds.",
+        "observed_on": "https://extension.illinois.edu/pumpkins/preserving-pumpkin",
+        "depth": 2
+      }
+    ],
+    "fetch_reports": [
+      {
+        "requested": 3,
+        "loaded": 3,
+        "sources": [
+          {
+            "url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+            "canonical_url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+            "canonical_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+            "canonical_url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      {
+        "requested": 6,
+        "loaded": 6,
+        "sources": [
+          {
+            "url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2021/09/a-quick-guide-to-harvesting-and-storing.html",
+            "canonical_url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2021/09/a-quick-guide-to-harvesting-and-storing.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.illinois.edu/blogs/commercial-fruit-and-vegetable-growers/2023-07-31-time-pumpkin-disease-and-insect-management",
+            "canonical_url": "https://extension.illinois.edu/blogs/commercial-fruit-and-vegetable-growers/2023-07-31-time-pumpkin-disease-and-insect-management",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.illinois.edu/pumpkins",
+            "canonical_url": "https://extension.illinois.edu/pumpkins",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.illinois.edu/pumpkins/answers-your-questions-about-pumpkins",
+            "canonical_url": "https://extension.illinois.edu/pumpkins/answers-your-questions-about-pumpkins",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.illinois.edu/pumpkins/choosing-pumpkin",
+            "canonical_url": "https://extension.illinois.edu/pumpkins/choosing-pumpkin",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.illinois.edu/pumpkins/preserving-pumpkin",
+            "canonical_url": "https://extension.illinois.edu/pumpkins/preserving-pumpkin",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      {
+        "requested": 3,
+        "loaded": 0,
+        "sources": [
+          {
+            "url": "https://extension.illinois.edu/pumpkins/Drying%20seeds%20and%20roasting%20seeds%20are%20two%20different%20processes.%20To%20dry,%20carefully%20wash%20pumpkin%20seeds%20to%20remove%20the%20clinging%20fibrous%20pumpkin%20tissue.%20Pumpkin%20seeds%20can%20be%20dried%20in%20the%20sun,%20in%20a%20dehydrator%20at%20115-120ºF%20for%201%20to%202%20hours,%20or%20in%20an%20oven%20on%20warm%20for%203%20to%204%20hours.%20Stir%20them%20frequently%20to%20avoid%20scorching.",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://extension.illinois.edu/pumpkins/Fruit%20leathers%20are%20homemade%20fruit%20rolls.%20They%20are%20a%20tasty%20chewy,%20dried%20fruit%20product.%20Fruit%20leathers%20are%20made%20by%20pouring%20pureéd%20fruit%20onto%20a%20flat%20surface%20for%20drying.%20When%20dried,%20the%20fruit%20is%20pulled%20from%20the%20surface%20and%20rolled.%20It%20gets%20the%20name%20%22leather%22%20from%20the%20fact%20that%20when%20pureéd%20fruit%20is%20dried,%20it%20is%20shiny%20and%20has%20the%20texture%20of%20leather.",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://extension.illinois.edu/pumpkins/Wash,%20cut%20into%20cooking-size%20sections%20and%20remove%20seeds.",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": false,
+            "http_status": 404
+          }
+        ]
+      }
+    ],
+    "topic_id": "agri-382a9f28f635",
+    "source_policy_version": "university-single-source-v1",
+    "bounded_discovery_completed": true,
+    "temporary_source_failure": false,
+    "source_sufficiency": {
+      "version": "university-single-source-v1",
+      "satisfied": true,
+      "university_hosts": [
+        "blog-fruit-vegetable-ipm.extension.umn.edu",
+        "extension.illinois.edu",
+        "extension.umn.edu",
+        "welbaum.spes.vt.edu"
+      ],
+      "independent_institutions": 3,
+      "single_university_exception": false,
+      "publication_authorized": false
+    },
+    "blocking_kind": null
+  },
+  "completed_at": "2026-10-28T00:43:14.659329+00:00"
+}

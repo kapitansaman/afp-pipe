@@ -1,0 +1,32 @@
+{
+  "topic_id": "agri-cd64428568cb",
+  "gap": "No fetched source reports a measured seasonal or growth-stage water requirement (ETc, inches/season, mm, or irrigation rate) specific to pinto dry bean under field/irrigated conditions. Existing guides cover spacing, harvest, soil moisture sensor thresholds, and grading standards but omit crop water use data by phenological stage and climate.",
+  "queries": [
+    "pinto dry bean evapotranspiration irrigated growth stage site:extension.(org|edu)",
+    "dry bean water use mm per season site:extension.(org|edu) OR site:.edu",
+    "North Dakota pinto bean irrigation water requirement site:extension.nodak.edu OR site:nodsues.ndsu.edu"
+  ],
+  "leads": [
+    {
+      "url": "https://www.ag.ndsu.edu/dry-bean-production",
+      "kind": "hub",
+      "why_relevant": "NDSU is in the leading pinto dry bean region; its extension hub may host or link to crop water-use publications for dry beans.",
+      "expected_evidence": "Links or tables reporting ETc, irrigation scheduling intervals, or seasonal water use (mm or inches) by dry bean growth stage."
+    },
+    {
+      "url": "https://extension.unl.edu/publications/dry-bean-production",
+      "kind": "hub",
+      "why_relevant": "Nebraska Extension covers major dry bean production areas including the Central High Plains; production guides sometimes include irrigation chapters.",
+      "expected_evidence": "Section measuring or recommending applied water per growth stage, with units and soil/water inputs described.",
+      "notes": "Unverified lead; must confirm page exists and contains water-use data before citing."
+    },
+    {
+      "url": "https://agritxt.tamu.edu/dry-bean",
+      "kind": "hub",
+      "why_relevant": "Texas A&M AgriLife is an admitted .edu extension resource and a dry bean producing region; the hub may link to peer-reviewed water-use or irrigation scheduling studies for dry beans.",
+      "expected_evidence": "Publication or webpage reporting measured crop water use, ET coefficients, or irrigation volumes by growth stage for dry beans.",
+      "notes": "Unverified lead; will be fetched and used only if directly relevant evidence is found."
+    }
+  ],
+  "no_source_found": false
+}

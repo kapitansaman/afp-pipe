@@ -1,0 +1,36 @@
+{
+  "topic_id": "agri-dc60868225b6",
+  "gap": "No fetched source addresses stage-specific sensitivity of pumpkin grown for edible seeds to water deficit, nor provides measured soil-water/irrigation inputs, growth-stage timing, and yield impact data for seed-pumpkin. Existing sources cover harvest, curing, storage, general production, and pest management only.",
+  "queries": [
+    "pumpkin grown for edible seeds critical growth stages water deficit irrigation timing university extension",
+    "Cucurbita pepo seed production irrigation scheduling growth stage sensitivity drought extension",
+    "ایران کدو آجیلی مراحل حساس کم‌آبی آبیاری تحقیقات"
+  ],
+  "leads": [
+    {
+      "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+      "kind": "hub",
+      "why_relevant": "Virginia Tech seed-production guide for pumpkin and squash that includes sections on environmental factors, moisture conservation, and irrigation context for seed crop production.",
+      "expected_evidence": "Discussion of water/irrigation management relative to growth stages in pumpkin seed production; potential identification of sensitive phases or recommended soil moisture regimes."
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+      "kind": "hub",
+      "why_relevant": "Alabama Cooperative Extension production article covering pumpkin field management, including a section that may discuss irrigation during the growing season.",
+      "expected_evidence": "Growth-stage irrigation recommendations or observed water-stress impacts in commercial pumpkin production for seeds or fruit."
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+      "kind": "hub",
+      "why_relevant": "Illinois Extension growing-pumpkins page includes an irrigation note for extended dry periods and general crop-stage management guidance.",
+      "expected_evidence": "Stage-specific irrigation advice or identification of critical growth phases for pumpkin under drought conditions."
+    },
+    {
+      "url": "https://www.vdrc.iari.org/",
+      "kind": "hub",
+      "why_relevant": "Iranian research institute specializing in vegetable sciences; likely source for pumpkin (seed) water-deficit studies in Iranian or regional contexts.",
+      "expected_evidence": "Peer-reviewed publications or technical reports on growth-stage sensitivity of seed pumpkin to water deficit, with measured irrigation/soil-water data."
+    }
+  ],
+  "no_source_found": false
+}

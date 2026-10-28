@@ -1,0 +1,67 @@
+{
+  "topic_id": "agri-382a9f28f635",
+  "candidate_sha256": "2ea56c175f9e41158314a58a16f7c68ff91810bbf5e3ad82cb689b956dbb4f23",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 2,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "Utah State توصیه می‌کند بذرها ۱ تا ۲ اینچ عمق در گودال‌های ۴ فوتی کار گذاشته شوند وقتی دمای خاک ۶۵ºF باشد.",
+        "conditions": "گarden pumpkins; Utah State University Extension; خاک آبرفتی/غنی; محصول: میوه کدو",
+        "evidence_id": "d5-e2",
+        "numeric_bindings": [
+          {
+            "value": "1-2 inches",
+            "unit_quote": "Plant four to six seeds, 1-2 inches deep, in mounds",
+            "geographic_scope": "Utah, USA",
+            "product_scope": "pumpkin garden production"
+          },
+          {
+            "value": "65ºF",
+            "unit_quote": "when soils are 65ºF",
+            "geographic_scope": "Utah, USA",
+            "product_scope": "pumpkin garden production"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e2",
+        "source_url": "https://extension.usu.edu/yardandgarden/research/pumpkins-in-the-garden",
+        "quote": "y exudates visible on stems.Diseases are caused by different pathogens. [table row] Wilt Diseases | Control: Identify causal disease. Treat disease as recommended once identified. [table row] Virus | Identification: Leaves are light green, mottled, malformed, dwarfed and curled. Early infection affects fruit shape and flavor. An aphid-transmitted disease. [table row] Virus | Control: Control aphids. Destroy severely infected plants. How to Grow Pumpkins in Your Garden | USU Utah State University sites use cookies. By continuing to use this site you accept our privacy and cookie policy . I agree Skip to content How to Grow Pumpkins in Your Garden Summary Pumpkins prefer a sunny location and fertile, well drained soils. Incorporate plenty of organic matter and a complete fertilizer into the area before planting. Plant four to six seeds, 1-2 inches deep, in mounds 4 feet apart when soils ar"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "دمای بهینه جوانه‌زنی بذر کدو ۹۵°F و حداقل آن ۶۵°F است و زیر ۶۸°F جوانه‌زنی کند و ناهموار رخ می‌دهد.",
+        "conditions": "تولید بذر Cucurbita; Virginia Tech; مربوط به دماست نه عمق کاشت بر پایه بافت خاک",
+        "evidence_id": "d2-e3",
+        "numeric_bindings": [
+          {
+            "value": "65 F",
+            "unit_quote": "minimum ... soil temperatures for seed germination are 65 F",
+            "geographic_scope": "US (general extension guidance)",
+            "product_scope": "pumpkin and squash seed germination"
+          },
+          {
+            "value": "95 F",
+            "unit_quote": "optimum ... 95 F",
+            "geographic_scope": "US (general extension guidance)",
+            "product_scope": "pumpkin and squash seed germination"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e3",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": "ting is by direct seeding or occasionally transplanting through holes punched or burned in the plastic cover. Drip irrigation or fertigation is used with the plasticulture system. Black plastic aids weed control, clear is used in northern areas to increase soil temperatures especially for early season planting of summer squash. No-till pumpkin production works well and is rapidly gaining popularity. A cover crop is used and pumpkins are seeded directly or transplanted into the dead cover crop residue when the soil is sufficiently warm in the early summer. Pumpkins and squash are generally planted from seed. However, both crops are sometimes transplanted in northern areas but are very sensitive to transplant shock and should be planted only as a plug with a root ball. The minimum, optimum, and maximum soil temperatures for seed germination are 65 F, 95 F and 100 F, respectively. Germinati"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "عنوان درخواستی نیازمند راهنمای اجرایی تفکیک‌شدهٔ عمق کاشت بذر کدو آجیلی در خاک سبک در مقابل خاک سنگین همراه با خطاهای رایج هر سامانه است. شواهد استخراج‌شده تنها یک بازهٔ عمومی ۰٫۵ تا ۲ اینچ را بدون تقسیم‌بندی بر پایهٔ بافت خاک ارائه می‌دهند؛ منبعی که معیار کمی یا کیفی تفاوت عمق در خاک سبک vs سنگین، یا فهرست خطاهای رایج خاص همان تقسیم‌بندی را گزارش کند، در داده‌های موجود وجود ندارد. بنابراین پاسخ بر اساس intent دقیق عنوان فراهم نیست."
+}

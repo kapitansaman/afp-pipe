@@ -1,0 +1,32 @@
+{
+  "topic_id": "agri-4e351a4fbdee",
+  "candidate_sha256": "731df7cd13316ea78092c0c0911808af66b4107ecf81a0969df400e5f96f13e6",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 5,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "وزن هزار دانه C. pepo حدود 200 گرم است که بسته به رقم متغیر می‌باشد.",
+        "conditions": "منبع: دانشگاه ایالتی ویرجینیا (Virginia Tech، US)； محصول: بذر C. pepo؛ واحد: گرم؛ جغرافیا: ایالات متحده",
+        "evidence_id": "d2-e14",
+        "numeric_bindings": [
+          {
+            "value": "200",
+            "unit_quote": "approximately 200 g",
+            "geographic_scope": "US (Virginia Tech source region)",
+            "product_scope": "C. pepo seed (1000-grain weight)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e14",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": "n of key characters differentiating the cultivated species of Curcurbita organ Species Funicular attachment of seed Seed margin C. pepo obtuse, symmetrical Smooth, obtuse C. moschata obtuse, slightly asymmetrical scalloped, obtuse C. argyrosperma obtuse, slightly asymmetrical barely scalloped, obtuse C. maxima acute, asymmetrical smooth, obtuse C. ficifolia obtuse, slightly asymmetrical smooth, obtuse From: Whitaker, T.W. and G.W. Bohn. 1950. The Taxonomy, Genetics, Production, and Uses of the Cultivated Species of Curcurbita. Econ. Botany 4(1) 52-81. Scientific Name: Cucurbita pepo, Cucurbita maxima Common Name: Pumpkin and squash Family: Cucurbitacea Weight: The 1000 grain weight is approximately 200 g, depending on the cultivar. (Note: 1 small square in above image = 1 mm) Print pepo image with name - Print pepo image without name Print maxima image with name - Print maxima image with"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "موضوع درباره ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت است، اما منابع فراهم‌شده عمدتاً به مدیریت مزرعه، برداشت میوه، شویندگی میوه زمستانه و نگهداری میوه پرداخته‌اند. هیچ یک از منابع منبع‌گذاری‌شده معیارهای کمی کیفیت بذر (مانند درصد جوانه‌زنی، خلوص بذر، نرخ آلودگی، اندازه‌گیری توان زیستی یا استانداردهای گواهی بذر) را ارائه نداده‌اند. اطلاعات موجود فقط شامل مراحل برداشت میوه برای استخراج بذر، رنگ‌بندی بلوغ، شست‌وشو، خشک کردن و وزن هزار دانه هستند — نه پروتکل‌های ارزیابی کیفیت پیش از خرید و کاشت. بنابراین پاسخ‌دهی به قصد intent اصلی «seed_quality» با شواهد موجود ممکن نیست."
+}

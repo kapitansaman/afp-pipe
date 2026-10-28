@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

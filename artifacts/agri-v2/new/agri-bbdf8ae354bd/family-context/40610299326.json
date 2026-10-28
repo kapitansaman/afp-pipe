@@ -1,0 +1,17 @@
+{
+  "family_id": "family-15",
+  "topic_id": "agri-bbdf8ae354bd",
+  "title": "مدت هر نوبت آبیاری کدو آجیلی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+  "title_sha256": "57bc691091e334edb27e0afb0acd3caa7256acc96fc684ebbe4e5d2cd59ee04f",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY57",
+    "AGNES_API_KEY58",
+    "AGNES_API_KEY59",
+    "AGNES_API_KEY60"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

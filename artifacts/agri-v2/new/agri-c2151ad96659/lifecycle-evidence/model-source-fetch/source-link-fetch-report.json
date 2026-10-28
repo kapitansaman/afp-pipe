@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://dda.msstate.edu/msu-extension-service",
+      "canonical_url": "https://dda.msstate.edu/msu-extension-service",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/",
+      "canonical_url": "https://extension.msstate.edu/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/about-extension",
+      "canonical_url": "https://extension.msstate.edu/about-extension",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/about-extension/disclaimer-notice",
+      "canonical_url": "https://extension.msstate.edu/about-extension/disclaimer-notice",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/about-extension/economic-impacts",
+      "canonical_url": "https://extension.msstate.edu/about-extension/economic-impacts",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/about-extension/legislative-update",
+      "canonical_url": "https://extension.msstate.edu/about-extension/legislative-update",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "requested": 3,
+  "loaded": 0,
+  "sources": [
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/irrigation-management",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": false,
+      "http_status": 404
+    },
+    {
+      "url": "https://extension.illinois.edu/crops/focus/irrigation",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": false,
+      "http_status": 404
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/specialty-crops/irrigation-management-for-pumpkins/",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": false,
+      "http_status": 404
+    }
+  ]
+}

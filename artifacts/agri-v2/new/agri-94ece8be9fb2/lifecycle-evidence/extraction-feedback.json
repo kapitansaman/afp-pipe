@@ -1,8 +1,8 @@
 {
   "topic_id": "agri-94ece8be9fb2",
-  "candidate_sha256": "6610c5f3bd9525e523d5f35c93add6bfe2a77832769a266dce77e70cf840a905",
+  "candidate_sha256": "fb07b405765acf3ad2817a1ed8284c38a3782f3bef90d3f645f6f39f59e1c3e7",
   "scientific_approval": false,
   "errors": [],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "Sources discuss general fruit-pumpkin drip-irrigation recommendations and fixed weekly water amounts but do not provide soil-moisture-based irrigation scheduling criteria for seed pumpkin. No source establishes measurement thresholds, sensor placement logic, or a decision method that uses soil moisture readings to replace a fixed irrigation calendar for seed-purpose Cucurbita. Utah Extension gives a generic 1-2 inches-per-week rule (d5-e7), Alabama recommends drip over overhead without scheduling detail (d3-e7), and Virginia Tech notes pre-plant/establishment irrigation only (d2-e5); none deliver the requested soil-moisture-trigger methodology, nor do they address the seed-harvest product specifically."
+  "declared_insufficiency": "منابع ارائه‌شده هیچ‌یک معیار تصمیم‌گیری مبتنی بر رطوبت خاک (آستانه‌های سنجش، منطق قرارگیری سنسور یا روش جایگزین تقویم ثابت با خوانش رطوبت) را برای کدو آجیلی ارائه نمی‌دهند. د5-e7 به «آبیاری عمیق و کمتر با ۱ تا ۲ اینچ در هفته» و «کاهش مقدار آبیاری هنگام رسیدن میوه» اشاره می‌کند (منطق ایالت یوتا، آمریکا) اما این مقدار هفتگی از تقویم/زمان است نه آستانه رطوبت خاک. د2-e5/d2-e6 (ویرجینیا تک) فقط اشاره می‌کند که آبیاری قطره‌ای برای تأمین جوانه‌زنی و استقرار استفاده می‌شود و «کمترین آب» را مصرف می‌کند. د3-e7 (آلاباما) توصیه کلی به استفاده از آبیاری قطره‌ای می‌دهد. هیچ منبعی آستانه رطوبت خاک، عمق ریشه هدف، یا قاعده تصمیم مبتنی بر خوانش سنسور را برای گونه Cucurbita تولید دانه ذکر نکرده است."
 }

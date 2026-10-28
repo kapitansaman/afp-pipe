@@ -3,7 +3,7 @@
   "policy": "write-ahead-lifecycle-v1",
   "repository": "kapitansaman/afp-pipe",
   "branch": "feat/agri-generator-v2-2905-merge593",
-  "status": "in_flight",
+  "status": "checkpointed",
   "run_id": "40610299326",
   "topics": [
     {
@@ -89,5 +89,9 @@
   ],
   "started_at": "2026-10-28T00:43:00.235211+00:00",
   "automatic_uncertain_replay": false,
-  "original_attempts_reset": false
+  "original_attempts_reset": false,
+  "checkpointed_at": "2026-10-28T00:45:08.640469+00:00",
+  "all_selected_workers_merged": true,
+  "checkpoint_report_sha256": "766c0d32d50ca49a19383b8e55f8d97aa193936992ca0cb6e595730d6df48260",
+  "checkpoint_digest": "e9f50464223c40d09e4c6d654630f55bf803cdec5504bd63a315c1e52e956d0e"
 }

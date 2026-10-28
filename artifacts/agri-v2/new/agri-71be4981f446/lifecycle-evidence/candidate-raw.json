@@ -1,0 +1,69 @@
+{
+  "topic_id": "agri-71be4981f446",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "کدو آجیلی (دانه خوراکی از میوه کدو)",
+  "slug": "pre-harvest-yield-estimation-seed-pumpkin-sampling-method",
+  "outline": [
+    "عدم وجود روش نمونه‌برداری اختصاصی برای برآورد عملکرد پیش‌ازبرداشت در منابع موجود",
+    "شاخص‌های کیفی رسیدن میوه کدو آجیلی (سفتی پوست، تغییر رنگ، سختی پیوندگاه)"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "عملکرد دانه کدو در شرایط عالی گرده‌افشانی و مدیریتی به حدود ۱۰۰۰ کیلوگرم در هکتار می‌رسد.",
+      "conditions": "منبع: دانشگاه ویرجینیا تکنولوژی، ایالات متحده؛ محصول: بذر کدو/کدو حلوایی; واحد: kg/ha و pounds/acre; دامنه مشاهده: عملکرد دانه",
+      "evidence_id": "d3-e13",
+      "numeric_bindings": [
+        {
+          "value": "500",
+          "unit_quote": "500 kg per hectare",
+          "geographic_scope": "US (Virginia Tech source region)",
+          "product_scope": "seed pumpkin"
+        },
+        {
+          "value": "1000",
+          "unit_quote": "1000 kg per hectare",
+          "geographic_scope": "US (Virginia Tech source region)",
+          "product_scope": "seed pumpkin under good conditions"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "میوه کدو برای برداشت دانه زمانی آماده است که پوست سفت شده و تغییر رنگ داده باشد.",
+      "conditions": "منبع: Virginia Tech Vegetable Seed Production; محصول: میوه کدو پیش از برداشت دانه; جغرافیا: ایالات متحده; محدودیت: بیان کیفی، فاقد روش نمونه‌برداری میدانی",
+      "evidence_id": "d3-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "پوست کدوهای زمستانی در زمان بلوغ در برابر خراشیدن ناخن مقاومت می‌کند.",
+      "conditions": "منبع: Oregon State University Extension; محصول: میوه کدو زمستانی/آجیلی; جغرافیا: اورگن، ایالات متحده; محدودیت: شاخص کیفی رسیدگی، بدون پروتکل نمونه‌برداری عملکرد",
+      "evidence_id": "d1-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "شیار چسبیده به میوه هنگام رسیدن سفت و چوبی می‌شود.",
+      "conditions": "منبع: University of Minnesota Extension; محصول: میوه کدو; جغرافیا: مینه‌سوتا، ایالات متحده; محدودیت: شاخص کیفی، فاقد روش نمونه‌برداری",
+      "evidence_id": "d0-e9",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برداشت از طریق قطع ساقه با قیچی یا چاقوی تیز انجام می‌شود تا طول ساقه حفظ شود.",
+      "conditions": "منبع: Oregon State University Extension; محصول: میوه کدو; جغرافیا: اورگن، ایالات متحده; واحد: اینچ; محدودیت: دستور برداشت، نه روش برآورد عملکرد",
+      "evidence_id": "d1-e1",
+      "numeric_bindings": [
+        {
+          "value": "2 to 4 inches",
+          "unit_quote": "leaving 2 to 4 inches of stem",
+          "geographic_scope": "Oregon, US",
+          "product_scope": "winter squash/pumpkin fruit"
+        }
+      ]
+    }
+  ],
+  "insufficiency_reason": "منابعfetch شده هیچ روش نمونه‌برداری میدانی، فرمول برآورد عملکرد پیش‌ازبرداشت، یا پروتکل شمارش/وزن‌برداری نمونه‌ای برای کدو آجیلی ارائه نمی‌دهند. تنها داده موجود یک مشاهده عملکرد دانه (۵۰۰ تا ۱۰۰۰ کیلوگرم در هکتار) از واحد ویرجینیا تکنولوژی است. شاخص‌های کیفی رسیدن میوه (سفتی پوست، تغییر رنگ، خشک شدن پیوندگاه) ذکر شده‌اند اما فاقد روش نمونه‌برداری هستند."
+}

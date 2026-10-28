@@ -1,0 +1,30 @@
+{
+  "topic_id": "agri-94ece8be9fb2",
+  "gap": "No fetched source provides soil-moisture-based irrigation scheduling criteria for Cucurbita pepo grown for edible seeds. Existing sources only give fixed weekly water amounts or pre-plant establishment guidance. The precise missing evidence is: (1) measured volumetric water content or soil water potential thresholds that trigger irrigation for seed-purpose pumpkin, (2) sensor placement depth and spacing protocol, (3) a documented decision rule replacing the fixed calendar for this crop and product class.",
+  "queries": [
+    "soil moisture irrigation scheduling pumpkin seed production Cucurbita pepo university extension",
+    "tensiometer soil water potential threshold pumpkin drip irrigation university research",
+    "Cucurbita seed production irrigation management soil moisture sensor placement site:edu"
+  ],
+  "leads": [
+    {
+      "url": "https://extension.nebraska.edu/resource/irrigation-management-for-pumpkins",
+      "kind": "hub",
+      "why_relevant": "Nebraska is a major U.S. seed-pumpkin producing state; their irrigation management page is likely to reference soil-moisture-based scheduling methods used in commercial seed pumpkin production.",
+      "expected_evidence": "Crop-specific soil moisture thresholds, sensor placement guidance, and a decision framework for triggering irrigation based on measured soil water status rather than a fixed calendar."
+    },
+    {
+      "url": "https://www.ars.usda.gov/midwest-area/beltsville-md/plant-resistance-pest-management-research/docs/scheduling-irrigation-soil-moisture/",
+      "kind": "hub",
+      "why_relevant": "USDA-ARS research pages on irrigation scheduling with soil moisture sensors may contain published methods applicable to cucurbit seed production.",
+      "expected_evidence": "Measured volumetric water content or tension thresholds with documented crop water use curves for cucurbits or seed pumpkins, including sensor depth and calibration protocol."
+    },
+    {
+      "url": "https://crops.ca.uky.edu/uky-crops-pumpkin-production-guide",
+      "kind": "hub",
+      "why_relevant": "University of Kentucky crops production guide may include an irrigation scheduling section specific to pumpkin production systems in the Mid-Atlantic region.",
+      "expected_evidence": "Irrigation interval decisions tied to soil moisture measurements, with specified tension or volumetric water content triggers for pumpkin at key growth stages."
+    }
+  ],
+  "no_source_found": false
+}

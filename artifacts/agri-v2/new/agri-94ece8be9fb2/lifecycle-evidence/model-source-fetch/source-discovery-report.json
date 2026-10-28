@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "started_at": "2026-10-28T00:43:26.311679+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 2,
+  "completed_at": "2026-10-28T00:43:36.366724+00:00",
+  "requested": 3,
+  "loaded": 0,
+  "independent_institutions": 0,
+  "observed_links": [],
+  "fetch_reports": [
+    {
+      "requested": 3,
+      "loaded": 0,
+      "sources": [
+        {
+          "url": "https://extension.nebraska.edu/resource/irrigation-management-for-pumpkins",
+          "status": "unavailable",
+          "category": "fetch_or_validation_failed",
+          "temporary": true
+        },
+        {
+          "url": "https://www.ars.usda.gov/midwest-area/beltsville-md/plant-resistance-pest-management-research/docs/scheduling-irrigation-soil-moisture/",
+          "status": "unavailable",
+          "category": "fetch_or_validation_failed",
+          "temporary": true
+        },
+        {
+          "url": "https://crops.ca.uky.edu/uky-crops-pumpkin-production-guide",
+          "status": "unavailable",
+          "category": "fetch_or_validation_failed",
+          "temporary": true
+        }
+      ]
+    }
+  ],
+  "topic_id": "agri-94ece8be9fb2",
+  "source_policy_version": "university-single-source-v1",
+  "bounded_discovery_completed": true,
+  "temporary_source_failure": true,
+  "source_sufficiency": {
+    "version": "university-single-source-v1",
+    "satisfied": false,
+    "university_hosts": [],
+    "independent_institutions": 0,
+    "single_university_exception": false,
+    "publication_authorized": false
+  },
+  "blocking_kind": null
+}

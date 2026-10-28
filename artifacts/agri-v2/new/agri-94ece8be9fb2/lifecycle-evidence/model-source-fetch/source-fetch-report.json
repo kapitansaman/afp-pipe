@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 0,
+  "sources": [
+    {
+      "url": "https://extension.nebraska.edu/resource/irrigation-management-for-pumpkins",
+      "status": "unavailable",
+      "category": "fetch_or_validation_failed",
+      "temporary": true
+    },
+    {
+      "url": "https://www.ars.usda.gov/midwest-area/beltsville-md/plant-resistance-pest-management-research/docs/scheduling-irrigation-soil-moisture/",
+      "status": "unavailable",
+      "category": "fetch_or_validation_failed",
+      "temporary": true
+    },
+    {
+      "url": "https://crops.ca.uky.edu/uky-crops-pumpkin-production-guide",
+      "status": "unavailable",
+      "category": "fetch_or_validation_failed",
+      "temporary": true
+    }
+  ]
+}

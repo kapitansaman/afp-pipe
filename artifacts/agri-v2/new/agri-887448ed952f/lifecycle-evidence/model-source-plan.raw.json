@@ -1,0 +1,30 @@
+{
+  "topic_id": "agri-887448ed952f",
+  "gap": "برداشت و فرآوری دانهٔ کدوی آجیلی: منابع موجود دربارهٔ شاخص‌های رسیدگی میوه کامل کدوی زمستانه (سختی پوست، رنگ، زمان قطع)، نگهداری و curing میوه برداشت‌شده و شرایط ذخیره‌سازی میوه هستند؛ اما شواهد مستقیمی دربارهٔ تلفات اختصاصی برداشتِ دانهٔ کدوی آجیلی در سطح مزرعهٔ تجاری موجود نیست. خلأها عبارتند از: (۱) معیارهای کمی و کیفی بلوغ دانهٔ کدوی آجیلی (رطوبت دانه، درصد ماده خشک، معیارهای پوک بودن/ناپختگی) که به‌طور اختصاصی برای Cucurbita pepo یا C. moschata تولیددانه اشاره شده باشد؛ (۲) زمان برش بوته، نوع دستگاه تراشر/دانه‌گیر میوه کدو، تنظیمات دستگاه (سرعت، فاصلهٔ تیغه، اندازهٔ مش غربال) و درصد تلفات دانهٔ شکسته، پوسته‌مانده یا پوک؛ (۳) شیوهٔ جدا کردن دانه از گوشت میوه، فرایند تخمیر/شستشو، خشک‌کردن دانه با آون یا هوای فشرده، و استانداردهای پاک‌سازی، درجه‌بندی سایز و کنترل کیفیت بذر؛ (۴) آمار تلفات برداشت دانه (kg/ha یا درصد) در مناطق مختلف. منابع فعلی d3-e12 و d3-e16 فقط کلیات harvesting و postharvest میوه را پوشش می‌دهند.",
+  "queries": [
+    "pumpkin seed production harvest threshing loss university extension Cucurbita pepo",
+    "seed-purpose pumpkin harvest loss seed cleaning grading standards extension",
+    "Cucurbita seed production drying moisture threshold threshing equipment loss rate"
+  ],
+  "leads": [
+    {
+      "url": "https://welbaum.spes.vt.edu/seedproduction/Cucurbitaceae.html",
+      "kind": "document",
+      "why_relevant": "این صفحه بخشی از مجموعهٔ Vegetable Seed Production دانشگاه ویرجینیای جنوبی است و به‌طور اختصاصی به Cucurbitaceae شامل کدو و тыква می‌پردازد. احتمال بخش‌هایی دربارهٔ برداشت میوه رسید، جداسازی دانه، تخمیر، شستشو، خشک‌کردن و پاک‌سازی دارد.",
+      "expected_evidence": "معیار بلوغ میوه برای استخراج دانه، روش جدا کردن دانه از صمغ/پوست، شرایط خشک‌کردن دانه (دمای آون یا هوا)، درصد رطوبت هدف دانه و هرگونه اشاره به تلفات یا ضایعات حین برداشت و پاک‌سازی."
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+      "kind": "hub",
+      "why_relevant": "صفحهٔ جامع UMN Extension دربارهٔ برداشت و نگهداری کدو و سبزیجات کدویی است. هرچند تمرکز اصلی بر میوهٔ خوراکی است، ممکن است بخشی دربارهٔ برداشت دیررس‌تر میوه برای رسیدگی کامل دانه یا اشاره‌ای به تولیددانه داشته باشد.",
+      "expected_evidence": "هرگونه اشاره به برداشت میوه با رسیدگی بیشتر برای دانه، معیارهای رسیدگی دانه در داخل میوه، یا لینک به راهنمای تولیددانهٔ اختصاصی کدو."
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/horticulture-notes-pumpkins-and-winter-squash/",
+      "kind": "document",
+      "why_relevant": "انتشار نشریه ANR-1110 از Alabama Extension دربارهٔ برداشت، curing و مراقبت پس از برداشت کدو و کدوی زمستانه است. ممکن است بخش‌هایی دربارهٔ برداشت میوهٔ دیررس برای دانه داشته باشد.",
+      "expected_evidence": "جزئیات curing دمای ۸۰-۸۵°F، مدت زمان، و هرگونه تفاوت رویه برای میوهٔ هدف‌داردانه در مقایسه با میوهٔ مصرف‌انسانی."
+    }
+  ],
+  "no_source_found": false
+}

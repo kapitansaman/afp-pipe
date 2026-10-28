@@ -1,0 +1,436 @@
+{
+  "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+  "requested_url": "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+  "redirect_chain": [
+    "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops"
+  ],
+  "text": "[table row] Canola | Nitrogen source: -- [table row] Canola | Nitrogen scavenger: *** [table row] Canola | Erosion preventer: ** [table row] Canola | Weed fighter: ** [table row] Canola | Subsoiler: ** [table row] Canola | Forage value: * [table row] Forage turnip | Nitrogen source: -- [table row] Forage turnip | Nitrogen scavenger: *** [table row] Forage turnip | Erosion preventer: ** [table row] Forage turnip | Weed fighter: *** [table row] Forage turnip | Subsoiler: -- [table row] Forage turnip | Forage value: ** [table row] Mustard | Nitrogen source: -- [table row] Mustard | Nitrogen scavenger: *** [table row] Mustard | Erosion preventer: ** [table row] Mustard | Weed fighter: ** [table row] Mustard | Subsoiler: ** [table row] Mustard | Forage value: * [table row] Radish (tillage, daikon, etc.) | Nitrogen source: -- [table row] Radish (tillage, daikon, etc.) | Nitrogen scavenger: *** [table row] Radish (tillage, daikon, etc.) | Erosion preventer: ** [table row] Radish (tillage, daikon, etc.) | Weed fighter: *** [table row] Radish (tillage, daikon, etc.) | Subsoiler: **** [table row] Radish (tillage, daikon, etc.) | Forage value: ** [table row] Buckwheat | Nitrogen source: -- [table row] Buckwheat | Nitrogen scavenger: *** [table row] Buckwheat | Erosion preventer: ** [table row] Buckwheat | Weed fighter: *** [table row] Buckwheat | Subsoiler: -- [table row] Buckwheat | Forage value: -- [table row] Flax | Nitrogen source: -- [table row] Flax | Nitrogen scavenger: ** [table row] Flax | Erosion preventer: * [table row] Flax | Weed fighter: -- [table row] Flax | Subsoiler: ** [table row] Flax | Forage value: -- [table row] Annual ryegrass | Nitrogen source: -- [table row] Annual ryegrass | Nitrogen scavenger: *** [table row] Annual ryegrass | Erosion preventer: *** [table row] Annual ryegrass | Weed fighter: ** [table row] Annual ryegrass | Subsoiler: **** [table row] Annual ryegrass | Forage value: *** [table row] Barley (spring or winter) | Nitrogen source: -- [table row] Barley (spring or winter) | Nitrogen scavenger: *** [table row] Barley (spring or winter) | Erosion preventer: *** [table row] Barley (spring or winter) | Weed fighter: *** [table row] Barley (spring or winter) | Subsoiler: ** [table row] Barley (spring or winter) | Forage value: ** [table row] Millet (foxtail, pearl, etc.) | Nitrogen source: -- [table row] Millet (foxtail, pearl, etc.) | Nitrogen scavenger: *** [table row] Millet (foxtail, pearl, etc.) | Erosion preventer: *** [table row] Millet (foxtail, pearl, etc.) | Weed fighter: *** [table row] Millet (foxtail, pearl, etc.) | Subsoiler: ** [table row] Millet (foxtail, pearl, etc.) | Forage value: ** [table row] Oats | Nitrogen source: -- [table row] Oats | Nitrogen scavenger: *** [table row] Oats | Erosion preventer: *** [table row] Oats | Weed fighter: *** [table row] Oats | Subsoiler: * [table row] Oats | Forage value: *** [table row] Sorghum-sudangrass | Nitrogen source: -- [table row] Sorghum-sudangrass | Nitrogen scavenger: **** [table row] Sorghum-sudangrass | Erosion preventer: *** [table row] Sorghum-sudangrass | Weed fighter: **** [table row] Sorghum-sudangrass | Subsoiler: ** [table row] Sorghum-sudangrass | Forage value: **** [table row] Sudangrass | Nitrogen source: -- [table row] Sudangrass | Nitrogen scavenger: **** [table row] Sudangrass | Erosion preventer: *** [table row] Sudangrass | Weed fighter: **** [table row] Sudangrass | Subsoiler: * [table row] Sudangrass | Forage value: **** [table row] Triticale | Nitrogen source: -- [table row] Triticale | Nitrogen scavenger: **** [table row] Triticale | Erosion preventer: **** [table row] Triticale | Weed fighter: *** [table row] Triticale | Subsoiler: ** [table row] Triticale | Forage value: *** [table row] Wheat (spring or winter) | Nitrogen source: -- [table row] Wheat (spring or winter) | Nitrogen scavenger: *** [table row] Wheat (spring or winter) | Erosion preventer: *** [table row] Wheat (spring or winter) | Weed fighter: *** [table row] Wheat (spring or winter) | Subsoiler: ** [table row] Wheat (spring or winter) | Forage value: *** [table row] Winter cereal rye | Nitrogen source: -- [table row] Winter cereal rye | Nitrogen scavenger: **** [table row] Winter cereal rye | Erosion preventer: **** [table row] Winter cereal rye | Weed fighter: **** [table row] Winter cereal rye | Subsoiler: *** [table row] Winter cereal rye | Forage value: *** [table row] Alfalfa | Nitrogen source: *** [table row] Alfalfa | Nitrogen scavenger: ** [table row] Alfalfa | Erosion preventer: *** [table row] Alfalfa | Weed fighter: ** [table row] Alfalfa | Subsoiler: *** [table row] Alfalfa | Forage value: **** [table row] Berseem clover | Nitrogen source: **** [table row] Berseem clover | Nitrogen scavenger: ** [table row] Berseem clover | Erosion preventer: *** [table row] Berseem clover | Weed fighter: ** [table row] Berseem clover | Subsoiler: * [table row] Berseem clover | Forage value: *** [table row] Cowpea | Nitrogen source: *** [table row] Cowpea | Nitrogen scavenger: * [table row] Cowpea | Erosion preventer: ** [table row] Cowpea | Weed fighter: ** [table row] Cowpea | Subsoiler: -- [table row] Cowpea | Forage value: ** [table row] Crimson clover | Nitrogen source: *** [table row] Crimson clover | Nitrogen scavenger: ** [table row] Crimson clover | Erosion preventer: ** [table row] Crimson clover | Weed fighter: ** [table row] Crimson clover | Subsoiler: ** [table row] Crimson clover | Forage value: *** [table row] Field or winter pea | Nitrogen source: ** [table row] Field or winter pea | Nitrogen scavenger: ** [table row] Field or winter pea | Erosion preventer: ** [table row] Field or winter pea | Weed fighter: * [table row] Field or winter pea | Subsoiler: * [table row] Field or winter pea | Forage value: *** [table row] Red clover | Nitrogen source: **** [table row] Red clover | Nitrogen scavenger: ** [table row] Red clover | Erosion preventer: **** [table row] Red clover | Weed fighter: *** [table row] Red clover | Subsoiler: ** [table row] Red clover | Forage value: *** [table row] Soybeans | Nitrogen source: ** [table row] Soybeans | Nitrogen scavenger: ** [table row] Soybeans | Erosion preventer: * [table row] Soybeans | Weed fighter: ** [table row] Soybeans | Subsoiler: -- [table row] Soybeans | Forage value: ** [table row] Vetch | Nitrogen source: **** [table row] Vetch | Nitrogen scavenger: ** [table row] Vetch | Erosion preventer: ** [table row] Vetch | Weed fighter: ** [table row] Vetch | Subsoiler: ** [table row] Vetch | Forage value: * [table row] White clover | Nitrogen source: ** [table row] White clover | Nitrogen scavenger: ** [table row] White clover | Erosion preventer: *** [table row] White clover | Weed fighter: ** [table row] White clover | Subsoiler: -- [table row] White clover | Forage value: *** [table row] Millet (foxtail, pearl, etc.) | Best planting dates: May 20 to July 25 [table row] Millet (foxtail, pearl, etc.) | Planting rate: 20 to 25 lbs. per acre [table row] Sorghum-sudangrass | Best planting dates: May 20 to July 25 [table row] Sorghum-sudangrass | Planting rate: 25 to 30 lbs. per acre [table row] Sudangrass | Best planting dates: May 20 to July 25 [table row] Sudangrass | Planting rate: 25 to 30 lbs. per acre (15 to 20 lbs. per acre, acc. Cover Crops Field Guide) [table row] Cowpea | Best planting dates: May 20 to Aug. 15 [table row] Cowpea | Planting rate: 30 to 90 lbs. per acre [table row] Buckwheat | Best planting dates: June 10 to Aug. 15 [table row] Buckwheat | Planting rate: 45 to 60 lbs. per acre (20 to 35 lbs. per acre, acc. Cover Crops Field Guide) [table row] Barley (spring or winter) | Best planting dates: July 10 to Aug. 15 [table row] Barley (spring or winter) | Planting rate: 50 to 75 lbs. per acre [table row] Soybeans | Best planting dates: July 10 to Aug. 15 [table row] Soybeans | Planting rate: 30 to 40 lbs. per acre [table row] Annual ryegrass | Best planting dates: July 10 to Sept. 1 [table row] Annual ryegrass | Planting rate: 15 to 20 lbs. per acre [table row] Flax | Best planting dates: July 10 to Sept. 1 [table row] Flax | Planting rate: 30 to 50 lbs. per acre [table row] Oats | Best planting dates: July 10 to Sept. 1 [table row] Oats | Planting rate: 30 to 50 lbs. per acre [table row] Triticale | Best planting dates: July 10 to Oct. 20 [table row] Triticale | Planting rate: 50 to 90 lbs. per acre [table row] Wheat (spring or winter) | Best planting dates: July 10 to Oct. 20 [table row] Wheat (spring or winter) | Planting rate: 50 to 90 lbs. per acre [table row] Winter cereal rye | Best planting dates: July 10 to Oct. 20 [table row] Winter cereal rye | Planting rate: 55 to 100 lbs. per acre [table row] Alfalfa | Best planting dates: July 25 to Aug. 15 [table row] Alfalfa | Planting rate: 12 to 16 lbs. per acre [table row] Red clover | Best planting dates: July 25 to Aug. 15 [table row] Red clover | Planting rate: 8 to 12 lbs. per acre [table row] Vetch | Best planting dates: July 25 to Aug. 15 [table row] Vetch | Planting rate: 15 to 25 lbs. per acre [table row] White clover | Best planting dates: July 25 to Aug. 15 [table row] White clover | Planting rate: 5 to 8 lbs. per acre [table row] Berseem clover | Best planting dates: July 25 to Sept. 1 [table row] Berseem clover | Planting rate: 8 to 15 lbs. per acre [table row] Crimson clover | Best planting dates: July 25 to Sept. 1 [table row] Crimson clover | Planting rate: 10 to 15 lbs. per acre [table row] Canola | Best planting dates: July 25 to Sept. 15 [table row] Canola | Planting rate: 2 to 5 lbs. per acre [table row] Forage turnip | Best planting dates: July 25 to Sept. 15 [table row] Forage turnip | Planting rate: 1 to 4 lbs. per acre [table row] Mustard | Best planting dates: July 25 to Sept. 15 [table row] Mustard | Planting rate: 4 to 8 lbs. per acre [table row] Radish (tillage, daikon, etc.) | Best planting dates: July 25 to Sept. 15 [table row] Radish (tillage, daikon, etc.) | Planting rate: 8 to 15 lbs. per acre (5 to 10 lbs. per acre, acc. Cover Crops Field Guide) [table row] Field or winter pea | Best planting dates: July 25 to Sept. 20 [table row] Field or winter pea | Planting rate: 30 to 90 lbs. per acre (50 to 80 lbs. per acre, acc. Cover Crops Field Guide) Getting started with cover crops | UMN Extension Home Agriculture Crop production Cover crops Getting started with cover crops This page focuses on cover crops in commodity crop systems. For vegetable production, including home gardens, see Cover crop selection for vegetable growers . When getting started with cover crops, the best approach is to keep it simple. Try one or two species of cover crops and plant them in early-harvested fields to set up the fields for long-term success. In some years, moisture or temperature may limit cover crop growth, so it’s important to experiment with the system for a few years to get a feel for the possibilities. Talk to local Extension staff, your Soil and Water Conservation District ( SWCD) or Natural Resources Conservation Service (NRCS), to go over your cover crop plan. Make sure your agronomist, landlord, lender and farm employees understand the plan and have a chance to ask questions. Try these recipes for low-risk first-time cover crop options. For a summary by species of Minnesota-based research, see the Minnesota Office for Soil Health Cover Crop Guide . Tillage Cover crops are best suited to low- or no-till systems. No-till soybeans are easier to start with than no-till corn, but it’s still important to go over your planter systems for residue management and row closing. Planning for a no-till crop starts at harvest the year before, as it’s important to leave as much corn residue upright instead of chopped and distributed. The chopped residue stays wet and cool longer than unchopped, vertical corn stubble. Learn more about reducing tillage and incorporating cover crops in the soil health video series and the Upper Midwest Tillage Guide . Setting goals for cover crops What are your goals for cover crops? This will affect your choice of species. Below are some common goals and suggestions to achieve them. Erosion control Plant something fast-growing, like oats, or use cereal rye if you want to make sure to protect your soil from spring rains. Nitrate scavenging Cereal rye reliably produces the most biomass of cover crops grown in Minnesota, so it’s a good choice for maximizing the uptake of soil nutrients. Nutrient provision to cash crop Winterkilling broadleaves like radishes or turnips are more likely to break down quickly and provide nutrients the following spring. Legumes like hairy vetch or clovers can build organic N in the soil. Forage production Plant a higher seeding rate of a mix of grasses and broadleaf plants to get both forage dry matter and nutrient content. Compaction reduction Brassicas like turnips and radishes have good taproots to break up a plow pan, but make sure you plant them early enough (after wheat or canning crops) to get good growth. Weed control Weed control with cover crops requires excellent stands (<1000 lb biomass/ac) to out-compete spring-emerging weeds. A high rate of cereal rye is recommended. Terminating by roller-crimping could enhance that smothering action, but must be done at precise timing to ensure full rye termination. Choosing a cover crop The Midwest Cover Crop Council’s selection tool evaluates the pros and cons of different species. Start with one or two cover crops to get acquainted with their benefits. Expensive seed mixes aren’t necessary. The most popular choice in Minnesota is cereal rye, as it germinates at cool temperatures and grows fast in the spring. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Winter annual cash crops Several winter annual cover crops yield harvestable grain and oilseeds that can add economic benefit to farm rotations beyond environmental benefits like reducing wind and water erosion and sequestering nutrients. Winter camelina is a very hardy, winter annual oilseed that is seeing rapid development as a renewable and carbon-friendly fuel oil source. Like winter wheat, hybrid winter rye and winter barley are winter annual cereal grains . They have multiple value-added uses including milling, distilling, malting and high-quality animal feed. Research is ongoing at the University of Minnesota Forever Green Initiative to select high-performing varieties, and fine-tune agronomic systems for these crops. Winter camelina, hybrid rye and winter barley can be sown after harvesting crops like small grains, silage corn, early soybeans, dry beans, canning crops or sunflowers. The seedlings of camelina form rosettes in the autumn, elongate in the spring, and flower in the early summer. They are ready to harvest around mid to late June. Hybrid rye and winter barley emerge and tiller in the fall and elongate in the spring of the following year, with harvest in late June (barley) to mid-July (hybrid rye). There is additional research taking place to integrate these winter annual cash crops into a double crop or intercrop system. For example, soybean can be interseeded into established camelina in the spring, and camelina harvested over the top of the soybeans, providing two harvestable oilseed crops in one growing season. Another potential option is to plant very early maturing soybeans after a winter cereal grain like winter barley. Early maturing varieties of winter barley and winter camelina are being actively developed at the University of Minnesota to better integrate into a double-crop or intercrop system to make the most of our short growing seasons. These crops have the potential to add a second revenue stream to a crop year but currently have limited markets. They provide similar ecosystem benefits to other cover crops, such as reducing soil erosion and nitrogen loss and aiding in water infiltration and retention. Plus sign (+) if content is closed, 'X' if content is open. Do you want a cover crop that will overwinter? A cover crop that overwinters will provide the best soil protection through the winter and into spring. However, you’ll generally need to terminate it before planting the cash crop in the spring. A combination of cereal rye, which will overwinter, and radish, which will winter kill, is an example of a mix where the rye provides added soil protection, while the radish residue decomposes quickly. For a quick-growing grain that doesn’t overwinter, seeding barley in the fall is a good option. While typically winter-killed, turnips can overwinter if weather conditions are right. If radish is in the mix and there aren’t grazing cattle, then another cover crop that serves the same purpose as radish isn’t needed. Plus sign (+) if content is closed, 'X' if content is open. Cover crop comparisons Brassicas tend to winter-kill and decompose quickly in the spring. It’s believed that nitrogen becomes available earlier in the growing season due to this fast decomposition. Grasses aren’t considered to be nitrogen sources. However, as the plant material decomposes, nitrogen is released and some will become available for the cash crop. Mixtures of two or more cover crop species will provide more benefits than a single species. We’ve rated cover crops on how effective they are at providing various benefits, using the following grading system: Excellent **** Very Good *** Good** Fair* Brassicas Name Nitrogen source Nitrogen scavenger Erosion preventer Weed fighter Subsoiler Forage value Canola -- *** ** ** ** * Forage turnip -- *** ** *** -- ** Mustard -- *** ** ** ** * Radish (tillage, daikon, etc.) -- *** ** *** **** ** Broadleaves Name Nitrogen source Nitrogen scavenger Erosion preventer Weed fighter Subsoiler Forage value Buckwheat -- *** ** *** -- -- Flax -- ** * -- ** -- Grasses Name Nitrogen source Nitrogen scavenger Erosion preventer Weed fighter Subsoiler Forage value Annual ryegrass -- *** *** ** **** *** Barley (spring or winter) -- *** *** *** ** ** Millet (foxtail, pearl, etc.) -- *** *** *** ** ** Oats -- *** *** *** * *** Sorghum-sudangrass -- **** *** **** ** **** Sudangrass -- **** *** **** * **** Triticale -- **** **** *** ** *** Wheat (spring or winter) -- *** *** *** ** *** Winter cereal rye -- **** **** **** *** *** Legumes Name Nitrogen source Nitrogen scavenger Erosion preventer Weed fighter Subsoiler Forage value Alfalfa *** ** *** ** *** **** Berseem clover **** ** *** ** * *** Cowpea *** * ** ** -- ** Crimson clover *** ** ** ** ** *** Field or winter pea ** ** ** * * *** Red clover **** ** **** *** ** *** Soybeans ** ** * ** -- ** Vetch **** ** ** ** ** * White clover ** ** *** ** -- *** Plus sign (+) if content is closed, 'X' if content is open. Recommended cover crop planting dates and seeding rates Name Best planting dates Planting rate Millet (foxtail, pearl, etc.) May 20 to July 25 20 to 25 lbs. per acre Sorghum-sudangrass May 20 to July 25 25 to 30 lbs. per acre Sudangrass May 20 to July 25 25 to 30 lbs. per acre (15 to 20 lbs. per acre, acc. Cover Crops Field Guide) Cowpea May 20 to Aug. 15 30 to 90 lbs. per acre Buckwheat June 10 to Aug. 15 45 to 60 lbs. per acre (20 to 35 lbs. per acre, acc. Cover Crops Field Guide) Barley (spring or winter) July 10 to Aug. 15 50 to 75 lbs. per acre Soybeans July 10 to Aug. 15 30 to 40 lbs. per acre Annual ryegrass July 10 to Sept. 1 15 to 20 lbs. per acre Flax July 10 to Sept. 1 30 to 50 lbs. per acre Oats July 10 to Sept. 1 30 to 50 lbs. per acre Triticale July 10 to Oct. 20 50 to 90 lbs. per acre Wheat (spring or winter) July 10 to Oct. 20 50 to 90 lbs. per acre Winter cereal rye July 10 to Oct. 20 55 to 100 lbs. per acre Alfalfa July 25 to Aug. 15 12 to 16 lbs. per acre Red clover July 25 to Aug. 15 8 to 12 lbs. per acre Vetch July 25 to Aug. 15 15 to 25 lbs. per acre White clover July 25 to Aug. 15 5 to 8 lbs. per acre Berseem clover July 25 to Sept. 1 8 to 15 lbs. per acre Crimson clover July 25 to Sept. 1 10 to 15 lbs. per acre Canola July 25 to Sept. 15 2 to 5 lbs. per acre Forage turnip July 25 to Sept. 15 1 to 4 lbs. per acre Mustard July 25 to Sept. 15 4 to 8 lbs. per acre Radish (tillage, daikon, etc.) July 25 to Sept. 15 8 to 15 lbs. per acre (5 to 10 lbs. per acre, acc. Cover Crops Field Guide) Field or winter pea July 25 to Sept. 20 30 to 90 lbs. per acre (50 to 80 lbs. per acre, acc. Cover Crops Field Guide) Plus sign (+) if content is closed, 'X' if content is open. Cover crop guides and resources Midwest Cover Crops Field Guide - Minnesota Office for Soil Health (MOSH) USDA-ARS cover crop chart - U.S. Department of Agriculture Agricultural Research Service (USDA-ARS) Northern Great Plains Research Laboratory Cover Crops Learning Center -North Central Region-Sustainable Agriculture Research & Education (NCR-SARE) Authors: Anna Cates, Extension educator, and Jill Sackett Reviewed in 2024 Page survey © 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer. This work is supported by the U.S. Department of Agriculture’s National Institute of Food and Agriculture. Report Web Accessibility Issues | Privacy Statement | Staff intranet",
+  "links": [
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+      "label": "Skip to navigation"
+    },
+    {
+      "url": "https://extension.umn.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Debalin%20at%20Field%20School.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/471",
+      "label": "Building a stronger Minnesota together"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/what-we-do",
+      "label": "What we do"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/local",
+      "label": "Local offices"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/tribal-outreach",
+      "label": "Tribal outreach"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/regional-partnerships",
+      "label": "Regional partnerships"
+    },
+    {
+      "url": "https://agreett.umn.edu/",
+      "label": "AGREETT"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/global-initiatives",
+      "label": "Global initiatives"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/ask-a-question",
+      "label": "Ask a question"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/apply-for-a-job",
+      "label": "Apply for a job"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extensionstaff.umn.edu/",
+      "label": "Staff"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/news",
+      "label": "Extension news"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/newsletters",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/podcasts",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/White%20baneberry%20berries%20and%20red%20stalks.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/event/spooky-plants-for-the-spooky-season",
+      "label": "Spooky plants for the spooky season | Nov 3"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events",
+      "label": "Courses and events"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events/for-organizations",
+      "label": "For organizations"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179506",
+      "label": "For professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Aerial%20view%20of%20group%20in%20field_screen.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/7781",
+      "label": "Institute for Ag Professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/beef",
+      "label": "Beef"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/horse",
+      "label": "Horse"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/livestock-operations",
+      "label": "Livestock operations"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-production/growing-corn",
+      "label": "Corn"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "label": "Cover crops"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "label": "Nutrient management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/soybean",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/sugarbeet",
+      "label": "Sugarbeet"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/weed-management",
+      "label": "Weed management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agricultural-business-management",
+      "label": "Ag business management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/farm-safety",
+      "label": "Farm safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/growing-safe-food",
+      "label": "On-farm food safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/small-farms",
+      "label": "Small farms"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production",
+      "label": "Commercial Fruit"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming",
+      "label": "Vegetable farming"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/tornado-storm-clouds-above-the-shed-in-the-countryside.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/158556",
+      "label": "COMET Training"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/economy-and-development",
+      "label": "Economy and development"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/leadership-skill-building",
+      "label": "Leadership skill building"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/tourism-and-outdoor-recreation",
+      "label": "Tourism and outdoor recreation"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/175686",
+      "label": "Managing money"
+    },
+    {
+      "url": "https://extension.umn.edu/node/177516",
+      "label": "Mental health"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/raising-kids",
+      "label": "Raising kids"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/rural-stress",
+      "label": "Rural stress"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Tomatoes-peppers-on-outside-table-UMN-extension.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/9161",
+      "label": "Take a class: Preserving food at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home",
+      "label": "Cooking at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/commercial-kitchens",
+      "label": "Commercial kitchens"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/cottage-food-safety-in-minnesota",
+      "label": "Cottage foods"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/rural-grocery-stores",
+      "label": "Rural grocery stores"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/supershelf",
+      "label": "Supershelf"
+    },
+    {
+      "url": "https://extension.umn.edu/food/nutrition/healthy-eating",
+      "label": "Healthy eating"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Garden%20Tour%202023.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/26856",
+      "label": "Read Yard and Garden News"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota",
+      "label": "Gardening in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota",
+      "label": "Lawns and landscapes in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects",
+      "label": "Yard and garden insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems",
+      "label": "Yard and garden problems"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/home-maintenance-and-safety",
+      "label": "Home maintenance and safety"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects",
+      "label": "Household insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/water-usage-and-water-damage-in-homes",
+      "label": "Water usage and water damage in homes"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Copy%20of%20IMG_3906.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/100581",
+      "label": "Minnesota Woodland Stewards"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179281",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/wild-pollinators",
+      "label": "Wild pollinators"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water",
+      "label": "Agricultural soil and water"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/shoreland-watersheds-and-wetlands",
+      "label": "Shoreland, watersheds and wetlands"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/weather-and-climate/prepare-for-risks-to-your-home-and-community",
+      "label": "Prepare for risks"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/4-H-State-Ambassadors-greeting-fairgoers-at-state-fair-4-H-Building-entrance.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/4h-building-campaign/home",
+      "label": "Help us transform the 4‑H Building"
+    },
+    {
+      "url": "https://extension.umn.edu/4-h-and-youth/minnesota-4-h",
+      "label": "Minnesota 4-H"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160906",
+      "label": "Belonging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160921",
+      "label": "Leadership and skills"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160911",
+      "label": "Learning and readiness"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160896",
+      "label": "Program quality"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160926",
+      "label": "Resilience"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production",
+      "label": "Crop production"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/cover-crop-selection-for-vegetable-growers",
+      "label": "Cover crop selection for vegetable growers"
+    },
+    {
+      "url": "https://extension.umn.edu/node/32621",
+      "label": "local Extension"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/wps/portal/nrcs/mn/home/",
+      "label": "Natural Resources Conservation Service"
+    },
+    {
+      "url": "https://mosh.umn.edu/management/minnesota-cover-crop-research",
+      "label": "Cover Crop Guide"
+    },
+    {
+      "url": "https://extension.umn.edu/small-grains/planting-small-grains",
+      "label": "winter annual cereal grains"
+    },
+    {
+      "url": "https://forevergreen.umn.edu/",
+      "label": "Research is ongoing at the University of Minnesota Forever Green Initiative"
+    },
+    {
+      "url": "https://ag.purdue.edu/agry/dtc/Pages/CCFG.aspx",
+      "label": "Midwest Cover Crops Field Guide"
+    },
+    {
+      "url": "https://extension.umn.edu/about-extension/contact-us",
+      "label": "Contact"
+    },
+    {
+      "url": "https://extension.umn.edu/cdn-cgi/l/email-protection",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://z.umn.edu/report-accessibility-issue?ref_url=https://extension.umn.edu/agriculture/crop-production/cover-crops/getting-started-with-cover-crops",
+      "label": "Report Web Accessibility Issues"
+    },
+    {
+      "url": "https://myextension.umn.edu",
+      "label": "Staff intranet"
+    }
+  ],
+  "fetched_at": "2026-10-28T00:43:18.470990+00:00",
+  "sha256": "80c951da18fe331a194da8c67bd72033ff6e1353ceff13b45b2ca9cb6f9de9b0",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

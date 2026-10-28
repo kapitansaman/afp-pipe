@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2021/09/a-quick-guide-to-harvesting-and-storing.html",
+      "canonical_url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2021/09/a-quick-guide-to-harvesting-and-storing.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.illinois.edu/blogs/commercial-fruit-and-vegetable-growers/2023-07-31-time-pumpkin-disease-and-insect-management",
+      "canonical_url": "https://extension.illinois.edu/blogs/commercial-fruit-and-vegetable-growers/2023-07-31-time-pumpkin-disease-and-insect-management",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins",
+      "canonical_url": "https://extension.illinois.edu/pumpkins",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins/answers-your-questions-about-pumpkins",
+      "canonical_url": "https://extension.illinois.edu/pumpkins/answers-your-questions-about-pumpkins",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins/choosing-pumpkin",
+      "canonical_url": "https://extension.illinois.edu/pumpkins/choosing-pumpkin",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins/preserving-pumpkin",
+      "canonical_url": "https://extension.illinois.edu/pumpkins/preserving-pumpkin",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

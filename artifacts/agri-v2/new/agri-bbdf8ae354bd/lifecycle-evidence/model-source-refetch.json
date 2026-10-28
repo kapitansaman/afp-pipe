@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "topic_id": "agri-bbdf8ae354bd",
+  "input_binding": {
+    "topic_sha256": "da9dd0de85b2dc6f19b204c9c80cfe0d0e6f7904d5e6c36de25affe46fbefc68",
+    "sources_sha256": "d21c8302041de921f008dd7b9bc272e554c6d20ece3819f7b6087de11187048b",
+    "raw_sha256": "62e955011b801e0351634653c062da57221d6ae6a0777c855794d8931868ffb6"
+  },
+  "started_at": "2026-10-28T00:43:25.843845+00:00",
+  "model_calls": 0,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "status": "no_new_admitted_sources",
+  "new_sources": 0,
+  "fetch_report": {
+    "version": 2,
+    "started_at": "2026-10-28T00:43:25.844126+00:00",
+    "discovery_backend": "verified_catalog_and_observed_institutional_links",
+    "model_generated_urls": false,
+    "max_fetches": 12,
+    "max_link_depth": 2,
+    "completed_at": "2026-10-28T00:43:26.565608+00:00",
+    "requested": 3,
+    "loaded": 0,
+    "independent_institutions": 0,
+    "observed_links": [],
+    "fetch_reports": [
+      {
+        "requested": 3,
+        "loaded": 0,
+        "sources": [
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/irrigation-management",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": false,
+            "http_status": 404
+          },
+          {
+            "url": "https://extension.illinois.edu/crops/focus/irrigation",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": false,
+            "http_status": 404
+          },
+          {
+            "url": "https://www.aces.edu/blog/topics/crop-production/specialty-crops/irrigation-management-for-pumpkins/",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": false,
+            "http_status": 404
+          }
+        ]
+      }
+    ],
+    "topic_id": "agri-bbdf8ae354bd",
+    "source_policy_version": "university-single-source-v1",
+    "bounded_discovery_completed": true,
+    "temporary_source_failure": false,
+    "source_sufficiency": {
+      "version": "university-single-source-v1",
+      "satisfied": false,
+      "university_hosts": [],
+      "independent_institutions": 0,
+      "single_university_exception": false,
+      "publication_authorized": false
+    },
+    "blocking_kind": "insufficient_verified_source_coverage"
+  }
+}

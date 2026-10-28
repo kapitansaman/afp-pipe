@@ -1,0 +1,17 @@
+{
+  "family_id": "family-07",
+  "topic_id": "agri-f2b95250ac75",
+  "title": "اولین آبیاری کدو آجیلی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+  "title_sha256": "3707a142b43ca85cc07ae3ee7dd76c33454d77e42eb95868986873537ba8bcc5",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY25",
+    "AGNES_API_KEY26",
+    "AGNES_API_KEY27",
+    "AGNES_API_KEY28"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

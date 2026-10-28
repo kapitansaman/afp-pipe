@@ -26,8 +26,12 @@
       "status": "pending_separate_review"
     },
     "en-US": {
-      "status": "pending_separate_review"
+      "status": "publication_deferred",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      }
     }
   },
-  "at": "2026-10-27T14:58:23.662207+00:00"
+  "at": "2026-10-28T00:45:08.225317+00:00"
 }

@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://welbaum.spes.vt.edu/seedproduction/Cucurbitaceae.html",
+      "canonical_url": "https://welbaum.spes.vt.edu/seedproduction/Cucurbitaceae.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+      "canonical_url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/harvesting-and-storing-melons-squash-and-pumpkins",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/horticulture-notes-pumpkins-and-winter-squash/",
+      "canonical_url": "https://www.aces.edu/blog/topics/crop-production/horticulture-notes-pumpkins-and-winter-squash/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

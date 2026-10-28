@@ -1,0 +1,53 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منبع تکی دانشگاهی ایالت یوتا (extension.usu.edu) است و معیار کمی دقیق برای زمان قطع آبیاری پیش از برداشت بذر کدو آجیلی ارائه نمی‌دهد. سایر منابع باروری شده عمدتاً درباره مدیریت میوه زمستانی/پمپکین و نگهداری پس از برداشت هستند، نه مرحله تولید بذر روغنی. عنوان درخواستی «معیارهای قطع و کاهش آب» به معنای آستانه کمی نیاز دارد که در منابع یافت نشده است. تمام ادعاها کیفی و مبتنی بر راهنمای عمومی ترویجی آمریکای شمالی هستند؛ تطبیق با شرایط ایران نیاز به بررسی کارشناسی دارد.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
+}

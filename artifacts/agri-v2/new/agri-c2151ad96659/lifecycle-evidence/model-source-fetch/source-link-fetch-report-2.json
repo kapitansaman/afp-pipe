@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension.msstate.edu/publications/corn-seed-hybrid-trials-increase-profits",
+      "canonical_url": "https://extension.msstate.edu/publications/corn-seed-hybrid-trials-increase-profits",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/publications/cotton-seed-variety-trials-improve-yields",
+      "canonical_url": "https://extension.msstate.edu/publications/cotton-seed-variety-trials-improve-yields",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/publications/mississippi-master-gardeners-extend-university-knowledge",
+      "canonical_url": "https://extension.msstate.edu/publications/mississippi-master-gardeners-extend-university-knowledge",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

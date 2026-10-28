@@ -1,0 +1,48 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع ارائه‌شده عمدتاً عمومی و مربوط به کشت میوه/صیفی‌جات کدو هستند و پاسخ مستقیمی درباره آبیاری اولیه در مرحله استقرار نهال کدوی آجیلی (تولید بذر خشک) ارائه نمی‌دهند. هیچ‌یک از منابع مقدار آب مصارف، عمق نفوذ سنجیده‌شده، دبی، مدت آبیاری محلی یا رطوبت هدف‌مند خاک در منطقه استقرار را گزارش نکرده‌اند. توصیه‌های قطره‌ای، عمیق/نادر و کاهش آب هنگام رسیدن میوه، برای کدوی زمستانه/صیفی‌جات عمومی مطرح شده‌اند و برای بذر آجیلی تعمیم‌نیافته‌اند. منابع از ایالات متحده هستند و برای شرایط ایران بدون ارزیابی بومی‌سازی قابل استناد نیستند.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
+}

@@ -1,0 +1,53 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منبع اصلی (University of Minnesota Extension) یک راهنمای عمومی پایش رطوبت خاک است و هیچ داده اختصاصی برای لوبیا چیتی (پینتو) ارائه نمی‌دهد؛ عمق ریشه فعال لوبیا چیتی باید در مزرعه تعیین شود. داده‌های عددی ذکر شده (محدوده کشش 0-220 cb، MAD 30-50 درصد، مثال پروفیل 12 اینچی) مربوط به اصول عمومی برنامه‌ریزی آبیاری هستند و نه توصیه اختصاصی پینتو. منبع MSU فقط به حساسیت عمومی حبوبات به کم‌آبی و پُرآبی اشاره دارد و اطلاعات فنی حسگر ارائه نمی‌دهد. منبع UMD (خاستگاه بذر) نامرتبط است. فاقد مرجع مستقل دوم برای تأیید مستقل؛ صرفاً بر پایه یک منبع ترویجی دانشگاهی آمریکا استوار است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": false,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f6",
+      "supported": false,
+      "scope_and_units_correct": false
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
+}

@@ -1,0 +1,30 @@
+{
+  "topic_id": "agri-bbdf8ae354bd",
+  "gap": "محاسبه مدت هر نوبت آبیاری (irrigation duration) از رابطه بین دبی واقعی، طول نوار تیپ و نیاز آبی محصول — منبع هیچ‌یک از مقالاتfetch شده، فرمول Q=C×L×q یا معادل ایرانی آن را ارائه نمی‌دهد؛ هیچ‌کدام لیتراژ تیپ، فاصله خطوط، فشار کاری، طول پلی، یا زمان لازم برای جبران ET در مرحله رشد ویژه کدو آجیلی را نمی‌پوشانند.",
+  "queries": [
+    "توضیح آبیاری زیرپوستی کدو آجیلی محاسبه مدت نوبت تیپ",
+    "duration of irrigation per event pumpkin grown for edible seeds drip tape",
+    "pumpkin seed production irrigation scheduling flow rate university extension"
+  ],
+  "leads": [
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/irrigation-management",
+      "kind": "hub",
+      "why_relevant": "وب‌سایت گسترش دانشگاه مینه‌سوتا شامل بخش مدیریت آبیاری محصولات زراعی که ممکن است دستورالعمل‌های محاسبه مدت آبیاری با تیپ را پوشش دهد.",
+      "expected_evidence": "فرمول‌ها یا جداول محاسبه مدت آبیاری بر اساس دبی، طول نوار و نیاز آبی محصول."
+    },
+    {
+      "url": "https://extension.illinois.edu/crops/focus/irrigation",
+      "kind": "document",
+      "why_relevant": "بخش آبیاری در سیستم گسترش ایلینوی ممکن است راهنمای محاسبه مدت آبیاری با تیپ برای کدو آجیلی یا کتب مشابه ارائه دهد.",
+      "expected_evidence": "محاسبات عملی شامل دبی واقعی، طول تیپ و زمان مورد نیاز برای جبران نیاز آبی."
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/specialty-crops/irrigation-management-for-pumpkins/",
+      "kind": "document",
+      "why_relevant": "وب‌سایت گسترش آلاباما ممکن است دستورالعمل اختصاصی آبیاری کدو آجیلی شامل محاسبه مدت هر نوبت را پوشش دهد.",
+      "expected_evidence": "ارائه فرمول Q=C×L×q یا توضیح محاسبه مدت آبیاری با توجه به دبی و طول نوار."
+    }
+  ],
+  "no_source_found": false
+}

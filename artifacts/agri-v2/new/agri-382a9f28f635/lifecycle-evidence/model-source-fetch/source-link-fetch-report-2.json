@@ -1,0 +1,25 @@
+{
+  "requested": 3,
+  "loaded": 0,
+  "sources": [
+    {
+      "url": "https://extension.illinois.edu/pumpkins/Drying%20seeds%20and%20roasting%20seeds%20are%20two%20different%20processes.%20To%20dry,%20carefully%20wash%20pumpkin%20seeds%20to%20remove%20the%20clinging%20fibrous%20pumpkin%20tissue.%20Pumpkin%20seeds%20can%20be%20dried%20in%20the%20sun,%20in%20a%20dehydrator%20at%20115-120ºF%20for%201%20to%202%20hours,%20or%20in%20an%20oven%20on%20warm%20for%203%20to%204%20hours.%20Stir%20them%20frequently%20to%20avoid%20scorching.",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins/Fruit%20leathers%20are%20homemade%20fruit%20rolls.%20They%20are%20a%20tasty%20chewy,%20dried%20fruit%20product.%20Fruit%20leathers%20are%20made%20by%20pouring%20pureéd%20fruit%20onto%20a%20flat%20surface%20for%20drying.%20When%20dried,%20the%20fruit%20is%20pulled%20from%20the%20surface%20and%20rolled.%20It%20gets%20the%20name%20%22leather%22%20from%20the%20fact%20that%20when%20pureéd%20fruit%20is%20dried,%20it%20is%20shiny%20and%20has%20the%20texture%20of%20leather.",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins/Wash,%20cut%20into%20cooking-size%20sections%20and%20remove%20seeds.",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": false,
+      "http_status": 404
+    }
+  ]
+}

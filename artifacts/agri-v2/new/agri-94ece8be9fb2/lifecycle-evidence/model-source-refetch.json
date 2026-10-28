@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "topic_id": "agri-94ece8be9fb2",
+  "input_binding": {
+    "topic_sha256": "c9bb367267534b5bd2174efa2614eb38e38e48a2089b6ec1c75ad3c94ca1aae6",
+    "sources_sha256": "8d2a0aad7ce4737f55ef8086c79f139f46aafec682d4d99227d9f00b9855c7c6",
+    "raw_sha256": "c75754dbc1ad58d586b7d67b8d84620df1cc3c17e0322b86fa3f0b3bad30c5c9"
+  },
+  "started_at": "2026-10-28T00:43:26.311409+00:00",
+  "model_calls": 0,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "status": "no_new_admitted_sources",
+  "new_sources": 0,
+  "fetch_report": {
+    "version": 2,
+    "started_at": "2026-10-28T00:43:26.311679+00:00",
+    "discovery_backend": "verified_catalog_and_observed_institutional_links",
+    "model_generated_urls": false,
+    "max_fetches": 12,
+    "max_link_depth": 2,
+    "completed_at": "2026-10-28T00:43:36.366724+00:00",
+    "requested": 3,
+    "loaded": 0,
+    "independent_institutions": 0,
+    "observed_links": [],
+    "fetch_reports": [
+      {
+        "requested": 3,
+        "loaded": 0,
+        "sources": [
+          {
+            "url": "https://extension.nebraska.edu/resource/irrigation-management-for-pumpkins",
+            "status": "unavailable",
+            "category": "fetch_or_validation_failed",
+            "temporary": true
+          },
+          {
+            "url": "https://www.ars.usda.gov/midwest-area/beltsville-md/plant-resistance-pest-management-research/docs/scheduling-irrigation-soil-moisture/",
+            "status": "unavailable",
+            "category": "fetch_or_validation_failed",
+            "temporary": true
+          },
+          {
+            "url": "https://crops.ca.uky.edu/uky-crops-pumpkin-production-guide",
+            "status": "unavailable",
+            "category": "fetch_or_validation_failed",
+            "temporary": true
+          }
+        ]
+      }
+    ],
+    "topic_id": "agri-94ece8be9fb2",
+    "source_policy_version": "university-single-source-v1",
+    "bounded_discovery_completed": true,
+    "temporary_source_failure": true,
+    "source_sufficiency": {
+      "version": "university-single-source-v1",
+      "satisfied": false,
+      "university_hosts": [],
+      "independent_institutions": 0,
+      "single_university_exception": false,
+      "publication_authorized": false
+    },
+    "blocking_kind": null
+  }
+}

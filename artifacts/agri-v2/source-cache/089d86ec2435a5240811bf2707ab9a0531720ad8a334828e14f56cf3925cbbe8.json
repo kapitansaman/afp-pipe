@@ -1,0 +1,428 @@
+{
+  "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+  "requested_url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+  "redirect_chain": [
+    "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed"
+  ],
+  "text": "[table row] Ammonia | % N: 82 [table row] Ammonia | % P 2 O 5: 0 [table row] Ammonia | K 2 O: 0 [table row] Ammonia | S: 0 [table row] Ammonia | Per unit of nutrients*: 0.572 [table row] Ammonium Nitrate | % N: 34 [table row] Ammonium Nitrate | % P 2 O 5: 0 [table row] Ammonium Nitrate | K 2 O: 0 [table row] Ammonium Nitrate | S: 0 [table row] Ammonium Nitrate | Per unit of nutrients*: 3.056 [table row] Ammonium Sulfate | % N: 21 [table row] Ammonium Sulfate | % P 2 O 5: 0 [table row] Ammonium Sulfate | K 2 O: 0 [table row] Ammonium Sulfate | S: 24 [table row] Ammonium Sulfate | Per unit of nutrients*: 3.252 [table row] Ammonium Thiosulfate | % N: 12 [table row] Ammonium Thiosulfate | % P 2 O 5: 0 [table row] Ammonium Thiosulfate | K 2 O: 0 [table row] Ammonium Thiosulfate | S: 26 [table row] Ammonium Thiosulfate | Per unit of nutrients*: 7.533 [table row] Urea | % N: 46 [table row] Urea | % P 2 O 5: 0 [table row] Urea | K 2 O: 0 [table row] Urea | S: 0 [table row] Urea | Per unit of nutrients*: 1.618 [table row] 28% UAN | % N: 28 [table row] 28% UAN | % P 2 O 5: 0 [table row] 28% UAN | K 2 O: 0 [table row] 28% UAN | S: 0 [table row] 28% UAN | Per unit of nutrients*: 2.25 [table row] 32% UAN | % N: 32 [table row] 32% UAN | % P 2 O 5: 0 [table row] 32% UAN | K 2 O: 0 [table row] 32% UAN | S: 0 [table row] 32% UAN | Per unit of nutrients*: 2.221 [table row] APP (10-34-0) | % N: 10 [table row] APP (10-34-0) | % P 2 O 5: 34 [table row] APP (10-34-0) | K 2 O: 0 [table row] APP (10-34-0) | S: 0 [table row] APP (10-34-0) | Per unit of nutrients*: 0.455 [table row] DAP (18-46-0) | % N: 18 [table row] DAP (18-46-0) | % P 2 O 5: 46 [table row] DAP (18-46-0) | K 2 O: 0 [table row] DAP (18-46-0) | S: 0 [table row] DAP (18-46-0) | Per unit of nutrients*: 0.456 [table row] MAP (11-52-0) | % N: 11 [table row] MAP (11-52-0) | % P 2 O 5: 52 [table row] MAP (11-52-0) | K 2 O: 0 [table row] MAP (11-52-0) | S: 0 [table row] MAP (11-52-0) | Per unit of nutrients*: 0.405 [table row] Phosphorus Acid | % N: 0 [table row] Phosphorus Acid | % P 2 O 5: 54 [table row] Phosphorus Acid | K 2 O: 0 [table row] Phosphorus Acid | S: 0 [table row] Phosphorus Acid | Per unit of nutrients*: 1.613** [table row] Mono-potassium Phosphate | % N: 0 [table row] Mono-potassium Phosphate | % P 2 O 5: 52 [table row] Mono-potassium Phosphate | K 2 O: 35 [table row] Mono-potassium Phosphate | S: 0 [table row] Mono-potassium Phosphate | Per unit of nutrients*: 0.097 [table row] Potassium Chloride | % N: 0 [table row] Potassium Chloride | % P 2 O 5: 0 [table row] Potassium Chloride | K 2 O: 62 [table row] Potassium Chloride | S: 0 [table row] Potassium Chloride | Per unit of nutrients*: 1.936 [table row] Potassium Sulfate | % N: 0 [table row] Potassium Sulfate | % P 2 O 5: 0 [table row] Potassium Sulfate | K 2 O: 50 [table row] Potassium Sulfate | S: 18 [table row] Potassium Sulfate | Per unit of nutrients*: 0.852 [table row] Potassium Thiosulfate | % N: 0 [table row] Potassium Thiosulfate | % P 2 O 5: 0 [table row] Potassium Thiosulfate | K 2 O: 25 [table row] Potassium Thiosulfate | S: 17 [table row] Potassium Thiosulfate | Per unit of nutrients*: 2.72 [table row] (1) | lbs./ton: (2) [table row] (1) | N: (3) [table row] (1) | P 2 O 5: (4) [table row] (1) | K 2 O: (5) [table row] (1) | Per unit: (6) [table row] (1) | Salt index in formulation: (7) [table row] APP | lbs./ton: 1235 [table row] APP | N: 6.2 [table row] APP | P 2 O 5: 21 [table row] APP | Per unit: 0.455 [table row] APP | Salt index in formulation: 12.4 [table row] 28% UAN | lbs./ton: 57 [table row] 28% UAN | N: 0.8 [table row] 28% UAN | Per unit: 2.25 [table row] 28% UAN | Salt index in formulation: 1.8 [table row] KCl | lbs./ton: 223 [table row] KCl | K 2 O: 7 [table row] KCl | Per unit: 1.936 [table row] KCl | Salt index in formulation: 13.6 [table row] Water | lbs./ton: 482 [table row] 3-18-18* | Salt index: 8.5 [table row] 6-24-6* | Salt index: 11.5 [table row] 6-30-10* | Salt index: 13.8 [table row] 9-18-9* | Salt index: 16.7 [table row] 10-34-0 | Salt index: 20 [table row] 7-21-7 | Salt index: 27.8 [table row] 4-10-10 | Salt index: 27.5 [table row] 28% UAN | Salt index: 63 [table row] 10-34-0 | Urea (% of total nitrogen content): 0 [table row] 6-24-6 | Urea (% of total nitrogen content): 0-5 [table row] 4-10-10 | Urea (% of total nitrogen content): 1-5 [table row] 7-21-7 | Urea (% of total nitrogen content): 1-5 [table row] 3-18-18 | Urea (% of total nitrogen content): 3-7 [table row] 9-18-9 | Urea (% of total nitrogen content): 10-15 [table row] 10-10-10 | Urea (% of total nitrogen content): 10-25 [table row] 28% UAN | Urea (% of total nitrogen content): 28-35 [table row] 10-34-0 | High: 81* [table row] 10-34-0 | Low: 99 [table row] 4-10-10 | High: 110* [table row] 4-10-10 | Low: 106 [table row] 3-18-18 | High: 100 [table row] 3-18-18 | Low: 109 [table row] With seed | High: High [table row] With seed | Low: Low [table row] 10-34-0 | High: 88* [table row] 10-34-0 | Low: 108 [table row] 4-10-10 | High: 112* [table row] 4-10-10 | Low: 107 [table row] 3-18-18 | High: 106 [table row] 3-18-18 | Low: 102 [table row] Single band above | High: High [table row] Single band above | Low: Low [table row] 10-34-0 | High: 84* [table row] 10-34-0 | Low: 107 [table row] 4-10-10 | High: 111* [table row] 4-10-10 | Low: 103 [table row] 3-18-18 | High: 114 [table row] 3-18-18 | Low: 103 [table row] AMS | Analysis %**: 21-0-0-24 [table row] AMS | Low lb./acre: 18.8 [table row] AMS | High lb./acre: 29.1 [table row] APP | Analysis %**: 10-34-0 [table row] APP | Low lb./acre: 63.4 [table row] APP | High lb./acre: 98.2 [table row] APP | Low gal./acre: 5.4 [table row] APP | High gal./acre: 8.4 [table row] ATS | Analysis %**: 12-0-0-26 [table row] ATS | Low lb./acre: 13.9 [table row] ATS | High lb./acre: 21.9 [table row] ATS | Low gal./acre: 1.3 [table row] ATS | High gal./acre: 2 [table row] DAP | Analysis %**: 18-46-0 [table row] DAP | Low lb./acre: 43.8 [table row] DAP | High lb./acre: 67.5 [table row] 7-21-7 | Analysis %**: 7-21-7 [table row] 7-21-7 | Low lb./acre: 45.6 [table row] 7-21-7 | High lb./acre: 71 [table row] 7-21-7 | Low gal./acre: 4.2 [table row] 7-21-7 | High gal./acre: 6.5 [table row] KCl | Analysis %**: 0-0-60 [table row] KCl | Low lb./acre: 10.7 [table row] KCl | High lb./acre: 16.6 [table row] KTS | Analysis %**: 0-0-25-17 [table row] KTS | Low lb./acre: 18.8 [table row] KTS | High lb./acre: 29.1 [table row] KTS | Low gal./acre: 1.5 [table row] KTS | High gal./acre: 2.4 [table row] 9-18-9 | Analysis %**: 9-18-9 [table row] 9-18-9 | Low lb./acre: 76.4 [table row] 9-18-9 | High lb./acre: 117.9 [table row] 9-18-9 | Low gal./acre: 6.9 [table row] 9-18-9 | High gal./acre: 10.7 [table row] MAP | Analysis %**: 11-52-0 [table row] MAP | Low lb./acre: 47.3 [table row] MAP | High lb./acre: 73.7 [table row] UAN | Analysis %**: 28-0-0- [table row] UAN | Low lb./acre: 20.1 [table row] UAN | High lb./acre: 31.3 [table row] UAN | Low gal./acre: 1.9 [table row] UAN | High gal./acre: 2.9 [table row] Urea | Analysis %**: 46-0-0 [table row] Urea | Low lb./acre: 17 [table row] Urea | High lb./acre: 26.4 [table row] AMS | Analysis %**: 21-0-0-24 [table row] AMS | Low lb./acre: 6.3 [table row] AMS | High lb./acre: 13.4 [table row] APP | Analysis %**: 10-34-0 [table row] APP | Low lb./acre: 21.4 [table row] APP | High lb./acre: 43.8 [table row] APP | Low gal./acre: 1.8 [table row] APP | High gal./acre: 3.7 [table row] ATS | Analysis %**: 12-0-0-26 [table row] ATS | Low lb./acre: 4.5 [table row] ATS | High lb./acre: 9.8 [table row] ATS | Low gal./acre: 0.4 [table row] ATS | High gal./acre: 0.9 [table row] DAP | Analysis %**: 18-46-0 [table row] DAP | Low lb./acre: 15.2 [table row] DAP | High lb./acre: 30.4 [table row] 7-21-7 | Analysis %**: 7-21-7 [table row] 7-21-7 | Low lb./acre: 15.2 [table row] 7-21-7 | High lb./acre: 32.1 [table row] 7-21-7 | Low gal./acre: 1.4 [table row] 7-21-7 | High gal./acre: 2.9 [table row] KCl | Analysis %**: 0-0-60 [table row] KCl | Low lb./acre: 3.6 [table row] KCl | High lb./acre: 7.1 [table row] KTS | Analysis %**: 0-0-25-17 [table row] KTS | Low lb./acre: 6.3 [table row] KTS | High lb./acre: 13.4 [table row] KTS | Low gal./acre: 0.5 [table row] KTS | High gal./acre: 1.1 [table row] 9-18-9 | Analysis %**: 9-18-9 [table row] 9-18-9 | Low lb./acre: 25.9 [table row] 9-18-9 | High lb./acre: 52.7 [table row] 9-18-9 | Low gal./acre: 2.3 [table row] 9-18-9 | High gal./acre: 4.8 [table row] MAP | Analysis %**: 11-52-0 [table row] MAP | Low lb./acre: 16.1 [table row] MAP | High lb./acre: 33 [table row] UAN | Analysis %**: 28-0-0- [table row] UAN | Low lb./acre: 7.1 [table row] UAN | High lb./acre: 14.3 [table row] UAN | Low gal./acre: 0.7 [table row] UAN | High gal./acre: 1.3 [table row] Urea | Analysis %**: 46-0-0 [table row] Urea | Low lb./acre: 5.4 [table row] Urea | High lb./acre: 11.6 Banding fertilizer with corn seed | UMN Extension Home Agriculture Crop production Nutrient management for Minnesota crops Banding fertilizer with corn seed Quick facts Banding fertilizer directly on the seed can be an effective way to supply small amounts of macro- or micro-nutrients to a crop. Starter fertilizer can significantly increase plant growth early in the growing season. Both salt and ammonia can cause damage to plant tissue. Soil type can also affect seed safe fertilizer rates. Keep application rates of all fertilizer sources low to reduce the risk of damage and give the best change for an economic return. Maintaining at least two inches of soil between the band and the seed row is sufficient to reduce the risk of starter damage. Increase in plant mass for three rates of 10‐34‐0 applied directly on seed for plots with and without broadcast P fertilizer across soils with pH ranges from 6.0 to 8.5. Cool and wet soil conditions can limit uptake of immobile nutrients early in the growing season. Banding fertilizer with the corn planter is a popular method of supplying nutrients to corn and banding can increase uptake early in the growing season. As planter size has increased more corn farmers have turned to liquid fertilizers banded directly on the seed because the equipment required is simple, making handling liquid fertilizers easier. Banding fertilizer directly on the seed, also known as \"in-furrow\" or \"pop-up\" placement, can be an effective way to supply small amounts of macro- or micro-nutrients to a crop. Placing fertilizer directly on the corn seed does pose a risk as fertilizer materials can damage plant tissue, reducing plant growth and seed germination. The most noticeable effect of starter fertilizer is the increase in plant growth early in the growing season. This effect can be seen even if broadcast fertilizer is applied. Small amounts of fertilizer can significantly increase plant early growth. In the example in the graph, a 2.5 gallon per acre rate of 10-34-0 increased early plant growth by an average of 15% while there was only a small additional increase (1-2%) from either 5 or 7.5 gallons per acre. High rates of liquid fertilizers may not be needed to increase early plant growth. Nutrient-specific effects Increase in early plant mass for seed placed fertilizer containing nitrogen (N), phosphorus (P), and potassium (K) on soils testing Medium to High in P and K. *Treatments different from control. Some nutrients in seed placed fertilizers have a greater effect on early growth responses than others. Seed placed phosphorus (P) increases early plant mass more than nitrogen (N) and potassium (K). Application of P will generally increase early plant growth even in the presence of high soil test P. Seed placed N, K, or S may appear to increase plant mass early in the season but differences are a result of low N, K, or S concentration in the soil solution which is limiting growth. Choosing a P seed placed fertilizer source that can economically supply at least 10 pounds of P 2 O 5 per acre is important if increased plant mass is a goal. Tips for using seed placed starter Keep rates low Fertilizer placed in the seed row can have a positive benefit on corn growth early in the growing season and potentially on corn grain yield. High rates of salt and nitrogen products that liberate ammonia (NH 3 0 ) can have negative effects reducing plant growth and the number of emerged plants. Keep rates low to reduce the risk for damage but still get positive benefits from applying seed-placed fertilizer. Account for nutrients in the starter Account for the amount of total nutrients applied in the starter in an overall fertility program. While the amount of total nutrients may be low, reducing the amount of a particular nutrient broadcast by the rate applied in the starter makes economic sense. Knowing what is being applied by all fertilizer sources in a fertility program helps to keep costs as low as possible and prevent over application of nutrients. Monitor soil test values Many corn producers use starters to enhance their broadcast fertility program. When money is tight, you might rely on seed-placed fertilizer to supply all needed plant nutrients. But a low input program will result in a gradual decline in soil test values over the long-term. If soils begin to test low, you may want to use some broadcast fertilizer to increase grain yield and profitability within a given field or field area. Pay attention to soil tests to know when you can reduce seed-placed fertilizer rates in areas where there may be no benefit. Chose a product that will be economic and fit with your goals With so many different product sources available to growers, the best way to select between them is to identify the product that will meet production goals. The best way to compare products is to evaluate the overall cost of the product versus the amount of total nutrients purchased. Choosing a product that will meet your goals with the least cost can help ensure the cost of the product can be recovered with additional grain yield. Damage potential of seed placed fertilizers There are two factors to consider when determining the potential damage a fertilizer source may cause. First, all fertilizers contain salts. In low concentration, salts will typically have little impact on the growth of a crop. All salts by nature are formed by ionic bonds that give the materials a slightly polar charge. Water is a polar molecule and will be attracted to any positively charged molecules in the soil. If the charge is in a high enough concentration, such as in a fertilizer band, ions can hold water strongly and will also draw water out of tissues resulting in damage to growing tissue and reduced seed germination. The second factor to consider is the potential for ammonia (NH 3 0 ) to form in the band near the seed. Ammonia can damage plant tissue similar to salts. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Salt index The salt index of a fertilizer is a measure of the salt concentration of a fertilizer in the soil solution. Salt index is an important parameter to consider when comparing fertilizer products and their suitability for seed placement. Table 1. Salt index values of fertilizer materials (table adapted from Mortvedt, 2001) Table showing the percentage of salt concentration based on the percent of various nutrients in different fertilizer sources. Material % N % P 2 O 5 K 2 O S Per unit of nutrients* Ammonia 82 0 0 0 0.572 Ammonium Nitrate 34 0 0 0 3.056 Ammonium Sulfate 21 0 0 24 3.252 Ammonium Thiosulfate 12 0 0 26 7.533 Urea 46 0 0 0 1.618 28% UAN 28 0 0 0 2.25 32% UAN 32 0 0 0 2.221 APP (10-34-0) 10 34 0 0 0.455 DAP (18-46-0) 18 46 0 0 0.456 MAP (11-52-0) 11 52 0 0 0.405 Phosphorus Acid 0 54 0 0 1.613** 0 72 0 0 1.754** Mono-potassium Phosphate 0 52 35 0 0.097 Potassium Chloride 0 0 62 0 1.936 Potassium Sulfate 0 0 50 18 0.852 Potassium Thiosulfate 0 0 25 17 2.72 *One unit of nutrients = 20 lbs. **Salt index is calculated per 100 lbs. of H 3 PO 4 APP = ammonium polyphosphate DAP = di-ammonium phosphate MAP = mono ammonium phosphate UAN = urea ammonium nitrate solution Salt index is a unitless measure that is expressed as the ratio of the increase in osmotic pressure a fertilizer source induces to the same weight of sodium nitrate (NaNO 3 ). Sodium nitrate has a relative osmotic value of 100. Sodium nitrate was used as a baseline because it was a common fertilizer source when the concept of salt index was developed. All salt index values are expressed as per unit nutrients. For most fertilizer sources one unit of nutrients equals 20 pounds For acids, 100 pounds is used for calculating nutrient units. The salt index of a fertilizer source is not directly measured but rather is calculated based on the salt index values of the components of a fertilizer source, as in Table 1. The next table summarizes the calculation of 7-21-7. To calculate the salt index of 7-21-7: List all fertilizer materials and weight for each component per ton of material (columns 1 and 2) in the fertilizer blend. Determine the nutrient units in columns 3-5 by multiplying the total pounds of material by the concentration of N, P, K or S. List the salt index per plant nutrient unit from Table 1 into column 6. Determine the salt index from each component by multiplying the sum of the nutrient units from columns 3-5 by the per unit salt index value in column 6. Add the salt index values from each component together to determine the salt index of the material. Table 2. Calculating salt index of 7-21-7 Material lbs./ton N P 2 O 5 K 2 O Per unit Salt index in formulation (1) (2) (3) (4) (5) (6) (7) APP 1235 6.2 21 0.455 12.4 28% UAN 57 0.8 2.25 1.8 KCl 223 7 1.936 13.6 Water 482 2000 7 21 7 27.8 This example was taken from Mortvedt (2001). Nutrient units are in pounds. APP = ammonium polyphosphate UAN = urea ammonium nitrate solution KCl = potassium chloride Salt index values of common fertilizer materials are given in Table 3. Fertilizer sources with a salt index of 20 or less are best suited for in-furrow placement. Most fertilizer sources with salt index values less than 20 were manufactured from potassium phosphate instead of potassium chloride. Do not use fertilizer sources with a salt index greater than 20 for in-furrow placement. It is important to note that the salt index is not a direct measurement of the amount of fertilizer that can be safely applied in the seed row. Table 3. Salt index of common liquid starter formulations Formulation Salt index 3-18-18* 8.5 6-24-6* 11.5 6-30-10* 13.8 9-18-9* 16.7 10-34-0 20 7-21-7 27.8 4-10-10 27.5 28% UAN 63 *Potassium phosphate is used as the K source. Plus sign (+) if content is closed, 'X' if content is open. Ammonia damage Ammonia (NH 3 0 ) can damage plant tissue similar to salts. Nitrogen contained in liquid fertilizers can be in any of three forms, ammonium (NH 4 + ), nitrate (NO 3 - ), or urea. Of these three, ammonium and nitrate can contribute to the salt content of the fertilizer but do not have the same damage considerations as ammonia. The exception to this rule is ammonia on high pH soils. Soil pH controls the relative percentage of ammonia to ammonium in the soil. The percentage of ammonium is greater as soil pH increases. When ammonium is applied to a high pH soil a portion can be converted to ammonia. Urea can result in the greatest accumulation of ammonia in the band as ammonia is formed as an intermediary in the conversion of urea to ammonium. UREA ? NH 3 + H 2 O ? NH 4 + + OH - Do not use dry urea as an in-furrow fertilizer source. Many common liquid fertilizer sources contain some urea as part of the total N in the fertilizer (Table 4). Research in Minnesota has indicated fertilizer sources that contain materials that will liberate NH 3 0 in the seed furrow can be more damaging than fertilizers that contain high amounts of salts. In order to mitigate the potential for stand loss, use materials such as 28% or 32% UAN solutions for band application on the soil surface or banded away from the seed row with at least one inch of soil between the seed row and fertilizer band (for example, a starter placement). Table 4. Range in urea content for fertilizer sources expressed as a percentage of the total nitrogen in the fertilizer source Product Urea (% of total nitrogen content) 10-34-0 0 6-24-6 0-5 4-10-10 1-5 7-21-7 1-5 3-18-18 3-7 9-18-9 10-15 10-10-10 10-25 28% UAN 28-35 Damage from thiosulfate The effect of application rate of ammonium thiosulfate on the relative (to the unfertilized control) reduction in corn plant population and above ground plant mass two weeks after corn emergence. The thiosulfate ion in liquid starter fertilizers can be highly damaging to plant tissue. Ammonium thiosulfate and potassium thiosulfate, contain the thiosulfate ion. Ammonium thiosulfate can liberate free ammonia in the seed furrow. Potassium thiosulfate is safer but should not be applied at high rates in the seed furrow. If sulfur is required in a starter fertilizer blend, alternative sources should be used as placement of thiosulfate directly with the corn seed can be very risky. Consider alternative placement methods such as a surface band or starter band at least one inch away from the seed row when using a fertilizer source containing thiosulfate. Measure the damage potential of fertilizers by evaluating the number of plants emerging following fertilizer application and comparing it to a control or untreated area. Plant emergence does not give the full picture of damage potential as reduced plant growth may occur before the fertilizer decreases the number of plants per acre. In a research sample, the final number of emerged plants following an in-furrow application of ammonium thiosulfate (ATS) was not noticeable until rates exceeded 5 gallons per acre. The mass of plants above ground steadily decreased even with the lowest rates of ATS applied. Reducing the damage Over-application of most fertilizer sources, especially in-furrow application, will eventually lead to reductions in plant mass and plant population. Keeping application rates of all fertilizer sources low makes the most sense to reduce the risk of damage and give the best change for an economic return. Placement options have been developed to reduce the damage potential of liquid starters placed in-furrow. One of these methods is a dual band of fertilizer placed to both sides of the seed row slightly above the seed on the side of the furrow (dual band above). Data from a sandy soil indicates that this placement was no better or worse than traditional placement with the seed or a single band placed above the seed row, when applying a high rate of multiple fertilizer sources (Table 5). The 10-34-0 fertilizer source contained the most total N at the low and high rates and resulted in the greatest reduction in stand. What is important to note is there were no differences among the placement methods. Maintaining at least two inches of soil between the band and the seed row is sufficient to reduce the risk of starter damage. Most placement methods within a half of an inch from the seed row should be viewed similarly to placement directly on the seed. Table 5. Corn emergence from fertilizer sources applied in the furrow on a sandy soil with three different placement methods (Benton Co., 2004) Dual band above High Low 10-34-0 81* 99 4-10-10 110* 106 3-18-18 100 109 With seed High Low 10-34-0 88* 108 4-10-10 112* 107 3-18-18 106 102 Single band above High Low 10-34-0 84* 107 4-10-10 111* 103 3-18-18 114 103 * Numbers significantly differ from the control (no seed placed fertilizer). The control plot had no starter fertilizer applied. Values are the percent of emergence compared to the control. Typical in-furrow placement of fertilizer includes a tube that applies fertilizer ahead of or behind the point of seed placement from the disc openers. A rebounder that attaches to the planter seed tube and can place fertilizer as a single band above the seed or ",
+  "links": [
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+      "label": "Skip to navigation"
+    },
+    {
+      "url": "https://extension.umn.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Debalin%20at%20Field%20School.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/471",
+      "label": "Building a stronger Minnesota together"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/what-we-do",
+      "label": "What we do"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/local",
+      "label": "Local offices"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/tribal-outreach",
+      "label": "Tribal outreach"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/regional-partnerships",
+      "label": "Regional partnerships"
+    },
+    {
+      "url": "https://agreett.umn.edu/",
+      "label": "AGREETT"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/global-initiatives",
+      "label": "Global initiatives"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/ask-a-question",
+      "label": "Ask a question"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/apply-for-a-job",
+      "label": "Apply for a job"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extensionstaff.umn.edu/",
+      "label": "Staff"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/news",
+      "label": "Extension news"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/newsletters",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/podcasts",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/White%20baneberry%20berries%20and%20red%20stalks.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/event/spooky-plants-for-the-spooky-season",
+      "label": "Spooky plants for the spooky season | Nov 3"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events",
+      "label": "Courses and events"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events/for-organizations",
+      "label": "For organizations"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179506",
+      "label": "For professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Aerial%20view%20of%20group%20in%20field_screen.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/7781",
+      "label": "Institute for Ag Professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/beef",
+      "label": "Beef"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/horse",
+      "label": "Horse"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/livestock-operations",
+      "label": "Livestock operations"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-production/growing-corn",
+      "label": "Corn"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "label": "Cover crops"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "label": "Nutrient management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/soybean",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/sugarbeet",
+      "label": "Sugarbeet"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/weed-management",
+      "label": "Weed management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agricultural-business-management",
+      "label": "Ag business management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/farm-safety",
+      "label": "Farm safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/growing-safe-food",
+      "label": "On-farm food safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/small-farms",
+      "label": "Small farms"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production",
+      "label": "Commercial Fruit"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming",
+      "label": "Vegetable farming"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/tornado-storm-clouds-above-the-shed-in-the-countryside.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/158556",
+      "label": "COMET Training"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/economy-and-development",
+      "label": "Economy and development"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/leadership-skill-building",
+      "label": "Leadership skill building"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/tourism-and-outdoor-recreation",
+      "label": "Tourism and outdoor recreation"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/175686",
+      "label": "Managing money"
+    },
+    {
+      "url": "https://extension.umn.edu/node/177516",
+      "label": "Mental health"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/raising-kids",
+      "label": "Raising kids"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/rural-stress",
+      "label": "Rural stress"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Tomatoes-peppers-on-outside-table-UMN-extension.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/9161",
+      "label": "Take a class: Preserving food at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home",
+      "label": "Cooking at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/commercial-kitchens",
+      "label": "Commercial kitchens"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/cottage-food-safety-in-minnesota",
+      "label": "Cottage foods"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/rural-grocery-stores",
+      "label": "Rural grocery stores"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/supershelf",
+      "label": "Supershelf"
+    },
+    {
+      "url": "https://extension.umn.edu/food/nutrition/healthy-eating",
+      "label": "Healthy eating"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Garden%20Tour%202023.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/26856",
+      "label": "Read Yard and Garden News"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota",
+      "label": "Gardening in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota",
+      "label": "Lawns and landscapes in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects",
+      "label": "Yard and garden insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems",
+      "label": "Yard and garden problems"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/home-maintenance-and-safety",
+      "label": "Home maintenance and safety"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects",
+      "label": "Household insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/water-usage-and-water-damage-in-homes",
+      "label": "Water usage and water damage in homes"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Copy%20of%20IMG_3906.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/100581",
+      "label": "Minnesota Woodland Stewards"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179281",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/wild-pollinators",
+      "label": "Wild pollinators"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water",
+      "label": "Agricultural soil and water"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/shoreland-watersheds-and-wetlands",
+      "label": "Shoreland, watersheds and wetlands"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/weather-and-climate/prepare-for-risks-to-your-home-and-community",
+      "label": "Prepare for risks"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/4-H-State-Ambassadors-greeting-fairgoers-at-state-fair-4-H-Building-entrance.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/4h-building-campaign/home",
+      "label": "Help us transform the 4‑H Building"
+    },
+    {
+      "url": "https://extension.umn.edu/4-h-and-youth/minnesota-4-h",
+      "label": "Minnesota 4-H"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160906",
+      "label": "Belonging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160921",
+      "label": "Leadership and skills"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160911",
+      "label": "Learning and readiness"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160896",
+      "label": "Program quality"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160926",
+      "label": "Resilience"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production",
+      "label": "Crop production"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/corn-seed-fertilizer-graph1.png",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/corn-seed-fertilizer-graph2.png",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/ammonium-thiosulfate-effect-corn.png",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/in-furrow-fertilizer-placement.png",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/rebounder-corn-planter.png",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/about-extension/contact-us",
+      "label": "Contact"
+    },
+    {
+      "url": "https://extension.umn.edu/cdn-cgi/l/email-protection",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://z.umn.edu/report-accessibility-issue?ref_url=https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/banding-fertilizer-with-corn-seed",
+      "label": "Report Web Accessibility Issues"
+    },
+    {
+      "url": "https://myextension.umn.edu",
+      "label": "Staff intranet"
+    }
+  ],
+  "fetched_at": "2026-10-28T00:43:18.532491+00:00",
+  "sha256": "7f9b045014a172f29bdd0ed68af450ddc1b0ecb1d7687a7b4e3b9e2ea53754ea",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

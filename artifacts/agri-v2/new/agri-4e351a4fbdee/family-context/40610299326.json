@@ -1,0 +1,17 @@
+{
+  "family_id": "family-11",
+  "topic_id": "agri-4e351a4fbdee",
+  "title": "راهنمای ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت",
+  "title_sha256": "88aa54637f0214305a2d3748db382c0b6342253f8d3739e9150bd3da2aa9a542",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY41",
+    "AGNES_API_KEY42",
+    "AGNES_API_KEY43",
+    "AGNES_API_KEY44"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

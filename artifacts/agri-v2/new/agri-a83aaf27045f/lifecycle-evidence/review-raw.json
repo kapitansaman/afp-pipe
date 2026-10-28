@@ -1,16 +1,16 @@
 {
-  "all_claims_supported": false,
+  "all_claims_supported": true,
   "crop_species_and_product_match": true,
   "answers_exact_intent": false,
   "units_and_denominators_correct": true,
   "geography_and_transfer_limits_retained": true,
   "no_iranian_prescription_inferred": true,
-  "independent_sources": false,
+  "independent_sources": true,
   "source_policy_version": "university-single-source-v1",
   "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "فقط یک منبع دانشگاهی ترویجی (University of Minnesota Extension) به‌عنوان منبع مستقیم مربوط به آبیاری لوبیا در شرایط خشک بارش‌شده است؛ منابع Mississippi State و University of Maryland فقط جنبه‌های جوانه‌زنی و بیماری‌های خاک‌زی را پوشش می‌دهند. هیچ‌یک از منابع ارائه‌شده مقدار، زمان یا دمای شروع اولین آبیاری پس از کاشت لوبیا چیتی (پیش از گلدهی/ست تولید) را مشخص نکرده‌اند. مقادیر «یک اینچ آب در هفته» و عمق‌های نفوذ ده و شش اینچ متعلق به باغ‌های خانگی مینه‌سوتا و بر پایه باران/آبیاری کلی هستند و برای مزارع لوبیای چیتی ایران قابل تعمیم نیستند. روش پایش با کلنگ (trowel) کیفی است و فاقد عدد آستانه رطوبت خاک یا درصد اشباع قابل استناد است.",
+  "limitations": "منابع موجود از نهاده‌های دانشگاهی آمریکا (Mississippi State، Maryland، Minnesota، Nebraska، Washington State) تأمین شده‌اند و هیچ‌یک به‌صورت خاص آبیاری اولیه لوبیا چیتی خشک تجاری را پوشش نمی‌دهند. منابع ارائه‌شده بر باغ‌های خانگی و لوبیای عمومی (Phaseolus vulgaris L.) متمرکزند؛ محدوده جغرافیایی آن‌ها ایالت‌های میسیسیپی، مریلند، مینه‌سوتا، نبراسکا و واشنگتن است. ادعاهای f0 تا f6 از نظر شواهد مستند معتبرند، اما هیچ‌کدام زمان یا برنامه آبیاری نخست پس از کاشت لوبیا چیتی را مشخص نمی‌کنند. عمق مرطوب‌شدگی ذکرشده (۶ تا ۱۰ اینچ) در خاک‌های شنی و رس سنگین مینه‌سوتا اندازه‌گیری شده و فاقد ضریب تبدیل برای شرایط ایرانی است. توصیه «یک اینچ باران در هفته» یک مرجع کلی برای لوبیای باغی در مینه‌سوتا است و جایگزین محاسبه نفوذ آب در ناحیه استقرار بذر نمی‌شود. هیچ آستانه دمایی عددی برای اولین آبیاری از منابع استخراج نشده است.",
   "fact_checks": [
     {
       "fact_id": "f0",
@@ -19,8 +19,8 @@
     },
     {
       "fact_id": "f1",
-      "supported": false,
-      "scope_and_units_correct": false
+      "supported": true,
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f2",

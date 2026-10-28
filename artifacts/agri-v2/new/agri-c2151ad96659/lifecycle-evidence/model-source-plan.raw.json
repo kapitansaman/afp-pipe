@@ -1,0 +1,30 @@
+{
+  "topic_id": "agri-c2151ad96659",
+  "gap": "No fetched source provides seed-quality evaluation criteria (germination percentage, purity, viability testing, seed health/pathogen screening, size grading, or test weight) specific to pinto dry bean (Phaseolus vulgaris L., pinto market class). Available sources cover planting density, general germination ecology, harvest method, USDA grade-class definitions, and soil-moisture irrigation—none establish pre-plant seed-quality thresholds or inspection protocols for pinto bean propagules.",
+  "queries": [
+    "pinto dry bean seed quality testing germination purity university extension",
+    "dry edible bean seed viability testing standards Phaseolus vulgaris extension",
+    "لبيا چیتی کیفیت بذر آزمون جوانه زنی استاندارد"
+  ],
+  "leads": [
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+      "kind": "document",
+      "why_relevant": "Linked directly from the fetched Iowa State Extension dry edible bean overview as the \"Production Guide\" for dry beans, which include pinto as the largest acreage market class.",
+      "expected_evidence": "Pinto-specific or dry-edible-bean seed-quality criteria such as germination tests, purity standards, viability thresholds, and planting-quality specifications."
+    },
+    {
+      "url": "https://extension.msstate.edu/publications",
+      "kind": "hub",
+      "why_relevant": "MSU Extension already published the fetched general bean page; its publications portal may host a dry-bean or seed-quality bulletin covering pinto bean seed evaluation.",
+      "expected_evidence": "A Mississippi or southern-region dry-bean seed-quality publication with germination, purity, or health testing guidance applicable to pinto beans."
+    },
+    {
+      "url": "https://extension.umn.edu/publications",
+      "kind": "hub",
+      "why_relevant": "UMN Extension covers dry beans in Minnesota (a major dry-bean state); its publications list may include a dry-bean seed-quality or variety-guide bulletin.",
+      "expected_evidence": "University of Minnesota dry-bean or pinto bean seed-evaluation resource with germination/viability standards for planting."
+    }
+  ],
+  "no_source_found": false
+}

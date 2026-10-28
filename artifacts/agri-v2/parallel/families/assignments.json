@@ -86,9 +86,9 @@
     },
     {
       "family_id": "family-10",
-      "topic_id": "agri-a83aaf27045f",
-      "title": "اولین آبیاری لوبیا چیتی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
-      "assigned_at": "2026-10-26T08:45:16.202521+00:00",
+      "topic_id": "agri-604dc7bdda3f",
+      "title": "نیاز آبی کدو آجیلی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+      "assigned_at": "2026-10-28T00:45:08.294262+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -556,6 +556,18 @@
       "completed_at": "2026-10-27T15:33:31.240434+00:00",
       "completion": "deferred_to_research_backlog",
       "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-10",
+      "topic_id": "agri-a83aaf27045f",
+      "title": "اولین آبیاری لوبیا چیتی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+      "assigned_at": "2026-10-26T08:45:16.202521+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T00:45:08.275557+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "independent_scoped_review_rejected"
     }
   ],
   "publication_authorized_by_assignment": false,
@@ -1573,7 +1585,76 @@
         "all_original_research_quality_overlap_and_publication_gates"
       ],
       "previous_family_id": "family-11"
+    },
+    "agri-a83aaf27045f": {
+      "kind": "stage_budget_exhausted",
+      "stage": "research_review",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "independent_scoped_review_rejected",
+      "last_run_id": "40610299326",
+      "topic_id": "agri-a83aaf27045f",
+      "title": "اولین آبیاری لوبیا چیتی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-28T00:45:08.275557+00:00",
+      "terminal_checkpoint_sha256": "b1210210064731db123bfa7a4eba192dfa1fa81b3d423c7385f1cf71b15971df",
+      "bindings": {
+        "topic_sha256": "b65630a97947df2bd7a16869e186e261dd9bfb9aeeaba9cccfcb156f824b61d3",
+        "topic_files": {
+          "family-context/40298864446.json": "cd156d25bfb4c00527e3c4ce42322191661551aedc96fc539a37173e7094f8e8",
+          "family-context/40522647019.json": "a36a915ee924e61b7079877e1281f91df94a21fb2a16702fc179e6dfde9ee89d",
+          "family-context/40525360938.json": "a36a915ee924e61b7079877e1281f91df94a21fb2a16702fc179e6dfde9ee89d",
+          "family-context/40529029195.json": "a36a915ee924e61b7079877e1281f91df94a21fb2a16702fc179e6dfde9ee89d",
+          "family-context/40531540832.json": "a36a915ee924e61b7079877e1281f91df94a21fb2a16702fc179e6dfde9ee89d",
+          "family-context/40610299326.json": "a36a915ee924e61b7079877e1281f91df94a21fb2a16702fc179e6dfde9ee89d",
+          "lifecycle/existing_content_audit-000/state.json": "0394faad8ca0a8fbda8e285ad6ef279027b332c5f23de8fdd14f2668c5478a65",
+          "lifecycle/existing_content_audit-001/state.json": "18159350b31fcbf5786a0a00a895a70aa1adaa0059c9856302449b4a211780c6",
+          "lifecycle/existing_content_audit_finalize/state.json": "5f8fd1e308ff003b7cc45e94c8e0700501e057b2e0cfd42cad0b75fcf8b2b7a9",
+          "lifecycle/research_extract/rejected/1/candidate-raw.json": "f9ed39ec744f1cbe976cee36327a0a381e8a4a16d041dd6e561fd7883e413134",
+          "lifecycle/research_extract/rejected/2/candidate-raw.json": "6bd9c78da05a1957421a6029b419fb8b325548a022504fb5acd5f91a897fd62f",
+          "lifecycle/research_extract/state.json": "3208a8b7047744b861ef62ccfffbff5ac4c3b2e479ffd1c887a80f1423e11b19",
+          "lifecycle/research_review/rejected/1/review-raw.json": "f3e2528dd3e0d0d7d121283923f5402ff5a8583419c3665d278478b9a8cb4c6d",
+          "lifecycle/research_review/rejected/2/review-raw.json": "8bc0fc7184cdfb864875a4a60b421bdac9481214cf499d22fdafaec109d30ebd",
+          "lifecycle/research_review/state.json": "3c1d73546939953789d5a9469e60e1dae032e54d566827a27be594923d508f32",
+          "lifecycle/research_sources/state.json": "bfffd8748ee9f52cb5976d3ad064cafd0843d573cc5fef703df9a1a5884197f1",
+          "lifecycle/research_validate_saved/state.json": "b78bb2fa11371d69802fa62e8a62c6b07b9740e575c1904fa1f2a3787a25212a",
+          "lifecycle-evidence/candidate-raw.json": "56ab5551ff34e00a5c4609e760a3a21ae879c3cc0a0a0a59a0ca9b61a1ffa841",
+          "lifecycle-evidence/candidate.json": "da8711bfa4b651915086482ba548cdfdeafc21c6b8299ae15861b1a46119f223",
+          "lifecycle-evidence/existing-content.json": "d5a68a7fcb16a09b34151a682ca964bf1d74aac8b2f7b842bf6745c711f78774",
+          "lifecycle-evidence/extraction-feedback.json": "e3b0afd12cb414afd6810ccd76009dc79e0bc23875961a8fb392be6201ebde63",
+          "lifecycle-evidence/overlap-batches/000.json": "615090d874f0439514c6fac25ae4e3c29ef5abe331aa35e009c050270faccf3c",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "3a51b2c7f8d6316964decfbb64424a9cee9972062aabc984b18f387a1195d430",
+          "lifecycle-evidence/overlap-batches/001.json": "0375ab7fd5349b0f9a48c09ae378edf1fc34ea1c3aa134ee00c8cc858655b740",
+          "lifecycle-evidence/overlap-batches/001.raw.json": "21568cd583e574c503b8680ebef4f3c9eb45659a280313066046d6f377a108e5",
+          "lifecycle-evidence/overlap.json": "71982eb74479f06d02ab59a665f22c4757b70a7cb9e79f1ca71666c6e674ab78",
+          "lifecycle-evidence/review-raw.json": "12bc195a9e8b75a73a458742bf5379b2aff65d3ab969b1c4453bd08679ef6491",
+          "lifecycle-evidence/source-discovery-report.json": "d65413dd3a0f32327c92919c35e09745f00b01e1718756f0e77d972466374ecf",
+          "lifecycle-evidence/source-fetch-report.json": "d11b36ca467c8fdf4e5416808cb14fc680a372c74aac032705b9b63a4fef2fa6",
+          "lifecycle-evidence/sources.json": "06c6a1ce7d9bb1a14a48b6e2d97410cb46ebcca82af70ecc4cf426b944078b57"
+        },
+        "legacy_research_sha256": null,
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "143373f836f7b12bede65c747e1b7d32f3dfb68668e20ca8560e9b71c67c2eec",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-10"
     }
   },
-  "exception_backlog_count": 6
+  "exception_backlog_count": 7
 }

@@ -1,0 +1,17 @@
+{
+  "family_id": "family-03",
+  "topic_id": "agri-3c1cdef82c04",
+  "title": "پایش رطوبت خاک در مزرعه لوبیا چیتی؛ انتخاب محل و عمق حسگر",
+  "title_sha256": "432af455756315a3f84bd989db69b52f94a8f904b375ad1d09e2e9a54580bbee",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY9",
+    "AGNES_API_KEY10",
+    "AGNES_API_KEY11",
+    "AGNES_API_KEY12"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

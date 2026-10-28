@@ -1,0 +1,25 @@
+{
+  "requested": 3,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+      "canonical_url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/publications",
+      "canonical_url": "https://extension.msstate.edu/publications",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/publications",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": false,
+      "http_status": 404
+    }
+  ]
+}
