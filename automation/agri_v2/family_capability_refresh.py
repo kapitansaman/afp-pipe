@@ -89,20 +89,22 @@ def text(env,data=DATA,out=OUT,post_fn=post_once,reserve_fn=reserve):
  if not halt and r['families_with_text']<20:r['status']='family_text_capacity_incomplete'
  atomic_json(rp,r);return r
 
-def images(env,data=DATA,out=OUT,probe_fn=None,reserve_fn=reserve):
+def images(env,data=DATA,out=OUT,probe_fn=None,reserve_fn=reserve,limit=4):
+ if type(limit)is not int or limit not in (4,20):raise ValueError("Exact bounded image refresh size required")
+ deadline=time.monotonic()+2400
  roles=context(env,data);hp=out/'parallel/health/latest.json';h=load_json(hp) if hp.exists() else {};rb=route_binding(roles);proven=image_proofs(out,roles)
- result={'status':'image_capability_batch_completed','run_id':env['GITHUB_RUN_ID'],'image_model':IMAGE_MODEL,'model_calls':0,'image_calls':0,'max_image_calls':4,'published_posts':0,'cases':[],'publication_visual_approval':False,'original_attempts_reset':False}
+ result={'status':'image_capability_batch_completed','run_id':env['GITHUB_RUN_ID'],'image_model':IMAGE_MODEL,'model_calls':0,'image_calls':0,'max_image_calls':limit,'max_scheduling_seconds':2400,'published_posts':0,'cases':[],'publication_visual_approval':False,'original_attempts_reset':False}
  if active_hold(out,'image'):return dict(result,status='shared_image_cooldown')
  from .image_key_audit import probe
  from .image_transport import AdmissionBlocked
  from automation.blog_image_queue import ImageQueueBusy
  calls=0
  with tempfile.TemporaryDirectory(prefix='afp-family-image-proof-') as td:
-  db=td+'/pool.db';initialize(db,[r['image_slot'] for r in roles['families'].values()],max_calls=4,per_worker=1)
+  db=td+'/pool.db';initialize(db,[r['image_slot'] for r in roles['families'].values()],max_calls=limit,per_worker=1)
   for family,role in roles['families'].items():
    slot=role['image_slot'];receipt=out/'parallel/capability-refresh'/day()/'image'/(slot+'.json')
    if slot in proven or receipt.exists():continue
-   if calls>=4:break
+   if calls>=limit or time.monotonic()>=deadline:break
    rid='family-capability-'+day()+'-image-'+slot
    if reserve_fn('capability',rid,env) is None:
     row={'status':'reconciliation_required','slot':slot,'family_id':family,'image_calls':0};atomic_json(receipt,row);result['cases'].append(row);result['status']='capability_reconciliation_required';break

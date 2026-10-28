@@ -80,3 +80,12 @@ class CapabilityRefreshTests(unittest.TestCase):
   from automation.agri_v2.parallel_control import reserve
   with self.assertRaises(ValueError):reserve('capability','anything',{'GITHUB_RUN_ID':'1'},put_fn=lambda row:True)
   rid='family-capability-'+r.day()+'-image-AGNES_API_KEY4';calls=[];row=reserve('capability',rid,{'GITHUB_RUN_ID':'1'},put_fn=lambda row:calls.append(row) or True);self.assertEqual(row['request_id'],rid);self.assertFalse(row['original_attempts_reset'])
+ def test_explicit_full_image_refresh_still_tests_only_twenty_pinned_keys(self):
+  with tempfile.TemporaryDirectory() as td:
+   d,o,e,roles=self.setup(Path(td));probe=Mock(side_effect=self.probe);rr=r.images(e,d,o,probe,Mock(return_value={}),limit=20);self.assertEqual(rr['image_calls'],20);self.assertEqual(rr['proven_families'],20);self.assertEqual(rr['pending_families'],0);self.assertEqual([x.args[0] for x in probe.call_args_list],[SLOTS[4*i+3] for i in range(20)])
+ def test_full_image_pass_has_wallclock_bound_and_no_arbitrary_limit(self):
+  with tempfile.TemporaryDirectory() as td:
+   d,o,e,roles=self.setup(Path(td));api=Mock()
+   with patch.object(r.time,'monotonic',side_effect=[0,2401]):rr=r.images(e,d,o,api,Mock(return_value={}),limit=20)
+   self.assertEqual(rr['image_calls'],0);api.assert_not_called()
+   with self.assertRaises(ValueError):r.images(e,d,o,api,Mock(),limit=97)
