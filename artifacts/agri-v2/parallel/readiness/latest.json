@@ -1,8 +1,12 @@
 {
   "status": "readiness_blocked",
-  "checked_at": "2026-10-27T10:26:07.926729+00:00",
+  "checked_at": "2026-10-28T01:27:28.792238+00:00",
   "technical_ready": false,
   "blockers": [
+    "fresh_text_capacity",
+    "fresh_image_capacity",
+    "family_owned_text_capacity",
+    "family_owned_image_capacity",
     "scoped_rollout_released"
   ],
   "gates": {
@@ -11,12 +15,24 @@
       "detail": "97 credential slots and 20 isolated families; configuration only"
     },
     "fresh_text_capacity": {
-      "passed": true,
+      "passed": false,
       "detail": "Actual fresh proof bound to the 97-key cohort, with at least 20 eligible text credentials"
     },
     "fresh_image_capacity": {
-      "passed": true,
+      "passed": false,
       "detail": "Separate actual successful fresh bound image proof; text success is not image approval"
+    },
+    "family_key_allocation": {
+      "passed": true,
+      "detail": "Exact disjoint 20 x 4 family ownership plus 17 central slots"
+    },
+    "family_owned_text_capacity": {
+      "passed": false,
+      "detail": "Each family needs its own fresh text-capable credential; global healthy count is insufficient"
+    },
+    "family_owned_image_capacity": {
+      "passed": false,
+      "detail": "Each family needs its own actual fresh image proof; no borrowing from central/other families"
     },
     "authenticated_publisher": {
       "passed": true,
@@ -53,34 +69,34 @@
   "families": [
     {
       "family_id": "family-01",
-      "topic_id": "agri-b6ffe49a4638",
-      "next_stage": "research_validate_saved",
-      "reason": null,
-      "attempts": 0,
+      "topic_id": "agri-c2151ad96659",
+      "next_stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts": 2,
       "retry_exhausted": false
     },
     {
       "family_id": "family-02",
       "topic_id": "agri-7736a471e8c1",
-      "next_stage": "research_validate_saved",
+      "next_stage": "text",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-03",
-      "topic_id": "agri-934dd1366a8b",
-      "next_stage": "research_validate_saved",
+      "topic_id": "agri-3c1cdef82c04",
+      "next_stage": "research_review",
       "reason": null,
-      "attempts": 0,
+      "attempts": 2,
       "retry_exhausted": false
     },
     {
       "family_id": "family-04",
-      "topic_id": "agri-3ab6116ba6cf",
-      "next_stage": "research_validate_saved",
-      "reason": null,
-      "attempts": 0,
+      "topic_id": "agri-cd64428568cb",
+      "next_stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts": 1,
       "retry_exhausted": false
     },
     {
@@ -93,88 +109,88 @@
     },
     {
       "family_id": "family-06",
-      "topic_id": "agri-ee13684b7f1a",
-      "next_stage": "research_validate_saved",
-      "reason": null,
-      "attempts": 0,
+      "topic_id": "agri-382a9f28f635",
+      "next_stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts": 2,
       "retry_exhausted": false
     },
     {
       "family_id": "family-07",
-      "topic_id": "agri-1f58a0e82783",
-      "next_stage": "research_validate_saved",
+      "topic_id": "agri-f2b95250ac75",
+      "next_stage": "research_review",
+      "reason": null,
+      "attempts": 2,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-6aaba20b13cf",
+      "next_stage": "research_discover",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
-      "family_id": "family-08",
-      "topic_id": "agri-c0e160d88554",
-      "next_stage": "research_review",
-      "reason": null,
-      "attempts": 3,
-      "retry_exhausted": true
-    },
-    {
       "family_id": "family-09",
-      "topic_id": "agri-e7dcf0bf2ffd",
-      "next_stage": "research_validate_saved",
+      "topic_id": "agri-71be4981f446",
+      "next_stage": "research_discover",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-10",
-      "topic_id": "agri-a83aaf27045f",
-      "next_stage": "research_validate_saved",
+      "topic_id": "agri-604dc7bdda3f",
+      "next_stage": "research_sources",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-11",
-      "topic_id": "agri-3aec9f066bb5",
-      "next_stage": "existing_content_audit-004",
+      "topic_id": "agri-4e351a4fbdee",
+      "next_stage": "research_discover",
       "reason": null,
-      "attempts": 1,
+      "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-12",
-      "topic_id": "agri-8c5efc7fc888",
-      "next_stage": "blocked",
-      "reason": "legacy_research_budget_exhausted",
+      "topic_id": "agri-fcc69d8bfd95",
+      "next_stage": "research_discover",
+      "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-13",
-      "topic_id": "agri-dd97e1add9df",
-      "next_stage": "research_validate_saved",
-      "reason": null,
-      "attempts": 0,
+      "topic_id": "agri-dc60868225b6",
+      "next_stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts": 1,
       "retry_exhausted": false
     },
     {
       "family_id": "family-14",
-      "topic_id": "agri-f5f2d5ed4de0",
-      "next_stage": "research_validate_saved",
+      "topic_id": "agri-887448ed952f",
+      "next_stage": "research_review",
       "reason": null,
-      "attempts": 0,
+      "attempts": 1,
       "retry_exhausted": false
     },
     {
       "family_id": "family-15",
-      "topic_id": "agri-2bffca9fad0a",
-      "next_stage": "research_validate_saved",
-      "reason": null,
-      "attempts": 0,
+      "topic_id": "agri-bbdf8ae354bd",
+      "next_stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts": 2,
       "retry_exhausted": false
     },
     {
       "family_id": "family-16",
       "topic_id": "agri-7dd8dae22417",
-      "next_stage": "research_validate_saved",
+      "next_stage": "text",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
@@ -182,33 +198,33 @@
     {
       "family_id": "family-17",
       "topic_id": "agri-d52cdebf818e",
-      "next_stage": "research_validate_saved",
+      "next_stage": "text",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-18",
-      "topic_id": "agri-abd5d9f00442",
-      "next_stage": "existing_content_audit-000",
+      "topic_id": "agri-18ff41bec566",
+      "next_stage": "research_discover",
       "reason": null,
-      "attempts": 1,
+      "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-19",
-      "topic_id": "agri-681d9e957593",
-      "next_stage": "research_validate_saved",
-      "reason": null,
-      "attempts": 0,
+      "topic_id": "agri-94ece8be9fb2",
+      "next_stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts": 2,
       "retry_exhausted": false
     },
     {
       "family_id": "family-20",
-      "topic_id": "agri-15439ad51313",
-      "next_stage": "research_validate_saved",
+      "topic_id": "agri-1c9df68c91c1",
+      "next_stage": "research_review",
       "reason": null,
-      "attempts": 0,
+      "attempts": 1,
       "retry_exhausted": false
     }
   ],
@@ -524,10 +540,593 @@
       ],
       "prior_attempts_reset": false,
       "previous_family_id": "family-15"
+    },
+    "agri-b6ffe49a4638": {
+      "topic_id": "agri-b6ffe49a4638",
+      "title": "زمان کاشت لوبیا قرمز؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.733465+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "cf20f27878535de1c94baaca5e67c80de70f0bdbe7b9917054af9df526d038cf",
+        "sources.json": "edd6812c2b13afe09caea9875586085060e8c677a2414a0dc7d0223e8d881aad",
+        "candidate-raw.json": "ff74010cd8de9551e881f1a87513efd50f6efd7e3ab40a668386e781b1620de4",
+        "state.json": "e6d47fae05855660a75ce993061a3e7ecff41a813b9b67a95f252bde3967e7e1"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-01"
+    },
+    "agri-934dd1366a8b": {
+      "topic_id": "agri-934dd1366a8b",
+      "title": "میزان برداشت لوبیا چشم‌بلبلی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.734653+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "d028ea8e7a4f44e8336c879d4dd7e84d940e53f3a670c87e4dcfb5593cd8bcab",
+        "sources.json": "f5ccc7ee458cb6df8c820b231e48dd90c16d47ddaf1f5ccda88cbfe1a5b9951a",
+        "candidate-raw.json": "b20e3a94a8e99cb8ada844dd98754871e1b7d186de3842cdd89a86f7a2a51cc6",
+        "state.json": "0735312589d541cf72e77fcf17ab6001a4d6175c9d3e12a1f175bc2547c530c7"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-03"
+    },
+    "agri-3ab6116ba6cf": {
+      "topic_id": "agri-3ab6116ba6cf",
+      "title": "میزان برداشت ذرت دانه‌ای در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.735322+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "983bc3f6debcb7852af6eba97fc7ca2e1735172de284dce9e5873fa0d9b22d4d",
+        "sources.json": "cb3550a35f0c6af9255e9417a31b9bb5e5bce81dae4b4e0cc5bd19dcda9b1c71",
+        "candidate-raw.json": "0bedc73fb510a0376f21388e57456cc96e2b67f29e3243441a033a5c74302527",
+        "state.json": "c2f7d5be877269b4713edffcfdb1c69b239c10cf461aeb0ccac67aa89ecb98eb"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-04"
+    },
+    "agri-ee13684b7f1a": {
+      "topic_id": "agri-ee13684b7f1a",
+      "title": "میزان برداشت سیاه‌دانه در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.736510+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "d174a938e05b2325569066746e7364cb28ef31e429e0c99e546343dfe79fee67",
+        "sources.json": "020d2c473c14e331cfb21dca8e2c83a60c4f3968d4d18ea8616b746f25f43194",
+        "candidate-raw.json": "d50f50687cbcee1195efa1b13ccc3900b80410877ec54494c51cbfeb71a149c4",
+        "state.json": "84d4e489062cc299ed6c09ef3f55e8c093d652d7721b159abaa4d4b9ef574b46"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-06"
+    },
+    "agri-1f58a0e82783": {
+      "topic_id": "agri-1f58a0e82783",
+      "title": "زمان کاشت لوبیا چیتی؛ انتخاب تاریخ بر اساس دمای خاک و اقلیم",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.737146+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "00e05a41d69ffe70e259d78f24dd1ab695c60eed3000a38f40b622c04e98c230",
+        "sources.json": "42d48b4eae2c588f5b1c491949c1c66035ea8c9522fed5594acb081176284785",
+        "candidate-raw.json": "e342dbc291e5be1463bd1bc35a70457950c687611bcd9f34a621f42de4b12fa4",
+        "state.json": "8131492260a5ef98f22d854478206b323feaa6d67c508e070a0728f332310e79"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-07"
+    },
+    "agri-dd97e1add9df": {
+      "topic_id": "agri-dd97e1add9df",
+      "title": "مراحل حساس لوبیا چیتی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.746503+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "95499279e972a29fd52d7f2b5d6d73559aceada105e1430235f64f11e897822a",
+        "sources.json": "9ff675832379e03925cbbd46160d599967a7846b5099b90e6b1940733d2730e9",
+        "candidate-raw.json": "8693389da5224bdf4f25e0f5fb8595932ca582c2347ce0261e93027de48766d5",
+        "state.json": "70e22e6aa778022251b5f90792ce29d10f5e35d6f894d9eeb7f1774cda6a7734"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-13"
+    },
+    "agri-f5f2d5ed4de0": {
+      "topic_id": "agri-f5f2d5ed4de0",
+      "title": "مدت هر نوبت آبیاری لوبیا چیتی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.747224+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "a47f6e83663ad26544a09727503eed6a93bf2cb8bfab13625226953e92011541",
+        "sources.json": "4c0eade8f993b0f42fe396060c137509f835a7162ef6eed0c49090cee0a1d9f2",
+        "candidate-raw.json": "2fd321ed5bfc966f5ae3fc82ffc0e0eee9fe12bcdec7ef15ddaeff0c12a6d160",
+        "state.json": "63b01bbcf488e040dee5841a30054406dd3beac55145fd5dcc1547c629cb3008"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-14"
+    },
+    "agri-2bffca9fad0a": {
+      "topic_id": "agri-2bffca9fad0a",
+      "title": "دور آبیاری لوبیا چیتی؛ تصمیم‌گیری با رطوبت خاک به‌جای تقویم ثابت",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.747945+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "9a1947e1babbfcbb9a0720deeb0a1d9565b312d38ab331def8bc0b8bff67e0ee",
+        "sources.json": "f38c779c409df41a8a278627b41ff0769263ca49f875807901b5612766eeba37",
+        "candidate-raw.json": "fa4d1564f0a33ae9e64286c7508f734562c426aa2d1c453c194a019e079a319f",
+        "state.json": "3bcc8fea3813badc5e0957055a3a34981f2608e729c144a407030926990fed81"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-15"
+    },
+    "agri-681d9e957593": {
+      "topic_id": "agri-681d9e957593",
+      "title": "مقدار بذر ماشک در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.749954+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "91cf82f99ab261d475366f6d73ab50a275de1b8aa2c7926d8a9115e6aa6ab8f6",
+        "sources.json": "42254ce6a339aba310f94a45edff93c3a959f7d527ab6f1db1da0eb1d416bf5d",
+        "candidate-raw.json": "950dbcd0941a4556d1a0ff492c25008c4338c79f2f626af3206ee66f16b0ac84",
+        "state.json": "741226b33a28385fdc0869e9254d628094ef6d8e0aca2cdf0641972c295b9ad6"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-19"
+    },
+    "agri-15439ad51313": {
+      "topic_id": "agri-15439ad51313",
+      "title": "میزان برداشت بادام‌زمینی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "scoped_four_to_twelve_facts_required",
+      "attempts_preserved": 3,
+      "last_run_id": "40529029195",
+      "deferred_at": "2026-10-27T15:19:01.750673+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "b75c37448387b75db4dcf9cd0afd31528aa2c21c7a9f22fb745318cf83c92d82",
+        "sources.json": "96db17fd2d15e8075f7848e237148cbffc83b2af5e3dd0c902414719846817f0",
+        "candidate-raw.json": "a3ea5610d6035ffcb184813bfd55a79108a8d1f3b10e89ec29c030afe77372c3",
+        "state.json": "3d7cf05e0d31ede206d21560dadf6a4eab48ffb7f80aa23001313540fe1495c5"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-20"
+    },
+    "agri-69e85f55cdc9": {
+      "topic_id": "agri-69e85f55cdc9",
+      "title": "آخرین آبیاری لوبیا چیتی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40531540832",
+      "deferred_at": "2026-10-27T15:33:31.227369+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "2c49a25847ff4bd51a1c1f9f758cb8df601b14244a09f9756682cef1e40027cf",
+        "sources.json": "a26bb9a8af376d3a2709d0014669f30a1bc7c832484b1c96deb92b8578cbb5ba",
+        "candidate-raw.json": "19abc32234bb282b161486366d64f01eaf363ebb4a39c262de48e098630b78fc",
+        "state.json": "10ec03f3e6f892c427037e36766177285b78f7f61e4f6ff5c5a8c4a39935f2c3"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-08"
+    },
+    "agri-bacb80d5fede": {
+      "topic_id": "agri-bacb80d5fede",
+      "title": "تنظیم آبیاری لوبیا چیتی پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40531540832",
+      "deferred_at": "2026-10-27T15:33:31.235824+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "a95eefb5bbc1af7318762d99ac87f524c88f2a79863d5a40a1cdbb8b587d0b3f",
+        "sources.json": "9911fb425d33d01fb93b6a3c64c5f07c4d939e10f941987774f1ee9adbc1d275",
+        "candidate-raw.json": "0c758003ffd9d965f1ef84c09c9a33ff67b57daab213c9e9a03e534b9386a028",
+        "state.json": "0535bc21c02395474d209468bac1c30d409d1ac72e55ce4e17fa6ffc0ed47f54"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-12"
+    },
+    "agri-5a15e78285ed": {
+      "topic_id": "agri-5a15e78285ed",
+      "title": "برآورد عملکرد لوبیا چیتی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40531540832",
+      "deferred_at": "2026-10-27T15:33:31.240434+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "eb478f581a174323bcfdae08d9c7b96a185bf507cbe8be65730c164fb27ec32c",
+        "sources.json": "0622d2ee37f398fdebfad5247c8e60c5a4f74d340aea5a72233398fbdeaee796",
+        "candidate-raw.json": "677066ce3672907ddbf0d64a8c9963f26c98979565d3205f61c4708f9d1108da",
+        "state.json": "0df74bdb7d711c85175a44ae9e75e8b3230bf881aff71b593738b14cb69689d8"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-18"
     }
   },
   "model_calls": 0,
   "image_calls": 0,
   "post_mutations": 0,
-  "authenticated_check_performed": true
+  "authenticated_check_performed": true,
+  "family_key_allocation": {
+    "allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+    "families": [
+      {
+        "family_id": "family-01",
+        "assigned_slots": [
+          "AGNES_API_KEY",
+          "AGNES_API_KEY2",
+          "AGNES_API_KEY3",
+          "AGNES_API_KEY4"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-02",
+        "assigned_slots": [
+          "AGNES_API_KEY5",
+          "AGNES_API_KEY6",
+          "AGNES_API_KEY7",
+          "AGNES_API_KEY8"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-03",
+        "assigned_slots": [
+          "AGNES_API_KEY9",
+          "AGNES_API_KEY10",
+          "AGNES_API_KEY11",
+          "AGNES_API_KEY12"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-04",
+        "assigned_slots": [
+          "AGNES_API_KEY13",
+          "AGNES_API_KEY14",
+          "AGNES_API_KEY15",
+          "AGNES_API_KEY16"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-05",
+        "assigned_slots": [
+          "AGNES_API_KEY17",
+          "AGNES_API_KEY18",
+          "AGNES_API_KEY19",
+          "AGNES_API_KEY20"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-06",
+        "assigned_slots": [
+          "AGNES_API_KEY21",
+          "AGNES_API_KEY22",
+          "AGNES_API_KEY23",
+          "AGNES_API_KEY24"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-07",
+        "assigned_slots": [
+          "AGNES_API_KEY25",
+          "AGNES_API_KEY26",
+          "AGNES_API_KEY27",
+          "AGNES_API_KEY28"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-08",
+        "assigned_slots": [
+          "AGNES_API_KEY29",
+          "AGNES_API_KEY30",
+          "AGNES_API_KEY31",
+          "AGNES_API_KEY32"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-09",
+        "assigned_slots": [
+          "AGNES_API_KEY33",
+          "AGNES_API_KEY34",
+          "AGNES_API_KEY35",
+          "AGNES_API_KEY36"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-10",
+        "assigned_slots": [
+          "AGNES_API_KEY37",
+          "AGNES_API_KEY38",
+          "AGNES_API_KEY39",
+          "AGNES_API_KEY40"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-11",
+        "assigned_slots": [
+          "AGNES_API_KEY41",
+          "AGNES_API_KEY42",
+          "AGNES_API_KEY43",
+          "AGNES_API_KEY44"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-12",
+        "assigned_slots": [
+          "AGNES_API_KEY45",
+          "AGNES_API_KEY46",
+          "AGNES_API_KEY47",
+          "AGNES_API_KEY48"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-13",
+        "assigned_slots": [
+          "AGNES_API_KEY49",
+          "AGNES_API_KEY50",
+          "AGNES_API_KEY51",
+          "AGNES_API_KEY52"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-14",
+        "assigned_slots": [
+          "AGNES_API_KEY53",
+          "AGNES_API_KEY54",
+          "AGNES_API_KEY55",
+          "AGNES_API_KEY56"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-15",
+        "assigned_slots": [
+          "AGNES_API_KEY57",
+          "AGNES_API_KEY58",
+          "AGNES_API_KEY59",
+          "AGNES_API_KEY60"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-16",
+        "assigned_slots": [
+          "AGNES_API_KEY61",
+          "AGNES_API_KEY62",
+          "AGNES_API_KEY63",
+          "AGNES_API_KEY64"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-17",
+        "assigned_slots": [
+          "AGNES_API_KEY65",
+          "AGNES_API_KEY66",
+          "AGNES_API_KEY67",
+          "AGNES_API_KEY68"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-18",
+        "assigned_slots": [
+          "AGNES_API_KEY69",
+          "AGNES_API_KEY70",
+          "AGNES_API_KEY71",
+          "AGNES_API_KEY72"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-19",
+        "assigned_slots": [
+          "AGNES_API_KEY73",
+          "AGNES_API_KEY74",
+          "AGNES_API_KEY75",
+          "AGNES_API_KEY76"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      },
+      {
+        "family_id": "family-20",
+        "assigned_slots": [
+          "AGNES_API_KEY77",
+          "AGNES_API_KEY78",
+          "AGNES_API_KEY79",
+          "AGNES_API_KEY80"
+        ],
+        "eligible_text_slots": [],
+        "proven_image_slots": []
+      }
+    ],
+    "central_slots": [
+      "AGNES_API_KEY81",
+      "AGNES_API_KEY82",
+      "AGNES_API_KEY83",
+      "AGNES_API_KEY84",
+      "AGNES_API_KEY85",
+      "AGNES_API_KEY86",
+      "AGNES_API_KEY87",
+      "AGNES_API_KEY88",
+      "AGNES_API_KEY89",
+      "AGNES_API_KEY90",
+      "AGNES_API_KEY91",
+      "AGNES_API_KEY92",
+      "AGNES_API_KEY93",
+      "AGNES_API_KEY94",
+      "AGNES_API_KEY95",
+      "AGNES_API_KEY96",
+      "AGNES_API_KEY97"
+    ],
+    "automatic_family_fallback": false
+  }
 }
