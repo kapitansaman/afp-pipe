@@ -1,6 +1,6 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T10:39:57.188823+00:00",
+  "started_at": "2026-10-28T11:07:01.522672+00:00",
   "queries": [
     {
       "query_id": "6536279e399da536e166bb87aaabcc2b57d6eb311b239ff1ee9336f03b60cbaa",
@@ -153,6 +153,6 @@
       "alfalfa soil moisture management allowable depletion irrigation trigger University of Minnesota extension"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:40:12.498301+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:01.752073+00:00"
 }

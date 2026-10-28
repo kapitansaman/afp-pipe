@@ -15,14 +15,12 @@
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363835",
       "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363835/",
-      "redirect_hops": 1,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://naes.unr.edu/publication.aspx?PubID=2381",
       "canonical_url": "https://naes.unr.edu/publication.aspx?PubID=2381",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",

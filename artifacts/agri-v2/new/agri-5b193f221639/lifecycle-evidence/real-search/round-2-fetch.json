@@ -1,0 +1,32 @@
+{
+  "requested": 5,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors",
+      "canonical_url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.fao.org/4/x0490e/x0490e0e.htm",
+      "canonical_url": "https://www.fao.org/4/x0490e/x0490e0e.htm",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+      "canonical_url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/",
+      "status": "cache_valid"
+    }
+  ]
+}

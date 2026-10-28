@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "input_sha256": "bb90e98d7fb6a45af239d68107728a4f22dcc344df95f48c2ba281f3f032f5c7",
+  "response_sha256": "43bd62d6e864a9ea5a335e9d318c24020bb72904cf4f7949f4c94db6d733e25a",
+  "created_at": "2026-10-28T11:07:32.094695+00:00",
+  "verdict": {
+    "topic_id": "agri-5b193f221639",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No chickpea-specific soil moisture sensor placement methodology found. General sensor guidance exists in s5-s8 (depth 6–60 in range, single vs multi-depth options, LoRa/LoRaWAN connectivity, tensiometer/TDR/capacitance technology comparison, MAD-based thresholds), but none tie sensor placement, horizontal offset from emitters, or depth recommendations specifically to chickpea (Cicer arietinum L.). s0/s3 state chickpea effective rooting depth ≤30 in and water uptake concentrated in top 12 in of soil, but do not prescribe sensor installation depth, emitter offset, or sensor-type selection for this crop."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No chickpea-specific measurement units, soil-moisture thresholds, or irrigation-decision parameters found. s6 provides general soil-texture tables for field capacity and irrigation-threshold centibars/kPa (e.g., loam: FC 20–30 cb, threshold 30–50 cb); s7 gives general MAD % and soil-water-tension ranges by crop (e.g., small grain 50% MAD, 40–50 kPa vegetative); s8 lists MAD and MRD for specialty crops but chickpea is absent. Chickpea root depth (≤30 in) and top-12-in water-use zone are stated in s0/s3, yet no numeric soil-moisture threshold, MAD, or irrigation trigger specific to chickpea is provided. Geographic context is US Midwest/Pacific-Northeast extension; no Iranian or chickpea-producing-region-specific data."
+      }
+    ],
+    "next_queries": [
+      "chickpea soil moisture sensor placement depth irrigation scheduling extension university",
+      "chickpea soil water tension threshold management allowable depletion irrigation"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

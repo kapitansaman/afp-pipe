@@ -1,0 +1,41 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://www.fao.org/4/x0490e/x0490e0b.htm",
+      "canonical_url": "https://www.fao.org/4/x0490e/x0490e0b.htm",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s44279-025-00458-3",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+      "canonical_url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.fao.org/4/x0490E/x0490e0a.htm",
+      "canonical_url": "https://www.fao.org/4/x0490E/x0490e0a.htm",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2025.1496198/full",
+      "canonical_url": "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2025.1496198/full",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/smart-crop-irrigation-scheduling-service-corn-and-soybean",
+      "canonical_url": "https://cropwatch.unl.edu/smart-crop-irrigation-scheduling-service-corn-and-soybean/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "input_sha256": "065a719017f0d2c4ffa170382c8798b93a1ec9002d4f7a5b463b443935d6b052",
+  "response_sha256": "b6e50bb1491fca9d938390664f82815736a18189ae82209664ff5848c26ae181",
+  "created_at": "2026-10-28T11:08:14.929067+00:00",
+  "verdict": {
+    "topic_id": "agri-465d6abf0e91",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a step-by-step pre-harvest field sampling protocol for chickpea: no defined sample-plot dimensions (e.g., m² or row length), no replication count, no growth-stage timing guidance (e.g., R5/R6 or pod-fill stage), no criterion for selecting individual plants or branches, no procedure for counting pods and seeds per sample unit, and no protocol for determining average seed weight (e.g., 100-seed method, subsample size, moisture correction) prior to harvest."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s2",
+          "s3"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document states the initial input units needed for a pre-harvest estimate (plants per area, fresh/dry mass in g, pod-seed fill percentage) nor presents a dimensionally consistent yield-estimation formula with final units in kg ha⁻¹ or t ha⁻¹. Existing yield tables report lb acre⁻¹ only as harvested trial outcomes, not as inputs or a calculation."
+      }
+    ],
+    "next_queries": [
+      "chickpea Cicer arietinum pre-harvest yield estimation sampling method university",
+      "chickpea sample plot size pods per square meter yield prediction formula"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

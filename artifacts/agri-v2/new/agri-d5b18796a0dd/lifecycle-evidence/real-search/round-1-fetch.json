@@ -1,0 +1,40 @@
+{
+  "requested": 6,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+      "canonical_url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31470273",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables",
+      "canonical_url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation",
+      "canonical_url": "https://cropwatch.unl.edu/2019/update-yield-and-water-use-field-peas-and-chickpeas-under-irrigation/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://news.clemson.edu/clemson-irrigation-expert-says-crops-face-critical-water-needs",
+      "canonical_url": "https://news.clemson.edu/clemson-irrigation-expert-says-crops-face-critical-water-needs/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://ssl.tamu.edu/media/11491/cropyield-punjab-epic.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    }
+  ]
+}

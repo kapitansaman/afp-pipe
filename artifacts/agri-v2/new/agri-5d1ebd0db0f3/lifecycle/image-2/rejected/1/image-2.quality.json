@@ -1,0 +1,54 @@
+{
+  "image_sha256": "a11dad7cc1253d8157fbf2ee7c3c5f2fa14c6d4df4b5e829d71d492e2c33fd57",
+  "contract_sha256": "4627afee414c0cab1618faed5f07d9f4add6695b66f2d4a387724b08c8083b46",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-5d1ebd0db0f3",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T11:10:14.760504+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 74,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match",
+        "product_identity_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": false,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 32,
+    "reasons": [
+      "Crop species mismatch: the plants shown are tall leafy seedlings resembling tomato or potato, not chickpea which should appear as low bushy plants with many tiny serrated leaflets and inflated pods.",
+      "Product identity mismatch: the packaging is a cylindrical roll/spool shape, not a proper AFP secondary carton as required; although labeled 'AFP Drip Irrigation Tape', its form factor does not match the specified carton product.",
+      "Role camera mismatch: the image is a side/front-angle shot with visible horizon and furrow lines, not a near-overhead tight detail view as required for role 2.",
+      "Topic evidence missing: due to wrong crop species the illustration fails to provide recognizable chickpea field evidence relevant to the article topic on chickpea harvest timing."
+    ]
+  }
+}

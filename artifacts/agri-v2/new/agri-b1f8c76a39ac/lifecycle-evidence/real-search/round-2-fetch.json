@@ -15,8 +15,7 @@
     {
       "url": "https://blog-crop-news.extension.umn.edu/2022/08/do-stem-and-plant-density-predict.html",
       "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/08/do-stem-and-plant-density-predict.html",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8299HarvestStrategies_free.pdf",
@@ -27,14 +26,12 @@
     {
       "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.931403/full",
       "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.931403/full",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://bookstore.ksre.ksu.edu/pubs/alfalfa-production-handbook_C683.PDF",
       "canonical_url": "https://bookstore.ksre.ksu.edu/pubs/alfalfa-production-handbook_C683.PDF",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     }
   ]
 }

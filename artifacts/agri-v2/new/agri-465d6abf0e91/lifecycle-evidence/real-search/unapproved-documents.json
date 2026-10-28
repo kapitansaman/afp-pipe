@@ -1,0 +1,871 @@
+{
+  "topic_id": "agri-465d6abf0e91",
+  "documents": [
+    {
+      "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+      "requested_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+      "redirect_chain": [
+        "https://extension-store.montana.edu/montguides/chickpea-production"
+      ],
+      "text": "[table row] Idaho | 2012: 75.6 [table row] Idaho | 2013: 77.5 [table row] Idaho | 2014: 73.0 [table row] Idaho | 2015: 69.0 [table row] Idaho | 2016: 90.0 [table row] Montana | 2012: 22.6 [table row] Montana | 2013: 17.7 [table row] Montana | 2014: 31.2 [table row] Montana | 2015: 40.6 [table row] Montana | 2016: 96.0 [table row] Washington | 2012: 79.5 [table row] Washington | 2013: 96.5 [table row] Washington | 2014: 89.0 [table row] Washington | 2015: 74.0 [table row] Washington | 2016: 107.4 [table row] US Total | 2012: 206.3 [table row] US Total | 2013: 218.6 [table row] US Total | 2014: 212.1 [table row] US Total | 2015: 202.3 [table row] US Total | 2016: 320.0 [table row] Dryland | Location: Bozeman [table row] Dryland | Yield: 1213 [table row] Dryland | C.V. (%): 37 [table row] Dryland | Obs.: 13 [table row] Conrad | Location: 2603 [table row] Conrad | Yield: 50 [table row] Conrad | C.V. (%): 27 [table row] Corvallis | Location: 1368 [table row] Corvallis | Yield: 27 [table row] Corvallis | C.V. (%): 24 [table row] Huntley | Location: 919 [table row] Huntley | Yield: 52 [table row] Huntley | C.V. (%): 8 [table row] Moccasin | Location: 1123 [table row] Moccasin | Yield: 36 [table row] Moccasin | C.V. (%): 52 [table row] Richland | Location: 1138 [table row] Richland | Yield: 82 [table row] Richland | C.V. (%): 61 [table row] Sidney | Location: 3168 [table row] Sidney | Yield: 23 [table row] Sidney | C.V. (%): 8 [table row] Irrigated | Location: Huntley [table row] Irrigated | Yield: 3076 [table row] Irrigated | C.V. (%): 30 [table row] Irrigated | Obs.: 20 [table row] CDC Alma | Class: Kabuli [table row] CDC Alma | 2012: 1386 [table row] CDC Alma | 2013: 2236 [table row] CDC Alma | 2014: 745 [table row] CDC Alma | 2016: 1784 [table row] CDC Alma | Avg: 1538 [table row] CDC Frontier | Class: Kabuli [table row] CDC Frontier | 2011: 1714 [table row] CDC Frontier | 2012: 1608 [table row] CDC Frontier | 2013: 2258 [table row] CDC Frontier | 2014: 929 [table row] CDC Frontier | 2015: 1511 [table row] CDC Frontier | 2016: 2705 [table row] CDC Frontier | Avg: 1788 [table row] CDC Orion | Class: Kabuli [table row] CDC Orion | 2012: 1617 [table row] CDC Orion | 2013: 2329 [table row] CDC Orion | 2014: 837 [table row] CDC Orion | 2015: 1602 [table row] CDC Orion | 2016: 1687 [table row] CDC Orion | Avg: 1614 [table row] Myles | Class: Desi [table row] Myles | 2011: 1519 [table row] Myles | 2012: 1307 [table row] Myles | 2013: 1640 [table row] Myles | 2014: 1090 [table row] Myles | 2015: 1280 [table row] Myles | 2016: 2144 [table row] Myles | Avg: 1497 [table row] Sawyer | Class: Kabuli [table row] Sawyer | 2011: 1514 [table row] Sawyer | 2012: 1029 [table row] Sawyer | 2014: 1049 [table row] Sawyer | 2015: 1083 [table row] Sawyer | 2016: 1650 [table row] Sawyer | Avg: 1265 [table row] Sierra | Class: Kabuli [table row] Sierra | 2011: 1219 [table row] Sierra | 2012: 815 [table row] Sierra | 2015: 1066 [table row] Sierra | 2016: 1509 [table row] Sierra | Avg: 1152 [table row] Ally extra | Plant-back interval (months): 22 [table row] Everest 2.0 | Plant-back interval (months): 11/18* [table row] Starane Flex | Plant-back interval (months): 9 [table row] Powerflex | Plant-back interval (months): 9 [table row] Goldsky | Plant-back interval (months): 9 [table row] Orion | Plant-back interval (months): 9 [table row] Olympus | Plant-back interval (months): 10 [table row] Osprey | Plant-back interval (months): 3 [table row] Rimfire Max | Plant-back interval (months): 10** [table row] Huskie | Plant-back interval (months): 9 [table row] Curtail | Plant-back interval (months): 18** [table row] Stinger | Plant-back interval (months): 18** [table row] Widematch | Plant-back interval (months): 18** [table row] Tordon | Plant-back interval (months): 36** [table row] Assure II (Quizalofop) | Application Timing: POST [table row] Assure II (Quizalofop) | Product Rate per acre: 7 to 12 fl oz [table row] Assure II (Quizalofop) | Weeds: Annual grasses and quackgrass [table row] Assure II (Quizalofop) | Remarks: Apply oil adjuvant at 1% v/v [table row] Poast | Application Timing: POST [table row] Poast | Weeds: Annual grasses [table row] Select Max (Clethodim) | Application Timing: POST [table row] Select Max (Clethodim) | Product Rate per acre: 9 to 16 fl oz/a [table row] Select Max (Clethodim) | Weeds: Annual grasses and quackgrass [table row] Dual (Metolachlor) | Application Timing: PPI, PRE [table row] Dual (Metolachlor) | Product Rate per acre: 1 -2 pt [table row] Dual (Metolachlor) | Weeds: Grasses (not wild oat), some broadleaf weeds [table row] Dual (Metolachlor) | Remarks: PPI improves activity [table row] Outlook (Dimethenamid-P) | Application Timing: PPI, PRE [table row] Outlook (Dimethenamid-P) | Product Rate per acre: 16 to 21 fl oz [table row] Outlook (Dimethenamid-P) | Weeds: Grasses and some broadleaf weeds [table row] Outlook (Dimethenamid-P) | Remarks: PPI improves activity, PRE requires precipitation to activate. [table row] Prowl (Pendimethalin) | Application Timing: PPI. Fall or spring [table row] Prowl (Pendimethalin) | Product Rate per acre: 1.75 - 3.6 pt 3.3 EC; 1.5 to 3 pt 3.8 ASC [table row] Prowl (Pendimethalin) | Weeds: Grass (not wild oat) and some broadleaf weeds [table row] Prowl (Pendimethalin) | Remarks: Adjust rate to soil type [table row] Treflan (Trifluralin) | Application Timing: PPI [table row] Treflan (Trifluralin) | Product Rate per acre: 1 - 2 pt 5 - 10 lb 10 G [table row] Treflan (Trifluralin) | Weeds: Some annual grass and broadleaf weeds [table row] Treflan (Trifluralin) | Remarks: Adjust rate to soil type [table row] Sonalan (ethalfluranlin) | Application Timing: PPI Fall or Spring [table row] Sonalan (ethalfluranlin) | Product Rate per acre: 1.5 - 2 pt 5.5 - 7.5 lb 10 G [table row] Sonalan (ethalfluranlin) | Weeds: Some annual grass and broadleaf weeds [table row] Sonalan (ethalfluranlin) | Remarks: Adjust rate to soil type [table row] Spartan (Sulfentrazone) | Application Timing: PPI, PRE [table row] Spartan (Sulfentrazone) | Product Rate per acre: 2 - 5.33 oz [table row] Spartan (Sulfentrazone) | Weeds: Kochia, Russian thistle, common lambsquarters, pigweed, suppress buckwheat [table row] Spartan (Sulfentrazone) | Remarks: Adjust rate to soil type and OM [table row] Sharpen (Saflufenacil) | Application Timing: PPI, PRE [table row] Sharpen (Saflufenacil) | Product Rate per acre: 1 to 2 fl oz [table row] Sharpen (Saflufenacil) | Weeds: Burndown control of emerged broadleaf weeds [table row] Sharpen (Saflufenacil) | Remarks: Apply with MSO and AMS/UAN [table row] Roundup (Glyphosate) | Application Timing: PRE-HARVEST [table row] Roundup (Glyphosate) | Product Rate per acre: up to 2.25 lb ae [table row] Roundup (Glyphosate) | Weeds: Harvest aid and weed desiccant [table row] Roundup (Glyphosate) | Remarks: Apply with AMS at 8.5 lb/100 gal. Do not apply on crop grown for seed. Allow a 7-day PHI [table row] Gramoxone (Paraquat) | Application Timing: PRE-HARVEST [table row] Gramoxone (Paraquat) | Product Rate per acre: 1.5 to pt 2SL [table row] Gramoxone (Paraquat) | Weeds: Harvest aid and weed desiccant [table row] Gramoxone (Paraquat) | Remarks: Apply with NIS or COC. Allow a 7-day PHI [table row] Sharpen (saflufenacil) | Application Timing: PRE-HARVEST (at least 80% yellow/brown pods and no more than 40% of leaves still green) [table row] Sharpen (saflufenacil) | Product Rate per acre: 1 to 2 fl oz [table row] Sharpen (saflufenacil) | Weeds: Harvest aid and weed desiccant [table row] Sharpen (saflufenacil) | Remarks: Apply with MSO and AMS or UAN Allow a 2-day PHI [table row] Valor | Application Timing: PRE-HARVEST (at least 80% yellow/brown pods and no more than 40% of leaves still green) [table row] Valor | Product Rate per acre: 2 to 3 oz [table row] Valor | Weeds: Harvest aid and weed desiccant [table row] Valor | Remarks: Apply with MSO Allow a 5-day PHI Chickpea Production - Extension Store Skip to Content Chickpea Production Agriculture and Natural Resources | MT201703AG | Revised June 2017 Download PDF Version by Kent A McVay, Extension Cropping Systems Specialist; Prashant Jha, Weed Scientist; and Frankie Crutcher, Plant Pathologist, Department of Research Centers, Montana State University Chickpea ( Cicer arietinum L.) is an annual grain legume or ‘pulse crop' sold as human food. Commercial types include large Kabuli, small Kabuli, and Desi. Chickpea production has significantly increased in the U.S. over the past 5 years with 96,000 acres harvested in Montana in 2016 and with acreage projected to increase. Introduction Chickpea ( Cicer arietinum L.) is an annual grain legume or ‘pulse crop' sold as human food. Commercial types include large Kabuli , small Kabuli, and Desi. The Kabuli type (also known as garbanzo bean) contains small to large seeded varieties, has a rounded seed and a cream-colored seed coat. These are often made into snacks, ground into hummus , or canned whole for the salad market. The less commonly grown Desi type are smaller (nominally 1500 seed/lb) angular seeds with yellow to brown corticated (hard) seed coats. There are also red, dark green, and black varieties. Desi chickpea is usually prepared for consumption by dehulling and splitting, or dehulling and grinding into flour, while small Kabuli types may be processed into flour without dehulling. Chickpea is native to the Mediterranean region and is a major ingredient of many Middle Eastern, Mediterranean, and Indian dishes, such as hummus, falafel, curry , and dal . Chickpea is beneficial to a healthy diet. For example a half-cup serving provides 7 g of protein (10% of our daily requirement) and 6 g of fiber (20% of our daily requirement) (1) . World Production The majority of this crop is grown overseas with India producing and consuming the most (Figure 1). The U.S. produces only 1% of the world total. Still, chickpea production has significantly increased in the U.S. over the past 5 years (Table 1) with 96,000 acres harvested in Montana in 2016 and with acreage projected to increase in the future. Montana accounts for a large percentage of the U.S. increase from 2001 to 2016 where chickpea acreage grew from 134,000 to 320,000 acres. FIGURE 1. India dominates in World chickpea production. The U.S. production of approximately 125,000 metric tons is approximately 1% of world annual production *(2) .*** Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of environmental stress, such as drought or extreme heat. Late season rains can cause plants that appear to have gone dormant to resume development including flowering and seed set, complicating harvest management. Chemical desiccation to terminate growth is often necessary. Mature plants will be 15-30 inches tall, heavily branched, appearing as small bushes. Optimally, there will be 1-2 seeds per pod. A greater number of seeds per pod typically leads to smaller seed size at maturity. Kabuli chickpea usually matures in 110 to 120 days. Desi type will mature somewhat earlier. TABLE 1. Chickpea production (1,000 of harvested acres) since 2012 in the U.S> (3). Location 2012 2013 2014 2015 2016 Idaho 75.6 77.5 73.0 69.0 90.0 Montana 22.6 17.7 31.2 40.6 96.0 Washington 79.5 96.5 89.0 74.0 107.4 US Total 206.3 218.6 212.1 202.3 320.0 Chickpea germinates similar to dry pea with the seed coat and cotyledons remaining below ground ( hypogeal germination ). Developing plants will have 1-2 scale nodes on the stem just below the soil surface. These nodes serve as points of regrowth if the seedling is damaged (a late frost for example). On average, a new node (leaf) is produced every 3 to 4 days. Yield potential and markets Statewide variety trials conducted at the MSU Research Centers for the past five years show yields averaging over 1500 lb/acre (Table 2) across all varieties. Areas around Corvallis and Sidney have shown more stable production across varieties but yields in Conrad have been superior to other locations in the state. Irrigated production at Huntley shows promise with a trial average of more than 3000 lb/acre. TABLE 2. Trial yield means (lb/acre) for chickpeas at locations across Montana, 2011-2016 (4, 5). Environment Location Yield C.V. (%) Obs. Dryland Bozeman 1213 37 13 Conrad 2603 50 27 Corvallis 1368 27 24 Huntley 919 52 8 Moccasin 1123 36 52 Richland 1138 82 61 Sidney 3168 23 8 Irrigated Huntley 3076 30 20 Note: Trial entries varied but averaged 11 kabuli and 1 desi variety each year. n/a = not applicable. C.V. = coefficient of variation over years and varieties. Obs. = number of observations Varieties Most Montana producers contract with a company to grow a specific variety prior to planting although some open market options are available. Results of statewide variety trials indicate a yield potential between 850 and 3000 lb/acre under dryland conditions. Variability in yield is high due to environmental factors like hail, disease incidence, and drought. Irrigated production in Huntley has greater yields as compared to dryland with minimal additional water (2-3 inches per season). Irrigating too often can lead to high disease incidence and enhanced indeterminate flowering and maturity resulting in poor quality. The better performing varieties in these trials have been those from Canada, with Frontier and Orion leading the list (Table 3). Myles has been the only Desi type tested and has performed consistently well over the past 5 years. Prices for Kabuli types are driven by quality factors such as color, consistency, and number of split seeds, but the main factor for price is seed size with larger diameter seeds being premium. For example, at this writing 9 mm diameter Kabuli seed was priced at 35 cents/lb while 8 mm was 26 cents/lb at Great Falls. For seed sizes less than 7 mm diameter there is often no market or only a nominal price for the seed. The largest input cost for chickpea production is typically seed cost, although if disease pressure becomes an issue, multiple applications of fungicides can add significantly to input costs. Because of the threat of disease, and the risk of poor quality due to bleaching, uneven color, or harvest damage, chickpea is a high maintenance crop requiring constant monitoring and field scouting. Proper grain handling after harvest is also critical to maintaining a high quality food product which is destined for human consumption. TABLE 3. Chickpea yields in dryland statewide variety trials, Montana (4,5). Variety Class 2011 2012 2013 2014 2015 2016 Avg CDC Alma Kabuli 1386 2236 745 1784 1538 CDC Frontier Kabuli 1714 1608 2258 929 1511 2705 1788 CDC Orion Kabuli 1617 2329 837 1602 1687 1614 Myles Desi 1519 1307 1640 1090 1280 2144 1497 Sawyer Kabuli 1514 1029 1049 1083 1650 1265 Sierra Kabuli 1219 815 1066 1509 1152 Note: Not all varieties were present in each location every year. Locations included Bozeman, Conrad, Corvallis, Huntley, Moccasin, Richland, and Sidney MT. Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F, and nighttime temperatures are between 64 and 70 °F. The crop does well in regions with 6-10 inches of growing season precipitation. Temperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolerant. Cultural Practices Soil Chickpea grows best on well drained soils with a neutral pH. It is not well adapted to saline soils and does not tolerate wet or waterlogged soils. Chickpea can be successfully grown in a wide range of soil types. CHOOSING AN INOCULANT Peat powder inoculant: Applied directly to the seed with a non-toxic sticking agent. This formulation is a finely ground peat that contains over a billion rhizobia per gram. Peat powder inoculant is one of the most common types. Liquid inoculant: This formulation also contains over a billion rhizobia per gram and is applied directly to the seed. Because it comes in liquid form, a sticking agent is typically included in the fluid. Liquid inoculant comes in bags that make it easy to distribute evenly onto the seed while it is being loaded into a truck box or grain drill. Granular soil inoculant: Unlike peat powder or liquid inoculants, granular soil inoculant is not applied directly to the seed but rather, with the seed in the seed row. This formulation does however contain the same amount of rhizobia as both the powder and liquid inoculants and is popular because of its convenience and increased reliability. Since it is delivered separate from the seed, the drill must have a separate metering system. Field selection Choose fields that are fairly weed free and without troublesome perennial weeds such as bindweed or Canada thistle since herbicide options are few and the growth habit of chickpea allows light to penetrate the canopy to the benefit of weeds. Crop disease risks limit the recommended frequency of chickpea production to no more than 1 in 3 years (and less often is likely better). This restriction also applies to bordering fields to reduce the risk from disease organisms that can infect a new chickpea crop. Seed preparation Fungicide treatments (see Disease Control section for details) should be applied to the seed first and allowed to dry prior to mixing with inoculum. Follow all label instructions for the agricultural chemical selected. Inoculants are specific to each plant species. For chickpea the inoculant species needed is Mesorhizobium cicero or M. mediterraneum . Check the inoculant label for either of these names or that the label specifically lists the crop being planted (chickpea may be listed as garbanzo). Some inoculants are actually mixtures that contain several different species. Rhizobium bacteria (either on the seed or in the package) die when exposed to high temperatures, drying winds, or direct sunlight. Inoculant must be stored in a cool place and should be used before the expiration date. Never mix inoculant with granular fertilizer as inoculants are quite sensitive to high salt content. Banding fertilizer away from seed is recommended. Check the label of both the inoculant and the seed treatment for compatibility. Generally it is advisable to inoculate seed the day of seeding. Granular inoculants are less affected by dry seedbeds and seed-applied fungicides than other forms of inoculants. All inoculant formulations will perform equally well if properly applied and environmental conditions are ideal. But under adverse conditions the best performing formulation is granular, followed by peat, and then liquid. Seedbed preparation For no-till operations, an even distribution of previous crop residue helps in establishing a uniform population. Weeds must be killed prior to planting. This can be accomplished with a labeled application of glyphosate which should be applied 1 or 2 weeks prior to seeding. In tilled systems, the seedbed should be free of most residue, finely worked with no large clods or aggregates. Rolling to push down rocks is not necessary for chickpea management as the growth habit of chickpea is more upright than peas or lentils and seeds are set higher on the plant. If you are rolling a field, do so prior to seed emergence as newly emerged stems can be broken. Seeding rate and date A final minimum population of 4 plants/ft 2 or 175,000 plants/acre should be targeted. Due to their thin seed coats and large size, garbanzo seed can easily be damaged or split during processing and planting resulting in field survival values of only 70-80%. Seed size varies significantly across different types so adjust seeding rates for seeds/lb, germination percentage, and field survival. Large Kabuli seed rates can be as high as 200 to 250 lb/a in order to achieve the target population. Because of the high seed cost per acre, consider custom planting if there isn't a suitable drill available. Row spacing should be between 6 and 12 inches. Narrow rows provide an increased level of competition against weeds. Plant chickpea within a week or two of the optimum date for local seeding of spring wheat. Early seeding dates improve yield potential because plants flower prior to the heat of summer. But very early planting also runs the risk of frost damage to emerged plants. If frost or other damage occurs new growth can initiate from the scale nodes just below the soil surface but yield potential is usually reduced. Crop rotation Small grains like wheat and barley have greater overall disease resistance than pulse crops which lowers risk to bacterial and fungal disease infections. Pulse crops such as chickpea have disappeared from production in areas once certain disease organisms (namely, Ascochyta blight) become established. Since many disease organisms survive on plant residue, a break in pulse crop production of three or more years provides enough time for pulse residue to completely disappear which is good management for long-term production of this crop. Small grains complement pulse crops by providing a bed of straw and residue in which to plant. Standing straw encourages upright growth, higher seed set, and is effective in minimizing evaporation while conserving precipitation for use by the pulse crop. The effective rooting depth of chickpea is no more than 30 inches and the crop uses water mostly from the top 12 inches of soil (6) . Chickpea is a full-season crop that will continue to grow into August or even early September in many Montana locations. Depending on precipitation recharge in late summer, it may be difficult to follow chickpea with winter wheat. A spring crop (wheat, barley, canola, flax) may be a better choice to follow chickpea. The crop the year following could be winter wheat or any of the spring crops just listed, prior to returning to chickpea in the rotation. Chickpea would benefit from a fallow period before planting, but since it accesses only the top 30 inches of soil for water, it might not be the best overall candidate after fallow. Chickpea stubble creates a dark surface which helps warm soils in the spring often permitting earlier seeding as compared to wheat stubble. Fertility Chickpea needs approximately 60 lb nitrogen (N) for every 1000 lb of grain produced (7) . Normally about 70% or more of the N in the plant comes through biological fixation, with the remainder supplied through the soil as nitrate mineralized from organic matter or from starter fertilizer. Nodules should develop within a few weeks of plant emergence, and are healthy and working to fix N if they are pink on the inside. When plants fail to nodulate or nodulate weakly, N deficiency will begin to occur as available N from the soil is exhausted. Soils rich in N may actually reduce nodulation leading to longer periods of vegetative growth with delayed flowering and seed set. Phosphorus (P2O5) and potassium (K2O) are important for healthy chickpea growth and should be applied based on soil tests. There is little information on sulfur (S) fertility for chickpea, but if soils are shallow or of lighter texture, S application should be considered. A sulfate source is preferred rather than elemental S for current year fertility. Chickpea is very sensitive to salt and germination rates can be reduced in the presence of fertilizer. Starter fertilizer applications with the seed should not exceed a total of 15 lb of K2O + N per acre. Weed Management Chickpea is a poor competitor with weeds at all stages of growth. Slow growth during the seedling stages, in addition to an open canopy architecture and low growth nature of chickpea plants, reduces its ability to compete with weeds. Producers have identified weed contr",
+      "links": [
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "label": "Skip to Content"
+        },
+        {
+          "url": "https://extension-store.montana.edu/",
+          "label": ""
+        },
+        {
+          "url": "https://extension-store.montana.edu/cart",
+          "label": "Cart (0)"
+        },
+        {
+          "url": "https://extension-store.montana.edu/category/youth",
+          "label": "Youth"
+        },
+        {
+          "url": "https://extension-store.montana.edu/category/ag-natural-resources",
+          "label": "Ag & Natural Resources"
+        },
+        {
+          "url": "https://extension-store.montana.edu/category/yard-garden",
+          "label": "Yard & Garden"
+        },
+        {
+          "url": "https://extension-store.montana.edu/category/family-home",
+          "label": "Family & Home"
+        },
+        {
+          "url": "https://extension-store.montana.edu/category/community",
+          "label": "Community"
+        },
+        {
+          "url": "https://extension-store.montana.edu/category/merch",
+          "label": "Merchandise"
+        },
+        {
+          "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf",
+          "label": "Download PDF Version"
+        },
+        {
+          "url": "https://www.ag.ndsu.edu/extplantpath/publications-newsletters/",
+          "label": "https://www.ag.ndsu.edu/extplantpath/publications-newsletters/"
+        },
+        {
+          "url": "https://www.fns.usda.gov/",
+          "label": "https://www.fns.usda.gov/"
+        },
+        {
+          "url": "https://www.fao.org/faostat/",
+          "label": "www.fao.org/faostat/"
+        },
+        {
+          "url": "https://www.ag.ndsu.edu/carringtonrec",
+          "label": "https://www.ag.ndsu.edu/carringtonrec"
+        },
+        {
+          "url": "https://extension-store.montana.edu",
+          "label": "extension-store.montana.edu"
+        },
+        {
+          "url": "https://extension-store.montana.edu/cdn-cgi/l/email-protection",
+          "label": "[email protected]"
+        },
+        {
+          "url": "https://extension-store.montana.edu/courses",
+          "label": "Online Learning"
+        },
+        {
+          "url": "https://www.montana.edu/extension/",
+          "label": "Extension Home"
+        },
+        {
+          "url": "https://www.montana.edu/extension/lila_extn/",
+          "label": "Lives & Landscapes Online"
+        }
+      ],
+      "fetched_at": "2026-10-28T06:29:21.903424+00:00",
+      "sha256": "6dcc26823ec6bf5073c353c92d169905ab1500c3c610c470b41f639579fb5816",
+      "source_format": "institutional_html",
+      "source_text_excerpted": true,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    },
+    {
+      "url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+      "requested_url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+      "redirect_chain": [
+        "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf"
+      ],
+      "text": "[page 1] Evaluating Chickpea (Garbanzo Bean) for Adaptability to Eastern Oregon Stephen Machado, Christopher Humphreys, Brian Tuck, and Mary Corp Abstract Seven chickpea (Cicer arietinum L.) varieties were evaluated for suitability to eastern Oregon conditions. The chickpeas, six kabuli and one desi, were sown in mid-April 2002 and 2003 at the Columbia Basin Agricultural Research Center (CBARC) in Pendleton and Moro, Oregon. Data on plant stand, plant height, disease, phenology, and bean yield were collected. ‘Myles’, the only desi chickpea, produced the highest bean yield under both annual and fallow cropping systems. Unfortunately, desi chickpeas are low value chickpeas in the United States. The kabuli varieties produced higher yields and bigger beans when soil moisture was adequate (after fallow), but most produced lower bean yield and smaller beans when grown following wheat in a drought year. ‘Sinaloa’ appears to be the only kabuli that is well adapted to low soil moisture conditions. ‘Sinaloa’ produced >80 percent of grade A beans under both low and high yield potential conditions. The other kabuli varieties produced a high percent of grade A beans only under high yield potential conditions. The desi chickpea, ‘Myles’, produced feed and grade C beans. To obtain both high bean yield and a high percentage of grade A beans under both low and high yield potential conditions, we recommend ‘Sinaloa’. The other kabuli varieties are best grown under high yield potential conditions. If bean yield is the only important factor, then ‘Myles’ is recommended for both low and high yield potential conditions. Keywords: adaptability, bean size, chickpea, desi, garbanzo, kabuli Introduction The reduction of green pea production due the closure of Agrifrozen Foods, Inc. in Walla Walla, Washington in 2000 and the decline in contract acres of Chiquita Processed Foods, LLC in Milton-Freewater, Oregon has led to a search for a new legume crop in eastern Oregon. Chickpea has the potential to replace peas in the traditional wheat pea rotation. Being a relatively new commercial legume crop to northeastern Oregon, there is limited information on chickpea varieties adapted to this region. Chickpeas are classified as either desi (small-seeded) or kabuli, also called garbanzo (large-seeded) types. The desi chickpeas predominate in the Indian subcontinent while the kabuli chickpeas predominate elsewhere. Kabuli chickpeas dominate American production because of their high value as an ingredient at salad bars (Saxena and Singh 1987, Muehlbauer 1993, Singh and Saxena 1999). However, there is a small but steadily increasing production of desi chickpeas. The small amount of desi chickpea produced is currently marketed to ethnic communities in large cities. However, there are prospects of expanding production for export (Muehlbauer 1993). The objective of this experiment was to evaluate different chickpea varieties for adaptability to growing conditions in eastern Oregon. 1 [page 2] Methods To determine chickpea varieties adapted to eastern Oregon, seven varieties, namely ‘Dwelley’, ‘Sinaloa’, ‘Evans’, ‘Myles’, ‘Sanford’, ‘Sierra’, and ‘CA99901604W’, were sown at 3 seeds/ft2 in mid-April of 2002 and 2003 at the CBARC, Sherman Experiment Station in Moro (11-inch rainfall) and at the CBARC, Pendleton Experiment Station in Pendleton (16-inch rainfall). With the exception of ‘Myles’, a desi chickpea, all varieties were kabuli chickpeas. The chickpeas were grown under conventional tillage following wheat at Pendleton and after fallow at Moro. Data on plant stand, days to flowering, days to maturity, plant height, disease, bean yield, and bean size were obtained. Plant stand was obtained by counting plants along 3-ft sections of two rows from each plot. Days to flowering and maturity were recorded when 50 percent of plants in each plot had flowered or matured. Disease ratings were obtained by estimating the percent of plants per plot that were diseased. Plant samples were sent to the pathologist (Dr. R. Smiley) for diagnosis. Plant height was measured just before harvest. A plot combine was used to harvest the chickpeas. The chickpeas were graded by passing them through sieves. In 2002, beans that did not pass though sieve no. 22/64 were classified as grade A and those that passed through sieve no. 22/64 but did not pass through sieve no. 18/64 were classified as grade B. Beans that passed through sieve no. 18/64 were classified as feed. In 2003 we adopted a more stringent grading system where beans were classified as grade A if they did not pass through sieve no. 22/64; grade B if beans did not pass through sieve no. 20/64; grade C if beans did not pass through sieve no. 18/64; and feed grade if beans passed through sieve no. 18/64. On average, grade A beans sell for $0.18-0.23/lb and grade B beans sell for $0.10-0.15/lb. The C and feed grade can sell for $60-70/ton (Ferrel 2004). Results and Discussion In 2002, Pendleton and Moro received 13.0 and 8.4 inches of precipitation, respectively. In 2003, precipitation was higher at both Pendleton (15.4 inches) and Moro (9.3 inches). Because 2002 was a drought year, fallow moisture had a significant effect on bean yield. Bean yields were in general higher at Moro (after fallow) than at Pendleton (recrop) in this year. In 2003, precipitation was probably adequate for annual cropping at Pendleton. CBARC, Pendleton Bean yield: In 2002, the desi chickpea, ‘Myles’, produced the highest yield, followed by ‘CA99901604W’ (Fig. 1). Bean yields from the other varieties were not significantly different from each other and were about 600 lbs/acre lower than the yield of ‘Myles’. Despite being grown following wheat in a drought year, ‘Myles’ produced more than twice the yield of the other varieties. The reasons for the differences in bean yield between ‘Myles’ and the other varieties were not so apparent. Plant density did not influence bean yields since there were no significant differences in plant counts among the varieties (Table 1). There were some significant differences in plant height among the varieties (Table 1). Bean yields, however, were not significantly correlated (r = -0.28) with plant height. Disease incidences involving combinations of Fusarium solani, F. oxysporum, the bean leafroll, and alfalfa mosaic viruses (Table 1) appear to have influenced bean yields. ‘Myles’ and ‘Sanford’ were less affected by disease than the other 2 [page 3] varieties. Disease, however, only explained about 18 percent (r = -0.42) of yield variation, indicating that there were other factors with greater influence on bean yield. ‘Myles’ matured about 12 days earlier (in July) than other varieties and probably avoided increasing drought stress experienced in August when the other varieties matured. It is also probable that ‘Myles’ produced the highest yields through drought resistance. In 2003, ‘Sinaloa’ and ‘Myles’ produced the highest yields (Fig. 2). The yields of the other varieties were not significantly different from each other. Yield was not significantly correlated to either plant stand (r = 0.23) or plant height (r = -0.21). ‘Myles’ and ‘Sinaloa’, which produced the highest yields, reached maturity earlier than the other varieties (Table 1). This indicates that there could be a yield advantage in maturing before drought and heat stresses increase. Disease incidences were not as high as in 2002 and were not recorded. Insert Figures 1. and 2. Insert Table 1 Bean size: Although the desi chickpea, ‘Myles’, produced the highest bean yield, its small bean graded as feed in 2002 (Fig. 3). It is, therefore, a low value crop that has few markets in the United States. A huge market, however, exists in India, Parkistan, and North Africa where the beans are used in a variety of dishes (Saxena and Singh 1987, Singh and Saxena 1999). Of the kabuli chickpeas, ‘Sinaloa’ was the only variety that produced >80 percent grade A beans in 2002 (Fig. 3). The breeding line ‘CA99901604W’ and ‘Sierra’ produced about 60 and 65 percent grade A beans, respectively (Fig. 3). The rest of the varieties had lower percentages of grade A beans (Fig. 3). This was probably due to drought stress caused by low 2002 crop-year rainfall coupled with low soil moisture conditions created by the previous wheat crop. Among the kabuli chickpeas, grain size of ‘Sinaloa’ was least affected by low soil moisture. In 2003, a wetter year, ‘Dwelley’, ‘Sinaloa’, and ‘CA99901604W’ produced beans that were >80 percent grade A (Fig. 4). The remaining three kabuli varieties averaged 70 to 80 percent grade A beans (Fig. 4). ‘Myles’, the desi variety, produced mostly grade C and feed- grade beans (Fig. 4). Insert Figure 3 Insert Figure 4 CBARC, Moro Bean Yield: As at Pendleton, ‘Myles’ produced the highest bean yields at Moro in 2002 (Fig. 5). The yields of the rest of the varieties were not significantly different from each other and were about 200 to 300 lbs/acre lower than the yield of ‘Myles’. The bean yields of the kabuli varieties were about 200 lbs/acre higher than at Pendleton, probably because they were grown on previously fallow land at Moro. Plant stand, plant height, and disease (Table 2) were not significantly different among varieties and consequently these parameters cannot explain differences in bean yields. ‘Myles’ matured about 8 days earlier than other varieties and could have escaped increasing drought conditions experienced at the end of the season. In 2003, bean yields were not significantly different 3 [page 4] among all the varieties (Fig. 6). ‘Dwelley’, however, produced the highest yield, followed by ‘Myles’. Once more, plant stand and height were not significantly correlated with bean yield. Insert Figure 5 Insert Figure 6 Insert Table 2 Bean size: At Moro, beans produced by ‘Myles’, the desi chickpea, were too small to be classified as grade A or B in both years. The beans were classified as feed or grade C (Figs. 7, 8). In contrast to Pendleton, all the kabuli chickpeas produced >80 percent grade A beans at Moro in 2002 (Fig.7). This was probably because there was enough moisture following fallow to minimize drought stress. In 2003, all kabuli varieties except ‘Evans’ and Sanford’ produced >80 percent grade A beans (Fig. 8). ‘Sinaloa’ produced the highest percent of grade A beans during this year. Insert Figure 7 Insert Figure 8 Variety adaptability To determine the overall adaptability of the chickpea varieties to eastern Oregon, bean yields and bean size of varieties from the two sites and two years were combined and analyzed for trends using regression analysis. Bean yield: Figure 9 shows mean yield of each variety compared to the mean yield of all varieties evaluated in each experiment at Moro and Pendleton in 2002 and 2003. The cropping systems practiced at Moro and Pendleton sites coupled with precipitation received created conditions with relatively low and high yield potential. For instance, the effect of fallow at Moro in 2002, a drought year, created growing conditions with high yield potential. In contrast, annual cropping at Pendleton created growing conditions with low yield potential during this year. In 2003, higher precipitation at Pendleton and Moro created growing conditions with high yield potential. Reference to low and high yield potential below, therefore, is not site specific but refers to the growing conditions experienced by the varieties. ‘Dwelley’ responded poorly under conditions of low yield potential and yielded close to the trial mean under conditions of high yield potential (Fig. 9). Although below the trial mean, ‘Sinaloa’ responded better under conditions of low yield potential and above the trial mean under conditions of high yield potential (Fig. 9). ‘Evans’ expressed poor response to both low and high yield potential conditions (Fig. 9). ‘Myles’ demonstrated wide adaptability to low and high yield potential conditions and maintained similar yield levels under both environments (Fig. 9). ‘Sanford’ and ‘Sierra’ represent varieties that responded poorly to low yield potential conditions and produced yield equal to the trial mean under conditions of high yield potential (Fig. 9). ‘CA99901604W’ yielded above the trial mean under low yield potential conditions and responded poorly under high yield potential conditions (Fig. 9). 4 [page 5] Insert Figure 9 Bean size: Profit margins can be increased by producing high yield with a high percentage of grade A beans. A suitable variety, therefore, should posses both attributes. Figure 10 shows the percent of grade A beans for each variety regressed against the mean percent of grade A beans of all the varieties evaluated at Moro and Pendleton in 2002 and 2003. The percentage of grade A beans for ‘Dwelley’ equaled the trial mean (<50 percent) under low yield potential conditions and was >80 percent under high yield potential conditions (Fig.10). ‘Sinaloa’ expressed wide adaptability and produced >80 percent grade A beans under both low and high yield potential conditions (Fig. 10). ‘Evans’ and ‘Sanford’ responded poorly under low yield potential conditions and slightly above the trial mean under high yield potential conditions (Fig. 10). Being a desi, ‘Myles’ did not produce any grade A beans (Fig. 10). ‘Sierra’ and ‘CA99901604W’ responded better than the trial mean under both conditions but the percentage of grade A beans under low yield potential conditions was lower than under high yield potential conditions (Fig. 10). Insert Figure 10 Conclusions The kabuli varieties produced higher yields and bigger beans when soil moisture was adequate (after fallow and in a wetter year) but most produced lower bean yield and smaller seed when grown following a wheat crop under low rainfall conditions. The kabuli chickpeas command premium prices in the United States. ‘Sinaloa’ appears to be the only kabuli that is well adapted to low soil moisture conditions. To obtain both high bean yield and a high percentage of grade A beans under both low and high yield potential conditions, ‘Sinaloa’ is recommended. The other kabuli chickpeas should be grown mostly under high yield potential conditions. If bean yield is the only important factor, then the desi chickpea, ‘Myles’, should be grown under both low and high yield potential conditions. ‘Myles’ produced exceptionally high yields under low yield potential conditions. It appears to be well adapted to the eastern Oregon environment and yields well under both annual and fallow cropping systems. Unfortunately, desi chickpeas are small-seeded and are currently low value beans in the United States. However, the potential exists for exporting desi chickpeas to India and Pakistan where they are in demand. India alone requires about 700,000 tons a year although it is the world’s largest producer. Canada has capitalized on this market and now exports about 220,000 tons annually to the Indian subcontinent. Acknowledgements The authors would like to thank Karl Rhinhart and Erling Jacobsen fo r their help in the implementation of this experim ent. This research was funde d by the Oregon Departm ent of Agriculture. References Ferrel, G.D. 2004. Garbanzo bean production guide. Blue Mountain S eed, Inc., Walla Walla, WA. 5 [page 6] Muehlbauer, F.J. 1993. Food and grain legum es.Pages 256-265 in J. J anick and J .E. Simon (eds.). New crops. Wiley, NY. Saxena, M. C., and K.B. Singh (eds .). 1987. Chickpea. ICA RDA, CABI, W allingford, UK. Singh, K.B., and M.C. Saxena. 1999. Chickpeas . The Tropical Agriculturalist. C TA, MacMillan, London. 6 [page 7] Variety Bean yield (lbs/acre) 0 200 400 600 800 1000 1200 Dwelley Sinaloa Evans Myles Sanford Sierra CA99901604W Figure 1. Bean yield of chickpea varieties at CBARC, Pendleton, Oregon, 2002. Bars represent standard error. Variety Bean yield (lbs/acre) 0 200 400 600 800 1000 1200 1400 Dwelley Sinaloa Evans Myles Sanford Sierra CA99901604W Figure 2. Bean yield of chickpea varieties at CBARC, Pendleton, Oregon, 2003. Bars represent standard error. 7 [page 8] Dwelley Sinaloa Evans Myles Sanford Sierra CA99901604WVariety Bean wt (%) 0 20 40 60 80 100 120 Grage A beans Grade B beans Figure 3. Bean size of chickpea varieties at CBARC, Pendleton, Oregon, 2002. DwelleySinaloaEvans Myles SanfordSierra CA99901604WVariety Bean wt (%) 0 20 40 60 80 100 120 Grade A beans Grade B beans Grade C beans Feed grade Figure 4. Bean size of chickpea varieties at CBARC, Pendleton, Oregon, 2003. 8 [page 9] Variety Bean yield (lbs/acre) 0 200 400 600 800 1000 Dwelley Sinaloa Evans Myles Sanford Sierra CA99901604W Figure 5. Bean yield of chickpea varieties at CBARC, Moro, Oregon, 2002. Bars represent standard error. CA99901604WDwelleySinaloaEvans Myles SanfordSierraVariety Bean yield (lbs/acre) 0 200 400 600 800 1000 1200 Figure 6. Bean yield of chickpea varieties at CBARC, Moro, Oregon, 2003. Bars represent standard error. 9 [page 10] DwelleySinaloaEvans Myles SanfordSierra CA99901604WVariety Bean wt (%) 0 20 40 60 80 100 120 Grade A beans Grade B beans Figure 7. Bean size of chickpea varieties at CBARC, Moro, Oregon, 2002. Variety Bean wt (%) 0 20 40 60 80 100 120 Grage A beans Grade B beans Grade C beans Feed grade DwelleySinaloaEvans Myles SanfordSierra CA99901604W Figure 8. Bean size of chickpea varieties at CBARC, Moro, Oregon, 2003. 10 [page 11] Dwelley 200 400 600 800 1000 1200 Sinaloa Evans Variety bean yield (lbs/acre) 200 400 600 800 1000 1200 Myles Trial mean yield Mean yield of variety Regression Sanford 200 400 600 800 1000 1200 Sierra Trial mean bean yield (lbs/acre) 400 500 600 700 800 900 1000 CA99901604W Trial mean bean yield (lbs/acre) 400 500 600 700 800 900 1000 200 400 600 800 1000 1200 11 [page 12] Figure 9. Bean yield response of each chickpea variety relative to trial mean bean yield at CBARC, Oregon, 2002-2003. 12 [page 13] Dwelley 0 20 40 60 80 100 Sinaloa Evans Grade A beans of each variety (%) 0 20 40 60 80 100 Myles Trial mean yield Variety mean yield Regression Sanford 0 20 40 60 80 100 Sierra Trian mean bean yield (lbs/acre) 45 50 55 60 65 70 75 CA99901604W Trail mean bean yield (lbs/acre) 45 50 55 60 65 70 75 40 50 60 70 80 90 100 13 [page 14] Figure 10. Grade A bean size response of each chickpea variety relative to trial mean grade A bean size at CBARC, Oregon, 2002-2003. Table 1. Plant stand, height, and disease incidence of different chickpea varieties at CBARC, Pendleton, Oregon, in 2002 and 2003. 2002 2003 Variety Plants/ft2 Plant ht (in) Disease (%) Plants/ft2 Plant ht (in) Maturity (days) Dwelley 3.3a1 15.4a 36.3ab 4.1ab 13.1ab 96 Sinaloa 3.1a 11.9c 46.3a 3.8b 13.5ab 90 Evans 3.3a 15.7a 48.8a 3.9ab 12.9b 96 Myles 3.2a 13.6b 12.5d 5.3a 11.3c 84 Sanford 3.5a 15.9a 17.5cd 3.8b 13.4ab 96 Sierra 3.3a 15.9a 27.5cb 3.8b 13.4ab 96 CA99901604W 2.6a 13.0bc 25bcd 3.7b 13.6a 96 1same letter indicates that means are not significantly different (P < 0.05). Table 2. Plant stand, height, and disease incidence of different chickpea varieties at CBARC, Moro, Oregon, in 2002 and 2003. 2002 2003 Variety Plants/ft2 Plant ht (in) Disease (%) Plants/ft2 Plant ht (in) Maturity (days) Dwelley 2.7a1 12.3a 26.3a 3.7a 12.3a 106 Sinaloa 2.4a 13.3a 25.0a 3.1a 12.0ab 100 Evans 2.4a 12.8a 28.8a 3.7a 12.0ab 106 Myles 2.8a 11.3a 25.0a 3.9a 11.5b 98 Sanford 2.4a 11.5a 21.3a 3.3a 12.3a 106 Sierra 2.8a 13.3a 21.3a 3.0a 12.5a 106 CA99901604W 2.6a 12.4a 25.0a 2.5a 12.4a 106 1same letter indicates that means are not significantly different (P < 0.05). 14",
+      "links": [],
+      "fetched_at": "2026-10-28T06:29:21.694271+00:00",
+      "sha256": "041bdd00b540960f6e00cb314b95d7f893815d9dfe49f44424c29f8675ea18a5",
+      "source_format": "institutional_pdf_text",
+      "source_text_excerpted": false,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+      "requested_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+      "redirect_chain": [
+        "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx"
+      ],
+      "text": "Chickpea Corn Agronomy Wednesday, October 28, 2026 Where science meets the field Search Subscribe Home Season Management Silage Crops Programs Calculators Blog Twitter Distance Diagnosis Silage Drydown Pre-Season Planting Season In-Season Harvest Season Post-Season WI Agriculture Hybrid selection Soil Fertility Management Harvesting/Storage Ensiling Quality and Feeding Economics/Budgets Grains Legume Pulses Oil Seeds Other Research Extension Hybrid Trials PEPS On-Farm Testing Team Grains Team Forage Publications Home | Crops | Legume Pulses | Chickpea Grains Amaranth Barley Buckwheat Comfrey Kochia Millets Oat Popcorn Quinoa Rye Sorghum Spelt Triticale Wheat Wild Rice Legume Pulses Adzuki Bean Castor Bean Chickpea Cowpea Fababean Field Bean Field Pea Guar Hairy Vetch Lentil Lupine Mungbean Peanut Oil Seeds Canola Crambe Flax Jojoba Meadowfoam Mustard Psyllium Safflower Sesame Soybean Sunflower Vernonia Other Canarygrass Cool Season Grasses Ginseng Hop Industrial Hemp Jerusalem Artichoke Kenaf Rutabaga Sugarcane Sugarbeet Turnip Chickpea E. S. Oplinger 1 , L. L. Hardman 2 , E. A. Oelke 2 , A. R. Kaminski 1 , E. E. Schulte 1 , and J. D. Doll 1 1 Departments of Agronomy and Soil Science, College of Agricultural and Life Sciences and Cooperative Extension Service, University of Wisconsin-Madison, WI 53706. 2 Department of Agronomy and Plant Genetics, University of Minnesota, St. Paul, MN 55108. May, 1990. I. History: Chickpea ( Cicer arietinum L.) is an ancient crop that has been grown in India, the Middle East and parts of Africa for many years. It may have been grown in Turkey nearly 7,400 years ago. Much of the world's chickpea supply (80 to 90%) comes from India where poor soil, use of unimproved varieties and low rainfall results in yields averaging about 700 lb/acre. Most of the chickpea acreage in the United States (15,000 acres) is in California (8,000 acres) but certain areas of eastern Washington, parts of Idaho and Montana are now growing this crop successfully. This acreage has been increasing to provide chickpea supplies which formerly came from Mexico, which cut back chickpea production in favor of pinto bean. II. Uses: Chickpea is consumed as a dry pulse crop or as a green vegetable with the former use being most common. Seeds average about 20% protein, 5% fat and 55% carbohydrate. Seeds are sold in markets either dry or canned. Common uses in United States are in soups, vegetable combinations, or as a component of fresh salads in restaurant salad bars. Some livestock feeding trials have been conducted and these show chickpea to be a good source of protein for feeds, except that the amino acids methionine and cystine are deficient. III. Growth Habits: Plants are multiple branched, spreading growth habit annuals ranging from 8 to 40 in. tall. Some chickpea varieties have compound leaves (8 to 20 leaflets) and some have simple leaves, which are pubescent (hairy) in appearance. Chickpea leaves exude malic and oxalic acids. Kabuli (large seeded = 800 seeds/lb) varieties are generally taller than the desi (small-seeded = 1,500 seeds/lb) varieties. Because of its deep tap root system, chickpea can withstand drought conditions by extracting water from deeper in the soil profile. Flowers (self-pollinated) which are borne in groups of two or three are 2 to 1 in. long and come in purple, white, pink or blue color depending upon variety. Each flower produces a short, pubescent pod which is 3/4 to 2 in. long and which appears to be inflated. One or two seeds (2 to 1 in. diameter) are present in each pod. The seeds come with either rough or smooth surfaces and can be creme, yellow, brown, black or green in color. There is a definite groove visible between the cotyledons about two-thirds of the way around the seed, with a beak-like structure present. IV. Environment Requirements: A. Climate: Chickpea is a cool season annual crop performing optimally in 70 to 80 o F daytime temperatures and 64 to 70 o F night temperatures. They produce good yields in drier conditions because of their deep tap root. Heavier rainfall seasons (over 30 in. annually) show reduced yields due to disease outbreaks and stem lodging problems from the excessive vegetative growth. Areas with lighter, well distributed rainfall patterns have produced the highest yield and quality chickpea seed. B. Soil: Chickpea does best on fertile sandy, loam soils with good internal drainage. Good drainage is necessary because even short periods of flooded or waterlogged fields reduce growth and increases susceptibility to root and stem rots. C. Seed Preparation and Germination: Good quality certified chickpea seed should always be used. This seed should be high in germination percentage (over 85%), free of damage, and free of weed seeds. Good quality seed does not need to be treated with an insecticide or fungicide, but if you have had past problems with Pythium or Rhizoctonia rots in your fields you may need to treat your seed prior to planting. Plan to purchase the special strain of nitrogen fixing bacteria required for chickpea if you are planting this crop for the first time in a field. It can be purchased in peat or granular form, the latter type must be used if your seed is fungicide treated. Follow instructions supplied with your inoculant to ensure its proper use. V. Cultural Practice: A. Seedbed Preparation: A firm, smooth seedbed with most of the previous crop residue incorporated is best. This will allow proper depth of planting as well as good seed-soil contact, which is essential for rapid germination and emergence. If moisture is short keep deep preplant tillage to a minimum to prevent excessive drying in the top 2 to 3 in. of soil. B. Seeding Date: Chickpea is a cool season species and is frost tolerant as seedlings so seeds should be planted in early to mid-April when the small grains are planted in the Upper Midwest. Later planting dates result in shorter plants, less yield and late maturity of late formed flowers and pods. Flower and pod abortion rates increase if flowering and pod set coincide with the hottest and driest weather pattern. More research is needed in this area using currently available varieties. C. Method and Rate of Seeding: Chickpeas can be planted at row spacing between 6 in. and 40 in. South Dakota research showed a yield of 2936 lb/acre in 6 in. rows with only 1900 lb/acre yield production in 36 in. rows. Both row spacings had excellent weed control, and a plant population near the recommended rate of 140,000 live seeds planted per acre. Because seed size varies widely, this planting rate in pounds of seed per acre could vary from 75 to 150 lb/acre. Seeds dropped per foot for 6 in. rows should be about 2; for 15 in. rows 4 or 5 and for 36 in. rows about 10. Seeds should be planted 1 to 2 in. deep using a drill or planter which can deliver the chickpea seed without damage. Good seed soil contact should be ensured with a press wheel if possible. Because of the high cost of seed and variation in germination rates you should carefully calibrate your equipment to achieve the proper plant population. D. Fertility and Lime Requirements: Fertility requirements for chickpea in Minnesota and Wisconsin are not well known, but the crop will likely require the amounts of phosphorus, potassium and certain micronutrients which are recommended for other pulse or legume crops in this area. Any fertilizer application should be based on soil test level, previous crop and expected yield level. Soil should be limed to a pH of 6.0 unless a crop with a higher pH requirement is grown in the rotation. Phosphate and potash recommendations based on soil test values are given in Table 1. If roots can be nodulated with the proper strain of Rhizobium , nitrogen fertilizer will not be necessary. Some growers may wish to provide 15 to 30 lbs of nitrogen as a broadcast treatment to enhance early seedling development. Table 1. Phosphate and potash recommendations forchickpeas (2000 to 4000 lb/acre). -----------------Soil test interpretation--------------- Subsoil fert. group* Very low Low Optimum High Very high Excessively High 1 ---------------------lbs P 2 O 5 /acre-------------------- A, B, C 50 45 30 15 -- 0 D, E, X 45 40 30 15 -- 0 O 55 50 30 15 -- 0 ---------------------lbs K 2 O/acre-------------------- A, B, D 120 110 90 45 20 0 C 125 115 90 45 20 0 E, O 110 105 90 45 20 0 1 A small amount of starter fertilizer is recommended for cold soils. *For a description of subsoil fertility groups, see UWEX publication A2809, Soil test recommendations for field, vegetable and fruit crops. Revised, 1990. E. Variety Selection: Specific recent information on chickpea variety performance in Minnesota and Wisconsin is not available. Much variety development and testing has been done in recent years at the USDA-ARS and Washington State University research laboratories at Pullman, Washington; and Idaho Agricultural Experiment Station at Moscow, Idaho and this information is available. During the 1982-84 growing seasons agronomic scientists at South Dakota State University in Brookings tested a large number of lines from the germplasm collections of the International Center for Agricultural Research in Dry Areas (ICARDA) at Aleppo, Syria. The five highest yielding lines were from Syria, Turkey and Spain and were well adapted to South Dakota conditions. Growers should consider maturity, growth habit, seed size and color pattern as well as yield when selecting a variety to grow. Currently large seeded, lighter colored seed types are preferred for soup and salad bar uses. For the latest information on new varieties and seed available contact your local extension office or crop consultant or write to the Universities discussed above. F. Weed Control: 1. Mechanical : Chickpea is not very competitive with weeds so they should be planted only on fields which have few if any major weed problems, especially perennial weeds such as quackgrass and Canada thistle. Rotary hoeing and/or field cultivating in wider row spacings should be used as necessary to control weed populations in chickpea. Early weed competition is more damaging to yield than later emerging weeds. Avoid extensive damage to plants and cultivate when leaves and stems are dry to reduce spread of disease organisms. 2. Chemical : The herbicide metholachlor (Dual) can be applied as a preplant incorporated or preemergence treatment. It gives excellent annual grass and fair to good annual broadleaf control. A rotary hoe could be used in chickpea in the same manner as with soybean. Row cultivation is not practical due to the narrow row spacing. If annual grasses or quackgrass are abundant after the crop emerges, a postemergence application of sethoxydim (Poast) should be considered. Treat when the grasses are 4 to 6 in. tall. A 1 pt/acre rate controls most annual grasses; check the label and select the rate appropriate for your weed species. Always use 1 qt/acre of Dash or a crop oil concentrate when Poast is applied. Chickpea has been grouped on some herbicide labels with other dry pod harvested crops such as field bean or adzuki bean. This could allow use of herbicides cleared in those crops to be used on chickpea. Read labels carefully and seek clarification from the company involved before using any herbicide on your chickpea crop. Be sure to ask a company representative, your extension agent or crop consultant for the most recent information and follow the label directions exactly. Because chickpea is a lesser grown crop in Wisconsin and Minnesota, label clearance from other states may not apply. G. Diseases and Their Control: Ascochyta blight, Rhizoctonia root rot, Pythium rot, Fusarium wilt, white mold, bacterial blight and certain viruses are possible disease problems in production fields of chickpea. These are typical diseases which affect other pulse or legume crops and they are accentuated by periods of high rainfall, high humidity and high temperatures. These are best controlled by using good quality seed, proper crop rotations, proper tillage practices to bury diseased residue and disease resistant varieties if available. Contact your extension agent or crop consultant for identification of disease organisms, threshold value determinations and control or management suggestions. H. Insects and Other Predators and Their Control: Because chickpea leaves, stems and pods are heavily pubescent with glandular hairs that secrete malic and oxidic acid, they suffer little direct damage from aphids and other insects. Several viral diseases (transmitted by aphids) have occasionally been reported in chickpea fields in Washington and Idaho. Seedcorn maggot and wireworms might be expected to cause problems early in the season by attacking the germinating seed and destroying the growing point. If a serious insect problem develops in a field, consult your local Extension office or crop consultant for information about threshold value determinations and recommendations for control. I. Harvesting: Chickpea can be harvested direct or swathed prior to combining depending upon uniformity of maturity and weed problems. About 1 week of good drying weather is required in the swath. Chickpea can be swathed when the plants are yellowing and the pods are their mature color. This should be done when the plants are slightly damp to facilitate forming the swath without yield loss. When the vines, pods and seeds in the windrow are dry enough (seed moisture about 13%) the swath can be combined. Seed color is important (buyers prefer a yellowish-creme color) so greenish and brown seeds are generally unacceptable. Slight bleaching does occur in the swath. About 1% immature color seed is allowed before deductions are implemented. Adjust the combine screen size, cylinder speed, concave clearance and air flow carefully to maintain a quality seed with little physical damage or excessive trash. J. Drying and Storage: Moisture content should be around 10 to 12% to prevent insect and or disease outbreaks in storage. Because of their relatively large seed size, chickpea can be dried slightly with ambient temperature air flow through thin layers in a regular storage bin. Storage system should be carefully fumigated before storing chickpea and all storage areas should be monitored regularly to identify potential problems early. VI. Yield Potential and Performance Results: Research plot data in Washington and Idaho report yields from 1000 to 3500 lb/acre. Similarly managed test plots in South Dakota reported yields of 1700 to over 2500 lb/acre. Growers could likely expect yields of 1800 lb/acre under good field and management conditions. No current data is available for Minnesota and Wisconsin chickpea yields, either from research or production fields. VII. Economics of Production and Markets: Chickpeas can be marketed under contract or sold to brokerage firms at quoted prices. Small seeds, damaged seeds, foreign material, and off color in the seed lot will reduce price. The outlook for chickpea in both domestic and export markets is bright. In 1980, California produced only 25% of the nation's annual requirement of about 17,000 metric tons. Foreign market demand is also good because many countries which use chickpea have shifted acreage to cereal crop production. As with all specialty crops, growers should locate markets, delivery points and negotiate a suitable price before committing major acreage to this crop. VIII. Information Sources: Chickpeas - A Potential Crop for the Midwest. 1986. Bulletin 698. Agriculture Experiment Station South Dakota State University Brookings. Description and Culture of Chickpeas. 1982. Extension Bulletin 1112 Cooperative Extension Service Washington State University. Pullman Washington. Garbanzo Beans - A Potential New Pulse Crop for Idaho. 1982. Bulletin 615. Idaho Agriculture Experiment Station. University of Idaho, Moscow. Grain Legumes as Alternative Crops. 1987. Proceedings of a symposium sponsored by The Center for Alternative Crops and Products. University of Minnesota July 23-24, 1987. 194 pages. The information given in this publication is for educational purposes only. Reference to commercial products or trade names is made with the understanding that no discrimination is intended and no endorsement by the Minnesota or Wisconsin Extension Services is implied. If you would like to subscribe (or unsubscribe) to updates during the growing season, click here . © 1994- 2026",
+      "links": [
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+          "label": ""
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Default.aspx",
+          "label": "Home"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Season/Default.aspx",
+          "label": "Season"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Management/Default.aspx",
+          "label": "Management"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Silage/Default.aspx",
+          "label": "Silage"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Default.aspx",
+          "label": "Crops"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Web/Programs.aspx",
+          "label": "Programs"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Season/DSS.aspx",
+          "label": "Calculators"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Management/L013.aspx",
+          "label": "Pre-Season"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Management/L003.aspx",
+          "label": "Planting Season"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Management/L015.aspx",
+          "label": "In-Season"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Management/L037.aspx",
+          "label": "Harvest Season"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Management/L017.aspx",
+          "label": "Post-Season"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Management/L005.aspx",
+          "label": "WI Agriculture"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Silage/S001.aspx",
+          "label": "Hybrid selection"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Silage/S002.aspx",
+          "label": "Soil Fertility"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Silage/S003.aspx",
+          "label": "Management"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Silage/S004.aspx",
+          "label": "Harvesting/Storage"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Silage/S005.aspx",
+          "label": "Ensiling"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Silage/S006.aspx",
+          "label": "Quality and Feeding"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Silage/S007.aspx",
+          "label": "Economics/Budgets"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Research/Default.aspx",
+          "label": "Research"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Extension/Default.aspx",
+          "label": "Extension"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/HT/Default.aspx",
+          "label": "Hybrid Trials"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/PEPS/Default.aspx",
+          "label": "PEPS"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/OnFarmTesting/Default.aspx",
+          "label": "On-Farm Testing"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Pubs/Default.aspx",
+          "label": "Publications"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Amaranth.aspx",
+          "label": "Amaranth"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Barley/Default.aspx",
+          "label": "Barley"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Buckwheat.aspx",
+          "label": "Buckwheat"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Comfrey.aspx",
+          "label": "Comfrey"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Kochia.aspx",
+          "label": "Kochia"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Millets.aspx",
+          "label": "Millets"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Oat/Default.aspx",
+          "label": "Oat"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Popcorn.aspx",
+          "label": "Popcorn"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Quinoa.aspx",
+          "label": "Quinoa"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Rye/Default.aspx",
+          "label": "Rye"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Sorghum/Default.aspx",
+          "label": "Sorghum"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Spelt.aspx",
+          "label": "Spelt"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Triticale/Default.aspx",
+          "label": "Triticale"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Wheat/Default.aspx",
+          "label": "Wheat"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/WildRice.aspx",
+          "label": "Wild Rice"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/AdzukiBean.aspx",
+          "label": "Adzuki Bean"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/CastorBean.aspx",
+          "label": "Castor Bean"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Cowpea.aspx",
+          "label": "Cowpea"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Fababean.aspx",
+          "label": "Fababean"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/FieldBean.aspx",
+          "label": "Field Bean"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/FieldPea.aspx",
+          "label": "Field Pea"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Guar.aspx",
+          "label": "Guar"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/HairyVetch.aspx",
+          "label": "Hairy Vetch"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Lentil.aspx",
+          "label": "Lentil"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Lupine.aspx",
+          "label": "Lupine"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Mungbean.aspx",
+          "label": "Mungbean"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Peanut.aspx",
+          "label": "Peanut"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Canola.aspx",
+          "label": "Canola"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Crambe.aspx",
+          "label": "Crambe"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Flax.aspx",
+          "label": "Flax"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Jojoba.aspx",
+          "label": "Jojoba"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Meadowfoam.aspx",
+          "label": "Meadowfoam"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Mustard.aspx",
+          "label": "Mustard"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Psyllium.aspx",
+          "label": "Psyllium"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Safflower.aspx",
+          "label": "Safflower"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Sesame.aspx",
+          "label": "Sesame"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Soybean/Default.aspx",
+          "label": "Soybean"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Sunflower.aspx",
+          "label": "Sunflower"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Vernonia.aspx",
+          "label": "Vernonia"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Canarygrass.aspx",
+          "label": "Canarygrass"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/CoolSeasonGrass.aspx",
+          "label": "Cool Season Grasses"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Ginseng.aspx",
+          "label": "Ginseng"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Hop.aspx",
+          "label": "Hop"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/IndustrialHemp.aspx",
+          "label": "Industrial Hemp"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/JerusalemArtichoke.aspx",
+          "label": "Jerusalem Artichoke"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Kenaf.aspx",
+          "label": "Kenaf"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Rutabaga.aspx",
+          "label": "Rutabaga"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/SugarCane.pdf",
+          "label": "Sugarcane"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Sugarbeet.aspx",
+          "label": "Sugarbeet"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Turnip.aspx",
+          "label": "Turnip"
+        }
+      ],
+      "fetched_at": "2026-10-28T06:29:21.589490+00:00",
+      "sha256": "26736368bbd771f380b0508cd2a5c29bfef7be7d8d29dc3aa3c46be8cc0c6816",
+      "source_format": "institutional_html",
+      "source_text_excerpted": false,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    },
+    {
+      "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf",
+      "requested_url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf",
+      "redirect_chain": [
+        "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf"
+      ],
+      "text": "[page 1] TABLE 1. Chickpea production (1,000 of harvested acres) since 2012 in the U.S. (3). Location 2012 2013 2014 2015 2016 Idaho 75.6 77.5 73.0 69.0 90.0 Montana 22.6 17.7 31.2 40.6 96.0 Washington 79.5 96.5 89.0 74.0 107.4 US Total 206.3 218.6 212.1 202.3 320.0 For More Online MontGuides, Visit www.msuextension.org MontGuide MT201703AG New 6/17 Chickpea Production by Kent A McVay, Extension Cropping Systems Specialist; Prashant Jha, Weed Scientist; and Frankie Crutcher, Plant Pathologist, Department of Research Centers, Montana State University Chickpea (Cicer arietinum L.) is an annual grain legume or ‘pulse crop’ sold as human food. Commercial types include large Kabuli, small Kabuli, and Desi. Chickpea production has significantly increased in the U.S. over the past 5 years with 96,000 acres harvested in Montana in 2016 and with acreage projected to increase. Introduction Chickpea (Cicer arietinum L.) is an annual grain legume or ‘pulse crop’ sold as human food. Commercial types include large Kabuli, small Kabuli, and Desi. The Kabuli type (also known as garbanzo bean) contains small to large seeded varieties, has a rounded seed and a cream-colored seed coat. These are often made into snacks, ground into hummus, or canned whole for the salad market. The less commonly grown Desi type are smaller (nominally 1500 seed/lb) angular seeds with yellow to brown corticated (hard) seed coats. There are also red, dark green, and black varieties. Desi chickpea is usually prepared for consumption by dehulling and splitting, or dehulling and grinding into flour, while small Kabuli types may be processed into flour without dehulling. Chickpea is native to the Mediterranean region and is a major ingredient of many Middle Eastern, Mediterranean, and Indian dishes, such as hummus, falafel, curry, and dal. Chickpea is beneficial to a healthy diet. For example a half-cup serving provides 7 g of protein (10% of our daily requirement) and 6 g of fiber (20% of our daily requirement)(1). World Production The majority of this crop is grown overseas with India producing and consuming the most (Figure 1). The U.S. produces only 1% of the world total. Still, chickpea production has significantly increased in the U.S. over the past 5 years (Table 1) with 96,000 acres harvested in Montana in 2016 and with acreage projected to increase in the future. Montana accounts for a large percentage of the U.S. increase from 2001 to 2016 where chickpea acreage grew from 134,000 to 320,000 acres. Growth habit Chickpea develops a taproot and lateral roots to a depth of about 30 inches. The plant has an indeterminate growth habit which allows plants to develop new leaves after flowering has begun. Typically, chickpea growth and development is terminated by some form of environmental stress, such as drought or extreme heat. Late season rains can cause plants that appear to have gone dormant to resume development including flowering and seed set, complicating harvest management. Chemical desiccation to terminate growth is often necessary. Mature plants will be 15-30 inches tall, heavily branched, appearing as small bushes. Optimally, there will be 1-2 seeds per pod. A greater number of seeds per pod typically leads to smaller seed size at maturity. Kabuli chickpea usually matures in 110 to 120 days. Desi type will mature somewhat earlier. FIGURE 1. India dominates in World chickpea production. The U.S. production of approximately 125,000 metric tons is approximately 1% of world annual production (2). IndiaAustralia Turkey Pakistan Myanmar Ethiopia WORLD CHICKPEA PRODUCTION 13,741,001 TONNES (AVG 2010-2014) IndiaAustralia Turkey Pakistan Myanmar Ethiopia WORLD CHICKPEA PRODUCTION 13,741,001 TONNES (AVG 2010-2014) [page 2] 2 Chickpea germinates similar to dry pea with the seed coat and cotyledons remaining below ground (hypogeal germination). Developing plants will have 1-2 scale nodes on the stem just below the soil surface. These nodes serve as points of regrowth if the seedling is damaged (a late frost for example). On average, a new node (leaf) is produced every 3 to 4 days. Yield potential and markets Statewide variety trials conducted at the MSU Research Centers for the past five years show yields averaging over 1500 lb/acre (Table 2) across all varieties. Areas around Corvallis and Sidney have shown more stable production across varieties but yields in Conrad have been superior to other locations in the state. Irrigated production at Huntley shows promise with a trial average of more than 3000 lb/acre. Varieties Most Montana producers contract with a company to grow a specific variety prior to planting although some open market options are available. Results of statewide variety trials indicate a yield potential between 850 and 3000 lb/ acre under dryland conditions. Variability in yield is high due to environmental factors like hail, disease incidence, and drought. Irrigated production in Huntley has greater yields as compared to dryland with minimal additional water (2-3 inches per season). Irrigating too often can lead to high disease incidence and enhanced indeterminate flowering and maturity resulting in poor quality. The better performing varieties in these trials have been those from Canada, with Frontier and Orion leading the list (Table 3). Myles has been the only Desi type tested and has performed consistently well over the past 5 years. Prices for Kabuli types are driven by quality factors such as color, consistency, and number of split seeds, but the main factor for price is seed size with larger diameter seeds being premium. For example, at this writing 9 mm diameter Kabuli seed was priced at 35 cents/lb while 8 mm was 26 cents/ lb at Great Falls. For seed sizes less than 7 mm diameter there is often no market or only a nominal price for the seed. The largest input cost for chickpea production is typically seed cost, although if disease pressure becomes an issue, multiple applications of fungicides can add significantly to input costs. Because of the threat of disease, and the risk of poor quality due to bleaching, uneven color, or harvest damage, chickpea is a high maintenance crop requiring constant monitoring and field scouting. Proper grain handling after harvest is also critical to maintaining a high quality food product which is destined for human consumption. Climate Chickpea is a cool season crop that grows best when daytime temperatures are between 70 and 84 °F , and nighttime temperatures are between 64 and 70 °F . The crop does well in regions with 6-10 inches of growing season precipitation. T emperatures above 98 °F can cause stress during early flowering and pod development, resulting in reduced yields. But chickpea performs better than dry pea and lentil under heat and drought stress. Chickpea as a crop is somewhat drought tolerant. Cultural Practices Soil Chickpea grows best on well drained soils with a neutral pH. It is not well adapted to saline soils and does not tolerate wet or waterlogged soils. Chickpea can be successfully grown in a wide range of soil types. TABLE 2. Trial yield means (lb/acre) for chickpeas at locations across Montana, 2011-2016 (4, 5). Environment Location Yield C.V. (%) Obs. Dryland Bozeman 1213 37 13 Conrad 2603 50 27 Corvallis 1368 27 24 Huntley 919 52 8 Moccasin 1123 36 52 Richland 1138 82 61 Sidney 3168 23 8 Irrigated Huntley 3076 30 20 Note: Trial entries varied but averaged 11 kabuli and 1 desi variety each year. n/a = not applicable. C.V . = coefficient of variation over years and varieties. Obs. = number of observations TABLE 3. Chickpea yields in dryland statewide variety trials, Montana (4,5). Variety Class 2011 2012 2013 2014 2015 2016 Avg CDC Alma Kabuli 1386 2236 745 1784 1538 CDC Frontier Kabuli 1714 1608 2258 929 1511 2705 1788 CDC Orion Kabuli 1617 2329 837 1602 1687 1614 Myles Desi 1519 1307 1640 1090 1280 2144 1497 Sawyer Kabuli 1514 1029 1049 1083 1650 1265 Sierra Kabuli 1219 815 1066 1509 1152 Note: Not all varieties were present in each location every year. Locations included Bozeman, Conrad, Corvallis, Huntley, Moccasin, Richland, and Sidney MT . [page 3] 3 Field selection Choose fields that are fairly weed free and without troublesome perennial weeds such as bindweed or Canada thistle since herbicide options are few and the growth habit of chickpea allows light to penetrate the canopy to the benefit of weeds. Crop disease risks limit the recommended frequency of chickpea production to no more than 1 in 3 years (and less often is likely better). This restriction also applies to bordering fields to reduce the risk from disease organisms that can infect a new chickpea crop. Seed preparation Fungicide treatments (see Disease Control section for details) should be applied to the seed first and allowed to dry prior to mixing with inoculum. Follow all label instructions for the agricultural chemical selected. Inoculants are specific to each plant species. For chickpea the inoculant species needed is Mesorhizobium cicero or M. mediterraneum. Check the inoculant label for either of these names or that the label specifically lists the crop being planted (chickpea may be listed as garbanzo). Some inoculants are actually mixtures that contain several different species. Rhizobium bacteria (either on the seed or in the package) die when exposed to high temperatures, drying winds, or direct sunlight. Inoculant must be stored in a cool place and should be used before the expiration date. Never mix inoculant with granular fertilizer as inoculants are quite sensitive to high salt content. Banding fertilizer away from seed is recommended. Check the label of both the inoculant and the seed treatment for compatibility. Generally it is advisable to inoculate seed the day of seeding. Granular inoculants are less affected by dry seedbeds and seed-applied fungicides than other forms of inoculants. All inoculant formulations will perform equally well if properly applied and environmental conditions are ideal. But under adverse conditions the best performing formulation is granular, followed by peat, and then liquid. Seedbed preparation For no-till operations, an even distribution of previous crop residue helps in establishing a uniform population. Weeds must be killed prior to planting. This can be accomplished with a labeled application of glyphosate which should be applied 1 or 2 weeks prior to seeding. In tilled systems, the seedbed should be free of most residue, finely worked with no large clods or aggregates. Rolling to push down rocks is not necessary for chickpea management as the growth habit of chickpea is more upright than peas or lentils and seeds are set higher on the plant. If you are rolling a field, do so prior to seed emergence as newly emerged stems can be broken. Seeding rate and date A final minimum population of 4 plants/ft2 or 175,000 plants/acre should be targeted. Due to their thin seed coats and large size, garbanzo seed can easily be damaged or split during processing and planting resulting in field survival values of only 70-80%. Seed size varies significantly across different types so adjust seeding rates for seeds/lb, germination percentage, and field survival. Large Kabuli seed rates can be as high as 200 to 250 lb/a in order to achieve the target population. Because of the high seed cost per acre, consider custom planting if there isn't a suitable drill available. Row spacing should be between 6 and 12 inches. Narrow rows provide an increased level of competition against weeds. Plant chickpea within a week or two of the optimum date for local seeding of spring wheat. Early seeding dates improve yield potential because plants flower prior to the heat of summer. But very early planting also runs the risk of frost damage to emerged plants. If frost or other damage occurs new growth can initiate from the scale nodes just below the soil surface but yield potential is usually reduced. Crop rotation Small grains like wheat and barley have greater overall disease resistance than pulse crops which lowers risk to bacterial and fungal disease infections. Pulse crops such as chickpea have disappeared from production in areas once certain disease organisms (namely, Ascochyta blight) become established. Since many disease organisms survive on plant residue, a break in pulse crop production of three or more years provides enough time for pulse residue to completely disappear which is good management for long- term production of this crop. Small grains complement pulse crops by providing a bed of straw and residue in which to plant. Standing straw encourages upright growth, higher seed set, and is effective in minimizing evaporation while conserving precipitation for use by the pulse crop. CHOOSING AN INOCULANT Peat powder inoculant: Applied directly to the seed with a non-toxic sticking agent. This formulation is a finely ground peat that contains over a billion rhizobia per gram. Peat powder inoculant is one of the most common types. Liquid inoculant: This formulation also contains over a billion rhizobia per gram and is applied directly to the seed. Because it comes in liquid form, a sticking agent is typically included in the fluid. Liquid inoculant comes in bags that make it easy to distribute evenly onto the seed while it is being loaded into a truck box or grain drill. Granular soil inoculant: Unlike peat powder or liquid inoculants, granular soil inoculant is not applied directly to the seed but rather, with the seed in the seed row. This formulation does however contain the same amount of rhizobia as both the powder and liquid inoculants and is popular because of its convenience and increased reliability. Since it is delivered separate from the seed, the drill must have a separate metering system. [page 4] 4 The effective rooting depth of chickpea is no more than 30 inches and the crop uses water mostly from the top 12 inches of soil (6). Chickpea is a full-season crop that will continue to grow into August or even early September in many Montana locations. Depending on precipitation recharge in late summer, it may be difficult to follow chickpea with winter wheat. A spring crop (wheat, barley, canola, flax) may be a better choice to follow chickpea. The crop the year following could be winter wheat or any of the spring crops just listed, prior to returning to chickpea in the rotation. Chickpea would benefit from a fallow period before planting, but since it accesses only the top 30 inches of soil for water, it might not be the best overall candidate after fallow. Chickpea stubble creates a dark surface which helps warm soils in the spring often permitting earlier seeding as compared to wheat stubble. Fertility Chickpea needs approximately 60 lb nitrogen (N) for every 1000 lb of grain produced (7). Normally about 70% or more of the N in the plant comes through biological fixation, with the remainder supplied through the soil as nitrate mineralized from organic matter or from starter fertilizer. Nodules should develop within a few weeks of plant emergence, and are healthy and working to fix N if they are pink on the inside. When plants fail to nodulate or nodulate weakly, N deficiency will begin to occur as available N from the soil is exhausted. Soils rich in N may actually reduce nodulation leading to longer periods of vegetative growth with delayed flowering and seed set. Phosphorus (P2O5) and potassium (K2O) are important for healthy chickpea growth and should be applied based on soil tests. There is little information on sulfur (S) fertility for chickpea, but if soils are shallow or of lighter texture, S application should be considered. A sulfate source is preferred rather than elemental S for current year fertility. Chickpea is very sensitive to salt and germination rates can be reduced in the presence of fertilizer. Starter fertilizer applications with the seed should not exceed a total of 15 lb of K2O + N per acre. Weed Management Chickpea is a poor competitor with weeds at all stages of growth. Slow growth during the seedling stages, in addition to an open canopy architecture and low growth nature of chickpea plants, reduces its ability to compete with weeds. Producers have identified weed control as a major challenge to profitable chickpea production. Crop rotation and field selection are cultural methods that should be used as part of an integrated weed management program. Cultural weed control begins with avoidance. Avoid fields where perennial and annual broadleaf weeds are a major problem. A greater intensity of weed control will be required in the rotational crops (e.g. wheat) and the non-crop periods to reduce weed density in the chickpea crop due to the poor crop competition provided by chickpeas and the few herbicides available for use in the crop. More intensive weed control in rotational crops coming out of chickpeas is also needed to compensate for the heavy weed seed production which can occur in the chickpea crop. Kochia, Russian thistle, wild mustard, wild buckwheat, common lambsquarters, and nightshade species are the most problematic weeds in chickpea, and can cause season- long interference and problems for direct-harvesting. Generally, the earlier emerging weeds including kochia, Russian thistle, common lambsquarters, and wild oat are the most competitive to chickpea. However, some weeds will continue to emerge throughout the growing season, especially warm-season annuals such as green foxtail (pigeongrass), wild proso millet, hairy nightshade, common purslane, and pigweeds, and may be favored by delayed seeding. In the semi-arid dryland wheat-pulse rotations, carry-over concerns from Group 2 and 4 herbicides used in wheat needs serious consideration to avoid chickpea injury and yield reductions (Table 4). The weed control program in chickpea is comprised mostly of pre-emergence (soil-residual) herbicides. Among post-emergence herbicides, quizalafop (Assure II), sethoxydim (Poast), and clethodim (Select or Select Max) can be used effectively for grass weed control (Table 5). These herbicides are foliar active, and a good spray coverage is essential. A pre-plant or pre-emergence application of glyphosate (Roundup or other generics) can be used to keep fields clean by controlling emerged weeds and volunteer cereals prior to chickpea planting. There has been some research conducted at MSU that indicates fall burndown (in combination with soil-residual herbicides mentioned below and in Table 5) TABLE 4. Minimum herbicide rotational intervals for chickpea in Montana. Herbicide Plant-back interval (months) Ally extra 22 Everest 2.0 11/18* Starane Flex 9 Powerflex 9 Goldsky 9 Orion 9 Olympus 10 Osprey 3 Rimfire Max 10** Huskie 9 Curtail 18** Stinger 18** Widematch 18** Tordon 36** *11 months for soil pH < 8.0; 18 months for soil pH ≥ 8.0 **Conduct in-field crop bioassay prior to planting to ensure that soil residues have declined to a safe level. [page 5] 5 may be more effective than spring burndown applications. Saflufenacil (Sharpen) can be used as a pre-plant/pre- emergence burndown herbicide in chickpea, especially for glyphosate-resistant kochia, Russian thistle, or marestail (horseweed) control. MSU research suggests that these glyphosate-resistant weeds are an increasing concern in wheat-pulse rotations in Montana, and proactive herbicide resistance management programs should be implemented. Furthermore, Group 2 resistance in kochia and Russian thistle is widespread in Montana production fields. Do not apply saflufenacil (Sharpen) when chickpea has reached ground-crack stage, or after emergence, because severe crop injury will occur. T roublesome broadleaf weeds like kochia and Russian thistle can be controlled in chickpea with sulfentrazone (Spartan). Sulfentrazone applied pre- emergence in chickpea is very effective on kochia and Russian thistle, while higher rates of this herbicide may be needed to control wild buckwheat. Sulfentrazone can be applied from up to 30 days prior to planting to 3 days after planting. Soil factors such as pH, texture, and organic matter content affect sulfentrazone activity in soils. A burndown herbicide like glyphosate may be tank mixed with sulfentrazone if broadleaf or grass weeds have emerged before planting. T rifluralin (T reflan), ethalfluralin (Sonalan) and pendimethalin (Prowl) incorporated pre-plant or pre- emergence will control certain broadleaf weeds plus foxtail and barnyardgrass, but not wild oat or quackgrass. Imazethapyr (Pursuit) can be incorporated pre-plant or applied pre-emergence with pendimethalin to control certain broadleaf weeds such as Russian thistle, wild buckwheat, and mustards. However, imazethapyr will not control ALS-resistant kochia or Russian thistle, which are widespread in Montana, and there may be a potential risk TABLE 5. Herbicides labeled for use in chickpea in Montana. Herbicide* Application Timing Product Rate per acre Weeds Remarks Assure II (Quizalofop) POST 7 to 12 fl oz Annual grasses and quackgrass Apply oil adjuvant at 1% v/vPoast POST Annual grasses Select Max (Clethodim) POST 9 to 16 fl oz/a Annual grasses and quackgrass Dual (Metolachlor) PPI, PRE 1 -2 pt Grasses (not wild oat), some broadleaf weeds PPI improves activity Outlook (Dimethenamid-P) PPI, PRE 16 to 21 fl oz Grasses and some broadleaf weeds PPI improves activity, PRE requires precipitation to activate. Prowl (Pendimethalin) PPI. Fall or spring 1.75 – 3.6 pt 3.3 EC; 1.5 to 3 pt 3.8 ASC Grass (not wild oat) and some broadleaf weeds Adjust rate to soil type Treflan (Trifluralin) PPI 1 – 2 pt5 – 10 lb 10 G Some annual grass and broadleaf weeds Adjust rate to soil type Sonalan (ethalfluranlin) PPI Fall or Spring 1.5 – 2 pt5.5 – 7.5 lb 10 G Some annual grass and broadleaf weeds Adjust rate to soil type Spartan (Sulfentrazone) PPI, PRE 2 – 5.33 oz Kochia, Russian thistle, common lambsquarters, pigweed, suppress buckwheat Adjust rate to soil type and OMSpartan charge (Carfentrazone and sulfentrazone) 3.75 to 7.75 fl oz Sharpen (Saflufenacil) PPI, PRE 1 to 2 fl oz Burndown control of emerged broadleaf weeds Apply with MSO and AMS/UAN Roundup (Glyphosate) PRE-HARVEST up to 2.25 lb ae Harvest aid and weed desiccant Apply with AMS at 8.5 lb/100 gal. Do not apply on crop grown for seed. Allow a 7-day PHI Gramoxone (Paraquat) PRE-HARVEST 1.5 to pt 2SL Harvest aid and weed desiccant Apply with NIS or COC. Allow a 7-day PHI Sharpen (saflufenacil) PRE-HARVEST (at least 80% yellow/brown pods and no more than 40% of leaves still green) 1 to 2 fl oz Harvest aid and weed desiccant Apply with MSO and AMS or UAN Allow a 2-day PHI Valor PRE-HARVEST (at least 80% yellow/brown pods and no more than 40% of leaves still green) 2 to 3 oz Harvest aid and weed desiccant Apply with MSOAllow a 5-day PHI *Refer to the herbicide label for complete information on herbicide use and rotational restrictions. [page 6] 6 of crop injury. Check the label for herbicide application rate, timing, and rotational restrictions. Research conducted at MSU suggest that a pre-emergence application of pendimethalin tank-mixed with dimethenamid-P (Outlook) can provide acceptable weed control in chickpea depending on soil moisture. If weeds are present at harvest time, glyphosate (Roundup or other generics), paraquat (Gramoxone), saflufenacil (Sharpen), and flumioxazin (Valor) can be used for chickpea and weed desiccation. Do not apply glyphosate or saflufenacil to chickpea grown for seed because reduced germination/vigor may occur. Use only registered formulations and follow the application timing and pre- harvest interval (PHI) as per the herbicide label. Follow precautions while using paraquat, since it is very toxic if ingested. Disease Control Ascochtya Blight Ascochyta blight, caused by the fungus Aschochyta rabiei, is the most significant challenge in the production of chickpeas in the Northern Plains and around the world. Growers in the past have experienced complete y",
+      "links": [],
+      "fetched_at": "2026-10-28T06:29:22.493118+00:00",
+      "sha256": "c721ebcbe375eae3e86921455676a51cc30d7157534a51ab9fe1678f2a5f13e2",
+      "source_format": "institutional_pdf_text",
+      "source_text_excerpted": true,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/",
+      "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453",
+      "redirect_chain": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/"
+      ],
+      "text": "[table row] ExGR (Excess Green minus Excess Red Index) | Definition: (3g-2.4r-b) [table row] ExGR (Excess Green minus Excess Red Index) | FVC: 24.52% [table row] ExGR (Excess Green minus Excess Red Index) | Reference: [ 33 ] [table row] ExG (Excess Green Index) | Definition: 2g-r-b [table row] ExG (Excess Green Index) | FVC: 17.48% [table row] ExG (Excess Green Index) | Reference: [ 34 ] [table row] WI (Woebbecke index) | Definition: (g-b)/(r-g) [table row] WI (Woebbecke index) | FVC: 15.75% [table row] WI (Woebbecke index) | Reference: [ 34 ] Methodology for optimizing quadrat size in sparse vegetation surveys: A desert case study from the Tarim Basin - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice PLoS One . 2020 Aug 26;15(8):e0235469. doi: 10.1371/journal.pone.0235469 Methodology for optimizing quadrat size in sparse vegetation surveys: A desert case study from the Tarim Basin Li Hao Li Hao 1 College of Resources and Environment Science, Xinjiang University, Urumqi, China 2 Institute of Arid Ecology and Environment, Xinjiang University, Urumqi, China 3 Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, China Conceptualization, Data curation, Formal analysis, Methodology, Software, Validation, Writing – original draft Find articles by Li Hao 1, 2, 3 , Shi Qingdong Shi Qingdong 1 College of Resources and Environment Science, Xinjiang University, Urumqi, China 2 Institute of Arid Ecology and Environment, Xinjiang University, Urumqi, China 3 Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, China Conceptualization, Funding acquisition, Project administration, Resources, Supervision Find articles by Shi Qingdong 1, 2, 3, * , Bilal Imin Bilal Imin 1 College of Resources and Environment Science, Xinjiang University, Urumqi, China 2 Institute of Arid Ecology and Environment, Xinjiang University, Urumqi, China 3 Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, China Investigation, Visualization Find articles by Bilal Imin 1, 2, 3 , Nijat Kasim Nijat Kasim 4 College of Biology and Geography Sciences, Yili Normal University, Yining, China Investigation, Software Find articles by Nijat Kasim 4 Editor: Wang Li 5 Author information Article notes Copyright and License information 1 College of Resources and Environment Science, Xinjiang University, Urumqi, China 2 Institute of Arid Ecology and Environment, Xinjiang University, Urumqi, China 3 Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, China 4 College of Biology and Geography Sciences, Yili Normal University, Yining, China 5 Areospace Information Research Institute Chinese Academy of Sciences, CHINA Competing Interests: The authors have declared that no competing interests exist. ✉ * E-mail: 526671732@qq.com Roles Li Hao : Conceptualization, Data curation, Formal analysis, Methodology, Software, Validation, Writing – original draft Shi Qingdong : Conceptualization, Funding acquisition, Project administration, Resources, Supervision Bilal Imin : Investigation, Visualization Nijat Kasim : Investigation, Software Wang Li : Editor Received 2020 Apr 14; Accepted 2020 Jun 16; Collection date 2020. © 2020 Hao et al This is an open access article distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. PMC Copyright notice PMCID: PMC7449453 PMID: 32845880 Abstract Random sampling is an important approach to field vegetation surveys. However, sampling surveys in desert areas are difficult because determining an appropriate quadrat size that represent the sparse and unevenly distributed vegetation is challenging. In this study, we present a methodology for quadrat size optimization based on low-altitude high-precision unmanned aerial vehicle (UAV) images. Using the Daliyaboyi Oasis as our study area, we simulated random sampling and analyzed the frequency distribution and variation in the fractional vegetation cover (FVC) index of the samples. Our results show that quadrats of 50 m × 50 m size are the most representative for sampling surveys in this location. The method exploits UAV technology to rapidly acquire vegetation information and overcomes the shortcomings of traditional methods that rely on labor-intensive fieldwork to collect species-area relationship (SAR) data. Our method presents two major advantages: (1) speed and efficiency stemming from the application of UAV, which also effectively overcomes the difficulties posed in vegetation surveys by the challenging desert climate and terrain; (2) the large sample size enabled by the use of a sampling simulation. Our methodology is thus highly suitable for selecting the optimal quadrat size and making accurate estimates, and can improve the efficiency and accuracy of field vegetation sampling surveys. 1. Introduction Random sampling survey is one of the most important methods for conducting ecological research; it is widely used in studies of plant species diversity, species association analysis, vegetation spatial pattern research, biomass estimation, and other areas [ 1 – 3 ]. In field vegetation surveys, especially in large-scale comprehensive surveys, the use of a single quadrat size is both convenient and effective; this approach is thus widely used in field vegetation surveys [ 4 , 5 ]. The concept of spatial scale is among the most fundamental concepts in ecological research, making quadrat size a vital component of field survey design [ 6 – 8 ]. No model can adequately explain the details of an ecosystem if it ignores spatial scale; such an oversight can introduce wrong characteristics into the system description [ 9 , 10 ]. Sampling surveys can obtain detailed quantitative descriptions of vegetation characteristics, but an unsuitable sampling design can significantly limit the validity and usefulness of field survey data [ 11 ]. Generally, high-frequency and low-variance sampling approaches are considered the most representative in statistics [ 12 ]. Quadrat size affects the frequency distribution and the variance of samples, and thus has an impact on whether the sample is considered representative [ 13 ]. Different quadrat sizes result in different sample characteristics and different population estimates [ 14 ]. As a result of spatial heterogeneity, any adjustment of the quadrat size in a given study design strongly modifies the variance of the samples. Some studies have shown a nonlinear relationship between quadrat area and sample variance. Research on pasture crops shows that increasing quadrat area can effectively suppress the variance of samples, reducing it by 68% or more [ 12 ]. Another study also showed that the use of large quadrats can compensate for the spatial heterogeneity of a small area [ 10 ]. Although enlarging quadrat size can reduce the variance of the samples, a larger quadrat area may not be a better sampling design [ 15 ]. It is important to determine the optimal quadrat size based on the features of the study area and the limitations imposed by climate, terrain, and available labor [ 16 ]. Although this is an important issue, research on the optimal quadrat size is scarce. Currently, most methods use the frequency of species as the key indicator for determining the appropriate quadrat size, but this method is not without its limitations, particularly in desert areas. The species-area relationship (SAR) is one of the general methods; when the SAR is used, the species-area curve is drawn on the basis of field survey data, and the inflection point of the curve is taken as the quadrat size. It is generally believed that a quadrat should cover 63%–86% of the species in the survey area; for areas with fewer species, some researchers consider 20% to be a reasonable lower limit [ 17 ]. However, the application of the SAR method in desert areas has a few limitations: (1) additional fieldwork is required to collect data for drawing the SAR curve, which is problematic due to the difficulty of conducting fieldwork in such challenging locations; (2) as a rule, desert vegetation is distributed in patches and has high spatial heterogeneity [ 5 ], which increases the variation in the samples and results in reduced robustness of the sampling surveys [ 8 , 18 ]; (3) the occurrence of extrema may present a problem. Overall, deserts have fewer plant species than other habitats and their clustering can skew the calculation and result in a quadrat size that is too large or too small. Furthermore, Populus euphratica is an important dominant desert species, widely distributed in Xinjiang, north-western China; it plays an indispensable role in protecting oasis ecosystems [ 19 ]. Several studies on Populus euphratica populations have been carried out on the basis of field-measured data, but the basic and important issue of choosing the optimal quadrat size for field surveys has remained unaddressed. Frequently, the choice of quadrat size relies on the subjective experiences of the researchers, and the question of whether it is appropriate is rarely asked. This can result in the negative effects of an inappropriate quadrat size on sampling results being ignored. Fractional vegetation cover (FVC) is a comprehensive parameter used to characterize the extent of land surface vegetation cover [ 20 – 22 ]. FVC is especially useful in desert areas, where it is often used as an effective indicator of desertification due to its ability to reflect spatial vegetation patterns. Thus, from an ecological perspective, the adoption of the FVC index is useful in desert areas for determining the optimal quadrat size for vegetation surveys. In summary, the sampling design of vegetation surveys in sparse desert areas faces difficulties in determining the appropriate quadrat size. Our study aimed to solve this problem by proposing a new methodology for quadrat size optimization in desert areas. Our methodology consists of three steps: (1) simulating random sampling via the Monte Carlo method using low-altitude unmanned aerial vehicle (UAV) images to establish sample sets; (2) calculating the FVC of the sample sets; and (3) analyzing the frequency distribution and the variation of FVC to determine the optimal quadrat size. 2. Materials and methods 2.1 Study area We selected the Daliyaboyi Oasis as our study area, located in Xinjiang Province in the northwest of China (38°16′–38°37′N, 81°05′–81°46′E), as it is representative of a desert ecosystem [ 23 , 24 ]. After flowing more than 200 km through the Taklimakan Desert, the Keriya River, originating in the south of the Kunlun Mountains, forms the natural Daliyaboyi Oasis. The core area of the oasis is 324 km 2 [ 25 ], the annual average precipitation is less than 10 mm [ 26 ], the weather is dominated by dust storms and floating dust, the vegetation composition is dominated by Populus euphratica and Tamarix chinensis [ 23 ]. Due to the lack of industrial and agricultural activities, the oasis is very rarely disturbed by human activities [ 27 ]. The study area is our field observation and research station for desert vegetation, and no permission is required to enter the field site to perform field vegetation surveys. 2.2 Collection and preprocessing of UAV images Data were collected in July 2018, using the DJI Phantom 4 UAV. The heading and lateral overlap ratio was set to 80%, the flight height was approximately 60 m, and the imaging focal length was 4 mm. The Pix4D software was used for correction and stitching processing. After stitching the images, the spatial resolution was 0.026 m. 2.3 Simulation of random sampling Generally, the quadrat size used in field vegetation surveys is less than 100 m × 100 m. Therefore, we selected seven typical 100 m × 100 m plots for the random sampling simulation ( Fig 1 ). The simulation of random sampling was performed by cropping a number of fixed-size pictures from the UAV images of the test plots. We used the cropping tool Extract with the cropping method set to the random mode; this causes the software to apply the Monte Carlo method to generate random numbers that determine the cropping positions. In this procedure, the process of random cropping can be regarded as a random sampling process, and the size of the cropped pictures can be regarded as the quadrat size, while the number of pictures obtained by cropping is the sample size ( Fig 2 ). Fig 1. The study site. Open in a new tab (A) The study site location: Daliyaboyi Oasis, Yutian county, Xinjiang Province, China. (B) Test plot locations. The background image is a Landsat OLI scene acquired on July 23, 2018 and cropped to our study area, presented with a band combination of 4/3/2. (C) Unmanned Aerial Vehicle (UAV) image of plot G. The image was acquired using a DJI Phantom 4 UAV on July 19, 2018 and preprocessed with Pix4D. Fig 2. Flowchart of the study methodology. Open in a new tab A software named Extract is used to repeatedly (500 times) randomly crop a fixed-size (quadrat size) subplot from the test image to simulate random sampling. We had seven UAV images (100 m × 100 m) that corresponded to seven different test plots ( Fig 1 ). For each test plot, six sample sets were created with the following quadrat sizes: 10 m × 10 m, 20 m × 20 m, 30 m × 30 m, 40 m × 40 m, 50 m × 50 m, and 60 m × 60 m; the sample size of every set was 500. 2.4 Calculation of the sample FVC Thereafter, we calculated the FVC under different quadrat sizes and counted the distribution frequency. We used the vegetation index threshold method with IDL software version 8.5 to calculate the FVC of the samples in batches. There are various methods for estimating the FVC from low-altitude high-precision UAV RGB images; we chose the vegetation index threshold method due to its clear meaning and simple steps. Low-altitude UAV images have a high spatial resolution that can reach sub-centimeter levels. There are very few mixed pixels in the images, so they can be regarded as pure pixels; this means that a single pixel only belongs to one ground object category—either vegetation or non-vegetation [ 28 ]. Therefore, the FVC can be quickly estimated using the threshold method to distinguish vegetation pixels and non-vegetation pixels after calculating the vegetation index with UAV images. In addition, the vegetation index threshold method is simple and effective as it is highly automated. The IDL software can be used to calculate the FVC in batches, which meets the study demands when large quantities are required. 2.4.1 Threshold segmentation method The threshold segmentation method known as the Otsu method (named after the Japanese researcher Nobuyuki Otsu) is widely used in image processing for cluster-based image thresholding, which converts a gray level image to a binary image via the maximization of inter-class variation [ 29 ]. It is considered an effective and automatic image segmentation algorithm [ 30 ]. Assuming that the grayscale image contained a number of gray levels (denoted by L), a threshold (denoted by t ) separated the pixels into either foreground or background categories. The foreground pixels accounted for a certain percentage (w 0 ) of the image, and the average gray level for a foreground pixel was denoted by u 0 ; the background pixels accounted for w 1 percent, and the average gray level for a background pixel was u 1 . The overall average gray level for the image was denoted by u, and we used g to represent the inter-class variance. The relationships between these values were as follows: u = w 0 × u 0 + w 1 × u 1 (1) The inter-class variance was calculated as: g = w 0 ( u 0 − u ) 2 + w 1 ( u 1 − u ) 2 (2) From Eqs ( 1 ) and ( 2 ) we obtained: g = w 0 w 1 ( u 0 − u 1 ) 2 (3) Or: g = w 0 1 − w 0 ( u 0 − u ) 2 (4) For each gray level L , let t vary to update the w i and u i , such that the inter-class variance g achieved its maximum value, and the corresponding t of the maximized g was the optimal threshold for the image. The Otsu method for image segmentation was carried out in IDL 8.5. 2.4.2 Selection of a vegetation index There are many vegetation indices that can be used to estimate the FVC from RGB images; the conditions under which each of them is most effective are different. Therefore, we performed a test to determine the optimal vegetation index for our study area. After consulting relevant literature, we selected three vegetation indices ( Table 1 ) with superior performance in distinguishing between vegetation and non-vegetation [ 30 – 32 ], and evaluated their performance on the RGB images of our study area. The indices were: Excess Green minus Excess Red Index (ExGR), Excess Green Index (ExG), and Woebbecke index (WI). Table 1. Comparison of vegetation indices. Vegetation index Definition FVC Reference ExGR (Excess Green minus Excess Red Index) (3g-2.4r-b) 24.52% [ 33 ] ExG (Excess Green Index) 2g-r-b 17.48% [ 34 ] WI (Woebbecke index) (g-b)/(r-g) 15.75% [ 34 ] Open in a new tab r, g and b are the pixel values from the images based on each RGB channel (red channel/green channel/blue channel). After calculating the three vegetation indices, we used the Otsu method to determine the vegetation and non-vegetation thresholds and calculated the corresponding FVC values. Two methods were used to verify the accuracy of the vegetation indices: (1) the Support Vector Machine (SVM) method in ENVI 5.3 to classify and calculate the FVC of the test image; (2) using the ArcGIS 10.2 software to randomly generate 400 samples from the original image and visually interpreting whether each pixel was a vegetation pixel. From the three vegetation indices tested, the ExGR had the best separation effect and extracted the most complete vegetation information ( Fig 3 ). The FVC estimated by the three vegetation indices was 24.52% (ExGR), 17.48% (ExG), and 15.75% (WI). The FVC of the test image estimated by the two verification methods was 25.46% for verification method (1), while verification method (2) showed that among the 400 randomly sampled points, there were 101 vegetation pixels and 299 non-vegetation pixels (FVC of 25.25%). Therefore, on the basis of these results, we selected the ExGR index for estimating the FVC. Fig 3. The vegetation extraction performance of the three vegetation indices. Open in a new tab The vegetation identified by each index is marked with a red ring. Abbreviations: ExG, the Excess Green Index; ExGR, Excess Green minus Excess Red Index; OTSU, the Otsu threshold segmentation method; SVM, Support Vector Machine; UAV, unmanned aerial vehicle; WI, the Woebbecke index. 2.5 Analysis of the frequency distribution of the FVC The Gaussian function is also known as the normal distribution function, and many ecological data can be described by it [ 35 ]. We used the Gaussian function to fit the frequency curve of the FVC to the sample set, because it produced a clearer visual representation of the influence of quadrat size on the sampling result. The Gaussian function can be expressed as: f ( x ) = a e − ( x − μ ) 2 2 σ 2 (5) where a is the peak of the fitted curve, μ is the mean, σ is the standard deviation. R 2 represents the correlation coefficient of the Gaussian function when fitted to the frequency curve. First, we used OriginPro 2016 to count the frequency of FVCs and plot the frequency distribution histogram. Next, using the Gaussian function (performed using the analysis tool of OriginPro 2016) to fit the frequency curve of the sample FVCs. Finally, we analyzed the changing characteristics of frequency curves created with different quadrat sizes. 2.6 Determining the optimal quadrat size The mean and variance of the samples are important indicators that can be used to judge the efficacy of the sampling unit. Thus, we used Microsoft Excel 2016 to calculate the mean and variance of the FVC of the samples under different quadrat sizes, and using OriginPro 2016, we drew scatter diagrams of quadrat size versus FVC variance and then fit quadrat size-FVC variance curves. When the variance reaches a minimum, it indicates that the corresponding quadrat size gives the best sampling results, and that quadrat size (inflection point) can be taken as the optimal one. 3. Results 3.1 Frequency distribution features of the FVC The FVC calculated from the original UAV image size (100 m × 100 m) was defined as the true FVC. In plot A, when the quadrat size was 20 m × 20 m, the R 2 of the fitted curve was more than 0.8, the fitting curve had two peaks, the mean values ( μ ) were 0.044 and 0.52, the variance ( σ 2 ) values were 0.029 and 0.033, and the relative frequency values were 0.14 and 0.07 ( Fig 4 ). The FVC sampling results in plot A were mainly concentrated around 0.044 and 0.52, with a large range of variation. The sampling results were not robust and had a large deviation from the true value of FVC (FVC true = 0.05) in plot A. This implies that when a quadrat size of 20 m × 20 m is adopted for field vegetation surveys in areas that are similar to this plot, the quadrats were too small to cover both the sparse and dense vegetation areas. Since a given quadrat may happen to exclusively contain sparse or dense vegetation, this can lead to the occurrence of extrema; thus, this quadrat size is likely to skew the sampling results, making them unlikely to be representative. The frequency distribution of the FVC gradually concentrated around the true value as quadrat size increased ( Fig 4 ). When the quadrat size was 50 m × 50 m, the μ of the samples was 6.67%, which was relatively close to the true value of the FVC (0.05), and the variance σ 2 was 0.022. According to the frequency count, 79.6% of the FVC sampling results were distributed within 3–9%. Fig 4. The fractional vegetation coverage (FVC) index frequency distribution in the study plots depended on quadrat size. Open in a new tab Quadrat sizes are 20 m × 20 m, 30 m × 30 m, 40 m × 40 m, and 50 m × 50 m; the sample size under each quadrat size is 500 (n = 500). R 2 represents the correlation coefficient of the fitted curve. A, B, C, D, E, F, and G are the study plots. The frequency distribution features of the FVC in plot E were significantly different from those in plot A. Under a quadrat size of 20 m × 20 m, the FVC sampling results were evenly distributed between 0 and 0.68, with a wide range of variation and a relatively low frequency with a maximum of only 7%. This indicates that adopting a quadrat size of 20 m × 20 m, when carrying out field vegetation surveys in areas with similar characteristics to this plot would lead to strong fluctuations in the sampling results; thus, this quadrat size was not representative. As quadrat size increased, the σ 2 of the FVC gradually decreased, and the frequency distribution gradually concentrated within a smaller range. When quadrat size was 50 m × 50 m, the μ was 0.2, the σ 2 was 0.02, and the maximum of the relative frequency was 23%. According to the frequency count, 77.8% of the FVC sampling results were distributed within 16%-32%, which is significantly better than the result from a quadrat size of 20 m × 20 m. In plot F, with the increase in quadrat size, the maximum frequency of the FVC increased gradually as follows: 13.2% (20 m × 20 m), 18.4% (30 m × 30 m), 30.2% (40 m × 40 m), 31.6% (50 m × 50 m), and 31.6% (60 m × 60 m). This s",
+      "links": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/",
+          "label": "Skip to main content"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/",
+          "label": ""
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+          "label": "Dashboard"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+          "label": "Publications"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+          "label": "Account settings"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+          "label": "Journal List"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+          "label": "User Guide"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/pdf/pone.0235469.pdf",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+          "label": "PMC Disclaimer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+          "label": "PMC Copyright Notice"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"PLoS%20One\"[jour]",
+          "label": "Search in PMC"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"PLoS%20One\"[jour]",
+          "label": "Search in PubMed"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"PLoS%20One\"[Title%20Abbreviation]",
+          "label": "View in NLM Catalog"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/?term=\"PLoS%20One\"[jour]",
+          "label": "Add to search"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Hao%20L\"[Author]",
+          "label": "Li Hao"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Qingdong%20S\"[Author]",
+          "label": "Shi Qingdong"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Imin%20B\"[Author]",
+          "label": "Bilal Imin"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Kasim%20N\"[Author]",
+          "label": "Nijat Kasim"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32845880/",
+          "label": "32845880"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g001.jpg",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g001/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g002.jpg",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g002/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/table/pone.0235469.t001/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g003.jpg",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g003/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g004.jpg",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g004/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/table/pone.0235469.t002/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g005.jpg",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g005/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7449453/bin/pone.0235469.s001.zip",
+          "label": "Click here for additional data file."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7449453/bin/pone.0235469.s002.xlsx",
+          "label": "Click here for additional data file."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23351093/",
+          "label": "PubMed"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5703556/",
+          "label": "PMC free article"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29176860/",
+          "label": "PubMed"
+        },
+        {
+          "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+          "label": "NCBI RSS feed"
+        },
+        {
+          "url": "https://www.nlm.nih.gov/web_policies.html",
+          "label": "Web Policies"
+        },
+        {
+          "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+          "label": "FOIA"
+        },
+        {
+          "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+          "label": "HHS Vulnerability Disclosure"
+        },
+        {
+          "url": "https://support.nlm.nih.gov/",
+          "label": "Help"
+        },
+        {
+          "url": "https://www.nlm.nih.gov/accessibility.html",
+          "label": "Accessibility"
+        },
+        {
+          "url": "https://www.nlm.nih.gov/careers/careers.html",
+          "label": "Careers"
+        },
+        {
+          "url": "https://www.nlm.nih.gov/",
+          "label": "NLM"
+        },
+        {
+          "url": "https://www.nih.gov/",
+          "label": "NIH"
+        },
+        {
+          "url": "https://www.hhs.gov/",
+          "label": "HHS"
+        },
+        {
+          "url": "https://www.usa.gov/",
+          "label": "USA.gov"
+        }
+      ],
+      "fetched_at": "2026-10-28T11:07:33.939773+00:00",
+      "sha256": "503ceaeb3f659b31245e9ad56c90d189bb54bb73b3bb09f7705611409db818e8",
+      "source_format": "institutional_html",
+      "source_text_excerpted": true,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/",
+      "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191",
+      "redirect_chain": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/"
+      ],
+      "text": "Participatory variety evaluation and selection of chickpea (Cicer arietinum L.) varieties; an underpinning to novel technology uptake in northwestern Ethiopia - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Heliyon . 2024 Apr 16;10(8):e29801. doi: 10.1016/j.heliyon.2024.e29801 Participatory variety evaluation and selection of chickpea ( Cicer arietinum L.) varieties; an underpinning to novel technology uptake in northwestern Ethiopia Mekonnen Gebeyaw Mekonnen Gebeyaw a Bahir Dar University, College of Agriculture and Environmental Sciences, Department of Plant Sciences, Bahir Dar, Ethiopia b Mekdela Amba University, College of Agriculture and Natural Sciences, Department of Plant Science, Tulu Awlia Campus, South Wollo, Ethiopia Find articles by Mekonnen Gebeyaw a, b, ⁎ , Asnake Fikre Asnake Fikre c Ethiopian Institute of Agricultural Research, Debre Zeit Agricultural Research Center, Ethiopia Find articles by Asnake Fikre c , Alemu Abate Alemu Abate a Bahir Dar University, College of Agriculture and Environmental Sciences, Department of Plant Sciences, Bahir Dar, Ethiopia Find articles by Alemu Abate a , Tesfahun Alemu Tesfahun Alemu d Ethiopian Institute of Agricultural Research, Holeta Agricultural Research Center, Ethiopia Find articles by Tesfahun Alemu d Author information Article notes Copyright and License information a Bahir Dar University, College of Agriculture and Environmental Sciences, Department of Plant Sciences, Bahir Dar, Ethiopia b Mekdela Amba University, College of Agriculture and Natural Sciences, Department of Plant Science, Tulu Awlia Campus, South Wollo, Ethiopia c Ethiopian Institute of Agricultural Research, Debre Zeit Agricultural Research Center, Ethiopia d Ethiopian Institute of Agricultural Research, Holeta Agricultural Research Center, Ethiopia ⁎ Corresponding authorBahir Dar University, College of Agriculture and Environmental Sciences, Department of Plant Sciences, Bahir Dar, Ethiopia. gebeyawm55@gmail.com Received 2023 Nov 14; Revised 2024 Apr 15; Accepted 2024 Apr 15; Collection date 2024 Apr 30. © 2024 The Authors This is an open access article under the CC BY-NC license (http://creativecommons.org/licenses/by-nc/4.0/). PMC Copyright notice PMCID: PMC11046191 PMID: 38681558 Abstract The productivity and production of chickpeas can be improved by using access-improved varieties that are suitable for the specific agroecology. However, the foundation for adopting new technology is participatory variety selection (PVS). Therefore, this study aimed to identify the best adaptively improved chickpea varieties in northwestern Ethiopia based on the preferences of farmers in Adet and Fogera Districts. The experiment consisted of ten improved chickpea varieties (Desi and Kabuli) that were evaluated in three replications using the mother baby trail approach, including on-station and on-farm evaluations. According to this trail, the highest grain yield among different types of chickpeas was observed in the varieties Teketay (2327.8 kg/ha), Dalota (2175.9 kg/ha), and Geletu (2123.6 kg/ha). Among the Kabuli types, Koka (2813.2 kg/ha) and Dhera (2325.7 kg/ha) showed the highest mean values of grain yield. At Adet location, the varieties Teketay (2772.2 kg/ha), Dalota (2459.7 kg/ha), and Geletu (2270.8 kg/ha) produced the highest grain yield. Similarly, Koka (3195.8 kg/ha), Dhera (2604.2 kg/ha), and Ejere (2601.4 kg/ha) were the top-yielding Kabuli chickpea varieties. Farmers from Adet location in Senkengha Kebele selected three Desi and three Kabuli chickpea varieties, namely Geletu, Teketay, and Dalota, in that order, as well as Koka, Hora, and Ejere. Meanwhile, farmers in Mousobo Kebele identified Koka, Dhera, and Hora from the Kabuli type as the best varieties. The varieties Geletu (1976.4 kg/ha), Dalota (1891.9 kg/ha), and Teketay (1883.3 kg/ha) had the highest mean grain yield at Fogera location. Similarly, in the Kabuli chickpea varieties, the highest mean value of grain yield was obtained from Koka (2430.6 kg/ha) followed by Hora (2097.2 kg/ha), and Dhera (2047.2 kg/ha). Farmers have chosen three of the best Desi and Kabuli chickpea varieties, i.e Geletu, Teketay, and Dalota, and Local check (Shasho) followed by Koka and Ejere at Fogera location, Geina Kebele in that order. In conclusion, the adoption and dissemination of new improved varieties for the new environment can assist the producers such as the farmers for effective chickpea production. This leads to sustainable self-sufficiency of food at the household and country level. Keywords: Participatory variety selection, Chickpea, Varieties, Farmers, and Ethiopia 1. Introduction The crop chickpea ( Cicer arietinum L.) is a self-pollinated, annual diploid (2n = 2x = 16) species. It is considered the third most important grain legume in the world after dry beans and field peas [ 1 , 2 ]. Two types of chickpeas differ in their geographical spreading and plant type mainly the Kabuli (Macrosperma) and Desi (microsperma). The Desi types of chickpea are small angular seeds that can weigh about 120 mg, wrinkled at the beak, and range in color from brown to light brown and fawn. Desi types are normally earlier maturing and optimum yielder than the Kabuli. Kabuli types weighing about 400 mg are white cream in color and appearance than the Desi chickpea varieties [ 3 ]. India is the largest chickpea producing country accounting for 72 % of the global chickpea production. The other major chickpea producing countries include Australia (6 %), Pakistan (5 %), Turkey and Myanmar (4 %), Ethiopia (3.5 %), Iran and Mexico (2 %), Tanzania (1 %), andMalawi (0.5 %). Ethiopia is the largest producer, consumer, and exporter of chickpeas in Africa and shares more than 60 % of Africa's global chickpea market [ 2 ]. Even though the yield of Desi chickpeas in Ethiopia decreased by 0.4 % from 21.2 in 2019/20 to 21.1 q/ha in 2020/21 [ 4 , 5 ]. The regional yield of Desi was reduced by 1.7 % while in Oromia it was reduced by 4 %. Whereas Kabuli chickpeas showed, significant improvement in yield in Oromia between the two years [ 4 , 5 ]. The yield advantage of improved chickpea varieties is up to fourfold more than farmers's local varieties [ 1 ]. Many improved chickpea varieties have been released in Ethiopia. However, farmers have no ample and sufficient information about the released varieties because they were released with less involvement of farmers and other stakeholders [ 6 ]. According to Tarekegne et al. [ 7 ] in any food crop, improved varieties should be tested for their adaptation to a specific agro ecologies and made available to farmers as soon as possible to reduce the yield gap caused by lack/poor access because participatory variety selection and evaluation addresses problems of farmers that were not touched by the formal breeding system [ 8 ]. Therefore, Participatory varietyselection has an important role in adaptation and broadcasting of varieties in short period of timethan centralized approach [ 7 ]. Adet and Fogera districts are among very suitable geographies for the production of chickpeas. Yet, the productions of the crop in the districts are limited in a few kebeles with low production and productivity due to lack of improved varieties. Thus, this study was carried out with the following objectives (1) selecting highly adaptive and performing improved chickpea varieties through participatory variety selection and (2) identify farmers' selection criteria and perception for future chickpea genetic improvement in the study areas. 2. Materials and methods 2.1. Study areas and climatic description during the experimental period The trial was carried out during the main cropping season from October to February 2022/2023 in two districts, Adet and Fogera, in Northwestern Ethiopia ( Table 1 ) Table 1. Detail descriptions of the experimental sites. Location Altitude (m.a.s.l) Soil type Average Rain fall (mm) Temperature Global reference Min (C 0 ) Max (C 0 ) Latitude Longitude Adet 2240 Nitisol 1284 16.8 °C 23.5 °C 11°17′N 37°43′E Fogera 1810 Pellic Vertisol 1292.6 13.0 °C 26.7 °C 11°58′N 37°41′E Open in a new tab M.a.s.l = Meter above sea level, mm = millimeters, Min = Minimum, Max = maximum temperature. Monthly, the maximum and minimum temperature in degrees Celsius, rainfall in millimeters, and relative humidity in percent were recorded at various testing locations throughout the plant growth period ( Fig. 1 ). The highest amount of rainfall was recorded in September at all testing locations, with Adet station recording between 200 and 250 mm and Fogera recording between 50 and 230 mm. Additionally, the maximum amount of temperature was recorded from December to March in all testing locations. Fig. 1. Open in a new tab Weather and Climatic conditions during 2022/23cropping season. 2.2. Experimental materials Ten released chickpea varieties (Desi and Kabuli) were tested in the trial and the varieties were obtained from Debre Zeit agricultural research centers ( Fig. 2 , Table 2 ). Fig. 2. Open in a new tab Improved Desi and Kabuli chickpea varieties used for the PVS experiment. Table 2. Detail description of chickpea varieties used. Desi type N o Name of varieties Origin Development Year of release 1 Teketay ICRISAT introduction, evaluation and release 2013 2 Dalota ICRISAT introduction, evaluation and release 2013 3 Geletu ICRISAT introduction, evaluation and release 2019 4 Eshete ICRISAT introduction, evaluation and release 2020 5 Local – – – Kabuli type 6 Ejere ICARDA introduction, evaluation and release 2005 7 Hora ICARDA introduction, evaluation and release 2016 8 Dhera ICARDA introduction, evaluation and release 2016 9 Koka ICRISAT introduction, evaluation and release 2019 10 Local (Shasho) ICARDA introduction, evaluation and release 1999 Open in a new tab Source: [ 2 ], [ 9 ]. 2.3. Experimental design and fieldwork The experiment was conducted following the guidelines developed by Assefa et al. [ 10 ] for a mother and baby trial fashion. The mother trial was a researcher-managed trial conducted at a research site or farmer training center with a well designed and replicated trial. The layout was a Randomized Complete Block Design (RCBD) with three replications at Adet Agricultural Research Center and Fogera National Rice Research Institution. Each plot size was 1.5 m × 2 m (3 m 2 ), with a spacing of 0.1 m between plants and 0.4 m between rows. Four rows of plants were used in each plot, two of which were used in the middle for data collection while the outer ones served as border rows. The plots and blocks were 0.5 m and 1.5 m apart respectively. The baby trial, on the other hand, was conducted jointly by farmers, extension workers, and researchers, and only in farmers' fields. This trial involved farmers in the process of variety evaluation and selection. Each selected kebeles at Yilmana Densa and Fogera Districts had a plot size of 5 m × 5 m (25 m 2 ). Each plot contained 12 rows with between-row spacing of 0.4 m and between plants of 0.1 m. Additionally, there was a gap of 0.8 m between plots. 2.4. Data collection in the mother trial 2.4.1. Phenological parameters Days to 50 % flowering (DF): It was record as the number of days from planting to 50 % of the plants produce flower per plot through visual observation. Days to 90 % Physiological maturity (DPM): As the number of days from planting to when 90 % of the plants shown yellowing pods and leaves through visual observation. 2.4.2. Growth parameters Seedling stand count (STC): The total numbers of seedlings per plot were recorded in an early stage of plant growth. Number of primary branches (NPB): It was determined by counting the primary branches of five randomly selected plants with in the net plot area. Number of secondary branches (NSB): It was determined by counting of secondary branches from the primary branches by selecting five plants randomly with in the net plot area. Plant height (PH): The average height in centimeters of five randomly selected plants in the net plot area was recorded from the soil surface to the top of the canopy of the plant. Plant count at harvest (PCH): The total number of plants in the net plot area at harvest maturity. 2.4.3. Yield and yield related traits Number of pods per plant (NPP): The number of pods in a plant was determined by selecting of five plants randomly with in the net plot area. Number of seeds per pod (NSP): The number of seeds per pod was determined by selecting five pods randomly followed by five plants, which were previously tagged. Biomass yield (BM): Biomass yield was recorded from a net plot area-using total above ground biomass at harvest maturity. Grain Yield (GY): It was determined after harvesting all plants from each net plot area, threshing it and separating the straw from the grain and weigh in kilogram after adjusting the grain moisture content into 11 % and it was change to per hectare basis. Hundred Seed Weight (HSW): It was measured by counting hundred seeds from each variety and measuring each in sensitive balance in gram. Harvest Index (HI): It was determined by dividing weight of actual yield (grain yield) for total biomass weight and multiply by hundred. HI = Grain yield ( Kg / ha ) X 100 % biomass yield ( Kg / ha ) 2.5. Farmers participatory variety evaluation and selection The participatory variety evaluation and selection process was conducted using a pairwise and direct matrix ranking based on the guideline developed by Boef and Thijss [ 11 ] as follows. 2.5.1. Pair wise ranking and procedures When conducting a comparison between different varieties, it is crucial for the facilitators to keep a record of the reasons behind their choice. This process, known as participatory varietal selection, often involves ranking tools to make decisions about which varieties to proceed with in the selection and evaluation process. The following are the prescribed procedures for this process. Step 1 : Selection criteria's can be ranked pair-wise in a table both in horizontally in the rows and vertically in the columns. Step 2 : every time a participant or the group has to decide, which selection criteria has preference over the other. Step 3 : The informal discussion leading to the decision should be well recorded as qualitative information. 2.5.2. Matrix ranking and procedures Matrix ranking is a method to compare and analyze a range of varieties in both qualitative and quantitative ways. It can be used to compare local varieties, or to compare them with introduced or tested varieties. This method shows how farmers evaluate the varieties they use. It is commonly used in participatory varietal selection and participatory plant breeding, just like other ranking methods. Additionally, matrix ranking is useful for comparing and assessing other resources, issues, and ideas. The following procedures are usually followed when using this method. Step 1 Make a matrix with the criteria in the first column; criteria have been identified through brainstorming or through simple ranking. Put the varieties in the first row (use cards or symbols). Step 2 Let participants rank the varieties for each character. Step 3 A weighed ranking of varieties can be calculated as the product of the value for the criteria and the score for each specific variety. In that way, all varieties can be compared with each other. 2.6. Data analysis 2.6.1. Linear mixed model The Analysis of variance (ANOVA) of all parameters and measurements was done using linear mixed model of SAS Software version 9.4 represented by the following equation; Yijr = M + Gi + Lj + Br ( Lj ) + G i L j + E i j r where: Yijr = the observed variable response of the genotype i in the location j and block r, M = grand mean, G = genotype, L = location, B = block effects and Eijr = random error; while the LSD testat 5 % and 1 % level of significance was made using R software version 4.2 (metan and agricolae Packages). A pair wise ranking and direct matrix methods were used to examine the data acquired with the farmers' participation during the variety evaluation and selection process. 3. Results 3.1. Disease response of the evaluated improved chickpea varieties At Adet location, a series of Fusarium wilt incidences were observed between the final vegetative and crop maturity stages. The disease was scored twice using a 1 to 9 descriptive scale. At Fogera station, collar rot was observed at the early seedling stage in addition to Fusarium wilt. Each disease was scored twice using the same descriptive scale. The incidence was calculated using the following formula. Incidence ( % ) = Dead seedlings / infected plant Total ( dead + health ) x 100 At Adet location, the highest incidence of Fusarium wilt was recorded in the Local check (13.5 %), followed by Geletu (7.0 %). The lowest disease incidence was recorded in the varieties Eshete (2.8 %) and Dalota (2.7 %) among the Desi chickpea varieties. Among the Kabuli chickpea varieties, the variety Ejere (6.8 %) followed by Shasho (4.2 %) were the most susceptible varieties, while the varieties Dhera (1.7 %) and Koka (2.5 %) were the most resistant varieties. Furthermore, the highest mean incidence of collar rot was recorded in the variety Geletu (3.5 %), and the least incidence was recorded in the variety Eshete (1.5 %) among the Desi chickpea varieties. The variety Ejere (6.5 %) had the highest mean value of collar rot disease incidence, while the lowest was recorded in the local check/Shasho (0.7 %) among the Kabuli type chickpea varieties. On the other hand, in the Desi type chickpea varieties, the local check (5.5 %) followed by the variety Geletu (4.8 %) had the highest incidence, while the lowest was recorded in the variety Teketay (2.8 %). Furthermore, the highest incidence of Fusarium wilt was observed in the local check/Shasho (5.7 %), while the variety Dhera (2.0 %) was the most resistant variety among the Kabuli chickpea varieties at Fogera location. 3.2. Combined analysis of variance over location There were significant differences in various parameters including days to 50 % flowering (DF), days to 90 % physiological maturity (DPM), number of pods per plant (NPP), number of seeds per pod (NSP), plant height (PH), plant count at harvest (PCH), grain yield (GY), biomass yield (BMY), hundred seed weight (HSW) and harvest index (HI) due to the main effect of varieties ( Table 3 ). Similar results were reported by Goa et al. [ 8 ]. The main effect of locations also had a significant effect on DF, DPM, NPP, PH, PCH, GY, and BMY, while NSP was significantly affected. The interaction of varieties with locations highly influenced DF, PH, PCH, while DPM, GY, and BMY were significantly affected in the Desi chickpea varieties ( Table 3 ). In the Kabuli chickpea varieties, there were highly significant differences in seedling stand count (STC), plant count at harvest (PCH), and a significant effect on GY due to the interaction of varieties with locations. This could be due to the genetic potential of the varieties and their interaction with biotic and abiotic components of the environment. Gene expression needs specific and favorable conditions for the traits under consideration. The main effect of varieties also highly influenced STC, PH, PCH, GY, and HSW. DF, DPM, and BMY were also significantly affected. Apart from this, the main effect of locations had a highly significant and significant effect on STC, DF, PCH, GY, BMY, and PH. Shumi et al. [ 12 ] also observed the presence of a significant difference among the varieties on NPP, HSW and GY at three locations ( Table 3 ). Table 3. Combined Analysis of Variance (ANOVA) of the mother trail across locations. Desi type Source of variation Rep (Loc.(df = 2) Var (df = 4) Loc (df = 1) Var *Loc (df = 4) Error (df = 16) Parameters Mean sum of square Mean sum of square F Value Mean sum of square F Value Mean sum of square F Value Mean sum of square STC 14.933333 ns 30.383333 ns 3.99 4.033333 ns 0.38 7.616667 ns 0.72 10.650000 DF 0.833333 ns 66.45000 a 1.75 418.133333 a 140.6 38.050000 a 12.8 2.975000 DPM 2.700000 ns 546.216667 a 7.88 410.700000 a 23.8 69.283333* 4.02 17.250000 NPB 0.100333 ns 1.876333 ns 1.19 0.176333 ns 0.24 1.576333 ns 2.19 0.720333 NSB 16.809333 ns 18.315333 ns 0.24 74.576333 ns 2.07 75.721333 ns 2.10 36.004333 NPP 1162.065333 a 1446.42200 a 5.06 9342.145333 a 57.8 285.702000 ns 1.77 161.624000 NSP 0.065333 ns 0.385500 a 9.14 0.261333* 6.2 0.042167 ns 1.00 0.042333 PH (cm) 8.777160 ns 293.486047 a 7.60 1888.450680 a 314.3 38.630713** 6.43 6.006810 PCH 1.530333 ns 46.937000 a 1.07 76.480333 a 52.2 43.813667 a 29.95 1.462833 GY(Kg/ha) 39472 ns 1337053 a 11.42 2428720 a 120.2 117110** 5.80 20194 BMY(Kg/ha) 107240 ns 9616753 a 12.08 11022656 a 88.4 796352** 6.39 124695 HI (%) 0.000103 ns 0.013797** 2.68 0.000213 ns 0.04 0.005147 ns 2.16 0.002379 HSW (gm) 3.900000 ns 170.466667 a 13.42 2.70000 ns 0.30 12.7000 ns 1.43 8.883333 Kabuli type Parameters Rep (Loc.(df = 2) Var (df = 4) Loc (df = 1) Var *Loc (df = 4) Error (df = 16) Mean sum of square Mean sum of square F Value Mean sum of square F Value Mean sum of square F Value Mean sum of square STC 0.400000 ns 44.283333 a 2.18 2.700000 ns 1.24 20.283333 a 9.29 2.183333 DF 5.833333* 18.716667** 4.21 572.033333 a 166.6 4.450000 ns 1.30 3.433333 DPM 60.033333 ns 342.950000* 5.17 104.533333 a 6.54 66.283333* 4.15 15.966667 NPB 1.236000 ns 0.718000 ns 0.78 0.012000 ns 0.02 0.915333 ns 2.15 0.425667 NSB 5.241333 ns 6.708000 ns 1.07 0.645333 ns 0.14 6.278667 ns 1.35 4.645333 NPP 209.977333 ns 148.113333 ns 0.71 26.885333 ns 0.18 209.538667 ns 1.47 142.324000 NSP 0.112000 ns 0.058000 ns 0.64 0.108000 ns 1.57 0.091333 ns 1.33 0.068667 PH (cm) 37.554280 ns 287.877647 a 23.65 242.650080* 7.36 12.171913 ns 0.37 32.979280 PCH 0.433333 ns 48.716667 a 2.51 20.833333 a 31.3 19.416667 a 29.12 0.666667 GY(kg/ha) 42634 ns 519344 a 2.61 2354185 a 40.6 198674* 3.43 57994 BMY(Kg/ha) 179591 ns 984188* 1.81 14008333 a 55.3 542907 ns 2.14 253554 HI (%) 0.000280 ns 0.004433 ns 2.87 0.001080 ns 0.71 0.001547 ns 1.02 0.001513 HSW (gm) 0.100000 ns 55.71667 a 101.30 4.800000 ns 1.78 0.550000 ns 0.20 2.683333 Open in a new tab Abbreviations: Rep: replication; Loc: location; df: degree of freedom; Var: Variety; STC: seedling stand count; DF: Days of flowering; DPM: Days of physiological maturity; NPB: number of primary branches; NSB: number of secondary branches; NPP: number of pod per plant: NSP: number of seed per pod; PH: plant height; PCH: plant count at harvest; GY: grain yield; HSW: hundred seed weight; BMY: biomass yield and HI: harvest index. a Significant; ns: non-significant. 3.3. Mean performance of varieties in individual and combined over location 3.3.1. Grain yield The table below presents the mean values of grain yield obtained from different varieties of Desi and Kabuli chickpea. Among the Desi chickpea varieties, Teketay (2327.8 kg/ha) was found to have the highest grain yield, followed by Dalota (2175.9 kg/ha) and Geletu (2123.6 kg/ha), while the lowest yield was recorded from the Local check (1211.0 kg/ha). Among the Kabuli chickpea varieties, Koka (2813.2 kg/ha) had the highest yield, followed by Dhera (2325.7 kg/ha), and the lowest yield was noted from the variety Hora (2103.5 kg/ha). Similarly, it was reported that Dalota and Habru were the superior yielders overall at t",
+      "links": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/",
+          "label": "Skip to main content"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/",
+          "label": ""
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+          "label": "Dashboard"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+          "label": "Publications"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+          "label": "Account settings"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+          "label": "Journal List"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+          "label": "User Guide"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/pdf/main.pdf",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+          "label": "PMC Disclaimer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+          "label": "PMC Copyright Notice"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"Heliyon\"[jour]",
+          "label": "Search in PMC"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Heliyon\"[jour]",
+          "label": "Search in PubMed"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"Heliyon\"[Title%20Abbreviation]",
+          "label": "View in NLM Catalog"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/?term=\"Heliyon\"[jour]",
+          "label": "Add to search"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Gebeyaw%20M\"[Author]",
+          "label": "Mekonnen Gebeyaw"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Fikre%20A\"[Author]",
+          "label": "Asnake Fikre"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Abate%20A\"[Author]",
+          "label": "Alemu Abate"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Alemu%20T\"[Author]",
+          "label": "Tesfahun Alemu"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38681558/",
+          "label": "38681558"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl1/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11046191_gr1.jpg",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/figure/fig1/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11046191_gr2.jpg",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/figure/fig2/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl2/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl3/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl6/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl4/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl5/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11046191_gr3.jpg",
+          "label": ""
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/figure/fig3/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl7/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl8/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/table/tbl9/",
+          "label": "Open in a new tab"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8688558/",
+          "label": "PMC free article"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34977419/",
+          "label": "PubMed"
+        },
+        {
+          "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+          "label": "NCBI RSS feed"
+        },
+        {
+          "url": "https://www.nlm.nih.gov/web_policies.html",
+          "label": "Web Policies"
+        },
+        {
+          "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+          "label": "FOIA"
+        },
+        {
+          "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+          "label": "HHS Vulnerability Disclosure"
+        },
+        {
+          "url": "https://support.nlm.nih.gov/",
+          "label": "Help"
+        },
+        {
+          "url": "https://www.nlm.nih.gov/accessibility.html",
+          "label": "Accessibility"
+        },
+        {
+          "url": "https://www.nlm.nih.gov/careers/careers.html",
+          "label": "Careers"
+        },
+        {
+          "url": "https://www.nlm.nih.gov/",
+          "label": "NLM"
+        },
+        {
+          "url": "https://www.nih.gov/",
+          "label": "NIH"
+        },
+        {
+          "url": "https://www.hhs.gov/",
+          "label": "HHS"
+        },
+        {
+          "url": "https://www.usa.gov/",
+          "label": "USA.gov"
+        }
+      ],
+      "fetched_at": "2026-10-28T11:08:19.885846+00:00",
+      "sha256": "0f9a7cfdbac23da5dba4c99e78805959c019d043cd256a8b5e8d3a99ddc59265",
+      "source_format": "institutional_html",
+      "source_text_excerpted": true,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    }
+  ],
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

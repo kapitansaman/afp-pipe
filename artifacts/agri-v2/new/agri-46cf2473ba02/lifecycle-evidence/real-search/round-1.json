@@ -1,6 +1,6 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T10:39:57.405563+00:00",
+  "started_at": "2026-10-28T11:07:01.666870+00:00",
   "queries": [
     {
       "query_id": "ae08d17b83809ce0b60a45bd2d12c4b0ccd8bb86634821e30e730a0942135c28",
@@ -139,6 +139,6 @@
       "supplemental irrigation alfalfa yield response cost-benefit economic return mm per ton"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:40:13.128786+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:02.080283+00:00"
 }

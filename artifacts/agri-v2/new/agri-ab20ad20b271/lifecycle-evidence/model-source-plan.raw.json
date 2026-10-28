@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-ab20ad20b271",
+  "gap": "Sources describe general adequate soil moisture and over-irrigation risks but provide no actionable threshold or schedule for resuming irrigation after rainfall for chickpea. Specifically missing: (1) a measurable soil-moisture or tension threshold to decide when to irrigate after rain, (2) a practical field monitoring protocol or checklist for chickpea post-rain irrigation decisions, (3) chickpea-stage-specific root-zone water demand that can be compared against rainfall input.",
+  "queries": [
+    "chickpea irrigation scheduling soil moisture threshold after rainfall university extension",
+    "when to irrigate chickpea after rain soil moisture sensor tension KPa extension"
+  ],
+  "requirements": [
+    {
+      "id": "exact_reader_method",
+      "need": "A concrete decision criterion (soil moisture threshold, tension KPa, or volumetric water content range) that tells the grower whether to delay or resume irrigation after a rain event on chickpea, with growth stage context."
+    },
+    {
+      "id": "species_product",
+      "need": "Evidence specific to chickpea (Cicer arietinum) as the crop; generic legume or broadacre irrigation rules are insufficient unless explicitly mapped to chickpea by the source."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Original numeric values with units (e.g., kPa, %VWC, mm rainfall/ETc) and the geographic/contextual scope (rainfall amount considered, crop stage, irrigation system), so the reader can judge applicability rather than inferring local rates or device settings."
+    }
+  ]
+}

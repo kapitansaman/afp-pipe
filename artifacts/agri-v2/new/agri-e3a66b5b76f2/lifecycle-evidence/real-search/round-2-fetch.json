@@ -10,8 +10,7 @@
     {
       "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
       "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
@@ -21,14 +20,12 @@
     {
       "url": "https://forevergreen.umn.edu/crops/alfalfa",
       "canonical_url": "https://forevergreen.umn.edu/crops/alfalfa",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
       "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     }
   ]
 }

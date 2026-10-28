@@ -1,0 +1,17 @@
+{
+  "family_id": "family-15",
+  "topic_id": "agri-adc9b5a7dea9",
+  "title": "آماده‌سازی زمین برای لوبیا چیتی؛ تسطیح، بستر کاشت و زهکشی",
+  "title_sha256": "ce942cf20c0c45518e9536bad5ba67a02d32f170ed41fc9a8acd09fe48f678ec",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY57",
+    "AGNES_API_KEY58",
+    "AGNES_API_KEY59",
+    "AGNES_API_KEY60"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

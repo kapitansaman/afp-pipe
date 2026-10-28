@@ -8,13 +8,13 @@
     "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
     "raw_sha256": "7c0b3c4bbe232860b4555e5e973d72a41893e3bb63cf1b3b8ff3479c5116a1c3"
   },
-  "completed_at": "2026-10-28T10:41:50.322626+00:00",
+  "completed_at": "2026-10-28T11:07:03.936547+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T10:39:57.371658+00:00",
+      "started_at": "2026-10-28T11:07:01.565683+00:00",
       "queries": [
         {
           "query_id": "72d5afb0d2cbdb7ebab3a1a672a7897f8ce1eb0d1053839e8586f6d23b1e85e3",
@@ -152,17 +152,17 @@
           "alfalfa irrigation set time calculation actual flow rate discharge per 100 ft tape university extension"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:40:17.117853+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:02.492319+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T10:40:17.118463+00:00",
+      "started_at": "2026-10-28T11:07:02.493146+00:00",
       "queries": [
         {
           "query_id": "36c8cbdff3cfc113997a98160d9449db4d48818551151fa8b4691d1cc4e4dac6",
           "query": "alfalfa furrow irrigation duration calculation discharge flow rate L/s tape length site:edu OR site:gov",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184029.0401645,
           "results": [
             {
@@ -185,7 +185,7 @@
         {
           "query_id": "5628885cce418043d85cb93ae98a979483c4be87fb753b11702a073bcc51fae1",
           "query": "alfalfa irrigation set time calculation actual flow rate discharge per 100 ft tape university extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184032.117916,
           "results": [
             {
@@ -238,14 +238,12 @@
           {
             "url": "https://extensionpublications.unl.edu/assets/html/g1338/build/g1338.htm",
             "canonical_url": "https://extensionpubs.unl.edu/publication/g1338/na/html/view",
-            "redirect_hops": 1,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
             "canonical_url": "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",
@@ -285,8 +283,8 @@
           "subsurface drip irrigation alfalfa discharge per emitter m3/h drip tape specification irrigation set duration university research"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:41:50.321751+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:03.935611+00:00"
     }
   ],
   "fetches_reserved": 10,

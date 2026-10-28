@@ -1,6 +1,6 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T10:39:57.372687+00:00",
+  "started_at": "2026-10-28T11:07:01.521161+00:00",
   "queries": [
     {
       "query_id": "23259624cba397de9aac12b7f937b3a1abe3da6ad77acc3ca73e5052d4ca51de",
@@ -148,6 +148,6 @@
       "alfalfa pre-harvest yield estimation plant height stem density quadratic equation university extension"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:40:14.447381+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:01.966179+00:00"
 }

@@ -1,11 +1,11 @@
 {
   "round": 2,
-  "started_at": "2026-10-28T10:40:24.714960+00:00",
+  "started_at": "2026-10-28T11:07:02.924675+00:00",
   "queries": [
     {
       "query_id": "361e5fecc42f1423705b9894c7523f6d2494eea822e3bfc29396c5296bb9322d",
       "query": "chickpea irrigation scheduling flow rate discharge duration university extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793184051.4572618,
       "results": [
         {
@@ -33,7 +33,7 @@
     {
       "query_id": "91d1d0dc25ee86b227d8f32a8886d2efa054900b2f65a82ef93df341fb4fca4e",
       "query": "Cicer arietinum irrigation interval calculation actual discharge water demand",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793184054.6260774,
       "results": [
         {
@@ -85,8 +85,7 @@
       {
         "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
         "canonical_url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
@@ -134,6 +133,6 @@
       "chickpea drip irrigation set time calculation actual flow crop water demand site:edu OR site:gov"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:41:05.463664+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:04.518333+00:00"
 }

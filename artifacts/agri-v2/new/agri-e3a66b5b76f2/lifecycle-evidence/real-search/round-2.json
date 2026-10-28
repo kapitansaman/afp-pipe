@@ -1,11 +1,11 @@
 {
   "round": 2,
-  "started_at": "2026-10-28T10:40:12.498921+00:00",
+  "started_at": "2026-10-28T11:07:01.752870+00:00",
   "queries": [
     {
       "query_id": "00a528e0c839ef8fcadf3176e52ae66c71eb8afe3eb08725ecb9e5ff16616577",
       "query": "alfalfa irrigation scheduling soil moisture sensor tensiometer threshold research site-specific",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793184037.1206813,
       "results": [
         {
@@ -28,7 +28,7 @@
     {
       "query_id": "142acf2c4d58a603f2a38c4afd70d385043e94f8cc843be4209472de8955b2cd",
       "query": "alfalfa soil moisture management allowable depletion irrigation trigger University of Minnesota extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793184040.3231573,
       "results": [
         {
@@ -99,8 +99,7 @@
       {
         "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
         "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
@@ -110,14 +109,12 @@
       {
         "url": "https://forevergreen.umn.edu/crops/alfalfa",
         "canonical_url": "https://forevergreen.umn.edu/crops/alfalfa",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
         "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -156,6 +153,6 @@
       "Medicago sativa irrigation scheduling soil water tension kPa ETc applied water growth stage"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:40:54.316084+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:01.759231+00:00"
 }

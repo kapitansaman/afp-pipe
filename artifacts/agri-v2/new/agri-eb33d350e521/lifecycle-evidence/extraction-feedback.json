@@ -1,0 +1,154 @@
+{
+  "topic_id": "agri-eb33d350e521",
+  "candidate_sha256": "54641c7c1921f2b8519bad8d048bc9adbc0b25373c4ef98347e9c7351dd82476",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 1,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "برای بیشینه‌کردن عملکرد تحت آبیاری، اجرای ۴۰ تا ۵۰ پوند نیتروژن در هر آکر ممکن است مناسب باشد.",
+        "conditions": "منطقه میزوری آمریکا؛ لوبیای خشک؛ هدف حداکثر عملکرد؛ شرایط آبیاری؛ واحد پوند بر آکر",
+        "evidence_id": "d3-e11",
+        "numeric_bindings": [
+          {
+            "value": "40",
+            "unit_quote": "40 to 50 pounds of nitrogen per acre",
+            "geographic_scope": "Missouri, USA",
+            "product_scope": "dry edible bean"
+          },
+          {
+            "value": "50",
+            "unit_quote": "40 to 50 pounds of nitrogen per acre",
+            "geographic_scope": "Missouri, USA",
+            "product_scope": "dry edible bean"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d3-e11",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+        "quote": "ies are best planted in 15 inch rows or drilled in narrow rows. Growing them in 30 inch or wider rows does allow cultivation for weed control, but at that spacing, the beans usually fail to \"close the row.\" Planted in narrow rows, the beans can fill in the rows more quickly, shading out weeds more effectively. Seeding rate may vary by market class (due to differing seed sizes) and row spacing, with narrow rows requiring a higher planting rate. Seeding rates (in lbs/acre) are: Type Wide Rows Drilled Black Beans 50 60 Pinto Beans 60 90-100 Navy Beans 50 60 Kidney Beans 100 120 Pink Beans 55 65 Fertility Dry beans should be innoculated to insure Rhizobium phaeoli is available for nodulation. Although they fix their own nitrogen, dry beans may still show a yield response from applied nitrogen fertilizer or organic sources of nitrogen. For highest yields, especially under irrigation, it may b"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "ظرفیت ذخیره‌سازی بلندمدت دانه Payneuto در کیسه پلی‌اتیلن غذایی حداقل ۱ سال و در بسته‌بندی قوطی #10 یا کیسه میلاری با جذب اکسیژن ۱۰ سال یا بیشتر است.",
+        "conditions": "منطقه یوتا/آمریکا؛ دانه خشک Payneuto؛ شرایط نگهداری پس از برداشت؛ بدون داده هزینه مزرعه",
+        "evidence_id": "d4-e1",
+        "numeric_bindings": [
+          {
+            "value": "1",
+            "unit_quote": "shelf life of 1 year or more",
+            "geographic_scope": "Utah, USA",
+            "product_scope": "pinto dry bean stored grain"
+          },
+          {
+            "value": "10",
+            "unit_quote": "shelf life of 10 or more years",
+            "geographic_scope": "Utah, USA",
+            "product_scope": "pinto dry bean stored grain"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d4-e1",
+        "source_url": "https://extension.usu.edu/preserve-the-harvest/dev/storing-dry-beans-1",
+        "quote": "ackaging choices are #10 cans or Mylar-type bags. Canning jars are suitable for smaller quantities providing the jars are stored in a dark place. Oxygen absorbers should be used to remove oxygen from the packages to extend shelf life and minimize off-flavors. Storage Conditions Beans in normal polyethylene (food-grade) bags have a shelf life of 1 year or more. Like most stored foods, colder storage temperatures will increase shelf life. When packaged in #10 cans or Mylar-type bags, with the oxygen removed, they have a shelf life of 10 or more years. A BYU study indicated that pinto beans did experience a slight loss of quality during storage. However, samples that had been stored up to 30 years had greater than 80 percent acceptance by a consumer taste panel for emergency food use. The study concluded that pinto beans should be considered acceptable for use in long-term food storage effo"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "سرعت دور استوانه کمباین در برداشت لوبیای خشک با رطوبت بالا ۳۰۰ تا ۴۵۰ دور در دقیقه است و با خشک‌شدن دانه کاهش می‌یابد.",
+        "conditions": "منطقه میزوری آمریکا؛ برداشت لوبیای خشک؛ سرعت ترکیب؛ رطوبت دانه متغیر",
+        "evidence_id": "d3-e18",
+        "numeric_bindings": [
+          {
+            "value": "300",
+            "unit_quote": "300 to 450 rpm",
+            "geographic_scope": "Missouri, USA",
+            "product_scope": "dry bean harvest"
+          },
+          {
+            "value": "450",
+            "unit_quote": "300 to 450 rpm",
+            "geographic_scope": "Missouri, USA",
+            "product_scope": "dry bean harvest"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d3-e18",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+        "quote": " swathing and direct combining are used with dry beans: the preferred approach depends on the growth characteristics of the cultivar, and the potential for rain damage on windrowed beans. Harvest can start when seeds are at 18% moisture. This is generally when some pods are brown and a majority of pods are yellow. Cylinder speeds at high moisture can be 300 to 450 rpm, but the cylinder speed should be slowed down with drier seeds. Sieve setting should be 7/16 of an inch, with relatively high fan speeds. Concaves should initially be set 1/2 inch at front and 1/4 inch in the rear, and opened up further as the beans dry down. The combine’s operating manual may have suggestions on settings for dry beans. If beans are cut when the pods are getting really dry, seed shatter can become a problem. Cutting at night or when a dew is on can help reduce shattering. One caution for harvest in Missouri"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "چگالی بوته‌ای در_trial_ آزمون برداشت مستقیم Payneuto بین ۱۰۰٬۰۰۰ تا ۱۲۰٬۰۰۰ بوته در هر آکر بود.",
+        "conditions": "منطقه نبراسکا، شهرستان Box Butte، آمریکا؛trial_ مستقیم برداشت Payneuto؛ تراکم بوته‌ای",
+        "evidence_id": "d0-e5",
+        "numeric_bindings": [
+          {
+            "value": "100000",
+            "unit_quote": "100,000 to 120,000 plants per acre",
+            "geographic_scope": "Box Butte County, Nebraska, USA",
+            "product_scope": "pinto dry bean"
+          },
+          {
+            "value": "120000",
+            "unit_quote": "100,000 to 120,000 plants per acre",
+            "geographic_scope": "Box Butte County, Nebraska, USA",
+            "product_scope": "pinto dry bean"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e5",
+        "source_url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
+        "quote": "uide to the direct harvest system, and more accurate means to determine harvest loss, see Direct Harvest of Dry Edible Beans , Nebraska Extension EC 309. Figure 1. Yield data from 2016 on farm direct harvest variety trial in Box Butte County, Nebraska. Figure 2. Harvest loss data from 2016 on farm direct harvest variety trial in Box Butte County Nebraska. Direct Harvest Variety Trial In the 2016 growing season UNL collaborated with the Kelley Bean Company in cooperation with a grower in Box Butte County to conduct a direct harvest variety trial near Alliance, with four varieties replicated four times. The beans were planted with a drill in a 15-inch row spacing. The actual plant populations ranged from 100,000 to 120,000 plants per acre. Planting was June 7 and harvest was Sept. 16 with a Case 7088 combine and a Case (by MacDon) 2162 flex draper head (30 foot). The crop was desiccated on"
+      }
+    },
+    {
+      "fact_index": 5,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در شرایط مطلوب، تلفات برداشت conventional لوبیای خشک حدود ۱٫۵ bu/ac است؛ تلفات برداشت مستقیم Payneuto به‌طور متوسط حدود ۳٫۵ bu/ac گزارش شد.",
+        "conditions": "منطقه پن‌هلند نبراسکا، آمریکا؛ لوبیای خشک؛ مقایسه روش برداشت؛ داده تلفات",
+        "evidence_id": "d2-e3",
+        "numeric_bindings": [
+          {
+            "value": "1.5",
+            "unit_quote": "about 1.5 bu/ac",
+            "geographic_scope": "Nebraska Panhandle, USA",
+            "product_scope": "dry edible bean"
+          },
+          {
+            "value": "3.5",
+            "unit_quote": "about 3.5 bu/ac",
+            "geographic_scope": "Nebraska Panhandle, USA",
+            "product_scope": "pinto dry bean"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e3",
+        "source_url": "https://cropwatch.unl.edu/2016/direct-harvest-dry-edible-beans/",
+        "quote": " 1.5 bu/ac can be expected in good conditions. This is based on a two-year study on 24 farms conducted by the University of Nebraska Panhandle Center. If conditions are poor with significant wind or rain after cutting, bean yield losses can increase significantly. Further data gathered by the Panhandle Center indicate that direct harvest losses for pintos would average about 3.5 bu/ac. For great northerns losses would be about 4 bu/ac if good field practices are followed. In data gathered on farm from the 2015 ( Figure 2 ) harvest season in the Nebraska Panhandle half of the 18 fields sampled had a 3 bu/ac or less loss with the most favorable field having a 1.5 bu/ac harvest loss. On the other end of the spectrum one harvested field had an 11.7 bu/ac yield loss, demonstrating that care must be taken when considering direct harvest. Many factors play into this harvest loss but with a suit"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "عنوان این موضوع یک جدول هزینه کشت هکتاری (Enterprise budget) برای لوبیا چیتی درخواست می‌کند. شواهد موجود شامل منابع دانشگاهی آمریکا (Iowa State، Nebraska Extension، Washington State، Utah State) صرفاً جنبه‌های کیفی تولید، نرخ کاشت، عملکرد، هزینه‌های پس از برداشت و تلفات برداشت را پوشش می‌دهند؛ هیچ‌یک از منابع قیمت فعلی نهاده‌ها، ریزمقدار هزینه‌های ورودی هر هکتار، فرمول محاسبه Enterprise budget و داده‌های قیمت‌گذاری بازار ایران را ارائه نمی‌دهند. بنابراین اثبات روش محاسبه هزینه کشت در هکتار با جداول نهاده‌های کمی و قیمت‌های محلی امکان‌پذیر نیست."
+}

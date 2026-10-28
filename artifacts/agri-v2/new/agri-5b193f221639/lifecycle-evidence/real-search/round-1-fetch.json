@@ -1,0 +1,40 @@
+{
+  "requested": 6,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+      "canonical_url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+      "canonical_url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.colostate.edu/resource/determining-irrigation-run-times-with-drip-tape-on-specialty-crops",
+      "canonical_url": "https://extension.colostate.edu/resource/determining-irrigation-run-times-with-drip-tape-on-specialty-crops/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://ask.ifas.ufl.edu/publication/AE354",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    }
+  ]
+}

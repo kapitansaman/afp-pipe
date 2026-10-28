@@ -1,0 +1,30 @@
+{
+  "policy": "publishable-quality-v1",
+  "score": 90,
+  "minimum_score": 70,
+  "accepted": true,
+  "minimum_source_fidelity": 15,
+  "dimensions": {
+    "answer_usefulness": 22,
+    "source_fidelity": 28,
+    "readability": 17,
+    "commercial_fit": 9,
+    "language_and_units": 14
+  },
+  "critical_issues": [],
+  "warnings": [
+    "answer_usefulness",
+    "source_fidelity",
+    "readability",
+    "commercial_fit",
+    "language_and_units"
+  ],
+  "human_review_claimed": false,
+  "reason": "مقاله تمامی ادعاهای عددی و کیفی خود را با سه منبع دانشگاهی معتبر (UNL، USU و Alfalfa Symposium) پشتیبانی می‌کند. مقادیر ۲ اینچ ET، ۰٫۳۰ و ۰٫۱۰ اینچ/روز و ویژگی خواب‌آلودگی یونجه همگی در شواهد یافت می‌شوند. حدود جغرافیایی غرب ایالات متحده صراحتاً ذکر شده و هشدار عدم قطعیت زمانی نیز منطبق بر واقعیت منبع است. ساختار پاسخ کوتاه، ورودی‌ها، منطق تصمیم، جدول پایش و خطاها خواننده را مستقیماً پاسخ می‌دهد. نمره منفی جزئی در زبان و واحدها به‌خاطر استفاده پراکنده از املای «ET» بدون معادل فارسی و عبارت «t best deficit irrigation practices» در نقل‌قول منبع است؛ نمره可读性 کم‌تر به‌خاطر تکرار جزئی مفهوم خاک بین برش‌ها در بخش‌های مختلف.",
+  "topic_id": "agri-6fc1032cdf42",
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+  "status": "accepted",
+  "max_auto_repairs": 1,
+  "updated_at": "2026-10-28T11:07:51.901764+00:00"
+}

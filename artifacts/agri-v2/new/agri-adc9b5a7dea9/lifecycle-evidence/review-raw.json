@@ -1,0 +1,43 @@
+{
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false,
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "no_unsafe_input_rates": true,
+  "source_policy_satisfied": true,
+  "source_policy_version": "university-single-source-v1",
+  "human_review_claimed": false,
+  "limitations": "منابع فقط به سه مؤسسه آمریکایی (ایالت آیووا، نبراسکا و میسیسیپی) و یک مرجع USDA محدودند. هیچ منبع ترویجی ایرانی یا سازگار با اقلیم و سامانه تولید ایرانی وجود ندارد. ادله کیفی درباره زهکشی، بستر کاشت و زهکشی برای لوبیا خشک پینتو ارائه شده ولی پاسخ مستقیم به «تسطیح، بستر کاشت و زهکشی» به‌طور خاص و عملیاتی — به‌ویژه معیارهای اجرایی دقیق تسطیح، عمق و ساختار بذرپاشی و طراحی زهکش — کاملاً پوشش داده نشده است. f1 صرفاً به تسطیح سطح برای برداشت مستقیم می‌پردازد، نه آماده‌سازی بستر کاشت. f0 و f3 درباره بافت خاک است اما فاقد دستورالعمل عملیاتی آماده‌سازی زمین است. هیچ داده‌ای درباره زمان‌بندی، عمق شخم، عملیات دیسک و گرید، یا طراحی شبکه زهکشی در اختیار نیست. عدم توازن حوزه‌ای: بخش زهکشی تقریباً بدون پوشش است و عنوان اصلی ناقص پاسخ داده می‌شود.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}

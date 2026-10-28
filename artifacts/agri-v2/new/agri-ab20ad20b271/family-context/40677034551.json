@@ -1,0 +1,17 @@
+{
+  "family_id": "family-01",
+  "topic_id": "agri-ab20ad20b271",
+  "title": "تنظیم آبیاری نخود پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+  "title_sha256": "a5b67f7c4e393fcad7ed46c84ca347f51e36b23ff83eae78ae33797f267ac963",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY",
+    "AGNES_API_KEY2",
+    "AGNES_API_KEY3",
+    "AGNES_API_KEY4"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

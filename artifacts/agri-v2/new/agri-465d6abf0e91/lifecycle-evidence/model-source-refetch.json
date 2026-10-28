@@ -1,0 +1,248 @@
+{
+  "coverage_contract_version": 1,
+  "final_coverage_complete": false,
+  "version": 2,
+  "topic_id": "agri-465d6abf0e91",
+  "input_binding": {
+    "topic_sha256": "cfe93151fe3a915aff553601ebe0984f5daa353d18c3741ee21046016e59b8c4",
+    "sources_sha256": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+    "raw_sha256": "82f68806652d960e774af3d6e92674aeec4dc666e4f4202c0c9972eb358db1a3"
+  },
+  "completed_at": "2026-10-28T11:09:35.819669+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T11:07:09.041859+00:00",
+      "queries": [
+        {
+          "query_id": "6776d9d5838794b273cb0a18431cb7052c850cfd3282d97793a5a1fc88c23a24",
+          "query": "chickpea preharvest yield estimation sampling method quadrat plot",
+          "cached": false,
+          "checked_at_epoch": 1793185650.6874168,
+          "results": [
+            {
+              "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+              "title": "Sampling techniques for measuring and forecasting crop yields",
+              "description": "Estimates derived from preharvest sampling are available earlier than estimates from farmers' postharvest reports.\nPrior to harvest, a farmer can report only his appraisal of the crop prospects.\nOn the other hand, estimates based on preharvest sampling must rely on previous years' harvesting losses or be delayed until such time as harvesting losses can be determined from gleaning sample plots after harvest or commercially harvesting ears and recovering the grain from known numbers of ears. [...] Sample plots in these fields should be selected and harvested, using procedures identical to those used in the survey.\nThe num-ber of plots per field and in total would need to be large enough to give estimates having low sampling errors, so that any appre-ciable bias could be detected even at the field level.\nAdjustments may be necessary for such factors as differences in moisture per-centage at the time of the preharvest sampling and at the time of harvest. [...] 50 with too many uncertainties to develop a reliable relation based primarily on plant vegetative characteristics that are helpful in predicting the size or weight of yield components.\n2.5.2 Preharvest Measurement of Yields As al"
+            },
+            {
+              "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/stelprdb1044175.pdf",
+              "title": "SAMPLING VEGETATION ATTRIBUTES",
+              "description": "Photo Plot Method This technique requires many quadrats for each study site in order to provide statistically reliable data. Since this technique is very time.Read more171 pages"
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453",
+              "title": "Methodology for optimizing quadrat size in sparse vegetation surveys: A desert case study from the Tarim Basin",
+              "description": "38. Masood MA, Raza I, Yaseen M. Estimation of Optimum Field Plot Size and Shape in Paddy Yield Trial. American-Eurasian Journal of Scientific Research. 2012; 7 (6): 264 – 9.\n39. Papanaataais VP. Optimum Size and Shape of Quadrat for Sampling Herbage Weight in Grasslands of Northern Greece. Journal of Range Management. 1977; 30 (6): 446 – 9. [...] 14. Chytry M, Preislerová Z. Plot sizes for phytosociological sampling of European vegetation. Journal of Vegetation Science. 2003; 14: 563 – 70. doi:10.1111/j.1654-1103.2003.tb02183.x\n15. Goodall J, Zacharias P, Olckers T, Edwards T. A contiguous-quadrat sampling exercise in a shrub-invaded grassland patch: size matters but biggest is not best. African Journal of Range & Forage Science. 2006; 23 (2): 123 – 30. [...] Generally, the quadrat size used in field vegetation surveys is less than 100 m × 100 m. Therefore, we selected seven typical 100 m × 100 m plots for the random sampling simulation (Fig 1). The simulation of random sampling was performed by cropping a number of fixed-size pictures from the UAV images of the test plots. We used the cropping tool Extract with the cropping method set to the random mode; this causes the software "
+            }
+          ]
+        },
+        {
+          "query_id": "9cf2f25e5151b1ac61170b52b7a4173c7f8e38866a5ab87ea2e9f474444a71a2",
+          "query": "chickpea crop cutting method yield prediction before harvest university",
+          "cached": false,
+          "checked_at_epoch": 1793185653.406416,
+          "results": [
+            {
+              "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+              "title": "Chickpea Production - Extension Store",
+              "description": "Chickpea has a low shattering potential, especially compared to dry pea and lentil. Pod drop and pod shattering can occur once seeds have dried down and are ready for harvest. Direct cutting without desiccation usually results in higher yields and larger seed size. In some regions it is advantageous to swath and then combine, since delayed harvests can result in darkened or stained seed coats. A desiccant will not speed maturity but it may be used as a harvest aid to terminate the crop, and to [...] | Sharpen (saflufenacil) | PRE-HARVEST (at least 80% yellow/brown pods and no more than 40% of leaves still green) | 1 to 2 fl oz | Harvest aid and weed desiccant | Apply with MSO and AMS or UAN Allow a 2-day PHI |\n| Valor | PRE-HARVEST (at least 80% yellow/brown pods and no more than 40% of leaves still green) | 2 to 3 oz | Harvest aid and weed desiccant | Apply with MSO Allow a 5-day PHI | [...] We encourage the use of this document for nonprofit educational purposes. This document may be reprinted for nonprofit educational purposes if no endorsement of a commercial product, service or company is stated or implied, and if appropriate credit is given to the author and MSU Extension. To"
+            },
+            {
+              "url": "https://openknowledge.fao.org/server/api/core/bitstreams/ca36b8c1-99b6-4cad-ad88-ff018647a474/content",
+              "title": "Methodology for Estimation of Crop Area and Crop Yield ...",
+              "description": "UBOS, 2002; Ali et al., 2009; Fermont & Benson, 2011). 4.2.4. Farmer prediction This method of pre-harvest estimation is commonly performed on a plot-by-plot basis, and both the enumerator and the farmer are in visual contact with the growing crop. The method is useful when it is used to predict crop production 30 15 days before harvest. The results of the field test conducted in Indonesia reveal that the farmer prediction method exhibits a high correlation with the CCE and sampling of harvest [...] sampling of harvest unit methods. The method is useful where farmers are literate and knowledgeable (Kelly et al., 1995; Casley & Kumar, 1988). Advantages The use of farmer prediction is not particularly laborious (Murphy et al., 1991; Casley & Kumar 1988). In comparison to the crop cut method, farmer estimation is less costly and faster to carry out. Consequently, farmers’ estimations with the same resources allow for a larger number of yield estimates to be collected, than do crop cuts. This [...] produce in local units; this requires local units to be converted into standard units. # The procedure devised by the USDA involves carrying out a final crop cutting at maturity or immediate"
+            },
+            {
+              "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+              "title": "Sampling techniques for measuring and forecasting crop yields",
+              "description": "4-1 CD O 0) u M 4-1 t)0 M O C CO U -H rH 13 1 . 4 Determination of Harvested Yields by Crop Cutting The techniques of crop cutting vary greatly in different parts of | the world.\nThe techniques used are dependent upon a number of factors.\nThese factors Include the administrative setup, type and size of field staff, farmer cooperation, crop practices, and harvest conditions.\nConsequently, it is not possible (nor desirable) to lay down a single uniform approach for crop-cutting surveys. [...] The first is the short period just prior to harvest called pre-harvest (after physiological maturity) when the problem is limited to developing appropriate sampling and estimation techniques, as forecasting is not involved.\nThese techniques were discussed earlier under the general heading of crop cutting. [...] In fact, if the goal is to have a successful preharvest crop-cutting survey on an operational basis during the third year, a well-planned, intensive effort by experienced crop specialists and mathematical statisticians in yield work is needed."
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 4,
+        "loaded": 1,
+        "sources": [
+          {
+            "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/stelprdb1044175.pdf",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453",
+            "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://openknowledge.fao.org/server/api/core/bitstreams/ca36b8c1-99b6-4cad-ad88-ff018647a474/content",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          }
+        ]
+      },
+      "fetches_reserved": 4,
+      "coverage": {
+        "topic_id": "agri-465d6abf0e91",
+        "requirements": [
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document provides a step-by-step pre-harvest field sampling protocol for chickpea: no defined sample-plot dimensions (e.g., m² or row length), no replication count, no growth-stage timing guidance (e.g., R5/R6 or pod-fill stage), no criterion for selecting individual plants or branches, no procedure for counting pods and seeds per sample unit, and no protocol for determining average seed weight (e.g., 100-seed method, subsample size, moisture correction) prior to harvest."
+          },
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s2",
+              "s3"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document states the initial input units needed for a pre-harvest estimate (plants per area, fresh/dry mass in g, pod-seed fill percentage) nor presents a dimensionally consistent yield-estimation formula with final units in kg ha⁻¹ or t ha⁻¹. Existing yield tables report lb acre⁻¹ only as harvested trial outcomes, not as inputs or a calculation."
+          }
+        ],
+        "next_queries": [
+          "chickpea Cicer arietinum pre-harvest yield estimation sampling method university",
+          "chickpea sample plot size pods per square meter yield prediction formula"
+        ]
+      },
+      "coverage_cache_hit": false,
+      "completed_at": "2026-10-28T11:08:14.929624+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T11:08:14.930312+00:00",
+      "queries": [
+        {
+          "query_id": "db1569a3006d708ac21dfcd71c8d4378b06d7100b252c8ac4494281889c57e63",
+          "query": "chickpea Cicer arietinum pre-harvest yield estimation sampling method university",
+          "cached": false,
+          "checked_at_epoch": 1793185696.7027438,
+          "results": [
+            {
+              "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+              "title": "Sampling techniques for measuring and forecasting crop yields",
+              "description": "(Based on weight per unit volume) = 44.10 X .620 = 27.34 grams Harvest weight per nut (in shell) = 27.34 x (1-. 00514 D) ; adjust-ment of weight for days to harvest (D = 55) = 27.34 X .7173 = 19.61 grams Harvest gross yield per tree = number sound nuts x harvest weight per nut = 1660.8 X 19.61 = 32,568 grams or 71.80 lb Net yield per tree = 71.80 x adj. [...] The first is the short period just prior to harvest called pre-harvest (after physiological maturity) when the problem is limited to developing appropriate sampling and estimation techniques, as forecasting is not involved.\nThese techniques were discussed earlier under the general heading of crop cutting. [...] Similarly, for May and June, the value is 8.6— (2 x 6.9 + 12.0) /3 = 8.6.\nBy the same method, the 1969 January-February index is 85.7 and the May-June index is 21.4.\nThese values are now used in the estimation equations.\nIf an estimate is desired before June data are available, a June index value calculated from the long-term average temperature of 20.0° C and precipitation of 30.6 mm can be used, since they are the expected values based on the historical series."
+            },
+            {
+              "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+              "title": "Chickpea Production - Extension Store",
+              "description": "We encourage the use of this document for nonprofit educational purposes. This document may be reprinted for nonprofit educational purposes if no endorsement of a commercial product, service or company is stated or implied, and if appropriate credit is given to the author and MSU Extension. To use these documents in electronic formats, permission must be sought from the Extension Communications Director, 135 Culbertson Hall, Montana State University, Bozeman, MT 59717; E-mail: [...] The U.S. Department of Agriculture (USDA), Montana State University and Montana State University Extension prohibit discrimination in all of their programs and activities on the basis of race, color, national origin, gender, religion, age, disability, political beliefs, sexual orientation, and marital and family status. Issued in furtherance of cooperative extension work in agriculture and home economics, acts of May 8 and June 30, 1914, in cooperation with the U.S. Department of Agriculture, [...] Chickpea (Cicer arietinum L.) is an annual grain legume or ‘pulse crop' sold as human food. Commercial types include large Kabuli, small Kabuli, and Desi. Chickpea production has significantly increased in th"
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191",
+              "title": "Participatory variety evaluation and selection of chickpea ...",
+              "description": "by M Gebeyaw · 2024 · Cited by 10 — Abstract. The productivity and production of chickpeas can be improved by using access-improved varieties that are suitable for the specific agroecology.Read more"
+            }
+          ]
+        },
+        {
+          "query_id": "3a69b9623904e3e213481f2c67adfc0b537e110e310607d52c5dabff9ac35edb",
+          "query": "chickpea sample plot size pods per square meter yield prediction formula",
+          "cached": false,
+          "checked_at_epoch": 1793185699.2829723,
+          "results": [
+            {
+              "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+              "title": "Chickpea Production - Extension Store",
+              "description": "desiccation to terminate growth is often necessary. Mature plants will be 15-30 inches tall, heavily branched, appearing as small bushes. Optimally, there will be 1-2 seeds per pod. A greater number of seeds per pod typically leads to smaller seed size at maturity. Kabuli chickpea usually matures in 110 to 120 days. Desi type will mature somewhat earlier. [...] Chickpea germinates similar to dry pea with the seed coat and cotyledons remaining below ground (hypogeal germination). Developing plants will have 1-2 scale nodes on the stem just below the soil surface. These nodes serve as points of regrowth if the seedling is damaged (a late frost for example). On average, a new node (leaf) is produced every 3 to 4 days.\n\n### Yield potential and markets [...] Chickpea has a low shattering potential, especially compared to dry pea and lentil. Pod drop and pod shattering can occur once seeds have dried down and are ready for harvest. Direct cutting without desiccation usually results in higher yields and larger seed size. In some regions it is advantageous to swath and then combine, since delayed harvests can result in darkened or stained seed coats. A desiccant will not speed maturity but"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 1,
+        "loaded": 1,
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191",
+            "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 1,
+      "coverage": {
+        "topic_id": "agri-465d6abf0e91",
+        "requirements": [
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document provides a step-by-step pre-harvest field sampling protocol for chickpea yield estimation. None specifies sample plot size for yield estimation, number of replicates, timing relative to growth stages (e.g., R5-R7 pod-filling), criteria for selecting representative plants/branches, procedure for counting pods and seeds per plant, or method for determining average seed weight prior to harvest."
+          },
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s1",
+              "s2",
+              "s3",
+              "s5"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No document presents a dimensionally correct pre-harvest yield estimation formula with explicitly named measured inputs and their units (e.g., plants/m², fresh/dry weight in g, pod fill percentage) and a final yield unit in kg/ha or t/ha. s5 reports post-harvest grain yield in kg/ha and a harvest-index formula, but this applies to harvested plots, not pre-harvest estimation. s1 and s0 report trial yields in lb/acre but contain no estimation formula."
+          }
+        ],
+        "next_queries": [
+          "chickpea pre-harvest yield estimation sampling method university extension",
+          "chickpea Cicer arietinum predictive yield sampling protocol before harvest"
+        ]
+      },
+      "coverage_cache_hit": false,
+      "completed_at": "2026-10-28T11:09:35.819001+00:00"
+    }
+  ],
+  "fetches_reserved": 5,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": false,
+  "status": "bounded_search_coverage_incomplete",
+  "unapproved_documents_sha256": "0ce661668b1829d9a211862c809878b9aa723416d2b04c64103b86f2118d33ab",
+  "new_sources": 0,
+  "unapproved_fetched_sources": 2,
+  "repair_exhausted": true
+}

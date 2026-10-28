@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2,
+    "category": "wrong_language",
+    "detail": "Persian/Arabic characters remain in this Tajik segment."
+  },
+  {
+    "id": 9,
+    "category": "wrong_language",
+    "detail": "Latin letters are embedded inside a Cyrillic word."
+  }
+]

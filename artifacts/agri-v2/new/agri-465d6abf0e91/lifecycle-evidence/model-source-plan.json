@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T11:07:09.034679+00:00",
+  "topic_id": "agri-465d6abf0e91",
+  "input_binding": {
+    "topic_sha256": "cfe93151fe3a915aff553601ebe0984f5daa353d18c3741ee21046016e59b8c4",
+    "sources_sha256": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+    "raw_sha256": "82f68806652d960e774af3d6e92674aeec4dc666e4f4202c0c9972eb358db1a3"
+  },
+  "plan": {
+    "topic_id": "agri-465d6abf0e91",
+    "gap": "موجودی منابع ارائه‌شده فاقد پروتکل عملی نمونه‌برداری میدانی و فرمول تخمین عملکرد پیش از برداشت نخود است. منابع فعلی فقط عملکرد نهایی، رطوبت هدف برداشت و ضرایب تغییرات واریته‌ای را گزارش داده‌اند. نیاز به منبعی است که روش شمارش خوشه/تعداد دانه در واحد سطح، وزن متوسط دانه نمونه‌برداری‌شده، ضریب پر بودن یا نسبت پر به خالی، فرمول تبدیل به عملکرد در هکتار، و واحدهای اندازه‌گیری را صراحتاً نامبرده باشد.",
+    "queries": [
+      "chickpea preharvest yield estimation sampling method quadrat plot",
+      "chickpea crop cutting method yield prediction before harvest university"
+    ],
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "need": "توصیف گام‌به‌گام روش نمونه‌برداری میدانی پیش از برداشت: اندازه پلات نمونه، تعداد تکرار، زمان‌بندی نسبت به مراحل رشد، معیار انتخاب بوته/شاخه، نحوه شمارش خوشه و دانه، نمونه‌گیری برای وزن متوسط دانه."
+      },
+      {
+        "id": "species_product",
+        "need": "تأیید صریح که پروتکل مربوط به نخود خشک‌دانه (chickpea / Cicer arietinum) است و نه لوبیا چشم‌بلбуی، نخود فرنگی یا حبوبات دیگر."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "ذکر واحدهای اولیه هر ورودی (تعداد بوته در متر مربع، وزن تر/خشک گرام، درصد پر شدن) و واحد نهایی برآورد عملکرد (کیلوگرم در هکتار یا تن در هکتار) همراه با فرمول عددی یا رابطه جبری."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

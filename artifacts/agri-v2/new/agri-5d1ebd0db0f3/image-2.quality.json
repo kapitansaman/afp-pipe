@@ -1,0 +1,52 @@
+{
+  "image_sha256": "19a4fd38173fcbf5cc65e5c272503dfa6cbb376c0bd89a74ec963223a5767b9f",
+  "contract_sha256": "4627afee414c0cab1618faed5f07d9f4add6695b66f2d4a387724b08c8083b46",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-5d1ebd0db0f3",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T11:14:16.694179+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 83,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": false,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 55,
+    "reasons": [
+      "crop_stage_match FAIL: Specified chickpea (many tiny serrated leaflets and inflated pods) but the plants shown are larger tomato-like seedlings with broad compound leaves, no pods visible; species and growth stage do not match the brief.",
+      "role_camera_match FAIL: Role 2 requires near-overhead tight detail with no horizon or vanishing-point furrows; the image instead shows an eye-level/side view with a prominent vanishing-point furrow line and distant horizon through crop rows.",
+      "product_scale_match FAIL: The AFP carton occupies approximately 0.28–0.30 of frame width, exceeding the specified interval of [0.18, 0.23]; the carton is proportionally too large in the frame.",
+      "Overall: image quality is technically competent with correct phone label, plausible packaging geometry, and recognizable AFP carton identity, but the crop species mismatch and wrong camera angle are substantive failures that prevent a higher score."
+    ]
+  }
+}

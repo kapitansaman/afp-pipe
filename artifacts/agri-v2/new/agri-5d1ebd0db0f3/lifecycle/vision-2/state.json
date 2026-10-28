@@ -1,0 +1,57 @@
+{
+  "attempts": 4,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "failed",
+      "last_run_id": "40677034551",
+      "started_at": "2026-10-28T11:10:14.758635+00:00",
+      "completed_at": "2026-10-28T11:10:26.449882+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
+    },
+    {
+      "attempts": 2,
+      "status": "failed",
+      "last_run_id": "40677034551",
+      "started_at": "2026-10-28T11:11:34.426979+00:00",
+      "completed_at": "2026-10-28T11:11:47.741175+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40677034551",
+      "started_at": "2026-10-28T11:12:55.804179+00:00",
+      "completed_at": "2026-10-28T11:13:09.304316+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
+    },
+    {
+      "attempts": 4,
+      "status": "failed",
+      "last_run_id": "40677034551",
+      "started_at": "2026-10-28T11:14:16.692288+00:00",
+      "completed_at": "2026-10-28T11:14:40.462491+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
+    }
+  ],
+  "status": "failed",
+  "last_run_id": "40677034551",
+  "started_at": "2026-10-28T11:14:16.692288+00:00",
+  "completed_at": "2026-10-28T11:14:40.462491+00:00",
+  "failure": {
+    "kind": "image_quality",
+    "category": "image_critical_checks_failed"
+  }
+}

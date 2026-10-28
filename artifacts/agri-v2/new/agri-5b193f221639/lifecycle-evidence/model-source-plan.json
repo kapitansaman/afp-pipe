@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T11:07:10.027766+00:00",
+  "topic_id": "agri-5b193f221639",
+  "input_binding": {
+    "topic_sha256": "24188ef35d3742fa844f318beedda4a13e531785369f753e522611946fa5b343",
+    "sources_sha256": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+    "raw_sha256": "e3fbe89b39d13aafc595aff2c12a865570acd5fdc1cb86b064fb4f18f9e6c4bc"
+  },
+  "plan": {
+    "topic_id": "agri-5b193f221639",
+    "gap": "No university extension or primary scholarly source found that explicitly addresses soil moisture sensor placement methodology, installation depth, horizontal positioning relative to drip irrigation lines, sensor type selection (TPS/FDR/TDR), or operational irrigation decision thresholds specifically for chickpea cultivation.",
+    "queries": [
+      "chickpea soil moisture sensor placement depth installation university extension",
+      "chickpea irrigation sensor positioning drip tape decision threshold research"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Exact chickpea crop identity preserved; no substitution with other pulses"
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Direct guidance on soil moisture sensor placement methodology including depth, horizontal offset from emitters, and sensor type recommendations"
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Original measurement units and numeric ranges for sensor depth, soil moisture thresholds, and irrigation decision parameters with geographic context"
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

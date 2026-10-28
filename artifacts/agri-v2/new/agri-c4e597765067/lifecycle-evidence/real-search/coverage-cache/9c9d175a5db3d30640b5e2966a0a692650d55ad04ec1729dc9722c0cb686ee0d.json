@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "input_sha256": "9c9d175a5db3d30640b5e2966a0a692650d55ad04ec1729dc9722c0cb686ee0d",
+  "response_sha256": "9e0df3b658aa141015cbdc1ddc8973d89d73f0646380e866570f594cd4d4882f",
+  "created_at": "2026-10-28T11:07:50.218751+00:00",
+  "verdict": {
+    "topic_id": "agri-c4e597765067",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s2",
+          "s3"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document explicitly specifies the measurement method (Kc, soil water depletion, flow rate, or applied water depth) for chickpea water need; FAO documents (s4, s6) state the ETc = Kc × ET0 formula and give a Kc_mid value but lack a clear chickpea-specific Kc table with growth-stage values and do not distinguish ETc (crop water use) from irrigation input quantity."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a complete water-requirement estimate for chickpea with explicit units (mm, m³/ha, L/h) tied to defined climate zones and growth stages; s0 mentions Montana supplemental irrigation of 2-3 inches per season but gives no ETc calculation, units for seasonal water need, or stage-by-stage scope."
+      }
+    ],
+    "next_queries": [
+      "chickpea Kc crop coefficient growth stages FAO 56 Cicer arietinum",
+      "chickpea seasonal water requirement evapotranspiration mm university extension"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

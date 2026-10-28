@@ -1,0 +1,37 @@
+{
+  "requested": 5,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://water.nv.gov/mapping/et/Docs/Annex_1.pdf",
+      "canonical_url": "https://water.nv.gov/mapping/et/Docs/Annex_1.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=2469&context=natrespapers",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas",
+      "canonical_url": "https://cropwatch.unl.edu/2019/yield-water-use-irrigated-field-peas-chickpeas/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.fao.org/4/s2022e/s2022e02.htm",
+      "canonical_url": "https://www.fao.org/4/s2022e/s2022e02.htm",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

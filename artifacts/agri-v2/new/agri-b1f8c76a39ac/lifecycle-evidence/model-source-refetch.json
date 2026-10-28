@@ -8,13 +8,13 @@
     "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
     "raw_sha256": "5372c01c0c37567aecdd3f571885fe4ab46a091fb459dfdaaba53bbfdc76d558"
   },
-  "completed_at": "2026-10-28T10:41:18.011543+00:00",
+  "completed_at": "2026-10-28T11:07:02.253530+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T10:39:57.372687+00:00",
+      "started_at": "2026-10-28T11:07:01.521161+00:00",
       "queries": [
         {
           "query_id": "23259624cba397de9aac12b7f937b3a1abe3da6ad77acc3ca73e5052d4ca51de",
@@ -162,17 +162,17 @@
           "alfalfa pre-harvest yield estimation plant height stem density quadratic equation university extension"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:40:14.447381+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:01.966179+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T10:40:14.447917+00:00",
+      "started_at": "2026-10-28T11:07:01.967839+00:00",
       "queries": [
         {
           "query_id": "150929ef5e9ccb49cfcf98f45353ba3e8d093132efad17f4471a2f87f9a0343b",
           "query": "alfalfa predictive equations yield PEAQ Pre-Harvest Estimation Of Yield method t DM/ha extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184045.8121295,
           "results": [
             {
@@ -195,7 +195,7 @@
         {
           "query_id": "f440f0a929d1886eedc3cbe6bbe95095d3de546d16112f53aa2fdfe26ead2273",
           "query": "alfalfa pre-harvest yield estimation plant height stem density quadratic equation university extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184049.0059247,
           "results": [
             {
@@ -271,8 +271,7 @@
           {
             "url": "https://blog-crop-news.extension.umn.edu/2022/08/do-stem-and-plant-density-predict.html",
             "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/08/do-stem-and-plant-density-predict.html",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8299HarvestStrategies_free.pdf",
@@ -283,14 +282,12 @@
           {
             "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.931403/full",
             "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.931403/full",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://bookstore.ksre.ksu.edu/pubs/alfalfa-production-handbook_C683.PDF",
             "canonical_url": "https://bookstore.ksre.ksu.edu/pubs/alfalfa-production-handbook_C683.PDF",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           }
         ]
       },
@@ -322,8 +319,8 @@
           "alfalfa standing biomass prediction method stem height density extension publication"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:41:18.010797+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:02.252547+00:00"
     }
   ],
   "fetches_reserved": 12,

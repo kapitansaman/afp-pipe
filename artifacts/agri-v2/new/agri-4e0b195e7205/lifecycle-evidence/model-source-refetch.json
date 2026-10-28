@@ -8,13 +8,13 @@
     "sources_sha256": "c872765498d3076684ccfdb853de3a8990f7d0388ffc4130373171ad4dc85cc2",
     "raw_sha256": "2575d7abe0a41b14fa88c9e1c1a459e4950a4cd7b9516b5ed7c2eed5d172b211"
   },
-  "completed_at": "2026-10-28T10:40:54.157523+00:00",
+  "completed_at": "2026-10-28T11:07:01.942807+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T10:39:57.292438+00:00",
+      "started_at": "2026-10-28T11:07:01.298973+00:00",
       "queries": [
         {
           "query_id": "d5117b0e533ea8fd08b7d7a1ff8467f78e83a936ba60ae88d636a6b64f5f847c",
@@ -140,17 +140,17 @@
           "Cicer arietinum irrigation scheduling management allowable depletion MAD soil water tension"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:40:27.233083+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:01.762480+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T10:40:27.233630+00:00",
+      "started_at": "2026-10-28T11:07:01.763202+00:00",
       "queries": [
         {
           "query_id": "de1023871341632a42e590d67deff68ab5fd4a68edb1118c32c065ff2ccb32b1",
           "query": "chickpea first irrigation timing growth stage emergence soil moisture threshold university extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184034.7271366,
           "results": [
             {
@@ -183,7 +183,7 @@
         {
           "query_id": "6d99970444a5d43226ba4f6ed097fa449fa3c1ab87b935f29973ec68f6edcbfa",
           "query": "Cicer arietinum irrigation scheduling management allowable depletion MAD soil water tension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184042.933317,
           "results": [
             {
@@ -262,8 +262,8 @@
           "chickpea Ascochyta blight irrigation timing disease risk establishment"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:40:54.156852+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:01.942085+00:00"
     }
   ],
   "fetches_reserved": 8,

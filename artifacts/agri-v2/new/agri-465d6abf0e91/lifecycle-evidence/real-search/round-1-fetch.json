@@ -1,0 +1,30 @@
+{
+  "requested": 4,
+  "loaded": 1,
+  "sources": [
+    {
+      "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/stelprdb1044175.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://openknowledge.fao.org/server/api/core/bitstreams/ca36b8c1-99b6-4cad-ad88-ff018647a474/content",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    }
+  ]
+}

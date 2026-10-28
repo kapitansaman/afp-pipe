@@ -1,0 +1,17 @@
+{
+  "family_id": "family-04",
+  "topic_id": "agri-5b193f221639",
+  "title": "پایش رطوبت خاک در مزرعه نخود؛ انتخاب محل و عمق حسگر",
+  "title_sha256": "6cf11ac7593d160ea9471ba1c098c8d415e758fd99db8b09df223db8920e01ae",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY13",
+    "AGNES_API_KEY14",
+    "AGNES_API_KEY15",
+    "AGNES_API_KEY16"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

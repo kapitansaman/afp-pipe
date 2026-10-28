@@ -1,0 +1,99 @@
+{
+  "round": 2,
+  "started_at": "2026-10-28T11:08:14.930312+00:00",
+  "queries": [
+    {
+      "query_id": "db1569a3006d708ac21dfcd71c8d4378b06d7100b252c8ac4494281889c57e63",
+      "query": "chickpea Cicer arietinum pre-harvest yield estimation sampling method university",
+      "cached": false,
+      "checked_at_epoch": 1793185696.7027438,
+      "results": [
+        {
+          "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+          "title": "Sampling techniques for measuring and forecasting crop yields",
+          "description": "(Based on weight per unit volume) = 44.10 X .620 = 27.34 grams Harvest weight per nut (in shell) = 27.34 x (1-. 00514 D) ; adjust-ment of weight for days to harvest (D = 55) = 27.34 X .7173 = 19.61 grams Harvest gross yield per tree = number sound nuts x harvest weight per nut = 1660.8 X 19.61 = 32,568 grams or 71.80 lb Net yield per tree = 71.80 x adj. [...] The first is the short period just prior to harvest called pre-harvest (after physiological maturity) when the problem is limited to developing appropriate sampling and estimation techniques, as forecasting is not involved.\nThese techniques were discussed earlier under the general heading of crop cutting. [...] Similarly, for May and June, the value is 8.6— (2 x 6.9 + 12.0) /3 = 8.6.\nBy the same method, the 1969 January-February index is 85.7 and the May-June index is 21.4.\nThese values are now used in the estimation equations.\nIf an estimate is desired before June data are available, a June index value calculated from the long-term average temperature of 20.0° C and precipitation of 30.6 mm can be used, since they are the expected values based on the historical series."
+        },
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "title": "Chickpea Production - Extension Store",
+          "description": "We encourage the use of this document for nonprofit educational purposes. This document may be reprinted for nonprofit educational purposes if no endorsement of a commercial product, service or company is stated or implied, and if appropriate credit is given to the author and MSU Extension. To use these documents in electronic formats, permission must be sought from the Extension Communications Director, 135 Culbertson Hall, Montana State University, Bozeman, MT 59717; E-mail: [...] The U.S. Department of Agriculture (USDA), Montana State University and Montana State University Extension prohibit discrimination in all of their programs and activities on the basis of race, color, national origin, gender, religion, age, disability, political beliefs, sexual orientation, and marital and family status. Issued in furtherance of cooperative extension work in agriculture and home economics, acts of May 8 and June 30, 1914, in cooperation with the U.S. Department of Agriculture, [...] Chickpea (Cicer arietinum L.) is an annual grain legume or ‘pulse crop' sold as human food. Commercial types include large Kabuli, small Kabuli, and Desi. Chickpea production has significantly increased in th"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191",
+          "title": "Participatory variety evaluation and selection of chickpea ...",
+          "description": "by M Gebeyaw · 2024 · Cited by 10 — Abstract. The productivity and production of chickpeas can be improved by using access-improved varieties that are suitable for the specific agroecology.Read more"
+        }
+      ]
+    },
+    {
+      "query_id": "3a69b9623904e3e213481f2c67adfc0b537e110e310607d52c5dabff9ac35edb",
+      "query": "chickpea sample plot size pods per square meter yield prediction formula",
+      "cached": false,
+      "checked_at_epoch": 1793185699.2829723,
+      "results": [
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "title": "Chickpea Production - Extension Store",
+          "description": "desiccation to terminate growth is often necessary. Mature plants will be 15-30 inches tall, heavily branched, appearing as small bushes. Optimally, there will be 1-2 seeds per pod. A greater number of seeds per pod typically leads to smaller seed size at maturity. Kabuli chickpea usually matures in 110 to 120 days. Desi type will mature somewhat earlier. [...] Chickpea germinates similar to dry pea with the seed coat and cotyledons remaining below ground (hypogeal germination). Developing plants will have 1-2 scale nodes on the stem just below the soil surface. These nodes serve as points of regrowth if the seedling is damaged (a late frost for example). On average, a new node (leaf) is produced every 3 to 4 days.\n\n### Yield potential and markets [...] Chickpea has a low shattering potential, especially compared to dry pea and lentil. Pod drop and pod shattering can occur once seeds have dried down and are ready for harvest. Direct cutting without desiccation usually results in higher yields and larger seed size. In some regions it is advantageous to swath and then combine, since delayed harvests can result in darkened or stained seed coats. A desiccant will not speed maturity but"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 1,
+    "loaded": 1,
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191",
+        "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11046191/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 1,
+  "coverage": {
+    "topic_id": "agri-465d6abf0e91",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a step-by-step pre-harvest field sampling protocol for chickpea yield estimation. None specifies sample plot size for yield estimation, number of replicates, timing relative to growth stages (e.g., R5-R7 pod-filling), criteria for selecting representative plants/branches, procedure for counting pods and seeds per plant, or method for determining average seed weight prior to harvest."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3",
+          "s5"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document presents a dimensionally correct pre-harvest yield estimation formula with explicitly named measured inputs and their units (e.g., plants/m², fresh/dry weight in g, pod fill percentage) and a final yield unit in kg/ha or t/ha. s5 reports post-harvest grain yield in kg/ha and a harvest-index formula, but this applies to harvested plots, not pre-harvest estimation. s1 and s0 report trial yields in lb/acre but contain no estimation formula."
+      }
+    ],
+    "next_queries": [
+      "chickpea pre-harvest yield estimation sampling method university extension",
+      "chickpea Cicer arietinum predictive yield sampling protocol before harvest"
+    ]
+  },
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T11:09:35.819001+00:00"
+}

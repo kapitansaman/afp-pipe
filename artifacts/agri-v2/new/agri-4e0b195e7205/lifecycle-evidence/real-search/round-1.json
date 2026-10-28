@@ -1,6 +1,6 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T10:39:57.292438+00:00",
+  "started_at": "2026-10-28T11:07:01.298973+00:00",
   "queries": [
     {
       "query_id": "d5117b0e533ea8fd08b7d7a1ff8467f78e83a936ba60ae88d636a6b64f5f847c",
@@ -126,6 +126,6 @@
       "Cicer arietinum irrigation scheduling management allowable depletion MAD soil water tension"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:40:27.233083+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:01.762480+00:00"
 }

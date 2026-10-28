@@ -7,10 +7,50 @@
   "topic_id": "agri-5d1ebd0db0f3",
   "review_model": "agnes-2.5-flash",
   "review_policy": "agri-vision-qa-v12-critical-checks",
-  "checked_at": "2026-10-28T10:47:57.674809+00:00",
+  "checked_at": "2026-10-28T11:07:01.517508+00:00",
   "reviewer": "automated_multimodal_model",
   "human_review_claimed": false,
-  "status": "review_deferred",
+  "status": "reviewed",
   "no_auto_regeneration": true,
-  "error_type": "PoolDeferred"
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 67,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match",
+        "package_separate_from_plumbing",
+        "packaging_closed_no_protruding_material"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": false,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": false,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 38,
+    "reasons": [
+      "crop_stage_match FAILED: The scene shows vibrant green leafy plants with no visible pods or yellowing, contradicting the article's harvest-stage chickpea topic which requires yellowing/drying plants at maturation. Green vegetation is visually inconsistent with the named growth stage discussed.",
+      "packaging_closed_no_protruding_material FAILED: A white ribbon/tape strip clearly protrudes from the AFP carton and extends toward the plants, violating the requirement to reject any protruding strap, tape tail, or strip.",
+      "package_separate_from_plumbing FAILED: The protruding white tape physically connects the carton area toward the vegetation, indicating lack of an empty physical gap all around the carton on the soil surface.",
+      "role_camera_match: The camera is at approximately ground-level side angle rather than the requested elevated wide overview; this is cosmetic but noted.",
+      "topic_evidence_match: While an agricultural scene with a product is present, the crop stage and the protruding tape material create a materially confusing visual claim inconsistent with the harvest-timing article topic."
+    ]
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "family_id": "family-03",
+  "topic_id": "agri-4b687f285cda",
+  "title": "تراکم خاک در کشت لوبیا چیتی؛ نشانه‌ها و راه‌های اصلاح بستر ریشه",
+  "title_sha256": "cd7d42989d23da70e94d3adc9f9e9e86b66d1c29812bbf18db8f3dc5c3ee2c08",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY9",
+    "AGNES_API_KEY10",
+    "AGNES_API_KEY11",
+    "AGNES_API_KEY12"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T11:07:16.898545+00:00",
+  "topic_id": "agri-c4e597765067",
+  "input_binding": {
+    "topic_sha256": "fccb800198c4de30e8152e52b7b72352c3cb511766ed0f68147a04bccef4b730",
+    "sources_sha256": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+    "raw_sha256": "337a4d152f434429077c80caa6d90cbac519d87432535b690f13a9b148c1dd31"
+  },
+  "plan": {
+    "topic_id": "agri-c4e597765067",
+    "gap": "منابع موجود فاقد داده‌های کمی درباره برآورد حجم آب آبیاری (ETc، عمق آب، دبی یا زمان آبیاری بر پایه مرحله رشد) هستند و تنها به عملکرد و سطح زیرکشت اشاره کرده‌اند. هیچ شاخص آب مورد نیاز نخود بر حسب اقلیم و مرحله رشد ارائه نشده است.",
+    "queries": [
+      "chickpea evapotranspiration coefficient growth stage climate",
+      "chickpea irrigation scheduling monitored soil moisture depletion"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "تعیین دقیق گونه نخود (Cicer arietinum) و اطمینان از عدم اشتباه با حبوبات دیگر مانند ماش، یولاف یا لوبیا."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "شفاف‌سازی روش اندازه‌گیری مورد نظر خواننده: ضریب تبخیرتعرق (Kc)، تخلیه آب خاکی، نرخ دبی آبیاری یا عمق آب مصرفی؛ تفکیک بین مصرف آب محصول و ورودی آب آبیاری."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "مشخص کردن واحدهای اندازه‌گیری (میلی‌متر، لیتر بر ساعت، مترمکعب در هکتار) و دامنه کاربرد (بر پایه مرحله رشد، منطقه اقلیمی یا کل فصل کشت)."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

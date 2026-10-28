@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T10:40:05.758018+00:00",
+  "started_at": "2026-10-28T11:07:01.393061+00:00",
   "queries": [
     {
       "query_id": "a67803ec889ce95f25da29494464548b8548e42e33935135c8319ea971d9c976",
       "query": "chickpea drip irrigation irrigation interval duration calculation flow rate application rate mm/day university extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793184007.520329,
       "results": [
         {
@@ -28,7 +28,7 @@
     {
       "query_id": "7b47c71731d1231afd8cdd2200e2a19b61ff974d1f447085480bdcd0db55d953",
       "query": "chickpea crop water requirement evapotranspiration mm day drip tape discharge measurement flow rate calculation",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793184011.296454,
       "results": [
         {
@@ -71,8 +71,7 @@
       {
         "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
         "canonical_url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
@@ -96,8 +95,7 @@
       {
         "url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
         "canonical_url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -134,6 +132,6 @@
       "Cicer arietinum irrigation interval calculation actual discharge water demand"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:40:24.714422+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:02.923908+00:00"
 }

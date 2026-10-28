@@ -1,0 +1,53 @@
+{
+  "image_sha256": "bec19adba7fc365098cca0fb3f4d6cba1f6148b45b0ca4788a7c4af94195c119",
+  "contract_sha256": "4627afee414c0cab1618faed5f07d9f4add6695b66f2d4a387724b08c8083b46",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-5d1ebd0db0f3",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T11:11:34.428999+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 76,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "package_separate_from_plumbing"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": false,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": false,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 25,
+    "reasons": [
+      "Critical failure — crop_stage_match: the scene shows green leafy bushy plants that are not recognizable as chickpea (Cicer arietinum) and show no mature pods; the topic excerpt explicitly describes yellowing plants with ripe pods for harvest readiness, making this a biologically contradictory stage depiction.",
+      "Critical failure — package_separate_from_plumbing: the flattened drip tape visibly emerges from the carton's open core and lies directly in contact with the carton body, violating the requirement for an empty physical gap all around the carton with no tubing emerging from its sleeve.",
+      "Cosmetic — role_camera_match: the camera is a low side-angle shot with visible horizon, not the required near-overhead tight detail with no horizon or vanishing-point furrows.",
+      "Cosmetic — product_scale_match: the AFP carton appears wider than the specified 0.18–0.23 frame-width range, occupying roughly a quarter to a third of the frame width."
+    ]
+  }
+}

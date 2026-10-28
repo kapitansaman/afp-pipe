@@ -1,0 +1,24 @@
+{
+  "attempts": 0,
+  "history": [
+    {
+      "attempts": 0,
+      "status": "deferred",
+      "last_run_id": "40677034551",
+      "started_at": "2026-10-28T11:07:51.928467+00:00",
+      "completed_at": "2026-10-28T11:08:21.956627+00:00",
+      "failure": {
+        "kind": "admission_deferred",
+        "category": "pool_credentials_busy"
+      }
+    }
+  ],
+  "status": "deferred",
+  "last_run_id": "40677034551",
+  "started_at": "2026-10-28T11:07:51.928467+00:00",
+  "failure": {
+    "kind": "admission_deferred",
+    "category": "pool_credentials_busy"
+  },
+  "completed_at": "2026-10-28T11:08:21.956627+00:00"
+}

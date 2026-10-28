@@ -1,0 +1,138 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T11:07:10.034747+00:00",
+  "queries": [
+    {
+      "query_id": "0fbc3f1975e5014153f0bd56ef7be492522603808b86922f1f95922ee8de29bb",
+      "query": "chickpea soil moisture sensor placement depth installation university extension",
+      "cached": false,
+      "checked_at_epoch": 1793185631.577221,
+      "results": [
+        {
+          "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+          "title": "Guidance for Soil Moisture Sensor Selection: Market Analysis and Decision-Making Strategies | UA Cooperative Extension",
+          "description": "In-situ soil moisture sensors can be installed at different depths within the root zone, horizontally or vertically, depending on their designs and measurement requirements (individual sensors or multi-depth probes). The most common range of installation depths varies from 6 inches (0.15 m) to 60 inches (1.5 m) to capture reliable soil moisture fluctuations. It is important to follow the installation steps of the sensors as recommended by manufacturers to achieve the most accurate results. For [...] | Sensor | Technology | Depth Options |\n| HOBOnet Teros 12 | Capacitance | Single depth (4.5 in. length) |\n| Decent Lab DL-SMTP-001 | Capacitance | multi-depth (24-in. depth) |\n| Dragino LSE01 | Frequency Domain Reflectometry (FDR) | Single depth (7.7- in. depth) |\n| GroPoint 2625-ST | Time Domain Transmissivity (TDT) | multi-depth (up to 8 depths every 6 in.) |\n| Sensoterra single depth | Impedence (soil resistivity & capacitance) | Single depth (6-in, 12-in, 24-in, 36- in.) | [...] outlined in Figure 1. Currently, single depth sensors usually range from $100 to $700 while the multi-depth ones are $600 to $1750. Although single depth sensors do not provide a substantial amount of infor"
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+          "title": "Soil moisture monitoring to support irrigation scheduling | OSU Extension Service",
+          "description": "Install a minimum of two monitoring locations per management zone to capture variability.\n In relatively uniform fields (up to about 40 acres), two monitoring sites are often sufficient.\n Fields with higher spatial variability in soil texture, elevation or irrigation uniformity may require additional monitoring locations.\n\nSensor placement density should reflect field variability, not acreage alone.\n\n### Sensor depth placement [...] Close of photo of a person's hands place a soil sensor in the ground.\n\nFigure 10.Proper installation of a soil moisture sensor within the crop root zone. Sensors should be installed in representative management zones with firm soil contact and minimal disturbance to ensure accurate, reliable readings for irrigation decision-making.\n\nCredit: Adobe Stock\n\n### Installation best practices [...] Satellite-based soil moisture products such as Soil Moisture Active Passive and Soil Moisture Ocean Salinity use microwave sensors to estimate surface soil moisture. These systems typically represent moisture conditions in the upper approximately 5–10 cm of soil. Because of this shallow measurement depth, they may not reflect moisture conditions throughout the full c"
+        }
+      ]
+    },
+    {
+      "query_id": "e3fa58efdc014caaa41777457135325584a560e85406723c5abd07b0f28ee87d",
+      "query": "chickpea irrigation sensor positioning drip tape decision threshold research",
+      "cached": false,
+      "checked_at_epoch": 1793185634.6864374,
+      "results": [
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "Sensor installation and calibration are important for efficient use of these devices in irrigation decision making. Poor installation can often lead to poor data and wrong decision making. Although modern sensors are factory calibrated or self-calibrating, some do provide the option to adjust threshold levels manually based on field observations. Early installation of sensors can be useful in making informed decisions as soon as the season starts. For a more detailed analysis of proper sensor [...] avoid water stress or overwatering (Figure 2). These decisions are useful in furrow and drip irrigation systems where irrigation triggers can be synchronized with MAD values, while the trend values are more useful in center pivot irrigation systems as these systems run continuously in a time and space bound manner, which is explained in next section. [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moistu"
+        },
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "Using soil sensors for irrigation requires determining an irrigation threshold that is suitable for the soil, crop, and management choices for the field being irrigated. Irrigation thresholds are sometimes based on soil water tension values for different soil types (table 1). However, a limitation with this approach is that it bases irrigation decisions on the soil dryness alone rather than on the impact that soil dryness has on the crop. An alternative approach to irrigation scheduling is [...] similar uniformity issues, particularly if the tape runs are too long for the diameter and flow rate or if header lines are undersized. Placing a sensor in an area with application rates significantly above or below average will drive the user to make incorrect irrigation management decisions. It is recommended that a minimum of three sensor stations per field be used to spread the risk of measuring in areas of poor uniformity and to clearly measure all soil types. [...] representative of those in the field being irrigated. In fields with different soil textures or crops, sensors should ideally be located in each management zone to provide data that is relevant to each soil type and crop be"
+        },
+        {
+          "url": "https://extension.colostate.edu/resource/determining-irrigation-run-times-with-drip-tape-on-specialty-crops",
+          "title": "Determining Irrigation Run Times with Drip Tape on Specialty Crops | Colorado State University Extension",
+          "description": "28% depleted). Once MAD is known for an irrigation zone monitored by these sensors, doing the calculation once to determine the MAD equivalent centibars will help with irrigation management by establishing that “red line”. Some vendors provide wireless sensors, allowing growers to set a MAD for a soil water sensor report and view hourly soil water graphs via internet connected devices. This allows growers to see both soil water increases (irrigation and rain events) and decreases (evaporation [...] A key point to remember, particularly with buried drip tape versus drip tape on the soil surface, is that the emitted water from the tape will immediately move down in the soil due to gravity at the same time it moves up. With buried drip tape, irrigating until the moisture is seen in a wide band on the soil surface will often cause a portion the applied water to move below the root zone, resulting in lost water and nutrients. [...] crop is not fully rooted. Samples should represent the average soil moisture conditions for crop roots and should be taken 4 – 6 inches away from both the crop and the drip tape."
+        },
+        {
+          "url": "https://ask.ifas.ufl.edu/publication/AE354",
+          "title": "AE354/AE354: Automatic Irrigation Based on Soil Moisture for Vegetable Crops",
+          "description": "Although dielectric sensors have only found limited use in vegetable production, research to date shows promising results in terms of water savings. Nogueira et al. (2003) described an automatic subsurface drip irrigation control system used in a sweet corn/peanut crop rotation. This system used TDR sensors to control a subsurface drip irrigation system on-demand. During subsequent testing of this system, 11% irrigation savings with the on-demand subsurface drip irrigation system (23 cm deep) [...] impact on crop yields. Due to the soil's natural variability, location and number of soil moisture sensors may be crucial; future work should include optimization of sensor placement. Additional research should also include techniques to overcome the limitation of requiring a soil-specific calibration if needed for a particular technology. [...] As water supplies become scarce and polluted, there is a need to irrigate more efficiently in order to minimize water use and chemical leaching. Advances in soil moisture sensors make the commercial use of this technology possible to automate irrigation management for vegetable production. However, research indicates that different sensor types m"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 6,
+    "loaded": 4,
+    "sources": [
+      {
+        "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+        "canonical_url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+        "canonical_url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+        "status": "unavailable",
+        "category": "http_error",
+        "temporary": true,
+        "http_status": 403
+      },
+      {
+        "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+        "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://extension.colostate.edu/resource/determining-irrigation-run-times-with-drip-tape-on-specialty-crops",
+        "canonical_url": "https://extension.colostate.edu/resource/determining-irrigation-run-times-with-drip-tape-on-specialty-crops/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      },
+      {
+        "url": "https://ask.ifas.ufl.edu/publication/AE354",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      }
+    ]
+  },
+  "fetches_reserved": 6,
+  "coverage": {
+    "topic_id": "agri-5b193f221639",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No chickpea-specific soil moisture sensor placement methodology found. General sensor guidance exists in s5-s8 (depth 6–60 in range, single vs multi-depth options, LoRa/LoRaWAN connectivity, tensiometer/TDR/capacitance technology comparison, MAD-based thresholds), but none tie sensor placement, horizontal offset from emitters, or depth recommendations specifically to chickpea (Cicer arietinum L.). s0/s3 state chickpea effective rooting depth ≤30 in and water uptake concentrated in top 12 in of soil, but do not prescribe sensor installation depth, emitter offset, or sensor-type selection for this crop."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No chickpea-specific measurement units, soil-moisture thresholds, or irrigation-decision parameters found. s6 provides general soil-texture tables for field capacity and irrigation-threshold centibars/kPa (e.g., loam: FC 20–30 cb, threshold 30–50 cb); s7 gives general MAD % and soil-water-tension ranges by crop (e.g., small grain 50% MAD, 40–50 kPa vegetative); s8 lists MAD and MRD for specialty crops but chickpea is absent. Chickpea root depth (≤30 in) and top-12-in water-use zone are stated in s0/s3, yet no numeric soil-moisture threshold, MAD, or irrigation trigger specific to chickpea is provided. Geographic context is US Midwest/Pacific-Northeast extension; no Iranian or chickpea-producing-region-specific data."
+      }
+    ],
+    "next_queries": [
+      "chickpea soil moisture sensor placement depth irrigation scheduling extension university",
+      "chickpea soil water tension threshold management allowable depletion irrigation"
+    ]
+  },
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T11:07:32.095278+00:00"
+}

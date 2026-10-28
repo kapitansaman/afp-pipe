@@ -1,0 +1,50 @@
+{
+  "image_sha256": "13e40196ce2fdf8c84c247449c7096ff5c392b9116eb2d324b1e131eefbf64b0",
+  "contract_sha256": "4627afee414c0cab1618faed5f07d9f4add6695b66f2d4a387724b08c8083b46",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-5d1ebd0db0f3",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T11:12:55.806069+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 93,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": true,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 58,
+    "reasons": [
+      "crop_stage_match FAIL: The scene DATA requires chickpea (Cicer arietinum) described as low bushy plants with tiny serrated leaflets and inflated pods. The plants in the image have large broad leaves and a growth habit inconsistent with chickpea morphology — they more closely resemble sunflower or another broad-leaf crop. This is a species-stage mismatch.",
+      "Score moderated for the critical crop identification failure despite all other checks passing and generally good image quality."
+    ]
+  }
+}

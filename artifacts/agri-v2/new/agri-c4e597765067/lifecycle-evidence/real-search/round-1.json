@@ -1,0 +1,154 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T11:07:16.905920+00:00",
+  "queries": [
+    {
+      "query_id": "3eac4e7aadcea470c44d637f2b0c43a9e99ee745280551f3df040b2b6a3e0e14",
+      "query": "chickpea evapotranspiration coefficient growth stage climate",
+      "cached": false,
+      "checked_at_epoch": 1793185647.9768934,
+      "results": [
+        {
+          "url": "https://www.fao.org/4/x0490e/x0490e0b.htm",
+          "title": "Chapter 6 - ETc - Single crop coefficient (Kc)",
+          "description": "This chapter deals with the calculation of crop evapotranspiration (ETc) under standard conditions. ETc is determined by the crop coefficient approach whereby the effect of the various weather conditions are incorporated into ETo and the crop characteristics into the Kc coefficient:. The effect of both crop transpiration and soil evaporation are integrated into a single crop coefficient. The Kc coefficient incorporates crop characteristics and averaged effects of evaporation from the soil. For normal irrigation planning and management purposes, for the development of basic irrigation schedules, and for most hydrologic water balance studies, average crop coefficients are relevant and more convenient than the Kc computed on a daily time step using a separate crop and soil coefficient (Chapter 7). adjusting the selected Kc coefficients for frequency of wetting or climatic conditions during the stage;. constructing the crop coefficient curve (allowing one to determine Kc values for any period during the growing period); and."
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s44279-025-00458-3",
+          "title": "Determining evapotranspiration of Faba bean and Chickpea ...",
+          "description": "by MKAJ Mahmoud · 2025 — The average seasonal ETc was 435 mm for faba bean and 380 mm for chickpea, with maximum daily values observed during the mid-season stage."
+        },
+        {
+          "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+          "title": "Crop Water Use and Growth Stages | CSU Extension",
+          "description": "# Crop Water Use and Growth Stages. * Crop water use (ET) at critical growth stages can be used in irrigation scheduling to avoid stressing crops. * Periodically check soil water at different depths within the root zone and at different growth stages to avoid stressing the crop during critical growth stages. Crop water use, also known as evapotranspiration (ET), is the water used by a crop for growth and cooling purposes. This water is extracted from the soil root zone by the root system, which represents transpiration and is no longer available as stored water in the soil. Crop water use (ET) is influenced by prevailing weather conditions, available water in the soil, crop species and growth stage. At full cover, a crop will have the maximum ET rate (reference ET) if soil water is not limited; namely if the soil root zone is at field capacity. Full cover is a growth stage at which most of the soil is shaded by the crop canopy."
+        },
+        {
+          "url": "https://www.fao.org/4/x0490E/x0490e0a.htm",
+          "title": "Chapter 5 - Introduction to crop evapotranspiration (ETc)",
+          "description": "In the crop coefficient approach, crop evapotranspiration is calculated by multiplying ETo by Kc. Differences in evaporation and transpiration between field crops and the reference grass surface can be integrated in a single crop coefficient (Kc) or separated into two coefficients: a basal crop (Kcb) and a soil evaporation coefficient (Ke), i.e., Kc = Kcb + Ke. The approach to follow should be selected as a function of the purpose of the calculation, the accuracy required and the data available. Where the soil is wet for most of the time from irrigation or rain, the evaporation from the soil surface will be considerable and Kc may exceed 1. Deviation of the Kc mid from the reference value '1' is primarily due to differences in crop height and resistance between the grass reference surface and the agricultural crop and weather conditions. In the single crop coefficient approach, the effect of crop transpiration and soil evaporation are combined into a single Kc coefficient."
+        }
+      ]
+    },
+    {
+      "query_id": "6c3db673808894ea786a2eb57764e063b797d060b9753ac398849a1685fa7294",
+      "query": "chickpea irrigation scheduling monitored soil moisture depletion",
+      "cached": false,
+      "checked_at_epoch": 1793185656.174311,
+      "results": [
+        {
+          "url": "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2025.1496198/full",
+          "title": "Frontiers | Understanding the impact of irrigation scheduling on water use efficiency in corn and soybean production in humid climates: insights from on-farm demonstration",
+          "description": "soil moisture above the irrigation threshold until the next precipitation event. This may indicate that directly observing available water through the use of in situ soil moisture monitoring could be more advantageous than calculating the current available water as done in ET-based scheduling methods. Utilizing irrigation scheduling with the aid of soil moisture monitoring reduces potential errors in estimating current conditions while maintaining the best approach to forecasting the future [...] The efficient management of water resources in agriculture is crucial for ensuring sustainable crop production and environmental stewardship. In this study, the impact of irrigation scheduling and soil moisture monitoring were explored, with a focus on improving crop yields while minimizing water consumption. While statistically significant differences in yield were not observed among irrigation treatments, aside from irrigated as opposed to non-irrigated, the results underscored the importance [...] to avoid water stress. This is especially necessary during critical growth periods when water demand and the potential for impact are both increased. Soil moisture-based scheduling involves mo"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/smart-crop-irrigation-scheduling-service-corn-and-soybean",
+          "title": "Smart Crop Irrigation Scheduling Service for Corn and Soybean | CropWatch | Nebraska",
+          "description": "CropSmart Irrigation Scheduling Service creates a digital twin of a producer’s field to track crop water use, 3D water flow and soil moisture balance within the crop root zone — all in real time. It deploys a high-powered digital 3D hydraulic model with high spatial resolution rainfall data and other weather information, plus one-week weather forecasts. The tool recommends irrigation when soil water drops below the preset water depletion threshold, where crop water stress and yield loss may [...] By Haishun Yang - UNL Associate Professor of Agronomy and Horticulture, Liping Di - Professor and Director, Center for Spatial Information Science and Systems\n\nPerson inspecting crops under irrigation equipment, holding a tablet, with \n\nAs irrigation costs and drought concerns continue across Nebraska, CropSmart offers producers a newer data-driven irrigation scheduling tool that tracks crop water use and soil moisture in real time."
+        },
+        {
+          "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+          "title": "Basics of irrigation scheduling",
+          "description": "that should be used for irrigation water management purposes.\n3.   Define the management allowable soil water depletion (MAD) limits for the selected soil types and the crop(s) to be grown.\n4.   Establish a soil moisture monitoring system and regularly (at least twice a week) keep track of the soil water deficit or depletion. [...] 5.   Initiate an irrigation when the soil water deficit is expected to approach the selected management allowable soil water depletion limit by the time the irrigation cycle is completed. [...] This procedure typically takes 5 to 20 minutes daily to keep updated after determining the initial soil water characteristics. If operator time is not available to regularly monitor and estimate soil moisture, a crop consultant can help you achieve your management objectives and adopt advanced cellular telemetry irrigation management options.\n\n## Terms to describe water thresholds\n\nImage 11: Available soil water holding capacity at different thresholds.\n\nSoil water reservoir thresholds."
+        },
+        {
+          "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+          "title": "Irrigation Scheduling Methods: Checkbook vs FAO-56 | Land-Grant Press",
+          "description": "The Checkbook Method of irrigation scheduling allows farmers to monitor daily soil water balance by tracking crop water use, rainfall, soil moisture deficit, and irrigation in terms of inches or millimeters (mm) of water.3 In simple terms, this method functions like managing a checking account: water added to the soil through irrigation or rainfall acts as a deposit, while water lost through crop water use, also known as crop evapotranspiration (ETc), functions as a withdrawal.8,9 Just as [...] Early Period (Days 1–5): The initial 1.57 in irrigation keep soil moisture at adequate levels.\n Day 6: A 0.24 in rainfall event replenishes soil moisture, reducing the deficit from 0.84 in (Day 5) to 0.60 in (Day 6).\n Critical Period (Days 7–8): By Day 8, soil moisture depletion approaches the RAW threshold (1.04 in). Without irrigation, depletion would exceed the threshold.\n Irrigation Event (Day 9): A 1 in irrigation restores soil moisture to near field capacity, preventing crop stress. [...] To successfully implement this method, three key components must be determined: (1) available water capacity (AWC) and management allowed depletion (MAD), (2) crop water use, and (3) rainfall and irri"
+        },
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "Irrigation scheduling with soil moisture sensors follows traditional principles of field capacity (FC), plant available water, maximum allowable depletion (MAD) which is also called management allowable depletion, and permanent wilting point (PWP). Figure 1 shows the transition of soil moisture levels from FC to MAD and PWP in a typical soil. The maximum amount of water that a soil can hold after drainage effectively ceases is called field capacity (readers are referred to Determining Field"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 6,
+    "loaded": 5,
+    "sources": [
+      {
+        "url": "https://www.fao.org/4/x0490e/x0490e0b.htm",
+        "canonical_url": "https://www.fao.org/4/x0490e/x0490e0b.htm",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s44279-025-00458-3",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+        "canonical_url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://www.fao.org/4/x0490E/x0490e0a.htm",
+        "canonical_url": "https://www.fao.org/4/x0490E/x0490e0a.htm",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2025.1496198/full",
+        "canonical_url": "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2025.1496198/full",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://cropwatch.unl.edu/smart-crop-irrigation-scheduling-service-corn-and-soybean",
+        "canonical_url": "https://cropwatch.unl.edu/smart-crop-irrigation-scheduling-service-corn-and-soybean/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 6,
+  "coverage": {
+    "topic_id": "agri-c4e597765067",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s2",
+          "s3"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document explicitly specifies the measurement method (Kc, soil water depletion, flow rate, or applied water depth) for chickpea water need; FAO documents (s4, s6) state the ETc = Kc × ET0 formula and give a Kc_mid value but lack a clear chickpea-specific Kc table with growth-stage values and do not distinguish ETc (crop water use) from irrigation input quantity."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a complete water-requirement estimate for chickpea with explicit units (mm, m³/ha, L/h) tied to defined climate zones and growth stages; s0 mentions Montana supplemental irrigation of 2-3 inches per season but gives no ETc calculation, units for seasonal water need, or stage-by-stage scope."
+      }
+    ],
+    "next_queries": [
+      "chickpea Kc crop coefficient growth stages FAO 56 Cicer arietinum",
+      "chickpea seasonal water requirement evapotranspiration mm university extension"
+    ]
+  },
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T11:07:50.219497+00:00"
+}

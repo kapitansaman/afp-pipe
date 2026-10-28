@@ -1,11 +1,11 @@
 {
   "round": 2,
-  "started_at": "2026-10-28T10:40:27.233630+00:00",
+  "started_at": "2026-10-28T11:07:01.763202+00:00",
   "queries": [
     {
       "query_id": "de1023871341632a42e590d67deff68ab5fd4a68edb1118c32c065ff2ccb32b1",
       "query": "chickpea first irrigation timing growth stage emergence soil moisture threshold university extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793184034.7271366,
       "results": [
         {
@@ -38,7 +38,7 @@
     {
       "query_id": "6d99970444a5d43226ba4f6ed097fa449fa3c1ab87b935f29973ec68f6edcbfa",
       "query": "Cicer arietinum irrigation scheduling management allowable depletion MAD soil water tension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793184042.933317,
       "results": [
         {
@@ -117,6 +117,6 @@
       "chickpea Ascochyta blight irrigation timing disease risk establishment"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:40:54.156852+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:01.942085+00:00"
 }

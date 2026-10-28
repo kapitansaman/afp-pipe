@@ -1,0 +1,21 @@
+{
+  "topic_id": "agri-cdc40b2b322b",
+  "gap": "string",
+  "queries": [
+    "string"
+  ],
+  "requirements": [
+    {
+      "id": "species_product",
+      "need": "string"
+    },
+    {
+      "id": "exact_reader_method",
+      "need": "string"
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "string"
+    }
+  ]
+}

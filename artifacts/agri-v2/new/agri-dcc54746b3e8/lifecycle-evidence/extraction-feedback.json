@@ -1,0 +1,70 @@
+{
+  "topic_id": "agri-dcc54746b3e8",
+  "candidate_sha256": "18e33e2fcbab2726ad246479ea7ca1fe0e008f5fb89d2b7bf1d264190fe3d01f",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "گرم‌کردن در مزرعه نیازمند آفتاب گرم و خشک است و گیاهان کامل روی تارپ PVC روی سطح بتنی پهن می‌شوند؛ دور زدن دسته‌ها روزی ۱ تا ۲ بار برای یکنواخت‌شدن خشک‌شدن توصیه می‌شود.",
+        "conditions": "آفتاب گرم، هوای خشک، منطقه غرب ایالت واشنگتن؛ محصول: دانه لوبیا خشک خوردنی بر روی تشک پلاستیکی بیرون",
+        "evidence_id": "d1-e1",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d1-e1",
+        "source_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+        "quote": "n to shatter in the field or the pods will split open, spilling beans onto the ground. Drying beans completely in the field in western Washington is possible if weather permits. For WSU’s small-scale bean project, three days of hot, sunny weather was sufficient to dry the pile of whole plants pictured below (Figure 1) We turned the plants 1–2 times each day to facilitate drying throughout the pile. If weather is cool or moist, beans can be further dried inside using a box fan (Figure 2) as we also did in our project. Bean plants can also dry on greenhouse shelves with clean tarps beneath the shelves to catch beans that have been expelled from shattering pods. Turn piles over once a day to prevent moisture accumulation at bottom of piles. Beans are sufficiently dry if the pods shatter, but are too dry if beans split. Figure 1. Beans drying on vinyl tarp placed on a concrete pad (driveway)"
+      }
+    },
+    {
+      "fact_index": 1,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در آب‌وهوای خنک یا مرطوب، خشک‌کردن تکمیلی در داخل ساختمان با بادبان جعبه‌ای انجام می‌شود و دسته‌ها روزی ۱ تا ۲ بار زیر بالابر ورق می‌خورند تا رطوبت در کف انباشت جمع نشود.",
+        "conditions": "شرایط سرد/مرطوب، مکان بسته؛ محصول: دانه لوبیا خشک خوردنی؛ واحد: بادبان جعبه‌ای",
+        "evidence_id": "d1-e1",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d1-e1",
+        "source_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
+        "quote": "n to shatter in the field or the pods will split open, spilling beans onto the ground. Drying beans completely in the field in western Washington is possible if weather permits. For WSU’s small-scale bean project, three days of hot, sunny weather was sufficient to dry the pile of whole plants pictured below (Figure 1) We turned the plants 1–2 times each day to facilitate drying throughout the pile. If weather is cool or moist, beans can be further dried inside using a box fan (Figure 2) as we also did in our project. Bean plants can also dry on greenhouse shelves with clean tarps beneath the shelves to catch beans that have been expelled from shattering pods. Turn piles over once a day to prevent moisture accumulation at bottom of piles. Beans are sufficiently dry if the pods shatter, but are too dry if beans split. Figure 1. Beans drying on vinyl tarp placed on a concrete pad (driveway)"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "دانه‌های لوبیای خشک باید پس از تمیزکردن و پیش از انبارداری به حدود ۱۵ تا ۱۶ درصد رطوبت برسند.",
+        "conditions": "محصول: دانه لوبیای خشک خوردنی (لوبیا چیتی پینتو و سایرگونه‌ها)؛ منطقه: ایالات متحده (ایآوا)؛ واحد: درصد رطوبت دانه",
+        "evidence_id": "d3-e19",
+        "numeric_bindings": [
+          {
+            "value": "15",
+            "unit_quote": "15 to 16% moisture",
+            "geographic_scope": "Iowa, United States",
+            "product_scope": "dry common beans (Phaseolus vulgaris)"
+          },
+          {
+            "value": "16",
+            "unit_quote": "15 to 16% moisture",
+            "geographic_scope": "Iowa, United States",
+            "product_scope": "dry common beans (Phaseolus vulgaris)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d3-e19",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/dry-edible-bean",
+        "quote": "ng really dry, seed shatter can become a problem. Cutting at night or when a dew is on can help reduce shattering. One caution for harvest in Missouri is that rains at the time of harvest can cause discoloration in the seed, especially of a navy (white) bean type. This is one reason that drier regions in the Great Plains, California and Pacific Northwest have had a competitive advantage with dry beans. Harvest should be done quickly to help avoid discoloration. Choosing a dark seeded variety or pinto variety can help minimize this problem. Seeds should be stored at about 15 to 16% moisture. When handling, a belt conveyer is recommended over a metal auger to reduce seed damage. Seeds should be handled gently and not dumped from heights onto concrete or hard surfaces. Careful handling may be more time consuming but will pay off in the price received for a quality bean product. Resources Pr"
+      }
+    }
+  ],
+  "candidate_error": "every_number_requires_unit_and_scope_binding",
+  "declared_insufficiency": null
+}

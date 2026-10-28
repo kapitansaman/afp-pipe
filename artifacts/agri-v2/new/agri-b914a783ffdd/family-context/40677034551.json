@@ -1,0 +1,17 @@
+{
+  "family_id": "family-20",
+  "topic_id": "agri-b914a783ffdd",
+  "title": "مراحل حساس نخود به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+  "title_sha256": "19b4e216f4e71e725b99075fc1241c3fb8d5e26a1af03309aa0f7c22fb7eb5f3",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY77",
+    "AGNES_API_KEY78",
+    "AGNES_API_KEY79",
+    "AGNES_API_KEY80"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

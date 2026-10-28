@@ -1,0 +1,83 @@
+{
+  "topic_id": "agri-dcc54746b3e8",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "پسته لوبیا چیتی (لوبیا خشک خوردنی)",
+  "slug": "pinto-dry-bean-post-harvest-drying-storage",
+  "outline": [
+    "تعریف محصول و هدف",
+    "معیارهای کیفی خشک‌کردن در مزرعه",
+    "مرحله‌بندی پس از برداشت تا آماده‌سازی انبار",
+    "شرایط کیفی نگهداری در انبار"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "گرم‌کردن در مزرعه نیازمند آفتاب گرم و خشک است و گیاهان کامل روی تارپ PVC روی سطح بتنی پهن می‌شوند؛ دور زدن دسته‌ها روزی ۱ تا ۲ بار برای یکنواخت‌شدن خشک‌شدن توصیه می‌شود.",
+      "conditions": "آفتاب گرم، هوای خشک، منطقه غرب ایالت واشنگتن؛ محصول: دانه لوبیا خشک خوردنی بر روی تشک پلاستیکی بیرون",
+      "evidence_id": "d1-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در آب‌وهوای خنک یا مرطوب، خشک‌کردن تکمیلی در داخل ساختمان با بادبان جعبه‌ای انجام می‌شود و دسته‌ها روزی ۱ تا ۲ بار زیر بالابر ورق می‌خورند تا رطوبت در کف انباشت جمع نشود.",
+      "conditions": "شرایط سرد/مرطوب، مکان بسته؛ محصول: دانه لوبیا خشک خوردنی؛ واحد: بادبان جعبه‌ای",
+      "evidence_id": "d1-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "معیار رسیدن به رطوبت کافی برای خرمن‌کوبی زمانی است که پوسته‌ها ترک می‌خورند و دانه‌ها می‌ریزند؛ بیش‌ازحد خشک شدن باعث شکستن دانه می‌شود.",
+      "conditions": "محصول: دانه لوبیا خشک خوردنی؛ مرحله: پیش از خرمن‌کوبی",
+      "evidence_id": "d1-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دانه‌های لوبیای خشک باید پس از تمیزکردن و پیش از انبارداری به حدود ۱۵ تا ۱۶ درصد رطوبت برسند.",
+      "conditions": "محصول: دانه لوبیای خشک خوردنی (لوبیا چیتی پینتو و سایرگونه‌ها)؛ منطقه: ایالات متحده (ایآوا)؛ واحد: درصد رطوبت دانه",
+      "evidence_id": "d3-e19",
+      "numeric_bindings": [
+        {
+          "value": "15",
+          "unit_quote": "15 to 16% moisture",
+          "geographic_scope": "Iowa, United States",
+          "product_scope": "dry common beans (Phaseolus vulgaris)"
+        },
+        {
+          "value": "16",
+          "unit_quote": "15 to 16% moisture",
+          "geographic_scope": "Iowa, United States",
+          "product_scope": "dry common beans (Phaseolus vulgaris)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "رطوبت و دما دو عامل حیاتی کیفیت نگهداری دانه‌های خشک هستند؛ محیط ذخیره‌سازی باید خشک باشد، زیرا جذب رطوبت از هوا می‌تواند منجر به رشد کپک و باکتری و فساد شود.",
+      "conditions": "محصول: دانه لوبیای خشک خوردنی؛ انبار؛ محدودیت: رطوبت محیط انبار",
+      "evidence_id": "d4-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کیفیت دانه لوبیای پینتو در نگهداری طولانی‌مدت کاهش جزئی دارد، اما نمونه‌های نگهداری‌شده تا ۳۰ سال در ارزیابی مصرفی اضطراری بیش از ۸۰ درصد پذیرش حسی داشتند.",
+      "conditions": "محصول: دانه لوبیای پینتو؛ زمان نگهداری: تا ۳۰ سال؛ منطقه: ایالات متحده (یوتا)؛ معیار: پذیرش پنل حسی",
+      "evidence_id": "d4-e1",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "stored up to 30 years",
+          "geographic_scope": "Utah, United States",
+          "product_scope": "pinto beans (Phaseolus vulgaris)"
+        },
+        {
+          "value": "80",
+          "unit_quote": "greater than 80 percent acceptance",
+          "geographic_scope": "Utah, United States",
+          "product_scope": "pinto beans (Phaseolus vulgaris)"
+        }
+      ]
+    }
+  ]
+}

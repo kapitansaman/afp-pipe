@@ -1,0 +1,209 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/",
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453",
+  "redirect_chain": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/"
+  ],
+  "text": "[table row] ExGR (Excess Green minus Excess Red Index) | Definition: (3g-2.4r-b) [table row] ExGR (Excess Green minus Excess Red Index) | FVC: 24.52% [table row] ExGR (Excess Green minus Excess Red Index) | Reference: [ 33 ] [table row] ExG (Excess Green Index) | Definition: 2g-r-b [table row] ExG (Excess Green Index) | FVC: 17.48% [table row] ExG (Excess Green Index) | Reference: [ 34 ] [table row] WI (Woebbecke index) | Definition: (g-b)/(r-g) [table row] WI (Woebbecke index) | FVC: 15.75% [table row] WI (Woebbecke index) | Reference: [ 34 ] Methodology for optimizing quadrat size in sparse vegetation surveys: A desert case study from the Tarim Basin - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice PLoS One . 2020 Aug 26;15(8):e0235469. doi: 10.1371/journal.pone.0235469 Methodology for optimizing quadrat size in sparse vegetation surveys: A desert case study from the Tarim Basin Li Hao Li Hao 1 College of Resources and Environment Science, Xinjiang University, Urumqi, China 2 Institute of Arid Ecology and Environment, Xinjiang University, Urumqi, China 3 Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, China Conceptualization, Data curation, Formal analysis, Methodology, Software, Validation, Writing – original draft Find articles by Li Hao 1, 2, 3 , Shi Qingdong Shi Qingdong 1 College of Resources and Environment Science, Xinjiang University, Urumqi, China 2 Institute of Arid Ecology and Environment, Xinjiang University, Urumqi, China 3 Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, China Conceptualization, Funding acquisition, Project administration, Resources, Supervision Find articles by Shi Qingdong 1, 2, 3, * , Bilal Imin Bilal Imin 1 College of Resources and Environment Science, Xinjiang University, Urumqi, China 2 Institute of Arid Ecology and Environment, Xinjiang University, Urumqi, China 3 Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, China Investigation, Visualization Find articles by Bilal Imin 1, 2, 3 , Nijat Kasim Nijat Kasim 4 College of Biology and Geography Sciences, Yili Normal University, Yining, China Investigation, Software Find articles by Nijat Kasim 4 Editor: Wang Li 5 Author information Article notes Copyright and License information 1 College of Resources and Environment Science, Xinjiang University, Urumqi, China 2 Institute of Arid Ecology and Environment, Xinjiang University, Urumqi, China 3 Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, China 4 College of Biology and Geography Sciences, Yili Normal University, Yining, China 5 Areospace Information Research Institute Chinese Academy of Sciences, CHINA Competing Interests: The authors have declared that no competing interests exist. ✉ * E-mail: 526671732@qq.com Roles Li Hao : Conceptualization, Data curation, Formal analysis, Methodology, Software, Validation, Writing – original draft Shi Qingdong : Conceptualization, Funding acquisition, Project administration, Resources, Supervision Bilal Imin : Investigation, Visualization Nijat Kasim : Investigation, Software Wang Li : Editor Received 2020 Apr 14; Accepted 2020 Jun 16; Collection date 2020. © 2020 Hao et al This is an open access article distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. PMC Copyright notice PMCID: PMC7449453 PMID: 32845880 Abstract Random sampling is an important approach to field vegetation surveys. However, sampling surveys in desert areas are difficult because determining an appropriate quadrat size that represent the sparse and unevenly distributed vegetation is challenging. In this study, we present a methodology for quadrat size optimization based on low-altitude high-precision unmanned aerial vehicle (UAV) images. Using the Daliyaboyi Oasis as our study area, we simulated random sampling and analyzed the frequency distribution and variation in the fractional vegetation cover (FVC) index of the samples. Our results show that quadrats of 50 m × 50 m size are the most representative for sampling surveys in this location. The method exploits UAV technology to rapidly acquire vegetation information and overcomes the shortcomings of traditional methods that rely on labor-intensive fieldwork to collect species-area relationship (SAR) data. Our method presents two major advantages: (1) speed and efficiency stemming from the application of UAV, which also effectively overcomes the difficulties posed in vegetation surveys by the challenging desert climate and terrain; (2) the large sample size enabled by the use of a sampling simulation. Our methodology is thus highly suitable for selecting the optimal quadrat size and making accurate estimates, and can improve the efficiency and accuracy of field vegetation sampling surveys. 1. Introduction Random sampling survey is one of the most important methods for conducting ecological research; it is widely used in studies of plant species diversity, species association analysis, vegetation spatial pattern research, biomass estimation, and other areas [ 1 – 3 ]. In field vegetation surveys, especially in large-scale comprehensive surveys, the use of a single quadrat size is both convenient and effective; this approach is thus widely used in field vegetation surveys [ 4 , 5 ]. The concept of spatial scale is among the most fundamental concepts in ecological research, making quadrat size a vital component of field survey design [ 6 – 8 ]. No model can adequately explain the details of an ecosystem if it ignores spatial scale; such an oversight can introduce wrong characteristics into the system description [ 9 , 10 ]. Sampling surveys can obtain detailed quantitative descriptions of vegetation characteristics, but an unsuitable sampling design can significantly limit the validity and usefulness of field survey data [ 11 ]. Generally, high-frequency and low-variance sampling approaches are considered the most representative in statistics [ 12 ]. Quadrat size affects the frequency distribution and the variance of samples, and thus has an impact on whether the sample is considered representative [ 13 ]. Different quadrat sizes result in different sample characteristics and different population estimates [ 14 ]. As a result of spatial heterogeneity, any adjustment of the quadrat size in a given study design strongly modifies the variance of the samples. Some studies have shown a nonlinear relationship between quadrat area and sample variance. Research on pasture crops shows that increasing quadrat area can effectively suppress the variance of samples, reducing it by 68% or more [ 12 ]. Another study also showed that the use of large quadrats can compensate for the spatial heterogeneity of a small area [ 10 ]. Although enlarging quadrat size can reduce the variance of the samples, a larger quadrat area may not be a better sampling design [ 15 ]. It is important to determine the optimal quadrat size based on the features of the study area and the limitations imposed by climate, terrain, and available labor [ 16 ]. Although this is an important issue, research on the optimal quadrat size is scarce. Currently, most methods use the frequency of species as the key indicator for determining the appropriate quadrat size, but this method is not without its limitations, particularly in desert areas. The species-area relationship (SAR) is one of the general methods; when the SAR is used, the species-area curve is drawn on the basis of field survey data, and the inflection point of the curve is taken as the quadrat size. It is generally believed that a quadrat should cover 63%–86% of the species in the survey area; for areas with fewer species, some researchers consider 20% to be a reasonable lower limit [ 17 ]. However, the application of the SAR method in desert areas has a few limitations: (1) additional fieldwork is required to collect data for drawing the SAR curve, which is problematic due to the difficulty of conducting fieldwork in such challenging locations; (2) as a rule, desert vegetation is distributed in patches and has high spatial heterogeneity [ 5 ], which increases the variation in the samples and results in reduced robustness of the sampling surveys [ 8 , 18 ]; (3) the occurrence of extrema may present a problem. Overall, deserts have fewer plant species than other habitats and their clustering can skew the calculation and result in a quadrat size that is too large or too small. Furthermore, Populus euphratica is an important dominant desert species, widely distributed in Xinjiang, north-western China; it plays an indispensable role in protecting oasis ecosystems [ 19 ]. Several studies on Populus euphratica populations have been carried out on the basis of field-measured data, but the basic and important issue of choosing the optimal quadrat size for field surveys has remained unaddressed. Frequently, the choice of quadrat size relies on the subjective experiences of the researchers, and the question of whether it is appropriate is rarely asked. This can result in the negative effects of an inappropriate quadrat size on sampling results being ignored. Fractional vegetation cover (FVC) is a comprehensive parameter used to characterize the extent of land surface vegetation cover [ 20 – 22 ]. FVC is especially useful in desert areas, where it is often used as an effective indicator of desertification due to its ability to reflect spatial vegetation patterns. Thus, from an ecological perspective, the adoption of the FVC index is useful in desert areas for determining the optimal quadrat size for vegetation surveys. In summary, the sampling design of vegetation surveys in sparse desert areas faces difficulties in determining the appropriate quadrat size. Our study aimed to solve this problem by proposing a new methodology for quadrat size optimization in desert areas. Our methodology consists of three steps: (1) simulating random sampling via the Monte Carlo method using low-altitude unmanned aerial vehicle (UAV) images to establish sample sets; (2) calculating the FVC of the sample sets; and (3) analyzing the frequency distribution and the variation of FVC to determine the optimal quadrat size. 2. Materials and methods 2.1 Study area We selected the Daliyaboyi Oasis as our study area, located in Xinjiang Province in the northwest of China (38°16′–38°37′N, 81°05′–81°46′E), as it is representative of a desert ecosystem [ 23 , 24 ]. After flowing more than 200 km through the Taklimakan Desert, the Keriya River, originating in the south of the Kunlun Mountains, forms the natural Daliyaboyi Oasis. The core area of the oasis is 324 km 2 [ 25 ], the annual average precipitation is less than 10 mm [ 26 ], the weather is dominated by dust storms and floating dust, the vegetation composition is dominated by Populus euphratica and Tamarix chinensis [ 23 ]. Due to the lack of industrial and agricultural activities, the oasis is very rarely disturbed by human activities [ 27 ]. The study area is our field observation and research station for desert vegetation, and no permission is required to enter the field site to perform field vegetation surveys. 2.2 Collection and preprocessing of UAV images Data were collected in July 2018, using the DJI Phantom 4 UAV. The heading and lateral overlap ratio was set to 80%, the flight height was approximately 60 m, and the imaging focal length was 4 mm. The Pix4D software was used for correction and stitching processing. After stitching the images, the spatial resolution was 0.026 m. 2.3 Simulation of random sampling Generally, the quadrat size used in field vegetation surveys is less than 100 m × 100 m. Therefore, we selected seven typical 100 m × 100 m plots for the random sampling simulation ( Fig 1 ). The simulation of random sampling was performed by cropping a number of fixed-size pictures from the UAV images of the test plots. We used the cropping tool Extract with the cropping method set to the random mode; this causes the software to apply the Monte Carlo method to generate random numbers that determine the cropping positions. In this procedure, the process of random cropping can be regarded as a random sampling process, and the size of the cropped pictures can be regarded as the quadrat size, while the number of pictures obtained by cropping is the sample size ( Fig 2 ). Fig 1. The study site. Open in a new tab (A) The study site location: Daliyaboyi Oasis, Yutian county, Xinjiang Province, China. (B) Test plot locations. The background image is a Landsat OLI scene acquired on July 23, 2018 and cropped to our study area, presented with a band combination of 4/3/2. (C) Unmanned Aerial Vehicle (UAV) image of plot G. The image was acquired using a DJI Phantom 4 UAV on July 19, 2018 and preprocessed with Pix4D. Fig 2. Flowchart of the study methodology. Open in a new tab A software named Extract is used to repeatedly (500 times) randomly crop a fixed-size (quadrat size) subplot from the test image to simulate random sampling. We had seven UAV images (100 m × 100 m) that corresponded to seven different test plots ( Fig 1 ). For each test plot, six sample sets were created with the following quadrat sizes: 10 m × 10 m, 20 m × 20 m, 30 m × 30 m, 40 m × 40 m, 50 m × 50 m, and 60 m × 60 m; the sample size of every set was 500. 2.4 Calculation of the sample FVC Thereafter, we calculated the FVC under different quadrat sizes and counted the distribution frequency. We used the vegetation index threshold method with IDL software version 8.5 to calculate the FVC of the samples in batches. There are various methods for estimating the FVC from low-altitude high-precision UAV RGB images; we chose the vegetation index threshold method due to its clear meaning and simple steps. Low-altitude UAV images have a high spatial resolution that can reach sub-centimeter levels. There are very few mixed pixels in the images, so they can be regarded as pure pixels; this means that a single pixel only belongs to one ground object category—either vegetation or non-vegetation [ 28 ]. Therefore, the FVC can be quickly estimated using the threshold method to distinguish vegetation pixels and non-vegetation pixels after calculating the vegetation index with UAV images. In addition, the vegetation index threshold method is simple and effective as it is highly automated. The IDL software can be used to calculate the FVC in batches, which meets the study demands when large quantities are required. 2.4.1 Threshold segmentation method The threshold segmentation method known as the Otsu method (named after the Japanese researcher Nobuyuki Otsu) is widely used in image processing for cluster-based image thresholding, which converts a gray level image to a binary image via the maximization of inter-class variation [ 29 ]. It is considered an effective and automatic image segmentation algorithm [ 30 ]. Assuming that the grayscale image contained a number of gray levels (denoted by L), a threshold (denoted by t ) separated the pixels into either foreground or background categories. The foreground pixels accounted for a certain percentage (w 0 ) of the image, and the average gray level for a foreground pixel was denoted by u 0 ; the background pixels accounted for w 1 percent, and the average gray level for a background pixel was u 1 . The overall average gray level for the image was denoted by u, and we used g to represent the inter-class variance. The relationships between these values were as follows: u = w 0 × u 0 + w 1 × u 1 (1) The inter-class variance was calculated as: g = w 0 ( u 0 − u ) 2 + w 1 ( u 1 − u ) 2 (2) From Eqs ( 1 ) and ( 2 ) we obtained: g = w 0 w 1 ( u 0 − u 1 ) 2 (3) Or: g = w 0 1 − w 0 ( u 0 − u ) 2 (4) For each gray level L , let t vary to update the w i and u i , such that the inter-class variance g achieved its maximum value, and the corresponding t of the maximized g was the optimal threshold for the image. The Otsu method for image segmentation was carried out in IDL 8.5. 2.4.2 Selection of a vegetation index There are many vegetation indices that can be used to estimate the FVC from RGB images; the conditions under which each of them is most effective are different. Therefore, we performed a test to determine the optimal vegetation index for our study area. After consulting relevant literature, we selected three vegetation indices ( Table 1 ) with superior performance in distinguishing between vegetation and non-vegetation [ 30 – 32 ], and evaluated their performance on the RGB images of our study area. The indices were: Excess Green minus Excess Red Index (ExGR), Excess Green Index (ExG), and Woebbecke index (WI). Table 1. Comparison of vegetation indices. Vegetation index Definition FVC Reference ExGR (Excess Green minus Excess Red Index) (3g-2.4r-b) 24.52% [ 33 ] ExG (Excess Green Index) 2g-r-b 17.48% [ 34 ] WI (Woebbecke index) (g-b)/(r-g) 15.75% [ 34 ] Open in a new tab r, g and b are the pixel values from the images based on each RGB channel (red channel/green channel/blue channel). After calculating the three vegetation indices, we used the Otsu method to determine the vegetation and non-vegetation thresholds and calculated the corresponding FVC values. Two methods were used to verify the accuracy of the vegetation indices: (1) the Support Vector Machine (SVM) method in ENVI 5.3 to classify and calculate the FVC of the test image; (2) using the ArcGIS 10.2 software to randomly generate 400 samples from the original image and visually interpreting whether each pixel was a vegetation pixel. From the three vegetation indices tested, the ExGR had the best separation effect and extracted the most complete vegetation information ( Fig 3 ). The FVC estimated by the three vegetation indices was 24.52% (ExGR), 17.48% (ExG), and 15.75% (WI). The FVC of the test image estimated by the two verification methods was 25.46% for verification method (1), while verification method (2) showed that among the 400 randomly sampled points, there were 101 vegetation pixels and 299 non-vegetation pixels (FVC of 25.25%). Therefore, on the basis of these results, we selected the ExGR index for estimating the FVC. Fig 3. The vegetation extraction performance of the three vegetation indices. Open in a new tab The vegetation identified by each index is marked with a red ring. Abbreviations: ExG, the Excess Green Index; ExGR, Excess Green minus Excess Red Index; OTSU, the Otsu threshold segmentation method; SVM, Support Vector Machine; UAV, unmanned aerial vehicle; WI, the Woebbecke index. 2.5 Analysis of the frequency distribution of the FVC The Gaussian function is also known as the normal distribution function, and many ecological data can be described by it [ 35 ]. We used the Gaussian function to fit the frequency curve of the FVC to the sample set, because it produced a clearer visual representation of the influence of quadrat size on the sampling result. The Gaussian function can be expressed as: f ( x ) = a e − ( x − μ ) 2 2 σ 2 (5) where a is the peak of the fitted curve, μ is the mean, σ is the standard deviation. R 2 represents the correlation coefficient of the Gaussian function when fitted to the frequency curve. First, we used OriginPro 2016 to count the frequency of FVCs and plot the frequency distribution histogram. Next, using the Gaussian function (performed using the analysis tool of OriginPro 2016) to fit the frequency curve of the sample FVCs. Finally, we analyzed the changing characteristics of frequency curves created with different quadrat sizes. 2.6 Determining the optimal quadrat size The mean and variance of the samples are important indicators that can be used to judge the efficacy of the sampling unit. Thus, we used Microsoft Excel 2016 to calculate the mean and variance of the FVC of the samples under different quadrat sizes, and using OriginPro 2016, we drew scatter diagrams of quadrat size versus FVC variance and then fit quadrat size-FVC variance curves. When the variance reaches a minimum, it indicates that the corresponding quadrat size gives the best sampling results, and that quadrat size (inflection point) can be taken as the optimal one. 3. Results 3.1 Frequency distribution features of the FVC The FVC calculated from the original UAV image size (100 m × 100 m) was defined as the true FVC. In plot A, when the quadrat size was 20 m × 20 m, the R 2 of the fitted curve was more than 0.8, the fitting curve had two peaks, the mean values ( μ ) were 0.044 and 0.52, the variance ( σ 2 ) values were 0.029 and 0.033, and the relative frequency values were 0.14 and 0.07 ( Fig 4 ). The FVC sampling results in plot A were mainly concentrated around 0.044 and 0.52, with a large range of variation. The sampling results were not robust and had a large deviation from the true value of FVC (FVC true = 0.05) in plot A. This implies that when a quadrat size of 20 m × 20 m is adopted for field vegetation surveys in areas that are similar to this plot, the quadrats were too small to cover both the sparse and dense vegetation areas. Since a given quadrat may happen to exclusively contain sparse or dense vegetation, this can lead to the occurrence of extrema; thus, this quadrat size is likely to skew the sampling results, making them unlikely to be representative. The frequency distribution of the FVC gradually concentrated around the true value as quadrat size increased ( Fig 4 ). When the quadrat size was 50 m × 50 m, the μ of the samples was 6.67%, which was relatively close to the true value of the FVC (0.05), and the variance σ 2 was 0.022. According to the frequency count, 79.6% of the FVC sampling results were distributed within 3–9%. Fig 4. The fractional vegetation coverage (FVC) index frequency distribution in the study plots depended on quadrat size. Open in a new tab Quadrat sizes are 20 m × 20 m, 30 m × 30 m, 40 m × 40 m, and 50 m × 50 m; the sample size under each quadrat size is 500 (n = 500). R 2 represents the correlation coefficient of the fitted curve. A, B, C, D, E, F, and G are the study plots. The frequency distribution features of the FVC in plot E were significantly different from those in plot A. Under a quadrat size of 20 m × 20 m, the FVC sampling results were evenly distributed between 0 and 0.68, with a wide range of variation and a relatively low frequency with a maximum of only 7%. This indicates that adopting a quadrat size of 20 m × 20 m, when carrying out field vegetation surveys in areas with similar characteristics to this plot would lead to strong fluctuations in the sampling results; thus, this quadrat size was not representative. As quadrat size increased, the σ 2 of the FVC gradually decreased, and the frequency distribution gradually concentrated within a smaller range. When quadrat size was 50 m × 50 m, the μ was 0.2, the σ 2 was 0.02, and the maximum of the relative frequency was 23%. According to the frequency count, 77.8% of the FVC sampling results were distributed within 16%-32%, which is significantly better than the result from a quadrat size of 20 m × 20 m. In plot F, with the increase in quadrat size, the maximum frequency of the FVC increased gradually as follows: 13.2% (20 m × 20 m), 18.4% (30 m × 30 m), 30.2% (40 m × 40 m), 31.6% (50 m × 50 m), and 31.6% (60 m × 60 m). This s",
+  "links": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+      "label": "Account settings"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+      "label": "Journal List"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/pdf/pone.0235469.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+      "label": "PMC Disclaimer"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+      "label": "PMC Copyright Notice"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"PLoS%20One\"[jour]",
+      "label": "Search in PMC"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"PLoS%20One\"[jour]",
+      "label": "Search in PubMed"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"PLoS%20One\"[Title%20Abbreviation]",
+      "label": "View in NLM Catalog"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/?term=\"PLoS%20One\"[jour]",
+      "label": "Add to search"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Hao%20L\"[Author]",
+      "label": "Li Hao"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Qingdong%20S\"[Author]",
+      "label": "Shi Qingdong"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Imin%20B\"[Author]",
+      "label": "Bilal Imin"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Kasim%20N\"[Author]",
+      "label": "Nijat Kasim"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32845880/",
+      "label": "32845880"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g001.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g002.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/table/pone.0235469.t001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g003.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g004.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/table/pone.0235469.t002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7449453_pone.0235469.g005.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7449453/figure/pone.0235469.g005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7449453/bin/pone.0235469.s001.zip",
+      "label": "Click here for additional data file."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7449453/bin/pone.0235469.s002.xlsx",
+      "label": "Click here for additional data file."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23351093/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5703556/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29176860/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+      "label": "NCBI RSS feed"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/web_policies.html",
+      "label": "Web Policies"
+    },
+    {
+      "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "label": "HHS Vulnerability Disclosure"
+    },
+    {
+      "url": "https://support.nlm.nih.gov/",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/accessibility.html",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/careers/careers.html",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/",
+      "label": "NLM"
+    },
+    {
+      "url": "https://www.nih.gov/",
+      "label": "NIH"
+    },
+    {
+      "url": "https://www.hhs.gov/",
+      "label": "HHS"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "fetched_at": "2026-10-28T11:07:33.939773+00:00",
+  "sha256": "503ceaeb3f659b31245e9ad56c90d189bb54bb73b3bb09f7705611409db818e8",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

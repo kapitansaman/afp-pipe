@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "input_sha256": "625551b6cae999a0b9bd6f427332287b63a1722a2ba245ee9c9e0dc6eebc48dd",
+  "response_sha256": "e1d11bef2daa3aa32a5b3a03688b69403d54d9506c89b47dc9a36b2c122ae3f5",
+  "created_at": "2026-10-28T11:07:40.607113+00:00",
+  "verdict": {
+    "topic_id": "agri-ab20ad20b271",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a concrete chickpea decision criterion (soil moisture threshold, tension in kPa, or VWC range) that tells whether to delay or resume irrigation after rain. Sources s0/s3 mention chickpea's 30‑inch taproot and that 6–10 inches of growing‑season rain is optimal, and note late‑season rains can break dormancy and complicate harvest, but none gives a numeric threshold (e.g., 100 kPa tension trigger or 35% SWD) for post‑rain irrigation scheduling."
+      },
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [
+          "s0",
+          "s3"
+        ],
+        "missing": "Only s0 and s3 address chickpea (Cicer arietinum) specifically, but they cover yield trials, disease, and general cultural practices—not irrigation‑after‑rain decisions. s2 is a generic university extension on chickpea with no irrigation thresholds. s4–s8 are generic irrigation‑scheduling documents (CSU, Clemson, VT, Auburn, UMN) that provide soil‑water tables and sensor guidance for corn, alfalfa, small grains, cotton, soybean, etc., but none maps those values to chickpea by explicit citation."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No source delivers original numeric values with units (kPa, %VWC, mm rainfall) scoped to chickpea rain‑event irrigation. s7 lists SWT triggers for corn (50–80 kPa) and small grain (40–50 kPa vegetative, 70–80 kPa ripening) but not chickpea. s6 gives MAD/volumetric tables for small grain and field beans, again no chickpea. s4–s5 provide generic water‑balance equations and crop coefficients (e.g., Table 3 Kc for dry beans, corn, small grain) but omit chickpea entirely. Geographic scope is also absent: no rainfall amount considered, no chickpea growth‑stage window, and no irrigation‑system context for the decision."
+      }
+    ],
+    "next_queries": [
+      "chickpea Cicer arietinum irrigation scheduling after rainfall soil water tension kPa university extension",
+      "chickpea crop coefficient Kc evapotranspiration ETc rainfall adjust irrigation university research"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

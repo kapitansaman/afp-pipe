@@ -10,8 +10,7 @@
     {
       "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
       "canonical_url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
@@ -35,8 +34,7 @@
     {
       "url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
       "canonical_url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "input_sha256": "9f95b7059428142f1cd21e58ea5d3c8e56c2ca982384ad549f980bd360f1b07e",
+  "response_sha256": "56b9579cfb8cccacf5cb6cc60ecb04296d4dc3ed2cf2745f98e5fa3a2c669f44",
+  "created_at": "2026-10-28T11:09:35.818419+00:00",
+  "verdict": {
+    "topic_id": "agri-465d6abf0e91",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a step-by-step pre-harvest field sampling protocol for chickpea yield estimation. None specifies sample plot size for yield estimation, number of replicates, timing relative to growth stages (e.g., R5-R7 pod-filling), criteria for selecting representative plants/branches, procedure for counting pods and seeds per plant, or method for determining average seed weight prior to harvest."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s0",
+          "s1",
+          "s2",
+          "s3",
+          "s5"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document presents a dimensionally correct pre-harvest yield estimation formula with explicitly named measured inputs and their units (e.g., plants/m², fresh/dry weight in g, pod fill percentage) and a final yield unit in kg/ha or t/ha. s5 reports post-harvest grain yield in kg/ha and a harvest-index formula, but this applies to harvested plots, not pre-harvest estimation. s1 and s0 report trial yields in lb/acre but contain no estimation formula."
+      }
+    ],
+    "next_queries": [
+      "chickpea pre-harvest yield estimation sampling method university extension",
+      "chickpea Cicer arietinum predictive yield sampling protocol before harvest"
+    ]
+  },
+  "scientific_acceptance": false,
+  "publication_authorized": false
+}

@@ -1,0 +1,488 @@
+{
+  "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables",
+  "requested_url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables",
+  "redirect_chain": [
+    "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables"
+  ],
+  "text": "[table row] Broccoli, cabbage, cauliflower, lettuce | Most critical period: head development [table row] Carrot, radish, beet, turnip | Most critical period: root enlargement [table row] Sweet corn | Most critical period: silking, tasseling, and ear development [table row] Cucumber, eggplant, pepper, melon, tomato | Most critical period: flowering, fruit set, and maturation [table row] Bean, pea | Most critical period: flowering, fruit set, and development [table row] Onion | Most critical period: bulb development [table row] Potato | Most critical period: tuber set and enlargement [table row] Irrigation whenever or guessing | Description: Water is applied whenever. [table row] Feel and appearance | Description: Water is applied based on the feel and appearance of the soil.* [table row] Systematic irrigation | Description: Water is applied systematically, without considering weather and soil water conditions. (Ex: Water is applied 3 hours a day or 1 inch every 5 days.) [table row] Soil water monitoring | Description: Using soil moisture sensors or water tension measuring tools to start irrigation. [table row] Crop water demand | Description: Water is applied according to the crop evapotranspiration (ETc). [table row] Water budgeting | Description: Apply amounts based on water balance or water budget procedure and in-situ soil water content in the root zone. [table row] Coarse sands | 10: 0 [table row] Coarse sands | 30: 0.1 [table row] Coarse sands | 50: 0.2 [table row] Coarse sands | 70: 0.3 [table row] Coarse sands | 100: 0.4 [table row] Coarse sands | 200: 0.6 [table row] Coarse sands | 1500*: 0.7 [table row] Fine sands | 10: 0 [table row] Fine sands | 30: 0.3 [table row] Fine sands | 50: 0.4 [table row] Fine sands | 70: 0.6 [table row] Fine sands | 100: 0.7 [table row] Fine sands | 200: 0.9 [table row] Fine sands | 1500*: 1 [table row] Loamy sands | 10: 0 [table row] Loamy sands | 30: 0.4 [table row] Loamy sands | 50: 0.5 [table row] Loamy sands | 70: 0.8 [table row] Loamy sands | 100: 0.9 [table row] Loamy sands | 200: 1.1 [table row] Loamy sands | 1500*: 1.4 [table row] Sandy loams | 10: 0 [table row] Sandy loams | 30: 0.5 [table row] Sandy loams | 50: 0.7 [table row] Sandy loams | 70: 0.9 [table row] Sandy loams | 100: 1 [table row] Sandy loams | 200: 1.3 [table row] Sandy loams | 1500*: 1.7 [table row] Coarse sands | 10: 0 [table row] Coarse sands | 30: 0.1 [table row] Coarse sands | 50: 0.2 [table row] Coarse sands | 70: 0.3 [table row] Coarse sands | 100: 0.4 [table row] Coarse sands | 200: 0.6 [table row] Coarse sands | 1500*: 0.7 [table row] Loams | 10: 0 [table row] Loams | 30: 0.2 [table row] Loams | 50: 0.5 [table row] Loams | 70: 0.8 [table row] Loams | 100: 1 [table row] Loams | 200: 1.6 [table row] Loams | 1500*: 2.2 [table row] Capacitance sensors : Spectrum SMEC300, SM100; Sentek Enviroscan, Diviner 2000; METER 5TE, 5TN | Advantages: Response time is very fast. Remote access of data is available. Very accurate if site-calibrated. Less expensive than TDR. Can be used in high saline soils as compared to TDR. [table row] Capacitance sensors : Spectrum SMEC300, SM100; Sentek Enviroscan, Diviner 2000; METER 5TE, 5TN | Disadvantages: Sensing area is small. Affected by soil conditions such as salinity, clay content, temperature, bulk density. Site/soil specific calibration is preferred. [table row] Capacitance sensors : Spectrum SMEC300, SM100; Sentek Enviroscan, Diviner 2000; METER 5TE, 5TN | Cost: $250-$350 per sensor. Data logger is $500-$2,500. [table row] Time Domain Reflectometry (TDR) : Acclima true TDR 315, 315L, 310 S; Spectrum Field Scout TDR; CS 655, 650 | Advantages: Very accurate. Soil/site-specific calibration is usually not required. Remote access of data is available. [table row] Time Domain Reflectometry (TDR) : Acclima true TDR 315, 315L, 310 S; Spectrum Field Scout TDR; CS 655, 650 | Disadvantages: Area of influence is very small. Expensive technology. [table row] Time Domain Reflectometry (TDR) : Acclima true TDR 315, 315L, 310 S; Spectrum Field Scout TDR; CS 655, 650 | Cost: $250-$350 per sensor. Data logger is $1,000-$3,500. [table row] Neutron probe : CPN-InstroTek; Troxler | Advantages: Accurate. Samples a relatively large area. One sensor for all sites & depths. Unaffected by salinity. [table row] Neutron probe : CPN-InstroTek; Troxler | Disadvantages: Soil/site specific calibration is usually required. Very expensive ($10,000). Heavy. Contains radioactive material (safety hazard). Licensing is required. [table row] Neutron probe : CPN-InstroTek; Troxler | Cost: ~$10,000 for the base unit and $25-$30 for access tubes. [table row] Tensiometers : rrometer tensiometers | Advantages: Inexpensive. Not affected by salinity. Comes in different lengths. [table row] Tensiometers : rrometer tensiometers | Disadvantages: Small operative range which is not sufficient for fine-textured soils. Response time to soil water change is slow. Frequent maintenance is required. Do not withstand cold temperatures. [table row] Tensiometers : rrometer tensiometers | Cost: $80 per sensor. $140-$155 for the transducer. [table row] Granular matrix sensors : Irrometer watermark sensors | Advantages: Good accuracy in medium to fine soils. Inexpensive. Data can be logged and retrieved remotely. Large soil tension range (0-200cb). Continuous measurement at the same location. [table row] Granular matrix sensors : Irrometer watermark sensors | Disadvantages: Response to soil water changes is relatively low. Less accurate in sandy soils. Sensitive to temperature and salinity. Needs to be calibrated for each soil type. [table row] Granular matrix sensors : Irrometer watermark sensors | Cost: $40-$50 per sensor. $250 for a handheld meter and $500 for the data logger. Irrigation strategies for vegetables | UMN Extension Home Agriculture Specialty crops Vegetable farming Irrigation strategies for vegetables Key points Consistent soil moisture is critical to ensuring high yields and preventing problems in fruit and vegetable crops. Taking the time to monitor soil moisture and develop an irrigation plan is important for farm resilience. Maintaining irrigation and constant moisture in the upper soil profile can help to prevent soil crusting as seeds are germinating. Consistent moisture during periods of heat stress can help to mitigate the impacts of heat. The importance of consistent moisture for horticultural crops Consistent soil moisture is critical to ensuring high yields and preventing physiological problems in fruit and vegetable crops. Many crops are severely impacted by fluctuating water levels, both in terms of yield and disorders that make crops unmarketable. Common vegetable problems related to moisture stress Blossom end rot in tomatoes and peppers The corky, black blossom ends on these tomatoes are symptoms of blossom end rot. Blossom end rot (BER) is a calcium deficiency but is not necessarily related to the amount of calcium in the soil. BER is exacerbated by soil moisture fluctuations. The first fruit tends to be most severely impacted. More information on blossom end rot . Splitting in tomatoes Splitting is caused by uneven cell division rates in the inner and outer tissues of fruit and is driven by uneven moisture. Splitting allows for secondary pathogens and opportunistic insects to colonize fruit. Hollow heart in potatoes Potatoes with hollow heart have a hollow center, often surrounded by brown tissue. The cavity is often star-shaped, or an abstract shape with straight edges rather than circular. Hollow heart occurs when there are abrupt changes in growing conditions Most commonly, hollow heart is attributed to fluctuating water levels, especially droughts followed by heavy rain. Water stress followed by a significant increase in moisture causes tubers to develop too quickly, causing the center tissues to pull apart. Hollow heart does not pose a food safety issue, it is simply a cosmetic problem. Depending on your markets, it may be a small nuisance, or it could mean discarding your crop. Hollow stem in Brassica crops Hollow stem in Brassica crops is complex and caused by many interacting factors. Inconsistent moisture may exacerbate hollow stem, but it is rarely the only cause. Improving moisture consistency can help to reduce the severity of hollow stem, but should be combined with other management strategies. Other risk factors for hollow stem include fast-growing cultivars, too much nitrogen and potassium, wide plant spacing and, in some cases, boron deficiency. Hollow stem symptoms look very similar to the symptoms of soft rot in broccoli and collards; check with your local Extension educator or plant disease clinic if you are seeing symptoms. Poor germination All seeds need consistent moisture for good germination. Small seeded crops like beets and carrots are especially sensitive, especially in clay soils that are prone to crusting. Maintaining irrigation and constant moisture in the upper soil profile can help to prevent soil crusting as seeds are germinating. The blossoms on this pepper plant are dried out and ready to drop off. Woody, flavorless carrots Carrots become woody when they are water-stressed. Heat stress also causes woodiness; consistent irrigation can help to cool the soil. Carrots are susceptible to discoloration and rot with excessive moisture. Multicentered bulbs in onions Yield is reduced in onions if they experience water stress at any stage. Onions have shallow root systems and require more frequent irrigation. Water stress earlier in the growing season results in more multicenter bulbs. Blossom drop and fruit abortion Heat stress is the primary cause of other common problems such as blossom drop or fruit abortion in tomato, cucumber and other cucurbits. Consistent moisture during periods of heat stress can help to mitigate the impacts of heat. Splitting on a tomatillo Hollow heart in potato Hollow stem in broccoli Weather and climate trends in Minnesota Based on trends over the past 100 years, Minnesota climatologists predict the following trends in our weather: Highest likelihood: More rainfall overall, and more intense rain events. High likelihood: Longer, more intense heat waves, more days between rain. These predictions have important implications for vegetable growers. More intense rainfall events can cause flooding or waterlogging on farms and can make it difficult to get into the field on time in the spring, or harvest crops on time in the fall. Heatwaves can cause plant stress with impacts to crop yield and marketability. The combination of these factors makes maintaining consistent soil moisture a significant challenge. Taking the time to monitor soil moisture and develop an irrigation plan is important for farm resilience. More information about Minnesota climate predictions . The importance of timing Supplemental irrigation in vegetable crops is beneficial because rainfall is erratic and rarely uniformly distributed. Even in a year when we get above average precipitation, which is very common in Minnesota, sometimes it does not happen in the critical growth period of the crop. Supplemental irrigation is required to mitigate the yield loss risk. While consistent moisture is important throughout the lifespan of all vegetables, each crop has critical periods during which moisture is especially important. In almost all cases, the critical period is during flowering and fruit or pod formation for flowering crops, during head formation for head forming crops, and during bulb or root enlargement for bulb and root-forming crops. In many cases, these critical periods correspond with the hottest, driest part of the summer. Critical growth period for irrigation requirements in vegetable crops Crop Most critical period Broccoli, cabbage, cauliflower, lettuce head development Carrot, radish, beet, turnip root enlargement Sweet corn silking, tasseling, and ear development Cucumber, eggplant, pepper, melon, tomato flowering, fruit set, and maturation Bean, pea flowering, fruit set, and development Onion bulb development Potato tuber set and enlargement Table source: Midwest vegetable production guide for commercial growers In addition to the critical periods, it has been observed that moisture deficiencies occurring early in the crop cycle may delay maturity and reduce yields. Shortages later in the season often lower quality as well as yields. In addition to under-watering, too much water in vegetable crops, especially late in the season, can also reduce the quality and postharvest life of the crop. Applying excessive water wastes water and increases the risk of nutrient leaching. In-season irrigation management strategies Deciding when to irrigate to optimize production is a daily judgment call that requires you to consider several factors. Many of these factors change as the crop develops. Below are some general guidelines to consider when developing a water management plan and setting allowable soil water deficit limits. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Irrigation basics Before we dig more into different methods of irrigation scheduling, it is very important to understand the basics of irrigation and soil water attributes. Here are some common terms: Saturation – The water which readily percolates or drains out from the root zone by gravitational force. Also called gravitational water. Field capacity – It is the amount of water that remains in the soil after all the excess water at saturation has been drained out. When the soil is allowed to drain for approximately 24 hours after saturation, field capacity is reached. Permanent wilting point – When plants uptake all the available water for a given soil, soil dries to a point that it cannot supply any water to keep plants from dying. Available water holding capacity (AWC) –The amount of water that soil can store to be extracted by the plant. It is the water held between field capacity and permanent wilting point. Management allowable depletion (MAD) –The soil water content where crops begin to experience water stress. Usually, most of the crop does not experience water stress before 40-60% of AWC has been removed. Soil water deficit –The amount of water removed by the crop from active rooting depth. Plus sign (+) if content is closed, 'X' if content is open. Seasonal strategies Early season strategies In the spring, always make sure the soil in the germination and early-growth root zone is moist. If necessary, irrigate to wet this zone. As the seedlings germinate and develop, moist soil is necessary for proper root development, as roots will not grow through a dry layer of soil. A dry layer will result in a shallower rooting depth than desirable. Hold back on irrigating during the early vegetative growth stages to promote deeper root growth. This increases the opportunity to store rainfall when it occurs and decreases the risk of leaching valuable nutrients. For most crops, the soil water deficit can be as high as 60-65% of the plant-available water (water between field capacity and permanent wilting point) in the early growth stages without affecting the plant development. Mid-season strategies As the crop nears its critical growth period or its peak water-use period, reduce the soil water deficit to minimize the risk of not meeting the crop's water needs and causing yield losses. For most crops, the soil water deficit limit in the mid-season should be 30-40% of plant-available water. During these critical periods of high water use, regularly project the next two to three days of water needs to plan ahead and avoid stressing the crop before it’s irrigated. If you use drip tape on all of your fields but only have enough water pressure to irrigate some of your fields at once, project what the water deficit will be over the next few days and use this to determine when to start irrigating. Too much water during this period is also potentially harmful and can result in leaching. To reduce the leaching potential of a rainfall event, always consider the weather forecast when scheduling the next irrigation. Late season strategies As the crop nears maturity, you can generally increase the soil water deficit (60-65% for most crops) to greater limits without causing stress to the crop. Plus sign (+) if content is closed, 'X' if content is open. Irrigation scheduling methods There are several methods of irrigation scheduling. While irrigating based on the feel and appearance of the soil are commonly used methods, more precise methods such as soil water monitoring or crop water demand calculations will allow you to produce healthier, more consistent crops. Irrigation Scheduling Method Description Irrigation whenever or guessing Water is applied whenever. Feel and appearance Water is applied based on the feel and appearance of the soil.* Systematic irrigation Water is applied systematically, without considering weather and soil water conditions. (Ex: Water is applied 3 hours a day or 1 inch every 5 days.) Soil water monitoring Using soil moisture sensors or water tension measuring tools to start irrigation. Crop water demand Water is applied according to the crop evapotranspiration (ETc). Water budgeting Apply amounts based on water balance or water budget procedure and in-situ soil water content in the root zone. *See Estimating soil moisture by feel and appearance method . Soil water monitoring Soil water monitoring is an excellent method for vegetable growers. It is more precise than scheduling irrigation on a calendar basis or by feel and works well for growers with multiple crops. It is also simpler and less time consuming than calculating crop water demand or water budgeting. Soil moisture sensors are divided into two categories depending on the technology they use: Sensors that measure volumetric water content, or Sensors that measure soil tension when placed in the soil profile. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Volumetric water content (VWC) soil moisture sensors Volumetric water content is the volume of liquid water per volume of soil. It is usually expressed as a percentage. For example, 25% volumetric water content (VWC) means that in one cubic inch of soil, there will be 0.25 cubic inches of water. When this %VWC is multiplied by the desired depth (effective rooting depth measured in inches), you can determine the total amount of water present in the rooting zone. For irrigation scheduling, the soil water content measured using soil moisture sensors (current soil water content) is compared to the soil water content at field capacity to calculate the total water depletion in the soil profile. Soil water depletion (D) = soil water content at field capacity – current soil water content Field capacity can be measured very easily in the field using soil moisture sensors: The VWC measurements provided by the soil moisture sensor after 12-24 hours of heavy irrigation or rain is the field capacity of the soil. You also can get the field capacity and available water holding capacity (AWC) values from the USDA's Web Soil Survey . For irrigation scheduling, it is also important to understand the amount of soil water depletion that causes crops to begin experiencing stress. In general, most crops begin to experience stress when soil water depletion is 30-50% of plant-available water. This is called management allowable depletion (MAD) or irrigation trigger point. MAD can be varied depending upon crop, growth stage, and irrigation system’s pumping capacity and can be determined accurately through trials. For instance, take a note of soil moisture when you notice that your crops started experiencing stress. Irrigation should be started when the soil water depletion is equal to the management allowable depletion. Most common soil water content or volumetric water content sensors Electromagnetic sensors These sensors indirectly measure VWC based on the dielectric and electric properties of the soil medium (soil bulk permittivity or soil dielectric constant). The dielectric constant is a measure of the ability of the substance to store electrical energy. Since soil particles, water, and air, all have different dielectric constants, their ability to store or dissipate electrical energy is different. This is how it can be correlated to soil water content. Some examples of electromagnetic sensors are shown in the figures below. Neutron probe These sensors measure volumetric water content at various depths with a radiation source. The operator must be licensed and receive special training to use. The unit is expensive and requires a lot of time to take field readings. Examples of soil water content and volumetric water content sensors Click on an image to enlarge Case study Example of volumetric water content in 12-inch soil depth in a period of 40 days An example of irrigation scheduling using the volumetric soil water content sensors is shown in the graph. The soil water was monitored at a 12-inch soil depth for a period of 40 days. The field capacity (FC) and permanent wilting point (PWP) were 0.20 and 0.07 in 3 in -3 , respectively ( in 3 in -3 is the unit of measure for volumetric water sensors). Estimated soil available water holding capacity (AWC =FC - PWP) is 0.13 in 3 in -3 , and plant available water (PAW) at the 12-inch soil depth is 1.56 inches (PAW = AWC x Depth). Irrigation scheduling was set up to maintain PAW at 60% of AWC (i.e., 40% MAD), using the 0.15 in 3 in -3 water (Readily available water (RAW)) as the trigger point to irrigate. Whenever the volumetric water content from the soil water sensor in the 12-inch soil profile reaches 0.15 in 3 in -3 or close to it, irrigation of 0.6-inch is required to increase the volumetric water content by 0.05 in 3 in -3 to bring it back to FC (0.2 in/in). During the 40-day period in the example, over-irrigation was avoided by irrigating only when it was required. However, heavy rainfall events increased the water content at certain times, which is unavoidable. In the above example, the irrigation water application was accomplished manually. There are automated systems available that can irrigate based on water status. Plus sign (+) if content is closed, 'X' if content is open. Soil water tension or matric potential sensors Soil water tension indicates the amount of energy required by plant roots to extract water from soil particles. As water is removed from the soil, soil tension increases. Soil tension is expressed in centibars or bars of atmospheric pressure. When the soil is full of water, soil water tension is close to zero. For example, in coarse-textured soils at 25-45 centibars, 50% of AWC is depleted , so in these soils, crops should be irrigated before the sensor indicates 25-45 cb. However, soil tension measurements are soil specific and can be inaccurate, so depending on your crop and soil observations, soil tension limits should be refined. At the earliest indication of water stress, use your tensiometer to measure the soil tension and note the reading. In the future, make sure that you irrigate before it reaches that point. You can track your water movement by taking measurements right after an irrigation event. After irrigating, if your deepest sensor gives a zero reading, that means you might have irrigated more than required. If it shows no change from your reading prior to irrigating, you did not irrigate enough. Laboratory-developed charts like the soil water deficit table can also be used to convert the tension readings from sensors to soil water deficit values. The most common soil tension sensors Tensiometer: These sensors are made from a porous ceramic tip sealed to the base of a water-filled plastic tube, sealed at the top with a removable airtight cap. A vacuum gauge connected to the tube measures the soil tension. Electrical resistance sensors: These sensors indirectly estimate soil tens",
+  "links": [
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables",
+      "label": "Skip to navigation"
+    },
+    {
+      "url": "https://extension.umn.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Debalin%20at%20Field%20School.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/471",
+      "label": "Building a stronger Minnesota together"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/what-we-do",
+      "label": "What we do"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/local",
+      "label": "Local offices"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/tribal-outreach",
+      "label": "Tribal outreach"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/regional-partnerships",
+      "label": "Regional partnerships"
+    },
+    {
+      "url": "https://agreett.umn.edu/",
+      "label": "AGREETT"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/global-initiatives",
+      "label": "Global initiatives"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/ask-a-question",
+      "label": "Ask a question"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/apply-for-a-job",
+      "label": "Apply for a job"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extensionstaff.umn.edu/",
+      "label": "Staff"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/news",
+      "label": "Extension news"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/newsletters",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/podcasts",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/White%20baneberry%20berries%20and%20red%20stalks.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/event/spooky-plants-for-the-spooky-season",
+      "label": "Spooky plants for the spooky season | Nov 3"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events",
+      "label": "Courses and events"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events/for-organizations",
+      "label": "For organizations"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179506",
+      "label": "For professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Aerial%20view%20of%20group%20in%20field_screen.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/7781",
+      "label": "Institute for Ag Professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/beef",
+      "label": "Beef"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/horse",
+      "label": "Horse"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/livestock-operations",
+      "label": "Livestock operations"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-production/growing-corn",
+      "label": "Corn"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "label": "Cover crops"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "label": "Nutrient management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/soybean",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/sugarbeet",
+      "label": "Sugarbeet"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/weed-management",
+      "label": "Weed management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agricultural-business-management",
+      "label": "Ag business management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/farm-safety",
+      "label": "Farm safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/growing-safe-food",
+      "label": "On-farm food safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/small-farms",
+      "label": "Small farms"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production",
+      "label": "Commercial Fruit"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming",
+      "label": "Vegetable farming"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/tornado-storm-clouds-above-the-shed-in-the-countryside.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/158556",
+      "label": "COMET Training"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/economy-and-development",
+      "label": "Economy and development"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/leadership-skill-building",
+      "label": "Leadership skill building"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/tourism-and-outdoor-recreation",
+      "label": "Tourism and outdoor recreation"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/175686",
+      "label": "Managing money"
+    },
+    {
+      "url": "https://extension.umn.edu/node/177516",
+      "label": "Mental health"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/raising-kids",
+      "label": "Raising kids"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/rural-stress",
+      "label": "Rural stress"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Tomatoes-peppers-on-outside-table-UMN-extension.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/9161",
+      "label": "Take a class: Preserving food at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home",
+      "label": "Cooking at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/commercial-kitchens",
+      "label": "Commercial kitchens"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/cottage-food-safety-in-minnesota",
+      "label": "Cottage foods"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/rural-grocery-stores",
+      "label": "Rural grocery stores"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/supershelf",
+      "label": "Supershelf"
+    },
+    {
+      "url": "https://extension.umn.edu/food/nutrition/healthy-eating",
+      "label": "Healthy eating"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Garden%20Tour%202023.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/26856",
+      "label": "Read Yard and Garden News"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota",
+      "label": "Gardening in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota",
+      "label": "Lawns and landscapes in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects",
+      "label": "Yard and garden insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems",
+      "label": "Yard and garden problems"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/home-maintenance-and-safety",
+      "label": "Home maintenance and safety"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects",
+      "label": "Household insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/water-usage-and-water-damage-in-homes",
+      "label": "Water usage and water damage in homes"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Copy%20of%20IMG_3906.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/100581",
+      "label": "Minnesota Woodland Stewards"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179281",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/wild-pollinators",
+      "label": "Wild pollinators"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water",
+      "label": "Agricultural soil and water"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/shoreland-watersheds-and-wetlands",
+      "label": "Shoreland, watersheds and wetlands"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/weather-and-climate/prepare-for-risks-to-your-home-and-community",
+      "label": "Prepare for risks"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/4-H-State-Ambassadors-greeting-fairgoers-at-state-fair-4-H-Building-entrance.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/4h-building-campaign/home",
+      "label": "Help us transform the 4‑H Building"
+    },
+    {
+      "url": "https://extension.umn.edu/4-h-and-youth/minnesota-4-h",
+      "label": "Minnesota 4-H"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160906",
+      "label": "Belonging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160921",
+      "label": "Leadership and skills"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160911",
+      "label": "Learning and readiness"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160896",
+      "label": "Program quality"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160926",
+      "label": "Resilience"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops",
+      "label": "Specialty crops"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/blossom-end-rot-tomatoes-crop.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/11411",
+      "label": "More information on blossom end rot"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/pepper-plant-blossom-drop.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/split-tomato.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/potato-hollow-heart.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/broccoli-hollow-stem.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/24541",
+      "label": "Estimating soil moisture by feel and appearance method"
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/",
+      "label": "the USDA's Web Soil Survey"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/stationary-capacitance-sensor_0.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/portable-capacitance-soil-moisture-sensor-probe.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/TDR-soil-moisture-sensors.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/time-domain-reflectometry-soil-moisture-sensor.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/volumetric-water-content-graph.png",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/tensiometer-vacuum-gauge.png",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/granular-matrix-electrical-resistance-sensor.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/sensors-PVC-pipe.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/21286",
+      "label": "Irrigation management strategies"
+    },
+    {
+      "url": "https://extension.umn.edu/node/10791",
+      "label": "The checkbook spreadsheet"
+    },
+    {
+      "url": "https://extension.umn.edu/irrigation/evapotranspiration-based-irrigation-scheduling-or-water-balance-method",
+      "label": "the ETc and water budget method"
+    },
+    {
+      "url": "https://ag.umass.edu/vegetable/fact-sheets/brassicas-hollow-stem",
+      "label": "Brassicas, Hollow Stem"
+    },
+    {
+      "url": "https://extension.umn.edu/about-extension/contact-us",
+      "label": "Contact"
+    },
+    {
+      "url": "https://extension.umn.edu/cdn-cgi/l/email-protection",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://z.umn.edu/report-accessibility-issue?ref_url=https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables",
+      "label": "Report Web Accessibility Issues"
+    },
+    {
+      "url": "https://myextension.umn.edu",
+      "label": "Staff intranet"
+    }
+  ],
+  "fetched_at": "2026-10-28T11:07:09.885097+00:00",
+  "sha256": "d5d07f2c95d93e88a5b79f37ee827a3e2c79cfd20aac6f5d7446abf0a9ffdd88",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

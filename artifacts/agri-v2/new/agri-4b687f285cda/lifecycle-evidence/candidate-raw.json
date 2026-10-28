@@ -1,0 +1,56 @@
+{
+  "topic_id": "agri-4b687f285cda",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "دانه خشک لوبیا چیتی (Phaseolus vulgaris L., بازاری پینتو)",
+  "slug": "pinto-dry-bean-compaction-signs-soil-mitigation",
+  "outline": [
+    "نشانه‌های تراکم خاک در کشت لوبیا چیتی",
+    "اصلاح بستر ریشه و ساختار خاک"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های رسی یا فشرده با نگهداری کپیدلون‌ها مانع صعود آن‌ها به سطح خاک می‌شوند و جوانه‌زنی ضعیف رخ می‌دهد.",
+      "conditions": "منطقه میسی‌سی‌پی ای امریکا؛ محصول لوبیا خشک/سبزی (Phaseolus vulgaris)؛ نوع خاک: رسی یا تراکم‌یافته",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": [
+        {
+          "value": "none",
+          "unit_quote": "نمی‌باشد",
+          "geographic_scope": "میسی‌سی‌پی ای امریکا",
+          "product_scope": "Phaseolus vulgaris"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "خاک‌های کلوخه‌ای و فشرده که درصد رس بالا دارند، جوانه‌زنی و خروج از خاک را مختل می‌کنند.",
+      "conditions": "منطقه مریلند امریکا؛ محصول لوبیا و سایر سبزیجات؛ نوع خاک: کلوخه‌ای و فشرده با درصد رس بالا",
+      "evidence_id": "d2-e4",
+      "numeric_bindings": [
+        {
+          "value": "none",
+          "unit_quote": "نمی‌باشد",
+          "geographic_scope": "مریلند امریکا",
+          "product_scope": "Phaseolus vulgaris"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "پوشاندن بذرها با مواد غیرترشحه‌کننده یا افزودن ماسه، پیت‌ماس، ورمیکولیت یا پرلیت به خاک می‌تواند ساختار را بهبود بخشد.",
+      "conditions": "منطقه میسی‌سی‌پی ای امریکا؛ محصول لوبیا خشک/سبزی (Phaseolus vulgaris)",
+      "evidence_id": "d1-e0",
+      "numeric_bindings": [
+        {
+          "value": "none",
+          "unit_quote": "نمی‌باشد",
+          "geographic_scope": "میسی‌سی‌پی ای امریکا",
+          "product_scope": "Phaseolus vulgaris"
+        }
+      ]
+    }
+  ],
+  "insufficiency_reason": "برای پاسخ به عنوان تراکم خاک در کشت لوبیا چیتی، منشأ نشانه‌های اختصاصی این محصول و راهکارهای اصلاح بستر ریشه در اقلیم ایران یافت نشد. منابع موجود درباره جوانه‌زنی ضعیف در خاک‌های فشرده در ایالات متحده (میسی‌سی‌پی و مریلند) گزارش می‌دهند اما روش‌های اصلاحی عملیاتی خاص و معیارهای تشخیص تراکم برای Phaseolus vulgarisL. پینتو ارائه نمی‌کنند."
+}

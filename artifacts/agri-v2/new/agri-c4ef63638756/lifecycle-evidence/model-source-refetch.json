@@ -8,18 +8,18 @@
     "sources_sha256": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
     "raw_sha256": "3d48a769266cd97e7c9360d956adda39164ea6990d8944750325f71ac35a9319"
   },
-  "completed_at": "2026-10-28T10:41:05.464263+00:00",
+  "completed_at": "2026-10-28T11:07:04.519217+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T10:40:05.758018+00:00",
+      "started_at": "2026-10-28T11:07:01.393061+00:00",
       "queries": [
         {
           "query_id": "a67803ec889ce95f25da29494464548b8548e42e33935135c8319ea971d9c976",
           "query": "chickpea drip irrigation irrigation interval duration calculation flow rate application rate mm/day university extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184007.520329,
           "results": [
             {
@@ -42,7 +42,7 @@
         {
           "query_id": "7b47c71731d1231afd8cdd2200e2a19b61ff974d1f447085480bdcd0db55d953",
           "query": "chickpea crop water requirement evapotranspiration mm day drip tape discharge measurement flow rate calculation",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184011.296454,
           "results": [
             {
@@ -85,8 +85,7 @@
           {
             "url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
             "canonical_url": "https://extension.psu.edu/determining-how-long-to-run-drip-irrigation-systems-for-vegetables",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001757",
@@ -110,8 +109,7 @@
           {
             "url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
             "canonical_url": "https://passel2.unl.edu/view/lesson/bda727eb8a5a/6",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           }
         ]
       },
@@ -148,17 +146,17 @@
           "Cicer arietinum irrigation interval calculation actual discharge water demand"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:40:24.714422+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:02.923908+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T10:40:24.714960+00:00",
+      "started_at": "2026-10-28T11:07:02.924675+00:00",
       "queries": [
         {
           "query_id": "361e5fecc42f1423705b9894c7523f6d2494eea822e3bfc29396c5296bb9322d",
           "query": "chickpea irrigation scheduling flow rate discharge duration university extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184051.4572618,
           "results": [
             {
@@ -186,7 +184,7 @@
         {
           "query_id": "91d1d0dc25ee86b227d8f32a8886d2efa054900b2f65a82ef93df341fb4fca4e",
           "query": "Cicer arietinum irrigation interval calculation actual discharge water demand",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184054.6260774,
           "results": [
             {
@@ -238,8 +236,7 @@
           {
             "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
             "canonical_url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/",
-            "redirect_hops": 1,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
@@ -287,8 +284,8 @@
           "chickpea drip irrigation set time calculation actual flow crop water demand site:edu OR site:gov"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:41:05.463664+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:04.518333+00:00"
     }
   ],
   "fetches_reserved": 11,

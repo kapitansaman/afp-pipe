@@ -8,13 +8,13 @@
     "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
     "raw_sha256": "279c57beacded56477bfdda8871cb208e5cd0a620f744663b7e2ff71a13c5e47"
   },
-  "completed_at": "2026-10-28T10:40:44.743664+00:00",
+  "completed_at": "2026-10-28T11:07:02.088636+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T10:39:57.405563+00:00",
+      "started_at": "2026-10-28T11:07:01.666870+00:00",
       "queries": [
         {
           "query_id": "ae08d17b83809ce0b60a45bd2d12c4b0ccd8bb86634821e30e730a0942135c28",
@@ -153,17 +153,17 @@
           "supplemental irrigation alfalfa yield response cost-benefit economic return mm per ton"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:40:13.128786+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:02.080283+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T10:40:13.129344+00:00",
+      "started_at": "2026-10-28T11:07:02.081118+00:00",
       "queries": [
         {
           "query_id": "1c9f2713923fc11d32e3a4e57ba335be2614d725628de919c1d2e7977a2ed172",
           "query": "rainfed alfalfa supplemental irrigation decision threshold soil moisture growth stage university extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184018.803055,
           "results": [
             {
@@ -186,7 +186,7 @@
         {
           "query_id": "c2bdd376eeda228cfac9464df565bc8bf99845d8148b95884ff3831506abc6cd",
           "query": "supplemental irrigation alfalfa yield response cost-benefit economic return mm per ton",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793184021.3055072,
           "results": [
             {
@@ -245,14 +245,12 @@
           {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363835",
             "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363835/",
-            "redirect_hops": 1,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://naes.unr.edu/publication.aspx?PubID=2381",
             "canonical_url": "https://naes.unr.edu/publication.aspx?PubID=2381",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://pubs.ext.vt.edu/BSE/BSE-237/BSE-237.html",
@@ -294,8 +292,8 @@
           "supplemental irrigation alfalfa scheduling threshold soil moisture growth stage university extension"
         ]
       },
-      "coverage_cache_hit": false,
-      "completed_at": "2026-10-28T10:40:44.742847+00:00"
+      "coverage_cache_hit": true,
+      "completed_at": "2026-10-28T11:07:02.087920+00:00"
     }
   ],
   "fetches_reserved": 11,

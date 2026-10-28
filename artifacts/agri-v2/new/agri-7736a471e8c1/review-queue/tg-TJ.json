@@ -6,9 +6,9 @@
   "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
   "status": "waiting",
   "reason": "translation_or_review_needs_another_attempt",
-  "attempts": 1,
-  "model_calls_spent": 1,
-  "next_attempt_at": "2026-10-28T10:18:55.531032+00:00",
+  "attempts": 2,
+  "model_calls_spent": 3,
+  "next_attempt_at": "2026-10-29T11:16:15.433453+00:00",
   "history": [
     {
       "event": "reserved",
@@ -22,15 +22,35 @@
       "reserved_model_calls": 1,
       "status": "waiting",
       "at": "2026-10-28T04:18:55.530975+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 2,
+      "max_calls": 4,
+      "at": "2026-10-28T11:14:41.844668+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 2,
+      "reserved_model_calls": 2,
+      "status": "waiting",
+      "at": "2026-10-28T11:16:15.433387+00:00"
     }
   ],
   "created_at": "2026-10-28T04:18:55.501084+00:00",
   "experimental_only": false,
   "publication_authorized_by_queue": false,
-  "last_started_at": "2026-10-28T04:18:55.505680+00:00",
+  "last_started_at": "2026-10-28T11:14:41.844660+00:00",
   "last_failure": {
-    "kind": "unexpected",
+    "kind": "validation",
     "category": "unspecified"
   },
-  "primary_finished": true
+  "primary_finished": true,
+  "pending_issues": [
+    {
+      "id": 2,
+      "category": "wrong_language",
+      "detail": "Persian/Arabic characters remain in this Tajik segment."
+    }
+  ]
 }

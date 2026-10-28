@@ -1,0 +1,145 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T11:07:06.065980+00:00",
+  "queries": [
+    {
+      "query_id": "43f7f1bf57e946a0905349c9d57af02b0ada3ee81233c297a13eb080890d3990",
+      "query": "chickpea irrigation scheduling soil moisture threshold after rainfall university extension",
+      "cached": false,
+      "checked_at_epoch": 1793185637.1438134,
+      "results": [
+        {
+          "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+          "title": "Irrigation Scheduling: The Water Balance Approach | Colorado State University Extension",
+          "description": "Based on equation 2, five irrigations were required to satisfy the ETc requirements of dry beans from May 31 to September 10, 2008. Note how the soil water deficit was reduced when irrigations occurred (Figure 5). In addition, the soil water deficit was also reduced at times when rainfall occurred. The total net irrigation requirement for this period was 11.53 inches. The last irrigation required was 3.31 inches on August 2. After this, there were several significant rainfall events that [...] during the stand establishment phase (June 1 to June 30), when the soil water deficit (Dc) becomes equal to or greater than 1.4 inches, then irrigation water must be applied. Similar calculations were done for the other growth phases in Table 4. [...] | 135 | 0.64 |  | 0.95 | 0.22 | 0.81 | 0.20 | 1.00 |  |\n| 140 | 0.58 |  | 0.95 | 0.22 | 0.80 | 0.20 | 0.96 |  |"
+        },
+        {
+          "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+          "title": "Irrigation Scheduling Methods: Checkbook vs FAO-56 | Land-Grant Press",
+          "description": "Early Period (Days 1–5): The initial 1.57 in irrigation keep soil moisture at adequate levels.\n Day 6: A 0.24 in rainfall event replenishes soil moisture, reducing the deficit from 0.84 in (Day 5) to 0.60 in (Day 6).\n Critical Period (Days 7–8): By Day 8, soil moisture depletion approaches the RAW threshold (1.04 in). Without irrigation, depletion would exceed the threshold.\n Irrigation Event (Day 9): A 1 in irrigation restores soil moisture to near field capacity, preventing crop stress. [...] at the start and end of day i. The highlighted Di end on Day 8 (1.01 in) indicates the soil moisture is nearing the RAW threshold of 1.04 in, prompting irrigation on Day 9. [...] Early period (Days 1–5): Soil moisture is adequate due to the initial 1.57 in irrigation, and the water deficit remains low.\n Midway (Days 6–10): A small rainfall event (0.24 in) on Day 6 provides some replenishment, but evapotranspiration gradually reduces soil moisture over the following days.\n Critical period (Days 11–13): By Day 13, the water deficit reaches 49%, nearing the 50% MAD threshold, indicating an urgent need for irrigation."
+        },
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n\nDatta, S., S. Taghvaeian, J. Stivers. 2025. Understanding soil water content and thresholds for irrigation management. BAE-1537.  \nOklahoma State Cooperative Extension. Available at: [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] agriculture. For information on moisture sensor types, functions, and installation, readers are referred to OSU extension factsheet Soil Moisture-Sensing Systems for Improving Irrigation Scheduling"
+        },
+        {
+          "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+          "title": "Scheduling Agricultural Irrigation Based on Soil Moisture Content: Interpreting and Using Sensor Data | VCE Publications | Virginia Tech",
+          "description": "Leib, B., T. Grant, A. McClure, and A. Shekoofa. 2019. The Basics of Soybean Irrigation in Tennessee. University of Tennessee Extension publication W 809-B.  Documents/W809-B.pdf.\n\nMaughan, T., D. Drost, and L. Niel Allen. 2015. Vegetable Irrigation: Sweet Pepper and Tomato. Utah State University Extension. Horticulture/ Vegetable 2015-03. Logan: USU Extension.  \n  cgi?article=1738&context=extension\\_curall. [...] Soil moisture sensors can support irrigation scheduling by telling you how much water is present in your soil at any time. Irrigation should be applied when soil moisture levels drop below a minimum threshold. Enough water should be applied so that soil moisture levels increase across the root zone of the plant, but not so much that water runs off or drains below the root zone. Soil moisture sensors can help determine when, how much, and how quickly irrigation should be applied. However, this [...] Shortridge, J., and W. Porter. 2021. Soil Moisture Sensors for Agricultural Irrigation: An Overview on Sensor Types and Data Retrieval Methods. VCE publication BSE-338P. Blacksburg: VCE.   \n .\n\nVirginia Cooperative Extension materials are available for public use, reprint, or c"
+        }
+      ]
+    },
+    {
+      "query_id": "d41d877c63d19605d90c97931fc17dc86a301b0f05a600109864d9cc15efc3c2",
+      "query": "when to irrigate chickpea after rain soil moisture sensor tension KPa extension",
+      "cached": false,
+      "checked_at_epoch": 1793185639.6348839,
+      "results": [
+        {
+          "url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors",
+          "title": "Irrigation Scheduling Using Soil Water Tension Sensors - Alabama Cooperative Extension System",
+          "description": "Permanent wilting point. Soil has reached the water level at which plants can no longer extract water from it. SWT = 1,500 kPa.\n\nIrrigation trigger. Soil is at the maximum allowable SWT value at which available moisture is not limiting crop development. At this level, irrigation should be started to prevent water stress.\n\nSWT = variable based on each soil type. [...] One of the main benefits of using SWT sensors, like Watermarks, is the ability to track the changes in soil moisture throughout the soil profile. An example of Watermark sensor readings at the peak of crop water demand for corn is given in figure 3. Watermark sensors cover soil water tension within a range of 0 to 200 kPa. After a rainfall event, the soil will become wet and the SWT sensor will report readings close to 0 kPa. As water begins to be extracted from the soil by plants or begins [...] For example, if an irrigation depth of 0.6 inch is the preferable and commonly used rate by the farmer, irrigation should be initiated when SWT from the soil sensor reaches 77 and 38 kPa for Decatur (silty clay loam) and Alpin (sand) soil types, respectively (table 1).\n\n### Table 1. Soil Water Tension (SWT) Value and Correspon"
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+          "title": "Soil moisture sensors for irrigation scheduling",
+          "description": "Soil water tension indicates the energy required by plant roots to extract water from soil particles. As soil water is removed from soil, soil tension increases. Soil tension is expressed in centibars or bars of atmospheric pressure. When the soil is full of water, soil water tension is close to zero. For coarse textured soils, at 25-45 centibars, 50% of AWC is depleted (), so in these soils crop should be irrigated before the sensor indicates 25-45 cb (Irmak et. al 2016). [...] However, soil tension measurements are soil specific and can be inaccurate, so depending on your crop and soil observations, soil tension limits should be refined. For example, note the soil tension at the earliest indication of water stress and always make sure that you irrigate before it reaches that point. You can also track your water movement by taking measurements right after an irrigation event. If your bottom sensor after irrigation indicates zero reading, that means you might have [...] 1. Use data loggers to store and log the data. This will help in data interpretation and quick decision making.\n2. Use soil moisture data with irrigation scheduling tools such as checkbook method or daily crop water"
+        },
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] One of the easiest adjustments that could be made using soil moisture sensor data is the adjustment of irrigation depth. In an ideal situation, every irrigation event should recharge the soil profile to field capacity; however, this may not be possible due to the crops’ water demand, the limited well or irrigation system capacity, or the limited infiltration capacity of the soil. Each peak in soil moisture detected by sensors shows irrigation or rain, and ideally the soil moisture should reach"
+        },
+        {
+          "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+          "title": "Soil moisture monitoring to support irrigation scheduling | OSU Extension Service",
+          "description": "1 centibar (cbar) ≈ 1 kilopascal (kPa)\n\nCredit: Adapted from Irrometer\n\nNote: These values are approximate and may vary depending on crop type, rooting depth and management strategy. High-value or shallow-rooted crops are often irrigated at lower tension values, while deeper-rooted crops may tolerate higher tension before irrigation is required.\n\n### Electrical resistance block and granular matrix and sensors [...] (1 bar = 100 centibars ≈ 100 kPa)\n\n#### Typical soil water tension values\n\n Saturation ≈ 0 kPa\n Field capacity ≈ −10 to −33 kPa (texture-dependent)\n Permanent wilting point ≈ −1500 kPa\n\n#### Sensors that measure soil water tension\n\nThe following sensors measure matric potential (tension), not water content:\n\n Tensiometers\n Electrical resistance blocks\n Granular matrix sensors\n\nSection anchor \"measuring-soil-moisture\"\n\n## Measuring soil moisture [...] ### Tensiometers\n\nTensiometers are soil moisture sensors used to measure soil water tension (matric potential). Producers in horticultural, vegetable and specialty crop systems commonly use tensiometers where irrigation is frequent and soils are monitored closely.\n\n#### How they work\n\nA tensiometer (Figure 4) consists of:\n\n "
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 6,
+    "loaded": 5,
+    "sources": [
+      {
+        "url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach",
+        "canonical_url": "https://extension.colostate.edu/resource/irrigation-scheduling-the-water-balance-approach/",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56",
+        "canonical_url": "https://lgpress.clemson.edu/publication/irrigation-scheduling-methods-checkbook-vs-fao-56/",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+        "status": "unavailable",
+        "category": "http_error",
+        "temporary": true,
+        "http_status": 403
+      },
+      {
+        "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+        "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors",
+        "canonical_url": "https://www.aces.edu/blog/topics/crop-production/irrigation-scheduling-using-soil-water-tension-sensors/",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+        "canonical_url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+        "status": "cache_valid"
+      }
+    ]
+  },
+  "fetches_reserved": 6,
+  "coverage": {
+    "topic_id": "agri-ab20ad20b271",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a concrete chickpea decision criterion (soil moisture threshold, tension in kPa, or VWC range) that tells whether to delay or resume irrigation after rain. Sources s0/s3 mention chickpea's 30‑inch taproot and that 6–10 inches of growing‑season rain is optimal, and note late‑season rains can break dormancy and complicate harvest, but none gives a numeric threshold (e.g., 100 kPa tension trigger or 35% SWD) for post‑rain irrigation scheduling."
+      },
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [
+          "s0",
+          "s3"
+        ],
+        "missing": "Only s0 and s3 address chickpea (Cicer arietinum) specifically, but they cover yield trials, disease, and general cultural practices—not irrigation‑after‑rain decisions. s2 is a generic university extension on chickpea with no irrigation thresholds. s4–s8 are generic irrigation‑scheduling documents (CSU, Clemson, VT, Auburn, UMN) that provide soil‑water tables and sensor guidance for corn, alfalfa, small grains, cotton, soybean, etc., but none maps those values to chickpea by explicit citation."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No source delivers original numeric values with units (kPa, %VWC, mm rainfall) scoped to chickpea rain‑event irrigation. s7 lists SWT triggers for corn (50–80 kPa) and small grain (40–50 kPa vegetative, 70–80 kPa ripening) but not chickpea. s6 gives MAD/volumetric tables for small grain and field beans, again no chickpea. s4–s5 provide generic water‑balance equations and crop coefficients (e.g., Table 3 Kc for dry beans, corn, small grain) but omit chickpea entirely. Geographic scope is also absent: no rainfall amount considered, no chickpea growth‑stage window, and no irrigation‑system context for the decision."
+      }
+    ],
+    "next_queries": [
+      "chickpea Cicer arietinum irrigation scheduling after rainfall soil water tension kPa university extension",
+      "chickpea crop coefficient Kc evapotranspiration ETc rainfall adjust irrigation university research"
+    ]
+  },
+  "coverage_cache_hit": false,
+  "completed_at": "2026-10-28T11:07:40.607922+00:00"
+}

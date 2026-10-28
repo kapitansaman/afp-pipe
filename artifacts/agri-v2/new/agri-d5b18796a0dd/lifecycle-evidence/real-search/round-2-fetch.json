@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://www.canr.msu.edu/irrigation/July%2014-20.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.ndsu.edu/agriculture/extension/publications/irrigation-scheduling-checkbook-method",
+      "canonical_url": "https://www.ndsu.edu/agriculture/extension/publications/irrigation-scheduling-checkbook-method",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377423003554",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/Irrigation_Water_Management_449_CPS_9_2020.pdf",
+      "canonical_url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/Irrigation_Water_Management_449_CPS_9_2020.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

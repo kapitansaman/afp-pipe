@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-5b193f221639",
+  "gap": "No university extension or primary scholarly source found that explicitly addresses soil moisture sensor placement methodology, installation depth, horizontal positioning relative to drip irrigation lines, sensor type selection (TPS/FDR/TDR), or operational irrigation decision thresholds specifically for chickpea cultivation.",
+  "queries": [
+    "chickpea soil moisture sensor placement depth installation university extension",
+    "chickpea irrigation sensor positioning drip tape decision threshold research"
+  ],
+  "requirements": [
+    {
+      "id": "species_product",
+      "need": "Exact chickpea crop identity preserved; no substitution with other pulses"
+    },
+    {
+      "id": "exact_reader_method",
+      "need": "Direct guidance on soil moisture sensor placement methodology including depth, horizontal offset from emitters, and sensor type recommendations"
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Original measurement units and numeric ranges for sensor depth, soil moisture thresholds, and irrigation decision parameters with geographic context"
+    }
+  ]
+}

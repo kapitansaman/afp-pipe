@@ -11,14 +11,12 @@
     {
       "url": "https://extensionpublications.unl.edu/assets/html/g1338/build/g1338.htm",
       "canonical_url": "https://extensionpubs.unl.edu/publication/g1338/na/html/view",
-      "redirect_hops": 1,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
       "canonical_url": "https://extension.oregonstate.edu/catalog/em-9612-irrigation-water-how-its-delivered-how-its-measured",
-      "redirect_hops": 0,
-      "status": "fetched"
+      "status": "cache_valid"
     },
     {
       "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2017/Li%20et%20al_2017_ASABE_60-5-1633-1644.pdf",

@@ -1,6 +1,6 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T10:39:57.371658+00:00",
+  "started_at": "2026-10-28T11:07:01.565683+00:00",
   "queries": [
     {
       "query_id": "72d5afb0d2cbdb7ebab3a1a672a7897f8ce1eb0d1053839e8586f6d23b1e85e3",
@@ -138,6 +138,6 @@
       "alfalfa irrigation set time calculation actual flow rate discharge per 100 ft tape university extension"
     ]
   },
-  "coverage_cache_hit": false,
-  "completed_at": "2026-10-28T10:40:17.117853+00:00"
+  "coverage_cache_hit": true,
+  "completed_at": "2026-10-28T11:07:02.492319+00:00"
 }

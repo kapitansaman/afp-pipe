@@ -1,0 +1,123 @@
+{
+  "topic_id": "agri-eb33d350e521",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "لوبیا چیتی (پاینوت) — harvested product: دانه خشک لوبیا فازئولوس وولگاریس",
+  "slug": "hazineh-kesht-e-lobia-chiti",
+  "outline": [
+    "داده‌های لازم برای محاسبه هزینه",
+    "روش محاسبه و واحدها",
+    "ثبت و کنترل ورودی‌ها",
+    "تفسیر و محدودیت کاربرد"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "هزینه تولید لوبیا خشک تجاری مشابه سویا است؛ اما هزینه‌های اضافی ناشی از احتمال کاشت مجدد، سمپاشی علیه آفات و بیماری‌ها و کار اضافی در برداشت رخ می‌دهد.",
+      "conditions": "منطقه میزوری آمریکا؛ سامانه زراعی عمومی لوبیای خشک؛ بدون ریزمقدار قیمت نهاده‌ها",
+      "evidence_id": "d3-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای بیشینه‌کردن عملکرد تحت آبیاری، اجرای ۴۰ تا ۵۰ پوند نیتروژن در هر آکر ممکن است مناسب باشد.",
+      "conditions": "منطقه میزوری آمریکا؛ لوبیای خشک؛ هدف حداکثر عملکرد؛ شرایط آبیاری؛ واحد پوند بر آکر",
+      "evidence_id": "d3-e11",
+      "numeric_bindings": [
+        {
+          "value": "40",
+          "unit_quote": "40 to 50 pounds of nitrogen per acre",
+          "geographic_scope": "Missouri, USA",
+          "product_scope": "dry edible bean"
+        },
+        {
+          "value": "50",
+          "unit_quote": "40 to 50 pounds of nitrogen per acre",
+          "geographic_scope": "Missouri, USA",
+          "product_scope": "dry edible bean"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ظرفیت ذخیره‌سازی بلندمدت دانه Payneuto در کیسه پلی‌اتیلن غذایی حداقل ۱ سال و در بسته‌بندی قوطی #10 یا کیسه میلاری با جذب اکسیژن ۱۰ سال یا بیشتر است.",
+      "conditions": "منطقه یوتا/آمریکا؛ دانه خشک Payneuto؛ شرایط نگهداری پس از برداشت؛ بدون داده هزینه مزرعه",
+      "evidence_id": "d4-e1",
+      "numeric_bindings": [
+        {
+          "value": "1",
+          "unit_quote": "shelf life of 1 year or more",
+          "geographic_scope": "Utah, USA",
+          "product_scope": "pinto dry bean stored grain"
+        },
+        {
+          "value": "10",
+          "unit_quote": "shelf life of 10 or more years",
+          "geographic_scope": "Utah, USA",
+          "product_scope": "pinto dry bean stored grain"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "سرعت دور استوانه کمباین در برداشت لوبیای خشک با رطوبت بالا ۳۰۰ تا ۴۵۰ دور در دقیقه است و با خشک‌شدن دانه کاهش می‌یابد.",
+      "conditions": "منطقه میزوری آمریکا؛ برداشت لوبیای خشک؛ سرعت ترکیب؛ رطوبت دانه متغیر",
+      "evidence_id": "d3-e18",
+      "numeric_bindings": [
+        {
+          "value": "300",
+          "unit_quote": "300 to 450 rpm",
+          "geographic_scope": "Missouri, USA",
+          "product_scope": "dry bean harvest"
+        },
+        {
+          "value": "450",
+          "unit_quote": "300 to 450 rpm",
+          "geographic_scope": "Missouri, USA",
+          "product_scope": "dry bean harvest"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "چگالی بوته‌ای در_trial_ آزمون برداشت مستقیم Payneuto بین ۱۰۰٬۰۰۰ تا ۱۲۰٬۰۰۰ بوته در هر آکر بود.",
+      "conditions": "منطقه نبراسکا، شهرستان Box Butte، آمریکا؛trial_ مستقیم برداشت Payneuto؛ تراکم بوته‌ای",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "100000",
+          "unit_quote": "100,000 to 120,000 plants per acre",
+          "geographic_scope": "Box Butte County, Nebraska, USA",
+          "product_scope": "pinto dry bean"
+        },
+        {
+          "value": "120000",
+          "unit_quote": "100,000 to 120,000 plants per acre",
+          "geographic_scope": "Box Butte County, Nebraska, USA",
+          "product_scope": "pinto dry bean"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در شرایط مطلوب، تلفات برداشت conventional لوبیای خشک حدود ۱٫۵ bu/ac است؛ تلفات برداشت مستقیم Payneuto به‌طور متوسط حدود ۳٫۵ bu/ac گزارش شد.",
+      "conditions": "منطقه پن‌هلند نبراسکا، آمریکا؛ لوبیای خشک؛ مقایسه روش برداشت؛ داده تلفات",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": [
+        {
+          "value": "1.5",
+          "unit_quote": "about 1.5 bu/ac",
+          "geographic_scope": "Nebraska Panhandle, USA",
+          "product_scope": "dry edible bean"
+        },
+        {
+          "value": "3.5",
+          "unit_quote": "about 3.5 bu/ac",
+          "geographic_scope": "Nebraska Panhandle, USA",
+          "product_scope": "pinto dry bean"
+        }
+      ]
+    }
+  ],
+  "insufficiency_reason": "عنوان این موضوع یک جدول هزینه کشت هکتاری (Enterprise budget) برای لوبیا چیتی درخواست می‌کند. شواهد موجود شامل منابع دانشگاهی آمریکا (Iowa State، Nebraska Extension، Washington State، Utah State) صرفاً جنبه‌های کیفی تولید، نرخ کاشت، عملکرد، هزینه‌های پس از برداشت و تلفات برداشت را پوشش می‌دهند؛ هیچ‌یک از منابع قیمت فعلی نهاده‌ها، ریزمقدار هزینه‌های ورودی هر هکتار، فرمول محاسبه Enterprise budget و داده‌های قیمت‌گذاری بازار ایران را ارائه نمی‌دهند. بنابراین اثبات روش محاسبه هزینه کشت در هکتار با جداول نهاده‌های کمی و قیمت‌های محلی امکان‌پذیر نیست."
+}

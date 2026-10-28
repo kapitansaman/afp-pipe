@@ -1,6 +1,6 @@
 {
   "version": "approved-fact-numeric-contract-v1",
-  "raw_sha256": "eb173979a110a5fc8f2c38641495d48e6912ff5a7881e7f51320c759d0ee7d7e",
+  "raw_sha256": "4d3b0cb71762d1e548beb31b2b4db05e70251b9a6e5bc66b17295dbf4246e3b7",
   "allowed_numeric_tokens_exactly": [
     "0.10",
     "0.30",

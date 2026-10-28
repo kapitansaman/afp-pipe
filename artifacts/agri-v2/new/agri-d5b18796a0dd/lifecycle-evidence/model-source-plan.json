@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T11:07:05.064927+00:00",
+  "topic_id": "agri-d5b18796a0dd",
+  "input_binding": {
+    "topic_sha256": "fbb40c460a140bedd9ab324bc86139cc314c401e3903106fd846abbcde6f0439",
+    "sources_sha256": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+    "raw_sha256": "e73d5ad4bef0faba75de6b3fa73367d3356664199a49074a711b7b7543f93939"
+  },
+  "plan": {
+    "topic_id": "agri-d5b18796a0dd",
+    "gap": "Existing sources only compare rainfed vs irrigated yields (Montana/Oregon); no guidance on priority timing decision criteria (growth-stage trigger, soil-moisture threshold, stress-index method) nor quantified economic evaluation basis (water cost per unit, local chickpea price, net return or ROI calculation).",
+    "queries": [
+      "chickpea supplemental irrigation timing growth stage trigger university extension",
+      "chickpea supplemental irrigation economic return water cost university study"
+    ],
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "need": "Source must specify how the priority timing is decided—growth-stage window, soil-water threshold, or stress indicator—and the units or metric used."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Source must report measured inputs (e.g., mm or inches of applied water, flow units if relevant) tied to chickpea and distinguish crop water use from applied volume."
+      },
+      {
+        "id": "species_product",
+        "need": "Evidence must concern chickpea (Cicer arietinum) under supplemental/rainfed-plus-irrigation, not a different pulse or fully irrigated cropping system."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}
