@@ -181,3 +181,23 @@ def checkpoint_retirements(source,destination):
   if name=='candidate-raw.json' and expected!=original.get('raw_sha256'):raise RepairBlocked('source_repair_raw_identity_changed')
   retired.append((old,destination/saved.relative_to(source),expected))
  return retired
+
+
+def exhausted_coverage(topic,folder,data):
+ """Only a NEW bound, terminal coverage receipt can release a source-gap slot.
+ Legacy receipts without final coverage are never reinterpreted as this proof.
+ """
+ if not enabled(data) or protected(topic,folder,data):return None
+ from .family_lifecycle import state
+ if state(folder,'research_refetch').get('status')!='validated':return None
+ ev=folder/'lifecycle-evidence';p=ev/RECEIPT
+ if not p.exists():return None
+ row=load_json(p)
+ if row.get('version')!=2 or row.get('coverage_contract_version')!=1 or row.get('status')!='bounded_search_coverage_incomplete':return None
+ if row.get('topic_id')!=topic['id'] or row.get('input_binding')!=binding(topic,ev):raise RepairBlocked('source_coverage_receipt_input_changed')
+ if not row.get('unapproved_documents_sha256') or row['unapproved_documents_sha256']!=fingerprint(ev/'real-search/unapproved-documents.json'):raise RepairBlocked('source_coverage_document_binding_changed')
+ rounds=row.get('rounds')
+ if row.get('final_coverage_complete') is not False or row.get('repair_exhausted') is not True or row.get('scientific_acceptance') is not False or row.get('publication_authorized') is not False or not isinstance(rounds,list) or not 1<=len(rounds)<=2:raise RepairBlocked('source_coverage_receipt_invalid')
+ last=rounds[-1].get('coverage',{});requirements=last.get('requirements',[])
+ if last.get('topic_id')!=topic['id'] or not requirements or not any(r.get('covered') is False for r in requirements):raise RepairBlocked('source_coverage_missing_final_gap')
+ return row

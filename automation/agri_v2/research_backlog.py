@@ -32,6 +32,13 @@ def deferral(topic,data,out):
  for stage in ('research_review','existing_content_audit'):
   proof=folder/'lifecycle'/stage/'state.json'
   if proof.exists() and load_json(proof).get('attempts',0)>0:return None
+ from .model_source_repair import exhausted_coverage
+ coverage=exhausted_coverage(topic,folder,data)
+ if coverage is not None:
+  p=folder/'lifecycle/research_refetch/state.json';s=load_json(p)
+  row=record(topic,'bounded_source_coverage_exhausted','research_refetch',s,ev,p,'bounded_search_coverage_incomplete')
+  row['evidence_fingerprints']['model-source-refetch.json']=fingerprint(ev/'model-source-refetch.json')
+  return row
  p=folder/'lifecycle/research_sources/state.json'
  s=load_json(p) if p.exists() else {}
  gap=source_gap(ev,ident)
