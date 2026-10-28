@@ -99,6 +99,8 @@ def normalize(raw,topic,brief):
 
 def generate(client,topic,brief,folder):
  request=json.loads(article_prompt(topic,brief));request.pop('constraints',None)
+ from .writer_retry_feedback import feedback
+ request['previous_rejection_feedback']=feedback(folder)
  from .numeric_drafting_contract import contract as numeric_contract,audit as numeric_audit
  request['numeric_authority_contract']=numeric_contract(brief)
  request['task']+=' The numeric_authority_contract is mandatory and overrides any suggestion to copy incidental metadata numbers or perform new conversions.'

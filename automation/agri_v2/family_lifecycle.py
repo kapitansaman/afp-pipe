@@ -257,7 +257,7 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
 
 def stage_outputs(folder,stage):
  ev=folder/'lifecycle-evidence'
- if stage=='text':return [folder/'model-candidate.json',folder/'grounded-text-candidate.json',folder/'practical-text-candidate.json',folder/'practical-text-normalization.json',folder/'practical-text-contract.json']
+ if stage=='text':return [folder/'model-candidate.json',folder/'grounded-text-candidate.json',folder/'practical-text-candidate.json',folder/'practical-text-normalization.json',folder/'practical-text-contract.json',folder/'practical-text-numeric-audit.json',folder/'practical-text-identity-binding.json']
  if stage=='translation_fidelity_review':return [folder/'translation-fidelity-review.raw.json']
  if stage in ('article_evidence_review','article_quality_recheck'):return [folder/'article-evidence-review.raw.json']
  if stage=='article_quality_repair':return [folder/'article-quality-repair.raw.json']
