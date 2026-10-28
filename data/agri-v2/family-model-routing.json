@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+  "cross_family_borrowing": false,
+  "image_fallback": false,
+  "families": {
+    "family-01": {
+      "text_slots": [
+        "AGNES_API_KEY",
+        "AGNES_API_KEY2",
+        "AGNES_API_KEY3"
+      ],
+      "image_slot": "AGNES_API_KEY4"
+    },
+    "family-02": {
+      "text_slots": [
+        "AGNES_API_KEY5",
+        "AGNES_API_KEY6",
+        "AGNES_API_KEY7"
+      ],
+      "image_slot": "AGNES_API_KEY8"
+    },
+    "family-03": {
+      "text_slots": [
+        "AGNES_API_KEY9",
+        "AGNES_API_KEY10",
+        "AGNES_API_KEY11"
+      ],
+      "image_slot": "AGNES_API_KEY12"
+    },
+    "family-04": {
+      "text_slots": [
+        "AGNES_API_KEY13",
+        "AGNES_API_KEY14",
+        "AGNES_API_KEY15"
+      ],
+      "image_slot": "AGNES_API_KEY16"
+    },
+    "family-05": {
+      "text_slots": [
+        "AGNES_API_KEY17",
+        "AGNES_API_KEY18",
+        "AGNES_API_KEY19"
+      ],
+      "image_slot": "AGNES_API_KEY20"
+    },
+    "family-06": {
+      "text_slots": [
+        "AGNES_API_KEY21",
+        "AGNES_API_KEY22",
+        "AGNES_API_KEY23"
+      ],
+      "image_slot": "AGNES_API_KEY24"
+    },
+    "family-07": {
+      "text_slots": [
+        "AGNES_API_KEY25",
+        "AGNES_API_KEY26",
+        "AGNES_API_KEY27"
+      ],
+      "image_slot": "AGNES_API_KEY28"
+    },
+    "family-08": {
+      "text_slots": [
+        "AGNES_API_KEY29",
+        "AGNES_API_KEY30",
+        "AGNES_API_KEY31"
+      ],
+      "image_slot": "AGNES_API_KEY32"
+    },
+    "family-09": {
+      "text_slots": [
+        "AGNES_API_KEY33",
+        "AGNES_API_KEY34",
+        "AGNES_API_KEY35"
+      ],
+      "image_slot": "AGNES_API_KEY36"
+    },
+    "family-10": {
+      "text_slots": [
+        "AGNES_API_KEY37",
+        "AGNES_API_KEY38",
+        "AGNES_API_KEY39"
+      ],
+      "image_slot": "AGNES_API_KEY40"
+    },
+    "family-11": {
+      "text_slots": [
+        "AGNES_API_KEY41",
+        "AGNES_API_KEY42",
+        "AGNES_API_KEY43"
+      ],
+      "image_slot": "AGNES_API_KEY44"
+    },
+    "family-12": {
+      "text_slots": [
+        "AGNES_API_KEY45",
+        "AGNES_API_KEY46",
+        "AGNES_API_KEY47"
+      ],
+      "image_slot": "AGNES_API_KEY48"
+    },
+    "family-13": {
+      "text_slots": [
+        "AGNES_API_KEY49",
+        "AGNES_API_KEY50",
+        "AGNES_API_KEY51"
+      ],
+      "image_slot": "AGNES_API_KEY52"
+    },
+    "family-14": {
+      "text_slots": [
+        "AGNES_API_KEY53",
+        "AGNES_API_KEY54",
+        "AGNES_API_KEY55"
+      ],
+      "image_slot": "AGNES_API_KEY56"
+    },
+    "family-15": {
+      "text_slots": [
+        "AGNES_API_KEY57",
+        "AGNES_API_KEY58",
+        "AGNES_API_KEY59"
+      ],
+      "image_slot": "AGNES_API_KEY60"
+    },
+    "family-16": {
+      "text_slots": [
+        "AGNES_API_KEY61",
+        "AGNES_API_KEY62",
+        "AGNES_API_KEY63"
+      ],
+      "image_slot": "AGNES_API_KEY64"
+    },
+    "family-17": {
+      "text_slots": [
+        "AGNES_API_KEY65",
+        "AGNES_API_KEY66",
+        "AGNES_API_KEY67"
+      ],
+      "image_slot": "AGNES_API_KEY68"
+    },
+    "family-18": {
+      "text_slots": [
+        "AGNES_API_KEY69",
+        "AGNES_API_KEY70",
+        "AGNES_API_KEY71"
+      ],
+      "image_slot": "AGNES_API_KEY72"
+    },
+    "family-19": {
+      "text_slots": [
+        "AGNES_API_KEY73",
+        "AGNES_API_KEY74",
+        "AGNES_API_KEY75"
+      ],
+      "image_slot": "AGNES_API_KEY76"
+    },
+    "family-20": {
+      "text_slots": [
+        "AGNES_API_KEY77",
+        "AGNES_API_KEY78",
+        "AGNES_API_KEY79"
+      ],
+      "image_slot": "AGNES_API_KEY80"
+    }
+  }
+}
