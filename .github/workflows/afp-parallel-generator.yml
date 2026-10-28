@@ -133,7 +133,7 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install --disable-pip-version-check pillow "pypdf>=5,<7"
       - name: Offline safety and 20-worker concurrency tests
-        run: python -m unittest discover -s tests/agri_v2 -v
+        run: python tests/agri_v2/run_offline.py
       - name: Bounded coordinator; advance publishes only fully validated families
         env:
           AFP_PARALLEL_MODE: ${{ inputs.mode }}
