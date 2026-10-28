@@ -82,11 +82,22 @@ def next_stage(topic,data=DATA,out=OUT):
   from .scoped_research import entries_for,SUPPORTED
   if settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED:
    ev=folder/'lifecycle-evidence'
-   if not (ev/'sources.json').exists() or load_json(ev/'sources.json').get('source_text_layout_version',0)<2:return 'research_sources',None
+   from .model_source_repair import recovery_guard
+   recovering=recovery_guard(folder)
+   if recovering:return recovering
+   if not (ev/'sources.json').exists() or load_json(ev/'sources.json').get('source_text_layout_version',0)<2:
+    from .model_source_repair import next_stage as source_repair_next
+    repair=source_repair_next(topic,folder,data)
+    return (repair,None) if repair else ('research_sources',None)
    if not (ev/'candidate.json').exists():
     if not (ev/'candidate-raw.json').exists():return 'research_extract',None
     from .scoped_research import saved_candidate_next
-    return saved_candidate_next(topic,ev)
+    original=saved_candidate_next(topic,ev)
+    if original[0]=='research_extract':
+     from .model_source_repair import next_stage as source_repair_next
+     repair=source_repair_next(topic,folder,data)
+     if repair:return repair,None
+    return original
    from .scoped_research import content_digest
    op=ev/'overlap.json';ib=ev/'existing-content.json'
    if op.exists() and ib.exists() and load_json(op).get('existing_content_sha256')!=content_digest(load_json(ib)):return 'blocked','existing_content_changed_after_audit'
@@ -170,6 +181,9 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
  from .role_skills import for_stage
  client=for_stage(client,stage,data)
  ident=topic['id'];folder=out/'new'/ident;folder.mkdir(parents=True,exist_ok=True);ev=folder/'lifecycle-evidence';bp=data/'briefs'/(ident+'.json')
+ if stage in ('research_discover','research_refetch'):
+  from .model_source_repair import discover,refetch
+  return discover(topic,client,data,out) if stage=='research_discover' else refetch(topic,data,out)
  from . import research as r
  from .scoped_research import entries_for,SUPPORTED
  if (stage in {'research_sources','research_extract','research_validate_saved','existing_content_audit','research_review','existing_content_audit_finalize'} or stage.startswith('existing_content_audit-')) and settings(data).get('scoped_evidence_research') and topic['intent'] in SUPPORTED:
@@ -246,6 +260,7 @@ def stage_outputs(folder,stage):
  if stage in ('article_evidence_review','article_quality_recheck'):return [folder/'article-evidence-review.raw.json']
  if stage=='article_quality_repair':return [folder/'article-quality-repair.raw.json']
  if stage=='research_sources':return [ev/'sources.json']
+ if stage=='research_discover':return [ev/'model-source-plan.raw.json']
  if stage=='research_extract':return [ev/'candidate-raw.json']
  if stage=='research_review':return [ev/'review-raw.json']
  if stage=='existing_content_audit':return [ev/'overlap-raw.json']
@@ -308,7 +323,7 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    if result['status']=='images_ready':continue
    return dict(result,topic_id=topic['id'],published_posts=0)
   kind='image' if stage.startswith('image-') else 'text'
-  no_model=stage in ('research_sources','research_validate_saved','existing_content_audit_finalize')
+  no_model=stage in ('research_sources','research_validate_saved','research_refetch','existing_content_audit_finalize')
   from .recovery import circuit_open
   if not no_model and circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
   if not no_model and not health.get('eligible_'+kind+'_slots'):return {'status':'capability_required','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
@@ -328,7 +343,7 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    qa=state(folder,'vision-'+stage.split('-')[1]);gen=state(folder,stage)
    if gen.get('last_run_id')==run_id:return {'status':'stage_failed','stage':stage,'reason':'visual_rejection_retry_next_run','topic_id':topic['id'],'steps':steps,'published_posts':0}
    if gen.get('status')=='validated':gen['status']='failed';atomic_json(row_path(folder,stage),gen)
-  result=attempt(folder,stage,run_id,lambda:run_stage(topic,stage,client,data,out),outputs,1 if stage in ('article_quality_repair','article_quality_recheck') else p['max_attempts_per_stage']);steps.append(result)
+  result=attempt(folder,stage,run_id,lambda:run_stage(topic,stage,client,data,out),outputs,1 if stage in ('article_quality_repair','article_quality_recheck','research_discover','research_refetch') else p['max_attempts_per_stage']);steps.append(result)
   if stage=='article_evidence_review' and result['status']=='stage_failed':
    proposed,_=next_stage(topic,data,out)
    if proposed=='article_quality_repair':continue
