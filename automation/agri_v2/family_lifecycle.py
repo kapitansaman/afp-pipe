@@ -85,6 +85,8 @@ def next_stage(topic,data=DATA,out=OUT):
    from .model_source_repair import recovery_guard
    recovering=recovery_guard(folder)
    if recovering:return recovering
+   from .model_source_repair import exhausted_coverage
+   if exhausted_coverage(topic,folder,data):return 'blocked','bounded_search_coverage_incomplete'
    if not (ev/'sources.json').exists() or load_json(ev/'sources.json').get('source_text_layout_version',0)<2:
     from .model_source_repair import next_stage as source_repair_next
     repair=source_repair_next(topic,folder,data)

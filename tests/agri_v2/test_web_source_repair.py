@@ -21,17 +21,18 @@ class WebSourceRepairTests(unittest.TestCase):
    d,o,t,e,h,ev,v=self.setup(Path(td));c=self.plan_stage(d,o,t,e,ev);p=load_json(ev/r.PLAN);self.assertEqual(p['version'],2);self.assertNotIn('leads',p['plan']);self.assertFalse(p['queries_executed']);c.text.assert_called_once();self.assertEqual(f.next_stage(t,d,o),('research_refetch',None))
  def test_two_rounds_search_then_original_extraction_without_reset(self):
   with tempfile.TemporaryDirectory() as td:
-   d,o,t,e,h,ev,v=self.setup(Path(td));old=f.row_path(ev.parent,'research_extract').read_bytes();self.plan_stage(d,o,t,e,ev);c=Mock();c.text.return_value=self.verdict(t,False);api=Mock(side_effect=self.result)
+   d,o,t,e,h,ev,v=self.setup(Path(td));old=f.row_path(ev.parent,'research_extract').read_bytes();self.plan_stage(d,o,t,e,ev);c=Mock();c.text.side_effect=[self.verdict(t,False),self.verdict(t,True)];api=Mock(side_effect=self.result)
    result=f.attempt(ev.parent,'research_refetch','101',lambda:w.refetch(t,c,d,o,e,fetcher=self.document,search_fn=api),limit=1)
-   self.assertEqual(result['status'],'stage_completed');self.assertEqual(result['result']['search_rounds'],2);self.assertEqual(api.call_count,2);c.text.assert_called_once();self.assertEqual(old,f.row_path(ev.parent,'research_extract').read_bytes());self.assertEqual(f.next_stage(t,d,o),('research_extract',None));self.assertFalse((d/'briefs'/(t['id']+'.json')).exists());receipt=load_json(ev/r.RECEIPT);self.assertFalse(receipt['scientific_acceptance']);self.assertEqual(len(receipt['rounds']),2)
+   self.assertEqual(result['status'],'stage_completed');self.assertEqual(result['result']['search_rounds'],2);self.assertEqual(api.call_count,2);self.assertEqual(c.text.call_count,2);self.assertEqual(old,f.row_path(ev.parent,'research_extract').read_bytes());self.assertEqual(f.next_stage(t,d,o),('research_extract',None));self.assertFalse((d/'briefs'/(t['id']+'.json')).exists());receipt=load_json(ev/r.RECEIPT);self.assertFalse(receipt['scientific_acceptance']);self.assertEqual(len(receipt['rounds']),2)
  def test_sufficient_coverage_stops_search_but_never_approves_a_fact(self):
   with tempfile.TemporaryDirectory() as td:
    d,o,t,e,h,ev,v=self.setup(Path(td));self.plan_stage(d,o,t,e,ev);c=Mock();c.text.return_value=self.verdict(t,True);api=Mock(side_effect=self.result)
    result=f.attempt(ev.parent,'research_refetch','101',lambda:w.refetch(t,c,d,o,e,fetcher=self.document,search_fn=api),limit=1);self.assertEqual(result['result']['search_rounds'],1);api.assert_called_once();self.assertFalse((ev/'candidate.json').exists());self.assertFalse((d/'briefs'/(t['id']+'.json')).exists())
  def test_search_snippet_cannot_satisfy_a_requirement_when_page_not_fetched(self):
   with tempfile.TemporaryDirectory() as td:
-   d,o,t,e,h,ev,v=self.setup(Path(td));self.plan_stage(d,o,t,e,ev);old=(ev/'sources.json').read_bytes();c=Mock();c.text.return_value=self.verdict(t,True);fetch=Mock(side_effect=TimeoutError())
-   result=f.attempt(ev.parent,'research_refetch','101',lambda:w.refetch(t,c,d,o,e,fetcher=fetch,search_fn=self.result),limit=1);self.assertEqual(result['status'],'stage_failed');self.assertEqual(old,(ev/'sources.json').read_bytes());self.assertFalse((ev/'model-source-originals').exists())
+   d,o,t,e,h,ev,v=self.setup(Path(td));old=(ev/'sources.json').read_bytes();c=Mock();c.text.return_value=self.verdict(t,True)
+   with self.assertRaises(r.RepairBlocked):w.coverage(t,self.plan(t),[],c,1)
+   self.assertEqual(old,(ev/'sources.json').read_bytes());self.assertFalse((ev/'model-source-originals').exists())
  def test_missing_pages_after_two_rounds_preserve_inputs_and_record_exhaustion(self):
   with tempfile.TemporaryDirectory() as td:
    d,o,t,e,h,ev,v=self.setup(Path(td));self.plan_stage(d,o,t,e,ev);old=(ev/'sources.json').read_bytes();c=Mock();c.text.return_value=self.verdict(t,False);api=Mock(side_effect=self.result)
