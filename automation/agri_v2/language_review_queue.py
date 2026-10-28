@@ -81,7 +81,7 @@ def released(ident,data=DATA,out=OUT):
 
 def entries(out=OUT):
  patterns=['new/*/review-queue/*.json','parallel/writer-verification/*/*/review-queue/*.json']
- return sorted({p for pattern in patterns for p in out.glob(pattern)})
+ return sorted({p for pattern in patterns for p in out.glob(pattern) if p.stem in LANGUAGES})
 
 def index(out=OUT):
  rows=[]

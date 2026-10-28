@@ -68,3 +68,11 @@ class FoundationAdmissionTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as td:
    d,o,t,e,h=self.setup(td);p=d/'family-lifecycle-policy.json';row=load_json(p);row['foundation_admission_required']=True;atomic_json(p,row);(d/'generator-foundation-policy.json').unlink()
    with self.assertRaises(ValueError):enabled(d)
+ def test_coordinator_ignores_out_of_cohort_translation_candidate_files(self):
+  from automation.agri_v2.queue import DATA,utcnow
+  from automation.agri_v2 import language_review_queue as q
+  with tempfile.TemporaryDirectory()as td:
+   d,o,t,e,h=self.setup(td);atomic_json(d/'config.json',{'publication_holds':{},'multilingual':{'enabled':True,'independent_publication':True}});atomic_json(d/'language-review-policy.json',load_json(DATA/'language-review-policy.json'));atomic_json(o/'new/other/review-queue/candidate-en-US.json',{'article_sha256':'hash','raw':{}});wp=Mock();wp.inventory.return_value={'source_generated_at':utcnow(),'records':[{'id':1,'title':'Other','url':'https://navar-abyari.ir/other/','status':'publish'}]}
+   def worker(topic,w,*args):return topic['id'],w/'data',w/'out',{'topic_id':topic['id'],'status':'publication_ready'}
+   with patch.object(f,'allocate',return_value={}),patch.object(f,'assigned_topics',return_value=[t]),patch.object(f,'next_stage',return_value=('publish',None)),patch('automation.agri_v2.family_capability_refresh.active_hold',return_value=False),patch('automation.agri_v2.parallel_controller.merge_worker'),patch.object(f,'publish_ready',return_value={'published_posts':1,'public_verified':True}):v=f.run(e,d,o,worker_fn=worker,wp_factory=lambda:wp,reserve_fn=lambda *a:{})
+   self.assertNotIn('coordinator_failure',v);self.assertEqual(v['status'],'completed');self.assertEqual(v['published_posts'],1);self.assertEqual(q.entries(o),[])

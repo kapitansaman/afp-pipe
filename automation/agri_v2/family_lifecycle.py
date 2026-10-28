@@ -520,6 +520,8 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   # Same single publisher handles ready backlog translations, even after owner handoff.
   reviewed_publication_topics=set()
   for review_path in sorted((out/'new').glob('*/review-queue/*.json')):
+   from .multilingual import LANGUAGES
+   if review_path.stem not in LANGUAGES:continue
    entry=load_json(review_path)
    if rollout is not None and entry['topic_id'] not in {t['id'] for t in topics}:continue
    if not publication_due(entry) or entry['topic_id'] in reviewed_publication_topics or len(reviewed_publication_topics)>=2:continue

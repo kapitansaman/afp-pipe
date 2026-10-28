@@ -14,7 +14,8 @@ def decision(topic,data,out,now=None):
   if row.get('status') in ('reserved','reconciliation_required'):return result(False,'request_outcome_requires_reconciliation')
  if stage=='publish' and (folder/'wordpress-receipt.json').exists() and load_json(folder/'wordpress-receipt.json').get('public_verified')is True:
   from .language_review_queue import due,publication_due
-  entries=[load_json(p) for p in (folder/'review-queue').glob('*.json')]
+  from .multilingual import LANGUAGES
+  entries=[load_json(p) for p in (folder/'review-queue').glob('*.json') if p.stem in LANGUAGES]
   if not any(due(r) or publication_due(r) for r in entries):return result(False,'translation_review_backoff')
   from .family_capability_refresh import active_hold
   return result(not active_hold(out,'text'),'provider_cooldown' if active_hold(out,'text') else None)
