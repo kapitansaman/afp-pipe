@@ -26,7 +26,7 @@ class EditorialPresentationTests(unittest.TestCase):
    def __init__(self,lang):self.lang=lang
    def call(self,path):
     if 'afp_translation_links' in path:return {'afp_translation_links':{'en-US':'https://navar-abyari.ir/beets-en/'}},{}
-    return [{'id':2,'status':'publish','afp_language':self.lang,'link':'https://navar-abyari.ir/beets-en/','title':{'rendered':'Growing table beets'}}],{}
+    return [{'id':2,'status':'publish','afp_language':self.lang,'afp_source_post_id':1,'link':'https://navar-abyari.ir/beets-en/','title':{'rendered':'Growing table beets'}}],{}
   self.assertEqual(e.translated_related(WP('fa-IR'),[{'post_id':1}],'en-US','https://navar-abyari.ir/current-en/'),[])
   self.assertEqual(e.translated_related(WP('en-US'),[{'post_id':1}],'ru-RU','https://navar-abyari.ir/current-ru/'),[])
   r=e.translated_related(WP('en-US'),[{'post_id':1}],'en-US','https://navar-abyari.ir/current-en/');self.assertEqual(r[0]['anchor'],'Growing table beets')

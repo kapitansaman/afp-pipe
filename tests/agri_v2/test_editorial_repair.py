@@ -15,7 +15,7 @@ class EditorialRepairTests(unittest.TestCase):
   wp=Mock();wp.user_id=7;wp.site='https://navar-abyari.ir';wp.inventory.return_value={'records':[{'id':42,'title':'کاشت چغندر لبویی','language':'fa-IR','status':'publish','url':'https://navar-abyari.ir/beet-growing/'}]}
   def call(path,method='GET',data=None):
    if path.startswith('posts/42?'):return {'afp_translation_links':{'en-US':'https://navar-abyari.ir/beet-growing-en/'}},{}
-   if path.startswith('posts?slug=beet-growing-en'):return [{'id':43,'status':'publish','afp_language':'en-US','link':'https://navar-abyari.ir/beet-growing-en/','title':{'rendered':'Growing table beet'}}],{}
+   if path.startswith('posts?slug=beet-growing-en'):return [{'id':43,'status':'publish','afp_language':'en-US','afp_source_post_id':42,'link':'https://navar-abyari.ir/beet-growing-en/','title':{'rendered':'Growing table beet'}}],{}
    ident=int(path.split('/')[1].split('?')[0]);p=posts[ident]
    if method=='POST':mutations.append((ident,copy.deepcopy(data)));p['content']['raw']=data['content'];p['modified_gmt']='changed'
    value=copy.deepcopy(p);value['content']['rendered']=value['content']['raw'];return value,{}

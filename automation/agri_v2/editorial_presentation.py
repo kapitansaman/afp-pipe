@@ -92,8 +92,8 @@ def translated_related(wp,source_rows,language,current_url):
    if canonical(url)==canonical(current_url):continue
   except ValueError:continue
   slug=urllib.parse.urlsplit(url).path.rstrip('/').split('/')[-1]
-  matches,_=wp.call('posts?slug='+urllib.parse.quote(slug)+'&status=publish&_fields=id,title,link,status,afp_language')
-  valid=[p for p in matches if p.get('status')=='publish' and p.get('afp_language')==language and canonical(p['link'])==canonical(url)]
+  matches,_=wp.call('posts?slug='+urllib.parse.quote(slug)+'&status=publish&_fields=id,title,link,status,afp_language,afp_source_post_id')
+  valid=[p for p in matches if p.get('status')=='publish' and p.get('afp_language')==language and p.get('afp_source_post_id')==related['post_id'] and canonical(p['link'])==canonical(url)]
   if len(valid)!=1:continue
   p=valid[0];rows.append({'kind':'related','url':url,'anchor':html.unescape(p['title']['rendered']),'post_id':p['id'],'language':language})
  return rows
