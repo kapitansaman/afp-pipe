@@ -19,5 +19,10 @@
   ],
   "new_media_uploads": 0,
   "display_units_policy": "localized-display-units-v1",
-  "verified_at": "2026-10-28T06:40:00.599874+00:00"
+  "verified_at": "2026-10-28T06:40:00.599874+00:00",
+  "editorial_presentation_policy": "end-sources-related-language-v1",
+  "editorial_source_urls": [
+    "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden"
+  ],
+  "editorial_related": []
 }

@@ -52,5 +52,10 @@
   "public_http_status": 200,
   "verified_at": "2026-10-28T06:39:42.870759+00:00",
   "featured_media": 524197,
-  "public_verified": true
+  "public_verified": true,
+  "editorial_presentation_policy": "end-sources-related-language-v1",
+  "editorial_source_urls": [
+    "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden"
+  ],
+  "editorial_related": []
 }

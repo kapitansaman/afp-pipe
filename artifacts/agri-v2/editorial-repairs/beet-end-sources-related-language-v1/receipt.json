@@ -1,14 +1,47 @@
 {
   "request_id": "beet-end-sources-related-language-v1",
-  "status": "repair_stopped_reconciliation_required",
+  "status": "public_presentation_verified",
   "run_id": "40659540901",
   "at": "2026-10-28T08:51:21.237276+00:00",
   "model_calls": 0,
   "new_posts": 0,
-  "results": {},
+  "results": {
+    "fa-IR": {
+      "post_id": 524196,
+      "url": "https://navar-abyari.ir/table-beet-yield-domain/",
+      "status": "public_presentation_verified",
+      "related_articles": [],
+      "scientific_sources": [
+        "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden"
+      ],
+      "new_write_during_reconciliation": false,
+      "after_sha256": "6a1ca9489b4b0899d98d5e50ca8c91524c630cef250ae98c351d06b545f365e4"
+    },
+    "en-US": {
+      "post_id": 524200,
+      "url": "https://navar-abyari.ir/table-beet-yield-domain-en-us/",
+      "status": "public_presentation_verified",
+      "related_articles": [],
+      "scientific_sources": [
+        "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden"
+      ],
+      "new_write_during_reconciliation": true,
+      "after_sha256": "59840718bb7402193bcb86beb35a0442e82deb458440cde342ceee6f6f65291e"
+    }
+  },
   "failure": {
     "kind": "validation",
     "category": "unspecified"
   },
-  "completed_at": "2026-10-28T08:51:30.642989+00:00"
+  "completed_at": "2026-10-28T09:01:05.676435+00:00",
+  "reconciliation_history": [
+    {
+      "at": "2026-10-28T09:00:47.056698+00:00",
+      "run_id": "40660695111",
+      "write_needed": {
+        "fa-IR": false,
+        "en-US": true
+      }
+    }
+  ]
 }
