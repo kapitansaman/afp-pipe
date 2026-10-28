@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "run_id": "40693172990",
+  "remote_flight_sha": "abbd2e8294e188c0cbd1b576c3c83674c5232bca",
+  "reserved_row_sha256": "57bcd60866a30fb387601bf849832e202a49e74e22494d51d9658fcc05ba7a74",
+  "intent": {
+    "version": 1,
+    "policy": "write-ahead-lifecycle-v1",
+    "repository": "kapitansaman/afp-pipe",
+    "branch": "feat/agri-generator-v2-2905-merge593",
+    "status": "in_flight",
+    "run_id": "40693172990",
+    "topics": [
+      {
+        "topic_id": "agri-6fc1032cdf42",
+        "family_id": "family-07"
+      }
+    ],
+    "started_at": "2026-10-28T13:07:01.484992+00:00",
+    "automatic_uncertain_replay": false,
+    "original_attempts_reset": false
+  },
+  "secret_values_stored": false
+}

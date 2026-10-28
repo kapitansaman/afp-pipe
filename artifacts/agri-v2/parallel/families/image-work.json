@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "checked_at": "2026-10-28T13:06:06.423243+00:00",
+  "families": [
+    {
+      "topic_id": "agri-6fc1032cdf42",
+      "family_id": "family-07",
+      "stage": "images",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    }
+  ],
+  "approved_text_regeneration_authorized": false,
+  "attempts_reset": false
+}

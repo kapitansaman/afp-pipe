@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "checked_at": "2026-10-28T13:06:06.421895+00:00",
+  "families": [
+    {
+      "topic_id": "agri-ab20ad20b271",
+      "family_id": "family-01",
+      "stage": "research_extract",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-cf0dbf17b1cd",
+      "family_id": "family-02",
+      "stage": "research_sources",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-4b687f285cda",
+      "family_id": "family-03",
+      "stage": "research_discover",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-5b193f221639",
+      "family_id": "family-04",
+      "stage": "research_refetch",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-f1c910dbcc81",
+      "family_id": "family-05",
+      "stage": "research_refetch",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-e3a66b5b76f2",
+      "family_id": "family-06",
+      "stage": "research_refetch",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-6fc1032cdf42",
+      "family_id": "family-07",
+      "stage": "images",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-357023cf27d6",
+      "family_id": "family-08",
+      "stage": "research_extract",
+      "due": false,
+      "reason": "request_outcome_requires_reconciliation",
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-b1f8c76a39ac",
+      "family_id": "family-09",
+      "stage": "research_refetch",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-d5b18796a0dd",
+      "family_id": "family-10",
+      "stage": "research_refetch",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-c4e597765067",
+      "family_id": "family-11",
+      "stage": "research_extract",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-eb33d350e521",
+      "family_id": "family-12",
+      "stage": "research_discover",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-46cf2473ba02",
+      "family_id": "family-13",
+      "stage": "research_refetch",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-4e0b195e7205",
+      "family_id": "family-14",
+      "stage": "research_refetch",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-adc9b5a7dea9",
+      "family_id": "family-15",
+      "stage": "research_review",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-c4ef63638756",
+      "family_id": "family-16",
+      "stage": "research_refetch",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-d5602a1f5f63",
+      "family_id": "family-17",
+      "stage": "research_sources",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-cdc40b2b322b",
+      "family_id": "family-18",
+      "stage": "research_extract",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-dcc54746b3e8",
+      "family_id": "family-19",
+      "stage": "existing_content_audit-000",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    },
+    {
+      "topic_id": "agri-b914a783ffdd",
+      "family_id": "family-20",
+      "stage": "existing_content_audit-001",
+      "due": true,
+      "reason": null,
+      "next_attempt_epoch": null,
+      "publication_authorized": false
+    }
+  ],
+  "due_count": 19,
+  "model_calls": 0,
+  "wordpress_write_calls": 0,
+  "attempts_reset": false
+}

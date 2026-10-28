@@ -1,5 +1,5 @@
 {
-  "attempts": 0,
+  "attempts": 1,
   "history": [
     {
       "attempts": 0,
@@ -11,14 +11,18 @@
         "kind": "admission_deferred",
         "category": "pool_credentials_busy"
       }
+    },
+    {
+      "attempts": 1,
+      "status": "validated",
+      "last_run_id": "40693172990",
+      "started_at": "2026-10-28T13:07:02.945950+00:00",
+      "completed_at": "2026-10-28T13:09:52.917725+00:00",
+      "failure": null
     }
   ],
-  "status": "deferred",
-  "last_run_id": "40677034551",
-  "started_at": "2026-10-28T11:07:51.928467+00:00",
-  "failure": {
-    "kind": "admission_deferred",
-    "category": "pool_credentials_busy"
-  },
-  "completed_at": "2026-10-28T11:08:21.956627+00:00"
+  "status": "validated",
+  "last_run_id": "40693172990",
+  "started_at": "2026-10-28T13:07:02.945950+00:00",
+  "completed_at": "2026-10-28T13:09:52.917725+00:00"
 }
