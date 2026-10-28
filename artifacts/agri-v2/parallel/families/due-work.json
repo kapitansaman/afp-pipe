@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_at": "2026-10-28T13:06:06.421895+00:00",
+  "checked_at": "2026-10-28T13:21:04.448174+00:00",
   "families": [
     {
       "topic_id": "agri-ab20ad20b271",
@@ -59,7 +59,7 @@
     {
       "topic_id": "agri-6fc1032cdf42",
       "family_id": "family-07",
-      "stage": "images",
+      "stage": "publish",
       "due": true,
       "reason": null,
       "next_attempt_epoch": null,
