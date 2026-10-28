@@ -48,13 +48,13 @@ def terminal_proof(topic,result,data,out):
   row=load_json(path) if path.exists() else {};attempts=row.get('attempts')
   if type(attempts)is not int or attempts<2:return None
   return {'kind':'legacy_budget_exhausted','stage':'legacy_research' if reason=='legacy_research_budget_exhausted' else 'legacy_generation','attempts_preserved':attempts,'attempt_limit':2,'reason':reason,'last_run_id':row.get('last_run_id')}
- if status=='blocked' and reason=='images_need_attention':
+ if status=='images_need_attention' or (status=='blocked' and reason=='images_need_attention'):
   from . import image_workflow as image
   if not image.enabled(data) or not (folder/'article.json').exists():return None
   article=load_json(folder/'article.json')
   if image.approved_roles(folder,topic,article) or not all(image.exhausted(folder,k) for k in (1,2)):return None
   counts={str(k):{s:state(folder,s+'-'+str(k))['attempts'] for s in ('image','vision')} for k in (1,2)}
-  return {'kind':'image_budgets_exhausted','stage':'images','attempts_preserved':counts,'attempt_limit':image.MAX_ATTEMPTS,'reason':reason,'last_run_id':None}
+  return {'kind':'image_budgets_exhausted','stage':'images','attempts_preserved':counts,'attempt_limit':image.MAX_ATTEMPTS,'reason':'images_need_attention','last_run_id':None}
  if status=='blocked' and reason=='article_quality_review_queue':
   from . import quality_index as quality
   brief=data/'briefs'/(topic['id']+'.json');article=folder/'article.json'
