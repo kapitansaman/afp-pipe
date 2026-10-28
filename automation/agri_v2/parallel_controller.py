@@ -84,6 +84,10 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
  from .family_keys import restrict_env
  env,key_context=restrict_env(env,topic.get('family_id'),data)
  shutil.copytree(data,wd)
+ if env.get('AFP_SCOPED_FAMILY_PILOT')=='1':
+  admission=load_json(out/'parallel/scoped-family-pilot/admissions'/(env['GITHUB_RUN_ID']+'.json'))
+  if admission.get('topic_id')!=ident or admission.get('family_id')!=topic.get('family_id'):raise ValueError('Owned pilot worker identity mismatch')
+  atomic_json(wd/'status/scoped-family-pilot-admission.json',admission)
  # A research worker cannot be blocked by another topic's historical ready-brief buffer.
  kept_brief=(data/'briefs'/f'{ident}.json')
  saved_brief=kept_brief.read_bytes() if kept_brief.exists() else None
@@ -143,9 +147,12 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  if mode=='readiness':
   from .production_readiness import run as check_readiness
   return check_readiness(data,out)
+ if mode=='family-pilot':
+  from .family_lifecycle import run as advance
+  return advance(dict(env,AFP_SCOPED_FAMILY_PILOT='1'),data,out)
  if mode in ('advance','white-bean-pilot'):
   from .family_lifecycle import run as advance
-  env=dict(env);env.pop('AFP_WHITE_BEAN_PILOT',None)
+  env=dict(env);env.pop('AFP_WHITE_BEAN_PILOT',None);env.pop('AFP_SCOPED_FAMILY_PILOT',None)
   if mode=='white-bean-pilot':env['AFP_WHITE_BEAN_PILOT']='1'
   return advance(env,data,out)
  if mode=='trial':
@@ -210,6 +217,6 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(out/'parallel/latest.json',report);return report
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness','source-search-check','health-refresh','image-refresh','image-refresh-all'],default='plan');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness','source-search-check','health-refresh','image-refresh','image-refresh-all','family-pilot'],default='plan');a=p.parse_args()
  result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures','readiness_blocked','reconciliation_required','search_connection_blocked','incomplete_provider_failure','family_text_capacity_incomplete','capability_already_reserved_no_replay','capability_reconciliation_required','shared_text_cooldown','shared_image_cooldown'} else 0
 if __name__=='__main__':raise SystemExit(main())

@@ -22,3 +22,9 @@ Image proof requires actual new reference-conditioned image bytes, valid landsca
 The production client separately intersects health with each role, rejects wrong endpoint/model calls before leasing a key, and requires role-bound actual image proof. Readiness checks the designated image slot for every family, not any healthy slot in the broader four-slot group. Workers still use the existing topic isolation, single publisher, source/quality/overlap gates and preserved original attempt counters.
 
 These changes do not release `research_only_for_scoped_rollout`, enable the scheduler, reopen exhausted articles, or assert an accepted end-to-end pilot. Those remain independent gates. A failed/partial live capability report must be disclosed as such; offline mocks are not production evidence.
+
+## One-family scoped pilot
+
+Manual `family-pilot` selects exactly one currently assigned, unexhausted scoped title with an already approved brief and its own fresh text/image capabilities. The topic/family/brief/title/routing are pinned in a durable current-pilot record and a per-run worker admission. A failed pilot is not silently replaced with another family or given new stage budgets. Other families remain research-only; no global flag is changed.
+
+The normal source, overlap, article quality, visual review, translation policy and single owned publisher remain mandatory. Unrelated language-review backlog work is not processed by this mode. The acceptance receipt requires source/brief/image hashes matching the publisher validation, actual image generation with this family's designated image model/key, approved image QA, and a fresh read-only public verification through the existing WordPress verifier. A pending/failed pilot produces no accepted receipt. Passing a canary or adding an environment variable alone is not pilot acceptance. Global release and scheduling remain separate decisions after the actual acceptance receipt and all readiness checks.
