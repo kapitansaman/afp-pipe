@@ -4,7 +4,7 @@
   "kind": "text",
   "slot": "AGNES_API_KEY70",
   "model": "agnes-2.5-flash",
-  "verified_at": "2026-10-28T00:43:22.408748+00:00",
+  "verified_at": "2026-10-28T05:27:50.081333+00:00",
   "verification": "actual_successful_parallel_response",
   "family_id": "family-18",
   "topic_id": "agri-18ff41bec566",
@@ -14,5 +14,6 @@
     "AGNES_API_KEY70",
     "AGNES_API_KEY71",
     "AGNES_API_KEY72"
-  ]
+  ],
+  "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05"
 }

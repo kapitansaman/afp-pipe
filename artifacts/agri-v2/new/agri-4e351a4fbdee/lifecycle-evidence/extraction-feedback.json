@@ -1,32 +1,139 @@
 {
   "topic_id": "agri-4e351a4fbdee",
-  "candidate_sha256": "731df7cd13316ea78092c0c0911808af66b4107ecf81a0969df400e5f96f13e6",
+  "candidate_sha256": "1cd084f5f5ba934f69a82d9c1b0f09405d91b4bfd46ef9da1a03bcef0cbe35ae",
   "scientific_approval": false,
   "errors": [
+    {
+      "fact_index": 1,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "تست ساده جوانه‌زنی خانگی بذر کدو با حوله کاغذی مرطوب، کیسه پلاستیکی و دمای حدود ۷۰ درجه فارنهایت انجام می‌شود.",
+        "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: دما ~۷۰ °F",
+        "evidence_id": "d3-e4",
+        "numeric_bindings": [
+          {
+            "value": "70",
+            "unit_quote": "around 70°F",
+            "geographic_scope": "Illinois, USA",
+            "product_scope": "pumpkin seed germination test"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d3-e4",
+        "source_url": "https://extension.illinois.edu/blogs/good-growing/2023-01-20-are-my-seeds-still-good-testing-seed-germination",
+        "quote": "ds on the paper towel and fold the towel over the seeds. Place the paper towel in the plastic bag or container and seal it. This will help keep the paper towel from drying out. Label the container with the plant name and the date planted. Place the bag in a warm area, like on top of a refrigerator (just don't forget about it). Warmer temperatures (around 70°F) will help speed up the germination process. Every few days, check the seeds to see if they have germinated. Seed packets will often list how many days it will take for seeds to germinate. You can also use this information to help you determine when to start checking seeds. Many seeds will germinate within 7 to 10 days. Once seeds have germinated, you can determine your percent germination; most people do ten seeds to make this calculation easy. If all of your seeds germinate, you can plant normally. If 70% to 90% of the seeds germi"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "اگر ۷۰ تا ۹۰ درصد بذرها جوانه بزنند، هنوز قابل کاشت هستند ولی توصیه می‌شود کمی سنگین‌تر بذرپاشی شود.",
+        "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: درصد جوانه‌زنی",
+        "evidence_id": "d3-e5",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d3-e5",
+        "source_url": "https://extension.illinois.edu/blogs/good-growing/2023-01-20-are-my-seeds-still-good-testing-seed-germination",
+        "quote": "tion; most people do ten seeds to make this calculation easy. If all of your seeds germinate, you can plant normally. If 70% to 90% of the seeds germinate, you can still use the seed, but you may want to sow a little heavier than normal. If fewer than 50% to 60% germinate, it is probably best to buy new seeds. While most vegetables don’t require stratification, some flowers do. Plants like milkweed, purple coneflower, and black-eyed Susan require cold, moist stratification . If you have instances where you get no germination, make sure the plants you are testing don’t need some sort of stratification. When testing seeds, place ten seeds on a moistened paper towel (left). Check seeds periodically to see if they have begun to germinate. These rice seeds have begun germinating (arrows) after five days (right). Click on image to enlarge. Properly storing seeds If you have leftover seeds or a"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "اگر کمتر از ۵۰ تا ۶۰ درصد جوانه بزند، خرید بذر جدید منطقی‌تر است.",
+        "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: درصد جوانه‌زنی",
+        "evidence_id": "d3-e5",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d3-e5",
+        "source_url": "https://extension.illinois.edu/blogs/good-growing/2023-01-20-are-my-seeds-still-good-testing-seed-germination",
+        "quote": "tion; most people do ten seeds to make this calculation easy. If all of your seeds germinate, you can plant normally. If 70% to 90% of the seeds germinate, you can still use the seed, but you may want to sow a little heavier than normal. If fewer than 50% to 60% germinate, it is probably best to buy new seeds. While most vegetables don’t require stratification, some flowers do. Plants like milkweed, purple coneflower, and black-eyed Susan require cold, moist stratification . If you have instances where you get no germination, make sure the plants you are testing don’t need some sort of stratification. When testing seeds, place ten seeds on a moistened paper towel (left). Check seeds periodically to see if they have begun to germinate. These rice seeds have begun germinating (arrows) after five days (right). Click on image to enlarge. Properly storing seeds If you have leftover seeds or a"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "دمای بهینه خاک برای جوانه‌زنی بذر کدو در منابع ترویجی دانشگاهی ۷۰ تا ۹۰ درجه فارنهایت گزارش شده است.",
+        "conditions": "محصول: بذر کدو (Pumpkin)؛ جغرافیا: اورگن، آمریکا؛ واحد: °F",
+        "evidence_id": "d2-e3",
+        "numeric_bindings": [
+          {
+            "value": "70–90",
+            "unit_quote": "70–90",
+            "geographic_scope": "Oregon, USA",
+            "product_scope": "Pumpkin seed germination"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e3",
+        "source_url": "https://extension.oregonstate.edu/catalog/soil-temperature-conditions-vegetable-seed-germination",
+        "quote": "ge: 40–75 [table row] Pea | Optimum: 75 [table row] Pea | Maximum: 85 [table row] Pepper | Minimum: 60 [table row] Pepper | Optimum Range: 65–95 [table row] Pepper | Optimum: 85 [table row] Pepper | Maximum: 95 [table row] Pumpkin | Minimum: 60 [table row] Pumpkin | Optimum Range: 70–90 [table row] Pumpkin | Optimum: 95 [table row] Pumpkin | Maximum: 100 [table row] Radish | Minimum: 40 [table row] Radish | Optimum Range: 45–90 [table row] Radish | Optimum: 85 [table row] Radish | Maximum: 95 [table row] Spinach | Minimum: 35 [table row] Spinach | Optimum Range: 45–75 [table row] Spinach | Optimum: 70 [table row] Spinach | Maximum: 85 [table row] Squash | Minimum: 60 [table row] Squash | Optimum Range: 70–95 [table row] Squash | Optimum: 95 [table row] Squash | Maximum: 100 [table row] Tomato | Minimum: 50 [table row] Tomato | Optimum Range: 60–85 [table row] Tomato | Optimum: 85 [table "
+      }
+    },
     {
       "fact_index": 5,
       "code": "literal_measurement_unit_required",
       "rejected_fact": {
         "kind": "qualitative",
-        "claim": "وزن هزار دانه C. pepo حدود 200 گرم است که بسته به رقم متغیر می‌باشد.",
-        "conditions": "منبع: دانشگاه ایالتی ویرجینیا (Virginia Tech، US)； محصول: بذر C. pepo؛ واحد: گرم؛ جغرافیا: ایالات متحده",
-        "evidence_id": "d2-e14",
+        "claim": "دمای حداقلacceptable برای جوانه‌زنی بذر کدو ۶۰ درجه فارنهایت و دمای حداکثر ۱۰۰ درجه فارنهایت اعلام شده است.",
+        "conditions": "محصول: بذر کدو (Pumpkin)؛ جغرافیا: اورگن، آمریکا؛ واحد: °F",
+        "evidence_id": "d2-e3",
         "numeric_bindings": [
           {
-            "value": "200",
-            "unit_quote": "approximately 200 g",
-            "geographic_scope": "US (Virginia Tech source region)",
-            "product_scope": "C. pepo seed (1000-grain weight)"
+            "value": "60",
+            "unit_quote": "Minimum: 60",
+            "geographic_scope": "Oregon, USA",
+            "product_scope": "Pumpkin seed germination"
+          },
+          {
+            "value": "100",
+            "unit_quote": "Maximum: 100",
+            "geographic_scope": "Oregon, USA",
+            "product_scope": "Pumpkin seed germination"
           }
         ]
       },
       "literal_evidence": {
-        "id": "d2-e14",
-        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
-        "quote": "n of key characters differentiating the cultivated species of Curcurbita organ Species Funicular attachment of seed Seed margin C. pepo obtuse, symmetrical Smooth, obtuse C. moschata obtuse, slightly asymmetrical scalloped, obtuse C. argyrosperma obtuse, slightly asymmetrical barely scalloped, obtuse C. maxima acute, asymmetrical smooth, obtuse C. ficifolia obtuse, slightly asymmetrical smooth, obtuse From: Whitaker, T.W. and G.W. Bohn. 1950. The Taxonomy, Genetics, Production, and Uses of the Cultivated Species of Curcurbita. Econ. Botany 4(1) 52-81. Scientific Name: Cucurbita pepo, Cucurbita maxima Common Name: Pumpkin and squash Family: Cucurbitacea Weight: The 1000 grain weight is approximately 200 g, depending on the cultivar. (Note: 1 small square in above image = 1 mm) Print pepo image with name - Print pepo image without name Print maxima image with name - Print maxima image with"
+        "id": "d2-e3",
+        "source_url": "https://extension.oregonstate.edu/catalog/soil-temperature-conditions-vegetable-seed-germination",
+        "quote": "ge: 40–75 [table row] Pea | Optimum: 75 [table row] Pea | Maximum: 85 [table row] Pepper | Minimum: 60 [table row] Pepper | Optimum Range: 65–95 [table row] Pepper | Optimum: 85 [table row] Pepper | Maximum: 95 [table row] Pumpkin | Minimum: 60 [table row] Pumpkin | Optimum Range: 70–90 [table row] Pumpkin | Optimum: 95 [table row] Pumpkin | Maximum: 100 [table row] Radish | Minimum: 40 [table row] Radish | Optimum Range: 45–90 [table row] Radish | Optimum: 85 [table row] Radish | Maximum: 95 [table row] Spinach | Minimum: 35 [table row] Spinach | Optimum Range: 45–75 [table row] Spinach | Optimum: 70 [table row] Spinach | Maximum: 85 [table row] Squash | Minimum: 60 [table row] Squash | Optimum Range: 70–95 [table row] Squash | Optimum: 95 [table row] Squash | Maximum: 100 [table row] Tomato | Minimum: 50 [table row] Tomato | Optimum Range: 60–85 [table row] Tomato | Optimum: 85 [table "
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "ذخیره‌سازی بذر در جای خنک و خشک با مجموع دما به فارنهایت و رطوبت نسبی کمتر از ۱۰۰، طول عمر بذر را حفظ می‌کند.",
+        "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا; واحد: °F + RH < 100",
+        "evidence_id": "d3-e6",
+        "numeric_bindings": [
+          {
+            "value": "100",
+            "unit_quote": "less than 100",
+            "geographic_scope": "Illinois, USA",
+            "product_scope": "seed storage condition"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d3-e6",
+        "source_url": "https://extension.illinois.edu/blogs/good-growing/2023-01-20-are-my-seeds-still-good-testing-seed-germination",
+        "quote": " rice seeds have begun germinating (arrows) after five days (right). Click on image to enlarge. Properly storing seeds If you have leftover seeds or are planning on saving seeds for next year, make sure you store them properly, so they remain viable as long as possible. Seeds should be kept cool and dry location, ideally below 45°F. Placing seeds in a sealed jar or bag in a refrigerator is a good option. As a general rule of thumb, the sum of the temperature (°F) and percent relative humidity (RH) should be less than 100. So, storing seeds at 60°F at 30% RH would be good conditions. While storing seeds at 50°F and 60% RH would lead to reduced seed longevity. Good Growing Tip of the Week : Seed germination and viability are often used interchangeably, but they mean different things. Germination is the ability of a seed to sprout. Viability is the seed’s ability to produce a vigorous seedl"
       }
     }
   ],
-  "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "موضوع درباره ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت است، اما منابع فراهم‌شده عمدتاً به مدیریت مزرعه، برداشت میوه، شویندگی میوه زمستانه و نگهداری میوه پرداخته‌اند. هیچ یک از منابع منبع‌گذاری‌شده معیارهای کمی کیفیت بذر (مانند درصد جوانه‌زنی، خلوص بذر، نرخ آلودگی، اندازه‌گیری توان زیستی یا استانداردهای گواهی بذر) را ارائه نداده‌اند. اطلاعات موجود فقط شامل مراحل برداشت میوه برای استخراج بذر، رنگ‌بندی بلوغ، شست‌وشو، خشک کردن و وزن هزار دانه هستند — نه پروتکل‌های ارزیابی کیفیت پیش از خرید و کاشت. بنابراین پاسخ‌دهی به قصد intent اصلی «seed_quality» با شواهد موجود ممکن نیست."
+  "candidate_error": "numeric_fact_cannot_be_qualitative",
+  "declared_insufficiency": null
 }

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T05:25:16.147540+00:00",
+  "topic_id": "agri-18ff41bec566",
+  "input_binding": {
+    "topic_sha256": "3d376b142f92784ac77d32759ee1e98ccd43455c286b1f0d5d53f908454e1ac5",
+    "sources_sha256": "c7b7f006684c28547bcef4afcf3d86c3c8b295a339b9ab8514887f1352ba2546",
+    "raw_sha256": "c0871927bb81b10011ae67a02e39676ec7958f718869e446389163425edfa021"
+  },
+  "plan": {
+    "topic_id": "agri-18ff41bec566",
+    "gap": "No university or extension source was found that specifies sensor type, installation depth, horizontal placement relative to drip tape, or volumetric water content thresholds for pumpkin grown for edible seeds (Cucurbita pepo or related species). Existing sources addressed drip irrigation scheduling but not soil-moisture monitoring methodology.",
+    "queries": [
+      "Cucurbita pepo soil moisture sensor installation depth TDR FDR tensiometer drip irrigation university extension",
+      "pumpkin seed production soil water monitoring sensor placement volume water content threshold research"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Confirm the Cucurbita species/varietal group grown for edible seeds (e.g., Cucurbita pepo convar. styriaca or seed-type pumpkin) and separate it from oilseed squash or field pumpkins grown for flesh; the title is about pumpkin for edible seeds."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Identify which soil-moisture measurement method is recommended or used in research—gravimetric sampling, time-domain reflectometry (TDR), frequency-domain reflectometry (FDR/Capacitance), or tensiometer—and the justification for that method in pumpkin seed production."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Provide sensor installation depth(s) in cm or inches, lateral placement relative to drip tape/bed, target volumetric water content or soil water potential ranges, and whether thresholds differ by growth stage (vegetative, flowering, fruit/seed fill)."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

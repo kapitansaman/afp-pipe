@@ -3,56 +3,97 @@
   "answers_intent": false,
   "local_prescription": false,
   "product_definition": "کدو آجیلی (بذر خوراکی کدو)",
-  "slug": "planting-depth-oilseed-pumpkin-soils-common-errors",
+  "slug": "seed-pumpkin-planting-depth",
   "outline": [
-    "شرایط و تعریف کشت: محصول هدف و دامنه شواهد",
-    "عمق کاشت: شواهد موجود و محدودیت‌های آن",
-    "خطاهای رایج: فقدان شواهد مستقیم",
-    "پایش و تصمیم‌گیری: معیارهای کیفی استخراج‌شده"
+    "تعریف محصول و هدف کشت",
+    "شواهد استقرار و عمق کاشت",
+    "پایش و تصمیم‌گیری",
+    "خطاها و محدودیت انتقال"
   ],
   "facts": [
     {
       "kind": "source_observation",
-      "claim": "بذر کدو در عمق ۱ اینچ (حدود ۲٫۵ سانتی‌متر) کاشته می‌شود.",
-      "conditions": "منبع: ایلینوی اگزینتشن، ایالات متحده. برای ارقام راننده، نیمه‌بوשי و مینیاتوری ذکر شده است.",
-      "evidence_id": "d0-e1",
+      "claim": "در اقلیم غربی آمریکا و برخی مناطق شرقی، کدو و کدو حلوایی معمولاً در بسترهای زیرهم‌گردان (raised beds) ۶ تا ۸ اینچ ارتفاع تولید می‌شوند.",
+      "conditions": "کشاورزی تجاری، اقلیم غربی و شرقی آمریکا، سامانه بستر زیرهم‌گردان برای زهکشی و گرم‌شدن خاک قبل از کاشت",
+      "evidence_id": "d1-e2",
       "numeric_bindings": [
         {
-          "value": "one inch",
-          "unit_quote": "one inch deep",
-          "geographic_scope": "Illinois, USA",
-          "product_scope": "pumpkin (general)"
-        }
-      ]
-    },
-    {
-      "kind": "source_observation",
-      "claim": "بذر کدو در عمق ۰٫۵ تا ۱٫۰ اینچ قرار می‌گیرد.",
-      "conditions": "منبع: دانشگاه ویرجینیا، بخش تولید بذر کدو و کدو تنبل. دامنه عمق عمومی گزارش شده است.",
-      "evidence_id": "d1-e4",
-      "numeric_bindings": [
-        {
-          "value": "0.5 to 1.0 inches",
-          "unit_quote": "0.5 to 1.0 inches deep",
-          "geographic_scope": "US (Western and Eastern regions)",
+          "value": "6 to 8 inches",
+          "unit_quote": "raised beds (6 to 8 inches)",
+          "geographic_scope": "Western US and some places in the East",
           "product_scope": "pumpkin and squash"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "خاک‌های رسی سنگین به دلیل تهویه ضعیف و زهکشی محدود نامناسب هستند و رشد ریشه و پوسیدگی میوه را افزایش می‌دهند.",
-      "conditions": "منبع: دانشگاه ویرجینیا، بخش تولید بذر. خاک سبک/زهکشی‌شده با ظرفیت نگهداری آب متوسط به‌عنوان بهینه توصیف شده است.",
-      "evidence_id": "d1-e1",
-      "numeric_bindings": []
+      "claim": "کدو و کدو حلوایی در خاک‌های با بافت متوسط که ظرفیت نگهداری آب بالا و زهکشی داخلی مناسبی دارند، به حداکثر عملکرد می‌رسند.",
+      "conditions": "تولید بذر و میوه، خاک‌های با زهکشی خوب، سازگاری با طیف وسیعی از خاک‌ها با این حال خاک‌های سنگین رسی و پیت‌دار توصیه نمی‌شوند",
+      "evidence_id": "d1-e1"
     },
     {
       "kind": "source_observation",
-      "claim": "کدو آجیلی (تولید بذر خوراکی) از دیدگاه گونه و محصول برداشت متفاوت از کدو هالووین/گوشتی است و شواهد فعلی پوشش دقیق این منظور را ندارند.",
-      "conditions": "منبع: Mapping علمی کاربردی؛ تفاوت محصول برداشت‌شده (بذر تمیز/خشک در مقابل میوه کامل) در منابع ذکر نشده است.",
-      "evidence_id": "d1-e4",
-      "numeric_bindings": []
+      "claim": "کدوها و کدوهای زمستانی در خاک‌های سنگین رسی به دلیل تهویه ضعیف و زهکشی محدود دچار اختلال در رشد ریشه و افزایش پوسیدگی میوه می‌شوند.",
+      "conditions": "خاک‌های سنگین رسی، محدودیت تهویه و زهکشی، آسیب ریشه و پوسیدگی",
+      "evidence_id": "d1-e1"
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کدوها و کدوهای زمستانی به شرایط اسیدی حساس هستند ولی در خاک‌های کمی اسیدی تا moderately alkaline با pH حدود ۶٫۸ تا ۸٫۰ خوب رشد می‌کنند.",
+      "conditions": "محدوده pH خاک، حساسیت به اسیدیته، سازگاری با mildly acidic تا moderately alkaline",
+      "evidence_id": "d1-e1"
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کدو و کدو حلوایی به شوری بسیار حساس هستند.",
+      "conditions": "خاک‌های شور، محدودیت رشد، عدم سازگاری",
+      "evidence_id": "d1-e1"
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کدوها و کدوهای زمستانی را می‌توان در طیف وسیعی از خاک‌ها پرورش داد، اگرچه خاک‌های پیت‌دار و سنگین رسی توصیه نمی‌شوند.",
+      "conditions": "تولید بذر و میوه، انعطاف‌پذیری خاک، استثنا برای پیت و رسی سنگین",
+      "evidence_id": "d1-e1"
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای حداقل، بهینه و حداکثر خاک برای جوانه‌زنی بذر کدو و کدو حلوایی به ترتیب ۶۵ درجه فارنهایت، ۹۵ درجه فارنهایت و ۱۰۰ درجه فارنهایت است.",
+      "conditions": "جوانه‌زنی بذر، دمای خاک، محدوده دمایی عملکردی، اقلیم‌های معتدل تا گرم",
+      "evidence_id": "d1-e3",
+      "numeric_bindings": [
+        {
+          "value": "65 F",
+          "unit_quote": "65 F",
+          "geographic_scope": "United States",
+          "product_scope": "pumpkin and squash seed germination"
+        },
+        {
+          "value": "95 F",
+          "unit_quote": "95 F",
+          "geographic_scope": "United States",
+          "product_scope": "pumpkin and squash seed germination"
+        },
+        {
+          "value": "100 F",
+          "unit_quote": "100 F",
+          "geographic_scope": "United States",
+          "product_scope": "pumpkin and squash seed germination"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "جوانه‌زنی در دمای خاک کمتر از ۶۸ درجه فارنهایت کند و نامنظم است.",
+      "conditions": "دمای خاک پایین‌تر از ۶۸ درجه فارنهایت، جوانه‌زنی کند و نامنظم، ریسک Establishment",
+      "evidence_id": "d1-e3",
+      "numeric_bindings": [
+        {
+          "value": "68 F",
+          "unit_quote": "68 F",
+          "geographic_scope": "United States",
+          "product_scope": "pumpkin and squash seed germination"
+        }
+      ]
     }
-  ],
-  "insufficiency_reason": "شواهد موجود عمق کاشت عمومی کدو (۰٫۵ تا ۱ اینچ) و ویژگی‌های خاک مناسب را ارائه می‌دهند، اما: (۱) تفاوت کمی عمق کاشت بر اساس بافت خاک سبک در برابر سنگین به‌طور مستقیم اندازه‌گیری یا مقایسه نشده است؛ (۲) هیچ منبعی خطاهای رایج کاشت (مثلاً کاشت بسیار سطحی، بسیار عمیق، یا فاصله نادرست در خاک‌های خاص) را برای کدو آجیلی گزارش نکرده است؛ (۳) منابع فعلی عمدتاً مربوط به کدوی معمولی/میوه‌ای آمریکا هستند و محصول هدف این موضوع (بذر خوراکی/آجیلی) به‌صورت صریح پوشش داده نشده است."
+  ]
 }

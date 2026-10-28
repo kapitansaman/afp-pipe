@@ -1,32 +1,82 @@
 {
   "topic_id": "agri-382a9f28f635",
-  "candidate_sha256": "b61c4c5f78559c3dbaa718b9c13e42ef36ca101f05bf6cc2600cf5bcd80b1774",
+  "candidate_sha256": "0dc447740b1f04c09d325e6af2e3781c0d346525a97ea1cb3b7e2a45b4cebc32",
   "scientific_approval": false,
   "errors": [
     {
-      "fact_index": 0,
-      "code": "number_absent_from_literal_source",
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "بذر کدو در عمق ۱ اینچ (حدود ۲٫۵ سانتی‌متر) کاشته می‌شود.",
-        "conditions": "منبع: ایلینوی اگزینتشن، ایالات متحده. برای ارقام راننده، نیمه‌بوשי و مینیاتوری ذکر شده است.",
-        "evidence_id": "d0-e1",
+        "claim": "کدوها و کدوهای زمستانی به شرایط اسیدی حساس هستند ولی در خاک‌های کمی اسیدی تا moderately alkaline با pH حدود ۶٫۸ تا ۸٫۰ خوب رشد می‌کنند.",
+        "conditions": "محدوده pH خاک، حساسیت به اسیدیته، سازگاری با mildly acidic تا moderately alkaline",
+        "evidence_id": "d1-e1"
+      },
+      "literal_evidence": {
+        "id": "d1-e1",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": "e fairly fertile, and well drained. Maximum yields are achieved on medium-textured soils with high water-holding capacity and good internal drainage. They can be grown on a wide range of soils, although peat and heavy clay soils are not recommended. Clay soils generally have poor aeration and restricted drainage, which can be detrimental to root growth and increase fruit rot. Pumpkins and squash are sensitive to acid conditions, but will grow well on slightly acidic (pH 6.8) to moderately alkaline (pH 8.0), soils. Pumpkins and squash are quite sensitive to salinity. A crop rotation cycle of several years between planting members from the family Cucurbitaceae is required if pathogen populations are very high and fumigation is not used. When possible, grasses, corn or sorghum are good rotation crops. However, care must be taken that there are no carryover herbicide residues, which might in"
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "دمای حداقل، بهینه و حداکثر خاک برای جوانه‌زنی بذر کدو و کدو حلوایی به ترتیب ۶۵ درجه فارنهایت، ۹۵ درجه فارنهایت و ۱۰۰ درجه فارنهایت است.",
+        "conditions": "جوانه‌زنی بذر، دمای خاک، محدوده دمایی عملکردی، اقلیم‌های معتدل تا گرم",
+        "evidence_id": "d1-e3",
         "numeric_bindings": [
           {
-            "value": "one inch",
-            "unit_quote": "one inch deep",
-            "geographic_scope": "Illinois, USA",
-            "product_scope": "pumpkin (general)"
+            "value": "65 F",
+            "unit_quote": "65 F",
+            "geographic_scope": "United States",
+            "product_scope": "pumpkin and squash seed germination"
+          },
+          {
+            "value": "95 F",
+            "unit_quote": "95 F",
+            "geographic_scope": "United States",
+            "product_scope": "pumpkin and squash seed germination"
+          },
+          {
+            "value": "100 F",
+            "unit_quote": "100 F",
+            "geographic_scope": "United States",
+            "product_scope": "pumpkin and squash seed germination"
           }
         ]
       },
       "literal_evidence": {
-        "id": "d0-e1",
-        "source_url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
-        "quote": "tions to early July in extremely southern sites. If pumpkins are planted too early, they may soften and rot before Halloween. Spacing and Depth Vining pumpkins require a minimum of 50 to 100 square feet per hill. Plant seeds one inch deep (four or five seeds per hill). Allow 5 to 6 feet between hills, spaced in rows 10 to 15 feet apart. When the young plants are well-established, thin each hill to the best two or three plants. Plant semi-bush varieties one inch deep (four or five seeds per hill) and thin to the best two plants per hill. Allow 4 feet between hills and 8 feet between rows. Plant miniature varieties one inch deep, with two or three seeds every 2 feet in the row. Rows should be 6 to 8 feet apart, with seedlings thinned to the best plant every 2 feet when they have their first true leaves. Plant bush varieties one inch deep (1 or 2 seeds per foot of row) and thin to a single "
+        "id": "d1-e3",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": "ting is by direct seeding or occasionally transplanting through holes punched or burned in the plastic cover. Drip irrigation or fertigation is used with the plasticulture system. Black plastic aids weed control, clear is used in northern areas to increase soil temperatures especially for early season planting of summer squash. No-till pumpkin production works well and is rapidly gaining popularity. A cover crop is used and pumpkins are seeded directly or transplanted into the dead cover crop residue when the soil is sufficiently warm in the early summer. Pumpkins and squash are generally planted from seed. However, both crops are sometimes transplanted in northern areas but are very sensitive to transplant shock and should be planted only as a plug with a root ball. The minimum, optimum, and maximum soil temperatures for seed germination are 65 F, 95 F and 100 F, respectively. Germinati"
+      }
+    },
+    {
+      "fact_index": 7,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "جوانه‌زنی در دمای خاک کمتر از ۶۸ درجه فارنهایت کند و نامنظم است.",
+        "conditions": "دمای خاک پایین‌تر از ۶۸ درجه فارنهایت، جوانه‌زنی کند و نامنظم، ریسک Establishment",
+        "evidence_id": "d1-e3",
+        "numeric_bindings": [
+          {
+            "value": "68 F",
+            "unit_quote": "68 F",
+            "geographic_scope": "United States",
+            "product_scope": "pumpkin and squash seed germination"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e3",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": "ting is by direct seeding or occasionally transplanting through holes punched or burned in the plastic cover. Drip irrigation or fertigation is used with the plasticulture system. Black plastic aids weed control, clear is used in northern areas to increase soil temperatures especially for early season planting of summer squash. No-till pumpkin production works well and is rapidly gaining popularity. A cover crop is used and pumpkins are seeded directly or transplanted into the dead cover crop residue when the soil is sufficiently warm in the early summer. Pumpkins and squash are generally planted from seed. However, both crops are sometimes transplanted in northern areas but are very sensitive to transplant shock and should be planted only as a plug with a root ball. The minimum, optimum, and maximum soil temperatures for seed germination are 65 F, 95 F and 100 F, respectively. Germinati"
       }
     }
   ],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "شواهد موجود عمق کاشت عمومی کدو (۰٫۵ تا ۱ اینچ) و ویژگی‌های خاک مناسب را ارائه می‌دهند، اما: (۱) تفاوت کمی عمق کاشت بر اساس بافت خاک سبک در برابر سنگین به‌طور مستقیم اندازه‌گیری یا مقایسه نشده است؛ (۲) هیچ منبعی خطاهای رایج کاشت (مثلاً کاشت بسیار سطحی، بسیار عمیق، یا فاصله نادرست در خاک‌های خاص) را برای کدو آجیلی گزارش نکرده است؛ (۳) منابع فعلی عمدتاً مربوط به کدوی معمولی/میوه‌ای آمریکا هستند و محصول هدف این موضوع (بذر خوراکی/آجیلی) به‌صورت صریح پوشش داده نشده است."
+  "declared_insufficiency": null
 }

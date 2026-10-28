@@ -1,0 +1,66 @@
+{
+  "round": 2,
+  "started_at": "2026-10-28T05:26:16.567708+00:00",
+  "queries": [
+    {
+      "query_id": "81abd230e79a5a0d4137715b7d1d6b97799c64133c008a7db6e8f9fe051a8e1c",
+      "query": "Cucurbita pepo convar. styriaca or pepo-type pumpkin seed soil moisture sensor placement depth cm drip tape research",
+      "cached": false,
+      "checked_at_epoch": 1793165181.5816054,
+      "results": [
+        {
+          "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+          "title": "Guidance for Soil Moisture Sensor Selection: Market Analysis and Decision-Making Strategies | UA Cooperative Extension",
+          "description": "In-situ soil moisture sensors can be installed at different depths within the root zone, horizontally or vertically, depending on their designs and measurement requirements (individual sensors or multi-depth probes). The most common range of installation depths varies from 6 inches (0.15 m) to 60 inches (1.5 m) to capture reliable soil moisture fluctuations. It is important to follow the installation steps of the sensors as recommended by manufacturers to achieve the most accurate results. For [...] | Sensor | Technology | Depth Options |\n| HOBOnet Teros 12 | Capacitance | Single depth (4.5 in. length) |\n| Decent Lab DL-SMTP-001 | Capacitance | multi-depth (24-in. depth) |\n| Dragino LSE01 | Frequency Domain Reflectometry (FDR) | Single depth (7.7- in. depth) |\n| GroPoint 2625-ST | Time Domain Transmissivity (TDT) | multi-depth (up to 8 depths every 6 in.) |\n| Sensoterra single depth | Impedence (soil resistivity & capacitance) | Single depth (6-in, 12-in, 24-in, 36- in.) | [...] Monitoring soil moisture content is a critical aspect of effective irrigation scheduling. Maintaining optimal soil moisture levels is essential for plant growth and crop yield. Soil moisture monitoring can "
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12348540",
+          "title": "Profiling Hydrophilic Cucurbita pepo Seed Extracts - PMC - NIH",
+          "description": "by AE Grasu · 2025 · Cited by 5 — Cucurbita pepo (CP) seeds are traditionally used to alleviate lower urinary tract symptoms associated with benign prostatic hyperplasia and overactive bladder."
+        }
+      ]
+    },
+    {
+      "query_id": "5c5dc73da28b0479bdd070794294f2480de6965daf00700ef15e1f418b299ea1",
+      "query": "pumpkin seed production irrigation scheduling soil water potential tensiometer capacitance sensor growth stage threshold",
+      "cached": false,
+      "checked_at_epoch": 1793165184.784932,
+      "results": [
+        {
+          "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+          "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+          "description": "## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n\nDatta, S., S. Taghvaeian, J. Stivers. 2025. Understanding soil water content and thresholds for irrigation management. BAE-1537.  \nOklahoma State Cooperative Extension. Available at: [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] Sensor based and data driven irrigation scheduling has gained interest in irrigated agriculture around the world, especially in semi-arid areas because of the easy availability of commercial irrigation scheduler technologies such as soil moisture sensors and crop models. Moisture sensing has particularly gained"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 2,
+    "loaded": 1,
+    "sources": [
+      {
+        "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+        "canonical_url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12348540",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      }
+    ]
+  },
+  "fetches_reserved": 2,
+  "completed_at": "2026-10-28T05:26:25.650156+00:00"
+}

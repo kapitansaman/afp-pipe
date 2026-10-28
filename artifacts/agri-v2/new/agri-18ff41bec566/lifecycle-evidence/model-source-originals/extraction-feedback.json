@@ -1,0 +1,8 @@
+{
+  "topic_id": "agri-18ff41bec566",
+  "candidate_sha256": "c1c2e59bbeff00fc99e08532a568fd8e8f43a2cb823c920efe478791d1eefab1",
+  "scientific_approval": false,
+  "errors": [],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع fetched هیچ‌یک روش پایش رطوبت خاک، محل نصب، عمق کاشت یا انتخاب حسگر (gravimetric، TDR، FDR، tensiometer و غیره) را برای کدو آجیلی یا Cucurbita ارائه نمی‌دهند. منابع موجود تنها به‌صورت کلی به استفاده از آبیاری قطره‌ای (drip irrigation/fertigation)، آبیاری عمیق و نادر (deep and infrequent irrigation)، و زمان‌بندی کاهش آبیاری نزدیک برداشت اشاره دارند؛ هیچ‌کدام شامل معیارهای نصب حسگر، عمق ریشه، نقطه پژمردگی یا آستانه رطوبت هدف نیستند. بنابراین پاسخ به پرسش دقیق عنوان (انتخاب محل و عمق حسگر) فاقد شواهد مستقیم است و نیازمند جستجوی مستقل منابع ترویجی/دانشگاهی مرتبط با soil moisture sensing in pumpkin seed production می‌باشد."
+}

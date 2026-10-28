@@ -1,0 +1,46 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع اصلی فقط شامل یک منبع دانشگاهی ویرجینیا تک (دانشگاه ویرجینیا) و یک منبع اکستنشن آلاباما (دانشگاه آبرن) هستند. منابع مینه‌سوتا (cover crops, forages, small grains) به موضوع کدو آجیلی مرتبط نیستند و رد شده‌اند. هر دو منبع برای محصولات خارجی آمریکا گردآوری شده‌اند و هیچ داده‌ای برای شرایط ایران، اقلیم‌های دیگر یا ارقام محلی فراهم نمی‌کنند. اطلاعات مربوط به نگهداری میوه کامل و عمل‌آوری، مستقیماً برای دانه استخراجزده‌شده پس از برداشت کدو آجیلی قابل تعمیم نیست. دقت منبع ویرجینیا تک برای رسیدگی دانه است نه تولید میوه.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}

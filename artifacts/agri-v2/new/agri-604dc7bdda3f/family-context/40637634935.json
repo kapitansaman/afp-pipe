@@ -1,0 +1,17 @@
+{
+  "family_id": "family-10",
+  "topic_id": "agri-604dc7bdda3f",
+  "title": "نیاز آبی کدو آجیلی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+  "title_sha256": "a4745843ac9757f6b855fb8fd6e5eb7f99725137b3bb3e5be897f918a730e37c",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY37",
+    "AGNES_API_KEY38",
+    "AGNES_API_KEY39",
+    "AGNES_API_KEY40"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

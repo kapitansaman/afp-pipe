@@ -1,0 +1,219 @@
+{
+  "version": 2,
+  "topic_id": "agri-18ff41bec566",
+  "input_binding": {
+    "topic_sha256": "3d376b142f92784ac77d32759ee1e98ccd43455c286b1f0d5d53f908454e1ac5",
+    "sources_sha256": "c7b7f006684c28547bcef4afcf3d86c3c8b295a339b9ab8514887f1352ba2546",
+    "raw_sha256": "c0871927bb81b10011ae67a02e39676ec7958f718869e446389163425edfa021"
+  },
+  "completed_at": "2026-10-28T05:26:25.650788+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T05:25:16.160212+00:00",
+      "queries": [
+        {
+          "query_id": "5048fab2409b834c310debd24402fb40b71d23294308f493538b319239f85024",
+          "query": "Cucurbita pepo soil moisture sensor installation depth TDR FDR tensiometer drip irrigation university extension",
+          "cached": false,
+          "checked_at_epoch": 1793165123.181292,
+          "results": [
+            {
+              "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+              "title": "Soil moisture sensors for irrigation scheduling | UMN Extension",
+              "description": "Three moisture sensors are installed at depths of 1 foot, 2 feet and 3 feet (Column A).\n The soil moisture sensor reads 0.13, 0.10 and 0.10 (or 13%, 10% and 10%) for 1, 2 and 3 foot depths, respectively (Column E).\n Available water holding capacity (AWC) from the Web soil survey is 0.70, 0.09 and 0.07 for 1, 2 and 3 foot depths, respectively (Column D).\n Measured field capacity (FC) is 0.16, 0.15 and 0.10 in./in. for 1, 2 and 3 foot depths, respectively (Column C). [...] The method of installation is dependent upon the design of the sensor. Follow the installation instructions given by the manufacturer. In general, soil moisture sensor installation is done in one of two ways:\n\n1. By digging a hole or a trench and installing sensors horizontally at different depths or\n2. By using an auger or soil sampling probe to bore a hole and install sensors vertically. [...] \\Soil deficit at 1500 Cbs is equal to total available soil water capacity.\n\n## Sensor installation and placement\n\nSensors should be placed at several different depths and locations in the field. Typically, sensors are placed in pairs at one-third and two-thirds the depth of the crop root zone and at two or more locations in"
+            },
+            {
+              "url": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9868.pdf",
+              "title": "Soil moisture monitoring to support irrigation scheduling",
+              "description": "systems ( © 2026 Oregon State University. Extension work is a cooperative program of Oregon State University, the U.S. Department of Agriculture, and Oregon counties. Oregon State University Extension Service offers educational programs, activities, and materials without discrimination on the 21 basis of race, color, national origin, religion, sex, gender identity (including gender expression), sexual orientation, disability, age, marital status, familial/parental status, income derived from a [...] • • Multidepth monitoring allows detection of: Overirrigation (deep percolation) • Shallow drying • Root-zone depletion patterns • • Figure 10. Proper installation of a soil moisture sensor within the crop root zone. Sensors should be installed in representative management zones with firm soil contact and minimal disturbance to ensure accurate, reliable readings for irrigation decision-making. [...] 10 To find out more about how these sensors are installed, see Soil Moisture Sensor Installation ( and Soil Water Content. ( Figure 8A. Capacitance (frequency-domain reflectometry) soil moisture sensor probe showing oscillating waves emanating from the probe.\nCredit: Carol Rang, © Oregon Sta"
+            },
+            {
+              "url": "https://www.aces.edu/blog/topics/crop-production/installation-of-soil-sensors-for-irrigation-scheduling",
+              "title": "Installation of Soil Sensors for Irrigation Scheduling - Alabama Cooperative Extension System",
+              "description": "Step 2 (figure 10). Insert TDR sensors horizontally with respect to the soil surface and perpendicular to the crop row. Use the installation guide provided by the manufacturer to prevent sensor rods from bending and ensure that rods are evenly separated during installation. Sensor readings will be affected if rods get bent. Install sensors from bottom to top; alternatively, the bottom sensor can be installed vertically. Repact soil using the same soil order/type extracted from the hole. [...] Step 1 (figure 5). Dig a hole between two healthy plants that is slightly bigger than the sensor diameter (2.5 inches capacitance) and up to the deepest target depth for monitoring (48 inches for capacitance-based sensor). You can use a manual or engine-powered auger. Be careful not to open an oversize hole; air gaps will result in erroneous data. [...] When using this soil sensor for irrigation scheduling, keep available moisture within the green band and irrigate to increase available moisture to the full point. The water level in the soil profile from capacitance- based sensor probes is collected every 4 inches up to 48 inches soil depth."
+            }
+          ]
+        },
+        {
+          "query_id": "4e21bbd26d530e6e97a9f37f5afe7223cc6c732c5d033c11e046d8174c614c0a",
+          "query": "pumpkin seed production soil water monitoring sensor placement volume water content threshold research",
+          "cached": false,
+          "checked_at_epoch": 1793165126.1502082,
+          "results": [
+            {
+              "url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+              "title": "Soil moisture sensors for irrigation scheduling",
+              "description": "Volumetric water content is the volume of liquid water per volume of soil. It is usually expressed as a percentage. For example, 25% volumetric water content (VWC) means 0.25 cubic inch of water per cubic inch of soil. When this %VWC is multiplied by the desired depth (effective rooting depth), it results in the total soil water in that soil depth in inches. [...] The most common soil water content or volumetric water content sensors are: [...] Electromagnetic sensors: These sensors indirectly measure VWC based on the dielectric and electric properties of the soil medium (soil bulk permittivity or soil dielectric constant). The dielectric constant is a measure of the ability of the substance to store electrical energy. Since soil particles, water, and air, all have different dielectric constants, their ability to store or dissipate electrical energy is different. This is how it can be correlated to soil water content."
+            },
+            {
+              "url": "https://naes.agnt.unr.edu/PMS/Pubs/2026-8558.pdf",
+              "title": "Soil moisture monitoring to support irrigation scheduling",
+              "description": "• In relatively uniform fields (up to about 40 acres), two monitoring sites are often sufficient.\n• Fields with higher spatial variability in soil texture, elevation or irrigation uniformity may require additional monitoring locations.\n• Sensor placement density should reflect field variability, not acreage alone.\nSensor depth placement Install sensors within the effective rooting depth of your crop.\n• Monitor at least two to three soil depths to capture soil water distribution. [...] Credit: Adobe Stock Figure 7B. A TDR soil moisture probe measures volumetric water content in the soil.\nCredit: Adobe Stock Time-domain reflectometry Time-domain reflectometry determines soil water content by measuring the travel time of an electromagnetic pulse through the soil.\nA TDR sensor consists of two or three parallel stainless steel rods (waveguides) inserted into the soil (Figure 7A-B). [...] Determined by soil sampling: Use an auger or shovel to collect a soil sample. Weigh the sample to determine its fresh weight. Oven-dry the soil at 105°C, then weigh it again. This is the dry weight. The loss in weight represents gravimetric water content (θ g).\n• Volumetric soil moisture content (θ v) V"
+            },
+            {
+              "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+              "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+              "description": "## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n\nDatta, S., S. Taghvaeian, J. Stivers. 2025. Understanding soil water content and thresholds for irrigation management. BAE-1537.  \nOklahoma State Cooperative Extension. Available at: [...] A computer dashboard labeled “IrriMAX Live” with a large line graph tracking soil water content over time from late June to early October. The graph’s line gradually trends downward with several sharp drops and occasional rises, indicating periods where moisture decreases and then partially recovers. The background is color-coded, blue at the top, green in the middle and red at the bottom, which suggests different moisture zones or thresholds. [...] A computer dashboard labeled “IrriMAX Live” with a large line graph tracking soil water content over time from late June to early October. The graph’s line gradually trends downward with several sharp drops and occasional rises, indicating periods where moisture decreases and then partially recovers. The background is color-coded, blue at the top, green in the m"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 6,
+        "loaded": 5,
+        "sources": [
+          {
+            "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+            "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9868.pdf",
+            "canonical_url": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9868.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.aces.edu/blog/topics/crop-production/installation-of-soil-sensors-for-irrigation-scheduling",
+            "canonical_url": "https://www.aces.edu/blog/topics/crop-production/installation-of-soil-sensors-for-irrigation-scheduling/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+            "canonical_url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://naes.agnt.unr.edu/PMS/Pubs/2026-8558.pdf",
+            "canonical_url": "https://naes.agnt.unr.edu/PMS/Pubs/2026-8558.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": true,
+            "http_status": 403
+          }
+        ]
+      },
+      "fetches_reserved": 6,
+      "coverage": {
+        "topic_id": "agri-18ff41bec566",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document identifies the Cucurbita species or varietal group (e.g., C. pepo convar. styriaca, 'pepo' oilseed-type pumpkin) grown for edible seeds, nor distinguishes it from field/flesh pumpkins."
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document recommends or validates a specific soil-moisture method (gravimetric, TDR, FDR/capacitance, tensiometer, granular matrix) for pumpkin-seed production; docs describe methods generically for horticultural/specialty crops but do not target pumpkin."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document gives sensor installation depth(s), lateral placement relative to drip tape or bed, or crop-specific VWC/soil-water-potential thresholds (vegetative, flowering, fruit/seed-fill stages) for pumpkin seed production. Only generic MAD principles and example crops (corn, cotton) appear."
+          }
+        ],
+        "next_queries": [
+          "Cucurbita pepo convar. styriaca or pepo-type pumpkin seed soil moisture sensor placement depth cm drip tape research",
+          "pumpkin seed production irrigation scheduling soil water potential tensiometer capacitance sensor growth stage threshold"
+        ]
+      },
+      "completed_at": "2026-10-28T05:26:16.566761+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T05:26:16.567708+00:00",
+      "queries": [
+        {
+          "query_id": "81abd230e79a5a0d4137715b7d1d6b97799c64133c008a7db6e8f9fe051a8e1c",
+          "query": "Cucurbita pepo convar. styriaca or pepo-type pumpkin seed soil moisture sensor placement depth cm drip tape research",
+          "cached": false,
+          "checked_at_epoch": 1793165181.5816054,
+          "results": [
+            {
+              "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+              "title": "Guidance for Soil Moisture Sensor Selection: Market Analysis and Decision-Making Strategies | UA Cooperative Extension",
+              "description": "In-situ soil moisture sensors can be installed at different depths within the root zone, horizontally or vertically, depending on their designs and measurement requirements (individual sensors or multi-depth probes). The most common range of installation depths varies from 6 inches (0.15 m) to 60 inches (1.5 m) to capture reliable soil moisture fluctuations. It is important to follow the installation steps of the sensors as recommended by manufacturers to achieve the most accurate results. For [...] | Sensor | Technology | Depth Options |\n| HOBOnet Teros 12 | Capacitance | Single depth (4.5 in. length) |\n| Decent Lab DL-SMTP-001 | Capacitance | multi-depth (24-in. depth) |\n| Dragino LSE01 | Frequency Domain Reflectometry (FDR) | Single depth (7.7- in. depth) |\n| GroPoint 2625-ST | Time Domain Transmissivity (TDT) | multi-depth (up to 8 depths every 6 in.) |\n| Sensoterra single depth | Impedence (soil resistivity & capacitance) | Single depth (6-in, 12-in, 24-in, 36- in.) | [...] Monitoring soil moisture content is a critical aspect of effective irrigation scheduling. Maintaining optimal soil moisture levels is essential for plant growth and crop yield. Soil moisture monitoring can "
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12348540",
+              "title": "Profiling Hydrophilic Cucurbita pepo Seed Extracts - PMC - NIH",
+              "description": "by AE Grasu · 2025 · Cited by 5 — Cucurbita pepo (CP) seeds are traditionally used to alleviate lower urinary tract symptoms associated with benign prostatic hyperplasia and overactive bladder."
+            }
+          ]
+        },
+        {
+          "query_id": "5c5dc73da28b0479bdd070794294f2480de6965daf00700ef15e1f418b299ea1",
+          "query": "pumpkin seed production irrigation scheduling soil water potential tensiometer capacitance sensor growth stage threshold",
+          "cached": false,
+          "checked_at_epoch": 1793165184.784932,
+          "results": [
+            {
+              "url": "https://extension.okstate.edu/fact-sheets/using-trend-values-from-soil-moisture-sensors-for-irrigation-decisions",
+              "title": "Using Trend Values from Soil Moisture Sensors for Irrigation Decisions | Oklahoma State University",
+              "description": "## References\n\nTaghvaeian, S., D. Porter, J. Aguilar. 2021. Soil moisture-sensing systems for improving irrigation scheduling. BAE-1543. Oklahoma  \nState Cooperative Extension. Available at: \n\nDatta, S., S. Taghvaeian, J. Stivers. 2025. Understanding soil water content and thresholds for irrigation management. BAE-1537.  \nOklahoma State Cooperative Extension. Available at: [...] that occurs once moisture level goes below this moisture level can cause yield reductions in crops. Therefore, irrigation should be triggered as soon as the soil moisture level approaches this MAD point to avoid yield losses, (readers are referred to Soil Moisture-Sensing Systems for Improving Irrigation Scheduling). Modern soil moisture sensors can come self-calibrated and are connected with software packages which provide water stress threshold levels for different crops to avoid water stress [...] Sensor based and data driven irrigation scheduling has gained interest in irrigated agriculture around the world, especially in semi-arid areas because of the easy availability of commercial irrigation scheduler technologies such as soil moisture sensors and crop models. Moisture sensing has particularly gained"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 2,
+        "loaded": 1,
+        "sources": [
+          {
+            "url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+            "canonical_url": "https://extension.arizona.edu/publication/guidance-soil-moisture-sensor-selection-market-analysis-and-decision-making-strategies",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12348540",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          }
+        ]
+      },
+      "fetches_reserved": 2,
+      "completed_at": "2026-10-28T05:26:25.650156+00:00"
+    }
+  ],
+  "fetches_reserved": 8,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": true,
+  "status": "new_sources_fetched_requires_original_extraction",
+  "new_sources": 6,
+  "output_sources_sha256": "924a95ae528c2d8e1c5312ec3507e6b0e70eaee66d8c4ebd2aa46e45cb69e9e5"
+}

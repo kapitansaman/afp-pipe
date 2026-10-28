@@ -1,0 +1,185 @@
+{
+  "version": 2,
+  "topic_id": "agri-4e351a4fbdee",
+  "input_binding": {
+    "topic_sha256": "d9417b3523b2054905eb00199cf33cfec47239f6a02820c822b21e6b22171670",
+    "sources_sha256": "5d7bcd17c330baab208dfefcda1dfc0643844882e39afa45d962641c20586531",
+    "raw_sha256": "245f4b41de51557598d90690e90cc99196cc635561746f26ec9ee3eb14fa61e0"
+  },
+  "completed_at": "2026-10-28T05:25:39.713308+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T05:25:15.405992+00:00",
+      "queries": [
+        {
+          "query_id": "9105931eb5e617e99fe6a63337e00541deda0a7ee7bb6a59e45fb20d2b5bc108",
+          "query": "Cucurbita maxima seed germination test protocol ISCI AOSA seed quality standards",
+          "cached": false,
+          "checked_at_epoch": 1793165117.0022688,
+          "results": [
+            {
+              "url": "https://www.nist.gov/document/2026-hb-133-appendix-d",
+              "title": "Appendix D. AOSA Rules for Testing Seeds",
+              "description": "The laboratory analysis for law enforcement, labeling, and general information as to seed quality, should determine the following for the sample analyzed:"
+            }
+          ]
+        },
+        {
+          "query_id": "d300047259ab802942c2b369baeda93a0e1df4e349bd4f740d606bfc5c78a811",
+          "query": "بذر کدو آجیلی تست جوانه‌زنی درصد خلوص استاندارد گواهی بذر",
+          "cached": false,
+          "checked_at_epoch": 1793165119.5849898,
+          "results": []
+        }
+      ],
+      "new_document_ids": [
+        "s0"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 1,
+        "loaded": 1,
+        "sources": [
+          {
+            "url": "https://www.nist.gov/document/2026-hb-133-appendix-d",
+            "canonical_url": "https://www.nist.gov/system/files/documents/2025/12/23/2026_NIST_HB133_AppendixD-20251216.pdf",
+            "redirect_hops": 1,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 1,
+      "coverage": {
+        "topic_id": "agri-4e351a4fbdee",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No mention of Cucurbita maxima, C. moschata, or any oilseed-pumpkin market class; no distinction between cleaned/dried shelled seed and whole winter fruit."
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "Mentions purity analysis, germination, tetrazolium, moisture content and seed count only as generic AOSA options for unspecified crops; gives no specific assay conditions (days, temperature, substrate), no crop-specific germination test protocol, and no certified thresholds for oilseed pumpkin."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No quantitative thresholds for germination percentage, seed purity, moisture content or contaminant limits are provided for oilseed-pumpkin seed; document lacks acceptable-vs-unacceptable ranges, source geography and date relevant to this crop."
+          }
+        ],
+        "next_queries": [
+          "Cucurbita maxima vs C. moschata oilseed pumpkin seed classification AOSA ISTA rules",
+          "oilseed pumpkin seed germination test standard protocol temperature days substrate university extension"
+        ]
+      },
+      "completed_at": "2026-10-28T05:25:30.118545+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T05:25:30.119159+00:00",
+      "queries": [
+        {
+          "query_id": "22732fbfcc7b735d2873c544eef8892083054bcd5c16de468de802cbed84dbca",
+          "query": "Cucurbita maxima vs C. moschata oilseed pumpkin seed classification AOSA ISTA rules",
+          "cached": false,
+          "checked_at_epoch": 1793165136.0501642,
+          "results": [
+            {
+              "url": "https://web.extension.illinois.edu/hortanswers/plantdetail.cfm?PlantID=629&PlantTypeID=9",
+              "title": "Pumpkin (Cucurbita pepo; C. maxima; C. moschata; C. mixta)-Hort Answers - University of Illinois Extension",
+              "description": "Pumpkins and squash belong to the Cucurbitaceae family. Generally pumpkins belong to the Cucurbita pepo, C. maxima, and C. moschata species. The C. pepo species are usually recognized as the true pumpkin. Pumpkin varieties within this group have orange-yellow flowers, and fruits with bright orange skin and hard, woody, distinctly furrowed stems. This group also includes gourds, vegetable marrow, Pattypan summer squash, scallop summer squash, gray and black zucchini and summer crookneck squash. [...] Pumpkin (Cucurbita pepo; C. maxima; C. moschata; C. mixta)-Hort Answers - University of Illinois Extension\n\nUniversity of Illinois Extension\n\n# University of Illinois Extension\n\n# Hort Answers\n\n## Main Navigation\n\n Home\n Credits\n Problem Search\n Plant Search\n Full Search\n\n### Vegetable\n\n## Pumpkin Cucurbita pepo; C. maxima; C. moschata; C. mixta [...] Cultivars"
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235",
+              "title": "Biochemical Composition of Pumpkin Seeds and ... - PMC - NIH",
+              "description": "by N Polyzos · 2024 · Cited by 46 — The goal of the current work was to assess the nutritional profile and phytochemical properties of cucurbit (Cucurbita maxima L.) seeds,"
+            }
+          ]
+        },
+        {
+          "query_id": "0fa11d760763c7be3c434dfb4111fa567e9037a9214707ce8ae174eef85db667",
+          "query": "oilseed pumpkin seed germination test standard protocol temperature days substrate university extension",
+          "cached": false,
+          "checked_at_epoch": 1793165138.6236444,
+          "results": [
+            {
+              "url": "https://extension.oregonstate.edu/catalog/soil-temperature-conditions-vegetable-seed-germination",
+              "title": "Soil temperature conditions for vegetable seed germination | OSU Extension Service",
+              "description": "| Onion | 35 | 50–95 | 75 | 95 |\n| Parsley | 40 | 50–85 | 75 | 90 |\n| Parsnip | 35 | 50–70 | 65 | 85 |\n| Pea | 40 | 40–75 | 75 | 85 |\n| Pepper | 60 | 65–95 | 85 | 95 |\n| Pumpkin | 60 | 70–90 | 95 | 100 |\n| Radish | 40 | 45–90 | 85 | 95 |\n| Spinach | 35 | 45–75 | 70 | 85 |\n| Squash | 60 | 70–95 | 95 | 100 |\n| Tomato | 50 | 60–85 | 85 | 95 |\n| Turnip | 40 | 60–105 | 85 | 105 |\n| Watermelon | 60 | 70–95 | 95 | 105 | [...] | Crop | 32 | 41 | 50 | 59 | 68 | 77 | 86 | 95 | 104 |\n| Asparagus | Little or no germination | Little or no germination | 53 | 24 | 15 | 10 | 11 | 19 | 28 |\n| Bean | Little or no germination | Little or no germination | Little or no germination | 16 | 11 | 8 | 6 | 6 | Little or no germination |\n| Beet | Not tested | 42 | 17 | 10 | 6 | 5 | 4 | 4 | Not tested |\n| Cabbage | Not tested | Not tested | 15 | 9 | 6 | 4 | 3 | Not tested | Not tested | [...] | Parsnip | 171 | 57 | 27 | 19 | 14 | 15 | 32 | Little or no germination | Little or no germination |\n| Pea | Not tested | 36 | 13 | 9 | 7 | 6 | 6 | Not tested | Not tested |\n| Pepper | Little or no germination | Little or no germination | Little or no germination | 25 | 12 | 8 | 8 | 9 | Little or no germination |\n| Radis"
+            },
+            {
+              "url": "https://extension.illinois.edu/blogs/good-growing/2023-01-20-are-my-seeds-still-good-testing-seed-germination",
+              "title": "Are my seeds still good? Testing seed germination | Good Growing | Illinois Extension | Illinois",
+              "description": "As a general rule of thumb, the sum of the temperature (°F) and percent relative humidity (RH) should be less than 100. So, storing seeds at 60°F at 30% RH would be good conditions. While storing seeds at 50°F and 60% RH would lead to reduced seed longevity. [...] 1. Moisten the paper towel and lay it flat\n2. Place 10 (can be more) seeds on the paper towel and fold the towel over the seeds.\n3. Place the paper towel in the plastic bag or container and seal it. This will help keep the paper towel from drying out. Label the container with the plant name and the date planted.\n4. Place the bag in a warm area, like on top of a refrigerator (just don't forget about it). Warmer temperatures (around 70°F) will help speed up the germination process. [...] 4 to 5 Years: basil, broccoli, cabbage, cauliflower, cosmos, cucumber, eggplant, lettuce, nasturtium, oregano, pumpkin, radish, snapdragon, squash, sunflower, tomato, watermelon, and zinnia\n 3 years: bean, carrot, celosia, daisy, peas, poppy, okra, and pepper\n 1 to 2 Years: aster, coneflower, fennel, sage, onion, pansy parsnip, and sweet corn.\n\n## Checking seed germination\n\n### Download the PDF"
+            },
+            {
+              "url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1118-august-27/germination-testing-for-wheat-seed.html",
+              "title": "Germination Testing for Wheat Seed - K-State Agronomy",
+              "description": "Producers testing their seed at home should also pre-chill the wheat by planting it and refrigerating it at about 40 degrees for 5 days."
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 5,
+        "loaded": 5,
+        "sources": [
+          {
+            "url": "https://web.extension.illinois.edu/hortanswers/plantdetail.cfm?PlantID=629&PlantTypeID=9",
+            "canonical_url": "https://web.extension.illinois.edu/hortanswers/plantdetail.cfm?PlantID=629&PlantTypeID=9",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235",
+            "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.oregonstate.edu/catalog/soil-temperature-conditions-vegetable-seed-germination",
+            "canonical_url": "https://extension.oregonstate.edu/catalog/soil-temperature-conditions-vegetable-seed-germination",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.illinois.edu/blogs/good-growing/2023-01-20-are-my-seeds-still-good-testing-seed-germination",
+            "canonical_url": "https://extension.illinois.edu/blogs/good-growing/2023-01-20-are-my-seeds-still-good-testing-seed-germination",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1118-august-27/germination-testing-for-wheat-seed.html",
+            "canonical_url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1118-august-27/germination-testing-for-wheat-seed.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 5,
+      "completed_at": "2026-10-28T05:25:39.712627+00:00"
+    }
+  ],
+  "fetches_reserved": 6,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": false,
+  "status": "new_sources_fetched_requires_original_extraction",
+  "new_sources": 5,
+  "output_sources_sha256": "a7252533f93ba72d9beba13f7cb86bfcb116198a503a3ca3c8a7f07f5cb5d310"
+}

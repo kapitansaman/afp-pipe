@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+      "canonical_url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.psu.edu/calculating-the-price-of-pure-live-seed",
+      "canonical_url": "https://extension.psu.edu/calculating-the-price-of-pure-live-seed",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://plantvillage.psu.edu/topics/pumpkin/infos#!",
+      "canonical_url": "https://plantvillage.psu.edu/topics/pumpkin/infos#!",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.psu.edu/turfgrass-seed-and-seed-mixtures",
+      "canonical_url": "https://extension.psu.edu/turfgrass-seed-and-seed-mixtures",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.psu.edu/oilseed-presses",
+      "canonical_url": "https://extension.psu.edu/oilseed-presses",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pure.psu.edu/en/publications/simulation-of-early-season-herbivory-via-mechanical-damage-affect",
+      "canonical_url": "https://pure.psu.edu/en/publications/simulation-of-early-season-herbivory-via-mechanical-damage-affect/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

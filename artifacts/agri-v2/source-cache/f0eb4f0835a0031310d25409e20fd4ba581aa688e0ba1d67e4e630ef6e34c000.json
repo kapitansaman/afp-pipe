@@ -1,0 +1,413 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/",
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422",
+  "redirect_chain": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/"
+  ],
+  "text": "Cucurbita pepo var. styriaca Seeds: Deep Insights into Polar Lipid Profile - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Foods . 2026 Jun 19;15(12):2215. doi: 10.3390/foods15122215 Cucurbita pepo var. styriaca Seeds: Deep Insights into Polar Lipid Profile Annunziata Paolillo Annunziata Paolillo 1 Dipartimento di Farmacia, Università degli Studi di Salerno, Via Giovanni Paolo II n. 132, 84084 Fisciano, SA, Italy; anpaolillo@unisa.it (A.P.); mmasullo@unisa.it (M.M.) 2 PhD Program in Drug Discovery and Development, Università degli Studi di Salerno, Via Giovanni Paolo II n. 132, 84084 Fisciano, SA, Italy Formal analysis, Investigation, Software, Data curation Find articles by Annunziata Paolillo 1, 2 , Assunta Napolitano Assunta Napolitano 1 Dipartimento di Farmacia, Università degli Studi di Salerno, Via Giovanni Paolo II n. 132, 84084 Fisciano, SA, Italy; anpaolillo@unisa.it (A.P.); mmasullo@unisa.it (M.M.) Writing – original draft, Software, Methodology, Investigation, Data curation, Conceptualization Find articles by Assunta Napolitano 1, * , Francesco Sottile Francesco Sottile 3 Dipartimento di Architettura, Università degli Studi di Palermo, Piazza Marina 61, 90133 Palermo, PA, Italy; francesco.sottile@unipa.it Resources, Validation, Conceptualization Find articles by Francesco Sottile 3 , Milena Masullo Milena Masullo 1 Dipartimento di Farmacia, Università degli Studi di Salerno, Via Giovanni Paolo II n. 132, 84084 Fisciano, SA, Italy; anpaolillo@unisa.it (A.P.); mmasullo@unisa.it (M.M.) Conceptualization, Writing – review & editing Find articles by Milena Masullo 1 , Sonia Piacente Sonia Piacente 1 Dipartimento di Farmacia, Università degli Studi di Salerno, Via Giovanni Paolo II n. 132, 84084 Fisciano, SA, Italy; anpaolillo@unisa.it (A.P.); mmasullo@unisa.it (M.M.) 4 National Biodiversity Future Center (NBFC), 90133 Palermo, PA, Italy Writing – review & editing, Supervision, Funding acquisition, Conceptualization Find articles by Sonia Piacente 1, 4, * Editors: Xin Xu , Baocheng Xu Author information Article notes Copyright and License information 1 Dipartimento di Farmacia, Università degli Studi di Salerno, Via Giovanni Paolo II n. 132, 84084 Fisciano, SA, Italy; anpaolillo@unisa.it (A.P.); mmasullo@unisa.it (M.M.) 2 PhD Program in Drug Discovery and Development, Università degli Studi di Salerno, Via Giovanni Paolo II n. 132, 84084 Fisciano, SA, Italy 3 Dipartimento di Architettura, Università degli Studi di Palermo, Piazza Marina 61, 90133 Palermo, PA, Italy; francesco.sottile@unipa.it 4 National Biodiversity Future Center (NBFC), 90133 Palermo, PA, Italy * Correspondence: anapoli@unisa.it (A.N.); piacente@unisa.it (S.P.) Roles Annunziata Paolillo : Formal analysis, Investigation, Software, Data curation Assunta Napolitano : Writing – original draft, Software, Methodology, Investigation, Data curation, Conceptualization Francesco Sottile : Resources, Validation, Conceptualization Milena Masullo : Conceptualization, Writing – review & editing Sonia Piacente : Writing – review & editing, Supervision, Funding acquisition, Conceptualization Xin Xu : Academic Editor Baocheng Xu : Academic Editor Received 2026 May 6; Revised 2026 Jun 9; Accepted 2026 Jun 16; Collection date 2026 Jun. © 2026 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license . PMC Copyright notice PMCID: PMC13298422 PMID: 42354183 Abstract The edible seeds of pumpkin plants (genus Cucurbita ) are becoming increasingly appreciated as functional foods for their nutritional benefits, medicinal properties, and bioactive compounds, including lipids, proteins, and antioxidants. Particularly, the naked seeds of Cucurbita pepo var. styriaca have proved to yield both an edible oil showing anti-inflammatory properties in treating skin disorders and hydro-alcoholic extracts effective in inhibiting the growth of cancer cells. In this study, a detailed and extensive analysis of the eco-friendly alcoholic extract of the seeds of this variety was accomplished by using LC-HRMSMS techniques, with the main aim to broaden the knowledge on bioactive lipids other than the already reported fatty acids. The obtained results highlighted the occurrence of numerous compounds belonging to different classes of polar and neutral lipids, such as phospholipids, sphingolipids, glycolipids, acylglycerols, and oxylipins. Noteworthily, a significant presence of Cer-(EO)LCBs, i.e., Cer-EOS-type ceramides with different long chain base (LCB) and fatty acid composition, was detected, representing a real novelty for pumpkin. Additionally, a good number of multiflorane-type triterpenoids were detected, only some of which were previously reported in this plant. These findings highlight the nutraceutical value of these edible seeds. Keywords: Cucurbita pepo var. styriaca seeds, polar lipids, sphingolipids, triterpenoids, LC-HRMS/MS analysis 1. Introduction Since the early times of humanity, pumpkin plants, belonging to the genus Cucurbita (Cucurbitaceae family), have been cultivated as a major crop grown in tropical and temperate regions for their economic importance due to their nutritional value. They have also been used worldwide in traditional medicine for their anti-inflammatory, antioxidant, antiviral, and anti-diabetic properties [ 1 , 2 ]. Along with the pulp, the peel and seeds can be utilized for food purposes. In particular, pumpkin seeds, having a rich nutty flavor and chewy texture, once toasted and salted, are consumed in many countries directly as a snack, salad dressing, or breakfast cereal, served as an ingredient in bread or cakes, or used as additives in bakery industries [ 1 , 3 ]. They are an extraordinarily rich source of lipids (among which unsaturated fatty acids, i.e., UFAs), proteins, carbohydrates, fibers, and some essential micronutrients, as well as of bioactive compounds like phenolics, squalene, phytosterols, tocopherols (α, β, γ and δ), tocotrienols, carotenoids, and flavonoids. According to this, pumpkin seeds are gradually attracting attention in large-scale food, pharmaceutical, and cosmetic applications, changing their status nowadays from waste by-products of agro-industrial processes to super-seeds falling into the category of functional foods that may have the ability to establish a positive relationship between health and diet [ 1 , 2 , 3 , 4 , 5 , 6 , 7 ]. In this regard, available literature indicates that total edible oil extracted from pumpkin seeds may exert beneficial effects against benign prostatic hyperplasia (BPH) and could play a potential role in managing metabolic disorders, including diabetes-related conditions [ 8 , 9 ]. Further evidence, largely derived from seed oil fractions or preliminary experimental models, suggests that pumpkin seed oil could be associated with protective effects on cardiovascular health, particularly regarding hypertension and hypercholesterolemia [ 5 , 10 ]. Additionally, when applied topically, total oil extracts have shown potential in supporting skin homeostasis by demonstrating soothing, anti-inflammatory, wound-healing, and photo-protective properties [ 11 , 12 , 13 ]. A prominent example of these matrices is found in Austria, where the special Styrian pumpkin variety ( Cucurbita pepo var. styriaca ), characterized by ‘naked’ or hull-less seeds, has been cultivated for decades. The conditioned, green-colored oil obtained from its seeds is particularly renowned for its unique sensory and optical characteristics, such as a nutty aroma and a distinct dark-green color [ 9 , 14 , 15 ]. Recent studies investigating this total oil suggest potential anti-inflammatory properties upon topical application, exploring its possible use in the management of mild to moderate skin inflammation, including acne-related conditions [ 14 , 16 , 17 ]. Beyond the oil, eco-friendly hydro-alcoholic extracts of pumpkin seeds have also been investigated for their potential biological activities. Specifically, in vitro antiproliferative effects against prostate, breast, and colon cancer cell lines, as well as regulatory effects on hyperplastic cell models, have been reported, providing partial support for the traditional use of pumpkin seeds as a complementary approach in BPH management [ 18 ]. From a chemical-analytical point of view, the most studied lipid class for Styrian pumpkin seeds is represented by free fatty acids, with the predominance of essential fatty acids (FA) like linoleic ω-6 (LA or FA 18:2 n-6) and oleic ω-9 (OA or FA 18:1 n-9) with respect to palmitic (PA or FA 16:0) and α-linolenic ω-3 (ALA or FA 18:3 n-3) [ 9 , 14 , 15 ]. Limited research is currently available on other lipid classes, particularly polar lipids such as phospholipids (PLs), glycolipids (GLs), and sphingolipids (SLs). Beyond simply carrying essential fatty acids, polar lipids are fundamental to cell membrane integrity, cell signaling, regulation of inflammation, and skin barrier function. There is growing scientific interest in these lipids due to their nutritional importance and bioactivities, which include antioxidant, anti-inflammatory, antitumoral, immunomodulatory, and antimicrobial properties [ 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 ]. Thereby, analyzing these lipids could reveal functional health benefits of Cucurbita pepo var. styriaca , moving past standard fatty acid profiles. On the other hand, the technological advances in chromatography and mass spectrometry platforms allowed the establishment of analytical methods able to characterize a wide range of intact lipid molecules occurring in complex samples. Mass spectrometry-based lipidomics has recently advanced the structural and compositional characterization of native lipid profiles within the Cucurbitaceae family. For instance, a recent screening of eleven distinct Cucurbita cultivars has utilized an integrated platform combining gas chromatography (GC), GC-mass spectrometry (GC-MS), and ultra-high-performance liquid chromatography (UPLC) to map the baseline distribution of native fatty acids, sterols, triacylglycerols, and diacylglycerols [ 28 ]. To achieve deeper structural insights into specific lipid classes, complementary liquid chromatography modes have been successfully coupled with tandem mass spectrometry. Specifically, the orthogonal combination of reversed-phase (RPLC-MS/MS) and hydrophilic interaction liquid chromatography (HILIC-MS) has enabled the comprehensive profiling of polar lipids in Cucurbita maxima oily seeds, resolving over 180 phospholipid molecular species across eight distinct classes [ 29 ]. This high-throughput capability has been further exemplified in other Cucurbitaceae species, such as Cucumis melo , where untargeted UHPLC-MS/MS profiling has successfully annotated more than 2500 lipid molecules spanning 7 categories and 47 subclasses, underscoring a prominent structural and storage prevalence of glycerolipids and glycerophospholipids [ 30 ]. Therefore, this paper aims at gaining deep insights that can extend the state of the art on the lipid composition of Styrian pumpkin seeds, including, where possible, unusual subclasses, by analyzing its alcoholic extract obtained using environmentally friendly and low-toxicity food-grade ethyl alcohol, by applying a liquid chromatography coupled to high-resolution tandem mass spectrometry (LC-HRMSMS) method. In this way, highly diagnostic fragmentation spectra for each lipid class were generated, allowing us to assign the chemical formula to each product ion as well as to the precursor molecular ions, obtaining key structural information to explore the depth and breadth of lipid chemical diversity. 2. Materials and Methods 2.1. Plant Sample The seeds of Cucurbita pepo var. styriaca (250 g), obtained from controlled organic cultivation of Styrian pumpkin in Austria, were purchased from Kräuterhaus Sanct Bernhard (Bad Ditzenbach, Germany) in September 2022. Samples were maintained at 4 °C during transport and stored at the same temperature. 2.2. Chemicals Ethanol (absolute, ≥99.8%) for extraction was purchased from VWR International PBI S.r.l. (Milan, Italy). Acetonitrile (≥99.9%), water, and formic acid (≥99.8%) for LC-MS were purchased from VWR International PBI S.r.l. (Milan, Italy). 2.3. Sample Preparation Procedures The pumpkin seeds were manually crushed. The entire procedure was performed using independent extraction replicates (n = 3). An amount of 5 g per replicate was immediately submitted to extraction by maceration with ethanol at room temperature and protected from light (50 mL × 3 days × 3 times, i.e., until the yield of the last extraction was <10%). In order to remove the non-extractable residue, each ethanolic extract was filtered through paper and concentrated under vacuum using a rotary evaporator. The method demonstrated high reproducibility, yielding a mean dry crude extract of 630 ± 4 mg, with an average percentage yield of 12.6% ± 0.08%. The resulting independent extracts were stored in air-tight glass vials at 4 °C for three days and subsequently analyzed separately under identical conditions. 2.4. UHPLC-Q-Orbitrap MS/MS Analysis The ethanolic extracts of the seeds of Cucurbita pepo var. styriaca were analyzed by LC-ESI/HRMS, using a Thermo Ultimate RS 3000 ultrahigh-performance liquid chromatography (UHPLC) system coupled to a Q-Exactive high-resolution mass spectrometer equipped with a hybrid quadrupole-Orbitrap analyzer and HESI II heated electrospray ionization source (Thermo Fisher Scientific, Bremen, Germany), operating in positive and negative ionization modes. In accordance with our laboratory’s well-established chromatographic separation protocols for the analysis of polar lipids [ 19 , 23 , 31 , 32 ], separation was performed using a Symmetry 300 C-4 column (RP-4, 3.5 µm, 2.1 mm × 150 mm; Waters, Milford, MA, USA) held at 30 °C. The mobile phase consisted of 0.1% formic acid in water ( v / v ) as solvent A and 0.1% formic acid in acetonitrile ( v / v ) as solvent B, operating with a linear gradient from 30% to 95% B over 12 min, from 53% to 62% B over 9 min, from 62 to 95% B over 17 min, held at 95% B over 4 min, a flow rate of 0.2 mL/min. The autosampler was set to inject 8 μL of each ethanolic extract (0.5 mg/mL) in triplicate. In order to optimize analysis in both ionization modes, samples were run in separate batches for positive and negative polarities with dedicated HESI source parameters. Specifically, the spray voltage was set to 3.5 kV for positive mode and reduced to 2.5 kV for negative mode to prevent corona discharge. Capillary and probe heater temperatures, along with gas flows, were tailored independently for each batch to maximize desolvation efficiency based on polarity. The final parameters were capillary temperature 320 °C (positive) and 300 °C (negative); sheath gas 50 arbitrary units (a.u.); auxiliary gas 12.50 a.u. (positive) and 10 a.u. (negative); probe heater temperature 300 °C; and S-lens radio frequency (RF) voltage 50 a.u. The MS spectra were acquired in a mass range m / z 150–1400 with a resolution power of 70,000. To obtain HRMS/MS spectra, a “data dependent scan” experiment was performed, in which the first five intense ions in the HRMS spectrum were selected to be subjected to fragmentation, using a normalized collision energy (NCE) of 30 and a resolving power of 17,500. Xcalibur software (version 2.2) was used for instrument control, data acquisition, and data analysis. Metabolite identification was carried out through a manual comparative analysis of accurate precursor masses and MS/MS fragmentation pathways against peer-reviewed scientific literature. To validate the reliability of the qualitative profiling, the compounds were successfully annotated and included in the corresponding Table only if their specific mass spectrometric features and literature-matched criteria were consistently confirmed in all three independent extraction replicates. The validation thresholds were set as follows: an accurate mass error of <5 ppm for precursor ions and the presence of key diagnostic product ions matching literature-reported fragmentation pathways. System precision was established through outstanding retention time stability, with chromatographic behavior showing negligible variation (RSD < 1%) across all injections. 3. Results and Discussion 3.1. LC-HRMS/MS Analysis of the Styrian Pumpkin Seeds In order to study the polar lipids of C. pepo var. styriaca seeds, ethanol was chosen as a safe, eco-friendly solvent, offering a sustainable alternative to toxic chloroform/methanol solvents. Although considered less effective in recovering highly hydrophobic lipids (such as neutral lipids and triacylglycerols), ethanol still extracted them efficiently enough for the study while offering a lower environmental impact. Additionally, ethanol’s high polarity served as a major advantage, effectively capturing highly interesting polar lipid classes, as highlighted by the LC-HRMS/MS analysis. This latter was carried out by using a UHPLC-Q-Exactive system in consideration of its sensitivity, high resolution, high mass accuracy, powerful product ion scanning capability, and ability to give in-depth lipid profile information, operating by both negative and positive electrospray ionizations, in consideration of the different structures and polarities of the lipid classes. Moreover, in order to reduce the strong interactions between the stationary phase and the hydrocarbon skeleton of higher molecular weight lipids, a RP-C4 column instead of a RP-C18 was used, allowing the shortening of retention time of less polar lipid classes, e.g., sphingolipids, and the complete separation of all polar lipid classes in a single chromatographic run. By studying the chromatographic behavior, accurate mass, and fragmentation pattern of each detected ion peak, and by comparing the acquired analytical data with those occurring in the literature, the molecular pool of the Styrian pumpkin variety could be defined as composed of metabolites mainly belonging to five distinct lipid classes, i.e., phospholipids, sphingolipids, glycolipids, oxylipins, and acylglycerols, along with specialized metabolites ascribable to the triterpenoid class ( Figure S1 ). 3.1.1. Phospholipids The largest group among the compounds detectable in Styrian pumpkin seeds was undoubtedly represented by phospholipids, polar lipids being the main constituents of biological membranes and exerting important structural and functional properties [ 23 , 24 ]. Beyond their roles as structural components of cellular membranes, dietary phospholipids (PLs) possess significant nutritional, functional, and health-promoting relevance. Functionally, they act as natural emulsifiers that modulate lipid digestion and transport, while delivering essential fatty acids and choline directly for cellular signaling and membrane fluidity. Furthermore, evidence highlights their therapeutic potential in mitigating hepatic steatosis, improving cognitive function, and attenuating systemic inflammatory responses [ 33 , 34 , 35 ]. They are made up of several distinct moieties and different polar head groups; these latter define the different subclasses of phospholipids, in turn consisting of a mixture of many molecular species containing different combinations of fatty acids at the sn -1 and sn -2 positions on the glycerol backbone. The careful analysis of the tandem mass spectra allowed us to assign each compound to the correct PL subclass by giving information on the nature of the headgroup and allowing us to ascertain the main occurrence of phosphatidylcholines (PCs), phosphatidylethanolamines (PEs), and phosphatidylinositols (PIs) ( Table 1 ). Moreover, phospholipids in which only one of the sn -1/ sn -2 positions of glycerol is fatty acylated, i.e., the lyso-phospholipids (l-PL), were also detectable, all belonging to the previously mentioned PL subclasses, apart from one representative of the lyso-phosphatidic acid (l-PA) subclass ( Table 1 ). Finally, two compounds assignable as N -acylglycerophosphatidylethanolamines (NA-GPEs), i.e., lipid compounds in which the only fatty acid is involved in an amide linkage with the amino head group of glycerophosphoethanolamine, along with three metabolites having the structure of phosphatidylethanols (PEths), i.e., phospholipids deriving from phosphatidic acids in which an ethyl group is located on the phosphate group [ 36 ], were identified ( Table 1 ). As mentioned above, the tandem mass spectrometry technique represents a powerful tool for the lipid study as the fragmentation pathway of the components of each PL subclass allowed to discriminate them, even in the case, e.g., of l-PC/L-PE/NA-GPE and PC/PE, characterized by molecular formulae sharing the same heteroatomic composition (O 7 NP and O 8 NP, respectively) but yielding diagnostic product ions via typical neutral losses in tandem mass experiments. So, for example, the detection of a product ion at m / z 184 (C 5 H 15 O 4 NP) in the positive HRMSMS spectrum was promptly indicative of the phosphocholine head group, whereas the occurrence in negative tandem mass spectra of diagnostic product ions at m / z 214 and 196 (C 5 H 13 O 6 NP and C 5 H 11 O 5 NP, respectively) identified l-PE/PEs, corresponding to the glycero-phosphatidylethanolamine ion and to its mono-dehydrated form, respectively ( Table 1 ). Instead, the occurrence in the negative HRMSMS spectrum of a main product ion originated from the [M-H] − ion by neutral loss of the mono-dehydrated-glycerol moiety (74 Da, C 3 H 6 O 2 ) and corresponding to the phosphorylated N -fatty amide head group ion, promptly identified the NA-GPEs ( Table 1 ). Moreover, in the case of l-PI/PIs, the structural assignment was guided by the detection in the negative tandem mass spectrum of the diagnostic product ion at m / z 241 (C 6 H 10 O 8 P), corresponding to the dehydrated form of the inositol-phosphate. Finally, the occurrence in the negative HRMSMS spectrum of the product ion at m / z 152 (C 3 H 6 O 5 P), due to the mono-dehydrated glycerophosphate, allowed us to ascertain the presence of l-PA, while the detection of the product ion at m / z 125 (C 2 H 6 O 4 P), corresponding to a 2-hydroxyethyl phosphonate, was indicative of a PEth ( Table 1 ). Table 1. Phospholipids tentatively identified in the EtOH extract of C. pepo var. styriaca seeds. Phospholipids N° Compound R t (min) Molecular Formula [M-H] − [(M + HCO 2 H)-H] − RDB ppm [M + H] + RDB ppm HRMS/MS MS Peak Intensity (NL) 3 l-PC (18:2-O2) 8.51 C 26 H 50 O 9 NP 596.3220 3.5 3.23 293.2121 (C 18 H 29 O 3 ); 242.0790 (C 7 H 17 O 6 NP); 224.0701 (C 7 H 15 O 5 NP); 78.9577(O 3 P) 1.79 × 10 5 552.3300 2.5 0.66 184.0734 (C 5 H 15 O 4 NP); 125.0004 (C 2 H 6 O 4 P) 2.18 × 10 5 4 l-PC (18:2-O) 9.18 C 26 H 50 O 8 NP 580.3265 3.5 3.49 520.3049 (C 25 H 47 O 8 NP); 295.2278 (C 18 H 31 O 3 ); 224.0692 (C 7 H 15 O 5 NP) 1.09 × 10 5 536.3351 2.5 0.85 184.0736 (C 5 H 15 O 4 NP); 125.0003 (C 2 H 6 O 4 P) 1.10 × 10 5 6 l-PC (18:0-O2) 10.08 C 26 H 52 O 9 NP 598.3370 2.5 3.18 295.2283 (C 18 H 31 O 3 ) 4.31 × 10 4 554.3459 1.5 1.27 184.0736 (C 5 H 15 O 4 NP) 5.85 × 10 4 7 NA-GPE (18:3) 10.24 C 23 H 42 O 7 NP 474.2631 4.5 3.38 400.2259 (C 20 H 35 O 5 NP); ",
+  "links": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+      "label": "Account settings"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+      "label": "Journal List"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/pdf/foods-15-02215.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+      "label": "PMC Disclaimer"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+      "label": "PMC Copyright Notice"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"Foods\"[jour]",
+      "label": "Search in PMC"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Foods\"[jour]",
+      "label": "Search in PubMed"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"Foods\"[Title%20Abbreviation]",
+      "label": "View in NLM Catalog"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/?term=\"Foods\"[jour]",
+      "label": "Add to search"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Paolillo%20A\"[Author]",
+      "label": "Annunziata Paolillo"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Napolitano%20A\"[Author]",
+      "label": "Assunta Napolitano"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Sottile%20F\"[Author]",
+      "label": "Francesco Sottile"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Masullo%20M\"[Author]",
+      "label": "Milena Masullo"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Piacente%20S\"[Author]",
+      "label": "Sonia Piacente"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42354183/",
+      "label": "42354183"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/table/foods-15-02215-t001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/table/foods-15-02215-t002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=13298422_foods-15-02215-g001.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/figure/foods-15-02215-f001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/table/foods-15-02215-t003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/table/foods-15-02215-t004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13298422/table/foods-15-02215-t005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13298422/bin/foods-15-02215-s001.zip",
+      "label": "foods-15-02215-s001.zip"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37650308/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9182978/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35684166/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7988230/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33777995/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17439238/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16770692/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16758316/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10562325/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37822549/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7548497/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33083301/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11206300/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38931399/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34600364/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26976217/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10598857/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37885660/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36461912/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32208869/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855982/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31147721/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30100414/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5155214/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27966660/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26242691/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20683027/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11816854/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39941947/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40118294/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35447587/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32812570/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3316137/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22221489/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31945391/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18460916/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29751921/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9955488/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36832768/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38518620/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33529031/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8468445/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34572035/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31858168/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32305239/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28407621/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28987914/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14654090/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12716665/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2843598/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20351774/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10844164/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11578803/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18310955/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6271469/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24743937/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4561827/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26374175/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17988089/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+      "label": "NCBI RSS feed"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/web_policies.html",
+      "label": "Web Policies"
+    },
+    {
+      "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "label": "HHS Vulnerability Disclosure"
+    },
+    {
+      "url": "https://support.nlm.nih.gov/",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/accessibility.html",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/careers/careers.html",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/",
+      "label": "NLM"
+    },
+    {
+      "url": "https://www.nih.gov/",
+      "label": "NIH"
+    },
+    {
+      "url": "https://www.hhs.gov/",
+      "label": "HHS"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "fetched_at": "2026-10-28T05:26:09.409981+00:00",
+  "sha256": "20e37929465c7afb9a7e17b8a3e3d94fe59ebbae2b9936b815dcac52abce5dce",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

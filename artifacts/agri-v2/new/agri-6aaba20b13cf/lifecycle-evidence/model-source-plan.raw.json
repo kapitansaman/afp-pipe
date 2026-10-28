@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-6aaba20b13cf",
+  "gap": "No post-rainfall irrigation scheduling rule or soil-moisture-trigger threshold for pumpkin grown for edible seeds (Cucurbita pepo type secalina); the title requires a field-usable decision trigger but the evidence base lacks measured antecedent rainfall or precipitation event analysis paired with subsequent soil moisture states or canopy/transpiration recovery timing.",
+  "queries": [
+    "\"Cucurbita pepo\" seed pumpkin irrigation after rain soil moisture threshold",
+    "pumpkin seed production post-rainfall irrigation scheduling soil water potential"
+  ],
+  "requirements": [
+    {
+      "id": "species_product",
+      "need": "Confirm the English crop label maps to Cucurbita pepo type secalina (seed pumpkin) grown in an open-field context, not winter squash fruit for processing; document the crop system before extracting any irrigation recommendation."
+    },
+    {
+      "id": "exact_reader_method",
+      "need": "Identify the reader's decision trigger: either a post-rainfall re-irrigation interval after a defined precipitation depth/event, or a soil-moisture/soil-water-potential recovery target with explicit measurement method and sensor placement."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Record all observed numeric inputs and outputs with original units: rainfall depth (mm or in), antecedent soil moisture or tension (kPa, % volumetric water content), irrigation timing interval (days), and distinguish crop water use from applied irrigation volume."
+    }
+  ]
+}

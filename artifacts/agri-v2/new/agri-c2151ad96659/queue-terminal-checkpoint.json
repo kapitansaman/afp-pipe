@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-c2151ad96659",
+  "title": "راهنمای ارزیابی کیفیت بذر لوبیا چیتی پیش از خرید و کاشت",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-c2151ad96659",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40637634935"
+  },
+  "bindings": {
+    "topic_sha256": "4887f7d11299ac0a7096d13f1ffa4e9ede1e40cc3d55f7c7704bf886f639c273",
+    "topic_files": {
+      "family-context/40531540832.json": "3cd564beea92ff0fd40c9d5f95de812b7ef6af23b97d5959ef9b0389352535f3",
+      "family-context/40610299326.json": "3cd564beea92ff0fd40c9d5f95de812b7ef6af23b97d5959ef9b0389352535f3",
+      "family-context/40637634935.json": "3cd564beea92ff0fd40c9d5f95de812b7ef6af23b97d5959ef9b0389352535f3",
+      "lifecycle/research_discover/state.json": "ac50f2682027fe488a506377afd8ea950e6ec71fe9401c2bafc3d0c5bacf5e5a",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "40d298891fc4f9b21fd9177792d82bf9aa91f87321404ca3a5c9655d311da160",
+      "lifecycle/research_extract/state.json": "dd50163ce778f058dc425bacbb626da278792595ee8ea6a6c9a9178a1920bf67",
+      "lifecycle/research_refetch/state.json": "ad27daadadb9e5e83405220f992753194012a4a79820b5a9be2cdfcc39d5a03e",
+      "lifecycle/research_sources/state.json": "e8bfeba5464c8c2e16f93fa2679860b413793914f662f35395c47ddeef3321f1",
+      "lifecycle-evidence/candidate-raw.json": "1906c38e8495db284049ff0a63b2b861e2c2828aa398020171edd6889d4a3dc3",
+      "lifecycle-evidence/existing-content.json": "2f47e714e03fb8de298a34b941928b60c436aa075242e5db33194bb3047fd305",
+      "lifecycle-evidence/extraction-feedback.json": "5e1b3e052ec4d89ca25152132dfd063a1cdf16fd9224fde5a4daa4c7ac4c72b6",
+      "lifecycle-evidence/model-source-fetch/source-discovery-report.json": "4a90ad4ffc93e2394eb8b795110da7cfbc45abd0185a9056cf85c0d702c97a47",
+      "lifecycle-evidence/model-source-fetch/source-fetch-report.json": "5dd08d828a2e51a72c1cae5aa0be4ade0b3f44d075b132e73561d1a4fbd78b40",
+      "lifecycle-evidence/model-source-fetch/source-link-fetch-report-2.json": "9f005d9d39b9494a2343a88bbd9763af7ff9ba8063df5589ea71c41596c59859",
+      "lifecycle-evidence/model-source-fetch/source-link-fetch-report.json": "4adca4ec68c16566e14d8ff052aa5288eb5ca0936a66f0b628942de1785c326d",
+      "lifecycle-evidence/model-source-originals/candidate-raw.json": "869123baadf778a85c2cc8130b8e1503a11cefb49c5de2d85e70bc36677ad397",
+      "lifecycle-evidence/model-source-originals/extraction-feedback.json": "cbe2d742980da10a8663f7be7d446b503ef5f7aee224be733fa422c2e4bcb797",
+      "lifecycle-evidence/model-source-originals/source-discovery-report.json": "9a4013f6e622f83dcdca2e6ccbf0c6c89b6b363409a4df0a27c2b64bded08eff",
+      "lifecycle-evidence/model-source-originals/sources.json": "b0c553f9109b73164f78c53928184aa73dba7b34241a3e9ab117144770d4b748",
+      "lifecycle-evidence/model-source-plan.json": "51e55d9380e503c4532425a4c573993e8ea85b9b133427aeec12a1f186b21412",
+      "lifecycle-evidence/model-source-plan.raw.json": "3ad3d7a6487105778d50a5c7dc75339af271335a623ca67c88a7047b8b63e945",
+      "lifecycle-evidence/model-source-refetch.json": "2730500fef4fc0f0e20f44e67f1dcc012e703c5ad3a16e356afd6bba058dd417",
+      "lifecycle-evidence/source-discovery-report.json": "4a90ad4ffc93e2394eb8b795110da7cfbc45abd0185a9056cf85c0d702c97a47",
+      "lifecycle-evidence/source-fetch-report.json": "7c0fd44fa8584340b8f5039e3987eb35ddf8e82d494eb208682a894049343868",
+      "lifecycle-evidence/source-hub-fetch-report.json": "1476bbff279c62ae391247bb9d848b7cf57da6e8ccbed3015811581a1681462e",
+      "lifecycle-evidence/source-link-fetch-report.json": "e397e06bdb72effe730423073a2a090f22c6a38182ab01fcb5ed3d1ab3280338",
+      "lifecycle-evidence/sources.json": "b3caaa39906b4fb2ec6a24a04ce0b0bc6200f19cea9439f2d0fd7257998d1fe3"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T05:25:25.195434+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

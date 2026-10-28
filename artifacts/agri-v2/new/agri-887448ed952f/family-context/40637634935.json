@@ -1,0 +1,17 @@
+{
+  "family_id": "family-14",
+  "topic_id": "agri-887448ed952f",
+  "title": "کاهش تلفات برداشت کدو آجیلی؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
+  "title_sha256": "f06817b6bfb6de295eaf2e9843e39284470a729f879a9b79a5057d24cff27bf5",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY53",
+    "AGNES_API_KEY54",
+    "AGNES_API_KEY55",
+    "AGNES_API_KEY56"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

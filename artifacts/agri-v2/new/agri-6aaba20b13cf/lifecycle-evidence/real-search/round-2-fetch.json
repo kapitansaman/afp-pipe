@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://web.extension.illinois.edu/hortanswers/plantdetail.cfm?PlantID=629&PlantTypeID=9",
+      "canonical_url": "https://web.extension.illinois.edu/hortanswers/plantdetail.cfm?PlantID=629&PlantTypeID=9",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378377419304901",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://barron.extension.wisc.edu/files/2023/02/Growing-Pumpkins-and-other-Vine-Crops-in-Wisconsin.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-026-66955-7",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

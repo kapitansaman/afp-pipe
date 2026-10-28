@@ -1,0 +1,349 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/",
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235",
+  "redirect_chain": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/"
+  ],
+  "text": "[table row] Seeds | Fat: 42.74 ± 0.09 [table row] Seeds | Proteins: 37.67 ± 0.20 [table row] Seeds | Ash: 3.52 ± 0.09 [table row] Seeds | Carbohydrates: 16.07 ± 0.03 [table row] Seeds | Energy: 599.62 ± 0.10 [table row] Seed cake | Fat: 7.62 ± 0.08 [table row] Seed cake | Proteins: 58.58 ± 0.30 [table row] Seed cake | Ash: 5.40 ± 0.05 [table row] Seed cake | Carbohydrates: 28.40 ± 0.20 [table row] Seed cake | Energy: 416.50 ± 0.40 [table row] Student’s t -test p -Value | Fat: <0.001 [table row] Student’s t -test p -Value | Proteins: <0.001 [table row] Student’s t -test p -Value | Ash: <0.001 [table row] Student’s t -test p -Value | Carbohydrates: <0.001 [table row] Student’s t -test p -Value | Energy: <0.001 [table row] C6:0 | Compound Name: caproic acid [table row] C6:0 | Seeds: 0.015 ± 0.001 * [table row] C6:0 | Seed Cake: 0.168 ± 0.006 * [table row] C6:0 | Seed Oil: nd [table row] C8:0 | Compound Name: caprylic acid [table row] C8:0 | Seeds: 0.002 ± 0.001 * [table row] C8:0 | Seed Cake: 0.022 ± 0.001 * [table row] C8:0 | Seed Oil: nd [table row] C10:0 | Compound Name: capric acid [table row] C10:0 | Seeds: 0.006 ± 0.001 * [table row] C10:0 | Seed Cake: 0.011 ± 0.001 * [table row] C10:0 | Seed Oil: nd [table row] C12:0 | Compound Name: lauric acid [table row] C12:0 | Seeds: 0.020 ± 0.001 * [table row] C12:0 | Seed Cake: 0.039 ± 0.001 * [table row] C12:0 | Seed Oil: nd [table row] C14:0 | Compound Name: myristic acid [table row] C14:0 | Seeds: 0.117 ± 0.004 c [table row] C14:0 | Seed Cake: 0.230 ± 0.006 a [table row] C14:0 | Seed Oil: 0.139 ± 0.006 b [table row] C15:0 | Compound Name: pentadecylic acid [table row] C15:0 | Seeds: 0.020 ± 0.001 * [table row] C15:0 | Seed Cake: 0.043 ± 0.001 * [table row] C15:0 | Seed Oil: nd [table row] C16:0 | Compound Name: palmitic acid [table row] C16:0 | Seeds: 12.200 ± 0.040 b [table row] C16:0 | Seed Cake: 13.987 ± 0.400a [table row] C16:0 | Seed Oil: 14.306 ± 0.320 a [table row] C16:1 | Compound Name: palmitoleic acid [table row] C16:1 | Seeds: 0.119 ± 0.004 c [table row] C16:1 | Seed Cake: 0.162 ± 0.001 a [table row] C16:1 | Seed Oil: 0.146 ± 0.001 b [table row] C17:0 | Compound Name: margaric acid [table row] C17:0 | Seeds: 0.094 ± 0.004 b [table row] C17:0 | Seed Cake: 0.092 ± 0.003 b [table row] C17:0 | Seed Oil: 0.104 ± 0.004 a [table row] C18:0 | Compound Name: stearic acid [table row] C18:0 | Seeds: 4.830 ± 0.080 c [table row] C18:0 | Seed Cake: 5.460 ± 0.020 b [table row] C18:0 | Seed Oil: 6.216 ± 0.020 a [table row] C18:1n9c+t | Compound Name: oleic acid [table row] C18:1n9c+t | Seeds: 37.027 ± 0.100 a [table row] C18:1n9c+t | Seed Cake: 36.270 ± 0.020 a [table row] C18:1n9c+t | Seed Oil: 21.950 ± 0.030 b [table row] C18:2n6c | Compound Name: linoleic acid [table row] C18:2n6c | Seeds: 43.890 ± 0.010 b [table row] C18:2n6c | Seed Cake: 41.500 ± 0.300 c [table row] C18:2n6c | Seed Oil: 55.460 ± 0.200 a [table row] C18:3n3 | Compound Name: α-linolenic acid [table row] C18:3n3 | Seeds: 0.242 ± 0.004 c [table row] C18:3n3 | Seed Cake: 0.585 ± 0.001 a [table row] C18:3n3 | Seed Oil: 0.330 ± 0.030 b [table row] C20:0 | Compound Name: arachidic acid [table row] C20:0 | Seeds: 0.359 ± 0.004 c [table row] C20:0 | Seed Cake: 0.400 ± 0.002 a [table row] C20:0 | Seed Oil: 0.394 ± 0.004 b [table row] C20:1 | Compound Name: gondoic acid [table row] C20:1 | Seeds: 0.192 ± 0.001 b [table row] C20:1 | Seed Cake: 0.242 ± 0.005 a [table row] C20:1 | Seed Oil: 0.114 ± 0.001 c [table row] C20:3n3 + C21:0 | Compound Name: heneicosylic and eicosatrienoic acid [table row] C20:3n3 + C21:0 | Seeds: 0.270 ± 0.010 * [table row] C20:3n3 + C21:0 | Seed Cake: 0.154 ± 0.005 * [table row] C20:3n3 + C21:0 | Seed Oil: nd [table row] C20:5n3 | Compound Name: eicosapentaenoic acid [table row] C20:5n3 | Seeds: 0.110 ± 0.010 * [table row] C20:5n3 | Seed Cake: 0.063 ± 0.001 * [table row] C20:5n3 | Seed Oil: nd [table row] C22:0 | Compound Name: behenic acid [table row] C22:0 | Seeds: 0.294 ± 0.009 b [table row] C22:0 | Seed Cake: 0.430 ± 0.020 a [table row] C22:0 | Seed Oil: 0.155 ± 0.003 c [table row] C22:1n9 | Compound Name: docosenoic acid [table row] C22:1n9 | Seeds: 0.048 ± 0.003 * [table row] C22:1n9 | Seed Cake: 0.016 ± 0.001 * [table row] C22:1n9 | Seed Oil: nd [table row] C22:2 | Compound Name: docosadienoic acid [table row] C22:2 | Seeds: nd [table row] C22:2 | Seed Cake: nd [table row] C22:2 | Seed Oil: 0.220 ± 0.020 [table row] C23:0 | Compound Name: tricosylic acid [table row] C23:0 | Seeds: 0.027 ± 0.001 c [table row] C23:0 | Seed Cake: 0.064 ± 0.001 b [table row] C23:0 | Seed Oil: 0.466 ± 0.040 a [table row] C24:0 | Compound Name: lignoceric acid [table row] C24:0 | Seeds: 0.118 ± 0.003 * [table row] C24:0 | Seed Cake: 0.062 ± 0.001 * [table row] C24:0 | Seed Oil: nd [table row] Total SFA (% of total FA) | Compound Name: saturated fatty acids [table row] Total SFA (% of total FA) | Seeds: 18.102 ± 0.030 c [table row] Total SFA (% of total FA) | Seed Cake: 21.048 ± 0.300 b [table row] Total SFA (% of total FA) | Seed Oil: 21.780 ± 0.300 a [table row] Total MUFA (% of total FA) | Compound Name: monounsaturated fatty acids [table row] Total MUFA (% of total FA) | Seeds: 37.412 ± 0.100 a [table row] Total MUFA (% of total FA) | Seed Cake: 36.690 ± 0.010 a [table row] Total MUFA (% of total FA) | Seed Oil: 22.210 ± 0.030 b [table row] Total PUFA (% of total FA) | Compound Name: polyunsaturated fatty acids [table row] Total PUFA (% of total FA) | Seeds: 44.486 ± 0.090 b [table row] Total PUFA (% of total FA) | Seed Cake: 42.262 ± 0.300 c [table row] Total PUFA (% of total FA) | Seed Oil: 56.010 ± 0.200 a Biochemical Composition of Pumpkin Seeds and Seed By-Products - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Plants (Basel) . 2024 Aug 27;13(17):2395. doi: 10.3390/plants13172395 Biochemical Composition of Pumpkin Seeds and Seed By-Products Nikolaos Polyzos Nikolaos Polyzos 1 Laboratory of Vegetable Production, Department of Agriculture, Crop Production and Rural Environment, University of Thessaly, Fytokou Street, 384 46 Volos, Greece; npolyzos@uth.gr Methodology, Validation, Investigation, Data curation, Writing – original draft Find articles by Nikolaos Polyzos 1 , Ângela Fernandes Ângela Fernandes 2 Centro de Investigação de Montanha (CIMO), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal; afeitor@ipb.pt (Â.F.); calhelha@ipb.pt (R.C.C.); iferreira@ipb.pt (I.C.F.R.F.) 3 Laboratório Associado para a Sustentabilidade e Tecnologia em Regiões de Montanha (SusTEC), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal Find articles by Ângela Fernandes 2, 3 , Ricardo C Calhelha Ricardo C Calhelha 2 Centro de Investigação de Montanha (CIMO), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal; afeitor@ipb.pt (Â.F.); calhelha@ipb.pt (R.C.C.); iferreira@ipb.pt (I.C.F.R.F.) 3 Laboratório Associado para a Sustentabilidade e Tecnologia em Regiões de Montanha (SusTEC), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal Methodology, Software, Validation, Formal analysis, Investigation, Data curation Find articles by Ricardo C Calhelha 2, 3 , Jovana Petrović Jovana Petrović 4 Institute for Biological Research “Siniša Stanković”—National Institute of Republic of Serbia, University of Belgrade, Bulevar despota Stefana 142, 11108 Belgrade, Serbia; jovana0303@ibiss.bg.ac.rs (J.P.); mris@ibiss.bg.ac.rs (M.S.) Methodology, Software, Validation, Formal analysis, Investigation, Writing – review & editing Find articles by Jovana Petrović 4 , Marina Soković Marina Soković 4 Institute for Biological Research “Siniša Stanković”—National Institute of Republic of Serbia, University of Belgrade, Bulevar despota Stefana 142, 11108 Belgrade, Serbia; jovana0303@ibiss.bg.ac.rs (J.P.); mris@ibiss.bg.ac.rs (M.S.) Conceptualization, Data curation, Writing – review & editing, Visualization Find articles by Marina Soković 4 , Isabel C F R Ferreira Isabel C F R Ferreira 2 Centro de Investigação de Montanha (CIMO), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal; afeitor@ipb.pt (Â.F.); calhelha@ipb.pt (R.C.C.); iferreira@ipb.pt (I.C.F.R.F.) 3 Laboratório Associado para a Sustentabilidade e Tecnologia em Regiões de Montanha (SusTEC), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal Find articles by Isabel C F R Ferreira 2, 3 , Lillian Barros Lillian Barros 2 Centro de Investigação de Montanha (CIMO), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal; afeitor@ipb.pt (Â.F.); calhelha@ipb.pt (R.C.C.); iferreira@ipb.pt (I.C.F.R.F.) 3 Laboratório Associado para a Sustentabilidade e Tecnologia em Regiões de Montanha (SusTEC), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal Conceptualization, Methodology, Data curation, Writing – review & editing, Visualization, Supervision, Project administration, Funding acquisition Find articles by Lillian Barros 2, 3, * , Spyridon A Petropoulos Spyridon A Petropoulos 1 Laboratory of Vegetable Production, Department of Agriculture, Crop Production and Rural Environment, University of Thessaly, Fytokou Street, 384 46 Volos, Greece; npolyzos@uth.gr Conceptualization, Data curation, Writing – original draft, Writing – review & editing, Visualization, Supervision, Project administration Find articles by Spyridon A Petropoulos 1, * Editor: Maurizio Bruno Author information Article notes Copyright and License information 1 Laboratory of Vegetable Production, Department of Agriculture, Crop Production and Rural Environment, University of Thessaly, Fytokou Street, 384 46 Volos, Greece; npolyzos@uth.gr 2 Centro de Investigação de Montanha (CIMO), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal; afeitor@ipb.pt (Â.F.); calhelha@ipb.pt (R.C.C.); iferreira@ipb.pt (I.C.F.R.F.) 3 Laboratório Associado para a Sustentabilidade e Tecnologia em Regiões de Montanha (SusTEC), Instituto Politécnico de Bragança, Campus de Santa Apolónia, 5300-253 Bragança, Portugal 4 Institute for Biological Research “Siniša Stanković”—National Institute of Republic of Serbia, University of Belgrade, Bulevar despota Stefana 142, 11108 Belgrade, Serbia; jovana0303@ibiss.bg.ac.rs (J.P.); mris@ibiss.bg.ac.rs (M.S.) * Correspondence: lillian@ipb.pt (L.B.); spetropoulos@uth.gr (S.A.P.); Tel.: +351-273330904 (L.B.); +30-2421093196 (S.A.P.) Roles Nikolaos Polyzos : Methodology, Validation, Investigation, Data curation, Writing – original draft Ricardo C Calhelha : Methodology, Software, Validation, Formal analysis, Investigation, Data curation Jovana Petrović : Methodology, Software, Validation, Formal analysis, Investigation, Writing – review & editing Marina Soković : Conceptualization, Data curation, Writing – review & editing, Visualization Lillian Barros : Conceptualization, Methodology, Data curation, Writing – review & editing, Visualization, Supervision, Project administration, Funding acquisition Spyridon A Petropoulos : Conceptualization, Data curation, Writing – original draft, Writing – review & editing, Visualization, Supervision, Project administration Maurizio Bruno : Academic Editor Received 2024 Jul 31; Revised 2024 Aug 17; Accepted 2024 Aug 26; Collection date 2024 Sep. © 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( https://creativecommons.org/licenses/by/4.0/ ). PMC Copyright notice PMCID: PMC11397235 PMID: 39273879 Abstract The goal of the current work was to assess the nutritional profile and phytochemical properties of cucurbit ( Cucurbita maxima L.) seeds, seed oils and oil extraction by-products (e.g., seed-cakes). Our results suggest a high nutritional value for both cucurbit seeds and cucurbit cake, while γ-tocopherol was the richest compound, with traces of α, β and δ-tocopherol compounds also detected. Regarding the free sugars composition, there were recorded significant statistical differences between seeds and cucurbit seed-cake, although sucrose content was the highest for both matrices (1.97 and 2.9 g/100 g dw, respectively) followed by trehalose (0.26 and 0.25 g/100 g dw, respectively), fructose (0.20 and 0.34 g/100 g dw, respectively) and glucose (0.21 and 0.19 g/100 g dw, respectively). In terms of organic acids, oxalic was the only compound detected in seed cake (0.006 g/100 g dw), while in seeds only traces of oxalic and malic acid were detected. In relation to fatty acid composition, linolenic acid was the most abundant compound in both seeds and seed-cake (43.9% and 41.5%, respectively), while oleic acid (37.0% and 36.3%, respectively), palmitic acid (12.2% and 14.0%, respectively) and stearic acid (4.83% and 5.46%, respectively) were detected in lesser amounts. Moreover, polyunsaturated fatty acids (PUFA) were the major fatty acids class (44.5% and 42.3% in seeds and seed cake, respectively) compared to monounsaturated fatty acids (MUFA; 37.4% and 36.7% in seeds and seed cake, respectively) and saturated fatty acids (SFA; 18.1% and 21.0% in seeds and seed cake, respectively) which were detected in lower amounts. Furthermore, the tested extracts did not present any cytotoxic or hepatoxic activity at the maximum tested concentration (GI 50 > 400 μg/mL), while seed oils presented satisfactory antimicrobial properties with inhibitory activity against the studied bacterial strains and fungi. Our findings provide valuable knowledge regarding the exploitation of pumpkin seeds and seed by-products as valuable natural sources of nutrients and phytochemicals in the food industry sector within the context of a circular economy. Keywords: Cucurbita maxima L., seed oils, proximate composition, seed cakes, bioactive properties, fatty acids composition 1. Introduction Pumpkin is a vegetable with functional properties belonging to the Cucurbitaceae family which includes 130 genera and 800 species, while the most commonly used species for commercial cultivation worldwide are Cucurbita maxima L., C. pepo L. and C. moschata Duchesne [ 1 ]. The global production of pumpkin in 2018 surpassed 27.6 million tons from an area of 2.04 million hectares including squash and gourd, while for 2022 the respective values were 22.8 million tons and 1.5 million hectares [ 2 , 3 ]. Common cultivated pumpkin fruits have thicker rind and more dense color but also have less fibrous flesh compared to the wild species; however, fruit characteristics are highly variable among the species and cultivars in terms of shape, size and color depending on the genotype and climate conditions [ 4 ]. The consumption of pumpkins has been known since a long time ago, being significant in human diet especially in countries where their food use is significantly increased because of their widespread cultivation [ 5 ]. Nowadays, pumpkin is acknowledged as a highly consumed fruit vegetable all over the world [ 6 ]. The incorporation of pumpkin fruit into many recipes and dishes, as well as the increasing interest of consumers who seek a healthy lifestyle have highlighted the rich nutritional value and phytochemical characteristics of the species [ 7 , 8 ]. For instance, C. maxima fruit are a rich source of phenolic compounds, carotenoids and terpenoids, which are highly associated with the high antioxidant activity of the plant [ 9 ]. Similarly, pumpkin seeds are considered a valuable source of essential minerals which provide health benefits, and they protect against non-communicable disorders such as cancer, diabetes, hyperglycemia and microbial infections [ 10 , 11 , 12 ]. In the same manner, there are many reports mentioning that the extracts of pumpkin plant tissues could be exploited as an alternative to synthetic medicines against obesity, and can also act as anticancer, antidiabetic and antimicrobial agents [ 13 , 14 , 15 ]. Moreover, although seeds are usually considered a waste product, more and more researchers have shown great interest in exploiting and highlighting their nutritional value and phytochemical profile, whereas recent reports suggest that seeds could be considered as renewable resources with many products being derived from them (e.g., flour, seed meals, seed oils), which could be valorized through their incorporation in other food ingredients or as functional ingredients [ 16 ]. However, so far the lack of knowledge and technological solutions hinders the full exploitation of this valuable by-product [ 17 ]. For that reason, the utilization of waste products through the development of sustainable economic systems and the adoption of a circular economy approach in agri-business has been the main priority of the scientific community during recent years. Therefore, the goal of the present work was to investigate the nutritional and chemical composition, and the bioactivities of raw pumpkin seeds and seed cakes, as well as the chemical and bioactive properties of seed oils focusing on their potential valorization in the food and related industry sectors. 2. Results and Discussion The results of nutritional analysis of seeds and seed cakes of pumpkin are presented in Table 1 . As expected, raw seeds contained significantly higher amounts of fat compared to seed cakes (42.74 g/100 g dw vs. 7.62 g/100 g dw) obtained after the oil extraction process with a screwing press. On the other hand, seed cakes were richer than raw seeds in terms of protein (58.6 g/100 g dw vs. 37.7 g/100 g dw), ash (5.40 g/100 g dw vs. 3.52 g/100 g dw) and carbohydrates content (28.4 g/100 g dw vs. 16.07 g/100 g dw), whereas the energy content was higher for raw seeds mostly due to their higher lipidic content (599.6 kcal/100 g dw and 416.5 g/100 g dw, respectively). Karrar et al. [ 5 ], who determined the nutritional and antioxidant properties of different Cucurbitaceae species from Sudan, reported a proximate composition with values of fat, ash and carbohydrates within the range values as in our study, although they recorded a lower protein content in contrast to the findings of this study which could be mostly attributed to genotypic differences and to differences in the environmental conditions and cultivation conditions. In contrast, Tzortzakis et al. [ 9 ] reported similar values of proteins for Cucurbita seeds which are a rich source of proteins, while the detected amounts of nutrients in our study were similar to the ones suggested by Salehi et al. [ 18 ], except for protein content which varied among the studied species (e.g., Cucurbita pepo , C. moschata and C. maxima ). Moreover, Badr et al. [ 19 ] also suggested significant differences in the nutritional profile of seed flour and defatted seed meal obtained from ripe pumpkin fruits cultivated in Egyptian habitats which had a high content of proteins (35.95 g/100 g dw and 70.15 g/100 g dw, respectively). Leichtweis et al. [ 20 ] suggested a great variability in the nutritional profile of flesh among several genotypes of pumpkin ( Cucurbita sp.) cultivated in Greece under the same conditions as in our study, which is attributed to the high impact of genetic background, growing conditions, pre-harvest and post-harvest practices, as well as the diverse domestication pathways [ 9 , 21 ] and the considerable genetic heterogeneity at the intrapopulational level, due to out-crossing cross-fertility among the species (e.g., interspecific hybrids among C. moschata with C. maxima and C. pepo ) [ 22 ]. Similarly, the rich content of protein detected in the current study indicates the high nutritional value of raw pumpkin seeds which has also been demonstrated by the research of Karanja et al. [ 23 ], who studied the nutritional composition of different pumpkin species (not indicated in the study) cultivated in Kenya. However, a varied protein content may be recorded in seed extracts depending on the extraction protocol and the yield of recovered protein [ 24 ]. Regarding the nutritional profile of seed cake, similar results have also been confirmed by Bhat and Bhat [ 25 ] who tested blended seed sake from fruit cultivated in India (the species is not indicated in the study) and Zdunczyk et al. [ 26 ] who tested seed cakes obtained from the oil pressing industry and ground seeds of C. pepo ; however, due to the large pool of genetic variability in the genus and the hybridization among the species, it is very common to observe differences in nutritional value of pumpkin fruit parts [ 27 ]. Table 1. Nutritive (g/100 g dw) and energetic value (kcal/100 g dw) of the studied pumpkin seeds and seed cake (mean ± SD). Fat Proteins Ash Carbohydrates Energy Seeds 42.74 ± 0.09 37.67 ± 0.20 3.52 ± 0.09 16.07 ± 0.03 599.62 ± 0.10 Seed cake 7.62 ± 0.08 58.58 ± 0.30 5.40 ± 0.05 28.40 ± 0.20 416.50 ± 0.40 Student’s t -test p -Value <0.001 <0.001 <0.001 <0.001 <0.001 Open in a new tab Significant differences ( p < 0.001) between samples were assessed by Student’s t -test. The tocopherol profile of the studied pumpkin samples (seeds and seed cake) is described in Table 2 . All the isoforms of vitamin E were detected in both matrices in varied amounts, while total tocopherols content was richer in raw seeds ( Figure S1 ) than in the seed cake (6.96 g/100 g dw and 1.18 g/100 g dw, respectively). γ-Tocopherol was the most abundant tocopherol (6.59 g/100 g dw and 1.07 g/100 g dw in seeds and seed cake, respectively) followed by α, β and δ-tocopherol in varied amounts in seeds and seed cake. In particular, in the case of seeds, α-tocopherol was the second richest compound followed by δ- and β-tocopherol, while in seed cake β-tocopherol was detected in high amounts followed by α- and δ-tocopherols. High tocopherol content is a desirable quality parameter due to its pivotal role in protection against oxidative stress and the development of chronic diseases as well as its beneficial health effects [ 5 ]. The findings of our work are in total accordance with the results of Kim et al. [ 28 ], who also reported a high content of γ- and δ-tocopherol in Cucurbita species (e.g., C. pepo , C. moschata , C. maxima ) cultivated in Korea, although the same authors did not identify β- and δ-tocopherol in the fruit parts (flesh, peel seed) of any species. By contrast, Stevenson et al. [ 29 ] indicated that the seed oil of 12 pumpkin cultivars ( C. maxima Duchesne) cultivated in Iowa state (USA) contained large amounts of δ-tocopherol, followed by γ- and α-tocopherol, while they suggested a significant impact of the genotype on tocopherols composition. Similar results were suggested by Rezig et al. [ 30 ], who also identified δ-tocopherol as the main vitamin E isoform in the seed oil of C. maxima fruit, while they also detected significant amounts of both γ- and α-tocopherol. The results of the work of Rabrenović et al. [ 31 ] were in the same line as in our work, since the authors detected high content of β- and γ-tocopherol and lower content of α- and δ-tocopherol in the seed oil obtained from naked seeds and the seed husk of different pumpkin hybrids and cultivars ( C. pepo ) cultivated in Hungary or obtained from commercial products from Serbia, while similar findings were suggested by Sing",
+  "links": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+      "label": "Account settings"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+      "label": "Journal List"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/pdf/plants-13-02395.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+      "label": "PMC Disclaimer"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+      "label": "PMC Copyright Notice"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Search in PMC"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Search in PubMed"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"Plants%20(Basel)\"[Title%20Abbreviation]",
+      "label": "View in NLM Catalog"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Add to search"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Polyzos%20N\"[Author]",
+      "label": "Nikolaos Polyzos"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Fernandes%20%C3%82\"[Author]",
+      "label": "Ângela Fernandes"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Calhelha%20RC\"[Author]",
+      "label": "Ricardo C Calhelha"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Petrovi%C4%87%20J\"[Author]",
+      "label": "Jovana Petrović"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Sokovi%C4%87%20M\"[Author]",
+      "label": "Marina Soković"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Ferreira%20ICFR\"[Author]",
+      "label": "Isabel C F R Ferreira"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Barros%20L\"[Author]",
+      "label": "Lillian Barros"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Petropoulos%20SA\"[Author]",
+      "label": "Spyridon A Petropoulos"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39273879/",
+      "label": "39273879"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/table/plants-13-02395-t001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/table/plants-13-02395-t002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/table/plants-13-02395-t003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/table/plants-13-02395-t004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/table/plants-13-02395-t005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397235/table/plants-13-02395-t006/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11397235/bin/plants-13-02395-s001.zip",
+      "label": "plants-13-02395-s001.zip"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7395168/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32821404/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31353657/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26033409/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4802890/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27000847/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12445672/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20603772/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9739767/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36500462/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31230355/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28917590/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33002826/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10633538/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9182978/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35684166/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3296918/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22413037/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17439238/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17594521/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6819838/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31687561/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867545/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29494522/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22936573/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139218/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30245714/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8017459/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33504684/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38951376/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26976217/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2950378/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20931075/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4325009/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25694712/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31174767/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31998909/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37535858/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22014996/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6259430/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21030907/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+      "label": "NCBI RSS feed"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/web_policies.html",
+      "label": "Web Policies"
+    },
+    {
+      "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "label": "HHS Vulnerability Disclosure"
+    },
+    {
+      "url": "https://support.nlm.nih.gov/",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/accessibility.html",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/careers/careers.html",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/",
+      "label": "NLM"
+    },
+    {
+      "url": "https://www.nih.gov/",
+      "label": "NIH"
+    },
+    {
+      "url": "https://www.hhs.gov/",
+      "label": "HHS"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "fetched_at": "2026-10-28T05:25:38.997181+00:00",
+  "sha256": "921943b8d006a6ea71998334172ce4d9c0e2e5edf286b8d5d6e8c3d4eb582881",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

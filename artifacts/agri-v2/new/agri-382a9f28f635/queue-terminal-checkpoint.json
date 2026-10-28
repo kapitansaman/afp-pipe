@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-382a9f28f635",
+  "title": "عمق کاشت بذر کدو آجیلی در خاک سبک و سنگین؛ خطاهای رایج",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-382a9f28f635",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40637634935"
+  },
+  "bindings": {
+    "topic_sha256": "f2e8f20b3255833f1dc2307299962b7dd5fa676051625a47ad8fdefe26acdc1a",
+    "topic_files": {
+      "family-context/40531540832.json": "35d1a9692be497eee90c4d4b711dce4ee22023709990e5d5e3619c152cdd15ee",
+      "family-context/40610299326.json": "35d1a9692be497eee90c4d4b711dce4ee22023709990e5d5e3619c152cdd15ee",
+      "family-context/40637634935.json": "35d1a9692be497eee90c4d4b711dce4ee22023709990e5d5e3619c152cdd15ee",
+      "lifecycle/research_discover/state.json": "9732ceb1d77e941bb7b8e98a246557bb0d23a8aa2622b05757a91d8f95d0390d",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "cca6f023d2d16713e5535779f5fe85b5a40dbcda06c0a03a92c4d1e093e0d7f5",
+      "lifecycle/research_extract/state.json": "e6eb97730e05d666faa8e071412756bd84dc1cbda6519a4b6f3f8621a60e014f",
+      "lifecycle/research_refetch/state.json": "65f15cc4c4656e87c766aa7c403904a9d75de6b95cf02e4946ba887e69a1503a",
+      "lifecycle/research_sources/state.json": "24305654c8ae2ebac834c76221ffbd0ee4f05d5a11821a052dd2e42881e03687",
+      "lifecycle-evidence/candidate-raw.json": "9cd10c4a7ec0c2d4e222c197e16aafa8836873eec5e894b92c874cf41e5d4758",
+      "lifecycle-evidence/existing-content.json": "6cf86ec9e50c126f87d0ff002654828f6511d5c8344eb21bdc07ad68ef74fa6b",
+      "lifecycle-evidence/extraction-feedback.json": "3fe1878e174f152111c2159efc818162be7144d9077f893cd5545c8c736e615d",
+      "lifecycle-evidence/model-source-fetch/source-discovery-report.json": "cc2c30ae5ee02b88a7a1f21720198eed606f14d4c8ddfce3098b790e2e7412ee",
+      "lifecycle-evidence/model-source-fetch/source-fetch-report.json": "e71ac69569b6d34c91faad77c3016eeb5e6c92594fa2bc27fc891f99b87ef134",
+      "lifecycle-evidence/model-source-fetch/source-link-fetch-report-2.json": "bb9bc9d613a0aabb4dc141b13fc8f27549ca10ae4a895078c68ad7fd5de57bae",
+      "lifecycle-evidence/model-source-fetch/source-link-fetch-report.json": "f3e98dcfcc3aaa7e25154c18817c34ed38e0be7ef784d9fc85a53032c7375d13",
+      "lifecycle-evidence/model-source-originals/candidate-raw.json": "0ed43e4de1dc9b130f98f2d4e643f6035a00ccd2ca9275f1b40f1598570028a8",
+      "lifecycle-evidence/model-source-originals/extraction-feedback.json": "2b40b2e4a4c6023f86d253da24f5c52066f55510446349f739de679691a093dd",
+      "lifecycle-evidence/model-source-originals/source-discovery-report.json": "9039f50aed512b7dbfa2f9c439f22554777f60cdc0daedac49b0e966e548d11f",
+      "lifecycle-evidence/model-source-originals/sources.json": "bb4d2ab216a53023c7ebab32e353e917c05942e8bb12aa957cc3fe4f2cb3998b",
+      "lifecycle-evidence/model-source-plan.json": "30f2e0769aec165bbe8ad1c5855e9f4a1769172254c10f111c88ecf190bb4439",
+      "lifecycle-evidence/model-source-plan.raw.json": "c5f97e6bf166d1af0f191faea15a9094937f8885058299fce79a49c1ce8d8db5",
+      "lifecycle-evidence/model-source-refetch.json": "57af7c7f4d14a09a166ebce38e638d08db8c2185730c02cd0aecd3b24dfbd8af",
+      "lifecycle-evidence/source-discovery-report.json": "cc2c30ae5ee02b88a7a1f21720198eed606f14d4c8ddfce3098b790e2e7412ee",
+      "lifecycle-evidence/source-fetch-report.json": "9fd3bc0fb7e393af92355058238421c18c8ec3835d55a0893fedc73632745d62",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3c41cc8d977f4808b67da68862c49b9574e5c8eb33c36cc4a080b42b835b12ed",
+      "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+      "lifecycle-evidence/sources.json": "2eeb8867533e69854dec3e9e5df54e67523f7bb8670324255e619b5f3e709124"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T05:25:51.226496+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

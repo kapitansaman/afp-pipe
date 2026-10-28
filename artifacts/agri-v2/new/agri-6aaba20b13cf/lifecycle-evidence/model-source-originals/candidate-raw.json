@@ -1,0 +1,14 @@
+{
+  "topic_id": "agri-6aaba20b13cf",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "کدو آجیلی (Cucurbita pepo / C. maxima seeds harvested from mature fruit)",
+  "slug": "rain-adjust-irrigation-seed-pumpkin-after-precipitation",
+  "outline": [
+    "هدف و دامنه: تصمیم‌گیری پس از بارندگی برای کدو آجیلی",
+    "شکاف شواهد: عدم وجود معیار سنجش رطوبت خاک یا وضعیت تاکم پس از باران در منابع fetched",
+    "حدود کاربرد منابع موجود: توصیه‌های عمومی آبیاری قطره‌ای و حجم هفتگی بدون مرجع تصمیم‌پس‌ازباران",
+    "نیاز به بازبینی متخصص: منبع ترویجی/دانشگاهی متناسب با intent rain_adjust و محصول دانه‌ای"
+  ],
+  "facts": []
+}

@@ -1,0 +1,36 @@
+{
+  "requested": 5,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://ucanr.edu/site/uc-marin-master-gardeners/document/pumpkin",
+      "canonical_url": "https://ucanr.edu/site/uc-marin-master-gardeners/document/pumpkin",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://datcp.wi.gov/Documents/mk_fc_81web.pdf",
+      "canonical_url": "https://datcp.wi.gov/Documents/mk_fc_81web.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+      "canonical_url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://directives.nrcs.usda.gov/sites/default/files2/1720627450/Chapter%201%20-%20Soil-Plant-Water%20Relationships.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    }
+  ]
+}

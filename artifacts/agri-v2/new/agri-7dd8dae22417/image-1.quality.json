@@ -1,0 +1,53 @@
+{
+  "image_sha256": "42a9452c118819842b7846ab229dbffedeee4708e39c0d56cd1c44ad10fa2b42",
+  "contract_sha256": "fb0ec73a0357830eceaf2c7039d8512ea4ef5178271eb985046f46f357a32a0b",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 1,
+  "topic_id": "agri-7dd8dae22417",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T05:33:04.397235+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 86,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": true,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 15,
+    "reasons": [
+      "CRITICAL: crop_stage_match failed — the scene depicts chili/pepper plants (Capsicum) with characteristic pointed red and green peppers growing on branching stems. The article specifies common bean (Phaseolus vulgaris, لوبیا قرمز) with trifoliate leaves and bean pods showing seed bulges. These are fundamentally different crops; the visual evidence is a pepper field, not a bean field.",
+      "CRITICAL: topic_evidence_match failed — the article is about selecting red kidney bean varieties for farming. The illustration instead shows a pepper/chili crop, which is a materially false visual claim contradicting the topic. Green leaves with red peppers ≠ bean pods with seed bulges.",
+      "The AFP secondary carton identity, phone label, packaging closure, and physical geometry appear correct and plausible.",
+      "No hardware is present as required by hardware_required=false; no invented filter/valve/pipe assembly detected."
+    ]
+  }
+}

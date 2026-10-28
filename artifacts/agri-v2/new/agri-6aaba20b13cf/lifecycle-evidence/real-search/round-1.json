@@ -1,0 +1,119 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T05:25:25.520868+00:00",
+  "queries": [
+    {
+      "query_id": "b3dbf638b258f00cc4f0b344e720db8f319d62ba354ca311e3760262a6cdd874",
+      "query": "\"Cucurbita pepo\" seed pumpkin irrigation after rain soil moisture threshold",
+      "cached": false,
+      "checked_at_epoch": 1793165142.17658,
+      "results": [
+        {
+          "url": "https://ucanr.edu/site/uc-marin-master-gardeners/document/pumpkin",
+          "title": "Pumpkin | UC Marin Master Gardeners",
+          "description": "### Planting\n\nPumpkins do not do well in high heat and humidity. Choose a sunny spot with at least six hours of full sun. Directly seed one inch deep, in a four to six inch flat-topped mound, using three seeds per mound. When direct seeding or planting starts, irrigate beds deeply prior to planting. Keep beds moist during seed germination. When plants are three inches tall, thin to one plant per mound.\n\n### Soil Requirements [...] Prior to planting, apply water to one foot depth to insure deep rooting. Regularly replace water lost in the top one to two inches of soil. Even watering is key. Like tomatoes, pumpkin is susceptible to blossom end rot caused by uneven watering that leads to calcium deficiency. In cooler microclimates, depending upon soil type and weather, cease irrigation in mid-August to hasten ripening.\n\n### Fertilizing [...] Home\n\nHome\n\npumpkin\n\nUC Marin Master Gardeners\n\nDocument\n\n# Pumpkin\n\nPrint\n\n Marin\n UC Master Gardener Program\n Gardening\n Food Growing And Gardening\n Pumpkin\n\nScientific Name  \nCucurbita pepo\n\n## General Information\n\nImage\n\npumpkin\n\nPhoto: Marius Ciocirlan, Unsplash\n\nPumpkin is a winter squash that grows from a flower. It is a fruit, but it is us"
+        },
+        {
+          "url": "https://datcp.wi.gov/Documents/mk_fc_81web.pdf",
+          "title": "Pumpkins, Squash, and Gourds",
+          "description": "Cucurbits are native to North and South America. Most pumpkins, squash, and gourds belong to one of three species of Cucurbits: Cucurbita pepo, Cucurbita maxima, or Cucurbita moschata. A plant called ‘pumpkin’ can be either Cucurbita pepo, Cucurbita maxima, or Cucurbita moschata. Each species is a little different from the others. Table A lists the plants, their species, and the countries where the plants are native. Pumpkins, squash, and gourds are warm season annual crops. They have two types [...] Drip irrigation works very well under a black plastic mulch system. Drip irrigation saves water. Mulch can help keep moisture in the soil. Pumpkin, squash, and gourd crops grow new roots at the place where a leaf and stem touch soil. Mulch that is too thick will stop this root from growing. 12 Irrigation Weed Management You must control weeds to grow a good crop of pumpkins, squash, and gourds. Weeds take water, nutrients, space, and light away from your crop. [...] Plant seeds or transplants in the field after the last spring frost and when the soil temperature is at least 60°F.\nThese crops grow best at temperatures of 65-75°F at night and 75-86°F daytime. Seeds sprout fastest at 85°F"
+        }
+      ]
+    },
+    {
+      "query_id": "7d92acacf5dd1ee47c67468aedd4e338732cf69ae1921b36604c3bb007fffc65",
+      "query": "pumpkin seed production post-rainfall irrigation scheduling soil water potential",
+      "cached": false,
+      "checked_at_epoch": 1793165144.5825741,
+      "results": [
+        {
+          "url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+          "title": "Soil, Water and Crop Characteristics Important to Irrigation Scheduling | NC State Extension Publications",
+          "description": "As a plant extracts water from the soil, the amount of PAW remaining in the soil decreases. The amount of PAW removed since the last irrigation or rainfall is thedepletion volume. Irrigation scheduling decisions are often based on the assumption that crop yield or quality will not be reduced as long as the amount of water used by the crop does not exceed the allowable depletion volume. [...] Irrigation scheduling is simply knowing when to irrigate and how much irrigatzon water to apply. An effective irrigation schedule helps to maximize profit while minimizing water and energy use. The following factors contribute to developing a workable and efficient irrigation schedule:\n\n soil properties\n soil-water relationships\n type of crop and its sensitivity to drought stress\n stage of crop development\n availability of a water supply\n climatic factors such as rainfall and temperature. [...] The pore volume is actually a reservoir for holding water. Not all of the water in the reservoir is available for plant use. Figure 3 represents a \"wet\" (saturated) soil immediately after a large rainfall. Note that all of the pores are filled with water. Gravity will pull some of this water down through"
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+          "title": "Soil-water basics for irrigation scheduling",
+          "description": "Available water holding capacity (AWC) –The amount of water that soil can store to be extracted by the plant. It is the water held between field capacity and permanent wilting point.  \n   \n Management allowable depletion (MAD) –The soil water content where crops begin to experience water stress. Usually, most of the crop do not experience water stress before 40-60% of AWC has removed.  \n   \n Soil water deficit –The amount of water removed by the crop from active rooting depth. [...] Soil water deficit can be monitored directly using soil moisture sensors or indirectly by estimating crop water use (evapotranspiration) and using water-balance equation. [...] Different soil types have different AWC. For example, as shown in Figure 2, coarse soils, such as sands and sandy loam, have relatively large pores when compared to a finer textured soil such as clay. Fine soils, like clays or clay loams, have small mineral particles and very small pores. Having a larger number of small pores means that a fine textured soil can hold more water than a coarse textured soil. For irrigation scheduling, whenever the soil water deficit is equal to or higher than MAD,"
+        },
+        {
+          "url": "https://directives.nrcs.usda.gov/sites/default/files2/1720627450/Chapter%201%20-%20Soil-Plant-Water%20Relationships.pdf",
+          "title": "Irrigation Soil-Plant-Water Relationships",
+          "description": "to represent FC. No rainfall occurred during the growing season, and the crop was not irrigated. By harvest, some soil water was extracted at total water potential lower than PWP at depths shallower than 160 centimeters. Limited root growth in the lower parts of the profile, however, resulted in some water that was held at greater than -15 bars being unused by harvest time. Soil Water Measurement The measurement of water stored in soils and the capacity of soils to store water are important. [...] in order to make the proper calculations. Figure 1-30 illustrates the components of a field water balance. Both rainfall and imgation water are stored in the soil; therefore, the effective plant root zone provides a a reservoir for water storage. In order to determine effectively the capacity of the reservoir, information is required for the water retaining properties of the soils and the root develop- ment characteristics of the individual crops. A reliable estimate of the potential ET or ETo [...] a single yield-ET function in the absence of specific toxic ions that manifest yield loss on their own. Figure 1-25. The production function provides a useful means of ana- lyzing water-produc"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 5,
+    "loaded": 4,
+    "sources": [
+      {
+        "url": "https://ucanr.edu/site/uc-marin-master-gardeners/document/pumpkin",
+        "canonical_url": "https://ucanr.edu/site/uc-marin-master-gardeners/document/pumpkin",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://datcp.wi.gov/Documents/mk_fc_81web.pdf",
+        "canonical_url": "https://datcp.wi.gov/Documents/mk_fc_81web.pdf",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+        "canonical_url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+        "canonical_url": "https://blog-crop-news.extension.umn.edu/2019/01/soil-water-basics-for-irrigation.html",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://directives.nrcs.usda.gov/sites/default/files2/1720627450/Chapter%201%20-%20Soil-Plant-Water%20Relationships.pdf",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      }
+    ]
+  },
+  "fetches_reserved": 5,
+  "coverage": {
+    "topic_id": "agri-6aaba20b13cf",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document identifies Cucurbita pepo type secalina (seed pumpkin/kachi) or distinguishes seed-pumpkin open-field cultivation from fresh-market fruit pumpkin production. s0 and s1 describe fruit/jack-o-lantern/cooking pumpkins; neither addresses seed-pumpkin crop system."
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document provides a post-rainfall re-irrigation decision trigger for pumpkin (interval after a defined precipitation depth/event) or a soil-moisture/soil-water-potential recovery target with explicit measurement method and sensor placement. s2 and s3 give generic scheduling theory; s1 gives only a weekly ~1 inch baseline and Wilting-observation cue without post-rain methodology."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document reports rainfall depth (mm or in), antecedent soil moisture or tension (%VWC or kPa), re-irrigation timing interval after rain, or a separation of crop water use from applied irrigation volume specific to seed pumpkin. s1 states 1 inch/week total water need but does not quantify rainfall contribution, soil-moisture targets, or tension thresholds."
+      }
+    ],
+    "next_queries": [
+      "Cucurbita pepo type secalina seed pumpkin irrigation scheduling after rainfall open field",
+      "pumpkin soil moisture sensor threshold irrigation scheduling post-rain re-irrigation interval"
+    ]
+  },
+  "completed_at": "2026-10-28T05:26:14.367514+00:00"
+}

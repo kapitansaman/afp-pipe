@@ -1,0 +1,30 @@
+{
+  "requested": 4,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/03/predicting-alfalfa-winter-survival.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2024/03/predicting-alfalfa-winter-survival.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropsandsoils.extension.wisc.edu/articles/understanding-alfalfa-winterkill-what-to-watch-for/",
+      "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/understanding-alfalfa-winterkill-what-to-watch-for/",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/corn/managing-the-rotation-from-alfalfa-to-corn",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/corn/managing-the-rotation-from-alfalfa-to-corn",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-insects-what-to-look-for-and-how-to-scout",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-insects-what-to-look-for-and-how-to-scout",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

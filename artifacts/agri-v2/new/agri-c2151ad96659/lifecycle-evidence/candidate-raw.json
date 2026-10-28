@@ -2,9 +2,42 @@
   "topic_id": "agri-c2151ad96659",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": null,
-  "slug": null,
-  "outline": [],
-  "facts": [],
-  "insufficiency_reason": "The title requires a practical guide for evaluating pinto dry bean (Phaseolus vulgaris L.) seed quality before purchase and planting, including quality assessment criteria such as germination testing, physical purity, seed-borne disease screening, and size/weight standards. The only directly relevant source (d0, Iowa State University Extension dry bean guide) discusses general planting practice, market-class selection, and post-harvest handling/storage quality — but it does not provide any procedure or criteria for evaluating seed quality before purchase or planting. It mentions only that certified high-quality seed should be selected and that bin-run dry beans may carry bacterial blight; no testing thresholds, germination percentages, purity standards, or diagnostic criteria are given."
+  "product_definition": "لوبیا چیتی (پینتو) — Phaseolus vulgaris L., بازار خشک (dry edible bean market class)",
+  "slug": "pinto-dry-bean seed quality evaluation guide",
+  "outline": [
+    "شرح موضوع و شکاف شواهد",
+    "چه شواهدی وجود دارد (محدود)",
+    "چه شواهدی نیاز است اما موجود نیست"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "منابع موجود فقط راهنمای عمومی پرورش لوبیا خشک هستند و هیچ آزمون کیفیتی پیش از خرید ارائه نمی‌دهند.",
+      "conditions": "منبع d0: راهنمای مزرعه‌ای Extension آیوا؛ اقلیم ایالات متحده؛ محصول لوبیا خشک Phaseolus vulgaris L.؛ هدف معرفی بازار و مدیریت کشت — نه ارزیابی کیفیتی بذر",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در منابع اشاره شده که انتخاب بذر باکیفیت گواهی‌شده از بیماری‌های بذربروز جلوگیری می‌کند.",
+      "conditions": "منبع d0-e12: توصیه کلی «انتخاب بذر باکیفیت گواهی‌شده» برای پیشگیری از بیماری‌های باکتریایی بذربروز; بدون آستانه عددی، روش آزمون یا معیار کیفیتی",
+      "evidence_id": "d0-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "استفاده از دانه‌های ظرفیتی (bin-run) برای بذردانی توصیه نمی‌شود زیرا ممکن است ناقل بیماری باشند.",
+      "conditions": "منبع d0-e12: هشدار کیفی درباره بذربری بیماری‌ها از طریق دانه‌های ظرفیتی; فاقد معیار سنجش، درصد مجاز یا روش غربالگری",
+      "evidence_id": "d0-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ظاهر دانه و تمیزی پس از برداشت بر قیمت نهایی اثر می‌گذارد.",
+      "conditions": "منبع d0-e13: اشاره به اهمیت ظاهری دانه در قیمت‌گذاری بازار لوبیا خشک ایالات متحده — ربطی به ارزیابی کیفیتی پیش از کاشت ندارد",
+      "evidence_id": "d0-e13",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "عنوان نیازمند «راهنمای ارزیابی کیفیت بذر لوبیا چیتی پیش از خرید و کاشت» شامل آزمون‌های عملی مانند درصد جوانه‌زنی، خلوص فیزیکی، غربالگری بیماری‌های بذربروز، و استانداردهای اندازه/وزن دانه است. منابع موجود (Iowa State University Extension dry bean guide, d0-e0 تا d0-e19) فقط راهنمای کشت عمومی لوبیا خشک Phaseolus vulgaris L. هستند و هیچ روش، آستانه عددی، پروتکل آزمایشگاهی یا چک‌لیست کیفیتی برای ارزیابی بذر پیش از خرید ارائه نمی‌دهند. تنها موارد موجود: (1) توصیه کلی انتخاب بذر گواهی‌شده باکیفیت برای پیشگیری از بیماری باکتریایی (d0-e12)، (2) هشدار درباره استفاده از دانه‌های ظرفیتی (bin-run) (d0-e12)، (3) اشاره به اهمیت ظاهر دانه در قیمت‌گذاری (d0-e13). هیچ‌کدام شامل معیار کمی، روش آزمون یا معادل ایرانی نیستند. بنابراین answers_intent=false."
 }

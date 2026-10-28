@@ -1,0 +1,54 @@
+{
+  "image_sha256": "752962347b7267c8a066459e44b89ddc050c883ca7f5ad6501b51f3e6af7551d",
+  "contract_sha256": "fb0ec73a0357830eceaf2c7039d8512ea4ef5178271eb985046f46f357a32a0b",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 1,
+  "topic_id": "agri-7dd8dae22417",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T05:29:02.071651+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 76,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": false,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 38,
+    "reasons": [
+      "CRITICAL - crop_stage_match: The image shows tall pepper/chili plants with palmate compound leaves and elongated red and green pepper fruits, NOT red kidney beans (Phaseolus vulgaris). The brief explicitly specifies 'not pepper plants or chili fruit' and requires low branching plants with trifoliate leaves and bean pods with seed bulges.",
+      "CRITICAL - topic_evidence_match: The article topic is about selecting red kidney bean varieties (لوبیا قرمز). The visual evidence shows pepper plants, creating a materially false topical claim.",
+      "CRITICAL - product_scale_match: The AFP carton occupies roughly 0.35-0.40 of frame width, exceeding the specified product_frame_width interval of [0.18, 0.23]. The carton appears oversized relative to the scene scale.",
+      "COSMETIC - role_camera_match: Role 1 requires an 'elevated wide crop-dominant overview' but the image is shot from near-ground eye level with the carton dominating the foreground rather than the crop rows.",
+      "Product identity and packaging quality are correct: AFP Drip Irrigation Tape carton matches the reference, phone label is correct, no protruding materials, no people, no added text."
+    ]
+  }
+}

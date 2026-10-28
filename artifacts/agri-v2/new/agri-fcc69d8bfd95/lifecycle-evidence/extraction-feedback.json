@@ -1,8 +1,54 @@
 {
   "topic_id": "agri-fcc69d8bfd95",
-  "candidate_sha256": "5cbed0df554beb14783ec5151486145b0f06f2971e959a4e0bffef8a15ce73a1",
+  "candidate_sha256": "3e1303e24fa4a16bf9b36c7019cad2a4b56a6356300eef0e72d86872505d8b41",
   "scientific_approval": false,
-  "errors": [],
+  "errors": [
+    {
+      "fact_index": 1,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "برای ارقام بوچگی (عمدتاً C. pepo) با فاصله ۶۰ تا ۱۲۰ سانتی‌متری در ردیف‌های ۱ تا ۱٫۵ متری، نرخ بذر ۳ کیلوگرم در هکتار برای کدو و ۷ کیلوگرم در هکتار برای کدو تابستانی گزارش شده است.",
+        "conditions": "منبع: PlantVillage/PSU؛ محصول: کدو/Cucurbita pepo؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha",
+        "evidence_id": "d0-e5",
+        "numeric_bindings": [
+          {
+            "value": "3",
+            "unit_quote": "3 kg/ha",
+            "geographic_scope": "عمومی",
+            "product_scope": "کدو (pumpkin)"
+          },
+          {
+            "value": "7",
+            "unit_quote": "7 kg/ha",
+            "geographic_scope": "عمومی",
+            "product_scope": "کدو تابستانی (summer squash, C. pepo)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e5",
+        "source_url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+        "quote": "t acid reaction (pH 5.5 to 7). They are drought-tolerant, require relatively little water, and are sensitive to waterlogging. Excessive humidity is harmful because of the development of leaf diseases, so none of the species do well in the humid tropics. Growing from Seed Pumpkins and squashes are grown from seed. Seeds may be sown in containers and transplanted to the field when they are 10 cm high. Direct seeding of 2 to 3 seeds per hill is commonly practiced. Trailing types are planted at distances of 2-3 m either way; the seed requirement is 2 to 3 kg/ha. The bushy types (mainly C. pepo) are planted closer, for example, plants spaced 60 to 120 cm in rows 1 to 1.5 m apart; the seed requirement is 3 kg/ha for pumpkin and 7 kg/ha for summer squash (C. pepo). Do not use seeds from plants where edible pumpkins and ornamental gourds are grown close together. Offspring will be bitter or even"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "محاسبات خالص‌بودن و جوانه‌زنی بذر (PLS) به‌صورت فرمول درصد بذر خالص ضرب‌در درصد جوانه‌زنی تقسیم بر ۱۰۰ تعریف شده و برای جبران کاهش کیفیت بذر، نرخ کاشت تعدیل می‌شود.",
+        "conditions": "منبع: Penn State Extension (turfgrass)؛ محصول: توضیح روش PLS – شامل گیاهان مرتعی؛ جغرافیا: Pennsylvania, USA",
+        "evidence_id": "d1-e1",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d1-e1",
+        "source_url": "https://extension.psu.edu/calculating-the-price-of-pure-live-seed",
+        "quote": " percentage of pure seed of a cultivar, which should always be listed on the seed label, is multiplied by the percent germination (also listed on the seed label), and the product is divided by 100. For example, 92% pure seed of the cultivar x 80% germination / 100 = 74% PLS. To determine how much seed to plant, divide 100 by the percentage PLS (74% in this case). Thus, in this example, 100/74 = 1.4. Thus, 1.4 pounds of seed with a purity of 92% and a germination of 80% would be needed for each pound specified in the desired seeding recommendation. One way of determining if seed with low purity and germination is really a good buy is to divide the PLS into 100 then multiply by the cost of the seed. A comparison of two seedlots (A and B) is provided as an example. 'Seedlot A' label states 85% purity and 60% germination Assume Seedlot A is sold at the reduced price of $1.95 per pound and yo"
+      }
+    }
+  ],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "منابع موجود روش محاسبه نرخ بذر بر هکتار بر پایه جمعیت هدف نشاء و درصد جوانه‌زنی را ارائه نمی‌دهند. منبع د3 (Virginia Tech) عمق کاشت (0.5 تا 1.0 اینچ) و فواصل ردیفی حدود 6 اینچ و فاصله بوته‌ای 3 تا 8 فوت را توصیف می‌کند و وزن هزار دانه را ~200 گرم ذکر می‌کند، اما هیچ فرمول مستقیم «تعداد بذر در هکتار = جمعیت هدف ÷ درصد جوانه‌زنی» یا هدف جمعیتی تعیین‌شده بر هکتار را صریح نیاورده است. منابع د4 (Alabama)، د5 (Illinois) و د3 نیز همگی به فاصله‌بندی میوه/قلم‌مو می‌پردازند نه به نرخ بذر اصلاح‌شده با قوه نامیه. بنابراین روش کمی خواسته‌شده در عنوان ثابت نشده است."
+  "declared_insufficiency": "مستندات حاضر نرخ بذر خام پایه برای کدو رونده و بوچگی را ارائه می‌دهد اما روش محاسبه تعدیل‌شده بر پایه درصد جوانه‌زنی و خلوص بذر را به‌طور مشخص برای کدو آجیلی (seed-purpose Cucurbita) پوشش نمی‌دهد. بخش‌های مربوط به PLS و جوانه‌زنی تنها در بافت مرتع‌سازی (turfgrass) و برای چمن‌ها ذکر شده‌اند و هیچ منبع دانشگاهی مستقیماً فرمول محاسبه نرخ بذر کدو آجیلی با احتساب تراکم و درصد جوانه‌زنی را تأیید نکرده‌اند."
 }

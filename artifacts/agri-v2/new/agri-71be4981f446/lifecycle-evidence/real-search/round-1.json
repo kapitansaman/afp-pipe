@@ -1,0 +1,117 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T05:25:18.226336+00:00",
+  "queries": [
+    {
+      "query_id": "09b7ad81897fdc216354864aa444e34e008a8f6edbdef5028674770a7820ab23",
+      "query": "pre-harvest yield estimation sampling method pumpkin seeds university extension",
+      "cached": false,
+      "checked_at_epoch": 1793165146.9263887,
+      "results": [
+        {
+          "url": "https://extension.umd.edu/resource/crop-estimation",
+          "title": "Crop Estimation - UMD Extension - University of Maryland",
+          "description": "Apr 30, 2021 — Select a random sample area (e.g. 5% of field/cultivar), count the vines in that area, and multiply by the appropriate number (e.g. 5% = 20).Read more"
+        },
+        {
+          "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+          "title": "Sampling techniques for measuring and forecasting crop yields",
+          "description": "The first is the short period just prior to harvest called pre-harvest (after physiological maturity) when the problem is limited to developing appropriate sampling and estimation techniques, as forecasting is not involved.\nThese techniques were discussed earlier under the general heading of crop cutting. [...] 2.7.3 Yield Estimation Model The yield models are the same as those used for acreage, except the independent variable is now a vector of four channel values.\nThe estimation of the yield for a county or any small area was achieved through a double-sampling regression estimator using the LANDSAT data and a probability sample of fields for the large area comprising the LANDSAT frame. [...] It is hoped that a broad exposure to yield determination techniques and their data requirements will assist agricultural program managers in choosing a suitable yield estimation method, or, at least, in narrowing the alter-natives to be considered.\nThe usefulness of the various techniques will also be dependent on other factors, such as: the crop, length of growing season, environment, and date the information on yields is needed."
+        }
+      ]
+    },
+    {
+      "query_id": "1b4495d4b3ea813d836a9aa617a43c528833df5472e1cd7165f06d19560bc08d",
+      "query": "oilseed pumpkin field sampling protocol quadrat weight measurement before harvest",
+      "cached": false,
+      "checked_at_epoch": 1793165149.6217196,
+      "results": [
+        {
+          "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/stelprdb1044175.pdf",
+          "title": "SAMPLING VEGETATION ATTRIBUTES",
+          "description": "Sampling was conducted in an area of 50 m x 100 m with a quadrat size of 1 m x 5 m. sample can be obtained quickly. reduces both sampling and training time."
+        },
+        {
+          "url": "https://www.globe.gov/documents/14016/113318009/1a_VegetationSampling.pdf/574b9ee4-305e-a175-4ec4-420092ce7387?t=1693494038609%27",
+          "title": "Vegetation Sampling Plot Sizes and Shapes",
+          "description": "should be located randomly within a study site. Large quadrats with many plants may require two or more people to obtain an accurate census, while one person may be sufficient for smaller plots or those with sparse vegetation. Rectangular quadrats Small rectangular quadrat frames can be fabricated before going into the field. Using these frames insures that the sample sizes will be the same from sample area to sample area and from one sampling day to another. See Appendix XX for instructions on [...] below for what this looks like. These rectangles make up a grid for your study area. Each rectangle segment of the resulting grid is a potential location for a quadrat. Number all the grid rectangles. Pick your quadrat locations by selecting from their numbers at random (if the number is small, you could pick the numbers out of a container without replacement). To actually find these quadrat locations in the field, use the procedure described for the grid system (see Using Random Numbers for [...] for instructions on how to make a sampling frame. Frames don't work well with quadrats of large size. In these cases, rudimentary surveying is needed to mark the quadrat boundary. First mark "
+        },
+        {
+          "url": "https://archive.epa.gov/water/archive/web/html/oh1plant.html",
+          "title": "Sampling Methods and Analysis: Vascular Plants | Monitoring & Assessment | US EPA",
+          "description": "\"Our solution to the problems of scale and spatial auto-correlation is to adopt a modular approach to plot layout, wherein all measurements are made in plots comprised of one or more 10 x 10m quadrats or \"modules\" (100 m2 = 1 are = 0.01 hectare). The module size and shape were chosen to provide a convenient building block for larger plots, and because a body of data already exists for plots of some multiple of this size. The square shape is efficient to lay out, ensures the observation is [...] the observation is typical for species interactions at that scale of observation, and avoids biases built into methods with distributed quadrats or high perimeter-to-area ratios.\" [...] Finally, data on standing biomass for emergent wetlands is collected. This data can be used in several ways. Biomass production in emergent wetlands dominated by herbaceous vegetation is estimated by harvesting 900 cm2 quadrats in each wetland. The quadrats are located within the intensive modules of each plot. The plants within each quadrat are cut at the soil surface and placed into paper bags. In the lab, plants are oven dried at 105 °C for at least 24 hours, and then weighed."
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 5,
+    "loaded": 2,
+    "sources": [
+      {
+        "url": "https://extension.umd.edu/resource/crop-estimation",
+        "canonical_url": "https://extension.umd.edu/resource/crop-estimation",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/stelprdb1044175.pdf",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://www.globe.gov/documents/14016/113318009/1a_VegetationSampling.pdf/574b9ee4-305e-a175-4ec4-420092ce7387?t=1693494038609%27",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://archive.epa.gov/water/archive/web/html/oh1plant.html",
+        "canonical_url": "https://archive.epa.gov/water/archive/web/html/oh1plant.html",
+        "redirect_hops": 0,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 5,
+  "coverage": {
+    "topic_id": "agri-71be4981f446",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [],
+        "missing": "Neither document addresses pumpkin (کدو آجیلی) yield estimation or clarifies whether the target is whole fruit yield prior to seed extraction or cleaned/dried seed yield."
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document specifies field sampling technique for pumpkin — quadrat dimensions, sample plant count, timing relative to maturity, or fruit/seed measurement protocol for کدو آجیلی."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document provides a dimensionally correct yield-estimation formula with named inputs and units (e.g., kg/ha, g/plant) specifically for pumpkin pre-harvest sampling, nor its geographic or growth-stage scope."
+      }
+    ],
+    "next_queries": [
+      "pumpkin (Cucurbita pepo var. styriaca) pre-harvest yield estimation field sampling method quadrat",
+      "oilseed pumpkin seed yield prediction before harvest sampling technique growth stage"
+    ]
+  },
+  "completed_at": "2026-10-28T05:26:05.288184+00:00"
+}

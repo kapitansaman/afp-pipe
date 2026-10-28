@@ -1,0 +1,52 @@
+{
+  "image_sha256": "1ec3dc402da462bccf7dee2e2587b16621bc3441e899a2846732396024d3de5a",
+  "contract_sha256": "f2842e121cd6a83ce2cae49b6ea25b6fa2da40f153c7a72b1ea30efff77563b9",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-7dd8dae22417",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T05:34:51.099061+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 81,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 32,
+    "reasons": [
+      "crop_stage_match: FAIL — The scene is specified for red kidney bean (لوبیا قرمز / Phaseolus vulgaris), but the plants bear red elongated tapering pods resembling chili/pepper fruit. Red kidney beans have red SEEDS, not red fleshy pods; the pod morphology is botanically wrong for the named crop.",
+      "topic_evidence_match: FAIL — The visible crop is not recognizable as red kidney bean; the red elongated pods are a materially false visual claim for the stated topic.",
+      "role_camera_match: cosmetic — The image uses a side-level perspective with visible horizon and vanishing-point furrows, whereas the brief requires a near-overhead tight detail with no horizon."
+    ]
+  }
+}

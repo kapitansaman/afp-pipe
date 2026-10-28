@@ -1,0 +1,67 @@
+{
+  "topic_id": "agri-ed19dd100ebc",
+  "candidate_sha256": "6ec1d9313d7b562a6bccf580e147c45e250b18646a0c563e63d82ad2eefa50b3",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "پیش از کاشت، آزمایش pH خاک در دو لایه ۰ تا ۸ اینچ (سطح) و ۸ تا ۱۵ اینچ (زیرسطح) ضروری است.",
+        "conditions": "منطقه: آلاباما؛ محصول: یونجه; واحد: soil sampling depth; محدودیت: پیش از کاشت",
+        "evidence_id": "d1-e8",
+        "numeric_bindings": [
+          {
+            "value": "8",
+            "unit_quote": "surface (0 to 8 inches)",
+            "geographic_scope": "Alabama, southeastern United States",
+            "product_scope": "soil sampling for alfalfa establishment"
+          },
+          {
+            "value": "15",
+            "unit_quote": "subsoil (8 to 15 inches)",
+            "geographic_scope": "Alabama, southeastern United States",
+            "product_scope": "soil sampling for alfalfa establishment"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e8",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": "ies from the National Alfalfa and Forage Alliance at www.alfalfa.org . Alfalfa can be planted in monocultures or mixed stands with grasses, such as bermudagrass. In the Southeast, there has been a growing interest in alfalfa- bermudagrass systems because of the complementary growth pattern of alfalfa with bermudagrass (figures 1 and 2), the similarity in site selection for successful stands, and the ability of alfalfa to contribute nitrogen (N) and improve the nutritive value of the system. Figure 1. Alfalfa ‘Bulldog’ 805 stands in late spring in south Alabama. Figure 2. Alfalfa-bermudagrass mixtures in summer in south Alabama. Forage Establishment Before planting, test soil pH and fertility. Take the soil sample at a 15-inch depth dividing the soil profile into two layers, surface (0 to 8 inches) and subsoil (8 to 15 inches). Because of its deep tap root system, alfalfa explores the sub"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "pH سطحی مطلوب برای استقرار یونجه بین ۶٫۵ تا ۷٫۰ و pH زیرسطح حدود ۵٫۵ گزارش شده است.",
+        "conditions": "منطقه: آلاباما؛ محصول: یونجه; واحد: pH scale; محدودیت: استقرار بذر",
+        "evidence_id": "d1-e9",
+        "numeric_bindings": [
+          {
+            "value": "6.5",
+            "unit_quote": "soil pH ... should range from 6.5 to 7.0 on the soil surface",
+            "geographic_scope": "Alabama, southeastern United States",
+            "product_scope": "alfalfa establishment soil pH"
+          },
+          {
+            "value": "5.5",
+            "unit_quote": "around 5.5 on subsoil",
+            "geographic_scope": "Alabama, southeastern United States",
+            "product_scope": "alfalfa establishment subsoil pH"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e9",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": " the soil profile into two layers, surface (0 to 8 inches) and subsoil (8 to 15 inches). Because of its deep tap root system, alfalfa explores the subsoil layer, which may require pH correction at a greater depth than most commonly grown forages. Based on the results, apply recommended lime and phosphorus (P) and potassium (K) fertilizers to guarantee proper conditions for seed germination and establishment success. Soil pH is particularly important for alfalfa establishment and should range from 6.5 to 7.0 on the soil surface and be around 5.5 on subsoil. A lime application must be done at least 6 months before planting to allow for soil incorporation and, in some cases, could take multiple applications/years to correct. If subsoil pH remains acidic, the application of gypsum (CaSO4) can be an alternative to help neutralize it. Adequate levels of boron (B) and molybdenum (Mo) are essent"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "عنوان درباره علل عدم جوانه‌زنی بذر یونجه (دمای جوانه‌زنی، رطوبت بستر و تشکیل سله خاک) است. مجموعه شواهد دسترسی‌یافته شامل راهنمای استقرار یونجه (آلاباما) و مقالات برداشت/مدیریت زمستانه است و هیچ‌یک محدوده دمایی جوانه‌زنی، آستانه رطوبت خاک برای بارورسازی بذر، یا روش‌های پیشگیری/شکستن سله خاک را به‌صورت مستقیم گزارش نکرده‌اند. بنابراین پاسخ به نیت «جوانه‌زنی» با این مجموعه منبع امکان‌پذیر نیست."
+}

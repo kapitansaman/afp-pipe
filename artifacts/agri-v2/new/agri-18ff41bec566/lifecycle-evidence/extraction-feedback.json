@@ -1,8 +1,25 @@
 {
   "topic_id": "agri-18ff41bec566",
-  "candidate_sha256": "c1c2e59bbeff00fc99e08532a568fd8e8f43a2cb823c920efe478791d1eefab1",
+  "candidate_sha256": "6a46dba8c99ac6f467d92e22e26a8a96407ab03d8e882760bc9c6c9b22028d26",
   "scientific_approval": false,
-  "errors": [],
-  "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "منابع fetched هیچ‌یک روش پایش رطوبت خاک، محل نصب، عمق کاشت یا انتخاب حسگر (gravimetric، TDR، FDR، tensiometer و غیره) را برای کدو آجیلی یا Cucurbita ارائه نمی‌دهند. منابع موجود تنها به‌صورت کلی به استفاده از آبیاری قطره‌ای (drip irrigation/fertigation)، آبیاری عمیق و نادر (deep and infrequent irrigation)، و زمان‌بندی کاهش آبیاری نزدیک برداشت اشاره دارند؛ هیچ‌کدام شامل معیارهای نصب حسگر، عمق ریشه، نقطه پژمردگی یا آستانه رطوبت هدف نیستند. بنابراین پاسخ به پرسش دقیق عنوان (انتخاب محل و عمق حسگر) فاقد شواهد مستقیم است و نیازمند جستجوی مستقل منابع ترویجی/دانشگاهی مرتبط با soil moisture sensing in pumpkin seed production می‌باشد."
+  "errors": [
+    {
+      "fact_index": 3,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "نصب حسگرها معمولاً ۲۰ تا ۳۰ روز پس از کاشت انجام می‌شود.",
+        "conditions": "زمان‌بندی نصب حسگر رطوبت خاک پس از کاشت محصول زراعی. منبع: Auburn Extension — مراحل نصب. تاریخ یا بازهٔ پیشنهادی مستقل از گونهٔ محصول اعلام شده است.",
+        "evidence_id": "d2-e6",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d2-e6",
+        "source_url": "https://www.aces.edu/blog/topics/crop-production/installation-of-soil-sensors-for-irrigation-scheduling/",
+        "quote": "ap will show the waterways where sensor installation should be avoided. The yellow dots in figure 4 (bottom) indicate locations that avoid waterways, access roads, and the first and last spans of the center pivot, while those in figure 4 (top) indicate a predominant soil texture for the field. Soil Sensor Installation Process Following are key aspects to sensor installation: Select a location that represents the majority of the crop growing conditions on the field. Install the sensor in between two plants within the crop row. During sensor installation, avoid damaging the plants that will be in close proximity to the sensor. Ensure there is good sensor-to-soil contact. Avoid air pockets between the soil and the sensor. Avoid installing the sensor in a waterway. Check manufacturer’s instructions for installation; some sensors, especially soil matric potential-based sensors, must be placed"
+      }
+    }
+  ],
+  "candidate_error": "number_absent_from_literal_source",
+  "declared_insufficiency": null
 }

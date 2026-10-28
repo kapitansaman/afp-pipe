@@ -1,8 +1,73 @@
 {
   "topic_id": "agri-c2151ad96659",
-  "candidate_sha256": "77413312385431474f262a49b85f5598d933a40d926eb9b76302a6d1e43c299c",
+  "candidate_sha256": "f6ed6fd858497205a49e5c2f62918bc20f8f0187c174a401145e7faa21ba5ab0",
   "scientific_approval": false,
-  "errors": [],
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "منابع موجود فقط راهنمای عمومی پرورش لوبیا خشک هستند و هیچ آزمون کیفیتی پیش از خرید ارائه نمی‌دهند.",
+        "conditions": "منبع d0: راهنمای مزرعه‌ای Extension آیوا؛ اقلیم ایالات متحده؛ محصول لوبیا خشک Phaseolus vulgaris L.؛ هدف معرفی بازار و مدیریت کشت — نه ارزیابی کیفیتی بذر",
+        "evidence_id": "d0-e0",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e0",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+        "quote": "[page 1] DRY EDIBLE BEANS A High Value Alternative Legume Overview Dry edible beans, or field beans, come in a wide variety of market classes, including kidney bean, navy bean, pinto bean and black bean. These beans, although differing in seed size and color, are all just different types of a single species, Phaseolus vulgaris L. Originally domesticated in Central and South America over 7,000 years ago, dry beans moved their way northward through Mexico and spread across most of the continental U.S. These beans were commonly grown with corn and sometimes squash. Now, instead of the Native American practice of planting dry beans and squash right among corn plants, a different bean, soybean from China, has found its place with corn. The other key difference, of course, is that our modern corn and soybean crops primarily feed livestock, instead of being strictly for human food like the old "
+      }
+    },
+    {
+      "fact_index": 1,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "در منابع اشاره شده که انتخاب بذر باکیفیت گواهی‌شده از بیماری‌های بذربروز جلوگیری می‌کند.",
+        "conditions": "منبع d0-e12: توصیه کلی «انتخاب بذر باکیفیت گواهی‌شده» برای پیشگیری از بیماری‌های باکتریایی بذربروز; بدون آستانه عددی، روش آزمون یا معیار کیفیتی",
+        "evidence_id": "d0-e12",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e12",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+        "quote": "s can be prevented by an IPM approach to controlling the insect vectors, such as white flies, that can introduce the virus. Disease control strategies to use with dry beans include selecting resistant varieties, rotating crops, and scouting for white flies or aphids that can introduce a disease. Avoiding poorly drained soils can also help prevent fungal diseases. Bacterial blights, which are seed borne, may be avoided by selecting only certified, high quality seed; using bin run dry beans for seed is not recommended, since they may carry blight or other diseases. *Pesticides mentioned as being labeled in this publication are based on reference lists published in the Thomson Publications “Quick Guide” on crop pesticides, 2002 edition. These lists are believed to be accurate, but given the changing nature of pesticide registrations, labels and relevant government pesticide regulations shou"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "استفاده از دانه‌های ظرفیتی (bin-run) برای بذردانی توصیه نمی‌شود زیرا ممکن است ناقل بیماری باشند.",
+        "conditions": "منبع d0-e12: هشدار کیفی درباره بذربری بیماری‌ها از طریق دانه‌های ظرفیتی; فاقد معیار سنجش، درصد مجاز یا روش غربالگری",
+        "evidence_id": "d0-e12",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e12",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+        "quote": "s can be prevented by an IPM approach to controlling the insect vectors, such as white flies, that can introduce the virus. Disease control strategies to use with dry beans include selecting resistant varieties, rotating crops, and scouting for white flies or aphids that can introduce a disease. Avoiding poorly drained soils can also help prevent fungal diseases. Bacterial blights, which are seed borne, may be avoided by selecting only certified, high quality seed; using bin run dry beans for seed is not recommended, since they may carry blight or other diseases. *Pesticides mentioned as being labeled in this publication are based on reference lists published in the Thomson Publications “Quick Guide” on crop pesticides, 2002 edition. These lists are believed to be accurate, but given the changing nature of pesticide registrations, labels and relevant government pesticide regulations shou"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "ظاهر دانه و تمیزی پس از برداشت بر قیمت نهایی اثر می‌گذارد.",
+        "conditions": "منبع d0-e13: اشاره به اهمیت ظاهری دانه در قیمت‌گذاری بازار لوبیا خشک ایالات متحده — ربطی به ارزیابی کیفیتی پیش از کاشت ندارد",
+        "evidence_id": "d0-e13",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e13",
+        "source_url": "https://www.extension.iastate.edu/alternativeag/files/documents/drybean_crop_guide.pdf",
+        "quote": "lists are believed to be accurate, but given the changing nature of pesticide registrations, labels and relevant government pesticide regulations should be checked before applying any herbicide or other pesticide. Harvest and Storage Bush-type cultivars can be harvested with the same equipment as soybeans. Flexible cutter bars are helpful in getting closer to the soil, since dry beans tend to have pods very close to the ground. Rotary combines reportedly do a good job with dry beans. There are specialized dry bean combines available that have two cylinders made to get good seed cleaning without seed breakage. It is important to keep in mind that dry bean seed appearance is very important to the price obtained for the crop. Besides the normal seed cleaning, dry beans may need to be polished using tumbling drums or other devices to obtain full value. Both swathing and direct combining are "
+      }
+    }
+  ],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "The title requires a practical guide for evaluating pinto dry bean (Phaseolus vulgaris L.) seed quality before purchase and planting, including quality assessment criteria such as germination testing, physical purity, seed-borne disease screening, and size/weight standards. The only directly relevant source (d0, Iowa State University Extension dry bean guide) discusses general planting practice, market-class selection, and post-harvest handling/storage quality — but it does not provide any procedure or criteria for evaluating seed quality before purchase or planting. It mentions only that certified high-quality seed should be selected and that bin-run dry beans may carry bacterial blight; no testing thresholds, germination percentages, purity standards, or diagnostic criteria are given."
+  "declared_insufficiency": "عنوان نیازمند «راهنمای ارزیابی کیفیت بذر لوبیا چیتی پیش از خرید و کاشت» شامل آزمون‌های عملی مانند درصد جوانه‌زنی، خلوص فیزیکی، غربالگری بیماری‌های بذربروز، و استانداردهای اندازه/وزن دانه است. منابع موجود (Iowa State University Extension dry bean guide, d0-e0 تا d0-e19) فقط راهنمای کشت عمومی لوبیا خشک Phaseolus vulgaris L. هستند و هیچ روش، آستانه عددی، پروتکل آزمایشگاهی یا چک‌لیست کیفیتی برای ارزیابی بذر پیش از خرید ارائه نمی‌دهند. تنها موارد موجود: (1) توصیه کلی انتخاب بذر گواهی‌شده باکیفیت برای پیشگیری از بیماری باکتریایی (d0-e12)، (2) هشدار درباره استفاده از دانه‌های ظرفیتی (bin-run) (d0-e12)، (3) اشاره به اهمیت ظاهر دانه در قیمت‌گذاری (d0-e13). هیچ‌کدام شامل معیار کمی، روش آزمون یا معادل ایرانی نیستند. بنابراین answers_intent=false."
 }

@@ -1,0 +1,57 @@
+{
+  "image_sha256": "72c0412b666f212fb071e487c696a3a21ce4afdc1537f160d84d140b9ec1adbc",
+  "contract_sha256": "f2842e121cd6a83ce2cae49b6ea25b6fa2da40f153c7a72b1ea30efff77563b9",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-7dd8dae22417",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T05:36:05.631423+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 62,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match",
+        "package_separate_from_plumbing",
+        "packaging_closed_no_protruding_material"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": false,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": false,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": false,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 22,
+    "reasons": [
+      "crop_stage_match FAILED: Scene DATA specifies common bean (Phaseolus vulgaris) with trifoliate leaves and bean pods. The image shows CHILI/PEPPER plants with red peppers — a completely different species, biologically incorrect for the brief.",
+      "topic_evidence_match FAILED: The market-class title is about red kidney bean selection, but the visual evidence depicts chili plants. This is a materially false topical claim that cannot be dismissed as illustrative variation.",
+      "packaging_closed_no_protruding_material FAILED: White drip tape is clearly protruding from the AFP carton core and running across the scene — the carton is not a self-contained closed package.",
+      "package_separate_from_plumbing FAILED: Drip tape emerges directly from the carton and extends across the soil surface; no empty physical gap surrounds the carton as required.",
+      "product_scale_match FAILED: The AFP carton occupies roughly 0.35+ of frame width, exceeding the specified max of 0.23 × frame_width.",
+      "role_camera_match: Described as 'near-overhead tight detail' but the image uses a side-angle perspective with a visible vanishing-point horizon line — cosmetic mismatch only."
+    ]
+  }
+}

@@ -1,72 +1,105 @@
 {
   "topic_id": "agri-4e351a4fbdee",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "بذر کدو آجیلی (seed from Cucurbita spp. cultivated for edible seeds)",
-  "slug": "pumpkin-edible-seed-quality-evaluation",
+  "product_definition": "بذر خوراکی کدو آجیلی",
+  "slug": "seed-quality-evaluation-edible-seed-pumpkin",
   "outline": [
-    "جمع‌آوری بذر و مرحله رسیدن میوه برای بذر",
-    "شست‌وشو و خشک کردن بذر",
-    "شناسایی کیفی گونه و نوع بذر",
-    "محدودیت‌های انتقال و پرهیز از جایگزینی"
+    "تعریف محصول و دامنه ارزیابی",
+    "شرایط دانه‌کاری و بستر مناسب",
+    "آزمایش‌های کیفی صلاحیت بذر",
+    "محدودیت‌ها و خطاهای انتقال"
   ],
   "facts": [
     {
       "kind": "qualitative",
-      "claim": "بذر کدو و کدو تنبل زمستانه حدود شانزده هفته پس از گرده‌افشانی به بلوغ می‌رسد؛ در این مرحله پوست میوه سخت شده و رنگ آن تغییر می‌کند.",
-      "conditions": "منبع: دانشگاه ایالتی ویرجینیا (Virginia Tech، US)؛ محصول: میوه کامل کدو/کدو زمستانه پیش از برداشت بذر؛ جغرافیا: ایالات متحده",
-      "evidence_id": "d2-e12",
+      "claim": "برای ارزیابی کیفیت بذر کدو آجیلی پیش از خرید، معیار کیفی اصلی درصد جوانه‌زنی و سلامت ظاهری بذرهاست.",
+      "conditions": "محصول: بذر کدو آجیلی (Cucurbita spp. grown for edible seeds); جغرافیا: منبع دانشگاهی ایالات متحده; واحد: درصد جوانه‌زنی",
+      "evidence_id": "d3-e3",
       "numeric_bindings": []
     },
     {
       "kind": "qualitative",
-      "claim": "انواع سبز هنگام بلوغ بذر به رنگ زرد-نارنجی و انواع زرد-طلایی به رنگ کاهی تبدیل می‌شوند.",
-      "conditions": "منبع: دانشگاه ایالتی ویرجینیا (Virginia Tech، US)؛ محصول: تغییر رنگ پوست میوه نشان‌دهنده بلوغ بذر؛ جغرافیا: ایالات متحده",
-      "evidence_id": "d2-e12",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "پس از استخراج، بذرها در حوضچه شسته می‌شوند و سپس خشک می‌شوند.",
-      "conditions": "منبع: دانشگاه ایالتی ویرجینیا (Virginia Tech، US)؛ محصول: بذر کدو/کدو; روش: شست‌وشو و خشک کردن؛ جغرافیا: ایالات متحده",
-      "evidence_id": "d2-e13",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "بذرهاي تخم‌گیاهان Cucurbita طی فرآیند پاکسازی تخمیر نمی‌شوند زیرا تخمیر باعث تغییر رنگ بذر و کاهش توان جوانه‌زنی می‌گردد.",
-      "conditions": "منبع: دانشگاه ایالتی ویرجینیا (Virginia Tech، US)； محصول: بذر Cucurbita؛ روش: پاکسازی بدون تخمیر؛ جغرافیا: ایالات متحده",
-      "evidence_id": "d2-e13",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "source_observation",
-      "claim": "پس از خشک کردن، بذرها از الک aspiration و صفحه پاک‌کننده عبور می‌کنند تا قطعات خشک میوه و بذرهای سبک حذف شوند.",
-      "conditions": "منبع: دانشگاه ایالتی ویرجینیا (Virginia Tech، US)؛ محصول: بذر؛ روش: جداسازی فیزیکی با الک؛ جغرافیا: ایالات متحده",
-      "evidence_id": "d2-e13",
-      "numeric_bindings": []
-    },
-    {
-      "kind": "qualitative",
-      "claim": "وزن هزار دانه C. pepo حدود 200 گرم است که بسته به رقم متغیر می‌باشد.",
-      "conditions": "منبع: دانشگاه ایالتی ویرجینیا (Virginia Tech، US)； محصول: بذر C. pepo؛ واحد: گرم؛ جغرافیا: ایالات متحده",
-      "evidence_id": "d2-e14",
+      "claim": "تست ساده جوانه‌زنی خانگی بذر کدو با حوله کاغذی مرطوب، کیسه پلاستیکی و دمای حدود ۷۰ درجه فارنهایت انجام می‌شود.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: دما ~۷۰ °F",
+      "evidence_id": "d3-e4",
       "numeric_bindings": [
         {
-          "value": "200",
-          "unit_quote": "approximately 200 g",
-          "geographic_scope": "US (Virginia Tech source region)",
-          "product_scope": "C. pepo seed (1000-grain weight)"
+          "value": "70",
+          "unit_quote": "around 70°F",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed germination test"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "خشک کردن بذر پیش از بو دادن (رُست کردن) به پخت یکنواخت‌تر و محصول نهایی بهتر کمک می‌کند.",
-      "conditions": "منبع: Oregon State University Extension (US)؛ محصول: بذر کدو/کدو؛ روش: خشک کردن بذر؛ جغرافیا: ایالات متحده",
-      "evidence_id": "d1-e7",
+      "claim": "اگر ۷۰ تا ۹۰ درصد بذرها جوانه بزنند، هنوز قابل کاشت هستند ولی توصیه می‌شود کمی سنگین‌تر بذرپاشی شود.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: درصد جوانه‌زنی",
+      "evidence_id": "d3-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "اگر کمتر از ۵۰ تا ۶۰ درصد جوانه بزند، خرید بذر جدید منطقی‌تر است.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: درصد جوانه‌زنی",
+      "evidence_id": "d3-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دمای بهینه خاک برای جوانه‌زنی بذر کدو در منابع ترویجی دانشگاهی ۷۰ تا ۹۰ درجه فارنهایت گزارش شده است.",
+      "conditions": "محصول: بذر کدو (Pumpkin)؛ جغرافیا: اورگن، آمریکا؛ واحد: °F",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": [
+        {
+          "value": "70–90",
+          "unit_quote": "70–90",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دمای حداقلacceptable برای جوانه‌زنی بذر کدو ۶۰ درجه فارنهایت و دمای حداکثر ۱۰۰ درجه فارنهایت اعلام شده است.",
+      "conditions": "محصول: بذر کدو (Pumpkin)؛ جغرافیا: اورگن، آمریکا؛ واحد: °F",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": [
+        {
+          "value": "60",
+          "unit_quote": "Minimum: 60",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination"
+        },
+        {
+          "value": "100",
+          "unit_quote": "Maximum: 100",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ذخیره‌سازی بذر در جای خنک و خشک با مجموع دما به فارنهایت و رطوبت نسبی کمتر از ۱۰۰، طول عمر بذر را حفظ می‌کند.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا; واحد: °F + RH < 100",
+      "evidence_id": "d3-e6",
+      "numeric_bindings": [
+        {
+          "value": "100",
+          "unit_quote": "less than 100",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "seed storage condition"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منابع موجود تست خلوص، اندازه‌گیری محتوای رطوبت و تست‌های آزمایشگاهی AOSA را به‌صورت کلی توصیف می‌کنند ولی برای بذر کدو آجیلی محدودیت‌هایی دارند.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: آمریکا (NIST/AOSA); واحد: روش کیفی",
+      "evidence_id": "d0-e3",
       "numeric_bindings": []
     }
-  ],
-  "insufficiency_reason": "موضوع درباره ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت است، اما منابع فراهم‌شده عمدتاً به مدیریت مزرعه، برداشت میوه، شویندگی میوه زمستانه و نگهداری میوه پرداخته‌اند. هیچ یک از منابع منبع‌گذاری‌شده معیارهای کمی کیفیت بذر (مانند درصد جوانه‌زنی، خلوص بذر، نرخ آلودگی، اندازه‌گیری توان زیستی یا استانداردهای گواهی بذر) را ارائه نداده‌اند. اطلاعات موجود فقط شامل مراحل برداشت میوه برای استخراج بذر، رنگ‌بندی بلوغ، شست‌وشو، خشک کردن و وزن هزار دانه هستند — نه پروتکل‌های ارزیابی کیفیت پیش از خرید و کاشت. بنابراین پاسخ‌دهی به قصد intent اصلی «seed_quality» با شواهد موجود ممکن نیست."
+  ]
 }

@@ -1,0 +1,152 @@
+{
+  "url": "https://extension.umd.edu/resource/crop-estimation",
+  "requested_url": "https://extension.umd.edu/resource/crop-estimation",
+  "redirect_chain": [
+    "https://extension.umd.edu/resource/crop-estimation"
+  ],
+  "text": "Crop Estimation | University of Maryland Extension Skip to main content Crop Estimation Back to Resources Found In Grapes Related Programs Agriculture & Food Systems Grapes and Fruit Updated: April 30, 2021 By Joseph Fiola, Ph.D. Crop Estimation Experienced growers often say that they were caught by surprise that their crop was either much less than or much greater than they anticipated or their average. Many growers do not use a formal method of estimating their crop yield - what appears on the vine is what is harvested. An important role in running an efficient business is to know your inventory. In the case of a vineyard, that is the quantity of grapes that you will have available to sell to a winery. In the case of a winery, that is the quantity of grapes that you have on the vine and how that relates to the quantity of grapes that you need to achieve your wine production goals. The other aspect of crop estimation is to be able to control or adjust to a target yield (desired range) for quality. Crop adjustment, target yield, and fruit thinning will be the subject of a future “Timely Viticulture.” – here we will concentrate on crop estimation. Basis of Crop Estimation – “Lag Phase” Cluster Stage or Historical Data Viticulture researchers have developed accurate systems for predicting yields. One is based on cluster weights during the “lag phase” which is the period when the growth of berries slows temporarily (typically about 55 days after first bloom). The other traditional method is based on a running historical harvest record of cluster weights for that cultivar block. In both cases, good results depend largely on the grower’s ability to provide accurate clusters/vine and vines/acre information. Either system is fine - find a technique that works for you and your vineyard and use it every year. Crop Estimation Based on “Lag Phase” Berry/Cluster Stage Lag phase crop estimating is based on the premise that cluster weights will double from lag phase to harvest. Regretfully this multiplier is not always a fixed number and may vary by cultivar, clone, and seasonal variation (wet/dry). The system works best when a historical record of lag and harvest weights has been collected. An intuitive sense of berry and cluster size gained by experience will assist the grower in improving the accuracy of the estimate for each cultivar. Note: This method has not proven effective for estimating yields on young vines. To perform a lag phase estimate, the grower will need the following information: A number of bearing vines per field/cultivar (count/estimate actual number of vines). Select a random sample area (e.g. 5% of field/cultivar), count the vines in that area, and multiply by the appropriate number (e.g. 5% = 20). Since many vineyards contain a significant number of missing vines it is critical to accurately determine this number as you can potentially greatly overestimate your yield. = vines/cultivar A number of clusters per vine. Select a “random sample area” (e.g. 20 “representative” vines), count the clusters in that area, and multiply by the appropriate number (e.g. x 30 if 600 actual vines per acre). The more variability between vines (vine size and management) the greater number of vines you need to sample. = clusters/vine Measure the cluster weight at lag phase. Weigh a sample of clusters during the lag phase (typically about 55 days after first bloom). = lag phase clustwt Plug into the formula: Estimated Pounds/cultivar = vines/cultivar x clusters/vine x lag phase clustwt x 2. Crop Estimation Based on Historical Data Another, more traditional method of crop prediction relies heavily on the availability of harvest cluster weight data. The advantage to this formula is it can be employed any time after clusters can be counted. However, it will not take into account any annual variations in cluster development. If you have cluster weights and the specific weather conditions of that season (temperature and precipitation) you will have a better chance of correlating with the specific conditions of the current year. To perform this crop estimate, a grower will need the following information: Number of bearing vines per field/cultivar – as above. = vines/cultivar A number of clusters per vine – as above. = clusters/vine The historical average weight of clusters at harvest. = average final harvest clustwt Plug into the formula: Pounds/cultivar = vines/cultivar x clusters/vine x average final harvest clustwt (lbs.) Collecting this data will help you to get a feel for where your production currently is in the vineyard so you can compare it to your “target yield.” You will then be ready for crop thinning, if necessary, at the appropriate time (next TimelyVit). Of course, you may have to make some minor adjustments based on moisture conditions during ripening, and cluster weight loss to damage, disease, and or bird predation. Over multiple harvests, you will become more adept at the procedure and eventually even accomplishing reasonably accurate “visual estimates” of individual cultivars. Print-Friendly Version Timely Viticulture is designed to give those in the Maryland grape industry a timely reminder on procedures or topics they should be considering in the vineyard. Explore more topics on Timely Viticulture",
+  "links": [
+    {
+      "url": "https://extension.umd.edu/resource/crop-estimation",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://extension.umd.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umd.edu/get-involved",
+      "label": "Get Involved"
+    },
+    {
+      "url": "https://extension.umd.edu/give-extension",
+      "label": "Give"
+    },
+    {
+      "url": "https://extension.umd.edu/contact",
+      "label": "Contact"
+    },
+    {
+      "url": "https://extension.umd.edu/ask-extension-submission-form",
+      "label": "Ask Extension"
+    },
+    {
+      "url": "https://extension.umd.edu/about",
+      "label": "About"
+    },
+    {
+      "url": "https://extension.umd.edu/about/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://extension.umd.edu/about/extension-impact",
+      "label": "UMD Extension Impact"
+    },
+    {
+      "url": "https://agnr.umd.edu/careers",
+      "label": "Careers"
+    },
+    {
+      "url": "https://agnr.umd.edu/about/directory",
+      "label": "Directory"
+    },
+    {
+      "url": "https://agnr.umd.edu/about/agnr-compliance/",
+      "label": "Civil Rights Compliance"
+    },
+    {
+      "url": "https://extension.umd.edu/about/extension-advisory-council-and-committees",
+      "label": "Extension Advisory Council and Committees"
+    },
+    {
+      "url": "https://extension.umd.edu/about/program-and-organizational-development",
+      "label": "Program and Organizational Development"
+    },
+    {
+      "url": "https://extension.umd.edu/resources",
+      "label": "Resources"
+    },
+    {
+      "url": "https://extension.umd.edu/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://extension.umd.edu/programs/4-h-youth-development",
+      "label": "4-H Youth Development"
+    },
+    {
+      "url": "https://extension.umd.edu/programs/family-consumer-sciences",
+      "label": "Family & Consumer Sciences"
+    },
+    {
+      "url": "https://extension.umd.edu/programs/agriculture-food-systems",
+      "label": "Agriculture & Food Systems"
+    },
+    {
+      "url": "https://extension.umd.edu/programs/environment-natural-resources",
+      "label": "Environment & Natural Resources"
+    },
+    {
+      "url": "https://extension.umd.edu/programs/environment-natural-resources/program-areas/home-and-garden-information-center",
+      "label": "Home & Garden Information Center"
+    },
+    {
+      "url": "https://extension.umd.edu/locations",
+      "label": "Locations"
+    },
+    {
+      "url": "https://extension.umd.edu/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://extension.umd.edu/news-events",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://extension.umd.edu/news-events/news",
+      "label": "All News"
+    },
+    {
+      "url": "https://extension.umd.edu/news-events/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://extension.umd.edu/resources/plant-agriculture/fruits/grapes",
+      "label": "Grapes"
+    },
+    {
+      "url": "https://extension.umd.edu/programs/agriculture-food-systems/program-areas/fruit-vegetable-production/grapes-and-fruit",
+      "label": "Grapes and Fruit"
+    },
+    {
+      "url": "https://agnr.umd.edu/about/directory/joseph-fiola",
+      "label": "Joseph Fiola, Ph.D."
+    },
+    {
+      "url": "https://extension.umd.edu/resource/timely-viticulture",
+      "label": "Timely Viticulture"
+    },
+    {
+      "url": "https://extension.umd.edu/faculty-and-staff-affairs",
+      "label": "Faculty & Staff Affairs"
+    },
+    {
+      "url": "https://extension.umd.edu/caslogin?destination=/resource/crop-estimation",
+      "label": "Login"
+    },
+    {
+      "url": "https://umd.edu/web-accessibility",
+      "label": "Web Accessibility"
+    },
+    {
+      "url": "https://umd.edu/privacy-notice",
+      "label": "Privacy Policy"
+    }
+  ],
+  "fetched_at": "2026-10-28T05:25:49.726495+00:00",
+  "sha256": "7a32e5623efdb7ba06a76b855f035411cb218b0f1464c7953e306c36abffe3b4",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

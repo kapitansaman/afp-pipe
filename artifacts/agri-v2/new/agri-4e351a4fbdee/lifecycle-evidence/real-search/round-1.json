@@ -1,0 +1,71 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T05:25:15.405992+00:00",
+  "queries": [
+    {
+      "query_id": "9105931eb5e617e99fe6a63337e00541deda0a7ee7bb6a59e45fb20d2b5bc108",
+      "query": "Cucurbita maxima seed germination test protocol ISCI AOSA seed quality standards",
+      "cached": false,
+      "checked_at_epoch": 1793165117.0022688,
+      "results": [
+        {
+          "url": "https://www.nist.gov/document/2026-hb-133-appendix-d",
+          "title": "Appendix D. AOSA Rules for Testing Seeds",
+          "description": "The laboratory analysis for law enforcement, labeling, and general information as to seed quality, should determine the following for the sample analyzed:"
+        }
+      ]
+    },
+    {
+      "query_id": "d300047259ab802942c2b369baeda93a0e1df4e349bd4f740d606bfc5c78a811",
+      "query": "بذر کدو آجیلی تست جوانه‌زنی درصد خلوص استاندارد گواهی بذر",
+      "cached": false,
+      "checked_at_epoch": 1793165119.5849898,
+      "results": []
+    }
+  ],
+  "new_document_ids": [
+    "s0"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 1,
+    "loaded": 1,
+    "sources": [
+      {
+        "url": "https://www.nist.gov/document/2026-hb-133-appendix-d",
+        "canonical_url": "https://www.nist.gov/system/files/documents/2025/12/23/2026_NIST_HB133_AppendixD-20251216.pdf",
+        "redirect_hops": 1,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 1,
+  "coverage": {
+    "topic_id": "agri-4e351a4fbdee",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No mention of Cucurbita maxima, C. moschata, or any oilseed-pumpkin market class; no distinction between cleaned/dried shelled seed and whole winter fruit."
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "Mentions purity analysis, germination, tetrazolium, moisture content and seed count only as generic AOSA options for unspecified crops; gives no specific assay conditions (days, temperature, substrate), no crop-specific germination test protocol, and no certified thresholds for oilseed pumpkin."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No quantitative thresholds for germination percentage, seed purity, moisture content or contaminant limits are provided for oilseed-pumpkin seed; document lacks acceptable-vs-unacceptable ranges, source geography and date relevant to this crop."
+      }
+    ],
+    "next_queries": [
+      "Cucurbita maxima vs C. moschata oilseed pumpkin seed classification AOSA ISTA rules",
+      "oilseed pumpkin seed germination test standard protocol temperature days substrate university extension"
+    ]
+  },
+  "completed_at": "2026-10-28T05:25:30.118545+00:00"
+}

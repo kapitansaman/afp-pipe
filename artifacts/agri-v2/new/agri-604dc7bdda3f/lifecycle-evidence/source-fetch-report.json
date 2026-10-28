@@ -1,0 +1,36 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://extension.oregonstate.edu/news/plan-now-harvest-store-pumpkins-winter-squash",
+      "canonical_url": "https://extension.oregonstate.edu/news/plan-now-harvest-store-pumpkins-winter-squash",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/sp-50-767-preserving-pumpkins-winter-squash",
+      "canonical_url": "https://extension.oregonstate.edu/catalog/sp-50-767-preserving-pumpkins-winter-squash",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+      "canonical_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+      "canonical_url": "https://www.aces.edu/blog/topics/crop-production/managing-a-pumpkin-crop/",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+      "canonical_url": "https://extension.illinois.edu/pumpkins/growing-pumpkins",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://extension.usu.edu/yardandgarden/research/pumpkins-in-the-garden.php",
+      "canonical_url": "https://extension.usu.edu/yardandgarden/research/pumpkins-in-the-garden",
+      "status": "cache_valid"
+    }
+  ]
+}

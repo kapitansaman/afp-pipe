@@ -1,0 +1,584 @@
+{
+  "url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+  "requested_url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+  "redirect_chain": [
+    "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html"
+  ],
+  "text": "Soil moisture sensors for irrigation scheduling Skip to main content Soil moisture sensors for irrigation scheduling January 01, 2024 Vasudha Sharma, Extension irrigation specialist and Anne Nelson, Extension educator Measuring soil moisture and electrical conductivity in a corn field. Efficient irrigation management can improve yields, grain quality, conserve water and energy, and reduce nutrient leaching. One of the easiest and most effective ways to improve irrigation efficiency is to implement soil sensor technology in irrigation scheduling. This article provides basic knowledge and practical recommendations for using soil moisture sensors for irrigation scheduling. Types of soil moisture sensors Soil moisture sensors are divided into two categories depending on the technology they use: 1) Sensors that measure volumetric water content and 2) Sensors that measure soil tension when placed in the soil profile (Figure 1). Figure 1. General categorization of soil moisture sensors. Volumetric water content (VWC) soil moisture sensors Volumetric water content is the volume of liquid water per volume of soil. It is usually expressed as a percentage. For example, 25% volumetric water content (VWC) means 0.25 cubic inch of water per cubic inch of soil. When this %VWC is multiplied by the desired depth (effective rooting depth), it results in the total soil water in that soil depth in inches. For irrigation scheduling, the soil water content measured using soil moisture sensors (current soil water content) is compared to the soil water content at field capacity to calculate the total water depletion in the soil profile. Check https://z.umn.edu/soilwaterbasics for basics of soil water for irrigation scheduling. Field capacity can be measured very easily in the field using soil moisture sensors. The VWC measurements provided by the soil moisture sensor after 12-24 hours of heavy irrigation or rain is the field capacity of the soil. Web Soil Survey can also be used to get the field capacity and available water holding capacity (AWC) values of your soil. For irrigation scheduling, it is also important to understand the soil water content when the crop begins to experience stress. In general, most crops begin to experience stress when soil water depletion is 30-50% of AWC. This is called management allowable depletion (MAD) or irrigation trigger point. MAD can be varied depending upon crop, growth stage and irrigation system’s pumping capacity. Check https://z.umn.edu/strategiesbyseason for growth stage/season-based MAD recommendations. Irrigation should be started when the soil water depletion is equal to the management allowable depletion. The most common soil water content or volumetric water content sensors are: Electromagnetic sensors: These sensors indirectly measure VWC based on the dielectric and electric properties of the soil medium (soil bulk permittivity or soil dielectric constant). The dielectric constant is a measure of the ability of the substance to store electrical energy. Since soil particles, water, and air, all have different dielectric constants, their ability to store or dissipate electrical energy is different. This is how it can be correlated to soil water content. Neutron Probe: This sensor measures volumetric water content at various depths with a radiation source. However, the operator must be licensed and receive special training to use this sensor. The unit is expensive and requires a lot of time to take field readings. Example calculations: Using a volumetric water content (VWC) sensor to estimate soil water depletion Example: Consider the soil moisture readings at three depths given in Table 1 for center pivot irrigated corn in a Hubbard soil series. The field capacity (FC) and available water holding capacity (AWC) at each depth is also given in Table 1. Assume the root depth is 36 inches and management allowable depletion (MAD) is 50%. Assume daily crop water use or evapotranspiration is 0.20 in/day. Calculations for 0-12 inches soil layer : Depth of water at AWC i.e. Col.F=Col.D x Col.B = AWC x thickness = 0.08 x 12 in = 0.96 in. Depth of water at MAD i.e. Col.G=Col.F x 0.50 = Depth of water at AWC x 0.50 = 0.96 x 0.50 = 0.48 in. Soil water depletion (D) i.e.Col.H = (Col.C - Col.E = (FC - current soil moisture) x thickness = (0.16-0.11) x 12 = 0.60 in. Do the same for other depths Table 1. Soil water depletion calculations at different depths using volumetric soil moisture sensors. A B C D E F G H Soil water content (in/in) Depth of water (inches) Soil layer Thick- ness At FC At AWC Current soil moisture At AWC At MAD Soil water depletion (D) 0-12 12 0.16 0.08 0.11 0.96 0.48 0.60 12-24 12 0.15 0.08 0.13 0.96 0.48 0.24 24-36 12 0.11 0.08 0.10 0.96 0.48 0.12 Profile total 2.88 1.44 0.96 In this example Total available water holding capacity in 36 inch soil profile = 2.88 inches. Crops can deplete 1.44” of AWC in 36-inch soil profile before irrigation (col. G). Currently, the soil water depletion is 0.96 inches (col. H). That means water available in the soil profile before stress occurs = 1.44 - 0.96 = 0.48 inches. Crop water use or evapotranspiration is 0.2 inches/day, assuming no rainfall will occur, when should the next irrigation be applied? Days for next irrigation = water available before stress occurs divided by crop water use per day = 0.48 in /0.20 in ~ 2 days Notes: Crop water use, irrigation system efficiency, and soil observations should also be used as feedback to make decisions. Irrigation amount should be applied to replenish soil moisture to 85% of FC to leave some room for rain. Consider your pumping capacity and application efficiency for scheduling irrigation. Check https://z.umn.edu/irrigationpumpingcapacity Soil water tension or matric potential sensors Soil water tension indicates the energy required by plant roots to extract water from soil particles. As soil water is removed from soil, soil tension increases. Soil tension is expressed in centibars or bars of atmospheric pressure. When the soil is full of water, soil water tension is close to zero. For coarse textured soils, at 25-45 centibars, 50% of AWC is depleted ( https://www.irrometer.com/basics.html ), so in these soils crop should be irrigated before the sensor indicates 25-45 cb (Irmak et. al 2016). However, soil tension measurements are soil specific and can be inaccurate, so depending on your crop and soil observations, soil tension limits should be refined. For example, note the soil tension at the earliest indication of water stress and always make sure that you irrigate before it reaches that point. You can also track your water movement by taking measurements right after an irrigation event. If your bottom sensor after irrigation indicates zero reading, that means you might have irrigated more than required. On the other hand, if it shows no movement, that means you irrigated less. Laboratory-developed charts like Table 5 in https://z.umn.edu/soil-water-deficit can also be used to convert the tension readings from sensors to soil water deficit values. More information about the soil water tension sensors and sensor installation can be found at https://z.umn.edu/soil-water-deficit . Other recommendations Use data loggers to store and log the data. This will help in data interpretation and quick decision making. Use soil moisture data with irrigation scheduling tools such as checkbook method or daily crop water use data from Central Ag weather network ( http://agweathernetwork.com/ ). Read the sensors every two to three days. Flag the location of the sensor for easy accessibility. Always irrigate to replenish the soil moisture to less than field capacity so that there is some room for potential rainfall. This article was first published in April 2019. Share Get link Facebook X Pinterest Email Other Apps Labels Irrigation January 01, 2024 Irrigation Share Get link Facebook X Pinterest Email Other Apps Comments Post a Comment Get Minnesota Crop News by email Archive October 2026 11 September 2026 7 August 2026 15 July 2026 23 June 2026 38 May 2026 21 April 2026 21 March 2026 16 February 2026 14 January 2026 12 December 2025 7 November 2025 9 October 2025 14 September 2025 6 August 2025 19 July 2025 18 June 2025 31 May 2025 32 April 2025 22 March 2025 16 February 2025 15 January 2025 27 December 2024 9 November 2024 6 October 2024 15 September 2024 9 August 2024 15 July 2024 17 June 2024 29 May 2024 28 April 2024 16 March 2024 19 February 2024 15 January 2024 107 December 2023 7 November 2023 11 October 2023 8 September 2023 12 August 2023 15 July 2023 20 June 2023 30 May 2023 23 April 2023 11 March 2023 14 February 2023 10 January 2023 8 December 2022 3 November 2022 6 October 2022 9 September 2022 13 August 2022 13 July 2022 14 June 2022 23 May 2022 22 April 2022 15 March 2022 13 February 2022 7 January 2022 6 December 2021 2 November 2021 2 September 2021 4 August 2021 9 July 2021 5 June 2021 2 May 2021 7 April 2021 1 February 2021 1 October 2020 1 September 2020 1 August 2020 2 July 2020 3 June 2020 3 September 2019 1 July 2019 2 June 2019 1 May 2019 1 March 2019 1 February 2019 1 August 2018 1 Show more Show less Labels Ag drainage Ag technology Agroforestry Announcements & events beneficial insects Climate & weather Corn Cover crops drought Dry beans Eco-services Fertilizer Forages GCSPodcast Grain drying & storage Grain marketing Hay Information Health and safety Invasive species IPM-Diseases IPM-Insects IPM-Weeds IPMpodcast Irrigation liming Manure management MCCpodcast Micronutrients MN region-Northwest MN region-Southeast MN region-Southwest Nitrogen Nitrogen Smart NM podcast Nutrient management Oilseeds On-farm research Other Pesticide Safety Phosphorus Plant tissue sampling Podcast Potassium Potato Prevented plant Sidedress Small grains Small grains Soil management and health soil testing Soybean Sugarbeet Sulfur Sweetcorn Water Quality Show more Show less",
+  "links": [
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/04/soil-moisture-sensors-for-irrigation.html",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://extension.umn.edu",
+      "label": ""
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/",
+      "label": "Minnesota Crop News"
+    },
+    {
+      "url": "https://z.umn.edu/soilwaterbasics%20",
+      "label": "https://z.umn.edu/soilwaterbasics"
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://z.umn.edu/strategiesbyseason",
+      "label": "https://z.umn.edu/strategiesbyseason"
+    },
+    {
+      "url": "https://z.umn.edu/irrigationpumpingcapacity",
+      "label": "https://z.umn.edu/irrigationpumpingcapacity"
+    },
+    {
+      "url": "https://z.umn.edu/soil-water-deficit",
+      "label": "https://z.umn.edu/soil-water-deficit"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Irrigation",
+      "label": "Irrigation"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/10/",
+      "label": "October 2026 11"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/09/",
+      "label": "September 2026 7"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/08/",
+      "label": "August 2026 15"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/07/",
+      "label": "July 2026 23"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/06/",
+      "label": "June 2026 38"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/05/",
+      "label": "May 2026 21"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/04/",
+      "label": "April 2026 21"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/03/",
+      "label": "March 2026 16"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/02/",
+      "label": "February 2026 14"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2026/01/",
+      "label": "January 2026 12"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/12/",
+      "label": "December 2025 7"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/11/",
+      "label": "November 2025 9"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/10/",
+      "label": "October 2025 14"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/09/",
+      "label": "September 2025 6"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/08/",
+      "label": "August 2025 19"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/07/",
+      "label": "July 2025 18"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/06/",
+      "label": "June 2025 31"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/05/",
+      "label": "May 2025 32"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/04/",
+      "label": "April 2025 22"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/03/",
+      "label": "March 2025 16"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/02/",
+      "label": "February 2025 15"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2025/01/",
+      "label": "January 2025 27"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/12/",
+      "label": "December 2024 9"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/11/",
+      "label": "November 2024 6"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/10/",
+      "label": "October 2024 15"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/09/",
+      "label": "September 2024 9"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/08/",
+      "label": "August 2024 15"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/07/",
+      "label": "July 2024 17"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/06/",
+      "label": "June 2024 29"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/05/",
+      "label": "May 2024 28"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/04/",
+      "label": "April 2024 16"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/03/",
+      "label": "March 2024 19"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/02/",
+      "label": "February 2024 15"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/01/",
+      "label": "January 2024 107"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/12/",
+      "label": "December 2023 7"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/11/",
+      "label": "November 2023 11"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/10/",
+      "label": "October 2023 8"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/09/",
+      "label": "September 2023 12"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/08/",
+      "label": "August 2023 15"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/07/",
+      "label": "July 2023 20"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/06/",
+      "label": "June 2023 30"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/05/",
+      "label": "May 2023 23"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/04/",
+      "label": "April 2023 11"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/03/",
+      "label": "March 2023 14"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/02/",
+      "label": "February 2023 10"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2023/01/",
+      "label": "January 2023 8"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/12/",
+      "label": "December 2022 3"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/11/",
+      "label": "November 2022 6"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/10/",
+      "label": "October 2022 9"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/09/",
+      "label": "September 2022 13"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/08/",
+      "label": "August 2022 13"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/07/",
+      "label": "July 2022 14"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/06/",
+      "label": "June 2022 23"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/05/",
+      "label": "May 2022 22"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/04/",
+      "label": "April 2022 15"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/03/",
+      "label": "March 2022 13"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/02/",
+      "label": "February 2022 7"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/01/",
+      "label": "January 2022 6"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/12/",
+      "label": "December 2021 2"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/11/",
+      "label": "November 2021 2"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/09/",
+      "label": "September 2021 4"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/08/",
+      "label": "August 2021 9"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/07/",
+      "label": "July 2021 5"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/06/",
+      "label": "June 2021 2"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/05/",
+      "label": "May 2021 7"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/04/",
+      "label": "April 2021 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/02/",
+      "label": "February 2021 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2020/10/",
+      "label": "October 2020 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2020/09/",
+      "label": "September 2020 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2020/08/",
+      "label": "August 2020 2"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2020/07/",
+      "label": "July 2020 3"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2020/06/",
+      "label": "June 2020 3"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/09/",
+      "label": "September 2019 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/07/",
+      "label": "July 2019 2"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/06/",
+      "label": "June 2019 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/05/",
+      "label": "May 2019 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/03/",
+      "label": "March 2019 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2019/02/",
+      "label": "February 2019 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2018/08/",
+      "label": "August 2018 1"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Ag%20drainage",
+      "label": "Ag drainage"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Ag%20technology",
+      "label": "Ag technology"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Announcements%20%26%20events",
+      "label": "Announcements & events"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/beneficial%20insects",
+      "label": "beneficial insects"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Climate%20%26%20weather",
+      "label": "Climate & weather"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Corn",
+      "label": "Corn"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Cover%20crops",
+      "label": "Cover crops"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/drought",
+      "label": "drought"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Dry%20beans",
+      "label": "Dry beans"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Eco-services",
+      "label": "Eco-services"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Fertilizer",
+      "label": "Fertilizer"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/GCSPodcast",
+      "label": "GCSPodcast"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Grain%20drying%20%26%20storage",
+      "label": "Grain drying & storage"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Grain%20marketing",
+      "label": "Grain marketing"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Hay%20Information",
+      "label": "Hay Information"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Health%20and%20safety",
+      "label": "Health and safety"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Invasive%20species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/IPM-Diseases",
+      "label": "IPM-Diseases"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/IPM-Insects",
+      "label": "IPM-Insects"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/IPM-Weeds",
+      "label": "IPM-Weeds"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/IPMpodcast",
+      "label": "IPMpodcast"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/liming",
+      "label": "liming"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Manure%20management",
+      "label": "Manure management"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/MCCpodcast",
+      "label": "MCCpodcast"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Micronutrients",
+      "label": "Micronutrients"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/MN%20region-Northwest",
+      "label": "MN region-Northwest"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/MN%20region-Southeast",
+      "label": "MN region-Southeast"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/MN%20region-Southwest",
+      "label": "MN region-Southwest"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Nitrogen",
+      "label": "Nitrogen"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Nitrogen%20Smart",
+      "label": "Nitrogen Smart"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/NM%20podcast",
+      "label": "NM podcast"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Nutrient%20management",
+      "label": "Nutrient management"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Oilseeds",
+      "label": "Oilseeds"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/On-farm%20research",
+      "label": "On-farm research"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Other",
+      "label": "Other"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Pesticide%20Safety",
+      "label": "Pesticide Safety"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Phosphorus",
+      "label": "Phosphorus"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Plant%20tissue%20sampling",
+      "label": "Plant tissue sampling"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Podcast",
+      "label": "Podcast"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Potassium",
+      "label": "Potassium"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Potato",
+      "label": "Potato"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Prevented%20plant",
+      "label": "Prevented plant"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Sidedress",
+      "label": "Sidedress"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Small%20%20grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Small%20grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Soil%20management%20and%20health",
+      "label": "Soil management and health"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/soil%20testing",
+      "label": "soil testing"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Soybean",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Sugarbeet",
+      "label": "Sugarbeet"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Sulfur",
+      "label": "Sulfur"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Sweetcorn",
+      "label": "Sweetcorn"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/search/label/Water%20Quality",
+      "label": "Water Quality"
+    }
+  ],
+  "fetched_at": "2026-10-28T05:26:19.123956+00:00",
+  "sha256": "7a5cdcf90ee4cdb152950594abc78b7ad54dc521cf02ac5239d076623d97e60d",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

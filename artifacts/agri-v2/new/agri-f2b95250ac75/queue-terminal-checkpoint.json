@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-f2b95250ac75",
+  "title": "اولین آبیاری کدو آجیلی پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-f2b95250ac75",
+    "status": "stage_failed",
+    "stage": "research_review"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_review",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "independent_scoped_review_rejected",
+    "last_run_id": "40637634935"
+  },
+  "bindings": {
+    "topic_sha256": "a4519bd1e67f9cec9834b18f92910593ab05ada42127a71c217463d8c53fdd40",
+    "topic_files": {
+      "family-context/40531540832.json": "800a8bb62faa8555177a8328364ca7c9671d420a1fbc0935abd415230922d408",
+      "family-context/40610299326.json": "800a8bb62faa8555177a8328364ca7c9671d420a1fbc0935abd415230922d408",
+      "family-context/40637634935.json": "800a8bb62faa8555177a8328364ca7c9671d420a1fbc0935abd415230922d408",
+      "lifecycle/existing_content_audit-000/state.json": "f879b5498196316634fa42261e23234cb5a98cbfcb0e64597fc0bdd113703c06",
+      "lifecycle/existing_content_audit_finalize/state.json": "72990ad161d4c6238c84a3b9bd7c4115d00493e0712fc348b3dae9bab8732604",
+      "lifecycle/research_extract/state.json": "b2fd3aeb70e7feaa426f16bfb8932c58d2384c90e3cc681af80ed534d09a4116",
+      "lifecycle/research_review/rejected/1/review-raw.json": "c8507019f45c73782012b1775793efa3172fece8351fbeaeb0c093aef1a4c1bc",
+      "lifecycle/research_review/rejected/2/review-raw.json": "bc5a62db687677caf57d8c7b3bd3b139c424165f876ca1c8a528062bc15b367a",
+      "lifecycle/research_review/state.json": "ed2e5501b1a831caade6743123e08914dbc768a076e12140f312482a33c645aa",
+      "lifecycle/research_sources/state.json": "059296be1e08ce2751f58290835ba65f4f9258150bef18aeaa4b7157d2facd9d",
+      "lifecycle-evidence/candidate-raw.json": "c6c52805727e8805b0df0f1c579aae8a9ce8bbb1a4696fcbb31fee3bb2e2850d",
+      "lifecycle-evidence/candidate.json": "a5a2e2d73b317966ac07cde411b225729f58b14f676edcad40d1369576fd927f",
+      "lifecycle-evidence/existing-content.json": "12740e0179ae6606a724b28b9cbfee41160e30af9c392c2d1fb4b86e40685337",
+      "lifecycle-evidence/extraction-feedback.json": "ea710f2600d49f97c3953232aa7a8c098f8e5bf360c064294fb992e916bdce02",
+      "lifecycle-evidence/overlap-batches/000.json": "98429a11b31b2e2e29df9666bb6bc04e03cd20868a665897267730043ba18d73",
+      "lifecycle-evidence/overlap-batches/000.raw.json": "28436d4bc6bdd3dcfe48380262f5477b49abdf732ec216e548e893384f37143c",
+      "lifecycle-evidence/overlap.json": "78f56e209bef5cb7f188535290b88bbf00f14413a5455fad4801f0cbc3615087",
+      "lifecycle-evidence/review-raw.json": "9e7ee50f6bab8f4b526ababe1dbc4000d0548b3d2e4783718ca841337d6ce578",
+      "lifecycle-evidence/saved-candidate-validation.json": "a6dca3dea26052d90e30e52769b7a1fcaaad96de151dc5d5561b456e14cceee9",
+      "lifecycle-evidence/source-discovery-report.json": "92498043ec19aa0a5b86b03c99ccb91cf014c93d14981ddea9f783d79b0c2893",
+      "lifecycle-evidence/source-fetch-report.json": "9fd3bc0fb7e393af92355058238421c18c8ec3835d55a0893fedc73632745d62",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3c41cc8d977f4808b67da68862c49b9574e5c8eb33c36cc4a080b42b835b12ed",
+      "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+      "lifecycle-evidence/sources.json": "4f776feb445107d5d395d33a6e3068426674ee6748a6e2e7f98fd1db69a931f9"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T05:25:29.417424+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T05:25:15.393330+00:00",
+  "topic_id": "agri-4e351a4fbdee",
+  "input_binding": {
+    "topic_sha256": "d9417b3523b2054905eb00199cf33cfec47239f6a02820c822b21e6b22171670",
+    "sources_sha256": "5d7bcd17c330baab208dfefcda1dfc0643844882e39afa45d962641c20586531",
+    "raw_sha256": "245f4b41de51557598d90690e90cc99196cc635561746f26ec9ee3eb14fa61e0"
+  },
+  "plan": {
+    "topic_id": "agri-4e351a4fbdee",
+    "gap": "Existing sources cover fruit harvest, washing, drying, and thousand-seed weight for C. maxima/C. moschata grown for edible seeds, but provide no quantitative seed-quality criteria—germination percentage thresholds, purity standards, contaminant/foreign-seed limits, viability tests (TTC, tetrazolium), or seed-certification labeling requirements—needed to evaluate seed before purchase and sowing.",
+    "queries": [
+      "Cucurbita maxima seed germination test protocol ISCI AOSA seed quality standards",
+      "بذر کدو آجیلی تست جوانه‌زنی درصد خلوص استاندارد گواهی بذر"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Confirm the exact species/market class targeted by کدو آجیلی seed quality literature—Cucurbita maxima, C. moschata, or mixed pumpkins grown specifically for shelled edible seeds—and distinguish cleaned/dried seed from whole winter fruit."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Identify the specific pre-plant/purchase seed-quality assays documented for this crop: standard germination test (days, temperature, substrate), purity analysis, moisture content determination, and any viability tests (TTC/tetrazolium) used in university extension or official seed-certification protocols."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Extract the quantitative thresholds reported for germination percentage, seed purity, moisture content, and contaminant limits applicable to oilseed-pumpkin seed, with original units and source geography/date, to determine acceptable vs. unacceptable seed for purchase and sowing."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

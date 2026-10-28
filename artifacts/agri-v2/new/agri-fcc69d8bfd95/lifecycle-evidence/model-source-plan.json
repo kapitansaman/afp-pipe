@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T05:25:18.319906+00:00",
+  "topic_id": "agri-fcc69d8bfd95",
+  "input_binding": {
+    "topic_sha256": "af4d3b1d3f01611bddb29d3d64873beea88ce86403b1e0462cf5c28fabcc68a4",
+    "sources_sha256": "3e3e7b2cfec87c1aca3699e3debdf7e44ba9ae2a254e687e3107811f6d8b866a",
+    "raw_sha256": "0f42d9724ce28f6709bbd8df53b8204a62585dcb74e8cc4aacf0d815bf095487"
+  },
+  "plan": {
+    "topic_id": "agri-fcc69d8bfd95",
+    "gap": "Existing accepted sources describe planting depth and plant/mound spacing but do not provide an explicit, source-supported formula that converts a target plant population per hectare and a seed germination/viability percentage into a seed-rate value (seeds or mass per hectare). No university extension or peer-reviewed publication was found that names the required measured inputs and units for this calculation for pumpkin grown for edible seeds.",
+    "queries": [
+      "\"seed rate\" OR \"seeding rate\" formula target plant population germination percentage hectare university extension cucurbit",
+      "edible seed pumpkin seeding rate per hectare calculation germination viability target population university extension"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Confirm the crop is specifically pumpkin cultivated for edible seeds (seed pumpkin / oilseed-type Cucurbita pepo market class), distinguishing whole fruit-with-seeds from cleaned dried seed as the product being sourced."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Provide an explicit method or dimensionally correct formula: seed rate per hectare = (target plant population per hectare ÷ germination/viability percentage) × seeds-per-plant or equivalent, with each input explicitly named and sourced."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "State all required input units (target population per area, germination percentage basis, seeds per planting hill or per square meter, and whether rate is expressed as seed count or mass per hectare) and the geographic or production-system scope of the recommendation."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-bbdf8ae354bd",
+  "title": "مدت هر نوبت آبیاری کدو آجیلی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-bbdf8ae354bd",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40637634935"
+  },
+  "bindings": {
+    "topic_sha256": "1993675a67bdb6c0e13f4c9d61c7451e459348c2e49795984b107792a60ca7d0",
+    "topic_files": {
+      "family-context/40531540832.json": "0996eeda1e4eedb4bddd59d04ec539f6b89cc12e56141a00c3166fd0ad95205c",
+      "family-context/40610299326.json": "0996eeda1e4eedb4bddd59d04ec539f6b89cc12e56141a00c3166fd0ad95205c",
+      "family-context/40637634935.json": "0996eeda1e4eedb4bddd59d04ec539f6b89cc12e56141a00c3166fd0ad95205c",
+      "lifecycle/research_discover/state.json": "575b958756ff7742ca7b48a55fb8ed65e1c9024c8ea334d3e7643d221f002e0c",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "62e955011b801e0351634653c062da57221d6ae6a0777c855794d8931868ffb6",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "4c54734a624034754c53a8d0783a8060b7300eeecbd0c580923d90e38bc2b5fe",
+      "lifecycle/research_extract/state.json": "af0e1ef38ebd5c86eb1ea244ed58c3e5df98392c0c7487853d5482b0aad72c7c",
+      "lifecycle/research_refetch/state.json": "7a311d7e710abfc9e900adaa1a8bf2066fd2d3f13f837509319fac1934da52eb",
+      "lifecycle/research_sources/state.json": "198fe448199b1886cb4282968675ab9d06161eb44bd68fd02f74cff3e40aec67",
+      "lifecycle-evidence/candidate-raw.json": "8ae3da917153b1718ff1bcf7173353b82cc2ba489677d1fb7a2a2d8e1293ba59",
+      "lifecycle-evidence/existing-content.json": "254fa2f5e4bd6dcef455298420317966e97d061df3d30ca0400c96d8bcad63f6",
+      "lifecycle-evidence/extraction-feedback.json": "7956fd3ef264c20fef843bd0d5e940c4e9571aa8083370caca7bc1c96b125a3d",
+      "lifecycle-evidence/model-source-fetch/source-discovery-report.json": "652334a88eaaaf341b0d0feb7da1f0115ec95f00349030078f70bb6786f8de44",
+      "lifecycle-evidence/model-source-fetch/source-fetch-report.json": "271b5fc05514e5dc22d7505a75bccdc4ccd05cc6f2658307733d94ff81d57192",
+      "lifecycle-evidence/model-source-plan.json": "ea1c1033eb8d36844b8a8c6a9218066a529b111fa911a9c0de88671ed9486d92",
+      "lifecycle-evidence/model-source-plan.raw.json": "a02e8762602722489ca108ca4e4233eb486735583445ae8108e84e150dcc5ccb",
+      "lifecycle-evidence/model-source-refetch.json": "0e531516e61695eda026373b68e39200c2a9b6b824464b00585bf5bc89e874e9",
+      "lifecycle-evidence/source-discovery-report.json": "5c95eb52096c9694ef21a438e18d0ba858641b37290f24e62a44acf74393a656",
+      "lifecycle-evidence/source-fetch-report.json": "9fd3bc0fb7e393af92355058238421c18c8ec3835d55a0893fedc73632745d62",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3c41cc8d977f4808b67da68862c49b9574e5c8eb33c36cc4a080b42b835b12ed",
+      "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+      "lifecycle-evidence/sources.json": "d21c8302041de921f008dd7b9bc272e554c6d20ece3819f7b6087de11187048b"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T05:25:26.313291+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

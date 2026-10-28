@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-71be4981f446",
+  "gap": "No field sampling protocol for pre-harvest yield estimation exists in the fetched sources. The only quantitative data is a grain yield observation (500–1000 kg/ha) from Virginia Tech; qualitative ripeness indicators are noted but without any sampling method, formula, or measurement protocol.",
+  "queries": [
+    "pre-harvest yield estimation sampling method pumpkin seeds university extension",
+    "oilseed pumpkin field sampling protocol quadrat weight measurement before harvest"
+  ],
+  "requirements": [
+    {
+      "id": "species_product",
+      "need": "Clarify whether the estimation targets whole fruit yield prior to seed extraction, or cleaned/dried seed yield directly; distinguish product form explicitly."
+    },
+    {
+      "id": "exact_reader_method",
+      "need": "Source must specify the exact field sampling technique (e.g., quadrat dimensions, number of sample plants/areas, timing relative to maturity, measurement of fruit count, weight, or seed set)."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Provide a dimensionally correct formula or calculation with explicitly named inputs and their units (e.g., kg/ha, g/plant, number of fruits per square meter), including the geographic and growth-stage scope of application."
+    }
+  ]
+}

@@ -1,14 +1,99 @@
 {
   "topic_id": "agri-6aaba20b13cf",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "کدو آجیلی (Cucurbita pepo / C. maxima seeds harvested from mature fruit)",
-  "slug": "rain-adjust-irrigation-seed-pumpkin-after-precipitation",
+  "product_definition": "کدو آجیلی (تخم‌خورنی)",
+  "slug": "rain-adjust-irrigation-seed-pumpkin",
   "outline": [
-    "هدف و دامنه: تصمیم‌گیری پس از بارندگی برای کدو آجیلی",
-    "شکاف شواهد: عدم وجود معیار سنجش رطوبت خاک یا وضعیت تاکم پس از باران در منابع fetched",
-    "حدود کاربرد منابع موجود: توصیه‌های عمومی آبیاری قطره‌ای و حجم هفتگی بدون مرجع تصمیم‌پس‌ازباران",
-    "نیاز به بازبینی متخصص: منبع ترویجی/دانشگاهی متناسب با intent rain_adjust و محصول دانه‌ای"
+    "ورودی‌های اندازه‌گیری‌شده: بارندگی، عمق نفوذ آب و وضعیت زهکشی خاک",
+    "منطق تصمیم و واحدها: ظرفیت مزرعه‌ای، آب قابل‌دسترسی گیاه و حد مجاز تخلیه",
+    "پایش مزرعه: نشانه‌های علفی (چروکیدگی موقت)، سنسور رطوبت خاک و عمق ریشه مؤثر",
+    "خطاها و حدود کاربرد: تفاوت کدوی آجیلی با کدوی تازه‌خوری/تزئینی، محدودیت منابع خارج از ایران"
   ],
-  "facts": []
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "کدو، کدو حلوایی و کدوهای دیگر آب زیادی مصرف می‌کنند و برگ‌های بزرگ دارند؛ تأمین منظم آب به‌ویژه هنگام گلدهی و تشکیل میوه اهمیت ویژه دارد.",
+      "conditions": "قالب کلی آبیاری کدو (Cucurbita spp.)؛ محصول: میوه زمستانه/تازه؛ جغرافیا: ویسکانسین، آمریکا",
+      "evidence_id": "d1-e28",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کدوها نیاز به حداقل یک اینچ آب در هر هفته دارند و آبیاری قطره‌ای یا پاششی هر دو کاربرد دارند.",
+      "conditions": "قالب کلی آبیاری کدو، کدو حلوایی و کدو تزئینی؛ محصول: مزرعه‌ای تازه/بازارfresh؛ واحد: 1 inch/week؛ جغرافیا: ویسکانسین، آمریکا",
+      "evidence_id": "d1-e28",
+      "numeric_bindings": [
+        {
+          "value": "one",
+          "unit_quote": "at least one inch of water every week",
+          "geographic_scope": "Wisconsin, USA",
+          "product_scope": "pumpkin, squash, and gourds (general market)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ظرفیت مزرعه‌ای حالت خاک پس از تخلیه آب گرانشی است و معمولاً یک تا سه روز پس از بارندگی یا آبیاری عمیق حاصل می‌شود.",
+      "conditions": "اصطلاح برنامه‌ریزی آبیاری؛ محصول: عمومی زراعی؛ واحد: 1 to 3 days پس از رویداد مرطوب‌سازی؛ جغرافيا: کارولینای شمالی، آمریکا",
+      "evidence_id": "d2-e0",
+      "numeric_bindings": [
+        {
+          "value": "1 to 3",
+          "unit_quote": "usually 1 to 3 days after rainfall",
+          "geographic_scope": "North Carolina, USA",
+          "product_scope": "general irrigation scheduling terminology"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آب مویینه (کپیلری) آب اصلی قابل استفاده گیاه است که پس از تخلیه آب آزاد گرانشی در فضای孔隙 خاک باقی می‌ماند.",
+      "conditions": "اصطلاح ظرفیت آب خاک؛ محصول: عمومی زراعی؛ جغرافیا: کارولینای شمالی، آمریکا",
+      "evidence_id": "d2-e10",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "چروکیدگی موقت روزانه نشان‌دهنده نرخ بالای تبخیر-تعرق است و کمتر از 50 درصد از آب قابل‌دسترسی خاک مصرف شده باشد، گیاه معمولاً شبانه بهبود می‌یابد.",
+      "conditions": "معیار پایش تنش آبی؛ محصول: عمومی زراعی؛ واحد: 50 percent PAW؛ جغرافيا: کارولینای شمالی، آمریکا",
+      "evidence_id": "d2-e21",
+      "numeric_bindings": [
+        {
+          "value": "50 percent",
+          "unit_quote": "less than 50 percent of the PAW has been depleted",
+          "geographic_scope": "North Carolina, USA",
+          "product_scope": "general crop irrigation scheduling"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "زیر پاجوش‌های کدو ریشه‌های جدید تشکیل می‌شود؛ مالچ ضخیم می‌تواند مانع رشد این ریشه‌ها شود و مدیریت رطوبت سطحی را تحت تأثیر قرار دهد.",
+      "conditions": "زیست‌شناسی کدو و تعامل با مالچ؛ محصول: عمومی Cucurbita؛ جغرافیا: ویسکانسین، آمریکا",
+      "evidence_id": "d1-e28",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در اقلیم‌های خنک‌تر، بسته به نوع خاک و شرایط آب‌وهوایی، آبیاری را اواسط Agustus قطع می‌کنند تا رسیدن میوه تسریع شود.",
+      "conditions": "تنظیم پایان آبیاری برای رسیدگی؛ محصول: کدوی پخت‌ومصرفی/مزرعه‌ای؛ جغرافیا: کالیفرنیا، آمریکا",
+      "evidence_id": "d0-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در خاک‌های درشت‌بافت مانند ماسه‌ای، ظرفیت آب قابل‌دسترسی حدود 0.05 تا 0.11 اینچ آب به ازای هر اینچ خاک است؛ بنابراین پس از بارندگی حجم آب نگهداری‌شده کمتر خواهد بود.",
+      "conditions": "جدول PAW بر اساس بافت خاک؛ محصول: عمومی زراعی؛ واحد: 0.05 – 0.11 inch water per inch of soil؛ جغرافیا: کارولینای شمالی، آمریکا",
+      "evidence_id": "d2-e4",
+      "numeric_bindings": [
+        {
+          "value": "0.05 – 0.11",
+          "unit_quote": "Sand | Plant-Available Water (inches of water per inch of soil): 0.05 – 0.11",
+          "geographic_scope": "North Carolina, USA",
+          "product_scope": "general soil textural class PAW data"
+        }
+      ]
+    }
+  ]
 }

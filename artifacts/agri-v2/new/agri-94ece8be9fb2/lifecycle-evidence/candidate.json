@@ -1,0 +1,65 @@
+{
+  "topic_id": "agri-94ece8be9fb2",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "کدو آجیلی (تخم‌کدوی خشک‌شدنی از میوه کامل زمستانه/کدو)",
+  "slug": "seed-pumpkin-irrigation-soil-moisture-decision",
+  "outline": [
+    "ورودی‌های اندازه‌گیری‌شده",
+    "منطق تصمیم و واحدها",
+    "پایش مزرعه یا شبکه",
+    "خطاها و حدود کاربرد"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "کدو و کدو زمستانه ریشه‌های نسبتاً عمیق و گسترده‌ای دارند که خاک را برای آب به‌کار می‌برند.",
+      "conditions": "گونه Cucurbita، سامانه ریشه‌ای، ایالات متحده آمریکا (ویرجینیا، دانشگاه تک)",
+      "evidence_id": "d2-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری پیش‌کاشت یا پس‌کاشت باید برای اطمینان از جوانه‌زنی، ظهور و استقرار پایگاه اعمال شود.",
+      "conditions": "مرحله آغازین رشد، محصول کدو و کدو زمستانه، ایالات متحده آمریکا (ویرجینیا، دانشگاه تک)",
+      "evidence_id": "d2-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری قطره‌ای یکنواخت‌ترین پخش آب را با کمترین مقدار آب مصرفی فراهم می‌کند.",
+      "conditions": "سامانه آبیاری، محصول کدو و کدو زمستانه، شرق ایالات متحده آمریکا",
+      "evidence_id": "d2-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری باید عمیق و به‌ندرت باشد؛ مقدار را هنگام رسیدن میوه کاهش دهید و رطوبت را تا عمق زمین هدایت کنید.",
+      "conditions": "معیار تصمیم آبیاری، محصول کدو آجیلی/میوه زمستانه، ایالت یوتا، آمریکا",
+      "evidence_id": "d5-e7",
+      "numeric_bindings": [
+        {
+          "value": "1-2",
+          "unit_quote": "1-2 inches per week",
+          "geographic_scope": "ایالت یوتا، آمریکا",
+          "product_scope": "کدو/کدو زمستانه"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری قطره‌ای هنگام کشت کدو به‌شدت توصیه می‌شود و از پاششی بالادستی که مشکلات بیماری‌زایی ایجاد می‌کند متمایز است.",
+      "conditions": "توصیه سامانه آبیاری، محصول کدو، ایالت آلاباما، آمریکا",
+      "evidence_id": "d3-e7",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "مالچ پلاستیکی و آلی حفظ رطوبت خاک و کاهش هرزآب را به همراه دارد.",
+      "conditions": "روش مدیریت رطوبت خاک، محصول کدو، ایالت یوتا، آمریکا",
+      "evidence_id": "d5-e7",
+      "numeric_bindings": []
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

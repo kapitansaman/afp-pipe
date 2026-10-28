@@ -1,0 +1,12 @@
+{
+  "requested": 1,
+  "loaded": 1,
+  "sources": [
+    {
+      "url": "https://www.nist.gov/document/2026-hb-133-appendix-d",
+      "canonical_url": "https://www.nist.gov/system/files/documents/2025/12/23/2026_NIST_HB133_AppendixD-20251216.pdf",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": false,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "فقط یک منبع دانشگاهی آمریکا (UMN Extension) به‌طور مستقیم درباره حسگرهای رطوبت خاک یافت شد؛ دومین منبع (MS State Extension) درباره کشت لوبیا و حساسیت رطوبتی است و بخش نصب حسگر را پوشش نمی‌دهد. عمق فعال ریشه لوبیا چیتی به‌صورت عددی در منابع بارگذاری‌شده تعیین نشده است و فقط روش نسبت‌دهی (یک‌سوم و دو‌سوم عمق ریشه) ارائه شده؛ عمق واقعی باید در مزرعه اندازه‌گیری شود. مثال «۱۲ اینچ نمایه خاک» در سند UMN یک مثال آموزشی عمومی است و به‌تنهایی نمی‌تواند عمق ریشه پینتو را تأیید کند. مقادیر MAD (۳۰-۵۰٪) و محدوده کشش ماتریس دانه‌ای (۰-۲۲۰ cb) عام هستند و اختصاصی پینتو نیستند. هیچ داده‌ای درباره عمق ریشه اختصاصی Phaseolus vulgaris (لوبیا چیتی) در منابع ارائه نشده است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f5",
+      "supported": false,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
+}

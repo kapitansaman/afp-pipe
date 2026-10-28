@@ -1,0 +1,36 @@
+{
+  "requested": 5,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://extension.umd.edu/resource/crop-estimation",
+      "canonical_url": "https://extension.umd.edu/resource/crop-estimation",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://ageconsearch.umn.edu/record/142840/files/samplingtechniqu09hudd.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/stelprdb1044175.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://www.globe.gov/documents/14016/113318009/1a_VegetationSampling.pdf/574b9ee4-305e-a175-4ec4-420092ce7387?t=1693494038609%27",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://archive.epa.gov/water/archive/web/html/oh1plant.html",
+      "canonical_url": "https://archive.epa.gov/water/archive/web/html/oh1plant.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

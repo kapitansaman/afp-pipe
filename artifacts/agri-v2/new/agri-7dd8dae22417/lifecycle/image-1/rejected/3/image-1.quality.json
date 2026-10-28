@@ -1,0 +1,56 @@
+{
+  "image_sha256": "379c168b1d1de9997c86b7a2f1c40bf07fff3928a4bf50c239e5114dda7e8555",
+  "contract_sha256": "fb0ec73a0357830eceaf2c7039d8512ea4ef5178271eb985046f46f357a32a0b",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 1,
+  "topic_id": "agri-7dd8dae22417",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T05:31:47.976245+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 81,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 55,
+    "reasons": [
+      "CRITICAL: crop_stage_match FAILED — the scene shows pepper plants (Capsicum) with elongated red and green pepper fruits and broad ovate leaves, NOT common bean (Phaseolus vulgaris, لوبیا قرمز). The botany specification requires low branching plants with trifoliate leaves and bean pods with seed bulges; peppers are a completely different species with distinct fruit morphology.",
+      "CRITICAL: topic_evidence_match FAILED — the illustration depicts a pepper field instead of a red kidney bean field, producing a materially false visual claim contradicting the article topic.",
+      "Cosmetic: role_camera_match — the camera is a close side-level shot rather than an elevated wide crop-dominant overview; the carton and nearest plant dominate the foreground at close range instead of showing a wide field perspective.",
+      "Product identity is correct: single white-blue AFP Drip Irrigation Tape carton matching the reference product, fully in frame, sitting separately on the soil with no plumbing contact, closed with no protruding material.",
+      "Physical geometry is plausible with believable contact shadows and perspective; no floating or merged parts.",
+      "Phone label 'AFP | 09134922013' is correctly placed and readable at the lower right.",
+      "No hardware required (hardware_required=false); no invented filter/valve/pipe assembly is present."
+    ]
+  }
+}

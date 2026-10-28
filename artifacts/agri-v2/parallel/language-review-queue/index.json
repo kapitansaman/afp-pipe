@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-10-28T00:45:08.230962+00:00",
+  "updated_at": "2026-10-28T05:36:22.155994+00:00",
   "items": [
+    {
+      "topic_id": "agri-7736a471e8c1",
+      "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+      "language": "ar-IQ",
+      "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 1,
+      "next_attempt_at": "2026-10-28T10:18:55.492249+00:00",
+      "experimental_only": false,
+      "reason": "translation_or_review_needs_another_attempt",
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-7736a471e8c1/review-queue/ar-IQ.json"
+    },
+    {
+      "topic_id": "agri-7736a471e8c1",
+      "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+      "language": "en-US",
+      "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 1,
+      "next_attempt_at": "2026-10-28T10:18:55.568742+00:00",
+      "experimental_only": false,
+      "reason": "translation_or_review_needs_another_attempt",
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-7736a471e8c1/review-queue/en-US.json"
+    },
+    {
+      "topic_id": "agri-7736a471e8c1",
+      "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+      "language": "ru-RU",
+      "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+      "status": "reconciliation_required",
+      "attempts": 1,
+      "model_calls_spent": 1,
+      "next_attempt_at": null,
+      "experimental_only": false,
+      "reason": "uncertain_provider_response",
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-7736a471e8c1/review-queue/ru-RU.json"
+    },
+    {
+      "topic_id": "agri-7736a471e8c1",
+      "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+      "language": "tg-TJ",
+      "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 1,
+      "next_attempt_at": "2026-10-28T10:18:55.531032+00:00",
+      "experimental_only": false,
+      "reason": "translation_or_review_needs_another_attempt",
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-7736a471e8c1/review-queue/tg-TJ.json"
+    },
     {
       "topic_id": "agri-b6f7d6bea16b",
       "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
@@ -137,7 +197,7 @@
       "state_path": "parallel/writer-verification/ops-tajik-reference-feedback-final-round-v2/agri-b6f7d6bea16b/review-queue/tg-TJ.json"
     }
   ],
-  "item_count": 9,
+  "item_count": 13,
   "schedule_enabled": false,
   "approval_is_not_guaranteed_by_attempt_count": true
 }

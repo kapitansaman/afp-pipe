@@ -1,8 +1,32 @@
 {
   "topic_id": "agri-6aaba20b13cf",
-  "candidate_sha256": "767e65787d87f92368f53c2e28ee4be37dbd26f021dd8db908ee548f9ffdb53d",
+  "candidate_sha256": "fc740a66bec0a9fb92e2977efe22dd6375254c879e072b1449422acca99a1030",
   "scientific_approval": false,
-  "errors": [],
-  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "errors": [
+    {
+      "fact_index": 1,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "کدوها نیاز به حداقل یک اینچ آب در هر هفته دارند و آبیاری قطره‌ای یا پاششی هر دو کاربرد دارند.",
+        "conditions": "قالب کلی آبیاری کدو، کدو حلوایی و کدو تزئینی؛ محصول: مزرعه‌ای تازه/بازارfresh؛ واحد: 1 inch/week؛ جغرافیا: ویسکانسین، آمریکا",
+        "evidence_id": "d1-e28",
+        "numeric_bindings": [
+          {
+            "value": "one",
+            "unit_quote": "at least one inch of water every week",
+            "geographic_scope": "Wisconsin, USA",
+            "product_scope": "pumpkin, squash, and gourds (general market)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e28",
+        "source_url": "https://datcp.wi.gov/Documents/mk_fc_81web.pdf",
+        "quote": "y organisms (microbes) that break down organic matter into nutrients that plants need to grow. Over time, organic fertilizer can build your soil and make the soil more healthy and fluffy which lets plants grow more easily. Inorganic fertilizers give plants nutrients quickly but do not build the soil. Some inorganic fertilizers have a lot of salt which is bad for soil organisms. Organic fertilizers can come from manure, compost, fish meal, bone meal, and live compost tea that includes oxygen. Recent studies show that live compost tea helps prevent plant diseases and also gives nutrients to plants. Irrigation Pumpkins, squash and gourds need water regularly because they use a lot of water and have big leaves. It is very important that pumpkins, squash and gourds have enough water when the plants flower and grow fruit. As plants grow, notice if leaves wilt in the middle of the day. If so, t"
+      }
+    }
+  ],
+  "candidate_error": "number_absent_from_literal_source",
   "declared_insufficiency": null
 }

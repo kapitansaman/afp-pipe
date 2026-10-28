@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T05:25:25.508612+00:00",
+  "topic_id": "agri-6aaba20b13cf",
+  "input_binding": {
+    "topic_sha256": "33cdbed6110492086a019cdf79f16b790ee9209272fc2c9fd235219304b03ae1",
+    "sources_sha256": "8496581a585edceee2c2b7a4de8edfd11b9dc88066a3c4dd54d1dcc946407b23",
+    "raw_sha256": "d3a804cfee3f13cc25f35549c1e960c8cce37f674dc372931239ba4d51f63a95"
+  },
+  "plan": {
+    "topic_id": "agri-6aaba20b13cf",
+    "gap": "No post-rainfall irrigation scheduling rule or soil-moisture-trigger threshold for pumpkin grown for edible seeds (Cucurbita pepo type secalina); the title requires a field-usable decision trigger but the evidence base lacks measured antecedent rainfall or precipitation event analysis paired with subsequent soil moisture states or canopy/transpiration recovery timing.",
+    "queries": [
+      "\"Cucurbita pepo\" seed pumpkin irrigation after rain soil moisture threshold",
+      "pumpkin seed production post-rainfall irrigation scheduling soil water potential"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Confirm the English crop label maps to Cucurbita pepo type secalina (seed pumpkin) grown in an open-field context, not winter squash fruit for processing; document the crop system before extracting any irrigation recommendation."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Identify the reader's decision trigger: either a post-rainfall re-irrigation interval after a defined precipitation depth/event, or a soil-moisture/soil-water-potential recovery target with explicit measurement method and sensor placement."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Record all observed numeric inputs and outputs with original units: rainfall depth (mm or in), antecedent soil moisture or tension (kPa, % volumetric water content), irrigation timing interval (days), and distinguish crop water use from applied irrigation volume."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

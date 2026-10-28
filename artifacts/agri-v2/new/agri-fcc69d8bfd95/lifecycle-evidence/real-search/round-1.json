@@ -1,0 +1,56 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T05:25:18.331907+00:00",
+  "queries": [
+    {
+      "query_id": "72999b8f49d79445f0a9890ee11820c7043e2026c273d301e99ec2845987b931",
+      "query": "\"seed rate\" OR \"seeding rate\" formula target plant population germination percentage hectare university extension cucurbit",
+      "cached": false,
+      "checked_at_epoch": 1793165128.787637,
+      "results": []
+    },
+    {
+      "query_id": "aca94be31c05b895a36edd2da0316c5f8a3a85cf5e2ecfa88ad642cdd0b14d91",
+      "query": "edible seed pumpkin seeding rate per hectare calculation germination viability target population university extension",
+      "cached": false,
+      "checked_at_epoch": 1793165132.383912,
+      "results": []
+    }
+  ],
+  "new_document_ids": [],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 0,
+    "loaded": 0,
+    "sources": []
+  },
+  "fetches_reserved": 0,
+  "coverage": {
+    "topic_id": "agri-fcc69d8bfd95",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document supplied; no confirmation that the crop is specifically seed pumpkin (oilseed-type Cucurbita pepo) vs. whole fruit-with-seeds vs. cleaned dried seed as the sourced product."
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document supplied; no explicit dimensionally correct formula for seed rate per hectare = (target plant population per hectare ÷ germination/viability percentage) × seeds-per-plant (or per hill), with each input explicitly named and sourced."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document supplied; no stated units for target population per area, germination percentage basis, seeds per planting unit, seed rate expressed as count or mass per hectare, nor geographic/production-system scope."
+      }
+    ],
+    "next_queries": [
+      "site:extension.udel.edu OR site:psu.edu seed pumpkin Cucurbita pepo oilseed type seed rate calculation germination percentage",
+      "site:unl.edu OR site:illinois.edu squash seed rate per hectare formula target population germination correction seeding depth"
+    ]
+  },
+  "completed_at": "2026-10-28T05:25:46.978018+00:00"
+}

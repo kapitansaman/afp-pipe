@@ -1,0 +1,115 @@
+{
+  "round": 2,
+  "started_at": "2026-10-28T05:25:46.978797+00:00",
+  "queries": [
+    {
+      "query_id": "6d5e7f00c435887ae7e4c31e70cfe86e52dc92742e2918a7559dd38fdb16601e",
+      "query": "site:extension.udel.edu OR site:psu.edu seed pumpkin Cucurbita pepo oilseed type seed rate calculation germination percentage",
+      "cached": false,
+      "checked_at_epoch": 1793165152.093511,
+      "results": [
+        {
+          "url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+          "title": "Pumpkin | Diseases and Pests, Description, Uses, Propagation",
+          "description": "Winter squashes and pumpkins are picked when mature in a once-over harvest or in several rounds, about 90 to 120 days after planting depending on the variety. Pumpkins are considered to be among the most efficient vegetable crops when evaluated on nutritional yield land area and labor needed. Indicative figures for the seed yield of C. pepo are 400 to 1500 kg/ha. A valuable source of oil and protein is thus neglected if the seeds are left unutilized. In seed production, isolation between fields [...] Pumpkins and squashes are grown from seed. Seeds may be sown in containers and transplanted to the field when they are 10 cm high. Direct seeding of 2 to 3 seeds per hill is commonly practiced. Trailing types are planted at distances of 2-3 m either way; the seed requirement is 2 to 3 kg/ha. The bushy types (mainly C. pepo) are planted closer, for example, plants spaced 60 to 120 cm in rows 1 to 1.5 m apart; the seed requirement is 3 kg/ha for pumpkin and 7 kg/ha for summer squash (C. pepo). Do [...] ### Description\n\nPumpkin is the name given to a group of plant species in the genus Cucurbita, including Cucurbita pepo, Cucurbita mixta, Cucurbita maxima, and Cucurbita moschata. It is gr"
+        },
+        {
+          "url": "https://extension.psu.edu/calculating-the-price-of-pure-live-seed",
+          "title": "Calculating the Price of Pure Live Seed",
+          "description": "germination of 80% would be needed for each pound specified in the desired seeding recommendation. [...] To calculate PLS, the percentage of pure seed of a cultivar, which should always be listed on the seed label, is multiplied by the percent germination (also listed on the seed label), and the product is divided by 100. For example, 92% pure seed of the cultivar x 80% germination / 100 = 74% PLS. To determine how much seed to plant, divide 100 by the percentage PLS (74% in this case). Thus, in this example, 100/74 = 1.4. Thus, 1.4 pounds of seed with a purity of 92% and a germination of 80% [...] PLS = (85% purity) x (60% germination) / 100 = 51%  \n100 / 51 = 2 pounds of seed needed per pound of seed specified  \nCost = $1.95 x 2 = $3.90 per pound of PLS\n\n## 'Seedlot B' label state 99% purity and 90% germination\n\nAssume Seedlot B is sold at the regular price of $2.50 per pound:\n\nPLS = (99% purity) x (90% germination) / 100 = 89%  \n100 / 89 = 1.1 pound of seed needed per pound seed specified  \nCost = $3.00 x 1.1 = $3.30 per pound of PLS"
+        },
+        {
+          "url": "https://plantvillage.psu.edu/topics/pumpkin/infos#!",
+          "title": "Pumpkin | Diseases and Pests, Description, Uses, Propagation",
+          "description": "Title: Pumpkin | Diseases and Pests, Description, Uses, Propagation\n# Pumpkin. Pumpkin is the name given to a group of plant species in the genus Cucurbita, including Cucurbita pepo, Cucurbita mixta, Cucurbita maxima, and Cucurbita moschata. It is grown primarily as a vegetable or ornamental plant. Pumpkins have long-running, bristled stems, large deeply-lobed leaves often containing white blotches, and yellow or orange flowers separated into male and female types on the same plant. The fruit is variable in shape and color but is often white, cream, or green, containing about 70% flesh and several large white seeds. Pumpkin plants are short-lived annual or perennial vines with branching tendrils and broad lobed leaves. The plant produces large yellow or orange flowers and a pepo fruit (berry with a thick rind) known as a pumpkin. The fruit can range greatly in size, from miniature pumpkins weighing a few ounces to giant pumpkins which can reach over 75 lbs (34 kg). The skin of the pumpkin is usually ribbed and is usually orange in color although some varieties are green, grey, yellow, or red. Pumpkin plants are usually grown as annuals, surviving one growing season and the vines ar"
+        },
+        {
+          "url": "https://extension.psu.edu/turfgrass-seed-and-seed-mixtures",
+          "title": "Turfgrass Seed and Seed Mixtures",
+          "description": "To calculate PLS, the percentage of pure seed is multiplied by the percentage of germination, and the product is divided by 100. For example, 85% pure seed x 72% germination / 100 = 61% PLS. To determine how much seed to plant, divide the percentage PLS into 100. Thus, in this example, 100/61 = 1.6. Hence, 1.6 pounds of seed with a purity of 85% and a germination of 72% would need to be planted for each pound specified in the desired seed mixture. [...] The percent germination that is listed on the label for each turfgrass indicates the viability of the seed. Germination percentages are based on the number of seeds that germinate in a test sample. According to Pennsylvania law, germination tests must have been within the fifteen-month period prior to sale of the seed. A list of suggested minimum standards for percent purity and germination is listed in Table 1. [...] ## Pure Live Seed\n\nOccasionally, turfgrass seed is sold that is low in purity and germination. To compensate for the reduced quality, the seeding rate should be increased. (All seeding rates suggested in section II are based on minimum standards for percent purity and germination listed in Table 1.) The amount of seed "
+        },
+        {
+          "url": "https://extension.psu.edu/oilseed-presses",
+          "title": "Oilseed Presses",
+          "description": "Generally 10% is used as a rule of thumb for the moisture content at which to store grain and seeds. While the seed will store well at this moisture content, it most likely will not press well. Seed that is too moist will produce meal that is gummy and will not produce oil as it passes through the press. The moisture in the seed ties up the oil and does not allow the oil and meal to separate as it should. [...] ## Introduction\n\nAn oilseed press (Figure 1) is the heart of an oilseed pressing operation. Oilseed presses separate oilseeds such as sunflowers, canola, and soybeans into oil and oilseed meal. Pumpkin or grape seeds and brazil nuts are examples of materials that are less known and can be pressed for their oil in these machines. [...] All grains have moisture contents at which they press best. A general rule to start from is that the ideal moisture for pressing is in the 7-8% range. Experience shows canola presses best in the 6-8% moisture content range, with other oilseeds requiring similar moisture contents. If the moisture content of the seed being pressed drops too low the temperature of the press head increases when pressing and will make it difficult to stay under the "
+        },
+        {
+          "url": "https://pure.psu.edu/en/publications/simulation-of-early-season-herbivory-via-mechanical-damage-affect",
+          "title": "Simulation of early season herbivory via mechanical damage affects flower production in pumpkin (Cucurbita pepo ssp. pepo) - Penn State",
+          "description": "Title: Simulation of early season herbivory via mechanical damage affects flower production in pumpkin (Cucurbita pepo ssp. pepo) - Penn State\nSkip to main navigation Skip to search. * Help & FAQ   Link opens in a new tab. # Simulation of early season herbivory via mechanical damage affects flower production in pumpkin (Cucurbita pepo ssp. 5   Link opens in a new tab  Scopus citations. • Background: Damage from insect herbivores can elicit a wide range of plant responses, including reduced or compensatory growth, altered volatile profiles, or increased production of defence compounds. • Methods: In this study, we simulated early-season herbivore mechanical damage in the domesticated jack-o-lantern pumpkin Cucurbita pepo ssp. • Key Results: We found that mechanical damage delayed the onset of male anthesis and reduced the total quantity of flowers produced. Additionally, permutational multivariate analysis of variance (PERMANOVA) indicated that mechanical damage significantly impacts overall floral volatile profile, though not output of sesquiterpenoids, a class of compounds known to recruit specialized cucumber beetle herbivores and squash bee pollinators. pepo reduces investment i"
+        }
+      ]
+    },
+    {
+      "query_id": "130853d9dae33ad1eb12e2ab9e0bdceb4783135b96d55f279846d1d845fb6c4b",
+      "query": "site:unl.edu OR site:illinois.edu squash seed rate per hectare formula target population germination correction seeding depth",
+      "cached": false,
+      "checked_at_epoch": 1793165157.3592455,
+      "results": [
+        {
+          "url": "https://digitalcommons.unl.edu/2010.2.html",
+          "title": "Content Posted in 2010 | DigitalCommons@University of Nebraska - Lincoln | University of Nebraska - Lincoln Research",
+          "description": "PDF\n\nEC91-733 Wanted Alive\n\nPDF\n\nEC91-734 NOISE ... Sound Without Value (Tractor Sound Levels, 1970-1990), Rollin D. Schnieder\n\nPDF\n\nEC92-1248 Growing Squash and Pumpkin for Food and Ornamentation, Laurie Hodges, Frederick P. Baxendale, and David S. Wysong\n\nPDF\n\nEC92-440 Learning Is Child's Play, Patricia E. Steffens and Cindy Strasheim\n\nPDF\n\nEC92-718 Caution Look Up! Power Lines May Be Overhead, Rollin D. Schnieder\n\nPDF\n\nEC92-736 Safety with Center Pivot Irrigation, Rollin D. Schnieder\n\nPDF [...] PDF\n\nFusion Grocery Market and Red Velvet Cupcake Bakery, Megan Zuerlein-Betz\n\nPDF\n\nFuture Bionic, Ryan J. Huber\n\nPDF\n\nFuzzy Modeling of Skin Permeability Coefficients, Angela K. Pannier, Rhonda M. Brand, and David D. Jones\n\nPDF\n\nG00-1393 Grazing Alfalfa (Revised September 2004), Jerry D. Volesky and Bruce E. Anderson\n\nPDF\n\nG00-1395 Soybean Seeding Rates, Roger W. Elmore and James E. Specht\n\nPDF [...] PDF\n\nG03-1528 Recommended Seeding Rates and Hybrid Selection for Rainfed (Dryland) Corn in Nebraska, Robert N. Klein and Drew J. Lyon\n\nPDF\n\nG04-1529 Controlling Pond Plant Growth with Bottom Barriers, Tadd M. Barrow and John C. Holz\n\nPDF\n\nG06-1033 It's Snack Time, Linda Boeckner and Karen Sc"
+        },
+        {
+          "url": "https://digitalcommons.unl.edu/2018.2.html",
+          "title": "Content Posted in 2018 | UNL Institutional Repository",
+          "description": "PDF\")\n\nField Pea Response to Seeding Rate, Depth, and Inoculant in West-Central Nebraska, Strahinja V. Stepanovic, Charles Burr, Julie A. Peterson, Daran Rudnick, Cody F Creech, and Rodrigo Werle\n\nPDF\")\n\nField Pea Response to Seeding Rate, Depth, and Inoculant in West-Central Nebraska, Strahinja V. Stepanovic, Charles Burr, Julie A. Peterson, Daran Rudnick, Cody Creech, and Rodrigo Werle\n\nPDF\") [...] PDF reducing capacity in Fe deficient squash roots (1.4 MB)\")\n\nEthylene production, cluster root formation, and localization of iron(III) reducing capacity in Fe deficient squash roots, Brian M. Waters and Dale G. Blevins\n\nPDF\")\n\nET mapping for agricultural water management: present status and challenges, Prasanna H. Gowda, Jose L. Chavez, Paul D. Colaizzi, Steven R. Evett, Terry A. Howell, and Judy A. Tolk\n\nPDF\")"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 6,
+    "loaded": 6,
+    "sources": [
+      {
+        "url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+        "canonical_url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://extension.psu.edu/calculating-the-price-of-pure-live-seed",
+        "canonical_url": "https://extension.psu.edu/calculating-the-price-of-pure-live-seed",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://plantvillage.psu.edu/topics/pumpkin/infos#!",
+        "canonical_url": "https://plantvillage.psu.edu/topics/pumpkin/infos#!",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://extension.psu.edu/turfgrass-seed-and-seed-mixtures",
+        "canonical_url": "https://extension.psu.edu/turfgrass-seed-and-seed-mixtures",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://extension.psu.edu/oilseed-presses",
+        "canonical_url": "https://extension.psu.edu/oilseed-presses",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://pure.psu.edu/en/publications/simulation-of-early-season-herbivory-via-mechanical-damage-affect",
+        "canonical_url": "https://pure.psu.edu/en/publications/simulation-of-early-season-herbivory-via-mechanical-damage-affect/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 6,
+  "completed_at": "2026-10-28T05:25:59.176122+00:00"
+}

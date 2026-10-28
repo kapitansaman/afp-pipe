@@ -2,9 +2,69 @@
   "topic_id": "agri-fcc69d8bfd95",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "بذر خوراکی کدو (کدو آجیلی) به‌صورت بذر خام، محصول نشایی یا میوه",
-  "slug": "edible-seed-pumpkin-seed-rate-calculation",
-  "outline": [],
-  "facts": [],
-  "insufficiency_reason": "منابع موجود روش محاسبه نرخ بذر بر هکتار بر پایه جمعیت هدف نشاء و درصد جوانه‌زنی را ارائه نمی‌دهند. منبع د3 (Virginia Tech) عمق کاشت (0.5 تا 1.0 اینچ) و فواصل ردیفی حدود 6 اینچ و فاصله بوته‌ای 3 تا 8 فوت را توصیف می‌کند و وزن هزار دانه را ~200 گرم ذکر می‌کند، اما هیچ فرمول مستقیم «تعداد بذر در هکتار = جمعیت هدف ÷ درصد جوانه‌زنی» یا هدف جمعیتی تعیین‌شده بر هکتار را صریح نیاورده است. منابع د4 (Alabama)، د5 (Illinois) و د3 نیز همگی به فاصله‌بندی میوه/قلم‌مو می‌پردازند نه به نرخ بذر اصلاح‌شده با قوه نامیه. بنابراین روش کمی خواسته‌شده در عنوان ثابت نشده است."
+  "product_definition": "بذر خام کدو آجیلی (Cucurbita spp.) از میوه کامل رسیده",
+  "slug": "pumpkin-seed-rate-per-hectare-calculated-with-density-and-germination",
+  "outline": [
+    "اهداف و دامنه محصول",
+    "روش‌های مورد انتظار محاسبه",
+    "محدودیت شواهد موجود"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "در کشت مستقیم کدوهای رونده، تراکم معمولاً به صورت فاصله ۲ تا ۳ متری در هر دو جهت توصیه شده و نرخ بذر معادل ۲ تا ۳ کیلوگرم در هکتار گزارش شده است.",
+      "conditions": "منبع: PlantVillage/PSU؛ محصول: کدو (Cucurbita spp.) برای مصرف عمومی؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha؛ بازه: 2 تا 3 kg/ha",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "2 to 3",
+          "unit_quote": "2 to 3 kg/ha",
+          "geographic_scope": "عمومی (تروپیکال تا معتدل)",
+          "product_scope": "کدوی رونده (trailing types) – نه صرفاً کدو آجیلی"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برای ارقام بوچگی (عمدتاً C. pepo) با فاصله ۶۰ تا ۱۲۰ سانتی‌متری در ردیف‌های ۱ تا ۱٫۵ متری، نرخ بذر ۳ کیلوگرم در هکتار برای کدو و ۷ کیلوگرم در هکتار برای کدو تابستانی گزارش شده است.",
+      "conditions": "منبع: PlantVillage/PSU؛ محصول: کدو/Cucurbita pepo؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "3",
+          "unit_quote": "3 kg/ha",
+          "geographic_scope": "عمومی",
+          "product_scope": "کدو (pumpkin)"
+        },
+        {
+          "value": "7",
+          "unit_quote": "7 kg/ha",
+          "geographic_scope": "عمومی",
+          "product_scope": "کدو تابستانی (summer squash, C. pepo)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "برای محصول بذر C. pepo مقادیر شاخص ۴۰۰ تا ۱۵۰۰ کیلوگرم بذر در هکتار گزارش شده است که نشان‌دهنده عملکرد بذر از هر هکتار است، نه نرخ کاشت.",
+      "conditions": "منبع: PlantVillage/PSU؛ محصول: بذر C. pepo؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha؛ بازه: 400 تا 1500 kg/ha",
+      "evidence_id": "d2-e7",
+      "numeric_bindings": [
+        {
+          "value": "400 to 1500",
+          "unit_quote": "400 to 1500 kg/ha",
+          "geographic_scope": "عمومی",
+          "product_scope": "بذر C. pepo (عملکرد/محصولات بذری)"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "محاسبات خالص‌بودن و جوانه‌زنی بذر (PLS) به‌صورت فرمول درصد بذر خالص ضرب‌در درصد جوانه‌زنی تقسیم بر ۱۰۰ تعریف شده و برای جبران کاهش کیفیت بذر، نرخ کاشت تعدیل می‌شود.",
+      "conditions": "منبع: Penn State Extension (turfgrass)؛ محصول: توضیح روش PLS – شامل گیاهان مرتعی؛ جغرافیا: Pennsylvania, USA",
+      "evidence_id": "d1-e1",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "مستندات حاضر نرخ بذر خام پایه برای کدو رونده و بوچگی را ارائه می‌دهد اما روش محاسبه تعدیل‌شده بر پایه درصد جوانه‌زنی و خلوص بذر را به‌طور مشخص برای کدو آجیلی (seed-purpose Cucurbita) پوشش نمی‌دهد. بخش‌های مربوط به PLS و جوانه‌زنی تنها در بافت مرتع‌سازی (turfgrass) و برای چمن‌ها ذکر شده‌اند و هیچ منبع دانشگاهی مستقیماً فرمول محاسبه نرخ بذر کدو آجیلی با احتساب تراکم و درصد جوانه‌زنی را تأیید نکرده‌اند."
 }

@@ -1,0 +1,10 @@
+{
+  "version": "approved-fact-numeric-contract-v1",
+  "raw_sha256": "d5ffe1e7cbafdb79cf848811c3c7405cada341ed9f53440166397a4f4a52e00c",
+  "allowed_numeric_tokens_exactly": [],
+  "violations": [],
+  "lexical_numeric_contract_passed": true,
+  "scientific_approval": false,
+  "candidate_rewritten": false,
+  "final_validation_unchanged": true
+}

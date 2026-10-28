@@ -1,0 +1,98 @@
+{
+  "topic_id": "agri-ed19dd100ebc",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "یونجه (Medicago sativa L.) — سبزینه تازه",
+  "slug": "why-alfalfa-seeds-fail-to-germinate",
+  "outline": [
+    "تعریف کشت و محصول هدف",
+    "شواهد استقرار بذر (عمق کاشت، آماد بستر، نهال‌کوبی)",
+    "محدودیت‌های منبع درباره دمای جوانه‌زنی و سله خاک",
+    "خطاها و محدودیت انتقال"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "عمق کاشت بذر یونجه نباید بیشتر از یک‌چهارم اینچ باشد.",
+      "conditions": "منطقه: ایالت‌های جنوب شرقی آمریکا (آلاباما); محصول: بذر یونجه؛ واحد: depth؛ محدودیت: حداکثر عمق مجاز",
+      "evidence_id": "d1-e11",
+      "numeric_bindings": [
+        {
+          "value": "1⁄4",
+          "unit_quote": "no more than 1⁄4 inch deep",
+          "geographic_scope": "Alabama, southeastern United States",
+          "product_scope": "alfalfa seed planting depth"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بستر بذر باید با دیسک سبک و cultipacker محکم شود تا تماس بذر با خاک مناسب فراهم گردد.",
+      "conditions": "منطقه: آلاباما، جنوب شرقی آمریکا; محصول: بستر بذر یونجه; واحد: soil firmness; محدودیت: آماده‌سازی قبل از کاشت",
+      "evidence_id": "d1-e10",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "چک‌نقطه عملی فشردگی بستر: اثر بوت پس از راه رفتن نباید عمیق‌تر از یک‌چهارم اینچ باشد.",
+      "conditions": "منطقه: آلاباما؛ محصول: بستر بذر؛ واحد: boot imprint depth؛ محدودیت: بستر آماده",
+      "evidence_id": "d1-e10",
+      "numeric_bindings": [
+        {
+          "value": "1⁄4",
+          "unit_quote": "boot imprints should be no deeper than 1⁄4 inch after walking across the area",
+          "geographic_scope": "Alabama, southeastern United States",
+          "product_scope": "seedbed firmness check"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "پیش از کاشت، آزمایش pH خاک در دو لایه ۰ تا ۸ اینچ (سطح) و ۸ تا ۱۵ اینچ (زیرسطح) ضروری است.",
+      "conditions": "منطقه: آلاباما؛ محصول: یونجه; واحد: soil sampling depth; محدودیت: پیش از کاشت",
+      "evidence_id": "d1-e8",
+      "numeric_bindings": [
+        {
+          "value": "8",
+          "unit_quote": "surface (0 to 8 inches)",
+          "geographic_scope": "Alabama, southeastern United States",
+          "product_scope": "soil sampling for alfalfa establishment"
+        },
+        {
+          "value": "15",
+          "unit_quote": "subsoil (8 to 15 inches)",
+          "geographic_scope": "Alabama, southeastern United States",
+          "product_scope": "soil sampling for alfalfa establishment"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "pH سطحی مطلوب برای استقرار یونجه بین ۶٫۵ تا ۷٫۰ و pH زیرسطح حدود ۵٫۵ گزارش شده است.",
+      "conditions": "منطقه: آلاباما؛ محصول: یونجه; واحد: pH scale; محدودیت: استقرار بذر",
+      "evidence_id": "d1-e9",
+      "numeric_bindings": [
+        {
+          "value": "6.5",
+          "unit_quote": "soil pH ... should range from 6.5 to 7.0 on the soil surface",
+          "geographic_scope": "Alabama, southeastern United States",
+          "product_scope": "alfalfa establishment soil pH"
+        },
+        {
+          "value": "5.5",
+          "unit_quote": "around 5.5 on subsoil",
+          "geographic_scope": "Alabama, southeastern United States",
+          "product_scope": "alfalfa establishment subsoil pH"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منابع موجود درباره دمای بهینه جوانه‌زنی بذر یونجه، نرخ سله خاک و معیارهای رطوبت کاشت مستقیماً موضوع عنوان را پوشش نمی‌دهند.",
+      "conditions": "منطقه: کلی; محصول: بذر یونجه; واحد: none; محدودیت: فقدان شواهد جوانه‌زنی در دسته منابع ارائه‌شده",
+      "evidence_id": "d1-e11",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "عنوان درباره علل عدم جوانه‌زنی بذر یونجه (دمای جوانه‌زنی، رطوبت بستر و تشکیل سله خاک) است. مجموعه شواهد دسترسی‌یافته شامل راهنمای استقرار یونجه (آلاباما) و مقالات برداشت/مدیریت زمستانه است و هیچ‌یک محدوده دمایی جوانه‌زنی، آستانه رطوبت خاک برای بارورسازی بذر، یا روش‌های پیشگیری/شکستن سله خاک را به‌صورت مستقیم گزارش نکرده‌اند. بنابراین پاسخ به نیت «جوانه‌زنی» با این مجموعه منبع امکان‌پذیر نیست."
+}

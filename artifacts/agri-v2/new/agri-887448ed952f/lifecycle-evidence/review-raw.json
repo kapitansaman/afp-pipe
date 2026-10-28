@@ -1,7 +1,7 @@
 {
-  "all_claims_supported": true,
+  "all_claims_supported": false,
   "crop_species_and_product_match": true,
-  "answers_exact_intent": true,
+  "answers_exact_intent": false,
   "units_and_denominators_correct": true,
   "geography_and_transfer_limits_retained": true,
   "no_iranian_prescription_inferred": true,
@@ -10,7 +10,7 @@
   "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "منابع اصلی فقط شامل یک منبع دانشگاهی ویرجینیا تک (دانشگاه ویرجینیا) و یک منبع اکستنشن آلاباما (دانشگاه آبرن) هستند. منابع مینه‌سوتا (cover crops, forages, small grains) به موضوع کدو آجیلی مرتبط نیستند و رد شده‌اند. هر دو منبع برای محصولات خارجی آمریکا گردآوری شده‌اند و هیچ داده‌ای برای شرایط ایران، اقلیم‌های دیگر یا ارقام محلی فراهم نمی‌کنند. اطلاعات مربوط به نگهداری میوه کامل و عمل‌آوری، مستقیماً برای دانه استخراجزده‌شده پس از برداشت کدو آجیلی قابل تعمیم نیست. دقت منبع ویرجینیا تک برای رسیدگی دانه است نه تولید میوه.",
+  "limitations": "منابع فارسی موجود (navar-abyari.ir) فقط به عنوان لینک ارجاعی یافت شدند و محتوای مستقیم آن‌ها بارگذاری نشد. منبع اصلی دانشگاهی ویرجینیا تک (Dr. Greg Welbaum, Virginia Tech) به‌صورت مستقیم درباره تولید بذر کدو/حلوایی استخراج بذر از میوه کامل پرداخته و شرایط برداشت ماشینی را توصیف کرده است. منبع اکستنشن آلاباما صرفاً درباره نگهداری میوه کامل زمستانی (whole fruit storage/curing) است و هیچ داده‌ای درباره تخم کدو پس از استخراج، کیفیت روغن، کنترل آفلاتوکسین یا ضایعات برداشت دانه ارائه نمی‌دهد. ادعاهای f4 و f5 اگرچه در متن منبع آلاباما پشتیبانی می‌شوند، اما مربوط به عمل‌آوری و نگهداری میوه کامل هستند نه دانه استخراج‌شده؛ بنابراین ارتباط مستقیم با هدف «کاهش تلفات برداشت کدو آجیلی» (种子产品的损失) ندارند. هیچ منبع ایرانی یا منطقه‌ای برای این محصول خاص بارگذاری نشد. تبدیل واحدها در متن اصلی وجود ندارد؛ واحدها عیناً از منبع نقل شده‌اند.",
   "fact_checks": [
     {
       "fact_id": "f0",
@@ -35,12 +35,14 @@
     {
       "fact_id": "f4",
       "supported": true,
-      "scope_and_units_correct": true
+      "scope_and_units_correct": false
     },
     {
       "fact_id": "f5",
       "supported": true,
-      "scope_and_units_correct": true
+      "scope_and_units_correct": false
     }
-  ]
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
 }

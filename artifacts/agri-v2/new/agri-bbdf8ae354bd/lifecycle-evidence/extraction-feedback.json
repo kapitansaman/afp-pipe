@@ -1,8 +1,32 @@
 {
   "topic_id": "agri-bbdf8ae354bd",
-  "candidate_sha256": "f43bf14a7fe8463f0c48f3e6d6f80a7c78f44eaf8c06faa87fc8c188943521da",
+  "candidate_sha256": "e739b901bafe3ff1bf7d57ecff9d455b6f6580f7388174e875b8cd853699e7c4",
   "scientific_approval": false,
-  "errors": [],
+  "errors": [
+    {
+      "fact_index": 5,
+      "code": "scoped_fact_conditions_required",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "آبیاری باید عمیق و کم‌فراوان باشد و ۱ تا ۲ اینچ در هفته توصیه می‌شود.",
+        "conditions": "یوتا، ایالات متحده، کدو",
+        "evidence_id": "d5-e7",
+        "numeric_bindings": [
+          {
+            "value": "1 to 2",
+            "unit_quote": "1-2 inches per week",
+            "geographic_scope": "یوتا، ایالات متحده",
+            "product_scope": "کدو"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d5-e7",
+        "source_url": "https://extension.usu.edu/yardandgarden/research/pumpkins-in-the-garden",
+        "quote": "lants from cool air temperatures. Row covers enhance growth and early maturity. Covers need to be removed when plants start to flower or when temperatures exceed 90ºF. Water Water deeply and infrequently, 1-2 inches per week. Use drip irrigation if possible. Mulch around the plants will conserve soil moisture and reduce weed growth. Irrigate so that moisture goes deeply into the soil. Reduce watering amounts as the fruits ripen. Fertilization After the vines develop runners, side dress with a nitrogen fertilizer (21-0-0) using 1-2 tablespoons per plant or mound. Incorporate the fertilizer at least 6 inches away from the plant. Problems with Growing Pumpkins Weeds Plastic and organic mulches effectively control weeds. Hand weeding is needed to control weeds within the row. Heavy vine growth by pumpkins will also smother weeds. Insects and Diseases Insect Identification Control Aphids Gree"
+      }
+    }
+  ],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "عنوان درباره محاسبه مدت هر نوبت آبیاری کدو آجیلی با تیپ بر مبنای دبی واقعی و نیاز آب است. منابع موجود تنها توصیه‌های کیفی کلی درباره آبیاری عمیق و کم‌فراوان (۱ تا ۲ اینچ در هفته در یوتا، d5-e7) و ترجیح سیستم قطره‌ای به‌جای سرآب‌دوز (d2-e5, d3-e7) ارائه می‌دهند. هیچ منبعی روش محاسبه مدت آبیاری، فرمول دبی واقعی، طول نوار تیپ، فشار کاری، یا معیار اندازه‌گیری دبی در مزرعه را پوشش نمی‌دهد. هدف اصلی موضوع (irrig_duration از طریق محاسبه فنی دبی) پاسخ داده نشده است."
+  "declared_insufficiency": "عنوان درباره محاسبه مدت هر نوبت آبیاری کدو آجیلی با تیپ بر مبنای دبی واقعی و نیاز آب است. منابع موجود فقط ترجیح کیفی سامانه قطره‌ای و توصیه کلی ۱ تا ۲ اینچ در هفته را پوشش می‌دهند. هیچ منبعی روش محاسبه مدت آبیاری، فرمول دبی واقعی، طول نوار تیپ، فشار کاری یا معیار اندازه‌گیری دبی در مزرعه را ارائه نمی‌دهد. هدف اصلی (محاسبه فنی مدت نوبت آبیاری از دبی اندازه‌گیری‌شده) پاسخ داده نشده است."
 }
