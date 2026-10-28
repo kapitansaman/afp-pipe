@@ -3,8 +3,8 @@
   "policy": "write-ahead-lifecycle-v1",
   "repository": "kapitansaman/afp-pipe",
   "branch": "feat/agri-generator-v2-2905-merge593",
-  "status": "checkpointed",
-  "run_id": "40641934753",
+  "status": "in_flight",
+  "run_id": "40643892351",
   "topics": [
     {
       "topic_id": "agri-cfaae7290b88",
@@ -19,7 +19,7 @@
       "family_id": "family-03"
     },
     {
-      "topic_id": "agri-cd64428568cb",
+      "topic_id": "agri-108b007ce25b",
       "family_id": "family-04"
     },
     {
@@ -39,7 +39,7 @@
       "family_id": "family-08"
     },
     {
-      "topic_id": "agri-71be4981f446",
+      "topic_id": "agri-b1f8c76a39ac",
       "family_id": "family-09"
     },
     {
@@ -51,15 +51,15 @@
       "family_id": "family-11"
     },
     {
-      "topic_id": "agri-fcc69d8bfd95",
+      "topic_id": "agri-6d0759f7e898",
       "family_id": "family-12"
     },
     {
-      "topic_id": "agri-dc60868225b6",
+      "topic_id": "agri-46cf2473ba02",
       "family_id": "family-13"
     },
     {
-      "topic_id": "agri-887448ed952f",
+      "topic_id": "agri-4e0b195e7205",
       "family_id": "family-14"
     },
     {
@@ -75,7 +75,7 @@
       "family_id": "family-17"
     },
     {
-      "topic_id": "agri-18ff41bec566",
+      "topic_id": "agri-e1268545eb02",
       "family_id": "family-18"
     },
     {
@@ -83,15 +83,11 @@
       "family_id": "family-19"
     },
     {
-      "topic_id": "agri-1c9df68c91c1",
+      "topic_id": "agri-b914a783ffdd",
       "family_id": "family-20"
     }
   ],
-  "started_at": "2026-10-28T06:09:52.967347+00:00",
+  "started_at": "2026-10-28T06:29:17.443324+00:00",
   "automatic_uncertain_replay": false,
-  "original_attempts_reset": false,
-  "checkpointed_at": "2026-10-28T06:15:40.055314+00:00",
-  "all_selected_workers_merged": true,
-  "checkpoint_report_sha256": "b681990fa809d6fe20f4c177f9394676156de41fcedd8dc971b8ae42eeef2f0b",
-  "checkpoint_digest": "96f9a095dd5cb17e4d5e18bb348092c0807ce2edd596fb0d5ec06a54aa8c944d"
+  "original_attempts_reset": false
 }
