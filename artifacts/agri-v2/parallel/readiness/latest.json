@@ -1,11 +1,8 @@
 {
-  "status": "readiness_blocked",
-  "checked_at": "2026-10-28T04:55:08.538840+00:00",
-  "technical_ready": false,
-  "blockers": [
-    "provider_circuits_clear",
-    "scoped_rollout_released"
-  ],
+  "status": "readiness_checked",
+  "checked_at": "2026-10-28T05:21:22.560257+00:00",
+  "technical_ready": true,
+  "blockers": [],
   "gates": {
     "configured_capacity": {
       "passed": true,
@@ -20,7 +17,7 @@
       "detail": "Separate actual successful fresh bound image proof; text success is not image approval"
     },
     "provider_circuits_clear": {
-      "passed": false,
+      "passed": true,
       "detail": "No active text/image/global provider hold; malformed evidence blocks release"
     },
     "accepted_live_pilot": {
@@ -48,7 +45,7 @@
       "detail": "Registered afp_language and afp_source_post_id fields are required for multilingual publication"
     },
     "scoped_rollout_released": {
-      "passed": false,
+      "passed": true,
       "detail": "General scoped families are still research-only until the live pilot is accepted"
     },
     "lifecycle_enabled": {
