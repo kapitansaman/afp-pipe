@@ -1,0 +1,59 @@
+{
+  "owned_scoped_family_pilot": false,
+  "matrix_pilot": false,
+  "research_only": false,
+  "run_id": "40698806905",
+  "status": "completed",
+  "assigned_count": 0,
+  "pilot_topic_only": false,
+  "results": [],
+  "publication_results": [],
+  "published_posts": 0,
+  "max_stage_attempts": 3,
+  "original_attempts_reset": false,
+  "schedule_enabled": false,
+  "publication_authorized": true,
+  "source_and_translation_posts_counted": true,
+  "started_at": "2026-10-28T13:43:26.352769+00:00",
+  "staged_rollout": {
+    "limit": 1,
+    "cohort": [
+      {
+        "topic_id": "agri-6fc1032cdf42",
+        "family_id": "family-07",
+        "title_sha256": "9614916e47946e2b7e3e6cdfc3166dff4fa91e19b1dc9563557fc4fdd47650e9"
+      }
+    ],
+    "selected_count": 0,
+    "waiting": [
+      {
+        "topic_id": "agri-6fc1032cdf42",
+        "family_id": "family-07",
+        "stage": "publish",
+        "due": false,
+        "reason": "translation_review_backoff",
+        "next_attempt_epoch": null,
+        "publication_authorized": false
+      },
+      {
+        "topic_id": "agri-357023cf27d6",
+        "family_id": "family-08",
+        "stage": "research_extract",
+        "due": false,
+        "reason": "request_outcome_requires_reconciliation",
+        "next_attempt_epoch": null,
+        "publication_authorized": false
+      }
+    ],
+    "manual_verification_required": true,
+    "run_id": "40698806905",
+    "automatic_promotion": false
+  },
+  "no_due_work": true,
+  "operational_failures": 0,
+  "waiting_families": 2,
+  "publication_ready_workers": 0,
+  "model_calls": 0,
+  "post_mutations": 0,
+  "completed_at": "2026-10-28T13:43:26.353719+00:00"
+}
