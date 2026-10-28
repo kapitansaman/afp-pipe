@@ -24,7 +24,17 @@ def approved_roles(folder,topic,article):
  return tuple(good)
 def exhausted(folder,k):
  from .family_lifecycle import state
- return max(state(Path(folder),'image-'+str(k))['attempts'],state(Path(folder),'vision-'+str(k))['attempts'])>=MAX_ATTEMPTS
+ folder=Path(folder);gen=state(folder,'image-'+str(k));vision=state(folder,'vision-'+str(k))
+ # A final generated candidate still owns its remaining review budget. Reaching
+ # the generation limit must not strand unreviewed bytes or authorize omission.
+ image=folder/f'image-{k}.webp';proof=image.with_suffix('.quality.json')
+ if image.exists() and vision['attempts']<MAX_ATTEMPTS:
+  from .image_quality import EXPLICIT_REJECTIONS
+  sha=hashlib.sha256(image.read_bytes()).hexdigest()
+  row=load_json(proof) if proof.exists() else {}
+  settled=(row.get('image_sha256')==sha and row.get('status')=='reviewed' and type(row.get('verdict',{}).get('passed')) is bool)
+  if sha not in EXPLICIT_REJECTIONS and not settled:return False
+ return max(gen['attempts'],vision['attempts'])>=MAX_ATTEMPTS
 
 def validate_selection(folder,topic,article):
  """This is an additional binding gate; every retained image still needs valid QA."""
