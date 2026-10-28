@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "backend": "tavily",
+  "checked_at": "2026-10-28T01:20:58.412585+00:00",
+  "status": "search_connection_verified",
+  "model_calls": 0,
+  "published_posts": 0,
+  "scientific_acceptance": false,
+  "max_search_requests": 1,
+  "max_source_fetches": 2,
+  "live_connection_verified": true,
+  "search_cache_hit": false,
+  "admitted_search_results": 6,
+  "fetched_documents": 2,
+  "fetched_source_urls": [
+    "https://blog-crop-news.extension.umn.edu/2021/06/early-season-drought-effects-on-corn.html",
+    "https://blog-crop-news.extension.umn.edu/2022/07/quick-review-of-irrigation-management.html"
+  ],
+  "evidence_pipeline_verified": true,
+  "search_usage": {
+    "backend": "tavily",
+    "requests_reserved": 1,
+    "unknown_requests": 0,
+    "cache_entries": 1,
+    "monthly_budget": {
+      "month": "2026-10",
+      "reserved": 1
+    },
+    "cooldown_until_epoch": 0.0,
+    "secret_values_stored": false
+  }
+}

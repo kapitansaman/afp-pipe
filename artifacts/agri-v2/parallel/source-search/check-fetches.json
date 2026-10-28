@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/06/early-season-drought-effects-on-corn.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2021/06/early-season-drought-effects-on-corn.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/07/quick-review-of-irrigation-management.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/07/quick-review-of-irrigation-management.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

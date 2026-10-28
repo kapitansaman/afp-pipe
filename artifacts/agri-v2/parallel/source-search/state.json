@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "backend": "tavily",
+  "updated_at": "2026-10-28T01:21:00.809937+00:00",
+  "cooldown_until_epoch": 0.0,
+  "cache": {
+    "0ffcf2f68d107042fae4f3d405814fc82858b3814f37394f5155c3f716e44c29": {
+      "checked": 1793150460.3123972,
+      "results": [
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2021/06/early-season-drought-effects-on-corn.html",
+          "title": "Early season drought effects on corn and soybean",
+          "description": "In dry seasons when crop water demands are really high, like the one we are experiencing right now, water availability for irrigation could be an issue later in the season so it is beneficial to use this water cautiously at the stages that can withstand water stress and use that water later in the season near tasseling and early reproductive periods. [...] The term evapotranspiration (ETc) and crop water use are used synonymously to describe the water movement from the soil through evaporation and from the plant surface through transpiration. Understanding of the critical water use periods for corn and soybeans to maximize the yield potential and to improve water use efficiency can help in efficient irrigation management.\n\nFigure 2. Corn and soybean evapotranspiration at Becker, MN. [...] For irrigated fields, water applications in early growth stages can be reduced without impacting the yield much, as long as water stress is alleviated during early reproductive periods (Lamm and Kheira, 2008). For corn and soybean, soil water depletion can be as high as 60-70% in the early vegetative growth stage without affecting plant development."
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2022/07/quick-review-of-irrigation-management.html",
+          "title": "Quick review of irrigation management strategies",
+          "description": "As the crop nears its critical growth period or its usual peak water-use period, reduce the selected allowable soil water deficit to minimize the risks of not meeting the crop's water needs and causing yield losses. For most crops, this may mean changing soil water deficit limit to a 30 to 40 percent before entering the critical growth stage - such as the 10th to 12th leaf stage for corn, or early flower for soybeans. During these critical periods of high water use, regularly project the next [...] Another possible irrigation water management plan is to set the allowable soil water deficit equal to, or slightly greater than, the irrigation system’s normal net application amount. For example, if the typical application is 0.75 inches net, then choose a planning deficit limit of 0.75 to 1 inch. If this is greater than 50 percent of the available water capacity in the root zone, make the amount smaller, especially during the critical stages of crop growth, to reduce the risk of moisture [...] project the next two to three days of water needs to plan ahead and avoid stressing any part of the field before it’s irrigated. For example, when using a center pivot, which takes three days to "
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2023/09/how-do-wet-and-dry-years-affect-corn.html",
+          "title": "How do wet and dry years affect corn yield and nitrate leaching under different irrigation and nitrogen management strategies?",
+          "description": "In Minnesota, irrigation is common in the central region of the state and a necessary practice for the success of numerous crops such as corn, soybeans and potatoes. However, the lack of precise irrigation recommendations for Minnesota soils and production systems raises concerns about the impact of irrigation on ground and surface water resources and quality. High rates of groundwater withdrawals for irrigation can damage nearby lakes and streams, thus impacting aquatic lives and recreational [...] The data from three years of this project at Becker, MN indicates that reduced/limited irrigation startegy has potential to reduce irrigaion water use without significant reduction in grain yield, particularly in wet years. At the other location of this project (Westport, MN) we did not find any significant grain yield loss in 75% irrigation as compared to 100% irrigation even in the dry 2021 and 2022 years indicating that geographic location and climate at a particular location impact the [...] and recreational activities. Additionally, nitrate leaching into groundwater poses a threat to groundwater quality for drinking. Proper irrigation and nitrogen (N) fertilizer management for crop"
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2023/07/research-shows-precision-irrigation.html",
+          "title": "Research shows precision irrigation technology can improve irrigation water productivity in corn",
+          "description": "management zone 1 in both VRI and URI. Our results indicate that the yield distribution within each irrigation treatment followed a similar pattern in that the management zones with lower EC had higher yield. Overall, because of very dry conditions in the growing season, higher irrigation in URI plots did not cause any significant grain yield loss as the water use (crop evapotranspiration) by the crop was high. However, if the weather conditions would have been normal or precipitation would [...] Similar results were obtained in 2022, which was also dry compared to normal growing seasons. Figure 3c and Table 2 show corn yield with various irrigation treatments and management zones. The yield was slightly lower in 2022 compared to 2021, possibly due to reduced irrigation in 2022 than in 2021 (approximately 5 inches lower irrigation in URI) and slightly lower temperatures in 2022. The yield varied from 226.5 to 228 bu/ac in zone 1, 224 to 229 bu/ac in zone 2 and 225 to 222 bu/ac in zone 3 [...] By addressing in-field variability using VRI technology, we can optimize irrigation, maximize crop growth, and minimize negative environmental consequences. For this project, irrigation manage"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/irrigation-strategies-for-vegetables",
+          "title": "Irrigation strategies for vegetables",
+          "description": "In addition to under-watering, too much water in vegetable crops, especially late in the season, can also reduce the quality and postharvest life of the crop. Applying excessive water wastes water and increases the risk of nutrient leaching.\n\n## In-season irrigation management strategies\n\nDeciding when to irrigate to optimize production is a daily judgment call that requires you to consider several factors. Many of these factors change as the crop develops. [...] Below are some general guidelines to consider when developing a water management plan and setting allowable soil water deficit limits.\n\nOpen all|Close all\n\n Irrigation basics \n\nBefore we dig more into different methods of irrigation scheduling, it is very important to understand the basics of irrigation and soil water attributes. Here are some common terms:\n\nSaturation – The water which readily percolates or drains out from the root zone by gravitational force. Also called gravitational water. [...] Irrigation scheduling was set up to maintain PAW at 60% of AWC (i.e., 40% MAD), using the 0.15 in 3 in-3 water (Readily available water (RAW)) as the trigger point to irrigate.\n   Whenever the volumetric water content from the "
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2023/06/field-notes-session-talks-soil-moisture.html",
+          "title": "Field Notes: Soil moisture and nitrogen management",
+          "description": "Crop water demand changes throughout the growing season. In corn, the period of highest water demand is when the crop is getting close to tasseling (when there are more than 10 leaf collars); it is during this time that 0.7-1 inches of irrigation water (also depending on soil type and irrigation system capacity) is recommended when irrigation is warranted. [...] After a crop’s stand is established, not only do the dry soil conditions favor roots growing deeper in the profile to mine water, crops can tolerate some early-season stress. Despite the lack of rainfall, at both the Becker and the Westport, MN (Pope County) UMN irrigation research locations, established crops have not yet been irrigated for these reasons. If hot, dry conditions continue, irrigation will need to take place in the next couple of weeks or producers risk the crop experiencing"
+        }
+      ]
+    }
+  },
+  "monthly_budget": {
+    "month": "2026-10",
+    "reserved": 1
+  },
+  "secret_values_stored": false
+}
