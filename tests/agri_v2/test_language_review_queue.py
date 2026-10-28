@@ -93,9 +93,10 @@ class LanguageReviewQueueTests(unittest.TestCase):
      p=self.posts[int(path.split('/')[1].split('?')[0])]
      if method=='POST':p.update(data)
      return p,{}
+   real_body=m.localized_body
    def body(row,*_):
     if row['language']=='ru-RU':raise ValueError('unmapped locale link')
-    return '<p>'+media[1]['url']+'</p>'
+    return real_body(row,media,{row['language']:[]})
    wp=WP()
    with patch.object(m,'DATA',data),patch.object(m,'localized_body',side_effect=body),patch.object(m,'verify_target',return_value=True):
     result=m.publish_family(wp,f,t,{'post_id':500});again=m.publish_family(wp,f,t,{'post_id':500})

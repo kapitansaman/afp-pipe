@@ -32,7 +32,7 @@ class TwoImageLayoutTests(unittest.TestCase):
  def test_wordpress_uploads_only_two_and_sets_featured(self):
   with tempfile.TemporaryDirectory() as tmp,patch('automation.agri_v2.wordpress.require_all'),patch('automation.agri_v2.wordpress.validate_targets'):
    folder=Path(tmp);topic={'id':'fixture','title':'عنوان آزمایشی','crop':'لوبیا'}
-   atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':'<p>Intro</p><h2>A</h2><p>B</p>'})
+   atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':'<p>Intro <a href="https://example.edu/source">منبع</a></p><h2>A</h2><p>B</p>'})
    atomic_json(folder/'article.json',{'faq':[{'question':'این یک پرسش آزمایشی است؟','answer':'این پاسخ صرفاً برای آزمون قالب نوشته شده و توصیه علمی نیست.'}]*3})
    for i in (1,2):(folder/f'image-{i}.webp').write_bytes(b'fixture')
    wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'})
@@ -47,7 +47,7 @@ class TwoImageLayoutTests(unittest.TestCase):
      ident=int(path.split('/')[1]);return {'id':ident,'source_url':'https://navar-abyari.ir/media/'+str(ident)},{}
     if path.endswith('?context=edit'):return {'author':7,'status':'draft','content':{'raw':'<!-- afp-agri-v2:fixture -->'}},{}
     return {'id':50,'link':'https://navar-abyari.ir/fixture/'},{}
-   wp.call=call;wp.publish(folder,topic,{'publish_authorized':True},True)
+   wp.call=call;wp.inventory=lambda:{'records':[]};wp.publish(folder,topic,{'publish_authorized':True,'sources':[{'url':'https://example.edu/source'}]},True)
    self.assertEqual(len(uploads),2);self.assertFalse(any('image-3' in n for n in uploads))
    updates=[d for p,m,d in requests if p=='posts/50' and d and 'featured_media' in d]
    self.assertEqual(updates[0]['featured_media'],101);self.assertEqual(updates[0]['content'].count('<figure '),1)

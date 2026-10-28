@@ -117,16 +117,22 @@ def verify_target(url,lang,fetcher=None):
 def localized_body(row,media,policy,fetcher=None):
  if not media:raise ValueError('At least one approved shared image required')
  lang=row['language'];body=row['content_html'];rows=policy[lang]
+ from .editorial_presentation import end_sources
+ from .internal_links import anchors
+ sources=[{'url':u} for u,t in anchors(body) if urllib.parse.urlsplit(u).hostname!='navar-abyari.ir' and urllib.parse.urlsplit(u).scheme=='https']
  # All in-site links must come from an explicit verified same-language map.
  from .internal_links import anchors
  if any(urllib.parse.urlsplit(u).hostname=='navar-abyari.ir' for u,t in anchors(body)):raise ValueError('Unmapped in-site link in translation')
  for target in rows:verify_target(target['url'],lang,fetcher)
- if rows:body+='<p>'+PHRASES[lang]+': '+' · '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in rows)+'</p>'
+ related_labels={'ru-RU':'Связанные статьи','ar-IQ':'مقالات ذات صلة','tg-TJ':'Мақолаҳои марбут','en-US':'Related articles'}
+ for kind,label in (('primary',PHRASES[lang]),('related',related_labels[lang])):
+  group=[r for r in rows if r.get('kind','primary')==kind]
+  if group:body+='<p>'+label+': '+' · '.join('<a href="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['anchor'])+'</a>' for r in group)+'</p>'
  matches=list(re.finditer('<h2>',body));at=matches[len(matches)//2].start() if len(matches)>1 else len(body)
  if len(media)>1:body=body[:at]+'<figure class="wp-block-image"><img src="'+html.escape(media[1]['url'],quote=True)+'" alt="'+html.escape(row['title'],quote=True)+'" loading="lazy"/></figure>'+body[at:]
  body+='<p><em>'+DISCLOSURES[lang]+'</em></p><h2>'+FAQ_LABEL[lang]+'</h2><div class="faq-section">'+''.join('<details><summary>'+html.escape(f['question'])+'</summary><p>'+html.escape(f['answer'])+'</p></details>' for f in row['faq'])+'</div>'
  from .display_units import content as display_content
- return display_content(body,lang)
+ return end_sources(display_content(body,lang),sources,lang)
 
 def publish_family(wp,folder,topic,source_result):
  from .internal_links import anchors
@@ -149,13 +155,8 @@ def publish_family(wp,folder,topic,source_result):
  if 'commercial_matrix' in article:
   from .content_matrix import links_enabled
   if not links_enabled(article['commercial_matrix']):policy={lang:[] for lang in policy}
- related_labels={'ru-RU':'Связанная статья','ar-IQ':'مقال ذو صلة','tg-TJ':'Мақолаи марбут','en-US':'Related article'}
- for related in load_json(DATA/'internal-links.json').get('related',[]):
-  if related.get('match') and related['match'] not in str(topic.get('crop',''))+' '+str(topic.get('title','')):continue
-  if not related.get('post_id'):continue
-  original,_=wp.call('posts/'+str(related['post_id'])+'?_fields=afp_translation_links')
-  for lang,url in original.get('afp_translation_links',{}).items():
-   if lang in LANGUAGES:policy[lang].append({'anchor':related_labels[lang],'url':url})
+ related_rows=source_receipt.get('editorial_related',[])
+ from .editorial_presentation import translated_related
  for lang in LANGUAGES:
   try:
    from .language_review_queue import enabled as independent,approved as language_approved,path as review_state,publication_due
@@ -170,7 +171,10 @@ def publish_family(wp,folder,topic,source_result):
    if row['source_article_sha256']!=digest(load_json(folder/'article.json')):raise ValueError('Translated source changed')
    rp=folder/'translations'/f'{lang}.wordpress.json';slug=load_json(folder/'wordpress-draft-payload.json')['slug']+'-'+lang.lower()
    marker='<!-- afp-agri-v2:'+topic['id']+':'+lang+' -->'
-   content=localized_body(row,media,policy)
+   current_url=wp.site+'/'+slug+'/' if isinstance(getattr(wp,'site',None),str) else 'https://navar-abyari.ir/'+slug+'/'
+   local_policy={lang:list(policy[lang])}
+   local_policy[lang].extend(translated_related(wp,related_rows,lang,current_url))
+   content=localized_body(row,media,local_policy)
    matches=[]
    if rp.exists():
     known=load_json(rp);post,_=wp.call('posts/'+str(known['post_id'])+'?context=edit');matches=[post]
@@ -199,7 +203,10 @@ def publish_family(wp,folder,topic,source_result):
    verify_target(post['link'],lang)
    final,_=wp.call('posts/'+str(post['id']))
    if final.get('status')!='publish' or final.get('afp_language')!=lang or html.unescape(final.get('title',{}).get('rendered',''))!=display_text(row['title'],lang) or final.get('featured_media')!=media[0]['id'] or len(media)>1 and media[1]['url'] not in final.get('content',{}).get('rendered',''):raise ValueError('Published translation verification failed')
-   receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'display_units_policy':'localized-display-units-v1','verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
+   from .editorial_presentation import verify_sources,VERSION as EDITORIAL_POLICY
+   source_urls=[{'url':u} for u,t in anchors(row['content_html']) if urllib.parse.urlsplit(u).scheme=='https' and urllib.parse.urlsplit(u).hostname!='navar-abyari.ir']
+   verify_sources(final['content']['rendered'],source_urls,lang)
+   receipt={'post_id':post['id'],'url':post['link'],'language':lang,'source_post_id':source_result['post_id'],'status':'published','public_verified':True,'shared_media':media,'new_media_uploads':0,'editorial_presentation_policy':EDITORIAL_POLICY,'editorial_related':[r for r in local_policy[lang] if r.get('kind')=='related'],'editorial_source_urls':[r['url'] for r in source_urls],'display_units_policy':'localized-display-units-v1','verified_at':utcnow()};atomic_json(rp,receipt);done[lang]=receipt
    if split and review_state(folder,lang).exists():
     queued=load_json(review_state(folder,lang));queued.update(status='published',next_attempt_at=None,published_receipt=receipt);atomic_json(review_state(folder,lang),queued)
   except Exception as error:

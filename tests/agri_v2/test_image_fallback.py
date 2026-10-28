@@ -70,7 +70,7 @@ class ImageFallbackTests(unittest.TestCase):
    data,folder,t,a=self.fixture(d);c=FakeClient({1:[True],2:[True]*4});c.image=lambda *args,**kw:b'same pixels';r=w.advance(c,folder,t,a,'1',data);self.assertEqual(r['roles'],[1]);self.assertEqual(f.state(folder,'image-2')['attempts'],4)
  def test_wordpress_uploads_only_retained_role_two_without_inline_duplicate(self):
   with tempfile.TemporaryDirectory() as d,patch('automation.agri_v2.wordpress.validate_targets'):
-   data,folder,t,a=self.fixture(d);a['faq']=[{'question':'این پرسش صرفاً برای آزمون قالب است؟','answer':'این پاسخ صرفاً برای آزمون مسیر انتشار نوشته شده و توصیهٔ کشاورزی محسوب نمی‌شود.'}]*3;atomic_json(folder/'article.json',a);w.advance(FakeClient({1:[False]*4,2:[True]}),folder,t,a,'1',data);atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':a['content_html']})
+   data,folder,t,a=self.fixture(d);a['faq']=[{'question':'این پرسش صرفاً برای آزمون قالب است؟','answer':'این پاسخ صرفاً برای آزمون مسیر انتشار نوشته شده و توصیهٔ کشاورزی محسوب نمی‌شود.'}]*3;atomic_json(folder/'article.json',a);w.advance(FakeClient({1:[False]*4,2:[True]}),folder,t,a,'1',data);atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':a['content_html']+'<p><a href="https://example.edu/source">منبع</a></p>'})
    wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'});wp.user_id=7;wp.preflight=Mock();wp.publish_family=lambda *args:args[-1];post={};uploads=[]
    def call(path,method='GET',data=None,blob=None,headers=None):
     if path.startswith('posts?') or path.startswith('media?'):return [],{}
@@ -82,8 +82,8 @@ class ImageFallbackTests(unittest.TestCase):
      if 'content' in data:post['content']={'raw':data['content'],'rendered':data['content']}
      post.update({k:v for k,v in data.items() if k!='content'})
     return post,{}
-   wp.call=call;response=Mock();response.status=200;response.read.return_value=t['title'].encode();response.__enter__=Mock(return_value=response);response.__exit__=Mock(return_value=False)
-   with patch('automation.agri_v2.wordpress.urllib.request.urlopen',return_value=response):r=wp.publish(folder,t,{'publish_authorized':True},True)
+   wp.call=call;wp.inventory=lambda:{'records':[]};response=Mock();response.status=200;response.read.return_value=t['title'].encode();response.__enter__=Mock(return_value=response);response.__exit__=Mock(return_value=False)
+   with patch('automation.agri_v2.wordpress.urllib.request.urlopen',return_value=response):r=wp.publish(folder,t,{'publish_authorized':True,'sources':[{'url':'https://example.edu/source'}]},True)
    self.assertTrue(r['public_verified']);self.assertEqual(len(uploads),1);self.assertIn('image-2',uploads[0]);self.assertEqual(post['featured_media'],101);self.assertNotIn('<figure',post['content']['rendered']);self.assertEqual(load_json(folder/'wordpress-receipt.json')['selected_image_roles'],[2])
  def test_four_translations_reuse_one_media_without_uploads_or_duplicate_images(self):
   from test_multilingual import article,response
@@ -123,8 +123,8 @@ class ImageFallbackTests(unittest.TestCase):
    with self.assertRaises(ValueError):q.require_all(folder,t,a)
  def test_zero_approved_image_never_sends_a_wordpress_post(self):
   with tempfile.TemporaryDirectory() as d,patch('automation.agri_v2.wordpress.validate_targets'):
-   data,folder,t,a=self.fixture(d);w.advance(FakeClient({1:[False]*4,2:[False]*4}),folder,t,a,'1',data);atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':a['content_html']});wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'});wp.user_id=7;wp.preflight=Mock();wp.call=Mock(return_value=([],{}))
-   with self.assertRaises(ValueError):wp.publish(folder,t,{'publish_authorized':True},True)
+   data,folder,t,a=self.fixture(d);w.advance(FakeClient({1:[False]*4,2:[False]*4}),folder,t,a,'1',data);atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':a['content_html']+'<p><a href="https://example.edu/source">منبع</a></p>'});wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'});wp.user_id=7;wp.preflight=Mock();wp.call=Mock(return_value=([],{}))
+   with self.assertRaises(ValueError):wp.publish(folder,t,{'publish_authorized':True,'sources':[{'url':'https://example.edu/source'}]},True)
    self.assertFalse(any((c.args[1] if len(c.args)>1 else c.kwargs.get('method'))=='POST' for c in wp.call.call_args_list))
  def test_selected_review_tampering_invalidates_fallback(self):
   with tempfile.TemporaryDirectory() as d:

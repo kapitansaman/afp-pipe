@@ -1,58 +1,21 @@
 {
-  "request_id": "harvest-loss-editorial-repair-v1",
-  "topic_id": "agri-a4f1fee1e3ee",
-  "max_review_calls": 1,
+  "request_id": "beet-end-sources-related-language-v1",
+  "topic_id": "agri-d52cdebf818e",
+  "policy": "end-sources-related-language-v1",
+  "authorized": true,
+  "max_existing_posts": 2,
   "max_new_posts": 0,
-  "editorial_review": "Notion AI reviewed literal source passages in this session; no human agronomist approval is claimed. Removed numerical estimates, chemical recommendations and corrupted mixed-language claims. Independent AI review and live overlap audit still required.",
-  "candidate": {
-    "topic_id": "agri-a4f1fee1e3ee",
-    "slug": "pinto-bean-harvest-loss-timing-tools",
-    "answers_intent": true,
-    "local_or_numeric_prescription_required": false,
-    "outline": [
-      "تفکیک ریزش غلاف، تلفات حین برداشت و ناخالصی محموله",
-      "پایش غلاف و خطر باد و بارندگی پس از بریدن",
-      "بررسی تناسب رقم و تجهیزات برای برداشت مستقیم",
-      "کنترل کیفی خشک‌شدن پیش از خرمن‌کوبی",
-      "جدول بازدید مزرعه و تصمیم‌های نیازمند کارشناس محلی"
-    ],
-    "facts": [
-      {
-        "claim": "در برداشت مستقیم لوبیای خشک، تناسب رقم با برداشت مکانیزه، همواری سطح مزرعه، مدیریت علف‌های هرز، هد مناسب و تنظیمات درست کمباین باید با هم بررسی شوند.",
-        "conditions": "راهنمای ترویجی نبراسکا برای سامانه برداشت مستقیم؛ توصیه رقم یا تنظیم عددی دستگاه برای ایران از این متن استخراج نمی‌شود.",
-        "source_url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
-        "evidence_quote": "Many factors play into this harvest loss but with a suitable upright bean variety, level field conditions, good weed control, the correct combine header, proper combine and header settings, and favorable weather, total harvest losses can be minimized to an acceptable level."
-      },
-      {
-        "claim": "باد شدید یا بارندگی پس از بریدن و ردیف‌کردن بوته‌های لوبیا می‌تواند خطر تلفات برداشت را بیشتر کند.",
-        "conditions": "ناظر به محصول بریده‌شده در شرایط نامساعد جوی منبع؛ پیش‌بینی هوا و روش برداشت مزرعه باید محلی بررسی شود.",
-        "source_url": "https://preec.unl.edu/news/are-you-planning-direct-harvest-dry-edible-beans/",
-        "evidence_quote": "If conditions are poor with significant wind or rain after cutting, bean yield losses can increase significantly."
-      },
-      {
-        "claim": "پیش از خرمن‌کوبی، بوته و غلاف لوبیا باید به اندازه کافی خشک باشند؛ گیاه مرطوب می‌تواند کار تجهیزات خرمن‌کوبی را مختل کند.",
-        "conditions": "راهنمای پس‌ازبرداشت لوبیای خشک در مقیاس کوچک؛ درصد رطوبت هدف یا تنظیم فنی دستگاه تعیین نشده است.",
-        "source_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
-        "evidence_quote": "Bean plants must be sufficiently dry to thresh (separate beans from pod) or they will bind up threshing equipment."
-      },
-      {
-        "claim": "تأخیر تا بازشدن غلاف‌های رسیده در مزرعه می‌تواند باعث ریختن دانه روی زمین شود؛ وضعیت غلاف‌ها باید پیش از ریزش بررسی شود.",
-        "conditions": "ناظر به لوبیای خشک و رسیدگی غلاف؛ تاریخ ثابت برداشت برای همه مناطق یا ارقام توصیه نمی‌شود.",
-        "source_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
-        "evidence_quote": "Harvest mature beans before pods begin to shatter in the field or the pods will split open, spilling beans onto the ground."
-      },
-      {
-        "claim": "در خشک‌کردن محصول در مقیاس کوچک، می‌توان از زیرانداز تمیز زیر قفسه‌ها برای جمع‌کردن دانه‌های رهاشده از غلاف استفاده کرد.",
-        "conditions": "نمونه روش مقیاس کوچک در پروژه واشینگتن؛ انتخاب روش باید با تجهیزات، پاکیزگی و شرایط محل تطبیق داده شود.",
-        "source_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
-        "evidence_quote": "Bean plants can also dry on greenhouse shelves with clean tarps beneath the shelves to catch beans that have been expelled from shattering pods."
-      },
-      {
-        "claim": "پس از برداشت و خرمن‌کوبی، بقایای گیاهی، بذر علف هرز، خاک و سنگ باید از محموله لوبیا جدا شوند.",
-        "conditions": "پاک‌سازی فیزیکی محموله در راهنمای لوبیای خشک؛ این اقدام به‌تنهایی تأیید ایمنی غذایی یا نبود آلودگی نیست.",
-        "source_url": "https://vegetables.wsu.edu/small-scale-dry-bean-post-harvest/",
-        "evidence_quote": "After beans are harvested and threshed, they need to be cleaned, removing unwanted plant material, weed seeds, soil and stones."
-      }
-    ]
-  }
+  "max_model_calls": 0,
+  "posts": [
+    {
+      "post_id": 524196,
+      "language": "fa-IR",
+      "expected_modified_gmt": "2026-10-28T06:39:35"
+    },
+    {
+      "post_id": 524200,
+      "language": "en-US",
+      "expected_modified_gmt": "2026-10-28T06:39:55"
+    }
+  ]
 }
