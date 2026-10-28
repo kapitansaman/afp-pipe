@@ -1,0 +1,90 @@
+{
+  "topic_id": "agri-6fc1032cdf42",
+  "media": [
+    {
+      "index": 1,
+      "id": 524205,
+      "url": "https://navar-abyari.ir/wp-content/uploads/agri-6fc1032cdf42-image-1.webp"
+    },
+    {
+      "index": 2,
+      "id": 524206,
+      "url": "https://navar-abyari.ir/wp-content/uploads/agri-6fc1032cdf42-image-2.webp"
+    }
+  ],
+  "status": "published",
+  "display_units_policy": "localized-display-units-v1",
+  "display_locale": "fa-IR",
+  "commercial_matrix": {
+    "version": "search-to-drip-content-matrix-v1",
+    "topic_id": "agri-6fc1032cdf42",
+    "canonical_title": "آخرین آبیاری یونجه پیش از برداشت؛ معیارهای قطع و کاهش آب",
+    "crop": "یونجه",
+    "intent": "preharvest_water",
+    "reader_question": "آخرین آبیاری یونجه پیش از برداشت؛ معیارهای قطع و کاهش آب",
+    "reader_task": [
+      "ورودی‌های اندازه‌گیری‌شده",
+      "منطق تصمیم و واحدها",
+      "پایش مزرعه یا شبکه",
+      "خطاها و حدود کاربرد"
+    ],
+    "business_goal": "Answer the searcher first, then guide a relevant irrigation decision toward actual site drip-tape pages; this is not an encyclopedia or a product advertisement substituted for an answer.",
+    "irrigation_relationship": "direct",
+    "bridge_fact_ids": [
+      "f1",
+      "f3",
+      "f4"
+    ],
+    "cta_mode": "equipment_selection",
+    "bridge_requirement": "Integrate only approved irrigation-related facts naturally into the practical answer. No invented causal link from irrigation to yield, quality, disease or profitability. If the exact title is distant or the required evidence is absent, do not force a product bridge.",
+    "product_scope": "Existing reviewed drip-tape landing/category pages only. No invented model, price, availability, discount, specification or guaranteed water saving/yield improvement.",
+    "cta_rule": "Invitation to inspect suitable options, not an endorsement or field prescription. The site renderer adds verified internal links separately; model must not invent product links.",
+    "search_demand_status": "unknown_not_an_exact_match_in_limited_export",
+    "content_gap_status": "requires_actual_existing_content_audit",
+    "queue_action": "retain_canonical_title",
+    "publication_authorized": false
+  },
+  "selected_image_roles": [
+    1,
+    2
+  ],
+  "post_id": 524204,
+  "editorial_related": [
+    {
+      "kind": "related",
+      "anchor": "آبیاری خرسابی در کشت یونجه: راهکاری برای افزایش بهره‌وری و کاهش مصرف آب",
+      "url": "https://navar-abyari.ir/%d8%a2%d8%a8%db%8c%d8%a7%d8%b1%db%8c-%d8%ae%d8%b1%d8%b3%d8%a7%d8%a8%db%8c-%d8%af%d8%b1-%da%a9%d8%b4%d8%aa-%db%8c%d9%88%d9%86%d8%ac%d9%87-%d9%85%d8%b2%d8%a7%db%8c%d8%a7/",
+      "post_id": 511964,
+      "language": "fa-IR"
+    },
+    {
+      "kind": "related",
+      "anchor": "آبیاری قطره‌ای با نوار تیپ در کشت یونجه: راهنمای جامع پیش‌نیازها و اجرای عملی",
+      "url": "https://navar-abyari.ir/%d8%a2%d8%a8%db%8c%d8%a7%d8%b1%db%8c-%d9%82%d8%b7%d8%b1%d9%87%d8%a7%db%8c-%d8%a8%d8%a7-%d9%86%d9%88%d8%a7%d8%b1-%d8%aa%db%8c%d9%be-%d8%af%d8%b1-%da%a9%d8%b4%d8%aa-%db%8c%d9%88%d9%86%d8%ac%d9%87-%d9%be/",
+      "post_id": 510508,
+      "language": "fa-IR"
+    }
+  ],
+  "editorial_home_fallback": {
+    "policy": "optional-same-language-home-v1",
+    "language": "fa-IR",
+    "irrigation_context": true,
+    "link": null,
+    "status": "not_needed_related_article"
+  },
+  "image_layout": "featured-plus-one-inline-v1",
+  "internal_links_policy": "agri-internal-links-v1",
+  "editorial_presentation_policy": "end-sources-related-language-v1",
+  "editorial_source_urls": [
+    "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+    "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+    "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf"
+  ],
+  "publication_content_sha256": "f1b1ea5d104983333dd42f4592d54cacc26d7580f49c930190133b8cd7d49312",
+  "url": "https://navar-abyari.ir/preharvest-alfalfa-irrigation-criteria/",
+  "published_at": "2026-10-28T13:38:08.476145+00:00",
+  "public_http_status": 200,
+  "verified_at": "2026-10-28T13:38:14.500922+00:00",
+  "featured_media": 524205,
+  "public_verified": true
+}
