@@ -6,7 +6,9 @@ def failure_details(exc):
  from .image_transport import AdmissionBlocked
  from automation.blog_image_queue import ImageQueueBusy
  if isinstance(exc,(PoolDeferred,AdmissionBlocked,ImageQueueBusy)):
-  return {'kind':'admission_deferred','category':'shared_image_queue_busy' if isinstance(exc,ImageQueueBusy) else 'image_admission_blocked' if isinstance(exc,AdmissionBlocked) else 'model_capacity_deferred'}
+  pool_codes={'No eligible capability':'pool_capability_missing','Shared provider cooldown':'shared_provider_cooldown','Bounded model budget consumed':'model_request_budget_deferred','Eligible credentials busy; defer without provider call':'pool_credentials_busy','Temporary source fetch failure; no scientific absence inferred':'source_fetch_temporarily_unavailable'}
+  category='shared_image_queue_busy' if isinstance(exc,ImageQueueBusy) else 'image_admission_blocked' if isinstance(exc,AdmissionBlocked) else pool_codes.get(str(exc),'model_capacity_deferred')
+  return {'kind':'source_fetch_deferred' if category=='source_fetch_temporarily_unavailable' else 'admission_deferred','category':category}
  if isinstance(exc,ImageProviderError):kind='image_provider'
  elif isinstance(exc,TextProviderError):kind='text_provider'
  elif isinstance(exc,ModelOutputError):kind='model_output'
