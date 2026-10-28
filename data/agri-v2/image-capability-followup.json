@@ -1,0 +1,12 @@
+{
+  "request_id": "family09-image-followup-v1",
+  "family_id": "family-09",
+  "slot": "AGNES_API_KEY36",
+  "model": "agnes-image-2.5-flash",
+  "original_receipt": "parallel/capability-refresh/20261028/image/AGNES_API_KEY36.json",
+  "original_receipt_sha256": "eb3ade86108f16b84192ea20d3c70858a4f62519d06064e12b16a7916ee4d170",
+  "max_new_image_requests": 1,
+  "automatic_retry": false,
+  "original_outcome_resolved": false,
+  "publication_authorized": false
+}

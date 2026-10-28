@@ -21,8 +21,11 @@ def policy(env=None,data=DATA):
 
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
- if phase not in ('audit','research','trial','lifecycle','operation','capability'):raise ValueError('Non-publication phase required')
- if phase=='capability':
+ if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup'):raise ValueError('Non-publication phase required')
+ if phase=='capability-followup':
+  if request_id!='family09-image-followup-v1' or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch':raise ValueError('Exact manual one-shot diagnostic required')
+  expected=request_id
+ elif phase=='capability':
   import datetime
   from .parallel_pool import SLOTS
   prefix='family-capability-'+datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%d')+'-'
