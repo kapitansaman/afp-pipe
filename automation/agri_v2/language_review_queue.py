@@ -250,14 +250,14 @@ def run_item(p,client,data=DATA):
   else:atomic_json(p,row)
  return {'topic_id':row['topic_id'],'language':lang,'status':row['status'],'model_calls':spent}
 
-def process_due(env,health,data=DATA,out=OUT):
+def process_due(env,health,data=DATA,out=OUT,topic_ids=None):
  from .parallel_pool import initialize,snapshot,routing_counts,routing_backpressure,record_routing
  from .parallel_client import ParallelModelClient
  from .alternate_reviewer_verification import AlternateDiagnosticClient
  from .provider_diagnostic import active_cooldown
  pol=policy(data)
  if active_cooldown(out):return {'status':'provider_cooldown','model_calls':0}
- todo=[p for p in entries(out) if due(load_json(p)) and not load_json(p).get('experimental_only')][:pol['max_items_per_run']]
+ todo=[p for p in entries(out) if (topic_ids is None or load_json(p).get('topic_id') in topic_ids) and due(load_json(p)) and not load_json(p).get('experimental_only')][:pol['max_items_per_run']]
  if not todo:return {'status':'no_due_items','model_calls':0}
  run_id=env['GITHUB_RUN_ID'];db=out/'parallel/language-review-queue/runs'/run_id/'pool.sqlite'
  if db.exists():return {'status':'review_run_already_reserved','model_calls':0}

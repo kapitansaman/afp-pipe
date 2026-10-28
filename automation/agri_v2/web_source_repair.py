@@ -82,31 +82,36 @@ def refetch(topic,client,data,out,env,fetcher=None,search_fn=None):
  if saved.get('version')!=2 or saved.get('input_binding')!=before:raise RepairBlocked('source_repair_input_changed')
  original=load_json(ev/'sources.json')['documents'] if (ev/'sources.json').exists() else []
  work=ev/'real-search';docs=list(original);seen_urls={d['url'] for d in docs};queries=list(plan['queries']);used_queries=set();rounds=[];fetch_total=0;temporary_source_failure=False
- for n in (1,2):
-  selected=[q for q in queries if q not in used_queries][:2]
-  if not selected:break
-  round_report={'round':n,'started_at':utcnow(),'queries':[],'new_document_ids':[],'publication_authorized':False}
-  urls=[]
-  for i,q in enumerate(selected):
-   used_queries.add(q)
-   result=(search.search if search_fn is None else search_fn)(q,env,topic['id']+'-round-'+str(n)+'-query-'+str(i))
-   # Independently revalidate even a test/custom adapter's results.
-   rows=search.validate_results(result['results']);round_report['queries'].append(result)
-   for row in rows:
-    if row['url'] not in seen_urls and row['url'] not in urls:urls.append(row['url'])
-  urls=urls[:min(6,12-fetch_total)];seen_urls.update(urls);fetch_total+=len(urls)
-  loaded=load_documents(urls,fetch if fetcher is None else fetcher,out,source_host,report_path=work/('round-'+str(n)+'-fetch.json'),minimum_link_version=1)
-  fetched_report=load_json(work/('round-'+str(n)+'-fetch.json'));round_report['fetch_report']=fetched_report
-  temporary_source_failure=temporary_source_failure or any(row.get('temporary') is True or row.get('category')=='network_or_timeout' for row in fetched_report['sources'])
-  for d in loaded:
-   # Search hubs and snippets never enter the extraction pack.
-   from urllib.parse import urlsplit
-   if urlsplit(d.get('requested_url',d['url'])).query:continue
-   if d['url'] not in {old['url'] for old in docs}:docs.append(d)
-  round_report['new_document_ids']=['s'+str(i) for i in range(len(docs))];round_report['fetches_reserved']=len(urls)
-  verdict,hit=cached_coverage(topic,plan,docs,client,n,work);round_report['coverage']=verdict;round_report['coverage_cache_hit']=hit;queries=verdict['next_queries']
-  round_report['completed_at']=utcnow();rounds.append(round_report);atomic_json(work/('round-'+str(n)+'.json'),round_report)
-  if all(row['covered'] for row in verdict['requirements']):break
+ from .foundation_policy import enabled as resumable
+ if resumable(data):
+  from .source_repair_resume import collect
+  docs,rounds,fetch_total,temporary_source_failure=collect(topic,plan,original,work,before,client,out,env,fetch if fetcher is None else fetcher,search.search if search_fn is None else search_fn)
+ else:
+  for n in (1,2):
+   selected=[q for q in queries if q not in used_queries][:2]
+   if not selected:break
+   round_report={'round':n,'started_at':utcnow(),'queries':[],'new_document_ids':[],'publication_authorized':False}
+   urls=[]
+   for i,q in enumerate(selected):
+    used_queries.add(q)
+    result=(search.search if search_fn is None else search_fn)(q,env,topic['id']+'-round-'+str(n)+'-query-'+str(i))
+    # Independently revalidate even a test/custom adapter's results.
+    rows=search.validate_results(result['results']);round_report['queries'].append(result)
+    for row in rows:
+     if row['url'] not in seen_urls and row['url'] not in urls:urls.append(row['url'])
+   urls=urls[:min(6,12-fetch_total)];seen_urls.update(urls);fetch_total+=len(urls)
+   loaded=load_documents(urls,fetch if fetcher is None else fetcher,out,source_host,report_path=work/('round-'+str(n)+'-fetch.json'),minimum_link_version=1)
+   fetched_report=load_json(work/('round-'+str(n)+'-fetch.json'));round_report['fetch_report']=fetched_report
+   temporary_source_failure=temporary_source_failure or any(row.get('temporary') is True or row.get('category')=='network_or_timeout' for row in fetched_report['sources'])
+   for d in loaded:
+    # Search hubs and snippets never enter the extraction pack.
+    from urllib.parse import urlsplit
+    if urlsplit(d.get('requested_url',d['url'])).query:continue
+    if d['url'] not in {old['url'] for old in docs}:docs.append(d)
+   round_report['new_document_ids']=['s'+str(i) for i in range(len(docs))];round_report['fetches_reserved']=len(urls)
+   verdict,hit=cached_coverage(topic,plan,docs,client,n,work);round_report['coverage']=verdict;round_report['coverage_cache_hit']=hit;queries=verdict['next_queries']
+   round_report['completed_at']=utcnow();rounds.append(round_report);atomic_json(work/('round-'+str(n)+'.json'),round_report)
+   if all(row['covered'] for row in verdict['requirements']):break
  receipt={'coverage_contract_version':1,'final_coverage_complete':bool(rounds) and all(row['covered'] for row in rounds[-1]['coverage']['requirements']),'version':2,'topic_id':topic['id'],'input_binding':before,'completed_at':utcnow(),'search_engine_used':True,'backend':'tavily','rounds':rounds,'fetches_reserved':fetch_total,'publication_authorized':False,'scientific_acceptance':False,'temporary_source_failure':temporary_source_failure}
  if before!=binding(topic,ev):raise RepairBlocked('source_repair_input_changed')
  original=load_json(ev/'sources.json')['documents'] if (ev/'sources.json').exists() else [];old={(d['url'],d['sha256']) for d in original};new=[d for d in docs if (d['url'],d['sha256']) not in old]

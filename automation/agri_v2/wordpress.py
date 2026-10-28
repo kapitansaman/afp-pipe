@@ -126,6 +126,8 @@ class WordPress:
   if localize:content=units.content(content,'fa-IR')
   current,_=self.call('posts/'+str(r['post_id'])+'?context=edit')
   if current['author']!=self.user_id or marker not in current['content']['raw'] or current['status']!='draft':raise WPError('Draft ownership/status changed; stop')
+  import hashlib
+  r['publication_content_sha256']=hashlib.sha256((marker+'\n'+content).encode()).hexdigest();atomic_json(rp,r)
   self.call('posts/'+str(r['post_id']),'POST',{'content':marker+'\n'+content,'featured_media':media[0]['id'],'categories':[35],'status':'draft'})
   post,_=self.call('posts/'+str(r['post_id']),'POST',{'status':'publish'});r.update(status='published',url=post['link'],published_at=utcnow());atomic_json(rp,r)
   return self.publish_family(folder,topic,self.verify(post['id'],topic,rp))

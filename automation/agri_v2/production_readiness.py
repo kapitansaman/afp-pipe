@@ -85,8 +85,18 @@ def inspect(data=DATA,out=OUT,wp=None):
  add('work_remaining_with_budget',any(not r['retry_exhausted'] and r['next_stage'] not in ('blocked','complete') for r in families),'Do not repeatedly launch only blocked or exhausted work')
  if 'administrator' in auth.get('roles',[]):warnings.append('Publisher account is administrator; a dedicated least-privilege Author account is recommended, not silently substituted.')
  warnings+=['Fresh text/image health expires after 24h. Manual role-bound daily capability renewal is available; unattended renewal is not enabled.','Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.','A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.','Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency.']
+ staged=None
+ from .foundation_policy import enabled as foundation_enabled
+ try:
+  if foundation_enabled(data):
+   from .staged_rollout import load as staged_state
+   phase=staged_state(out);staged={'limit':phase['limit'],'cohort':phase['cohort'],'automatic_promotion':False,'manual_verification_required':True}
+   add('staged_rollout_integrity',True,'Current staged limit is enforced independently of total configured capacity')
+   warnings.append('Current admission limit is '+str(phase['limit'])+' families. Fresh 20-family capacity is not permission to bypass manual 1 -> 3 -> 20 acceptance.')
+ except (ValueError,KeyError,TypeError,OSError):add('staged_rollout_integrity',False,'Invalid staged policy or acceptance chain; no escalation')
  blockers=[name for name,v in gates.items() if not v['passed']]
  result={'status':'readiness_checked' if not blockers else 'readiness_blocked','checked_at':utcnow(),'technical_ready':not blockers,'blockers':blockers,'gates':gates,'warnings':warnings,'families':families,'research_backlog':load_json(ap).get('research_backlog',{}) if ap.exists() else {},'model_calls':0,'image_calls':0,'post_mutations':0,'authenticated_check_performed':wp is not None,'family_key_allocation':key_allocation}
+ result['staged_rollout']=staged
  return result
 
 def run(data=DATA,out=OUT):

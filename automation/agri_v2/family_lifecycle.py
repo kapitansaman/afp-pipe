@@ -425,6 +425,10 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  if owned_pilot:
   from .scoped_family_pilot import choose
   topics=choose(topics,env,data,out)
+ rollout=None
+ if not matrix_pilot and not owned_pilot and env.get('AFP_WHITE_BEAN_PILOT')!='1':
+  from .staged_rollout import choose as select_due
+  topics,rollout=select_due(topics,data,out,run_id)
  dest=out/'parallel/lifecycle/runs'/run_id;rp=dest/'report.json'
  fresh_start=all(not (out/'new'/t['id']/'article.json').exists() for t in topics)
  observer=None
@@ -433,6 +437,10 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   observer=Observer([t['id'] for t in topics],run_id,fresh_start,data,out)
  research_only=env.get('AFP_FULL_QUEUE_RESEARCH_ONLY')=='1'
  report={'owned_scoped_family_pilot':owned_pilot,'matrix_pilot':matrix_pilot,'research_only':research_only,'run_id':run_id,'status':'started','assigned_count':len(topics),'pilot_topic_only':env.get('AFP_WHITE_BEAN_PILOT')=='1','results':[],'publication_results':[],'published_posts':0,'max_stage_attempts':3,'original_attempts_reset':False,'schedule_enabled':False,'publication_authorized':False if research_only else p.get('publication_enabled',False),'source_and_translation_posts_counted':True,'started_at':utcnow()};atomic_json(rp,report)
+ if rollout is not None:
+  report['staged_rollout']=rollout;atomic_json(rp,report)
+ if not topics:
+  report.update(status='completed',no_due_work=True,operational_failures=0,waiting_families=len(rollout.get('waiting',[])) if rollout else 0,publication_ready_workers=0,model_calls=0,post_mutations=0,completed_at=utcnow());atomic_json(rp,report);atomic_json(out/'parallel/lifecycle/latest.json',report);return report
  health=load_json(out/'parallel/health/latest.json')
  from .parallel_client import ParallelModelClient
  from .healthcheck import TEXT_MODEL,IMAGE_MODEL,API_BASE
@@ -506,13 +514,14 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
  from .language_review_queue import enabled as independent,process_due,index as review_index,publication_due
  if independent(data) and not owned_pilot and not research_only and not matrix_pilot and env.get('AFP_WHITE_BEAN_PILOT')!='1':
   report['language_review_budget_max_calls']=8
-  try:report['language_review_queue']=process_due(env,health,data,out)
+  try:report['language_review_queue']=process_due(env,health,data,out,topic_ids={t['id'] for t in topics}) if rollout is not None else process_due(env,health,data,out)
   except Exception as error:report['language_review_queue']={'status':'review_queue_deferred','failure':failure_details(error),'model_calls':0}
   report['max_total_model_calls']+=8
   # Same single publisher handles ready backlog translations, even after owner handoff.
   reviewed_publication_topics=set()
   for review_path in sorted((out/'new').glob('*/review-queue/*.json')):
    entry=load_json(review_path)
+   if rollout is not None and entry['topic_id'] not in {t['id'] for t in topics}:continue
    if not publication_due(entry) or entry['topic_id'] in reviewed_publication_topics or len(reviewed_publication_topics)>=2:continue
    source_receipt=out/'new'/entry['topic_id']/'wordpress-receipt.json'
    # Backlog publication is for translations of a VERIFIED source only. Never

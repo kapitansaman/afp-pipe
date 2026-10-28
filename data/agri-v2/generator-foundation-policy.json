@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "enabled": true,
+  "source_retry_base_seconds": 900,
+  "source_retry_max_seconds": 21600,
+  "source_max_transport_attempts_per_url": 3,
+  "max_unique_repair_urls": 12,
+  "max_search_rounds": 2,
+  "preserve_original_attempts": true,
+  "staged_family_limits": [
+    1,
+    3,
+    20
+  ],
+  "automatic_promotion": false,
+  "schedule_enabled": false
+}
