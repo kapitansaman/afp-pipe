@@ -24,3 +24,8 @@ Run sequence: `rollout-plan` → `advance` as due → `rollout-verify` after end
 
 ## Not claimed
 A green offline suite does not prove provider/source availability or successful live 20-family publication. This implementation does not erase old failures, replay unknown requests, change accepted articles, weaken scientific/overlap/vision gates, or enable unattended schedules.
+
+## Explicit reconciliation of known failed coordinator checkpoints
+`checkpoint-reconcile` is manual-only and is not a generation or publication operation. It supports only a durably committed, fully merged, publication-ready worker set whose original publisher failed validation before creating any receipt. It rejects missing/changed intent, unknown worker/stage/language outcomes, existing receipts, incomplete checkpoints, uncommitted evidence, or any remotely present/ambiguous matching slug. All five remote post states are checked with authenticated GETs. The immutable original failure report, source, images, stage counters and translation backoffs remain unchanged. A separate hashed reconciliation proof and the closing fence are persisted atomically by the existing scoped checkpoint transaction. This closes a known failed run, never certifies success or promotes a cohort. Other kinds of unknown outcome require separate investigation and cannot use this narrow path.
+
+Translation backlog scanning admits only the four canonical locale filenames; retained `candidate-*.json` evidence is not a queue item and must not crash the coordinator or consume a review allowance.
