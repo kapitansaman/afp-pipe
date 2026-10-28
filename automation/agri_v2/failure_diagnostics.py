@@ -1,4 +1,6 @@
 """Allowlisted diagnostics only: never persist exception text or provider body."""
+SOURCE_REPAIR_CODES=frozenset(('invalid_model_source_repair_policy', 'source_coverage_cache_binding_invalid', 'source_coverage_document_binding_changed', 'source_coverage_missing_final_gap', 'source_coverage_missing_reason', 'source_coverage_missing_search_plan', 'source_coverage_queries_invalid', 'source_coverage_receipt_input_changed', 'source_coverage_receipt_invalid', 'source_coverage_requirements_missing', 'source_coverage_requires_actual_text', 'source_coverage_schema', 'source_coverage_unbound', 'source_plan_duplicate_or_fragment', 'source_plan_gap_required', 'source_plan_identity_or_schema', 'source_plan_lead_reason_required', 'source_plan_lead_schema', 'source_plan_leads_invalid', 'source_plan_queries_invalid', 'source_refetch_not_admitted', 'source_repair_archive_collision', 'source_repair_archived_output_conflict', 'source_repair_coordinator_sources_changed', 'source_repair_input_changed', 'source_repair_not_admitted', 'source_repair_original_sources_not_archived', 'source_repair_output_changed_before_merge', 'source_repair_raw_identity_changed', 'web_source_gap_required', 'web_source_plan_schema', 'web_source_queries_invalid', 'web_source_requirement_schema', 'web_source_requirements_required'))
+
 def failure_details(exc):
  from .client import ImageProviderError,TextProviderError,ModelOutputError,CapabilityError
  from .image_quality import ImageQualityError
@@ -24,6 +26,9 @@ def failure_details(exc):
  category=image_codes.get(str(exc)) if isinstance(exc,ImageQualityError) else validation_codes.get(str(exc)) if type(exc)is ValueError else getattr(exc,'category',None)
  allowed.update(image_codes.values())
  allowed.update({'source_search_quota_exhausted','source_search_rate_limited','source_search_auth','source_search_unavailable','source_search_response_invalid'})
+ from .model_source_repair import RepairBlocked
+ if type(exc) is RepairBlocked and str(exc) in SOURCE_REPAIR_CODES:category=str(exc)
+ allowed.update(SOURCE_REPAIR_CODES)
  allowed.update(validation_codes.values())
  row={'kind':kind,'category':category if category in allowed else 'unspecified'}
  status=getattr(exc,'http_status',None)

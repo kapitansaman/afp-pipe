@@ -329,7 +329,7 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
    client=client_factory(health,allow_calls=True,capabilities=('text','image'))
    result=advance_images(client,folder,topic,load_json(folder/'article.json'),run_id,data);steps.extend(result['steps'])
    if result['status']=='images_ready':continue
-   return dict(result,topic_id=topic['id'],published_posts=0)
+   return dict(result,topic_id=topic['id'],steps=steps,published_posts=0)
   kind='image' if stage.startswith('image-') else 'text'
   from .model_source_repair import web_mode
   real_search=stage in ('research_discover','research_refetch') and web_mode(stage,folder,data)
