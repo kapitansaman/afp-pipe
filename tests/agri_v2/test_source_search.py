@@ -102,7 +102,7 @@ class SourceSearchTests(unittest.TestCase):
   b=source_policy.assess([{'url':'https://journals.plos.org/a'}],source_host);self.assertFalse(b['satisfied']);self.assertFalse(b['single_university_exception'])
   self.assertNotEqual(registry.institution('a.ac.uk'),registry.institution('b.ac.uk'));self.assertEqual(registry.institution('extension.reading.ac.uk'),'reading.ac.uk')
  def test_workflow_has_separate_search_secret_not_a_98th_model_key(self):
-  root=Path(__file__).resolve().parents[2];text=(root/'.github/workflows/afp-parallel-generator.yml').read_text();self.assertIn('AFP_SOURCE_SEARCH_API_KEY: ${{ secrets.AFP_SOURCE_SEARCH_API_KEY }}',text);self.assertEqual(text.count('secrets.AGNES_API_KEY_'),97)
+  root=Path(__file__).resolve().parents[2];text=(root/'.github/workflows/afp-parallel-generator.yml').read_text();self.assertIn('AFP_SOURCE_SEARCH_API_KEY: ${{ secrets.AFP_SOURCE_SEARCH_API_KEY }}',text);self.assertEqual(text.count('secrets.AGNES_API_KEY_'),97);self.assertIn('environment: afp-source-search',text)
  def test_error_payload_is_not_labeled_empty_scientific_search(self):
   with tempfile.TemporaryDirectory() as td:
    out,db,env=self.setup(Path(td));op=Mock(open=Mock(return_value=Response({'error':'PRIVATE invalid key detail'})))
