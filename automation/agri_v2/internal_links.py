@@ -23,6 +23,8 @@ def selected_links(topic,current_url,policy=None):
   if row.get('match') and row['match'] not in text:continue
   if not isinstance(row.get('anchor'),str) or not row['anchor'].strip():raise ValueError('Internal anchor required')
   out.append(row)
+ home=topic.get('editorial_home')
+ if home and not any(canonical(r['url'])==canonical(home['url']) for r in out) and canonical(home['url'])!=current:out.append(home)
  return out
 class Anchors(HTMLParser):
  def __init__(self):super().__init__(convert_charrefs=True);self.rows=[];self.active=None
@@ -39,7 +41,9 @@ def contains_link(body,row):
  for href,text in anchors(body):
   try:same=canonical(href)==canonical(row['url'])
   except (ValueError,TypeError):continue
-  if same and norm(text)==norm(row['anchor']):return True
+  allowed={norm(row['anchor'])}
+  if row.get('kind')=='homepage_fallback' and row.get('language')=='fa-IR':allowed|={norm('نوار تیپ'),norm('نوار آبیاری')}
+  if same and norm(text) in allowed:return True
  return False
 def external_links(body):
  return [u for u,t in anchors(body) if urllib.parse.urlsplit(u).scheme in ('http','https') and urllib.parse.urlsplit(u).hostname!='navar-abyari.ir']
@@ -82,6 +86,9 @@ def augment(body,topic,current_url,policy=None):
  if extras:
   block='<!-- afp-internal-links:v1 -->'+''.join(extras)
   point=result.find('<h2>سؤالات متداول</h2>');result=result[:point]+block+result[point:] if point>=0 else result+block
+ from .homepage_fallback import add as add_home
+ for row in rows:
+  if row.get('kind')=='homepage_fallback':result=add_home(result,row,row['language'])
  if external_links(result)!=external_links(body):raise ValueError('Scientific external citations changed')
  verify_links(result,rows);return result
 def verify_links(body,rows):
