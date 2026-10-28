@@ -32,7 +32,10 @@ def state(folder,stage):
  p=row_path(folder,stage);return load_json(p) if p.exists() else {'attempts':0,'history':[]}
 
 def archive(folder,stage,paths):
- target=folder/'lifecycle'/stage/'rejected'/str(state(folder,stage)['attempts'])
+ s=state(folder,stage)
+ # Admission deferrals do not consume attempts. Give their receipts a separate
+ # history-bound archive, without overwriting paid rejected candidates or counters.
+ target=(folder/'lifecycle'/stage/'deferred'/str(len(s.get('history',[])))) if s.get('status')=='deferred' else (folder/'lifecycle'/stage/'rejected'/str(s['attempts']))
  for p in paths:
   if p.exists():
    d=target/p.name;d.parent.mkdir(parents=True,exist_ok=True)
