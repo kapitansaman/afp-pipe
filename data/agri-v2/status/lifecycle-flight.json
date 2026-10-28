@@ -3,8 +3,8 @@
   "policy": "write-ahead-lifecycle-v1",
   "repository": "kapitansaman/afp-pipe",
   "branch": "feat/agri-generator-v2-2905-merge593",
-  "status": "checkpointed",
-  "run_id": "40531540832",
+  "status": "in_flight",
+  "run_id": "40610299326",
   "topics": [
     {
       "topic_id": "agri-c2151ad96659",
@@ -35,11 +35,11 @@
       "family_id": "family-07"
     },
     {
-      "topic_id": "agri-69e85f55cdc9",
+      "topic_id": "agri-6aaba20b13cf",
       "family_id": "family-08"
     },
     {
-      "topic_id": "agri-e7dcf0bf2ffd",
+      "topic_id": "agri-71be4981f446",
       "family_id": "family-09"
     },
     {
@@ -47,11 +47,11 @@
       "family_id": "family-10"
     },
     {
-      "topic_id": "agri-6b4f1f6e0cad",
+      "topic_id": "agri-4e351a4fbdee",
       "family_id": "family-11"
     },
     {
-      "topic_id": "agri-bacb80d5fede",
+      "topic_id": "agri-fcc69d8bfd95",
       "family_id": "family-12"
     },
     {
@@ -75,7 +75,7 @@
       "family_id": "family-17"
     },
     {
-      "topic_id": "agri-5a15e78285ed",
+      "topic_id": "agri-18ff41bec566",
       "family_id": "family-18"
     },
     {
@@ -87,11 +87,7 @@
       "family_id": "family-20"
     }
   ],
-  "started_at": "2026-10-27T15:32:07.131011+00:00",
+  "started_at": "2026-10-28T00:43:00.235211+00:00",
   "automatic_uncertain_replay": false,
-  "original_attempts_reset": false,
-  "checkpointed_at": "2026-10-27T15:33:31.535170+00:00",
-  "all_selected_workers_merged": true,
-  "checkpoint_report_sha256": "9160254c5cad52debc76e88bf4fdb9dd2c009866700e46390a67f9a86f4f48d9",
-  "checkpoint_digest": "baff97896d7c7b86cb9cfcf0e4de987a1b01684a8b0e3c0cd1a93abb55cf5d6e"
+  "original_attempts_reset": false
 }
