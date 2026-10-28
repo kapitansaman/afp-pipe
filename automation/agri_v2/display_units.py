@@ -14,6 +14,9 @@ NUM=r'[-−]?[0-9۰-۹٠-٩]+(?:[.٫][0-9۰-۹٠-٩]+)?'
 RANGE=r'(?P<a>'+NUM+r')(?:\s*(?P<sep>–|—|-|to|تا|إلى|до)\s*(?P<b>'+NUM+r'))?'
 # Longest unit first. Factors map the physical quantity to the metric counterpart.
 SPECS=[
+ # Explicit daily water-depth rates: convert numerator only, retain the day.
+ ('mm/day',r'(?:inches|inch|اینچ)\s*(?:/\s*|per\s+)(?:day\b|روز)',D('25.4'),'in/day',D('0.03937007874015748')),
+ ('mm/day',r'(?:mm|میلی[‌ ]?متر)\s*(?:/\s*|per\s+)(?:day\b|روز)',D(1),'in/day',D('0.03937007874015748')),
  ('m²',r'(?:m²|m2|متر\s*مربع)',D(1),'ft²',D('10.76391041670972')),
  ('m²',r'(?:ft²|sq\.?\s*ft|square\s*feet|فوت\s*مربع)',D('0.09290304'),'ft²',D('10.76391041670972')),
  ('L',r'(?:m³|m3|متر\s*مکعب)',D(1000),'US gal',D('0.2641720523581484')),

@@ -4,7 +4,10 @@ from urllib.parse import urlsplit
 
 def plain_citations(text,allowed_urls=None):
  if not isinstance(text,str):raise ValueError('Plain text field required')
- if '<' not in text and '>' not in text:return text,[]
+ if '<' not in text and '>' not in text:
+  import html
+  if has_unsafe_angles(html.unescape(text)):raise ValueError('Unsafe markup in plain text field')
+  return text,[]
  class Parser(HTMLParser):
   def __init__(self):super().__init__(convert_charrefs=True);self.text=[];self.urls=[];self.open=False
   def handle_starttag(self,tag,attrs):
@@ -19,5 +22,16 @@ def plain_citations(text,allowed_urls=None):
   def handle_comment(self,data):raise ValueError('Unsafe markup in plain text field')
   def handle_decl(self,decl):raise ValueError('Unsafe markup in plain text field')
  p=Parser();p.feed(text);p.close();visible=''.join(p.text)
- if p.open or '<' in visible or '>' in visible:raise ValueError('Unsafe markup in plain text field')
+ if p.open or has_unsafe_angles(visible):raise ValueError('Unsafe markup in plain text field')
  return visible,p.urls
+
+def has_unsafe_angles(text):
+ """Allow literal comparison operators, never an opening/closing HTML token.
+ Rendering still HTML-escapes plain values; source-bound citations use the parser.
+ """
+ import re
+ return bool(re.search(r'[<>]',re.sub(r'[<>](?=\s|$|[=0-9۰-۹٠-٩])','',text)))
+
+def comparison_operators(text):
+ import re
+ return re.findall(r'[<>]=?',text)
