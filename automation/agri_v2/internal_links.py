@@ -16,7 +16,8 @@ def selected_links(topic,current_url,policy=None):
   from .content_matrix import links_enabled
   primary=policy['primary'] if links_enabled(matrix) else []
  else:primary=policy['primary']
- for row in primary+policy.get('related',[]):
+ related=topic.get('editorial_related',policy.get('related',[]))
+ for row in primary+related:
   path=canonical(row['url'])
   if path==current:continue
   if row.get('match') and row['match'] not in text:continue

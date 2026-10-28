@@ -396,6 +396,7 @@ def publish_ready(wp,topic,data=DATA,out=OUT):
  atomic_json(pp,payload)
  atomic_json(folder/'lifecycle-publication-validation.json',{'at':utcnow(),'brief_sha256':digest(brief),'article_sha256':digest(article),'image_sha256':{str(n):hashlib.sha256((folder/f'image-{n}.webp').read_bytes()).hexdigest() for n in roles_for(folder)},'human_review_claimed':brief.get('human_agronomy_review_done',False)})
  before_verified=verified_posts(folder)
+ wp.editorial_inventory=inventory  # already authenticated and freshness-validated above
  result=wp.publish(folder,topic,brief,authorized=True)
  if result.get('public_verified') is not True:raise StageBlocked('publication_not_publicly_verified')
  after_verified=verified_posts(folder)

@@ -43,11 +43,11 @@ class WordPress:
  def inventory(self):
   rows=[];page=1;pages=1
   while page<=pages:
-   batch,h=self.call('posts?per_page=100&page='+str(page)+'&status=publish&_fields=id,title,link,status,modified,slug')
+   batch,h=self.call('posts?per_page=100&page='+str(page)+'&status=publish&_fields=id,title,link,status,modified,slug,afp_language')
    if not isinstance(batch,list):raise WPError('Inventory shape invalid')
    if page==1:pages=int(next((v for k,v in h.items() if k.lower()=='x-wp-totalpages'),'0'))
    if pages<1 or pages>300:raise WPError('Inventory pagination invalid')
-   rows.extend({'id':p['id'],'title':html.unescape(p['title']['rendered']),'url':p['link'],'status':p['status'],'modified':p['modified'],'slug':p['slug']} for p in batch);page+=1
+   rows.extend({'id':p['id'],'title':html.unescape(p['title']['rendered']),'url':p['link'],'status':p['status'],'modified':p['modified'],'slug':p['slug'],'language':p.get('afp_language')} for p in batch);page+=1
   if not rows:raise WPError('Empty inventory; fail closed')
   return {'source_generated_at':utcnow(),'scope':'all public posts, all languages; Author cannot audit other users private drafts','records':rows}
  def publish(self,folder,topic,brief,authorized=False):
@@ -90,7 +90,19 @@ class WordPress:
    draft=dict(payload,title=units.text(payload.get('title',topic.get('title','')),'fa-IR') if localize else payload.get('title',topic.get('title','')),excerpt=units.text(payload.get('excerpt',article.get('excerpt','')),'fa-IR') if localize else payload.get('excerpt',article.get('excerpt','')),content=marker+'\n'+(units.content(payload['content'],'fa-IR') if localize else payload['content']),categories=[35],comment_status='closed',ping_status='closed',status='draft')
    post,_=self.call('posts','POST',draft);r.update(post_id=post['id'],status='draft_created');atomic_json(rp,r)
   require_all(folder,topic,load_json(folder/'article.json'))
-  if not targets_verified:validate_targets(internal)
+  from .editorial_presentation import VERSION as EDITORIAL_POLICY,related_articles,end_sources
+  if 'editorial_related' not in r:
+   inventory=getattr(self,'editorial_inventory',None)
+   if not isinstance(inventory,dict):inventory=self.inventory()
+   r['editorial_related']=related_articles(topic,self.site+'/'+slug+'/',inventory['records'])
+   from .multilingual import verify_target
+   for target in r['editorial_related']:verify_target(target['url'],'fa-IR')
+   atomic_json(rp,r)
+  from .multilingual import verify_target
+  for target in r['editorial_related']:verify_target(target['url'],'fa-IR')
+  topic=dict(topic,editorial_related=r['editorial_related'])
+  internal=selected_links(topic,self.site+'/'+slug+'/');linked=augment(payload['content'],topic,self.site+'/'+slug+'/')
+  validate_targets(internal)
   for i in roles:
    if any(x['index']==i for x in r['media']):continue
    name=topic['id']+'-image-'+str(i);existing,_=self.call('media?slug='+name+'&context=edit')
@@ -105,6 +117,7 @@ class WordPress:
    r['media'].append({'index':i,'id':media['id'],'url':media['source_url']});atomic_json(rp,r)
   media=sorted((m for m in r['media'] if m['index'] in roles),key=lambda m:m['index']);r['image_layout']=layout_for(roles);r['internal_links_policy']=LINK_POLICY;content=illustrated_content(linked,media,topic['crop'])
   content+=DISCLOSURE+faq_html(load_json(folder/'article.json')['faq'])
+  content=end_sources(content,brief['sources'],'fa-IR');r['editorial_presentation_policy']=EDITORIAL_POLICY;r['editorial_source_urls']=[s['url'] for s in brief['sources']];atomic_json(rp,r)
   # Update only our marker-owned draft, then explicitly publish one post.
   if localize:content=units.content(content,'fa-IR')
   current,_=self.call('posts/'+str(r['post_id'])+'?context=edit')
@@ -128,6 +141,11 @@ class WordPress:
   for m in media[1:]:
    if m['url'] not in post['content']['rendered']:raise WPError('Inline image verification failed')
   if r.get('commercial_matrix') is not None:topic=dict(topic,commercial_matrix=r['commercial_matrix'])
+  if 'editorial_related' in r:topic=dict(topic,editorial_related=r['editorial_related'])
+  if r.get('editorial_presentation_policy'):
+   from .editorial_presentation import VERSION as EDITORIAL_POLICY,verify_sources
+   if r['editorial_presentation_policy']!=EDITORIAL_POLICY:raise WPError('Unknown editorial presentation policy')
+   verify_sources(post['content']['rendered'],[{'url':u} for u in r['editorial_source_urls']])
   if r.get('internal_links_policy')==LINK_POLICY:verify_links(post['content']['rendered'],selected_links(topic,post['link']))
   if not post['link'].startswith(self.site+'/'):raise WPError('Unexpected public origin')
   try:

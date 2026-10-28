@@ -37,7 +37,7 @@ class ContentMatrixTests(unittest.TestCase):
    with self.assertRaises(ValueError):s.review_article(t,article,brief,Path(td),client)
  def test_same_language_translation_can_omit_unrelated_equipment_links(self):
   from automation.agri_v2.multilingual import localized_body
-  row={'language':'en-US','title':'Storage','content_html':'<h2>Storage</h2><p>Scope</p>','faq':[{'question':'Question?','answer':'Answer'}]*3};media=[{'url':'https://navar-abyari.ir/one.webp'},{'url':'https://navar-abyari.ir/two.webp'}]
+  row={'language':'en-US','title':'Storage','content_html':'<h2>Storage</h2><p>Scope <a href="https://example.edu/source">Source</a></p>','faq':[{'question':'Question?','answer':'Answer'}]*3};media=[{'url':'https://navar-abyari.ir/one.webp'},{'url':'https://navar-abyari.ir/two.webp'}]
   text=localized_body(row,media,{'en-US':[]});self.assertNotIn('Irrigation equipment:',text);self.assertIn('Frequently asked questions',text);self.assertIn('two.webp',text)
  def test_limited_export_unknown_is_not_zero_demand_or_a_gap(self):
   from automation.agri_v2.queue import atomic_json
