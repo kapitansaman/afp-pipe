@@ -19,13 +19,13 @@ class SourceSearchTests(unittest.TestCase):
   out=root/'out';db=root/'db';model_initialize(db,['AGNES_API_KEY']);s.initialize(db,out)
   return out,db,{'AFP_PARALLEL_POOL_DB':str(db),'AFP_SOURCE_SEARCH_API_KEY':'PRIVATE-SEARCH-KEY'}
  def rows(self):return [{'url':'https://extension.x.edu/bean','title':'Actual search title','description':'Untrusted search snippet, not scientific evidence'}]
- def opener(self,rows=None):return Mock(open=Mock(return_value=Response({'web':{'results':self.rows() if rows is None else rows}})))
+ def opener(self,rows=None):return Mock(open=Mock(return_value=Response({'results':[dict(url=r['url'],title=r['title'],content=r['description']) for r in (self.rows() if rows is None else rows)]})))
  def no_spacing(self,db):
   with connect(db) as c:c.execute("UPDATE search_meta SET value=0 WHERE name='next_call'")
  def test_real_endpoint_and_secret_only_in_header(self):
   with tempfile.TemporaryDirectory() as td:
    out,db,env=self.setup(Path(td));op=self.opener();result=s.search('dry bean irrigation soil measurement',env,'request-1',opener=op);req=op.open.call_args.args[0]
-   self.assertTrue(req.full_url.startswith(s.ENDPOINT+'?'));self.assertNotIn('PRIVATE',req.full_url);self.assertEqual(req.get_header('X-subscription-token'),env['AFP_SOURCE_SEARCH_API_KEY']);self.assertEqual(result['results'],self.rows());self.assertFalse(result['cached']);self.assertEqual(model_snapshot(db)['model_requests_reserved'],0)
+   self.assertTrue(req.full_url==s.ENDPOINT);self.assertNotIn('PRIVATE',req.full_url);self.assertEqual(req.get_header('Authorization'),'Bearer '+env['AFP_SOURCE_SEARCH_API_KEY']);self.assertEqual(req.get_method(),'POST');body=json.loads(req.data);self.assertEqual(body['search_depth'],'basic');self.assertFalse(body['auto_parameters']);self.assertFalse(body['include_answer']);self.assertFalse(body['include_raw_content']);self.assertEqual(body['max_results'],6);self.assertNotIn('PRIVATE',req.data.decode());self.assertEqual(result['results'],self.rows());self.assertFalse(result['cached']);self.assertEqual(model_snapshot(db)['model_requests_reserved'],0)
    report=s.persist(db,out);self.assertEqual(report['requests_reserved'],1);self.assertNotIn('PRIVATE',(out/'parallel/source-search/state.json').read_text())
  def test_missing_key_never_calls_search_service_or_reserves(self):
   with tempfile.TemporaryDirectory() as td:
@@ -84,7 +84,7 @@ class SourceSearchTests(unittest.TestCase):
      with s.reservation(db,'b'*64,'r2',wait=0):pass
    self.assertEqual(model_snapshot(db)['model_requests_reserved'],0)
  def test_corrupt_cache_and_cooldown_fail_closed(self):
-  for row in [{'version':1,'backend':'brave','cooldown_until_epoch':float('inf'),'cache':{}},{'version':1,'backend':'brave','cooldown_until_epoch':0,'cache':{'a'*64:{'checked':time.time(),'results':[{'url':'https://127.0.0.1','title':'x','description':'x'}]}}}]:
+  for row in [{'version':1,'backend':'tavily','cooldown_until_epoch':float('inf'),'cache':{}},{'version':1,'backend':'tavily','cooldown_until_epoch':0,'cache':{'a'*64:{'checked':time.time(),'results':[{'url':'https://127.0.0.1','title':'x','description':'x'}]}}}]:
    with self.subTest(row=row),tempfile.TemporaryDirectory() as td:
     root=Path(td);atomic_json(root/'out/parallel/source-search/state.json',row)
     with self.assertRaises(ValueError):s.initialize(root/'db',root/'out')
@@ -108,3 +108,29 @@ class SourceSearchTests(unittest.TestCase):
    out,db,env=self.setup(Path(td));op=Mock(open=Mock(return_value=Response({'error':'PRIVATE invalid key detail'})))
    with self.assertRaises(s.SearchProviderError) as caught:s.search('dry bean water needs',env,'q1',opener=op)
    self.assertEqual(caught.exception.category,'source_search_response_invalid');self.assertNotIn('PRIVATE',str(caught.exception));self.assertEqual(s.persist(db,out)['unknown_requests'],0)
+ def test_monthly_budget_persists_without_spending_another_call(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td);out,db,env=self.setup(root)
+   with connect(db) as c:c.execute('UPDATE search_budget SET reserved=1000')
+   s.persist(db,out);fresh=root/'fresh';s.initialize(fresh,out);env['AFP_PARALLEL_POOL_DB']=str(fresh);op=self.opener()
+   with self.assertRaises(PoolDeferred):s.search('dry bean water requirements',env,'month-full',opener=op)
+   op.open.assert_not_called();self.assertEqual(s.persist(fresh,out)['monthly_budget']['reserved'],1000)
+ def test_expired_month_budget_not_inherited(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td);out=root/'out';atomic_json(out/'parallel/source-search/state.json',{'version':1,'backend':'tavily','cooldown_until_epoch':0,'cache':{},'monthly_budget':{'month':'2001-01','reserved':1000}});db=root/'db';s.initialize(db,out)
+   self.assertEqual(s.persist(db,out)['monthly_budget']['reserved'],0)
+ def test_brave_cache_migrates_without_reusing_old_results_or_hold(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td);out=root/'out';atomic_json(out/'parallel/source-search/state.json',{'version':1,'backend':'brave','cooldown_until_epoch':time.time()+9999,'cache':{'a'*64:{'checked':time.time(),'results':self.rows()}}});db=root/'db';s.initialize(db,out);report=s.persist(db,out)
+   self.assertEqual(report['backend'],'tavily');self.assertEqual(report['cache_entries'],0);self.assertEqual(report['cooldown_until_epoch'],0)
+ def test_quota_exhaustion_stops_search_not_model_accounts(self):
+  for code in (432,433):
+   with self.subTest(code=code),tempfile.TemporaryDirectory() as td:
+    out,db,env=self.setup(Path(td));op=Mock(open=Mock(side_effect=urllib.error.HTTPError(s.ENDPOINT,code,'quota',{},io.BytesIO(b'PRIVATE'))))
+    with self.assertRaises(s.SearchProviderError) as caught:s.search('dry bean water requirements',env,'quota',opener=op)
+    self.assertEqual(caught.exception.category,'source_search_quota_exhausted');self.assertFalse(uncertain_outcome(caught.exception));self.assertGreater(s.persist(db,out)['cooldown_until_epoch'],time.time()+86000);self.assertEqual(model_snapshot(db)['cooldown_until_epoch'],0)
+ def test_missing_results_never_cached_as_valid_empty_search(self):
+  with tempfile.TemporaryDirectory() as td:
+   out,db,env=self.setup(Path(td));op=Mock(open=Mock(return_value=Response({'query':'only query'})))
+   with self.assertRaises(s.SearchProviderError):s.search('dry bean water requirements',env,'invalid',opener=op)
+   self.assertEqual(s.persist(db,out)['cache_entries'],0)
