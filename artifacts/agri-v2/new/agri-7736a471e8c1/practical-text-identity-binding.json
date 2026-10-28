@@ -1,10 +1,8 @@
 {
   "version": 1,
   "identity_authority": "canonical_queue",
-  "model_identity_fields_ignored": [
-    "title"
-  ],
-  "raw_sha256": "c4a38c0787def3f249c6759903193b2d2d1c26519d34ebd7310c8c9c3d971455",
+  "model_identity_fields_ignored": [],
+  "raw_sha256": "2e81a618899e3cb91df6008a20ea2e872c54408cc2cf5b4e2fa22ca148e4f8ee",
   "canonical_title_sha256": "06d4ecf237126a1630f26940fd651265f9810acb959a9ef28ee70b5b1d1b3099",
   "body_semantically_approved": false,
   "claims_added_by_identity_binding": false
