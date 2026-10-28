@@ -1,0 +1,105 @@
+{
+  "topic_id": "agri-4e351a4fbdee",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "بذر خوراکی کدو آجیلی",
+  "slug": "seed-quality-evaluation-edible-seed-pumpkin",
+  "outline": [
+    "تعریف محصول و دامنه ارزیابی",
+    "شرایط دانه‌کاری و بستر مناسب",
+    "آزمایش‌های کیفی صلاحیت بذر",
+    "محدودیت‌ها و خطاهای انتقال"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "برای ارزیابی کیفیت بذر کدو آجیلی پیش از خرید، معیار کیفی اصلی درصد جوانه‌زنی و سلامت ظاهری بذرهاست.",
+      "conditions": "محصول: بذر کدو آجیلی (Cucurbita spp. grown for edible seeds); جغرافیا: منبع دانشگاهی ایالات متحده; واحد: درصد جوانه‌زنی",
+      "evidence_id": "d3-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "تست ساده جوانه‌زنی خانگی بذر کدو با حوله کاغذی مرطوب، کیسه پلاستیکی و دمای حدود ۷۰ درجه فارنهایت انجام می‌شود.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: دما ~۷۰ °F",
+      "evidence_id": "d3-e4",
+      "numeric_bindings": [
+        {
+          "value": "70",
+          "unit_quote": "around 70°F",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed germination test"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "اگر ۷۰ تا ۹۰ درصد بذرها جوانه بزنند، هنوز قابل کاشت هستند ولی توصیه می‌شود کمی سنگین‌تر بذرپاشی شود.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: درصد جوانه‌زنی",
+      "evidence_id": "d3-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "اگر کمتر از ۵۰ تا ۶۰ درصد جوانه بزند، خرید بذر جدید منطقی‌تر است.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا؛ واحد: درصد جوانه‌زنی",
+      "evidence_id": "d3-e5",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دمای بهینه خاک برای جوانه‌زنی بذر کدو در منابع ترویجی دانشگاهی ۷۰ تا ۹۰ درجه فارنهایت گزارش شده است.",
+      "conditions": "محصول: بذر کدو (Pumpkin)؛ جغرافیا: اورگن، آمریکا؛ واحد: °F",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": [
+        {
+          "value": "70–90",
+          "unit_quote": "70–90",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "دمای حداقلacceptable برای جوانه‌زنی بذر کدو ۶۰ درجه فارنهایت و دمای حداکثر ۱۰۰ درجه فارنهایت اعلام شده است.",
+      "conditions": "محصول: بذر کدو (Pumpkin)؛ جغرافیا: اورگن، آمریکا؛ واحد: °F",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": [
+        {
+          "value": "60",
+          "unit_quote": "Minimum: 60",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination"
+        },
+        {
+          "value": "100",
+          "unit_quote": "Maximum: 100",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ذخیره‌سازی بذر در جای خنک و خشک با مجموع دما به فارنهایت و رطوبت نسبی کمتر از ۱۰۰، طول عمر بذر را حفظ می‌کند.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: ایلینوی، آمریکا; واحد: °F + RH < 100",
+      "evidence_id": "d3-e6",
+      "numeric_bindings": [
+        {
+          "value": "100",
+          "unit_quote": "less than 100",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "seed storage condition"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "منابع موجود تست خلوص، اندازه‌گیری محتوای رطوبت و تست‌های آزمایشگاهی AOSA را به‌صورت کلی توصیف می‌کنند ولی برای بذر کدو آجیلی محدودیت‌هایی دارند.",
+      "conditions": "محصول: بذر کدو آجیلی؛ جغرافیا: آمریکا (NIST/AOSA); واحد: روش کیفی",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": []
+    }
+  ]
+}

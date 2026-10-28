@@ -1,8 +1,39 @@
 {
   "topic_id": "agri-dc60868225b6",
-  "candidate_sha256": "ba4b3a45671f29443545d4577e6ec738b806040c88662575bf2d90413ef2eb5e",
+  "candidate_sha256": "1572d7243fb25942f099d77b4e5f5dcf073e749cf0522b3c52a9322f0c622c42",
   "scientific_approval": false,
-  "errors": [],
+  "errors": [
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "آبیاری باید عمیق و کم‌تعداد باشد (حدود 1 تا 2 اینچ در هفته) و با نزدیک شدن به رسیدن میوه، مقدار آبیاری کاهش یابد؛ استفاده از آبیاری قطره‌ای ترجیح داده می‌شود.",
+        "conditions": "منبع: Utah State University Extension (Utah, US); محصول: کدو; واحد: 1–2 inch/week; محصول برداشت: میوه زمستانه",
+        "evidence_id": "d5-e3"
+      },
+      "literal_evidence": {
+        "id": "d5-e3",
+        "source_url": "https://extension.usu.edu/yardandgarden/research/pumpkins-in-the-garden",
+        "quote": "organic matter and a complete fertilizer into the area before planting. Plant four to six seeds, 1-2 inches deep, in mounds 4 feet apart when soils are 65ºF. Thin the mounds after emergence to two plants. Transplant pumpkin 2 feet apart through black plastic for early maturity. Use row covers to protect the plants when planting before the frost-free period. After the vines develop runners, side dress with additional nitrogen fertilizer. Irrigation should be deep and infrequent. Plastic and organic mulches help conserve water and reduce weeding. Do not apply organic mulches until soils have warmed to 75ºF. Control insect and diseases throughout the year. Harvest pumpkins when the skin is hard and not easily broken when pressure is applied with a fingernail. Recommended Pumpkin Varieties Autumn Gold, Connecticut Field, and Spirit Hybrid are large (18-25 lb) fruited orange pumpkins that can"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "کدوی آجیلی (Seed-purpose Cucurbita) تا حدود 16 هفته پس از گل‌دهی برای رسیدن بذر نیاز دارد؛ در این بازه زمان‌بندی دقیق تنش آبی مرحله‌ای در منابع موجود ارائه نشده است.",
+        "conditions": "منبع: Virginia Tech seed-production chapter (US); محصول برداشت: بذر خشک خوراکی کدو; محدودیت: سن بلوغ بذر نه حساسیت مرحله‌ای به کم‌آبی",
+        "evidence_id": "d2-e12"
+      },
+      "literal_evidence": {
+        "id": "d2-e12",
+        "source_url": "https://welbaum.spes.vt.edu/seedproduction/pumpkin.html",
+        "quote": " elements are larger and less susceptible to clogging. Still, this disease, which is spread by cucumber beetles, has been reported to occur on these crops. Cutworms Aphids Squash bug Leafminers Rindworms Seed Harvest All squashes, pumpkins and marrows take approximately sixteen weeks from anthesis to seed maturity. By this stage the rind has hardened and changed color. The green types change to a yellow-orange color and the yellow-gold colored types change to a straw color. For large-scale production fruit may be placed in windrows ready for the mobile thresher and extractor. Alternatively they are left on the vine for an automatic vine harvester to pass through the field. The fruits of some cucurbits such as winter squashes are relatively dry by the time the seed is mature and ready for extraction. In this case water has to be introduced into the separator to wash the seeds free from fr"
+      }
+    }
+  ],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
   "declared_insufficiency": "منابع موجود فقط اصول عمومی آبیاری کدو/تخم‌کدو صیفی‌ای (آبیاری قطره‌ای، عمیق و کمتر، کاهش آبیاری هنگام رسیدن میوه، تحمل دوره‌های خشکی کوتاه) را پوشش می‌دهند و هیچ‌یک از آنها حساسیت مرحله‌ای کدو آجیلی (seed-purpose Cucurbita) به تنش کم‌آبی، معیارهای کمی اولویت‌بندی آب در طول رشد، یا بازه‌های حساس دمایی/رطوبتی اختصاصی برای این محصول و برداشت تخم خوراکی را ارائه نمی‌کنند. همچنین علم‌محور بودن هدف (کدو آجیلی) بر اساس mapping علمی با شواهد عمومی میوه‌ای برابر نیست و منابع موجود درباره آبیاری رشد-مرحله‌ای این محصول خاص کافی نیستند."
 }

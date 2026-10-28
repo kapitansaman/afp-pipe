@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-fcc69d8bfd95",
+  "title": "مقدار بذر کدو آجیلی در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-fcc69d8bfd95",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40641934753"
+  },
+  "bindings": {
+    "topic_sha256": "f7cf4815bb84395dcbcfc15575c6dfd382ae91fc7a7b0b90fec68edaa15539ca",
+    "topic_files": {
+      "family-context/40610299326.json": "d2eb63715ce46c8800b6937a0664598b6bbcad995ccdac653e83545005d410ca",
+      "family-context/40637634935.json": "d2eb63715ce46c8800b6937a0664598b6bbcad995ccdac653e83545005d410ca",
+      "family-context/40641934753.json": "d2eb63715ce46c8800b6937a0664598b6bbcad995ccdac653e83545005d410ca",
+      "lifecycle/research_discover/state.json": "b166c371bca29d10c84fc28911f66c2029062a3bdebdfdef52dcc4b12829ba8c",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "98dbd3fd6469f7d037e32f6ccda35822265545124272fa2ee8adef8363f93445",
+      "lifecycle/research_extract/state.json": "ed3614febe4064a8c8697c78a20988bf315f9b6a7bb04cc75de5de047efa5ac6",
+      "lifecycle/research_refetch/state.json": "d3546445d890c4771049a3601141b3c57153b07c4e63621bb44ff6c11989d931",
+      "lifecycle/research_sources/state.json": "caa62f06a859f5d2c2ab98349dbd86c18fd8616a64c1681540279ca2cd5f0fdc",
+      "lifecycle-evidence/candidate-raw.json": "2b6c962866eb3d03e0ac01d1ef3e86d572d398d7bde827708890c5861779e157",
+      "lifecycle-evidence/existing-content.json": "82ac97f52e93a891e546dcfed5e91abcf2cde956ec9e5ade1ac65eb22c3ee23a",
+      "lifecycle-evidence/extraction-feedback.json": "93017633228445e7fc8887c0a8b6b53f2a12252c6da662404c969d43e9c7ecc1",
+      "lifecycle-evidence/model-source-originals/candidate-raw.json": "0f42d9724ce28f6709bbd8df53b8204a62585dcb74e8cc4aacf0d815bf095487",
+      "lifecycle-evidence/model-source-originals/extraction-feedback.json": "32d33777cbbd70fd06197db24fb3ba4eb8d5958818ed8d61646eeb210e0d8a7b",
+      "lifecycle-evidence/model-source-originals/source-discovery-report.json": "ba20c7c59bdf1387eeaf7b84f00930266983dcbc65c389cec407e6d97035902a",
+      "lifecycle-evidence/model-source-originals/sources.json": "3e3e7b2cfec87c1aca3699e3debdf7e44ba9ae2a254e687e3107811f6d8b866a",
+      "lifecycle-evidence/model-source-plan.json": "a3a5a2a858949951fec83f97152bc91e45b62059a63e963ae0eb9db5ac48c8b4",
+      "lifecycle-evidence/model-source-plan.raw.json": "b9387dec726247a7b8925fe478ad8c61946f8a20845af9fb4fe024b01c33f8b4",
+      "lifecycle-evidence/model-source-refetch.json": "c02df51bd03298770287e2d6bd9e20202eed7d8b4746d47f8a27d8c3b2956b75",
+      "lifecycle-evidence/real-search/round-1-fetch.json": "2d850dad86eb214164aee46ab5df70152a99a58e4657962128c30d82ea902faa",
+      "lifecycle-evidence/real-search/round-1.json": "6e155d82b1ebaeab7c725a5d402ea0443fbe40c981ce1a515442f0ba2b3b8072",
+      "lifecycle-evidence/real-search/round-2-fetch.json": "cced7fb5814f39c0a4361dfa0f031ce6095502d05667081497b09999a7f43612",
+      "lifecycle-evidence/real-search/round-2.json": "c2424babb5b36e8ea20172c4a7c4b59c601bd36b0590a3d4cab988333907df35",
+      "lifecycle-evidence/source-discovery-report.json": "82e7c037740eb1159318741ede59da8269ca48d58c1849bda0043640cd08671e",
+      "lifecycle-evidence/source-fetch-report.json": "3e3ddbb7116e336064bbdce9e3c32ff5f31c0cd15b8518ba60c554f695861bda",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3900088a5318a1255da8abcf0687c5064127afde853973cfc41a4734b62f9488",
+      "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+      "lifecycle-evidence/sources.json": "33b78132c045bfacfc326f4b77ac8bae04dcb040dc153ae7aa7db70e8fb187c0"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T06:10:49.785595+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

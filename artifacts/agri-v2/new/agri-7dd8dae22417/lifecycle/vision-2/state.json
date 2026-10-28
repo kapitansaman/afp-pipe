@@ -1,5 +1,5 @@
 {
-  "attempts": 2,
+  "attempts": 4,
   "history": [
     {
       "attempts": 1,
@@ -22,14 +22,36 @@
         "kind": "image_quality",
         "category": "unspecified"
       }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40641934753",
+      "started_at": "2026-10-28T06:12:30.715798+00:00",
+      "completed_at": "2026-10-28T06:12:52.868994+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
+    },
+    {
+      "attempts": 4,
+      "status": "failed",
+      "last_run_id": "40641934753",
+      "started_at": "2026-10-28T06:13:58.861854+00:00",
+      "completed_at": "2026-10-28T06:14:13.319536+00:00",
+      "failure": {
+        "kind": "image_quality",
+        "category": "image_critical_checks_failed"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40637634935",
-  "started_at": "2026-10-28T05:36:05.629542+00:00",
-  "completed_at": "2026-10-28T05:36:21.245324+00:00",
+  "last_run_id": "40641934753",
+  "started_at": "2026-10-28T06:13:58.861854+00:00",
+  "completed_at": "2026-10-28T06:14:13.319536+00:00",
   "failure": {
     "kind": "image_quality",
-    "category": "unspecified"
+    "category": "image_critical_checks_failed"
   }
 }

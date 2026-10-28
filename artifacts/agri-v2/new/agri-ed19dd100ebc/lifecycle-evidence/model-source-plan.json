@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T06:10:04.031028+00:00",
+  "topic_id": "agri-ed19dd100ebc",
+  "input_binding": {
+    "topic_sha256": "7ef0f24c9f85d98118f4c6ddde13d14bbb10b9ca1e2e0f932508647c5296d66f",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "5c8c7441dbfec962dce9ab71b8794a5f98ad053b3b5667649939cd68eb82b595"
+  },
+  "plan": {
+    "topic_id": "agri-ed19dd100ebc",
+    "gap": "No directly fetched source reports the specific alfalfa seed germination temperature range, the soil moisture threshold required for seed imbibition and successful germination, or the soil-crusted conditions that impede seedling emergence. Existing sources cover general establishment and winter management but not the thermal and hydrological parameters or crust-prevention methods relevant to the stated germination-intent title.",
+    "queries": [
+      "alfalfa Medicago sativa seed germination temperature range optimal University extension",
+      "alfalfa seed soil moisture imbibition water potential threshold germination university research"
+    ],
+    "requirements": [
+      {
+        "id": "species_product",
+        "need": "Confirm the exact species and propagule type referenced is alfalfa (Medicago sativa) seed intended for direct-seeded forage establishment, not a different legume or processed seed product."
+      },
+      {
+        "id": "exact_reader_method",
+        "need": "Source must address laboratory or field germination parameters and/or mechanical/management practices for preventing or breaking soil crust during alfalfa seedling emergence."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Provide germination temperature values with original units and, where available, soil moisture metrics tied to alfalfa seed imbibition or emergence, preserving the source geography and date."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

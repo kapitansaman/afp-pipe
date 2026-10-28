@@ -1,5 +1,5 @@
 {
-  "attempts": 2,
+  "attempts": 3,
   "history": [
     {
       "attempts": 1,
@@ -22,12 +22,23 @@
         "kind": "validation",
         "category": "independent_scoped_review_rejected"
       }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40641934753",
+      "started_at": "2026-10-28T06:09:57.492436+00:00",
+      "completed_at": "2026-10-28T06:10:17.198202+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "independent_scoped_review_rejected"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40637634935",
-  "started_at": "2026-10-28T05:25:09.887525+00:00",
-  "completed_at": "2026-10-28T05:25:30.235036+00:00",
+  "last_run_id": "40641934753",
+  "started_at": "2026-10-28T06:09:57.492436+00:00",
+  "completed_at": "2026-10-28T06:10:17.198202+00:00",
   "failure": {
     "kind": "validation",
     "category": "independent_scoped_review_rejected"

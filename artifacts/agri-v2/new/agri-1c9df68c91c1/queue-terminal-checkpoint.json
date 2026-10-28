@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-1c9df68c91c1",
+  "title": "آخرین آبیاری کدو آجیلی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-1c9df68c91c1",
+    "status": "stage_failed",
+    "stage": "research_review"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_review",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "independent_scoped_review_rejected",
+    "last_run_id": "40641934753"
+  },
+  "bindings": {
+    "topic_sha256": "f1f8371e79187a78465c58db2b8118813617131bc7ee6cd2798c27cbde07d1f7",
+    "topic_files": {
+      "family-context/40531540832.json": "27dfad269c139ebb34282500208db9ee4d4ba65a165a0f47fa9fe92cc9abbae9",
+      "family-context/40610299326.json": "27dfad269c139ebb34282500208db9ee4d4ba65a165a0f47fa9fe92cc9abbae9",
+      "family-context/40637634935.json": "27dfad269c139ebb34282500208db9ee4d4ba65a165a0f47fa9fe92cc9abbae9",
+      "family-context/40641934753.json": "27dfad269c139ebb34282500208db9ee4d4ba65a165a0f47fa9fe92cc9abbae9",
+      "lifecycle/existing_content_audit-000/rejected/1/000.raw.json": "f8b30eb2886160eb9df970c4e156927bbbd4438fa64cc9f293b466641c3d6104",
+      "lifecycle/existing_content_audit-000/state.json": "c3b53d2114b62eb41f189f4730b7010a5e35e002e8059b47892c3200006d7796",
+      "lifecycle/existing_content_audit_finalize/state.json": "9f284e67039c5161c3bb7e7684e2747213e14cd8e0e7fa7ab1fa9d184085c83f",
+      "lifecycle/research_extract/state.json": "d3396748c86486c952f0b574a76aa13d6aa34c97beceee47fef36d55e78ec96b",
+      "lifecycle/research_review/rejected/1/review-raw.json": "9f60f2839b6a80449cbf041c705bde98450ff915913124c6120b5a9da2d961db",
+      "lifecycle/research_review/rejected/2/review-raw.json": "f9bed9c66e80fc77c833b719b2416fb9efe8f91de7a68673738b629121a94f22",
+      "lifecycle/research_review/state.json": "dac1b6844934784dff1bf0eb43a7b18e2ff490adf12a1d432aec319a0ac77aab",
+      "lifecycle/research_sources/state.json": "d227355a3dd3d8fcb2e9c93294f20ecf9a610a4beae2f5d947342b9cc28ea354",
+      "lifecycle-evidence/candidate-raw.json": "822b2e475c06d7ab4b6f4fe379ca0e75e28f9684591b94b52b7399ac1de60265",
+      "lifecycle-evidence/candidate.json": "3e5c6b3b61960f0e48bed4ac5d411545c1549999a145107a7b409937fec29ba6",
+      "lifecycle-evidence/existing-content.json": "77186a5c181a171b59180f3f3ef3f1573bd26c912cb26f0de94d5175b69da3e8",
+      "lifecycle-evidence/overlap-batches/000.json": "a3529c285e2e94faaf4d51c1bf05496e6bf6416f8aeb385128fe4b50d04891b4",
+      "lifecycle-evidence/overlap-batches/000.raw.json": "67493e8686a46da85c7ed73b184f66a5e9cc82c19705b7e23f6f95be560f82fa",
+      "lifecycle-evidence/overlap.json": "110ac06a3fa38295085028ce52e3dcfb0fbda840a4ebca4070b817202053c97a",
+      "lifecycle-evidence/review-raw.json": "791590fce60f4e2ac775c97a19dcb2bd365e98d84bf5710d88cb573c516270cf",
+      "lifecycle-evidence/source-discovery-report.json": "6a040d1e52f97ae6d565aaf913d475f6c8a5627c5cfa846e4a9bc6ef4ca20fd3",
+      "lifecycle-evidence/source-fetch-report.json": "9fd3bc0fb7e393af92355058238421c18c8ec3835d55a0893fedc73632745d62",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3c41cc8d977f4808b67da68862c49b9574e5c8eb33c36cc4a080b42b835b12ed",
+      "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+      "lifecycle-evidence/sources.json": "f97f45e90dd83743cf4af879bcdac05d0311535b423a88d0ff6a16bb4e0a97ba"
+    },
+    "legacy_research_sha256": "4c9fd6219a1cb151c2342b7a08da74ac2dc4d7ec8f54db7c0ea6e5ec7e4a5851",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T06:10:36.778468+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

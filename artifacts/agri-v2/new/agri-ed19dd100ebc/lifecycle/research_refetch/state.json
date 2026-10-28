@@ -1,0 +1,24 @@
+{
+  "attempts": 0,
+  "history": [
+    {
+      "attempts": 0,
+      "status": "deferred",
+      "last_run_id": "40641934753",
+      "started_at": "2026-10-28T06:10:04.042414+00:00",
+      "completed_at": "2026-10-28T06:11:15.758109+00:00",
+      "failure": {
+        "kind": "admission_deferred",
+        "category": "model_capacity_deferred"
+      }
+    }
+  ],
+  "status": "deferred",
+  "last_run_id": "40641934753",
+  "started_at": "2026-10-28T06:10:04.042414+00:00",
+  "failure": {
+    "kind": "admission_deferred",
+    "category": "model_capacity_deferred"
+  },
+  "completed_at": "2026-10-28T06:11:15.758109+00:00"
+}

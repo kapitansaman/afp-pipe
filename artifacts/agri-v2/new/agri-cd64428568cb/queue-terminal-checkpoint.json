@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-cd64428568cb",
+  "title": "نیاز آبی لوبیا چیتی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-cd64428568cb",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40641934753"
+  },
+  "bindings": {
+    "topic_sha256": "d92e8299dcf6ab39a5e40014c214f81d0bb6e162a8faee558bbf336a7d1d07c9",
+    "topic_files": {
+      "family-context/40531540832.json": "34187d1ac2f79cdc649d80f841ab1aef6d4138a968a1b6d5b0822ad434315e57",
+      "family-context/40610299326.json": "34187d1ac2f79cdc649d80f841ab1aef6d4138a968a1b6d5b0822ad434315e57",
+      "family-context/40637634935.json": "34187d1ac2f79cdc649d80f841ab1aef6d4138a968a1b6d5b0822ad434315e57",
+      "family-context/40641934753.json": "34187d1ac2f79cdc649d80f841ab1aef6d4138a968a1b6d5b0822ad434315e57",
+      "lifecycle/research_discover/state.json": "e7659a65cd90a088e0f6fa69f98e75d8443714758ddc7da7cba16e4cf9579871",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "dc873182b7536523dd2a0e047760a4bbef50adb380dbc37cdc1b0e2a5a4cda96",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "c0cbccb27f8dd8f913722a2cdffb7d4dc352c7fb0515d5eee86ca8c1e36af85a",
+      "lifecycle/research_extract/state.json": "f37ba985063068cc92064c388bd4dfcc858d0e4dfe4efbd9c32b2c298333df3c",
+      "lifecycle/research_sources/state.json": "06594c3ea3542f02469cff719ee2d500a0a1029ef9c2fd4b2d0a64ab6186308e",
+      "lifecycle-evidence/candidate-raw.json": "5d10853b5d06c1daefc8459461ba0a077af08633a821b627d3d629f523675326",
+      "lifecycle-evidence/existing-content.json": "6ffd9d74319ce01a1b85b71774f0cddf68c0778ab0bc7809b993d7a2f6d82cba",
+      "lifecycle-evidence/extraction-feedback.json": "41052629d02b2cbffa4879b32c27ff914ab8a3e221ba120862e867e3ed6ae2be",
+      "lifecycle-evidence/model-source-plan.raw.json": "36a1a7e5693fcb382a2843fdad5b9dfc09901a4135815286c7518b2942f24918",
+      "lifecycle-evidence/source-discovery-report.json": "990c6569212eab0fc3dfdc3b30c6f231d74aa3dd2c52c70661751f527de1235d",
+      "lifecycle-evidence/source-fetch-report.json": "7c0fd44fa8584340b8f5039e3987eb35ddf8e82d494eb208682a894049343868",
+      "lifecycle-evidence/source-hub-fetch-report.json": "1476bbff279c62ae391247bb9d848b7cf57da6e8ccbed3015811581a1681462e",
+      "lifecycle-evidence/source-link-fetch-report.json": "e397e06bdb72effe730423073a2a090f22c6a38182ab01fcb5ed3d1ab3280338",
+      "lifecycle-evidence/sources.json": "9e760fc2c15cee422f16a92f9ed44f07b8cf4f759d6ddeef38fb3106f442193a"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T06:10:16.025356+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-dc60868225b6",
+  "title": "مراحل حساس کدو آجیلی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-dc60868225b6",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40641934753"
+  },
+  "bindings": {
+    "topic_sha256": "f3a54d00603a86883848bebf2d4422d7c3829761ccec90745260cb875d323e3a",
+    "topic_files": {
+      "family-context/40531540832.json": "a4bb757b587d20062235aae03d337066480274c6a101e625494c89bcfa9ffd70",
+      "family-context/40610299326.json": "a4bb757b587d20062235aae03d337066480274c6a101e625494c89bcfa9ffd70",
+      "family-context/40637634935.json": "a4bb757b587d20062235aae03d337066480274c6a101e625494c89bcfa9ffd70",
+      "family-context/40641934753.json": "a4bb757b587d20062235aae03d337066480274c6a101e625494c89bcfa9ffd70",
+      "lifecycle/research_discover/state.json": "eb409bcb9b79e7596679c26bbefe5d1106d6c91217e51b4405ac8ef431dc3277",
+      "lifecycle/research_extract/rejected/1/candidate-raw.json": "ab656ddc1113a89cf7e151ebf636048b093c6710cc26ee632e8e684032ae3645",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "b3025a232d2f1b5c7cb9c867ad9f47adeccd335bf88f835341bac69314320390",
+      "lifecycle/research_extract/state.json": "5318f5d7bc0bcbf54de6718bbcc52e2d47137089b95f071f2c4ee8f2c0b55461",
+      "lifecycle/research_sources/state.json": "8352714c7b622f517391a02f985c1af8bf51ee7e6f84ffb3392050ea6b936e0f",
+      "lifecycle-evidence/candidate-raw.json": "98af83ca92c912371091d72d8b094794050c49a99b747f53c173c4c822638e1a",
+      "lifecycle-evidence/existing-content.json": "3ae7ad118bd29c716b20d12c1b0fe15d67462469d3a6e9055aa9d83a2fa369c0",
+      "lifecycle-evidence/extraction-feedback.json": "c21a3d5a229910673e88072c46a474f9566102f45d67fe31a71466c11048d946",
+      "lifecycle-evidence/model-source-plan.raw.json": "d8509c21006dbe3f48226d3a1728ba13d20e100ea82fb1d539fbb438db788a3c",
+      "lifecycle-evidence/source-discovery-report.json": "18b4d4269d127a7aa1275d158778c3fc4c0ee777b34f3b461c29d88c00f2aa83",
+      "lifecycle-evidence/source-fetch-report.json": "9fd3bc0fb7e393af92355058238421c18c8ec3835d55a0893fedc73632745d62",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3c41cc8d977f4808b67da68862c49b9574e5c8eb33c36cc4a080b42b835b12ed",
+      "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+      "lifecycle-evidence/sources.json": "2200e469f9e766dfad3272dbb8fdfe9cc7ae1b1fda3f2c6f8e109aa791e98e0b"
+    },
+    "legacy_research_sha256": null,
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T06:10:14.520691+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

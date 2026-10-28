@@ -4,15 +4,16 @@
   "kind": "text",
   "slot": "AGNES_API_KEY11",
   "model": "agnes-2.5-flash",
-  "verified_at": "2026-10-27T15:32:22.106386+00:00",
+  "verified_at": "2026-10-28T06:14:02.905153+00:00",
   "verification": "actual_successful_parallel_response",
   "family_id": "family-03",
-  "topic_id": "agri-3c1cdef82c04",
+  "topic_id": "agri-78076167ad96",
   "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
   "assigned_key_slots": [
     "AGNES_API_KEY9",
     "AGNES_API_KEY10",
     "AGNES_API_KEY11",
     "AGNES_API_KEY12"
-  ]
+  ],
+  "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05"
 }

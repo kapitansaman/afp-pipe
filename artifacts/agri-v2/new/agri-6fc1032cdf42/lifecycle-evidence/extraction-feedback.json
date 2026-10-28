@@ -1,0 +1,8 @@
+{
+  "topic_id": "agri-6fc1032cdf42",
+  "candidate_sha256": "f4b7bcd123ae2d91425ad0baf8d11aac969784813c88286e9435f77c55a94b8f",
+  "scientific_approval": false,
+  "errors": [],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "مجموعه شواهد ارائه‌شده شامل راهنماهای تمدن دانشگاهی (Minnesota, Auburn/Alabama, Wisconsin) درباره زمان‌بندی برداشت یونجه بر اساس مرحله بلوغ، فرکانس切的 فصلی، ذخایر کربوهیدرات تاج و ریشه، مقاومت زمستانه و مدیریت شبدریان است؛ اما هیچ‌یک از این منابع معیار اندازه‌گیری‌شده یا توصیفی مستقیمی برای آخرین آبیاری یونجه پیش از برداشت، یا آستانه قطع/کاهش آب آبیاری قبل از هرس ارائه نمی‌دهند. بنابراین پاسخ به نیت preharvest_water برای محصول یونجه با شواهد موجود امکان‌پذیر نیست."
+}

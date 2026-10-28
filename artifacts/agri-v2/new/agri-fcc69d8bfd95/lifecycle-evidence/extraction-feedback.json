@@ -1,28 +1,46 @@
 {
   "topic_id": "agri-fcc69d8bfd95",
-  "candidate_sha256": "3e1303e24fa4a16bf9b36c7019cad2a4b56a6356300eef0e72d86872505d8b41",
+  "candidate_sha256": "b8746a4249d2d0e6e72fb1c0ce12717535b7d5a2aff22aace843d8c2efe1c396",
   "scientific_approval": false,
   "errors": [
     {
       "fact_index": 1,
-      "code": "every_number_requires_unit_and_scope_binding",
+      "code": "literal_measurement_unit_required",
       "rejected_fact": {
         "kind": "source_observation",
-        "claim": "برای ارقام بوچگی (عمدتاً C. pepo) با فاصله ۶۰ تا ۱۲۰ سانتی‌متری در ردیف‌های ۱ تا ۱٫۵ متری، نرخ بذر ۳ کیلوگرم در هکتار برای کدو و ۷ کیلوگرم در هکتار برای کدو تابستانی گزارش شده است.",
-        "conditions": "منبع: PlantVillage/PSU؛ محصول: کدو/Cucurbita pepo؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha",
+        "claim": "نرخ بذر خام پایه برای کدوی بوچگی (bush type, mainly C. pepo) حدود ۳ کیلوگرم در هکتار گزارش شده است.",
+        "conditions": "منبع: PlantVillage/PSU؛ محصول: کدوی بوچگی C. pepo؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha؛ فاصله: ۶۰ تا ۱۲۰ سانتی‌متر در ردیف‌های ۱ تا ۱٫۵ متری",
         "evidence_id": "d0-e5",
         "numeric_bindings": [
           {
             "value": "3",
-            "unit_quote": "3 kg/ha",
-            "geographic_scope": "عمومی",
-            "product_scope": "کدو (pumpkin)"
+            "unit_quote": "3 kg/ha for pumpkin",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی بوچگی (bush pumpkin, mainly C. pepo)"
           },
           {
-            "value": "7",
-            "unit_quote": "7 kg/ha",
-            "geographic_scope": "عمومی",
-            "product_scope": "کدو تابستانی (summer squash, C. pepo)"
+            "value": "60",
+            "unit_quote": "60 to 120 cm",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی بوچگی"
+          },
+          {
+            "value": "120",
+            "unit_quote": "60 to 120 cm",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی بوچگی"
+          },
+          {
+            "value": "1",
+            "unit_quote": "rows 1 to 1.5 m apart",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی بوچگی"
+          },
+          {
+            "value": "1.5",
+            "unit_quote": "rows 1 to 1.5 m apart",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی بوچگی"
           }
         ]
       },
@@ -37,8 +55,8 @@
       "code": "every_number_requires_unit_and_scope_binding",
       "rejected_fact": {
         "kind": "qualitative",
-        "claim": "محاسبات خالص‌بودن و جوانه‌زنی بذر (PLS) به‌صورت فرمول درصد بذر خالص ضرب‌در درصد جوانه‌زنی تقسیم بر ۱۰۰ تعریف شده و برای جبران کاهش کیفیت بذر، نرخ کاشت تعدیل می‌شود.",
-        "conditions": "منبع: Penn State Extension (turfgrass)؛ محصول: توضیح روش PLS – شامل گیاهان مرتعی؛ جغرافیا: Pennsylvania, USA",
+        "claim": "روش محاسبه PLS (بذر زنده خالص) از ضرب درصد خلوص در درصد جوانه‌زنی تقسیم بر ۱۰۰ به دست می‌آید و نرخ کاشت تعدیل‌شده از تقسیم ۱۰۰ بر درصد PLS محاسبه می‌شود.",
+        "conditions": "منبع: Penn State Extension (تurfgrass seed)؛ محصول: چمن/turfgrass؛ جغرافیا: Pennsylvania, USA؛ توجه: این روش برای چمن演示 شده و به‌طور صریح برای کدو آجیلی تثبیت نشده است.",
         "evidence_id": "d1-e1",
         "numeric_bindings": []
       },
@@ -47,8 +65,82 @@
         "source_url": "https://extension.psu.edu/calculating-the-price-of-pure-live-seed",
         "quote": " percentage of pure seed of a cultivar, which should always be listed on the seed label, is multiplied by the percent germination (also listed on the seed label), and the product is divided by 100. For example, 92% pure seed of the cultivar x 80% germination / 100 = 74% PLS. To determine how much seed to plant, divide 100 by the percentage PLS (74% in this case). Thus, in this example, 100/74 = 1.4. Thus, 1.4 pounds of seed with a purity of 92% and a germination of 80% would be needed for each pound specified in the desired seeding recommendation. One way of determining if seed with low purity and germination is really a good buy is to divide the PLS into 100 then multiply by the cost of the seed. A comparison of two seedlots (A and B) is provided as an example. 'Seedlot A' label states 85% purity and 60% germination Assume Seedlot A is sold at the reduced price of $1.95 per pound and yo"
       }
+    },
+    {
+      "fact_index": 4,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "فاصله کاشت ۲ تا ۳ متری دو طرفه برای انواع رونده و فاصله ۶۰ تا ۱۲۰ سانتی‌متری با ردیف‌های ۱ تا ۱٫۵ متری برای انواع بوچگی گزارش شده است.",
+        "conditions": "منبع: PlantVillage/PSU d0-e5؛ محصول: کدو/Cucurbita spp.؛ جغرافیا: عام؛ واحد: m و cm",
+        "evidence_id": "d0-e5",
+        "numeric_bindings": [
+          {
+            "value": "2",
+            "unit_quote": "distances of 2-3 m either way",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی رونده"
+          },
+          {
+            "value": "3",
+            "unit_quote": "distances of 2-3 m either way",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی رونده"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e5",
+        "source_url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+        "quote": "t acid reaction (pH 5.5 to 7). They are drought-tolerant, require relatively little water, and are sensitive to waterlogging. Excessive humidity is harmful because of the development of leaf diseases, so none of the species do well in the humid tropics. Growing from Seed Pumpkins and squashes are grown from seed. Seeds may be sown in containers and transplanted to the field when they are 10 cm high. Direct seeding of 2 to 3 seeds per hill is commonly practiced. Trailing types are planted at distances of 2-3 m either way; the seed requirement is 2 to 3 kg/ha. The bushy types (mainly C. pepo) are planted closer, for example, plants spaced 60 to 120 cm in rows 1 to 1.5 m apart; the seed requirement is 3 kg/ha for pumpkin and 7 kg/ha for summer squash (C. pepo). Do not use seeds from plants where edible pumpkins and ornamental gourds are grown close together. Offspring will be bitter or even"
+      }
+    },
+    {
+      "fact_index": 5,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "میوه کدو زمستانه حدود ۹۰ تا ۱۲۰ روز پس از کاشت بسته به رقم برداشت می‌شود.",
+        "conditions": "منبع: PlantVillage/PSU d0-e6؛ محصول: winter squash/pumpkin؛ جغرافیا: عام؛ واحد: days",
+        "evidence_id": "d0-e6",
+        "numeric_bindings": [
+          {
+            "value": "90",
+            "unit_quote": "about 90 to 120 days after planting",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی زمستانه (winter squash/pumpkin)"
+          },
+          {
+            "value": "120",
+            "unit_quote": "about 90 to 120 days after planting",
+            "geographic_scope": "عام",
+            "product_scope": "کدوی زمستانه"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e6",
+        "source_url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+        "quote": " squash (C. pepo). Do not use seeds from plants where edible pumpkins and ornamental gourds are grown close together. Offspring will be bitter or even inedible. General Care and Maintenance Sole cropping is sometimes used for commercial production. Pumpkins and squashes are also planted in home gardens or mixed with field crops such as maize. Cultural practices to improve growth and development include the removal of growing tips (in trailing varieties) to check growth, and the bagging of fruits in paper to protect against fruit flies and other pests. Fruit sets may be stimulated by manual pollination. The fruit may rot when in contact with moist soil, so often cut grass or leaves are placed beneath the fruit. Harvesting Winter squashes and pumpkins are picked when mature in a once-over harvest or in several rounds, about 90 to 120 days after planting depending on the variety. Pumpkins a"
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در تولید بذر، عایق‌بندی بین مزارع گونه‌های مختلف Cucurbita برای حفظ خلوص و حداکثر بازدهی توصیه شده است.",
+        "conditions": "منبع: PlantVillage/PSU d0-e7؛ محصول: seed production of Cucurbita؛ جغرافیا: عام",
+        "evidence_id": "d0-e7",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e7",
+        "source_url": "https://plantvillage.psu.edu/topics/pumpkin/infos",
+        "quote": " pumpkins are picked when mature in a once-over harvest or in several rounds, about 90 to 120 days after planting depending on the variety. Pumpkins are considered to be among the most efficient vegetable crops when evaluated on nutritional yield land area and labor needed. Indicative figures for the seed yield of C. pepo are 400 to 1500 kg/ha. A valuable source of oil and protein is thus neglected if the seeds are left unutilized. In seed production, isolation between fields of different Cucurbita species is recommended, not only for the reason of purity but also for obtaining maximum yields (pollen of other species may cause reduced fruit set). ‹ › × References Anderson, C. R. Pumpkins. University of Arkansas Division of Agriculture. Available at: http://www.uaex.edu/publications/pdf/FSA-6074.pdf. [Accessed 02 April 15]. Free to access . Bratsch, A. Pumpkins. Virginia Cooperative Exten"
+      }
     }
   ],
   "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "مستندات حاضر نرخ بذر خام پایه برای کدو رونده و بوچگی را ارائه می‌دهد اما روش محاسبه تعدیل‌شده بر پایه درصد جوانه‌زنی و خلوص بذر را به‌طور مشخص برای کدو آجیلی (seed-purpose Cucurbita) پوشش نمی‌دهد. بخش‌های مربوط به PLS و جوانه‌زنی تنها در بافت مرتع‌سازی (turfgrass) و برای چمن‌ها ذکر شده‌اند و هیچ منبع دانشگاهی مستقیماً فرمول محاسبه نرخ بذر کدو آجیلی با احتساب تراکم و درصد جوانه‌زنی را تأیید نکرده‌اند."
+  "declared_insufficiency": "منابع حاضر نرخ بذر خام پایه برای کدوی رونده (۲ تا ۳ kg/ha) و بوچگی (۳ kg/ha) را بر اساس فاصله‌کاشتی ارائه می‌دهند، اما روش محاسبه تعدیل‌شده بر پایه درصد جوانه‌زنی و خلوص بذر (PLS) را به‌صورت صریح و مستقیماً برای کدوی آجیلی (seed-purpose Cucurbita pepo) پوشش نمی‌دهند. فرمول PLS تنها در بافت چمن (turfgrass) از Penn State Extension ذکر شده و هیچ منبع دانشگاهی مستقیماً اتحاد آن را با کدوی روغنی/آجیلی تأیید نکرده است. بنابراین بخش «درصد جوانه‌زنی» از عنوان پاسخ‌ داده نشده و خلأ اثبات برای فرمول نهایی محاسبه نرخ بذر کدو آجیلی با تعدیل تراکم و جوانه‌زنی وجود دارد."
 }

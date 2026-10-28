@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-71be4981f446",
+  "title": "برآورد عملکرد کدو آجیلی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-71be4981f446",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40641934753"
+  },
+  "bindings": {
+    "topic_sha256": "578517e69fb1d05d8f7e39e24a0bcc499b5e5fb14f411d51d55fedadd8f49a41",
+    "topic_files": {
+      "family-context/40610299326.json": "fe4bd61298bd60b685b154e90e166af5e3e3762f323f9518aedfafb42e3596c8",
+      "family-context/40637634935.json": "fe4bd61298bd60b685b154e90e166af5e3e3762f323f9518aedfafb42e3596c8",
+      "family-context/40641934753.json": "fe4bd61298bd60b685b154e90e166af5e3e3762f323f9518aedfafb42e3596c8",
+      "lifecycle/research_discover/state.json": "635f9a984b4036005cce593c0ba06708a161a14d488ed050746e401b141a807f",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "e88a9c5367e7b65de7ffcf81f95714c8da4b545bc54e31d6bb8adbb34f955654",
+      "lifecycle/research_extract/state.json": "17763cf62ececd41677d1804e451854b659eec2d435336ac408adec0c5f6a569",
+      "lifecycle/research_refetch/state.json": "7539006dfc8125a09dac553c0fe0041c41e234f9b7d7a879bd88661d55b98c9d",
+      "lifecycle/research_sources/state.json": "8ed69e5d1720e546851a9b329486fd2a5a756efbf9f057683a4f18f43373d640",
+      "lifecycle-evidence/candidate-raw.json": "95aefd7249c6c61215b9b6c5afe1fcb4a0c2515dc79cdbf568c1f52720b379ad",
+      "lifecycle-evidence/existing-content.json": "30e6cc58265b7e910fcd2d9424991826d5f7861cfed79192777a09e711750920",
+      "lifecycle-evidence/extraction-feedback.json": "ad1ded41d0726a19d3fbd0313d201782bd71f997b564cd67cc4689232e41dd9c",
+      "lifecycle-evidence/model-source-originals/candidate-raw.json": "6dfe567d7cb21ab6040ce98f433967638958ef4109ed678f4d9daca1f97844fb",
+      "lifecycle-evidence/model-source-originals/extraction-feedback.json": "49278c3f3f6c868686d30ba78fc3cace64033358ac416b1ccf933b27be1c5f72",
+      "lifecycle-evidence/model-source-originals/source-discovery-report.json": "3175994d55e238433b14fd086d64e25ce7a78c4b835085a729995c9f53f3bc18",
+      "lifecycle-evidence/model-source-originals/sources.json": "ef07dcc876cfa19d315cc65c15926bc59a29f1124fef058216e40611a193fb98",
+      "lifecycle-evidence/model-source-plan.json": "264e57a9ca690be8da31d1ab13316aea9b329f7dbf6b96f4688a4c177477c145",
+      "lifecycle-evidence/model-source-plan.raw.json": "e99d1fc65a401f357ab3222e002594f0542c986c7aca6cbe502762a0583f0fc2",
+      "lifecycle-evidence/model-source-refetch.json": "eec3e2443a4dd1a53fce7fc244b1a7151f8007ad22ed4cc05ff866862a9e16ea",
+      "lifecycle-evidence/real-search/round-1-fetch.json": "ff43ab6b25e0ea70a0bb40b28439c6a4455bb4a0c920a4cdc998e4987814b2dc",
+      "lifecycle-evidence/real-search/round-1.json": "73f12dc173d628dc92334e188908ec7a8666913a2b598b44dbdef65b54b95e0f",
+      "lifecycle-evidence/real-search/round-2-fetch.json": "71a8bda2e7347aa9595cb9cd15dab8af6c11e0966b42d050965e535c93988f2c",
+      "lifecycle-evidence/real-search/round-2.json": "39c0c35e9c924363094285a8fad03568a179def0219d98ba53d73116613bf530",
+      "lifecycle-evidence/source-discovery-report.json": "ab77181e0e1417698651c4fcb7f8d93baa8c0215e95b2bb0df7f414465f95716",
+      "lifecycle-evidence/source-fetch-report.json": "3e3ddbb7116e336064bbdce9e3c32ff5f31c0cd15b8518ba60c554f695861bda",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3900088a5318a1255da8abcf0687c5064127afde853973cfc41a4734b62f9488",
+      "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+      "lifecycle-evidence/sources.json": "486bb6e5bd2e3b81d7fe8d2b2bdd40a9af1cd0888dd4bb44fab107ca3eab16f5"
+    },
+    "legacy_research_sha256": "19865832f00e21aa47648c38aa2a4e6a078e5072f763066be770adaa523e4457",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T06:10:06.651305+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

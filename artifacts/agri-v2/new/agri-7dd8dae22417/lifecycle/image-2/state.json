@@ -1,5 +1,5 @@
 {
-  "attempts": 2,
+  "attempts": 4,
   "history": [
     {
       "attempts": 1,
@@ -27,14 +27,26 @@
         "kind": "unexpected",
         "category": "unspecified"
       }
+    },
+    {
+      "attempts": 3,
+      "status": "validated",
+      "last_run_id": "40641934753",
+      "started_at": "2026-10-28T06:09:57.695613+00:00",
+      "completed_at": "2026-10-28T06:12:30.714931+00:00",
+      "failure": null
+    },
+    {
+      "attempts": 4,
+      "status": "validated",
+      "last_run_id": "40641934753",
+      "started_at": "2026-10-28T06:12:52.874953+00:00",
+      "completed_at": "2026-10-28T06:13:58.860917+00:00",
+      "failure": null
     }
   ],
-  "status": "deferred",
-  "last_run_id": "40637634935",
-  "started_at": "2026-10-28T05:36:21.252539+00:00",
-  "completed_at": "2026-10-28T05:36:21.255402+00:00",
-  "failure": {
-    "kind": "unexpected",
-    "category": "unspecified"
-  }
+  "status": "validated",
+  "last_run_id": "40641934753",
+  "started_at": "2026-10-28T06:12:52.874953+00:00",
+  "completed_at": "2026-10-28T06:13:58.860917+00:00"
 }

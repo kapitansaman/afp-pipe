@@ -1,0 +1,460 @@
+{
+  "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+  "requested_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+  "redirect_chain": [
+    "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full"
+  ],
+  "text": "Frontiers | Drought–salinity interaction suppresses seed germination and seedling growth in alfalfa by altering water status, membrane stability, and antioxidant responses ORIGINAL RESEARCH article Front. Plant Sci. , 28 July 2026 Sec. Crop and Product Physiology Volume 17 - 2026 | https://doi.org/10.3389/fpls.2026.1887737 Published in Frontiers in Plant Science Crop and Product Physiology 5.9 impact factor 10.8 citescore Part of a Research Topic Drip Fertigation and Integrated Water–Nutrient Management: Mechanisms, Innovations, and Pathways to Sustainable Crop Production Submission open 21k views 13 articles Editor & Reviewers Edited by A E Ahmed Elsayed Abdelghany Reviewed by B M Bonface Manono X P Xiaojian Pu Outline Figures and Tables Figure 1 View in article Figure 2 View in article Figure 3 View in article Figure 4 View in article Figure 5 View in article Figure 6 View in article Figure 7 View in article Figure 8 View in article ORIGINAL RESEARCH article Front. Plant Sci. , 28 July 2026 Sec. Crop and Product Physiology Volume 17 - 2026 | https://doi.org/10.3389/fpls.2026.1887737 Drought–salinity interaction suppresses seed germination and seedling growth in alfalfa by altering water status, membrane stability, and antioxidant responses Y Z Yuanzhen Zhou 1 T L Tianpeng Li 1 X Z Xinyue Zhu 1 B W Binbin Wang 1 Z G Zhenggang Guo 2 M L Minguo Liu 3 J Z Jing Zhang 1 * 1. College of Grassland Science, Gansu Agricultural University, Lanzhou, China 2. State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems, Engineering Research Center of Grassland Industry, Ministry of Education, College of Pastoral Agriculture Science and Technology, Lanzhou University, Lanzhou, China 3. College of Grassland Agriculture, Northwest A&F University, Yangling, Shaanxi, China See more Article metrics View details Abstract Drought and salinity stress are the primary limiting factors for the successful establishment of alfalfa ( Medicago sativa ) pastures. However, the integrated responses of alfalfa during early establishment to combined drought and salinity stress, particularly the physiological links among water status, membrane stability, antioxidant defense, seed germination, and seedling growth, remain insufficiently understood. This study employed a two-factor design consisting of PEG-6000-induced drought stress at three levels (5%, 15%, and 25%) and NaCl-induced salinity stress at three concentrations (50, 100, and 150 mmol·L -1 ). The experiment included nine drought–salinity stress combinations plus a non-stress control. The interaction between drought and salinity stress significantly affected alfalfa seed germination and seedling physiological traits. Increasing PEG and NaCl concentrations generally reduced seed germination indices, including germination percentage, germination potential, germination index, and vigor index, and inhibited seedling growth, as reflected by decreases in plant height, leaf number, fresh weight, and aboveground dry weight. Combined drought–salinity stress also disrupted water status and membrane stability, increased relative electrical conductivity, and induced stress-specific changes in antioxidant enzyme activities. Severe combined stress caused the strongest inhibition, whereas low-intensity combined stress treatments, especially 5% PEG combined with 50 or 100 mmol·L -1 NaCl, showed relatively better overall performance among the imposed stress treatments under controlled conditions. These findings provide a physiological basis for evaluating early-stage alfalfa responses to combined drought and salinity stress and may support future screening of stress-tolerant germplasm. 1 Introduction Alfalfa (Medicago sativa L.), commonly known as the “king of forages”, is one of the most important perennial leguminous forage crops. Owing to its high protein content, good palatability, and strong biological nitrogen-fixing capacity, alfalfa plays an irreplaceable role in animal husbandry and sustainable forage production ( Zhang and Wang, 2025 ; Desta, 2026b ). In addition, its well-developed root system can effectively improve soil structure, enhance soil fertility through biological nitrogen fixation, and reduce soil erosion, indicating considerable potential for ecological restoration and soil sustainability ( Desta, 2026a , b ). In recent years, with the rapid increase in demand for high-quality forage in China, the planting area of alfalfa has continued to expand. However, constrained by the national policy of maintaining 1.8 billion mu of arable land, alfalfa production has gradually shifted toward marginal lands in Northwest and North China. These regions are frequently characterized by limited water availability and soil salinization, which jointly restrict alfalfa establishment, early growth, and subsequent productivity ( Wan et al., 2023 ). Therefore, improving alfalfa establishment under drought–salinity stress has become a critical issue for sustainable forage production in marginal environments. Because alfalfa production is increasingly expanding into arid and saline marginal areas, understanding how early establishment responds to drought and salinity stress is essential for improving pasture formation under adverse environments. Seed germination and early seedling growth are the most vulnerable stages of alfalfa establishment. Together, these two stages determine seedling emergence, stand formation, and the initial development of productive pasture swards. Successful germination requires rapid water uptake, activation of respiration, reserve mobilization, enzyme activity, and radicle protrusion ( Carrera-Castaño et al., 2020 ; Upretee et al., 2024 ). After germination, early seedling growth, including leaf expansion, stem elongation, root development, and biomass accumulation, further determines whether newly emerged seedlings can survive and establish under adverse environments. At these early stages, drought and salinity stress directly interfere with water uptake, metabolic activation, and early tissue formation, thereby reducing germination performance and seedling vigor ( Chaves et al., 2009 ; Arif et al., 2020 ; Liu et al., 2022 ). Salinity-induced inhibition of seed germination is generally associated with reduced imbibition, osmotic stress, Na + /Cl - toxicity, oxidative damage, membrane injury, and altered hormonal balance between abscisic acid and gibberellins ( Acosta-Motos et al., 2017 ; Manono, 2026 ). Because alfalfa seeds are small and early seedlings have limited stress-buffering capacity, even moderate drought or salinity may cause disproportionate reductions in seedling emergence, early seedling growth, and stand establishment. Thus, identifying the response patterns of germination and early seedling traits under drought and salinity stress is essential for improving alfalfa establishment in stress-prone areas. A substantial body of research has examined the individual effects of drought or salinity on alfalfa germination, seedling growth, and physiological metabolism. Drought stress mainly reduces external water potential, restricts water uptake, and decreases cellular turgor, whereas salinity stress imposes both osmotic stress and ion toxicity through excessive Na + and Cl - accumulation. Although these two stresses differ in their primary causes, both can impair cell division and elongation, disrupt membrane integrity, increase electrolyte leakage, and induce oxidative damage when antioxidant defense is insufficient ( Chaves et al., 2009 ; Angon et al., 2022 ; Chandran et al., 2024 ). These studies have greatly improved our understanding of single-stress responses in alfalfa. However, field environments rarely impose drought or salinity in isolation, particularly in arid and saline–alkali regions, where drought stress and salt accumulation often occur simultaneously. Combined drought and salinity stress may generate more complex plant responses than either stress alone ( Sahoo et al., 2025 ). Under combined stress, plants simultaneously experience restricted water uptake, osmotic imbalance, ion toxicity, membrane injury, and oxidative stress, which may interact additively, synergistically, or antagonistically ( Zhou Z. et al., 2024 ; Angon et al., 2022 ; Cao et al., 2023 ). Recent studies and reviews have suggested that drought–salinity interactions can strongly alter water status, membrane stability, photosynthetic function, ion regulation, and antioxidant defense. Nevertheless, the integrated responses of alfalfa during the early establishment stage remain insufficiently understood. Specifically, it remains unclear how combined drought and salinity stress, rather than either stress alone, coordinately regulates seed germination, seedling growth, water status, membrane stability, and antioxidant enzyme activity during early alfalfa establishment. In particular, most previous studies have focused on either adult plants or single-stress treatments, whereas fewer studies have systematically evaluated how combined drought and salinity regulate germination performance, seedling growth, leaf water status, membrane stability, and antioxidant enzyme activities during the transition from seed germination to early seedling growth. In this study, we investigated the combined effects of drought and salinity stress on seed germination, seedling growth, and physiological responses of alfalfa through laboratory Petri dish assays and pot experiments. The main objectives were: (1) to analyze the responses of alfalfa seed germination characteristics and seedling growth traits to different drought and salinity stress combinations; (2) to clarify the changes in leaf water status, membrane stability, and antioxidant enzyme activities under combined drought and salinity stress; and (3) to identify the key indicators and suitable stress thresholds associated with alfalfa tolerance or injury during early establishment. We hypothesized that combined drought and salinity stress would suppress seed germination and seedling growth by disrupting water status, membrane stability, and antioxidant defense, and that high-intensity drought–salinity combinations would cause stronger injury than low-intensity combinations. The findings of this study are expected to provide a physiological basis for evaluating alfalfa tolerance to combined drought and salinity stress and to support the establishment and cultivation of alfalfa in arid and saline–alkali regions. 2 Materials and methods 2.1 Experimental materials The plant material used in this study was Medicago sativa L. ‘Gannong No. 3’, a widely cultivated alfalfa cultivar in northwestern China with strong adaptability, good regrowth capacity, and relatively high biomass productivity. The seeds were provided by the College of Grassland Science, Gansu Agricultural University. 2.2 Experimental design The experiment was conducted from June to August 2024 in a controlled growth chamber at the College of Grassland Science, Gansu Agricultural University. The growth chamber was maintained at 25 ± 1 °C, with a relative humidity of 60%–70%, a 16 h/8 h light/dark photoperiod, and a photosynthetic photon flux density of approximately 180 μmol·m - ²·s -1 . A two-factor experiment was arranged in a completely randomized design. The first factor was drought stress, simulated using PEG-6000 solutions at three concentrations: 5%, 15%, and 25% (w/v). The second factor was salinity stress, imposed using NaCl solutions at three concentrations: 50, 100, and 150 mmol·L -1 . The combination of the two factors generated nine drought–salinity stress treatments. In addition, a non-stress control treatment was established using distilled water without PEG-6000 or NaCl. Thus, the experiment included ten treatments in total, and each treatment was replicated five times. Because the osmotic potentials of the treatment solutions were not directly measured, they were estimated to better characterize the physiological intensity of the imposed drought–salinity treatments. The osmotic potential of PEG-6000 solutions was estimated using the empirical equation of Michel and Kaufmann (1973) , and the osmotic contribution of NaCl was estimated using the van’t Hoff equation. For PEG-6000, concentrations of 5%, 15%, and 25% (w/v) were approximately converted to 50, 150, and 250 g·kg -1 water, respectively. For NaCl, ideal dissociation was assumed, with a van’t Hoff factor of 2. The combined osmotic potential of each PEG–NaCl mixture was approximated as the sum of the PEG-induced osmotic potential and the NaCl-induced osmotic potential. These values were used only as estimated reference values to distinguish generalized osmotic stress from the additional ionic component imposed by NaCl. The estimated osmotic potentials of all treatment solutions are shown in Supplementary Table 1 . For the seed germination experiment, healthy and uniform alfalfa seeds were selected and surface-sterilized before treatment. Fifty seeds were placed in each 9-cm Petri dish lined with two layers of filter paper. An equal volume of the corresponding PEG–NaCl mixed solution was added to each dish according to the treatment design, while distilled water was added to the control dishes. The dishes were randomly placed in the growth chamber, and their positions were changed regularly to minimize possible positional effects. Evaporative water loss was replenished daily to maintain a constant solution volume. Filter papers were replaced every 72 h, and mold-contaminated seeds were removed. The germination experiment was terminated on day 10. For the seedling growth experiment, seeds were sown in pots filled with a mixed substrate of vermiculite and perlite at a ratio of 1:1 (v/v). Each pot initially contained 20 seeds and was supplied with 100 mL Hoagland nutrient solution every 48 h before stress treatment. When the seedlings reached the trifoliate stage, they were thinned to six uniform plants per pot. The drought–salinity treatments were then applied according to the same PEG–NaCl treatment design described above, with distilled water used for the control treatment. During the 20-day stress period, the corresponding PEG–NaCl treatment solutions were applied directly to the pot substrate as irrigation solutions at the same volume and interval for all treatments. Solution volume was adjusted every 48 h using the corresponding treatment solution to maintain comparable water supply among treatments and to reduce dilution effects. Pot positions were changed regularly to minimize positional effects in the growth chamber. Substrate electrical conductivity and PEG concentration in the pot medium were not continuously monitored during the stress period; therefore, the nominal PEG and NaCl concentrations were used to represent the imposed treatment levels. 2.3 Measurement and calculation 2.3.1 Determination of seed germination parameters During the 10-day germination period, the number of germinated seeds was recorded daily. Germination was defined as visible radicle protrusion through the seed coat. Germination parameters were calculated according to the ISTA rules and previously described methods with minor modifications ( ISTA, 2018 ; Upretee et al., 2024 ). Germination percentage and germination potential were calculated using Equations 1 and 2 , respectively. Germination potential was calculated on day 3, and germination percentage was calculated on day 10, using the following equations: where n 10 is the number of germinated seeds on day 10, n 3 is the number of germinated seeds on day 3, N is the total number of tested seeds. The germination index and vigor index were calculated using Equations 3 and 4 , respectively. The germination index ( GI ) and vigor index ( VI ) were calculated as follows: where Gt denotes the number of seeds germinated on day t, Dt denotes the corresponding germination day, and S represents the mean radicle length. 2.3.2 Determination of seedling growth parameters After 20 days of stress treatment, alfalfa seedlings were randomly selected from each treatment for the determination of growth parameters. For each biological replicate, seedlings from the same pot were used for growth and biomass measurements. Plant height (cm) was measured from the stem base to the highest point of the plant using a ruler. The number of leaves was recorded using seedlings with uniform growth, counting from the first true leaf at the stem base. Fresh weight (g) was determined by cutting the aboveground parts of the seedlings evenly at the surface of the potting substrate and immediately weighing them. For aboveground dry weight (g), the harvested aboveground tissues were rinsed thoroughly, heated at 105 °C for 30 min to deactivate enzymatic activity, and then oven-dried at 80 °C to constant weight before being weighed using an analytical balance. 2.3.3 Determination of seedling physiological parameters After growth measurements, fresh seedling samples were collected for physiological analyses and stored at 4 °C before measurement. Fresh samples for water content, relative electrical conductivity, and antioxidant enzyme assays were collected from the corresponding biological replicate after growth measurements. When the sample amount was insufficient for all physiological determinations, additional parallel seedlings from the same pot were used. Tissue water content was determined using the oven-drying method, following the method described by Ma et al. (2017) . Relative electrical conductivity was measured using a conductivity meter. Briefly, plant samples were immersed in deionized water, and the initial electrical conductivity ( C 1 ) was recorded. The samples were then subjected to a boiling-water bath, after which the final electrical conductivity ( C 2 ) was measured. Relative electrical conductivity was calculated according to Equation 5 . The activities of superoxide dismutase (SOD), peroxidase (POD), and catalase (CAT) were determined using commercial assay kits from Beijing Solarbio Science & Technology Co., Ltd. (BC0170, BC0090, and BC0200, respectively). SOD and POD activities were measured by visible spectrophotometry at 550 nm and 470 nm, respectively, whereas CAT activity was determined by ultraviolet spectrophotometry at 240 nm. All procedures were performed strictly according to the manufacturer’s standardized protocols. 2.4 Statistical analyses Prior to statistical analysis, the normality and homogeneity of variance of each variable were tested using the Shapiro–Wilk test and Levene’s test, respectively. When necessary, data were transformed to meet the assumptions of analysis of variance. For the nine drought–salinity stress treatments, two-way analysis of variance (ANOVA) was performed to examine the main effects of drought stress (D), salinity stress (S), and their interaction (D × S) on seed germination, seedling growth, and physiological traits. In addition, to compare all treatments including the non-stress control, one-way ANOVA followed by Tukey’s honestly significant difference (HSD) test was conducted. Differences were considered significant at P < 0.05 and highly significant at P < 0.001. Pearson correlation analysis was performed to evaluate the relationships among seed germination traits, seedling growth traits, water-related traits, membrane stability, and antioxidant enzyme activities. A correlation heatmap was generated to visualize the direction and strength of trait associations. Before principal component analysis (PCA), all measured variables were standardized using Z-score transformation to eliminate the influence of different units and scales. PCA was then conducted to identify the major dimensions of variation among treatments and to determine the traits contributing most strongly to treatment separation. The membership function method was used to comprehensively evaluate the overall performance of alfalfa under different drought–salinity stress combinations. Germination percentage, germination potential, germination index, vigor index, plant height, leaf number, fresh weight, aboveground dry weight, and leaf water content were treated as positive performance indicators, whereas relative electrical conductivity was treated as a negative injury indicator. Antioxidant enzyme activities, including SOD, CAT, and POD, were considered stress-response indicators rather than uniformly positive performance traits, because elevated enzyme activity may reflect either enhanced antioxidant defense or greater oxidative stress. Therefore, a sensitivity analysis was further conducted by excluding SOD, CAT, and POD from the membership function evaluation to test whether antioxidant enzyme scoring affected the treatment ranking. Positive and negative membership functions were calculated using Equations 6 and 7 , respectively. Positive indicators, including germination percentage, germination potential, germination index, vigor index, plant height, leaf number, fresh weight, aboveground dry weight, and leaf water content, were standardized using the positive membership function: Negative indicators, such as relative electrical conductivity, were standardized using the negative membership function: where X ij represents the value of the j-th trait under the i-th treatment, and Xmax and Xmin represent the maximum and minimum values of the corresponding trait, respectively. The average membership value of all evaluated traits was calculated for each treatment and used to rank the comprehensive performance of alfalfa under combined drought and salinity stress. Structural equation modeling (SEM) was conducted as an exploratory analysis to examine potential associations among stress factors, intermediate trait groups, seed germination, and aboveground dry weight. The SEM was based on biological replicate-level data, n = 50. Drought stress and salinity stress were treated as exogenous variables. Growth traits, water-related traits, and antioxidant enzyme traits were included as intermediate trait groups, while seed germination and aboveground dry weight were used as final response variables. Seed germination was represented by the vigor index, which was selected based on the coefficient of variation among germination-related traits. All observed variables were standardized before model construction to reduce the influence of different units and scales. Standardized path coefficients were used to describe the strength and direction of associations among variables. Model fit was assessed using the chi-square test, the ratio of chi-square to degrees of freedom (χ²/df), comparative fit index (CFI), Tucker–Lewis index (TLI), root mean square error of approximation (RMSEA), and standardized root mean square residual (SRMR). Because the experiment was conducted under controlled conditions and the SEM was exploratory, the model was interpreted as evidence of potential statistical associations rather than definitive causal pathways. ANOVA and multiple comparisons were performed using SPSS 26.0 (SPSS Inc., Chicago, IL, USA). Correlation analysis, PCA, and membership function ranking plots were generated using Origin 2024 (OriginLab Inc., Northampton, MA, USA). Structural equation modeling was performed using the lavaan package in R. 3 Results 3.1 Combined drought and salinity stress suppresses alfalfa seed germination Drought stress, salinity stress, and their interaction all had highly significant effects on the germination percentage, germination potential, germination index, and vigor index of alfalfa seeds ( P < 0.001; Figure 1 ). Under the same salinity level, the germination percentage, germination potential, germination index, and vigor index of alfalfa seeds consistently decreased as drought stress intensified. Under the same drought level, the germination index and vigor index also decreased continuously with increasing salinity intensity. For germination percentage, under mild drought stress, it first decreased an",
+  "links": [
+    {
+      "url": "https://www.frontiersin.org/",
+      "label": ""
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science",
+      "label": "Frontiers in Plant Science"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/mission",
+      "label": "Mission and values"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/history",
+      "label": "History"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/awards",
+      "label": "Awards"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/impact",
+      "label": "Frontiers' impact"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/annual-reports",
+      "label": "Our annual reports"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/thought-leadership",
+      "label": "Thought leadership"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/researcher-perspectives",
+      "label": "Researcher perspectives"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/how-we-publish",
+      "label": "How we publish"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/open-access",
+      "label": "Open access"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/quality",
+      "label": "Quality and research integrity"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/peer-review",
+      "label": "Peer review"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/technology-and-platforms",
+      "label": "Technology and platforms"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/research-topics",
+      "label": "Research Topics"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/fair-data-management",
+      "label": "Publish your data with FAIR²"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/fee-policy",
+      "label": "Fee policy"
+    },
+    {
+      "url": "https://www.frontiersin.org/open-access-agreements/consortia",
+      "label": "National consortia"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/open-access-agreements",
+      "label": "Institutional partnerships"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/collaboration-indexation",
+      "label": "Collaboration and indexation"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/frontiers-planet-prize",
+      "label": "Frontiers Planet Prize"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/sustainability",
+      "label": "Sustainability"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/contact",
+      "label": "Contact us"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals",
+      "label": "All journals"
+    },
+    {
+      "url": "https://www.frontiersin.org/articles",
+      "label": "All articles"
+    },
+    {
+      "url": "https://www.frontiersin.org/submission/submit?domainid=1&fieldid=66&specialtyid=0&entitytype=2&entityid=373",
+      "label": "Submit manuscript"
+    },
+    {
+      "url": "https://www.frontiersin.org/search",
+      "label": "Search"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/aquatic-photosynthetic-organisms",
+      "label": "Aquatic Photosynthetic Organisms"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/crop-and-product-physiology",
+      "label": "Crop and Product Physiology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/functional-plant-ecology",
+      "label": "Functional Plant Ecology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/functional-and-applied-plant-genomics",
+      "label": "Functional and Applied Plant Genomics"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/photosynthesis-and-photobiology",
+      "label": "Photosynthesis and Photobiology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-abiotic-stress",
+      "label": "Plant Abiotic Stress"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-bioinformatics",
+      "label": "Plant Bioinformatics"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-biophysics-and-modeling",
+      "label": "Plant Biophysics and Modeling"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-biotechnology",
+      "label": "Plant Biotechnology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-breeding",
+      "label": "Plant Breeding"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-cell-biology",
+      "label": "Plant Cell Biology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-development-and-evodevo",
+      "label": "Plant Development and EvoDevo"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-epigenetics-and-chromosome-biology",
+      "label": "Plant Genetics, Epigenetics and Chromosome Biology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-membrane-traffic-and-transport",
+      "label": "Plant Membrane Traffic and Transport"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-metabolism-and-chemodiversity",
+      "label": "Plant Metabolism and Chemodiversity"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-nutrition",
+      "label": "Plant Nutrition"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-pathogen-interactions",
+      "label": "Plant Pathogen Interactions"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-physiology",
+      "label": "Plant Physiology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-proteomics-and-protein-structural-biology",
+      "label": "Plant Proteomics and Protein Structural Biology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-symbiotic-interactions",
+      "label": "Plant Symbiotic Interactions"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution",
+      "label": "Plant Systematics and Evolution"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/plant-systems-and-synthetic-biology",
+      "label": "Plant Systems and Synthetic Biology"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/sustainable-and-intelligent-phytoprotection",
+      "label": "Sustainable and Intelligent Phytoprotection"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/sections/technical-advances-in-plant-science",
+      "label": "Technical Advances in Plant Science"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles",
+      "label": "Articles"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/research-topics",
+      "label": "Research Topics"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/editors",
+      "label": "Editorial board"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/about",
+      "label": "Field chief editors"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/why-submit",
+      "label": "Why submit?"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/article-types",
+      "label": "Article types"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/author-guidelines",
+      "label": "Author guidelines"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/editor-guidelines",
+      "label": "Editor guidelines"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/publishing-fees",
+      "label": "Publishing fees"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/submission-checklist",
+      "label": "Submission checklist"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/for-authors/contact-editorial-office",
+      "label": "Contact editorial office"
+    },
+    {
+      "url": "https://www.frontiersin.org/research-topics/75068/drip-fertigation-and-integrated-water-nutrient-management-mechanisms-innovations-and-pathways-to-sustainable-crop-production",
+      "label": "Part of a Research Topic Drip Fertigation and Integrated Water–Nutrient Management: Mechanisms, Innovations, and Pathways to Sustainable Crop Production Submission open 21k views 13 articles"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+      "label": "Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29545536",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30654563",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36365335",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32906023",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37339054",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12237375",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38826717",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32492790",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38057162",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18662937",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30311153",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16866955",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36365447",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30828339",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37384363",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36840211",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39795352",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34906381",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16309626",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16658439",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27666517",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18444910",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33670123",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26941757",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31277395",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20363612",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16441347",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36895871",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19318268",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36818861",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29541085",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40343348",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37647984",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11173290",
+      "label": "Pubmed Abstract"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/pdf",
+      "label": "Download PDF"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/epub",
+      "label": "epub"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/xml",
+      "label": "XML"
+    },
+    {
+      "url": "https://www.frontiersin.org/guidelines/author-guidelines",
+      "label": "Author guidelines"
+    },
+    {
+      "url": "https://www.frontiersin.org/for-authors/author-services",
+      "label": "Services for authors"
+    },
+    {
+      "url": "https://www.frontiersin.org/guidelines/policies-and-publication-ethics",
+      "label": "Policies and publication ethics"
+    },
+    {
+      "url": "https://www.frontiersin.org/guidelines/editor-guidelines",
+      "label": "Editor guidelines"
+    },
+    {
+      "url": "https://www.frontiersin.org/research-topics",
+      "label": "Research Topics"
+    },
+    {
+      "url": "https://www.frontiersin.org/submission/submit",
+      "label": "Submit"
+    },
+    {
+      "url": "https://www.frontiersin.org/legal/privacy-policy",
+      "label": "Privacy policy"
+    },
+    {
+      "url": "https://www.frontiersin.org/legal/terms-and-conditions",
+      "label": "Terms and conditions"
+    },
+    {
+      "url": "https://www.frontiersin.org/about/accessibility-statement",
+      "label": "Accessibility statement"
+    }
+  ],
+  "fetched_at": "2026-10-28T06:10:09.834638+00:00",
+  "sha256": "d7d3ee87fb9d6de9c0850799e97bad8e6b090b902d4926c057216dc80820ff3d",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

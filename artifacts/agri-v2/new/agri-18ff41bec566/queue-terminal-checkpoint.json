@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "policy": "finite-terminal-exceptions-v1",
+  "topic_id": "agri-18ff41bec566",
+  "title": "پایش رطوبت خاک در مزرعه کدو آجیلی؛ انتخاب محل و عمق حسگر",
+  "status": "terminal_unpublished_checkpoint",
+  "outcome": {
+    "topic_id": "agri-18ff41bec566",
+    "status": "stage_failed",
+    "stage": "research_extract"
+  },
+  "proof": {
+    "kind": "stage_budget_exhausted",
+    "stage": "research_extract",
+    "attempts_preserved": 3,
+    "attempt_limit": 3,
+    "reason": "saved_evidence_declares_insufficient_scope",
+    "last_run_id": "40641934753"
+  },
+  "bindings": {
+    "topic_sha256": "56b345d3e708f4837f431abff6e5354b78e32378e018f2888701687069671e26",
+    "topic_files": {
+      "family-context/40610299326.json": "c64de5d4a4fd0afdd6258740d4775d1388b1e8dcb8ce67c50fb4f91854d69cf4",
+      "family-context/40637634935.json": "c64de5d4a4fd0afdd6258740d4775d1388b1e8dcb8ce67c50fb4f91854d69cf4",
+      "family-context/40641934753.json": "c64de5d4a4fd0afdd6258740d4775d1388b1e8dcb8ce67c50fb4f91854d69cf4",
+      "lifecycle/research_discover/state.json": "1ed811735a9cee427d33f270b52b9a50c477dfed7f7e54760e44a8c8d1df6cc0",
+      "lifecycle/research_extract/rejected/2/candidate-raw.json": "4d802930dd1cff59856b526445e7eb067832a65aa3ef28521fc48d599a5bc621",
+      "lifecycle/research_extract/state.json": "48035cd1f8c77cda52ee660b551eab4b1a6546bbf1009e67b6e0821d814c5a22",
+      "lifecycle/research_refetch/state.json": "aab2da89c0009128dfd13c5043e96cc9f4b58b64fd705a26b8e2ce0c28429088",
+      "lifecycle/research_sources/state.json": "15192a978fb32612d4d5023cb96b0459af063535b77e2eb391922e10458ac350",
+      "lifecycle-evidence/candidate-raw.json": "4e1b040b6ed568edc3d5d956d176134d3cb4545f6c4b55b76615be643d314c86",
+      "lifecycle-evidence/existing-content.json": "dd31c4a3523d8145cfeb4357168db25a1a72a55cf7855841007900d26d01dd30",
+      "lifecycle-evidence/extraction-feedback.json": "8cfa4ee9fe1e1b9e0c747a3fbe5aa6073786f977e23ceaeb42397f47a711e853",
+      "lifecycle-evidence/model-source-originals/candidate-raw.json": "c0871927bb81b10011ae67a02e39676ec7958f718869e446389163425edfa021",
+      "lifecycle-evidence/model-source-originals/extraction-feedback.json": "baeb58f47fc1958775525a31c6a39b9f6ab25b49ee759b43f152cd074cf36886",
+      "lifecycle-evidence/model-source-originals/source-discovery-report.json": "6fbde0f1ad72ecd24e640e2a43e2990c6a7776ff6e16663608e449019bf04d4d",
+      "lifecycle-evidence/model-source-originals/sources.json": "c7b7f006684c28547bcef4afcf3d86c3c8b295a339b9ab8514887f1352ba2546",
+      "lifecycle-evidence/model-source-plan.json": "53e73c074027cf679fdec6f18d7174813aeaff0c41eeda48804157c90ba4cbea",
+      "lifecycle-evidence/model-source-plan.raw.json": "0c55147cc8faf03d1674beaa3a1e929680a9c9ef4a245e04dfdcd7c44784cfed",
+      "lifecycle-evidence/model-source-refetch.json": "64bcce97be2f9363d0213c712563212a5b4ad10ab780e345173be959991e5933",
+      "lifecycle-evidence/real-search/round-1-fetch.json": "6800750c31fd8c418955d2b99f8f254b8cd4b1e0929c6fc8c12f6b455a4851d2",
+      "lifecycle-evidence/real-search/round-1.json": "2da7788c84a33a8ddccb823d62d850f3c409a5a24d301af59eaf5b3d47a5716e",
+      "lifecycle-evidence/real-search/round-2-fetch.json": "16f9181c29db1e0c1d82b54513aab21cdfa05400df90295aa66dc2d40bb9742c",
+      "lifecycle-evidence/real-search/round-2.json": "371d6b846f1d54f6feac64507363899d6806104a7713e3067a1b05f513dc6f3b",
+      "lifecycle-evidence/source-discovery-report.json": "deee1dc6427e858f8babcc0dc40ee30051e5b8424e3687ba8e3d9a5e1f7e4952",
+      "lifecycle-evidence/source-fetch-report.json": "9fd3bc0fb7e393af92355058238421c18c8ec3835d55a0893fedc73632745d62",
+      "lifecycle-evidence/source-hub-fetch-report.json": "3c41cc8d977f4808b67da68862c49b9574e5c8eb33c36cc4a080b42b835b12ed",
+      "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+      "lifecycle-evidence/sources.json": "924a95ae528c2d8e1c5312ec3507e6b0e70eaee66d8c4ebd2aa46e45cb69e9e5"
+    },
+    "legacy_research_sha256": "16452f841f64190f9736b4f381d1972a7cf811a0f81a90cee64566a2ab94be6c",
+    "brief_sha256": null,
+    "policies": {
+      "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+      "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+      "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+      "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+      "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+      "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+      "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+    }
+  },
+  "recorded_at": "2026-10-28T06:10:11.647888+00:00",
+  "publication_authorized": false,
+  "automatic_retry_authorized": false,
+  "prior_attempts_reset": false
+}

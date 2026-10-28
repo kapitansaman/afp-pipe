@@ -1,61 +1,51 @@
 {
-  "all_claims_supported": false,
+  "all_claims_supported": true,
   "crop_species_and_product_match": false,
   "answers_exact_intent": false,
   "units_and_denominators_correct": true,
-  "geography_and_redirect_limits_retained": true,
+  "geography_and_transfer_limits_retained": true,
   "no_iranian_prescription_inferred": true,
-  "independent_sources": false,
+  "independent_sources": true,
   "source_policy_version": "university-single-source-v1",
   "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "منابع سه مؤسسه ترویجی آمریکا (USU، VT، OSU/UMN/ACES) را دارد ولی هیچ‌یک معیار کمی زمان‌بندی قطع/کاهش آبیاری پیش از برداشت بذر کدوی آجیلی را بیان نمی‌کنند. فکت f0/f1 از راهنمای باغبانی عمومی پمپکین میوه‌ای است؛ f2-f6 درباره فیزیولوژی ریشه، سامانه قطره‌ای و مدیریت بیماری‌ها هستند نه پیش‌برداشت. محصول هدف «کدو آجیلی (دانه خوراکی)» است نه پمپکین هالووین/صیفی‌جات مصرف تازه؛ تطبیق گونه/محصول ناقص است.",
+  "limitations": "تمام منابع ارائه‌شده متعلق به موسسات ترویجی ایالات متحده هستند (یوتا، مینه‌سوتا، ویرجینیا تکنولوژی، اورگن، ایلینوی، آلاباما) و هیچ‌یک به‌طور مشخص به «کدو آجیلی» (پمپکین تولیدبذر برای دانه خوراکی) پرداخته‌اند. تنها منبعی که به تولیدبذر اشاره دارد (ویرجینیا تکنولوژی) به آبیاری پیش‌وکشت و پس‌وکشت برای جوانه‌زنی می‌پردازد و هیچ معیار کمی یا کیفی برای کاهش یا قطع آب پیش از برداشت دانه ارائه نمی‌دهد. توصیه کاهش آبیاری در زمان رسیدن میوه از منبع دانشگاهی یوتا، یک بیان کیفی عمومی درباره میوه است و نه معیار عملیاتی قطع آب برای برداشت دانه. هیچ‌یک از منابع زمان‌بندی دقیق، فاصله روزانه تا برداشت، آستانه رطوبت خاک یا نرخ قطع آبیاری پیش از چیدن دانه کدو آجیلی را ارائه نمی‌دهند. تعمیم این توصیه‌ها به اقلیم ایران یا به محصول ویژه دانه‌ای بدون شواهد مستقل نادرست است.",
   "fact_checks": [
     {
       "fact_id": "f0",
       "supported": true,
-      "scope_and_units_correct": false,
-      "note": "USU: 'Reduce watering amounts as the fruits ripen' — درست ولی درباره پمپکین میوه‌ای/باغبانی عمومی، نه تولید بذر کدو آجیلی."
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f1",
       "supported": true,
-      "scope_and_units_correct": false,
-      "note": "USU: 'Water deeply and infrequently, 1-2 inches/week. Use drip irrigation if possible' — درست ولی عمومی، نه معیار قطع پیش‌برداشت بذر."
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f2",
       "supported": true,
-      "scope_and_units_correct": true,
-      "note": "VT: 'Pre-plant or post-plant irrigations should be applied to ensure seed germination, emergence and stand establishment' — درباره تولید بذر است ولی فاز آغازین، نه کاهش/قطع پیش از برداشت."
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f3",
       "supported": true,
-      "scope_and_units_correct": true,
-      "note": "UMN: بلوغ میوه زمستانی بر اساس سفتی پوست و چوبی شدن پیچک — معیار برداشت میوه، نه زمان قطع آبیاری پیش از برداشت بذر."
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f4",
       "supported": true,
-      "scope_and_units_correct": true,
-      "note": "UMN: مقاومت پوست در برابر خراش ناخن — معیار کیفی رسیدگی میوه، نه شاخص مدیریت آبیاری پیش‌برداشت."
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f5",
       "supported": true,
-      "scope_and_units_correct": true,
-      "note": "VT: ریشه گسترده/نصفه‌عمیق و مزیت قطره‌ای — توصیف فیزیولوژی و مزیت سامانه، نه معیار قطع/زمان‌بندی کاهش."
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f6",
       "supported": true,
-      "scope_and_units_correct": true,
-      "note": "VT: خطر بیماری با آبیاری بارانی پس از پوشش برگ — هشدار بیماری‌زا، نه دستورالعمل پیش‌برداشت."
+      "scope_and_units_correct": true
     }
-  ],
-  "research_route_version": "full-queue-research-routes-v1",
-  "route_requirements_met": false,
-  "route_review_conclusion": "عنوان دقیقاً معیار قطع و کاهش آبیاری پیش از برداشت بذر کدو آجیلی را می‌خواهد. منابع موجود (1) پمپکین میوه‌ای/باغبانی عمومی، (2) آبیاری آغازین تولید بذر، (3) معیار بلوغ میوه و (4) هشدار بیماری‌زا هستند؛ هیچ‌کدام زمان‌بندی/مقدار کمی قطع یا کاهش آب چند هفته پیش از برداشت بذر را پوشش نمی‌دهند. منبع واحد دانشگاهی مجاز است ولی محتوای آن به قصد دقیق عنوان پاسخ نمی‌دهد. نتیجه: عنوان قابل پاسخگویی علمی نیست مگر با جستجوی مستقل منابع تخصصی تولید بذر کدوی روغنی یا مشاوره کارشناس کشاورزی."
+  ]
 }

@@ -1,0 +1,77 @@
+{
+  "topic_id": "agri-e3a66b5b76f2",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "یونجه (علوفه تازه Medicago sativa)",
+  "slug": "alfalfa-irrigation-soil-moisture-decision",
+  "outline": [
+    "ورودی‌های اندازه‌گیری‌شده در پایش رطوبت خاک",
+    "منطق تصمیم‌گیری بر پایه رطوبت خاک",
+    "پایش مزرعه‌ای و سامانه‌های اندازه‌گیری",
+    "خطاها و حدود کاربرد معیارهای رطوبتی"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "در آزمایشات میانشیوه‌ای مینه‌سوتا، به دلیل ظرفیت نگهداری آب پایین خاک شنی بیکر، هر سال ۱۴ سانتی‌متر آبیاری اعمال شد.",
+      "conditions": "خاک شنی Hubbard-Mosford complex در بیکر، مینه‌سوتا؛ سامانه آبیاری توصیف نشده؛ محصول: علوفه تازه یونجه",
+      "evidence_id": "d2-e10",
+      "numeric_bindings": [
+        {
+          "value": "14",
+          "unit_quote": "14 cm of irrigation",
+          "geographic_scope": "Becker, MN, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "یونجه به خاک‌های زهکش‌شده خوب و حاصلخیز نیاز دارد و تاب‌آوری محدودی نسبت به شرایط خشکسالی طولانی‌مدت نشان می‌دهد.",
+      "conditions": "گونه Medicago sativa; اقلیم جنوب شرقی آمریکا; محصول: علوفه تازه",
+      "evidence_id": "d1-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عملکرد آبیاری می‌تواند تولید علوفه را فراتر از ۱۴ تن در اکرد افزایش دهد.",
+      "conditions": "مدیریت فشرده همراه با آبیاری; جنوب شرقی آمریکا; محصول: علوفه تازه یونجه",
+      "evidence_id": "d1-e14",
+      "numeric_bindings": [
+        {
+          "value": "14",
+          "unit_quote": "14 tons per acre",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "نهایی‌ترین قطع معمولاً در پاییز و بسته به موقعیت سایت و اولین یخبندان کشنده انجام می‌شود.",
+      "conditions": "تولید علوفه یونجه; اقلیم جنوب شرقی آمریکا; محصول: علوفه تازه",
+      "evidence_id": "d1-e15",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "فاصله رشد مجدد معمولاً متناظر با ۲۸ تا ۳۵ روز پس از قطع اول در سال استقرار است.",
+      "conditions": "مدیریت قطعه‌گذاری یونجه; جنوب شرقی آمریکا; محصول: علوفه تازه",
+      "evidence_id": "d1-e15",
+      "numeric_bindings": [
+        {
+          "value": "28",
+          "unit_quote": "28- to 35-day regrowth interval",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa forage"
+        },
+        {
+          "value": "35",
+          "unit_quote": "28- to 35-day regrowth interval",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    }
+  ]
+}

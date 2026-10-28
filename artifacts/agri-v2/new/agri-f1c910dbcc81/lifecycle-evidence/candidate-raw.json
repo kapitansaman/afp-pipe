@@ -1,0 +1,79 @@
+{
+  "topic_id": "agri-f1c910dbcc81",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "یونجه تازه (برش‌خورده؛ ماده خشک بدون اندازه‌گیری)، Medicago sativa",
+  "slug": "alfalfa-irrigation-duration-flow-rate-university",
+  "outline": [
+    "ورودی‌های اندازه‌گیری‌شده (دبی، فشار، نیاز آب — فاقد منبع)",
+    "منطق تصمیم و واحدها (فاقد سامانه آبیاری و محاسبه مدت)",
+    "پایش مزرعه یا شبکه (فاقد داده دبی/فشار تیپ)",
+    "خطاها و حدود کاربرد (فاقد روش هدف)"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "منابع ارائه‌شده درباره زمان‌بندی برداشت، فرکانس هرس، ارزش تغذیه‌ای و بقای زمستانه یونجه گزارش دارند؛ درباره مدت هر نوبت آبیاری یونجه با تیپ، محاسبه از دبی واقعی و نیاز آب هیچ شواهد مستقیمی وجود ندارد.",
+      "conditions": "گونه: Medicago sativa یونجه؛ محصول: برش تازه/علوفه؛ سامانه آبیاری: ذکرنشده؛ اقلیم/جغرافیا: آمریکا (MN، WI، AL)؛ واحد: فاقد دبی/فشار/مدت",
+      "evidence_id": "d0-e0",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در مطالعات برداشت متعدد (CF4/CF5/CF6) فاصله‌های ۲۱، ۲۸ و ۴۵ روز گزارش شده است؛ این بازه‌ها مربوط به زمان‌بندی هرس هستند، نه آبیاری.",
+      "conditions": "گونه: Medicago sativa یونجه؛ محصول: علوفه تازه؛ سامانه آبیاری: ذکرنشده؛ منطقه: Becker و St. Paul، MN، آمریکا",
+      "evidence_id": "d2-e14",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در یک سایت sandy soil Becker، سالانه ۱۴ cm آبیاری تکمیلی اعمال شده است؛ این مقدار کل فصلی است و درباره مدت هر نوبت با تیپ informative نیست.",
+      "conditions": "گونه: Medicago sativa یونجه؛ محصول: علوفه تازه؛ سامانه آبیاری: ذکر جزئیات تیپ/دبی/فشار ندارد؛ منطقه: Becker، MN، آمریکا",
+      "evidence_id": "d2-e10",
+      "numeric_bindings": [
+        {
+          "value": "14",
+          "unit_quote": "14 cm of irrigation",
+          "geographic_scope": "Becker, MN, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در مدیریت کشت یونجه توصیه به leaving unharvested stubble 4–6 inches برای trapping snow و عایق‌بندی بوته شده است؛ این معیار height برداشت است، نه مدت آبیاری.",
+      "conditions": "گونه: Medicago sativa یونجه؛ محصول: stand management برای winter hardiness؛ سامانه آبیاری: فاقد مدت/دبی",
+      "evidence_id": "d3-e6",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای بقای زمستانی، حداقل 5 تا 6 weeks (بیش از 900 GDD، base 41ºF) بین آخرین هرس و first killing frost توصیه می‌شود؛ این بازه دمایی/تقویمی است و درباره آبیاری informative نیست.",
+      "conditions": "گونه: Medicago sativa یونجه؛ محصول: fall management reserve buildup؛ سامانه آبیاری: فاقد",
+      "evidence_id": "d3-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای تعیین termination alfalfa با herbicide در پاییز، regrowth باید حداقل 4 to 6 inches باشد؛ این ارتفاع رشد است، نه مدت آبیاری.",
+      "conditions": "گونه: Medicago sativa یونجه؛ محصول: stand termination pre-corn؛ سامانه آبیاری: فاقد",
+      "evidence_id": "d8-e12",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "هیچ‌یک از منابع ارائه‌شده شامل اندازه‌گیری discharge، pressure، drip-tape length/rate، soil moisture threshold یا محاسبه irrig-duration برای یونجه نیستند.",
+      "conditions": "گونه: Medicago sativa یونجه؛ محصول: علوفه/dry matter؛ سامانه آبیاری: drip/typ عدم تطابق؛ منبع: فاقد evidence_id مستقیم",
+      "evidence_id": "none",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برخی مطالعات irrigation حجمی فصلی گزارش کرده‌اند اما درباره مدت هر نوبت آبیاری با تیپ و محاسبه از دبی/فشار واقعی informative نیستند.",
+      "conditions": "گونه: Medicago sativa یونجه؛ محصول: forage yield; منطقه: MN آمریکا",
+      "evidence_id": "d2-e10",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "Intent asked for irrigation_duration (duration per irrigation cycle for alfalfa calculated from actual flow/discharge and water need). The fetched corpus covers harvest scheduling, cutting frequency, winter survival, stand assessment, and crop rotation, but contains no measured discharge, pressure, drip-tape length/rate, soil-moisture threshold, or calculated irrigation cycle duration for alfalfa. Only a seasonal irrigation volume (14 cm at Becker, MN) is mentioned without cycle duration, flow, pressure, or tape specs. Therefore the exact method/product/observation requested is absent."
+}

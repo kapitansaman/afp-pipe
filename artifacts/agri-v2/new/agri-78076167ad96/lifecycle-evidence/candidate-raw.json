@@ -1,0 +1,156 @@
+{
+  "topic_id": "agri-78076167ad96",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "یونجه خوراک دام (علوفه تازه/کود خشک)",
+  "slug": "reducing-alfalfa-harvest-losses-timing-tools-collection",
+  "outline": [
+    "تعریف محصول و هدف: کاهش تلفات برداشت یونجه علوفه‌ای",
+    "معیارهای کیفی زمان‌بندی برداشت بر پایه بلوغ و شرایط آب‌وهوایی",
+    "ابزار و شیوه جمع‌آوری: کنترل رطوبت و حداقل تماس با خاک",
+    "محدودیت‌ها و پیشگیری از خطا: تلفات ناشی از بارندگی و کیفیت علوفه"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "بارش باران پس از بریده شدن یونجه علوفه‌ای می‌تواند تلفات ماده خشک را ایجاد کند که معمولاً بین ۲۰ تا ۳۰ درصد است.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای (alfalfa forage) | واحد: درصد تلفات ماده خشک | مرز: بارش پس از cutting، عمدتاً در علوفه نیمه‌خشک‌شده به دلیل ریزش برگ، شستشو و تنفس طولانی",
+      "evidence_id": "d0-e2",
+      "numeric_bindings": [
+        {
+          "value": "20 to 30",
+          "unit_quote": "losses are possible, but often range from 20 to 30%",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "تلفات مواد مغذی در علوفه بریده‌شده به شدت تحت تأثیر بارندگی است و هر اینچ باران می‌تواند تلفاتی تا ۲۵ درصد به همراه داشته باشد.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: درصد تلفات مواد مغذی بر اینچ باران | مرز: دانه‌بندی به ازای هر اینچ بارش",
+      "evidence_id": "d0-e2",
+      "numeric_bindings": [
+        {
+          "value": "25",
+          "unit_quote": "can be as high as 25% per inch of rain",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در بهار وقتی خاک مرطوب است، رسیدن علوفه به رطوبت حدود ۶۰ درصد برای هیدیلیج ممکن است ۱ تا ۲ روز طول بکشد، اما رسیدن به رطوبت ۲۰ درصد برای ذخیره‌سازی کاه ممکن است ۳ تا ۵ روز زمان ببرد.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: روز برای رسیدن به رطوبت هدف | مرز: شرایط بهاری با خاک مرطوب و رطوبت‌های ۶۰٪ و ۲۰٪",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "1-2",
+          "unit_quote": "it can take 1-2 days to reach a forage moisture content of 60%",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        },
+        {
+          "value": "3-5",
+          "unit_quote": "but 3-5 days for forage to reach 20%",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "استفاده از کودکن موالید (mower conditioner) برای له‌کردن ساقه‌ها و پخش کردن علوفه بر سطح حدود ۷۰ درصد زمین بریده‌شده، جذب انرژی خورشیدی و سرعت خشک‌شدن را افزایش می‌دهد و در نتیجه تلفات برداشت را کاهش می‌دهد.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: درصد پوشش سطحی | مرز: پخش علوفه بر روی ~۷۰٪ سطح سوار بریده‌شده",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "70",
+          "unit_quote": "spread the cut forage over about 70% of the cut sward",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای کاهش ریسک آسیب بارانی در برداشت نخست، می‌توان یونجه را به‌صورت هیدیلیج یا بالیج درآورد تا قرارگیری در زمین کوتاه شود.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: — | مرز: روش‌های جایگزین برداشت برای کاهش مواجهه میدانی",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کیفیت علوفه یونجه هنگام رسیدن گیاه از مرحله رویشی به گل‌دهی به سرعت کاهش می‌یابد و ارزش غذایی نسبی (RFV) در برنامه هشدار برداشت مینه‌سوتا حدود ۴.۲ واحد در روز در این بازه کاهش می‌یابد.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: واحد RFV در روز | مرز: مرحله رویشی تا گل‌دهی اولیه",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": [
+        {
+          "value": "4.2",
+          "unit_quote": "the relative feed value decreased 4.2 units per day from vegetative to early flowering stages",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "رطوبت Harvest در Silage یونجه بسته به تیمار Tedding و مرحله_cutting_ متفاوت است: در برش نخست رطوبت ۶۹ درصد (بدون Tedding) در مقابل ۵۸ درصد (با Tedding)، در برش دوم ۶۵ درصد در مقابل ۴۹ درصد، و در برش سوم ۵۲ درصد در مقابل ۴۷ درصد ثبت شد.",
+      "conditions": "منطقه: ويسكونسين-رايو فالز و مینه‌سوتا ایالات متحده | محصول: یونجه Silage | واحد: درصد رطوبت Harvest | مرز: سه Cut فصل رشد",
+      "evidence_id": "d6-e4",
+      "numeric_bindings": [
+        {
+          "value": "69",
+          "unit_quote": "Harvest moisture content, % wet basis 1: 69 a",
+          "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+          "product_scope": "alfalfa silage"
+        },
+        {
+          "value": "58",
+          "unit_quote": "Harvest moisture content, % wet basis 1: 58 b",
+          "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+          "product_scope": "alfalfa silage"
+        },
+        {
+          "value": "65",
+          "unit_quote": "Harvest moisture content, % wet basis 1: 65 a",
+          "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+          "product_scope": "alfalfa silage"
+        },
+        {
+          "value": "49",
+          "unit_quote": "Harvest moisture content, % wet basis 1: 49 b",
+          "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+          "product_scope": "alfalfa silage"
+        },
+        {
+          "value": "52",
+          "unit_quote": "Harvest moisture content, % wet basis 1: 52",
+          "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+          "product_scope": "alfalfa silage"
+        },
+        {
+          "value": "47",
+          "unit_quote": "Harvest moisture content, % wet basis 1: 47 b",
+          "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+          "product_scope": "alfalfa silage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "چگالی ساقه‌ای کمتر از ۴۰ ساقه بر فوت مربع نشان‌دهنده کاهش قابل‌توجه عملکرد علوفه‌ای است و مدیریت یا تعویض stand توصیه می‌شود.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: ساقه بر فوت مربع | مرز: ارزیابی post-winter injury",
+      "evidence_id": "d4-e4",
+      "numeric_bindings": [
+        {
+          "value": "40",
+          "unit_quote": "Less than 40 stems: Significant forage yield reduction",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    }
+  ]
+}

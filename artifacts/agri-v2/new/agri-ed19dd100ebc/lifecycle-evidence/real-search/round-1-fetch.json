@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
+      "canonical_url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
+      "canonical_url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+      "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "family_id": "family-04",
+  "topic_id": "agri-cd64428568cb",
+  "title": "نیاز آبی لوبیا چیتی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+  "title_sha256": "79800b88b6c20b3ea28785d3d675a06d21f5f68053a30267d57d3b47b67dec5c",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY13",
+    "AGNES_API_KEY14",
+    "AGNES_API_KEY15",
+    "AGNES_API_KEY16"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

@@ -1,0 +1,56 @@
+{
+  "image_sha256": "715336bdc3f5904562523121b43eda6877db98b2594764bbb83067f2267e8fc5",
+  "contract_sha256": "57ebe9da732464a41d3a58c381507e1ab4f58f3e9537c0e370c2d94603078904",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-7dd8dae22417",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T06:12:30.717527+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 69,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match",
+        "physical_geometry_plausible"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": false,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": false,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 32,
+    "reasons": [
+      "CRITICAL: crop_stage_match fails — the image depicts pepper/chili plants with red fleshy fruits, not common bean (Phaseolus vulgaris). The scene DATA explicitly requires low branching plants with trifoliate leaves and green bean pods; the visible plants have compound alternate leaves and hanging red pepper-like fruit, a materially false crop claim.",
+      "CRITICAL: topic_evidence_match fails — the article topic is red kidney bean (لوبیا قرمز) selection; the illustration shows pepper plants, making the visual claim contradict the topic.",
+      "CRITICAL: physical_geometry_plausible partially fails — several tan kidney-shaped objects appear embedded in or half-merged with the soil surface rather than resting naturally, and the drip tape lateral shows questionable continuity where it passes near the carton.",
+      "cosmetic: role_camera_match false — role 2 calls for near-overhead tight detail; the image uses a three-quarter ground-level perspective with visible horizon and vanishing-point furrows, not a tight overhead close-up.",
+      "cosmetic: product_scale_match false — the AFP carton occupies roughly 28–32% of frame width, exceeding the specified [0.18, 0.23] interval for a detail-role shot.",
+      "The AFP carton identity (white-blue branding, logo, text) matches the approved product reference, and the phone label reads correctly as AFP | 09134922013."
+    ]
+  }
+}

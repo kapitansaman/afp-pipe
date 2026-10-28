@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
+      "canonical_url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
+      "canonical_url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.missouri.edu/publications/m164",
+      "canonical_url": "https://extension.missouri.edu/publications/m164",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://mosh.umn.edu/management",
+      "canonical_url": "https://mosh.umn.edu/management",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.climatehubs.usda.gov/hubs/northwest/topic/northwest-no-till-farming-climate-resilience",
+      "status": "unavailable",
+      "category": "fetch_or_validation_failed",
+      "temporary": true
+    },
+    {
+      "url": "https://extensionpubs.unl.edu/publication/1596/html/view",
+      "canonical_url": "https://extensionpubs.unl.edu/publication/g2247/2014/html/view",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

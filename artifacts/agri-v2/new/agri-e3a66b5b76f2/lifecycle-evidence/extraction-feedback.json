@@ -1,0 +1,61 @@
+{
+  "topic_id": "agri-e3a66b5b76f2",
+  "candidate_sha256": "9f6936688996672cbd164c8f8eaf9382985799b0fd0daa5b52384b9ab28d4bc6",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 2,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "عملکرد آبیاری می‌تواند تولید علوفه را فراتر از ۱۴ تن در اکرد افزایش دهد.",
+        "conditions": "مدیریت فشرده همراه با آبیاری; جنوب شرقی آمریکا; محصول: علوفه تازه یونجه",
+        "evidence_id": "d1-e14",
+        "numeric_bindings": [
+          {
+            "value": "14",
+            "unit_quote": "14 tons per acre",
+            "geographic_scope": "southeastern United States",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e14",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": "ental Mo and B are recommended yearly or every other year during the life of the stand. Visual assessment of the stand for nutrient deficiency symptoms and the periodic testing of plant tissue can help with identifying issues early in the plant growth cycle. For more information on how to collect plant tissue samples, contact your regional Extension agent or visit the Auburn University Soil, Forage, and Water Testing Laboratory . Forage Production and Defoliation Management Alfalfa forage yield typically ranges from 4 to 10 tons per acre annually. Under more intensive management and irrigation, it could exceed 14 tons per acre. The crude protein (CP) concentration ranges from 18 to 25 percent and total digestible nutrients (TDN) from 60 to 65 percent. Forage distribution usually encompasses April through September and October, depending on variety and weather conditions. In the Southeast"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "فاصله رشد مجدد معمولاً متناظر با ۲۸ تا ۳۵ روز پس از قطع اول در سال استقرار است.",
+        "conditions": "مدیریت قطعه‌گذاری یونجه; جنوب شرقی آمریکا; محصول: علوفه تازه",
+        "evidence_id": "d1-e15",
+        "numeric_bindings": [
+          {
+            "value": "28",
+            "unit_quote": "28- to 35-day regrowth interval",
+            "geographic_scope": "southeastern United States",
+            "product_scope": "alfalfa forage"
+          },
+          {
+            "value": "35",
+            "unit_quote": "28- to 35-day regrowth interval",
+            "geographic_scope": "southeastern United States",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e15",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": "65 percent. Forage distribution usually encompasses April through September and October, depending on variety and weather conditions. In the Southeast, stand production longevity is generally expected to be 3 to 5 years. In alfalfa monocultures, hay production is the most common defoliation method used. The recommendation for the timing of the first cutting in the first year of stand establishment is when alfalfa plants have reached or surpassed the 25 percent bloom stage to allow plants to grow and accumulate carbohydrate reserves. Subsequent harvests should occur at or near 10 percent bloom, which typically corresponds to a 28- to 35-day regrowth interval. Generally, the stubble height recommended is 4 inches. The last cutting will usually occur during the fall, depending on the site location and the first hard frost. The number of cuttings per season may vary and should be adjusted to"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": null
+}

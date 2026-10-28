@@ -1,0 +1,142 @@
+{
+  "topic_id": "agri-4e351a4fbdee",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "بذر کامل و تمیز کدو آجیلی (Pumpkin seed, whole and cleaned; Cucurbita species grown for edible seed purpose, not fruit-pumpkin for consumption or carving)",
+  "slug": "seed-quality-evaluation-edible-pumpkin-seeds-pre-planting-guide",
+  "outline": [
+    "معرفی محصول: کدو آجیلی و تفاوت آن با کدو میوه‌ای",
+    "شرایط و معیارهای کیفی بذر پس از برداشت و پاک‌سازی",
+    "آزمون‌های کیفی قابل انجام در مزرعه و خانه",
+    "تعیین زمان و شرایط کاشت بر اساس دمای خاک و رطوبت"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "بذر کدو آجیلی از میوه کدوی بالغ و سالم جدا شده، پوست گرفته یا نیمه‌پوست و کاملاً خشک شده است. بذرهایی که رنگ نامعمول، بو یا آلودگی قارچی دارند باید حذف شوند.",
+      "conditions": "محصول: بذر کامل و تمیز کدو آجیلی (Cucurbita spp.)؛ جغرافیا: منابع ترویجی دانشگاهی آمریکا؛ واحد: ارزیابی بصری و حسی",
+      "evidence_id": "d1-e16",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آزمون ساده جوانه‌زنی خانگی با حوله کاغذی مرطوب، کیسه پلاستیکی بسته و جای گرم به‌عنوان روش غربالگری اولیه بذر کدو پیشنهاد شده است.",
+      "conditions": "محصول: بذر کدو (pumpkin seed)؛ جغرافیا: ایلینوی، آمریکا؛ واحد: دما ~۷۰ °F، زمان ~۷ تا ۱۰ روز",
+      "evidence_id": "d3-e4",
+      "numeric_bindings": [
+        {
+          "value": "70",
+          "unit_quote": "around 70°F",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed germination test"
+        },
+        {
+          "value": "7 to 10",
+          "unit_quote": "within 7 to 10 days",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed germination"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "درصدهای بالای جوانه‌زنی نشان‌دهنده بذر باکیفیت هستند. اگر درصد جوانه‌زنی پایین باشد، بذر هنوز قابل استفاده است اما با دانسمالی بیشتر باید کاشته شود و اگر خیلی پایین باشد خرید بذر جدید منطقی‌تر است.",
+      "conditions": "محصول: بذر کدو (pumpkin seed)؛ جغرافیا: ایلینوی، آمریکا؛ واحد: درصد جوانه‌زنی",
+      "evidence_id": "d3-e5",
+      "numeric_bindings": [
+        {
+          "value": "70% to 90%",
+          "unit_quote": "If 70% to 90% of the seeds germinate",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed quality assessment"
+        },
+        {
+          "value": "fewer than 50% to 60%",
+          "unit_quote": "If fewer than 50% to 60% germinate",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed replacement decision"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "دمای خاک مناسب برای جوانه‌زنی بذر کدو در یک جدول ترویجی دانشگاهی اورگن با حداقل، محدوده بهینه و حداکثر گزارش شده است. بذرها باید در عمق حدود نیم اینچ کاشته شوند.",
+      "conditions": "محصول: بذر کدو (Pumpkin)؛ جغرافیا: اورگن، آمریکا؛ واحد: °F + عمق inches",
+      "evidence_id": "d2-e3",
+      "numeric_bindings": [
+        {
+          "value": "60",
+          "unit_quote": "Minimum: 60",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination temperature"
+        },
+        {
+          "value": "70–90",
+          "unit_quote": "Optimum Range: 70–90",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination temperature"
+        },
+        {
+          "value": "95",
+          "unit_quote": "Optimum: 95",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination temperature"
+        },
+        {
+          "value": "100",
+          "unit_quote": "Maximum: 100",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed germination temperature"
+        },
+        {
+          "value": "one-half inch",
+          "unit_quote": "depth of one-half inch",
+          "geographic_scope": "Oregon, USA",
+          "product_scope": "Pumpkin seed planting depth"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "ذخیره‌سازی بذر در ظرف دربسته، جای خنک و خشک با ترکیب دما بر فارنهایت و رطوبت نسبی کمتر از صد، طول عمر بذر را حفظ می‌کند. بذر باید در ظرف ضدرطوبت نگهداری شود تا از افت کیفیت جلوگیری گردد.",
+      "conditions": "محصول: بذر کدو آجیلی (pumpkin seed)؛ جغرافیا: ایلینوی، آمریکا؛ واحد: °F + RH",
+      "evidence_id": "d3-e6",
+      "numeric_bindings": [
+        {
+          "value": "below 45°F",
+          "unit_quote": "ideally below 45°F",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed storage temperature"
+        },
+        {
+          "value": "less than 100",
+          "unit_quote": "sum of the temperature (°F) and percent relative humidity (RH) should be less than 100",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed storage condition"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "بذر کدو آجیلی یک محصول مستقل از کدو میوه‌ای است. بذرهایی که از میوه‌های هالووین یا کدوهای گوشتی برداشت می‌شوند لزوماً کیفیت کاشت یکسانی ندارند و باید مشخصاً به‌عنوان بذر آجیلی شناسایی شوند.",
+      "conditions": "محصول: بذر کدو آجیلی (seed-purpose pumpkin)؛ جغرافیا: عمومی؛ واحد: تفکیک محصول",
+      "evidence_id": "d1-e19",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بذر کدو آجیلی معمولاً چندسال عمر مفید دارد (حدود ۴ تا ۵ سال در ذخیره‌سازی مناسب) و پس از آن درصد جوانه‌زنی کاهش می‌یابد. تست جوانه‌زنی پیش از کاشت به‌ویژه برای بذرهای ذخیره‌شده یا قدیمی توصیه می‌شود.",
+      "conditions": "محصول: بذر کدو (pumpkin seed)؛ جغرافیا: ایلینوی، آمریکا؛ واحد: سال عمر بذر",
+      "evidence_id": "d3-e3",
+      "numeric_bindings": [
+        {
+          "value": "4 to 5 Years",
+          "unit_quote": "4 to 5 Years",
+          "geographic_scope": "Illinois, USA",
+          "product_scope": "pumpkin seed shelf life"
+        }
+      ]
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

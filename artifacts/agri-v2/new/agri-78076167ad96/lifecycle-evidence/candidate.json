@@ -1,0 +1,65 @@
+{
+  "topic_id": "agri-78076167ad96",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "یونجه خوراک دام (علوفه تازه/کود خشک)",
+  "slug": "reducing-alfalfa-harvest-losses-timing-tools-collection",
+  "outline": [
+    "تعریف محصول و هدف: کاهش تلفات برداشت یونجه علوفه‌ای",
+    "معیارهای کیفی زمان‌بندی برداشت بر پایه بلوغ و شرایط آب‌وهوایی",
+    "ابزار و شیوه جمع‌آوری: کنترل رطوبت و حداقل تماس با خاک",
+    "محدودیت‌ها و پیشگیری از خطا: تلفات ناشی از بارندگی و کیفیت علوفه"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "بارش باران پس از بریده شدن یونجه علوفه‌ای می‌تواند تلفات ماده خشک را ایجاد کند که معمولاً بین ۲۰ تا ۳۰ درصد است.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای (alfalfa forage) | واحد: درصد تلفات ماده خشک | مرز: بارش پس از cutting، عمدتاً در علوفه نیمه‌خشک‌شده به دلیل ریزش برگ، شستشو و تنفس طولانی",
+      "evidence_id": "d0-e2",
+      "numeric_bindings": [
+        {
+          "value": "20 to 30",
+          "unit_quote": "losses are possible, but often range from 20 to 30%",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "استفاده از کودکن موالید (mower conditioner) برای له‌کردن ساقه‌ها و پخش کردن علوفه بر سطح حدود ۷۰ درصد زمین بریده‌شده، جذب انرژی خورشیدی و سرعت خشک‌شدن را افزایش می‌دهد و در نتیجه تلفات برداشت را کاهش می‌دهد.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: درصد پوشش سطحی | مرز: پخش علوفه بر روی ~۷۰٪ سطح سوار بریده‌شده",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": [
+        {
+          "value": "70",
+          "unit_quote": "spread the cut forage over about 70% of the cut sward",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "برای کاهش ریسک آسیب بارانی در برداشت نخست، می‌توان یونجه را به‌صورت هیدیلیج یا بالیج درآورد تا قرارگیری در زمین کوتاه شود.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: — | مرز: روش‌های جایگزین برداشت برای کاهش مواجهه میدانی",
+      "evidence_id": "d0-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کیفیت علوفه یونجه هنگام رسیدن گیاه از مرحله رویشی به گل‌دهی به سرعت کاهش می‌یابد و ارزش غذایی نسبی (RFV) در برنامه هشدار برداشت مینه‌سوتا حدود ۴.۲ واحد در روز در این بازه کاهش می‌یابد.",
+      "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: واحد RFV در روز | مرز: مرحله رویشی تا گل‌دهی اولیه",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": [
+        {
+          "value": "4.2",
+          "unit_quote": "the relative feed value decreased 4.2 units per day from vegetative to early flowering stages",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

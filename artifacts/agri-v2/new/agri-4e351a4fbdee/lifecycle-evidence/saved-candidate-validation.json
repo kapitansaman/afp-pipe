@@ -1,0 +1,14 @@
+{
+  "dropped_facts": [],
+  "metadata_repairs": [
+    {
+      "index": 6,
+      "field": "kind",
+      "reason": "numeric_claim_requires_observation_review"
+    }
+  ],
+  "claims_rewritten": false,
+  "scientific_rejection_overridden": false,
+  "independent_review_still_required": true,
+  "research_route_version": "full-queue-research-routes-v1"
+}

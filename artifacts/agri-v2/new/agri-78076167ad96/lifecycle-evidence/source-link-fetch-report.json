@@ -1,0 +1,30 @@
+{
+  "requested": 4,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension.umn.edu/forage-harvest-and-storage/how-does-tedding-affect-alfalfa-silage-production",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/how-does-tedding-affect-alfalfa-silage-production",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/forage-harvest-and-storage/using-growing-degree-days-plan-early-season-alfalfa-harvests",
+      "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/using-growing-degree-days-to-plan-early-season-alfalfa-harvests",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.umn.edu/news/alfalfa-harvest-alert-program-2022",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": false,
+      "http_status": 404
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/03/predicting-alfalfa-winter-survival.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2024/03/predicting-alfalfa-winter-survival.html",
+      "status": "cache_valid"
+    }
+  ]
+}

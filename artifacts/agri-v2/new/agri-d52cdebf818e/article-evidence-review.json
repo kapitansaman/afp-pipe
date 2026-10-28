@@ -1,0 +1,43 @@
+{
+  "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+  "brief_sha256": "64f5f9f5196d130ac9e7804de21b8e94488624d6f492980894b3980bca7d9782",
+  "review": {
+    "quality_policy": "publishable-quality-v1",
+    "dimensions": {
+      "answer_usefulness": 21,
+      "source_fidelity": 26,
+      "readability": 16,
+      "commercial_fit": 7,
+      "language_and_units": 13
+    },
+    "critical_issues": [],
+    "reason": "مقاله پرسش کاربر را مستقیماً پاسخ می‌دهد: عملکرد هکتاری وجود ندارد و داده‌های موجود صرفاً مقیاس خانگی هستند. وفاداری به منبع دانشگاهی حفظ شده، محدودیت جغرافیایی (یوتا) و دامنه گزارش (۵ تا ۱۰ پوند در هر ده فوت ردیف) صریحاً ذکر شده‌اند. جدول و ساختار بخش‌بندی‌شده خوانایی را ارتقا داده‌اند. هیچissue بحرانی ماده‌ای وجود ندارد؛ ارقام با منبع مستند شده‌اند و ادعای هکتاری صورت نگرفته است."
+  },
+  "reviewed_at": "2026-10-28T06:11:04.025952+00:00",
+  "human_review_claimed": false,
+  "review_contract": "practical-unified-final-audit-v1",
+  "quality_index": {
+    "policy": "publishable-quality-v1",
+    "score": 83,
+    "minimum_score": 70,
+    "accepted": true,
+    "minimum_source_fidelity": 15,
+    "dimensions": {
+      "answer_usefulness": 21,
+      "source_fidelity": 26,
+      "readability": 16,
+      "commercial_fit": 7,
+      "language_and_units": 13
+    },
+    "critical_issues": [],
+    "warnings": [
+      "answer_usefulness",
+      "source_fidelity",
+      "readability",
+      "commercial_fit",
+      "language_and_units"
+    ],
+    "human_review_claimed": false,
+    "reason": "مقاله پرسش کاربر را مستقیماً پاسخ می‌دهد: عملکرد هکتاری وجود ندارد و داده‌های موجود صرفاً مقیاس خانگی هستند. وفاداری به منبع دانشگاهی حفظ شده، محدودیت جغرافیایی (یوتا) و دامنه گزارش (۵ تا ۱۰ پوند در هر ده فوت ردیف) صریحاً ذکر شده‌اند. جدول و ساختار بخش‌بندی‌شده خوانایی را ارتقا داده‌اند. هیچissue بحرانی ماده‌ای وجود ندارد؛ ارقام با منبع مستند شده‌اند و ادعای هکتاری صورت نگرفته است."
+  }
+}

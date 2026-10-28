@@ -1,6 +1,6 @@
 {
   "all_claims_supported": false,
-  "crop_species_and_product_match": true,
+  "crop_species_and_product_match": false,
   "answers_exact_intent": false,
   "units_and_denominators_correct": true,
   "geography_and_transfer_limits_retained": true,
@@ -10,7 +10,7 @@
   "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "منابع فارسی موجود (navar-abyari.ir) فقط به عنوان لینک ارجاعی یافت شدند و محتوای مستقیم آن‌ها بارگذاری نشد. منبع اصلی دانشگاهی ویرجینیا تک (Dr. Greg Welbaum, Virginia Tech) به‌صورت مستقیم درباره تولید بذر کدو/حلوایی استخراج بذر از میوه کامل پرداخته و شرایط برداشت ماشینی را توصیف کرده است. منبع اکستنشن آلاباما صرفاً درباره نگهداری میوه کامل زمستانی (whole fruit storage/curing) است و هیچ داده‌ای درباره تخم کدو پس از استخراج، کیفیت روغن، کنترل آفلاتوکسین یا ضایعات برداشت دانه ارائه نمی‌دهد. ادعاهای f4 و f5 اگرچه در متن منبع آلاباما پشتیبانی می‌شوند، اما مربوط به عمل‌آوری و نگهداری میوه کامل هستند نه دانه استخراج‌شده؛ بنابراین ارتباط مستقیم با هدف «کاهش تلفات برداشت کدو آجیلی» (种子产品的损失) ندارند. هیچ منبع ایرانی یا منطقه‌ای برای این محصول خاص بارگذاری نشد. تبدیل واحدها در متن اصلی وجود ندارد؛ واحدها عیناً از منبع نقل شده‌اند.",
+  "limitations": "دو منبع دانشگاهی بارگذاری شده‌اند (University of Virginia Tech و Alabama Cooperative Extension) اما هر دو تنها شامل داده‌های خارجی آمریکا هستند و هیچ داده ایرانی یا بومی‌سازی‌شده ارائه نمی‌دهند. منبع ویرجینیا تک درباره زمان رسیدن دانه (۱۶ هفته از گل‌دهی)، تغییر رنگ پوسته، روش‌های برداشت مکانیکی و خشک بودن میوه خربزه زمستانی هنگام بلوغ دانه صحبت می‌کند؛ اما مقادیر دمایی/رطوبتی ارائه‌شده در ادعاها f4 و f5 مستقیماً از منبع آلاباما برای نگهداری و عمل‌آوری میوه کامل آورده شده و منابع فارسی/بومی برای تخم کدو پس از استخراج وجود ندارد. هدف عنوان («کاهش تلفات برداشت») تنها تا حدی توسط توصیف روش‌های برداشت مکانیکی پاسخ داده می‌شود؛ شواهد کمی درباره درصد تلفات، ابزار اختصاصی، یا زمان‌بندی دقیق برداشت جهت کاهش تلفات در دسترس نیست. تبدیل فارنهایت به سلسیوس بر عهده لایه انتشار است و در متن شواهد واحد اصلی حفظ شده است.",
   "fact_checks": [
     {
       "fact_id": "f0",
@@ -29,18 +29,18 @@
     },
     {
       "fact_id": "f3",
-      "supported": true,
-      "scope_and_units_correct": true
+      "supported": false,
+      "scope_and_units_correct": false
     },
     {
       "fact_id": "f4",
       "supported": true,
-      "scope_and_units_correct": false
+      "scope_and_units_correct": true
     },
     {
       "fact_id": "f5",
       "supported": true,
-      "scope_and_units_correct": false
+      "scope_and_units_correct": true
     }
   ],
   "research_route_version": "full-queue-research-routes-v1",

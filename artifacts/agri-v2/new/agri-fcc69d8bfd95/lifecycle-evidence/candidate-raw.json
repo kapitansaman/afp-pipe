@@ -2,69 +2,147 @@
   "topic_id": "agri-fcc69d8bfd95",
   "answers_intent": false,
   "local_prescription": false,
-  "product_definition": "بذر خام کدو آجیلی (Cucurbita spp.) از میوه کامل رسیده",
-  "slug": "pumpkin-seed-rate-per-hectare-calculated-with-density-and-germination",
+  "product_definition": "بذر خالص کدوی آجیلی (Cucurbita pepo) — محصول نشایی دانه‌ای پس از برداشت کامل میوه و استخراج بذر",
+  "slug": "seed-rate-oil-pumpkin-hectare",
   "outline": [
-    "اهداف و دامنه محصول",
-    "روش‌های مورد انتظار محاسبه",
-    "محدودیت شواهد موجود"
+    "داده‌های پایه نرخ بذر بر پایه ساختار بویدی (رونده/بوچگی) و فاصله‌کاشتی",
+    "روش تعدیل نرخ بر پایه درصد جوانه‌زنی و خلوص (PLS) — منشأ داده‌ها",
+    "ثبت ورودی‌ها و کنترل کیفیت بذر پیش از کاشت",
+    "تفسیر محدودیت منابع و خلأ اثبات برای فرمول نهایی کدو آجیلی"
   ],
   "facts": [
     {
       "kind": "source_observation",
-      "claim": "در کشت مستقیم کدوهای رونده، تراکم معمولاً به صورت فاصله ۲ تا ۳ متری در هر دو جهت توصیه شده و نرخ بذر معادل ۲ تا ۳ کیلوگرم در هکتار گزارش شده است.",
-      "conditions": "منبع: PlantVillage/PSU؛ محصول: کدو (Cucurbita spp.) برای مصرف عمومی؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha؛ بازه: 2 تا 3 kg/ha",
+      "claim": "نرخ بذر خام پایه برای کدوی رونده (trailing type) حدود ۲ تا ۳ کیلوگرم در هکتار گزارش شده است.",
+      "conditions": "منبع: PlantVillage/PSU؛ محصول: کدو/Cucurbita spp. رونده؛ جغرافیا: اطلاعات عام热带至温带； واحد: kg/ha؛ شرایط: کاشت مستقیم، بدون تعدیل جوانه‌زنی",
       "evidence_id": "d0-e5",
       "numeric_bindings": [
         {
-          "value": "2 to 3",
+          "value": "2",
           "unit_quote": "2 to 3 kg/ha",
-          "geographic_scope": "عمومی (تروپیکال تا معتدل)",
-          "product_scope": "کدوی رونده (trailing types) – نه صرفاً کدو آجیلی"
+          "geographic_scope": "عام (tropics to temperate)",
+          "product_scope": "کدوی رونده (trailing pumpkin, Cucurbita spp.)"
+        },
+        {
+          "value": "3",
+          "unit_quote": "2 to 3 kg/ha",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی رونده"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "برای ارقام بوچگی (عمدتاً C. pepo) با فاصله ۶۰ تا ۱۲۰ سانتی‌متری در ردیف‌های ۱ تا ۱٫۵ متری، نرخ بذر ۳ کیلوگرم در هکتار برای کدو و ۷ کیلوگرم در هکتار برای کدو تابستانی گزارش شده است.",
-      "conditions": "منبع: PlantVillage/PSU؛ محصول: کدو/Cucurbita pepo؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha",
+      "claim": "نرخ بذر خام پایه برای کدوی بوچگی (bush type, mainly C. pepo) حدود ۳ کیلوگرم در هکتار گزارش شده است.",
+      "conditions": "منبع: PlantVillage/PSU؛ محصول: کدوی بوچگی C. pepo؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha؛ فاصله: ۶۰ تا ۱۲۰ سانتی‌متر در ردیف‌های ۱ تا ۱٫۵ متری",
       "evidence_id": "d0-e5",
       "numeric_bindings": [
         {
           "value": "3",
-          "unit_quote": "3 kg/ha",
-          "geographic_scope": "عمومی",
-          "product_scope": "کدو (pumpkin)"
+          "unit_quote": "3 kg/ha for pumpkin",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی بوچگی (bush pumpkin, mainly C. pepo)"
         },
         {
-          "value": "7",
-          "unit_quote": "7 kg/ha",
-          "geographic_scope": "عمومی",
-          "product_scope": "کدو تابستانی (summer squash, C. pepo)"
+          "value": "60",
+          "unit_quote": "60 to 120 cm",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی بوچگی"
+        },
+        {
+          "value": "120",
+          "unit_quote": "60 to 120 cm",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی بوچگی"
+        },
+        {
+          "value": "1",
+          "unit_quote": "rows 1 to 1.5 m apart",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی بوچگی"
+        },
+        {
+          "value": "1.5",
+          "unit_quote": "rows 1 to 1.5 m apart",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی بوچگی"
         }
       ]
     },
     {
       "kind": "source_observation",
-      "claim": "برای محصول بذر C. pepo مقادیر شاخص ۴۰۰ تا ۱۵۰۰ کیلوگرم بذر در هکتار گزارش شده است که نشان‌دهنده عملکرد بذر از هر هکتار است، نه نرخ کاشت.",
-      "conditions": "منبع: PlantVillage/PSU؛ محصول: بذر C. pepo؛ جغرافیا: اطلاعات عام؛ واحد: kg/ha؛ بازه: 400 تا 1500 kg/ha",
-      "evidence_id": "d2-e7",
+      "claim": "کاشت مستقیم ۲ تا ۳ دانه در هر خوشه (hill) به‌طور رایج انجام می‌شود.",
+      "conditions": "منبع: PlantVillage/PSU؛ محصول: کدو/Cucurbita spp.؛ جغرافیا: اطلاعات عام؛ واحد: seeds/hill",
+      "evidence_id": "d0-e5",
       "numeric_bindings": [
         {
-          "value": "400 to 1500",
-          "unit_quote": "400 to 1500 kg/ha",
-          "geographic_scope": "عمومی",
-          "product_scope": "بذر C. pepo (عملکرد/محصولات بذری)"
+          "value": "2",
+          "unit_quote": "2 to 3 seeds per hill",
+          "geographic_scope": "عام",
+          "product_scope": "کدو (Cucurbita spp.)"
+        },
+        {
+          "value": "3",
+          "unit_quote": "2 to 3 seeds per hill",
+          "geographic_scope": "عام",
+          "product_scope": "کدو"
         }
       ]
     },
     {
       "kind": "qualitative",
-      "claim": "محاسبات خالص‌بودن و جوانه‌زنی بذر (PLS) به‌صورت فرمول درصد بذر خالص ضرب‌در درصد جوانه‌زنی تقسیم بر ۱۰۰ تعریف شده و برای جبران کاهش کیفیت بذر، نرخ کاشت تعدیل می‌شود.",
-      "conditions": "منبع: Penn State Extension (turfgrass)؛ محصول: توضیح روش PLS – شامل گیاهان مرتعی؛ جغرافیا: Pennsylvania, USA",
+      "claim": "روش محاسبه PLS (بذر زنده خالص) از ضرب درصد خلوص در درصد جوانه‌زنی تقسیم بر ۱۰۰ به دست می‌آید و نرخ کاشت تعدیل‌شده از تقسیم ۱۰۰ بر درصد PLS محاسبه می‌شود.",
+      "conditions": "منبع: Penn State Extension (تurfgrass seed)؛ محصول: چمن/turfgrass؛ جغرافیا: Pennsylvania, USA؛ توجه: این روش برای چمن演示 شده و به‌طور صریح برای کدو آجیلی تثبیت نشده است.",
       "evidence_id": "d1-e1",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "فاصله کاشت ۲ تا ۳ متری دو طرفه برای انواع رونده و فاصله ۶۰ تا ۱۲۰ سانتی‌متری با ردیف‌های ۱ تا ۱٫۵ متری برای انواع بوچگی گزارش شده است.",
+      "conditions": "منبع: PlantVillage/PSU d0-e5؛ محصول: کدو/Cucurbita spp.؛ جغرافیا: عام؛ واحد: m و cm",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "2",
+          "unit_quote": "distances of 2-3 m either way",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی رونده"
+        },
+        {
+          "value": "3",
+          "unit_quote": "distances of 2-3 m either way",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی رونده"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "میوه کدو زمستانه حدود ۹۰ تا ۱۲۰ روز پس از کاشت بسته به رقم برداشت می‌شود.",
+      "conditions": "منبع: PlantVillage/PSU d0-e6؛ محصول: winter squash/pumpkin؛ جغرافیا: عام؛ واحد: days",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": [
+        {
+          "value": "90",
+          "unit_quote": "about 90 to 120 days after planting",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی زمستانه (winter squash/pumpkin)"
+        },
+        {
+          "value": "120",
+          "unit_quote": "about 90 to 120 days after planting",
+          "geographic_scope": "عام",
+          "product_scope": "کدوی زمستانه"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در تولید بذر، عایق‌بندی بین مزارع گونه‌های مختلف Cucurbita برای حفظ خلوص و حداکثر بازدهی توصیه شده است.",
+      "conditions": "منبع: PlantVillage/PSU d0-e7؛ محصول: seed production of Cucurbita؛ جغرافیا: عام",
+      "evidence_id": "d0-e7",
       "numeric_bindings": []
     }
   ],
-  "insufficiency_reason": "مستندات حاضر نرخ بذر خام پایه برای کدو رونده و بوچگی را ارائه می‌دهد اما روش محاسبه تعدیل‌شده بر پایه درصد جوانه‌زنی و خلوص بذر را به‌طور مشخص برای کدو آجیلی (seed-purpose Cucurbita) پوشش نمی‌دهد. بخش‌های مربوط به PLS و جوانه‌زنی تنها در بافت مرتع‌سازی (turfgrass) و برای چمن‌ها ذکر شده‌اند و هیچ منبع دانشگاهی مستقیماً فرمول محاسبه نرخ بذر کدو آجیلی با احتساب تراکم و درصد جوانه‌زنی را تأیید نکرده‌اند."
+  "insufficiency_reason": "منابع حاضر نرخ بذر خام پایه برای کدوی رونده (۲ تا ۳ kg/ha) و بوچگی (۳ kg/ha) را بر اساس فاصله‌کاشتی ارائه می‌دهند، اما روش محاسبه تعدیل‌شده بر پایه درصد جوانه‌زنی و خلوص بذر (PLS) را به‌صورت صریح و مستقیماً برای کدوی آجیلی (seed-purpose Cucurbita pepo) پوشش نمی‌دهند. فرمول PLS تنها در بافت چمن (turfgrass) از Penn State Extension ذکر شده و هیچ منبع دانشگاهی مستقیماً اتحاد آن را با کدوی روغنی/آجیلی تأیید نکرده است. بنابراین بخش «درصد جوانه‌زنی» از عنوان پاسخ‌ داده نشده و خلأ اثبات برای فرمول نهایی محاسبه نرخ بذر کدو آجیلی با تعدیل تراکم و جوانه‌زنی وجود دارد."
 }

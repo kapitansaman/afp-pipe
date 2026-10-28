@@ -1,0 +1,51 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "فقط یک منبع دانشگاهی (Illinois Extension) به‌صورت مستقیم به ارزیابی کیفیت بذر کدو آجیلی، آزمون جوانه‌زنی، درصدهای تصمیم‌گیری و شرایط ذخیره‌سازی پرداخته است. منبع دوم (Oregon State) فقط جدول دمای خاک و عمق کاشت را ارائه می‌دهد و فاقد اطلاعات اختصاصی درباره بذر آجیلی است. مقاله پژوهشی PMC به ترکیب بیوشیمیایی بذرقطعاً پاسخ نمی‌دهد و فقط به‌عنوان منبع کمکی مفید است. هیچ‌یک از منابع حاوی توصیه تقویم کاشت یا رقم ایرانی نیستند؛ تمام ارقام دما فارنهایت و جغرافیا محدود به ایالات متحده است. تبدیل واحد به سلسیوس و ابعاد به سانتی‌متر بر عهده لایه انتشار است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}

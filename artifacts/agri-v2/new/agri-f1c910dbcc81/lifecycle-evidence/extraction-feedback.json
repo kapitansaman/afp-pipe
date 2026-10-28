@@ -1,0 +1,108 @@
+{
+  "topic_id": "agri-f1c910dbcc81",
+  "candidate_sha256": "fb14d86a2248121cae41bfa5ef8e361e1a698889b25962a96feb93535c274b64",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 1,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در مطالعات برداشت متعدد (CF4/CF5/CF6) فاصله‌های ۲۱، ۲۸ و ۴۵ روز گزارش شده است؛ این بازه‌ها مربوط به زمان‌بندی هرس هستند، نه آبیاری.",
+        "conditions": "گونه: Medicago sativa یونجه؛ محصول: علوفه تازه؛ سامانه آبیاری: ذکرنشده؛ منطقه: Becker و St. Paul، MN، آمریکا",
+        "evidence_id": "d2-e14",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d2-e14",
+        "source_url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+        "quote": "t with four replicates. Whole plot treatments include three CF treatments in the first and second production years (2015 and 2016) following seed- ing (2014) that provided a range of alfalfa maturity (Table 2). Cutting began 27 May each year and occurred at about 21-, 28-, and 45-d intervals before 1 September followed by a fall harvest about 1 October. This resulted in cutting treat- ments designated CF6, CF5, and CF4 to reflect six, five, and four cuts per year, respectively. Split-plot factors included eight alfalfa entries representing FD from 2.1 to 5 (designated entries 1 through 8): four cultivars from Alforex Seeds with FD 2.1, 3.4, 4.4, and 4.5; two from Pioneer Hi-Bred cultivars with FD 4 and 5 (designated entries 1–6, respectively; and two experimental populations (designated entry 7 and 8), USDA- ARS BIOMASS and USDA-ARS HIGH DIGEST, both with FD 3, based on FD of the parents"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در یک سایت sandy soil Becker، سالانه ۱۴ cm آبیاری تکمیلی اعمال شده است؛ این مقدار کل فصلی است و درباره مدت هر نوبت با تیپ informative نیست.",
+        "conditions": "گونه: Medicago sativa یونجه؛ محصول: علوفه تازه؛ سامانه آبیاری: ذکر جزئیات تیپ/دبی/فشار ندارد؛ منطقه: Becker، MN، آمریکا",
+        "evidence_id": "d2-e10",
+        "numeric_bindings": [
+          {
+            "value": "14",
+            "unit_quote": "14 cm of irrigation",
+            "geographic_scope": "Becker, MN, USA",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e10",
+        "source_url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+        "quote": " for novel yield and nutritive value traits but that had not been evaluated under intensive harvest regimes. 2 MATERIALS AND METHODS Cutting frequency experiments were conducted from 2015 to 2017 on stands established in 2014 at Becker and St. Paul, MN. The soil at Becker, MN (45˚23 ′13″ N, 93˚53 ′18″ W, elevation 290 masl) was a Hubbard-Mosford complex (sandy, mixed, frigid Entic Hapludoll), and at St. Paul (44˚59′14″ N, 93˚10′24″ W, elevation 291 masl) the soil was a Waukegan silt loam (fine-silty over sandy or sandy-skeletal, mixed, superactive, mesic Typic Hapludoll). Air temperatures were similar among the two locations, but precipitation was slightly higher at Becker than at St. Paul (Table 1). Still, because of the low water holding capacity of the sandy soil at Becker, 14 cm of irrigation was applied each year at Becker. Soils were sampled (0–15 cm) and analyzed for available P, "
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در مدیریت کشت یونجه توصیه به leaving unharvested stubble 4–6 inches برای trapping snow و عایق‌بندی بوته شده است؛ این معیار height برداشت است، نه مدت آبیاری.",
+        "conditions": "گونه: Medicago sativa یونجه؛ محصول: stand management برای winter hardiness؛ سامانه آبیاری: فاقد مدت/دبی",
+        "evidence_id": "d3-e6",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d3-e6",
+        "source_url": "https://blog-crop-news.extension.umn.edu/2026/10/prepare-your-alfalfa-field-for-winter.html",
+        "quote": "lds with multiple risk factors deserve particular attention during the fall. Calculate your risk of alfalfa winter injury here . What about snow and ice? Snow can provide insulation and protect crowns from extremely low temperatures ( Let it snow! ). Leaving an unharvested stubble height of 4-6 inches can help trap and retain snow, providing additional insulation. However, prolonged ice encasement can create additional challenges because it can restrict gas exchange and contribute to winter injury. Because winter conditions cannot be controlled, the best strategy is to enter winter with a healthy, well-established stand with adequate reserves. The goal is a healthy stand next spring Fall management is ultimately an investment in next year’s crop. The decisions made now can influence how well alfalfa survives the winter and how quickly it resumes growth in the spring. We cannot change the"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "برای بقای زمستانی، حداقل 5 تا 6 weeks (بیش از 900 GDD، base 41ºF) بین آخرین هرس و first killing frost توصیه می‌شود؛ این بازه دمایی/تقویمی است و درباره آبیاری informative نیست.",
+        "conditions": "گونه: Medicago sativa یونجه؛ محصول: fall management reserve buildup؛ سامانه آبیاری: فاقد",
+        "evidence_id": "d3-e2",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d3-e2",
+        "source_url": "https://blog-crop-news.extension.umn.edu/2026/10/prepare-your-alfalfa-field-for-winter.html",
+        "quote": "thesize and replenish carbohydrate reserves below ground (crown and roots) before the first killing frost. How much time remains before the first killing frost ? The recommendation is to allow at least 5 to 6 weeks, or more than 900 growing degree days (GDDs, base 41ºF) between the last cut and the first killing frost. This interval allows plants to regrow and replenish crown and root carbohydrate reserves needed for winter survival and spring regrowth. Alternatively, harvesting within approximately 2 weeks of the expected killing frost (less than 360 GDD remaining) is another option, as the plant will not have enough time to regrow and will conserve reserves for winter maintenance and spring growth. What temperatures are expected over the next several weeks? Monitor local weather forecasts and historical frost dates to estimate how much growing time remains. A frost occurs when temperat"
+      }
+    },
+    {
+      "fact_index": 5,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "برای تعیین termination alfalfa با herbicide در پاییز، regrowth باید حداقل 4 to 6 inches باشد؛ این ارتفاع رشد است، نه مدت آبیاری.",
+        "conditions": "گونه: Medicago sativa یونجه؛ محصول: stand termination pre-corn؛ سامانه آبیاری: فاقد",
+        "evidence_id": "d8-e12",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d8-e12",
+        "source_url": "https://extension.umn.edu/agriculture/crop-production/corn/managing-the-rotation-from-alfalfa-to-corn",
+        "quote": " two-thirds of 421 growers in 2012 indicated they terminated alfalfa in the fall. The major disadvantage with fall termination is that it does not allow for the opportunity to assess whether an alfalfa stand will survive the winter and be productive for another year. Fall herbicide applications to terminate alfalfa should occur before the first killing freeze (28 degrees Fahrenheit or lower for a few hours), but when new alfalfa regrowth since the last cutting is at least 4 to 6 inches. Herbicide applied to plants with less than 4 inches of regrowth or to freeze-damaged plants may result in an ineffective kill due to poor herbicide translocation to roots. To determine if a killing freeze occurred, use the fingerprint test the morning after a freeze: If your fingerprint remains after squeezing alfalfa leaves between your fingers, the epidermis of the leaves has ruptured due to a killing f"
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "unknown_scoped_evidence_id",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "هیچ‌یک از منابع ارائه‌شده شامل اندازه‌گیری discharge، pressure، drip-tape length/rate، soil moisture threshold یا محاسبه irrig-duration برای یونجه نیستند.",
+        "conditions": "گونه: Medicago sativa یونجه؛ محصول: علوفه/dry matter؛ سامانه آبیاری: drip/typ عدم تطابق؛ منبع: فاقد evidence_id مستقیم",
+        "evidence_id": "none",
+        "numeric_bindings": []
+      },
+      "literal_evidence": null
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "Intent asked for irrigation_duration (duration per irrigation cycle for alfalfa calculated from actual flow/discharge and water need). The fetched corpus covers harvest scheduling, cutting frequency, winter survival, stand assessment, and crop rotation, but contains no measured discharge, pressure, drip-tape length/rate, soil-moisture threshold, or calculated irrigation cycle duration for alfalfa. Only a seasonal irrigation volume (14 cm at Becker, MN) is mentioned without cycle duration, flow, pressure, or tape specs. Therefore the exact method/product/observation requested is absent."
+}

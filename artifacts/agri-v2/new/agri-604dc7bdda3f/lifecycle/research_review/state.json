@@ -1,0 +1,24 @@
+{
+  "attempts": 1,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "failed",
+      "last_run_id": "40641934753",
+      "started_at": "2026-10-28T06:11:12.606939+00:00",
+      "completed_at": "2026-10-28T06:11:28.343384+00:00",
+      "failure": {
+        "kind": "validation",
+        "category": "independent_scoped_review_rejected"
+      }
+    }
+  ],
+  "status": "failed",
+  "last_run_id": "40641934753",
+  "started_at": "2026-10-28T06:11:12.606939+00:00",
+  "failure": {
+    "kind": "validation",
+    "category": "independent_scoped_review_rejected"
+  },
+  "completed_at": "2026-10-28T06:11:28.343384+00:00"
+}

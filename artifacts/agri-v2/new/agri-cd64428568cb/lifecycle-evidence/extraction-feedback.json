@@ -1,39 +1,34 @@
 {
   "topic_id": "agri-cd64428568cb",
-  "candidate_sha256": "0a826d0af0bcf96bfe72e98645feb396a0034f7ba7cff08f03f27dc4a0adc039",
+  "candidate_sha256": "33a3357cdaa3d13a59629ccdc62dcd8fedc7abc9aec0ebdc9b1f9aa5fdb95bbc",
   "scientific_approval": false,
   "errors": [
     {
-      "fact_index": 0,
+      "fact_index": 2,
       "code": "unknown_scoped_evidence_id",
       "rejected_fact": {
-        "kind": "qualitative",
-        "claim": "هیچ یک از منابع دانشگاهی ارائه‌شده مقدار اندازه‌گیری‌شدهٔ نیاز آبی فصلی یا نرخ مصرف آب (ETc) ویژهٔ لوبیای خشک پینتو را گزارش نمی‌کنند.",
-        "conditions": "پینتو دانه‌ای خشک؛ اقلیم و مرحله رشد; شواهد شامل راهنمای تولید Iowa State، دستورالعمل کشت باغی UMN و شیوه‌سنجی سنسورهای رطوبت خاک است.",
-        "evidence_id": "d0-e0,d3-e0,d6-e0",
-        "numeric_bindings": []
-      },
-      "literal_evidence": null
-    },
-    {
-      "fact_index": 4,
-      "code": "unknown_scoped_evidence_id",
-      "rejected_fact": {
-        "kind": "qualitative",
-        "claim": "روش‌های جایگذاری سنسور رطوبت خاک و محاسبه MAD در منبع UMN ارائه شده، اما هیچ آستانهٔ کشش خاک ویژهٔ پینتو یا بازهٔ زمانی آبیاری فصلی استخراج نشده است.",
-        "conditions": "سنجش رطوبت خاک/آبیاری زمان‌بندی; منطقهٔ مینه‌سوتا; هدف شواهد تعیین عمق ریشه و منطقه فعال آبیاری است، نه برآورد حجم آب لوبیای خشک.",
+        "kind": "source_observation",
+        "claim": "روش‌های جایگذاری سنسور رطوبت خاک و محاسبهٔ MAD در منبع UMN ارائه شده‌اند، اما هیچ آستانهٔ کشش خاک ویژهٔ پینتو یا بازهٔ زمانی آبیاری فصلی استخراج نشده است.",
+        "conditions": "منطقه: مینه‌سوتا، آمریکا؛ هدف شواهد: تعیین عمق ریشه و منطقه فعال آبیاری; محصول: سنسور رطوبت خاک عمومی",
         "evidence_id": "d6-e21,d6-e10",
-        "numeric_bindings": []
+        "numeric_bindings": [
+          {
+            "value": "50",
+            "unit_quote": "Management allowable depletion (MAD) = 50%",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "general soil moisture sensor scheduling"
+          }
+        ]
       },
       "literal_evidence": null
     },
     {
-      "fact_index": 5,
+      "fact_index": 3,
       "code": "unknown_scoped_evidence_id",
       "rejected_fact": {
         "kind": "qualitative",
-        "claim": "هیچ دادهٔ اندازه‌گیری‌شدهٔ_ETc_، ورودی آبیاری بر اساس مرحله رشد، یا برآورد حجم آب فصلی ویژهٔ پینتوی خشک در شواهد یافت نشد.",
-        "conditions": "پینتوی خشک دانه‌ای; اقلیم و مرحله رشد; منبع ترویجی دانشگاهی معتبر این بازهٔ کمی را پوشش نمی‌دهد.",
+        "claim": "هیچ یک از منابع دانشگاهی ارائه‌شده مقدار اندازه‌گیری‌شدهٔ نیاز آبی فصلی یا نرخ مصرف آب (ETc) ویژهٔ لوبیای خشک پینتو را گزارش نمی‌کنند و هدف اصلی سؤال — برآورد حجم آب با اقلیم و مرحله رشد — پوشش داده نمی‌شود.",
+        "conditions": "پینتو دانه‌ای خشک؛ اقلیم و مرحله رشد; شواهد شامل راهنمای تولید Iowa State، دستورالعمل کشت باغی UMN و شیوه‌سنجی سنسورهای رطوبت خاک است.",
         "evidence_id": "d0-e0,d3-e0,d6-e0",
         "numeric_bindings": []
       },

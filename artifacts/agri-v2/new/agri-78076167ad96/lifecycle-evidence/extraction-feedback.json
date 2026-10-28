@@ -1,0 +1,183 @@
+{
+  "topic_id": "agri-78076167ad96",
+  "candidate_sha256": "d5b562212c27314086e4ab26c0edf48b1bf89ee4a3fde0036d34ec9c6a80dbac",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 1,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "تلفات مواد مغذی در علوفه بریده‌شده به شدت تحت تأثیر بارندگی است و هر اینچ باران می‌تواند تلفاتی تا ۲۵ درصد به همراه داشته باشد.",
+        "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: درصد تلفات مواد مغذی بر اینچ باران | مرز: دانه‌بندی به ازای هر اینچ بارش",
+        "evidence_id": "d0-e2",
+        "numeric_bindings": [
+          {
+            "value": "25",
+            "unit_quote": "can be as high as 25% per inch of rain",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e2",
+        "source_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+        "quote": "it is challenging to get a 2-3 day period with good drying weather and no rainfall. June is the rainiest month of the year (averaging about 4 inches), resulting in soils that are wetter than later in the summer. Moist soils increase drying times of cut forage. The chance of receiving at least a small amount of rainfall (>0.04”) on any given day is about 40% (i.e., 60% chance of no rain), so there is a narrow window for drying; the probability of 2 and 3 days of dry weather in a row in June is 36 and 22%, respectively. Rainfall at any time after cutting of hay can result in significant losses of dry matter and nutrients. These losses are greatest for partially dried forage due to leaf shattering, leaching, and prolonged respiration. Total dry matter losses are possible, but often range from 20 to 30%. Nutrients in forage are especially affected by rainfall and can be as high as 25% per in"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در بهار وقتی خاک مرطوب است، رسیدن علوفه به رطوبت حدود ۶۰ درصد برای هیدیلیج ممکن است ۱ تا ۲ روز طول بکشد، اما رسیدن به رطوبت ۲۰ درصد برای ذخیره‌سازی کاه ممکن است ۳ تا ۵ روز زمان ببرد.",
+        "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: روز برای رسیدن به رطوبت هدف | مرز: شرایط بهاری با خاک مرطوب و رطوبت‌های ۶۰٪ و ۲۰٪",
+        "evidence_id": "d0-e3",
+        "numeric_bindings": [
+          {
+            "value": "1-2",
+            "unit_quote": "it can take 1-2 days to reach a forage moisture content of 60%",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "alfalfa forage"
+          },
+          {
+            "value": "3-5",
+            "unit_quote": "but 3-5 days for forage to reach 20%",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e3",
+        "source_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+        "quote": "y matter losses are possible, but often range from 20 to 30%. Nutrients in forage are especially affected by rainfall and can be as high as 25% per inch of rain. To reduce risks of rain damage: Carefully monitor weather patterns to identify favorable weather for alfalfa drying. It may be necessary to compromise on forage yield, quality, and persistence objectives (see below) in order to harvest a crop with minimal loss of dry matter yields and nutrients due to rainfall. Harvest forage as haylage or baleage at the first harvest to reduce field exposure times. In the spring when soils are moist, it can take 1-2 days to reach a forage moisture content of 60% but 3-5 days for forage to reach 20%. To read more, see Wrapping hay Use a mower conditioner to crush stems, and then spread the cut forage over about 70% of the cut sward to maximize capture of solar energy. Consider tedding of forage "
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "استفاده از کودکن موالید (mower conditioner) برای له‌کردن ساقه‌ها و پخش کردن علوفه بر سطح حدود ۷۰ درصد زمین بریده‌شده، جذب انرژی خورشیدی و سرعت خشک‌شدن را افزایش می‌دهد و در نتیجه تلفات برداشت را کاهش می‌دهد.",
+        "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: درصد پوشش سطحی | مرز: پخش علوفه بر روی ~۷۰٪ سطح سوار بریده‌شده",
+        "evidence_id": "d0-e3",
+        "numeric_bindings": [
+          {
+            "value": "70",
+            "unit_quote": "spread the cut forage over about 70% of the cut sward",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e3",
+        "source_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+        "quote": "y matter losses are possible, but often range from 20 to 30%. Nutrients in forage are especially affected by rainfall and can be as high as 25% per inch of rain. To reduce risks of rain damage: Carefully monitor weather patterns to identify favorable weather for alfalfa drying. It may be necessary to compromise on forage yield, quality, and persistence objectives (see below) in order to harvest a crop with minimal loss of dry matter yields and nutrients due to rainfall. Harvest forage as haylage or baleage at the first harvest to reduce field exposure times. In the spring when soils are moist, it can take 1-2 days to reach a forage moisture content of 60% but 3-5 days for forage to reach 20%. To read more, see Wrapping hay Use a mower conditioner to crush stems, and then spread the cut forage over about 70% of the cut sward to maximize capture of solar energy. Consider tedding of forage "
+      }
+    },
+    {
+      "fact_index": 5,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "کیفیت علوفه یونجه هنگام رسیدن گیاه از مرحله رویشی به گل‌دهی به سرعت کاهش می‌یابد و ارزش غذایی نسبی (RFV) در برنامه هشدار برداشت مینه‌سوتا حدود ۴.۲ واحد در روز در این بازه کاهش می‌یابد.",
+        "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: واحد RFV در روز | مرز: مرحله رویشی تا گل‌دهی اولیه",
+        "evidence_id": "d0-e7",
+        "numeric_bindings": [
+          {
+            "value": "4.2",
+            "unit_quote": "the relative feed value decreased 4.2 units per day from vegetative to early flowering stages",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e7",
+        "source_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+        "quote": "proportion of the forage decreases. Leaf loss can be dramatic in tall and lodged canopies that create moist conditions conducive to leaf diseases. Alfalfa forage quality declines rapidly as the crop matures from vegetative to flowering largely due to changes in leaf/stem ratios. For example, in the MN harvest alert program in Central Minnesota, the relative feed value decreased 4.2 units per day from vegetative to early flowering stages (Figure 3). Persistence will be greatest if harvest occurs at flowering stages because root reserves are maximized at full flowering. Spring regrowth is intitially largely depenedent on carbohydrate reserves stored the previous fall. After plants are about 6 inches tall, they will start to recharge root and crown carbohydrates reserves for the next regrowth cycle. Season-long harvests at bud stages will reduce stand persistence. Figure 2. The relationship"
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "رطوبت Harvest در Silage یونجه بسته به تیمار Tedding و مرحله_cutting_ متفاوت است: در برش نخست رطوبت ۶۹ درصد (بدون Tedding) در مقابل ۵۸ درصد (با Tedding)، در برش دوم ۶۵ درصد در مقابل ۴۹ درصد، و در برش سوم ۵۲ درصد در مقابل ۴۷ درصد ثبت شد.",
+        "conditions": "منطقه: ويسكونسين-رايو فالز و مینه‌سوتا ایالات متحده | محصول: یونجه Silage | واحد: درصد رطوبت Harvest | مرز: سه Cut فصل رشد",
+        "evidence_id": "d6-e4",
+        "numeric_bindings": [
+          {
+            "value": "69",
+            "unit_quote": "Harvest moisture content, % wet basis 1: 69 a",
+            "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+            "product_scope": "alfalfa silage"
+          },
+          {
+            "value": "58",
+            "unit_quote": "Harvest moisture content, % wet basis 1: 58 b",
+            "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+            "product_scope": "alfalfa silage"
+          },
+          {
+            "value": "65",
+            "unit_quote": "Harvest moisture content, % wet basis 1: 65 a",
+            "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+            "product_scope": "alfalfa silage"
+          },
+          {
+            "value": "49",
+            "unit_quote": "Harvest moisture content, % wet basis 1: 49 b",
+            "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+            "product_scope": "alfalfa silage"
+          },
+          {
+            "value": "52",
+            "unit_quote": "Harvest moisture content, % wet basis 1: 52",
+            "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+            "product_scope": "alfalfa silage"
+          },
+          {
+            "value": "47",
+            "unit_quote": "Harvest moisture content, % wet basis 1: 47 b",
+            "geographic_scope": "Wisconsin River Falls / Minnesota, USA",
+            "product_scope": "alfalfa silage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d6-e4",
+        "source_url": "https://extension.umn.edu/agriculture/crop-production/forages/how-does-tedding-affect-alfalfa-silage-production",
+        "quote": "g increased drying rate, resulting in a lower harvest moisture at all cuttings. Nutritional quality was also affected with the exception of total digestible nutrients (TDN); see table 1. At all cuttings, crude protein (CP) decreased by tedding and water-soluble carbohydrates (WSC) increased. Table 1. Composition of tedded and un-tedded treatments averaged across each cutting of the field study Cutting Treatment Harvest moisture content, % wet basis 1 CP, %, dry matter 1 Neutral detergent fiber (NDF), % dry matter 1 WSC, % dry matter 1 Ash, % dry matter 1 TDN, % dry matter 1 1 Un-tedded 69 a 21.9 a 41.1 5.4 a 10.5 65.9 1 Tedded 58 b 21.4 b 41.3 6.2 b 10.6 66.1 2 Un-tedded 65 a 20.9 a 42.4 5.2 a 11.7 a 64.5 2 Tedded 49 b 20.4 b 42.0 6.3 b 10.7 b 64.7 3 Un-tedded 52 1 22.3 a 32.7 a 8.9 a 10.8 a 67.3 3 Tedded 47 b 21.5 b 35.1 b 9.5 b 9.4 b 67.0 1 Columns within each cutting with different su"
+      }
+    },
+    {
+      "fact_index": 7,
+      "code": "literal_measurement_unit_required",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "چگالی ساقه‌ای کمتر از ۴۰ ساقه بر فوت مربع نشان‌دهنده کاهش قابل‌توجه عملکرد علوفه‌ای است و مدیریت یا تعویض stand توصیه می‌شود.",
+        "conditions": "منطقه: مینه‌سوتا ایالات متحده | محصول: یونجه علوفه‌ای | واحد: ساقه بر فوت مربع | مرز: ارزیابی post-winter injury",
+        "evidence_id": "d4-e4",
+        "numeric_bindings": [
+          {
+            "value": "40",
+            "unit_quote": "Less than 40 stems: Significant forage yield reduction",
+            "geographic_scope": "Minnesota, USA",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d4-e4",
+        "source_url": "https://extension.umn.edu/agriculture/crop-production/forages/assessing-alfalfa-winter-injury",
+        "quote": "y plants can result in productive stands, while lower populations will likely not be as productive. Assess stem density To further evaluate the potential productivity of an alfalfa stand, determine stem density by counting stems from 4 to 6 representative square foot areas within your field. Only count stems that are at least 6 inches tall. Use these guidelines to determine if adequate stem numbers are present for a productive field: More than 55 stems: Density is not limiting to production. 40 to 55 stems: Some reduction has occurred, but adequate forage production is still likely. Less than 40 stems: Significant forage yield reduction. Consider stand termination. Managing injured alfalfa stands As you consider management options, remember that injured alfalfa stands can exhibit delayed regrowth, but may be capable of partially recovering. Be careful not to rush into alternative options"
+      }
+    }
+  ],
+  "candidate_error": "numeric_units_not_in_literal_source",
+  "declared_insufficiency": null
+}

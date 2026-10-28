@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-ed19dd100ebc",
+  "gap": "No directly fetched source reports the specific alfalfa seed germination temperature range, the soil moisture threshold required for seed imbibition and successful germination, or the soil-crusted conditions that impede seedling emergence. Existing sources cover general establishment and winter management but not the thermal and hydrological parameters or crust-prevention methods relevant to the stated germination-intent title.",
+  "queries": [
+    "alfalfa Medicago sativa seed germination temperature range optimal University extension",
+    "alfalfa seed soil moisture imbibition water potential threshold germination university research"
+  ],
+  "requirements": [
+    {
+      "id": "species_product",
+      "need": "Confirm the exact species and propagule type referenced is alfalfa (Medicago sativa) seed intended for direct-seeded forage establishment, not a different legume or processed seed product."
+    },
+    {
+      "id": "exact_reader_method",
+      "need": "Source must address laboratory or field germination parameters and/or mechanical/management practices for preventing or breaking soil crust during alfalfa seedling emergence."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Provide germination temperature values with original units and, where available, soil moisture metrics tied to alfalfa seed imbibition or emergence, preserving the source geography and date."
+    }
+  ]
+}

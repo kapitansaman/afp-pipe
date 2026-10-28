@@ -1,0 +1,78 @@
+{
+  "topic_id": "agri-bdab41123a06",
+  "candidate_sha256": "8993bc64727f8d0362141347404fd110aa21bd3ee414770a9eb383fd367474c6",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 1,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "بارش باران پس از هرس یونجه می‌تواند تلفات عمده ماده خشک و مواد مغذی ایجاد کند؛ تلفات معمولاً بین ۲۰ تا ۳۰ درصد گزارش شده است.",
+        "conditions": "یونجه پس از هرس؛ محصول: علوفه بریده‌شده؛ واحد: درصد تلفات ماده خشک; محدودیت: مربوط به خطر خسارت باران بر محصول هرس‌شده، نه زمان‌بندی آبیاری",
+        "evidence_id": "d0-e2",
+        "numeric_bindings": [
+          {
+            "value": "20 to 30",
+            "unit_quote": "from 20 to 30%",
+            "geographic_scope": "Minnesota",
+            "product_scope": "cut alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e2",
+        "source_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+        "quote": "it is challenging to get a 2-3 day period with good drying weather and no rainfall. June is the rainiest month of the year (averaging about 4 inches), resulting in soils that are wetter than later in the summer. Moist soils increase drying times of cut forage. The chance of receiving at least a small amount of rainfall (>0.04”) on any given day is about 40% (i.e., 60% chance of no rain), so there is a narrow window for drying; the probability of 2 and 3 days of dry weather in a row in June is 36 and 22%, respectively. Rainfall at any time after cutting of hay can result in significant losses of dry matter and nutrients. These losses are greatest for partially dried forage due to leaf shattering, leaching, and prolonged respiration. Total dry matter losses are possible, but often range from 20 to 30%. Nutrients in forage are especially affected by rainfall and can be as high as 25% per in"
+      }
+    },
+    {
+      "fact_index": 3,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در اکوسیستم‌های آبی تحت مدیریت فشرده، عملکرد علوفه یونجه می‌تواند از ۱۴ تن در هکتار فراتر رود.",
+        "conditions": "سیستم آبیاری‌شده; محصول: علوفه یونجه; واحد: تن/هکتار; محدودیت: مقدار عملکرد در شرایط آبی، نه معیار تصمیم‌گیری پس از بارندگی",
+        "evidence_id": "d1-e14",
+        "numeric_bindings": [
+          {
+            "value": "14",
+            "unit_quote": "14 tons per acre",
+            "geographic_scope": "southeastern United States",
+            "product_scope": "alfalfa forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e14",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": "ental Mo and B are recommended yearly or every other year during the life of the stand. Visual assessment of the stand for nutrient deficiency symptoms and the periodic testing of plant tissue can help with identifying issues early in the plant growth cycle. For more information on how to collect plant tissue samples, contact your regional Extension agent or visit the Auburn University Soil, Forage, and Water Testing Laboratory . Forage Production and Defoliation Management Alfalfa forage yield typically ranges from 4 to 10 tons per acre annually. Under more intensive management and irrigation, it could exceed 14 tons per acre. The crude protein (CP) concentration ranges from 18 to 25 percent and total digestible nutrients (TDN) from 60 to 65 percent. Forage distribution usually encompasses April through September and October, depending on variety and weather conditions. In the Southeast"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در منطقه میدویست آمریکا، بارش کمی بیشتر در Becker نسبت به St. Paul مشاهده شده، اما به دلیل ظرفیت نگهداری آب پایین خاک شنی، هر سال ۱۴ سانتی‌متر آبیاری اعمال می‌شد.",
+        "conditions": "آزمایش یونجه در مینه‌سوتا; محصول: یونجه آزمایشگاهی; واحد: سانتی‌متر آبیاری; محدودیت: داده‌های آبیاری آزمایشگاهی، نه دستورالعمل مزرعه‌ای پس از باران",
+        "evidence_id": "d2-e10",
+        "numeric_bindings": [
+          {
+            "value": "14",
+            "unit_quote": "14 cm of irrigation",
+            "geographic_scope": "Becker, MN",
+            "product_scope": "alfalfa research plots"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e10",
+        "source_url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+        "quote": " for novel yield and nutritive value traits but that had not been evaluated under intensive harvest regimes. 2 MATERIALS AND METHODS Cutting frequency experiments were conducted from 2015 to 2017 on stands established in 2014 at Becker and St. Paul, MN. The soil at Becker, MN (45˚23 ′13″ N, 93˚53 ′18″ W, elevation 290 masl) was a Hubbard-Mosford complex (sandy, mixed, frigid Entic Hapludoll), and at St. Paul (44˚59′14″ N, 93˚10′24″ W, elevation 291 masl) the soil was a Waukegan silt loam (fine-silty over sandy or sandy-skeletal, mixed, superactive, mesic Typic Hapludoll). Air temperatures were similar among the two locations, but precipitation was slightly higher at Becker than at St. Paul (Table 1). Still, because of the low water holding capacity of the sandy soil at Becker, 14 cm of irrigation was applied each year at Becker. Soils were sampled (0–15 cm) and analyzed for available P, "
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع ارائه‌شده فاقد هرگونه دستورالعمل مستقیم، معیار اندازه‌گیری‌شده یا بازه زمانی ترویجی/دانشگاهی برای تعیین زمان آبیاری مجدد یونجه پس از بارندگی هستند. شواهد موجود تنها به تأثیر باران بر خشک‌شدن علوفه هرس‌شده، وضعیت بارندگی فصلی مینه‌سوتا، نیاز عمومی یونجه به زهکشی خوب و مقادیر آبیاری آزمایشگاهی می‌پردازند و هیچ‌یک روش تصمیم‌گیری «چه زمانی دوباره آب بدهیم» را پوشش نمی‌دهند."
+}

@@ -1,0 +1,334 @@
+{
+  "coverage_contract_version": 1,
+  "final_coverage_complete": false,
+  "version": 2,
+  "topic_id": "agri-ed19dd100ebc",
+  "input_binding": {
+    "topic_sha256": "7ef0f24c9f85d98118f4c6ddde13d14bbb10b9ca1e2e0f932508647c5296d66f",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "5c8c7441dbfec962dce9ab71b8794a5f98ad053b3b5667649939cd68eb82b595"
+  },
+  "completed_at": "2026-10-28T06:11:15.719755+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T06:10:04.048457+00:00",
+      "queries": [
+        {
+          "query_id": "7a130c7355340b6b6df08650abf1c47daf63700e0924926b279862891708315b",
+          "query": "alfalfa Medicago sativa seed germination temperature range optimal University extension",
+          "cached": false,
+          "checked_at_epoch": 1793167805.8327527,
+          "results": [
+            {
+              "url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
+              "title": "Dryland Alfalfa - OSU Extension Service",
+              "description": "Alfalfa cultivars grown in temperate regions rarely tolerate continuous high temperatures above 95°F . An air temperature of 81°F and soil temperature of 54°F are required for optimum herbage and root growth, respectively. High temperatures can inhibit growth.\nSome cultivars have developed mecha-nisms to protect themselves from heat stress injury. In many of the alfalfa growing areas of the South, southern California, and Arizona, summer temperatures can exceed 104°F . [...] You can apply phosphorus and sulfur as single superphosphate.\nPotassium Yield and stand survival depend on an adequate supply of potassium. Follow the soil test recommendation in your area.\nSulfur Alfalfa uses 4 to 5 pounds of sulfur per ton of dry matter yield. Follow Oregon State University’s soil fertility recommendations in your area.\nLime The optimum soil pH for alfalfa is 6.5 to 7.0. Apply lime if soil pH is less than 6.5.\nApply lime a year before planting. [...] Seeding date You can plant alfalfa in spring or fall depending on the area. In eastern Oregon, late winter (February or March) to early spring plantings are best, because there is abundant moisture to help seedling germination and stand establish"
+            },
+            {
+              "url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
+              "title": "Alfalfa seedling tolerance to freezing",
+              "description": "Scientists in the early 1900’s reported that alfalfa seed did germinate when surrounded with ice. We recently confirmed that with seed from modern alfalfa varieties that varied in fall dormancy when they germinated near the freezing point of water (31.3 F to 32.2 F). This temperature is much lower than the optimum minimum germination temperature of 60 F. The ability to germinate at very low temperatures may be derived from alfalfa’s origin in the Fertile Crescent where early establishment when [...] At very low temperatures (<40F), germination of alfalfa seed is much slower when compared to 40 to 50 F. We found that at 32 F, it took 15 days to reach 50% germination. At 50 F, 50% of seeds germinated in just 3 days. Individual seedlings will emerge slowly at low temperatures, meaning a long, staggered period of emergence, while at higher temperatures seedlings will emerge more uniformly. In crusted soils, staggered germination may be problematic as the collective push of many seeds can [...] Alfalfa seedlings have good tolerance to air temperatures as low as 24F when germinated and hardened during early spring temperature and daylength. However, 20F temperatures dramatically reduced "
+            },
+            {
+              "url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
+              "title": "Alfalfa (Medicago sativa) | Mississippi State University Extension Service",
+              "description": "Establishment: Alfalfa can be adapted in the state, but recommended to the northern part. It should be planted between mid-August to early September with the opportunity for spring seeding in the upper part of the state. Seed should be planted at a rate of 15 to 20 lbs/ac in a well-prepared bed using a cultipacker-seeder at 1/4 to 1/2 inches deep. Stand persistence is still questionable but 2-3 years is acceptable, and it does better in well-drained soils. Several diseases and pests such as [...] Fertilization: Alfalfa is very sensitive to soil acidity and pH levels should be maintained about 6.5. N is not required but requires P, K, S, and B. Optimum soil test indices for alfalfa are 65 lb P/ac and 350 lb K/ac. Split applications, one-half in the fall and one-half after the first cutting, may result in more efficient use of fertilizer, especially K. If the soil test shows 1 part per million (ppm) or less of boron (B), or if plant tissue has 25 ppm or less B, then topdress with a [...] Forage Quality: This is a high quality forage for horses and dairy cattle. Protein content ranges from 12 to 18%, ADF 30 to 40%, NDF 40 to 50%, IVDMD 55 to 67%, and RFV 100 to 140%.\n\nVarieties/Cultiv"
+            }
+          ]
+        },
+        {
+          "query_id": "652db8e8fc3788a24a24348c4cc9c1c1dd6db793156a21228571da479d4928d7",
+          "query": "alfalfa seed soil moisture imbibition water potential threshold germination university research",
+          "cached": false,
+          "checked_at_epoch": 1793167808.1167502,
+          "results": [
+            {
+              "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+              "title": "Frontiers | Drought–salinity interaction suppresses seed germination and seedling growth in alfalfa by altering water status, membrane stability, and antioxidant responses",
+              "description": "Tianpeng Li 1\n\nXinyue Zhu 1\n\nBinbin Wang 1\n\nZhenggang Guo 2\n\nMinguo Liu 3\n\nJing Zhang 1\\\n\n1. College of Grassland Science, Gansu Agricultural University, Lanzhou, China\n\n2. State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems, Engineering Research Center of Grassland Industry, Ministry of Education, College of Pastoral Agriculture Science and Technology, Lanzhou University, Lanzhou, China [...] stress strongly constrained the early germination process of alfalfa. In this study, 25% PEG likely created a low-water-potential environment that restricted seed imbibition, while 150 mmol·L-1 NaCl further imposed osmotic stress and Na+/Cl- toxicity. Therefore, the strong inhibition of germination under this treatment may be attributed to the combined effects of PEG-induced water limitation and NaCl-induced osmotic and ionic stress. This result is generally consistent with previous studies [...] The experiment was conducted from June to August 2024 in a controlled growth chamber at the College of Grassland Science, Gansu Agricultural University. The growth chamber was maintained at 25 ± 1 °C, with a relative humidity of 60%–70%, a 16 h/8 h light/dark photoperiod, and a "
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092",
+              "title": "Base water potential but not hydrotime predicts seedling ...",
+              "description": "by X Chen · 2022 · Cited by 9 — We determined the hydrotime model parameters of 10 alfalfa seed lots by incubating seeds at various water potentials in the laboratory.Read more"
+            },
+            {
+              "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+              "title": "Alfalfa during drought | UMN Extension",
+              "description": "Alfalfa seed that has been planted and not yet germinated will survive in the soil during drought. It can germinate when rainfall occurs."
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 6,
+        "loaded": 6,
+        "sources": [
+          {
+            "url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
+            "canonical_url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
+            "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
+            "canonical_url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+            "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092",
+            "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+            "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 6,
+      "coverage": {
+        "topic_id": "agri-ed19dd100ebc",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s1",
+              "s2",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "s14"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No source addresses mechanical or management practices for breaking or preventing soil crust during alfalfa seedling emergence. s11 notes that crusted soils can reduce emergence and slow germination, but does not describe crust-breaking methods. s14 provides germination-water-potential data but no field-level crust-management practice. s1 mentions cultipacking a firm seedbed but does not address crust-breaking."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": true,
+            "document_ids": [
+              "s11",
+              "s14"
+            ],
+            "missing": ""
+          }
+        ],
+        "next_queries": [
+          "alfalfa soil crust breaking management no-till drill practices university extension",
+          "alfalfa seedling emergence soil crusting prevention techniques germination studies"
+        ]
+      },
+      "completed_at": "2026-10-28T06:10:37.936692+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T06:10:37.937304+00:00",
+      "queries": [
+        {
+          "query_id": "a6cda7479e58e4fa8ae75320906391d1980bc466485426b425b1a68bd1fc961d",
+          "query": "alfalfa soil crust breaking management no-till drill practices university extension",
+          "cached": false,
+          "checked_at_epoch": 1793167840.1566813,
+          "results": [
+            {
+              "url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
+              "title": "No-till Farming and Healthy Soils Work Hand in Hand",
+              "description": "Read and learn about no-till farming concepts. Penn State Extension offers valuable information about no-till farming. Subscribe to a no-till magazine or attend a no-till workshop. Learn by experience. Record what works and share your knowledge with a neighbor!\n\nJeffrey S Graybill\n\nFormer Extension Educator, Agronomy\n\nPennsylvania State University\n\n### Ask Tilva™\n\nYour trusted source for science-based answers—now powered by PlantVillage+\n\n Ask Tilva™\n\n## You may also be interested in ... [...] The store will not work correctly when cookies are disabled.\n\nSkip to Content\n\nPenn State ExtensionPenn State Extension\n\nSearch\n\nCart \n\nShopping Cart\n\nArticles\n\n# No-till Farming and Healthy Soils Work Hand in Hand\n\nNo-till and cover crops are essential for healthy soils, but also require some additional management and attention to detail.\n\nSave for later  Print \n\n Share\n\nUpdated:\n\nNovember 24, 2025\n\nSkip to the end of the images gallery\n\nNo-till corn field, York County, PA.  Photo: Mark Goodson [...] \"No-till\" farming is an increasingly popular and widespread crop production practice here in Pennsylvania, across the nation, and around the world. Scientists and farmers, working together, are "
+            },
+            {
+              "url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
+              "title": "Steps to Successful No-till Establishment of Forages",
+              "description": "Table 2. Effect of tillage method on first-year alfalfa yield and plant density.\n(Data from Dan Undersander, University of Wisconsin.) Tillage Year Yield Stand 30 to 60 Stand Oct.23 days (plants/yd2) (plants/yd2) Treatments consisted of (1) disk, seed with IH grain drill, (2) chisel and seed with Brillion seeder, (3) moldboard plow, disk and seed with Brillion seeder and cultipack, and (4) seed with Lilliston no-till drill. [...] Potato leafhopper is the primary insect of concern. Potato leafhop-pers can reduce the vigor and later performance of alfalfa seed-ings. Proper monitoring and con-trol when the economic threshold has been reached are extremely important during alfalfa estab-lishment. When alfalfa is direct drilled into old sods, grasshop-pers can be especially destructive to new seedings during a dry spell. For more information on insect control in forages, refer to MSU Extension bulletin E-1582, \"Insect and [...] Though the recommended rota-tion interval varies, the general consensus is that at least one year between alfalfa crops is necessary to reduce or eliminate the harmful effects of auto-toxicity in alfalfa. Thinning alfalfa stands can be no-till seeded via drilling"
+            },
+            {
+              "url": "https://extension.missouri.edu/publications/m164",
+              "title": "Missouri No-Till Planting Systems | MU Extension",
+              "description": "Several drills on the market use soil movement from fluted coulters to improve drill performance over a wide variety of soil conditions. Selection of the coulter type should be determined by operator preference and field conditions. For example, drills operating in heavy residue may need to be pulled at a slight angle to the old corn row to get the corn residue to feed through. Clamping coulters on two beams separated by 12 to 18 inches would do more for residue flow than changing the type of [...] No-till crop production systems enable farmers to control erosion, improve the soil, and save time, fuel and moisture. These systems require a high degree of management skill. As we reduce tillage of the soil, we eliminate its positive aspects along with the negative. An example is that when we plowed the clover field, mice were quickly eliminated. In a no-till field the mice leave as the clover dies. To make no-till planting systems work, special consideration must be given to controlling [...] Lear, J. K., and R. A. Kelly. 1994. Residue Management for No-Till, UMC Agronomy Technical Report, volume 12, number 12.\n Lear, J. K., and R. A. Kelley. 1994. Sidewall Compaction Myth or Reality,"
+            },
+            {
+              "url": "https://mosh.umn.edu/management",
+              "title": "Management | MOSH - Minnesota Office for Soil Health",
+              "description": "No-till farming involves drilling seed into a residue-covered soil surface. s significantly reduce loss of soil to erosion, many districts have no-till drills"
+            },
+            {
+              "url": "https://www.climatehubs.usda.gov/hubs/northwest/topic/northwest-no-till-farming-climate-resilience",
+              "title": "Northwest No-Till Farming for Climate Resilience | USDA Climate Hubs",
+              "description": "Soil Health Management to Reduce Climate and Weather Risks in the Northwest is a Northwest Climate Hub webpage that reveals the ability of soil health management to reduce the risk of extreme events and climate impacts in the Northwest.\n\nIdaho Soil Health Case Study is an NRCS and American Farmland Trust case study that examines the soil health practices (including no-till) implemented by a farm in central Idaho. [...] Soil is a complex system of living and non-living elements. Soil contains a microbial biomass of fungi, bacteria, and fine roots that aggregate (collect) and store nutrients for plants. Conventional tillage breaks up soil aggregates and reduces the soil microbial biomass. Because no-till farming does not break up soil by plowing or turning it, soil microbial biomass remains undisturbed and intact. In addition, no-till benefits predatory insects that can  enhance pest control. [...] Enhancing Soil Health: No-till systems enrich the soil with organic matter, increase soil water-holding capacity, and protect crops during periods of drought and flooding. The crop residue left on the soil surface also prevents wind and water erosion, benefitting water and air quality. In "
+            }
+          ]
+        },
+        {
+          "query_id": "3f78fbff7334e3a8e6cdbebbc8a47351f1535c0f31dcb8acfdd99bc74abf88bb",
+          "query": "alfalfa seedling emergence soil crusting prevention techniques germination studies",
+          "cached": false,
+          "checked_at_epoch": 1793167843.5931315,
+          "results": [
+            {
+              "url": "https://extensionpubs.unl.edu/publication/1596/html/view",
+              "title": "Seeding Alfalfa - Nebraska Extension Publications",
+              "description": "Alfalfa seeds must have close contact with soil particles and soil moisture to ensure rapid emergence. A firm seedbed also helps prevent seed from being planted"
+            },
+            {
+              "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+              "title": "Soil crust-busters - Integrated Crop Management",
+              "description": "Strategies to avoid soil crusting Typically, mulch-tillage or no-till systems leave larger amounts of surface residues on and near the soil surface. Rotary"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19",
+        "s20"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 6,
+        "loaded": 5,
+        "sources": [
+          {
+            "url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
+            "canonical_url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
+            "canonical_url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://extension.missouri.edu/publications/m164",
+            "canonical_url": "https://extension.missouri.edu/publications/m164",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://mosh.umn.edu/management",
+            "canonical_url": "https://mosh.umn.edu/management",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://www.climatehubs.usda.gov/hubs/northwest/topic/northwest-no-till-farming-climate-resilience",
+            "status": "unavailable",
+            "category": "fetch_or_validation_failed",
+            "temporary": true
+          },
+          {
+            "url": "https://extensionpubs.unl.edu/publication/1596/html/view",
+            "canonical_url": "https://extensionpubs.unl.edu/publication/g2247/2014/html/view",
+            "redirect_hops": 1,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 6,
+      "coverage": {
+        "topic_id": "agri-ed19dd100ebc",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s1",
+              "s10",
+              "s13",
+              "s14",
+              "s20"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document addresses both (a) laboratory or field germination parameter values for alfalfa and (b) mechanical/management practices for preventing or breaking soil crust during alfalfa seedling emergence. s11 notes crusted soils impede slow cold-season emergence but does not provide crust-breaking methods; s20 warns against powdery-fine seedbeds that crust but gives no crust-breaking procedure; no source covers germination parameter tables alongside crust-management practices."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document provides germination temperature values with original units tied to alfalfa seed imbibition or emergence together with soil moisture metrics for the same process, preserving source geography and date. s11 gives 31.3–32.2 °F and 60 °F with UMN Extension (April 2022, Minnesota) but no soil-moisture metric; s10 cites 81 °F air / 54 °F soil for optimal growth, not germination imbibition; s14 reports water-potential thresholds in MPa from Lanzhou University (2022) but no germination temperature values; s13 reports germination decline under PEG-induced drought without temperature-imbibition linkage."
+          }
+        ],
+        "next_queries": [
+          "alfalfa seed germination temperature range soil crust emergence site:edu OR site:gov",
+          "alfalfa seedling emergence soil crusting mechanical breakdown cultivation management extension"
+        ]
+      },
+      "completed_at": "2026-10-28T06:11:15.718946+00:00"
+    }
+  ],
+  "fetches_reserved": 12,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": true,
+  "status": "temporary_source_fetch_failure",
+  "new_sources": 0,
+  "repair_exhausted": false
+}

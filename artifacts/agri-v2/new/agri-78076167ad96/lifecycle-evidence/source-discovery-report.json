@@ -1,0 +1,136 @@
+{
+  "version": 2,
+  "started_at": "2026-10-28T06:09:57.096160+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 2,
+  "completed_at": "2026-10-28T06:09:57.944362+00:00",
+  "requested": 12,
+  "loaded": 9,
+  "independent_institutions": 2,
+  "observed_links": [
+    {
+      "url": "https://extension.umn.edu/forage-harvest-and-storage/how-does-tedding-affect-alfalfa-silage-production",
+      "observed_on": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+      "depth": 1
+    },
+    {
+      "url": "https://extension.umn.edu/forage-harvest-and-storage/using-growing-degree-days-plan-early-season-alfalfa-harvests",
+      "observed_on": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+      "depth": 1
+    },
+    {
+      "url": "https://extension.umn.edu/news/alfalfa-harvest-alert-program-2022",
+      "observed_on": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+      "depth": 1
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2024/03/predicting-alfalfa-winter-survival.html",
+      "observed_on": "https://blog-crop-news.extension.umn.edu/2026/10/prepare-your-alfalfa-field-for-winter.html",
+      "depth": 1
+    }
+  ],
+  "fetch_reports": [
+    {
+      "requested": 6,
+      "loaded": 6,
+      "sources": [
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+          "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+          "status": "cache_valid"
+        },
+        {
+          "url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management",
+          "canonical_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+          "status": "cache_valid"
+        },
+        {
+          "url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+          "canonical_url": "https://sustainablecropping.umn.edu/sites/sustainablecropping.umn.edu/files/2025-07/alfalfacuttingintensity-eckberg-2022.pdf",
+          "status": "cache_valid"
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2026/10/prepare-your-alfalfa-field-for-winter.html",
+          "canonical_url": "https://blog-crop-news.extension.umn.edu/2026/10/prepare-your-alfalfa-field-for-winter.html",
+          "status": "cache_valid"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/assessing-alfalfa-winter-injury",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/assessing-alfalfa-winter-injury",
+          "status": "cache_valid"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production/forages/brown-root-rot-of-alfalfa",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/brown-root-rot-of-alfalfa",
+          "status": "cache_valid"
+        }
+      ]
+    },
+    {
+      "requested": 2,
+      "loaded": 2,
+      "sources": [
+        {
+          "url": "https://extension.usu.edu/yardandgarden/fruits-vegetables-herbs",
+          "canonical_url": "https://extension.usu.edu/yardandgarden/fruits-vegetables-herbs",
+          "status": "cache_valid"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production",
+          "status": "cache_valid"
+        }
+      ]
+    },
+    {
+      "requested": 4,
+      "loaded": 3,
+      "sources": [
+        {
+          "url": "https://extension.umn.edu/forage-harvest-and-storage/how-does-tedding-affect-alfalfa-silage-production",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/how-does-tedding-affect-alfalfa-silage-production",
+          "redirect_hops": 1,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.umn.edu/forage-harvest-and-storage/using-growing-degree-days-plan-early-season-alfalfa-harvests",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/using-growing-degree-days-to-plan-early-season-alfalfa-harvests",
+          "redirect_hops": 1,
+          "status": "fetched"
+        },
+        {
+          "url": "https://extension.umn.edu/news/alfalfa-harvest-alert-program-2022",
+          "status": "unavailable",
+          "category": "http_error",
+          "temporary": false,
+          "http_status": 404
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2024/03/predicting-alfalfa-winter-survival.html",
+          "canonical_url": "https://blog-crop-news.extension.umn.edu/2024/03/predicting-alfalfa-winter-survival.html",
+          "status": "cache_valid"
+        }
+      ]
+    }
+  ],
+  "topic_id": "agri-78076167ad96",
+  "source_policy_version": "university-single-source-v1",
+  "bounded_discovery_completed": true,
+  "temporary_source_failure": false,
+  "source_sufficiency": {
+    "version": "university-single-source-v1",
+    "satisfied": true,
+    "university_hosts": [
+      "blog-crop-news.extension.umn.edu",
+      "extension.umn.edu",
+      "sustainablecropping.umn.edu",
+      "www.aces.edu"
+    ],
+    "independent_institutions": 2,
+    "single_university_exception": false,
+    "publication_authorized": false
+  },
+  "blocking_kind": null
+}

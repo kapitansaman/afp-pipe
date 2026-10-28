@@ -32,9 +32,9 @@
     },
     {
       "family_id": "family-04",
-      "topic_id": "agri-cd64428568cb",
-      "title": "نیاز آبی لوبیا چیتی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
-      "assigned_at": "2026-10-27T15:19:01.754098+00:00",
+      "topic_id": "agri-108b007ce25b",
+      "title": "مدیریت یونجه بعد از چین؛ آبیاری و تغذیه برای رشد مجدد",
+      "assigned_at": "2026-10-28T06:15:39.359529+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
@@ -77,11 +77,11 @@
     },
     {
       "family_id": "family-09",
-      "topic_id": "agri-71be4981f446",
-      "title": "برآورد عملکرد کدو آجیلی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
-      "assigned_at": "2026-10-27T15:33:31.255742+00:00",
+      "topic_id": "agri-b1f8c76a39ac",
+      "title": "برآورد عملکرد یونجه پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "assigned_at": "2026-10-28T06:15:39.359967+00:00",
       "assignment_status": "assigned",
-      "work_stage": "scope_review_required",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -104,29 +104,29 @@
     },
     {
       "family_id": "family-12",
-      "topic_id": "agri-fcc69d8bfd95",
-      "title": "مقدار بذر کدو آجیلی در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
-      "assigned_at": "2026-10-27T15:33:31.256289+00:00",
+      "topic_id": "agri-6d0759f7e898",
+      "title": "پایش رطوبت خاک در مزرعه یونجه؛ انتخاب محل و عمق حسگر",
+      "assigned_at": "2026-10-28T06:15:39.360225+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-13",
-      "topic_id": "agri-dc60868225b6",
-      "title": "مراحل حساس کدو آجیلی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
-      "assigned_at": "2026-10-27T15:19:01.762785+00:00",
+      "topic_id": "agri-46cf2473ba02",
+      "title": "آبیاری تکمیلی یونجه دیم؛ زمان اولویت‌دار و ارزیابی اقتصادی",
+      "assigned_at": "2026-10-28T06:15:39.360330+00:00",
       "assignment_status": "assigned",
       "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
       "family_id": "family-14",
-      "topic_id": "agri-887448ed952f",
-      "title": "کاهش تلفات برداشت کدو آجیلی؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
-      "assigned_at": "2026-10-27T15:19:01.762907+00:00",
+      "topic_id": "agri-4e0b195e7205",
+      "title": "اولین آبیاری نخود پس از کاشت؛ مدیریت رطوبت ناحیه استقرار",
+      "assigned_at": "2026-10-28T06:15:39.360435+00:00",
       "assignment_status": "assigned",
-      "work_stage": "source_discovery_required",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -158,11 +158,11 @@
     },
     {
       "family_id": "family-18",
-      "topic_id": "agri-18ff41bec566",
-      "title": "پایش رطوبت خاک در مزرعه کدو آجیلی؛ انتخاب محل و عمق حسگر",
-      "assigned_at": "2026-10-27T15:33:31.267702+00:00",
+      "topic_id": "agri-e1268545eb02",
+      "title": "چرا بذر نخود سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "assigned_at": "2026-10-28T06:15:39.368921+00:00",
       "assignment_status": "assigned",
-      "work_stage": "source_discovery_required",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -176,11 +176,11 @@
     },
     {
       "family_id": "family-20",
-      "topic_id": "agri-1c9df68c91c1",
-      "title": "آخرین آبیاری کدو آجیلی پیش از برداشت؛ معیارهای قطع و کاهش آب",
-      "assigned_at": "2026-10-27T15:19:01.773000+00:00",
+      "topic_id": "agri-b914a783ffdd",
+      "title": "مراحل حساس نخود به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "assigned_at": "2026-10-28T06:15:39.369175+00:00",
       "assignment_status": "assigned",
-      "work_stage": "source_discovery_required",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     }
   ],
@@ -651,6 +651,90 @@
       "completed_at": "2026-10-28T05:36:22.219652+00:00",
       "completion": "deferred_to_research_backlog",
       "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-04",
+      "topic_id": "agri-cd64428568cb",
+      "title": "نیاز آبی لوبیا چیتی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+      "assigned_at": "2026-10-27T15:19:01.754098+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T06:15:39.342423+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-09",
+      "topic_id": "agri-71be4981f446",
+      "title": "برآورد عملکرد کدو آجیلی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "assigned_at": "2026-10-27T15:33:31.255742+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "scope_review_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T06:15:39.346080+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-12",
+      "topic_id": "agri-fcc69d8bfd95",
+      "title": "مقدار بذر کدو آجیلی در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "assigned_at": "2026-10-27T15:33:31.256289+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T06:15:39.347629+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-13",
+      "topic_id": "agri-dc60868225b6",
+      "title": "مراحل حساس کدو آجیلی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "assigned_at": "2026-10-27T15:19:01.762785+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "existing_content_audit_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T06:15:39.348548+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-14",
+      "topic_id": "agri-887448ed952f",
+      "title": "کاهش تلفات برداشت کدو آجیلی؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
+      "assigned_at": "2026-10-27T15:19:01.762907+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "source_discovery_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T06:15:39.353128+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "independent_scoped_review_rejected"
+    },
+    {
+      "family_id": "family-18",
+      "topic_id": "agri-18ff41bec566",
+      "title": "پایش رطوبت خاک در مزرعه کدو آجیلی؛ انتخاب محل و عمق حسگر",
+      "assigned_at": "2026-10-27T15:33:31.267702+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "source_discovery_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T06:15:39.355333+00:00",
+      "completion": "deferred_to_research_backlog",
+      "reason": "saved_evidence_declares_insufficient_scope"
+    },
+    {
+      "family_id": "family-20",
+      "topic_id": "agri-1c9df68c91c1",
+      "title": "آخرین آبیاری کدو آجیلی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "assigned_at": "2026-10-27T15:19:01.773000+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "source_discovery_required",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T06:15:39.359022+00:00",
+      "completion": "deferred_to_exception_backlog",
+      "reason": "independent_scoped_review_rejected"
     }
   ],
   "publication_authorized_by_assignment": false,
@@ -1387,9 +1471,139 @@
       ],
       "prior_attempts_reset": false,
       "previous_family_id": "family-15"
+    },
+    "agri-cd64428568cb": {
+      "topic_id": "agri-cd64428568cb",
+      "title": "نیاز آبی لوبیا چیتی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.342423+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "990c6569212eab0fc3dfdc3b30c6f231d74aa3dd2c52c70661751f527de1235d",
+        "sources.json": "9e760fc2c15cee422f16a92f9ed44f07b8cf4f759d6ddeef38fb3106f442193a",
+        "candidate-raw.json": "5d10853b5d06c1daefc8459461ba0a077af08633a821b627d3d629f523675326",
+        "state.json": "f37ba985063068cc92064c388bd4dfcc858d0e4dfe4efbd9c32b2c298333df3c"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-04"
+    },
+    "agri-71be4981f446": {
+      "topic_id": "agri-71be4981f446",
+      "title": "برآورد عملکرد کدو آجیلی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.346080+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "ab77181e0e1417698651c4fcb7f8d93baa8c0215e95b2bb0df7f414465f95716",
+        "sources.json": "486bb6e5bd2e3b81d7fe8d2b2bdd40a9af1cd0888dd4bb44fab107ca3eab16f5",
+        "candidate-raw.json": "95aefd7249c6c61215b9b6c5afe1fcb4a0c2515dc79cdbf568c1f52720b379ad",
+        "state.json": "17763cf62ececd41677d1804e451854b659eec2d435336ac408adec0c5f6a569"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-09"
+    },
+    "agri-fcc69d8bfd95": {
+      "topic_id": "agri-fcc69d8bfd95",
+      "title": "مقدار بذر کدو آجیلی در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.347629+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "82e7c037740eb1159318741ede59da8269ca48d58c1849bda0043640cd08671e",
+        "sources.json": "33b78132c045bfacfc326f4b77ac8bae04dcb040dc153ae7aa7db70e8fb187c0",
+        "candidate-raw.json": "2b6c962866eb3d03e0ac01d1ef3e86d572d398d7bde827708890c5861779e157",
+        "state.json": "ed3614febe4064a8c8697c78a20988bf315f9b6a7bb04cc75de5de047efa5ac6"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-12"
+    },
+    "agri-dc60868225b6": {
+      "topic_id": "agri-dc60868225b6",
+      "title": "مراحل حساس کدو آجیلی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.348548+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "18b4d4269d127a7aa1275d158778c3fc4c0ee777b34f3b461c29d88c00f2aa83",
+        "sources.json": "2200e469f9e766dfad3272dbb8fdfe9cc7ae1b1fda3f2c6f8e109aa791e98e0b",
+        "candidate-raw.json": "98af83ca92c912371091d72d8b094794050c49a99b747f53c173c4c822638e1a",
+        "state.json": "5318f5d7bc0bcbf54de6718bbcc52e2d47137089b95f071f2c4ee8f2c0b55461"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-13"
+    },
+    "agri-18ff41bec566": {
+      "topic_id": "agri-18ff41bec566",
+      "title": "پایش رطوبت خاک در مزرعه کدو آجیلی؛ انتخاب محل و عمق حسگر",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.355333+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "deee1dc6427e858f8babcc0dc40ee30051e5b8424e3687ba8e3d9a5e1f7e4952",
+        "sources.json": "924a95ae528c2d8e1c5312ec3507e6b0e70eaee66d8c4ebd2aa46e45cb69e9e5",
+        "candidate-raw.json": "4e1b040b6ed568edc3d5d956d176134d3cb4545f6c4b55b76615be643d314c86",
+        "state.json": "48035cd1f8c77cda52ee660b551eab4b1a6546bbf1009e67b6e0821d814c5a22"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-18"
     }
   },
-  "research_backlog_count": 28,
+  "research_backlog_count": 33,
   "exception_backlog": {
     "agri-c0e160d88554": {
       "kind": "stage_budget_exhausted",
@@ -2032,7 +2246,145 @@
         "all_original_research_quality_overlap_and_publication_gates"
       ],
       "previous_family_id": "family-07"
+    },
+    "agri-887448ed952f": {
+      "kind": "stage_budget_exhausted",
+      "stage": "research_review",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "independent_scoped_review_rejected",
+      "last_run_id": "40641934753",
+      "topic_id": "agri-887448ed952f",
+      "title": "کاهش تلفات برداشت کدو آجیلی؛ تنظیم زمان، ابزار و شیوه جمع‌آوری",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-28T06:15:39.353128+00:00",
+      "terminal_checkpoint_sha256": "d89c5ccbd20e475c6be907c9e7fb8a8f6096ecd2a1fa18378e0bc9e9d7255b3a",
+      "bindings": {
+        "topic_sha256": "743b2dda52278eef4da9f6d32d97617e327c981e49fd5b2d5747781ce395f3f8",
+        "topic_files": {
+          "family-context/40531540832.json": "29fbebe56c3a5991d00969061ce2640dd2618f6ff897451454e326ccd4b15fb6",
+          "family-context/40610299326.json": "29fbebe56c3a5991d00969061ce2640dd2618f6ff897451454e326ccd4b15fb6",
+          "family-context/40637634935.json": "29fbebe56c3a5991d00969061ce2640dd2618f6ff897451454e326ccd4b15fb6",
+          "family-context/40641934753.json": "29fbebe56c3a5991d00969061ce2640dd2618f6ff897451454e326ccd4b15fb6",
+          "lifecycle/existing_content_audit-000/state.json": "3db75a94a34a275a488d0cfb2198e3930f323ba5b0a9978b67741b09751af95b",
+          "lifecycle/existing_content_audit_finalize/state.json": "70e4599d25315c72e3144f010fa86b0394f45e54723d9c1f7bb03b0d48bce73d",
+          "lifecycle/research_discover/state.json": "ae0c03d6e50270c24c51eb3cb544de449e3da63a60d0f75897fc5fc3f0aa58a8",
+          "lifecycle/research_extract/state.json": "754f27b1f7bcbe3dd8232fc6e429e7c7c4af91176eb24e3294b8d512b3105119",
+          "lifecycle/research_refetch/state.json": "1e6d254bc73bffca749d1c03dc30895acb974e41a78f2fff1aa6434ebd002735",
+          "lifecycle/research_review/rejected/1/review-raw.json": "4d5571206e20b5d66e3bf4e1981ca42f0e8edfab9697e0868cf24307b72789b9",
+          "lifecycle/research_review/rejected/2/review-raw.json": "92a17e4a06626e1513538d3b9b339190c4608a924c376af18eaa1a1458b6bd1e",
+          "lifecycle/research_review/state.json": "bc61432b60978460fdd848dec1bfb2fd69d3b9745ad2b7a8d28514e18f4da9c9",
+          "lifecycle/research_sources/state.json": "499dc3e6152646a6b4c5702b4a3f6e23c7b006b2968cc46f4fbe7fcf33945504",
+          "lifecycle-evidence/candidate-raw.json": "e586ad8274e88c02ad93ac0311519a609bf594afbc7903920f3861fb53bb326c",
+          "lifecycle-evidence/candidate.json": "83db4eba8a67091764d41cda5161dc6e58c520ba5eb03dbfc6e3b62a27435865",
+          "lifecycle-evidence/existing-content.json": "c063a69e5e347b729c7eab605a8e7333816bbfa340e61971819cf60f6f5ab430",
+          "lifecycle-evidence/model-source-fetch/source-discovery-report.json": "4a074bb11fdd99da2f1a71c2831caa0e03668f1c6fd3d60061bc6856e712be6c",
+          "lifecycle-evidence/model-source-fetch/source-fetch-report.json": "88306a565ebf86101ed1a5e2f7f09a91842aaefb3d445bebeee5be3ff685924f",
+          "lifecycle-evidence/model-source-fetch/source-link-fetch-report-2.json": "198e952ce5a8ce6f73ea0ce026ef587fa4e5e1f41c10f836b38e357f08afaacb",
+          "lifecycle-evidence/model-source-fetch/source-link-fetch-report.json": "a5365f2b3da14e23861f1ead515d958b9c84a433690dedc60ad85926fd118df9",
+          "lifecycle-evidence/model-source-originals/candidate-raw.json": "2cf10a0ca60dada6b821c00f1f6817aee5c247a4a90d2b8c041319663dbb8bc0",
+          "lifecycle-evidence/model-source-originals/extraction-feedback.json": "fa0eed267898be310622152f27aaa92d6015623a0951f1efab110e098e4b575d",
+          "lifecycle-evidence/model-source-originals/source-discovery-report.json": "fdd917989100b510106b2b43723ffca85f6f36ff36f7e0b43942a96a9278bd3c",
+          "lifecycle-evidence/model-source-originals/sources.json": "60170af425ff0c5599ddc514be0cbac7877d36d98788be3c9a33789cb96f0f84",
+          "lifecycle-evidence/model-source-plan.json": "53703f00849354fd29a0beedeb40ccca4866a463116888c0f9d2c6e038d4ca75",
+          "lifecycle-evidence/model-source-plan.raw.json": "78b7ee112311ca32d3b9bad47bbcc82a2eea999809ec745187eb074581463068",
+          "lifecycle-evidence/model-source-refetch.json": "710c117805ca2bb6b360105f8f72d0c5b0de6642437802750ef269cc727a434e",
+          "lifecycle-evidence/overlap-batches/000.json": "ef0a3bc39414eb278fe32f511c6510b3b7fd28713b0c28f428a346c018671492",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "c8eb9d7465f09b78bddcd3df518b9f9af610bdf111f7380ca25988af752c0dc4",
+          "lifecycle-evidence/overlap.json": "4b48be8a1c4168c9572d7ae94b132506a1d5c34b48ddfd0510b83e07cc3a5cf0",
+          "lifecycle-evidence/review-raw.json": "3517564a73b3c858f790b135c5f2314469bc9fe42c2932bf4ce5211d71f9240e",
+          "lifecycle-evidence/source-discovery-report.json": "4a074bb11fdd99da2f1a71c2831caa0e03668f1c6fd3d60061bc6856e712be6c",
+          "lifecycle-evidence/source-fetch-report.json": "3e3ddbb7116e336064bbdce9e3c32ff5f31c0cd15b8518ba60c554f695861bda",
+          "lifecycle-evidence/source-hub-fetch-report.json": "3900088a5318a1255da8abcf0687c5064127afde853973cfc41a4734b62f9488",
+          "lifecycle-evidence/source-link-fetch-report.json": "feb65fa095d5c6b46d71bfd1287aa96b4506ef2e7420af3a07c6f4e53415158d",
+          "lifecycle-evidence/sources.json": "82fe708dbaca7b85aa3f8d2e76846f838b170aaf4b213546a7c63259dcfa6ac4"
+        },
+        "legacy_research_sha256": "36edf21da67be91d77586b7580b83d41bf930099df848ea0c7f502822c6df424",
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-14"
+    },
+    "agri-1c9df68c91c1": {
+      "kind": "stage_budget_exhausted",
+      "stage": "research_review",
+      "attempts_preserved": 3,
+      "attempt_limit": 3,
+      "reason": "independent_scoped_review_rejected",
+      "last_run_id": "40641934753",
+      "topic_id": "agri-1c9df68c91c1",
+      "title": "آخرین آبیاری کدو آجیلی پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "status": "awaiting_exception_review",
+      "policy": "finite-terminal-exceptions-v1",
+      "deferred_at": "2026-10-28T06:15:39.359022+00:00",
+      "terminal_checkpoint_sha256": "7e43df0d4abe6129f4cd275b1d9d8182631434b850fd20fc259c4d3f5b9ed96d",
+      "bindings": {
+        "topic_sha256": "f1f8371e79187a78465c58db2b8118813617131bc7ee6cd2798c27cbde07d1f7",
+        "topic_files": {
+          "family-context/40531540832.json": "27dfad269c139ebb34282500208db9ee4d4ba65a165a0f47fa9fe92cc9abbae9",
+          "family-context/40610299326.json": "27dfad269c139ebb34282500208db9ee4d4ba65a165a0f47fa9fe92cc9abbae9",
+          "family-context/40637634935.json": "27dfad269c139ebb34282500208db9ee4d4ba65a165a0f47fa9fe92cc9abbae9",
+          "family-context/40641934753.json": "27dfad269c139ebb34282500208db9ee4d4ba65a165a0f47fa9fe92cc9abbae9",
+          "lifecycle/existing_content_audit-000/rejected/1/000.raw.json": "f8b30eb2886160eb9df970c4e156927bbbd4438fa64cc9f293b466641c3d6104",
+          "lifecycle/existing_content_audit-000/state.json": "c3b53d2114b62eb41f189f4730b7010a5e35e002e8059b47892c3200006d7796",
+          "lifecycle/existing_content_audit_finalize/state.json": "9f284e67039c5161c3bb7e7684e2747213e14cd8e0e7fa7ab1fa9d184085c83f",
+          "lifecycle/research_extract/state.json": "d3396748c86486c952f0b574a76aa13d6aa34c97beceee47fef36d55e78ec96b",
+          "lifecycle/research_review/rejected/1/review-raw.json": "9f60f2839b6a80449cbf041c705bde98450ff915913124c6120b5a9da2d961db",
+          "lifecycle/research_review/rejected/2/review-raw.json": "f9bed9c66e80fc77c833b719b2416fb9efe8f91de7a68673738b629121a94f22",
+          "lifecycle/research_review/state.json": "dac1b6844934784dff1bf0eb43a7b18e2ff490adf12a1d432aec319a0ac77aab",
+          "lifecycle/research_sources/state.json": "d227355a3dd3d8fcb2e9c93294f20ecf9a610a4beae2f5d947342b9cc28ea354",
+          "lifecycle-evidence/candidate-raw.json": "822b2e475c06d7ab4b6f4fe379ca0e75e28f9684591b94b52b7399ac1de60265",
+          "lifecycle-evidence/candidate.json": "3e5c6b3b61960f0e48bed4ac5d411545c1549999a145107a7b409937fec29ba6",
+          "lifecycle-evidence/existing-content.json": "77186a5c181a171b59180f3f3ef3f1573bd26c912cb26f0de94d5175b69da3e8",
+          "lifecycle-evidence/overlap-batches/000.json": "a3529c285e2e94faaf4d51c1bf05496e6bf6416f8aeb385128fe4b50d04891b4",
+          "lifecycle-evidence/overlap-batches/000.raw.json": "67493e8686a46da85c7ed73b184f66a5e9cc82c19705b7e23f6f95be560f82fa",
+          "lifecycle-evidence/overlap.json": "110ac06a3fa38295085028ce52e3dcfb0fbda840a4ebca4070b817202053c97a",
+          "lifecycle-evidence/review-raw.json": "791590fce60f4e2ac775c97a19dcb2bd365e98d84bf5710d88cb573c516270cf",
+          "lifecycle-evidence/source-discovery-report.json": "6a040d1e52f97ae6d565aaf913d475f6c8a5627c5cfa846e4a9bc6ef4ca20fd3",
+          "lifecycle-evidence/source-fetch-report.json": "9fd3bc0fb7e393af92355058238421c18c8ec3835d55a0893fedc73632745d62",
+          "lifecycle-evidence/source-hub-fetch-report.json": "3c41cc8d977f4808b67da68862c49b9574e5c8eb33c36cc4a080b42b835b12ed",
+          "lifecycle-evidence/source-link-fetch-report.json": "14ea399d5f1914a9c981be28179aeb566e0f1c56eba0c859d65dbd2e6029bb84",
+          "lifecycle-evidence/sources.json": "f97f45e90dd83743cf4af879bcdac05d0311535b423a88d0ff6a16bb4e0a97ba"
+        },
+        "legacy_research_sha256": "4c9fd6219a1cb151c2342b7a08da74ac2dc4d7ec8f54db7c0ea6e5ec7e4a5851",
+        "brief_sha256": null,
+        "policies": {
+          "config.json": "eb5e17d73562dfdc19ab051918b89e6b3ccdab41352cfad4479f63f1f91621b3",
+          "family-lifecycle-policy.json": "e8e933cd9a5b7b4bba461ec62a83fd1bf8dcc2c193104801ef142da0199e7bd6",
+          "queue-exception-policy.json": "d099736d26de5260fb4f0bc78ab846dbea2223c0ce94da60e38266ca27f37b25",
+          "image-repair-policy.json": "e6ce9789cacab9f00bd4005d3e3e22c00d014d328940d37a019abd1f3c62c82c",
+          "quality-index-policy.json": "b02548fc51914558410348d86b5b05eccb791ce26f311ecbaf764c44c1b14360",
+          "language-review-policy.json": "bdb63cbb56d2ef891e36e327a9ed2d75fc26e11c9181d19c04b195f0bcc0620b",
+          "research-source-catalog.json": "1c39930864a7f1de9c167d4a07dc28719c72e14480c55b14aa28c9bd3abf70ea"
+        }
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "prior_attempts_reset": false,
+      "return_requirements": [
+        "explicit_review_and_reentry_authorization",
+        "preserved_attempts_or_separately_authorized_budget",
+        "all_original_research_quality_overlap_and_publication_gates"
+      ],
+      "previous_family_id": "family-20"
     }
   },
-  "exception_backlog_count": 10
+  "exception_backlog_count": 12
 }
