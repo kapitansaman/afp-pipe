@@ -8,7 +8,7 @@ This implementation extends the existing repair lifecycle, rather than resetting
 
 ## Connection required
 
-Add the repository Actions secret `AFP_SOURCE_SEARCH_API_KEY` with an existing Tavily API key. It is separate from the 97 AGNES model keys and does not change their fixed family ownership. No account, subscription or paid plan is automatically created. Service availability, allowance and any charges depend on the search account's terms; this implementation does not assume that search is free.
+Add the environment Actions secret `AFP_SOURCE_SEARCH_API_KEY` in the dedicated `afp-source-search` environment (repository-level secrets are at the 100-secret limit). The coordinator job selects this environment. Set the secret with an existing Tavily API key. It is separate from the 97 AGNES model keys and does not change their fixed family ownership. No account, subscription or paid plan is automatically created. Service availability, allowance and any charges depend on the search account's terms; this implementation does not assume that search is free.
 
 The Actions workflow passes this secret only as an environment variable. The adapter sends it in `Authorization: Bearer` to the fixed HTTPS endpoint. Neither the secret nor raw provider error bodies are saved in checkpoints or logs. A missing connection produces a capability hold before a model call or stage attempt is spent. Never place this key in repository files, issue bodies, query strings or chat.
 
