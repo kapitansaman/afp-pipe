@@ -18,6 +18,8 @@ def enabled(data):
  return True
 
 def uncertain_outcome(error):
+ from .source_search import SearchProviderError
+ if isinstance(error,SearchProviderError):return error.http_status is None or type(error.http_status)is int and error.http_status>=500
  from .client import TextProviderError,ImageProviderError
  if isinstance(error,(TextProviderError,ImageProviderError)):
   return error.http_status is None or type(error.http_status)is int and error.http_status>=500

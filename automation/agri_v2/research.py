@@ -27,7 +27,8 @@ def source_host(url):
   if p.scheme!='https' or not h or p.username is not None or p.password is not None or p.port not in (None,443):raise ValueError()
   if not re.fullmatch(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?",h) or any(not re.fullmatch(r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?",label) for label in h.split('.')):raise ValueError()
  except (ValueError,TypeError):raise ResearchBlocked('unsafe_source_url') from None
- if not (h.endswith('.edu') or h.endswith('.gov') or h in {'extension.org','www.extension.org'}):raise ResearchBlocked('source_not_in_institutional_scope')
+ from .source_registry import admitted
+ if not admitted(h):raise ResearchBlocked('source_not_in_institutional_scope')
  return h
 class NoRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,*a,**kw):return None
