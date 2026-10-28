@@ -198,7 +198,8 @@ def run_stage(topic,stage,client,data=DATA,out=OUT):
   from .source_scout import scout
   from .source_discovery import entries_for as discovery_entries
   matching=discovery_entries(topic,data)
-  documents=scout(topic,matching,client,r.fetch_source,out,r.source_host,ev)
+  from .regional_sources import enabled as regional_enabled,collect as regional_collect
+  documents=regional_collect(topic,'fa-IR',client,out,folder) if regional_enabled(data) else scout(topic,matching,client,r.fetch_source,out,r.source_host,ev)
   atomic_json(ev/'sources.json',{'documents':documents});return {'fetched_sources':len(documents)}
  if stage=='research_extract':
   docs=load_json(ev/'sources.json')['documents'];catalog=r.evidence_catalog(docs)
@@ -333,7 +334,9 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
   kind='image' if stage.startswith('image-') else 'text'
   from .model_source_repair import web_mode
   real_search=stage in ('research_discover','research_refetch') and web_mode(stage,folder,data)
-  if real_search:
+  from .regional_sources import enabled as regional_enabled
+  regional_read=stage=='research_sources' and regional_enabled(data)
+  if real_search or regional_read:
    from .source_search import require as require_search,SearchConnectionRequired
    try:require_search(env)
    except SearchConnectionRequired:return {'status':'capability_required','kind':'source_search','reason':'tavily_search_connection_required','stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
@@ -341,7 +344,10 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
   from .recovery import circuit_open
   if not no_model and circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
   if not no_model and not health.get('eligible_'+kind+'_slots'):return {'status':'capability_required','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
-  client=None if no_model else client_factory(health,allow_calls=True,capabilities=(kind,))
+  if regional_read:
+   from types import SimpleNamespace
+   client=SimpleNamespace(source_search_env=env) # search-only stage, never a text call
+  else:client=None if no_model else client_factory(health,allow_calls=True,capabilities=(kind,))
   if real_search:client.source_search_env=env
   # Legacy paid attempts still constrain the new stage system; never reset them.
   old=folder/'cycle-attempts.json'

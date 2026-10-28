@@ -156,15 +156,27 @@ def source_checked(row,article,folder,data):
  if evidence.get('article_sha256')!=digest(article) or evidence.get('brief_sha256')!=digest(brief):raise RepairBlocked('source_evidence_changed')
  validate_article_review_result(article,evidence.get('review'))
 
+def regional_ready(row,folder,data):
+ from .regional_sources import enabled as regional_enabled,require_local,RegionalBlocked
+ if not regional_enabled(data):return True
+ try:require_local(load_json(folder/'article.json'),load_json(data/'briefs'/(row['topic_id']+'.json')),row['language'],data,folder);return True
+ except (RegionalBlocked,FileNotFoundError):return False
+
+def regional_due(row,folder,data):
+ from .regional_sources import enabled as regional_enabled,require_local,RegionalBlocked
+ if row.get('status')!='approved' or published(folder,row['language']) or not regional_enabled(data):return False
+ try:require_local(load_json(folder/'article.json'),load_json(data/'briefs'/(row['topic_id']+'.json')),row['language'],data,folder);return False
+ except (RegionalBlocked,FileNotFoundError):return True
+
 def run_item(p,client,data=DATA):
  """One reserved attempt <=4 requests: draft/review or review/edit/review/feedback."""
  from .tajik_full_verification import canonical_rows,mechanical,edit_rows,GLOSSARY,check_review
  from .translation_chunks import normalize_batch
  row=load_json(p);pol=policy(data);folder=p.parent.parent;article=load_json(folder/'article.json')
  if row.get('language') not in LANGUAGES or p.name!=row['language']+'.json' or folder.name!=row['topic_id']:raise RepairBlocked('queue_identity_mismatch')
- if not due(row):return {'status':'not_due','model_calls':0}
+ if not due(row) and not regional_due(row,folder,data):return {'status':'not_due','model_calls':0}
  if row['article_sha256']!=digest(article):row['status']='source_changed';atomic_json(p,row);return {'status':'source_changed','model_calls':0}
- if row['status']=='reserved' and approved(folder,article,row['language']):
+ if row['status']=='reserved' and approved(folder,article,row['language']) and regional_ready(row,folder,data):
   root=folder/'review-queue/attempts'/row['language']/str(row['attempts'])
   row['model_calls_spent']+=len(list(root.glob('*.receipt.json')));row.update(status='approved',next_attempt_at=None,reason='recovered_checked_approval');atomic_json(p,row);return {'status':'approved','model_calls':0}
  if row['status']=='reserved':
@@ -178,6 +190,10 @@ def run_item(p,client,data=DATA):
  lang=row['language'];_,values=source_segments(article);source=[plain_citations(v)[0] for v in values];batch=[{'id':i,'text':s} for i,s in enumerate(source)];raw=None
  try:
   source_checked(row,article,folder,data)
+  from .regional_sources import local_research,enabled as regional_enabled
+  if regional_enabled(data):
+   topic=get_topic('new',row['topic_id'],data);brief=load_json(data/'briefs'/(row['topic_id']+'.json'))
+   local_research(topic,article,brief,lang,client,data,folder.parent.parent,folder,root,limit)
   # Candidates from previous rejected attempts are retained/reused, never regenerated blindly.
   candidate=folder/'review-queue'/('candidate-'+lang+'.json')
   if candidate.exists():
@@ -250,6 +266,20 @@ def run_item(p,client,data=DATA):
   else:atomic_json(p,row)
  return {'topic_id':row['topic_id'],'language':lang,'status':row['status'],'model_calls':spent}
 
+def initialize_regional_search(db,out,run_id):
+ from .source_search import initialize as initialize_search
+ from .parallel_pool import connect
+ initialize_search(db,out)
+ # Primary family workers have their own (now closed) pool. Carry forward
+ # this SAME Actions run's search usage, so two pools cannot each spend 80.
+ prior=out/'parallel/lifecycle/runs'/run_id/'report.json'
+ if prior.exists():
+  report=load_json(prior)
+  if report.get('run_id')!=run_id:raise RepairBlocked('regional_search_run_binding_invalid')
+  count=report.get('source_search',{}).get('requests_reserved',0)
+  if type(count)is not int or not 0<=count<=80:raise RepairBlocked('regional_search_run_budget_invalid')
+  with connect(db) as c:c.execute("UPDATE search_meta SET value=MAX(value,?) WHERE name='calls'",(count,))
+
 def process_due(env,health,data=DATA,out=OUT,topic_ids=None):
  from .parallel_pool import initialize,snapshot,routing_counts,routing_backpressure,record_routing
  from .parallel_client import ParallelModelClient
@@ -257,11 +287,15 @@ def process_due(env,health,data=DATA,out=OUT,topic_ids=None):
  from .provider_diagnostic import active_cooldown
  pol=policy(data)
  if active_cooldown(out):return {'status':'provider_cooldown','model_calls':0}
- todo=[p for p in entries(out) if (topic_ids is None or load_json(p).get('topic_id') in topic_ids) and due(load_json(p)) and not load_json(p).get('experimental_only')][:pol['max_items_per_run']]
+ todo=[p for p in entries(out) if (topic_ids is None or load_json(p).get('topic_id') in topic_ids) and (due(load_json(p)) or regional_due(load_json(p),p.parent.parent,data)) and not load_json(p).get('experimental_only')][:pol['max_items_per_run']]
  if not todo:return {'status':'no_due_items','model_calls':0}
  run_id=env['GITHUB_RUN_ID'];db=out/'parallel/language-review-queue/runs'/run_id/'pool.sqlite'
  if db.exists():return {'status':'review_run_already_reserved','model_calls':0}
  initialize(db,health['eligible_text_slots'],text_limit=1,image_limit=1,max_calls=8,per_worker=4,prior_usage=routing_counts(out),prior_backpressure=routing_backpressure(out));results=[]
+ from .regional_sources import enabled as regional_enabled
+ from .source_search import persist as persist_search
+ use_search=regional_enabled(data)
+ if use_search:initialize_regional_search(db,out,run_id)
  for p in todo:
   row=load_json(p);worker_env=dict(env,AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB=str(db),AFP_PARALLEL_TOPIC=row['topic_id']+'-'+row['language'],AFP_PARALLEL_FAMILY='separate-language-review-queue')
   factory=AlternateDiagnosticClient if row['language']=='tg-TJ' else ParallelModelClient
@@ -274,5 +308,6 @@ def process_due(env,health,data=DATA,out=OUT,topic_ids=None):
    results.append({'topic_id':row['topic_id'],'language':row['language'],'status':'review_item_deferred','failure':failure_details(exc)})
   if snapshot(db)['cooldown_until_epoch']>datetime.datetime.now().timestamp():break
  pool=snapshot(db);record_routing(out,pool)
+ search_usage=persist_search(db,out) if use_search else None
  if pool['cooldown_until_epoch']>datetime.datetime.now().timestamp():atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text','at':utcnow(),'retry_at_epoch':pool['cooldown_until_epoch'],'reason':'language_review_queue_provider_failure'})
- result={'status':'bounded_review_cycle_completed','results':results,'model_calls':pool['model_requests_reserved'],'pool':pool};atomic_json(db.parent/'report.json',result);index(out);return result
+ result={'status':'bounded_review_cycle_completed','results':results,'model_calls':pool['model_requests_reserved'],'pool':pool,'source_search':search_usage};atomic_json(db.parent/'report.json',result);index(out);return result

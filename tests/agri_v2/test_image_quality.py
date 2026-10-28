@@ -77,7 +77,7 @@ class ImageQualityTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    p=Path(d);atomic_json(p/'wordpress-draft-payload.json',{'slug':'fixture','content':'<p>x</p>'});atomic_json(p/'article.json',{'content_html':'fixture'})
    for i in (1,2,3):(p/f'image-{i}.webp').write_bytes(b'fixture')
-   w=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'});w.preflight=Mock();w.call=Mock(return_value=([],{}))
+   w=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'},data=p/'test-data');w.preflight=Mock();w.call=Mock(return_value=([],{}))
    with self.assertRaises(q.ImageQualityError):w.publish(p,self.topic(),{'publish_authorized':True},True)
    self.assertTrue(all(len(x.args)<2 or x.args[1]=='GET' for x in w.call.call_args_list))
 

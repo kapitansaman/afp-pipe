@@ -21,7 +21,7 @@ class WPTests(unittest.TestCase):
  def test_slug_reconciliation_keeps_local_ownership_gate(self):
   with tempfile.TemporaryDirectory() as tmp:
    folder=Path(tmp);atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':'<p>x</p>'})
-   w=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'});w.user_id=2;w.preflight=lambda:None
+   w=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'},data=folder/'test-data');w.user_id=2;w.preflight=lambda:None
    paths=[]
    def fake(path,*a,**kw):
     paths.append(path)

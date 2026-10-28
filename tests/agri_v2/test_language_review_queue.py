@@ -94,7 +94,7 @@ class LanguageReviewQueueTests(unittest.TestCase):
      if method=='POST':p.update(data)
      return p,{}
    real_body=m.localized_body
-   def body(row,*_):
+   def body(row,*_,**kwargs):
     if row['language']=='ru-RU':raise ValueError('unmapped locale link')
     return real_body(row,media,{row['language']:[]})
    wp=WP()

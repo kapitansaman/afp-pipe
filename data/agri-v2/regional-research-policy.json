@@ -1,0 +1,94 @@
+{
+  "version": "regional-official-research-v1",
+  "enabled": true,
+  "profiles": {
+    "fa-IR": {
+      "countries": [
+        "IR"
+      ],
+      "query_language": "Persian",
+      "audience": "Iran; preserve province, climate, cultivar, soil and water conditions"
+    },
+    "tg-TJ": {
+      "countries": [
+        "TJ"
+      ],
+      "query_language": "Tajik Cyrillic; Russian queries may find Tajik institutional documents",
+      "audience": "Tajikistan; not Iran or Russia"
+    },
+    "ru-RU": {
+      "countries": [
+        "RU"
+      ],
+      "query_language": "Russian",
+      "audience": "Russia; distinguish regions and climate zones"
+    },
+    "ar-IQ": {
+      "countries": [
+        "AE",
+        "BH",
+        "DJ",
+        "DZ",
+        "EG",
+        "IQ",
+        "JO",
+        "KM",
+        "KW",
+        "LB",
+        "LY",
+        "MA",
+        "MR",
+        "OM",
+        "PS",
+        "QA",
+        "SA",
+        "SD",
+        "SO",
+        "SY",
+        "TN",
+        "YE"
+      ],
+      "query_language": "Arabic",
+      "audience": "Arab countries; not Iraq alone; label the actual country and do not generalize one country to all"
+    },
+    "en-US": {
+      "countries": [
+        "AU",
+        "BB",
+        "BW",
+        "BZ",
+        "CA",
+        "FJ",
+        "GB",
+        "GH",
+        "GY",
+        "IE",
+        "IN",
+        "JM",
+        "KE",
+        "MW",
+        "NA",
+        "NG",
+        "NZ",
+        "PG",
+        "PH",
+        "PK",
+        "RW",
+        "SG",
+        "TT",
+        "UG",
+        "US",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "query_language": "English",
+      "audience": "English-speaking countries; not the United States alone; label the actual country and do not generalize one climate to all"
+    }
+  },
+  "official_regional_sources_preferred": true,
+  "foreign_fallback": "credible_international_when_local_evidence_weak",
+  "news_is_agronomic_evidence": false,
+  "independent_language_research_required": true,
+  "schedule_enabled": false
+}
