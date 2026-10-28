@@ -1,21 +1,22 @@
 {
-  "all_claims_supported": true,
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false,
+  "all_claims_supported": false,
   "crop_species_and_product_match": true,
   "answers_exact_intent": true,
   "units_and_denominators_correct": true,
   "geography_and_transfer_limits_retained": true,
   "no_iranian_prescription_inferred": true,
-  "independent_sources": false,
-  "source_policy_version": "university-single-source-v1",
+  "independent_sources": true,
   "source_policy_satisfied": true,
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "فقط یک منبع دانشگاهی (Illinois Extension) به‌صورت مستقیم به ارزیابی کیفیت بذر کدو آجیلی، آزمون جوانه‌زنی، درصدهای تصمیم‌گیری و شرایط ذخیره‌سازی پرداخته است. منبع دوم (Oregon State) فقط جدول دمای خاک و عمق کاشت را ارائه می‌دهد و فاقد اطلاعات اختصاصی درباره بذر آجیلی است. مقاله پژوهشی PMC به ترکیب بیوشیمیایی بذرقطعاً پاسخ نمی‌دهد و فقط به‌عنوان منبع کمکی مفید است. هیچ‌یک از منابع حاوی توصیه تقویم کاشت یا رقم ایرانی نیستند؛ تمام ارقام دما فارنهایت و جغرافیا محدود به ایالات متحده است. تبدیل واحد به سلسیوس و ابعاد به سانتی‌متر بر عهده لایه انتشار است.",
+  "limitations": "منابع ارائه‌شده صرفاً از ترویج دانشگاهی ایالات متحده (ایلینوی و اورگن) و یک مقاله علمی یونانی/صربی برداشت شده‌اند؛ هیچ‌یک دستورالعمل کشت یا ارزیابی بذر بومی ایران نیستند. محدودیت جغرافیایی منابع صریحاً به اقلیم‌های معتدل آمریکای شمالی است و دماها بر حسب فارنهایت گزارش شده‌اند. مقاله PMC11397235 صرفاً ترکیب بیوشیمیایی دانه را بررسی کرده و فاقد هرگونه پروتکل ارزیابی کیفیت بذر، غربالگری بصری، یا تست جوانه‌زنی است. منبع ایلینوی عمومی‌ترین شرایط ذخیره‌سازی و تست جوانه‌زنی خانگی را توصیف می‌کند، نه پروتکل تخصصی بذر آجیلی. منبع اورگن صرفاً جدول دمای خاک است. هیچ‌یک از منابع عمق کاشت، تاریخچه کشت ایرانی، قیمت، یا توصیه کشت محلی ارائه نمی‌دهند. عنوان راهنمای ارزیابی کیفیت بذر کدو آجیلی پیش از خرید و کاشت پاسخ کاملی از سوی این منابع نیافته است.",
   "fact_checks": [
     {
       "fact_id": "f0",
-      "supported": true,
-      "scope_and_units_correct": true
+      "supported": false,
+      "scope_and_units_correct": false
     },
     {
       "fact_id": "f1",
@@ -39,7 +40,7 @@
     },
     {
       "fact_id": "f5",
-      "supported": true,
+      "supported": false,
       "scope_and_units_correct": true
     },
     {

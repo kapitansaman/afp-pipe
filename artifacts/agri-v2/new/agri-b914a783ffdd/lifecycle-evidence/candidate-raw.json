@@ -1,0 +1,91 @@
+{
+  "topic_id": "agri-b914a783ffdd",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum L.) — دانه خشک پالسی مصرفی انسانی (غلات خشک/پالسی؛ نه نخود سبز تازه، نه حبوبات دیگر)",
+  "slug": "agri-b914a783ffdd",
+  "outline": [
+    "مرجع پاسخ‌دهی: پیش‌نیازهای مرحله‌ای و اولویت‌بندی آب در طول رشد نخود",
+    "فشار محیطی بر رشد: دما و خشکی به عنوان خاتمه‌دهنده رشد",
+    "پایش ریشه/خاک و محدودیت‌های جذب آب",
+    "تعیین مرحله حساس و شکاف شواهد (کجا نیاز به بررسی منابع بیشتر است)"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "نخود به عنوان یک محصول خشک‌دوست نسبتاً مقاوم توصیف شده است و تحت تنش گرمایی و خشکی عملکرد بهتری نسبت به نخود فرنگی خشک و عدس دارد.",
+      "conditions": "شرایط تولید در مونتانا (US Ext. MSU MontGuide MT201703AG). مناطق با ۶ تا ۱۰ اینچ بارش فصل رشد مناسب هستند؛ دمای بالاتر از ۹۸ °F در اوایل گلدهی و تشکیل غلاف می‌تواند عملکرد را کاهش دهد.",
+      "evidence_id": "d3-e8",
+      "numeric_bindings": [
+        {
+          "value": "6-10",
+          "unit_quote": "6-10 inches of growing season precipitation",
+          "geographic_scope": "Montana (US Ext. MSU Research Centers trial sites)",
+          "product_scope": "chickpea (Cicer arietinum L.) grain/pulse"
+        },
+        {
+          "value": "98",
+          "unit_quote": "above 98 °F",
+          "geographic_scope": "Montana",
+          "product_scope": "chickpea (Cicer arietinum L.)"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "رشد و توسعه معمولاً توسط تنش محیطی مانند خشکی یا گرمای شدید خاتمه می‌یابد.",
+      "conditions": "رشد نامعین (indeterminate) نخود؛ تحت تنش گرمایی/خشکی رشد قطع می‌شود. باران اواخر فصل می‌تواند گیاهان به نظر راکد را مجدداً فعال کند.",
+      "evidence_id": "d3-e3",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عمق مؤثر ریشه نخود حدود ۳۰ اینچ و جذب آب عمدتاً از ۱۲ اینچ بالایی خاک است.",
+      "conditions": "محدوده ریشه‌زایی و برداشت آب در مونتانا؛ عمق ریشه افقية + راسته.",
+      "evidence_id": "d3-e18",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "30 inches",
+          "geographic_scope": "Montana (US Ext. MSU Research Centers)",
+          "product_scope": "chickpea (Cicer arietinum L.)"
+        },
+        {
+          "value": "12",
+          "unit_quote": "top 12 inches of soil",
+          "geographic_scope": "Montana",
+          "product_scope": "chickpea water uptake zone"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آبیاری مکرر می‌تواند باعث بیماری‌زایی بیشتر و گلدهی نامعین و رسیدن دیرتر با کاهش کیفیت شود.",
+      "conditions": "تجربه آبیاری در Huntley (مونتانا): آبیاری با حداقل آب اضافی (۲ تا ۳ اینچ در فصل) عملکرد بیشتری نسبت به خشکی دارد؛ اما آبیاری مکرر مشکلات بیماری و کیفیت را تشدید می‌کند.",
+      "evidence_id": "d3-e6",
+      "numeric_bindings": [
+        {
+          "value": "2-3",
+          "unit_quote": "minimal additional water (2-3 inches per season)",
+          "geographic_scope": "Huntley, Montana",
+          "product_scope": "chickpea irrigation"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود از عمق ریشه Taproot عمیق برخوردار است و می‌تواند از لایه‌های عمیق‌تر خاک آب خارج کند.",
+      "conditions": "انتشار Wisconsin (d2-e4): به دلیل ریشه taproot عمیق، نخود می‌تواند شرایط خشکی را تحمل کند.",
+      "evidence_id": "d2-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود به خاک‌های شور سازگار نیست و از خیس‌آب‌دار شدن وحشت دارد.",
+      "conditions": "خاک مناسب: زهکش خوب، pH خنثی. عدم سازگاری با خاک‌های شور و حساسیت به آب‌ایستاده.",
+      "evidence_id": "d3-e9",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "منابع موجود اطلاعات کیفی درباره تاب‌آوری کلی نخود به خشکی، عمق ریشه و اثرات آبیاری مفرط را پوشش می‌دهند؛ اما هیچ‌یک مرحله حساس رشد نخود به کم‌آبی (مثلاً مرحله گلدهی، غلاف‌بندی، یا پرشدن دانه) یا دستورالعمل اولویت‌بندی/time-of-application آب را به صراحت تعیین نکرده‌اند. بنابراین پاسخ کامل به عنوان 'مراحل حساس نخود به کم‌آبی؛ اولویت‌بندی آب در طول رشد' از شواهد مستقیم پشتیبانی نمی‌شود."
+}

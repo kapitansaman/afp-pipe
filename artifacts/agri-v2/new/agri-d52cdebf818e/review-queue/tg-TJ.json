@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "topic_id": "agri-d52cdebf818e",
+  "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+  "language": "tg-TJ",
+  "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+  "status": "waiting",
+  "reason": "translation_or_review_needs_another_attempt",
+  "attempts": 1,
+  "model_calls_spent": 2,
+  "next_attempt_at": "2026-10-28T12:38:17.980441+00:00",
+  "history": [
+    {
+      "event": "reserved",
+      "attempt": 1,
+      "max_calls": 4,
+      "at": "2026-10-28T06:37:21.812895+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 1,
+      "reserved_model_calls": 2,
+      "status": "waiting",
+      "at": "2026-10-28T06:38:17.980392+00:00"
+    }
+  ],
+  "created_at": "2026-10-28T06:37:21.806485+00:00",
+  "experimental_only": false,
+  "publication_authorized_by_queue": false,
+  "last_started_at": "2026-10-28T06:37:21.812890+00:00",
+  "pending_issues": [
+    {
+      "id": 6,
+      "category": "number_unit",
+      "detail": "Translation changed numbers"
+    },
+    {
+      "id": 10,
+      "category": "number_unit",
+      "detail": "Translation changed numbers"
+    },
+    {
+      "id": 11,
+      "category": "number_unit",
+      "detail": "Translation changed numbers"
+    },
+    {
+      "id": 44,
+      "category": "number_unit",
+      "detail": "Translation changed numbers"
+    },
+    {
+      "id": 47,
+      "category": "number_unit",
+      "detail": "Translation changed numbers"
+    },
+    {
+      "id": 48,
+      "category": "number_unit",
+      "detail": "Translation changed numbers"
+    },
+    {
+      "id": 58,
+      "category": "number_unit",
+      "detail": "Translation changed numbers"
+    },
+    {
+      "id": 62,
+      "category": "number_unit",
+      "detail": "Translation changed numbers"
+    }
+  ],
+  "last_failure": {
+    "kind": "validation",
+    "category": "unspecified"
+  },
+  "primary_finished": true
+}

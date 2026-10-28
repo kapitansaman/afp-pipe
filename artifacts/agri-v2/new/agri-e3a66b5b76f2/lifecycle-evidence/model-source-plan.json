@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T06:29:27.170049+00:00",
+  "topic_id": "agri-e3a66b5b76f2",
+  "input_binding": {
+    "topic_sha256": "8d5366731720cdff9b1713ce36e32fb041acdd3d7c50a810008bad3e987bc48e",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "74ef50a935089e440c1ea51047b8101edd8333fa2b6865a2960d0a48cfa0ff2a"
+  },
+  "plan": {
+    "topic_id": "agri-e3a66b5b76f2",
+    "gap": "Missing evidence on measured soil moisture thresholds (matric potential in kPa or volumetric water content %), sensor methods (tensiometers, FDR/TDR), and how irrigation timing decisions differ from fixed-interval calendars for alfalfa. No sourced unit standards, growth-stage adjustments, or direct field-measurement protocols were confirmed.",
+    "queries": [
+      "alfalfa soil moisture sensor irrigation scheduling threshold kPa university extension",
+      "alfalfa tension meter soil water potential irrigation decision crop water use applied water"
+    ],
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "need": "Document the specific soil moisture measurement method used in research (tensiometer, FDR capacitance probe, TDR, gypsum block), the trigger threshold in original units (kPa, cbar, or %VWC), and how the farmer or system acts on that reading versus a calendar schedule."
+      },
+      {
+        "id": "species_product",
+        "need": "Confirm the evidence applies specifically to alfalfa (Medicago sativa) as a forage/perennial legume crop; do not conflate with other legumes or grain crops."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Provide measured soil moisture values with original units (kPa, cbar, or % volumetric water content), distinguish crop evapotranspiration (ETc) from applied irrigation water volume, and specify any growth-stage or season adjustments to the threshold."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

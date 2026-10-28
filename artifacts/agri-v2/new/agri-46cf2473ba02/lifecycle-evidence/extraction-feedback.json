@@ -1,0 +1,32 @@
+{
+  "topic_id": "agri-46cf2473ba02",
+  "candidate_sha256": "70a4e622ab8916982862c8373b4cb4b99613a1c9d9592fa3d9cd62fc95d69415",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 3,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "در ارزیابی آسیب زمستانی، تراکم ساقه معیار تصمیم‌گیری است: بیش از 55 ساقه در فوت مربع تراکم محدودکننده نیست.",
+        "conditions": "منبع: UMN/Wisconsin Extension; محصول: alfalfa stand assessment; واحد: stems per square foot",
+        "evidence_id": "d4-e4",
+        "numeric_bindings": [
+          {
+            "value": "55",
+            "unit_quote": "55 stems per square foot",
+            "geographic_scope": "Upper Midwest (MN/WI)",
+            "product_scope": "alfalfa stand density assessment"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d4-e4",
+        "source_url": "https://extension.umn.edu/agriculture/crop-production/forages/assessing-alfalfa-winter-injury",
+        "quote": "y plants can result in productive stands, while lower populations will likely not be as productive. Assess stem density To further evaluate the potential productivity of an alfalfa stand, determine stem density by counting stems from 4 to 6 representative square foot areas within your field. Only count stems that are at least 6 inches tall. Use these guidelines to determine if adequate stem numbers are present for a productive field: More than 55 stems: Density is not limiting to production. 40 to 55 stems: Some reduction has occurred, but adequate forage production is still likely. Less than 40 stems: Significant forage yield reduction. Consider stand termination. Managing injured alfalfa stands As you consider management options, remember that injured alfalfa stands can exhibit delayed regrowth, but may be capable of partially recovering. Be careful not to rush into alternative options"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع موجود پاسخ مستقیمی درباره زمان‌بندی اولویت‌دار آبیاری تکمیلی یونجه دیم و ارزیابی اقتصادی آن ارائه نمی‌دهند. تنها شواهد مرتبط شامل اعمال 14 cm آبیاری آزمایشگاهی در خاک شنی Becker MN برای جبران ظرفیت پایین نگهداری آب است (d2-e10) و اشاره گذرا به عملکرد تا 14 ton/acre تحت مدیریت فشرده و آبیاری در جنوب شرقی آمریکا (d1-e14). هیچ‌یک از منابع معیارهای تصمیم‌گیری عملیاتی زمان آبیاری تکمیلی، آستانه تنش خشکی، هزینه-فایده آبیاری یا جدول اقتصادی برای یونجه دیم را ارائه نکرده‌اند."
+}

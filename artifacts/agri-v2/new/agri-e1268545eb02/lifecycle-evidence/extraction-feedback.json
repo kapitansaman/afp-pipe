@@ -1,0 +1,112 @@
+{
+  "topic_id": "agri-e1268545eb02",
+  "candidate_sha256": "64dde8ef2ecbb20e4e0edc3753beeae22cc4612097fd3f4e01cf456ab33d322b",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "جوانه‌زنی نخود از نوع هیپوجیه است؛ پوشش بذر و میوه‌های نطفه‌ای در زیر خاک باقی می‌مانند و ۱ تا ۲ گره فلس‌شکل روی ساقه درست زیر سطح خاک تشکیل می‌شود که در صورت آسیب جوانه (مثلاً یخبندان دیررس) نقطه رویش مجدد هستند.",
+        "conditions": "قلمرو: ایالت‌های مونتانا، اورگان و ویسکانسین آمریکا | محصول: بذر نخود (Cicer arietinum L.) | مرحله: جوانه‌زنی و ظهور",
+        "evidence_id": "d0-e15",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e15",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": " earlier. TABLE 1. Chickpea production (1,000 of harvested acres) since 2012 in the U.S> (3). Location 2012 2013 2014 2015 2016 Idaho 75.6 77.5 73.0 69.0 90.0 Montana 22.6 17.7 31.2 40.6 96.0 Washington 79.5 96.5 89.0 74.0 107.4 US Total 206.3 218.6 212.1 202.3 320.0 Chickpea germinates similar to dry pea with the seed coat and cotyledons remaining below ground ( hypogeal germination ). Developing plants will have 1-2 scale nodes on the stem just below the soil surface. These nodes serve as points of regrowth if the seedling is damaged (a late frost for example). On average, a new node (leaf) is produced every 3 to 4 days. Yield potential and markets Statewide variety trials conducted at the MSU Research Centers for the past five years show yields averaging over 1500 lb/acre (Table 2) across all varieties. Areas around Corvallis and Sidney have shown more stable production across varieti"
+      }
+    },
+    {
+      "fact_index": 1,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "کیفیت بذر نخود باید بالای ۸۵ درصد جوانه‌زنی، آزاد از آسیب فیزیکی و بذراتweed باشد؛ بذرهای با پوسته نازک و اندازه بزرگ در حین فرآوری و کاشت مستعد شکستگی و آسیب هستند و ارزش بقای آن‌ها در مزرعه حدود ۷۰ تا ۸۰ درصد گزارش شده است.",
+        "conditions": "قلمرو: ایالت‌های مونتانا، ویسکانسین/مینسوتا آمریکا | محصول: بذر نخود | محدوده: درصد جوانه‌زنی و بقای مزرعه‌ای",
+        "evidence_id": "d0-e26",
+        "numeric_bindings": [
+          {
+            "value": "85",
+            "unit_quote": "over 85%",
+            "geographic_scope": "Montana, Wisconsin/Minnesota, USA",
+            "product_scope": "chickpea seed"
+          },
+          {
+            "value": "70-80",
+            "unit_quote": "70-80%",
+            "geographic_scope": "Montana, USA",
+            "product_scope": "chickpea seed"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e26",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": " you are rolling a field, do so prior to seed emergence as newly emerged stems can be broken. Seeding rate and date A final minimum population of 4 plants/ft 2 or 175,000 plants/acre should be targeted. Due to their thin seed coats and large size, garbanzo seed can easily be damaged or split during processing and planting resulting in field survival values of only 70-80%. Seed size varies significantly across different types so adjust seeding rates for seeds/lb, germination percentage, and field survival. Large Kabuli seed rates can be as high as 200 to 250 lb/a in order to achieve the target population. Because of the high seed cost per acre, consider custom planting if there isn't a suitable drill available. Row spacing should be between 6 and 12 inches. Narrow rows provide an increased level of competition against weeds. Plant chickpea within a week or two of the optimum date for loca"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "بذر نخود باید در عمق ۱ تا ۲ اینچ کاشته شود و بستر بذر باید سفت و صاف باشد؛ در شرایط کم‌آبی، شخم عمیق پیش از کاشت باید به حداقل برسد تا از خشک شدن بیش از حد ۲ تا ۳ اینچ بالایی خاک جلوگیری شود.",
+        "conditions": "قلمرو: ویسکانسین/مینسوتا و مونتانا آمریکا | محصول: بذر نخود | محدوده: عمق کاشت و مدیریت رطوبت بستر",
+        "evidence_id": "d2-e8",
+        "numeric_bindings": [
+          {
+            "value": "1 to 2",
+            "unit_quote": "1 to 2 in. deep",
+            "geographic_scope": "Wisconsin/Minnesota/Montana, USA",
+            "product_scope": "chickpea seed"
+          },
+          {
+            "value": "2 to 3",
+            "unit_quote": "top 2 to 3 in. of soil",
+            "geographic_scope": "Wisconsin/Minnesota/Montana, USA",
+            "product_scope": "chickpea seed"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e8",
+        "source_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+        "quote": " pods. Flower and pod abortion rates increase if flowering and pod set coincide with the hottest and driest weather pattern. More research is needed in this area using currently available varieties. C. Method and Rate of Seeding: Chickpeas can be planted at row spacing between 6 in. and 40 in. South Dakota research showed a yield of 2936 lb/acre in 6 in. rows with only 1900 lb/acre yield production in 36 in. rows. Both row spacings had excellent weed control, and a plant population near the recommended rate of 140,000 live seeds planted per acre. Because seed size varies widely, this planting rate in pounds of seed per acre could vary from 75 to 150 lb/acre. Seeds dropped per foot for 6 in. rows should be about 2; for 15 in. rows 4 or 5 and for 36 in. rows about 10. Seeds should be planted 1 to 2 in. deep using a drill or planter which can deliver the chickpea seed without damage. Good s"
+      }
+    },
+    {
+      "fact_index": 7,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "عمق مؤثر ریشه‌ای نخود حداکثر ۳۰ اینچ است و گیاه آب را عمدتاً از ۱۲ اینچ بالایی خاک مصرف می‌کند؛ این محدودیت ریشه‌ای تحت شرایط کم‌آبی بستر بذر، احتمال عدم استقرار مناسب را افزایش می‌دهد.",
+        "conditions": "قلمرو: مونتانا آمریکا | محصول: نخود | محدوده: عمق ریشه و منابع آبی قابل دسترسی",
+        "evidence_id": "d0-e28",
+        "numeric_bindings": [
+          {
+            "value": "30",
+            "unit_quote": "no more than 30 inches",
+            "geographic_scope": "Montana, USA",
+            "product_scope": "chickpea"
+          },
+          {
+            "value": "12",
+            "unit_quote": "top 12 inches of soil",
+            "geographic_scope": "Montana, USA",
+            "product_scope": "chickpea"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d0-e28",
+        "source_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+        "quote": "ease organisms (namely, Ascochyta blight) become established. Since many disease organisms survive on plant residue, a break in pulse crop production of three or more years provides enough time for pulse residue to completely disappear which is good management for long-term production of this crop. Small grains complement pulse crops by providing a bed of straw and residue in which to plant. Standing straw encourages upright growth, higher seed set, and is effective in minimizing evaporation while conserving precipitation for use by the pulse crop. The effective rooting depth of chickpea is no more than 30 inches and the crop uses water mostly from the top 12 inches of soil (6) . Chickpea is a full-season crop that will continue to grow into August or even early September in many Montana locations. Depending on precipitation recharge in late summer, it may be difficult to follow chickpea"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع فراهم‌شده شامل اطلاعات کیفی درباره هیپوجیه بودن جوانه‌زنی، عمق کاشت (۱ تا ۲ اینچ)، کیفیت بذر (بالای ۸۵٪ جوانه‌زنی، بقای ۷۰-۸۰٪)، حساسیت به شوری و غرقابی، و بازه دمایی بهینه رشد (۷۰-۸۴ °F روزانه، ۶۴-۷۰ °F شبانه) و آستانه تنش گرمایی (بالای ۹۸ °F) هستند، اما مقدار عددی مشخصی برای دمای حداقل/بهینه جوانه‌زنی، درصد رطوبت هدف خاک یا روش اندازه‌گیری سله خاک ارائه نمی‌دهند. بنابراین پاسخ مستقیم به سوال «چرا بذر نخود سبز نمی‌شود» بر پایه معیارهای کمی دما، رطوبت و سله خاک در دسترس نیست."
+}

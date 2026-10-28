@@ -1,0 +1,97 @@
+{
+  "topic_id": "agri-108b007ce25b",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "یونجه — علوفه تازه (alfalfa fresh forage)",
+  "slug": "alfalfa-regrowth-post-harvest-irrigation-nutrition-management",
+  "outline": [
+    "وضعیت و مرحله رشد پس از چین",
+    "محدودیت‌های شواهد موجود درباره آبیاری و تغذیه پس از برداشت",
+    "معیارهای کیفی مرتبط با مدیریت رشد مجدد"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "پس از چین، گیاه یونجه ابتدا تا ارتفاع حدود ۶ اینچ بدون تغذیه خارجی رشد می‌کند و سپس شروع به ذخیره مجدد کربوهیدرات تاج و ریشه برای سیکل رشد مجدد بعدی می‌نماید.",
+      "conditions": "منطقه: مینه‌سوتا مرکزی، ایالات متحده؛ محصول: یونجه علوفه تازه؛ منظره: پس از هر چین",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "پیشنهاد ارتفاع بقایای پس از چین حدود ۴ اینچ است تا جوانه‌های جانبی ترمیم شوند و استقامت بوته حفظ گردد.",
+      "conditions": "منطقه: آلاباما/جنوب شرقی ایالات متحده؛ محصول: یونجه علوفه تازه؛ ارتفاع بقایا: حدود ۴ اینچ",
+      "evidence_id": "d1-e15",
+      "numeric_bindings": [
+        {
+          "value": "4",
+          "unit_quote": "4 inches",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa fresh forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "فاصله بین چین‌های متوالی در مدیریت معمول بین ۲۸ تا ۳۵ روز گزارش شده و این بازه تحت شرایط آبیاری فشرده ممکن است افزایش یافته و محصول از ۴ تا ۱۰ تن در هکتar در سال به بیش از ۱۴ تن برسد.",
+      "conditions": "منطقه: جنوب شرقی ایالات متحده؛ محصول: یونجه علوفه تازه؛ سیستم: آبیاری/مدیریت فشرده",
+      "evidence_id": "d1-e14",
+      "numeric_bindings": [
+        {
+          "value": "4 to 10",
+          "unit_quote": "4 to 10 tons per acre annually",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa fresh forage"
+        },
+        {
+          "value": "14",
+          "unit_quote": "exceed 14 tons per acre under more intensive management and irrigation",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa fresh forage"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "کاهش تواتر چین با بلوغ بیشتر سبب افزایش کیفیت تغذیه‌ای در هر برداشت می‌شود ولی تولید فصلی کل کاهش می‌یابد.",
+      "conditions": "منطقه: upper midwestern United States؛ محصول: یونجه علوفه خشک‌شده/تازه",
+      "evidence_id": "d2-e4",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در یک سایت آزمایشی مینه‌سوتا با خاک شنی دارای ظرفیت نگهداری آب پایین، سالانه ۱۴ سانتی‌متر آبیاری اعمال شد.",
+      "conditions": "منطقه: Becker, Minnesota, USA؛ محصول: یونجه علوفه تازه؛ سامانه: محوطه آزمایشی؛ مقدار: ۱۴ سانتی‌متر در سال",
+      "evidence_id": "d2-e10",
+      "numeric_bindings": [
+        {
+          "value": "14",
+          "unit_quote": "14 cm of irrigation was applied each year at Becker",
+          "geographic_scope": "Becker, MN, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "توصیه کلی برای تغذیه پس از برداشت این است که به ازای هر تن یونجه برداشت‌شده، ۱۲ پوند فسفر و ۵۰ پوند پتاسیم به هکتar اعمال شود.",
+      "conditions": "منطقه: Alabama Extension; محصول: یونجه علوفه تازه؛ واحد: پوند بر acre",
+      "evidence_id": "d1-e13",
+      "numeric_bindings": [
+        {
+          "value": "12",
+          "unit_quote": "12 pounds of phosphorus (P2O5) per acre",
+          "geographic_scope": "Alabama, southeastern United States",
+          "product_scope": "alfalfa fresh forage"
+        },
+        {
+          "value": "50",
+          "unit_quote": "50 pounds of potash (K2O) per acre",
+          "geographic_scope": "Alabama, southeastern United States",
+          "product_scope": "alfalfa fresh forage"
+        }
+      ]
+    }
+  ],
+  "insufficiency_reason": "محتوای منابع موجود به‌طور مستقیم و مشخص پروتکل آبیاری پس از چین یا برنامه تغذیه اختصاصی رشد مجدد یونجه را پوشش نمی‌دهد. شواهد حاضر فقط محدود به فاصله زمانی کلی بین چین‌ها (۲۸-۳۵ روز)، توصیه کلی خوراكی P و K به ازای هر تن برداشت، یک مشاهده آبیاری آزمایشگاهی ۱۴ سانتی‌متری سالانه در مینه‌سوتا، و اصل کیفی بازگشت ذخایر قندی پس از رسیدن به ارتفاع حدود ۶ اینچ هستند. هیچ منبع ارائه‌شده معیار تصمیم‌گیری اندازه‌گیری‌شده برای زمان‌بندی آبیاری پس از چین یا دوز تغذیه اختصاصیِ مرحله رشد مجدد را شامل نمی‌شود."
+}

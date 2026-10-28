@@ -1,0 +1,78 @@
+{
+  "topic_id": "agri-4e0b195e7205",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum L.) — دانه خشک حبوبات",
+  "slug": "first-irrigation-chickpea-soil-moisture-management",
+  "outline": [
+    "ورودی‌های اندازه‌گیری‌شده",
+    "منطق تصمیم و واحدها",
+    "پایش مزرعه یا شبکه",
+    "خطاها و حدود کاربرد"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "در شرایط کشت آبی در هانتلی، مونتانا، حاصل‌خیزی قابل توجه با افزودن تنها ۲ تا ۳ اینچ آب در فصل رشد ثبت شده است.",
+      "conditions": "مکان: هانتلی، مونتانا، ایالات متحده | سامانه: کشت آبی | محصول: نخود (Cicer arietinum) دانه خشک | دامنه: افزودن ۲ تا ۳ اینچ آب در فصل | محدودیت: مشاهده آزمایشگاهی/ترویجی منطقه‌ای، بدون معیار زمانی برای اولین آبیاری",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": [
+        {
+          "value": "2 to 3",
+          "unit_quote": "2-3 inches",
+          "geographic_scope": "Huntley, Montana, US",
+          "product_scope": "chickpea grain"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "آبیاری مکرر در نخود می‌تواند منجر به افزایش بیماری و گلدهی و رسیدن نامتعادل شود که کیفیت محصول نهایی را کاهش می‌دهد.",
+      "conditions": "مکان: مونتانا، ایالات متحده | محصول: نخود (Cicer arietinum) دانه خشک | سامانه: آبیاری تکمیلی | محدودیت: هشدار کیفیتی، فاقد آستانه رطوبتی یا زمان‌بندی مشخص",
+      "evidence_id": "d0-e17",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "عمق مؤثر ریشه نخود حداکثر ۳۰ اینچ و مصرف آب عمدتاً از ۱۲ اینچ بالای خاک است.",
+      "conditions": "مکان: مونتانا، ایالات متحده | محصول: نخود (Cicer arietinum) | ناحیه: لایه‌های بالای خاک | محدودیت: توصیف مورفولوژیک ریشه، فاقد آستانه رطوبتی برای تصمیم آبیاری",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "30 inches",
+          "geographic_scope": "Montana, US",
+          "product_scope": "chickpea field crop"
+        },
+        {
+          "value": "12",
+          "unit_quote": "top 12 inches",
+          "geographic_scope": "Montana, US",
+          "product_scope": "chickpea field crop"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در صورت کمبود رطوبت خاک، کشت عمیق پیش از کاشت باید به حداقل برسد تا از خشک شدن بیش از حد ۲ تا ۳ اینچ بالای خاک جلوگیری شود.",
+      "conditions": "مکان: ویسکانسین/مینسوتا، ایالات متحده | محصول: نخود (Cicer arietinum) | مرحله: آماده‌سازی بستر بذر | محدودیت: توصیه کلی حفظ رطوبت سطحی، فاقد معیار تعیین‌کننده زمان اولین آبیاری",
+      "evidence_id": "d2-e6",
+      "numeric_bindings": [
+        {
+          "value": "2 to 3",
+          "unit_quote": "top 2 to 3 in. of soil",
+          "geographic_scope": "Wisconsin / Minnesota, US",
+          "product_scope": "chickpea seedbed"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود نسبت به آب‌ایستادگی حساس است و زهکشی خوب برای جلوگیری از پوسیدگی ریشه و ساقه ضروری است.",
+      "conditions": "مکان: ایالات متحده (ویسکانسین/مینسوتا/واشینگتن/ایداهو) | محصول: نخود (Cicer arietinum) | محدودیت: ویژگی زهکشی خاک، فاقد آستانه رطوبتی آبیاری",
+      "evidence_id": "d2-e5",
+      "numeric_bindings": []
+    }
+  ],
+  "insufficiency_reason": "منابع موجود معیار تصمیم‌گیری مستقیم برای زمان‌بندی اولین آبیاری نخود پس از کاشت (آستانه رطوبت خاک در ناحیه استقرار ریشه، مرحله رشد هدف، یا بازه زمانی پس از سبز شدن) را ارائه نمی‌دهند. عبارات d0-e17 و d2-e6 تنها به مقدار کلی آب آبیاری تکمیلی (۲ تا ۳ اینچ/فصل) و حفظ رطوبت سطحی ۲ تا ۳ اینچ اشاره دارند، اما هیچ‌یک روش تعیین زمان اولین آبیاری یا پایش رطوبت ناحیه استقرار را پوشش نمی‌دهند."
+}

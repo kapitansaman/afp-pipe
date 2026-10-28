@@ -1,4 +1,6 @@
 {
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false,
   "all_claims_supported": true,
   "crop_species_and_product_match": true,
   "answers_exact_intent": false,
@@ -6,11 +8,11 @@
   "geography_and_transfer_limits_retained": true,
   "no_iranian_prescription_inferred": true,
   "independent_sources": false,
-  "source_policy_version": "university-single-source-v1",
   "source_policy_satisfied": true,
+  "source_policy_version": "university-single-source-v1",
   "no_unsafe_input_rates": true,
   "human_review_claimed": false,
-  "limitations": "منابع چهار مورد از دانشگاه‌های آمریکا (ویرجینیا، ایلینوی، یوتا، آلاباما) هستند و هیچ‌یک شرایط ایران را پوشش نمی‌دهند. منابع به‌طور عمومی درباره کدو آجیلی/صیفی‌جات سخن گفته‌اند، نه گونهٔ Cucurbita pepo یا Cucurbita maxima خاصِ تولید بذر خوراکی؛ داده‌های عددی «۱ تا ۲ اینچ در هفته» متعلق به مزرعهٔ خانگی یوتا است، نه سامانه‌های آبیاری نیمه‌صنعتی یا صنعتی. فصل رشد و مرحلهٔ رشد (استقرار، رویشی، گل‌دهی، تشکیل میوه) در منابع تفکیک نشده و فقط توصیهٔ کلی «آبیاری عمیق و نامنظم» وجود دارد. برآورد حجم آب با اقلیم و مرحلهٔ رشد به‌صورت کمی قابل پاسخ نیست؛ نیاز آبی دقیق (ETc، Kc هر مرحله) در هیچ‌یک از متون موجود نیست. عنوان فارسی دربارهٔ «برآورد حجم آب با اقلیم و مرحله رشد» است، اما منابع فقط مقادیر آبیاری عمومی ارائه می‌دهند بدون محاسبهٔ حجم آب برای اقلیم‌های مختلف یا جداسازی مرحله‌ای.",
+  "limitations": "منابع جمع‌آوری‌شده عمدتاً به آبیاری عمومی کدو (پمپکین) میوه‌ای/تندمرغوب می‌پردازند، نه «کدو آجیلی» تولید بذر خوراکی. فکت f5 مقدار ۱-۲ اینچ در هفته را صراحتاً برای «کدو (پمپکین)» گزارش کرده و شرایط اقلیمی یوتا را قید نموده است؛ تعمیم این عدد به کدو آجیلی بدون شواهد مستقل نادرست خواهد بود. هیچ‌یک از منابع، برآورد حجم آب را بر حسب مرحله رشد (جوانه‌زنی/ستایش/گلدهی/تکانیدن بذر/رسیدگی میوه) یا دامنه اقلیمی خاص ارائه نمی‌دهند. متن‌های ارسالی فاقد پارامترهای Et، Kc یا نیاز آبی مطلق/نسبی به‌صورت مرحله‌ای هستند. محدودیت اصلی: عنوان سوال «برآورد حجم آب با اقلیم و مرحله رشد» است که نیازمند داده‌های کمی تفکیک‌شده بر حسب stage × climate است؛ این بخش تاکنون پاسخ داده نشده و منبع واحد دانشگاهی موجود صرفاً به توصیه‌های کیفی/توصیفی (عمیق و نامنظم، کاهش آبیاری هنگام رسیدن) بسنده می‌کند.",
   "fact_checks": [
     {
       "fact_id": "f0",
@@ -40,14 +42,12 @@
     {
       "fact_id": "f5",
       "supported": true,
-      "scope_and_units_correct": true
+      "scope_and_units_correct": false
     },
     {
       "fact_id": "f6",
       "supported": true,
       "scope_and_units_correct": true
     }
-  ],
-  "research_route_version": "full-queue-research-routes-v1",
-  "route_requirements_met": false
+  ]
 }

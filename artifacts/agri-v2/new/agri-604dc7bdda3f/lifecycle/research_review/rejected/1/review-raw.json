@@ -1,0 +1,53 @@
+{
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": false,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منابع چهار مورد از دانشگاه‌های آمریکا (ویرجینیا، ایلینوی، یوتا، آلاباما) هستند و هیچ‌یک شرایط ایران را پوشش نمی‌دهند. منابع به‌طور عمومی درباره کدو آجیلی/صیفی‌جات سخن گفته‌اند، نه گونهٔ Cucurbita pepo یا Cucurbita maxima خاصِ تولید بذر خوراکی؛ داده‌های عددی «۱ تا ۲ اینچ در هفته» متعلق به مزرعهٔ خانگی یوتا است، نه سامانه‌های آبیاری نیمه‌صنعتی یا صنعتی. فصل رشد و مرحلهٔ رشد (استقرار، رویشی، گل‌دهی، تشکیل میوه) در منابع تفکیک نشده و فقط توصیهٔ کلی «آبیاری عمیق و نامنظم» وجود دارد. برآورد حجم آب با اقلیم و مرحلهٔ رشد به‌صورت کمی قابل پاسخ نیست؛ نیاز آبی دقیق (ETc، Kc هر مرحله) در هیچ‌یک از متون موجود نیست. عنوان فارسی دربارهٔ «برآورد حجم آب با اقلیم و مرحله رشد» است، اما منابع فقط مقادیر آبیاری عمومی ارائه می‌دهند بدون محاسبهٔ حجم آب برای اقلیم‌های مختلف یا جداسازی مرحله‌ای.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false
+}

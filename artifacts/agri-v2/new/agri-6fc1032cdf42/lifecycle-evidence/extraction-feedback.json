@@ -1,8 +1,106 @@
 {
   "topic_id": "agri-6fc1032cdf42",
-  "candidate_sha256": "f4b7bcd123ae2d91425ad0baf8d11aac969784813c88286e9435f77c55a94b8f",
+  "candidate_sha256": "06910d51666b10168e93ac66bb532eed86f0e462a3b44b4f2f3bb952a49c2289",
   "scientific_approval": false,
-  "errors": [],
-  "candidate_error": "scoped_intent_or_local_prescription_rejected",
-  "declared_insufficiency": "مجموعه شواهد ارائه‌شده شامل راهنماهای تمدن دانشگاهی (Minnesota, Auburn/Alabama, Wisconsin) درباره زمان‌بندی برداشت یونجه بر اساس مرحله بلوغ، فرکانس切的 فصلی، ذخایر کربوهیدرات تاج و ریشه، مقاومت زمستانه و مدیریت شبدریان است؛ اما هیچ‌یک از این منابع معیار اندازه‌گیری‌شده یا توصیفی مستقیمی برای آخرین آبیاری یونجه پیش از برداشت، یا آستانه قطع/کاهش آب آبیاری قبل از هرس ارائه نمی‌دهند. بنابراین پاسخ به نیت preharvest_water برای محصول یونجه با شواهد موجود امکان‌پذیر نیست."
+  "errors": [
+    {
+      "fact_index": 1,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "قطع آبیاری در تابستان موجب آسیب دائمی به بوته نمی‌شود، اما عملکرد خشک‌شده کاهش می‌یابد.",
+        "conditions": "منبع دانشگاهی آریزونا، Maricopa; خاک: Casa Grande sandy loam; محصول: یونجه؛ کاهش عملکرد از 1.47 تا 1.28 ton/acre در چرخه دوم پس از قطع تابستانه",
+        "evidence_id": "d13-e1",
+        "numeric_bindings": [
+          {
+            "value": "1.47",
+            "unit_quote": "1.47 tons per acre",
+            "geographic_scope": "Maricopa, Arizona, USA",
+            "product_scope": "alfalfa hay"
+          },
+          {
+            "value": "1.28",
+            "unit_quote": "1.28 tons per acre",
+            "geographic_scope": "Maricopa, Arizona, USA",
+            "product_scope": "alfalfa hay"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d13-e1",
+        "source_url": "https://repository.arizona.edu/items/7f783f59-de64-4c4a-bb39-0ea76446313b",
+        "quote": ".net/10150/201408 Embargo Publisher College of Agriculture, University of Arizona (Tucson, AZ) Journal Forage and Grain: A College of Agriculture Report Table of Contents Abstract Alfalfa irrigation is often withheld as a water conservation measure in Arizona. The objective of this research was to test the hypothesis that alfalfa can be permanently damaged by withholding irrigation water. Irrigation was terminated during the summer (July or August through September) or summer through winter (July or August through mid -March) on a Casa Grande sandy loam at Maricopa. Irrigation termination at Maricopa was not detrimental to stand although hay yields were depressed from 1.47 to 1.28 tons per acre following the second cycle of summer irrigation termination and from 1.57 to 1.23 tons per acre per cutting following summer through winter irrigation termination. Alfalfa water use was reduced by"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "تعیین زمان برش پس از آبیاری بر اساس تخلیه حدود 50 درصد آب قابل دسترس در دو فوت بالایی خاک انجام می‌شود.",
+        "conditions": "منبع دانشگاهی یوتا; محصول: یونجه; روش: محاسبه ET بین دو آبیاری و برش",
+        "evidence_id": "d14-e10",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d14-e10",
+        "source_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+        "quote": "is needed. Estimated soil water (SW) content is determined by: SW2 = SW1 + Irr + Rain – Et – DP (3) Where SW1 and SW2 are the beginning and ending total available soil water contents, respectively; Irr and Rain are the respective amounts of infiltrated irrigation and rain; Et is calculated crop water use, or evapotranspiration; and DP is deep percolation or drainage out of the root zone. The time interval (update period) between Points 1 and 2 is generally 1 week, although it could be as short as one or two days. During the harvest cycle of alfalfa, irrigation, rain (hopefully) and deep percolation are zero, thus the soil water depletion is equal to Et. The minimum time between the last irrigation prior to cutting and clearing the bales off the field could be as little as five or six days (cut two or three days after irrigation plus three days curing, baling, and hauling) on a sandy soil"
+      }
+    },
+    {
+      "fact_index": 5,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "فاصله آبیاری تا برش بسته به بافت خاک و نرخ روزانه ET بین 2 تا 13 روز متغیر است.",
+        "conditions": "منبع دانشگاهی یوتا؛ جداول Table 1; خاک‌ها: sands/fine sands تا loam/clay loam; ET روزانه: 0.15 تا 0.35 inch/day",
+        "evidence_id": "d14-e16",
+        "numeric_bindings": [
+          {
+            "value": "0.15",
+            "unit_quote": "0.15 ... inches per day",
+            "geographic_scope": "Utah/Idaho, USA",
+            "product_scope": "alfalfa"
+          },
+          {
+            "value": "0.35",
+            "unit_quote": "0.35 inches per day",
+            "geographic_scope": "Utah/Idaho, USA",
+            "product_scope": "alfalfa"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d14-e16",
+        "source_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+        "quote": "lated Et should be approximately two inches after the irrigation and prior to the harvest to insure adequate soil drying. This could be summarized as a general rule of thumb by suggesting that the soil water should be depleted about 50 percent of available in the top two feet. The number of days to wait after irrigation prior to cutting will thus vary with soil water holding capacity and average crop Et for the period. This variation is shown in Table 1 for typical soils and daily alfalfa crop Et rates varying from 0.15 to 0.35 inches per day. The interval between irrigation and harvest varies from two days in lighter textured sandy soil at high summertime Et rate, to thirteen days in heavier clay soils at low Et rates, such as experienced in the spring and fall. Following the guidelines in Table 1, adjusted with local experience, could avoid much of the wet soil conditions causing curin"
+      }
+    },
+    {
+      "fact_index": 6,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "در مناطق silt loam جنوب آیداهو، حدود 2 inch ET تجمعی پس از آبیاری و پیش از برش برای خشک شدن کافی خاک لازم است.",
+        "conditions": "منبع دانشگاهی یوتا (personal communication); خاک: silt loam; محصول: یونجه",
+        "evidence_id": "d14-e15",
+        "numeric_bindings": [
+          {
+            "value": "2",
+            "unit_quote": "two inches",
+            "geographic_scope": "southern Idaho, USA",
+            "product_scope": "alfalfa"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d14-e15",
+        "source_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+        "quote": ", loamy sands 0.90 6 5 4 3 3 Sandy loam 1.35 9 7 5 5 4 Sandy clay loam 1.85 12 9 7 6 5 Loam, silt loam, silty clay 2.00 13 10 8 7 6 loam, clay loam a Average value for typical range of 50 percent of field capacity minus wilting point. time of swathing, soil will ball up on the guards and cause difficulty in the harvest operation. In that area, the wait is a week or longer after a surface irrigation before swathing hay (J.L. Wright, personal communication 2002). Sometimes harvest operations are delayed until the soil surface has dried out, however, in nighttime conditions that are conducive to the formation of dew, the soil surface may not dry out very readily. Wright (2002) further suggested that on the southern Idaho silt loam soil, accumulated Et should be approximately two inches after the irrigation and prior to the harvest to insure adequate soil drying. This could be summarized as "
+      }
+    }
+  ],
+  "candidate_error": "numeric_units_not_in_literal_source",
+  "declared_insufficiency": null
 }

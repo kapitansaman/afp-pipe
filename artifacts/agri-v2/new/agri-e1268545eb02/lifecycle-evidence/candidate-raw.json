@@ -1,0 +1,130 @@
+{
+  "topic_id": "agri-e1268545eb02",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "نخود (Cicer arietinum L.)",
+  "slug": "chickpea-germination-temperature-moisture-soil-crust",
+  "outline": [
+    "تعریف محصول و سامانه کشت",
+    "شواهد استقرار و جوانه‌زنی",
+    "پایش و تصمیم‌گیری — دما، رطوبت و سله خاک",
+    "خطاها و محدودیت انتقال"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "جوانه‌زنی نخود از نوع هیپوجیه است؛ پوشش بذر و میوه‌های نطفه‌ای در زیر خاک باقی می‌مانند و ۱ تا ۲ گره فلس‌شکل روی ساقه درست زیر سطح خاک تشکیل می‌شود که در صورت آسیب جوانه (مثلاً یخبندان دیررس) نقطه رویش مجدد هستند.",
+      "conditions": "قلمرو: ایالت‌های مونتانا، اورگان و ویسکانسین آمریکا | محصول: بذر نخود (Cicer arietinum L.) | مرحله: جوانه‌زنی و ظهور",
+      "evidence_id": "d0-e15",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کیفیت بذر نخود باید بالای ۸۵ درصد جوانه‌زنی، آزاد از آسیب فیزیکی و بذراتweed باشد؛ بذرهای با پوسته نازک و اندازه بزرگ در حین فرآوری و کاشت مستعد شکستگی و آسیب هستند و ارزش بقای آن‌ها در مزرعه حدود ۷۰ تا ۸۰ درصد گزارش شده است.",
+      "conditions": "قلمرو: ایالت‌های مونتانا، ویسکانسین/مینسوتا آمریکا | محصول: بذر نخود | محدوده: درصد جوانه‌زنی و بقای مزرعه‌ای",
+      "evidence_id": "d0-e26",
+      "numeric_bindings": [
+        {
+          "value": "85",
+          "unit_quote": "over 85%",
+          "geographic_scope": "Montana, Wisconsin/Minnesota, USA",
+          "product_scope": "chickpea seed"
+        },
+        {
+          "value": "70-80",
+          "unit_quote": "70-80%",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea seed"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "بذر نخود باید در عمق ۱ تا ۲ اینچ کاشته شود و بستر بذر باید سفت و صاف باشد؛ در شرایط کم‌آبی، شخم عمیق پیش از کاشت باید به حداقل برسد تا از خشک شدن بیش از حد ۲ تا ۳ اینچ بالایی خاک جلوگیری شود.",
+      "conditions": "قلمرو: ویسکانسین/مینسوتا و مونتانا آمریکا | محصول: بذر نخود | محدوده: عمق کاشت و مدیریت رطوبت بستر",
+      "evidence_id": "d2-e8",
+      "numeric_bindings": [
+        {
+          "value": "1 to 2",
+          "unit_quote": "1 to 2 in. deep",
+          "geographic_scope": "Wisconsin/Minnesota/Montana, USA",
+          "product_scope": "chickpea seed"
+        },
+        {
+          "value": "2 to 3",
+          "unit_quote": "top 2 to 3 in. of soil",
+          "geographic_scope": "Wisconsin/Minnesota/Montana, USA",
+          "product_scope": "chickpea seed"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در سیستم‌های شوری، بستر بذر باید از بیشتر بقایای محصول پیشین خالی، با کارایی ریز و فاقد کلوخه یا توده‌های بزرگ باشد؛ غلتک برای فشرده‌سازی سنگ‌ها ضروری نیست و اگر انجام شود باید پیش از ظهور بذر صورت گیرد تا ساقه‌های تازه ظاهر شده نشکنند.",
+      "conditions": "قلمرو: مونتانا و ویسکانسین آمریکا | محصول: بستر بذر نخود | محدوده: آماده‌سازی بستر و مدیریت کلوخه/سله",
+      "evidence_id": "d0-e25",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود یک محصول فصل خنک است و دمای بهینه رشد آن روزانه ۷۰ تا ۸۴ °F و شبانه ۶۴ تا ۷۰ °F گزارش شده است; دماهای بالای ۹۸ °F در مرحله گلدهی اولیه باعث تنش و کاهش عملکرد می‌شود، اما نخود نسبت به نخودفرنگی خشک و عدس در شرایط گرمای خشکی مقاوم‌تر عمل می‌کند.",
+      "conditions": "قلمرو: مونتانا و ویسکانسین آمریکا | محصول: نخود (Cicer arietinum L.) | محدوده: دمای بهینه رشد و آستانه تنش گرمایی",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": [
+        {
+          "value": "70 and 84",
+          "unit_quote": "daytime temperatures are between 70 and 84 °F",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea"
+        },
+        {
+          "value": "64 and 70",
+          "unit_quote": "nighttime temperatures are between 64 and 70 °F",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea"
+        },
+        {
+          "value": "98",
+          "unit_quote": "Temperatures above 98 °F",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "کاشت زودهنگام می‌تواند پتانسیل عملکرد را بهبود بخشد زیرا گلدهی پیش از گرمای تابستان انجام می‌شود، اما کاشت بسیار زودهنگام خطر آسیب یخبندان به گیاهان ظهورکرده را دارد؛ در صورت یخبندان، رویش جدید از گره‌های زيرخاکی آغاز می‌شود اما پتانسیل عملکرد معمولاً کاهش می‌یابد.",
+      "conditions": "قلمرو: مونتانا و اورگان آمریکا | محصول: نخود | محدوده: زمان کاشت و مقاومت به سرما",
+      "evidence_id": "d0-e27",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نخود به خاک‌های اشباع و غرقابی حساس است و زهکشی خوب لازم است؛ periods کوتاه غرقابی رشد را کاهش داده و حساسیت به پوسیدگی ریشه و ساقه را افزایش می‌دهد. همچنین بذر نخود به شوری بسیار حساس است و نرخ جوانه‌زنی می‌تواند در حضور کود شیمیایی کاهش یابد.",
+      "conditions": "قلمرو: مونتانا و ویسکانسین آمریکا | محصول: نخود | محدوده: زهکشی و حساسیت بذر به شوری",
+      "evidence_id": "d0-e20",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "عمق مؤثر ریشه‌ای نخود حداکثر ۳۰ اینچ است و گیاه آب را عمدتاً از ۱۲ اینچ بالایی خاک مصرف می‌کند؛ این محدودیت ریشه‌ای تحت شرایط کم‌آبی بستر بذر، احتمال عدم استقرار مناسب را افزایش می‌دهد.",
+      "conditions": "قلمرو: مونتانا آمریکا | محصول: نخود | محدوده: عمق ریشه و منابع آبی قابل دسترسی",
+      "evidence_id": "d0-e28",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "no more than 30 inches",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea"
+        },
+        {
+          "value": "12",
+          "unit_quote": "top 12 inches of soil",
+          "geographic_scope": "Montana, USA",
+          "product_scope": "chickpea"
+        }
+      ]
+    }
+  ],
+  "insufficiency_reason": "منابع فراهم‌شده شامل اطلاعات کیفی درباره هیپوجیه بودن جوانه‌زنی، عمق کاشت (۱ تا ۲ اینچ)، کیفیت بذر (بالای ۸۵٪ جوانه‌زنی، بقای ۷۰-۸۰٪)، حساسیت به شوری و غرقابی، و بازه دمایی بهینه رشد (۷۰-۸۴ °F روزانه، ۶۴-۷۰ °F شبانه) و آستانه تنش گرمایی (بالای ۹۸ °F) هستند، اما مقدار عددی مشخصی برای دمای حداقل/بهینه جوانه‌زنی، درصد رطوبت هدف خاک یا روش اندازه‌گیری سله خاک ارائه نمی‌دهند. بنابراین پاسخ مستقیم به سوال «چرا بذر نخود سبز نمی‌شود» بر پایه معیارهای کمی دما، رطوبت و سله خاک در دسترس نیست."
+}

@@ -1,0 +1,118 @@
+{
+  "round": 2,
+  "started_at": "2026-10-28T06:30:03.349520+00:00",
+  "queries": [
+    {
+      "query_id": "4f39fe8428ec0b0fc2c24055f7d3531927b1377d2ff0c1fb5bcbb7d98571bbff",
+      "query": "alfalfa regulated deficit irrigation field trial soil moisture kPa ETc fraction unit",
+      "cached": false,
+      "checked_at_epoch": 1793169006.1405716,
+      "results": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377426002180",
+          "title": "Field-scale evaluation of OpenET for quantifying ...",
+          "description": "by A Montazar · 2026 · Cited by 2 — Deficit irrigation reduced alfalfa ET by 40–50% during summer cutoffs. •. ET suppression under deficit irrigation was governed by soil moisture and canopy ...Read more"
+        },
+        {
+          "url": "https://worldalfalfacongress.ucdavis.edu/sites/g/files/dgvnsk8841/files/media/documents/Deficit%20irrigation%20strategies%3B%20why%20alfalfa%20is%20the%20best%20crop%20to%20have%20in%20a%20drought.pdf",
+          "title": "Deficit irrigation strategies: why alfalfa is the best crop to ...",
+          "description": "by DH Putnam · 2018 · Cited by 1 — Deficit irrigating all fields and applying less water than the alfalfa needs throughout the crop season. Partial Season Irrigation/Sudden Cutoff. Irrigated ...Read more5 pages"
+        }
+      ]
+    },
+    {
+      "query_id": "b404a7834301f26622c7fe2906c92387b92869c5b5625275fb8339df6b2e05fe",
+      "query": "alfalfa drought sensitive growth stage irrigation scheduling field measurement units mm kPa",
+      "cached": false,
+      "checked_at_epoch": 1793169009.071291,
+      "results": [
+        {
+          "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+          "title": "Irrigation Management and Crop Characteristics of Alfalfa",
+          "description": "The matric potential reading will increase as the soil becomes drier. After the field is irrigated, the matric potential readings typically return to lower values (i.e., 0 to 10 kPa). These wetting and drying cycles continue throughout the season as the crop is irrigated and the soil dries with crop water use and surface soil evaporation. The key to proper irrigation management using soil water sensors is to monitor the sensors regularly, track the soil water level, and irrigate when the [...] irrigate when the kilopascal (1 kPa = 1 cbar) readings are in the desired range for your soil type (See Table I; Orloff et al., 2001). Irrigating when the soil water readings exceed the desired range may result in crop stress and yield loss. Irrigation before the readings reach the desired range may result in excessive irrigation, water wastage or runoff. [...] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n ---  ---  ---  ---  ---  ---  --- |\n| |  |  | Table I. Suggested values of soil matric potential at which irrigations should be applied for alfalfa for different soil types. | | Soil type | Average soil matric potential   reading of top three sensors (kPa) | | Sand or loamy sand | 40-50 | | "
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 3,
+    "loaded": 1,
+    "sources": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378377426002180",
+        "status": "unavailable",
+        "category": "http_error",
+        "temporary": true,
+        "http_status": 403
+      },
+      {
+        "url": "https://worldalfalfacongress.ucdavis.edu/sites/g/files/dgvnsk8841/files/media/documents/Deficit%20irrigation%20strategies%3B%20why%20alfalfa%20is%20the%20best%20crop%20to%20have%20in%20a%20drought.pdf",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+        "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+        "redirect_hops": 0,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 3,
+  "coverage": {
+    "topic_id": "agri-cfaae7290b88",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s2",
+          "s14"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": true,
+        "document_ids": [
+          "s10",
+          "s14",
+          "s15"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document reports field-measured soil moisture (kPa or θ), applied irrigation in mm/inches per cutting, or geographic/site context paired with growth-stage water-stress sensitivity; s14 is a pot experiment, s15 gives acre-inch reductions without stage-specific units, s10/s11 are generic crop guides without alfalfa-site measurements."
+      }
+    ],
+    "next_queries": [
+      "alfalfa regulated deficit irrigation growth stage sensitivity soil moisture kPa field trial",
+      "alfalfa drought stress sensitive stage irrigation priority cutting frequency field measurement mm"
+    ]
+  },
+  "completed_at": "2026-10-28T06:30:23.250646+00:00"
+}

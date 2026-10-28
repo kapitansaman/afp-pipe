@@ -1,0 +1,584 @@
+{
+  "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+  "requested_url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+  "redirect_chain": [
+    "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling"
+  ],
+  "text": "[table row] Alfalfa | Effective rooting depth (feet): 4.0 [table row] Alfalfa | Maximum allowable depletion (%): 60 [table row] Beans | Effective rooting depth (feet): 2.0 [table row] Beans | Maximum allowable depletion (%): 50 [table row] Corn | Effective rooting depth (feet): 3.0 [table row] Corn | Maximum allowable depletion (%): 50 [table row] Grapes | Effective rooting depth (feet): 3.0 [table row] Grapes | Maximum allowable depletion (%): 65 [table row] Orchard | Effective rooting depth (feet): 3.0 [table row] Orchard | Maximum allowable depletion (%): 50–65 [table row] Potato | Effective rooting depth (feet): 2.0 [table row] Potato | Maximum allowable depletion (%): 30–40 [table row] Pasture/hay | Effective rooting depth (feet): 2.0 [table row] Pasture/hay | Maximum allowable depletion (%): 60 [table row] Small grains | Effective rooting depth (feet): 3.0 [table row] Small grains | Maximum allowable depletion (%): 50 Irrigation water scheduling | OSU Extension Service Skip to main content OSU Extension Catalog Peer reviewed (Orange level) Irrigation water scheduling Irrigation Technology and Management Program — Technical Guide 8 English Español María Isabel Zamora Re, Todd M. Peplin and Abigail Tomasek EM 9717 | April 2026 | Print-friendly version Contents Summary Benefits of irrigation water scheduling What do you need to get started? Advancing your water-management skills References and resources Section anchor \"summary\" Summary Applying too much or too little water is one of the most common irrigation management challenges. Excess irrigation can: Leach nutrients beyond the root zone Increase runoff and soil erosion Promote crop diseases Waste water and energy, increasing costs Insufficient water leads to: Crop stress Reduced yields Diminished crop quality Section anchor \"benefitis-irrigation-water-scheduling\" Benefits of irrigation water scheduling Proper irrigation scheduling: Applies water only when needed Reduces nutrient leaching Minimizes runoff and deep percolation Improves crop yield and quality Reduces pumping time and energy use Improves long-term soil health Effective scheduling maximizes return per unit of water applied. Irrigation scheduling is the process of determining when to irrigate and how much water to apply based on crop demand and soil water availability. Effective scheduling requires knowledge of: How much water your crop needs = Crop water use (evapotranspiration, or ET) How much water your soil can hold = Soil water-holding capacity Soil depth management = Rooting depth How much water and how efficiently your irrigation system applies it = Irrigation system application rate and efficiency With basic field information and a few calculations, irrigators can significantly improve water-use efficiency, crop performance and energy management within their operations. Section anchor \"what-need-get-started\" What do you need to get started? Irrigation scheduling is manageable when broken into key components. To develop a schedule, you will need to know: The available water capacity of your soil The ffective rooting depth of the crop The maximum allowable depletion for the crop The application rate of your irrigation system Your irrigation system’s efficiency Together, these values determine how much water can be stored, how much can be safely depleted and how much must be applied to refill the root zone. 1. The available water capacity of your soil The first step is determining how much water your soil can store within the crop root zone. Think of the soil as water reservoir or a bucket. The water in the bucket represents the water status in the soil profile (Figure 1). Immediately after heavy irrigation or a rainfall event, all soil pores (large and small) may be filled with water. This condition is called saturation . Under saturated conditions, gravitational water drains rapidly through the largest pores and is generally not retained in the root zone. Thus, it is unavailable to plants. This is when the bucket overflows. After gravitational drainage slows significantly, the soil reaches field capacity. At this point, water is held in smaller pores by capillary forces and is generally available for plant uptake. As the soil continues to dry, water is held increasingly tightly to soil particles. Plants must exert greater suction to extract water as soil-water tension (matric potential) increases. Eventually, the soil reaches the permanent wilting point — the point at which water remains in the soil but is held too tightly for plants to extract sufficient water to recover from wilting. The difference in soil water content between field capacity and permanent wilting point is called the available water capacity . Note: Although available water capacity represents plant-available water, not all water within this range is equally accessible. As soil dries, plants must work harder to extract water. For this reason, irrigation is typically scheduled at the maximum allowable depletion threshold to avoid plant stress and prevent the soil from approaching the permanent wilting point. Terms to know Saturation: Soil pores (small and large) are filled with water. Gravitational water drains rapidly through the soil and is not available for plant uptake. Irrigating beyond this point results in water loss below the root zone and potential nutrient leaching. Field capacity: The amount of water the soil can hold after excess water has drained and the rate of downward movement of water has decreased. Water is held in small and medium pores by capillary forces and is generally available for plant uptake. Maximum allowable depletion: The fraction of plant-available water that can be depleted before irrigation is needed to prevent crop stress. Maximum allowable depletion is expressed as a percentage of available water capacity and varies by crop type and growth stage. Permanent wilting point: Water remains in the soil but is held at high matric tension. Plants can no longer extract sufficient water to recover from wilting. Figure 1. Conceptual representation of soil water conditions: saturation, field capacity, maximum allowable depletion and permanent wilting point. Soil-water tension (or matric potential) increases progressively from saturation to permanent wilting point. Credit: Kellen Grist, © Oregon State University Available water capacity varies by soil texture and structure. Generalized available water capacity values for different soil textures are provided in the sidebar about soil texture and typical available water capacity. If you know your soil texture, you may use the information in the sidebar to estimate available water capacity. For field-specific values, use the National Resources Conservation Service Web Soil Survey to identify soil map units and obtain soil physical property data, including: Water content at field capacity Water content at permanent wilting point Available water capacity See the step-by-step user guide on how to use the Web Soil Survey. Important: If your field contains multiple soil map units, avoid relying on a single “average” soil. Instead, choose one of the approaches below: Good — simple and conservative: Base irrigation timing on the soil map unit with the lowest available water capacity within the actively irrigated area, then manage application depth so you don’t exceed infiltration capacity (to reduce runoff/deep percolation). This reduces the risk of crop stress in the “driest” parts of the field typical of coarser or shallower soils. Better — zone-based management: If soil differences are consistent across the field, manage irrigation in zones (separate sets, valves, blocks or variable rate irrigation prescriptions). Schedule each zone using its own soil texture/available water capacity and effective rooting depth. This improves uniformity of crop water status and reduces overwatering in areas with higher available water capacity. Best — data-verified zoning: Use soil maps plus field verification (soil probes, infiltration observations, yield/Normalized Difference Vegetation Index patterns, and/or soil moisture sensors) to define management zones. Place at least one sensor in a zone with lower available water capacity and one in a higher capacity zone to confirm depletion patterns and refine timing. Soil texture and typical available water capacity (inches/foot) Coarse sand: 0.25–0.75 Fine sand: 0.75–1.00 Loamy sand: 1.10–1.20 Sandy loam: 1.25–1.40 Fine sandy loam: 1.50–2.00 Silt loam: 2.00–2.50 Silty clay loam: 1.80–2.00 Silty clay: 1.50–1.70 Clay: 1.20–1.50 Source: Noble Research Institute 2. Crop’s effective rooting depth Once you know the available water capacity of your soil, the next step is determining how much of that water can be stored within the crop’s effective rooting depth. Effective rooting depth is defined as the portion of the soil profile where approximately 70% of water uptake occurs (Figure 2). This depth is typically less than the maximum observed rooting depth. Effective rooting depth varies by: Crop species Soil conditions Root development stage Compaction layers or restrictive horizons Figure 2. Effective rooting depth water extraction. Seventy percent of water uptake occurs in the top two soil layers. Credit: Kellen Grist, © Oregon State University. Adapted from NRCS, National Engineering Handbook 1997. For many crops at maturity, effective rooting depth is often about one-half to two-thirds of the maximum rooting depth. However, this is a guideline rather than a strict rule. Seasonal changes in rooting depth For annual crops, effective rooting depth increases as roots develop during the growing season. Early in the season, the crop may extract water only from shallow depths. As roots extend deeper, a larger soil volume contributes to plant-available water. Irrigation scheduling should account for this seasonal change in rooting depth. Scheduling based on full-season root depth early in the season may result in overestimation of available water and delayed irrigations that stress young plants. Estimating effective rooting depth in the field Table 1 provides typical effective rooting depths for specific crops at maturity. For field-specific estimates: Carefully excavate several representative plants keeping the roots intact. Measure the maximum root depth. Multiply the average maximum root depth by approximately 0.7 (70%) to estimate rooting depth. Because root growth varies among plants and across field conditions, assess multiple plants and use an average value. Also consider soil limitations, such as compacted layers, shallow restrictive horizons or high water tables that may limit functional rooting depth. Table 1. Effective rooting depth and maximum allowable depletion Crop (established) Effective rooting depth (feet) Maximum allowable depletion (%) Alfalfa 4.0 60 Beans 2.0 50 Corn 3.0 50 Grapes 3.0 65 Orchard 3.0 50–65 Potato 2.0 30–40 Pasture/hay 2.0 60 Small grains 3.0 50 Example: Determine the amount of water a soil can store in the effective rooting depth Step 1 The soil texture in your field is sandy loam, which has an available water capacity of 1.40 in/ft (See sidebar above on soil texture and water capacity). Step 2 The crop you are growing is pasture/hay grass. The effective rooting depth for pasture/hay grass is 2 feet (Table 1). To know how much total water the soil can store within the effective rooting depth, multiply the available water capacity by the effective rooting depth. Water storage = Available water capacity (in water/ft soil) × effective root depth (ft) Water storage = 1.4 in/ft × 2 ft = 2.8 inches of water Water storage = 2.8 inches of water In this example, the soil within the effective rooting zone can store up to 2.8 inches of water at field capacity withing the crop effective rooting depth. 3. Maximum allowable depletion Once we know how much water can be stored within the effective rooting zone (our bucket), we need to determine the amount of water that can be depleted before irrigation is required to avoid crop water stress. Maximum allowable depletion, or MAD, is the fraction of plant available water that can be removed from the soil through evapotranspiration (the evaporation from the soil and leaf surfaces plus the transpiration from the plant) before crop stress (Figure 3). Maximum allowable depletion is expressed as a percentage of available water storage and depends on: Crop species Growth stage Rooting depth Economic value of the crop Figure 3. Maximum allowable depletion is the percentage of available water that can be depleted before irrigation is required to prevent crop stress. This value depends on the crop’s stress tolerance, growth stage and water use. Credit: Kellen Grist, © Oregon State University Table 1 shows recommended maximum allowable depletion values for certain crops. Generally, maximum allowable depletion values are 30%–40% for high-value, shallow-rooted crops; 50%–55% for deep-rooted crops; and 60%–65% for low-value crops such as pastures. Example: Determine the maximum allowable depletion for a crop Using the previous example, we determined that pasture/hay grass has a maximum allowable depletion value of 60% (Table 1). We also determined that the soil within the effective root zone can store 2.8 inches of plant-available water. To determine the maximum allowable depletion for pasture/hay: MAD = Storage in effective root depth (in) × Crop MAD % (Table1) MAD = 2.8 inches × 0.6 MAD = 1.7 inches This means that approximately 1.7 inches of water can be depleted from the root zone before irrigation should occur to avoid crop stress. In practice, irrigation should be scheduled when cumulative evapotranspiration approaches this depletion value. 4. Application rate of your irrigation system To determine the application rate of your irrigation system, you must know how much water your irrigation system applies over a specific timeframe. Application rate allows you to adjust irrigation duration and/or frequency so that you are replenishing the water depleted from the soil through evapotranspiration. Two key pieces of information are required: Flow rate: volume of water delivered through a system or emitter over a specific time. Set time: the duration of the irrigation event. Flow rate Flow rate is typically expressed in gallons per minute (gpm). For most sprinkler systems: Wheel line, hand line or solid set systems: Determine the average flow rate (gpm) per sprinkler. Pivot and linear systems: The total system flow rate is the sum of the rates of all the nozzles’ on the entire pivot or linear system. Table 2 provides flow rates for various nozzle sizes at different operating pressures. To determine your nozzle flow rate: Identify nozzle size (diameter) on your sprinkler. Measure the operating pressure at the sprinkler. Table 2. Sprinkler nozzle flow rate (gpm) based on nozzle sizes and operating pressure (psi) Nozzle size (inch) Nozzle pressure (psi) 30 40 50 60 70 3/32 1.4 1.7 1.9 2.0 2.1 1.8 2.6 3.0 3.3 3.5 3.8 9/64 3.3 3.7 4.2 4.5 4.9 5/32 3.9 4.5 5.0 5.4 5.8 11/64 4.7 5.4 6.0 6.6 7.1 3/16 5.5 6.3 7.0 7.7 8.3 13/64 6.4 7.4 8.2 9.0 9.7 7/32 7.4 8.6 9.6 10.5 11.3 Source: Morris, 2023 Pressure may be measured using: A calibrated pressure gauge installed on the lateral near the sprinkler, or A pitot tube inserted into the sprinkler stream (Figure 4). When using a pitot tube: Insert the tube into the water stream emitted from the nozzle while operating (do not insert into the nozzle opening). Hold the tube steady in the center of the stream. Record the highest stable pressure reading. Measure several sprinklers while operating and calculate the average pressure. After determining the nozzle size diameter and operating pressure, use Table 2 to identify the corresponding flow rate (gpm). Figure 4. Measure a sprinkler's operating pressure by using a pitot tube placed in the sprinkler stream. Credit: Carol Rang, © Oregon State University Example: Determine the flow rate for a specific nozzle size and pressure Your wheel line has an 11/64-inch size nozzle. The operating pressure at the sprinkler nozzle is 60 psi. Flow rate: Using Table 2, an 11/64-inch nozzle operating at 60 psi discharges approximately 6.6 gallons per minute (gpm). Nozzle wear and flow accuracy Over time, sprinkler nozzles wear out due to abrasion from sediment and debris. As the orifice enlarges, discharge increases beyond the manufacturer’s specifications. This can result in: Overapplication of water. Uneven water distribution and uniformity throughout the field. Increased runoff and deep percolation. Regular inspection and periodic replacement of worn nozzles help maintain design application rates and uniformity. A simple field method to check nozzle wear is the drill bit test : Insert a clean drill bit matching the original nozzle diameter into the orifice. A snug fit indicates minimal or no wear, ensuring that the nozzle’s output meets the manufacturer’s gpm specifications. A loose fit means the nozzle is worn and is applying excess water. Under typical conditions, nozzles should be inspected annually and often require replacement every three to five years, depending on the water quality and system use. Methods for measuring flow rate Bucket test method Use a simple bucket test when the exact nozzle size or pressure can’t be determined. Select sprinkler nozzles at representative locations along the system (not only near the pump) as flow rate tends to vary due to friction loss along the lateral. Direct the sprinkler discharge into a container of known volume (for example, 5 gallons) Measure the time to fill the container. Repeat this process on several sprinklers and calculate the average fill time. Use equation: Flow rate ( gpm) = Volume (gal)/ Time ( sec ) × 60 Flow meter If a flow meter is installed: Read the discharge directly in gpm. If discharge is provided in cubic feet per second (cfs), convert using: 1 cfs = 448.8 gpm Example: Determining the flow rate using a bucket test Five sprinkler nozzles were tested on a wheel line. The average time to fill a 5-gallon bucket was 66 seconds. Flow rate = 5 gal/66 sec × 60 Flow rate (gpm) = 4.5 gpm The average flow rate or discharge = 4.5 gpm If you have a flow meter, simply read the gallons per minute on the meter. If the flow meter provides readings in cubic feet per second, then multiply the reading by 448.8 to convert to gpm. Set time Set time is the duration that water is applied to a specific area before the system is moved or completes a pass. Wheel lines and hand lines: time between moves. Center pivot: time required to complete one full revolution. Linear system: time required to complete one full pass. Effective irrigation scheduling requires knowing how much water is applied during a set time and adjusting either the duration or frequency to ensure that the water applied matches the water lost by evapotranspiration. Using our soil “bucket” analogy: Overfilling the bucket results in runoff, deep percolation and nutrient loss. Underfilling the bucket increases crop water stress and reduces yield. The goal is to refill only the volume depleted before reaching the maximum allowable depletion. 5. Irrigation system efficiency Some people assume that an irrigation system delivers 100% of the applied water directly to the crop. This is rarely the case. A portion of applied water is lost before it can be stored in the root zone due to: Deep percolation below the root zone. Wind drift and evaporation. Surface runoff. Canopy interception. System leaks and operational losses. Poor maintenance or aging equipment. Irrigation application efficiency is defined as the ratio of the water stored in the crop root zone to the total water applied by the irrigation system. Irrigation systems and application efficiency Differences in how water is applied influence irrigation efficiency, water loss and overall system performance. Credit: Adobe Stock Surface systems Typical application efficiency ranges Level border: 60%–80% efficiency Furrow: 60%–80% Surge: 65%–80% Graded border: 55%–75% Corrugate: 40%–55% Wild flood: 25%–40% Credit: Adobe Stock Sprinkler systems Typical application efficiency ranges Linear move: 75%–90% Center pivot (low pressure): 75%–90% Fixed solid set: 70%–85% Hand move or side roll laterals: 70%–85% Traveling gun: 65%–80% Stationary gun: 60%–75% Credit: Adobe Stock Microirrigation systems Typical application efficiency ranges Surface/subsurface drip: 85%–95% Microspray or mist: 85%–95% Source: Morris, 2023 The sidebar on irrigation systems and their efficiency presents typical application efficiency ranges for common irrigation systems. In general: Newer systems tend to operate at higher efficiency levels. Microirrigation systems (such as drip) typically achieve the highest efficiencies because water is applied directly to the root zone. Sprinkler systems provide moderate efficiency depending on pressure, wind and management. Surface irrigation systems often have lower efficiency due to runoff and deep percolation losses. System efficiency is influenced by: Design and installation. Operating pressure. Field slope and soil infiltration characteristics. Wind conditions. Maintenance and system age. Management practices. Efficiency typically declines over time as systems wear, often by 10%–15% without proper maintenance. Regular inspection, pressure regulation, and timely component replacement help maintain efficiency and reduce both water and energy costs. Figure 6A. Sprinkler height affects spray losses in center-pivot irrigation systems. High-elevation sprinklers apply water farther above the crop canopy, increasing evaporation and wind drift losses (about 30%–40%). Credit: Carol Rang, © Oregon State University Figure 6B. Mid-elevation spray application (MESA) applies water closer to the crop than traditional sprinklers but still experience moderate spray losses (about 10%–20%). Credit: Carol Rang, © Oregon State University Putting it all together! Now that you have assembled the key pieces of information described above, you can begin improving your irrigation water management. The first step is determining your current net water application depth (inches) — the amount of water stored in the soil after accounting for system efficiency. This can be calculated using the following formula: Net water applied (inches) = Net time (hr) × Flow rate (gpm) × 96.3 × System efficiency/ Irrigated area (sq ft) The constant 96.3 converts gallons per minute and hours into inches of water applied over a given area. Figure 6C. Low-elevation spray application (LESA) places sprinklers closer to the crop canopy, reducing spray losses to about 2%–5%. Credit: Carol Rang, © Oregon State University Calculating your net water application Suppose you are operating an older wheel line system that runs for 11.5 hours per set. The riser spacing is 60 feet, sprinkler spacing is 40 feet and the nozzle size is 11/64 inch operating at 60 psi. From earlier examples, you know: Available water in the effective root zone: 2.8 inches (Example 1) MAD: 1.7 inches (Example 2) Flow rate at 60 psi: 6.6 gpm (Example 3) System efficiency: 65% (0.65) (Table 4) The irrigated area per set is 60 ft × 40 ft = 2,400 sq ft Applying the formula 11.5 hrs. × 6.6 gpm × 96.3 × 0.65/2,400 sq ft = 1.9 inches Your system applies 1.9 inches of water per set What this means You only need 1.7 inches to refill the soil profile to field capacity, which means the system is applying 0.2 inches too much water. Over time, this excess irrigation can lead to deep percolation losses, nutrient leaching, increased pumping costs and reduced irrigation efficiency. In other words, the bucket is overflowing. To better match crop water needs, you could: Reduce set time. Install smaller nozzles. Adjust operating pressure. Improve system efficiency through maintenance. Calculate net water application on other sprinkler systems Center pivot and linear move For pivo",
+  "links": [
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/",
+      "label": "OSU Extension Service"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/topics",
+      "label": "Topics"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock",
+      "label": "Animals and livestock"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/beef",
+      "label": "Beef cattle"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/pollinators",
+      "label": "Bees and pollinators"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/fishing",
+      "label": "Commercial fishing, crabbing and clamming"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/horses",
+      "label": "Horses"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/poultry-rabbits",
+      "label": "Poultry and rabbits"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/sheep-goats",
+      "label": "Sheep and goats"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics",
+      "label": "Business and economics"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/management",
+      "label": "Business management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/marketing",
+      "label": "Business marketing"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/estate-planning",
+      "label": "Estate and succession planning"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/finance",
+      "label": "Finance, budgeting and taxes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/rural-development",
+      "label": "Rural economic development"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality",
+      "label": "Community vitality"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/community-technology",
+      "label": "AI technology and community development"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/disaster-prep",
+      "label": "Community disaster preparedness"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/health-outreach",
+      "label": "Health outreach"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/food-systems",
+      "label": "Local, regional and community food systems"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/work-skills",
+      "label": "Work skills"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production",
+      "label": "Crop production"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/berries",
+      "label": "Berries, table grapes and kiwifruit"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/produce-forage/field-crops",
+      "label": "Field crops"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/fruit-trees",
+      "label": "Fruit trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/nuts",
+      "label": "Hazelnuts and nut crops"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/hemp",
+      "label": "Hemp"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/nursery-greenhouse",
+      "label": "Nursery and greenhouse"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/organic",
+      "label": "Organic agriculture"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/pastures-forages",
+      "label": "Pastures and forages"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/soil",
+      "label": "Soil"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/vegetables",
+      "label": "Vegetables and specialty seeds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/wine-grapes",
+      "label": "Wine grapes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food",
+      "label": "Food"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/processing",
+      "label": "Commercial food processing"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/farm-food-safety",
+      "label": "Farm food safety"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/food-security",
+      "label": "Food security"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/preservation",
+      "label": "Home food preservation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/home-food-safety-storage",
+      "label": "Home food safety and storage"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/nutrition",
+      "label": "Nutrition and healthy eating"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/recipes",
+      "label": "Recipes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/wine-beer",
+      "label": "Wine, beer, cider and spirits"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests",
+      "label": "Forests, woodlands and rangelands"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/christmas-trees",
+      "label": "Christmas trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/cutting-selling",
+      "label": "Cutting and selling trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/fire",
+      "label": "Fire"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/health-management",
+      "label": "Forest health and management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/non-timber-products",
+      "label": "Non-timber forest products"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/range",
+      "label": "Rangeland conservation and management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/tree-care",
+      "label": "Tree care"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/wood-processing",
+      "label": "Wood processing and products"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening",
+      "label": "Gardening, lawn and landscape"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/collection/monthly-garden-calendars",
+      "label": "Monthly garden calendars"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/berries-fruit",
+      "label": "Berries and fruit"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees",
+      "label": "Flowers, shrubs and trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/soil-compost",
+      "label": "Garden soil and compost"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/techniques",
+      "label": "Gardening techniques"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/vegetables",
+      "label": "Garden vegetables and herbs"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/lawn",
+      "label": "Lawn and turfgrass"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/urban-forestry",
+      "label": "Urban forestry"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/wildlife",
+      "label": "Wildlife"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments",
+      "label": "Outdoors and environments"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/climate-change",
+      "label": "Climate change"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/environmental-education",
+      "label": "Environmental education (PreK-12)"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/fish",
+      "label": "Fish and aquatic life"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/sustainability",
+      "label": "Sustainability"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases",
+      "label": "Pests, weeds and diseases"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/healthy-homes",
+      "label": "Healthy homes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/insects",
+      "label": "Insects"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/ipm",
+      "label": "Integrated pest management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/nuisance-wildlife",
+      "label": "Nuisance wildlife"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/pesticides",
+      "label": "Pesticide safety and education"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/plant-diseases",
+      "label": "Plant diseases"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/weeds",
+      "label": "Weeds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water",
+      "label": "Water and watersheds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/irrigation",
+      "label": "Irrigation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/residential-water",
+      "label": "Residential water and wells"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/riparian-areas",
+      "label": "Riparian areas"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/watersheds",
+      "label": "Water management and conservation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health",
+      "label": "Youth, families and health"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/emergency-prep",
+      "label": "Family emergency preparedness"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/parenting",
+      "label": "Parenting"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/physical-activity",
+      "label": "Physical activity"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/youth",
+      "label": "Youth education resources"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/programs",
+      "label": "Get involved"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about",
+      "label": "About"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/our-leadership",
+      "label": "Our leadership"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/get-involved",
+      "label": "Get involved"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/news",
+      "label": "News"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/career-opportunities",
+      "label": "Career opportunities"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/find-us",
+      "label": "Contact us"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/people/directory",
+      "label": "Faculty and staff"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/ask-extension",
+      "label": "Ask Extension"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog",
+      "label": "OSU Extension Catalog"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/peer-review-guidelines",
+      "label": "Peer reviewed (Orange level)"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/es/catalog/em-9717-irrigation-water-scheduling",
+      "label": "Español"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9717.pdf",
+      "label": "Print-friendly version"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/combined-bucket-illustration-w-icons.png?itok=rC5WkglP",
+      "label": ""
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/app/",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/water-uptake.png?itok=525g3WVy",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/max.allowable.depletion.JPG?itok=6y6eFHZx",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.sked_.fig4_.JPG?itok=YfSmrBBP",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/adobestock_453184246.jpeg?itok=P_EC5BoF",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/adobestock_53723659.jpeg?itok=SWHY0rk1",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/adobestock_272602820.jpeg?itok=8CBcqv4V",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/new-sprinkler-02.png?itok=rY8vP3Xx",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/new-sprinkler-01.png?itok=1-0JN10T",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/new-sprinkler-03_0.png?itok=cpJOx1qA",
+      "label": ""
+    },
+    {
+      "url": "https://www.usbr.gov/pn/agrimet/",
+      "label": "AgriMet"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/adobestock_1137195272.jpeg?itok=X9EvwZ1S",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/checkbook-method-1.png?itok=HFsUIp0M",
+      "label": ""
+    },
+    {
+      "url": "https://irrigation.wsu.edu/Content/Fact-Sheets/ISMManual_IA.pdf",
+      "label": "A user’s guide"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.sked_.fig9_.png?itok=PsZlVdWN",
+      "label": ""
+    },
+    {
+      "url": "https://www.wcc.nrcs.usda.gov/ftpref/wntsc/waterMgt/irrigation/EstimatingSoilMoisture.pdf",
+      "label": "Estimating Soil Moisture by Feel and Appearance"
+    },
+    {
+      "url": "https://extensionpublications.unl.edu/assets/pdf/ec709.pdf",
+      "label": "Irrigation Scheduling Checkbook Method"
+    },
+    {
+      "url": "https://animalrangeextension.montana.edu/forage/documents/principles%20of%20crop%20irrigation.pdf",
+      "label": "Irrigation Water Management: When and How Much to Irrigate"
+    },
+    {
+      "url": "https://www.ndsu.edu/agriculture/ag-hub/ag-topics/crop-production/irrigation-tile-drainage/irrigation-scheduling",
+      "label": "Irrigation Scheduling."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2023-06/Montana-Irrigation-Scheduling-Recordbook.pdf",
+      "label": "Irrigation Scheduling Recordbook"
+    },
+    {
+      "url": "https://pubs.extension.wsu.edu/scientific-irrigation-scheduling",
+      "label": "Scientific Irrigation Scheduling"
+    },
+    {
+      "url": "https://bee.oregonstate.edu/users/maria-zamora-re?gid=25345",
+      "label": "María Isabel Zamora Re"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/people/abigail-tomasek",
+      "label": "Abigail Tomasek"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/collection/irrigation-technology-management-program-technical-guides",
+      "label": "Irrigation Technology and Management Program technical guides"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/help",
+      "label": "How to use this website"
+    },
+    {
+      "url": "https://ir.library.oregonstate.edu/?locale=en",
+      "label": "ScholarsArchive@OSU"
+    },
+    {
+      "url": "https://ourimpact.oregonstate.edu/",
+      "label": "Our impact"
+    },
+    {
+      "url": "https://beaverhealthy.oregonstate.edu",
+      "label": "Beaver Healthy"
+    },
+    {
+      "url": "https://employee.extension.oregonstate.edu/",
+      "label": "For employees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/cas",
+      "label": "Log in"
+    },
+    {
+      "url": "https://engagement.oregonstate.edu/",
+      "label": "Division of Extension and Engagement"
+    },
+    {
+      "url": "https://oregonstate.edu/land-acknowledgement",
+      "label": "See our land acknowledgement."
+    },
+    {
+      "url": "https://oregonstate.edu/copyright",
+      "label": "Copyright"
+    },
+    {
+      "url": "https://engagement.oregonstate.edu/privacy",
+      "label": "Web disclaimer/privacy"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/equal-opportunity-accessibility",
+      "label": "Equal opportunity/accessibility"
+    }
+  ],
+  "fetched_at": "2026-10-28T06:29:37.285793+00:00",
+  "sha256": "7c5882c6fa25a94e44f5660b8c665af79effac0ce61bd5e0297e1e13d398026d",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

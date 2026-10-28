@@ -1,0 +1,17 @@
+{
+  "family_id": "family-01",
+  "topic_id": "agri-cfaae7290b88",
+  "title": "مراحل حساس یونجه به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+  "title_sha256": "d5e9a12e103476290806c00702a295a69c3e19a69d441814acc15ad21216b856",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY",
+    "AGNES_API_KEY2",
+    "AGNES_API_KEY3",
+    "AGNES_API_KEY4"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

@@ -1,0 +1,217 @@
+{
+  "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+  "requested_url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+  "redirect_chain": [
+    "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+    "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/"
+  ],
+  "text": "[table row] Alfalfa | Growth stages: Emergence-lst cutlst cut-2nd cut2nd cut-3rd cut3rd cut-4th cut [table row] Alfalfa | MAD(%) in root zone: 65504060-70 [table row] Alfalfa | Effect of water stress: Yield reduction [table row] Pinto beans | Growth stages: Emergence-aux. buddingFlower-bud fillingBud filling-maturity [table row] Pinto beans | MAD(%) in root zone: 60-705560-70 [table row] Pinto beans | Effect of water stress: Yield reduction [table row] Potatoes | Growth stages: Early vegetative periodTuber bulking periodRipening period [table row] Potatoes | MAD(%) in root zone: 40-6030-4065 [table row] Potatoes | Effect of water stress: Many jumbo and lower yield [table row] Corn | Growth stages: Emergence-12 leaf12 leaf-doughDough-maturity [table row] Corn | MAD(%) in root zone: 60-705060-70 [table row] Corn | Effect of water stress: Yield reduction of 11.5 bu/A-in water deficit [table row] Small grains | Growth stages: Emergence-first nodeFirst node-floweringMilk ripe-maturity [table row] Small grains | MAD(%) in root zone: 65-7040-6050-70 [table row] Small grains | Effect of water stress: Yield reduction of 6-8 bu/A-in of water deficit [table row] Soybeans | Growth stages: Before flowingFirst flower-first podFirst pod-maturity [table row] Soybeans | MAD(%) in root zone: 65-7060-6560-70 [table row] Soybeans | Effect of water stress: Yield reduction Crop Water Use and Growth Stages | CSU Extension Skip to content Quick facts… Water stress during critical growth periods reduces yield and quality of crops. Crop water use (ET) at critical growth stages can be used in irrigation scheduling to avoid stressing crops. Crop water use (ET) is weather dependent as well as soil, water and plant dependent. Periodically check soil water at different depths within the root zone and at different growth stages to avoid stressing the crop during critical growth stages. Introduction Crop water use, also known as evapotranspiration (ET), is the water used by a crop for growth and cooling purposes. This water is extracted from the soil root zone by the root system, which represents transpiration and is no longer available as stored water in the soil. Consequently, the term “ET” is used interchangeably with crop water use. All these terms refer to the same process, ET, in which the plant extracts water from the soil for tissue building and cooling purposes, as well as soil evaporation. The evapotranspiration process is composed of two separate processes: transpiration (T) and evaporation (E). Transpiration is the water transpired or “lost” to the atmosphere from small openings on the leaf surfaces, called stomata. Evaporation is the water evaporated or “lost” from the wet soil and plant surface. Significant evaporation can take place only when the soil’s top layer (1 to 2 inches) or when the plant canopy is wet. Once the soil surface is dried out, evaporation decreases sharply. Thus significant evaporation occurs after rain or irrigation. Furthermore, as the growing season progresses and canopy cover increases, evaporation from the wet soil surface gradually decreases. When the crop reaches full cover, approximately 95 percent of the ET is due to transpiration and evaporation from the crop canopy where most of the solar radiation is intercepted. Crop water use (ET) is influenced by prevailing weather conditions, available water in the soil, crop species and growth stage. At full cover, a crop will have the maximum ET rate (reference ET) if soil water is not limited; namely if the soil root zone is at field capacity. Full cover is a growth stage at which most of the soil is shaded by the crop canopy. In a more technical term, the crop is at full cover when the leaf area is three times the soil surface area under the canopy. At this growth stage, the crop canopy intercepts most of the incoming solar radiation, thereby reducing the amount of energy reaching the soil surface. Different crops reach full cover at different growth stages and times after planting (See Scheduling Irrigations: A Guide for Improved Irrigation Water Management Through Proper Timing and Amount of Water Application , USDA, Natural Resources Conservation Service, Agricultural Research Service and Colorado State University Extension, 1991, page 32). In order to standardize ET measurements and calculations, a reference crop ET (ET r ) is used to estimate actual ET for other crops. In humid and semi-humid areas where water usually is not a limiting factor, grass is used as a reference ET crop. In arid or semi-arid areas, alfalfa is more suitable as a reference ET crop because it has a deep root system, which reduces its susceptibility to water stress resulting from dry weather. Actual evapotranspiration (ET a ) is the water use of a particular crop at a given time. ET a of an annual crop reaches its maximum at full cover, and can be higher or lower than ET r , depending on the crop. In Colorado, alfalfa is used as the reference crop. Corn at full cover has a maximum water use rate, ET a , of 93 percent of alfalfa ET r , while sugar beets have a maximum ET a rate of 103 percent of alfalfa ET r . Estimating Crop Water Use Actual crop water use, ET a , can be measured directly by using several research methods or indirectly by measuring changes in soil water content with time. However, these methods are expensive, tedious and can be done only in research settings. Therefore, ET r is theoretically and empirically correlated to weather parameters to generate ET models that estimate ET r from weather parameters. ET equations most often used in Colorado are the Penman and Jensen-Haise models. These models were checked and calibrated for local conditions and give reliable estimates of ET r . The Jensen-Haise equation uses temperature and solar radiation measurements, while the Penman equation uses temperature, solar radiation, wind run and humidity. Actual evapotranspiration, ET a , can be calculated from reference ET by multiplying ET r by the crop coefficient (KC). A crop coefficient is the ratio between ET a of a particular crop at a certain growth stage and ET r . If the crop coefficient is smaller than one, the crop uses less water than reference ET and vice versa. Crop coefficients depend on the stage of growth and usually are presented as a function of time following planting. Crop coefficients are measured using lysimeters for different crops and are shown in fact sheet 4.707, Irrigation Scheduling: The Water Balance Approach . These coefficients represent average conditions — namely average weather. In years that are significantly different from the average year, actual crop development may exceed or lag behind the average crop development rate. Therefore, when using crop coefficients in an irrigation scheduling scheme, some adjustments of the average curve to actual crop development may be needed. The crop coefficient of an annual crop is small at the beginning of the growing season, gradually increases as the crop develops, and may decline as the crop matures. Effect of Soil Water on ET Crop water use also is influenced by the actual soil water content. As soil dries, it becomes more difficult for a plant to extract water from the soil. At field capacity (maximum plant-available water content), plants use water at the maximum rate. When the soil water content drops below field capacity, plants use less water. This phenomenon is described by the soil coefficient (KS), which is a function of soil water content (see 4.707). The soil coefficient often is used in irrigation scheduling schemes to adjust the actual ET to reflect soil water conditions. After rain or irrigation, actual ET is higher than when the soil or crop surface is dry. When the soil or crop surface is wet, the evaporation portion of ET increases significantly, resulting in a higher actual ET, especially early in the growing season. This actual ET rate can be larger than reference ET. This phenomenon is described in irrigation scheduling schemes as an additional evaporation coefficient (KW). This coefficient adjusts actual ET (upward) to reflect wet soil surface conditions. Each soil type can hold different amounts of water while acting as a water reservoir for plants. Estimating the soil water content and information on maximum water holding capacities of different soils are given in 4.700, Estimating Soil Moisture. Managing Irrigation According to Growth Stages Crops are different in their response to water stress at a given growth stage. Crops summarized according to their sensitivity to water stress at various growth stages (Tables 1 and 2) reveal the importance of these stages in making the irrigation decision. Crops that are in the sensitive stage of growth should be irrigated at a lower soil water depletion level than those that can withstand water stress. If a crop is last in the irrigation rotation and is at a sensitive stage of growth, the recommended strategy may be to apply partial or lighter irrigations in order to reach the end of the field before the sensitive crop is subjected to water stress. Such a strategy can be used with sprinkler systems, but this may lead to unfavorable soil moisture conditions at the lower soil depths. When soil is repeatedly watered to only shallow depths, the lower soil depths tend to develop a soil moisture deficit that exceeds the allowable soil moisture depletion level at that particular growth stage. Therefore, quick soil moisture assessment at various soil depths to determine the actual water use is essential in irrigation scheduling as related to growth stages. Crop appearance is considered one of many field indicators that can be used in irrigation scheduling. A crop suffering from water stress tends to have a darker color and exhibits curling or wilting. This is a physiological defense mechanism of the crop that is evident on hot, windy afternoons when the crop cannot transpire fast enough, even if the water is readily available in the soil. If the crop does not recover from these symptoms overnight, the crop is suffering from water stress. Any changes in crop appearance due to water stress may mean a reduction in yield. However, using this indicator alone for irrigation scheduling is not recommended if a maximum yield is desired. This indicator is inferior for modern agriculture due to the inability to determine the actual crop water use. However, ignoring it at the critical growth stages may lead to yield reduction. Using the growth stage as a field indicator in irrigation scheduling should be coupled with more sensitive and accurate methods of determining the crop water use such as soil moisture measurements and ET data. The main advantage of this indicator is to provide direct and visual feedback from the crop. Different crops have different water requirements and respond differently to water stress. Crop sensitivity to water stress varies from one growth stage to another. Table 1 is a summary of critical growth stages during which major crops in Colorado are especially sensitive to water stress. A good irrigation scheduling scheme should consider sensitivity of the crop to water stress at different growth stages. This is accomplished by using a coefficient termed the Management Allowable Depletion (MAD), which is the amount of water allowed to be depleted from the root zone before irrigation is scheduled. The MAD is usually given as a percentage of maximum water-holding capacity of the soil. At the time of irrigation, the soil water deficit should be less than or equal to the MAD. The goal of any irrigation scheduling scheme is to keep the water content in the root zone above this allowable depletion level. This ensures that the crop will not suffer from water stress and will produce maximum potential yield. In Table 2, suggested MADs for selected crops are given for different growth stages. This information can be used in an irrigation scheduling scheme by using the appropriate MAD for each growth stage to trigger irrigation. Table 1: Critical growth stages for major crops 1 Crop Critical period Symptoms of water stress Other considerations Alfalfa Early spring and immediately after cuttings Darkening color, then wilting Adequate water is needed between cuttings Corn Tasseling, silk stage until grain is fully formed Curling of leaves by mid-morning, darkening color Needs adequate water from germination to dent stage for maximum production Sorghum Boot, bloom and dough stages Curling of leaves by mid-morning, darkening color Yields are reduced if water is short at bloom during seed development Sugar beets Post-thinning Leaves wilting during heat of the day Excessive full irrigation lowers sugar content Beans Bloom and fruit set Wilting Yields are reduced if water short at bloom or fruit set stages Small grain Boot and bloom stages Dull green color, then firing of lower leaves Last irrigation at milk stage Potatoes Tuber formation to harvest Wilting during heat of the day Water stress during critical period may cause cracking of tubers Onions Bulb formation Wilting Keep soil wet during bulb formation and dry near harvest Tomatoes After fruit set Wilting Wilt and leaf rolling can be caused by disease Cool season grass Early spring, early fall Dull green color, then wilting Critical period for seed production is boot to head formation Fruit trees Any point during growing season Dulling of leaf color and drooping of growing points Stone fruits are sensitive to water stress during last two weeks prior to harvest 1 Taken from Colorado Irrigation Guide , Natural Resources Conservation Service. Table 2: Management allowable depletion (MAD) at the root zone of selected crops at different growth stages Crop Growth stages MAD(%) in root zone Effect of water stress Alfalfa Emergence-lst cutlst cut-2nd cut2nd cut-3rd cut3rd cut-4th cut 65504060-70 Yield reduction Pinto beans Emergence-aux. buddingFlower-bud fillingBud filling-maturity 60-705560-70 Yield reduction Potatoes Early vegetative periodTuber bulking periodRipening period 40-6030-4065 Many jumbo and lower yield Corn Emergence-12 leaf12 leaf-doughDough-maturity 60-705060-70 Yield reduction of 11.5 bu/A-in water deficit Small grains Emergence-first nodeFirst node-floweringMilk ripe-maturity 65-7040-6050-70 Yield reduction of 6-8 bu/A-in of water deficit Soybeans Before flowingFirst flower-first podFirst pod-maturity 65-7060-6560-70 Yield reduction",
+  "links": [
+    {
+      "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+      "label": "Skip to content"
+    },
+    {
+      "url": "https://www.colostate.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.colostate.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.colostate.edu/topics/",
+      "label": "All Topics"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/agriculture/",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/community-economic-development/",
+      "label": "Community & Economic Development"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/emergency-planning/",
+      "label": "Emergency Planning"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/food-nutrition/",
+      "label": "Food & Nutrition"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/garden-landscape/",
+      "label": "Garden & Landscape"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/health-well-being/",
+      "label": "Health & Well-being"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/insects-pests/",
+      "label": "Insects & Pests"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/natural-resources/",
+      "label": "Natural Resources"
+    },
+    {
+      "url": "https://extension.colostate.edu/topic/youth-development/",
+      "label": "Youth Development"
+    },
+    {
+      "url": "https://extension.colostate.edu/programs-services/",
+      "label": "All Programs & Services"
+    },
+    {
+      "url": "https://agrability.colostate.edu",
+      "label": "AgrAbility"
+    },
+    {
+      "url": "https://co4h.colostate.edu/",
+      "label": "Colorado 4-H"
+    },
+    {
+      "url": "https://extension.colostate.edu/colorado-building-farmers/",
+      "label": "Colorado Building Farmers"
+    },
+    {
+      "url": "https://extension.colostate.edu/colorado-master-gardener/",
+      "label": "Colorado Master Gardener"
+    },
+    {
+      "url": "https://extension.colostate.edu/offering/cottage-food-safety-training/",
+      "label": "Cottage Food Safety Training"
+    },
+    {
+      "url": "https://extension.colostate.edu/extension-internship-program/",
+      "label": "Extension Internship Program"
+    },
+    {
+      "url": "https://extension.colostate.edu/family-leadership-training-institute/",
+      "label": "Family Leadership Training Institute"
+    },
+    {
+      "url": "https://extension.colostate.edu/grow-give/",
+      "label": "Grow & Give"
+    },
+    {
+      "url": "https://landscapeforlife.colostate.edu/",
+      "label": "Landscape for Life"
+    },
+    {
+      "url": "https://extension.colostate.edu/offering/lawncheck/",
+      "label": "Lawncheck"
+    },
+    {
+      "url": "https://extension.colostate.edu/offering/native-bee-watch-community-science-program/",
+      "label": "Native Bee Watch"
+    },
+    {
+      "url": "https://extension.colostate.edu/offering/native-plant-master/",
+      "label": "Native Plant Master"
+    },
+    {
+      "url": "https://learn.colostate.edu/ramcorps/",
+      "label": "RamCorps"
+    },
+    {
+      "url": "https://online.colostate.edu/certificates/naturalist/",
+      "label": "Rocky Mountain Naturalist"
+    },
+    {
+      "url": "https://extension.colostate.edu/resources/",
+      "label": "Resources"
+    },
+    {
+      "url": "https://extension.colostate.edu/events/",
+      "label": "Events"
+    },
+    {
+      "url": "https://extension.colostate.edu/extension-county-offices/",
+      "label": "Offices"
+    },
+    {
+      "url": "https://extension.colostate.edu/about-us/",
+      "label": "About CSU Extension"
+    },
+    {
+      "url": "https://extension.colostate.edu/our-work-impact/",
+      "label": "Our Work & Impact"
+    },
+    {
+      "url": "https://learn.colostate.edu/directory/",
+      "label": "Directory"
+    },
+    {
+      "url": "https://extension.colostate.edu/ask-us/",
+      "label": "Ask Us"
+    },
+    {
+      "url": "https://extension.colostate.edu/give/",
+      "label": "Give"
+    },
+    {
+      "url": "https://extension.colostate.edu",
+      "label": "Home"
+    },
+    {
+      "url": "https://learn.colostate.edu/",
+      "label": "Office of Engagement and Extension"
+    },
+    {
+      "url": "https://online.colostate.edu/certificates/professional-development-online.dot",
+      "label": "CSU Professional Education"
+    },
+    {
+      "url": "https://csfs.colostate.edu/",
+      "label": "Colorado State Forest Service"
+    },
+    {
+      "url": "https://watercenter.colostate.edu/",
+      "label": "Colorado Water Center"
+    },
+    {
+      "url": "https://learn.colostate.edu/newsroom-social-media/",
+      "label": "Newsroom & Social Media"
+    },
+    {
+      "url": "https://extension.colostate.edu/contact/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://jobs.colostate.edu/",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.colostate.edu/disclaimer/",
+      "label": "Disclaimer"
+    },
+    {
+      "url": "https://www.colostate.edu/accessibility-statement/",
+      "label": "Accessibility Statement"
+    },
+    {
+      "url": "https://www.colostate.edu/equal-opportunity/",
+      "label": "Equal Opportunity"
+    },
+    {
+      "url": "https://extension.colostate.edu/usda-non-discrimination-statement/",
+      "label": "Non-Discrimination Statement"
+    },
+    {
+      "url": "https://www.colostate.edu/privacy/",
+      "label": "Privacy Statement"
+    },
+    {
+      "url": "https://extension.colostate.edu/sitemap/",
+      "label": "Sitemap"
+    }
+  ],
+  "fetched_at": "2026-10-28T06:29:51.718462+00:00",
+  "sha256": "86f393ee521ff3c6663fa619f2fce996b8a49ed52d76b326cd176497f8927f26",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

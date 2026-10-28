@@ -1,0 +1,17 @@
+{
+  "family_id": "family-12",
+  "topic_id": "agri-6d0759f7e898",
+  "title": "پایش رطوبت خاک در مزرعه یونجه؛ انتخاب محل و عمق حسگر",
+  "title_sha256": "5e0b7b4a6ac32f938d4d2e101b5971876aaff2824b35db130cf3ff3f342862bb",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "context_isolation": "one owned topic and output directory; other families outputs not supplied",
+  "scope": "planned requests, not model success or publication approval",
+  "family_key_slots": [
+    "AGNES_API_KEY45",
+    "AGNES_API_KEY46",
+    "AGNES_API_KEY47",
+    "AGNES_API_KEY48"
+  ],
+  "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9"
+}

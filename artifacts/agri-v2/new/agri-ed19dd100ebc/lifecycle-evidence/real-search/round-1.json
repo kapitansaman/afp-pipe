@@ -1,11 +1,11 @@
 {
   "round": 1,
-  "started_at": "2026-10-28T06:10:04.048457+00:00",
+  "started_at": "2026-10-28T06:29:21.028775+00:00",
   "queries": [
     {
       "query_id": "7a130c7355340b6b6df08650abf1c47daf63700e0924926b279862891708315b",
       "query": "alfalfa Medicago sativa seed germination temperature range optimal University extension",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793167805.8327527,
       "results": [
         {
@@ -28,7 +28,7 @@
     {
       "query_id": "652db8e8fc3788a24a24348c4cc9c1c1dd6db793156a21228571da479d4928d7",
       "query": "alfalfa seed soil moisture imbibition water potential threshold germination university research",
-      "cached": false,
+      "cached": true,
       "checked_at_epoch": 1793167808.1167502,
       "results": [
         {
@@ -75,38 +75,32 @@
       {
         "url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
         "canonical_url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
         "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
         "canonical_url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
         "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092",
         "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092/",
-        "redirect_hops": 1,
-        "status": "fetched"
+        "status": "cache_valid"
       },
       {
         "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
         "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
-        "redirect_hops": 0,
-        "status": "fetched"
+        "status": "cache_valid"
       }
     ]
   },
@@ -122,9 +116,7 @@
           "s2",
           "s10",
           "s11",
-          "s12",
-          "s13",
-          "s14"
+          "s12"
         ],
         "missing": ""
       },
@@ -132,22 +124,19 @@
         "id": "exact_reader_method",
         "covered": false,
         "document_ids": [],
-        "missing": "No source addresses mechanical or management practices for breaking or preventing soil crust during alfalfa seedling emergence. s11 notes that crusted soils can reduce emergence and slow germination, but does not describe crust-breaking methods. s14 provides germination-water-potential data but no field-level crust-management practice. s1 mentions cultipacking a firm seedbed but does not address crust-breaking."
+        "missing": "No source addresses mechanical or management practices for preventing or breaking soil crust during alfalfa seedling emergence; the reader question about soil crust requires specific guidance that none of the fetched documents provide."
       },
       {
         "id": "measurement_units_and_scope",
-        "covered": true,
-        "document_ids": [
-          "s11",
-          "s14"
-        ],
-        "missing": ""
+        "covered": false,
+        "document_ids": [],
+        "missing": "No source provides germination temperature values with original units specifically for alfalfa seed imbibition or emergence, nor soil moisture metrics tied to imbibition, with source geography and date preserved."
       }
     ],
     "next_queries": [
-      "alfalfa soil crust breaking management no-till drill practices university extension",
-      "alfalfa seedling emergence soil crusting prevention techniques germination studies"
+      "alfalfa soil crust breaking emergence management university extension",
+      "alfalfa seed imbibition temperature soil moisture threshold germination studies"
     ]
   },
-  "completed_at": "2026-10-28T06:10:37.936692+00:00"
+  "completed_at": "2026-10-28T06:29:31.452703+00:00"
 }

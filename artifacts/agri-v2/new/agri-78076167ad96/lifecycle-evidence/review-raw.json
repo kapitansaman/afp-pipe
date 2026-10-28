@@ -1,0 +1,38 @@
+{
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": true,
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "تمام ادعاهای کمی و کیفی موجود در متن تنها از یک منبع دانشگاهی تادرس آکادمیک ایالات متحده (University of Minnesota Extension) استخراج شده‌اند. منابع مستقل ثالث (حداقل دو نهاد مجزا) یافت نشد. تمامی محدودیت‌های جغرافیایی، واحدی و محصولی دقیقاً مطابق متن مبدأ حفظ شده‌اند؛ هیچ توصیه‌ی محلی ایرانی اضافه یا استنتاج نشده است. عبارت «منبع ترویجی/دانشگاهی معتبر متناسب گونه، اقلیم و سامانه» صرفاً برای هدف ترویجی و در بستر شرایط مینه‌سوتا/مناطق شمال مرکزی آمریکا قابل ارجاع است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ]
+}

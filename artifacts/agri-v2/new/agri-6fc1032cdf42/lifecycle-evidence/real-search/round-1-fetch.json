@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://worldalfalfacongress.ucdavis.edu/sites/g/files/dgvnsk8841/files/media/documents/Deficit%20irrigation%20strategies%3B%20why%20alfalfa%20is%20the%20best%20crop%20to%20have%20in%20a%20drought.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
+      "canonical_url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+      "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+      "canonical_url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://repository.arizona.edu/handle/10150/201408",
+      "canonical_url": "https://repository.arizona.edu/items/7f783f59-de64-4c4a-bb39-0ea76446313b",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "topic_id": "agri-108b007ce25b",
+  "candidate_sha256": "140473e771f2b17d6ed817b572a38ebe80468b4271206c8407a972cfb5c617ac",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "پس از چین، گیاه یونجه ابتدا تا ارتفاع حدود ۶ اینچ بدون تغذیه خارجی رشد می‌کند و سپس شروع به ذخیره مجدد کربوهیدرات تاج و ریشه برای سیکل رشد مجدد بعدی می‌نماید.",
+        "conditions": "منطقه: مینه‌سوتا مرکزی، ایالات متحده؛ محصول: یونجه علوفه تازه؛ منظره: پس از هر چین",
+        "evidence_id": "d0-e7",
+        "numeric_bindings": []
+      },
+      "literal_evidence": {
+        "id": "d0-e7",
+        "source_url": "https://blog-crop-news.extension.umn.edu/2022/05/managing-risk-at-first-alfalfa-harvest.html",
+        "quote": "proportion of the forage decreases. Leaf loss can be dramatic in tall and lodged canopies that create moist conditions conducive to leaf diseases. Alfalfa forage quality declines rapidly as the crop matures from vegetative to flowering largely due to changes in leaf/stem ratios. For example, in the MN harvest alert program in Central Minnesota, the relative feed value decreased 4.2 units per day from vegetative to early flowering stages (Figure 3). Persistence will be greatest if harvest occurs at flowering stages because root reserves are maximized at full flowering. Spring regrowth is intitially largely depenedent on carbohydrate reserves stored the previous fall. After plants are about 6 inches tall, they will start to recharge root and crown carbohydrates reserves for the next regrowth cycle. Season-long harvests at bud stages will reduce stand persistence. Figure 2. The relationship"
+      }
+    },
+    {
+      "fact_index": 1,
+      "code": "numeric_fact_cannot_be_qualitative",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "پیشنهاد ارتفاع بقایای پس از چین حدود ۴ اینچ است تا جوانه‌های جانبی ترمیم شوند و استقامت بوته حفظ گردد.",
+        "conditions": "منطقه: آلاباما/جنوب شرقی ایالات متحده؛ محصول: یونجه علوفه تازه؛ ارتفاع بقایا: حدود ۴ اینچ",
+        "evidence_id": "d1-e15",
+        "numeric_bindings": [
+          {
+            "value": "4",
+            "unit_quote": "4 inches",
+            "geographic_scope": "southeastern United States",
+            "product_scope": "alfalfa fresh forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e15",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": "65 percent. Forage distribution usually encompasses April through September and October, depending on variety and weather conditions. In the Southeast, stand production longevity is generally expected to be 3 to 5 years. In alfalfa monocultures, hay production is the most common defoliation method used. The recommendation for the timing of the first cutting in the first year of stand establishment is when alfalfa plants have reached or surpassed the 25 percent bloom stage to allow plants to grow and accumulate carbohydrate reserves. Subsequent harvests should occur at or near 10 percent bloom, which typically corresponds to a 28- to 35-day regrowth interval. Generally, the stubble height recommended is 4 inches. The last cutting will usually occur during the fall, depending on the site location and the first hard frost. The number of cuttings per season may vary and should be adjusted to"
+      }
+    },
+    {
+      "fact_index": 2,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "فاصله بین چین‌های متوالی در مدیریت معمول بین ۲۸ تا ۳۵ روز گزارش شده و این بازه تحت شرایط آبیاری فشرده ممکن است افزایش یافته و محصول از ۴ تا ۱۰ تن در هکتar در سال به بیش از ۱۴ تن برسد.",
+        "conditions": "منطقه: جنوب شرقی ایالات متحده؛ محصول: یونجه علوفه تازه؛ سیستم: آبیاری/مدیریت فشرده",
+        "evidence_id": "d1-e14",
+        "numeric_bindings": [
+          {
+            "value": "4 to 10",
+            "unit_quote": "4 to 10 tons per acre annually",
+            "geographic_scope": "southeastern United States",
+            "product_scope": "alfalfa fresh forage"
+          },
+          {
+            "value": "14",
+            "unit_quote": "exceed 14 tons per acre under more intensive management and irrigation",
+            "geographic_scope": "southeastern United States",
+            "product_scope": "alfalfa fresh forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e14",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": "ental Mo and B are recommended yearly or every other year during the life of the stand. Visual assessment of the stand for nutrient deficiency symptoms and the periodic testing of plant tissue can help with identifying issues early in the plant growth cycle. For more information on how to collect plant tissue samples, contact your regional Extension agent or visit the Auburn University Soil, Forage, and Water Testing Laboratory . Forage Production and Defoliation Management Alfalfa forage yield typically ranges from 4 to 10 tons per acre annually. Under more intensive management and irrigation, it could exceed 14 tons per acre. The crude protein (CP) concentration ranges from 18 to 25 percent and total digestible nutrients (TDN) from 60 to 65 percent. Forage distribution usually encompasses April through September and October, depending on variety and weather conditions. In the Southeast"
+      }
+    },
+    {
+      "fact_index": 5,
+      "code": "numeric_units_not_in_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "توصیه کلی برای تغذیه پس از برداشت این است که به ازای هر تن یونجه برداشت‌شده، ۱۲ پوند فسفر و ۵۰ پوند پتاسیم به هکتar اعمال شود.",
+        "conditions": "منطقه: Alabama Extension; محصول: یونجه علوفه تازه؛ واحد: پوند بر acre",
+        "evidence_id": "d1-e13",
+        "numeric_bindings": [
+          {
+            "value": "12",
+            "unit_quote": "12 pounds of phosphorus (P2O5) per acre",
+            "geographic_scope": "Alabama, southeastern United States",
+            "product_scope": "alfalfa fresh forage"
+          },
+          {
+            "value": "50",
+            "unit_quote": "50 pounds of potash (K2O) per acre",
+            "geographic_scope": "Alabama, southeastern United States",
+            "product_scope": "alfalfa fresh forage"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e13",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": "needed to determine lime and fertilizer needs for the stand in the upcoming growing season and to allow for the timely application of nutrients. Alfalfa has a high nutrient requirement, especially under intensive management, such as during hay production when nutrient removal is high. A general recommendation is for every ton of alfalfa harvested to apply 12 pounds of phosphorus (P2O5) and 50 pounds of potash (K2O) per acre. Legumes and bacteria (Rhizobium spp) have a symbiotic association that captures atmospheric nitrogen (N) and incorporates it into the soil as an organic form that plants can utilize—a process called biological nitrogen fixation. In a well-established stand, N requirements should be met through nitrogen fixation. Supplemental Mo and B are recommended yearly or every other year during the life of the stand. Visual assessment of the stand for nutrient deficiency symptom"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "محتوای منابع موجود به‌طور مستقیم و مشخص پروتکل آبیاری پس از چین یا برنامه تغذیه اختصاصی رشد مجدد یونجه را پوشش نمی‌دهد. شواهد حاضر فقط محدود به فاصله زمانی کلی بین چین‌ها (۲۸-۳۵ روز)، توصیه کلی خوراكی P و K به ازای هر تن برداشت، یک مشاهده آبیاری آزمایشگاهی ۱۴ سانتی‌متری سالانه در مینه‌سوتا، و اصل کیفی بازگشت ذخایر قندی پس از رسیدن به ارتفاع حدود ۶ اینچ هستند. هیچ منبع ارائه‌شده معیار تصمیم‌گیری اندازه‌گیری‌شده برای زمان‌بندی آبیاری پس از چین یا دوز تغذیه اختصاصیِ مرحله رشد مجدد را شامل نمی‌شود."
+}

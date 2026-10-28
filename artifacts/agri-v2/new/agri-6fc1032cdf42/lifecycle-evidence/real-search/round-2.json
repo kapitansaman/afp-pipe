@@ -1,0 +1,128 @@
+{
+  "round": 2,
+  "started_at": "2026-10-28T06:30:04.236982+00:00",
+  "queries": [
+    {
+      "query_id": "b7379088cb619de46530cef41a7d218211e3a6241491307f6196ff6621691a0c",
+      "query": "alfalfa last irrigation timing before cut soil moisture threshold University of California",
+      "cached": false,
+      "checked_at_epoch": 1793169011.351804,
+      "results": [
+        {
+          "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+          "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
+          "description": "To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. [...] Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, [...] For most producers, the best strategy is to avoid harvesting alfalfa (Sept. 1 to Oct. 15) during the critical fall period six weeks before the first killing frost. This allows plants to enter winter with higher root carbohydrates.\n\n## Late Summer Grasshopper Management\n\nBy Samantha Daniel"
+        },
+        {
+          "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+          "title": "Irrigating Alfalfa in Arid Regions",
+          "description": "Influence of Cutting Schedule Scheduling irrigations of alfalfa is complicated by the harvest schedule, which occurs about every 28 to 30 days in most areas. The first irrigation after harvest cannot occur until the alfalfa bales are removed. The final irrigation between harvests will need to occur at a time that provides sufficient soil drying before the harvest. Thus, irrigation scheduling of alfalfa is often controlled by the harvest schedule, not by allowable soil mois­ ture depletion. [...] Step 5: Determine the interval between irriga­ tions by dividing the total allowable soil moisture depletion by the daily crop ET.\nScheduling Example Determine the interval between irrigations for alfalfa from June 16 through June 30 for a field in the Fresno area. The soil type is silt loam, and root depth is 5 feet (1.52 m). [...] Allowing a plant to use all of the available soil moisture will cause permanent wilting, so only 50 percent of the available soil moisture should be used before irrigation to avoid alfalfa crop stress due to insufficient soil moisture. At the time of 50 percent depletion, calculations of the amount of water that has been used must be made. This amount is the all"
+        },
+        {
+          "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+          "title": "ALFALFA IRRIGATION AND DROUGHT",
+          "description": "The general recommendation is to provide adequate water until the water is gone, allow the crop to be mature and dry at the time of the last cutting"
+        }
+      ]
+    },
+    {
+      "query_id": "fa92d1e190bfbd784aba4314a5675a52c979f4ad58c465f5471ea50d41d569d2",
+      "query": "alfalfa preharvest irrigation termination evapotranspiration rule university extension",
+      "cached": false,
+      "checked_at_epoch": 1793169013.8226867,
+      "results": [
+        {
+          "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+          "title": "[PDF] Using Evapotranspiration Data to schedule Irrigation of Forages",
+          "description": "an irrigation schedule. 1 R.W. Hill, Professor and Extension Specialist, Biological and Irrigation Engineering, Utah State University, Logan, Utah 84322-4105; Email: bobh@ext.usu.edu. In: Proceedings, Western Alfalfa and Forage Conference, 11-13 December, 2002, Sparks, NV, UC Cooperative Extension, University of California, Davis 95616. (See  ESTIMATION OF CROP ET AND USE IN IRRIGATION SCHEDULING Calculation of consumptive use is made by using climate and/or real-time weather data in a two-step [...] Cropflex Israel Broner (israel@engr.colostate.edu) Kansas KANSCHED Danny Rogers (drogers@bae.ksu.edu) Minnesota Et Jerry Wright (jwright@umn.edu) Checkbook http:www.extension.umn.edu/distribution/cropsystems/DC1322.htm Utah PCET Bob Hill (bobh@ext.usu.edu) Washington Et WISE Brian Leib (brian_leib@wsu.edu) Calculator ACKNOWLEDGMENTS The contributions of Utah alfalfa growers Chandler Whitelaw and Garth Swallow; Millard County Extension Agent Mike Pace; and Dr. James L. Wright of the USDA-ARS [...] harvest to insure adequate soil drying. This could be summarized as a general rule of thumb by suggesting that the soil water should be depleted about 50 percent of available in the top two fe"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+          "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+          "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension. [...] Lindenmayer, R.B., Hansen, N.C., Brummer, J., & Pritchett, J.G. (2011). Deficit irrigation of alfalfa for water-savings in the Great Plains and Intermountain West: A review and analysis of the literature. Agronomy Journal, 103, 45–50. \n Orloff, S., Putnam, D., & Bali, K. (2015). Drought strategies for alfalfa. University of California Extension. ANR Publication 8522."
+        },
+        {
+          "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+          "title": "ALFALFA IRRIGATION AND DROUGHT",
+          "description": "Evapotranspiration (ET) is the primary use of water by alfalfa and averages about 36 inches/year (900 mm) at Kimberly. The ET at peak periods of 0.4 inches/day ...Read more"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 2,
+    "loaded": 1,
+    "sources": [
+      {
+        "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+        "status": "unavailable",
+        "category": "source_policy_or_content_rejected",
+        "temporary": false
+      },
+      {
+        "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+        "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+        "redirect_hops": 0,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 2,
+  "coverage": {
+    "topic_id": "agri-6fc1032cdf42",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s1",
+          "s2",
+          "s10",
+          "s11",
+          "s12",
+          "s14"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": true,
+        "document_ids": [
+          "s14",
+          "s12"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": true,
+        "document_ids": [
+          "s14",
+          "s10",
+          "s12"
+        ],
+        "missing": ""
+      }
+    ],
+    "next_queries": []
+  },
+  "completed_at": "2026-10-28T06:30:49.731426+00:00"
+}

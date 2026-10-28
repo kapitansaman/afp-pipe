@@ -1,0 +1,310 @@
+{
+  "coverage_contract_version": 1,
+  "final_coverage_complete": true,
+  "version": 2,
+  "topic_id": "agri-6fc1032cdf42",
+  "input_binding": {
+    "topic_sha256": "05251f527c16f922bd24f8f92a76afd2a08df973081d4b18176481fcb7890db2",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "bad2c8f536ca155a3a537227ea019ff4632c87a1f79add0449aa0423f219937a"
+  },
+  "completed_at": "2026-10-28T06:30:49.732281+00:00",
+  "search_engine_used": true,
+  "backend": "tavily",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-10-28T06:29:34.849245+00:00",
+      "queries": [
+        {
+          "query_id": "1cb618e5b8a38c730e7e25f013fea029625df20691e7373e25e9a21d98934a93",
+          "query": "alfalfa preharvest irrigation cutoff university extension deficit",
+          "cached": false,
+          "checked_at_epoch": 1793168978.877939,
+          "results": [
+            {
+              "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+              "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+              "description": "Lindenmayer, R.B., Hansen, N.C., Brummer, J., & Pritchett, J.G. (2011). Deficit irrigation of alfalfa for water-savings in the Great Plains and Intermountain West: A review and analysis of the literature. Agronomy Journal, 103, 45–50. \n Orloff, S., Putnam, D., & Bali, K. (2015). Drought strategies for alfalfa. University of California Extension. ANR Publication 8522. [...] Two cuttings of alfalfa were harvested in 2020 in Logan. A total of 13.5 inches of irrigation was applied for both cuttings for the full irrigation rate (Figure 2). The irrigation reductions were achieved by changing nozzle sizes on the linear where alfalfa received 25 or 50% less water each irrigation. When irrigation was reduced by 25%, alfalfa yield was reduced by an average of about 0.75 tons/acre (20%) total for the two cuts. A 50% reduction in irrigation produced 1.2 tons/acre less yield [...] Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension."
+            },
+            {
+              "url": "https://worldalfalfacongress.ucdavis.edu/sites/g/files/dgvnsk8841/files/media/documents/Deficit%20irrigation%20strategies%3B%20why%20alfalfa%20is%20the%20best%20crop%20to%20have%20in%20a%20drought.pdf",
+              "title": "Deficit irrigation strategies: why alfalfa is the best crop to ...",
+              "description": "by DH Putnam · 2018 · Cited by 1 — Water applied for the three deficit treatments were 75% of full watering (late cutoff, blue line), 75% of full watering (continuous deficits after mid-season,5 pages"
+            },
+            {
+              "url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
+              "title": "CR646: Managing Alfalfa During Drought | New Mexico State University - BE BOLD. Shape the Future.",
+              "description": "for a particular well output. However, continual deficit may be achieved in flood irrigation systems also by reducing number of irrigations per cutting cycle (e.g., 1 vs 2 irrigations per cut). While yields may not be reduced as much as expected, especially early in the season or in mild environments, it is generally considered to be a more stressful management strategy for the alfalfa. This strategy will likely result in significant yield reductions in the hotter, drier regions of New Mexico [...] Another deficit irrigation strategy is what is referred to as ‘continual deficit’ or ‘starvation’ irrigation. This technique applies reduced amounts of water over the course of the season that are less than what the alfalfa crop requires, thereby stressing the plant in a chronic manner (e.g., 50-75% of alfalfa evapotranspiration demand). This scenario is more common in sprinkler or drip irrigation systems where well capacity is declining or too many acres are being irrigated for a particular [...] stress. Deficit irrigation strategies should be targeted to the least productive fields first, focusing water to those fields with the highest yield potential."
+            }
+          ]
+        },
+        {
+          "query_id": "47e64767074073825abb03d1f7286a29a87ae4d24f180838ba6049e0f6e60e8a",
+          "query": "alfalfa irrigation termination before cutting university research forage",
+          "cached": false,
+          "checked_at_epoch": 1793168981.0517833,
+          "results": [
+            {
+              "url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
+              "title": "CR646: Managing Alfalfa During Drought | New Mexico State University - BE BOLD. Shape the Future.",
+              "description": "Irrigation termination for more than one cutting will reduce total annual yield, and recovery will be delayed until the second or later regrowth after drought-induced dormancy is broken.4,10 Studies have shown that annual yield reductions during the deficit irrigation year range from minimal (25% or less; late-season termination) to significant (50-75%; early to mid-season termination).11 Consequently, if water becomes available later in the season, producers should consider irrigating as soon [...] Alfalfa uses water more efficiently during the spring when temperatures are more moderate.2,8 Consequently, if water is available but limited in supply for season-long irrigation, yields will be maximized by concentrating the water on the early cuttings and then terminating irrigation to allow the alfalfa to enter drought-induced dormancy.4,5,8 This is one method of a ‘deficit irrigation' strategy known as ‘partial season irrigation/termination’. [...] Results from research conducted at Tucumcari, New Mexico and other parts of the west have shown that while yields can be severely reduced in the termination year, subsequent year yields can return to normal once full irrigation resumes an"
+            },
+            {
+              "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+              "title": "Alfalfa Irrigation and Last Cutting, Grasshopper Management",
+              "description": "Sep 12, 2024 — To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins.Read more"
+            },
+            {
+              "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+              "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+              "description": "Two cuttings of alfalfa were harvested in 2020 in Logan. A total of 13.5 inches of irrigation was applied for both cuttings for the full irrigation rate (Figure 2). The irrigation reductions were achieved by changing nozzle sizes on the linear where alfalfa received 25 or 50% less water each irrigation. When irrigation was reduced by 25%, alfalfa yield was reduced by an average of about 0.75 tons/acre (20%) total for the two cuts. A 50% reduction in irrigation produced 1.2 tons/acre less yield [...] system. The 50% targeted rate applied half the total irrigation for the season, but researchers directed this irrigation toward critical growth stages, such as during corn tasseling or mid-to-late vegetative growth for other forages. This work was repeated and expanded in 2020 to include sites in Logan and Vernal, Utah. Logan included a new alfalfa stand with two cuttings and corn silage, while Vernal included spring 3-way (wheat, oat, and barley) forage, teff, and corn silage. [...] 7 acre-inches for later cuttings (Shewmaker et al., 2013). Plus, the first cutting is usually the highest yielding crop. Deficit irrigation should also be targeted first to the least productive alfalfa land"
+            },
+            {
+              "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+              "title": "ALFALFA IRRIGATION AND DROUGHT",
+              "description": "However, studies have shown that termination of irrigation during summer may be associated with permanent reduction in forage yield in alfalfa (Wron, 1992),.Read more"
+            },
+            {
+              "url": "https://repository.arizona.edu/handle/10150/201408",
+              "title": "Alfalfa Irrigation Termination, Maricopa - UA Campus Repository",
+              "description": "by MJ Ottman · 1994 · Cited by 2 — The objective of this research was to test the hypothesis that alfalfa can be permanently damaged by withholding irrigation water. Irrigation was terminated ...Read more"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 6,
+        "loaded": 5,
+        "sources": [
+          {
+            "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+            "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://worldalfalfacongress.ucdavis.edu/sites/g/files/dgvnsk8841/files/media/documents/Deficit%20irrigation%20strategies%3B%20why%20alfalfa%20is%20the%20best%20crop%20to%20have%20in%20a%20drought.pdf",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
+            "canonical_url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+            "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+            "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+            "canonical_url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://repository.arizona.edu/handle/10150/201408",
+            "canonical_url": "https://repository.arizona.edu/items/7f783f59-de64-4c4a-bb39-0ea76446313b",
+            "redirect_hops": 1,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 6,
+      "coverage": {
+        "topic_id": "agri-6fc1032cdf42",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s0",
+              "s1",
+              "s2",
+              "s10",
+              "s11"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": false,
+            "document_ids": [],
+            "missing": "No supplied document describes a specific grower decision rule for determining last-irrigation timing before harvest (e.g., measured soil-moisture threshold, ET-based calculation, days-before-cut heuristic, or growth-stage trigger). s10 and s11 discuss deficit-irrigation strategies and partial-season termination in general terms but do not present a concrete last-irrigation timing rule."
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": false,
+            "document_ids": [
+              "s10",
+              "s12"
+            ],
+            "missing": "s10 reports irrigation reductions as 25% and 50% of total season rate (e.g., 13.5 inches full rate at Logan, UT) but does not specify a last-termination rule with explicit units. s12 gives evapotranspiration rates (0.30 in/day growing season, 0.10 in/day fall) and a six-week pre-frost interval for the last cutting, but does not tie a measurable soil-water or ET threshold to the final-irrigation decision. Missing: volumetric water per event, allowable depletion fraction, days-before-cut numeric rule, or explicit differentiation of applied water from crop water use tied to last-irrigation timing."
+          }
+        ],
+        "next_queries": [
+          "alfalfa last irrigation timing before cut soil moisture threshold University of California",
+          "alfalfa preharvest irrigation termination evapotranspiration rule university extension"
+        ]
+      },
+      "completed_at": "2026-10-28T06:30:04.236157+00:00"
+    },
+    {
+      "round": 2,
+      "started_at": "2026-10-28T06:30:04.236982+00:00",
+      "queries": [
+        {
+          "query_id": "b7379088cb619de46530cef41a7d218211e3a6241491307f6196ff6621691a0c",
+          "query": "alfalfa last irrigation timing before cut soil moisture threshold University of California",
+          "cached": false,
+          "checked_at_epoch": 1793169011.351804,
+          "results": [
+            {
+              "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+              "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
+              "description": "To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. [...] Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, [...] For most producers, the best strategy is to avoid harvesting alfalfa (Sept. 1 to Oct. 15) during the critical fall period six weeks before the first killing frost. This allows plants to enter winter with higher root carbohydrates.\n\n## Late Summer Grasshopper Management\n\nBy Samantha Daniel"
+            },
+            {
+              "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+              "title": "Irrigating Alfalfa in Arid Regions",
+              "description": "Influence of Cutting Schedule Scheduling irrigations of alfalfa is complicated by the harvest schedule, which occurs about every 28 to 30 days in most areas. The first irrigation after harvest cannot occur until the alfalfa bales are removed. The final irrigation between harvests will need to occur at a time that provides sufficient soil drying before the harvest. Thus, irrigation scheduling of alfalfa is often controlled by the harvest schedule, not by allowable soil mois­ ture depletion. [...] Step 5: Determine the interval between irriga­ tions by dividing the total allowable soil moisture depletion by the daily crop ET.\nScheduling Example Determine the interval between irrigations for alfalfa from June 16 through June 30 for a field in the Fresno area. The soil type is silt loam, and root depth is 5 feet (1.52 m). [...] Allowing a plant to use all of the available soil moisture will cause permanent wilting, so only 50 percent of the available soil moisture should be used before irrigation to avoid alfalfa crop stress due to insufficient soil moisture. At the time of 50 percent depletion, calculations of the amount of water that has been used must be made. This amount is the all"
+            },
+            {
+              "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+              "title": "ALFALFA IRRIGATION AND DROUGHT",
+              "description": "The general recommendation is to provide adequate water until the water is gone, allow the crop to be mature and dry at the time of the last cutting"
+            }
+          ]
+        },
+        {
+          "query_id": "fa92d1e190bfbd784aba4314a5675a52c979f4ad58c465f5471ea50d41d569d2",
+          "query": "alfalfa preharvest irrigation termination evapotranspiration rule university extension",
+          "cached": false,
+          "checked_at_epoch": 1793169013.8226867,
+          "results": [
+            {
+              "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+              "title": "[PDF] Using Evapotranspiration Data to schedule Irrigation of Forages",
+              "description": "an irrigation schedule. 1 R.W. Hill, Professor and Extension Specialist, Biological and Irrigation Engineering, Utah State University, Logan, Utah 84322-4105; Email: bobh@ext.usu.edu. In: Proceedings, Western Alfalfa and Forage Conference, 11-13 December, 2002, Sparks, NV, UC Cooperative Extension, University of California, Davis 95616. (See  ESTIMATION OF CROP ET AND USE IN IRRIGATION SCHEDULING Calculation of consumptive use is made by using climate and/or real-time weather data in a two-step [...] Cropflex Israel Broner (israel@engr.colostate.edu) Kansas KANSCHED Danny Rogers (drogers@bae.ksu.edu) Minnesota Et Jerry Wright (jwright@umn.edu) Checkbook http:www.extension.umn.edu/distribution/cropsystems/DC1322.htm Utah PCET Bob Hill (bobh@ext.usu.edu) Washington Et WISE Brian Leib (brian_leib@wsu.edu) Calculator ACKNOWLEDGMENTS The contributions of Utah alfalfa growers Chandler Whitelaw and Garth Swallow; Millard County Extension Agent Mike Pace; and Dr. James L. Wright of the USDA-ARS [...] harvest to insure adequate soil drying. This could be summarized as a general rule of thumb by suggesting that the soil water should be depleted about 50 percent of available in the top two fe"
+            },
+            {
+              "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+              "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+              "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. \n Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension. [...] Lindenmayer, R.B., Hansen, N.C., Brummer, J., & Pritchett, J.G. (2011). Deficit irrigation of alfalfa for water-savings in the Great Plains and Intermountain West: A review and analysis of the literature. Agronomy Journal, 103, 45–50. \n Orloff, S., Putnam, D., & Bali, K. (2015). Drought strategies for alfalfa. University of California Extension. ANR Publication 8522."
+            },
+            {
+              "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+              "title": "ALFALFA IRRIGATION AND DROUGHT",
+              "description": "Evapotranspiration (ET) is the primary use of water by alfalfa and averages about 36 inches/year (900 mm) at Kimberly. The ET at peak periods of 0.4 inches/day ...Read more"
+            }
+          ]
+        }
+      ],
+      "new_document_ids": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "publication_authorized": false,
+      "fetch_report": {
+        "requested": 2,
+        "loaded": 1,
+        "sources": [
+          {
+            "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+            "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+            "redirect_hops": 0,
+            "status": "fetched"
+          }
+        ]
+      },
+      "fetches_reserved": 2,
+      "coverage": {
+        "topic_id": "agri-6fc1032cdf42",
+        "requirements": [
+          {
+            "id": "species_product",
+            "covered": true,
+            "document_ids": [
+              "s1",
+              "s2",
+              "s10",
+              "s11",
+              "s12",
+              "s14"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "exact_reader_method",
+            "covered": true,
+            "document_ids": [
+              "s14",
+              "s12"
+            ],
+            "missing": ""
+          },
+          {
+            "id": "measurement_units_and_scope",
+            "covered": true,
+            "document_ids": [
+              "s14",
+              "s10",
+              "s12"
+            ],
+            "missing": ""
+          }
+        ],
+        "next_queries": []
+      },
+      "completed_at": "2026-10-28T06:30:49.731426+00:00"
+    }
+  ],
+  "fetches_reserved": 8,
+  "publication_authorized": false,
+  "scientific_acceptance": false,
+  "temporary_source_failure": false,
+  "status": "new_sources_fetched_requires_original_extraction",
+  "new_sources": 5,
+  "output_sources_sha256": "ffb71cbe66e34963d86d53029f537e056a31a9e0f103224bc1b8c37b62c6342b"
+}

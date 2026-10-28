@@ -8,18 +8,18 @@
     "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
     "raw_sha256": "5c8c7441dbfec962dce9ab71b8794a5f98ad053b3b5667649939cd68eb82b595"
   },
-  "completed_at": "2026-10-28T06:11:15.719755+00:00",
+  "completed_at": "2026-10-28T06:30:39.578209+00:00",
   "search_engine_used": true,
   "backend": "tavily",
   "rounds": [
     {
       "round": 1,
-      "started_at": "2026-10-28T06:10:04.048457+00:00",
+      "started_at": "2026-10-28T06:29:21.028775+00:00",
       "queries": [
         {
           "query_id": "7a130c7355340b6b6df08650abf1c47daf63700e0924926b279862891708315b",
           "query": "alfalfa Medicago sativa seed germination temperature range optimal University extension",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793167805.8327527,
           "results": [
             {
@@ -42,7 +42,7 @@
         {
           "query_id": "652db8e8fc3788a24a24348c4cc9c1c1dd6db793156a21228571da479d4928d7",
           "query": "alfalfa seed soil moisture imbibition water potential threshold germination university research",
-          "cached": false,
+          "cached": true,
           "checked_at_epoch": 1793167808.1167502,
           "results": [
             {
@@ -89,38 +89,32 @@
           {
             "url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
             "canonical_url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em8795.pdf",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
             "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/04/alfalfa-seedling-tolerance-to-freezing.html",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
             "canonical_url": "https://extension.msstate.edu/agriculture/forages/legumes/alfalfa-medicago-sativa",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
             "canonical_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1887737/full",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092",
             "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104092/",
-            "redirect_hops": 1,
-            "status": "fetched"
+            "status": "cache_valid"
           },
           {
             "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
             "canonical_url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
-            "redirect_hops": 0,
-            "status": "fetched"
+            "status": "cache_valid"
           }
         ]
       },
@@ -136,9 +130,7 @@
               "s2",
               "s10",
               "s11",
-              "s12",
-              "s13",
-              "s14"
+              "s12"
             ],
             "missing": ""
           },
@@ -146,77 +138,79 @@
             "id": "exact_reader_method",
             "covered": false,
             "document_ids": [],
-            "missing": "No source addresses mechanical or management practices for breaking or preventing soil crust during alfalfa seedling emergence. s11 notes that crusted soils can reduce emergence and slow germination, but does not describe crust-breaking methods. s14 provides germination-water-potential data but no field-level crust-management practice. s1 mentions cultipacking a firm seedbed but does not address crust-breaking."
+            "missing": "No source addresses mechanical or management practices for preventing or breaking soil crust during alfalfa seedling emergence; the reader question about soil crust requires specific guidance that none of the fetched documents provide."
           },
           {
             "id": "measurement_units_and_scope",
-            "covered": true,
-            "document_ids": [
-              "s11",
-              "s14"
-            ],
-            "missing": ""
+            "covered": false,
+            "document_ids": [],
+            "missing": "No source provides germination temperature values with original units specifically for alfalfa seed imbibition or emergence, nor soil moisture metrics tied to imbibition, with source geography and date preserved."
           }
         ],
         "next_queries": [
-          "alfalfa soil crust breaking management no-till drill practices university extension",
-          "alfalfa seedling emergence soil crusting prevention techniques germination studies"
+          "alfalfa soil crust breaking emergence management university extension",
+          "alfalfa seed imbibition temperature soil moisture threshold germination studies"
         ]
       },
-      "completed_at": "2026-10-28T06:10:37.936692+00:00"
+      "completed_at": "2026-10-28T06:29:31.452703+00:00"
     },
     {
       "round": 2,
-      "started_at": "2026-10-28T06:10:37.937304+00:00",
+      "started_at": "2026-10-28T06:29:31.453375+00:00",
       "queries": [
         {
-          "query_id": "a6cda7479e58e4fa8ae75320906391d1980bc466485426b425b1a68bd1fc961d",
-          "query": "alfalfa soil crust breaking management no-till drill practices university extension",
+          "query_id": "4955ce63bd7603836b3ffee4e6ea61b0e1b6575c81a72ec02a0d0d047f616d2a",
+          "query": "alfalfa soil crust breaking emergence management university extension",
           "cached": false,
-          "checked_at_epoch": 1793167840.1566813,
+          "checked_at_epoch": 1793168983.509742,
           "results": [
             {
-              "url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
-              "title": "No-till Farming and Healthy Soils Work Hand in Hand",
-              "description": "Read and learn about no-till farming concepts. Penn State Extension offers valuable information about no-till farming. Subscribe to a no-till magazine or attend a no-till workshop. Learn by experience. Record what works and share your knowledge with a neighbor!\n\nJeffrey S Graybill\n\nFormer Extension Educator, Agronomy\n\nPennsylvania State University\n\n### Ask Tilva™\n\nYour trusted source for science-based answers—now powered by PlantVillage+\n\n Ask Tilva™\n\n## You may also be interested in ... [...] The store will not work correctly when cookies are disabled.\n\nSkip to Content\n\nPenn State ExtensionPenn State Extension\n\nSearch\n\nCart \n\nShopping Cart\n\nArticles\n\n# No-till Farming and Healthy Soils Work Hand in Hand\n\nNo-till and cover crops are essential for healthy soils, but also require some additional management and attention to detail.\n\nSave for later  Print \n\n Share\n\nUpdated:\n\nNovember 24, 2025\n\nSkip to the end of the images gallery\n\nNo-till corn field, York County, PA.  Photo: Mark Goodson [...] \"No-till\" farming is an increasingly popular and widespread crop production practice here in Pennsylvania, across the nation, and around the world. Scientists and farmers, working together, are "
+              "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+              "title": "Alfalfa Nutrient Management Guide | USU",
+              "description": "Grewal, H. S. & Williams, R. (2000). Zinc nutrition affects alfalfa responses to water stress and excessive moisture. Journal of Plant Nutrition, 23(7), 949–962. DOI: 10.1080/01904160009382073\n\nHannaway, D., Bohle, M., Miles, D., Lin, Y., & Randow, B. (2019). Alfalfa soil fertility and fertilization requirements[Fact sheet]. Oregon State University Extension. \n\nKelling, K. (2000). Alfalfa fertilization[Fact Sheet]. University of Wisconsin Extension. [...] Koenig, R., Hurst, C., Barnhill, J., Kitchen, B., Winger, M., & Johnson, M. (1999). Fertilizer Management for Alfalfa[Fact Sheet]. Utah State University Extension. \n\nKoenig, R. T., Kitchen, B., Hurst, C., & Barnhill, J. (1999). Phosphorus and potassium fertilization of irrigated alfalfa in Utah. In T.L. Tindall (Ed.), Proceedings of the Western Nutrient Management Conference, March 4–5, Salt Lake City, UT, pp. 57–62. [...] McCauley, A., Jones, C., & Jacobsen, J. (2011). Plant nutrient functions and deficiency and toxicity symptoms [Fact sheet]. Montana State University Extension. \n\nMeyer, R., Marcum, D., Orloff, S., & Schmierer, J. (2007). Alfalfa fertilization strategies [Fact sheet]. University of California, Davis. \n\nMiller, R."
             },
             {
-              "url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
-              "title": "Steps to Successful No-till Establishment of Forages",
-              "description": "Table 2. Effect of tillage method on first-year alfalfa yield and plant density.\n(Data from Dan Undersander, University of Wisconsin.) Tillage Year Yield Stand 30 to 60 Stand Oct.23 days (plants/yd2) (plants/yd2) Treatments consisted of (1) disk, seed with IH grain drill, (2) chisel and seed with Brillion seeder, (3) moldboard plow, disk and seed with Brillion seeder and cultipack, and (4) seed with Lilliston no-till drill. [...] Potato leafhopper is the primary insect of concern. Potato leafhop-pers can reduce the vigor and later performance of alfalfa seed-ings. Proper monitoring and con-trol when the economic threshold has been reached are extremely important during alfalfa estab-lishment. When alfalfa is direct drilled into old sods, grasshop-pers can be especially destructive to new seedings during a dry spell. For more information on insect control in forages, refer to MSU Extension bulletin E-1582, \"Insect and [...] Though the recommended rota-tion interval varies, the general consensus is that at least one year between alfalfa crops is necessary to reduce or eliminate the harmful effects of auto-toxicity in alfalfa. Thinning alfalfa stands can be no-till seeded via drilling"
+              "url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag",
+              "title": "2024 Wisconsin alfalfa seedings a mixed bag – Crops and Soils",
+              "description": "The presence of herbicide-resistant weed species on more farms has pushed widespread use of aggressive pre-emergence chemistries (Group 4, 14, and 27). As moisture is needed for breakdown of these chemistries, a dry 2023 may have led to less breakdown and could lead to undesirable effects on alfalfa establishment. Management that minimizes soil disturbance can also preserve concentrations in the top of the soil profile. From a recent study at UW, there is some evidence of potential interaction [...] Skip to content\n\nUW Madison Crest\n\nCrops and Soils\n\nDivision of Extension\n\nUniversity of Wisconsin-Extension\n\n# 2024 Wisconsin alfalfa seedings a mixed bag\n\nWritten by Scott Newell Posted on\n\nShare\n\n Share:\n\nCopied! [...] ### Other factors are possible. What about residual herbicide damage?\n\nThis year’s large rain events may have brought physical damage to stands, with washout occurring, tender seedlings being damaged by deluge, or soil crusting making emergence challenging. Another factor we are increasingly concerned about is herbicide carryover, this being the unintended residual effect on alfalfa seedlings of soil-incorporated herbicides used in previous crops to control weeds."
             },
             {
-              "url": "https://extension.missouri.edu/publications/m164",
-              "title": "Missouri No-Till Planting Systems | MU Extension",
-              "description": "Several drills on the market use soil movement from fluted coulters to improve drill performance over a wide variety of soil conditions. Selection of the coulter type should be determined by operator preference and field conditions. For example, drills operating in heavy residue may need to be pulled at a slight angle to the old corn row to get the corn residue to feed through. Clamping coulters on two beams separated by 12 to 18 inches would do more for residue flow than changing the type of [...] No-till crop production systems enable farmers to control erosion, improve the soil, and save time, fuel and moisture. These systems require a high degree of management skill. As we reduce tillage of the soil, we eliminate its positive aspects along with the negative. An example is that when we plowed the clover field, mice were quickly eliminated. In a no-till field the mice leave as the clover dies. To make no-till planting systems work, special consideration must be given to controlling [...] Lear, J. K., and R. A. Kelly. 1994. Residue Management for No-Till, UMC Agronomy Technical Report, volume 12, number 12.\n Lear, J. K., and R. A. Kelley. 1994. Sidewall Compaction Myth or Reality,"
+              "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+              "title": "Soil crust-busters | Integrated Crop Management",
+              "description": "Iowa State University Extension and Outreach\n\nSign Up for Updates\n\nIntegrated Crop Management\n\nIntegrated Crop Management\n\nSign Up for Updates\n\n# Soil crust-busters [...] Rotary hoes should be operated at 7 to 10 miles per hour. A side benefit of running the rotary hoe just prior to weed emergence is weed control. Although using a hoe to break a crust or incorporate moisture for a herbicide can be beneficial, hoeing is unnecessary if weeds or crust are not present. [...] Most producers have been advised to plant a little deeper this year to achieve good seed-to-soil contact and access to adequate soil moisture. But if a crust forms above the seed, it requires the combined pressure of several plants to crack through a crust, reducing emergence. Seedling crops trapped under a crust grow and elongate below the crust until the seed runs out of stored energy. Deep planting also presents risks because the plants leaf out underground, inhibiting growth and vigor and"
             },
             {
-              "url": "https://mosh.umn.edu/management",
-              "title": "Management | MOSH - Minnesota Office for Soil Health",
-              "description": "No-till farming involves drilling seed into a residue-covered soil surface. s significantly reduce loss of soil to erosion, many districts have no-till drills"
+              "url": "https://agcrops.osu.edu/newsletter/corn-newsletter/2025-20/soil-crusting-and-herbicide-carryover",
+              "title": "Soil Crusting and Herbicide Carryover",
+              "description": "Soil crusting inhibits seedling emergence, especially for broadleaf crops like soybean, reduces water infiltration, and increases runoff and erosion."
             },
             {
-              "url": "https://www.climatehubs.usda.gov/hubs/northwest/topic/northwest-no-till-farming-climate-resilience",
-              "title": "Northwest No-Till Farming for Climate Resilience | USDA Climate Hubs",
-              "description": "Soil Health Management to Reduce Climate and Weather Risks in the Northwest is a Northwest Climate Hub webpage that reveals the ability of soil health management to reduce the risk of extreme events and climate impacts in the Northwest.\n\nIdaho Soil Health Case Study is an NRCS and American Farmland Trust case study that examines the soil health practices (including no-till) implemented by a farm in central Idaho. [...] Soil is a complex system of living and non-living elements. Soil contains a microbial biomass of fungi, bacteria, and fine roots that aggregate (collect) and store nutrients for plants. Conventional tillage breaks up soil aggregates and reduces the soil microbial biomass. Because no-till farming does not break up soil by plowing or turning it, soil microbial biomass remains undisturbed and intact. In addition, no-till benefits predatory insects that can  enhance pest control. [...] Enhancing Soil Health: No-till systems enrich the soil with organic matter, increase soil water-holding capacity, and protect crops during periods of drought and flooding. The crop residue left on the soil surface also prevents wind and water erosion, benefitting water and air quality. In "
+              "url": "https://www.canr.msu.edu/news/improving_soybean_emergence_in_soils_prone_to_crusting",
+              "title": "Improving soybean emergence in soils prone to crusting",
+              "description": "The potential for soil crusting is high this spring and the following information will help you improve soybean emergence in soils prone to"
             }
           ]
         },
         {
-          "query_id": "3f78fbff7334e3a8e6cdbebbc8a47351f1535c0f31dcb8acfdd99bc74abf88bb",
-          "query": "alfalfa seedling emergence soil crusting prevention techniques germination studies",
+          "query_id": "e68125f136330f8cc810c49fe992e2c4c54aa520d72ffe607e29714bdeb07d58",
+          "query": "alfalfa seed imbibition temperature soil moisture threshold germination studies",
           "cached": false,
-          "checked_at_epoch": 1793167843.5931315,
+          "checked_at_epoch": 1793168985.8992286,
           "results": [
             {
-              "url": "https://extensionpubs.unl.edu/publication/1596/html/view",
-              "title": "Seeding Alfalfa - Nebraska Extension Publications",
-              "description": "Alfalfa seeds must have close contact with soil particles and soil moisture to ensure rapid emergence. A firm seedbed also helps prevent seed from being planted"
+              "url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
+              "title": "Drought risks to late summer alfalfa seedings",
+              "description": "Oct 19, 2022 — Alfalfa can germinate at temperatures as low as 32 F although it can take 2 weeks for germination. Unfortunately, seeds that germinate after mid ...Read more"
             },
             {
-              "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
-              "title": "Soil crust-busters - Integrated Crop Management",
-              "description": "Strategies to avoid soil crusting Typically, mulch-tillage or no-till systems leave larger amounts of surface residues on and near the soil surface. Rotary"
+              "url": "https://www.ndsu.edu/agriculture/ag-hub/ag-topics/crop-production/crops/alfalfa/time-seeding-new-alfalfa-establishment",
+              "title": "Time of Seeding for New Alfalfa Establishment",
+              "description": "This is because moisture is adequate in the spring and cool but not freezing conditions can support good germination and growth (germination begins at 40F ...Read more"
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9654111",
+              "title": "The Effects of Temperature and Water on the Seed Germination and Seedling Development of Rapeseed (Brassica napus L.)",
+              "description": "Most seeds require a critical moisture content in order to germinate. This value was estimated to be 30% in maize, 40% in wheat, and 50% in soybeans . Once the critical seed moisture content is reached, sufficient moisture is present to initiate germination. Moreover, numerous studies have documented the minimum water potential required to induce seed imbibition [15,57]. Seed imbibition is a three-part process, commencing with an initial phase of water intake, followed by a plateau period with [...] Water is considered the primary germination regulator, as germination begins with seed imbibition. Sufficient moisture must be present for germination to take place. Some research studies stated that a lack of water availability is the primary limitation affecting seed germination [14,15]. It is necessary for enzymatic reactions and the mobilization of the seed storage reserves, including lipids, carbohydrates, and proteins . Therefore, the depletion of the soil water content influences seed [...] Water intake is a prerequisite for germination. It is required for seed imbibition, enzymatic activation, degradation, translocation, and the utilization of reserve storage material. The germi"
             }
           ]
         }
@@ -241,48 +235,48 @@
         "s16",
         "s17",
         "s18",
-        "s19",
-        "s20"
+        "s19"
       ],
       "publication_authorized": false,
       "fetch_report": {
         "requested": 6,
-        "loaded": 5,
+        "loaded": 4,
         "sources": [
           {
-            "url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
-            "canonical_url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
+            "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+            "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
             "redirect_hops": 0,
             "status": "fetched"
           },
           {
-            "url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
-            "canonical_url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
-            "redirect_hops": 0,
-            "status": "fetched"
-          },
-          {
-            "url": "https://extension.missouri.edu/publications/m164",
-            "canonical_url": "https://extension.missouri.edu/publications/m164",
-            "redirect_hops": 0,
-            "status": "fetched"
-          },
-          {
-            "url": "https://mosh.umn.edu/management",
-            "canonical_url": "https://mosh.umn.edu/management",
-            "redirect_hops": 0,
-            "status": "fetched"
-          },
-          {
-            "url": "https://www.climatehubs.usda.gov/hubs/northwest/topic/northwest-no-till-farming-climate-resilience",
-            "status": "unavailable",
-            "category": "fetch_or_validation_failed",
-            "temporary": true
-          },
-          {
-            "url": "https://extensionpubs.unl.edu/publication/1596/html/view",
-            "canonical_url": "https://extensionpubs.unl.edu/publication/g2247/2014/html/view",
+            "url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag",
+            "canonical_url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag/",
             "redirect_hops": 1,
+            "status": "fetched"
+          },
+          {
+            "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+            "canonical_url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+            "redirect_hops": 0,
+            "status": "fetched"
+          },
+          {
+            "url": "https://agcrops.osu.edu/newsletter/corn-newsletter/2025-20/soil-crusting-and-herbicide-carryover",
+            "status": "unavailable",
+            "category": "http_error",
+            "temporary": true,
+            "http_status": 403
+          },
+          {
+            "url": "https://www.canr.msu.edu/news/improving_soybean_emergence_in_soils_prone_to_crusting",
+            "status": "unavailable",
+            "category": "source_policy_or_content_rejected",
+            "temporary": false
+          },
+          {
+            "url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
+            "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
+            "redirect_hops": 0,
             "status": "fetched"
           }
         ]
@@ -296,10 +290,9 @@
             "covered": true,
             "document_ids": [
               "s1",
+              "s2",
               "s10",
-              "s13",
-              "s14",
-              "s20"
+              "s12"
             ],
             "missing": ""
           },
@@ -307,21 +300,24 @@
             "id": "exact_reader_method",
             "covered": false,
             "document_ids": [],
-            "missing": "No supplied document addresses both (a) laboratory or field germination parameter values for alfalfa and (b) mechanical/management practices for preventing or breaking soil crust during alfalfa seedling emergence. s11 notes crusted soils impede slow cold-season emergence but does not provide crust-breaking methods; s20 warns against powdery-fine seedbeds that crust but gives no crust-breaking procedure; no source covers germination parameter tables alongside crust-management practices."
+            "missing": "No source combines laboratory or field germination parameters with mechanical or management practices for preventing or breaking soil crust during alfalfa seedling emergence. s11 gives lab germination data but does not address crust management; s18 addresses crust-breaking (rotary hoe) but for general row crops and not tied to alfalfa germination parameters."
           },
           {
             "id": "measurement_units_and_scope",
             "covered": false,
-            "document_ids": [],
-            "missing": "No supplied document provides germination temperature values with original units tied to alfalfa seed imbibition or emergence together with soil moisture metrics for the same process, preserving source geography and date. s11 gives 31.3–32.2 °F and 60 °F with UMN Extension (April 2022, Minnesota) but no soil-moisture metric; s10 cites 81 °F air / 54 °F soil for optimal growth, not germination imbibition; s14 reports water-potential thresholds in MPa from Lanzhou University (2022) but no germination temperature values; s13 reports germination decline under PEG-induced drought without temperature-imbibition linkage."
+            "document_ids": [
+              "s11",
+              "s14"
+            ],
+            "missing": "Germination temperature values with original units and geography/date are present in s11 (31.3 °F–32.2 °F for germination near freezing, 60 °F optimum, Minnesota-based, 2022) and s14 (laboratory 20 °C, Gansu China, 2022). However, no source provides soil moisture metrics explicitly tied to alfalfa seed imbibition or emergence (e.g., water potential thresholds for radicle protrusion in field soil, or soil moisture content at planting linked to imbibition requirements with original units and geographic/date provenance preserved)."
           }
         ],
         "next_queries": [
-          "alfalfa seed germination temperature range soil crust emergence site:edu OR site:gov",
-          "alfalfa seedling emergence soil crusting mechanical breakdown cultivation management extension"
+          "alfalfa seed imbibition water potential soil moisture germination threshold university",
+          "alfalfa soil crust emergence rotary hoe management extension"
         ]
       },
-      "completed_at": "2026-10-28T06:11:15.718946+00:00"
+      "completed_at": "2026-10-28T06:30:39.577442+00:00"
     }
   ],
   "fetches_reserved": 12,

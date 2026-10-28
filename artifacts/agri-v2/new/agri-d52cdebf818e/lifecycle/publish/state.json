@@ -1,0 +1,17 @@
+{
+  "attempts": 1,
+  "history": [
+    {
+      "attempts": 1,
+      "status": "validated",
+      "last_run_id": "40643892351",
+      "started_at": "2026-10-28T06:38:39.206543+00:00",
+      "completed_at": "2026-10-28T06:40:00.602911+00:00",
+      "failure": null
+    }
+  ],
+  "status": "validated",
+  "last_run_id": "40643892351",
+  "started_at": "2026-10-28T06:38:39.206543+00:00",
+  "completed_at": "2026-10-28T06:40:00.602911+00:00"
+}

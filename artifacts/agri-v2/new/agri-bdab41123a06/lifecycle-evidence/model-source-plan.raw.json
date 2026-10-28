@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-bdab41123a06",
+  "gap": "No directly relevant evidence found on soil-moisture-based thresholds, tension/FC thresholds, or practical field indicators (plant wilting stage, soil probe assessment) to decide when to resume alfalfa irrigation after a rain event. Existing fetched sources address drainage needs, Minnesota seasonal rain, laboratory irrigation volumes, and drying impact—but none quantify a re-irrigation trigger or delay window post-rain.",
+  "queries": [
+    "alfalfa irrigation resume after rain soil moisture threshold university extension",
+    "post-rain alfalfa soil water tension refill deficit when to irrigate again"
+  ],
+  "requirements": [
+    {
+      "id": "exact_reader_method",
+      "need": "University or peer-reviewed source specifying the decision rule for when to resume alfalfa irrigation after rainfall—e.g., soil moisture tension range, fraction of available water to refill, or plant-based field indicator tied to a documented threshold."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Any reported threshold expressed with explicit units (kPa matric potential, cm H2O soil moisture content, % available water remaining, mm depth) and clear scope (field-grown alfalfa, specific growth/harvest stage, geographic context) so it can be distinguished from lab or greenhouse findings."
+    },
+    {
+      "id": "species_product",
+      "need": "Evidence must pertain to forage/grass-legume alfalfa (Medicago sativa) under field irrigation management; exclude seed-watermelon/pumpkin product-ambiguity scope and non-irrigation topics such as pure drainage or winter hardiness."
+    }
+  ]
+}

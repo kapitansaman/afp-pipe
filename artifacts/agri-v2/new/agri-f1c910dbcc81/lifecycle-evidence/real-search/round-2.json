@@ -1,0 +1,122 @@
+{
+  "round": 2,
+  "started_at": "2026-10-28T06:30:53.133611+00:00",
+  "queries": [
+    {
+      "query_id": "d733a3b79a633cd32938586607ce0725db532d110786a7d24924ce35f739e5fc",
+      "query": "alfalfa subsurface drip irrigation discharge per emitter L/s set duration calculation university extension",
+      "cached": false,
+      "checked_at_epoch": 1793169055.101995,
+      "results": [
+        {
+          "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+          "title": "Irrigating Alfalfa in Arid Regions",
+          "description": "Drip irrigation systems discharge small amounts of water through emitters peri­ odically installed at set distances along drip lines. Emitter discharge rates can range from 0.13 gallons (0.59 l) per hour to 2 gallons (9.1 l) per hour, depending on the type of material and size of hose used for drip laterals. [...] Determine the application rate (AR) of the • sprinkler. This method is appropriate for wheel-line and hand-move sprinkler sys­ tems. The irrigation set time is calculated from Equation 3: T = D ÷ AR [Eq. 3] where T equals the irrigation set time (hours) and AR is the application rate (inches [mm] per hour). The application rate depends on the discharge rate of an individual sprinkler and the overlapped sprinkler spacing, and can be determined from Equation 4: AR = (96.3 × q) ÷ (Sl × Sm) [Eq. 4] [...] Sprinkler Timing The amount of water applied should equal the alfalfa ET or soil moisture depletion between irrigations and an additional amount to account for the irrigation efficiency. The irriga­ tion set time needed for sprinkler irrigation can be determined using either of the two following methods: Calculate the required irrigation set time • using Equation 2 (below). T"
+        },
+        {
+          "url": "https://bookstore.ksre.ksu.edu/download/subsurface-drip-irrigation-for-alfalfa_MF2867",
+          "title": "MF2867 Subsurface Drip Irrigation for Alfalfa - KSRE Bookstore",
+          "description": "Subsurface drip irrigation also shows improved crop yield because it eliminates leaf scalding in alfalfa, which may occur when using sprinkler irrigation ("
+        },
+        {
+          "url": "https://digitalcommons.usu.edu/etd2023/715",
+          "title": "\"Effects of Subsurface-Drip-Irrigation on Alfalfa ...",
+          "description": "Subsurface drip irrigation (SDI), which delivers water directly to plant roots through buried drip lines, it often reduces water consumption and increases"
+        }
+      ]
+    },
+    {
+      "query_id": "c1f134fbf5206842573ca1b213a76e313ac595ca6de13edf15fd3b4dfc657314",
+      "query": "alfalfa drip tape irrigation scheduling flow rate application depth per event site:extension.usda.gov OR site:ksu.edu",
+      "cached": false,
+      "checked_at_epoch": 1793169059.2903643,
+      "results": [
+        {
+          "url": "https://agresearch.montana.edu/wtarc/producerinfo/agronomy-nutrient-management/Alfalfa/AlfalfaProductionManual.pdf",
+          "title": "ALFALFA PRODUCTION MANUAL",
+          "description": "Subsurface drip irrigation on alfalfa is used in a number of areas in the arid west. Experience on medium textured soils has shown that driplines with 24 inch dripper spacing, rows positioned 40-60 inches apart and buried 12 to 18 inches deep result in very even growth over the total soil surface area. Dripper flow rate and spacing are determined by the soil properties and water availability. The common method for the scheduling of irrigation is based on crop water use. Commercial yields of up [...] At a given row spacing, the flow out of each dripper and the spacing between drippers will determine the application rate. The application rate desired is dependent on water requirements, water availability and cultural practices. A common system may use 0.16 GPH Typhoon emitters spaced 24 inches apart. This will give an application rate of 0.038 inches/hour or 0.91 inches in a 24 hour period. Factors that affect dripline spacing, emitter flow rate and spacing, and dripline depth of placement [...] To calculate the flow rate expected for each zone use the following formula: Flow rate (GPM) = (0.2) X total length of dripline (ft) in zone X dripper flow rate (GPH) / dripper spacing (in) C"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378377424000283",
+          "title": "Simulated soil water distribution patterns and water use of Alfalfa under different subsurface drip irrigation depths",
+          "description": "in topsoil volumetric soil water content was observed for drip lines at 45 cm depth as compared with 15 cm depth. Drip lines at 30 cm depth are likely the optimal for RWU and free drainage; however, drip lines at 45 cm depth may allow growers to provide additional irrigation events (without increasing the topsoil volumetric soil water content) closer to the harvest date, potentially resulting in higher yield and water use efficiency. [...] Alfalfa is one of the major perennial forage crops in California, vital for the livestock industry, and provides environmental benefits to the ecosystem in the state. Information on subsurface drip irrigation (SDI) practices on alfalfa is limited particularly in areas related to drip tape spacings and installation depths and their impacts on topsoil profile wetting patterns and alfalfa productivity. The objective of this study was to compare three different depths of drip lines: 15, 30, and 45 [...] ## Highlights\n\n   •HYDRUS simulated soil profile moisture distribution of SDI for alfalfa well. \n   •There was no significant difference between root water uptake (RWU) among drip depths. \n   •A 10%, and 20% reduction in topsoil moisture content was o"
+        },
+        {
+          "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+          "title": "Irrigating Alfalfa in Arid Regions",
+          "description": "Normally, drip irrigation of row crops uses a flexible drip tape that inflates upon pressurization. The drip tape may be either installed on the ground surface (surface drip system) or buried (subsurface drip systems). Depending on the grower’s preferences for cultivation equipment and crop rotation, drip lines are usually installed at depths of 9 to 18 inches (229–457 mm). Because of harvesting and other traffic considerations, surface drip is not practical for alfalfa. Subsurface drip lines [...] drip lines may need to be installed as deep as 18 to 24 inches (457 to 610 mm) to prevent wetting of the soil surface during irrigation, which could cause problems for the harvesting equipment. A drip tape wall thickness of 15 mil provides sufficiently heavy walls to prevent damage by wireworms and other subterranean insects with scraping mouthparts that can cause pin­ hole leaks in the tape. However, a 10‑mil wall thickness is the most common compromise between cost and this type of possible [...] Drip irrigation systems discharge small amounts of water through emitters peri­ odically installed at set distances along drip lines. Emitter discharge rates can range from 0.13 gallons (0.59 "
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 2,
+    "loaded": 2,
+    "sources": [
+      {
+        "url": "https://bookstore.ksre.ksu.edu/download/subsurface-drip-irrigation-for-alfalfa_MF2867",
+        "canonical_url": "https://bookstore.ksre.ksu.edu/download/subsurface-drip-irrigation-for-alfalfa_MF2867",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://digitalcommons.usu.edu/etd2023/715",
+        "canonical_url": "https://digitalcommons.usu.edu/etd2023/715/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 2,
+  "coverage": {
+    "topic_id": "agri-f1c910dbcc81",
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No fetched document presents a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge/flow-rate input (L/s or m³/h per tape length). s11 gives a generic set-time formula but no alfalfa-specific worked example with measured discharge; s10/s13 mention gross capacity conceptually without a per-tape-length duration calculation."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No document explicitly states original measurement units (discharge, tape length, emitter emission rate, irrigation-depth-per-event, or soil-moisture threshold) tied to alfalfa with geographic and crop-stage context. s11 lists rooting depth (4 ft) and MAD (60%) generically; s12 lists 48-inch rooting depth; s10/s13 give total seasonal water needs (3–5 in/ton) but not per-event inputs with units."
+      },
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s10",
+          "s11",
+          "s12",
+          "s13"
+        ],
+        "missing": ""
+      }
+    ],
+    "next_queries": [
+      "alfalfa drip tape irrigation duration calculation actual flow rate L/s emitter spacing extension",
+      "alfalfa subsurface drip irrigation set time calculation discharge per emitter university"
+    ]
+  },
+  "completed_at": "2026-10-28T06:31:18.850471+00:00"
+}

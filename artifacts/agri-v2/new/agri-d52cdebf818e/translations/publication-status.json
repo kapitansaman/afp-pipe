@@ -1,0 +1,38 @@
+{
+  "status": "pending",
+  "languages": {
+    "ru-RU": {
+      "status": "pending_separate_review"
+    },
+    "ar-IQ": {
+      "status": "pending_separate_review"
+    },
+    "tg-TJ": {
+      "status": "pending_separate_review"
+    },
+    "en-US": {
+      "post_id": 524200,
+      "url": "https://navar-abyari.ir/table-beet-yield-domain-en-us/",
+      "language": "en-US",
+      "source_post_id": 524196,
+      "status": "published",
+      "public_verified": true,
+      "shared_media": [
+        {
+          "index": 1,
+          "id": 524197,
+          "url": "https://navar-abyari.ir/wp-content/uploads/agri-d52cdebf818e-image-1.webp"
+        },
+        {
+          "index": 2,
+          "id": 524198,
+          "url": "https://navar-abyari.ir/wp-content/uploads/agri-d52cdebf818e-image-2.webp"
+        }
+      ],
+      "new_media_uploads": 0,
+      "display_units_policy": "localized-display-units-v1",
+      "verified_at": "2026-10-28T06:40:00.599874+00:00"
+    }
+  },
+  "at": "2026-10-28T06:40:00.601562+00:00"
+}

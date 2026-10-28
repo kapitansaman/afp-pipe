@@ -1,5 +1,5 @@
 {
-  "attempts": 2,
+  "attempts": 3,
   "history": [
     {
       "attempts": 1,
@@ -22,14 +22,25 @@
         "kind": "validation",
         "category": "independent_scoped_review_rejected"
       }
+    },
+    {
+      "attempts": 3,
+      "status": "failed",
+      "last_run_id": "40643892351",
+      "started_at": "2026-10-28T06:29:21.216576+00:00",
+      "completed_at": "2026-10-28T06:30:59.585980+00:00",
+      "failure": {
+        "kind": "model_output",
+        "category": "text_incomplete_response"
+      }
     }
   ],
   "status": "failed",
-  "last_run_id": "40641934753",
-  "started_at": "2026-10-28T06:09:57.576741+00:00",
-  "completed_at": "2026-10-28T06:10:20.381708+00:00",
+  "last_run_id": "40643892351",
+  "started_at": "2026-10-28T06:29:21.216576+00:00",
+  "completed_at": "2026-10-28T06:30:59.585980+00:00",
   "failure": {
-    "kind": "validation",
-    "category": "independent_scoped_review_rejected"
+    "kind": "model_output",
+    "category": "text_incomplete_response"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "requested": 6,
+  "loaded": 6,
+  "sources": [
+    {
+      "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+      "canonical_url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+      "canonical_url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+      "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

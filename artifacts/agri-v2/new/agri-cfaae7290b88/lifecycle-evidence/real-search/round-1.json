@@ -1,0 +1,147 @@
+{
+  "round": 1,
+  "started_at": "2026-10-28T06:29:27.419725+00:00",
+  "queries": [
+    {
+      "query_id": "218275acf2a735e8f58afec3034b459abb09fef7f2ff8be5b31c1de6014de510",
+      "query": "alfalfa drought stress sensitivity growth stage university extension irrigation scheduling",
+      "cached": false,
+      "checked_at_epoch": 1793168988.122262,
+      "results": [
+        {
+          "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+          "title": "Crop Water Use and Growth Stages | CSU Extension",
+          "description": "A good irrigation scheduling scheme should consider sensitivity of the crop to water stress at different growth stages. This is accomplished by using a coefficient termed the Management Allowable Depletion (MAD), which is the amount of water allowed to be depleted from the root zone before irrigation is scheduled. The MAD is usually given as a percentage of maximum water-holding capacity of the soil. At the time of irrigation, the soil water deficit should be less than or equal to the MAD. [...] This indicator is inferior for modern agriculture due to the inability to determine the actual crop water use. However, ignoring it at the critical growth stages may lead to yield reduction. Using the growth stage as a field indicator in irrigation scheduling should be coupled with more sensitive and accurate methods of determining the crop water use such as soil moisture measurements and ET data. The main advantage of this indicator is to provide direct and visual feedback from the crop. [...] Crops that are in the sensitive stage of growth should be irrigated at a lower soil water depletion level than those that can withstand water stress. If a crop is last in the irrigation rotation and "
+        },
+        {
+          "url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+          "title": "Soil, Water and Crop Characteristics Important to Irrigation Scheduling | NC State Extension Publications",
+          "description": "Irrigation scheduling is simply knowing when to irrigate and how much irrigatzon water to apply. An effective irrigation schedule helps to maximize profit while minimizing water and energy use. The following factors contribute to developing a workable and efficient irrigation schedule:\n\n soil properties\n soil-water relationships\n type of crop and its sensitivity to drought stress\n stage of crop development\n availability of a water supply\n climatic factors such as rainfall and temperature. [...] ## Plant Factors\n\nSkip to Plant Factors\n\nThree plant factors must be considered in developing a sound irrigation schedule: the crop's effective root depth, its moisture use rate, and its sensitivity to drought stress (that is, the amount that crop yield or quality is reduced by drought stress).\n\n### Effective Root Depth [...] ##### Figure 13. Corn daily water use as influenced by stage of development. Irrigation scheduling decisions should be adjusted to reflect changes in crop water consumption during the growing season.\n\nGraph shows corn daily water use in inches vs. days after planting from 0-140. States include emergence, knee high, tasseling, silking, early dent, and black layer.\nPrint "
+        },
+        {
+          "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+          "title": "Alfalfa during drought - Minnesota Crop News",
+          "description": "Jun 16, 2021 — irrigation scheduling considerations unique to alfalfa include: 1) avoid scheduling during times of peak ET in the summer months, 2) avoid"
+        },
+        {
+          "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+          "title": "Effect of drought on alfalfa and managing for the next growing ...",
+          "description": "Drought can significantly reduce alfalfa yield. Timing of drought can be critical. First cutting may be reduced in the case of a dry March.Read more"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445",
+          "title": "Water–Fertilizer Synergistic Effects and Resource ... - PMC",
+          "description": "by G Mu · 2025 · Cited by 9 — This study posits that strategically optimizing irrigation and fertilization regimes can enhance the productivity and water use efficiency (WUE) of alfalfa"
+        }
+      ]
+    },
+    {
+      "query_id": "999a9259c1ec824be9c8dfcd05188338984659a12dd4e792d7d0bced89b80096",
+      "query": "alfalfa phenology water deficit threshold soil moisture priority irrigation deficit",
+      "cached": false,
+      "checked_at_epoch": 1793168990.4360888,
+      "results": [
+        {
+          "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+          "title": "Strategies for Deficit Irrigation of Forage Crops | USU",
+          "description": "green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for [...] 7 acre-inches for later cuttings (Shewmaker et al., 2013). Plus, the first cutting is usually the highest yielding crop. Deficit irrigation should also be targeted first to the least productive alfalfa land—areas with poor soils, poor irrigation efficiency, poor alfalfa stem density, most weeds, oldest alfalfa, and/or poor varieties. This strategy allows for prioritizing full irrigation on the best land and crop conditions where water use efficiency will be greatest. [...] Alfalfa is naturally drought tolerant. Its lengthy root systems can reach over 15 feet deep, providing access to a greater soil volume to scavenge water. Alfalfa also has a unique ability to go into drought-induced dorman"
+        }
+      ]
+    }
+  ],
+  "new_document_ids": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15"
+  ],
+  "publication_authorized": false,
+  "fetch_report": {
+    "requested": 6,
+    "loaded": 6,
+    "sources": [
+      {
+        "url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages",
+        "canonical_url": "https://extension.colostate.edu/resource/crop-water-use-and-growth-stages/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      },
+      {
+        "url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+        "canonical_url": "https://content.ces.ncsu.edu/soil-water-and-crop-characteristics-important-to-irrigation-scheduling",
+        "status": "cache_valid"
+      },
+      {
+        "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+        "canonical_url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+        "redirect_hops": 0,
+        "status": "fetched"
+      },
+      {
+        "url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season",
+        "canonical_url": "https://cropsandsoils.extension.wisc.edu/articles/effect-of-drought-on-alfalfa-and-managing-for-the-next-growing-season/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445",
+        "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/",
+        "redirect_hops": 1,
+        "status": "fetched"
+      },
+      {
+        "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+        "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+        "redirect_hops": 0,
+        "status": "fetched"
+      }
+    ]
+  },
+  "fetches_reserved": 6,
+  "coverage": {
+    "topic_id": "agri-cfaae7290b88",
+    "requirements": [
+      {
+        "id": "species_product",
+        "covered": true,
+        "document_ids": [
+          "s1",
+          "s2",
+          "s12",
+          "s14",
+          "s15"
+        ],
+        "missing": ""
+      },
+      {
+        "id": "exact_reader_method",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document distinguishes regulated deficit irrigation (RDI) from drought stress tolerance studies, nor specifies whether deficit is imposed by soil moisture percentile, ETc fraction, or irrigation amount reduction. s14 uses pot-experiment volumetric moisture (% θ_fc) and s12/s15 discuss general deficit irrigation conceptually without the required methodological specification for field RDI vs. natural drought stress distinction."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "covered": false,
+        "document_ids": [],
+        "missing": "No supplied document reports original units (mm irrigation applied, kPa soil water potential, fraction of ETc) together with geographic/site context and a clear separation of field trials from pot/container experiments. s14 is explicitly a pot experiment with cm³/cm³ soil moisture; s12 gives daily ET range in inches/day for Minnesota but lacks soil-water measurement units; s10 provides MAD% tables for Colorado but not alfalfa-specific deficit methodology with field measurements."
+      }
+    ],
+    "next_queries": [
+      "alfalfa regulated deficit irrigation field trial soil moisture kPa ETc fraction unit",
+      "alfalfa drought sensitive growth stage irrigation scheduling field measurement units mm kPa"
+    ]
+  },
+  "completed_at": "2026-10-28T06:30:03.348220+00:00"
+}

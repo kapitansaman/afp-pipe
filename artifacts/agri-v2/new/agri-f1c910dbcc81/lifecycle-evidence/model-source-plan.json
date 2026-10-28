@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T06:29:29.014602+00:00",
+  "topic_id": "agri-f1c910dbcc81",
+  "input_binding": {
+    "topic_sha256": "3ea4c71d5d809480f062cf419c123b2a3ad2bbaa329325a72bf338c8306e0ea0",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "7c0b3c4bbe232860b4555e5e973d72a41893e3bb63cf1b3b8ff3479c5116a1c3"
+  },
+  "plan": {
+    "topic_id": "agri-f1c910dbcc81",
+    "gap": "No measured discharge (L/s or m³/h), drip-tape length/rate, soil-moisture threshold, or calculated irrigation-cycle duration for alfalfa was found. Only a seasonal volume (14 cm at Becker, MN) appeared without per-cycle breakdown, flow, pressure, or tape specs.",
+    "queries": [
+      "alfalfa drip irrigation cycle duration flow rate discharge L/s university extension",
+      "alfalfa trickle tape irrigation scheduling application rate mm per event measured discharge"
+    ],
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "need": "A source must present a measured irrigation-cycle duration calculation for alfalfa derived from actual discharge/flow-rate input (L/s or m³/h per tape length), not inferred or generic recommendations."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Original units (discharge, tape length, emission rate, irrigation-depth-per-event, or soil-moisture threshold) must be explicitly stated with geography and crop stage; seasonal totals alone do not satisfy the intent."
+      },
+      {
+        "id": "species_product",
+        "need": "Evidence must refer specifically to alfalfa (Medicago sativa) irrigation management, not grasses or legumes generally, and must distinguish applied water from crop-water-use (ETc) rather than conflating the two."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T06:15:39.309363+00:00",
+  "updated_at": "2026-10-28T06:40:00.617613+00:00",
   "items": [
     {
       "topic_id": "agri-7736a471e8c1",
@@ -182,6 +182,126 @@
       "state_path": "new/agri-b6f7d6bea16b/review-queue/tg-TJ.json"
     },
     {
+      "topic_id": "agri-d52cdebf818e",
+      "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "language": "ar-IQ",
+      "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 4,
+      "next_attempt_at": "2026-10-28T12:37:21.787847+00:00",
+      "experimental_only": false,
+      "reason": "translation_or_review_needs_another_attempt",
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-d52cdebf818e/review-queue/ar-IQ.json"
+    },
+    {
+      "topic_id": null,
+      "title": null,
+      "language": null,
+      "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+      "status": null,
+      "attempts": null,
+      "model_calls_spent": null,
+      "next_attempt_at": null,
+      "experimental_only": null,
+      "reason": null,
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-d52cdebf818e/review-queue/candidate-ar-IQ.json"
+    },
+    {
+      "topic_id": null,
+      "title": null,
+      "language": null,
+      "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+      "status": null,
+      "attempts": null,
+      "model_calls_spent": null,
+      "next_attempt_at": null,
+      "experimental_only": null,
+      "reason": null,
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-d52cdebf818e/review-queue/candidate-en-US.json"
+    },
+    {
+      "topic_id": null,
+      "title": null,
+      "language": null,
+      "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+      "status": null,
+      "attempts": null,
+      "model_calls_spent": null,
+      "next_attempt_at": null,
+      "experimental_only": null,
+      "reason": null,
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-d52cdebf818e/review-queue/candidate-ru-RU.json"
+    },
+    {
+      "topic_id": null,
+      "title": null,
+      "language": null,
+      "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+      "status": null,
+      "attempts": null,
+      "model_calls_spent": null,
+      "next_attempt_at": null,
+      "experimental_only": null,
+      "reason": null,
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-d52cdebf818e/review-queue/candidate-tg-TJ.json"
+    },
+    {
+      "topic_id": "agri-d52cdebf818e",
+      "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "language": "en-US",
+      "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+      "status": "published",
+      "attempts": 1,
+      "model_calls_spent": 2,
+      "next_attempt_at": null,
+      "experimental_only": false,
+      "reason": "source_bound_fidelity_passed",
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-d52cdebf818e/review-queue/en-US.json"
+    },
+    {
+      "topic_id": "agri-d52cdebf818e",
+      "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "language": "ru-RU",
+      "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 2,
+      "next_attempt_at": "2026-10-28T12:34:27.326293+00:00",
+      "experimental_only": false,
+      "reason": "translation_or_review_needs_another_attempt",
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-d52cdebf818e/review-queue/ru-RU.json"
+    },
+    {
+      "topic_id": "agri-d52cdebf818e",
+      "title": "میزان برداشت چغندر لبویی در هکتار؛ دامنه عملکرد و عوامل تغییر آن",
+      "language": "tg-TJ",
+      "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+      "status": "waiting",
+      "attempts": 1,
+      "model_calls_spent": 2,
+      "next_attempt_at": "2026-10-28T12:38:17.980441+00:00",
+      "experimental_only": false,
+      "reason": "translation_or_review_needs_another_attempt",
+      "publication_attempts": null,
+      "publication_next_attempt_at": null,
+      "state_path": "new/agri-d52cdebf818e/review-queue/tg-TJ.json"
+    },
+    {
       "topic_id": "agri-b6f7d6bea16b",
       "title": "چرا بذر هویج سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
       "language": "tg-TJ",
@@ -197,7 +317,7 @@
       "state_path": "parallel/writer-verification/ops-tajik-reference-feedback-final-round-v2/agri-b6f7d6bea16b/review-queue/tg-TJ.json"
     }
   ],
-  "item_count": 13,
+  "item_count": 21,
   "schedule_enabled": false,
   "approval_is_not_guaranteed_by_attempt_count": true
 }

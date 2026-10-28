@@ -1,5 +1,5 @@
 {
-  "attempts": 0,
+  "attempts": 1,
   "history": [
     {
       "attempts": 0,
@@ -11,14 +11,18 @@
         "kind": "admission_deferred",
         "category": "model_capacity_deferred"
       }
+    },
+    {
+      "attempts": 1,
+      "status": "validated",
+      "last_run_id": "40643892351",
+      "started_at": "2026-10-28T06:29:21.175158+00:00",
+      "completed_at": "2026-10-28T06:31:39.572037+00:00",
+      "failure": null
     }
   ],
-  "status": "deferred",
-  "last_run_id": "40641934753",
-  "started_at": "2026-10-28T06:11:04.035805+00:00",
-  "failure": {
-    "kind": "admission_deferred",
-    "category": "model_capacity_deferred"
-  },
-  "completed_at": "2026-10-28T06:11:34.135544+00:00"
+  "status": "validated",
+  "last_run_id": "40643892351",
+  "started_at": "2026-10-28T06:29:21.175158+00:00",
+  "completed_at": "2026-10-28T06:31:39.572037+00:00"
 }

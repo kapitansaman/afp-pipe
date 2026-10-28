@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://bookstore.ksre.ksu.edu/download/subsurface-drip-irrigation-for-alfalfa_MF2867",
+      "canonical_url": "https://bookstore.ksre.ksu.edu/download/subsurface-drip-irrigation-for-alfalfa_MF2867",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://digitalcommons.usu.edu/etd2023/715",
+      "canonical_url": "https://digitalcommons.usu.edu/etd2023/715/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

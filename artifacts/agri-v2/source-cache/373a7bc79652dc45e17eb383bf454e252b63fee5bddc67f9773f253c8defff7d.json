@@ -1,0 +1,385 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/",
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445",
+  "redirect_chain": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/"
+  ],
+  "text": "[table row] A: Branching stage water | Goal: is in range [table row] A: Branching stage water | Lower Limit: 70 [table row] A: Branching stage water | Upper Limit: 90 [table row] A: Branching stage water | Weight: 1 [table row] A: Branching stage water | Importance: 3 [table row] A: Branching stage water | Desirability: 1.000 [table row] B: Budding stage water | Goal: is in range [table row] B: Budding stage water | Lower Limit: 70 [table row] B: Budding stage water | Upper Limit: 90 [table row] B: Budding stage water | Weight: 1 [table row] B: Budding stage water | Importance: 3 [table row] B: Budding stage water | Desirability: 1.000 [table row] C: Nitrogenous fertilizer | Goal: is in range [table row] C: Nitrogenous fertilizer | Lower Limit: 70 [table row] C: Nitrogenous fertilizer | Upper Limit: 210 [table row] C: Nitrogenous fertilizer | Weight: 1 [table row] C: Nitrogenous fertilizer | Importance: 3 [table row] C: Nitrogenous fertilizer | Desirability: 1.000 [table row] D: Phosphate fertilizer | Goal: is in range [table row] D: Phosphate fertilizer | Lower Limit: 70 [table row] D: Phosphate fertilizer | Upper Limit: 210 [table row] D: Phosphate fertilizer | Weight: 1 [table row] D: Phosphate fertilizer | Importance: 3 [table row] D: Phosphate fertilizer | Desirability: 1.000 [table row] Yield in 2022 | Goal: maximize [table row] Yield in 2022 | Lower Limit: 165.19 [table row] Yield in 2022 | Upper Limit: 462.87 [table row] Yield in 2022 | Weight: 1 [table row] Yield in 2022 | Importance: 4 [table row] Yield in 2022 | Desirability: 0.755 [table row] ET in 2022 | Goal: minimize [table row] ET in 2022 | Lower Limit: 13.93 [table row] ET in 2022 | Upper Limit: 38.87 [table row] ET in 2022 | Weight: 1 [table row] ET in 2022 | Importance: 3 [table row] ET in 2022 | Desirability: 0.516 [table row] WUE in 2022 | Goal: maximize [table row] WUE in 2022 | Lower Limit: 9.04 [table row] WUE in 2022 | Upper Limit: 15.94 [table row] WUE in 2022 | Weight: 1 [table row] WUE in 2022 | Importance: 4 [table row] WUE in 2022 | Desirability: 0.721 [table row] Yield in 2023 | Goal: maximize [table row] Yield in 2023 | Lower Limit: 235.99 [table row] Yield in 2023 | Upper Limit: 678.37 [table row] Yield in 2023 | Weight: 1 [table row] Yield in 2023 | Importance: 4 [table row] Yield in 2023 | Desirability: 0.838 [table row] ET in 2023 | Goal: minimize [table row] ET in 2023 | Lower Limit: 20.33 [table row] ET in 2023 | Upper Limit: 49.53 [table row] ET in 2023 | Weight: 1 [table row] ET in 2023 | Importance: 3 [table row] ET in 2023 | Desirability: 0.629 [table row] WUE in 2023 | Goal: maximize [table row] WUE in 2023 | Lower Limit: 9.47 [table row] WUE in 2023 | Upper Limit: 19.37 [table row] WUE in 2023 | Weight: 1 [table row] WUE in 2023 | Importance: 4 [table row] WUE in 2023 | Desirability: 1.000 [table row] Value | Field Capacity (cm 3 /cm 3 ): 28.2 [table row] Value | Bulk Density (g/cm 3 ): 0.92 [table row] Value | pH: 7.4 [table row] Value | Organic Matter (g/kg): 16.58 [table row] Value | Total N (g/kg): 0.28 [table row] Value | Available N (mg/kg): 68.83 [table row] Value | Available P (mg/kg): 3.68 [table row] Value | Available K (g/kg): 0.22 Water–Fertilizer Synergistic Effects and Resource Optimization for Alfalfa Production: A Central Composite Design and Response Surface Methodology Approach - PMC Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Search PMC Full-Text Archive Search in PMC Journal List User Guide PERMALINK Copy As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Plants (Basel) . 2025 Feb 27;14(5):731. doi: 10.3390/plants14050731 Water–Fertilizer Synergistic Effects and Resource Optimization for Alfalfa Production: A Central Composite Design and Response Surface Methodology Approach Gaiya Mu Gaiya Mu 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Writing – original draft, Writing – review & editing, Visualization Find articles by Gaiya Mu 1 , Yuanbo Jiang Yuanbo Jiang 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Software, Writing – review & editing Find articles by Yuanbo Jiang 1 , Haiyan Li Haiyan Li 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Software, Writing – review & editing Find articles by Haiyan Li 1 , Sinan Wei Sinan Wei 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Software Find articles by Sinan Wei 1 , Guangping Qi Guangping Qi 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Resources, Supervision, Funding acquisition Find articles by Guangping Qi 1, * , Yanxia Kang Yanxia Kang 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Methodology Find articles by Yanxia Kang 1 , Minhua Yin Minhua Yin 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Methodology Find articles by Minhua Yin 1 , Yanlin Ma Yanlin Ma 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Resources Find articles by Yanlin Ma 1 , Yayu Wang Yayu Wang 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Formal analysis Find articles by Yayu Wang 1 , Yanbiao Wang Yanbiao Wang 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Investigation, Data curation Find articles by Yanbiao Wang 1 , Jinwen Wang Jinwen Wang 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) Investigation Find articles by Jinwen Wang 1 Editor: Jim Moir 1 Author information Article notes Copyright and License information 1 College of Water Conservancy and Hydropower Engineering, Gansu Agricultural University, Lanzhou 730070, China; 107332202335@st.gsau.edu.cn (G.M.); 1073323010121@st.gsau.edu.cn (Y.J.); 107332201100@st.gsau.edu.cn (H.L.); 107332202336@st.gsau.edu.cn (S.W.); yanxiakang@gsau.edu.cn (Y.K.); yinmh@gsau.edu.cn (M.Y.); mayl@gsau.edu.cn (Y.M.); wangyy@gsau.edu.cn (Y.W.); 17794437957@163.com (Y.W.); 17899318896@163.com (J.W.) * Correspondence: qigp@gsau.edu.cn Roles Gaiya Mu : Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Writing – original draft, Writing – review & editing, Visualization Yuanbo Jiang : Software, Writing – review & editing Haiyan Li : Software, Writing – review & editing Sinan Wei : Software Guangping Qi : Resources, Supervision, Funding acquisition Yanxia Kang : Methodology Minhua Yin : Methodology Yanlin Ma : Resources Yayu Wang : Formal analysis Yanbiao Wang : Investigation, Data curation Jinwen Wang : Investigation Jim Moir : Academic Editor Received 2025 Jan 28; Revised 2025 Feb 16; Accepted 2025 Feb 25; Collection date 2025 Mar. © 2025 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( https://creativecommons.org/licenses/by/4.0/ ). PMC Copyright notice PMCID: PMC11901445 PMID: 40094653 Abstract This study posits that strategically optimizing irrigation and fertilization regimes can enhance the productivity and water use efficiency (WUE) of alfalfa ( Medicago sativa L.), thereby mitigating the constraints imposed by soil impoverishment and water scarcity in forage production systems of arid and semi-arid regions. Conducted over two years, the outdoor pot experiment investigated the effects of water regulation during the branching and bud stages (each at 60–100% θ 0.85 , where θ 0.85 = 0.85θfc) and different levels of nitrogen and phosphorus fertilization (0–280 kg/ha each) on alfalfa yield and WUE. Using Response Surface Methodology (RSM) with a Central Composite Design (CCD), we modeled the relationships between input variables and key response parameters: total yield, evapotranspiration (ET), and WUE. The response surface models exhibited high reliability, with coefficients of determination R 2 , adjusted R 2 , predicted R 2 , and adequate precision exceeding 0.94, 0.90, 0.86, and 13.6, respectively. Sensitivity analysis indicated that water regulation during critical growth stages, particularly the branching stage, had the most significant impact on yield and ET, while nitrogen and phosphorus fertilization positively influenced WUE. Within the appropriate range of water management, judicious fertilization significantly enhanced alfalfa production performance, although excessive inputs resulted in diminishing returns. This study identified the optimal conditions for sustainable production: branching stage water regulation (82.26–83.12% θ 0.85 ) and bud stage water regulation (78.11–88.47% θ 0.85 ), along with nitrogen application (110.59–128.88 kg/ha) and phosphorus application (203.86–210 kg/ha). These findings provide practical guidelines for improving the sustainability and efficiency of alfalfa production in resource-limited environments. Keywords: desirability function, hydrosustainable crop, response surface methodology, water–nitrogen–phosphorus coupling, water use efficiency, yield 1. Introduction Global demand for high-quality forage has surged, driven by the rapid expansion of the livestock industry [ 1 ]. Alfalfa ( Medicago sativa L.), known as the “Queen of Forages”, has gained prominence worldwide due to its exceptional nutritional profile (crude protein content of 15–22%), high biomass yield potential, excellent palatability, and ecological benefits including soil improvement and carbon sequestration [ 2 , 3 , 4 ]. In China, the conservative estimate of high-quality alfalfa demand has reached 5.6 million tonnes annually, with domestic production and imports each accounting for approximately 50% of the total supply [ 5 ]. Within this supply–demand framework, China’s ongoing agricultural restructuring and the progressive implementation of national ecological initiatives have driven the expansion of alfalfa cultivation across the arid and semi-arid regions of Northwest China [ 6 ]. However, this expansion has posed unprecedented challenges to water and soil resource management in these regions. As a water-intensive crop, alfalfa’s increasing water demand conflicts with the region’s limited water resources, creating a critical sustainability challenge [ 7 ]. The situation is particularly concerning given that the total water supply remains constant while agricultural water requirements continue to rise [ 8 ]. Furthermore, due to limited arable land availability, farmers often resort to increasing fertilizer application to boost yields. This practice has led to a series of potential negative effects, including soil nutrient imbalance, water pollution, nitrogen deposition, and greenhouse gas emissions, with nitrous oxide (N 2 O) emissions being particularly prominent [ 9 , 10 ]. Reports indicate that N 2 O emissions from chemical fertilizer application alone account for 88.34% of the total emissions from agricultural lands in China [ 11 ]. In response to these challenges, various water management and fertilization optimization strategies have emerged. These approaches aim to achieve multiple objectives: conserving water resources and minimizing environmental impacts, while simultaneously improving crop yields and water use efficiency—key agricultural indicators in sustainable farming systems. Deficit irrigation (DI) represents an efficient water conservation strategy that intentionally induces moderate water stress to enhance root development and water use efficiency (WUE) without significantly compromising crop yield [ 12 , 13 ]. Renowned for its robust adaptability to drought conditions, alfalfa ( Medicago sativa L.) stands out as an ideal candidate for deficit irrigation strategies. Extensive research has demonstrated that alfalfa can sustain high yields under deficit irrigation, leveraging a suite of physiological and molecular mechanisms that bolster its drought resistance [ 14 , 15 ]. Studies have pinpointed key genes implicated in phenylpropanoid biosynthesis, starch and sucrose metabolism, and glutathione metabolism, which are instrumental in mediating alfalfa’s response to drought stress [ 16 , 17 , 18 , 19 ]. Controlled alternate partial root-zone deficit irrigation (CAPRDI) has been shown to effectively achieve both stable alfalfa production and water conservation [ 20 ]. However, this technique can be complex to manage and may not be easily adopted by small-scale farmers. An alternative irrigation approach involves timing-based deficit irrigation, which aligns water management with alfalfa’s phenological water requirements. Studies indicate that a moderate water deficit during a single growth period can effectively maintain soil moisture while achieving high production efficiency. The early-bud stage has been identified as the optimal timing for implementing growth regulation in alfalfa [ 21 ]. Nonetheless, the identification of drought-sensitive phenological stages and appropriate deficit levels remains challenging due to variations in geographical location, climatic conditions, soil characteristics, and irrigation methods. These factors significantly influence alfalfa’s response to water stress, with reported yield responses varying from −5% to −40% under similar deficit levels across different regions [ 22 ]. With the widespread adoption of fertilization techniques in large-scale alfalfa production, understanding the synergistic effects between water and fertilizers has become crucial for optimizing irrigation and fertilization strategies [ 22 ]. While alfalfa yield demonstrates higher sensitivity to water availability compared to nitrogen fertilization, nutrient management remains a critical factor that significantly influences soil water storage and regulation [ 23 ]. Fertilizer application can effectively mitigate the adverse effects of drought stress on plant growth and enhance physiological functions [ 24 ]. Previous studies have demonstrated that appropriate water–nitrogen ratios can enhance both alfalfa yield and water use efficiency (WUE) [ 25 , 26 ], while water–phosphorus coupling has been shown to promote fine root turnover and dry matter accumulation [ 27 ]. However, considerable controversy persists regarding the effects of nitrogen and phosphorus fertilization on alfalfa growth. Some researchers argue that alfalfa can meet its nitrogen requirements through symbiotic nitrogen fixation, eliminating the need for additional nitrogen inputs. This biological process, however, demands substantial phosphorus resources to support root development and drive energy-intensive processes [ 28 ]. The divergent findings in previous research may be largely attributed to variations in soil texture and nitrogen application timing. Studies have revealed that rhizobial activity and nodulation stability fluctuate with seasonal changes and soil temperature variations [ 29 , 30 , 31 ]. Consequently, moderate nitrogen supplementation may benefit legume development, including alfalfa, during periods of weak biological nitrogen fixation, post-harvest recovery, and low soil nitrogen availability [ 32 ]. While addressing these controversial aspects, our investigation integrates deficit irrigation with precision fertilization to propose a comprehensive water and nutrient management strategy that simultaneously considers multiple objectives, including crop yield, water consumption, and water use efficiency (WUE). This integrated approach has received limited attention in previous research. While previous studies have primarily focused on dual-factor water–fertilizer coupling, investigations examining the combined effects of multiple factors on Medicago sativa L. remain limited, largely due to the complex interactions among multiple water–fertilizer coupling factors [ 33 ]. Furthermore, multi-factor, multi-level experiments significantly increase the number of treatments, resulting in higher time and cost investments while intensifying operational challenges. Given the limitations of traditional research approaches in multi-factor optimization, this study presents an integrated optimization methodology combining Central Composite Design (CCD) and Response Surface Methodology (RSM). This approach offers several advantages, including reduced experimental treatments, multi-response optimization capabilities, clear elucidation of factor interactions, and enhanced prediction accuracy [ 34 , 35 , 36 ]. While CCD-RSM has been successfully implemented across various disciplines, including chemical engineering [ 37 ], pharmaceutical sciences [ 38 ], food technology [ 39 ], mechanical engineering [ 40 ], and metabolomics [ 41 ], its application in agricultural water–fertilizer management remains relatively limited. To address this research gap, a two-year pot experiment was conducted incorporating four critical factors: water regulation during the branching stage, water regulation during the bud emergence stage, nitrogen fertilization, and phosphorus fertilization. Through the integrated optimization of water and fertilizer management strategies using CCD-RSM, sustainable and efficient alfalfa production practices will be achieved. The research objectives are as follows: (i) develop multivariate regression models to elucidate the interactive effects of these four factors on alfalfa yield accumulation and water use; (ii) investigate the synergistic advantages of deficit irrigation and balanced N-P fertilization in alfalfa production, addressing the challenges of sustainable grassland agriculture in water- and nutrient-limited regions; and (iii) optimize multi-objective water–fertilizer management strategies using desirability functions to maximize yield, optimize water consumption, and enhance WUE, ultimately providing science-based recommendations for efficient alfalfa production across varying annual conditions in arid and semi-arid regions. 2. Results 2.1. Overall Evaluation of Water and Fertilizer Regulation In this study, Response Surface Methodology (RSM) was employed to optimize the water–fertilizer management regime for alfalfa production. Table 1 presents the results of the relevant test parameters based on the Central Composite Design (CCD) model. Prior to model development, preliminary analysis and comprehensive evaluation of key measured parameters, such as yield, water consumption (ET), and water use efficiency (WUE), were conducted to identify factor correlations and underlying mechanisms, thereby establishing a scientific foundation for subsequent modeling and optimization. Table 1. Measured parameters of alfalfa cultivation based on the Central Composite Design. Response Depended Variable Range Mean Std Dev 2022 Y 1 (Yield) Hay yield (g/pot) 165.19–462.87 299.08 80.13 Y 2 (ET) Water consumption (10 −3 ·m 3 /pot) 13.93–38.87 23.77 6.42 Y 3 (WUE) Water use efficiency (kg/m 3 ) 9.04–15.94 12.72 1.84 2023 Y 4 (Yield) Hay yield (g/pot) 235.99–678.37 507.01 125.75 Y 5 (ET) Water consumption (10 −3 ·m 3 /pot) 20.33–49.53 33.21 6.89 Y 6 (WUE) Water use efficiency (kg/m 3 ) 9.47–19.37s 15.30 2.77 Open in a new tab Figure 1 illustrates the violin plots of response variables against four treatment factors. The results indicate that yield increased with the increase in water availability during the branching (bud) stage. Notably, a 90% moisture gradient yielded the widest yield variation range compared to other water levels. Although increased irrigation promoted higher yields, it came at the cost of excessive water consumption and significantly compromised WUE. Consistently observed over the two-year trial, both yield and water consumption rose with increased water input, whereas water use efficien",
+  "links": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/account/settings/",
+      "label": "Account settings"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/journals/",
+      "label": "Journal List"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/pdf/plants-14-00731.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/disclaimer/",
+      "label": "PMC Disclaimer"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+      "label": "PMC Copyright Notice"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Search in PMC"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Search in PubMed"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=\"Plants%20(Basel)\"[Title%20Abbreviation]",
+      "label": "View in NLM Catalog"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/?term=\"Plants%20(Basel)\"[jour]",
+      "label": "Add to search"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Mu%20G\"[Author]",
+      "label": "Gaiya Mu"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Jiang%20Y\"[Author]",
+      "label": "Yuanbo Jiang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Li%20H\"[Author]",
+      "label": "Haiyan Li"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Wei%20S\"[Author]",
+      "label": "Sinan Wei"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Qi%20G\"[Author]",
+      "label": "Guangping Qi"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Kang%20Y\"[Author]",
+      "label": "Yanxia Kang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Yin%20M\"[Author]",
+      "label": "Minhua Yin"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Ma%20Y\"[Author]",
+      "label": "Yanlin Ma"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Wang%20Y\"[Author]",
+      "label": "Yayu Wang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Wang%20J\"[Author]",
+      "label": "Jinwen Wang"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40094653/",
+      "label": "40094653"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/table/plants-14-00731-t001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g001.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f001/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/table/plants-14-00731-t002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g002.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f002/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g003.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g004.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g005.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g006.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f006/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g007a.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g007b.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f007/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g008a.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g008b.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f008/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g009a.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g009b.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f009/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g010.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f010/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/table/plants-14-00731-t003/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g011.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f011/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g012.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f012/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/table/plants-14-00731-t004/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=11901445_plants-14-00731-g013.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/figure/plants-14-00731-f013/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/table/plants-14-00731-t005/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901445/table/plants-14-00731-t006/",
+      "label": "Open in a new tab"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7757259/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33380773/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35926624/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11470740/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39394556/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11765341/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39859322/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9266349/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35806246/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32246404/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10859442/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38348268/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5478283/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28663703/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19945791/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11078649/",
+      "label": "PMC free article"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38726140/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18761143/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28166428/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30469109/",
+      "label": "PubMed"
+    },
+    {
+      "url": "https://ncbiinsights.ncbi.nlm.nih.gov/",
+      "label": "NCBI RSS feed"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/web_policies.html",
+      "label": "Web Policies"
+    },
+    {
+      "url": "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "label": "HHS Vulnerability Disclosure"
+    },
+    {
+      "url": "https://support.nlm.nih.gov/",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/accessibility.html",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/careers/careers.html",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.nlm.nih.gov/",
+      "label": "NLM"
+    },
+    {
+      "url": "https://www.nih.gov/",
+      "label": "NIH"
+    },
+    {
+      "url": "https://www.hhs.gov/",
+      "label": "HHS"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "fetched_at": "2026-10-28T06:29:51.433032+00:00",
+  "sha256": "1b4d4ff9a69247ec4e2e655a7881b3c4f9e213fe1fe9db10a307a9d1e129dc6a",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

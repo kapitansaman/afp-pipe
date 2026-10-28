@@ -1,0 +1,18 @@
+{
+  "requested": 2,
+  "loaded": 1,
+  "sources": [
+    {
+      "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+      "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

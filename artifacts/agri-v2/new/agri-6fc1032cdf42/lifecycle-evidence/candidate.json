@@ -1,0 +1,71 @@
+{
+  "topic_id": "agri-6fc1032cdf42",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "یونجه (Medicago sativa)، علوفه تازه/خشبک",
+  "slug": "preharvest-alfalfa-irrigation-criteria",
+  "outline": [
+    "ورودی‌های اندازه‌شده برای تصمیم‌گیری",
+    "منطق قطع و کاهش آب پیش از برداشت",
+    "پایش مزرعه و معیارهای زمانی",
+    "خطاها و حدود کاربرد"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "یونجه قابلیت ورود به خواب干旱-induced را دارد و پس از قطع آب می‌تواند دوباره رشد کند.",
+      "conditions": "منبع ایالتی آمریکا؛ محصول: یونجه; سامانه: آبیاری سطحی/نیمه‌متراکم; محدودیت: عمومی، بدون ارائه بازه عددی دقیق برای توقف آبیاری پیش از برداشت",
+      "evidence_id": "d10-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری پاییزه تا نوامبر تا یخبندان خاک می‌تواند ذخایر عمقی آب را برای رشد سریع بهار آینده فراهم کند.",
+      "conditions": "منبع دانشگاهی نبراسکا; هدف: ذخیره‌سازی عمقی آب به جای حداکثرکردن عملکرد فصل جاری",
+      "evidence_id": "d12-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "مصرف آب یونجه در فصل رشد گرم بیش از 0.30 inch/day و در پاییز حدود 0.10 inch/day است.",
+      "conditions": "منبع دانشگاهی نبراسکا; محصول: یونجه; واحد: inch/day; محدودیت: مقادیر فصلی گزارش شده، نه آستانه قطع ثابت",
+      "evidence_id": "d12-e1",
+      "numeric_bindings": [
+        {
+          "value": "0.30",
+          "unit_quote": "0.30-inch per day",
+          "geographic_scope": "Nebraska, USA",
+          "product_scope": "alfalfa"
+        },
+        {
+          "value": "0.10",
+          "unit_quote": "0.10-inch per day",
+          "geographic_scope": "Nebraska, USA",
+          "product_scope": "alfalfa"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در مناطق silt loam جنوب آیداهو، حدود 2 inch ET تجمعی پس از آبیاری و پیش از برش برای خشک شدن کافی خاک لازم است.",
+      "conditions": "منبع دانشگاهی یوتا (personal communication); خاک: silt loam; محصول: یونجه",
+      "evidence_id": "d14-e15",
+      "numeric_bindings": [
+        {
+          "value": "2",
+          "unit_quote": "two inches",
+          "geographic_scope": "southern Idaho, USA",
+          "product_scope": "alfalfa"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "یونجه برخلاف بسیاری محصولات زراعی، مرحله رشدی بحرانی مشخصی برای تنش آبی ندارد و در کم‌آبی وارد خواب شده و پس از بازگشت رطوبت رشد را از سر می‌گیرد.",
+      "conditions": "منبع دانشگاهی نبراسکا; محصول: یونجه; کاربرد: برنامه‌ریزی قطع پاییزی آبیاری",
+      "evidence_id": "d12-e1",
+      "numeric_bindings": []
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1"
+}

@@ -1,14 +1,117 @@
 {
   "topic_id": "agri-6fc1032cdf42",
-  "answers_intent": false,
+  "answers_intent": true,
   "local_prescription": false,
-  "product_definition": "یونجه (Medicago sativa) — fresh forage produced as hay/haylage",
-  "slug": "preharvest-water-alfalfa-criteria",
+  "product_definition": "یونجه (Medicago sativa)، علوفه تازه/خشبک",
+  "slug": "preharvest-alfalfa-irrigation-criteria",
   "outline": [
-    "دست‌انداز موضوع: نبود منبع مستقیم درباره مدیریت آبیاری پیش‌برداشت یونجه در مجموعه شواهد موجود",
-    "خلاصه شواهد یافت‌شده: تشریح پوشش منابع درباره زمان‌بندی برداشت، فرکانس切的، آماده‌سازی زمستانه و مدیریت استرس، بدون ارائه معیار عملیاتی برای قطع یا کاهش آبیاری پیش از برداشت",
-    "شکاف شواهد و پیامد: توضیح دقیق اینکه کدام جزء از سؤال خواننده (معیارهای قطع/کاهش آب پیش از برداشت یونجه) فاقد شاهد مستقیم است"
+    "ورودی‌های اندازه‌شده برای تصمیم‌گیری",
+    "منطق قطع و کاهش آب پیش از برداشت",
+    "پایش مزرعه و معیارهای زمانی",
+    "خطاها و حدود کاربرد"
   ],
-  "facts": [],
-  "insufficiency_reason": "مجموعه شواهد ارائه‌شده شامل راهنماهای تمدن دانشگاهی (Minnesota, Auburn/Alabama, Wisconsin) درباره زمان‌بندی برداشت یونجه بر اساس مرحله بلوغ، فرکانس切的 فصلی، ذخایر کربوهیدرات تاج و ریشه، مقاومت زمستانه و مدیریت شبدریان است؛ اما هیچ‌یک از این منابع معیار اندازه‌گیری‌شده یا توصیفی مستقیمی برای آخرین آبیاری یونجه پیش از برداشت، یا آستانه قطع/کاهش آب آبیاری قبل از هرس ارائه نمی‌دهند. بنابراین پاسخ به نیت preharvest_water برای محصول یونجه با شواهد موجود امکان‌پذیر نیست."
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "یونجه قابلیت ورود به خواب干旱-induced را دارد و پس از قطع آب می‌تواند دوباره رشد کند.",
+      "conditions": "منبع ایالتی آمریکا؛ محصول: یونجه; سامانه: آبیاری سطحی/نیمه‌متراکم; محدودیت: عمومی، بدون ارائه بازه عددی دقیق برای توقف آبیاری پیش از برداشت",
+      "evidence_id": "d10-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "قطع آبیاری در تابستان موجب آسیب دائمی به بوته نمی‌شود، اما عملکرد خشک‌شده کاهش می‌یابد.",
+      "conditions": "منبع دانشگاهی آریزونا، Maricopa; خاک: Casa Grande sandy loam; محصول: یونجه؛ کاهش عملکرد از 1.47 تا 1.28 ton/acre در چرخه دوم پس از قطع تابستانه",
+      "evidence_id": "d13-e1",
+      "numeric_bindings": [
+        {
+          "value": "1.47",
+          "unit_quote": "1.47 tons per acre",
+          "geographic_scope": "Maricopa, Arizona, USA",
+          "product_scope": "alfalfa hay"
+        },
+        {
+          "value": "1.28",
+          "unit_quote": "1.28 tons per acre",
+          "geographic_scope": "Maricopa, Arizona, USA",
+          "product_scope": "alfalfa hay"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری پاییزه تا نوامبر تا یخبندان خاک می‌تواند ذخایر عمقی آب را برای رشد سریع بهار آینده فراهم کند.",
+      "conditions": "منبع دانشگاهی نبراسکا; هدف: ذخیره‌سازی عمقی آب به جای حداکثرکردن عملکرد فصل جاری",
+      "evidence_id": "d12-e2",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "مصرف آب یونجه در فصل رشد گرم بیش از 0.30 inch/day و در پاییز حدود 0.10 inch/day است.",
+      "conditions": "منبع دانشگاهی نبراسکا; محصول: یونجه; واحد: inch/day; محدودیت: مقادیر فصلی گزارش شده، نه آستانه قطع ثابت",
+      "evidence_id": "d12-e1",
+      "numeric_bindings": [
+        {
+          "value": "0.30",
+          "unit_quote": "0.30-inch per day",
+          "geographic_scope": "Nebraska, USA",
+          "product_scope": "alfalfa"
+        },
+        {
+          "value": "0.10",
+          "unit_quote": "0.10-inch per day",
+          "geographic_scope": "Nebraska, USA",
+          "product_scope": "alfalfa"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "تعیین زمان برش پس از آبیاری بر اساس تخلیه حدود 50 درصد آب قابل دسترس در دو فوت بالایی خاک انجام می‌شود.",
+      "conditions": "منبع دانشگاهی یوتا; محصول: یونجه; روش: محاسبه ET بین دو آبیاری و برش",
+      "evidence_id": "d14-e10",
+      "numeric_bindings": []
+    },
+    {
+      "kind": "source_observation",
+      "claim": "فاصله آبیاری تا برش بسته به بافت خاک و نرخ روزانه ET بین 2 تا 13 روز متغیر است.",
+      "conditions": "منبع دانشگاهی یوتا؛ جداول Table 1; خاک‌ها: sands/fine sands تا loam/clay loam; ET روزانه: 0.15 تا 0.35 inch/day",
+      "evidence_id": "d14-e16",
+      "numeric_bindings": [
+        {
+          "value": "0.15",
+          "unit_quote": "0.15 ... inches per day",
+          "geographic_scope": "Utah/Idaho, USA",
+          "product_scope": "alfalfa"
+        },
+        {
+          "value": "0.35",
+          "unit_quote": "0.35 inches per day",
+          "geographic_scope": "Utah/Idaho, USA",
+          "product_scope": "alfalfa"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در مناطق silt loam جنوب آیداهو، حدود 2 inch ET تجمعی پس از آبیاری و پیش از برش برای خشک شدن کافی خاک لازم است.",
+      "conditions": "منبع دانشگاهی یوتا (personal communication); خاک: silt loam; محصول: یونجه",
+      "evidence_id": "d14-e15",
+      "numeric_bindings": [
+        {
+          "value": "2",
+          "unit_quote": "two inches",
+          "geographic_scope": "southern Idaho, USA",
+          "product_scope": "alfalfa"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "یونجه برخلاف بسیاری محصولات زراعی، مرحله رشدی بحرانی مشخصی برای تنش آبی ندارد و در کم‌آبی وارد خواب شده و پس از بازگشت رطوبت رشد را از سر می‌گیرد.",
+      "conditions": "منبع دانشگاهی نبراسکا; محصول: یونجه; کاربرد: برنامه‌ریزی قطع پاییزی آبیاری",
+      "evidence_id": "d12-e1",
+      "numeric_bindings": []
+    }
+  ]
 }

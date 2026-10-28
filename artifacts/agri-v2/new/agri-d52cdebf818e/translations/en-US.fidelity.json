@@ -1,0 +1,10 @@
+{
+  "article_sha256": "02319b4177d68c039aead8a0240acfc32282b4f191eb1eaf494da329a0450f90",
+  "translation_sha256": "c7ba6f1a8a438cba44ee40d59875b9e227b4ce08beb5386920d326b1a6f0bdbb",
+  "review": {
+    "faithful": true,
+    "reason": "The English target faithfully renders the Persian source. All key claims are preserved: no hectare-scale yield data is available in the source; the source is a Utah State University Extension home gardening guide; documented yields are 5–10 pounds per ten feet of row with maturity in 60–80 days; water stress (weeks 1–6), soil moisture fluctuations, and crop variety are identified as qualitative yield factors; results are limited to Utah home garden conditions with no commercial, Iranian, or metric conversions derived; and the lack of multi-source confirmation is acknowledged.",
+    "issues": []
+  },
+  "reviewed_at": "2026-10-28T06:38:38.147556+00:00"
+}

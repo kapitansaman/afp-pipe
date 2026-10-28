@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-6fc1032cdf42",
+  "gap": "The available sources address general harvest scheduling, stand persistence, and winter-hardiness management for alfalfa, but do not provide measurable cutoff criteria or quantitative thresholds for terminating or reducing pre-harvest irrigation. No source specifies soil-moisture/ET-based stopping dates, volume limits, or growth-stage-linked irrigation shut-off rules for alfalfa before cutting.",
+  "queries": [
+    "alfalfa preharvest irrigation cutoff university extension deficit",
+    "alfalfa irrigation termination before cutting university research forage"
+  ],
+  "requirements": [
+    {
+      "id": "species_product",
+      "need": "Confirm the crop is alfalfa (Medicago sativa) forage harvested as hay/silage, not lucerne-related confusion or alternate species."
+    },
+    {
+      "id": "exact_reader_method",
+      "need": "Source must describe how growers determine the last irrigation timing—measured soil moisture/ET, days-before-cut heuristic, or growth-stage trigger—and distinguish decision rule from background agronomy."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Include explicit units and scope: e.g., days before cut, allowable soil-water depletion fraction, volumetric water application per event or cumulative season, regional climate/growth-stage context, and differentiate applied water from crop water use."
+    }
+  ]
+}

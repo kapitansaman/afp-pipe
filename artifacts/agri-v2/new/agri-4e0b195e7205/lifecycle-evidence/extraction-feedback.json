@@ -1,0 +1,32 @@
+{
+  "topic_id": "agri-4e0b195e7205",
+  "candidate_sha256": "44fda39ef7a1e59b94d7399a9831d65c219dd3ac71ed0cec8d6ac2c9631c8f9e",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 3,
+      "code": "number_absent_from_literal_source",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "در صورت کمبود رطوبت خاک، کشت عمیق پیش از کاشت باید به حداقل برسد تا از خشک شدن بیش از حد ۲ تا ۳ اینچ بالای خاک جلوگیری شود.",
+        "conditions": "مکان: ویسکانسین/مینسوتا، ایالات متحده | محصول: نخود (Cicer arietinum) | مرحله: آماده‌سازی بستر بذر | محدودیت: توصیه کلی حفظ رطوبت سطحی، فاقد معیار تعیین‌کننده زمان اولین آبیاری",
+        "evidence_id": "d2-e6",
+        "numeric_bindings": [
+          {
+            "value": "2 to 3",
+            "unit_quote": "top 2 to 3 in. of soil",
+            "geographic_scope": "Wisconsin / Minnesota, US",
+            "product_scope": "chickpea seedbed"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d2-e6",
+        "source_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+        "quote": "logged fields reduce growth and increases susceptibility to root and stem rots. C. Seed Preparation and Germination: Good quality certified chickpea seed should always be used. This seed should be high in germination percentage (over 85%), free of damage, and free of weed seeds. Good quality seed does not need to be treated with an insecticide or fungicide, but if you have had past problems with Pythium or Rhizoctonia rots in your fields you may need to treat your seed prior to planting. Plan to purchase the special strain of nitrogen fixing bacteria required for chickpea if you are planting this crop for the first time in a field. It can be purchased in peat or granular form, the latter type must be used if your seed is fungicide treated. Follow instructions supplied with your inoculant to ensure its proper use. V. Cultural Practice: A. Seedbed Preparation: A firm, smooth seedbed with m"
+      }
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "منابع موجود معیار تصمیم‌گیری مستقیم برای زمان‌بندی اولین آبیاری نخود پس از کاشت (آستانه رطوبت خاک در ناحیه استقرار ریشه، مرحله رشد هدف، یا بازه زمانی پس از سبز شدن) را ارائه نمی‌دهند. عبارات d0-e17 و d2-e6 تنها به مقدار کلی آب آبیاری تکمیلی (۲ تا ۳ اینچ/فصل) و حفظ رطوبت سطحی ۲ تا ۳ اینچ اشاره دارند، اما هیچ‌یک روش تعیین زمان اولین آبیاری یا پایش رطوبت ناحیه استقرار را پوشش نمی‌دهند."
+}

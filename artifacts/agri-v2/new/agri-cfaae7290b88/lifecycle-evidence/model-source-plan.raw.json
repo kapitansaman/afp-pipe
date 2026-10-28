@@ -1,0 +1,22 @@
+{
+  "topic_id": "agri-cfaae7290b88",
+  "gap": "Missing: measured soil moisture or irrigation cutoff thresholds by alfalfa phenological stage (vegetative, bud, flower, pod), and explicit prioritization protocol ranking which stage receives water first under deficit.",
+  "queries": [
+    "alfalfa drought stress sensitivity growth stage university extension irrigation scheduling",
+    "alfalfa phenology water deficit threshold soil moisture priority irrigation deficit"
+  ],
+  "requirements": [
+    {
+      "id": "species_product",
+      "need": "Confirm evidence pertains to Medicago sativa (alfalfa/sainfoin distinguished); do not substitute clover or sainfoin data."
+    },
+    {
+      "id": "exact_reader_method",
+      "need": "Distinguish regulated deficit irrigation (RDI) versus drought stress tolerance studies; specify whether deficit is imposed by soil moisture percentile, ETc fraction, or irrigation amount reduction."
+    },
+    {
+      "id": "measurement_units_and_scope",
+      "need": "Report original units (e.g., mm irrigation applied, kPa soil water potential, fraction of ETc) and geographic/site context; separate field trials from pot/container experiments."
+    }
+  ]
+}

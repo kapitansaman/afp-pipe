@@ -1,0 +1,35 @@
+{
+  "requested": 5,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+      "canonical_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/soil-moisture-sensors-for-irrigation-scheduling",
+      "status": "cache_valid"
+    },
+    {
+      "url": "https://ask.ifas.ufl.edu/publication/AE354",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://alfalfa.ucdavis.edu/+symposium/proceedings/2002/02-073.pdf",
+      "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/index.aspx?from=alfalfa",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-alfalfa-irrigation-turn-out-timing-and-equipment-maintenance",
+      "canonical_url": "https://cropwatch.unl.edu/pasture-and-forage-minute-alfalfa-irrigation-turn-out-timing-and-equipment-maintenance/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    }
+  ]
+}

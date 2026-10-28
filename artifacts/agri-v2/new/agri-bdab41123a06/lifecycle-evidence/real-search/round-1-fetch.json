@@ -1,0 +1,42 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/UCAlfalfa8293Irrigation_free.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+      "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://sites.udel.edu/weeklycropupdate?p=13798",
+      "canonical_url": "https://sites.udel.edu/weeklycropupdate/?p=13798",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+      "canonical_url": "https://content-hub.uidaho.edu/api/public/content/84c1966bc0bf4b1e9a7778187fe33b1c?v=6f97e5d3",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+      "canonical_url": "https://extensionpubs.unl.edu/publication/g1778/2007/html/view",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2021/06/alfalfa-during-drought.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "topic_id": "agri-6d0759f7e898",
+  "candidate_sha256": "ca4dcf575cab2e5f6c57e027be41bf495590b60ecb1a095bdfc9e9f095b75bdc",
+  "scientific_approval": false,
+  "errors": [
+    {
+      "fact_index": 0,
+      "code": "unknown_scoped_evidence_id",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "منابع ارائه‌شده پوشش مستقیمی دربارهٔ پایش رطوبت خاک و انتخاب محل و عمق حسگر در مزرعهٔ یونجه ندارند.",
+        "conditions": "زمینهٔ جغرافیایی: آمریکای شمالی (مینه‌سوتا، ویسکانسین، آلاباما و سایر ایالات). محصول: یونجه به‌عنوان علوفهٔ تازه/کاه/هیlage. هدف مقاله: مدیریت برداشت، خواب‌آوری پاییزی، آسیب زمستانی، بیماری ریشه و کنترل آفات — نه مهندسی آبیاری یا پایش رطوبت خاک با حسگر.",
+        "evidence_id": "d0-e0; d1-e0; d2-e0; d3-e0; d4-e0; d5-e0; d6-e0; d7-e0; d8-e0; d9-e0",
+        "numeric_bindings": []
+      },
+      "literal_evidence": null
+    },
+    {
+      "fact_index": 1,
+      "code": "unknown_scoped_evidence_id",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "در منابع موجود اشاره‌ای به سنسورهای رطوبت خاک، عمق کاشت حسگر، محل نصب، یا معیار تصمیم‌گیری مبتنی بر رطوبت خاک برای یونجه وجود ندارد.",
+        "conditions": "جغرافیا/محصول: یونجه در کل ایالات متحده، به‌ویژه مناطق شمالی و مرکزی. واحد: فاقد هرگونه گزارش اندازه‌گیری رطوبت خاک. محدودیت: موضوع مقاله‌ها برداشت، تاریخچه برچیدن، پایش دمای خاک زمستانی و زهکشی است، نه پایش رطوبتی.",
+        "evidence_id": "d0-e0; d1-e0; d2-e0; d3-e0; d4-e0; d5-e0; d6-e0; d7-e0; d8-e0; d9-e0",
+        "numeric_bindings": []
+      },
+      "literal_evidence": null
+    },
+    {
+      "fact_index": 2,
+      "code": "unknown_scoped_evidence_id",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "برخی ارجاعات غیرمستقیم به وضعیت رطوبتی خاک در منابع وجود دارد، اما هیچ‌یک روش‌شناسی پایش رطوبت را توصیف نمی‌کنند.",
+        "conditions": "جغرافیا/محصول: مینه‌سوتا و ویسکانسین، یونجه. واحد: فاقد. محدودیت: توصیف زهکشی ضعیف، یخ‌زدگی خاک، و رطوبت بالای خاک به‌عنوان عامل خطر زمستانی آمده است؛ معادل راهنمای نصب حسگر نیست.",
+        "evidence_id": "d3-e3; d4-e1; d5-e4; d7-e4",
+        "numeric_bindings": []
+      },
+      "literal_evidence": null
+    },
+    {
+      "fact_index": 3,
+      "code": "every_number_requires_unit_and_scope_binding",
+      "rejected_fact": {
+        "kind": "source_observation",
+        "claim": "عمق نمونه‌برداری خاک در منابع برای آزمون pH و کشتار تغذیه‌ای گزارش شده، نه برای پایش رطوبت.",
+        "conditions": "جغرافیا/محصول: آلاباما، یونجه. واحد: سطح (0 تا 8 اینچ) و زیرسطح (8 تا 15 اینچ). محدودیت: هدف تنظیم آهک/پتاسیم/فسفر و تعیین pH است؛ ارتباطی با عمق یا محل نصب حسگر رطوبت ندارد.",
+        "evidence_id": "d1-e8",
+        "numeric_bindings": [
+          {
+            "value": "8",
+            "unit_quote": "8 inches",
+            "geographic_scope": "آلاباما، آمریکا",
+            "product_scope": "یونجه (Medicago sativa L.)"
+          },
+          {
+            "value": "15",
+            "unit_quote": "15-inch depth",
+            "geographic_scope": "آلاباما، آمریکا",
+            "product_scope": "یونجه (Medicago sativa L.)"
+          }
+        ]
+      },
+      "literal_evidence": {
+        "id": "d1-e8",
+        "source_url": "https://www.aces.edu/blog/topics/farming/alfalfa-establishment-and-management/",
+        "quote": "ies from the National Alfalfa and Forage Alliance at www.alfalfa.org . Alfalfa can be planted in monocultures or mixed stands with grasses, such as bermudagrass. In the Southeast, there has been a growing interest in alfalfa- bermudagrass systems because of the complementary growth pattern of alfalfa with bermudagrass (figures 1 and 2), the similarity in site selection for successful stands, and the ability of alfalfa to contribute nitrogen (N) and improve the nutritive value of the system. Figure 1. Alfalfa ‘Bulldog’ 805 stands in late spring in south Alabama. Figure 2. Alfalfa-bermudagrass mixtures in summer in south Alabama. Forage Establishment Before planting, test soil pH and fertility. Take the soil sample at a 15-inch depth dividing the soil profile into two layers, surface (0 to 8 inches) and subsoil (8 to 15 inches). Because of its deep tap root system, alfalfa explores the sub"
+      }
+    },
+    {
+      "fact_index": 4,
+      "code": "unknown_scoped_evidence_id",
+      "rejected_fact": {
+        "kind": "qualitative",
+        "claim": "برای پاسخ به این عنوان، منبع مستقیم دانشگاهی/ترویجی دربارهٔ چیدمان شبکهٔ حسگر رطوبت خاک در مزرعهٔ یونجه لازم است.",
+        "conditions": "جغرافیا/محصول: یونجه، مزرعهٔ زهکشی‌شده/آبیاری‌شده. واحد/هدف: انتخاب عمق حسگر، فواصل نصب، نقاط نمایندهٔ مزرعه و آستانهٔ تصمیم آبیاری مبتنی بر رطوبت خاک.",
+        "evidence_id": "",
+        "numeric_bindings": []
+      },
+      "literal_evidence": null
+    }
+  ],
+  "candidate_error": "scoped_intent_or_local_prescription_rejected",
+  "declared_insufficiency": "عنوان درخواستی «پایش رطوبت خاک در مزرعهٔ یونجه؛ انتخاب محل و عمق حسگر» نیازمند منبعی است که به‌طور مستقیم روش‌شناسی نصب حسگر رطوبت خاک، عمق مورد نظر، توزیع مکانی حسگرها و معیار تصمیم‌گیری مبتنی بر رطوبت خاک را برای یونجه توضیح دهد. شش دسته منبع بررسی‌شده (مدیریت برداشت اول، استقرار و تغذیه، فرکانس برچیدن، آمادگی زمستانی، ارزیابی آسیب زمستانی، بیماری ریشه قهوه‌ای، بقای زمستانی، دورچرخش ذرت و آفات) همگی محتوای مرتبط با یونجه دارند، اما هیچ‌یک پوشش مستقیمی بر پایش رطوبت خاک یا انتخاب محل/عمق حسگر ارائه نمی‌دهند. بنابراین answers_intent به false تنظیم شد."
+}

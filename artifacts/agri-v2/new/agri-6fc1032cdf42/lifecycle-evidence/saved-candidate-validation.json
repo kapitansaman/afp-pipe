@@ -1,0 +1,27 @@
+{
+  "dropped_facts": [
+    {
+      "index": 1,
+      "reason": "numeric_units_not_in_literal_source"
+    },
+    {
+      "index": 4,
+      "reason": "number_absent_from_literal_source"
+    },
+    {
+      "index": 5,
+      "reason": "numeric_units_not_in_literal_source"
+    }
+  ],
+  "metadata_repairs": [
+    {
+      "index": 6,
+      "field": "kind",
+      "reason": "numeric_claim_requires_observation_review"
+    }
+  ],
+  "claims_rewritten": false,
+  "scientific_rejection_overridden": false,
+  "independent_review_still_required": true,
+  "research_route_version": "full-queue-research-routes-v1"
+}

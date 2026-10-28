@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "created_at": "2026-10-28T06:29:28.834342+00:00",
+  "topic_id": "agri-bdab41123a06",
+  "input_binding": {
+    "topic_sha256": "069cb60b2e64bc25091d40db0a46c66039b985d2fdf5b6af9acb7dd8f46a8c0a",
+    "sources_sha256": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+    "raw_sha256": "93212397c0fcc7b62577d377fbb78b3a66989efdba0dc64374eb34823be85a45"
+  },
+  "plan": {
+    "topic_id": "agri-bdab41123a06",
+    "gap": "No directly relevant evidence found on soil-moisture-based thresholds, tension/FC thresholds, or practical field indicators (plant wilting stage, soil probe assessment) to decide when to resume alfalfa irrigation after a rain event. Existing fetched sources address drainage needs, Minnesota seasonal rain, laboratory irrigation volumes, and drying impact—but none quantify a re-irrigation trigger or delay window post-rain.",
+    "queries": [
+      "alfalfa irrigation resume after rain soil moisture threshold university extension",
+      "post-rain alfalfa soil water tension refill deficit when to irrigate again"
+    ],
+    "requirements": [
+      {
+        "id": "exact_reader_method",
+        "need": "University or peer-reviewed source specifying the decision rule for when to resume alfalfa irrigation after rainfall—e.g., soil moisture tension range, fraction of available water to refill, or plant-based field indicator tied to a documented threshold."
+      },
+      {
+        "id": "measurement_units_and_scope",
+        "need": "Any reported threshold expressed with explicit units (kPa matric potential, cm H2O soil moisture content, % available water remaining, mm depth) and clear scope (field-grown alfalfa, specific growth/harvest stage, geographic context) so it can be distinguished from lab or greenhouse findings."
+      },
+      {
+        "id": "species_product",
+        "need": "Evidence must pertain to forage/grass-legume alfalfa (Medicago sativa) under field irrigation management; exclude seed-watermelon/pumpkin product-ambiguity scope and non-irrigation topics such as pure drainage or winter hardiness."
+      }
+    ]
+  },
+  "backend": "tavily",
+  "search_engine_used": false,
+  "queries_executed": false,
+  "model_calls": 1,
+  "publication_authorized": false
+}

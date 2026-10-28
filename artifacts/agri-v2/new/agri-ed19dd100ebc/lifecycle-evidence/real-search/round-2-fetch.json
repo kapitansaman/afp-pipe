@@ -1,41 +1,42 @@
 {
   "requested": 6,
-  "loaded": 5,
+  "loaded": 4,
   "sources": [
     {
-      "url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
-      "canonical_url": "https://extension.psu.edu/no-till-farming-and-healthy-soils-work-hand-in-hand",
+      "url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
+      "canonical_url": "https://extension.usu.edu/crops/research/alfalfa-nutrient-management-guide",
       "redirect_hops": 0,
       "status": "fetched"
     },
     {
-      "url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
-      "canonical_url": "https://forage.msu.edu/wp-content/uploads/2014/07/E2880-StepsSuccessfulNotillEstablishmentForages-Leep-Undersander-etal-20031.pdf",
-      "redirect_hops": 0,
-      "status": "fetched"
-    },
-    {
-      "url": "https://extension.missouri.edu/publications/m164",
-      "canonical_url": "https://extension.missouri.edu/publications/m164",
-      "redirect_hops": 0,
-      "status": "fetched"
-    },
-    {
-      "url": "https://mosh.umn.edu/management",
-      "canonical_url": "https://mosh.umn.edu/management",
-      "redirect_hops": 0,
-      "status": "fetched"
-    },
-    {
-      "url": "https://www.climatehubs.usda.gov/hubs/northwest/topic/northwest-no-till-farming-climate-resilience",
-      "status": "unavailable",
-      "category": "fetch_or_validation_failed",
-      "temporary": true
-    },
-    {
-      "url": "https://extensionpubs.unl.edu/publication/1596/html/view",
-      "canonical_url": "https://extensionpubs.unl.edu/publication/g2247/2014/html/view",
+      "url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag",
+      "canonical_url": "https://cropsandsoils.extension.wisc.edu/2024-wisconsin-alfalfa-seedings-a-mixed-bag/",
       "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+      "canonical_url": "https://crops.extension.iastate.edu/encyclopedia/soil-crust-busters",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://agcrops.osu.edu/newsletter/corn-newsletter/2025-20/soil-crusting-and-herbicide-carryover",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.canr.msu.edu/news/improving_soybean_emergence_in_soils_prone_to_crusting",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
+      "canonical_url": "https://blog-crop-news.extension.umn.edu/2022/10/drought-risks-to-late-summer-alfalfa.html",
+      "redirect_hops": 0,
       "status": "fetched"
     }
   ]

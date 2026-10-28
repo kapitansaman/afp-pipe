@@ -1,0 +1,104 @@
+{
+  "topic_id": "agri-b1f8c76a39ac",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "یونجه، علوفه تازه (چراگانی و چمنی)",
+  "slug": "alfalfa-sampling-yield-estimation",
+  "outline": [
+    "داده‌های لازم برای برآورد عملکرد پیش از برداشت",
+    "روش‌های موجود در منابع برای تخمین کیفیت و رشد",
+    "ثبت و کنترل ورودی‌ها در مزرعه",
+    "تفسیر و محدودیت کاربرد پیش‌بینی عملکرد"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "میزان انباشت ماده خشک یونجه از مرحله گیاهی دیرهنگام تا گل‌دهی به‌طور متوسط حدود ۱۰۰ پوند در روز به ازای هر آکر است.",
+      "conditions": "منطقه: مینسوتا، آمریکا؛ محصول: یونجه؛ واحد: lb/day/acre (پوند در روز به ازای هر آکر)؛ مرحله رشد: late vegetative to flowering",
+      "evidence_id": "d0-e6",
+      "numeric_bindings": [
+        {
+          "value": "100",
+          "unit_quote": "100 lb/day/acre",
+          "geographic_scope": "Minnesota, USA",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در برنامه هشدار برداشت یونجه مینسوتا، ارتفاع کانوپی ۳۰ اینچ معادل ارزش تغذیه‌ای حدود ۱۸۰ RFV است.",
+      "conditions": "منطقه: central Minnesota; محصول: یونجه; واحد: inches / RFV; روش: تخمین بر پایه ارتفاع بوته",
+      "evidence_id": "d0-e5",
+      "numeric_bindings": [
+        {
+          "value": "30",
+          "unit_quote": "30 inches",
+          "geographic_scope": "central Minnesota",
+          "product_scope": "alfalfa"
+        },
+        {
+          "value": "180",
+          "unit_quote": "RFV of about 180",
+          "geographic_scope": "central Minnesota",
+          "product_scope": "alfalfa forage"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "ارزش تغذیه‌ای یونجه از مرحله گیاهی تا گل‌دهی اولیه روزانه ۴.۲ واحد کاهش می‌یابد.",
+      "conditions": "منطقه: central Minnesota; محصول: یونجه; واحد: RFV units/day; دوره: vegetative to early flowering",
+      "evidence_id": "d0-e7",
+      "numeric_bindings": [
+        {
+          "value": "4.2",
+          "unit_quote": "4.2 units per day",
+          "geographic_scope": "central Minnesota",
+          "product_scope": "alfalfa forage RFV"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "نمونه‌برداری میدانی برای تعیین محصول با ابزار مکانیکی از سطح مشخص ۰.۹۱ در ۴ متر و ارتفاع بقایای ۵ سانتی‌متر انجام می‌شود.",
+      "conditions": "منطقه: Becker و St. Paul، مینسوتا؛ محصول: یونجه؛ واحد: m / cm؛ روش: برداشت مکانیکی plot",
+      "evidence_id": "d2-e15",
+      "numeric_bindings": [
+        {
+          "value": "0.91 by 4 m",
+          "unit_quote": "0.91 by 4 m area",
+          "geographic_scope": "Becker and St. Paul, MN",
+          "product_scope": "alfalfa forage plot"
+        },
+        {
+          "value": "5 cm",
+          "unit_quote": "5-cm height",
+          "geographic_scope": "Becker and St. Paul, MN",
+          "product_scope": "alfalfa stubble"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "غلظت پروتئین خام علوفه یونجه در محدوده ۱۸ تا ۲۵ درصد و مواد مغذی قابل هضم کل بین ۶۰ تا ۶۵ درصد گزارش شده است.",
+      "conditions": "منطقه: southeastern United States; محصول: یونجه; واحد: percent",
+      "evidence_id": "d1-e14",
+      "numeric_bindings": [
+        {
+          "value": "18 to 25",
+          "unit_quote": "18 to 25 percent",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa forage crude protein"
+        },
+        {
+          "value": "60 to 65",
+          "unit_quote": "60 to 65 percent",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa forage TDN"
+        }
+      ]
+    }
+  ],
+  "insufficiency_reason": "منابع ارائه‌شده روش مستقیم و گام‌به‌گام نمونه‌برداری میدانی برای برآورد عملکرد یونجه پیش از برداشت (مانند روش‌های PEAQ یا نمونه‌برداری دستی مقیاس‌دار برای تخمین تناژ هکتاری قبل از قطع) را پوشش نمی‌دهند. داده‌های موجود عمدتاً مربوط به ارزیابی کیفیت پس از برداشت، نرخ تجمعی ماده خشک و شاخص‌های کیفی رشد هستند و فاقد دستورالعمل عملی اندازه‌گیری حجم محصول در مزرعه قبل از برش می‌باشند."
+}

@@ -1,0 +1,70 @@
+{
+  "topic_id": "agri-46cf2473ba02",
+  "answers_intent": false,
+  "local_prescription": false,
+  "product_definition": "یونجه — علوفه تازه (hay/baleage forage)",
+  "slug": "supplemental-irrigation-dry-alfalfa-priority-and-economics",
+  "outline": [
+    "محصول و سامانه کشت هدف‌شده",
+    "شکاف شواهد برای آبیاری تکمیلی یونجه دیم",
+    "آنچه منابع موجود درباره آب-covering می‌گویند (محدود به آزمون‌های تجربی)",
+    "چارچوب تصمیم مورد نیاز (غیرموجود در شواهد)"
+  ],
+  "facts": [
+    {
+      "kind": "source_observation",
+      "claim": "در یک مزرعه آزمایشگاهی مینه‌سوتا با خاک شنی، هر سال 14 سانتی‌متر آبیاری مکمل اعمال شد تا ظرفیت نگهداری آب خاک جبران شود.",
+      "conditions": "مکان: Becker, MN (خاک Hubbard-Mosford complex، ظرفیت نگهداری آب پایین); واحد: 14 cm irrigation; محصول: alfalfa experimental plots",
+      "evidence_id": "d2-e10",
+      "numeric_bindings": [
+        {
+          "value": "14",
+          "unit_quote": "14 cm of irrigation",
+          "geographic_scope": "Becker, MN",
+          "product_scope": "alfalfa experimental plots"
+        }
+      ]
+    },
+    {
+      "kind": "source_observation",
+      "claim": "یونجه حاصلخیزی بالایی می‌خواهد و عملکرد علوفه تحت مدیریت فشرده و آبیاری می‌تواند به 14 تن در acre تجاوز کند.",
+      "conditions": "منبع: Auburn University Extension, Alabama; محصول: alfalfa forage; واحد: 14 tons per acre (under intensive management and irrigation)",
+      "evidence_id": "d1-e14",
+      "numeric_bindings": [
+        {
+          "value": "14",
+          "unit_quote": "14 tons per acre",
+          "geographic_scope": "southeastern United States",
+          "product_scope": "alfalfa forage under irrigation"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "آبیاری تکمیلی یونجه دیم از نظر زمان‌بندی اولویت‌دار و ارزیابی اقتصادی در منابع ارائه‌شده پوشش داده نشده است.",
+      "conditions": "زبان: انگلیسی/آمریکایی; محصول: Medicago sativa fresh forage/hay; محدوده: extension و پژوهشی دانشگاهی آمریکا",
+      "evidence_id": "d0-e0"
+    },
+    {
+      "kind": "source_observation",
+      "claim": "در ارزیابی آسیب زمستانی، تراکم ساقه معیار تصمیم‌گیری است: بیش از 55 ساقه در فوت مربع تراکم محدودکننده نیست.",
+      "conditions": "منبع: UMN/Wisconsin Extension; محصول: alfalfa stand assessment; واحد: stems per square foot",
+      "evidence_id": "d4-e4",
+      "numeric_bindings": [
+        {
+          "value": "55",
+          "unit_quote": "55 stems per square foot",
+          "geographic_scope": "Upper Midwest (MN/WI)",
+          "product_scope": "alfalfa stand density assessment"
+        }
+      ]
+    },
+    {
+      "kind": "qualitative",
+      "claim": "مدیریت بارش‌های پاییزی و زمان‌بندی برش آخر برای حفظ ذخایر کربوهیدراتی ریشه پیش از یخبندان کشنده مهم است.",
+      "conditions": "منبع: UMN Extension winter-prep guidance; محصول: alfalfa perennial stand; محدوده: Upper Midwest winter hardiness",
+      "evidence_id": "d3-e2"
+    }
+  ],
+  "insufficiency_reason": "منابع موجود پاسخ مستقیمی درباره زمان‌بندی اولویت‌دار آبیاری تکمیلی یونجه دیم و ارزیابی اقتصادی آن ارائه نمی‌دهند. تنها شواهد مرتبط شامل اعمال 14 cm آبیاری آزمایشگاهی در خاک شنی Becker MN برای جبران ظرفیت پایین نگهداری آب است (d2-e10) و اشاره گذرا به عملکرد تا 14 ton/acre تحت مدیریت فشرده و آبیاری در جنوب شرقی آمریکا (d1-e14). هیچ‌یک از منابع معیارهای تصمیم‌گیری عملیاتی زمان آبیاری تکمیلی، آستانه تنش خشکی، هزینه-فایده آبیاری یا جدول اقتصادی برای یونجه دیم را ارائه نکرده‌اند."
+}

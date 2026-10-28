@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "started_at": "2026-10-28T06:29:21.028397+00:00",
+  "discovery_backend": "verified_catalog_and_observed_institutional_links",
+  "model_generated_urls": false,
+  "max_fetches": 12,
+  "max_link_depth": 2,
+  "completed_at": "2026-10-28T06:29:22.498674+00:00",
+  "requested": 6,
+  "loaded": 4,
+  "independent_institutions": 3,
+  "observed_links": [
+    {
+      "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf",
+      "observed_on": "https://extension-store.montana.edu/montguides/chickpea-production",
+      "depth": 1
+    }
+  ],
+  "fetch_reports": [
+    {
+      "requested": 3,
+      "loaded": 3,
+      "sources": [
+        {
+          "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "canonical_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+          "canonical_url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+          "redirect_hops": 0,
+          "status": "fetched"
+        },
+        {
+          "url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+          "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    },
+    {
+      "requested": 2,
+      "loaded": 2,
+      "sources": [
+        {
+          "url": "https://extension.usu.edu/yardandgarden/fruits-vegetables-herbs",
+          "canonical_url": "https://extension.usu.edu/yardandgarden/fruits-vegetables-herbs",
+          "status": "cache_valid"
+        },
+        {
+          "url": "https://extension.umn.edu/agriculture/crop-production",
+          "canonical_url": "https://extension.umn.edu/agriculture/crop-production",
+          "status": "cache_valid"
+        }
+      ]
+    },
+    {
+      "requested": 1,
+      "loaded": 1,
+      "sources": [
+        {
+          "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf",
+          "canonical_url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201703ag-chickpea.pdf",
+          "redirect_hops": 0,
+          "status": "fetched"
+        }
+      ]
+    }
+  ],
+  "topic_id": "agri-4e0b195e7205",
+  "source_policy_version": "university-single-source-v1",
+  "bounded_discovery_completed": true,
+  "temporary_source_failure": false,
+  "source_sufficiency": {
+    "version": "university-single-source-v1",
+    "satisfied": true,
+    "university_hosts": [
+      "agsci.oregonstate.edu",
+      "corn.agronomy.wisc.edu",
+      "extension-store.montana.edu"
+    ],
+    "independent_institutions": 3,
+    "single_university_exception": false,
+    "publication_authorized": false
+  },
+  "blocking_kind": null
+}

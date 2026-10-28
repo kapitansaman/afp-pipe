@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 3,
+  "sources": [
+    {
+      "url": "https://extension-store.montana.edu/montguides/chickpea-production",
+      "canonical_url": "https://extension-store.montana.edu/montguides/chickpea-production",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+      "canonical_url": "https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/ChickpeaVarieties.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+      "canonical_url": "https://corn.agronomy.wisc.edu/Crops/Chickpea.aspx",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

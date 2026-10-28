@@ -1,0 +1,41 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://extension.unr.edu/publication.aspx?PubID=2575",
+      "canonical_url": "https://extension.unr.edu/publication.aspx?PubID=2575",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "canonical_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
+      "canonical_url": "https://pubs.nmsu.edu/_circulars/CR646/index.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1992/92-45.Pdf",
+      "canonical_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/1992/92-45.Pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.ars.usda.gov/ARSUserFiles/60663500/Publications/Sui/2019/Li%20et%20al_2019_CEA_163-2019-10pgs.pdf",
+      "status": "unavailable",
+      "category": "fetch_or_validation_failed",
+      "temporary": true
+    },
+    {
+      "url": "https://pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "canonical_url": "https://www.pubs.ext.vt.edu/BSE/BSE-339/BSE-339.html",
+      "status": "cache_valid"
+    }
+  ]
+}

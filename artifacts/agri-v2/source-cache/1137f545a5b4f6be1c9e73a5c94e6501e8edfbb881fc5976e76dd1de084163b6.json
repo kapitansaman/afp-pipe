@@ -1,0 +1,460 @@
+{
+  "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+  "requested_url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+  "redirect_chain": [
+    "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling"
+  ],
+  "text": "[table row] Coarse sand | AWC range (in/in): 0.01-0.03 [table row] Coarse sand | AWC range (in/ft): 0.1-0.4 [table row] Coarse sand | Est. typical AWC (in/ft): 0.25 [table row] Sand | AWC range (in/in): 0.01-0.03 [table row] Sand | AWC range (in/ft): 0.1-0.4 [table row] Sand | Est. typical AWC (in/ft): 0.25 [table row] Fine sand | AWC range (in/in): 0.05-0.07 [table row] Fine sand | AWC range (in/ft): 0.6-0.8 [table row] Fine sand | Est. typical AWC (in/ft): 0.75 [table row] Very fine sand | AWC range (in/in): 0.05-0.07 [table row] Very fine sand | AWC range (in/ft): 0.6-0.8 [table row] Very fine sand | Est. typical AWC (in/ft): 0.75 [table row] Loamy coarse sand | AWC range (in/in): 0.06-0.08 [table row] Loamy coarse sand | AWC range (in/ft): 0.7-1.0 [table row] Loamy coarse sand | Est. typical AWC (in/ft): 0.85 [table row] Loamy sand | AWC range (in/in): 0.06-0.08 [table row] Loamy sand | AWC range (in/ft): 0.7-1.0 [table row] Loamy sand | Est. typical AWC (in/ft): 0.85 [table row] Loamy fine sand | AWC range (in/in): 0.09-0.11 [table row] Loamy fine sand | AWC range (in/ft): 1.1-1.3 [table row] Loamy fine sand | Est. typical AWC (in/ft): 1.25 [table row] Loamy very fine sand | AWC range (in/in): 0.10-0.12 [table row] Loamy very fine sand | AWC range (in/ft): 1.0-1.4 [table row] Loamy very fine sand | Est. typical AWC (in/ft): 1.25 [table row] Coarse sandy loam | AWC range (in/in): 0.10-0.12 [table row] Coarse sandy loam | AWC range (in/ft): 1.2-1.4 [table row] Coarse sandy loam | Est. typical AWC (in/ft): 1.3 [table row] Sandy loam | AWC range (in/in): 0.11-0.13 [table row] Sandy loam | AWC range (in/ft): 1.3-1.6 [table row] Sandy loam | Est. typical AWC (in/ft): 1.45 [table row] Fine sandy loam | AWC range (in/in): 0.13-0.15 [table row] Fine sandy loam | AWC range (in/ft): 1.6-1.8 [table row] Fine sandy loam | Est. typical AWC (in/ft): 1.7 [table row] Very fine sandy loam | AWC range (in/in): 0.15-0.17 [table row] Very fine sandy loam | AWC range (in/ft): 1.8-2.0 [table row] Very fine sandy loam | Est. typical AWC (in/ft): 1.9 [table row] Loam | AWC range (in/in): 0.16-0.18 [table row] Loam | AWC range (in/ft): 1.9-2.2 [table row] Loam | Est. typical AWC (in/ft): 2 [table row] Silt loam | AWC range (in/in): 0.19-0.21 [table row] Silt loam | AWC range (in/ft): 2.3-2.5 [table row] Silt loam | Est. typical AWC (in/ft): 2.4 [table row] Silt | AWC range (in/in): 0.16-0.18 [table row] Silt | AWC range (in/ft): 1.9-2.2 [table row] Silt | Est. typical AWC (in/ft): 2 [table row] Sand clay loam | AWC range (in/in): 0.14-0.16 [table row] Sand clay loam | AWC range (in/ft): 1.7-1.9 [table row] Sand clay loam | Est. typical AWC (in/ft): 1.8 [table row] Clay loam | AWC range (in/in): 0.19-0.21 [table row] Clay loam | AWC range (in/ft): 2.3-2.5 [table row] Clay loam | Est. typical AWC (in/ft): 2.4 [table row] Silty clay loam | AWC range (in/in): 0.19-0.21 [table row] Silty clay loam | AWC range (in/ft): 2.3-2.5 [table row] Silty clay loam | Est. typical AWC (in/ft): 2.4 [table row] Sandy clay | AWC range (in/in): 0.15-0.17 [table row] Sandy clay | AWC range (in/ft): 1.8-2.0 [table row] Sandy clay | Est. typical AWC (in/ft): 1.9 [table row] Silty clay | AWC range (in/in): 0.15-0.17 [table row] Silty clay | AWC range (in/ft): 1.8-2.0 [table row] Silty clay | Est. typical AWC (in/ft): 1.9 [table row] Clay | AWC range (in/in): 0.14-0.16 [table row] Clay | AWC range (in/ft): 1.7-1.9 [table row] Clay | Est. typical AWC (in/ft): 1.8 [table row] 0-12 | Texture class: Loam [table row] 0-12 | AWC per inch (in.): 0.21 [table row] 0-12 | AWC per zone (in.): 2.52* [table row] 0-12 | AWC cumulative: 2.52 [table row] 12-18 | Texture class: Sandy loam [table row] 12-18 | AWC per inch (in.): 0.16 [table row] 12-18 | AWC per zone (in.): 0.96 [table row] 12-18 | AWC cumulative: 3.48 [table row] 18-60 | Texture class: Sand and gravel [table row] 18-60 | AWC per inch (in.): 0.02 [table row] 18-60 | AWC per zone (in.): 0.84 [table row] 18-60 | AWC cumulative: 4.32 [table row] 0-12 | Texture class: Sand [table row] 0-12 | AWC per inch (in.): 0.09 [table row] 0-12 | AWC per zone (in.): 1.08 [table row] 0-12 | AWC cumulative: 1.08 [table row] 12-24 | Texture class: Sand [table row] 12-24 | AWC per inch (in.): 0.06 [table row] 12-24 | AWC per zone (in.): 0.72 [table row] 12-24 | AWC cumulative: 1.8 [table row] 24-36 | Texture class: Sand [table row] 24-36 | AWC per inch (in.): 0.06 [table row] 24-36 | AWC per zone (in.): 0.72 [table row] 24-36 | AWC cumulative: 2.52 [table row] 36-60 | Texture class: Sand [table row] 36-60 | AWC per inch (in.): 0.06 [table row] 36-60 | AWC per zone (in.): 1.44 [table row] 36-60 | AWC cumulative: 3.96 [table row] Corn | Growth stage: Emergence 1 -12 leaf (V12) 12 leaf-Pollination Pollination-Early dent Maturity [table row] Corn | MAD (%): 60-70 40-50 50 60-70 [table row] Potatoes | Growth stage: Emergence 1 -Tuber yield Tuber yield-Formation initiation Formation initiation-Bulking Ripening period [table row] Potatoes | MAD (%): 40-60 30-40 30-40 40-65 [table row] Soybeans | Growth stage: Emergence 1 -Beginning flower Beginning flower-Beginning pod Beginning pod-Full pod Maturity [table row] Soybeans | MAD (%): 65-70 60-65 50 50-70 [table row] Edible beans | Growth stage: Emergence 1 -Auxiliary budding Auxiliary budding-Beginning flower Flowering-Full pod Maturity [table row] Edible beans | MAD (%): 60-70 60 50 50-70 [table row] Small grain | Growth stage: Emergence 1 -First node First node-Flowering Flowering-Milk Maturity [table row] Small grain | MAD (%): 60 40-50 40 50-70 [table row] Alfalfa (established) | Depth (inches): 48 [table row] Corn, sugarbeet | Depth (inches): 36 [table row] Potato, small grain | Depth (inches): 24 [table row] Soybean, field bean | Depth (inches): 24 [table row] Tomato, muskmelon | Depth (inches): 12-24 [table row] Broccoli, cauliflower | Depth (inches): 12-18 [table row] Blueberry, strawberry | Depth (inches): 12-18 Basics of irrigation scheduling | UMN Extension Home Natural Resources Conservation Agricultural soil and water Basics of irrigation scheduling Soil is a plant’s water reservoir. This reservoir has upper and lower limits of how much water it can store for crop water use. Understanding different water thresholds in the soil-water reservoir is important for irrigation scheduling. Irrigation scheduling To set up and operate an effective irrigation scheduling program, these sequenced procedures need to be followed for each field: Determine the crop’s active rooting depth and the corresponding available water-holding capacity for each soil type in the field. Select the predominant soil type(s) that should be used for irrigation water management purposes. Define the management allowable soil water depletion (MAD) limits for the selected soil types and the crop(s) to be grown. Establish a soil moisture monitoring system and regularly (at least twice a week) keep track of the soil water deficit or depletion. Initiate an irrigation when the soil water deficit is expected to approach the selected management allowable soil water depletion limit by the time the irrigation cycle is completed. This procedure typically takes 5 to 20 minutes daily to keep updated after determining the initial soil water characteristics. If operator time is not available to regularly monitor and estimate soil moisture, a crop consultant can help you achieve your management objectives and adopt advanced cellular telemetry irrigation management options. Terms to describe water thresholds Soil water reservoir thresholds. Saturation All soil pores are filled with water, and water readily percolates or drains from the root zone by gravitational force. Field capacity (FC) The amount of water remaining in the soil after all excess water at saturation has been drained. Usually, when sandy soils are allowed to drain for approximately 24 hours after saturation, field capacity is reached. In heavier textured soils that have more silt and clay, it takes 2 to 3 days after saturation to reach field capacity. Permanent wilting point (PWP) Soil water and plant growth. When plants take up all the available water for a given soil, the soil dries to a point that it cannot supply any water to keep plants from dying. Available water holding capacity (AWC) Soil moisture conditions for various soil textures. Source: The COMET program. University Corporation of Atmospheric Research. The maximum amount of water that soil can store to be extracted by the plants. It is the water held between the field capacity and the permanent wilting point. The total available water in the soil root zone for a specific crop is equal to the crop’s rooting depth multiplied by the available water-holding capacity per unit depth of the soil. Different soil types have different available water-holding capacities. For example, coarse soils, such as sands and sandy loam, have relatively large pores compared to a finer-textured soil such as clay. Fine soils, like clays or clay loams, have small mineral particles and very small pores. Having a larger number of small pores means a fine-textured soil can hold more water than a coarse-textured soil. Get a detailed look at your field’s soil using the Web Soil Survey from the USDA . The following tables show AWC across different soil textures and provide examples of the available water-holding capacity for two typical irrigated soils. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. AWC by soil texture Available water capacity (AWC) by soil texture Texture AWC range (in/in) AWC range (in/ft) Est. typical AWC (in/ft) Coarse sand 0.01-0.03 0.1-0.4 0.25 Sand 0.01-0.03 0.1-0.4 0.25 Fine sand 0.05-0.07 0.6-0.8 0.75 Very fine sand 0.05-0.07 0.6-0.8 0.75 Loamy coarse sand 0.06-0.08 0.7-1.0 0.85 Loamy sand 0.06-0.08 0.7-1.0 0.85 Loamy fine sand 0.09-0.11 1.1-1.3 1.25 Loamy very fine sand 0.10-0.12 1.0-1.4 1.25 Coarse sandy loam 0.10-0.12 1.2-1.4 1.3 Sandy loam 0.11-0.13 1.3-1.6 1.45 Fine sandy loam 0.13-0.15 1.6-1.8 1.7 Very fine sandy loam 0.15-0.17 1.8-2.0 1.9 Loam 0.16-0.18 1.9-2.2 2 Silt loam 0.19-0.21 2.3-2.5 2.4 Silt 0.16-0.18 1.9-2.2 2 Sand clay loam 0.14-0.16 1.7-1.9 1.8 Clay loam 0.19-0.21 2.3-2.5 2.4 Silty clay loam 0.19-0.21 2.3-2.5 2.4 Sandy clay 0.15-0.17 1.8-2.0 1.9 Silty clay 0.15-0.17 1.8-2.0 1.9 Clay 0.14-0.16 1.7-1.9 1.8 Source: Chapter 2 “Soils”, Irrigation Guide, Natural Resources Conservation Service- National Engineering Handbook Plus sign (+) if content is closed, 'X' if content is open. AWC of a Renshaw soil series Available water capacity (AWC) of a Renshaw soil series Profile depth (in.) Texture class AWC per inch (in.) AWC per zone (in.) AWC cumulative 0-12 Loam 0.21 2.52* 2.52 12-18 Sandy loam 0.16 0.96 3.48 18-60 Sand and gravel 0.02 0.84 4.32 *Calculated by multiplying 12 inches x 0.21 inches per inch = 2.52 inches Plus sign (+) if content is closed, 'X' if content is open. AWC of a Hubbard soil series Available water capacity (AWC) of a Hubbard soil series Profile depth (in.) Texture class AWC per inch (in.) AWC per zone (in.) AWC cumulative 0-12 Sand 0.09 1.08 1.08 12-24 Sand 0.06 0.72 1.8 24-36 Sand 0.06 0.72 2.52 36-60 Sand 0.06 1.44 3.96 Maximum allowable depletion or deficit (MAD) Maximum allowable depletion (also called \"management allowed depletion\" or MAD) specifies the maximum amount of soil water the irrigation manager allows the crop to extract from the active rooting zone between irrigations. Only a portion of the available water-holding capacity is easily used by the crop before crop water stress develops. A soil’s MAD is less than its total AWC. Historically, irrigations have been planned to prevent the soil water deficit from exceeding 50 percent of the total available water capacity in the rooting zone. But research shows that the depletion limit can be adjusted to optimize the field's production depending on the crop, stage of growth, soil water capacity, and the irrigation system's pumping capacity. MAD is usually expressed as a percentage of the total available water capacity in the rooting zone. It needs to be converted to inches of soil water for a specific crop and soil situation. To convert depletion percentage to inches of water, multiply the given depletion percentage by the total available water in the root zone. For example, if a 30 percent depletion limit is desired for a soil holding 3.50 inches of water, the depletion level in inches of soil water would be 1.05 inches: .30 x 3.50 inches = 1.05 inches See management guidelines for developing a management plan and setting maximum allowable depletion (MAD) limits. The following table lists recommended maximum allowable soil water depletion limits and management strategies for several irrigated crops grown in Minnesota. These recommendations resulted from several research projects in the North Central states and published guidelines from other states. Open all | Close all Plus sign (+) if content is closed, 'X' if content is open. Recommended MAD Recommended allowable soil moisture depletion limits for crops by growth stage Crop Growth stage MAD (%) Corn Emergence 1 -12 leaf (V12) 12 leaf-Pollination Pollination-Early dent Maturity 60-70 40-50 50 60-70 Potatoes Emergence 1 -Tuber yield Tuber yield-Formation initiation Formation initiation-Bulking Ripening period 40-60 30-40 30-40 40-65 Soybeans Emergence 1 -Beginning flower Beginning flower-Beginning pod Beginning pod-Full pod Maturity 65-70 60-65 50 50-70 Edible beans Emergence 1 -Auxiliary budding Auxiliary budding-Beginning flower Flowering-Full pod Maturity 60-70 60 50 50-70 Small grain Emergence 1 -First node First node-Flowering Flowering-Milk Maturity 60 40-50 40 50-70 1 Consider 10% depletion at the seed germination zone. Source: adapted from the results of several research projects in the North-Central states and published guidelines from other states (Dorn et al., 1989— Nebraska; Stegman, 1988— North Dakota; Fishbach et al., 1988— Nebraska; Curwen et al., 1985— Wisconsin; Al-Kaisi et al., 2014). Soil water deficit This is the amount of water removed by the crop from the active rooting depth. Likewise, it is the amount of water required to refill the root zone to bring the current soil moisture conditions to field capacity. Soil water decreases as the crop uses water (evapotranspiration) and increases as precipitation (rainfall or irrigation) is added. Expressed in soil water deficit, evapotranspiration increases the deficit, and precipitation decreases it. It is usually expressed in inches of water and can be estimated or measured by several methods described in other sections. For irrigation scheduling, whenever the soil water deficit is equal to or higher than MAD, irrigation should be triggered. Irrigation amounts should refill the rooting zone to field capacity while also leaving some room for possible precipitation. Crop rooting depth Typical water extraction pattern in uniform soil profile. Source: Chapter 3 “Crops”, Irrigation Guide, Natural Resources Conservation Service- National Engineering Handbook . Crop rooting depth determines how much soil water crops can access. A shallow-rooted crop has less access to soil water than a deep-rooted crop. However, because most of a plant’s roots are located in the upper portion of the root zone, irrigation water applications are generally managed to a shallower depth than the crop’s full rooting depth. For annual crops, this rooting depth isn’t usually achieved until 30 to 50 days after planting. Note that local soil and climatic conditions may reduce these values. The following table lists suggested rooting depths for irrigation water management of commonly irrigated crops in Minnesota. Each crop can potentially develop a greater rooting depth. Crop rooting depth for irrigation water management Crop Depth (inches) Alfalfa (established) 48 Corn, sugarbeet 36 Potato, small grain 24 Soybean, field bean 24 Tomato, muskmelon 12-24 Broccoli, cauliflower 12-18 Blueberry, strawberry 12-18 Extension resources Irrigation management strategies Soil moisture sensors for irrigation scheduling Evapotranspiration-based irrigation scheduling or water-balance method Estimating soil moisture by feel method Irrigation scheduling checkbook method Late-season irrigation Variable Rate Irrigation Irrigation Management Assistant The Irrigation Management Assistant (IMA) helps Minnesota growers improve irrigation efficiency across a variety of crops, including corn, soybean, potato, and other irrigated crops. The tool works best when using precipitation data near your field and is optimized for Minnesota conditions. Plus sign (+) if content is closed, 'X' if content is open. Sources Al-Kaisi, M.M, I. Broner and A.A. Andales. 2014. Crop water use and growth stages. Colorado State University Extension. Fact sheet no. 4.715. Curwen, D. and L. Massie. 1985. WISP—The Wisconsin Irrigation Scheduling Program. Proceedings of the National Conference on Advances in Evapotranspiration. American Society of Agricultural Engineers. Michigan. Dorn, D. Eisenhauer, and P. Fischbach. 1989 Irrigation Scheduling Using Tensiometers in Sandy Soils. Irrigation Short Course Proceedings, Cooperative Extension Service University of Nebraska. Fischbach, P.E. (editor) 1988. Irrigation Scheduling—Management Handbook. Cooperative Extension Service, University of Nebraska. Stegman, E.C. 1988. Chapter V. Water Management. Best Management Practices Manual for Oakes Irrigation Area. North Dakota State University. Author: Vasudha Sharma, Extension irrigation specialist Acknowledgements: The author wishes to thank former University of Minnesota colleagues Joshua Stamper and Jerry Wright for their efforts in earlier iterations of this content. Reviewed in 2026 Page survey © 2026 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer. This work is supported by the U.S. Department of Agriculture’s National Institute of Food and Agriculture. Report Web Accessibility Issues | Privacy Statement | Staff intranet",
+  "links": [
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "label": "Skip to navigation"
+    },
+    {
+      "url": "https://extension.umn.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Debalin%20at%20Field%20School.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/471",
+      "label": "Building a stronger Minnesota together"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/what-we-do",
+      "label": "What we do"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/local",
+      "label": "Local offices"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/tribal-outreach",
+      "label": "Tribal outreach"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/regional-partnerships",
+      "label": "Regional partnerships"
+    },
+    {
+      "url": "https://agreett.umn.edu/",
+      "label": "AGREETT"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-work/global-initiatives",
+      "label": "Global initiatives"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/ask-a-question",
+      "label": "Ask a question"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/apply-for-a-job",
+      "label": "Apply for a job"
+    },
+    {
+      "url": "https://extension.umn.edu/about/i-want-to/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extensionstaff.umn.edu/",
+      "label": "Staff"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/leadership",
+      "label": "Leadership"
+    },
+    {
+      "url": "https://extension.umn.edu/about/contact/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/news",
+      "label": "Extension news"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/newsletters",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://extension.umn.edu/about/our-stories/podcasts",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/White%20baneberry%20berries%20and%20red%20stalks.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/event/spooky-plants-for-the-spooky-season",
+      "label": "Spooky plants for the spooky season | Nov 3"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events",
+      "label": "Courses and events"
+    },
+    {
+      "url": "https://extension.umn.edu/courses-and-events/for-organizations",
+      "label": "For organizations"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179506",
+      "label": "For professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Aerial%20view%20of%20group%20in%20field_screen.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/7781",
+      "label": "Institute for Ag Professionals"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/beef",
+      "label": "Beef"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/horse",
+      "label": "Horse"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/livestock-operations",
+      "label": "Livestock operations"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/poultry",
+      "label": "Poultry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.umn.edu/crop-production/growing-corn",
+      "label": "Corn"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/cover-crops",
+      "label": "Cover crops"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/forages",
+      "label": "Forages"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops",
+      "label": "Nutrient management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains",
+      "label": "Small grains"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/soybean",
+      "label": "Soybean"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/sugarbeet",
+      "label": "Sugarbeet"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/crop-production/weed-management",
+      "label": "Weed management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agricultural-business-management",
+      "label": "Ag business management"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/agroforestry",
+      "label": "Agroforestry"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/farm-safety",
+      "label": "Farm safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/growing-safe-food",
+      "label": "On-farm food safety"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/small-farms",
+      "label": "Small farms"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production",
+      "label": "Commercial Fruit"
+    },
+    {
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming",
+      "label": "Vegetable farming"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/tornado-storm-clouds-above-the-shed-in-the-countryside.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/158556",
+      "label": "COMET Training"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/economy-and-development",
+      "label": "Economy and development"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/leadership-skill-building",
+      "label": "Leadership skill building"
+    },
+    {
+      "url": "https://extension.umn.edu/community/community-development/tourism-and-outdoor-recreation",
+      "label": "Tourism and outdoor recreation"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/175686",
+      "label": "Managing money"
+    },
+    {
+      "url": "https://extension.umn.edu/node/177516",
+      "label": "Mental health"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/raising-kids",
+      "label": "Raising kids"
+    },
+    {
+      "url": "https://extension.umn.edu/community/family-and-wellness/rural-stress",
+      "label": "Rural stress"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Tomatoes-peppers-on-outside-table-UMN-extension.jpeg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/9161",
+      "label": "Take a class: Preserving food at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home",
+      "label": "Cooking at home"
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/commercial-kitchens",
+      "label": "Commercial kitchens"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/cottage-food-safety-in-minnesota",
+      "label": "Cottage foods"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/rural-grocery-stores",
+      "label": "Rural grocery stores"
+    },
+    {
+      "url": "https://extension.umn.edu/food/selling-and-distributing/supershelf",
+      "label": "Supershelf"
+    },
+    {
+      "url": "https://extension.umn.edu/food/nutrition/healthy-eating",
+      "label": "Healthy eating"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Garden%20Tour%202023.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/26856",
+      "label": "Read Yard and Garden News"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota",
+      "label": "Gardening in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota",
+      "label": "Lawns and landscapes in Minnesota"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects",
+      "label": "Yard and garden insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems",
+      "label": "Yard and garden problems"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/home-maintenance-and-safety",
+      "label": "Home maintenance and safety"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects",
+      "label": "Household insects"
+    },
+    {
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/water-usage-and-water-damage-in-homes",
+      "label": "Water usage and water damage in homes"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/Copy%20of%20IMG_3906.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/100581",
+      "label": "Minnesota Woodland Stewards"
+    },
+    {
+      "url": "https://extension.umn.edu/node/179281",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/wild-pollinators",
+      "label": "Wild pollinators"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water",
+      "label": "Agricultural soil and water"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/shoreland-watersheds-and-wetlands",
+      "label": "Shoreland, watersheds and wetlands"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/weather-and-climate/prepare-for-risks-to-your-home-and-community",
+      "label": "Prepare for risks"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/4-H-State-Ambassadors-greeting-fairgoers-at-state-fair-4-H-Building-entrance.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/4h-building-campaign/home",
+      "label": "Help us transform the 4‑H Building"
+    },
+    {
+      "url": "https://extension.umn.edu/4-h-and-youth/minnesota-4-h",
+      "label": "Minnesota 4-H"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160906",
+      "label": "Belonging"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160921",
+      "label": "Leadership and skills"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160911",
+      "label": "Learning and readiness"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160896",
+      "label": "Program quality"
+    },
+    {
+      "url": "https://extension.umn.edu/node/160926",
+      "label": "Resilience"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources",
+      "label": "Natural Resources"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation",
+      "label": "Conservation"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/soil-resevoir-components.png",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/plant-soil-water-relations.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/soil-moisture-conditions.png",
+      "label": ""
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/",
+      "label": "the Web Soil Survey from the USDA"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/irrigation-management-strategies",
+      "label": "management guidelines for developing a management plan"
+    },
+    {
+      "url": "https://extension.umn.edu/sites/extension.umn.edu/files/water-extraction-pattern.JPG",
+      "label": ""
+    },
+    {
+      "url": "https://extension.umn.edu/node/21286",
+      "label": "Irrigation management strategies"
+    },
+    {
+      "url": "https://extension.umn.edu/node/22636",
+      "label": "Soil moisture sensors for irrigation scheduling"
+    },
+    {
+      "url": "https://extension.umn.edu/node/25351",
+      "label": "Evapotranspiration-based irrigation scheduling or water-balance method"
+    },
+    {
+      "url": "https://extension.umn.edu/node/24541",
+      "label": "Estimating soil moisture by feel method"
+    },
+    {
+      "url": "https://extension.umn.edu/node/10791",
+      "label": "Irrigation scheduling checkbook method"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/late-season-irrigation",
+      "label": "Late-season irrigation"
+    },
+    {
+      "url": "https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/irrigation/variable-rate-irrigation",
+      "label": "Variable Rate Irrigation"
+    },
+    {
+      "url": "https://extension.umn.edu/about-extension/contact-us",
+      "label": "Contact"
+    },
+    {
+      "url": "https://extension.umn.edu/cdn-cgi/l/email-protection",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://z.umn.edu/report-accessibility-issue?ref_url=https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/basics-of-irrigation-scheduling",
+      "label": "Report Web Accessibility Issues"
+    },
+    {
+      "url": "https://myextension.umn.edu",
+      "label": "Staff intranet"
+    }
+  ],
+  "fetched_at": "2026-10-28T06:29:37.452813+00:00",
+  "sha256": "63ed163fba18bdb4afd0e3d494d2fa8ed6bb71b26cdeb47e583ce2b72994ca1b",
+  "source_format": "institutional_html",
+  "source_text_excerpted": false,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}

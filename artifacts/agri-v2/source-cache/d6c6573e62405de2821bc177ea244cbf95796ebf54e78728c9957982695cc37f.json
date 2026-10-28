@@ -1,0 +1,596 @@
+{
+  "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+  "requested_url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+  "redirect_chain": [
+    "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling"
+  ],
+  "text": "[table row] Loamy sand/sandy loam | Saturated soils (cbars): 0–10 [table row] Loamy sand/sandy loam | Field capacity (cbars): 10–15 [table row] Loamy sand/sandy loam | Typical irrigation threshold (cbars): 20–30 [table row] Loamy sand/sandy loam | cbars): 45–60 [table row] Loam/silt loam | Saturated soils (cbars): 0–10 [table row] Loam/silt loam | Field capacity (cbars): 20–30 [table row] Loam/silt loam | Typical irrigation threshold (cbars): 30–50 [table row] Loam/silt loam | cbars): 50–70 [table row] Clay loam/clay | Saturated soils (cbars): 0–10 [table row] Clay loam/clay | Field capacity (cbars): 30–40 [table row] Clay loam/clay | Typical irrigation threshold (cbars): 50–60 [table row] Clay loam/clay | cbars): 60–100 [table row] Feel and appearance | Advantages: Easy to conduct Inexpensive [table row] Feel and appearance | Disadvantages: Subjective and qualitative Time-consuming and labor-intensive [table row] Feel and appearance | Cost: Labor [table row] Gravimetric | Advantages: Accurate results Inexpensive Ability to sample multiple locations [table row] Gravimetric | Disadvantages: Time-consuming and labor-intensive Time to get results [table row] Gravimetric | Cost: Labor, oven, scale [table row] Tensiometer | Advantages: Relatively accurate Affordable Ability to install in different locations Easy to install Continuous reading possible using transducer Not affected by salinity Minimal skill level to install Data easy to read and interpret [table row] Tensiometer | Disadvantages: Limited operating range (up to 85 cbars) Relatively accurate Affordable Ability to install in different locations Easy to install Continuous reading possible using transducer Not affected by salinity Minimal skill level to install Data easy to read and interpret Need good contact between sensor and soil (no gaps) Relatively accurate Affordable Ability to install in different locations Easy to install Continuous reading possible using transducer Not affected by salinity Minimal skill level to install Data easy to read and interpret Requires frequent maintenance (constant refilling tube with water) Relatively accurate Affordable Ability to install in different locations Easy to install Continuous reading possible using transducer Not affected by salinity Minimal skill level to install Data easy to read and interpret Sensor is not effective on fine-textured soils [table row] Tensiometer | Cost: $60–$80 (requires 3–4 sensors) plus $140-$160 if installed with transducer [table row] Electrical resistance block/granular matrix | Advantages: Inexpensive Relatively accurate Affordable Ability to install in different locations Easy to install Continuous reading possible using transducer Not affected by salinity Minimal skill level to install Data easy to read and interpret Relatively accurate Affordable Ability to install in different locations Easy to install Continuous reading possible using transducer Not affected by salinity Minimal skill level to install Data easy to read and interpret Can be used in a large sample area Easy to install Can be used in moderately saline soils Continuous measurements can be collected with data logger Well-suited for irrigation water management [table row] Electrical resistance block/granular matrix | Disadvantages: Less accurate Not recommended in some soil types (sand and clay) and soils with high salt content Affected by soil temperature fluctuations Sensors degrade over time [table row] Electrical resistance block/granular matrix | Cost: $20–$40 per sensor (requires 3–4 sensors per location) plus $200 for hand manual reader and $500 for data logger [table row] Time domain reflectometry | Advantages: Accurate (2%-3%) Soil/site calibration usually not required Remote access of data available Continuous measurement can be collected with data logger Insensitive to salinity [table row] Time domain reflectometry | Disadvantages: More complicated than capacitance probes Takes time to install Does not work well in high salinity soils Small area of influence Expensive [table row] Time domain reflectometry | Cost: $250–$350 per sensor plus $1,000–$3,500 for data logger [table row] Capacitance | Advantages: Continuous measurement can be collected with data logger Response time is very fast Remote access available Accurate if site calibrated (2%–3%) Less expensive than time domain reflectometry Can be used in high-saline soils compared to time domain reflectometry [table row] Capacitance | Disadvantages: Small sensing area Affected by soil conditions (high salinity, clay content, temperature, bulk density) Site/soil-specific calibration preferred [table row] Capacitance | Cost: $250-$350 per sensor plus $500–$2,500 for data logger [table row] Neutron probe | Advantages: Accurate measurements Large measurements of volume of soil Samples a relatively large area One sensor for all sites and depths Unaffected by salinity and air gaps around access tube [table row] Neutron probe | Disadvantages: Soil/site-specific calibration usually required Expensive (~$10,000) Heavy Contains radioactive material (safety hazard) Licensing is required Manual reading and recording (~3 min/access tube) Not good at shallow depths ( < 6 inches) [table row] Neutron probe | Cost: Approximately $10,000 and $25–$30 for access tubes Soil moisture monitoring to support irrigation scheduling | OSU Extension Service Skip to main content OSU Extension Catalog Peer reviewed (Orange level) Soil moisture monitoring to support irrigation scheduling Irrigation Technology and Management Program — Technical Guide 9 English Español María Isabel Zamora Re, Todd M. Peplin and Abigail Tomasek EM 9868 | April 2026 | Print-friendly version Contents Summary What is soil moisture? Why measure soil moisture? Soil moisture content and soil moisture tension Measuring soil moisture Advantages and disadvantages of soil monitoring methods Considerations when using soil moisture monitors Remote sensing and other soil moisture monitoring techniques Soil moisture monitoring worksheet Section anchor \"summary\" Summary Soil moisture monitoring is an key component of irrigation scheduling and water management. It involves measuring the amount of water stored within the crop root zone to support timely and efficient irrigation decisions. Methods range from basic field observations using the feel and appearance method to advanced sensor-based technologies and remote sensing tools. Integrating soil moisture monitoring with effective irrigation scheduling improves water-use efficiency and helps maintain optimal crop growth conditions. Figure 1. Soil volume composition: distribution of solid materials (minerals and organic matter) and pore spaces (air and water). Credit: Kellen Grist, © Oregon State University Section anchor \"what-is-soil-moisture\" What is soil moisture? Soil moisture refers to the water stored within the pore spaces of unsaturated soil. It includes both liquid water and water vapor contained between soil particles. Unlike groundwater, which fills all pore spaces below the water table, soil moisture exists in the upper soil profile where air and water share the pore space. The amount of soil moisture present depends on soil texture, structure, organic matter content, bulk density and soil depth. Weather conditions influence soil moisture through precipitation and evapotranspiration. Crop type and growth stage further affect soil water through varying rates of transpiration. Soil moisture is typically monitored within the effective rooting depth of a crop to ensure sufficient water is available for optimal growth. Section anchor \"why-measure-soil-moisture\" Why measure soil moisture? Water moves through soils differently depending on soil texture, structure, organic matter content and pore-size distribution. Soil texture refers to the relative proportion of sand, silt and clay particles, which strongly influences how water is stored and transported through the soil profile. Water occupies the pore spaces between soil particles. When all pore spaces are filled with water, the soil is saturated. At saturation, air is displaced from the soil pores, reducing oxygen availability to roots. After saturation, gravitational water drains from the large soil pores until the soil reaches field capacity — a relatively stable water content at which downward drainage becomes minimal and capillary forces retain water against gravity. As plants use water through evapotranspiration, soil moisture decreases, and the soil matrix holds the remaining water more tightly. Eventually, soil moisture reaches the permanent wilting point , the level at which plants cannot extract sufficient water to recover from wilting. The difference between field capacity and permanent wilting point is known as available water capacity — the portion of soil water that is generally accessible for plant uptake. Available water capacity varies with soil texture and structure (Figure 2). Measuring soil moisture allows growers to determine: How much plant-available water remains in the root zone How quickly water is being depleted through ET When irrigation is needed to prevent crop stress Whether irrigation is reaching the intended root depth Maintaining soil moisture within the range of plant-available water supports adequate water and nutrient uptake, enabling optimal crop growth while minimizing water loss through deep percolation or runoff. Soil moisture monitoring therefore provides a direct, field-based method to improve irrigation timing and water use efficiency. Figure 2. Available water capacity is the difference between field capacity and the level at which plants wilt, known as the permanent wilting point. Credit: Kellen Grist, © Oregon State University Section anchor \"soil-moisture-content-and-soil-moisture-tension\" Soil moisture content and soil moisture tension Soil water can be described in two fundamentally different but complementary ways: Soil moisture content refers to how much water is present. Soil moisture tension (matric potential) refers to how tightly water is held in soil . Both are important for irrigation management. Soil moisture content Soil moisture content describes the quantity of water stored in the soil. It can be expressed on either a mass or volume basis. You can determine soil moisture content by conducting gravimetric or volumetric testing, or through the use of sensors. Gravimetric soil moisture content (θ g ) Gravimetric water content is determined by measuring the mass of water in a soil sample relative to its dry mass: θ g = Mass of water/Mass of dry soil Gravimetric water content (θ g ) is typically expressed in g g⁻¹ or percent by weight. Determined by soil sampling: Use an auger or shovel to collect a soil sample. Weigh the sample to determine its fresh weight. Oven-dry the soil at 105°C, then weigh it again. This is the dry weight. The loss in weight represents gravimetric water content (θ g ). Volumetric soil moisture content Volumetric water content is the volume of water per volume of soil: θ v = Volume of water/t otal soil volume Volumetric content (θ v ) is expressed as cm³/cm³, m³/m³ or percent by volume. Volumetric water content is often more useful for irrigation scheduling because it directly relates to water depth in the root zone. For example, a volumetric water content of 0.25 cm³/cm³ in a 12-inch root zone corresponds to 3 inches of stored water. Determined by soil sampling: Collect a soil core of known volume using a sampler (ring or core method). Weigh the sample, dry it in an oven at 105°C to constant mass, and reweigh it to determine the mass of water. The volume of water is calculated from its mass (using the density of water). Calculated from gravimetric water content: Volumetric content (θ v ) may also be calculated from gravimetric content using soil bulk density: θ v = θ g × ρ b Where: θ v = Volumetric water content ρ b = soil bulk density θ g = gravimetric content Practical considerations Gravimetric and volumetric methods are: Highly accurate Considered reference methods Used to calibrate soil moisture sensors However, they are labor-intensive and not real-time, making them impractical for routine irrigation decisions in most commercial fields. To find out more about how soil moisture content is determined, see Gravimetric Water Content from Virtual Soil Science Learning Resources. Sensors that measure soil water content Examples include: Dielectric soil moisture sensors (capacitance and TDR probes) Neutron moisture meters Soil moisture tension (soil water potential) Soil moisture tension, more accurately referred to as soil water matric potential, describes the energy required by plant roots to extract water from the soil. Unlike soil water content, which indicates how much water is present, matric potential describes how tightly that water is held. Water is retained in the soil primarily due to: Adhesion (attraction between water and soil particles) Cohesion (attraction between water molecules) Capillary forces within soil pores As soil dries, the largest pores drain first. Water remains in progressively smaller pores, water films surrounding particles become thinner, and the energy required to remove water increases. Therefore, the drier the soil, the greater the force roots must exert to extract water. Units of soil water tension Soil water potential is expressed as a negative pressure relative to atmospheric pressure, commonly expressed as: Kilopascals (kPa) Bars Centibars (cb) (1 bar = 100 centibars ≈ 100 kPa) Typical soil water tension values Saturation ≈ 0 kPa Field capacity ≈ −10 to −33 kPa (texture-dependent) Permanent wilting point ≈ −1500 kPa Sensors that measure soil water tension The following sensors measure matric potential (tension), not water content: Tensiometers Electrical resistance blocks Granular matrix sensors Section anchor \"measuring-soil-moisture\" Measuring soil moisture You can use several methods to measure and monitor soil moisture. These methods fall into two primary categories: Soil water content methods, which measure the amount of water in the soil. Soil water tension (matric potential) methods, which measure how tightly water is held in the soil and how much energy plants must use to extract it. These methods quantify how much water is stored in the root zone and are useful for determining how much water has been depleted and how much irrigation is needed to refill the soil profile. Soil moisture sampling: Feel and appearance method Estimating soil moisture by feel and appearance is a simple, low-cost field method for assessing soil water status within the crop root zone. This method involves collecting soil from different depths using a soil probe, auger or shovel and evaluating its texture, color, cohesiveness and ability to form a ball or ribbon. Because soil behavior changes with texture and water content, interpretation varies for sandy, loamy and clay soils. For example: Sandy soils feel loose and crumbly when dry and will not hold together well even when moist. Loamy soils can form a weak ball when moist. Clay soils feel sticky when wet and form a strong ribbon. Figure 3. Determining soil moisture using the feel and appearance method. Credit: U.S. Department of Agriculture, Natural Resources Conservation Service, 2023. With training and experience, the feel and appearance method can estimate volumetric soil moisture within approximately 5%–10%, depending on soil texture and operator skill. Evaluate soil in 1-foot increments down to the effective rooting depth of the crop to determine where moisture is being depleted and where irrigation water is penetrating. Although this method does not provide real-time quantitative data, it is an excellent tool for: Validating soil moisture sensor readings Verifying irrigation depth and uniformity Developing intuition about soil water behavior For more information and soil texture comparison tables, see Estimating Soil Moisture by Feel and Appearance, USDA Natural Resources Conservation Service. Tensiometers Tensiometers are soil moisture sensors used to measure soil water tension (matric potential). Producers in horticultural, vegetable and specialty crop systems commonly use tensiometers where irrigation is frequent and soils are monitored closely. How they work A tensiometer (Figure 4) consists of: A water-filled tube approximately 1 inch in diameter A vacuum gauge, at the upper end A porous ceramic cup, at the lower end The ceramic tip is installed at the desired depth within the root zone. Water moves through the porous tip in response to changes in soil water conditions. As the surrounding soil dries, water is drawn from the tensiometer through the ceramic cup, creating a measurable vacuum inside the tube. This vacuum reflects the soil water tension. Tensiometers read in centibars (cbar) or kilopascals (kPa). (1 cbar ≈ 1 kPa) Figure 4. Typical tensiometer with vacuum gauge. Credit: Adapted from University of Minnesota Extension Advantages, limitations and considerations The typical measurement range is 0 to approximately 70–85 cb. Beyond this range, air may enter the water column (a process known as cavitation), breaking hydraulic continuity and causing inaccurate readings. Because fine-textured soils often exceed this tension range before reaching irrigation thresholds, tensiometers may not fully capture the dry end of the available water range in clay soils. Tensiometers are relatively easy to install, read and maintain, but they must remain properly filled with water and free of air bubbles to function accurately. Interpreting tensiometer readings requires knowledge of soil texture and, ideally, a soil water characteristic curve to relate tension values to soil water content. For additional guidance on installation and operation, see Tensiometers: Installation and Operation. Table 1. Approximate tensiometer readings at different soil moisture levels for various soil textures Soil type Saturated soils (cbars) Field capacity (cbars) Typical irrigation threshold (cbars) cbars) Loamy sand/sandy loam 0–10 10–15 20–30 45–60 Loam/silt loam 0–10 20–30 30–50 50–70 Clay loam/clay 0–10 30–40 50–60 60–100 1 centibar (cbar) ≈ 1 kilopascal (kPa) Credit: Adapted from Irrometer Note: These values are approximate and may vary depending on crop type, rooting depth and management strategy. High-value or shallow-rooted crops are often irrigated at lower tension values, while deeper-rooted crops may tolerate higher tension before irrigation is required. Electrical resistance block and granular matrix and sensors Electrical resistance blocks, commonly known as gypsum blocks or soil moisture blocks, measure soil water tension (matric potential) indirectly by monitoring changes in electrical resistance within a porous medium. How they work These sensors contain two embedded electrodes surrounded by a porous material (typically gypsum or a granular matrix) (Figure 5). The block is installed in the soil at the desired monitoring depth. As soil moisture changes, water moves into or out of the porous material until it equilibrates with the surrounding soil. Because electrical conductivity increases with moisture content: When the block is wet, electrical resistance is low. As the soil dries, resistance increases. Figure 5. Traditional matrix gypsum block (left) and a Watermark granular matrix sensor (right). Both sensors estimate soil water tension by measuring changes in electrical resistance within a porous matrix that equilibrates with surrounding soil moisture. Credit: Dominic Skinner, Agriculture Victoria The resistance measurement is converted — using manufacturer calibration tables or electronic meters — into soil water tension values (usually reported in centibars or kilopascals). Gypsum blocks Traditional gypsum electrical resistance blocks are relatively inexpensive and easy to install and read. However, they have limitations: They gradually dissolve in wet soils. They are influenced by soil salinity. Long-term stability may decline over time. Because salts increase electrical conductivity, highly saline soils can cause inaccurate readings. Granular matrix sensors Granular matrix sensors were developed to improve durability and reduce sensitivity to salinity. These devices typically consist of: A porous ceramic outer shell A granular internal matrix surrounding the electrodes The matrix buffers salinity effects and improves long-term structural stability compared to gypsum blocks. Granular matrix sensors measure soil water tension over a wider operating range than tensiometers and can function at drier conditions where tensiometers cavitate. Readings can be collected with: Handheld meters Data loggers Automated irrigation controllers Advantages Relatively inexpensive Moderate measurement range (approximately 0–200 kPa, depending on model) Compatible with automation Limitations Require soil contact for accuracy. May require periodic recalibration. Less precise than laboratory methods. Temperature effects can influence resistance readings. For more information on how to prepare and read granular matrix sensors, see Watermark Soil Moisture Sensor — How to Install and Soil Sensors and ET Gauges. Figure 6. Watermark granular matrix sensors connected to a handheld data analyzer used to measure soil water tension in the field. Sensor readings can be used to monitor root-zone moisture conditions and assist with irrigation scheduling. Credit: Iowa State University Extension Dielectric soil sensors Dielectric soil sensors, also called electromagnetic soil moisture sensors, measure volumetric soil water content by estimating the soil’s dielectric permittivity (dielectric constant). Water has a much higher dielectric constant (~80) than soil minerals (3–5) or air (~1). As soil water content increases, the bulk dielectric constant of the soil increases. Electromagnetic sensors measure this property and convert it to volumetric water content using calibration equations. Unlike tension-based sensors, dielectric sensors directly estimate the quantity of water present, rather than how tightly it is held. These sensors are widely adopted because they: Provide near-instantaneous readings Can be integrated into automated data logging systems Require less maintenance than water-filled sensors such as tensiometers However, dielectric soil sensors require proper installation and calibration to ensure accurate readings. Figure 7A. A time-domain reflectometry (TDR) soil moisture probe measuring real-time soil moisture in the field. Credit: Adobe Stock Figure 7B. A TDR soil moisture probe measures volumetric water content in the soil. Credit: Adobe Stock Time-domain reflectometry Time-domain reflectometry determines soil water content by measuring the travel time of an electromagnetic pulse through the soil. A TDR sensor consists of two or three parallel stainless steel rods (waveguides) inserted into the soil (Figure 7A-B). The instrument sends a high-frequency electromagnetic pulse along the rods. TDRs measure the time required for the pulse to travel through the soil and reflect back to the sensor. Because electromagnetic waves travel more slowly in wetter soils (due to higher dielectric permittivity), travel time increases as soil water content increases. TDR sensors are: Generally very accurate (±2%–3% volumetric water content under proper calibration) Less sensitive to salinity compared to capacitance sensors Available in probe lengths ranging from several inches to several feet Calibration may be soil-specific, especially for soils high in clay or organic matter. To find out more about how these sensors are installed, see Soil Moisture Sensor Installation and Soil Water Content. Figure 8A. Capacitance (frequency-domain reflectometry) soil moisture sensor probe showing oscillating waves emanating from the probe. Credit: Carol Rang, © Oregon State University. Adapted from Minnesota State University Figure 8B. Con",
+  "links": [
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/",
+      "label": "OSU Extension Service"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/topics",
+      "label": "Topics"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock",
+      "label": "Animals and livestock"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/beef",
+      "label": "Beef cattle"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/pollinators",
+      "label": "Bees and pollinators"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/fishing",
+      "label": "Commercial fishing, crabbing and clamming"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/dairy",
+      "label": "Dairy"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/horses",
+      "label": "Horses"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/poultry-rabbits",
+      "label": "Poultry and rabbits"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/sheep-goats",
+      "label": "Sheep and goats"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/animals-livestock/swine",
+      "label": "Swine"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics",
+      "label": "Business and economics"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/management",
+      "label": "Business management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/marketing",
+      "label": "Business marketing"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/estate-planning",
+      "label": "Estate and succession planning"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/finance",
+      "label": "Finance, budgeting and taxes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/business-economics/rural-development",
+      "label": "Rural economic development"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality",
+      "label": "Community vitality"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/agritourism",
+      "label": "Agritourism"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/community-technology",
+      "label": "AI technology and community development"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/disaster-prep",
+      "label": "Community disaster preparedness"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/health-outreach",
+      "label": "Health outreach"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/food-systems",
+      "label": "Local, regional and community food systems"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/community-vitality/work-skills",
+      "label": "Work skills"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production",
+      "label": "Crop production"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/berries",
+      "label": "Berries, table grapes and kiwifruit"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/produce-forage/field-crops",
+      "label": "Field crops"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/fruit-trees",
+      "label": "Fruit trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/nuts",
+      "label": "Hazelnuts and nut crops"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/hemp",
+      "label": "Hemp"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/nursery-greenhouse",
+      "label": "Nursery and greenhouse"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/organic",
+      "label": "Organic agriculture"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/pastures-forages",
+      "label": "Pastures and forages"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/soil",
+      "label": "Soil"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/vegetables",
+      "label": "Vegetables and specialty seeds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/crop-production/wine-grapes",
+      "label": "Wine grapes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food",
+      "label": "Food"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/processing",
+      "label": "Commercial food processing"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/farm-food-safety",
+      "label": "Farm food safety"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/food-security",
+      "label": "Food security"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/preservation",
+      "label": "Home food preservation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/home-food-safety-storage",
+      "label": "Home food safety and storage"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/nutrition",
+      "label": "Nutrition and healthy eating"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/recipes",
+      "label": "Recipes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/food/wine-beer",
+      "label": "Wine, beer, cider and spirits"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests",
+      "label": "Forests, woodlands and rangelands"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/christmas-trees",
+      "label": "Christmas trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/cutting-selling",
+      "label": "Cutting and selling trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/fire",
+      "label": "Fire"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/health-management",
+      "label": "Forest health and management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/non-timber-products",
+      "label": "Non-timber forest products"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/range",
+      "label": "Rangeland conservation and management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/tree-care",
+      "label": "Tree care"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/forests/wood-processing",
+      "label": "Wood processing and products"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening",
+      "label": "Gardening, lawn and landscape"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/collection/monthly-garden-calendars",
+      "label": "Monthly garden calendars"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/berries-fruit",
+      "label": "Berries and fruit"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees",
+      "label": "Flowers, shrubs and trees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/soil-compost",
+      "label": "Garden soil and compost"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/techniques",
+      "label": "Gardening techniques"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/vegetables",
+      "label": "Garden vegetables and herbs"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/lawn",
+      "label": "Lawn and turfgrass"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/gardening/urban-forestry",
+      "label": "Urban forestry"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/wildlife",
+      "label": "Wildlife"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments",
+      "label": "Outdoors and environments"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/climate-change",
+      "label": "Climate change"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/environmental-education",
+      "label": "Environmental education (PreK-12)"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/fish",
+      "label": "Fish and aquatic life"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/outdoors-environments/sustainability",
+      "label": "Sustainability"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases",
+      "label": "Pests, weeds and diseases"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/healthy-homes",
+      "label": "Healthy homes"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/insects",
+      "label": "Insects"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/ipm",
+      "label": "Integrated pest management"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/invasive-species",
+      "label": "Invasive species"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/nuisance-wildlife",
+      "label": "Nuisance wildlife"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/pesticides",
+      "label": "Pesticide safety and education"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/plant-diseases",
+      "label": "Plant diseases"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/pests-weeds-diseases/weeds",
+      "label": "Weeds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water",
+      "label": "Water and watersheds"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/irrigation",
+      "label": "Irrigation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/residential-water",
+      "label": "Residential water and wells"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/riparian-areas",
+      "label": "Riparian areas"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/water/watersheds",
+      "label": "Water management and conservation"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health",
+      "label": "Youth, families and health"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/emergency-prep",
+      "label": "Family emergency preparedness"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/healthy-aging",
+      "label": "Healthy aging"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/parenting",
+      "label": "Parenting"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/physical-activity",
+      "label": "Physical activity"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/families-health/youth",
+      "label": "Youth education resources"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/programs",
+      "label": "Get involved"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about",
+      "label": "About"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/our-leadership",
+      "label": "Our leadership"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/get-involved",
+      "label": "Get involved"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/news",
+      "label": "News"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/career-opportunities",
+      "label": "Career opportunities"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/about/donate",
+      "label": "Donate"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/find-us",
+      "label": "Contact us"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/people/directory",
+      "label": "Faculty and staff"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/ask-extension",
+      "label": "Ask Extension"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog",
+      "label": "OSU Extension Catalog"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/peer-review-guidelines",
+      "label": "Peer reviewed (Orange level)"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/es/catalog/em-9868-soil-moisture-monitoring-support-irrigation-scheduling",
+      "label": "Español"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9868.pdf",
+      "label": "Print-friendly version"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig1_.png?itok=G3r4956i",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig2_.png?itok=E68jIKc9",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig3_.png?itok=_vFDpq3O",
+      "label": ""
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/Estimating%20Soil%20Moisture%20by%20Feel%20and%20Appearance.pdf",
+      "label": "Estimating Soil Moisture by Feel and Appearance,"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig4_.png?itok=mLBzBx6v",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig5_.png?itok=kvO0xt2L",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig6_.jpg?itok=X5UcxSiq",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig7a.jpeg?itok=PPXBRtJA",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig7b.jpeg?itok=4Yzf0OJ0",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig8x.JPG?itok=kKhualIK",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig8b.jpeg?itok=U1ZdFCry",
+      "label": ""
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/irrigation.soil_.fig8a.png?itok=Ty5weTN1",
+      "label": ""
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/app/",
+      "label": "The USDA Web Soil Survey"
+    },
+    {
+      "url": "https://casoilresource.lawr.ucdavis.edu/soilweb-apps",
+      "label": "University of California, Davis, California Soil Labs"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/adobestock_1845823362.jpeg?itok=-Hn9odr5",
+      "label": ""
+    },
+    {
+      "url": "https://smap.jpl.nasa.gov/",
+      "label": "Soil Moisture Active Passive"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/earth.esa.int/eogateway/missions/smos",
+      "label": "Soil Moisture Ocean Salinity"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/styles/full/public/images/2026-03/adobestock_1495767101.jpeg?itok=yJDKPIb4",
+      "label": ""
+    },
+    {
+      "url": "https://www.drought.gov/topics/soil-moisture",
+      "label": "Soil Moisture"
+    },
+    {
+      "url": "https://agsci.oregonstate.edu/system/files/em8900.pdf",
+      "label": "Irrigation Monitoring Using Soil Water Tension"
+    },
+    {
+      "url": "https://nrcspad.sc.egov.usda.gov/distributioncenter/pdf.aspx?productID=199",
+      "label": "Estimating Soil Moisture By Feel and Appearance ."
+    },
+    {
+      "url": "https://extension.umn.edu/vegetables/irrigation-strategies-vegetables",
+      "label": "Irrigation strategies for vegetables"
+    },
+    {
+      "url": "https://www.sdstate.edu/sites/default/files/2017-01/FS876.pdf",
+      "label": "Measuring Soil Moisture for Irrigation Water Management"
+    },
+    {
+      "url": "https://bee.oregonstate.edu/users/maria-zamora-re?gid=25345",
+      "label": "María Isabel Zamora Re"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/people/abigail-tomasek",
+      "label": "Abigail Tomasek"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/collection/irrigation-technology-management-program-technical-guides",
+      "label": "Irrigation Technology and Management Program technical guides"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9717-irrigation-water-scheduling",
+      "label": "Irrigation water scheduling"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/em-9869-inspecting-maintaining-irrigation-systems",
+      "label": "Inspecting and maintaining irrigation systems"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/help",
+      "label": "How to use this website"
+    },
+    {
+      "url": "https://ir.library.oregonstate.edu/?locale=en",
+      "label": "ScholarsArchive@OSU"
+    },
+    {
+      "url": "https://ourimpact.oregonstate.edu/",
+      "label": "Our impact"
+    },
+    {
+      "url": "https://beaverhealthy.oregonstate.edu",
+      "label": "Beaver Healthy"
+    },
+    {
+      "url": "https://employee.extension.oregonstate.edu/",
+      "label": "For employees"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/cas",
+      "label": "Log in"
+    },
+    {
+      "url": "https://engagement.oregonstate.edu/",
+      "label": "Division of Extension and Engagement"
+    },
+    {
+      "url": "https://oregonstate.edu/land-acknowledgement",
+      "label": "See our land acknowledgement."
+    },
+    {
+      "url": "https://oregonstate.edu/copyright",
+      "label": "Copyright"
+    },
+    {
+      "url": "https://engagement.oregonstate.edu/privacy",
+      "label": "Web disclaimer/privacy"
+    },
+    {
+      "url": "https://extension.oregonstate.edu/equal-opportunity-accessibility",
+      "label": "Equal opportunity/accessibility"
+    }
+  ],
+  "fetched_at": "2026-10-28T06:29:31.338422+00:00",
+  "sha256": "70d647689949dd1ef30dbac400c71db574231710bb48d9c08a96f56641a008b3",
+  "source_format": "institutional_html",
+  "source_text_excerpted": true,
+  "source_text_layout_version": 2,
+  "source_link_discovery_version": 1
+}
