@@ -166,6 +166,9 @@ def validate_overlap(topic,bundle,value):
  return value
 
 def verify_brief(brief):
+ if 'regional_research' in brief:
+  from .regional_sources import bind_brief
+  if brief['regional_research']!=bind_brief(brief):raise EvidenceBlocked('regional_brief_binding_changed')
  if brief.get('review_mode')!=MODE or brief.get('human_agronomy_review_done') is not False or brief.get('agronomy_reviewer') is not None:raise EvidenceBlocked('no_fabricated_human_review')
  facts=brief['approved_facts'];validate_review(brief.get('scoped_review'),facts)
  if 'research_route' in brief:

@@ -162,3 +162,18 @@ class RegionalSourcesTests(unittest.TestCase):
  def test_new_and_historical_route_contracts_are_separate(self):
   from automation.agri_v2.research_routes import plan
   old=plan(self.topic());new=plan(dict(self.topic(),regional_research_enabled=True));self.assertNotIn('regional_profile',old);self.assertEqual(new['regional_profile']['language'],'fa-IR');self.assertIn('ایران',new['search_queries'][0]);self.assertIn('university extension',old['search_queries'][0])
+ def test_language_search_carries_primary_run_usage_not_an_extra_eighty(self):
+  from automation.agri_v2.language_review_queue import initialize_regional_search
+  from automation.agri_v2.parallel_pool import connect,PoolDeferred
+  from automation.agri_v2.source_search import reservation
+  with tempfile.TemporaryDirectory() as t:
+   root=Path(t);out=root/'out';db=root/'search.sqlite';atomic_json(out/'parallel/lifecycle/runs/123/report.json',{'run_id':'123','source_search':{'requests_reserved':80}});initialize_regional_search(db,out,'123')
+   with connect(db) as c:self.assertEqual(c.execute("SELECT value FROM search_meta WHERE name='calls'").fetchone()[0],80)
+   with self.assertRaises(PoolDeferred):
+    with reservation(db,'fixture-query','new-language-query',wait=0):self.fail('80/run cap bypassed')
+ def test_previous_run_search_usage_does_not_consume_current_run_allowance(self):
+  from automation.agri_v2.language_review_queue import initialize_regional_search
+  from automation.agri_v2.parallel_pool import connect
+  with tempfile.TemporaryDirectory() as t:
+   root=Path(t);out=root/'out';db=root/'search.sqlite';atomic_json(out/'parallel/lifecycle/runs/122/report.json',{'run_id':'122','source_search':{'requests_reserved':80}});initialize_regional_search(db,out,'123')
+   with connect(db) as c:self.assertEqual(c.execute("SELECT value FROM search_meta WHERE name='calls'").fetchone()[0],0)

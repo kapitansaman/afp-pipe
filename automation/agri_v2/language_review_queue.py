@@ -266,6 +266,20 @@ def run_item(p,client,data=DATA):
   else:atomic_json(p,row)
  return {'topic_id':row['topic_id'],'language':lang,'status':row['status'],'model_calls':spent}
 
+def initialize_regional_search(db,out,run_id):
+ from .source_search import initialize as initialize_search
+ from .parallel_pool import connect
+ initialize_search(db,out)
+ # Primary family workers have their own (now closed) pool. Carry forward
+ # this SAME Actions run's search usage, so two pools cannot each spend 80.
+ prior=out/'parallel/lifecycle/runs'/run_id/'report.json'
+ if prior.exists():
+  report=load_json(prior)
+  if report.get('run_id')!=run_id:raise RepairBlocked('regional_search_run_binding_invalid')
+  count=report.get('source_search',{}).get('requests_reserved',0)
+  if type(count)is not int or not 0<=count<=80:raise RepairBlocked('regional_search_run_budget_invalid')
+  with connect(db) as c:c.execute("UPDATE search_meta SET value=MAX(value,?) WHERE name='calls'",(count,))
+
 def process_due(env,health,data=DATA,out=OUT,topic_ids=None):
  from .parallel_pool import initialize,snapshot,routing_counts,routing_backpressure,record_routing
  from .parallel_client import ParallelModelClient
@@ -279,9 +293,9 @@ def process_due(env,health,data=DATA,out=OUT,topic_ids=None):
  if db.exists():return {'status':'review_run_already_reserved','model_calls':0}
  initialize(db,health['eligible_text_slots'],text_limit=1,image_limit=1,max_calls=8,per_worker=4,prior_usage=routing_counts(out),prior_backpressure=routing_backpressure(out));results=[]
  from .regional_sources import enabled as regional_enabled
- from .source_search import initialize as initialize_search,persist as persist_search
+ from .source_search import persist as persist_search
  use_search=regional_enabled(data)
- if use_search:initialize_search(db,out)
+ if use_search:initialize_regional_search(db,out,run_id)
  for p in todo:
   row=load_json(p);worker_env=dict(env,AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB=str(db),AFP_PARALLEL_TOPIC=row['topic_id']+'-'+row['language'],AFP_PARALLEL_FAMILY='separate-language-review-queue')
   factory=AlternateDiagnosticClient if row['language']=='tg-TJ' else ParallelModelClient
