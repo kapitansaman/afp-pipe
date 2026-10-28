@@ -1,0 +1,53 @@
+{
+  "image_sha256": "b30b5f5cd10fc391e41b064c68ab96721658170dba817a1109dc3cc0cb337936",
+  "contract_sha256": "1e80b21655a0c72612e35684e6bfe9836d0405b714b964bd1113f2942b934a4f",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-7736a471e8c1",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T04:14:22.768350+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 76,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": false,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": false,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 28,
+    "reasons": [
+      "Crop species mismatch: the image shows broad-leaf seedling plants (resembling tobacco or similar dicot species), not barley (جو / Hordeum vulgare) which should display narrow grass-like linear leaves even at the seedling stage.",
+      "Camera angle violation: the image uses a side-angle perspective showing multiple receding rows with a visible horizon line, contradicting the role 2 requirement for near-overhead tight detail with no horizon or vanishing-point furrows.",
+      "Topic evidence failure: because the wrong crop species is depicted, the illustration cannot serve as recognizable evidence for barley planting depth content.",
+      "Product scale exceedance: the AFP carton appears to occupy approximately 35-40% of frame height, exceeding the product_max_frame_height threshold of 0.32 specified in scene DATA."
+    ]
+  }
+}

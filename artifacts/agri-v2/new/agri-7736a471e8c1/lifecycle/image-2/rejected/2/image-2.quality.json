@@ -1,0 +1,59 @@
+{
+  "image_sha256": "5d3c616bd2dcb0046561c230c58f3b74ff12ec644d690cd1153ec32517ab9eaf",
+  "contract_sha256": "1e80b21655a0c72612e35684e6bfe9836d0405b714b964bd1113f2942b934a4f",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-7736a471e8c1",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T04:13:02.058509+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 93,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": true,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 82,
+    "reasons": [
+      "hardware_required=false; no invented filter/valve/pipe assembly is present, satisfying hardware checks.",
+      "product_identity_match passes: the AFP Drip Irrigation Tape carton matches the authorized reference with correct logo, brand lettering, and label layout.",
+      "phone_label_correct passes: bottom-right label reads exactly AFP | 09134922013.",
+      "The crop shown has broad, glossy, ovate leaves characteristic of a pepper-type plant, not Hordeum vulgare (barley/جو). Barley seedlings have narrow linear grass-like leaves. This is a species mismatch, not a normal variation.",
+      "topic_evidence_match passes: drip tape lateral, tilled soil, and young plants are all recognizably relevant to an irrigation/barley planting illustration.",
+      "product_scale_match passes: carton occupies approximately 0.18–0.22 of frame width, within [0.18, 0.23].",
+      "product_fully_in_frame passes: all carton edges visible.",
+      "package_separate_from_plumbing passes: empty soil gap surrounds the carton; the drip tape runs beside it without passing through or under it.",
+      "packaging_closed_no_protruding_material passes: the roll is a closed self-contained carton with no ribbon, strap, or tape tails visible.",
+      "physical_geometry_plausible passes: believable contact shadow and perspective on soil.",
+      "role_camera_match passes: near-overhead tight detail consistent with role 2."
+    ]
+  }
+}

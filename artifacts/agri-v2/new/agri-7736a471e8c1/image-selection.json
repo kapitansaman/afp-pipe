@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "policy": "three-corrections-single-approved-v1",
+  "topic_id": "agri-7736a471e8c1",
+  "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+  "selected_roles": [
+    1
+  ],
+  "omitted_roles": [
+    2
+  ],
+  "retained_bindings": {
+    "1": {
+      "image_sha256": "e7bae2b9ef74c9b0702da4ac91afa1deabf2dca9d7c123fc2ea0a4af0e46d65e",
+      "review_sha256": "d76dd748e64f12eb41e0a0c1e8dd901d8dc4e0a1fee4696389383d1c31277691"
+    }
+  },
+  "at": "2026-10-28T04:15:55.317777+00:00",
+  "forced_approval": false,
+  "attempts_reset": false
+}

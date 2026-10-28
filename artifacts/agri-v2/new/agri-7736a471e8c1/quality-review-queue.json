@@ -1,0 +1,29 @@
+{
+  "policy": "publishable-quality-v1",
+  "score": 77,
+  "minimum_score": 70,
+  "accepted": true,
+  "minimum_source_fidelity": 15,
+  "dimensions": {
+    "answer_usefulness": 20,
+    "source_fidelity": 18,
+    "readability": 17,
+    "commercial_fit": 10,
+    "language_and_units": 12
+  },
+  "critical_issues": [],
+  "warnings": [
+    "answer_usefulness",
+    "source_fidelity",
+    "readability",
+    "language_and_units"
+  ],
+  "human_review_claimed": false,
+  "reason": "مقاله پرسش درباره عمق کاشت جو و تفاوت خاک سبک و سنگین را پاسخ می‌دهد و چک‌لیست تصمیم‌گیری نیز مفید است. نگارش روان و ساختار منسجم دارد و پیوند تجاری تصنعی ندارد. محدودیت جغرافیایی منبع (ویسکانسین) به‌وضوح در بخش اختصاصی ذکر شده و از تعمیم نادرست جلوگیری می‌کند. نکته‌ای که در بازبینی پیشین به‌عنوان unsupported_material_quantity ثبت شد («یک اینچ») اکنون در مقاله فعلی وجود ندارد و مقاله فقط بر shallow بودن عمق تأکید می‌کند که با evidence_quote همخوانی دارد. در FAQ پاسخ دوم با «خیر» قطعی خاک سنگین را رد می‌کند، در حالی که منبع صرفاً توصیه به اجتناب کرده («avoiding heavy soils»); این تقویت جزئی از توصیه، کسر fidelity را توجیه می‌کند. همچنین عبارت «تنش Mechanical» در FAQ سوم ترکیبی انگلیسی-فارسی نامأنوس است. هیچ یک از این موارد به‌تنهایی مادهٔ بحرانی محسوب نمی‌شوند.",
+  "topic_id": "agri-7736a471e8c1",
+  "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+  "brief_sha256": "cd8aaa1e2ce7d09f46ee2e2d438cef93e3350471a06058c2eab6cd2fdd5a2903",
+  "status": "accepted",
+  "max_auto_repairs": 1,
+  "updated_at": "2026-10-28T04:05:42.659594+00:00"
+}

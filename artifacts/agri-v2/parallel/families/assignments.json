@@ -14,11 +14,11 @@
     },
     {
       "family_id": "family-02",
-      "topic_id": "agri-7736a471e8c1",
-      "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
-      "assigned_at": "2026-10-26T08:45:16.180309+00:00",
+      "topic_id": "agri-ed19dd100ebc",
+      "title": "چرا بذر یونجه سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "assigned_at": "2026-10-28T04:20:01.077013+00:00",
       "assignment_status": "assigned",
-      "work_stage": "ready_for_drafting",
+      "work_stage": "existing_content_audit_required",
       "publication_authorized_by_assignment": false
     },
     {
@@ -568,6 +568,17 @@
       "completed_at": "2026-10-28T00:45:08.275557+00:00",
       "completion": "deferred_to_exception_backlog",
       "reason": "independent_scoped_review_rejected"
+    },
+    {
+      "family_id": "family-02",
+      "topic_id": "agri-7736a471e8c1",
+      "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+      "assigned_at": "2026-10-26T08:45:16.180309+00:00",
+      "assignment_status": "assigned",
+      "work_stage": "ready_for_drafting",
+      "publication_authorized_by_assignment": false,
+      "completed_at": "2026-10-28T04:20:01.075599+00:00",
+      "completion": "verified_source_languages_handed_to_review_queue"
     }
   ],
   "publication_authorized_by_assignment": false,

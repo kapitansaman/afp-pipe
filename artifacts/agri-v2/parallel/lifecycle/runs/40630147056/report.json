@@ -1,0 +1,886 @@
+{
+  "owned_scoped_family_pilot": true,
+  "matrix_pilot": false,
+  "research_only": false,
+  "run_id": "40630147056",
+  "status": "completed",
+  "assigned_count": 1,
+  "pilot_topic_only": false,
+  "results": [
+    {
+      "status": "publication_ready",
+      "reason": null,
+      "topic_id": "agri-7736a471e8c1",
+      "steps": [
+        {
+          "status": "stage_completed",
+          "stage": "article_evidence_review",
+          "result": {
+            "article_evidence_reviewed": true
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "image-1",
+          "result": {
+            "image_created": 1
+          }
+        },
+        {
+          "status": "stage_failed",
+          "stage": "vision-1",
+          "failure": {
+            "kind": "image_quality",
+            "category": "unspecified"
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "image-1",
+          "result": {
+            "image_created": 1
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "vision-1",
+          "result": {
+            "image_sha256": "e7bae2b9ef74c9b0702da4ac91afa1deabf2dca9d7c123fc2ea0a4af0e46d65e",
+            "contract_sha256": "16f0a79e92eee6b7baabf06f4c3faca5e114c93594e741d13437c8a6c6684995",
+            "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+            "policy": "agri-topic-scene-aghala-v6-topic-routed",
+            "role": 1,
+            "topic_id": "agri-7736a471e8c1",
+            "review_model": "agnes-2.5-flash",
+            "review_policy": "agri-vision-qa-v12-critical-checks",
+            "checked_at": "2026-10-28T04:10:15.846064+00:00",
+            "reviewer": "automated_multimodal_model",
+            "human_review_claimed": false,
+            "status": "reviewed",
+            "no_auto_regeneration": true,
+            "verdict": {
+              "quality_index": {
+                "policy": "publishable-quality-v1",
+                "score": 95,
+                "minimum_score": 70,
+                "accepted": true,
+                "critical_failures": [],
+                "manual_monitoring_required": false
+              },
+              "passed": true,
+              "checks": {
+                "hardware_identity_match": true,
+                "hardware_sealed_all_ports_connected": true,
+                "crop_stage_match": true,
+                "role_camera_match": false,
+                "topic_evidence_match": true,
+                "product_identity_match": true,
+                "single_product": true,
+                "product_scale_match": true,
+                "product_fully_in_frame": true,
+                "package_separate_from_plumbing": true,
+                "physical_geometry_plausible": true,
+                "packaging_closed_no_protruding_material": true,
+                "no_people": true,
+                "no_added_text": true,
+                "phone_label_correct": true
+              },
+              "score": 82,
+              "reasons": [
+                "role_camera_match is false: role=1 calls for an elevated wide overview, but the actual camera angle is near-ground level looking across the carton and adjacent barley plants, not a high-angle field overview.",
+                "All critical checks pass: hardware absent (hardware_required=false), AFP carton identity matches reference (white-blue branding, same logo and 'Drip Irrigation Tape' text), crop shows barley (جو) seedlings/yellowing panicles consistent with the cultivation scene, single intact carton, package sits on soil with no pipe through its core, no protruding strap or ribbon, physically plausible geometry with natural shadows, phone label reads 'AFP | 09134922013' at lower right, no added text beyond auth",
+                "Product scale fits the 0.18–0.23 frame-width range; carton is fully in frame with modest edge crop that does not compromise identity verification."
+              ]
+            }
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "image-2",
+          "result": {
+            "image_created": 2
+          }
+        },
+        {
+          "status": "stage_failed",
+          "stage": "vision-2",
+          "failure": {
+            "kind": "image_quality",
+            "category": "unspecified"
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "image-2",
+          "result": {
+            "image_created": 2
+          }
+        },
+        {
+          "status": "stage_failed",
+          "stage": "vision-2",
+          "failure": {
+            "kind": "image_quality",
+            "category": "unspecified"
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "image-2",
+          "result": {
+            "image_created": 2
+          }
+        },
+        {
+          "status": "stage_failed",
+          "stage": "vision-2",
+          "failure": {
+            "kind": "image_quality",
+            "category": "unspecified"
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "image-2",
+          "result": {
+            "image_created": 2
+          }
+        },
+        {
+          "status": "stage_failed",
+          "stage": "vision-2",
+          "failure": {
+            "kind": "image_quality",
+            "category": "unspecified"
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "language_primary-ru-RU",
+          "result": {
+            "topic_id": "agri-7736a471e8c1",
+            "language": "ru-RU",
+            "status": "reconciliation_required",
+            "model_calls": 1
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "language_primary-ar-IQ",
+          "result": {
+            "topic_id": "agri-7736a471e8c1",
+            "language": "ar-IQ",
+            "status": "waiting",
+            "model_calls": 1
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "language_primary-tg-TJ",
+          "result": {
+            "topic_id": "agri-7736a471e8c1",
+            "language": "tg-TJ",
+            "status": "waiting",
+            "model_calls": 1
+          }
+        },
+        {
+          "status": "stage_completed",
+          "stage": "language_primary-en-US",
+          "result": {
+            "topic_id": "agri-7736a471e8c1",
+            "language": "en-US",
+            "status": "waiting",
+            "model_calls": 1
+          }
+        }
+      ],
+      "published_posts": 0,
+      "worker_exit_code": 0,
+      "checkpoint_merged": true,
+      "family_id": "family-02"
+    }
+  ],
+  "publication_results": [
+    {
+      "status": "stage_completed",
+      "stage": "publish",
+      "result": {
+        "post_id": 524193,
+        "url": "https://navar-abyari.ir/barley-planting-depth-light-heavy-soils/",
+        "status": "translations_pending",
+        "public_verified": true,
+        "translations": {
+          "ru-RU": {
+            "status": "pending_separate_review"
+          },
+          "ar-IQ": {
+            "status": "pending_separate_review"
+          },
+          "tg-TJ": {
+            "status": "pending_separate_review"
+          },
+          "en-US": {
+            "status": "pending_separate_review"
+          }
+        },
+        "topic_id": "agri-7736a471e8c1",
+        "published_posts": 1,
+        "newly_verified_post_ids": [
+          524193
+        ]
+      },
+      "topic_id": "agri-7736a471e8c1"
+    }
+  ],
+  "published_posts": 1,
+  "max_stage_attempts": 3,
+  "original_attempts_reset": false,
+  "schedule_enabled": false,
+  "publication_authorized": true,
+  "source_and_translation_posts_counted": true,
+  "started_at": "2026-10-28T04:04:50.121444+00:00",
+  "existing_content_fetch": {
+    "families": 1,
+    "families_with_bounded_full_scope": 1,
+    "article_refs": 8,
+    "article_refs_loaded": 8,
+    "scope_limited_families": 0
+  },
+  "durable_flight_reserved": true,
+  "max_text_model_calls": null,
+  "max_total_model_calls": 14,
+  "source_search": {
+    "backend": "tavily",
+    "requests_reserved": 0,
+    "unknown_requests": 0,
+    "cache_entries": 1,
+    "monthly_budget": {
+      "month": "2026-10",
+      "reserved": 1
+    },
+    "cooldown_until_epoch": 0.0,
+    "secret_values_stored": false
+  },
+  "pool": {
+    "model_requests_reserved": 14,
+    "cooldown_until_epoch": 1793164735.4506297,
+    "slots": [
+      {
+        "name": "AGNES_API_KEY",
+        "used": 12,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY2",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY3",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY5",
+        "used": 7,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY6",
+        "used": 7,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY7",
+        "used": 7,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY9",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY10",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY11",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY13",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY14",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY15",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY17",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY18",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY19",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY21",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY22",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY23",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY25",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY26",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY27",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY29",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY30",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY31",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY33",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY34",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY35",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY37",
+        "used": 4,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY38",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY39",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY41",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY42",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY43",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY45",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY46",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY49",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY50",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY51",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY53",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY54",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY55",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY57",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY58",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY59",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY61",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY62",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY63",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY65",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY66",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY67",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY69",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY70",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY71",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY73",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY74",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY75",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY77",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY78",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY79",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY81",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY82",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY83",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY84",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY85",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY86",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY87",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY88",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY89",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY90",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY91",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY92",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY93",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY94",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY95",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY96",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY97",
+        "used": 1,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY4",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY8",
+        "used": 9,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY12",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY16",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY20",
+        "used": 2,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY24",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY28",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      },
+      {
+        "name": "AGNES_API_KEY32",
+        "used": 3,
+        "disabled": 0,
+        "kind": null,
+        "cooldown_until_epoch": 0.0
+      }
+    ],
+    "secret_values_stored": false,
+    "peak_text_leases": 1,
+    "peak_image_leases": 1
+  },
+  "operational_failures": 0,
+  "waiting_families": 0,
+  "publication_ready_workers": 1,
+  "completed_at": "2026-10-28T04:20:01.092835+00:00",
+  "scoped_pilot_acceptance": {
+    "status": "scoped_family_pilot_verified",
+    "checked_at": "2026-10-28T04:20:04.277092+00:00",
+    "topic_id": "agri-7736a471e8c1",
+    "family_id": "family-02",
+    "post_id": 524193,
+    "url": "https://navar-abyari.ir/barley-planting-depth-light-heavy-soils/",
+    "brief_sha256": "cd8aaa1e2ce7d09f46ee2e2d438cef93e3350471a06058c2eab6cd2fdd5a2903",
+    "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+    "image_sha256": {
+      "1": "e7bae2b9ef74c9b0702da4ac91afa1deabf2dca9d7c123fc2ea0a4af0e46d65e"
+    },
+    "image_slot": "AGNES_API_KEY8",
+    "image_model": "agnes-image-2.5-flash",
+    "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+    "public_verified": true,
+    "global_rollout_released": false,
+    "schedule_enabled": false,
+    "original_attempts_reset": false
+  }
+}

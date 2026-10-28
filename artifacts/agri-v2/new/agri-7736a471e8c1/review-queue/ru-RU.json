@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "topic_id": "agri-7736a471e8c1",
+  "title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+  "language": "ru-RU",
+  "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+  "status": "reconciliation_required",
+  "reason": "uncertain_provider_response",
+  "attempts": 1,
+  "model_calls_spent": 1,
+  "next_attempt_at": null,
+  "history": [
+    {
+      "event": "reserved",
+      "attempt": 1,
+      "max_calls": 4,
+      "at": "2026-10-28T04:15:55.331032+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 1,
+      "reserved_model_calls": 1,
+      "status": "reconciliation_required",
+      "at": "2026-10-28T04:18:55.453374+00:00"
+    }
+  ],
+  "created_at": "2026-10-28T04:15:55.326134+00:00",
+  "experimental_only": false,
+  "publication_authorized_by_queue": false,
+  "last_started_at": "2026-10-28T04:15:55.331028+00:00",
+  "last_failure": {
+    "kind": "text_provider",
+    "category": "network_or_timeout"
+  },
+  "primary_finished": true
+}

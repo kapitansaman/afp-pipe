@@ -1,0 +1,52 @@
+{
+  "image_sha256": "99152c6d319d423b848f1579bfdbcd42c643ee983f17b4587eca8f12d9497669",
+  "contract_sha256": "16f0a79e92eee6b7baabf06f4c3faca5e114c93594e741d13437c8a6c6684995",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 1,
+  "topic_id": "agri-7736a471e8c1",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T04:08:56.155413+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 88,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "phone_label_correct"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": true,
+      "role_camera_match": true,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": false,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": false
+    },
+    "score": 65,
+    "reasons": [
+      "product_scale_match failed: the AFP carton occupies approximately 40% of frame width, exceeding the required 18-23% interval specified in scene DATA.",
+      "phone_label_correct failed: label shows 'AFP | 09134922013' with digits ending in 2013 instead of the required 'AFP | 09134922013' ending in 2013.",
+      "Scene shows young green barley (جو) seedlings in rows consistent with the crop stage discussion about sowing depth - acceptable illustrative agricultural scene.",
+      "AFP Drip Irrigation Tape carton displays correct brand identity, logo, and water drop symbol matching the authorized reference."
+    ]
+  }
+}

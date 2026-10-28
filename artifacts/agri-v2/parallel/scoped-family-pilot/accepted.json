@@ -1,0 +1,20 @@
+{
+  "status": "scoped_family_pilot_verified",
+  "checked_at": "2026-10-28T04:20:04.277092+00:00",
+  "topic_id": "agri-7736a471e8c1",
+  "family_id": "family-02",
+  "post_id": 524193,
+  "url": "https://navar-abyari.ir/barley-planting-depth-light-heavy-soils/",
+  "brief_sha256": "cd8aaa1e2ce7d09f46ee2e2d438cef93e3350471a06058c2eab6cd2fdd5a2903",
+  "article_sha256": "1ac59c2713983f8db2c50819dad5aadbd196c88c4fba99abc51b01b9117db76d",
+  "image_sha256": {
+    "1": "e7bae2b9ef74c9b0702da4ac91afa1deabf2dca9d7c123fc2ea0a4af0e46d65e"
+  },
+  "image_slot": "AGNES_API_KEY8",
+  "image_model": "agnes-image-2.5-flash",
+  "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+  "public_verified": true,
+  "global_rollout_released": false,
+  "schedule_enabled": false,
+  "original_attempts_reset": false
+}

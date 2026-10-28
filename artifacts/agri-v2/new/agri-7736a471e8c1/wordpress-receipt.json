@@ -1,0 +1,50 @@
+{
+  "topic_id": "agri-7736a471e8c1",
+  "media": [
+    {
+      "index": 1,
+      "id": 524194,
+      "url": "https://navar-abyari.ir/wp-content/uploads/agri-7736a471e8c1-image-1.webp"
+    }
+  ],
+  "status": "published",
+  "display_units_policy": "localized-display-units-v1",
+  "display_locale": "fa-IR",
+  "commercial_matrix": {
+    "version": "search-to-drip-content-matrix-v1",
+    "topic_id": "agri-7736a471e8c1",
+    "canonical_title": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+    "crop": "جو",
+    "intent": "depth",
+    "reader_question": "عمق کاشت بذر جو در خاک سبک و سنگین؛ خطاهای رایج",
+    "reader_task": [
+      "شرایط و تعریف کشت",
+      "شواهد استقرار",
+      "پایش و تصمیم‌گیری",
+      "خطاها و محدودیت انتقال"
+    ],
+    "business_goal": "Answer the searcher first, then guide a relevant irrigation decision toward actual site drip-tape pages; this is not an encyclopedia or a product advertisement substituted for an answer.",
+    "irrigation_relationship": "conditional",
+    "bridge_fact_ids": [],
+    "cta_mode": "none",
+    "bridge_requirement": "Integrate only approved irrigation-related facts naturally into the practical answer. No invented causal link from irrigation to yield, quality, disease or profitability. If the exact title is distant or the required evidence is absent, do not force a product bridge.",
+    "product_scope": "Existing reviewed drip-tape landing/category pages only. No invented model, price, availability, discount, specification or guaranteed water saving/yield improvement.",
+    "cta_rule": "Invitation to inspect suitable options, not an endorsement or field prescription. The site renderer adds verified internal links separately; model must not invent product links.",
+    "search_demand_status": "unknown_not_an_exact_match_in_limited_export",
+    "content_gap_status": "requires_actual_existing_content_audit",
+    "queue_action": "retain_canonical_title",
+    "publication_authorized": false
+  },
+  "selected_image_roles": [
+    1
+  ],
+  "post_id": 524193,
+  "image_layout": "single-approved-featured-v2",
+  "internal_links_policy": "agri-internal-links-v1",
+  "url": "https://navar-abyari.ir/barley-planting-depth-light-heavy-soils/",
+  "published_at": "2026-10-28T04:19:51.540822+00:00",
+  "public_http_status": 200,
+  "verified_at": "2026-10-28T04:20:04.276137+00:00",
+  "featured_media": 524194,
+  "public_verified": true
+}

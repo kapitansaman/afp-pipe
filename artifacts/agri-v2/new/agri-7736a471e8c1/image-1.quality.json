@@ -1,0 +1,49 @@
+{
+  "image_sha256": "e7bae2b9ef74c9b0702da4ac91afa1deabf2dca9d7c123fc2ea0a4af0e46d65e",
+  "contract_sha256": "16f0a79e92eee6b7baabf06f4c3faca5e114c93594e741d13437c8a6c6684995",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 1,
+  "topic_id": "agri-7736a471e8c1",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T04:10:15.846064+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 95,
+      "minimum_score": 70,
+      "accepted": true,
+      "critical_failures": [],
+      "manual_monitoring_required": false
+    },
+    "passed": true,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": true,
+      "role_camera_match": false,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 82,
+    "reasons": [
+      "role_camera_match is false: role=1 calls for an elevated wide overview, but the actual camera angle is near-ground level looking across the carton and adjacent barley plants, not a high-angle field overview.",
+      "All critical checks pass: hardware absent (hardware_required=false), AFP carton identity matches reference (white-blue branding, same logo and 'Drip Irrigation Tape' text), crop shows barley (جو) seedlings/yellowing panicles consistent with the cultivation scene, single intact carton, package sits on soil with no pipe through its core, no protruding strap or ribbon, physically plausible geometry with natural shadows, phone label reads 'AFP | 09134922013' at lower right, no added text beyond auth",
+      "Product scale fits the 0.18–0.23 frame-width range; carton is fully in frame with modest edge crop that does not compromise identity verification."
+    ]
+  }
+}

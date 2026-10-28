@@ -1,0 +1,55 @@
+{
+  "image_sha256": "caf5a654ef86cbb4bd032e464f2d8644b4375e43cfcbaed0c22dc8fe5811c140",
+  "contract_sha256": "1e80b21655a0c72612e35684e6bfe9836d0405b714b964bd1113f2942b934a4f",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-7736a471e8c1",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T04:11:38.226684+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "reviewed",
+  "no_auto_regeneration": true,
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 86,
+      "minimum_score": 70,
+      "accepted": false,
+      "critical_failures": [
+        "crop_stage_match",
+        "topic_evidence_match"
+      ],
+      "manual_monitoring_required": false
+    },
+    "passed": false,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": false,
+      "role_camera_match": true,
+      "topic_evidence_match": false,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 48,
+    "reasons": [
+      "Crop_stage_match FAILED: The named crop is جو (barley/Hordeum vulgare), but the plants shown have broad, lanceolate leaves inconsistent with barley seedling morphology. Barley seedlings have narrow grass-like leaves; these broad leaves resemble a completely different species, constituting a biologically incorrect crop substitution.",
+      "Topic_evidence_match FAILED: Because the illustrated plants are not barley, the image presents a materially false visual claim for an article specifically about barley planting depth. An agricultural illustration misidentifying the featured crop cannot be considered topically credible regardless of other scene elements being present.",
+      "Product_identity_match PASSED: The secondary AFP carton displays the correct branded packaging with matching blue water-drop logo and 'AFP Drip Irrigation Tape' text consistent with the authorized product identity.",
+      "Hardware checks PASSED: hardware_required is false; no filter or pressurized assembly is present, so no invented hardware violation occurs.",
+      "Packaging integrity PASSED: Single white-blue carton, fully closed with no protruding ribbon/strap/tape; placed on soil with a clear gap from the drip tape lateral running nearby.",
+      "Phone label correct: Bottom-right label reads 'AFP | 09134922013' as required."
+    ]
+  }
+}

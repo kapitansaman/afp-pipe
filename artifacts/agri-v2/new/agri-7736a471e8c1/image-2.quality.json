@@ -1,0 +1,16 @@
+{
+  "image_sha256": "d242071cc000b2d62dd9f8217561ddce3d729132fc6d0cd5da400fc3673f148c",
+  "contract_sha256": "1e80b21655a0c72612e35684e6bfe9836d0405b714b964bd1113f2942b934a4f",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-7736a471e8c1",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "checked_at": "2026-10-28T04:15:39.386817+00:00",
+  "reviewer": "automated_multimodal_model",
+  "human_review_claimed": false,
+  "status": "review_unavailable",
+  "no_auto_regeneration": true,
+  "error_type": "ImageQualityError"
+}
