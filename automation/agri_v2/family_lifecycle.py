@@ -328,7 +328,7 @@ def worker(topic,health,data=DATA,out=OUT,env=None,client_factory=LifecycleClien
   if real_search:
    from .source_search import require as require_search,SearchConnectionRequired
    try:require_search(env)
-   except SearchConnectionRequired:return {'status':'capability_required','kind':'source_search','reason':'brave_search_connection_required','stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
+   except SearchConnectionRequired:return {'status':'capability_required','kind':'source_search','reason':'tavily_search_connection_required','stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
   no_model=stage in ('research_sources','research_validate_saved','existing_content_audit_finalize') or stage=='research_refetch' and not real_search
   from .recovery import circuit_open
   if not no_model and circuit_open(kind):return {'status':'stage_deferred','reason':'provider_cooldown','kind':kind,'stage':stage,'topic_id':topic['id'],'steps':steps,'published_posts':0}
