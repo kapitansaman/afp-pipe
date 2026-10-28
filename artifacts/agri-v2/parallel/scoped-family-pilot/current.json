@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "topic_id": "agri-7736a471e8c1",
+  "family_id": "family-02",
+  "title_sha256": "3bed9c87685484bb0b13a7774f8a4d580dc583576fc1c5b356579d32179baeed",
+  "brief_sha256": "cd8aaa1e2ce7d09f46ee2e2d438cef93e3350471a06058c2eab6cd2fdd5a2903",
+  "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+  "publication_scope": "one_owned_family_existing_gates",
+  "original_attempts_reset": false,
+  "selected_at": "2026-10-28T02:22:30.028193+00:00"
+}
