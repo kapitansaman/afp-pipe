@@ -5,18 +5,9 @@ on:
   pull_request:
     branches: [feat/agri-generator-v2-2905-merge593]
     paths:
-      - automation/agri_v2/practical_drafting.py
-      - automation/agri_v2/failure_diagnostics.py
-      - tests/agri_v2/run_offline.py
-      - tests/agri_v2/test_offline_runner_isolation.py
+      - automation/agri_v2/**
+      - tests/agri_v2/**
       - .github/workflows/afp-parallel-generator.yml
-      - automation/agri_v2/review_contract.py
-      - automation/agri_v2/quality_index.py
-      - automation/agri_v2/scoped_research.py
-      - tests/agri_v2/test_review_contract.py
-      - automation/agri_v2/numeric_drafting_contract.py
-      - tests/agri_v2/test_numeric_drafting_contract.py
-      - tests/agri_v2/test_owned_drafting_identity.py
       - .github/workflows/afp-owned-drafting-offline.yml
 permissions:
   contents: read
