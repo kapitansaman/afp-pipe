@@ -1,0 +1,29 @@
+{
+  "policy": "publishable-quality-v1",
+  "score": 85,
+  "minimum_score": 70,
+  "accepted": true,
+  "minimum_source_fidelity": 15,
+  "dimensions": {
+    "answer_usefulness": 20,
+    "source_fidelity": 26,
+    "readability": 15,
+    "commercial_fit": 10,
+    "language_and_units": 14
+  },
+  "critical_issues": [],
+  "warnings": [
+    "answer_usefulness",
+    "source_fidelity",
+    "readability",
+    "language_and_units"
+  ],
+  "human_review_claimed": false,
+  "reason": "مقاله پرسش کاربر را مستقیماً پاسخ می‌دهد: به جای ارائه موعد ثابت، معیارهای سطح خاک و رطوبت ناحیه ریشه را تفکیک کرده و پایش را شرح می‌دهد. تمام ادعاها به منبع کانزاس پیوند خورده‌اند و محدودیت جغرافیایی و عدم تعمیم به ایران بارها تصریح شده است. هیچ کد بحرانی‌ای وجود ندارد؛ تکرار نسبت‌به محدودیت‌ها و عناوین تکراری جدول از نظر خوانایی کسر امتیاز جزئی دارند اما ایراد مادی نیستند.",
+  "topic_id": "agri-6fc1032cdf42",
+  "article_sha256": "4e6f384091c632445773de42299d05d48c2f350a11b42b0ddbc2f94e3ab6708c",
+  "brief_sha256": "c69753e250a52df908aebc112c16871052005638419cc4998d3c9d0246dc8b03",
+  "status": "accepted",
+  "max_auto_repairs": 1,
+  "updated_at": "2026-10-29T01:51:06.277304+00:00"
+}

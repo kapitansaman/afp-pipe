@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "strategy": "practical-direct-html-v1",
+  "raw_sha256": "05fce29f2c216463de57264b718699311800767d5171fe1ea39db0c468878f1e",
+  "article_sha256": "4e6f384091c632445773de42299d05d48c2f350a11b42b0ddbc2f94e3ab6708c",
+  "format_repairs": [],
+  "warnings": [
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 47
+    }
+  ],
+  "final_independent_evidence_review_required": true,
+  "claims_added_by_normalizer": false
+}

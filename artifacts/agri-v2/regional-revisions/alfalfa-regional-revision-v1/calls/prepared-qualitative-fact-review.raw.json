@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "no_unsafe_input_rates": true,
+  "source_policy_satisfied": true,
+  "source_policy_version": "university-single-source-v1",
+  "human_review_claimed": false,
+  "limitations": "منابع رسمی ایران فاقد معیارهای کیفی پیش‌برداشت (مرحله رشد، نشانه‌های وزنی/ریختی، شرایط خاک) برای قطع یا کاهش آبیاری یونجه هستند. گزارش‌های داخلی صرفاً حجم آب مصرفی، عملکرد و بهره‌وری را ثبت کرده‌اند. معیارهای فنی ارائه‌شده بر اساس راهنمای ترویجی کانزاس (ایالات متحده) هستند و به اقلیم، خاک و سامانه آبیاری ایران تعمیم داده نمی‌شوند.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": true,
+  "regional_research_version": "regional-official-research-v1",
+  "regional_sources_prioritized": true,
+  "international_transfer_limits_retained": true,
+  "regional_source_gap": "دو منبع پژوهشی ایرانی (سازمان تحقیقات کشاورزی و مجله علوم و فناوری هسته‌ای کشاورزی) جستجو و ارزیابی شدند. هر دو صرفاً به حجم آب آبیاری، عملکرد و بهره‌وری آب در مزارع مختلف پرداخته‌اند و هیچ‌یک معیار رشد، مرحله بوته‌ای، نشانه‌های وزنی/ریختی گیاه، شرایط رطوبتی خاک یا آستانه تصمیم‌گیری پیش از برداشت را ارائه نداده‌اند. بنابراین شکاف دقیقاً در زمینه معیارهای کیفی تصمیم‌گیری پیش از برداشت است و منبع بین‌المللی کانزاس (MF2868) با حفظ حدود جغرافیایی به عنوان منبع جایگزین استفاده شد."
+}

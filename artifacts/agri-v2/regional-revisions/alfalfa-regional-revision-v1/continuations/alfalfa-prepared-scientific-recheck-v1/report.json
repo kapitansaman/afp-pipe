@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-prepared-scientific-recheck-v1",
+  "run_id": "40802676826",
+  "status": "revision_needs_attention",
+  "started_at": "2026-10-29T01:50:35.569671+00:00",
+  "publication_authorized": false,
+  "post_mutations": 0,
+  "new_posts": 0,
+  "search_requests": 0,
+  "original_attempts_reset": false,
+  "proposal_sha256": "d17615a1348ffbfa06f284ea5ac69cd0f0cf64578d2cac2ba57ef615f2835560",
+  "prior_report_sha256": "e881465ce9e41de3248a82a0000af74771d35e92b95fe17fee8a1816554a217f",
+  "failure": {
+    "kind": "validation",
+    "category": "regional_applicability_not_approved"
+  },
+  "model_calls": 3,
+  "total_revision_receipts": 8,
+  "completed_at": "2026-10-29T01:51:27.628847+00:00"
+}

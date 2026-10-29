@@ -1,0 +1,55 @@
+{
+  "applicable": false,
+  "no_unsupported_local_prescription": true,
+  "country_limits_retained": true,
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "document_id": "s2",
+      "quote": "A firm, dry surface is best for harvest traffic and field-drying of hay. Also, because watering immediately after harvest stimulates the germination and growth of surface-germinated weeds it should be avoided when possible unless subsurface drip ir- rigation (SDI) systems are in use, which do not wet the soil surface during irrigation.",
+      "source_kind": "technical_publication",
+      "country": "US",
+      "scope": "Kansas State University irrigation guide for alfalfa; dry surface for harvest traffic and field drying; no fixed Iran rate prescribed",
+      "international_fallback": false,
+      "local_evidence_gap": "مقاله ایرانی s0 حجم آب و بهرهوری کشوری را گزارش میکند اما موعد قطع آب پیش از برداشت را تعیین نمی‌کند؛ شواهد بومی مستقل برای ایران در دسترس نیست",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "document_id": "s2",
+      "quote": "Alfalfa is sensitive to water stress at the time of harvest, and rapid re-growth depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth.",
+      "source_kind": "technical_publication",
+      "country": "US",
+      "scope": "Kansas State University alfalfa irrigation timing guidance; emphasizes soil-water dependence for regrowth, not Iran calendar",
+      "international_fallback": false,
+      "local_evidence_gap": "شواهد bومی مستقل ایران درباره وابستگی رویش مجدد پس از برداشت به رطوبت خاک ارائه نشده است",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "document_id": "s2",
+      "quote": "An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing.",
+      "source_kind": "technical_publication",
+      "country": "US",
+      "scope": "K-State scheduling methodology; root-zone measurement methods described, not fixed Iranian root depth or irrigation threshold",
+      "international_fallback": false,
+      "local_evidence_gap": "عمق ریشه مدیریت‌شده و آستانه رطوبت ثابت برای مزارع ایران تعیین نشده است",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "document_id": "s2",
+      "quote": "Measurement accuracy depends on the frequency, number, and location of measure- ments, though. Soil-water measur- ing equipment must be monitored frequently – at least twice a week at mid-season – and measurement",
+      "source_kind": "technical_publication",
+      "country": "US",
+      "scope": "K-State guidance on scheduling measurement design; explains importance of monitoring frequency and placement without prescribing Iran-fixed intervals",
+      "international_fallback": false,
+      "local_evidence_gap": "فاصله زمانی ثابت نمونه‌برداری و تعداد نمونه مشخص برای ایران تجویز نشده است",
+      "transfer_limits_retained": true
+    }
+  ]
+}
