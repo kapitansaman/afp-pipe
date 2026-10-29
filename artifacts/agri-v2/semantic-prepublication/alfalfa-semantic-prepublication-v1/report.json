@@ -1,0 +1,24 @@
+{
+  "request_id": "alfalfa-semantic-prepublication-v1",
+  "run_id": "40822086693",
+  "status": "semantic_prepublication_blocked",
+  "started_at": "2026-10-29T05:14:24.598370+00:00",
+  "max_model_calls": 12,
+  "publication_authorized": false,
+  "post_mutations": 0,
+  "new_posts": 0,
+  "new_images": 0,
+  "search_requests": 0,
+  "original_attempts_reset": false,
+  "source_article_sha256": "4e6f384091c632445773de42299d05d48c2f350a11b42b0ddbc2f94e3ab6708c",
+  "source_brief_sha256": "17d92a21df40865a91b55d82e6cb5cfc8936a6e8a69748a6cdcf28f9aebac857",
+  "protected_sha256": "c37d0dfc7bffea3285ca58acf0eeebb45e5328e4f95763cf42097b7cda4b2bb3",
+  "failure": {
+    "kind": "semantic_gate",
+    "category": "semantic_overlap_or_visual_review_not_approved"
+  },
+  "model_calls": 7,
+  "review_receipts": 7,
+  "originals_unchanged": true,
+  "completed_at": "2026-10-29T05:15:59.466907+00:00"
+}

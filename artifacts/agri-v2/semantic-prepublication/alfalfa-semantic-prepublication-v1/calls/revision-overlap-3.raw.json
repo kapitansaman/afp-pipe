@@ -1,0 +1,48 @@
+{
+  "article_checks": [
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 510204,
+      "existing_quote_id": "510204:4",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 510204 focuses on drip emitter vs. drip tape technical comparison for alfalfa planting — emitter spacing, clogging risk, and installation costs — with no discussion of pre-harvest irrigation timing, soil-surface firmness criteria, or root-zone moisture monitoring. The corrected article 524204 addresses when to stop irrigation before cutting alfalfa and distinguishes surface conditions from root-zone moisture; these are fundamentally different intent domains."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 510508,
+      "existing_quote_id": "510508:5",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 510508 discusses drip-tape installation prerequisites including pipe diameter, flow-rate calculation, soil preparation, and fertigation timing windows, but does not address the pre-harvest irrigation-cutoff question or the distinction between surface-traffic soil firmness and root-zone moisture status required for regrowth. The topics are complementary yet semantically disjoint."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 510516,
+      "existing_quote_id": "510516:3",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 510516 explains rotational irrigation scheduling, zone division, and wilt-point thresholds for active growth cycles. It never addresses pre-harvest water cessation, surface-soil-firmness evaluation for equipment access, or the KSU extension criteria that form the corrected article's evidentiary basis. The core decision question is absent."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 510608,
+      "existing_quote_id": "510608:3",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 510608 compares smart-drip and drip-tape systems using water-use-efficiency metrics and growth-stage management. It does not discuss pre-harvest irrigation timing, surface-traffic dryness thresholds, or root-zone moisture monitoring methodology for regrowth readiness, which are the central claims of the corrected article."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 510620,
+      "existing_quote_id": "510620:1",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 510620 examines leaching and nutrient runoff mechanics under drip irrigation, focusing on nitrate and potassium losses. It does not address pre-harvest water cutoff criteria, surface-traffic suitability, or root-zone moisture thresholds for alfalfa regrowth; the two articles share crop context but operate on entirely different agronomic questions."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 510800,
+      "existing_quote_id": "510800:3",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 510800 covers center-pivot and localized drip-tape cost optimization for alfalfa, including emitter spacing and salinity management. It contains no guidance on pre-harvest irrigation cessation timing, surface soil firmness for equipment passage, or root-zone moisture monitoring methodology, which form the corrected article's exclusive scope."
+    }
+  ],
+  "reason": "The corrected article 524204 addresses a single narrowly scoped pre-harvest decision — distinguishing surface soil firmness for equipment access from root-zone moisture status for alfalfa regrowth, citing a KSU extension guide, and explicitly refusing to export fixed dates or irrigation thresholds to Iranian conditions. None of the six existing articles (510204, 510508, 510516, 510608, 510620, 510800) provide the same core decision answer; they cover drip-tape versus emitter comparison, rotational scheduling, smart-irrigation efficiency, leaching mechanics, and center-pivot cost optimization respectively. No materially conflicting site instruction exists, and no consolidation is warranted. The overlap is limited to shared crop context (alfalfa irrigation) and system-adjacent vocabulary (soil moisture, drip/tape), which is expected for same-owner-domain content.",
+  "revision_overlap_acceptable": true
+}

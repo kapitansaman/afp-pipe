@@ -1,0 +1,213 @@
+{
+  "source_article_sha256": "4e6f384091c632445773de42299d05d48c2f350a11b42b0ddbc2f94e3ab6708c",
+  "bundle_sha256": "d0cf2929855ce799e3d5ca4d5e07a58f51f265723b93ac3191f4bc8acaf20786",
+  "batches": [
+    {
+      "article_checks": [
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 36774,
+          "existing_quote_id": "36774:2",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 36774 covers general irrigation management principles for maximizing alfalfa yield per hectare, mentioning drip tape efficiency. It does not address the specific pre-harvest irrigation timing decision, nor the distinction between surface soil conditions for equipment passage versus root zone moisture for regrowth."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 36984,
+          "existing_quote_id": "36984:5",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 36984 discusses dry fava bean cultivation and irrigation using drip tape. It is about a completely different crop and does not address alfalfa pre-harvest irrigation decisions or any overlapping core question."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 37490,
+          "existing_quote_id": "37490:2",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 37490 covers seeding rate recommendations for Hamadani alfalfa. It discusses soil type, climate, and seeding depth — topics in crop establishment — not pre-harvest irrigation timing or root zone moisture assessment."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 37495,
+          "existing_quote_id": "37495:1",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 37495 addresses optimal alfalfa seeding rate per hectare, covering seed quality, soil preparation, and planting depth. It does not discuss pre-harvest water management or the surface-vs-root-zone distinction central to this correction."
+        }
+      ],
+      "reason": "The corrected article addresses a narrowly scoped question — when to stop irrigation before alfalfa harvest — based on a single Kansas State University extension guide. None of the four reviewed existing articles answer this same pre-harvest irrigation timing question. Article 36774 covers general irrigation for yield optimization, not pre-harvest cutoff criteria. Articles 37490 and 37495 cover seeding rates. Article 36984 is about fava beans. No material duplication of the core decision answer exists, and no materially conflicting site instruction was found that requires consolidation or editorial override.",
+      "revision_overlap_acceptable": true
+    },
+    {
+      "article_checks": [
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 506754,
+          "existing_quote_id": "506754:0",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 506754 discusses pest and disease management via drip irrigation microclimate control. It does not address pre-harvest last-irrigation timing or the Kansas State University soil-surface-vs-root-zone distinction central to this correction."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 506778,
+          "existing_quote_id": "506778:0",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 506778 covers drip-tape maintenance, filtration, flushing, and emitter lifespan for alfalfa. No pre-harvest irrigation schedule or Kansas State University evidence is discussed."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 506814,
+          "existing_quote_id": "506814:2",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 506814 is a beet-cultivation guide; its pre-harvest water-stop guidance applies to beet root sugar concentration, not alfalfa regrowth or the KSU surface-vs-root-zone distinction."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 507294,
+          "existing_quote_id": "507294:2",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 507294 provides general drip-tape irrigation cycle advice (every 2–3 days) for growing alfalfa. It does not answer the pre-harvest cutoff question, nor does it cite Kansas State University or separate surface dryness from root-zone moisture."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 507578,
+          "existing_quote_id": "507578:0",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 507578 covers drip-tape spacing standards for alfalfa based on soil texture and wetting-cone geometry. It addresses layout design, not the final pre-harvest irrigation decision or KSU guidance."
+        }
+      ],
+      "reason": "The correction at 524204 is substantively distinct from all five existing articles. Existing pieces cover drip-tape maintenance (506778), spacing design (507578), general growing-cycle irrigation frequency (507294), pest/disease microclimate control (506754), and a beet-specific pre-harvest water-stop (506814). None of them answer the specific query about the final alfalfa irrigation before harvest, separate surface dryness for equipment passage from root-zone moisture needed for regrowth, or reference the Kansas State University extension guideline MF2868. There is no material duplication and no conflicting site instruction requiring consolidation.",
+      "revision_overlap_acceptable": true
+    },
+    {
+      "article_checks": [
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 507638,
+          "existing_quote_id": "507638:0",
+          "material_conflict_or_duplication": false,
+          "reason": "This article focuses on alfalfa seed amount per hectare, seeding density, and drip-tape spacing during planting. It provides no guidance on pre-harvest irrigation cutoff criteria, root-zone moisture assessment, or timing decisions before cutting, and therefore does not duplicate or conflict with the corrected article's core answer."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 509128,
+          "existing_quote_id": "509128:0",
+          "material_conflict_or_duplication": false,
+          "reason": "This article covers the economic analysis and cost breakdown of cultivating alfalfa with drip tape, including CAPEX, OPEX, drip-tape pricing, and maintenance costs. It does not address pre-harvest irrigation scheduling, root-zone moisture evaluation, or criteria for stopping water before harvest, so there is no substantive overlap with the corrected article."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 509284,
+          "existing_quote_id": "509284:0",
+          "material_conflict_or_duplication": false,
+          "reason": "This article provides a comprehensive guide on alfalfa planting with drip irrigation, covering soil preparation, salinity management, drip-tape selection, fertigation, and clog prevention. While it mentions post-cut irrigation timing briefly, it does not offer the corrected article's core distinction between surface conditions for equipment passage and root-zone moisture for regrowth, nor does it address pre-harvest cutoff criteria."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 509780,
+          "existing_quote_id": "509780:0",
+          "material_conflict_or_duplication": false,
+          "reason": "This article analyzes the costs of node (point-source) drip irrigation for alfalfa, covering emitter selection, filtration, pressure management, and fertigation. It does not discuss pre-harvest irrigation timing, root-zone moisture monitoring methods, or criteria for determining when to stop watering before harvest, making it substantively distinct from the corrected article."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 510008,
+          "existing_quote_id": "510008:0",
+          "material_conflict_or_duplication": false,
+          "reason": "This article examines the cost analysis of drip irrigation in alfalfa cultivation, focusing on CAPEX, OPEX, ROI, emitter flow rates, and system design trade-offs. It does not provide guidance on pre-harvest irrigation cutoff timing, root-zone moisture assessment, or the distinction between surface conditions and root moisture that forms the corrected article's central thesis."
+        }
+      ],
+      "reason": "No existing owned article answers the corrected article's core pre-harvest irrigation decision question. Articles 507638, 509128, 509284, 509780, and 510008 cover seed rate, cultivation cost, drip-irrigation planting guide, node-irrigation cost, and drip-irrigation cost analysis respectively; none provide pre-harvest irrigation cutoff criteria or the root-zone vs surface-condition distinction central to the corrected article. The overlap across these pieces is limited to alfalfa irrigation as a general topic, not the specific decision intent addressed here. No materially conflicting site instruction was found. The corrected article properly uses the KSU extension guide as its sole source, acknowledges the absence of Iran-specific evidence, and frames all claims within that source's actual scope.",
+      "revision_overlap_acceptable": true
+    },
+    {
+      "article_checks": [
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 510204,
+          "existing_quote_id": "510204:4",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 510204 focuses on drip emitter vs. drip tape technical comparison for alfalfa planting — emitter spacing, clogging risk, and installation costs — with no discussion of pre-harvest irrigation timing, soil-surface firmness criteria, or root-zone moisture monitoring. The corrected article 524204 addresses when to stop irrigation before cutting alfalfa and distinguishes surface conditions from root-zone moisture; these are fundamentally different intent domains."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 510508,
+          "existing_quote_id": "510508:5",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 510508 discusses drip-tape installation prerequisites including pipe diameter, flow-rate calculation, soil preparation, and fertigation timing windows, but does not address the pre-harvest irrigation-cutoff question or the distinction between surface-traffic soil firmness and root-zone moisture status required for regrowth. The topics are complementary yet semantically disjoint."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 510516,
+          "existing_quote_id": "510516:3",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 510516 explains rotational irrigation scheduling, zone division, and wilt-point thresholds for active growth cycles. It never addresses pre-harvest water cessation, surface-soil-firmness evaluation for equipment access, or the KSU extension criteria that form the corrected article's evidentiary basis. The core decision question is absent."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 510608,
+          "existing_quote_id": "510608:3",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 510608 compares smart-drip and drip-tape systems using water-use-efficiency metrics and growth-stage management. It does not discuss pre-harvest irrigation timing, surface-traffic dryness thresholds, or root-zone moisture monitoring methodology for regrowth readiness, which are the central claims of the corrected article."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 510620,
+          "existing_quote_id": "510620:1",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 510620 examines leaching and nutrient runoff mechanics under drip irrigation, focusing on nitrate and potassium losses. It does not address pre-harvest water cutoff criteria, surface-traffic suitability, or root-zone moisture thresholds for alfalfa regrowth; the two articles share crop context but operate on entirely different agronomic questions."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 510800,
+          "existing_quote_id": "510800:3",
+          "material_conflict_or_duplication": false,
+          "reason": "Article 510800 covers center-pivot and localized drip-tape cost optimization for alfalfa, including emitter spacing and salinity management. It contains no guidance on pre-harvest irrigation cessation timing, surface soil firmness for equipment passage, or root-zone moisture monitoring methodology, which form the corrected article's exclusive scope."
+        }
+      ],
+      "reason": "The corrected article 524204 addresses a single narrowly scoped pre-harvest decision — distinguishing surface soil firmness for equipment access from root-zone moisture status for alfalfa regrowth, citing a KSU extension guide, and explicitly refusing to export fixed dates or irrigation thresholds to Iranian conditions. None of the six existing articles (510204, 510508, 510516, 510608, 510620, 510800) provide the same core decision answer; they cover drip-tape versus emitter comparison, rotational scheduling, smart-irrigation efficiency, leaching mechanics, and center-pivot cost optimization respectively. No materially conflicting site instruction exists, and no consolidation is warranted. The overlap is limited to shared crop context (alfalfa irrigation) and system-adjacent vocabulary (soil moisture, drip/tape), which is expected for same-owner-domain content.",
+      "revision_overlap_acceptable": true
+    },
+    {
+      "article_checks": [
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 510992,
+          "existing_quote_id": "510992:3",
+          "material_conflict_or_duplication": false,
+          "reason": "This article covers sprinkler irrigation prerequisites for alfalfa (soil analysis, nozzle selection, uniform coverage, timing of irrigation during cool hours). It does not address pre-harvest irrigation cutoff criteria, root-zone versus surface-soil distinction, or KSU guidance on equipment-passability thresholds."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 511224,
+          "existing_quote_id": "511224:5",
+          "material_conflict_or_duplication": false,
+          "reason": "This article discusses moisture/drip-irrigation challenges including root sensitivity to temporary saturation, drip-tape physical vulnerability, and ETc-based scheduling via soil-moisture sensors and weather stations. It does not provide pre-harvest cutoff criteria, the surface-soil vs root-zone distinction, or the KSU extension source cited in the correction."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 511344,
+          "existing_quote_id": "511344:7",
+          "material_conflict_or_duplication": false,
+          "reason": "This article focuses on cluster (گره‌ای) irrigation challenges: pressure imbalance, emitter clogging, island-effect root stress, and salinity management. It recommends 30–40 cm emitter spacing and multi-stage filtration. No pre-harvest irrigation timing or KSU guidance is present."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 511944,
+          "existing_quote_id": "511944:1",
+          "material_conflict_or_duplication": false,
+          "reason": "This article covers drip irrigation with emitters for alfalfa, including emitter flow-rate selection (2–4 L/h), spacing by soil texture, pressure range (1–2 bar), and fertigation. It does not address pre-harvest water cessation criteria, surface-passability thresholds, or the KSU source."
+        },
+        {
+          "already_answers_same_core_intent": false,
+          "article_id": 511964,
+          "existing_quote_id": "511964:1",
+          "material_conflict_or_duplication": false,
+          "reason": "This article discusses regulated deficit irrigation (RDI/خرسابی) for alfalfa, emphasizing soil-moisture monitoring and physiological-stress signaling. While it mentions timing and soil-moisture measurement as part of RDI strategy, it does not provide the pre-harvest surface-vs-root-zone distinction or the specific KSU extension guidance that constitutes the core answer of the corrected article."
+        }
+      ],
+      "reason": "The corrected article’s core answer — that pre-harvest alfalfa irrigation cutoff should be determined by distinguishing surface-soil conditions (firm and dry for equipment passage) from root-zone moisture (needed for regrowth), with soil-moisture monitoring via probes or sensors, as documented in the KSU extension manual MF2868 — is not answered by any existing article. The five reviewed articles cover different irrigation-system types ( sprinkler, drip, cluster, deficit) and different technical topics (pressure management, clogging, salinity, emitter selection, uniformity). None duplicates the correction’s central distinction between harvest-surface firmness and root-zone regrowth moisture, nor cite the KSU source. Partial subject overlap (alfalfa + irrigation) is expected; no true material duplication of the pre-harvest decision core was found. The revision is acceptable.",
+      "revision_overlap_acceptable": true
+    }
+  ],
+  "revision_overlap_acceptable": true,
+  "publication_authorized": false
+}

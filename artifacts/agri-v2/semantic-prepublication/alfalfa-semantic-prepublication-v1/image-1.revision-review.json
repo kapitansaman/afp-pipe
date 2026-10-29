@@ -1,0 +1,46 @@
+{
+  "image_sha256": "154d618e2971c17746d467dc426d27efa07c2026174e16f0a7bbbf61c8ed30e7",
+  "contract_sha256": "c9b084d629482f15705a111370fd7e6123be0bde495fc468b6da94f8864ad1f2",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 1,
+  "topic_id": "agri-6fc1032cdf42",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "source_article_sha256": "4e6f384091c632445773de42299d05d48c2f350a11b42b0ddbc2f94e3ab6708c",
+  "checked_at": "2026-10-29T05:15:51.799647+00:00",
+  "reviewer": "fresh_automated_multimodal_review",
+  "human_review_claimed": false,
+  "raw": {
+    "botanical_reason": "Visible crops show small paired/simple green leaves along stems, not the characteristic trifoliate leaflets (three oblong leaflets, coarsely serrated near distal end) of Medicago sativa. No compound leaves, no typical alfalfa leaflet morphology evident in the row crop.",
+    "checks": {
+      "crop_stage_match": false,
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "no_added_text": true,
+      "no_people": true,
+      "package_separate_from_plumbing": true,
+      "packaging_closed_no_protruding_material": true,
+      "phone_label_correct": false,
+      "physical_geometry_plausible": true,
+      "product_fully_in_frame": true,
+      "product_identity_match": true,
+      "product_scale_match": true,
+      "role_camera_match": false,
+      "single_product": true,
+      "topic_evidence_match": false
+    },
+    "crop_identity_confident": false,
+    "reasons": [
+      "Leaf morphology in the row crop does not display alfalfa's trifoliate leaflets; leaves appear simple/paired with different venation and margin pattern.",
+      "AFP package shown is irrigation-tape product imagery, not crop-state evidence; no field documentation of pre-harvest alfalfa visible.",
+      "Watermark 'AFP | 09134922013' format is non-standard; no verified AFP news-agency provenance for agricultural scene.",
+      "Image composition suggests staged product placement rather than documentary field photography of alfalfa irrigation management."
+    ],
+    "score": 0,
+    "supports_revised_article_as_illustration": true
+  },
+  "publication_authorized": false,
+  "status": "rejected_or_uncertain",
+  "approved": false
+}

@@ -1,0 +1,34 @@
+{
+  "article_checks": [
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 36774,
+      "existing_quote_id": "36774:2",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 36774 covers general irrigation management principles for maximizing alfalfa yield per hectare, mentioning drip tape efficiency. It does not address the specific pre-harvest irrigation timing decision, nor the distinction between surface soil conditions for equipment passage versus root zone moisture for regrowth."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 36984,
+      "existing_quote_id": "36984:5",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 36984 discusses dry fava bean cultivation and irrigation using drip tape. It is about a completely different crop and does not address alfalfa pre-harvest irrigation decisions or any overlapping core question."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 37490,
+      "existing_quote_id": "37490:2",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 37490 covers seeding rate recommendations for Hamadani alfalfa. It discusses soil type, climate, and seeding depth — topics in crop establishment — not pre-harvest irrigation timing or root zone moisture assessment."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 37495,
+      "existing_quote_id": "37495:1",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 37495 addresses optimal alfalfa seeding rate per hectare, covering seed quality, soil preparation, and planting depth. It does not discuss pre-harvest water management or the surface-vs-root-zone distinction central to this correction."
+    }
+  ],
+  "reason": "The corrected article addresses a narrowly scoped question — when to stop irrigation before alfalfa harvest — based on a single Kansas State University extension guide. None of the four reviewed existing articles answer this same pre-harvest irrigation timing question. Article 36774 covers general irrigation for yield optimization, not pre-harvest cutoff criteria. Articles 37490 and 37495 cover seeding rates. Article 36984 is about fava beans. No material duplication of the core decision answer exists, and no materially conflicting site instruction was found that requires consolidation or editorial override.",
+  "revision_overlap_acceptable": true
+}

@@ -1,0 +1,41 @@
+{
+  "article_checks": [
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 507638,
+      "existing_quote_id": "507638:0",
+      "material_conflict_or_duplication": false,
+      "reason": "This article focuses on alfalfa seed amount per hectare, seeding density, and drip-tape spacing during planting. It provides no guidance on pre-harvest irrigation cutoff criteria, root-zone moisture assessment, or timing decisions before cutting, and therefore does not duplicate or conflict with the corrected article's core answer."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 509128,
+      "existing_quote_id": "509128:0",
+      "material_conflict_or_duplication": false,
+      "reason": "This article covers the economic analysis and cost breakdown of cultivating alfalfa with drip tape, including CAPEX, OPEX, drip-tape pricing, and maintenance costs. It does not address pre-harvest irrigation scheduling, root-zone moisture evaluation, or criteria for stopping water before harvest, so there is no substantive overlap with the corrected article."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 509284,
+      "existing_quote_id": "509284:0",
+      "material_conflict_or_duplication": false,
+      "reason": "This article provides a comprehensive guide on alfalfa planting with drip irrigation, covering soil preparation, salinity management, drip-tape selection, fertigation, and clog prevention. While it mentions post-cut irrigation timing briefly, it does not offer the corrected article's core distinction between surface conditions for equipment passage and root-zone moisture for regrowth, nor does it address pre-harvest cutoff criteria."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 509780,
+      "existing_quote_id": "509780:0",
+      "material_conflict_or_duplication": false,
+      "reason": "This article analyzes the costs of node (point-source) drip irrigation for alfalfa, covering emitter selection, filtration, pressure management, and fertigation. It does not discuss pre-harvest irrigation timing, root-zone moisture monitoring methods, or criteria for determining when to stop watering before harvest, making it substantively distinct from the corrected article."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 510008,
+      "existing_quote_id": "510008:0",
+      "material_conflict_or_duplication": false,
+      "reason": "This article examines the cost analysis of drip irrigation in alfalfa cultivation, focusing on CAPEX, OPEX, ROI, emitter flow rates, and system design trade-offs. It does not provide guidance on pre-harvest irrigation cutoff timing, root-zone moisture assessment, or the distinction between surface conditions and root moisture that forms the corrected article's central thesis."
+    }
+  ],
+  "reason": "No existing owned article answers the corrected article's core pre-harvest irrigation decision question. Articles 507638, 509128, 509284, 509780, and 510008 cover seed rate, cultivation cost, drip-irrigation planting guide, node-irrigation cost, and drip-irrigation cost analysis respectively; none provide pre-harvest irrigation cutoff criteria or the root-zone vs surface-condition distinction central to the corrected article. The overlap across these pieces is limited to alfalfa irrigation as a general topic, not the specific decision intent addressed here. No materially conflicting site instruction was found. The corrected article properly uses the KSU extension guide as its sole source, acknowledges the absence of Iran-specific evidence, and frames all claims within that source's actual scope.",
+  "revision_overlap_acceptable": true
+}

@@ -1,0 +1,74 @@
+{
+  "image_sha256": "dc798226e569ba7e3d6f8802769dd390e7bda1de303235021366ff2d9fb4fcdd",
+  "contract_sha256": "89cde0f485708ff0649f99007b16ca7378674db4c8a204e4f3a27e233ee6f4e3",
+  "reference_sha256": "935f7f6f5e358fa36838db6d8945780d91bd9f2ad6acaee9b38b897fcc08d8b0",
+  "policy": "agri-topic-scene-aghala-v6-topic-routed",
+  "role": 2,
+  "topic_id": "agri-6fc1032cdf42",
+  "review_model": "agnes-2.5-flash",
+  "review_policy": "agri-vision-qa-v12-critical-checks",
+  "source_article_sha256": "4e6f384091c632445773de42299d05d48c2f350a11b42b0ddbc2f94e3ab6708c",
+  "checked_at": "2026-10-29T05:15:59.450484+00:00",
+  "reviewer": "fresh_automated_multimodal_review",
+  "human_review_claimed": false,
+  "raw": {
+    "botanical_reason": "Trifoliate leaflets, oblong shape, serrated near distal end – consistent with Medicago sativa (alfalfa). Green vigorous foliage in field rows.",
+    "checks": {
+      "crop_stage_match": true,
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "no_added_text": true,
+      "no_people": true,
+      "package_separate_from_plumbing": true,
+      "packaging_closed_no_protruding_material": true,
+      "phone_label_correct": true,
+      "physical_geometry_plausible": true,
+      "product_fully_in_frame": true,
+      "product_identity_match": true,
+      "product_scale_match": true,
+      "role_camera_match": true,
+      "single_product": true,
+      "topic_evidence_match": true
+    },
+    "crop_identity_confident": true,
+    "reasons": [
+      "Field shows alfalfa plants with drip irrigation tape product roll placed adjacent – relevant to preharvest irrigation topic."
+    ],
+    "score": 1,
+    "supports_revised_article_as_illustration": true
+  },
+  "publication_authorized": false,
+  "status": "reviewed",
+  "verdict": {
+    "quality_index": {
+      "policy": "publishable-quality-v1",
+      "score": 100,
+      "minimum_score": 70,
+      "accepted": true,
+      "critical_failures": [],
+      "manual_monitoring_required": false
+    },
+    "passed": true,
+    "checks": {
+      "hardware_identity_match": true,
+      "hardware_sealed_all_ports_connected": true,
+      "crop_stage_match": true,
+      "role_camera_match": true,
+      "topic_evidence_match": true,
+      "product_identity_match": true,
+      "single_product": true,
+      "product_scale_match": true,
+      "product_fully_in_frame": true,
+      "package_separate_from_plumbing": true,
+      "physical_geometry_plausible": true,
+      "packaging_closed_no_protruding_material": true,
+      "no_people": true,
+      "no_added_text": true,
+      "phone_label_correct": true
+    },
+    "score": 1,
+    "reasons": [
+      "Field shows alfalfa plants with drip irrigation tape product roll placed adjacent – relevant to preharvest irrigation topic."
+    ]
+  }
+}

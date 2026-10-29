@@ -1,0 +1,41 @@
+{
+  "article_checks": [
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 506754,
+      "existing_quote_id": "506754:0",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 506754 discusses pest and disease management via drip irrigation microclimate control. It does not address pre-harvest last-irrigation timing or the Kansas State University soil-surface-vs-root-zone distinction central to this correction."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 506778,
+      "existing_quote_id": "506778:0",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 506778 covers drip-tape maintenance, filtration, flushing, and emitter lifespan for alfalfa. No pre-harvest irrigation schedule or Kansas State University evidence is discussed."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 506814,
+      "existing_quote_id": "506814:2",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 506814 is a beet-cultivation guide; its pre-harvest water-stop guidance applies to beet root sugar concentration, not alfalfa regrowth or the KSU surface-vs-root-zone distinction."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 507294,
+      "existing_quote_id": "507294:2",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 507294 provides general drip-tape irrigation cycle advice (every 2–3 days) for growing alfalfa. It does not answer the pre-harvest cutoff question, nor does it cite Kansas State University or separate surface dryness from root-zone moisture."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 507578,
+      "existing_quote_id": "507578:0",
+      "material_conflict_or_duplication": false,
+      "reason": "Article 507578 covers drip-tape spacing standards for alfalfa based on soil texture and wetting-cone geometry. It addresses layout design, not the final pre-harvest irrigation decision or KSU guidance."
+    }
+  ],
+  "reason": "The correction at 524204 is substantively distinct from all five existing articles. Existing pieces cover drip-tape maintenance (506778), spacing design (507578), general growing-cycle irrigation frequency (507294), pest/disease microclimate control (506754), and a beet-specific pre-harvest water-stop (506814). None of them answer the specific query about the final alfalfa irrigation before harvest, separate surface dryness for equipment passage from root-zone moisture needed for regrowth, or reference the Kansas State University extension guideline MF2868. There is no material duplication and no conflicting site instruction requiring consolidation.",
+  "revision_overlap_acceptable": true
+}

@@ -1,0 +1,26 @@
+{
+  "botanical_reason": "Trifoliate leaflets, oblong shape, serrated near distal end – consistent with Medicago sativa (alfalfa). Green vigorous foliage in field rows.",
+  "checks": {
+    "crop_stage_match": true,
+    "hardware_identity_match": true,
+    "hardware_sealed_all_ports_connected": true,
+    "no_added_text": true,
+    "no_people": true,
+    "package_separate_from_plumbing": true,
+    "packaging_closed_no_protruding_material": true,
+    "phone_label_correct": true,
+    "physical_geometry_plausible": true,
+    "product_fully_in_frame": true,
+    "product_identity_match": true,
+    "product_scale_match": true,
+    "role_camera_match": true,
+    "single_product": true,
+    "topic_evidence_match": true
+  },
+  "crop_identity_confident": true,
+  "reasons": [
+    "Field shows alfalfa plants with drip irrigation tape product roll placed adjacent – relevant to preharvest irrigation topic."
+  ],
+  "score": 1,
+  "supports_revised_article_as_illustration": true
+}

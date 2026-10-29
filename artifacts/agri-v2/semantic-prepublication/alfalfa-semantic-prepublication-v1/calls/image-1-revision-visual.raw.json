@@ -1,0 +1,29 @@
+{
+  "botanical_reason": "Visible crops show small paired/simple green leaves along stems, not the characteristic trifoliate leaflets (three oblong leaflets, coarsely serrated near distal end) of Medicago sativa. No compound leaves, no typical alfalfa leaflet morphology evident in the row crop.",
+  "checks": {
+    "crop_stage_match": false,
+    "hardware_identity_match": true,
+    "hardware_sealed_all_ports_connected": true,
+    "no_added_text": true,
+    "no_people": true,
+    "package_separate_from_plumbing": true,
+    "packaging_closed_no_protruding_material": true,
+    "phone_label_correct": false,
+    "physical_geometry_plausible": true,
+    "product_fully_in_frame": true,
+    "product_identity_match": true,
+    "product_scale_match": true,
+    "role_camera_match": false,
+    "single_product": true,
+    "topic_evidence_match": false
+  },
+  "crop_identity_confident": false,
+  "reasons": [
+    "Leaf morphology in the row crop does not display alfalfa's trifoliate leaflets; leaves appear simple/paired with different venation and margin pattern.",
+    "AFP package shown is irrigation-tape product imagery, not crop-state evidence; no field documentation of pre-harvest alfalfa visible.",
+    "Watermark 'AFP | 09134922013' format is non-standard; no verified AFP news-agency provenance for agricultural scene.",
+    "Image composition suggests staged product placement rather than documentary field photography of alfalfa irrigation management."
+  ],
+  "score": 0,
+  "supports_revised_article_as_illustration": true
+}

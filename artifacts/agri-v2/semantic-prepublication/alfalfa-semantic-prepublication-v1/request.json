@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-semantic-prepublication-v1",
+  "topic_id": "agri-6fc1032cdf42",
+  "post_id": 524204,
+  "max_model_calls": 12,
+  "max_runs": 1,
+  "publication_authorized": false,
+  "max_search_requests": 0,
+  "new_images": false,
+  "reset_attempts": false,
+  "code_binding": {
+    "semantic_prepublication.py": "fced42f6b1abb5030621b417a9ca2a2a41c28a4676230b0c2e554e02ae4ca348",
+    "parallel_client.py": "f507ae9679d5642dfabbf5a97802bdae2349ec5dc7bf1923360e1ffa75008809",
+    "client.py": "aa41b5462ce184c805542f55eb006ff149bb06ee4eeb67368c98d41849faff38",
+    "parallel_pool.py": "37680dd1b5f248cb02cee8c11c482ec15e2b66dd1eca7f5a6d482c25ed9d3dd9",
+    "multilingual.py": "2aa98530608a15c69dcadb7244dc63d5c72eece86119b1061852e0cbb9ab4801",
+    "translation_review.py": "37b471bbb209afcd46431a3d09002e05bbab2655fa664c5492df115df79d90f6",
+    "claim_policy.py": "6695d7347096f9e00b6170b5e0a5a46a29df1a5c6b9aa76ccd28063911a7bad4",
+    "regional_sources.py": "bfd5ffabd22d41d3d52e879fbbcaa462df0b46b100df7b07707ba922a0ac4bf9",
+    "image_quality.py": "45de796144bfa43225ee39f556989da9501c557ff6316fe216739482e6db3d3e",
+    "media_policy.py": "f3311113e6848ae1116d8ac48cc0e45db1686a020da60d61090d336a265e7941",
+    "scoped_research.py": "57d7cb6bc105e62f18f3f711e6a646363f0086125fab10bb2e08fb6a1555b1d2"
+  },
+  "input_files": {
+    "artifacts/agri-v2/claim-policy-rechecks/alfalfa-claim-policy-regional-final-v1/report.json": "c1b832f07865fdfded916b672d866fbc8cb65cbb0e3efe49ead39cc132148b4f",
+    "artifacts/agri-v2/claim-policy-rechecks/alfalfa-claim-policy-regional-final-v1/article.json": "5187bba4f0eb7b37bccc378d175c71f145354b47a771480fd35f53d4308f3465",
+    "artifacts/agri-v2/claim-policy-rechecks/alfalfa-claim-policy-regional-final-v1/brief.json": "645d8a028903e164c1978e0e7b58b2aedaabc7f0e2db69b32f184067ec0edb67",
+    "artifacts/agri-v2/claim-policy-rechecks/alfalfa-claim-policy-regional-final-v1/regional-review.raw.json": "42d3375cc9a75ae97c8332843128890b5d91ff53aa9c6849d72fcb2e75241f45",
+    "artifacts/agri-v2/prepublication-audits/alfalfa-readonly-prepublication-v1/40819836175/report.json": "7fdb2786e8aa11dedebb272049e8f722c10fa4bdccd5cc31063bdb8e14beaa01",
+    "artifacts/agri-v2/prepublication-audits/alfalfa-readonly-prepublication-v1/40819836175/fresh-related-content.json": "b51b875fb6f8ebbb48d90e56a7323e6270f949809d25d8e406db5fe041237465",
+    "artifacts/agri-v2/new/agri-6fc1032cdf42/image-1.webp": "154d618e2971c17746d467dc426d27efa07c2026174e16f0a7bbbf61c8ed30e7",
+    "artifacts/agri-v2/new/agri-6fc1032cdf42/image-2.webp": "dc798226e569ba7e3d6f8802769dd390e7bda1de303235021366ff2d9fb4fcdd"
+  },
+  "owner_authorization_source": "https://app.notion.com/chat?t=40841579fa0a8078988900a99eb829d4",
+  "scope": "Owner explicitly said start semantic overlap in five complete batches and fresh visual review, then four corrected-source translations with independent fidelity review only if both gates pass. Max 12 new calls. No replay/repair, search, images, queue reset, live site calls or publication. Separate regional publication review still required.",
+  "reference_sha256": "094d0f568e20e6a2971600f55cd194365a995b594021210ce0f9283927f2f847"
+}

@@ -1,0 +1,41 @@
+{
+  "article_checks": [
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 510992,
+      "existing_quote_id": "510992:3",
+      "material_conflict_or_duplication": false,
+      "reason": "This article covers sprinkler irrigation prerequisites for alfalfa (soil analysis, nozzle selection, uniform coverage, timing of irrigation during cool hours). It does not address pre-harvest irrigation cutoff criteria, root-zone versus surface-soil distinction, or KSU guidance on equipment-passability thresholds."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 511224,
+      "existing_quote_id": "511224:5",
+      "material_conflict_or_duplication": false,
+      "reason": "This article discusses moisture/drip-irrigation challenges including root sensitivity to temporary saturation, drip-tape physical vulnerability, and ETc-based scheduling via soil-moisture sensors and weather stations. It does not provide pre-harvest cutoff criteria, the surface-soil vs root-zone distinction, or the KSU extension source cited in the correction."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 511344,
+      "existing_quote_id": "511344:7",
+      "material_conflict_or_duplication": false,
+      "reason": "This article focuses on cluster (گره‌ای) irrigation challenges: pressure imbalance, emitter clogging, island-effect root stress, and salinity management. It recommends 30–40 cm emitter spacing and multi-stage filtration. No pre-harvest irrigation timing or KSU guidance is present."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 511944,
+      "existing_quote_id": "511944:1",
+      "material_conflict_or_duplication": false,
+      "reason": "This article covers drip irrigation with emitters for alfalfa, including emitter flow-rate selection (2–4 L/h), spacing by soil texture, pressure range (1–2 bar), and fertigation. It does not address pre-harvest water cessation criteria, surface-passability thresholds, or the KSU source."
+    },
+    {
+      "already_answers_same_core_intent": false,
+      "article_id": 511964,
+      "existing_quote_id": "511964:1",
+      "material_conflict_or_duplication": false,
+      "reason": "This article discusses regulated deficit irrigation (RDI/خرسابی) for alfalfa, emphasizing soil-moisture monitoring and physiological-stress signaling. While it mentions timing and soil-moisture measurement as part of RDI strategy, it does not provide the pre-harvest surface-vs-root-zone distinction or the specific KSU extension guidance that constitutes the core answer of the corrected article."
+    }
+  ],
+  "reason": "The corrected article’s core answer — that pre-harvest alfalfa irrigation cutoff should be determined by distinguishing surface-soil conditions (firm and dry for equipment passage) from root-zone moisture (needed for regrowth), with soil-moisture monitoring via probes or sensors, as documented in the KSU extension manual MF2868 — is not answered by any existing article. The five reviewed articles cover different irrigation-system types ( sprinkler, drip, cluster, deficit) and different technical topics (pressure management, clogging, salinity, emitter selection, uniformity). None duplicates the correction’s central distinction between harvest-surface firmness and root-zone regrowth moisture, nor cite the KSU source. Partial subject overlap (alfalfa + irrigation) is expected; no true material duplication of the pre-harvest decision core was found. The revision is acceptable.",
+  "revision_overlap_acceptable": true
+}
