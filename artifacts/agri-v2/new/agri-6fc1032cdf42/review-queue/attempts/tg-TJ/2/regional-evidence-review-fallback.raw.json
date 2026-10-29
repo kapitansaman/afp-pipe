@@ -1,0 +1,67 @@
+{
+  "applicable": false,
+  "no_unsupported_local_prescription": false,
+  "country_limits_retained": true,
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": false,
+      "document_id": "s0",
+      "quote": "Alfalfa grown for forage in the arid Northwest requires 1.8-acre feet to 3.2-acre feet of water per year, depending on length of the growing season.",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Washington State University, Pacific Northwest, USA",
+      "international_fallback": false,
+      "local_evidence_gap": "No local Tajik evidence found for alfalfa dormancy/resume claims",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": false,
+      "document_id": "s1",
+      "quote": "The time interval between the last direct application of agricultural water and harvest of the covered produce (other than sprouts) [table row] Crop characteristics | Description: Susceptibility of the covered produce to surface adhesion or internalization of hazards",
+      "source_kind": "technical_publication",
+      "country": "US",
+      "scope": "US FDA food safety regulations for pre-harvest water",
+      "international_fallback": false,
+      "local_evidence_gap": "Document concerns food safety, not agronomic water storage or alfalfa irrigation",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": false,
+      "document_id": "s2",
+      "quote": "We demonstrate that adoption of summer deficit irrigation in alfalfa production can yield large water savings and flexibility to adapt to changing water supplies with minimal on-field economic impact.",
+      "source_kind": "research_report",
+      "country": "US",
+      "scope": "Southwestern USA, general deficit irrigation economics and water savings",
+      "international_fallback": false,
+      "local_evidence_gap": "No data on specific daily water usage rates in TJ",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": false,
+      "document_id": "s3",
+      "quote": "Alfalfa-based crop coefficients Transferability of previous K c values Chapter 7 - ET c - Dual crop coefficient (K c = K cb + K e ) Transpiration component (K cb ET o ) Basal crop coefficient (K cb ) Determination of daily K cb values",
+      "source_kind": "technical_publication",
+      "country": "International (FAO)",
+      "scope": "FAO guidelines for computing crop water requirements globally",
+      "international_fallback": false,
+      "local_evidence_gap": "FAO doc is general theory, does not contain the specific 2-inch post-irrigation drying observation from ID silt loam",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": false,
+      "document_id": "s2",
+      "quote": "Alfalfa has been vilified as one of the thirstiest crops in the semi-arid southwestern USA and partially responsible for decreased water security in the Colorado, Rio Grande and San Joaquin River basins.",
+      "source_kind": "research_report",
+      "country": "US",
+      "scope": "Southwestern USA water security and alfalfa production",
+      "international_fallback": false,
+      "local_evidence_gap": "No local evidence for alfalfa dormancy behavior in TJ",
+      "transfer_limits_retained": true
+    }
+  ]
+}

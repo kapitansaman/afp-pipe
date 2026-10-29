@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T00:34:48.897823+00:00",
+  "updated_at": "2026-10-29T01:09:19.544327+00:00",
   "items": [
     {
       "topic_id": "agri-6fc1032cdf42",
@@ -37,11 +37,11 @@
       "language": "ru-RU",
       "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
       "status": "waiting",
-      "attempts": 1,
-      "model_calls_spent": 0,
-      "next_attempt_at": "2026-10-28T19:11:29.207174+00:00",
+      "attempts": 2,
+      "model_calls_spent": 2,
+      "next_attempt_at": "2026-10-30T01:08:21.070600+00:00",
       "experimental_only": false,
-      "reason": "primary_stage_incomplete",
+      "reason": "translation_or_review_needs_another_attempt",
       "publication_attempts": null,
       "publication_next_attempt_at": null,
       "state_path": "new/agri-6fc1032cdf42/review-queue/ru-RU.json"
@@ -52,11 +52,11 @@
       "language": "tg-TJ",
       "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
       "status": "waiting",
-      "attempts": 1,
-      "model_calls_spent": 0,
-      "next_attempt_at": "2026-10-28T19:11:29.270351+00:00",
+      "attempts": 2,
+      "model_calls_spent": 2,
+      "next_attempt_at": "2026-10-30T01:09:19.527676+00:00",
       "experimental_only": false,
-      "reason": "primary_stage_incomplete",
+      "reason": "translation_or_review_needs_another_attempt",
       "publication_attempts": null,
       "publication_next_attempt_at": null,
       "state_path": "new/agri-6fc1032cdf42/review-queue/tg-TJ.json"

@@ -1,9 +1,25 @@
 {
   "version": 1,
   "backend": "tavily",
-  "updated_at": "2026-10-29T00:34:48.886920+00:00",
+  "updated_at": "2026-10-29T01:09:19.532314+00:00",
   "cooldown_until_epoch": 0.0,
   "cache": {
+    "cbea1698b8068ef4295f74eb01af6955d9c81b01ad3822d84f61975067779964": {
+      "checked": 1793236145.53338,
+      "results": []
+    },
+    "9032efdfc5fcce5b593307af51630570ab99b713e81d5c59da8c9cdaa31701b9": {
+      "checked": 1793236143.2472508,
+      "results": []
+    },
+    "837e468edcad04c54627273b0e54480d70e8c4a6ce8c9f6bdfa8282ebfdd62e3": {
+      "checked": 1793236078.992913,
+      "results": []
+    },
+    "6cad98098b3f464f9dfd595759a2e470d1b94e1453c37986a736506b8dd79a38": {
+      "checked": 1793236076.5818977,
+      "results": []
+    },
     "d772f38efb4e9046dfd7445472e3345e06150f443f338e22b7ab81f091c1876e": {
       "checked": 1793234042.575135,
       "results": [
@@ -84,7 +100,7 @@
   },
   "monthly_budget": {
     "month": "2026-10",
-    "reserved": 133
+    "reserved": 137
   },
   "secret_values_stored": false
 }

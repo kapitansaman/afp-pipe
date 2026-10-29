@@ -1,0 +1,32 @@
+{
+  "query_sha256": "d3203ea7508398a7617e245e367a5f62f42326826ff90e621bc5250da61e898c",
+  "result": {
+    "query_id": "d772f38efb4e9046dfd7445472e3345e06150f443f338e22b7ab81f091c1876e",
+    "query": "alfalfa preharvest water FAO public research technical guidance",
+    "cached": true,
+    "checked_at_epoch": 1793234042.575135,
+    "results": [
+      {
+        "url": "https://www.fao.org/4/x0490e/x0490e00.htm",
+        "title": "Table of Contents",
+        "description": "FAO technical papers [...] FAO technical papers [...] FAO technical papers"
+      },
+      {
+        "url": "https://plant-pest-advisory.rutgers.edu/pre-harvest-water-requirements-under-the-produce-safety-rule",
+        "title": "Pre-Harvest Water Requirements Under the Produce Safety Rule — Plant & Pest Advisory",
+        "description": "The assessment only applies to the pre-harvest water.\n Must be a written assessment dated and signed at the beginning of the season, annually or anytime major changes are made to the system or water source. The inspection report can be incorporated into the assessment.\n Parts of the assessment\n  + Location and nature of water source (e.g., ground water/wells, surface water/pond, stream, etc.)\n  + How water is distributed (e.g., underground main, lay flat, canals, etc.) [...] If the operation meets any of the following, they can be exempt from performing a water assessment.\n No untreated surface water applied.\n Untreated groundwater is tested following the protocol for harvest and post-harvest water (four samples the first year for generic E. coli and one sample every year after if no generic E. coli is found).\n Public water system water use.\n Water is treated, monitored and to be of a safe and adequate sanitary quality. [...] # Note:  The following is a brief description of the pre-harvest water requirements (Section 112.3-112.161) under the Food Safety Modernization Act/Produce Safety Rule (FSMA/PSR).  The pre-harvest water requirements are complicated and this summary is intended"
+      },
+      {
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+        "title": "FSMA Final Rule on Pre-Harvest Agricultural Water | FDA",
+        "description": "These requirements reflect recent science, findings from investigations of several produce-related outbreaks, and information and feedback from a variety of stakeholders. The requirements are designed to achieve improved public health protections, while also being more feasible to implement across the wide variety of agricultural water systems, uses, and practices, and adaptable to future advancements in agricultural water quality science. [...] that a known or reasonably foreseeable hazard will be introduced into or onto produce or food contact surfaces. As part of their pre-harvest agricultural water assessments, farms are required to evaluate certain factors (overview below) that could impact produce safety as a result of the use of pre-harvest agricultural water. [...] The final rule establishes requirements for systems-based pre-harvest agricultural water assessments for hazard identification and risk management decision-making. Covered farms - those that are subject to the requirements in the Produce Safety Rule – that use pre-harvest agricultural water for covered produce (other than sprouts) are required to conduct agricultural water assessments once annually, and whenever "
+      },
+      {
+        "url": "https://openknowledge.fao.org/server/api/core/bitstreams/e734ac29-6d43-4f88-9321-7dbda7afa401/content",
+        "title": "Water use of livestock production systems and supply chains",
+        "description": "Recommended citation FAO. 2018. Water use of livestock production systems and supply chains – Guidelines for assessment (Draft for public review). Livestock Environmental Assessment and Performance (LEAP) Partnership. FAO, Rome, Italy. [...] Water use of livestock production systems and supply chains Guidelines for assessment DRAFT FOR PUBLIC REVIEW Water use of livestock production systems and supply chains Guidelines for assessment DRAFT FOR PUBLIC REVIEW The designations employed and the presentation of material in this information product do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations (FAO) concerning the legal or development status of any country, [...] © FAO, 2018 FAO encourages the use, reproduction and dissemination of material in this information product. Except where otherwise indicated, material may be copied, downloaded and printed for private study, research and teaching purposes, or for use in non-commercial products or services, provided that appropriate acknowledgement of FAO as the source and copyright holder is given and that FAO’s endorsement of users’ views, products or services is"
+      }
+    ]
+  },
+  "publication_authorized": false
+}

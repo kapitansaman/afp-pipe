@@ -2,7 +2,7 @@
   "owned_scoped_family_pilot": false,
   "matrix_pilot": false,
   "research_only": false,
-  "run_id": "40794602499",
+  "run_id": "40798268339",
   "status": "completed",
   "assigned_count": 1,
   "pilot_topic_only": false,
@@ -20,8 +20,12 @@
   ],
   "publication_results": [
     {
-      "status": "stage_budget_exhausted",
+      "status": "source_checkpoint_retained",
       "stage": "publish",
+      "reason": "translations_use_independent_review_queue",
+      "published_posts": 0,
+      "original_attempts_preserved": 3,
+      "live_verification_performed": false,
       "topic_id": "agri-6fc1032cdf42"
     }
   ],
@@ -31,7 +35,7 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-29T00:33:01.477928+00:00",
+  "started_at": "2026-10-29T01:06:57.186575+00:00",
   "staged_rollout": {
     "limit": 1,
     "cohort": [
@@ -54,7 +58,7 @@
       }
     ],
     "manual_verification_required": true,
-    "run_id": "40794602499",
+    "run_id": "40798268339",
     "automatic_promotion": false
   },
   "existing_content_fetch": {
@@ -68,7 +72,7 @@
   "max_text_model_calls": null,
   "max_total_model_calls": 22,
   "timing": {
-    "elapsed_seconds": 107.473,
+    "elapsed_seconds": 142.414,
     "reference_interval_seconds": 300,
     "proposed_interval_seconds": 300,
     "built_validated_families": 1,
@@ -77,22 +81,22 @@
     "completion_definition": "article, required images, reviews and translations validated; publication verified separately",
     "tail_adjustment_observed": false,
     "events": [],
-    "run_id": "40794602499",
+    "run_id": "40798268339",
     "sample_eligible": false,
     "fresh_start": false,
     "verified_complete_families": 0,
     "decision": "invalid_partial_resumed_or_unpublished_sample_no_learning",
     "interval_seconds": 300,
-    "observed_at": "2026-10-29T00:34:48.950977+00:00"
+    "observed_at": "2026-10-29T01:09:19.600494+00:00"
   },
   "source_search": {
     "backend": "tavily",
     "requests_reserved": 0,
     "unknown_requests": 0,
-    "cache_entries": 4,
+    "cache_entries": 6,
     "monthly_budget": {
       "month": "2026-10",
-      "reserved": 131
+      "reserved": 133
     },
     "cooldown_until_epoch": 0.0,
     "secret_values_stored": false
@@ -565,14 +569,14 @@
       },
       {
         "name": "AGNES_API_KEY88",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
       },
       {
         "name": "AGNES_API_KEY89",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
@@ -784,22 +788,20 @@
     "results": [
       {
         "topic_id": "agri-6fc1032cdf42",
-        "language": "ar-IQ",
-        "status": "regional_waiting",
-        "model_calls": 1,
-        "semantic_attempts_unchanged": 3
+        "language": "ru-RU",
+        "status": "waiting",
+        "model_calls": 2
       },
       {
         "topic_id": "agri-6fc1032cdf42",
-        "language": "en-US",
-        "status": "regional_waiting",
-        "model_calls": 1,
-        "semantic_attempts_unchanged": 3
+        "language": "tg-TJ",
+        "status": "waiting",
+        "model_calls": 2
       }
     ],
-    "model_calls": 2,
+    "model_calls": 4,
     "pool": {
-      "model_requests_reserved": 2,
+      "model_requests_reserved": 4,
       "cooldown_until_epoch": 1793183210.4491515,
       "slots": [
         {
@@ -1280,28 +1282,28 @@
         },
         {
           "name": "AGNES_API_KEY90",
-          "used": 2,
+          "used": 3,
           "disabled": 0,
           "kind": null,
           "cooldown_until_epoch": 0.0
         },
         {
           "name": "AGNES_API_KEY91",
-          "used": 2,
+          "used": 3,
           "disabled": 0,
           "kind": null,
           "cooldown_until_epoch": 0.0
         },
         {
           "name": "AGNES_API_KEY92",
-          "used": 2,
+          "used": 3,
           "disabled": 0,
           "kind": null,
           "cooldown_until_epoch": 0.0
         },
         {
           "name": "AGNES_API_KEY93",
-          "used": 2,
+          "used": 3,
           "disabled": 0,
           "kind": null,
           "cooldown_until_epoch": 0.0
@@ -1341,12 +1343,12 @@
     },
     "source_search": {
       "backend": "tavily",
-      "requests_reserved": 2,
+      "requests_reserved": 4,
       "unknown_requests": 0,
-      "cache_entries": 6,
+      "cache_entries": 10,
       "monthly_budget": {
         "month": "2026-10",
-        "reserved": 133
+        "reserved": 137
       },
       "cooldown_until_epoch": 0.0,
       "secret_values_stored": false
@@ -1355,5 +1357,5 @@
   "operational_failures": 0,
   "waiting_families": 0,
   "publication_ready_workers": 1,
-  "completed_at": "2026-10-29T00:34:48.950681+00:00"
+  "completed_at": "2026-10-29T01:09:19.600200+00:00"
 }

@@ -1,0 +1,67 @@
+{
+  "applicable": false,
+  "no_unsupported_local_prescription": false,
+  "country_limits_retained": false,
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "document_id": "s2",
+      "quote": "We demonstrate that adoption of summer deficit irrigation in alfalfa production can yield large water savings and flexibility to adapt to changing water supplies with minimal on-field economic impact. ... Alfalfa is naturally drought tolerant. Its lengthy root systems can reach over 15 feet deep... Alfalfa also has a unique ability to go into drought-induced dormancy when water is scarce. This feature allows for irrigation to cease at almost any time during the growing season without permanent damage to the stand.",
+      "source_kind": "research_report",
+      "country": "US",
+      "scope": "Deficit irrigation benefits and drought-dormancy biology in alfalfa (Medicago sativa) under semi-arid Southwestern USA conditions; mechanism is species-level physiology, transferable in principle but unverified for Russian cultivars and continental climate.",
+      "international_fallback": true,
+      "local_evidence_gap": "No Russian-field evidence on drought-dormancy expression, recovery timing, or stand persistence under Russian continental climate zones and cultivar panel.",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": false,
+      "document_id": "s2",
+      "quote": "We estimate that deficit irrigation of alfalfa can save 1333 to 4157 million cubic meters of water annually (16-50 % of total alfalfa water use) over 926,000 ha in the southwestern USA if summer deficit irrigation (suspended after July 1) were implemented. ... building deep-stored water reserves in the fall can help your alfalfa next summer during rapid growth when it may be difficult to keep up with peak plant water usage demands.",
+      "source_kind": "research_report",
+      "country": "US",
+      "scope": "Fall irrigation for deep water storage and summer deficit scheduling in semi-arid Southwestern USA; November cutoff referenced within that climate context.",
+      "international_fallback": false,
+      "local_evidence_gap": "Absence of Russian evidence for November irrigation timing, freezing thresholds, deep-water recharge in Russian soils, and winter survival implications; the article presents this as actionable guidance without Russian boundary conditions.",
+      "transfer_limits_retained": false
+    },
+    {
+      "fact_id": "f2",
+      "supported": false,
+      "document_id": "s2",
+      "quote": "We estimate that deficit irrigation of alfalfa can save 1333 to 4157 million cubic meters of water annually (16-50 % of total alfalfa water use) over 926,000 ha in the southwestern USA if summer deficit irrigation (suspended after July 1) were implemented.",
+      "source_kind": "research_report",
+      "country": "US",
+      "scope": "Annual water-use magnitudes and deficit-irrigation savings estimates for Southwestern USA alfalfa systems; does not contain Nebraska-specific daily usage rates nor Russian applicability.",
+      "international_fallback": false,
+      "local_evidence_gap": "No Russian data for hot-season (>0.30 in/day) or fall (~0.10 in/day) consumptive-use rates; the article reports these numeric thresholds as if operative for the target audience without Russian calibration.",
+      "transfer_limits_retained": false
+    },
+    {
+      "fact_id": "f3",
+      "supported": false,
+      "document_id": "s3",
+      "quote": "The single crop coefficient approach is widely used and generally provides reasonable estimates of ETc when adequate soil moisture is available. Crop coefficients are dependent on the crop, growth stage, and climatic conditions. For alfalfa, Kc values typically range from 0.72 at initial stage to 1.15-1.20 at mid-season under standard conditions.",
+      "source_kind": "technical_publication",
+      "country": "IT",
+      "scope": "FAO-56 methods and alfalfa Kc ranges under standard conditions; provides methodology but does not validate the southern Idaho silt loam 2-inch ET pre-harvest drying rule for Russian soils/climate.",
+      "international_fallback": false,
+      "local_evidence_gap": "No Russian validation that 2 inches ET accumulation between last irrigation and cutting produces safe field-entry conditions on Russian silt loam or equivalent soils under Russian humidity/dew regimes.",
+      "transfer_limits_retained": false
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "document_id": "s2",
+      "quote": "As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, and then resume growth once conditions become favorable again.",
+      "source_kind": "research_report",
+      "country": "US",
+      "scope": "Perennial alfalfa lacks a single critical water-stress stage and enters dormancy under moisture stress; biological trait documented for US conditions.",
+      "international_fallback": true,
+      "local_evidence_gap": "Russian cultivar-specific dormancy-depth, recovery speed, and winter-hardiness interactions under Russian continental climate remain undocumented here.",
+      "transfer_limits_retained": true
+    }
+  ]
+}
