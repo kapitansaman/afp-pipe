@@ -1,0 +1,10 @@
+{
+  "request_id": "alfalfa-semantic-prepublication-v1",
+  "phase": "semantic-prepublication",
+  "run_id": "40822086693",
+  "status": "reserved",
+  "max_model_calls": 12,
+  "publication_authorized": false,
+  "started_at": "2026-10-29T05:14:23.230272+00:00",
+  "attempts_reset": false
+}
