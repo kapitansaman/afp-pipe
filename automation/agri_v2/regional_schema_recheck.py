@@ -84,9 +84,14 @@ class CountedClient:
   return Bounded(health,env=worker,allow_calls=True,capabilities=('text',))
 
 def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None):
- identity(env);root=Path(out)/'infrastructure-probes'/ID;rp=root/'report.json'
+ return execute(env,data,out,client_factory,reserve_fn,ID,'regional-schema-recheck-request.json',validate,manifest,'regional-schema-recheck')
+
+def execute(env,data,out,client_factory,reserve_fn,request_id,request_file,validate_fn,manifest_fn,phase):
+ # Shared finite executor. Admissions remain separate and immutable; this helper
+ # cannot create a new budget without an exact remotely reserved manual phase.
+ identity(env);root=Path(out)/'infrastructure-probes'/request_id;rp=root/'report.json'
  if rp.exists():return {'status':'regional_schema_recheck_already_reserved','model_calls':0,'published_posts':0}
- folder,article,brief,docs=validate(load_json(data/'regional-schema-recheck-request.json'),data,out)
+ folder,article,brief,docs=validate_fn(load_json(data/request_file),data,out)
  from .post_hold_validation import circuit,ID as health_id
  from .family_capability_refresh import active_hold
  circuit(out)
@@ -96,10 +101,10 @@ def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None):
  if client_factory is None:preflight(env,health)
  if reserve_fn is None:
   from .parallel_control import reserve
-  admitted=reserve('regional-schema-recheck',ID,env)
+  admitted=reserve(phase,request_id,env)
  else:admitted=reserve_fn(env)
  if not admitted:return {'status':'regional_schema_recheck_already_reserved','model_calls':0,'published_posts':0}
- before=manifest(data,out);report={'request_id':ID,'run_id':env['GITHUB_RUN_ID'],'status':'regional_schema_recheck_reserved','started_at':utcnow(),'results':[],'max_model_calls':2,'search_requests':0,'source_fetches':0,'site_calls':0,'image_calls':0,'published_posts':0,'article_edits':0,'translation_edits':0,'attempts_reset':False,'publication_authorized':False,'schedule_enabled':False,'promotion_authorized':False};atomic_json(rp,report)
+ before=manifest_fn(data,out);report={'request_id':request_id,'run_id':env['GITHUB_RUN_ID'],'status':'regional_schema_recheck_reserved','started_at':utcnow(),'results':[],'max_model_calls':2,'search_requests':0,'source_fetches':0,'site_calls':0,'image_calls':0,'published_posts':0,'article_edits':0,'translation_edits':0,'attempts_reset':False,'publication_authorized':False,'schedule_enabled':False,'promotion_authorized':False};atomic_json(rp,report)
  from .parallel_pool import SLOTS,initialize,snapshot,routing_counts,routing_backpressure,record_routing
  db=root/'pool.sqlite';initialize(db,health['eligible_text_slots'],text_limit=1,image_limit=1,max_calls=2,per_worker=1,prior_usage=routing_counts(out),prior_backpressure=routing_backpressure(out))
  worker={k:v for k,v in env.items() if k in SLOTS or k in ('GITHUB_ACTIONS','GITHUB_REPOSITORY','GITHUB_REF_NAME','GITHUB_RUN_ID')};worker.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB=str(db),AFP_PARALLEL_FAMILY='isolated-infrastructure-probe')
@@ -137,7 +142,7 @@ def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None):
  finally:
   state=snapshot(db);record_routing(out,state)
   if state['cooldown_until_epoch']>time.time():atomic_json(out/'provider-circuit.json',{'open':True,'request_kind':'text','at':utcnow(),'retry_at_epoch':state['cooldown_until_epoch'],'reason':'regional_schema_recheck_service_failure'})
-  unchanged=manifest(data,out)==before
+  unchanged=manifest_fn(data,out)==before
   if not unchanged:report['status']='regional_schema_recheck_originals_changed'
   report.update(model_calls=state['model_requests_reserved'],request_receipts=len(list((root/'calls').glob('*.json'))),originals_unchanged=unchanged,completed_at=utcnow());atomic_json(rp,report)
  return report
