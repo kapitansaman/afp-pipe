@@ -5,11 +5,11 @@
   "slot": "AGNES_API_KEY24",
   "kind": "image",
   "model": "agnes-image-2.5-flash",
-  "verified_at": "2026-10-28T02:03:28.376531+00:00",
+  "verified_at": "2026-10-29T07:47:42.708618+00:00",
   "verification": "actual_successful_parallel_capability_probe",
-  "run_id": "40618152827",
+  "run_id": "40836584707",
   "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
   "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
-  "image_sha256": "394c36f209de9df715feba0e94022961fee55a8cbea22bf254fb9c1ab8e2f865",
+  "image_sha256": "cfc52601d743159c0a35b23fe2476b499b12b97597f07df572597839197b2be7",
   "publication_visual_approval": false
 }
