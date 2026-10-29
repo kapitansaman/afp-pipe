@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-revision-context-repair-v1",
+  "run_id": "40801533294",
+  "status": "revision_needs_attention",
+  "started_at": "2026-10-29T01:38:51.275913+00:00",
+  "publication_authorized": false,
+  "post_mutations": 0,
+  "new_posts": 0,
+  "search_requests": 0,
+  "original_attempts_reset": false,
+  "prior_report_sha256": "648f66fb34565b4279ad3f57c1d1b3952ce3d27f9ad22d7b6deff6680a0bf57e",
+  "failure": {
+    "kind": "validation",
+    "category": "unspecified"
+  },
+  "model_calls": 2,
+  "total_revision_receipts": 5,
+  "completed_at": "2026-10-29T01:39:26.808873+00:00"
+}

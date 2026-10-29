@@ -1,0 +1,62 @@
+{
+  "all_claims_supported": false,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": true,
+  "no_unsafe_input_rates": true,
+  "source_policy_satisfied": true,
+  "source_policy_version": "university-single-source-v1",
+  "human_review_claimed": false,
+  "limitations": "تمام یافته‌ها متعلق به کانزاس و نبراسکا هستند؛ هیچ منبع دانشگاهی ایرانی برای معیارهای قطع آبیاری پیش از برداشت یونجه در ایران ارائه نشده است. مقادیر ذکرشده (۴-۶ اینچ بین چین، وقفه چندروزه تا یک‌هفته قبل قطع) صرفاً برای شرایط کانزاس نقل شده‌اند و به‌هیچ‌وجه به عنوان توصیه محلی برای ایران تعمیم داده نمی‌شوند. ف5 فاقد شاهد مستقیم است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f5",
+      "supported": false,
+      "scope_and_units_correct": false
+    },
+    {
+      "fact_id": "f6",
+      "supported": true,
+      "scope_and_units_correct": true
+    },
+    {
+      "fact_id": "f7",
+      "supported": true,
+      "scope_and_units_correct": true
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": false,
+  "regional_research_version": "regional-official-research-v1",
+  "regional_sources_prioritized": false,
+  "international_transfer_limits_retained": true,
+  "regional_source_gap": "هیچ منبع آکادمیک ایرانی برای معیارهای قطع و کاهش آب یونجه در ایران یافت نشد. دو منبع بین‌المللی از دانشگاه‌های کانزاس (MF2868) و نبراسکا (CropWatch) وارد شدند. ف5 فاقد شاهد مستقیم است: cite e4 مربوط به ف4، اما e5 درباره خشک‌شدن یونجه پس از برداشت است و ارتباطی با عمق نفوذ ریشه یا ذخیره عمیق پاییزی ندارد."
+}
