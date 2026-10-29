@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-regional-revision-v1",
+  "topic_id": "agri-6fc1032cdf42",
+  "family_id": "family-07",
+  "source_post_id": 524204,
+  "prepare_authorized": true,
+  "publication_authorized": false,
+  "max_model_calls": 8,
+  "max_search_requests": 4,
+  "max_revision_runs": 1,
+  "reset_original_attempts": false,
+  "required_source_language": "fa-IR",
+  "input_binding": {
+    "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+    "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+    "source_receipt_sha256": "be22942ad7d015d8f5b545aac9e536b503e1d9148e8a5ddfccc9517189d6e255"
+  }
+}
