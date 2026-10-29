@@ -72,7 +72,7 @@ class RegionalKeyedWireTests(unittest.TestCase):
    with self.assertRaises(RepairBlocked):request(client,root,'regional-evidence-review',self.prompt(),1)
    self.assertEqual(before,{p.name:p.read_bytes() for p in root.iterdir()});self.assertEqual(client.text.call_count,1)
  def test_real_shared_prompt_keeps_all_article_facts_and_sources(self):
-  article={'content_html':'<p>Complete fixture text.</p>','faq':[{'question':'q','answer':'a'}]};facts=[{'fact_id':'f0','claim':'Original fact.'}];docs=[{'url':'https://extension.example.edu/a','text':'Complete source fixture.'}];prompt=review_prompt(article,{'approved_facts':facts},'en-US',docs)
+  article={'content_html':'<p>Complete fixture text.</p>','faq':[{'question':'q','answer':'a'}]};facts=[{'fact_id':'f0','claim':'Original fact.'}];docs=[{'url':'https://extension.example.edu/a','text':'Complete source fixture.'}];prompt=review_prompt(article,{'approved_facts':facts},'en-US',docs,wire=w.VERSION)
   self.assertEqual(prompt['_regional_wire_contract'],w.VERSION);self.assertEqual(prompt['article'],article);self.assertEqual(prompt['approved_facts'],facts);self.assertEqual(prompt['documents'][0]['text'],docs[0]['text']);self.assertIn('OBJECT',prompt['task']);self.assertNotIn('fact_checks:[',prompt['task'])
  def test_unknown_wire_version_is_not_silently_downgraded(self):
   with self.assertRaises(RegionalBlocked):response_schema('regional-evidence-review',dict(self.prompt(),_regional_wire_contract='unknown'))

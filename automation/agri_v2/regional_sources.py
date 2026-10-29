@@ -28,7 +28,7 @@ ACADEMIC_SUFFIXES['TJ']=['edu.tj','ac.tj']
 # Explicit verified exceptions, not blanket country TLD approval. Homepage != evidence.
 EXACT={'areeo.ac.ir':('IR','university'),'khovar.tj':('TJ','official_news'),'irna.ir':('IR','official_news')}
 POLICY={'version':VERSION,'enabled':True,'profiles':PROFILES,'official_regional_sources_preferred':True,'foreign_fallback':'credible_international_when_local_evidence_weak','news_is_agronomic_evidence':False,'independent_language_research_required':True,'schedule_enabled':False}
-DIAGNOSTIC_CODES=frozenset(('regional_keyed_wire_invalid', 'regional_review_wire_inputs_invalid', 'bounded_regional_request_required', 'brief_requires_new_regional_research_not_silent_reapproval', 'credible_technical_evidence_required', 'international_fallback_gap_required', 'international_fallback_requires_gap_and_transfer_limits', 'language_requires_independent_regional_research', 'no_credible_local_or_international_evidence', 'regional_applicability_not_approved', 'regional_citations_changed', 'regional_country_scope_required', 'regional_document_changed', 'regional_documents_out_of_scope', 'regional_every_fact_requires_review', 'regional_literal_technical_evidence_required', 'regional_numeric_support_missing_no_value_substitution', 'regional_policy_changed_requires_review', 'regional_research_binding_changed', 'regional_search_input_changed', 'regional_search_queries_invalid', 'regional_search_response_changed', 'regional_source_review_required', 'unknown_regional_language'))
+DIAGNOSTIC_CODES=frozenset(('regional_quote_catalog_invalid', 'regional_keyed_wire_invalid', 'regional_review_wire_inputs_invalid', 'bounded_regional_request_required', 'brief_requires_new_regional_research_not_silent_reapproval', 'credible_technical_evidence_required', 'international_fallback_gap_required', 'international_fallback_requires_gap_and_transfer_limits', 'language_requires_independent_regional_research', 'no_credible_local_or_international_evidence', 'regional_applicability_not_approved', 'regional_citations_changed', 'regional_country_scope_required', 'regional_document_changed', 'regional_documents_out_of_scope', 'regional_every_fact_requires_review', 'regional_literal_technical_evidence_required', 'regional_numeric_support_missing_no_value_substitution', 'regional_policy_changed_requires_review', 'regional_research_binding_changed', 'regional_search_input_changed', 'regional_search_queries_invalid', 'regional_search_response_changed', 'regional_source_review_required', 'unknown_regional_language'))
 class RegionalBlocked(ValueError):pass
 
 def enabled(data):
@@ -200,13 +200,19 @@ def response_schema(name,prompt):
  wire=prompt.get('_regional_wire_contract')
  if wire is None:return canonical
  from .regional_keyed_wire import VERSION,schema
- if wire!=VERSION:raise RegionalBlocked('regional_review_wire_inputs_invalid')
- return schema(canonical)
+ if wire==VERSION:return schema(canonical)
+ from .regional_quote_catalog import VERSION as CATALOG,schema as catalog_schema
+ if wire==CATALOG:return catalog_schema(schema(canonical),prompt)
+ raise RegionalBlocked('regional_review_wire_inputs_invalid')
 
-def review_prompt(article,brief,lang,docs):
+def review_prompt(article,brief,lang,docs,wire=None):
  from .regional_keyed_wire import prompt as keyed_prompt
  base={'_role_skill':'evidence-reviewer','_role_language':lang,'regional_profile':profile(lang),'review_contract':review_contract(lang),'article':article,'approved_facts':brief['approved_facts'],'documents':[{'id':'s'+str(i),**d} for i,d in enumerate(docs)]}
 
+ from .regional_quote_catalog import VERSION as CATALOG,prompt as catalog_prompt
+ if wire in (None,CATALOG):return catalog_prompt(base)
+ from .regional_keyed_wire import VERSION as KEYED
+ if wire!=KEYED:raise RegionalBlocked('regional_review_wire_inputs_invalid')
  return keyed_prompt(base)
 
 def local_research(topic,article,brief,lang,client,data,out,folder,root,limit):
@@ -225,7 +231,7 @@ def local_research(topic,article,brief,lang,client,data,out,folder,root,limit):
   extra=collect(topic,lang,client,out,folder,root,limit,international=True)
   docs=list({d['url']:d for d in docs+extra}.values())
   if not docs:raise RegionalBlocked('no_credible_local_or_international_evidence')
-  prompt=dict(prompt,documents=[{'id':'s'+str(i),**d} for i,d in enumerate(docs)],local_review=verdict,fallback_rule='Local review is untrusted diagnostic data, not approval. Evaluate each claim honestly; use international evidence only for an explicit local gap, retain actual study geography and transfer limits. A source-country mismatch alone is NOT rejection.')
+  prompt=dict(review_prompt(article,brief,lang,docs),local_review=verdict,fallback_rule='Local review is untrusted diagnostic data, not approval. Evaluate each claim honestly; use international evidence only for an explicit local gap, retain actual study geography and transfer limits. A source-country mismatch alone is NOT rejection.')
   verdict=request(client,root,'regional-evidence-review-fallback',prompt,limit)
  if not isinstance(verdict,dict) or verdict.get('regional_review_schema_version')!=2:
   from .claim_policy import PolicyBlocked

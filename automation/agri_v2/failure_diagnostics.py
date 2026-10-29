@@ -31,7 +31,7 @@ def failure_details(exc):
  allowed.update(image_codes.values())
  allowed.update({'source_search_quota_exhausted','source_search_rate_limited','source_search_auth','source_search_unavailable','source_search_response_invalid'})
  from .translation_review_repair import RepairBlocked as TranslationRepairBlocked
- translation_codes={'invalid_translation_row','missing_translation_segments','translation_IDs_unbound','translation_IDs_missing','review_shape_invalid','invalid_language_review','review_quoted_text_not_present','contradictory_language_review','review_repair_call_budget_exhausted','uncertain_repair_request_not_replayed','repair_schema_binding_changed','regional_wire_conversion_incomplete_no_replay'}
+ translation_codes={'invalid_translation_row','missing_translation_segments','translation_IDs_unbound','translation_IDs_missing','review_shape_invalid','invalid_language_review','review_quoted_text_not_present','contradictory_language_review','review_repair_call_budget_exhausted','uncertain_repair_request_not_replayed','repair_schema_binding_changed','regional_wire_conversion_incomplete_no_replay','regional_quote_catalog_binding_changed','regional_quote_catalog_unbound'}
  if isinstance(exc,TranslationRepairBlocked) and str(exc) in translation_codes:category=str(exc)
  allowed.update(translation_codes)
  from .model_source_repair import RepairBlocked

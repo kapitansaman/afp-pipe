@@ -115,7 +115,7 @@ def execute(env,data,out,client_factory,reserve_fn,request_id,request_file,valid
   for lang in LANGUAGES:
    result={'language':lang,'status':'blocked'};work=root/'languages'/lang
    try:
-    prompt=review_prompt(article,brief,lang,docs[lang]);prompt['fallback_rule']='Review only the retained fetched sources; no new searches or article edits. International fallback requires an explicit local gap and preserved geographic transfer limits. A valid negative is acceptable.'
+    prompt=review_prompt(article,brief,lang,docs[lang],wire='regional-keyed-facts-v1');prompt['fallback_rule']='Review only the retained fetched sources; no new searches or article edits. International fallback requires an explicit local gap and preserved geographic transfer limits. A valid negative is acceptable.'
     schema=response_schema('regional-evidence-review-fallback',prompt)
     worker['AFP_PARALLEL_TOPIC']=TOPIC+'-'+lang
     client=(client_factory or CountedClient)(health,dict(worker),root);client.recheck_language=lang
