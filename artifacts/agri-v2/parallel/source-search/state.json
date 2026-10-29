@@ -1,9 +1,64 @@
 {
   "version": 1,
   "backend": "tavily",
-  "updated_at": "2026-10-29T00:21:25.574258+00:00",
+  "updated_at": "2026-10-29T00:34:48.886920+00:00",
   "cooldown_until_epoch": 0.0,
   "cache": {
+    "d772f38efb4e9046dfd7445472e3345e06150f443f338e22b7ab81f091c1876e": {
+      "checked": 1793234042.575135,
+      "results": [
+        {
+          "url": "https://www.fao.org/4/x0490e/x0490e00.htm",
+          "title": "Table of Contents",
+          "description": "FAO technical papers [...] FAO technical papers [...] FAO technical papers"
+        },
+        {
+          "url": "https://plant-pest-advisory.rutgers.edu/pre-harvest-water-requirements-under-the-produce-safety-rule",
+          "title": "Pre-Harvest Water Requirements Under the Produce Safety Rule — Plant & Pest Advisory",
+          "description": "The assessment only applies to the pre-harvest water.\n Must be a written assessment dated and signed at the beginning of the season, annually or anytime major changes are made to the system or water source. The inspection report can be incorporated into the assessment.\n Parts of the assessment\n  + Location and nature of water source (e.g., ground water/wells, surface water/pond, stream, etc.)\n  + How water is distributed (e.g., underground main, lay flat, canals, etc.) [...] If the operation meets any of the following, they can be exempt from performing a water assessment.\n No untreated surface water applied.\n Untreated groundwater is tested following the protocol for harvest and post-harvest water (four samples the first year for generic E. coli and one sample every year after if no generic E. coli is found).\n Public water system water use.\n Water is treated, monitored and to be of a safe and adequate sanitary quality. [...] # Note:  The following is a brief description of the pre-harvest water requirements (Section 112.3-112.161) under the Food Safety Modernization Act/Produce Safety Rule (FSMA/PSR).  The pre-harvest water requirements are complicated and this summary is intended"
+        },
+        {
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+          "title": "FSMA Final Rule on Pre-Harvest Agricultural Water | FDA",
+          "description": "These requirements reflect recent science, findings from investigations of several produce-related outbreaks, and information and feedback from a variety of stakeholders. The requirements are designed to achieve improved public health protections, while also being more feasible to implement across the wide variety of agricultural water systems, uses, and practices, and adaptable to future advancements in agricultural water quality science. [...] that a known or reasonably foreseeable hazard will be introduced into or onto produce or food contact surfaces. As part of their pre-harvest agricultural water assessments, farms are required to evaluate certain factors (overview below) that could impact produce safety as a result of the use of pre-harvest agricultural water. [...] The final rule establishes requirements for systems-based pre-harvest agricultural water assessments for hazard identification and risk management decision-making. Covered farms - those that are subject to the requirements in the Produce Safety Rule – that use pre-harvest agricultural water for covered produce (other than sprouts) are required to conduct agricultural water assessments once annually, and whenever "
+        },
+        {
+          "url": "https://openknowledge.fao.org/server/api/core/bitstreams/e734ac29-6d43-4f88-9321-7dbda7afa401/content",
+          "title": "Water use of livestock production systems and supply chains",
+          "description": "Recommended citation FAO. 2018. Water use of livestock production systems and supply chains – Guidelines for assessment (Draft for public review). Livestock Environmental Assessment and Performance (LEAP) Partnership. FAO, Rome, Italy. [...] Water use of livestock production systems and supply chains Guidelines for assessment DRAFT FOR PUBLIC REVIEW Water use of livestock production systems and supply chains Guidelines for assessment DRAFT FOR PUBLIC REVIEW The designations employed and the presentation of material in this information product do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations (FAO) concerning the legal or development status of any country, [...] © FAO, 2018 FAO encourages the use, reproduction and dissemination of material in this information product. Except where otherwise indicated, material may be copied, downloaded and printed for private study, research and teaching purposes, or for use in non-commercial products or services, provided that appropriate acknowledgement of FAO as the source and copyright holder is given and that FAO’s endorsement of users’ views, products or services is"
+        }
+      ]
+    },
+    "bab9c27c32d187260ad9d65bcf05d53b83bc1f236b34224c3b183a34f5028cad": {
+      "checked": 1793234039.8759189,
+      "results": [
+        {
+          "url": "https://pubs.extension.wsu.edu/product/wsu-drought-advisory-alfalfa-irrigation-with-reduced-water-supplies",
+          "title": "WSU Drought Advisory: Alfalfa Irrigation with Reduced Water Supplies | WSU Extension Publications | Washington State University",
+          "description": "Skip to site navigation Skip to site navigation Skip to content\n\n Washington State University\n\nWSU Extension Publications\n\n Home\n Shop\n + 4-H\n  + Agriculture\n  + AMDT Apparel and Accessories\n  + Archived\n  + Communities\n  + Economic Development\n  + Energy\n  + Family and Home\n  + Gardening\n  + Health and Wellness\n  + Natural Resources\n  + Pesticide Training Materials\n  + Spanish Publications\n  + WSU Employees & Volunteers\n Contact Us\n\nYour Hub\n\n My Account\n Cart [...] Alfalfa grown for forage in the arid Northwest requires 1.8-acre feet to 3.2-acre feet of water per year, depending on length of the growing season. This drought advisory recommends steps to take in l …\n\nRevised: March 2003\n\nAuthors:\n\n Thomas Ley\n\nHurry! Only left in stock.\n\nView PDF\n\nSKU: EM4824 Category: Archived\n\n## Related publications\n\n 2022 Cost Estimates of Producing, and Packing Fresh-Market Bartlett Pears in South Washington [...] Authors:\n  + Chad Kruger\n  + Georgine Yorgey\n  + Sonia A. Hall"
+        },
+        {
+          "url": "https://newsmediarelations.colostate.edu/2026/06/10/study-examines-crops-that-could-thrive-in-a-water-strapped-future",
+          "title": "Study examines crops that could thrive in a water-strapped ...",
+          "description": "Jun 10, 2026 — growing alfalfa is a safe bet for farmers. Researchers will examine how different management practices influence water consumption by low-water"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0048969725014925",
+          "title": "Reimagining alfalfa as a flexible crop for water security in the Southwestern USA",
+          "description": "of summer deficit irrigation for water conservation and farm and regional agricultural economic viability in rural communities. We acknowledge its practical challenges and risks as it will require infrastructure for water trading, support systems and mechanisms for producer decision-making, and improvements to field-level water accounting. These findings underscore the need to reassess the role of alfalfa in water management, not just as a water-intensive crop but also as a flexible one that [...] Alfalfa has been vilified as one of the thirstiest crops in the semi-arid southwestern USA and partially responsible for decreased water security in the Colorado, Rio Grande and San Joaquin River basins. We demonstrate that adoption of summer deficit irrigation in alfalfa production can yield large water savings and flexibility to adapt to changing water supplies with minimal on-field economic impact. We estimate that deficit irrigation of alfalfa can save 1333 to 4157 million cubic meters of [...] a flexible one that may be a key instrument in achieving agricultural resilience against the backdrop of climate variability and recurring droughts."
+        },
+        {
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+          "title": "FSMA Final Rule on Pre-Harvest Agricultural Water | FDA",
+          "description": "The final rule establishes requirements for systems-based pre-harvest agricultural water assessments for hazard identification and risk management decision-making. Covered farms - those that are subject to the requirements in the Produce Safety Rule – that use pre-harvest agricultural water for covered produce (other than sprouts) are required to conduct agricultural water assessments once annually, and whenever a significant change occurs that increases the likelihood that a known or [...] that a known or reasonably foreseeable hazard will be introduced into or onto produce or food contact surfaces. As part of their pre-harvest agricultural water assessments, farms are required to evaluate certain factors (overview below) that could impact produce safety as a result of the use of pre-harvest agricultural water. [...] Based on findings of their agricultural water assessments, covered farms are required to determine if corrective or mitigation measures are reasonably necessary to reduce the potential for contamination of covered produce (other than sprouts) or food contact surfaces with hazards associated with pre-harvest agricultural water. This includes expedited mitigation measur"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40527265",
+          "title": "Reimagining alfalfa as a flexible crop for water security in ...",
+          "description": "by E Waring · 2025 · Cited by 5 — We estimate that deficit irrigation of alfalfa can save 1333 to 4157 million cubic meters of water annually (16-50 % of total alfalfa water use) ...Read more"
+        }
+      ]
+    },
     "0e4f75608f8b7c2b1f55d4c93eaa1fd6c81699b8b1ceb60750a9ce493e3d9119": {
       "checked": 1793233285.5644145,
       "results": []
@@ -29,7 +84,7 @@
   },
   "monthly_budget": {
     "month": "2026-10",
-    "reserved": 131
+    "reserved": 133
   },
   "secret_values_stored": false
 }

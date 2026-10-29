@@ -2,7 +2,7 @@
   "owned_scoped_family_pilot": false,
   "matrix_pilot": false,
   "research_only": false,
-  "run_id": "40793132965",
+  "run_id": "40794602499",
   "status": "completed",
   "assigned_count": 1,
   "pilot_topic_only": false,
@@ -20,33 +20,8 @@
   ],
   "publication_results": [
     {
-      "status": "stage_completed",
+      "status": "stage_budget_exhausted",
       "stage": "publish",
-      "result": {
-        "post_id": 524204,
-        "url": "https://navar-abyari.ir/preharvest-alfalfa-irrigation-criteria/",
-        "status": "translations_pending",
-        "public_verified": true,
-        "translations": {
-          "ru-RU": {
-            "status": "pending_separate_review"
-          },
-          "ar-IQ": {
-            "status": "regional_research_pending",
-            "reason": "language_requires_independent_regional_research"
-          },
-          "tg-TJ": {
-            "status": "pending_separate_review"
-          },
-          "en-US": {
-            "status": "regional_research_pending",
-            "reason": "language_requires_independent_regional_research"
-          }
-        },
-        "topic_id": "agri-6fc1032cdf42",
-        "published_posts": 0,
-        "newly_verified_post_ids": []
-      },
       "topic_id": "agri-6fc1032cdf42"
     }
   ],
@@ -56,7 +31,7 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-29T00:19:14.739377+00:00",
+  "started_at": "2026-10-29T00:33:01.477928+00:00",
   "staged_rollout": {
     "limit": 1,
     "cohort": [
@@ -79,7 +54,7 @@
       }
     ],
     "manual_verification_required": true,
-    "run_id": "40793132965",
+    "run_id": "40794602499",
     "automatic_promotion": false
   },
   "existing_content_fetch": {
@@ -93,7 +68,7 @@
   "max_text_model_calls": null,
   "max_total_model_calls": 22,
   "timing": {
-    "elapsed_seconds": 130.909,
+    "elapsed_seconds": 107.473,
     "reference_interval_seconds": 300,
     "proposed_interval_seconds": 300,
     "built_validated_families": 1,
@@ -102,22 +77,22 @@
     "completion_definition": "article, required images, reviews and translations validated; publication verified separately",
     "tail_adjustment_observed": false,
     "events": [],
-    "run_id": "40793132965",
+    "run_id": "40794602499",
     "sample_eligible": false,
     "fresh_start": false,
     "verified_complete_families": 0,
     "decision": "invalid_partial_resumed_or_unpublished_sample_no_learning",
     "interval_seconds": 300,
-    "observed_at": "2026-10-29T00:21:25.647706+00:00"
+    "observed_at": "2026-10-29T00:34:48.950977+00:00"
   },
   "source_search": {
     "backend": "tavily",
     "requests_reserved": 0,
     "unknown_requests": 0,
-    "cache_entries": 0,
+    "cache_entries": 4,
     "monthly_budget": {
       "month": "2026-10",
-      "reserved": 127
+      "reserved": 131
     },
     "cooldown_until_epoch": 0.0,
     "secret_values_stored": false
@@ -576,14 +551,14 @@
       },
       {
         "name": "AGNES_API_KEY86",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
       },
       {
         "name": "AGNES_API_KEY87",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
@@ -810,14 +785,16 @@
       {
         "topic_id": "agri-6fc1032cdf42",
         "language": "ar-IQ",
-        "status": "needs_attention",
-        "model_calls": 1
+        "status": "regional_waiting",
+        "model_calls": 1,
+        "semantic_attempts_unchanged": 3
       },
       {
         "topic_id": "agri-6fc1032cdf42",
         "language": "en-US",
-        "status": "needs_attention",
-        "model_calls": 1
+        "status": "regional_waiting",
+        "model_calls": 1,
+        "semantic_attempts_unchanged": 3
       }
     ],
     "model_calls": 2,
@@ -1289,14 +1266,14 @@
         },
         {
           "name": "AGNES_API_KEY88",
-          "used": 2,
+          "used": 3,
           "disabled": 0,
           "kind": null,
           "cooldown_until_epoch": 0.0
         },
         {
           "name": "AGNES_API_KEY89",
-          "used": 2,
+          "used": 3,
           "disabled": 0,
           "kind": null,
           "cooldown_until_epoch": 0.0
@@ -1364,12 +1341,12 @@
     },
     "source_search": {
       "backend": "tavily",
-      "requests_reserved": 4,
+      "requests_reserved": 2,
       "unknown_requests": 0,
-      "cache_entries": 4,
+      "cache_entries": 6,
       "monthly_budget": {
         "month": "2026-10",
-        "reserved": 131
+        "reserved": 133
       },
       "cooldown_until_epoch": 0.0,
       "secret_values_stored": false
@@ -1378,5 +1355,5 @@
   "operational_failures": 0,
   "waiting_families": 0,
   "publication_ready_workers": 1,
-  "completed_at": "2026-10-29T00:21:25.647429+00:00"
+  "completed_at": "2026-10-29T00:34:48.950681+00:00"
 }

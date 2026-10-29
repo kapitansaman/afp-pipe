@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T00:21:25.587516+00:00",
+  "updated_at": "2026-10-29T00:34:48.897823+00:00",
   "items": [
     {
       "topic_id": "agri-6fc1032cdf42",
@@ -8,7 +8,7 @@
       "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
       "status": "needs_attention",
       "attempts": 3,
-      "model_calls_spent": 3,
+      "model_calls_spent": 4,
       "next_attempt_at": null,
       "experimental_only": false,
       "reason": "translation_or_review_needs_another_attempt",
@@ -23,7 +23,7 @@
       "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
       "status": "needs_attention",
       "attempts": 3,
-      "model_calls_spent": 3,
+      "model_calls_spent": 4,
       "next_attempt_at": null,
       "experimental_only": false,
       "reason": "translation_or_review_needs_another_attempt",

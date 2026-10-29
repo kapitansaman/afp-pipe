@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 4,
+  "sources": [
+    {
+      "url": "https://pubs.extension.wsu.edu/product/wsu-drought-advisory-alfalfa-irrigation-with-reduced-water-supplies",
+      "canonical_url": "https://pubs.extension.wsu.edu/product/wsu-drought-advisory-alfalfa-irrigation-with-reduced-water-supplies/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://newsmediarelations.colostate.edu/2026/06/10/study-examines-crops-that-could-thrive-in-a-water-strapped-future",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0048969725014925",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    },
+    {
+      "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+      "canonical_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-pre-harvest-agricultural-water",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40527265",
+      "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/40527265/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.fao.org/4/x0490e/x0490e00.htm",
+      "canonical_url": "https://www.fao.org/4/x0490e/x0490e00.htm",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

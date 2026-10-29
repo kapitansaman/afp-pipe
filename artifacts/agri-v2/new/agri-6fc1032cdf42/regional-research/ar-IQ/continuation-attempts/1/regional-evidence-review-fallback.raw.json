@@ -1,0 +1,67 @@
+{
+  "applicable": false,
+  "no_unsupported_local_prescription": true,
+  "country_limits_retained": true,
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "document_id": "d10-e2",
+      "quote": "Alfalfa also has a unique ability to go into drought-induced dormancy when water is scarce. This feature allows for irrigation to cease at almost any time during the growing season without permanent damage to the stand. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Qualitative physiological fact about alfalfa drought dormancy and growth resumption, observed in western US deficit-irrigation programs; plant biology is species-wide but operational context is US arid-region management",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-region study on drought-induced dormancy timing or recovery under Middle Eastern/North African conditions; however, the claim is a general species-level trait, not a region-specific rate",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": false,
+      "document_id": "d12-e2",
+      "quote": "building deep-stored water reserves in the fall can help your alfalfa next summer during rapid growth when it may be difficult to keep up with peak plant water usage demands. Further, some fields have low water infiltration rates, so irrigating now through November may be the right time for building water reserves",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Fall irrigation through November for deep-water storage in Nebraska, USA; specifically tied to Nebraska growing cycles, frost dates, and low-infiltration-field conditions in the US Midwest/Pacific regions",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-country evidence on optimal fall-irrigation timing for deep water storage in Mediterranean, semi-arid, or Gulf climates; November irrigation timing is irrelevant for countries without frost and with opposite seasonal temperature profiles (e.g., Saudi Arabia, UAE, Kuwait where November is mild), and 'through November' has no operational meaning in tropical/subtropical Arab regions",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": false,
+      "document_id": "d12-e1",
+      "quote": "During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Nebraska, USA seasonal ET rates for alfalfa; 'hot growing season' and 'fall' are US midwest phenological terms not transferable to Arab country calendars and climate regimes",
+      "international_fallback": false,
+      "local_evidence_gap": "No Iraq, Saudi Arabia, Jordan, Egypt, or other regional-country ET-rate data for alfalfa under local climate, soil, and salinity conditions; 0.30 inch/day and 0.10 inch/day are Nebraska-specific observations, and direct numeric transfer to Arab climates with higher VPD, different growing-season length, and variable water salinity is unsupported",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": false,
+      "document_id": "d14-e15",
+      "quote": "Wright (2002) further suggested that on the southern Idaho silt loam soil, accumulated Et should be approximately two inches after the irrigation and prior to the harvest to insure adequate soil drying",
+      "source_kind": "technical_publication",
+      "country": "US",
+      "scope": "Southern Idaho, USA; silt loam soil; pre-harvest soil-drying target of 2 inch ET accumulation measured under western US irrigation and harvest conditions",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-country study confirming 2 inch ET pre-harvest drying target under local soil textures, humidity regimes, wind conditions, or alfalfa cultivars; silt loam in Idaho differs from Iraqi alluvial soils, Jordanian calcareous soils, or Egyptian sandy soils, and 2 inch is a specific numeric prescription with no regional validation",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": true,
+      "document_id": "d12-e1",
+      "quote": "As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, and then resume growth once conditions become favorable again",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Qualitative statement that alfalfa lacks a single critical water-stress growth stage; based on Nebraska observations but describes a general species-level physiological trait",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-region publication explicitly confirming this trait under local conditions, but the claim is a well-established species characteristic, not a region-specific management rate; transfer limitation is minimal because the claim does not prescribe dates, rates, or cultivars",
+      "transfer_limits_retained": true
+    }
+  ]
+}
