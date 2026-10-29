@@ -67,3 +67,11 @@ class ContinuationTests(unittest.TestCase):
    with patch.object(old,'get_topic',return_value=topic),patch('automation.agri_v2.provider_diagnostic.active_cooldown',return_value=None),patch.object(r,'review_candidate',return_value={'approved_facts':[]}),patch('automation.agri_v2.practical_drafting.normalize',return_value=({'content_html':'test'},{})),patch('automation.agri_v2.scoped_research.review_article'),patch.object(r,'review_region'):
     result=c.run(env,data,out,client_factory=Mock(return_value=Mock()),reserve_fn=lambda *a:{'reserved':True})
    self.assertEqual(result['status'],'claim_recheck_ready_for_publication_review');self.assertFalse(result['publication_authorized']);self.assertIn('fresh_authenticated_original_identity_and_bytes',result['next_required_gates'])
+
+ def test_client_initialization_failure_preserves_a_report_and_fences_replay(self):
+  with tempfile.TemporaryDirectory() as t:
+   data,out,topic,env,prior,req=self.setup(t)
+   with patch.object(old,'get_topic',return_value=topic),patch('automation.agri_v2.provider_diagnostic.active_cooldown',return_value=None):
+    result=c.run(env,data,out,client_factory=Mock(side_effect=ValueError('initialization failed')),reserve_fn=lambda *a:{'reserved':True})
+   self.assertEqual(result['status'],'revision_needs_attention');self.assertEqual(result['model_calls'],0);self.assertEqual(result['review_receipts'],0);self.assertTrue(result['originals_unchanged'])
+   self.assertEqual(c.run(env,data,out)['status'],'claim_recheck_already_reserved_no_replay')

@@ -69,11 +69,12 @@ def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None):
   if key.startswith('AFP_WP_') or key in ('AFP_SOURCE_SEARCH_API_KEY','FTP_PASSWORD'):worker.pop(key,None)
  row={'version':1,'request_id':ID,'run_id':env['GITHUB_RUN_ID'],'status':'reserved','started_at':utcnow(),'max_model_calls':LIMIT,'publication_authorized':False,'post_mutations':0,'new_posts':0,'search_requests':0,'writer_calls':0,'original_attempts_reset':False,'input_binding':revision.inputs(data,out),'protected_sha256':digest(before),'prior_model_calls_preserved':9,'uncertain_predecessor_request_preserved':True,'context_annotation_method':'literal_source_bound_seed_pending_independent_review','policy_version':claim_policy.VERSION}
  atomic_json(rp,row);atomic_json(root/'request.json',req)
+ calls=root/'calls'
  try:
   if client_factory is None:
    from .parallel_client import ParallelModelClient
    client_factory=ParallelModelClient
-  client=BoundedReviewClient(client_factory(health,env=worker,allow_calls=True,capabilities=('text',)));calls=root/'calls'
+  client=BoundedReviewClient(client_factory(health,env=worker,allow_calls=True,capabilities=('text',)))
   from .scoped_research import validate_candidate,review_article
   atomic_json(root/'candidate.json',candidate);facts=validate_candidate(topic,candidate,docs)
   brief=revision.review_candidate(topic,candidate,facts,docs,'claim-policy-continuation',client,calls,data,root/'lifecycle-evidence');atomic_json(root/'brief.json',brief)
