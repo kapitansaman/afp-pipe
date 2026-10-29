@@ -68,3 +68,37 @@ both its per-language publication timing and regional proof are ready; the
 publisher still rechecks authenticated source ownership, bytes and all gates.
 Known regional failures are persisted as allowlisted diagnostic codes only,
 never arbitrary exception text, provider responses or credentials.
+
+### Explicit alfalfa source revision (prepare only)
+
+`regional-revision` is a manual, exact-request, one-shot research and article
+preparation mode for `agri-6fc1032cdf42`, bound to original article, brief and
+verified source receipt hashes for post 524204. It does not create or update any
+WordPress post. Its model client receives family-07's fixed text-key assignment,
+not the WordPress secrets. All new artifacts live under
+`regional-revisions/alfalfa-regional-revision-v1`; original source artifacts,
+images, translations, source receipts, counters and rollout state stay intact.
+
+The request permits at most eight receipted text calls and four shared-budget
+Tavily requests: two official Iranian queries first, two international fallback
+queries only after a missing or rejected local evidence pack. Queries are planned
+for alfalfa pre-harvest irrigation specifically, not unrelated food-safety rules.
+The new facts are supported qualitative decision criteria, not inherited foreign
+numeric/calendar instructions. Exact fetched evidence IDs, source policy,
+independent per-fact review, regional-gap/transfer-limit checks, structural writing
+validation, final article evidence/quality audit and a separate Persian regional
+applicability audit must all pass. No missing flag becomes approval.
+
+The original source brief's novelty or publication authorization is not copied
+into the revision brief. Even a successful report is only
+`revision_ready_for_publication_review`, with `publication_authorized:false`.
+Updating the same owned live post still requires an explicit revision transaction,
+fresh authenticated bytes/identity checks, overlap-scope revalidation, image
+binding/visual review, regenerated source-bound translations and public-byte
+verification. This mode does not satisfy or bypass those gates.
+
+A negative scientific result, exhausted budget, uncertain response or interrupted
+reservation stops the one-shot revision. Dispatching again cannot replay it or
+reset the original budgets. Stale capability evidence and active provider
+cooldowns defer before reserving the revision. No schedule or capacity promotion
+is enabled.
