@@ -1,0 +1,40 @@
+{
+  "request_id": "authorized-keyed-regional-compatibility-v1",
+  "run_id": "40921432528",
+  "status": "regional_schema_recheck_blocked",
+  "started_at": "2026-10-29T17:29:12.200840+00:00",
+  "results": [
+    {
+      "language": "ar-IQ",
+      "status": "blocked",
+      "failure": {
+        "kind": "validation",
+        "category": "regional_literal_technical_evidence_required"
+      }
+    },
+    {
+      "language": "en-US",
+      "status": "blocked",
+      "failure": {
+        "kind": "validation",
+        "category": "claim_context_review_required"
+      }
+    }
+  ],
+  "max_model_calls": 2,
+  "search_requests": 0,
+  "source_fetches": 0,
+  "site_calls": 0,
+  "image_calls": 0,
+  "published_posts": 0,
+  "article_edits": 0,
+  "translation_edits": 0,
+  "attempts_reset": false,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "promotion_authorized": false,
+  "model_calls": 2,
+  "request_receipts": 2,
+  "originals_unchanged": true,
+  "completed_at": "2026-10-29T17:29:55.237009+00:00"
+}

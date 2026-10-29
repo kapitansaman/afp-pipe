@@ -1,0 +1,106 @@
+{
+  "applicable": false,
+  "country_limits_retained": false,
+  "fact_checks": {
+    "f0": {
+      "country": "US",
+      "document_id": "s0",
+      "international_fallback": false,
+      "local_evidence_gap": "No local evidence for drought-induced dormancy outside US; requires credible international source",
+      "quote": "WSU Drought Advisory: Alfalfa Irrigation with Reduced Water Supplies",
+      "scope": "USA (Washington State); alfalfa",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": false
+    },
+    "f1": {
+      "country": "US",
+      "document_id": "s1",
+      "international_fallback": false,
+      "local_evidence_gap": "No local evidence for fall irrigation water storage; requires credible international source",
+      "quote": "building deep-stored water reserves in the fall can help your alfalfa next summer during rapid growth",
+      "scope": "USA (Nebraska); alfalfa; fall irrigation",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": false
+    },
+    "f2": {
+      "country": "US",
+      "document_id": "s2",
+      "international_fallback": false,
+      "local_evidence_gap": "No local evidence for seasonal water usage rates; requires credible international source",
+      "quote": "alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day",
+      "scope": "USA (Nebraska); alfalfa; seasonal water usage rates",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": false
+    },
+    "f3": {
+      "country": "US",
+      "document_id": "s3",
+      "international_fallback": false,
+      "local_evidence_gap": "No local evidence for ET requirement pre-harvest; requires credible international source",
+      "quote": "accumulated Et should be approximately two inches after the irrigation and prior to the harvest",
+      "scope": "USA (southern Idaho); alfalfa; silt loam soil",
+      "source_kind": "research_report",
+      "supported": true,
+      "transfer_limits_retained": false
+    },
+    "f4": {
+      "country": "US",
+      "document_id": "s2",
+      "international_fallback": false,
+      "local_evidence_gap": "No local evidence for alfalfa dormancy response; requires credible international source",
+      "quote": "As a perennial plant, alfalfa does not have specific critical growth stages for water stress",
+      "scope": "USA (Nebraska); alfalfa; water stress response",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": false
+    }
+  },
+  "no_unsupported_local_prescription": true,
+  "regional_review_schema_version": 2,
+  "rejection_reasons": [
+    {
+      "article_quote": "در اقلیم‌های غرب ایالات متحده (نبراسکا، آیداهوی جنوبی، یوتا) گزارش شده‌اند",
+      "claim_type": "source_observation",
+      "fact_ids": [
+        "f0",
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ],
+      "flag": "country_limits_retained",
+      "reason": "Article presents US-specific data without geographic limitations; FAQ omits country context for all claims"
+    },
+    {
+      "article_quote": "توجه: این مقادیر برای اقلیم‌های غرب ایالات متحده (نبراسکا، آیداهوی جنوبی، یوتا) گزارش شده‌اند",
+      "claim_type": "source_observation",
+      "fact_ids": [
+        "f2",
+        "f3"
+      ],
+      "flag": "country_limits_retained",
+      "reason": "Numeric values correctly scoped to US western climates but main text presents without limits"
+    },
+    {
+      "article_quote": "مصرف آب یونجه در فصل رشد گرم بیش از 0.30 inch/day و در پاییز حدود 0.10 inch/day است",
+      "claim_type": "source_observation",
+      "fact_ids": [
+        "f2"
+      ],
+      "flag": "no_unsupported_local_prescription",
+      "reason": "Claim correctly identified as US observation but article lacks local applicability evidence for non-US readers"
+    },
+    {
+      "article_quote": "در خاک‌های silt loam جنوب آیداهو، حدود 2 inch ET تجمعی پس از آبیاری و پیش از برش برای خشک شدن کافی خاک گزارش شده است",
+      "claim_type": "source_observation",
+      "fact_ids": [
+        "f3"
+      ],
+      "flag": "no_unsupported_local_prescription",
+      "reason": "Specific soil and geography limitation retained but presented without adequate transfer warnings"
+    }
+  ]
+}

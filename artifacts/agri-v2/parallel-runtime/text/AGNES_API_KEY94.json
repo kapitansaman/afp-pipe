@@ -4,10 +4,10 @@
   "kind": "text",
   "slot": "AGNES_API_KEY94",
   "model": "agnes-2.5-flash",
-  "verified_at": "2026-10-29T07:32:13.972975+00:00",
+  "verified_at": "2026-10-29T17:29:54.608861+00:00",
   "verification": "actual_successful_parallel_response",
   "family_id": "isolated-infrastructure-probe",
-  "topic_id": "agri-96d735d5bd11",
+  "topic_id": "agri-6fc1032cdf42-en-US",
   "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
   "assigned_key_slots": [
     "AGNES_API_KEY81",

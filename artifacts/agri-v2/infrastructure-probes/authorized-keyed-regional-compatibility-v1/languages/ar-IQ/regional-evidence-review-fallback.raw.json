@@ -1,0 +1,64 @@
+{
+  "applicable": true,
+  "country_limits_retained": true,
+  "fact_checks": {
+    "f0": {
+      "country": null,
+      "document_id": "s3",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-country evidence loaded; not needed—claim is a well-established physiological general principle supported by US source.",
+      "quote": "General considerations for deficit irrigation of the major forage crops alfalfa, small grain forage, corn silage, and teff grass hay will be discussed, followed by recent research results. Alfalfa Alfalfa is naturally drought tolerant. Its lengthy root systems can reach over 15 feet deep... Alfalfa also has a unique ability to go into drought-induced dormancy when water is scarce. This feature allows for irrigation to cease at almost any time during the growing season without permanent damage to the stand...",
+      "scope": "US university extension; alfalfa; qualitative dormancy principle; no local Arab prescription.",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f1": {
+      "country": null,
+      "document_id": "s1",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-country evidence; claim is a US-observed management note, not a local prescription.",
+      "quote": "Conversely, building deep-stored water reserves in the fall can help your alfalfa next summer during rapid growth when it may be difficult to keep up with peak plant water usage demands. Further, some fields have low water infiltration rates, so irrigating now through November may be the right time for building water reserves.",
+      "scope": "UNL CropWatch, Nebraska, USA; alfalfa; fall irrigation for deep-water storage; not a rate or date prescription for Arab countries.",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f2": {
+      "country": null,
+      "document_id": "s1",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-country measurements; values are Nebraska-specific observations and must remain labeled as such.",
+      "quote": "During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day.",
+      "scope": "Nebraska, USA; alfalfa; seasonal water-usage rates, not cutoff thresholds; numeric values preserved with geographic scope.",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f3": {
+      "country": null,
+      "document_id": "s3",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-country ET-measurement data loaded; claim is a southern Idaho observation and is not generalized beyond its soil and region.",
+      "quote": "Wright (2002) further suggested that on the southern Idaho silt loam soil, accumulated Et should be approximately two inches after the irrigation and prior to the harvest to insure adequate soil drying.",
+      "scope": "southern Idaho, USA; silt loam soil; alfalfa; accumulated ET ≈ 2 inches before harvest; clearly bounded.",
+      "source_kind": "research_report",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f4": {
+      "country": null,
+      "document_id": "s1",
+      "international_fallback": false,
+      "local_evidence_gap": "No Arab-country evidence; this is a general physiological principle about alfalfa, supported by a US source.",
+      "quote": "As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, and then resume growth once conditions become favorable again.",
+      "scope": "UNL CropWatch, Nebraska, USA; alfalfa; qualitative dormancy principle; not a local irrigation-date prescription.",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    }
+  },
+  "no_unsupported_local_prescription": true,
+  "regional_review_schema_version": 2,
+  "rejection_reasons": []
+}

@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "8dbc5282cd7bb92c031680705c514e8a796fa0c15ac9ecd3b9d4d1bed567673d",
+  "max_calls": 1,
+  "response_adapter": "regional-keyed-facts-v1",
+  "response_schema_sha256": "7aef068f352f3aa6adcbc06a8dd135faa9d80d6e356bf446d6d6cd68427d1094",
+  "status": "received",
+  "raw_sha256": "784be8c6f0d82f705963feabed80966032e688e73a2b6c7cdd9770c5c830699d",
+  "at": "2026-10-29T17:29:37.425216+00:00",
+  "canonical_sha256": "87c4cee90ab4a2d7d3b39d7775f2de74d64e5a9400fd9add27ba36ccaf6302b6"
+}
