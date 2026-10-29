@@ -1,7 +1,7 @@
 import base64,hashlib,unittest
 from unittest.mock import Mock
 from automation.agri_v2 import media_policy as m,image_quality as q
-from automation.agri_v2.client import ModelClient
+from automation.agri_v2.client import ModelClient,CapabilityError
 class TopicRoutedSceneTests(unittest.TestCase):
  def test_original_reference_bytes_no_layout_canvas(self):
   original=base64.b64decode((m.ASSETS/'afp-tape.webp.b64').read_text())
@@ -21,7 +21,7 @@ class TopicRoutedSceneTests(unittest.TestCase):
   self.assertNotEqual(hashlib.sha256(m.reference_images(3,topic)[0].encode()).digest(),hashlib.sha256(m.reference_images()[0].encode()).digest())
  def test_reviewer_uses_topic_contract_not_role_alone(self):
   c=object.__new__(ModelClient);c.request=Mock(return_value={'choices':[{'message':{'content':'{}'}}]})
-  c.review_image(b'fixture',{'title':'برداشت لوبیا چیتی','crop':'لوبیا چیتی'},3)
+  with self.assertRaises(CapabilityError):c.review_image(b'fixture',{'title':'برداشت لوبیا چیتی','crop':'لوبیا چیتی'},3)
   prompt=c.request.call_args.args[2]['messages'][1]['content'][0]['text']
   self.assertIn('"hardware_required": false',prompt);self.assertIn('only when hardware_required=true',prompt)
  def test_new_policy_keeps_strict_critical_threshold(self):

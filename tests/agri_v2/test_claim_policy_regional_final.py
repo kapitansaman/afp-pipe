@@ -5,7 +5,10 @@ from automation.agri_v2.queue import DATA,OUT,load_json,atomic_json
 import test_claim_policy_continuation as fixtures
 
 class RegionalFinalTests(unittest.TestCase):
- def request(self):return load_json(DATA/'alfalfa-claim-policy-regional-final-request.json')
+ def request(self):
+  req=load_json(DATA/'alfalfa-claim-policy-regional-final-request.json');req['code_binding']=c.code_binding();return req
+ def test_historical_request_is_not_reauthorized_by_new_code(self):
+  with self.assertRaisesRegex(ValueError,'code_changed'):c.validate(load_json(DATA/'alfalfa-claim-policy-regional-final-request.json'),DATA,OUT)
  def test_real_saved_reviews_revalidate_without_any_network_or_model(self):
   article,brief,docs,topic=c.validate(self.request(),DATA,OUT)
   self.assertFalse(brief['publish_authorized']);self.assertEqual(len(brief['approved_facts']),4)

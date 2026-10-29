@@ -70,7 +70,8 @@ class ImageQualityTests(unittest.TestCase):
   result=Image.open(io.BytesIO(render_image(obj,require_landscape=True)));self.assertGreater(result.getpixel((50,660))[0],220);self.assertLess(result.getpixel((50,660))[1],60)
  def test_vision_review_has_one_http_attempt_and_closed_package_check(self):
   from automation.agri_v2.client import ModelClient
-  c=object.__new__(ModelClient);c.request=Mock(return_value={'choices':[{'message':{'content':json.dumps(self.good())}}]})
+  value=self.good();value.update(review_contract='visual-observations-v1',observations={k:{'outcome':'pass','observation':'Visible candidate feature checked independently.'} for k in q.CHECKS})
+  c=object.__new__(ModelClient);c.request=Mock(return_value={'choices':[{'message':{'content':json.dumps(value)}}]})
   c.review_image(b'fixture',self.topic(),2);self.assertEqual(c.request.call_args.kwargs['attempts'],1);self.assertIn('packaging_closed_no_protruding_material',str(c.request.call_args))
  def test_wordpress_no_new_post_or_upload_for_unreviewed_images(self):
   from automation.agri_v2.wordpress import WordPress
