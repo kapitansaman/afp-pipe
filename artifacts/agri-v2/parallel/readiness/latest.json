@@ -1,8 +1,10 @@
 {
-  "status": "readiness_checked",
-  "checked_at": "2026-10-28T05:21:22.560257+00:00",
-  "technical_ready": true,
-  "blockers": [],
+  "status": "readiness_blocked",
+  "checked_at": "2026-10-29T07:35:29.823155+00:00",
+  "technical_ready": false,
+  "blockers": [
+    "family_owned_image_capacity"
+  ],
   "gates": {
     "configured_capacity": {
       "passed": true,
@@ -33,7 +35,7 @@
       "detail": "Each family needs its own fresh text-capable credential; global healthy count is insufficient"
     },
     "family_owned_image_capacity": {
-      "passed": true,
+      "passed": false,
       "detail": "Each family needs its own actual fresh image proof; no borrowing from central/other families"
     },
     "authenticated_publisher": {
@@ -59,6 +61,10 @@
     "work_remaining_with_budget": {
       "passed": true,
       "detail": "Do not repeatedly launch only blocked or exhausted work"
+    },
+    "staged_rollout_integrity": {
+      "passed": true,
+      "detail": "Current staged limit is enforced independently of total configured capacity"
     }
   },
   "warnings": [
@@ -66,20 +72,21 @@
     "Fresh text/image health expires after 24h. Manual role-bound daily capability renewal is available; unattended renewal is not enabled.",
     "Worker subprocess timeout is 900s; image requests may each take 600s. A full family may checkpoint/defer across Actions.",
     "A full first 20-family end-to-end run has not been demonstrated by offline concurrency tests.",
-    "Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency."
+    "Source deficiencies, rejected overlap reviews and exhausted stage budgets are not repaired by increasing schedule frequency.",
+    "Current admission limit is 1 families. Fresh 20-family capacity is not permission to bypass manual 1 -> 3 -> 20 acceptance."
   ],
   "families": [
     {
       "family_id": "family-01",
-      "topic_id": "agri-c2151ad96659",
+      "topic_id": "agri-ab20ad20b271",
       "next_stage": "research_extract",
       "reason": "saved_evidence_declares_insufficient_scope",
-      "attempts": 2,
+      "attempts": 1,
       "retry_exhausted": false
     },
     {
       "family_id": "family-02",
-      "topic_id": "agri-ed19dd100ebc",
+      "topic_id": "agri-cf0dbf17b1cd",
       "next_stage": "research_sources",
       "reason": null,
       "attempts": 0,
@@ -87,79 +94,79 @@
     },
     {
       "family_id": "family-03",
-      "topic_id": "agri-3c1cdef82c04",
-      "next_stage": "research_review",
-      "reason": null,
-      "attempts": 2,
-      "retry_exhausted": false
-    },
-    {
-      "family_id": "family-04",
-      "topic_id": "agri-cd64428568cb",
-      "next_stage": "research_extract",
-      "reason": "saved_evidence_declares_insufficient_scope",
-      "attempts": 1,
-      "retry_exhausted": false
-    },
-    {
-      "family_id": "family-05",
-      "topic_id": "agri-621734b38aa9",
-      "next_stage": "text",
-      "reason": null,
-      "attempts": 3,
-      "retry_exhausted": true
-    },
-    {
-      "family_id": "family-06",
-      "topic_id": "agri-382a9f28f635",
-      "next_stage": "research_extract",
-      "reason": "saved_evidence_declares_insufficient_scope",
-      "attempts": 2,
-      "retry_exhausted": false
-    },
-    {
-      "family_id": "family-07",
-      "topic_id": "agri-f2b95250ac75",
-      "next_stage": "research_review",
-      "reason": null,
-      "attempts": 2,
-      "retry_exhausted": false
-    },
-    {
-      "family_id": "family-08",
-      "topic_id": "agri-6aaba20b13cf",
+      "topic_id": "agri-4b687f285cda",
       "next_stage": "research_discover",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
+      "family_id": "family-04",
+      "topic_id": "agri-5b193f221639",
+      "next_stage": "research_refetch",
+      "reason": null,
+      "attempts": 0,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-05",
+      "topic_id": "agri-f1c910dbcc81",
+      "next_stage": "research_refetch",
+      "reason": null,
+      "attempts": 0,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-06",
+      "topic_id": "agri-e3a66b5b76f2",
+      "next_stage": "research_refetch",
+      "reason": null,
+      "attempts": 0,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-07",
+      "topic_id": "agri-6fc1032cdf42",
+      "next_stage": "publish",
+      "reason": null,
+      "attempts": 3,
+      "retry_exhausted": true
+    },
+    {
+      "family_id": "family-08",
+      "topic_id": "agri-357023cf27d6",
+      "next_stage": "research_extract",
+      "reason": null,
+      "attempts": 1,
+      "retry_exhausted": false
+    },
+    {
       "family_id": "family-09",
-      "topic_id": "agri-71be4981f446",
-      "next_stage": "research_discover",
+      "topic_id": "agri-b1f8c76a39ac",
+      "next_stage": "research_refetch",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-10",
-      "topic_id": "agri-604dc7bdda3f",
-      "next_stage": "research_sources",
+      "topic_id": "agri-d5b18796a0dd",
+      "next_stage": "research_refetch",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-11",
-      "topic_id": "agri-4e351a4fbdee",
-      "next_stage": "research_discover",
-      "reason": null,
-      "attempts": 0,
+      "topic_id": "agri-c4e597765067",
+      "next_stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts": 1,
       "retry_exhausted": false
     },
     {
       "family_id": "family-12",
-      "topic_id": "agri-fcc69d8bfd95",
+      "topic_id": "agri-eb33d350e521",
       "next_stage": "research_discover",
       "reason": null,
       "attempts": 0,
@@ -167,66 +174,66 @@
     },
     {
       "family_id": "family-13",
-      "topic_id": "agri-dc60868225b6",
-      "next_stage": "research_extract",
-      "reason": "saved_evidence_declares_insufficient_scope",
-      "attempts": 1,
+      "topic_id": "agri-46cf2473ba02",
+      "next_stage": "research_refetch",
+      "reason": null,
+      "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-14",
-      "topic_id": "agri-887448ed952f",
+      "topic_id": "agri-4e0b195e7205",
+      "next_stage": "research_refetch",
+      "reason": null,
+      "attempts": 0,
+      "retry_exhausted": false
+    },
+    {
+      "family_id": "family-15",
+      "topic_id": "agri-adc9b5a7dea9",
       "next_stage": "research_review",
       "reason": null,
       "attempts": 1,
       "retry_exhausted": false
     },
     {
-      "family_id": "family-15",
-      "topic_id": "agri-bbdf8ae354bd",
-      "next_stage": "research_extract",
-      "reason": "saved_evidence_declares_insufficient_scope",
-      "attempts": 2,
-      "retry_exhausted": false
-    },
-    {
       "family_id": "family-16",
-      "topic_id": "agri-7dd8dae22417",
-      "next_stage": "text",
+      "topic_id": "agri-c4ef63638756",
+      "next_stage": "research_refetch",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-17",
-      "topic_id": "agri-d52cdebf818e",
-      "next_stage": "text",
+      "topic_id": "agri-d5602a1f5f63",
+      "next_stage": "research_sources",
       "reason": null,
       "attempts": 0,
       "retry_exhausted": false
     },
     {
       "family_id": "family-18",
-      "topic_id": "agri-18ff41bec566",
-      "next_stage": "research_discover",
-      "reason": null,
-      "attempts": 0,
+      "topic_id": "agri-cdc40b2b322b",
+      "next_stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts": 1,
       "retry_exhausted": false
     },
     {
       "family_id": "family-19",
-      "topic_id": "agri-94ece8be9fb2",
-      "next_stage": "research_extract",
-      "reason": "saved_evidence_declares_insufficient_scope",
-      "attempts": 2,
+      "topic_id": "agri-dcc54746b3e8",
+      "next_stage": "existing_content_audit-000",
+      "reason": null,
+      "attempts": 1,
       "retry_exhausted": false
     },
     {
       "family_id": "family-20",
-      "topic_id": "agri-1c9df68c91c1",
-      "next_stage": "research_review",
+      "topic_id": "agri-b914a783ffdd",
+      "next_stage": "existing_content_audit-001",
       "reason": null,
-      "attempts": 1,
+      "attempts": 2,
       "retry_exhausted": false
     }
   ],
@@ -880,6 +887,430 @@
       ],
       "prior_attempts_reset": false,
       "previous_family_id": "family-18"
+    },
+    "agri-c2151ad96659": {
+      "topic_id": "agri-c2151ad96659",
+      "title": "راهنمای ارزیابی کیفیت بذر لوبیا چیتی پیش از خرید و کاشت",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40637634935",
+      "deferred_at": "2026-10-28T05:36:22.192804+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "4a90ad4ffc93e2394eb8b795110da7cfbc45abd0185a9056cf85c0d702c97a47",
+        "sources.json": "b3caaa39906b4fb2ec6a24a04ce0b0bc6200f19cea9439f2d0fd7257998d1fe3",
+        "candidate-raw.json": "1906c38e8495db284049ff0a63b2b861e2c2828aa398020171edd6889d4a3dc3",
+        "state.json": "dd50163ce778f058dc425bacbb626da278792595ee8ea6a6c9a9178a1920bf67"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-01"
+    },
+    "agri-382a9f28f635": {
+      "topic_id": "agri-382a9f28f635",
+      "title": "عمق کاشت بذر کدو آجیلی در خاک سبک و سنگین؛ خطاهای رایج",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40637634935",
+      "deferred_at": "2026-10-28T05:36:22.208883+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "cc2c30ae5ee02b88a7a1f21720198eed606f14d4c8ddfce3098b790e2e7412ee",
+        "sources.json": "2eeb8867533e69854dec3e9e5df54e67523f7bb8670324255e619b5f3e709124",
+        "candidate-raw.json": "9cd10c4a7ec0c2d4e222c197e16aafa8836873eec5e894b92c874cf41e5d4758",
+        "state.json": "e6eb97730e05d666faa8e071412756bd84dc1cbda6519a4b6f3f8621a60e014f"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-06"
+    },
+    "agri-bbdf8ae354bd": {
+      "topic_id": "agri-bbdf8ae354bd",
+      "title": "مدت هر نوبت آبیاری کدو آجیلی با تیپ؛ محاسبه از دبی واقعی و نیاز آب",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40637634935",
+      "deferred_at": "2026-10-28T05:36:22.219652+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "5c95eb52096c9694ef21a438e18d0ba858641b37290f24e62a44acf74393a656",
+        "sources.json": "d21c8302041de921f008dd7b9bc272e554c6d20ece3819f7b6087de11187048b",
+        "candidate-raw.json": "8ae3da917153b1718ff1bcf7173353b82cc2ba489677d1fb7a2a2d8e1293ba59",
+        "state.json": "af0e1ef38ebd5c86eb1ea244ed58c3e5df98392c0c7487853d5482b0aad72c7c"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-15"
+    },
+    "agri-cd64428568cb": {
+      "topic_id": "agri-cd64428568cb",
+      "title": "نیاز آبی لوبیا چیتی در فصل؛ برآورد حجم آب با اقلیم و مرحله رشد",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.342423+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "990c6569212eab0fc3dfdc3b30c6f231d74aa3dd2c52c70661751f527de1235d",
+        "sources.json": "9e760fc2c15cee422f16a92f9ed44f07b8cf4f759d6ddeef38fb3106f442193a",
+        "candidate-raw.json": "5d10853b5d06c1daefc8459461ba0a077af08633a821b627d3d629f523675326",
+        "state.json": "f37ba985063068cc92064c388bd4dfcc858d0e4dfe4efbd9c32b2c298333df3c"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-04"
+    },
+    "agri-71be4981f446": {
+      "topic_id": "agri-71be4981f446",
+      "title": "برآورد عملکرد کدو آجیلی پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.346080+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "ab77181e0e1417698651c4fcb7f8d93baa8c0215e95b2bb0df7f414465f95716",
+        "sources.json": "486bb6e5bd2e3b81d7fe8d2b2bdd40a9af1cd0888dd4bb44fab107ca3eab16f5",
+        "candidate-raw.json": "95aefd7249c6c61215b9b6c5afe1fcb4a0c2515dc79cdbf568c1f52720b379ad",
+        "state.json": "17763cf62ececd41677d1804e451854b659eec2d435336ac408adec0c5f6a569"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-09"
+    },
+    "agri-fcc69d8bfd95": {
+      "topic_id": "agri-fcc69d8bfd95",
+      "title": "مقدار بذر کدو آجیلی در هکتار؛ محاسبه با تراکم و درصد جوانه‌زنی",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.347629+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "82e7c037740eb1159318741ede59da8269ca48d58c1849bda0043640cd08671e",
+        "sources.json": "33b78132c045bfacfc326f4b77ac8bae04dcb040dc153ae7aa7db70e8fb187c0",
+        "candidate-raw.json": "2b6c962866eb3d03e0ac01d1ef3e86d572d398d7bde827708890c5861779e157",
+        "state.json": "ed3614febe4064a8c8697c78a20988bf315f9b6a7bb04cc75de5de047efa5ac6"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-12"
+    },
+    "agri-dc60868225b6": {
+      "topic_id": "agri-dc60868225b6",
+      "title": "مراحل حساس کدو آجیلی به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.348548+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "18b4d4269d127a7aa1275d158778c3fc4c0ee777b34f3b461c29d88c00f2aa83",
+        "sources.json": "2200e469f9e766dfad3272dbb8fdfe9cc7ae1b1fda3f2c6f8e109aa791e98e0b",
+        "candidate-raw.json": "98af83ca92c912371091d72d8b094794050c49a99b747f53c173c4c822638e1a",
+        "state.json": "5318f5d7bc0bcbf54de6718bbcc52e2d47137089b95f071f2c4ee8f2c0b55461"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-13"
+    },
+    "agri-18ff41bec566": {
+      "topic_id": "agri-18ff41bec566",
+      "title": "پایش رطوبت خاک در مزرعه کدو آجیلی؛ انتخاب محل و عمق حسگر",
+      "status": "awaiting_research_repair",
+      "kind": "evidence_preparation_exhausted",
+      "stage": "research_extract",
+      "reason": "saved_evidence_declares_insufficient_scope",
+      "attempts_preserved": 3,
+      "last_run_id": "40641934753",
+      "deferred_at": "2026-10-28T06:15:39.355333+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "deee1dc6427e858f8babcc0dc40ee30051e5b8424e3687ba8e3d9a5e1f7e4952",
+        "sources.json": "924a95ae528c2d8e1c5312ec3507e6b0e70eaee66d8c4ebd2aa46e45cb69e9e5",
+        "candidate-raw.json": "4e1b040b6ed568edc3d5d956d176134d3cb4545f6c4b55b76615be643d314c86",
+        "state.json": "48035cd1f8c77cda52ee660b551eab4b1a6546bbf1009e67b6e0821d814c5a22"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-18"
+    },
+    "agri-cfaae7290b88": {
+      "topic_id": "agri-cfaae7290b88",
+      "title": "مراحل حساس یونجه به کم‌آبی؛ اولویت‌بندی آب در طول رشد",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.321405+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "da8e982e05fb05589beab9e378dbf2d35ec4f78745020b3808ec80cc6d51ebab",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "18406f267f7aaf9511c2d55632ee203bb62dcad12e24c4aeac144df14f3c5b8a",
+        "state.json": "e5028e2c0a7989546f47289033a3528754363c522a188acead9056c1c877a72f",
+        "model-source-refetch.json": "51567fc135064508499a469f4eacdc1f3c494992685583f0bdae5cfd49eafe0f"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-01"
+    },
+    "agri-ed19dd100ebc": {
+      "topic_id": "agri-ed19dd100ebc",
+      "title": "چرا بذر یونجه سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.323809+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "f4e638269bbabea6966a4d5562be69e5e5ee7fe3a2d81b2f252c47903fbc30fe",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "5c8c7441dbfec962dce9ab71b8794a5f98ad053b3b5667649939cd68eb82b595",
+        "state.json": "3f357958f81c7b6ae21c26b4f4eeb6b152ac1d90df9bae6873502964de5d8f0d",
+        "model-source-refetch.json": "cb36dfe0eabc52578e75edb633dfb3ac00dc147800142ffed78ddc6ca20312a1"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-02"
+    },
+    "agri-108b007ce25b": {
+      "topic_id": "agri-108b007ce25b",
+      "title": "مدیریت یونجه بعد از چین؛ آبیاری و تغذیه برای رشد مجدد",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.326533+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "e04f172f2a8e683da0550713c5f1cdf4cbb9ef17b9ed6c647ca1ae46274ce847",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "9abb493b9783e4db87c079bc935b8769fa9c8444197dbbe8ce8c0951d0b9c848",
+        "state.json": "8ada16fc2c35463ee81ba7444e357aab4d5fd410fd3d610b20b0772f94242114",
+        "model-source-refetch.json": "9d694b47e969f4672e43ab94a661282904e88a4d40ce0e4d0d20d1474d6ca56b"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-04"
+    },
+    "agri-bdab41123a06": {
+      "topic_id": "agri-bdab41123a06",
+      "title": "تنظیم آبیاری یونجه پس از بارندگی؛ چه زمانی دوباره آب بدهیم؟",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.349474+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "b02a544f4a0f01a3cb7b2712a61fb9166d55119ac95e83dbce39b42e5f220391",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "93212397c0fcc7b62577d377fbb78b3a66989efdba0dc64374eb34823be85a45",
+        "state.json": "5365397958489148d0be0346eeb5fa759cd47f46723003f2042cf2e8d0189182",
+        "model-source-refetch.json": "bb1ef67184534c2294e5c65c1c085323941676822882b9fd1c867e1027c42ff2"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-15"
+    },
+    "agri-e1268545eb02": {
+      "topic_id": "agri-e1268545eb02",
+      "title": "چرا بذر نخود سبز نمی‌شود؟ بررسی دما، رطوبت و سله خاک",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40663668445",
+      "deferred_at": "2026-10-28T09:27:01.353613+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "d181c541abdd8b569e3453b0ea780339323332c60ebac12aa0bad028b662c2c4",
+        "sources.json": "2e9aa910874241dd79f49adfca35fb482d9f076c9202736399a96b869951b5a5",
+        "candidate-raw.json": "da83b0ffe2f2b8d161d731c5051eed48fdd320842c2ce69d0410d1386268de02",
+        "state.json": "95223dca860a77dac10b00fee9ce19c16e557c2fbab2b1ca49d0c07b40ec4beb",
+        "model-source-refetch.json": "932a70e4e863ca678df91444eecfbe2583c9bf234160a3fdd31bddbe49c15157"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-18"
+    },
+    "agri-6d0759f7e898": {
+      "topic_id": "agri-6d0759f7e898",
+      "title": "پایش رطوبت خاک در مزرعه یونجه؛ انتخاب محل و عمق حسگر",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40673536160",
+      "deferred_at": "2026-10-28T10:50:52.216166+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "0dd2148958402254fa8ade43a4c365f4af54d035444949575184b89367144e70",
+        "sources.json": "0039ebd8a9515a75ee8090df1340c680cce87552609bbee4642331f4ca2ebf51",
+        "candidate-raw.json": "3d558bbdea162813eed5a260f9ad15ebd53bcb05fc739728c1c373a2dfe37414",
+        "state.json": "0b48da79c42b79e168c0cbe0cef0c458692630763d3451481d263bd730f551a5",
+        "model-source-refetch.json": "a6bce1d90fb31476f68bbeaea192bbc3daccce0c2af79abc366dd35fd5b3cee2"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-12"
+    },
+    "agri-d7002ebd800c": {
+      "topic_id": "agri-d7002ebd800c",
+      "title": "آخرین آبیاری نخود پیش از برداشت؛ معیارهای قطع و کاهش آب",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40673536160",
+      "deferred_at": "2026-10-28T10:50:52.219939+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "efa68dc301f0e3783b57c88b2b144dfb7c7a95f86059716bc41a9e0e43b675a2",
+        "sources.json": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+        "candidate-raw.json": "8edfba8a80a8950f8386d0c185e4ae120041515ce0cc1295a63aaaf88207789b",
+        "state.json": "8fceb064cf9ee317ea6c1ea7d5c99f6aa2ffb98cb184e1ffedd5885f2c9bc350",
+        "model-source-refetch.json": "e56d996ed14e566b9424910db90413f680c7f117315b85f2b408ebac43353333"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-19"
+    },
+    "agri-465d6abf0e91": {
+      "topic_id": "agri-465d6abf0e91",
+      "title": "برآورد عملکرد نخود پیش از برداشت؛ روش نمونه‌برداری در مزرعه",
+      "status": "awaiting_research_repair",
+      "kind": "bounded_source_coverage_exhausted",
+      "stage": "research_refetch",
+      "reason": "bounded_search_coverage_incomplete",
+      "attempts_preserved": 1,
+      "last_run_id": "40677034551",
+      "deferred_at": "2026-10-28T11:16:15.478586+00:00",
+      "evidence_fingerprints": {
+        "source-discovery-report.json": "5d5870a86393e645cf9df97f35a0973131df741a04aaa1430e94b406e5e75cfc",
+        "sources.json": "38f17fea1afd3b3b53340743b328ea4484108b319d8e8c450dd50a0b92f43ed9",
+        "candidate-raw.json": "82f68806652d960e774af3d6e92674aeec4dc666e4f4202c0c9972eb358db1a3",
+        "state.json": "3ed642c46ab634767dc752e0cc404d60916d82b5f7f2fd44f539ab00ac36ac00",
+        "model-source-refetch.json": "ce18731f68d7781165f7d4ce05aa5f183b093bb3362ead3f50b62602fcbc8e94"
+      },
+      "publication_authorized": false,
+      "automatic_retry_authorized": false,
+      "return_requirements": [
+        "new_verified_relevant_evidence",
+        "explicit_valid_attempt_authorization",
+        "all_original_quality_and_overlap_gates"
+      ],
+      "prior_attempts_reset": false,
+      "previous_family_id": "family-02"
     }
   },
   "model_calls": 0,
@@ -902,9 +1333,7 @@
           "AGNES_API_KEY2",
           "AGNES_API_KEY3"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY4"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-02",
@@ -919,9 +1348,7 @@
           "AGNES_API_KEY6",
           "AGNES_API_KEY7"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY8"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-03",
@@ -936,9 +1363,7 @@
           "AGNES_API_KEY10",
           "AGNES_API_KEY11"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY12"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-04",
@@ -953,9 +1378,7 @@
           "AGNES_API_KEY14",
           "AGNES_API_KEY15"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY16"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-05",
@@ -970,9 +1393,7 @@
           "AGNES_API_KEY18",
           "AGNES_API_KEY19"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY20"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-06",
@@ -987,9 +1408,7 @@
           "AGNES_API_KEY22",
           "AGNES_API_KEY23"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY24"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-07",
@@ -1021,9 +1440,7 @@
           "AGNES_API_KEY30",
           "AGNES_API_KEY31"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY32"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-09",
@@ -1038,9 +1455,7 @@
           "AGNES_API_KEY34",
           "AGNES_API_KEY35"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY36"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-10",
@@ -1055,9 +1470,7 @@
           "AGNES_API_KEY38",
           "AGNES_API_KEY39"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY40"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-11",
@@ -1072,9 +1485,7 @@
           "AGNES_API_KEY42",
           "AGNES_API_KEY43"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY44"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-12",
@@ -1086,11 +1497,10 @@
         ],
         "eligible_text_slots": [
           "AGNES_API_KEY45",
-          "AGNES_API_KEY46"
+          "AGNES_API_KEY46",
+          "AGNES_API_KEY47"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY48"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-13",
@@ -1105,9 +1515,7 @@
           "AGNES_API_KEY50",
           "AGNES_API_KEY51"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY52"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-14",
@@ -1122,9 +1530,7 @@
           "AGNES_API_KEY54",
           "AGNES_API_KEY55"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY56"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-15",
@@ -1139,9 +1545,7 @@
           "AGNES_API_KEY58",
           "AGNES_API_KEY59"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY60"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-16",
@@ -1156,9 +1560,7 @@
           "AGNES_API_KEY62",
           "AGNES_API_KEY63"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY64"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-17",
@@ -1190,9 +1592,7 @@
           "AGNES_API_KEY70",
           "AGNES_API_KEY71"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY72"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-19",
@@ -1207,9 +1607,7 @@
           "AGNES_API_KEY74",
           "AGNES_API_KEY75"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY76"
-        ]
+        "proven_image_slots": []
       },
       {
         "family_id": "family-20",
@@ -1224,9 +1622,7 @@
           "AGNES_API_KEY78",
           "AGNES_API_KEY79"
         ],
-        "proven_image_slots": [
-          "AGNES_API_KEY80"
-        ]
+        "proven_image_slots": []
       }
     ],
     "central_slots": [
@@ -1249,5 +1645,17 @@
       "AGNES_API_KEY97"
     ],
     "automatic_family_fallback": false
+  },
+  "staged_rollout": {
+    "limit": 1,
+    "cohort": [
+      {
+        "topic_id": "agri-6fc1032cdf42",
+        "family_id": "family-07",
+        "title_sha256": "9614916e47946e2b7e3e6cdfc3166dff4fa91e19b1dc9563557fc4fdd47650e9"
+      }
+    ],
+    "automatic_promotion": false,
+    "manual_verification_required": true
   }
 }
