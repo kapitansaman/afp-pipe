@@ -21,8 +21,12 @@ def policy(env=None,data=DATA):
 
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
- if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup'):raise ValueError('Non-publication phase required')
- if phase=='capability-followup':
+ if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck'):raise ValueError('Non-publication phase required')
+ if phase=='claim-policy-recheck':
+  from .claim_policy_recheck import ID
+  if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual claim-policy recheck required')
+  expected=ID
+ elif phase=='capability-followup':
   if request_id!='family09-image-followup-v1' or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch':raise ValueError('Exact manual one-shot diagnostic required')
   expected=request_id
  elif phase=='capability':

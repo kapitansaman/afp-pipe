@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-claim-policy-recheck-v1",
+  "topic_id": "agri-6fc1032cdf42",
+  "source_post_id": 524204,
+  "prepare_authorized": true,
+  "publication_authorized": false,
+  "max_model_calls": 4,
+  "max_search_requests": 0,
+  "max_runs": 1,
+  "reset_original_attempts": false,
+  "policy_version": "claim-context-research-v1",
+  "code_binding": {
+    "claim_policy.py": "6695d7347096f9e00b6170b5e0a5a46a29df1a5c6b9aa76ccd28063911a7bad4",
+    "claim_policy_recheck.py": "e90102664d5bd167f1edbcceda4f308f4da6caa70c378ac3db4884b6293011ad",
+    "scoped_research.py": "57d7cb6bc105e62f18f3f711e6a646363f0086125fab10bb2e08fb6a1555b1d2",
+    "scoped_review_v2.py": "40f9c788a732a72b326985e60ffaef9ea5bf79cbf1153c4e3bf2a37e426136b8",
+    "regional_sources.py": "bfd5ffabd22d41d3d52e879fbbcaa462df0b46b100df7b07707ba922a0ac4bf9",
+    "regional_revision.py": "979c3bcf8fcc5bbc1b616982c408530f547c8ac751e2a32126494548d2f7e3e5",
+    "research_review_contract.py": "cc13d2be0d91752ebafa1770b1503ceaebe40caa6b715280c88221c8de39fe7d",
+    "role_skills.py": "494ebc9037ecc6a573bcc7f7ebad8272fbd35dda38b5d1646868ca64de28dcd1",
+    "pipeline.py": "795efd607074c9675473c2f0dd2113365e8d1cd218a1c10f2701e263f2a6455e",
+    "parallel_control.py": "3517e4a45cd3e88f6067abb8d8334d89c26e35883a55ae940d345cc44d09327f"
+  },
+  "prior_report_sha256": "4cf6233b9c296599a6c153e995c1b70b7ce7014f936b4e311ae328d44cb45f07",
+  "proposal_sha256": "d17615a1348ffbfa06f284ea5ac69cd0f0cf64578d2cac2ba57ef615f2835560",
+  "documents_sha256": "d75c69544c6c967368661728175eb9261317c333e268b12b7150fb9a8111c634",
+  "local_process_sha256": "f0677e167428b70b39dc6538dd56b6437afdcc6259cfeacdafdb3b67f684fd24",
+  "owner_authorization_source": "https://app.notion.com/chat?t=40841579fa0a8078988900a99eb829d4",
+  "scope": "Owner requested merge and bounded independent re-review of the corrected alfalfa proposal; no automatic publication, search, writer, image regeneration, translation or old-budget reset."
+}
