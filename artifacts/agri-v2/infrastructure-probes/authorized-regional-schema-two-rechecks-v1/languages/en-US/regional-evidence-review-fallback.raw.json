@@ -1,0 +1,131 @@
+{
+  "applicable": false,
+  "country_limits_retained": true,
+  "fact_checks": [
+    {
+      "country": "US",
+      "document_id": "s0",
+      "fact_id": "f0",
+      "international_fallback": true,
+      "local_evidence_gap": "WSU drought advisory confirms general deficit-irrigation and dormancy-concept for Pacific Northwest alfalfa, but does not reproduce the precise dormancy-regrowth mechanism language or winter-fall cutoff guidance; crop/product is alfalfa but geography is Washington rather than Nebraska/Idaho",
+      "quote": "Alfalfa is naturally drought tolerant. Its lengthy root systems can reach over 15 feet deep, providing access to a greater soil volume to scavenge water. Alfalfa also has a unique ability to go into drought-induced dormancy when water is scarce. This feature allows for irrigation to cease at almost any time during the growing season without permanent damage to the stand.",
+      "scope": "Pacific Northwest deficit-irrigation advisory; drought-adaptive dormancy concept supports qualitative dormancy-regrowth general principle; Washington geography and soil/water conditions differ from Nebraska and southern Idaho sources cited by article, so applicability to target countries outside the arid western US is uncertain",
+      "source_kind": "extension_guidance",
+      "supported": false,
+      "transfer_limits_retained": true
+    },
+    {
+      "country": "US",
+      "document_id": "s2",
+      "fact_id": "f0",
+      "international_fallback": true,
+      "local_evidence_gap": "PubMed research reports summer deficit-irrigation economics and water-security benefits for southwestern USA; it does not provide dormancy physiology detail or pre-harvest cutoff protocol for other US regions",
+      "quote": "We demonstrate that adoption of summer deficit irrigation in alfalfa production can yield large water savings and flexibility to adapt to changing water supplies with minimal on-field economic impact. We estimate that deficit irrigation of alfalfa can save 1333 to 4157 million cubic meters of water annually...if summer deficit irrigation suspended after July 1 were implemented.",
+      "scope": "Southwestern USA summer deficit-irrigation study covering water savings, economic trade-offs, and infrastructure needs; alfalfa crop/product is consistent but climate, season and water-trading context are US southwest only, limiting transfer to general dormancy/regrowth claims for other regions",
+      "source_kind": "research_report",
+      "supported": false,
+      "transfer_limits_retained": true
+    },
+    {
+      "country": "US",
+      "document_id": "s0",
+      "fact_id": "f1",
+      "international_fallback": false,
+      "local_evidence_gap": "No fetched source addresses fall irrigation timing to store deep water reserves for spring growth; the article cites UNL CropWatch but that document was not retrieved, and WSU advisory content focuses on drought-adaptation strategies rather than fall water-storage scheduling",
+      "quote": "Alfalfa grown for forage in the arid Northwest requires 1.8-acre feet to 3.2-acre feet of water per year, depending on length of the growing season. This drought advisory recommends steps to take in l … Revised: March 2003",
+      "scope": "WSU archived drought advisory covering annual water requirements and deficit-irrigation steps for arid Northwest alfalfa; it does not contain November-before-freeze fall irrigation guidance or deep-water-storage scheduling for alfalfa",
+      "source_kind": "extension_guidance",
+      "supported": false,
+      "transfer_limits_retained": false
+    },
+    {
+      "country": "US",
+      "document_id": "s0",
+      "fact_id": "f2",
+      "international_fallback": false,
+      "local_evidence_gap": "No fetched source provides hot-season and fall daily usage rates; article attributes these rates to UNL CropWatch but that source was not retrieved",
+      "quote": "Alfalfa grown for forage in the arid Northwest requires 1.8-acre feet to 3.2-acre feet of water per year, depending on length of the growing season. This drought advisory recommends steps to take in l … Revised: March 2003",
+      "scope": "WSU advisory gives annual water-use range for Pacific Northwest alfalfa but does not report seasonal daily usage rates or Nebraska-specific hot/fall consumption figures required by the claim",
+      "source_kind": "extension_guidance",
+      "supported": false,
+      "transfer_limits_retained": false
+    },
+    {
+      "country": "US",
+      "document_id": "s0",
+      "fact_id": "f3",
+      "international_fallback": false,
+      "local_evidence_gap": "No fetched source reproduces the southern Idaho silt-loam 2-inch ET pre-cut drying claim; article cites an alfalfa-symposium proceeding but the retrieved PDF excerpt does not contain that numeric value",
+      "quote": "Alfalfa grown for forage in the arid Northwest requires 1.8-acre feet to 3.2-acre feet of water per year, depending on length of the growing season. This drought advisory recommends steps to take in l … Revised: March 2003",
+      "scope": "WSU advisory is a general deficit-irrigation guidance document for Pacific Northwest conditions and does not include Idaho silt-loam soil ET targets or pre-harvest waiting-period recommendations",
+      "source_kind": "extension_guidance",
+      "supported": false,
+      "transfer_limits_retained": false
+    }
+  ],
+  "no_unsupported_local_prescription": false,
+  "regional_review_schema_version": 2,
+  "rejection_reasons": [
+    {
+      "article_quote": "توجه: این مقادیر برای اقلیم‌های غرب ایالات متحده (نبراسکا، آیداهوی جنوبی، یوتا) گزارش شده‌اند. تبدیل به سانتی‌متر صرفاُ جنبه نمایشی دارد و به‌تنهایی مبنای توصیه مدیریتی نیست.",
+      "claim_type": "source_observation",
+      "fact_ids": [
+        "f0",
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "flag": "fact_supported",
+      "reason": "All approved facts depend on UNL and Utah State University sources that were not retrieved; fetched WSU advisory covers arid Northwest deficit-irrigation generally but does not validate the dormancy-regrowth mechanism, the November fall-storage schedule, the Nebraska seasonal daily rates, or the southern Idaho 2-inch ET drying target, so the article's US regional claims cannot be confirmed against the available fetched documents."
+    },
+    {
+      "article_quote": "مصرف فصل رشد گرم: بیش از ۰٫۳۰ اینچ در روز; مصرف پاییزه: حدود ۰٫۱۰ اینچ در روز",
+      "claim_type": "source_observation",
+      "fact_ids": [
+        "f2"
+      ],
+      "flag": "no_unsupported_local_prescription",
+      "reason": "Hot-season and fall daily water-usage rates are attributed to a Nebraska source that was not fetched; no retrieved document provides these numeric rates, so the values cannot be verified or transferred to any target country."
+    },
+    {
+      "article_quote": "تخلیه مورد نیاز پیش از برش: ۲ اینچ ET در خاک silt loam جنوب آیداهو",
+      "claim_type": "source_observation",
+      "fact_ids": [
+        "f3"
+      ],
+      "flag": "no_unsupported_local_prescription",
+      "reason": "The southern Idaho silt-loam 2-inch ET pre-harvest claim depends on an alfalfa-symposium proceeding that was not successfully retrieved with the cited numeric value; fetched sources do not contain this local evidence, so the specific drying target cannot be validated."
+    },
+    {
+      "article_quote": "آبیاری پاییزه تا نوامبر می‌تواند ذخایر عمقی آب را برای رشد سریع بهار آینده فراهم کند",
+      "claim_type": "local_recommendation",
+      "fact_ids": [
+        "f1"
+      ],
+      "flag": "no_unsupported_local_prescription",
+      "reason": "Fall irrigation timing advice relies on a Nebraska source that was not fetched; no retrieved extension or research document supplies November-before-freeze fall-storage guidance, so the operational recommendation cannot be supported by the available fetched evidence."
+    },
+    {
+      "article_quote": "یونته مرحله بحرانی مشخصی برای تنش آبی ندارد; در کم‌آبی وارد خواب می‌شود و پس از بازگشت رطوبت رشد را از سر می‌گیرد",
+      "claim_type": "general_principle",
+      "fact_ids": [
+        "f0",
+        "f4"
+      ],
+      "flag": "fact_supported",
+      "reason": "The dormancy-regrowth concept has partial conceptual support in WSU deficit-irrigation guidance and the PubMed research on summer deficit irrigation, but neither fetched source reproduces the precise mechanism language or validates the claim for non-US climate conditions; transfer limits remain intact."
+    },
+    {
+      "article_quote": "گزارش‌های فوق مربوط به خاک‌های silt loam غرب ایالات متحده است. بافت خاک، سامانه آبیاری و اقلیم محلی را حتماً بررسی کنید.",
+      "claim_type": "source_observation",
+      "fact_ids": [
+        "f0",
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "flag": "country_limits_retained",
+      "reason": "The article correctly labels the US western-region limits but still presents those specific numeric and procedural claims without fetched local evidence to verify them; retained limits do not cure the missing supporting-document defect."
+    }
+  ]
+}
