@@ -135,6 +135,9 @@ def launch_worker(topic,workspace,pool_db,health,inventory,data=DATA,out=OUT,env
 
 def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=None,worker_fn=launch_worker):
  env=os.environ if env is None else env;p=policy(env,data)
+ if mode=='claim-policy-regional-final':
+  from .claim_policy_regional_final import run as regional_final
+  return regional_final(env,data,out)
  if mode=='claim-policy-continuation':
   from .claim_policy_continuation import run as continuation
   return continuation(env,data,out)
@@ -253,6 +256,6 @@ def run(mode='plan',env=None,data=DATA,out=OUT,reserve_fn=reserve,inventory_fn=N
  atomic_json(out/'parallel/latest.json',report);return report
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness','source-search-check','health-refresh','image-refresh','image-refresh-all','image-followup','family-pilot','editorial-repair','editorial-repair-reconcile','rollout-plan','rollout-verify','checkpoint-reconcile','regional-revision','regional-revision-context','regional-revision-recheck','claim-policy-recheck','claim-policy-continuation'],default='plan');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['assign','plan','audit','research','bootstrap','trial','advance','white-bean-pilot','readiness','source-search-check','health-refresh','image-refresh','image-refresh-all','image-followup','family-pilot','editorial-repair','editorial-repair-reconcile','rollout-plan','rollout-verify','checkpoint-reconcile','regional-revision','regional-revision-context','regional-revision-recheck','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final'],default='plan');a=p.parse_args()
  result=run(a.mode);print(json.dumps({k:v for k,v in result.items() if k not in {'cases','pool','selected_topics','results'}},ensure_ascii=False));return 2 if result.get('status') in {'claim_recheck_already_reserved_no_replay','prepared_recheck_already_reserved_no_replay','context_repair_already_reserved_no_replay','revision_needs_attention','revision_reconciliation_required','revision_already_reserved_no_replay','revision_fresh_text_health_required','revision_provider_cooldown','repair_stopped_reconciliation_required','already_reserved_no_replay','missing_or_duplicate_credentials','stopped_shared_provider_limit','parallel_audit_incomplete','trial_completed_with_operational_failures','trial_setup_failed','completed_with_failures','readiness_blocked','reconciliation_required','search_connection_blocked','incomplete_provider_failure','family_text_capacity_incomplete','capability_already_reserved_no_replay','capability_reconciliation_required','shared_text_cooldown','shared_image_cooldown','followup_already_reserved_no_replay','followup_reconciliation_required','followup_waiting_other_19','followup_waiting_accepted_pilot','followup_admission_blocked_not_sent','followup_failed','followup_failed_invalid_image','staged_acceptance_not_ready','cohort_not_selected'} else 0
 if __name__=='__main__':raise SystemExit(main())

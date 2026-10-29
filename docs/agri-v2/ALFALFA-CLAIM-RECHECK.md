@@ -40,3 +40,13 @@ The redundant annotation model call is removed. The seed is manual, provisional 
 Remaining calls: independent source/context review, full article review, regional review. Each has one attempt, a bounded 20,000-token output allowance and 180-second timeout. Regional review receives the actual cited cached document, excluding six irrelevant cached documents. No search, writing, images, translation, live site access or publication. Pool limits, capability/cooldown/routing gates and original-byte checks remain. Negative or incomplete reviews stop, without repair loops.
 
 Continuation validation: 1,420 offline tests passed with external network blocked, including ten continuation safety tests and one additional diagnostic-redaction test. `git diff --check` passed.
+
+## Regional response contract completion
+
+Continuation run 40817183660 received all three complete responses. The source/context review passed; the full-article review passed. The regional response had positive booleans but omitted schema version/rejection reasons and shortened quotes below 80 characters. It remains INVALID, not approval. No original or live site content changed.
+
+The legacy abbreviated regional task now explicitly names the required schema-2 fields, supplies literal evidence passages and warns against repairing PDF extraction hyphenation. Separate manual mode `claim-policy-regional-final` authorizes **one** independent regional review only, with its own create-only reservation. The exact accepted scientific/article reviews are revalidated locally and their bytes reused, not rerun. All twelve previous requests remain preserved, including the incomplete first request and the malformed regional verdict.
+
+The final regional response uses strict JSON-schema transport: mandatory schema version and rejection reasons, unconstrained honest booleans, known fact/document IDs, and an enum of actual >=80-character source passages. The scoped runner requires exactly one cited document. An enum is a copying aid, never a claim that a passage supports a fact. The model must audit the entire article and may reject claims; existing semantic, literal, scope and exact-current-article objection validators still apply. Invalid or negative output stops the one-call run. No writer, search, images, translation, live site mutation or publication is permitted.
+
+Final regional-contract validation: 1,430 network-blocked offline tests passed, including nine additional final-stage tests; git diff --check passed.
