@@ -14,6 +14,17 @@ from .text_fields import plain_citations
 CATEGORIES={'meaning','omission','unsupported_claim','crop_product','number_unit','scope','wrong_language'}
 class RepairBlocked(ValueError):pass
 
+def merge_verified_issues(mechanical,semantic,count):
+ # Both inputs have already passed their source-bound validator. Keep EVERY
+ # distinct defect for an ID instead of overwriting feedback from another gate.
+ grouped={}
+ for issue in list(mechanical)+list(semantic):
+  if not isinstance(issue,dict) or type(issue.get('id'))is not int or not 0<=issue['id']<count or not isinstance(issue.get('detail'),str) or not issue['detail'].strip():raise RepairBlocked('unbound_combined_translation_issue')
+  i=issue['id']
+  if i not in grouped:grouped[i]=dict(issue)
+  elif issue['detail'] not in grouped[i]['detail'].split('\n'):grouped[i]['detail']+='\n'+issue['detail']
+ return list(grouped.values())
+
 def draft_response_schema(name,prompt):
  # Application-owned indexed draft, not instructions recovered from prose.
  if name!='draft' or not isinstance(prompt,dict) or prompt.get('_role_skill')!='translator':return None
