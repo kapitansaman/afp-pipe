@@ -6,7 +6,7 @@ from .pipeline import numbers,digest
 from .client import ModelClient
 from .display_units import text as display_text,VERSION as DISPLAY_UNITS_POLICY
 LANGUAGES=('ru-RU','ar-IQ','tg-TJ','en-US')
-LABELS={'ru-RU':'Russian','ar-IQ':'clear professional Arabic for Iraqi readers','tg-TJ':'Tajik in Cyrillic, not Persian script','en-US':'English'}
+LABELS={'ru-RU':'Russian','ar-IQ':'clear professional Arabic for readers in Arab countries; retain the actual country and climate scope','tg-TJ':'Tajik in Cyrillic, not Persian script','en-US':'English'}
 PHRASES={'ru-RU':'Оборудование для орошения','ar-IQ':'معدات الري','tg-TJ':'Таҷҳизоти обёрӣ','en-US':'Irrigation equipment'}
 FAQ_LABEL={'ru-RU':'Часто задаваемые вопросы','ar-IQ':'الأسئلة الشائعة','tg-TJ':'Саволҳои маъмул','en-US':'Frequently asked questions'}
 # Do not append public AI/provenance boilerplate in any language.
@@ -117,12 +117,12 @@ def verify_target(url,lang,fetcher=None):
  if not m or m[1].lower()!=lang.lower():raise ValueError('Internal target language mismatch')
  return True
 
-def localized_body(row,media,policy,fetcher=None):
+def localized_body(row,media,policy,fetcher=None,regional_sources=None):
  if not media:raise ValueError('At least one approved shared image required')
  lang=row['language'];body=row['content_html'];rows=policy[lang]
  from .editorial_presentation import end_sources
  from .internal_links import anchors
- sources=[{'url':u} for u,t in anchors(body) if urllib.parse.urlsplit(u).hostname!='navar-abyari.ir' and urllib.parse.urlsplit(u).scheme=='https']
+ sources=[{'url':u} for u in (regional_sources or [])]+[{'url':u} for u,t in anchors(body) if urllib.parse.urlsplit(u).hostname!='navar-abyari.ir' and urllib.parse.urlsplit(u).scheme=='https']
  # All in-site links must come from an explicit verified same-language map.
  from .internal_links import anchors
  if any(urllib.parse.urlsplit(u).hostname=='navar-abyari.ir' for u,t in anchors(body)):raise ValueError('Unmapped in-site link in translation')
@@ -138,6 +138,8 @@ def localized_body(row,media,policy,fetcher=None):
  from .display_units import content as display_content
  from .homepage_fallback import add as add_home
  for home in [r for r in rows if r.get('kind')=='homepage_fallback']:body=add_home(body,home,lang)
+ if regional_sources:
+  body+='<p>'+ ' · '.join('<a href="'+html.escape(u,quote=True)+'">'+html.escape(urllib.parse.urlsplit(u).hostname)+'</a>' for u in regional_sources)+'</p>'
  return end_sources(display_content(body,lang),sources,lang)
 
 def publish_family(wp,folder,topic,source_result):
@@ -184,7 +186,11 @@ def publish_family(wp,folder,topic,source_result):
    from .homepage_fallback import resolve as home_fallback
    home_decision=home_fallback(source_receipt.get('editorial_home_fallback',{}).get('irrigation_context') is True,localized_relations,lang,current_url)
    if home_decision.get('link'):local_policy[lang].append(home_decision['link'])
-   content=localized_body(row,media,local_policy)
+   from .regional_sources import require_local,enabled as regional_enabled,RegionalBlocked
+   try:regional_urls=require_local(article,load_json(DATA/'briefs'/(topic['id']+'.json')),lang,DATA,folder) if regional_enabled(DATA) else []
+   except RegionalBlocked as error:
+    done[lang]={'status':'regional_research_pending','reason':str(error)};continue
+   content=localized_body(row,media,local_policy,regional_sources=regional_urls)
    matches=[]
    if rp.exists():
     known=load_json(rp);post,_=wp.call('posts/'+str(known['post_id'])+'?context=edit');matches=[post]
@@ -214,7 +220,7 @@ def publish_family(wp,folder,topic,source_result):
    final,_=wp.call('posts/'+str(post['id']))
    if final.get('status')!='publish' or final.get('afp_language')!=lang or html.unescape(final.get('title',{}).get('rendered',''))!=display_text(row['title'],lang) or final.get('featured_media')!=media[0]['id'] or len(media)>1 and media[1]['url'] not in final.get('content',{}).get('rendered',''):raise ValueError('Published translation verification failed')
    from .editorial_presentation import verify_sources,VERSION as EDITORIAL_POLICY
-   source_urls=[{'url':u} for u,t in anchors(row['content_html']) if urllib.parse.urlsplit(u).scheme=='https' and urllib.parse.urlsplit(u).hostname!='navar-abyari.ir']
+   source_urls=[{'url':u} for u in regional_urls]+[{'url':u} for u,t in anchors(row['content_html']) if urllib.parse.urlsplit(u).scheme=='https' and urllib.parse.urlsplit(u).hostname!='navar-abyari.ir']
    verify_sources(final['content']['rendered'],source_urls,lang)
    from .homepage_fallback import verify as verify_home
    verify_home(final['content']['rendered'],home_decision.get('link'))

@@ -71,7 +71,7 @@ class ImageFallbackTests(unittest.TestCase):
  def test_wordpress_uploads_only_retained_role_two_without_inline_duplicate(self):
   with tempfile.TemporaryDirectory() as d,patch('automation.agri_v2.wordpress.validate_targets'):
    data,folder,t,a=self.fixture(d);a['faq']=[{'question':'این پرسش صرفاً برای آزمون قالب است؟','answer':'این پاسخ صرفاً برای آزمون مسیر انتشار نوشته شده و توصیهٔ کشاورزی محسوب نمی‌شود.'}]*3;atomic_json(folder/'article.json',a);w.advance(FakeClient({1:[False]*4,2:[True]}),folder,t,a,'1',data);atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':a['content_html']+'<p><a href="https://example.edu/source">منبع</a></p>'})
-   wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'});wp.user_id=7;wp.preflight=Mock();wp.publish_family=lambda *args:args[-1];post={};uploads=[]
+   wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'},data=folder/'test-data');wp.user_id=7;wp.preflight=Mock();wp.publish_family=lambda *args:args[-1];post={};uploads=[]
    def call(path,method='GET',data=None,blob=None,headers=None):
     if path.startswith('posts?') or path.startswith('media?'):return [],{}
     if path=='posts':
@@ -123,7 +123,7 @@ class ImageFallbackTests(unittest.TestCase):
    with self.assertRaises(ValueError):q.require_all(folder,t,a)
  def test_zero_approved_image_never_sends_a_wordpress_post(self):
   with tempfile.TemporaryDirectory() as d,patch('automation.agri_v2.wordpress.validate_targets'):
-   data,folder,t,a=self.fixture(d);w.advance(FakeClient({1:[False]*4,2:[False]*4}),folder,t,a,'1',data);atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':a['content_html']+'<p><a href="https://example.edu/source">منبع</a></p>'});wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'});wp.user_id=7;wp.preflight=Mock();wp.call=Mock(return_value=([],{}))
+   data,folder,t,a=self.fixture(d);w.advance(FakeClient({1:[False]*4,2:[False]*4}),folder,t,a,'1',data);atomic_json(folder/'wordpress-draft-payload.json',{'slug':'fixture','content':a['content_html']+'<p><a href="https://example.edu/source">منبع</a></p>'});wp=WordPress({'AFP_WP_BASE_URL':'https://navar-abyari.ir','AFP_WP_USERNAME':'fixture','AFP_WP_APP_PASSWORD':'fixture'},data=folder/'test-data');wp.user_id=7;wp.preflight=Mock();wp.call=Mock(return_value=([],{}))
    with self.assertRaises(ValueError):wp.publish(folder,t,{'publish_authorized':True,'sources':[{'url':'https://example.edu/source'}]},True)
    self.assertFalse(any((c.args[1] if len(c.args)>1 else c.kwargs.get('method'))=='POST' for c in wp.call.call_args_list))
  def test_selected_review_tampering_invalidates_fallback(self):

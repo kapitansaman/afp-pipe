@@ -26,6 +26,10 @@ def enrich(prompt,role,language=None,data=DATA):
   except ValueError:row={'task':prompt}
  else:row=dict(prompt)
  if not isinstance(row,dict):raise ValueError('Role task must be an object')
+ from .regional_sources import enabled as regional_enabled,profile
+ if regional_enabled(data):
+  row['regional_research_policy']=profile(language or 'fa-IR')
+  row['regional_policy_priority']='Regional policy restricts source selection and applicability even when a legacy task tolerates foreign sources. It never permits changing source facts, numbers, units or geography. Translator is not authorized to invent localization.'
  if 'role_skill' in row:
   if row['role_skill']!=skill:raise ValueError('Conflicting role skill binding')
  else:row['role_skill']=skill
