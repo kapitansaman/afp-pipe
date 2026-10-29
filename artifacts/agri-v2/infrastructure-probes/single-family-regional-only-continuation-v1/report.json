@@ -1,0 +1,50 @@
+{
+  "request_id": "single-family-regional-only-continuation-v1",
+  "run_id": "40848560201",
+  "topic_id": "agri-6fc1032cdf42",
+  "status": "regional_recovery_blocked",
+  "started_at": "2026-10-29T09:19:29.784815+00:00",
+  "results": [
+    {
+      "topic_id": "agri-6fc1032cdf42",
+      "language": "ar-IQ",
+      "status": "regional_needs_attention",
+      "model_calls": 1,
+      "semantic_attempts_unchanged": 3
+    },
+    {
+      "topic_id": "agri-6fc1032cdf42",
+      "language": "en-US",
+      "status": "regional_needs_attention",
+      "model_calls": 1,
+      "semantic_attempts_unchanged": 3
+    }
+  ],
+  "max_model_calls": 8,
+  "max_search_requests": 8,
+  "wordpress_calls": 0,
+  "published_posts": 0,
+  "image_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "attempts_reset": false,
+  "article_edits": 0,
+  "translation_edits": 0,
+  "source_search": {
+    "backend": "tavily",
+    "requests_reserved": 0,
+    "request_limit": 8,
+    "unknown_requests": 0,
+    "cache_entries": 0,
+    "monthly_budget": {
+      "month": "2026-10",
+      "reserved": 141
+    },
+    "cooldown_until_epoch": 0.0,
+    "secret_values_stored": false
+  },
+  "semantic_attempts_unchanged": true,
+  "model_calls": 2,
+  "originals_unchanged": true,
+  "completed_at": "2026-10-29T09:21:28.638771+00:00"
+}

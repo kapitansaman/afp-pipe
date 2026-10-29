@@ -1,0 +1,67 @@
+{
+  "applicable": false,
+  "no_unsupported_local_prescription": true,
+  "country_limits_retained": true,
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": false,
+      "document_id": "s2",
+      "quote": "We demonstrate that adoption of summer deficit irrigation in alfalfa production can yield large water savings and flexibility to adapt to changing water supplies with minimal on-field economic impact.",
+      "source_kind": "research_report",
+      "country": "US",
+      "scope": "Southwestern USA, semi‑arid climate, summer deficit irrigation, economic impact; does not address drought‑induced dormancy or recovery",
+      "international_fallback": true,
+      "local_evidence_gap": "No local official documents for any target country; claim about dormancy not verified by fetched sources",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": false,
+      "document_id": "s0",
+      "quote": "Alfalfa grown for forage in the arid Northwest requires 1.8-acre feet to 3.2-acre feet of water per year, depending on length of the growing season.",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Arid Northwest USA, annual water requirement; no mention of fall irrigation, November timing, or deep water storage",
+      "international_fallback": false,
+      "local_evidence_gap": "No local documents on fall irrigation for alfalfa; foreign evidence limited to US arid Northwest annual ranges",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": false,
+      "document_id": "s0",
+      "quote": "Alfalfa grown for forage in the arid Northwest requires 1.8-acre feet to 3.2-acre feet of water per year, depending on length of the growing season.",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Arid Northwest USA, annual water requirement; not daily consumption rates (0.30 inch/day, 0.10 inch/day)",
+      "international_fallback": false,
+      "local_evidence_gap": "No local documents on alfalfa daily water usage; foreign evidence limited to US annual ranges",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": false,
+      "document_id": "s3",
+      "quote": "The designations employed and the presentation of material in this publication do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.",
+      "source_kind": "technical_publication",
+      "country": "IT",
+      "scope": "FAO global guidelines on evapotranspiration; not specific to Idaho silt loam or 2‑inch ET threshold before cutting",
+      "international_fallback": false,
+      "local_evidence_gap": "No local documents on soil drying requirements for alfalfa harvesting; foreign evidence limited to ET theory",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": false,
+      "document_id": "s2",
+      "quote": "We demonstrate that adoption of summer deficit irrigation in alfalfa production can yield large water savings and flexibility to adapt to changing water supplies with minimal on-field economic impact.",
+      "source_kind": "research_report",
+      "country": "US",
+      "scope": "Southwestern USA, semi‑arid climate, summer deficit irrigation, economic impact; does not address absence of critical growth stage for water stress",
+      "international_fallback": true,
+      "local_evidence_gap": "No local documents on alfalfa response to water stress; foreign evidence limited to US deficit irrigation studies",
+      "transfer_limits_retained": true
+    }
+  ]
+}

@@ -9,9 +9,9 @@
     "translation_sha256": "5e30e1cbadb8205ce93f5d6d1eda93091f3bd27d6f236c661371c8ba275d2784",
     "fidelity_sha256": "aeefcaed994c1fff3236770463f3d1990f2a9231ba32bd2356e6a614cd437865"
   },
-  "attempts": 1,
-  "model_calls_spent": 1,
-  "status": "waiting",
+  "attempts": 2,
+  "model_calls_spent": 2,
+  "status": "needs_attention",
   "history": [
     {
       "event": "reserved",
@@ -25,12 +25,25 @@
       "reserved_model_calls": 1,
       "status": "waiting",
       "at": "2026-10-29T00:34:25.932903+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 2,
+      "max_calls": 4,
+      "at": "2026-10-29T09:19:29.860975+00:00"
+    },
+    {
+      "event": "finished",
+      "attempt": 2,
+      "reserved_model_calls": 1,
+      "status": "needs_attention",
+      "at": "2026-10-29T09:19:52.482370+00:00"
     }
   ],
-  "started_at": "2026-10-29T00:33:58.645161+00:00",
+  "started_at": "2026-10-29T09:19:29.860965+00:00",
   "last_failure": {
     "kind": "validation",
-    "category": "unspecified"
+    "category": "claim_context_review_required"
   },
-  "next_attempt_at": "2026-10-29T06:34:25.932309+00:00"
+  "next_attempt_at": null
 }

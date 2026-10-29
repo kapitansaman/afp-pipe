@@ -1,0 +1,101 @@
+{
+  "applicable": false,
+  "no_unsupported_local_prescription": true,
+  "country_limits_retained": false,
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": false,
+      "document_id": null,
+      "quote": null,
+      "source_kind": null,
+      "country": null,
+      "scope": null,
+      "international_fallback": false,
+      "local_evidence_gap": "Evidence ID d10-e2 (Utah State University) not present among loaded documents; no loaded source verifies drought-induced dormancy claim for alfalfa in any Arab-region climate.",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": false,
+      "document_id": null,
+      "quote": null,
+      "source_kind": null,
+      "country": null,
+      "scope": null,
+      "international_fallback": false,
+      "local_evidence_gap": "Evidence ID d12-e2 (UNL CropWatch) absent from loaded documents; the November-to-frost fall-irrigation schedule is a US Midwestern operational prescription with no local Arab-region substitute among loaded sources.",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": false,
+      "document_id": null,
+      "quote": null,
+      "source_kind": null,
+      "country": null,
+      "scope": null,
+      "international_fallback": false,
+      "local_evidence_gap": "Evidence ID d12-e1 (UNL CropWatch) absent from loaded documents; hot-season rate >0.30 inch/day and fall rate ~0.10 inch/day are Nebraska-specific observations with no verified equivalent for Arab-region climates among loaded sources.",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": false,
+      "document_id": null,
+      "quote": null,
+      "source_kind": null,
+      "country": null,
+      "scope": null,
+      "international_fallback": false,
+      "local_evidence_gap": "Evidence ID d14-e15 (Alfalfa Symposium proceedings) absent from loaded documents; the ~2-inch ET accumulation threshold for southern Idaho silt loam is a US-site-specific finding with no verified Arab-region equivalent among loaded sources.",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f4",
+      "supported": false,
+      "document_id": null,
+      "quote": null,
+      "source_kind": null,
+      "country": null,
+      "scope": null,
+      "international_fallback": false,
+      "local_evidence_gap": "Evidence ID d12-e1 (UNL CropWatch) absent from loaded documents; the claim that alfalfa has no specific critical growth stage for water stress is a US-extension characterization with no Arab-region local evidence among loaded sources.",
+      "transfer_limits_retained": true
+    }
+  ],
+  "rejection_reasons": [
+    {
+      "flag": "no_unsupported_local_prescription",
+      "fact_ids": [
+        "f0",
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ],
+      "claim_type": "source_observation",
+      "article_quote": "مصرف فصل رشد گرم بیش از ۰٫۳۰ اینچ در روز و مصرف پاییزه حدود ۰٫۱۰ اینچ در روز؛ تخلیه مورد نیاز پیش از برش ۲ اینچ ET در خاک silt loam جنوب آیداهو",
+      "reason": "All five approved facts reference evidence IDs from sources not present among the four loaded documents (s0-s3). No loaded source substantiates any specific pre-harvest ET threshold, seasonal water-use rate, or dormancy-regrowth operational claim for alfalfa in any Arab-region climate. Local operational prescriptions require matching applicability evidence; foreign observations must be correctly labeled and cannot substitute for missing local evidence."
+    },
+    {
+      "flag": "no_unsupported_local_prescription",
+      "fact_ids": [
+        "f3"
+      ],
+      "claim_type": "local_recommendation",
+      "article_quote": "تخلیه ET بین آبیاری و برش حدود ۲ اینچ گزارش شده در خاک silt loam جنوب آیداهو",
+      "reason": "The article presents a specific numeric ET threshold (~2 inch accumulated ET before cutting on silt loam) as a decision criterion. This is an operational instruction drawn from a southern Idaho US study. Without a verified local Arab-region equivalent among loaded sources, the number cannot be treated as locally applicable and must remain identified as a foreign observation with its original geographic and soil limits."
+    },
+    {
+      "flag": "no_unsupported_local_prescription",
+      "fact_ids": [
+        "f1",
+        "f2"
+      ],
+      "claim_type": "local_recommendation",
+      "article_quote": "آبیاری پاییزه تا نوامبر (پیش از یخبندان) می‌تواند ذخایر عمقی آب را برای رشد سریع بهار آینده فراهم کند",
+      "reason": "The article recommends fall irrigation through November in Arab-region context, citing a Nebraska-source observation about deep water storage. No loaded document provides a comparable fall-irrigation prescription for any of the 22 target Arab countries. The month November corresponds to the Northern Hemisphere mid-latitudes; climatic seasonality in Gulf, Sahelian, and Mediterranean Arab countries differs substantially, making direct transfer unsupported."
+    }
+  ]
+}

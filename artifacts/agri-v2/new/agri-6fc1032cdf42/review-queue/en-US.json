@@ -7,7 +7,7 @@
   "status": "needs_attention",
   "reason": "translation_or_review_needs_another_attempt",
   "attempts": 3,
-  "model_calls_spent": 4,
+  "model_calls_spent": 5,
   "next_attempt_at": null,
   "history": [
     {
@@ -49,6 +49,14 @@
       "status": "waiting",
       "semantic_attempts_unchanged": 3,
       "at": "2026-10-29T00:34:48.882943+00:00"
+    },
+    {
+      "event": "regional_research_continuation",
+      "attempt": 2,
+      "model_calls": 1,
+      "status": "needs_attention",
+      "semantic_attempts_unchanged": 3,
+      "at": "2026-10-29T09:21:28.335762+00:00"
     }
   ],
   "created_at": "2026-10-28T13:11:29.289264+00:00",
@@ -60,5 +68,5 @@
     "kind": "admission_deferred",
     "category": "model_capacity_deferred"
   },
-  "regional_research_status": "waiting"
+  "regional_research_status": "needs_attention"
 }
