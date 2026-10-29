@@ -164,9 +164,13 @@ def regional_ready(row,folder,data):
 
 def regional_due(row,folder,data):
  from .regional_sources import enabled as regional_enabled,require_local,RegionalBlocked
- if row.get('status')!='approved' or published(folder,row['language']) or not regional_enabled(data):return False
+ from .regional_continuation import eligible,due as continuation_due,path as continuation_path
+ if row.get('status') not in ('approved','needs_attention') or published(folder,row['language']) or not regional_enabled(data):return False
+ if row.get('status')=='needs_attention' and not eligible(row,folder):return False
+ cp=continuation_path(folder,row['language'])
+ if cp.exists() and load_json(cp).get('status')=='reserved':return True
  try:require_local(load_json(folder/'article.json'),load_json(data/'briefs'/(row['topic_id']+'.json')),row['language'],data,folder);return False
- except (RegionalBlocked,FileNotFoundError):return True
+ except (RegionalBlocked,FileNotFoundError):return continuation_due(folder,row['language'])
 
 def run_item(p,client,data=DATA):
  """One reserved attempt <=4 requests: draft/review or review/edit/review/feedback."""
@@ -176,6 +180,9 @@ def run_item(p,client,data=DATA):
  if row.get('language') not in LANGUAGES or p.name!=row['language']+'.json' or folder.name!=row['topic_id']:raise RepairBlocked('queue_identity_mismatch')
  if not due(row) and not regional_due(row,folder,data):return {'status':'not_due','model_calls':0}
  if row['article_sha256']!=digest(article):row['status']='source_changed';atomic_json(p,row);return {'status':'source_changed','model_calls':0}
+ if regional_due(row,folder,data) and approved(folder,article,row['language']):
+  from .regional_continuation import run as continue_regional
+  return continue_regional(p,client,data)
  if row['status']=='reserved' and approved(folder,article,row['language']) and regional_ready(row,folder,data):
   root=folder/'review-queue/attempts'/row['language']/str(row['attempts'])
   row['model_calls_spent']+=len(list(root.glob('*.receipt.json')));row.update(status='approved',next_attempt_at=None,reason='recovered_checked_approval');atomic_json(p,row);return {'status':'approved','model_calls':0}
