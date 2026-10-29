@@ -17,10 +17,17 @@ class RegionalSourcesTests(unittest.TestCase):
   return {'applicable':True,'no_unsupported_local_prescription':True,'country_limits_retained':True,'fact_checks':[{'fact_id':'f0','supported':True,'document_id':'s0','quote':doc['text'][:190],'source_kind':'technical_publication','country':country,'scope':'Measured soil conditions and crop stage only; no universal climate or country prescription.','international_fallback':True,'local_evidence_gap':'Local official documents did not substantiate the required soil measurement method.','transfer_limits_retained':True}]}
  def current_verdict(self,doc=None):
   return dict(self.verdict(doc),regional_review_schema_version=2,rejection_reasons=[])
- def wire_verdict(self,doc=None,canonical=None):
-  value=copy.deepcopy(canonical if canonical is not None else self.current_verdict(doc));value['fact_checks']={row['fact_id']:{k:v for k,v in row.items() if k!='fact_id'} for row in value['fact_checks']};return value
- def wire_negative(self,doc=None,quote='Fixture article observation'):
-  value=self.current_verdict(doc);value.update(applicable=False,rejection_reasons=[{'flag':'applicable','fact_ids':['f0'],'claim_type':'source_observation','article_quote':quote,'reason':'This bounded fixture observation lacks sufficient regional support.'}]);return self.wire_verdict(canonical=value)
+ def wire_verdict(self,doc=None,canonical=None,article=None,docs=None):
+  from automation.agri_v2.regional_quote_catalog import build
+  doc=doc or self.doc();documents=[dict(id='s'+str(i),**d) for i,d in enumerate(docs if docs is not None else [doc])];catalog=build(article or {},documents);value=copy.deepcopy(canonical if canonical is not None else self.current_verdict(doc));checks={}
+  for row in value['fact_checks']:
+   item={k:v for k,v in row.items() if k not in ('fact_id','quote','document_id')};item['evidence_quote_id']=next(p['id'] for p in catalog['source_passages'] if p['document_id']==row['document_id']);checks[row['fact_id']]=item
+  value['fact_checks']=checks
+  for row in value['rejection_reasons']:
+   quote=row.pop('article_quote');row['article_quote_id']=next(p['id'] for p in catalog['article_passages'] if quote in p['text'])
+  return value
+ def wire_negative(self,doc=None,quote='Fixture article observation',article=None,docs=None):
+  value=self.current_verdict(doc);value.update(applicable=False,rejection_reasons=[{'flag':'applicable','fact_ids':['f0'],'claim_type':'source_observation','article_quote':quote,'reason':'This bounded fixture observation lacks sufficient regional support.'}]);return self.wire_verdict(doc,canonical=value,article=article,docs=docs)
  def data(self,p):
   d=p/'data';atomic_json(d/'regional-research-policy.json',r.POLICY);return d
  def test_profiles_are_geographic_not_legacy_locale_suffixes(self):
@@ -103,7 +110,7 @@ class RegionalSourcesTests(unittest.TestCase):
    root=Path(t);data=self.data(root);local=self.doc('https://mcx.gov.ru/x');foreign=self.doc('https://extension.example.edu/field');client=Mock();article={'content_html':'<p>Fixture article observation.</p>'}
    # A genuine schema-v2, article-bound negative triggers fallback. The fallback
    # uses s1 in the merged documents, not s0 from the old local-only pack.
-   final=dict(self.current_verdict(foreign),fact_checks=[dict(self.current_verdict(foreign)['fact_checks'][0],document_id='s1')]);client.text.side_effect=[self.wire_negative(local),self.wire_verdict(canonical=final)]
+   final=dict(self.current_verdict(foreign),fact_checks=[dict(self.current_verdict(foreign)['fact_checks'][0],document_id='s1')]);client.text.side_effect=[self.wire_negative(local,article=article),self.wire_verdict(foreign,canonical=final,article=article,docs=[local,foreign])]
    with patch.object(r,'collect',side_effect=[[local],[foreign]]) as collect:
     urls=r.local_research(self.topic(),article,self.brief(),'ru-RU',client,data,root,root/'family',root/'attempt',4)
    self.assertEqual(urls,[foreign['url']]);self.assertEqual(collect.call_count,2);self.assertTrue(collect.call_args.kwargs['international']);self.assertEqual(client.text.call_count,2)

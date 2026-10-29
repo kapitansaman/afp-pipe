@@ -13,7 +13,7 @@ class RegionalReviewContractTests(unittest.TestCase):
  def test_both_local_and_fallback_receive_contract_and_complete_article(self):
   factory=source_tests.RegionalSourcesTests()
   with tempfile.TemporaryDirectory() as t:
-   root=Path(t);data=factory.data(root);a={'content_html':'<table>Untrusted prescription</table>','excerpt':'Untrusted excerpt','faq':[{'answer':'Untrusted answer'}]};doc=factory.doc('https://example.edu/x');client=Mock();client.text.side_effect=[factory.wire_negative(doc,quote='Untrusted prescription'),factory.wire_verdict(doc)]
+   root=Path(t);data=factory.data(root);a={'content_html':'<table>Untrusted prescription</table>','excerpt':'Untrusted excerpt','faq':[{'answer':'Untrusted answer'}]};doc=factory.doc('https://example.edu/x');client=Mock();client.text.side_effect=[factory.wire_negative(doc,quote='Untrusted prescription',article=a),factory.wire_verdict(doc,article=a)]
    with patch.object(r,'collect',return_value=[doc]):r.local_research(factory.topic(),a,factory.brief(),'en-US',client,data,root,root/'family',root/'attempt',4)
    self.assertEqual(client.text.call_count,2)
    for call in client.text.call_args_list:

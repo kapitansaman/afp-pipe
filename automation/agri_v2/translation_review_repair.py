@@ -35,14 +35,15 @@ def draft_response_schema(name,prompt):
  return {'type':'object','properties':{'translations':{'type':'array','minItems':len(ids),'maxItems':len(ids),'items':{'type':'object','properties':{'id':{'type':'integer','enum':ids},'text':{'type':'string'}},'required':['id','text'],'additionalProperties':False}}},'required':['translations'],'additionalProperties':False}
 
 def request(client,root,name,prompt,limit):
- adapter=None
+ adapter=None;catalog=None
  schema=draft_response_schema(name,prompt)
  if schema is None and name in ('regional-evidence-review','regional-evidence-review-fallback'):
   from .regional_sources import response_schema
   schema=response_schema(name,prompt)
   if schema is not None and prompt.get('_regional_wire_contract'):
-   from .regional_keyed_wire import VERSION
-   adapter=VERSION
+   adapter=prompt['_regional_wire_contract']
+   from .regional_quote_catalog import VERSION as CATALOG,bound
+   if adapter==CATALOG:catalog=bound(prompt)
  if isinstance(prompt,dict) and '_role_skill' in prompt:
   from .role_skills import enrich
   row=dict(prompt);role=row.pop('_role_skill');language=row.pop('_role_language',None)
@@ -50,6 +51,14 @@ def request(client,root,name,prompt,limit):
  receipt=root/(name+'.receipt.json');raw_path=root/(name+'.raw.json')
  contract={'prompt_sha256':digest(prompt),'max_calls':1}
  if adapter:contract['response_adapter']=adapter
+ catalog_path=root/(name+'.catalog.json')
+ if catalog is not None:contract['quote_catalog_sha256']=digest(catalog)
+ def decode(raw):
+  if catalog is not None:
+   from .regional_quote_catalog import canonical
+   return canonical(raw,schema,catalog)
+  from .regional_keyed_wire import canonical
+  return canonical(raw,schema)
  if receipt.exists():
   row=load_json(receipt)
   if any(row.get(k)!=v for k,v in contract.items()):raise RepairBlocked('repair_request_binding_changed')
@@ -60,8 +69,8 @@ def request(client,root,name,prompt,limit):
   if row.get('raw_sha256') and row['raw_sha256']!=digest(raw):raise RepairBlocked('repair_response_changed')
   if adapter and (row.get('status')!='received' or row.get('raw_sha256')!=digest(raw)):raise RepairBlocked('repair_response_changed')
   if adapter:
-   from .regional_keyed_wire import canonical
-   result=canonical(raw,schema)
+   if catalog is not None and (not catalog_path.exists() or digest(load_json(catalog_path))!=digest(catalog)):raise RepairBlocked('regional_quote_catalog_binding_changed')
+   result=decode(raw)
    if row.get('canonical_sha256')!=digest(result):raise RepairBlocked('regional_wire_conversion_incomplete_no_replay')
    return result
   return raw
@@ -69,14 +78,16 @@ def request(client,root,name,prompt,limit):
  if client.__dict__.get('_repair_cache_only'):raise RepairBlocked('incomplete_approved_repair_cache')
  if len(list(root.glob('*.receipt.json')))>=limit:raise RepairBlocked('review_repair_call_budget_exhausted')
  if schema is not None:contract['response_schema_sha256']=digest(schema)
+ if catalog is not None:
+  if catalog_path.exists():raise RepairBlocked('regional_quote_catalog_unbound')
+  atomic_json(catalog_path,catalog)
  atomic_json(receipt,dict(contract,status='reserved',at=utcnow()))
  transport={} if schema is None else {'response_schema':schema}
  if adapter:transport['reject_duplicate_keys']=True
  raw=client.text(json.dumps(prompt,ensure_ascii=False),attempts=1,max_tokens=14000,timeout=180,**transport)
  atomic_json(raw_path,raw);received=dict(contract,status='received',raw_sha256=digest(raw),at=utcnow());atomic_json(receipt,received)
  if adapter:
-  from .regional_keyed_wire import canonical
-  result=canonical(raw,schema);atomic_json(receipt,dict(received,canonical_sha256=digest(result)));return result
+  result=decode(raw);atomic_json(receipt,dict(received,canonical_sha256=digest(result)));return result
  return raw
 
 def assess(value,source,raws):

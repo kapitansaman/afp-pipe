@@ -21,7 +21,7 @@ def manifest(data,out):
 def expected(data=DATA,out=OUT):
  folder,article,brief,docs=base.selected(data,out)
  from .regional_sources import review_prompt,response_schema
- schemas={lang:response_schema('regional-evidence-review-fallback',review_prompt(article,brief,lang,docs[lang])) for lang in base.LANGUAGES}
+ schemas={lang:response_schema('regional-evidence-review-fallback',review_prompt(article,brief,lang,docs[lang],wire=VERSION)) for lang in base.LANGUAGES}
  if any(s['properties']['fact_checks'].get('type')!='object' for s in schemas.values()):raise base.RecheckBlocked('keyed_contract_required')
  return {'version':1,'request_id':ID,'authorization':'explicit_owner_approval_one_arabic_one_english_keyed_contract_test','authorization_source':'https://app.notion.com/chat?t=40841579fa0a8078988900a99eb829d4','review_wire_contract':VERSION,'previous_recheck_sha256':digest(prior(out)),'topic_id':base.TOPIC,'languages':list(base.LANGUAGES),'code_sha256':code_hash(),'article_sha256':digest(article),'brief_sha256':digest(brief),'documents_sha256':{l:digest(docs[l]) for l in base.LANGUAGES},'response_schema_sha256':{l:digest(schemas[l]) for l in base.LANGUAGES},'protected_sha256':digest(manifest(data,out)),'max_runs':1,'max_model_calls':2,'max_model_calls_per_language':1,'max_search_requests':0,'max_source_fetches':0,'max_site_calls':0,'max_image_calls':0,'article_edits':0,'translation_edits':0,'reset_attempts':False,'publication_authorized':False,'schedule_enabled':False,'promotion_authorized':False}
 
