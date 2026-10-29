@@ -85,7 +85,7 @@ def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None,wp_factory=Non
   # Keep the fresh full-content fetch isolated. A changed comparison corpus is
   # not permission to delete old audits or silently reuse their approvals.
   topics=[dict(get_topic('new',ident,data),family_id=fid) for fid,ident in FAMILIES.items()]
-  r['existing_content_fetch']=prefetch_existing(topics,inventory,wp,root/'live-inputs',env['GITHUB_RUN_ID'])
+  r['existing_content_fetch']=prefetch_existing(topics,inventory,wp,root/'live-inputs',env['GITHUB_RUN_ID'],data=data)
   ip=data/'parallel-inventory.json'
   if ip.exists():shutil.copyfile(ip,root/'prior-parallel-inventory.json')
   atomic_json(ip,inventory)

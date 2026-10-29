@@ -462,7 +462,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
   ip=Path(td)/'inventory.json';atomic_json(ip,inventory);fresh_inventory(ip)
  if p.get('scoped_evidence_research'):
   from .scoped_research import prefetch_existing
-  report['existing_content_fetch']=prefetch_existing(topics,inventory,wp,out,run_id)
+  report['existing_content_fetch']=prefetch_existing(topics,inventory,wp,out,run_id,data=data)
   atomic_json(rp,report)
  if not matrix_pilot and env.get('AFP_WHITE_BEAN_PILOT')!='1' and topics:
   from .execution_recovery import begin as fence_run

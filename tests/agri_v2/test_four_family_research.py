@@ -70,7 +70,8 @@ class FourFamilyResearchTests(unittest.TestCase):
  def test_run_isolates_changed_corpus_and_family_failure(self):
   with tempfile.TemporaryDirectory() as t:
    data,out=self.fixture(Path(t));root=out/'parallel/operations'/p.ID;seen=[];ids=list(p.FAMILIES.values())
-   def prefetch(topics,inventory,wp,dest,run):
+   def prefetch(topics,inventory,wp,dest,run,**kwargs):
+    self.assertEqual(kwargs.get('data'),data)
     for topic in topics:
      ident=topic['id'];row=load_json(out/'new'/ident/'lifecycle-evidence/existing-content.json')
      if ident==ids[0]:row['related_ids']=[987654321]
