@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "request_id": "single-family-regional-only-continuation-v1",
+  "code_sha256": "07508131fdb9cb410a7305ab2bb5b48313d361721c069e63a2a88778bb2e8663",
+  "topic_id": "agri-6fc1032cdf42",
+  "languages": [
+    "ar-IQ",
+    "en-US"
+  ],
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+  "queue_sha256": {
+    "ar-IQ": "6c72e0364fe8f32e178f81455fe738e9c493c4fa33d45a79a947b6c861c87293",
+    "en-US": "23a65248037b643fbe97e203ea87d1aebddc6eb5deef1326d3356ad4bf15bc73"
+  },
+  "fidelity_sha256": {
+    "ar-IQ": "aeefcaed994c1fff3236770463f3d1990f2a9231ba32bd2356e6a614cd437865",
+    "en-US": "e8773fb853733c402f26c14a197928f9d86df0f8168c366d046d66a03946556e"
+  },
+  "health_sha256": "95fd8caa296b6758f4ee4c8d079f7b68e7ed685537157924646cad3184249c9c",
+  "max_runs": 1,
+  "max_model_calls": 8,
+  "max_model_calls_per_item": 4,
+  "max_search_requests": 8,
+  "max_source_urls": 24,
+  "max_wordpress_calls": 0,
+  "max_image_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "reset_attempts": false
+}
