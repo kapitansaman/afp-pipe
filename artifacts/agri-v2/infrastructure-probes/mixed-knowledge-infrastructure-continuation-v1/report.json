@@ -1,0 +1,39 @@
+{
+  "request_id": "mixed-knowledge-infrastructure-continuation-v1",
+  "run_id": "40835869236",
+  "status": "probe_text_cycle_passed",
+  "started_at": "2026-10-29T07:31:54.543428+00:00",
+  "topic_id": "agri-96d735d5bd11",
+  "brief_sha256": "ce2bf44b3daa066f9cd9fd2ab7e7f88ef380427c725529b3e0df4b1445419134",
+  "max_model_calls": 4,
+  "max_repairs": 1,
+  "repair_exercised": false,
+  "steps": [
+    {
+      "stage": "writer",
+      "status": "validated"
+    },
+    {
+      "stage": "review",
+      "status": "validated",
+      "score": 90
+    }
+  ],
+  "site_calls": 0,
+  "site_mutations": 0,
+  "image_calls": 0,
+  "search_calls": 0,
+  "translation_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "attempts_reset": false,
+  "production_readiness_claimed": false,
+  "protected_before_sha256": "e4db05d54b2956213c0feb48d2ef0ce9b963f25f42a2490466d89f6078ca92b6",
+  "source_selection": "first_valid_unpublished_unheld_nonexception_scoped_queue_entry",
+  "current_stage": "review",
+  "article_sha256": "c49ef944776090e29f69de3959ca09f3b194a40b6e7cc2a21074d8795ccdb3c2",
+  "model_calls": 2,
+  "request_receipts": 2,
+  "originals_unchanged": true,
+  "completed_at": "2026-10-29T07:32:52.341569+00:00"
+}

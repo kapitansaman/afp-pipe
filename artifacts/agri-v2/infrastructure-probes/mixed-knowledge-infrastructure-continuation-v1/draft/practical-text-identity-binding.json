@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "identity_authority": "canonical_queue",
+  "model_identity_fields_ignored": [],
+  "raw_sha256": "950791be4ab7410a8e9c4e85e4b042fecc180033b7f86f8f771e4fb7cb7180c1",
+  "canonical_title_sha256": "fe0373a116541c5425f1a3e68d9f2b4c8b797a3df0d604030846dffc949deea6",
+  "body_semantically_approved": false,
+  "claims_added_by_identity_binding": false
+}

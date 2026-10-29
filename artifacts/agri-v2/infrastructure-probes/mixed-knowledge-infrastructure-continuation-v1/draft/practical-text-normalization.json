@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "strategy": "practical-direct-html-v1",
+  "raw_sha256": "950791be4ab7410a8e9c4e85e4b042fecc180033b7f86f8f771e4fb7cb7180c1",
+  "article_sha256": "c49ef944776090e29f69de3959ca09f3b194a40b6e7cc2a21074d8795ccdb3c2",
+  "format_repairs": [],
+  "warnings": [
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 41
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 39
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 48
+    },
+    {
+      "kind": "short_paragraph_is_not_a_blocker",
+      "words": 47
+    }
+  ],
+  "final_independent_evidence_review_required": true,
+  "claims_added_by_normalizer": false,
+  "identity_contract_version": 2
+}

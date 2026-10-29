@@ -1,0 +1,18 @@
+{
+  "strategy": "practical-direct-html-v1",
+  "knowledge_basis_policy_version": "mixed-knowledge-supervision-v1",
+  "editorial_structure_version": "reader-first-organized-v1",
+  "model_general_background_permitted": true,
+  "identity_contract_version": 2,
+  "identity_authority": "canonical_queue",
+  "generated_fields": [
+    "content_html",
+    "excerpt",
+    "faq"
+  ],
+  "response_format": "json_object",
+  "paragraph_length_hard_gate": false,
+  "fixed_section_count": false,
+  "per_paragraph_fact_ids_required": false,
+  "final_evidence_audit_required": true
+}

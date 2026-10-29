@@ -1,0 +1,9 @@
+{
+  "stage": "writer",
+  "status": "response_received",
+  "request_sha256": "8a007356f8f9ba9e9df91920aed2803b4e78344464a06d6901bf04295915f0d4",
+  "at": "2026-10-29T07:31:54.583252+00:00",
+  "max_attempts": 1,
+  "response_sha256": "377c43ef2157cd8b23c9a262eb843850e37f53ab8b6327cd7a2b0c10bc5231f4",
+  "completed_at": "2026-10-29T07:32:13.972147+00:00"
+}

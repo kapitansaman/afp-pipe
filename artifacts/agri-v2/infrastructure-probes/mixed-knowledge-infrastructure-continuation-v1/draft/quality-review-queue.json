@@ -1,0 +1,30 @@
+{
+  "policy": "publishable-quality-v1",
+  "score": 90,
+  "minimum_score": 70,
+  "accepted": true,
+  "minimum_source_fidelity": 15,
+  "dimensions": {
+    "answer_usefulness": 22,
+    "source_fidelity": 28,
+    "readability": 18,
+    "commercial_fit": 8,
+    "language_and_units": 14
+  },
+  "critical_issues": [],
+  "warnings": [
+    "answer_usefulness",
+    "source_fidelity",
+    "readability",
+    "commercial_fit",
+    "language_and_units"
+  ],
+  "human_review_claimed": false,
+  "reason": "مقاله مستقیماً پرسش خواننده درباره نگهداری لوبیای چیتی را پاسخ می‌دهد. تمامی ادعاهای کمی (رطوبت ۱۵ تا ۱۶ درصد) و کیفی (دمای خنک، تاریکی، حذف اکسیژن، جابجایی ملایم) در نقل‌قول‌های مستقیم ISU و USU Extension یافت می‌شوند. بخش محدودیت‌ها صادقانه دامنه جغرافیایی منابع آمریکایی را بیان می‌کند و هیچ داده‌ای درباره اقلیم ایران ساختگی نیست. جدول چک‌لیست، FAQ و نتیجه‌گیری به‌طور ترکیبی ضایعات را کاهش می‌دهند. مقاله فاقد هشدارهای ناامن، گارانتی بازرگانی بی‌پشتوانه یا منبع‌سازی ساختگی است. نمره کل ۹۰/۱۰۰ فراتر از آستانه ۷۰ است و انتشار آن تایید می‌شود.",
+  "topic_id": "agri-96d735d5bd11",
+  "article_sha256": "c49ef944776090e29f69de3959ca09f3b194a40b6e7cc2a21074d8795ccdb3c2",
+  "brief_sha256": "ce2bf44b3daa066f9cd9fd2ab7e7f88ef380427c725529b3e0df4b1445419134",
+  "status": "accepted",
+  "max_auto_repairs": 1,
+  "updated_at": "2026-10-29T07:32:51.733711+00:00"
+}
