@@ -40,7 +40,8 @@ def validate_results(rows):
   if row['url'] not in seen:result.append(row);seen.add(row['url'])
  return result
 
-def initialize(db,out):
+def initialize(db,out,max_requests=80):
+ if type(max_requests)is not int or not 1<=max_requests<=80:raise ValueError('Bounded source search request limit required')
  p=out/'parallel/source-search/state.json';prior=load_json(p) if p.exists() else {'version':1,'backend':'tavily','cooldown_until_epoch':0,'cache':{}}
  if not isinstance(prior,dict) or prior.get('version')!=1 or prior.get('backend') not in ('brave','tavily') or not isinstance(prior.get('cache'),dict):raise ValueError('Invalid source search state')
  # Preserve prior evidence on disk, but never reuse another provider's cache/holds.
@@ -57,6 +58,8 @@ def initialize(db,out):
   c.execute('INSERT OR IGNORE INTO search_lock VALUES(1,NULL)')
   c.execute('INSERT OR IGNORE INTO search_budget VALUES(?,?)',(month,count))
   c.execute('UPDATE search_budget SET reserved=MAX(reserved,?) WHERE month=?',(count,month))
+  c.execute("INSERT OR IGNORE INTO search_meta VALUES('request_limit',?)",(max_requests,))
+  c.execute("UPDATE search_meta SET value=MIN(value,?) WHERE name='request_limit'",(max_requests,))
   for name,value in {'calls':0,'cooldown':cooldown,'next_call':0}.items():c.execute('INSERT OR IGNORE INTO search_meta VALUES(?,?)',(name,value))
   c.execute("UPDATE search_meta SET value=MAX(value,?) WHERE name='cooldown'",(cooldown,))
   for q,row in prior['cache'].items():
@@ -72,7 +75,7 @@ def persist(db,out):
   month=datetime.now(timezone.utc).strftime('%Y-%m');budget=c.execute('SELECT reserved FROM search_budget WHERE month=?',(month,)).fetchone();monthly={'month':month,'reserved':int(budget[0]) if budget else 0}
   unknown=c.execute("SELECT COUNT(*) FROM search_requests WHERE status='reserved'").fetchone()[0]
  atomic_json(out/'parallel/source-search/state.json',{'version':1,'backend':'tavily','updated_at':utcnow(),'cooldown_until_epoch':meta['cooldown'],'cache':cache,'monthly_budget':monthly,'secret_values_stored':False})
- return {'backend':'tavily','requests_reserved':int(meta['calls']),'unknown_requests':unknown,'cache_entries':len(cache),'monthly_budget':monthly,'cooldown_until_epoch':meta['cooldown'],'secret_values_stored':False}
+ return {'backend':'tavily','requests_reserved':int(meta['calls']),'request_limit':int(meta.get('request_limit',80)),'unknown_requests':unknown,'cache_entries':len(cache),'monthly_budget':monthly,'cooldown_until_epoch':meta['cooldown'],'secret_values_stored':False}
 
 @contextlib.contextmanager
 def reservation(db,query_id,request_id,wait=120):
@@ -85,7 +88,7 @@ def reservation(db,query_id,request_id,wait=120):
    if old:c.execute('ROLLBACK');raise PoolDeferred('Search request already reserved; no replay')
    month=datetime.now(timezone.utc).strftime('%Y-%m');c.execute('INSERT OR IGNORE INTO search_budget VALUES(?,0)',(month,));monthly=c.execute('SELECT reserved FROM search_budget WHERE month=?',(month,)).fetchone()[0]
    if monthly>=1000:c.execute('ROLLBACK');raise PoolDeferred('Local monthly search allowance exhausted')
-   if m['cooldown']>time.time() or m['calls']>=80:c.execute('ROLLBACK');raise PoolDeferred('Search-only cooldown or request budget')
+   if m['cooldown']>time.time() or m['calls']>=min(80,m.get('request_limit',80)):c.execute('ROLLBACK');raise PoolDeferred('Search-only cooldown or request budget')
    busy=c.execute('SELECT owner FROM search_lock WHERE id=1').fetchone()[0]
    if busy is None and m['next_call']<=time.time():
     c.execute('UPDATE search_lock SET owner=? WHERE id=1',(owner,));c.execute('INSERT INTO search_requests VALUES(?,?,?)',(request_id,query_id,'reserved'));c.execute("UPDATE search_meta SET value=value+1 WHERE name='calls'");c.execute('UPDATE search_budget SET reserved=reserved+1 WHERE month=?',(month,));c.execute('COMMIT');break

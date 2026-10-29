@@ -55,8 +55,8 @@ class PostHoldValidationTests(unittest.TestCase):
    self.assertEqual(c.calls,8)
  def test_hold_blocks_before_remote_reservation_or_client(self):
   factory=Mock();reserve=Mock()
-  with patch.object(p,'circuit'),patch.object(p,'validate'),patch('automation.agri_v2.family_capability_refresh.active_hold',return_value=True),patch.object(p,'load_json',return_value={}):
-   result=p.run(self.env(),client_factory=factory,reserve_fn=reserve)
+  with tempfile.TemporaryDirectory() as d,patch.object(p,'circuit'),patch.object(p,'validate'),patch('automation.agri_v2.family_capability_refresh.active_hold',return_value=True),patch.object(p,'load_json',return_value={}):
+   result=p.run(self.env(),out=Path(d),client_factory=factory,reserve_fn=reserve)
   self.assertEqual(result['status'],'post_hold_provider_waiting');factory.assert_not_called();reserve.assert_not_called()
  def test_preexisting_report_blocks_all_new_calls(self):
   with tempfile.TemporaryDirectory() as d:
