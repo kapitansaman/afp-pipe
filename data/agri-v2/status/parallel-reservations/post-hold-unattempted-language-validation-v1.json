@@ -1,0 +1,9 @@
+{
+  "request_id": "post-hold-unattempted-language-validation-v1",
+  "phase": "post-hold-validation",
+  "status": "reserved",
+  "run_id": "40845818699",
+  "started_at": "2026-10-29T09:06:36.283344+00:00",
+  "published_posts": 0,
+  "original_attempts_reset": false
+}
