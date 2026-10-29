@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "request_id": "mixed-knowledge-infrastructure-probe-v1",
+  "max_runs": 1,
+  "max_model_calls": 4,
+  "max_repairs": 1,
+  "max_input_chars_per_call": 200000,
+  "max_output_tokens_per_call": 14000,
+  "max_search_requests": 0,
+  "max_image_calls": 0,
+  "max_translation_calls": 0,
+  "max_site_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "reset_attempts": false,
+  "topic_id": "agri-96d735d5bd11",
+  "topic_sha256": "d2ec23e6aa2c5969d0aabab8fe40461da9a3037c9c78d2b4f9a5dcb6fa61ec40",
+  "brief_sha256": "ce2bf44b3daa066f9cd9fd2ab7e7f88ef380427c725529b3e0df4b1445419134",
+  "code_sha256": "ec0d3abae24ac3720f8006829aa56403977d55db0fb5b754c69a80cd7a854bc2"
+}
