@@ -1,0 +1,206 @@
+{
+  "research_policy_version": "claim-context-research-v1",
+  "conflicts": [],
+  "facts": [
+    {
+      "fact_index": 0,
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": null,
+          "quote": null
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      }
+    },
+    {
+      "fact_index": 1,
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "Alfalfa",
+          "quote": "Alfalfa is sensitive to water stress at the time of harvest"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      }
+    },
+    {
+      "fact_index": 2,
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "alfalfa",
+          "quote": "Normal water-use curve for alfalfa with four cuttings"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      }
+    },
+    {
+      "fact_index": 3,
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "alfalfa",
+          "quote": "Normal water-use curve for alfalfa with four cuttings"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      }
+    }
+  ]
+}
