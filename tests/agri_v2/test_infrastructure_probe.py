@@ -11,7 +11,11 @@ class InfrastructureProbeTests(unittest.TestCase):
  def grade(self,good=True):
   return {'quality_policy':q.VERSION,'dimensions':dict(q.DIMENSIONS) if good else dict.fromkeys(q.DIMENSIONS,0),'critical_issues':[],'reason':'Fixture assessment of actual candidate usefulness and source fidelity, not production approval.'}
  def test_real_bound_request_and_unpublished_input(self):
-  t,b=p.validate(load_json(DATA/'infrastructure-probe-request.json'));self.assertFalse((OUT/'new'/t['id']/'wordpress-receipt.json').exists());self.assertEqual(b['review_mode'],'automated_scoped_evidence_review_v1')
+  # Consumed production request remains historical; no live reauthorization.
+  request=load_json(DATA/'infrastructure-probe-request.json')
+  with self.assertRaises(p.ProbeBlocked):p.validate(request)
+  topic,brief=p.select();test_request=dict(request,code_sha256=p.code_hash())
+  t,b=p.validate(test_request);self.assertFalse((OUT/'new'/t['id']/'wordpress-receipt.json').exists());self.assertEqual(b['review_mode'],'automated_scoped_evidence_review_v1')
  def test_no_budget_expansion_or_changed_source(self):
   r=load_json(DATA/'infrastructure-probe-request.json')
   for key,value in [('max_model_calls',5),('max_repairs',2),('max_image_calls',1),('publication_authorized',True),('schedule_enabled',True),('reset_attempts',True),('brief_sha256','changed'),('code_sha256','changed')]:
@@ -103,3 +107,37 @@ class InfrastructureProbeTests(unittest.TestCase):
  def test_production_files_are_protected_not_only_one_topic(self):
   with tempfile.TemporaryDirectory() as d:
    data,out,t,b,a=self.setup_run(d);atomic_json(out/'new/other/article.json',a);before=p.protected(data,out);atomic_json(out/'new/other/article.json',dict(a,excerpt='changed'));self.assertNotEqual(p.protected(data,out),before)
+
+ def test_real_probe_constructor_uses_central_keys_only(self):
+  from automation.agri_v2.family_keys import slots_for
+  from automation.agri_v2.parallel_pool import SLOTS
+  health=load_json(OUT/'parallel/health/latest.json');health['checked_at']=utcnow()
+  env={slot:'synthetic-distinct-'+slot for slot in SLOTS}
+  env.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB='unused-offline-fixture',AFP_PARALLEL_FAMILY='isolated-infrastructure-probe',AFP_PARALLEL_TOPIC='offline-fixture')
+  with tempfile.TemporaryDirectory() as d,patch('socket.socket',side_effect=AssertionError('network forbidden')):
+   client=p.CountedClient(health,env,Path(d))
+  central=set(slots_for('isolated-infrastructure-probe')[0])
+  self.assertEqual(central,set(SLOTS[80:]));self.assertTrue(client.keys['text'])
+  self.assertEqual({slot for slot,_ in client.keys['text']},central.intersection(health['eligible_text_slots']))
+  self.assertFalse({slot for slot,_ in client.keys['text']}.intersection(SLOTS[:80]))
+
+ def test_probe_never_borrows_production_keys_when_central_missing(self):
+  from automation.agri_v2.parallel_pool import SLOTS
+  from automation.agri_v2.family_keys import FamilyCapabilityRequired
+  health=load_json(OUT/'parallel/health/latest.json');health['checked_at']=utcnow()
+  env={slot:'synthetic-distinct-'+slot for slot in SLOTS[:80]}
+  env.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB='unused-offline-fixture',AFP_PARALLEL_FAMILY='isolated-infrastructure-probe')
+  with tempfile.TemporaryDirectory() as d,patch('socket.socket',side_effect=AssertionError('network forbidden')):
+   with self.assertRaises(FamilyCapabilityRequired):p.CountedClient(health,env,Path(d))
+
+ def test_admission_error_has_safe_explicit_diagnostic(self):
+  from automation.agri_v2.client import CapabilityError
+  from automation.agri_v2.failure_diagnostics import failure_details
+  self.assertEqual(failure_details(CapabilityError('Known family or explicitly scoped central worker required')),{'kind':'capability_or_protocol','category':'worker_scope_not_admitted'})
+  self.assertEqual(failure_details(CapabilityError('secret-like-untrusted-detail'))['category'],'unspecified')
+
+ def test_consumed_remote_reservation_and_zero_calls_report_preserved(self):
+  receipt=load_json(DATA/'status/parallel-reservations'/(p.ID+'.json'))
+  report=load_json(OUT/'infrastructure-probes'/p.ID/'report.json')
+  self.assertEqual(receipt['run_id'],report['run_id']);self.assertEqual(report['model_calls'],0)
+  self.assertEqual(report['status'],'probe_text_cycle_blocked');self.assertTrue(report['originals_unchanged'])

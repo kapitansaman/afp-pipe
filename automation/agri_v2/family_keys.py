@@ -17,7 +17,8 @@ CENTRAL = {'separate-language-review-queue', 'matrix-pilot-01',
  'five-call-translation-repair-only', 'flash-only-four-segment-diagnostic',
  'one-remaining-tajik-repair', 'one-cleaned-persian-tajik-pair',
  'separately-budgeted-role-skills-launch', 'nonpublishing-ready-storage-pilot',
- 'nonpublishing-image-fallback-test', 'nonpublishing-language-fallback-continuation'}
+ 'nonpublishing-image-fallback-test', 'nonpublishing-language-fallback-continuation',
+ 'isolated-infrastructure-probe'}
 
 
 class FamilyCapabilityRequired(CapabilityError):
