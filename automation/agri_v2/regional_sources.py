@@ -118,7 +118,7 @@ def collect(topic,lang,client,out,folder,request_root=None,limit=4,fetcher=None,
    if report.get('query_sha256')!=digest(q):raise RegionalBlocked('regional_search_response_changed')
    result=report['result']
   else:
-   result=(search.search if search_fn is None else search_fn)(q,env,topic['id']+'-'+lang+'-regional-'+str(i))
+   result=(search.search if search_fn is None else search_fn)(q,env,topic['id']+'-'+lang+'-regional-'+('international' if international else 'local')+'-'+str(i))
    atomic_json(rp,{'query_sha256':digest(q),'result':result,'publication_authorized':False})
   for row in search.validate_results(result['results']):
    if (credible(row['url']) if international else accepted(row['url'],lang)) and row['url'] not in urls:urls.append(row['url'])
