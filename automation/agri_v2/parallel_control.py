@@ -21,8 +21,12 @@ def policy(env=None,data=DATA):
 
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
- if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final'):raise ValueError('Non-publication phase required')
- if phase=='claim-policy-regional-final':
+ if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final','post-hold-validation'):raise ValueError('Non-publication phase required')
+ if phase=='post-hold-validation':
+  from .post_hold_validation import ID
+  if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual post-hold validation required')
+  expected=ID
+ elif phase=='claim-policy-regional-final':
   from .claim_policy_regional_final import ID
   if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual regional final required')
   expected=ID

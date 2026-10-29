@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "request_id": "post-hold-unattempted-language-validation-v1",
+  "code_sha256": "e4941bd2d31520ceaeb93def6e57debe4186548ebdeffccd540eabf34314082e",
+  "source_article_sha256": "c49ef944776090e29f69de3959ca09f3b194a40b6e7cc2a21074d8795ccdb3c2",
+  "prior_probe_sha256": "89dcb417814579365e1aeb26fdb9f4de9e83765a17a4bcbc3009421aa68988de",
+  "languages": [
+    "tg-TJ",
+    "en-US"
+  ],
+  "excluded_languages": [
+    "ru-RU",
+    "ar-IQ"
+  ],
+  "max_runs": 1,
+  "max_wait_seconds": 1800,
+  "max_model_calls": 9,
+  "max_health_calls": 1,
+  "max_language_calls": 8,
+  "max_calls_per_language": 4,
+  "max_total_language_calls_including_prior": 16,
+  "max_site_calls": 0,
+  "max_search_calls": 0,
+  "max_image_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "reset_attempts": false
+}
