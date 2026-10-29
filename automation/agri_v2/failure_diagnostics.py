@@ -18,7 +18,7 @@ def failure_details(exc):
  elif isinstance(exc,CapabilityError):kind='capability_or_protocol'
  elif isinstance(exc,ValueError):kind='validation'
  else:kind='unexpected'
- allowed={'invalid_auth','forbidden','quota_limited','rate_limited','model_unavailable','request_rejected','provider_unavailable','http_error','network_or_timeout','text_empty_or_invalid_content','text_json_invalid','text_model_mismatch','text_content_missing','text_incomplete_response','text_output_limit','text_content_filtered'}
+ allowed={'invalid_auth','forbidden','quota_limited','rate_limited','model_unavailable','request_rejected','provider_unavailable','http_error','network_or_timeout','text_empty_or_invalid_content','text_json_invalid','text_json_duplicate_keys','text_model_mismatch','text_content_missing','text_incomplete_response','text_output_limit','text_content_filtered'}
  validation_codes={'Draft must cite approved sources inline':'missing_approved_inline_citation','Unexpected mixed-language output; editorial revision required':'unexpected_mixed_language','Draft must contain 550–2500 meaningful words':'article_length_out_of_bounds','Unapproved numeric token in draft':'unapproved_numeric_claim'}
  validation_codes.update({'Unsafe markup in plain text field':'translation_plain_text_markup_invalid','Translation changed comparison operators':'translation_comparison_changed'})
  validation_codes.update({'Exact owned approved fact references required':'unapproved_fact_reference','Approved source binding required':'unapproved_source_binding','Four to five substantive grounded sections required':'grounded_section_count_invalid','Substantive nonduplicate paragraph length required':'grounded_paragraph_length_or_duplicate','At least eight grounded paragraphs required':'grounded_paragraph_count_invalid','Plain reader-facing prose required':'grounded_plain_prose_required','Structured grounded article required':'grounded_article_schema_invalid','Persian article contains unrelated CJK script':'unexpected_mixed_language','Exactly three grounded FAQs required':'grounded_faq_schema_invalid'})
@@ -31,7 +31,7 @@ def failure_details(exc):
  allowed.update(image_codes.values())
  allowed.update({'source_search_quota_exhausted','source_search_rate_limited','source_search_auth','source_search_unavailable','source_search_response_invalid'})
  from .translation_review_repair import RepairBlocked as TranslationRepairBlocked
- translation_codes={'invalid_translation_row','missing_translation_segments','translation_IDs_unbound','translation_IDs_missing','review_shape_invalid','invalid_language_review','review_quoted_text_not_present','contradictory_language_review','review_repair_call_budget_exhausted','uncertain_repair_request_not_replayed','repair_schema_binding_changed'}
+ translation_codes={'invalid_translation_row','missing_translation_segments','translation_IDs_unbound','translation_IDs_missing','review_shape_invalid','invalid_language_review','review_quoted_text_not_present','contradictory_language_review','review_repair_call_budget_exhausted','uncertain_repair_request_not_replayed','repair_schema_binding_changed','regional_wire_conversion_incomplete_no_replay'}
  if isinstance(exc,TranslationRepairBlocked) and str(exc) in translation_codes:category=str(exc)
  allowed.update(translation_codes)
  from .model_source_repair import RepairBlocked
