@@ -26,10 +26,13 @@ def enrich(prompt,role,language=None,data=DATA):
   except ValueError:row={'task':prompt}
  else:row=dict(prompt)
  if not isinstance(row,dict):raise ValueError('Role task must be an object')
+ from .claim_policy import COMMON,VERSION as CLAIM_VERSION
+ if role in ('researcher','persian-writer','evidence-reviewer','translator','translation-reviewer'):
+  row['claim_research_policy']={'version':CLAIM_VERSION,'rules':COMMON}
  from .regional_sources import enabled as regional_enabled,profile
  if regional_enabled(data):
   row['regional_research_policy']=profile(language or 'fa-IR')
-  row['regional_policy_priority']='Regional policy restricts source selection and applicability even when a legacy task tolerates foreign sources. It never permits changing source facts, numbers, units or geography. Translator is not authorized to invent localization.'
+  row['regional_policy_priority']='Regional policy requires suitable local sources to be searched first, with credible international fallback for a precise documented gap. A legacy phrase about rejecting missing local evidence prohibits inventing a local prescription; it is NOT a blanket rejection of a correctly labelled foreign observation or supported general principle. Only an actual local recommendation needs matching applicability evidence. It never permits changing source facts, numbers, units or geography. Translator is not authorized to invent localization.'
  if 'role_skill' in row:
   if row['role_skill']!=skill:raise ValueError('Conflicting role skill binding')
  else:row['role_skill']=skill
