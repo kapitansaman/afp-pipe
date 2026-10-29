@@ -7,7 +7,9 @@ from automation.agri_v2.healthcheck import TEXT_MODEL
 
 class LanguageInfrastructureProbeTests(unittest.TestCase):
  def test_exact_accepted_source_and_request_binding(self):
-  request=load_json(DATA/'language-infrastructure-probe-request.json');article,source=p.validate(request)
+  historical=load_json(DATA/'language-infrastructure-probe-request.json')
+  with self.assertRaises(p.LanguageProbeBlocked):p.validate(historical)
+  request=dict(historical,code_sha256=p.code_hash());article,source=p.validate(request)
   self.assertEqual(source['article_sha256'],p.digest(article))
   for key,value in [('max_model_calls',17),('max_site_calls',1),('publication_authorized',True),('schedule_enabled',True),('reset_attempts',True),('source_article_sha256','changed'),('code_sha256','changed')]:
    with self.subTest(key=key),self.assertRaises(p.LanguageProbeBlocked):p.validate(dict(request,**{key:value}))

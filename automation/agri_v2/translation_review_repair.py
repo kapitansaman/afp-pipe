@@ -14,7 +14,17 @@ from .text_fields import plain_citations
 CATEGORIES={'meaning','omission','unsupported_claim','crop_product','number_unit','scope','wrong_language'}
 class RepairBlocked(ValueError):pass
 
+def draft_response_schema(name,prompt):
+ # Application-owned indexed draft, not instructions recovered from prose.
+ if name!='draft' or not isinstance(prompt,dict) or prompt.get('_role_skill')!='translator':return None
+ source=prompt.get('source')
+ if not isinstance(source,list) or not source or any(not isinstance(row,dict) or type(row.get('id'))is not int or not isinstance(row.get('text'),str) for row in source):return None
+ ids=[row['id'] for row in source]
+ if ids!=list(range(len(source))):return None
+ return {'type':'object','properties':{'translations':{'type':'array','minItems':len(ids),'maxItems':len(ids),'items':{'type':'object','properties':{'id':{'type':'integer','enum':ids},'text':{'type':'string'}},'required':['id','text'],'additionalProperties':False}}},'required':['translations'],'additionalProperties':False}
+
 def request(client,root,name,prompt,limit):
+ schema=draft_response_schema(name,prompt)
  if isinstance(prompt,dict) and '_role_skill' in prompt:
   from .role_skills import enrich
   row=dict(prompt);role=row.pop('_role_skill');language=row.pop('_role_language',None)
@@ -24,6 +34,7 @@ def request(client,root,name,prompt,limit):
  if receipt.exists():
   row=load_json(receipt)
   if any(row.get(k)!=v for k,v in contract.items()):raise RepairBlocked('repair_request_binding_changed')
+  if schema is not None and row.get('response_schema_sha256') is not None and row['response_schema_sha256']!=digest(schema):raise RepairBlocked('repair_schema_binding_changed')
   if not raw_path.exists():raise RepairBlocked('uncertain_repair_request_not_replayed')
   raw=load_json(raw_path)
   if row.get('raw_sha256') and row['raw_sha256']!=digest(raw):raise RepairBlocked('repair_response_changed')
@@ -31,8 +42,10 @@ def request(client,root,name,prompt,limit):
  if raw_path.exists():raise RepairBlocked('unbound_repair_response')
  if client.__dict__.get('_repair_cache_only'):raise RepairBlocked('incomplete_approved_repair_cache')
  if len(list(root.glob('*.receipt.json')))>=limit:raise RepairBlocked('review_repair_call_budget_exhausted')
+ if schema is not None:contract['response_schema_sha256']=digest(schema)
  atomic_json(receipt,dict(contract,status='reserved',at=utcnow()))
- raw=client.text(json.dumps(prompt,ensure_ascii=False),attempts=1,max_tokens=14000,timeout=180)
+ transport={} if schema is None else {'response_schema':schema}
+ raw=client.text(json.dumps(prompt,ensure_ascii=False),attempts=1,max_tokens=14000,timeout=180,**transport)
  atomic_json(raw_path,raw);atomic_json(receipt,dict(contract,status='received',raw_sha256=digest(raw),at=utcnow()))
  return raw
 
