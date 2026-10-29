@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-claim-policy-regional-final-v1",
+  "run_id": "40818052526",
+  "status": "claim_recheck_ready_for_publication_review",
+  "started_at": "2026-10-29T04:31:12.865163+00:00",
+  "max_model_calls": 1,
+  "publication_authorized": false,
+  "post_mutations": 0,
+  "new_posts": 0,
+  "search_requests": 0,
+  "writer_calls": 0,
+  "original_attempts_reset": false,
+  "input_binding": {
+    "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+    "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+    "source_receipt_sha256": "be22942ad7d015d8f5b545aac9e536b503e1d9148e8a5ddfccc9517189d6e255"
+  },
+  "protected_sha256": "8ab3dd3280968651b4ded6ec4e17e956ea2f66cfe19eda9db63c460c44ee48d5",
+  "prior_model_calls_preserved": 12,
+  "uncertain_predecessor_request_preserved": true,
+  "accepted_reviews_reused_without_model_calls": 2,
+  "policy_version": "claim-context-research-v1",
+  "article_sha256": "4e6f384091c632445773de42299d05d48c2f350a11b42b0ddbc2f94e3ab6708c",
+  "brief_sha256": "17d92a21df40865a91b55d82e6cb5cfc8936a6e8a69748a6cdcf28f9aebac857",
+  "next_required_gates": [
+    "explicit_same_post_revision_transaction",
+    "fresh_authenticated_original_identity_and_bytes",
+    "overlap_scope_revalidation",
+    "image_binding_and_visual_review",
+    "new_source_bound_translations_and_reviews",
+    "public_bytes_verification"
+  ],
+  "model_calls": 1,
+  "originals_unchanged": true,
+  "review_receipts": 1,
+  "completed_at": "2026-10-29T04:31:32.570887+00:00"
+}

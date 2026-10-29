@@ -1,0 +1,373 @@
+{
+  "topic_id": "agri-6fc1032cdf42",
+  "title": "آخرین آبیاری یونجه پیش از برداشت؛ معیارهای قطع و کاهش آب",
+  "slug": "preharvest-alfalfa-irrigation-criteria",
+  "review_mode": "automated_scoped_evidence_review_v1",
+  "editor": "Automated independent source review; no human agronomist sign-off",
+  "human_agronomy_review_done": false,
+  "agronomy_reviewer": null,
+  "reviewed_at": "2026-10-29T04:22:10.954791+00:00",
+  "approved_for_draft": true,
+  "semantic_review_done": true,
+  "sources_verified": true,
+  "publish_authorized": false,
+  "overlap_review_done": false,
+  "revision_only": true,
+  "revision_request_id": "alfalfa-regional-revision-v1",
+  "novelty_note": "Revision of an existing owned article, not novelty or duplicate-publication approval.",
+  "outline": [
+    "تفکیک وضعیت سطح خاک از رطوبت ناحیه ریشه",
+    "ارزیابی رطوبت خاک و قابلیت ورود تجهیزات برداشت",
+    "حدود کاربرد شواهد و پرهیز از زمان‌بندی ثابت"
+  ],
+  "product_definition": "یونجه علوفه‌ای در مزرعه، پیش از چین و برداشت",
+  "source_scope_limitations": "منبع تک‌جمله‌ای: راهنمای ترویجی KSU برای کانزاس (ایالات متحده). معیارهای پرس‌شده فاقد منبع بومی ایران بودند؛ شواهد بین‌المللی صرفاً اصل زمانی‌بندی مبتنی بر رطوبت خاک و نقشه‌خوانی ET را پشتیبانی می‌کنند و هیچ تاریخ، عمق، فاصله یا آستانه ET تعیین‌شده برای ایران ارائه نمی‌دهند. اقلیم، خاک، سامانه آبیاری، رقم، شوری آب و شرایط برداشت ایران کاملاً نامشخص است؛ قضاوت تصمیم‌گیری پیش‌برداشت برای مزرعه ایرانی خارج از دامنه این منبع است. این مقاله بر یک نهاد دانشگاهی تکیه دارد؛ تأیید مستقل چندمنبعی انجام نشده و نتایج فقط در دامنه و شرایط همان شواهد قابل تفسیرند.",
+  "sources": [
+    {
+      "url": "https://bookstore.ksre.ksu.edu/pubs/irrigation-management-for-alfalfa_MF2868.pdf",
+      "sha256": "cee0c6b34fdf8158112155525c7aa9f011298fc5aa5e58a9ac23cf5b807c870c",
+      "fetched_at": "2026-10-29T01:30:29.524282+00:00",
+      "locator": "Exact fetched evidence IDs in versioned regional revision",
+      "excerpt": " depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth. However, soil compaction may occur if the field is watered from above ground before harvesting. A firm, dry surface is best for harvest traffic and field-drying of hay. Also, because watering immediately after harvest stimulates the germination and growth of surface-germinated weeds it should be avoided when possible unless subsurface drip ir- rigation (SDI) systems are in use, which do not wet the soil surface during irrigation. If the irrigation system has lim- ited capacity, as most center pivots do during mid-season, irrigators may have very few options. The system is shut off during cutting and started again when the hay is removed. The harvest reduces the water-use rate for a time, but full water-use rates will occur in about 10 to 12 days after cutting. The b s, but more soil- water storage is available for pre- cipitation, and the production per unit of irrigation water increases. However, the economic benefits of this method are site-specific. Cost of pumping, crop value, and costs associated with the irrigation system and management must be considered. Even with a limited water supply, early- and late-season irrigations can be used because of alfalfa’s long growing season and deep root zone. End-of-season irrigation for alfalfa is important. The profile soil water should be in the readily plant- available water range when the crop goes dormant for the winter to reduce the chances of winter kill. Irrigation Timing Alfalfa is sensitive to water stress at the time of harvest, and rapid re-growth depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth. However, soil compaction m ning when and how much to irrigate. An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing. Soil-Based Scheduling Methods Measuring soil water at fre- quent intervals is an excellent scheduling method. Measurement accuracy depends on the frequency, number, and location of measure- ments, though. Soil-water measur- ing equipment must be monitored frequently – at least twice a week at mid-season – and measurement Figure 1: Normal water-use curve for alfalfa with four cuttings [page 3] Table 1. Interpretation Chart for Table 1. Interpretation Chart for Soil Water Texture or appearance of soils Soil water remaining Very light Light Medium Heavy and very heavy 0% Dry, loose, single- grained; flows through fingers. Dry, loose; flows through fingers. Powdery, dry; some- times slightly crust ning when and how much to irrigate. An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing. Soil-Based Scheduling Methods Measuring soil water at fre- quent intervals is an excellent scheduling method. Measurement accuracy depends on the frequency, number, and location of measure- ments, though. Soil-water measur- ing equipment must be monitored frequently – at least twice a week at mid-season – and measurement Figure 1: Normal water-use curve for alfalfa with four cuttings [page 3] Table 1. Interpretation Chart for Table 1. Interpretation Chart for Soil Water Texture or appearance of soils Soil water remaining Very light Light Medium Heavy and very heavy 0% Dry, loose, single- grained; flows through fingers. Dry, loose; flows through fingers. Powdery, dry; some- times slightly crust"
+    }
+  ],
+  "approved_facts": [
+    {
+      "kind": "qualitative",
+      "claim": "در راهنمای مدیریت آبیاری یونجه دانشگاه ایالتی کانزاس، سطح سفت و خشک خاک برای عبور تجهیزات برداشت و خشک‌شدن علوفه مناسب دانسته شده است.",
+      "conditions": "راهنمای ترویجی کانزاس، ایالات متحده؛ محصول یونجه علوفه‌ای در مزرعه؛ این اصل، زمان تقویمی یا آستانه رطوبت قابل تعمیم به ایران تعیین نمی‌کند.",
+      "evidence_id": "d2-e7",
+      "numeric_bindings": [],
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": null,
+          "quote": null
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      },
+      "fact_id": "f0",
+      "source_url": "https://bookstore.ksre.ksu.edu/pubs/irrigation-management-for-alfalfa_MF2868.pdf",
+      "evidence_quote": " depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth. However, soil compaction may occur if the field is watered from above ground before harvesting. A firm, dry surface is best for harvest traffic and field-drying of hay. Also, because watering immediately after harvest stimulates the germination and growth of surface-germinated weeds it should be avoided when possible unless subsurface drip ir- rigation (SDI) systems are in use, which do not wet the soil surface during irrigation. If the irrigation system has lim- ited capacity, as most center pivots do during mid-season, irrigators may have very few options. The system is shut off during cutting and started again when the hay is removed. The harvest reduces the water-use rate for a time, but full water-use rates will occur in about 10 to 12 days after cutting. The b",
+      "research_policy_version": "claim-context-research-v1"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در همان راهنمای یونجه، رویش مجدد سریع پس از برداشت به وجود رطوبت کافی خاک وابسته دانسته شده است.",
+      "conditions": "کانزاس، ایالات متحده؛ بحث رطوبت خاک برای رویش مجدد یونجه است؛ از این گزاره، عمق آب یا موعد ثابت آبیاری برای اقلیم ایران استنتاج نمی‌شود.",
+      "evidence_id": "d2-e6",
+      "numeric_bindings": [],
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "Alfalfa",
+          "quote": "Alfalfa is sensitive to water stress at the time of harvest"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      },
+      "fact_id": "f1",
+      "source_url": "https://bookstore.ksre.ksu.edu/pubs/irrigation-management-for-alfalfa_MF2868.pdf",
+      "evidence_quote": "s, but more soil- water storage is available for pre- cipitation, and the production per unit of irrigation water increases. However, the economic benefits of this method are site-specific. Cost of pumping, crop value, and costs associated with the irrigation system and management must be considered. Even with a limited water supply, early- and late-season irrigations can be used because of alfalfa’s long growing season and deep root zone. End-of-season irrigation for alfalfa is important. The profile soil water should be in the readily plant- available water range when the crop goes dormant for the winter to reduce the chances of winter kill. Irrigation Timing Alfalfa is sensitive to water stress at the time of harvest, and rapid re-growth depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth. However, soil compaction m",
+      "research_policy_version": "claim-context-research-v1"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در روش زمان‌بندی آبیاری مطرح‌شده در این راهنما، برآورد یا اندازه‌گیری اولیه رطوبت ناحیه ریشه لازم است و از تجهیزات سنجش رطوبت خاک یا نمونه‌برداری با پروب استفاده می‌شود.",
+      "conditions": "راهنمای مدیریت آبیاری یونجه کانزاس؛ مبنای توصیف روش پایش رطوبت ناحیه ریشه است، نه تعیین عمق ثابت ریشه یا آستانه آبیاری برای مزرعه ایرانی.",
+      "evidence_id": "d2-e9",
+      "numeric_bindings": [],
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "alfalfa",
+          "quote": "Normal water-use curve for alfalfa with four cuttings"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      },
+      "fact_id": "f2",
+      "source_url": "https://bookstore.ksre.ksu.edu/pubs/irrigation-management-for-alfalfa_MF2868.pdf",
+      "evidence_quote": "ning when and how much to irrigate. An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing. Soil-Based Scheduling Methods Measuring soil water at fre- quent intervals is an excellent scheduling method. Measurement accuracy depends on the frequency, number, and location of measure- ments, though. Soil-water measur- ing equipment must be monitored frequently – at least twice a week at mid-season – and measurement Figure 1: Normal water-use curve for alfalfa with four cuttings [page 3] Table 1. Interpretation Chart for Table 1. Interpretation Chart for Soil Water Texture or appearance of soils Soil water remaining Very light Light Medium Heavy and very heavy 0% Dry, loose, single- grained; flows through fingers. Dry, loose; flows through fingers. Powdery, dry; some- times slightly crust",
+      "research_policy_version": "claim-context-research-v1"
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در راهنمای کانزاس، دقت اندازه‌گیری رطوبت خاک وابسته به تناوب، تعداد و محل اندازه‌گیری‌ها دانسته شده است.",
+      "conditions": "راهنمای ترویجی یونجه در کانزاس، ایالات متحده؛ این گزاره ضرورت توجه به طراحی پایش را توضیح می‌دهد و فاصله زمانی یا تعداد ثابت نمونه برای ایران تجویز نمی‌کند.",
+      "evidence_id": "d2-e9",
+      "numeric_bindings": [],
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "alfalfa",
+          "quote": "Normal water-use curve for alfalfa with four cuttings"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      },
+      "fact_id": "f3",
+      "source_url": "https://bookstore.ksre.ksu.edu/pubs/irrigation-management-for-alfalfa_MF2868.pdf",
+      "evidence_quote": "ning when and how much to irrigate. An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing. Soil-Based Scheduling Methods Measuring soil water at fre- quent intervals is an excellent scheduling method. Measurement accuracy depends on the frequency, number, and location of measure- ments, though. Soil-water measur- ing equipment must be monitored frequently – at least twice a week at mid-season – and measurement Figure 1: Normal water-use curve for alfalfa with four cuttings [page 3] Table 1. Interpretation Chart for Table 1. Interpretation Chart for Soil Water Texture or appearance of soils Soil water remaining Very light Light Medium Heavy and very heavy 0% Dry, loose, single- grained; flows through fingers. Dry, loose; flows through fingers. Powdery, dry; some- times slightly crust",
+      "research_policy_version": "claim-context-research-v1"
+    }
+  ],
+  "scoped_review": {
+    "decision": "pass",
+    "all_claims_supported": true,
+    "crop_species_and_product_match": true,
+    "answers_exact_intent": true,
+    "units_and_denominators_correct": true,
+    "geography_and_transfer_limits_retained": true,
+    "no_iranian_prescription_inferred": true,
+    "independent_sources": false,
+    "source_policy_version": "university-single-source-v1",
+    "source_policy_satisfied": true,
+    "no_unsafe_input_rates": true,
+    "human_review_claimed": false,
+    "limitations": "منبع تک‌جمله‌ای: راهنمای ترویجی KSU برای کانزاس (ایالات متحده). معیارهای پرس‌شده فاقد منبع بومی ایران بودند؛ شواهد بین‌المللی صرفاً اصل زمانی‌بندی مبتنی بر رطوبت خاک و نقشه‌خوانی ET را پشتیبانی می‌کنند و هیچ تاریخ، عمق، فاصله یا آستانه ET تعیین‌شده برای ایران ارائه نمی‌دهند. اقلیم، خاک، سامانه آبیاری، رقم، شوری آب و شرایط برداشت ایران کاملاً نامشخص است؛ قضاوت تصمیم‌گیری پیش‌برداشت برای مزرعه ایرانی خارج از دامنه این منبع است.",
+    "fact_checks": [
+      {
+        "fact_id": "f0",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "متن منبع صراحتاً قید می‌کند که سطح سفت و خشک برای عبور تجهیزات برداشت و خشک‌شدن علوفه مناسب است؛ ارتباط معنایی کامل و بدون تعمیم به ایران حفظ شد.",
+        "evidence_quote": "A firm, dry surface is best for harvest traffic and field-drying of hay."
+      },
+      {
+        "fact_id": "f1",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "گزاره منبع به‌وضوح رویش مجدد سریع یونجه پس از برداشت را وابسته به رطوبت کافی خاک می‌داند و این اصل بدون افزودن شرایط ایرانی نقل شد.",
+        "evidence_quote": "rapid re-growth depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth."
+      },
+      {
+        "fact_id": "f2",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "منبع مستقیماً برآورد یا اندازه‌گیری اولیه رطوبت ناحیه ریشه و استفاده از تجهیزات سنجش یا پروب را پیش‌نیاز زمان‌بندی معرفی می‌کند.",
+        "evidence_quote": "An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing."
+      },
+      {
+        "fact_id": "f3",
+        "supported": true,
+        "scope_and_units_correct": true,
+        "reason": "دقت اندازه‌گیری در منبع به وفور، تعداد و مکان نمونه‌برداری گره خورده است و این قید دقیقاً در پرس‌شده منعکس شده است.",
+        "evidence_quote": "Measurement accuracy depends on the frequency, number, and location of measure- ments, though."
+      }
+    ],
+    "rejection_reasons": [],
+    "regional_research_version": "regional-official-research-v1",
+    "regional_sources_prioritized": true,
+    "international_transfer_limits_retained": true,
+    "regional_source_gap": "دو منبع وزارت جهاد کشاورزی و سازمان تحقیقات کشاورزی ایران جستجو شدند ولی صرفاً حجم مصرف آب، عملکرد و بازدهی آب را گزارش کردند و هیچ معیار رشد، مرحله بوته‌ای، نشانه وزنی/ریختی یا آستانه رطوبت خاک برای تصمیم پیش‌برداشت ارائه ندادند؛ consequently یک شکاف مستند پرسشی ثبت شد و پرکننده بین‌المللی با محدودیت جغرافیایی کانزاس مجاز شمرده شد.",
+    "research_policy_version": "claim-context-research-v1",
+    "context_checks": [
+      {
+        "fact_id": "f0",
+        "claim_type": "general_principle",
+        "context_supported": true,
+        "publisher_expertise_supported": true,
+        "reason": "دانشگاه ایالتی کانزاس (KSRE) ناشر رسمی مدیریت آبیاری یونجه در کانزاس است و لفظ firm, dry surface for harvest traffic دقیقاً در متن وجود دارد."
+      },
+      {
+        "fact_id": "f1",
+        "claim_type": "general_principle",
+        "context_supported": true,
+        "publisher_expertise_supported": true,
+        "reason": "ناشر به‌صورت مستقیم وابستگی rapid re-growth به adequate soil water را تصریح کرده و ادعا بدون افزودن شرایط ایرانی بازتولید شد."
+      },
+      {
+        "fact_id": "f2",
+        "claim_type": "general_principle",
+        "context_supported": true,
+        "publisher_expertise_supported": true,
+        "reason": "بخش Irrigation Scheduling صراحتاً نیاز به initial estimate or measurement of root-zone soil water و استفاده از soil-water measuring equipment or soil probing را شرح می‌دهد."
+      },
+      {
+        "fact_id": "f3",
+        "claim_type": "general_principle",
+        "context_supported": true,
+        "publisher_expertise_supported": true,
+        "reason": "بخش Soil-Based Scheduling Methods وابستگی Measurement accuracy به frequency, number, and location of measurements را به‌صورت تحت‌اللفظی بیان می‌کند."
+      }
+    ],
+    "conflicts_reviewed": true,
+    "research_route_version": "full-queue-research-routes-v1",
+    "route_requirements_met": true
+  },
+  "research_policy_version": "claim-context-research-v1",
+  "conflicts": [],
+  "regional_research": {
+    "version": "regional-official-research-v1",
+    "profile": {
+      "version": "regional-official-research-v1",
+      "language": "fa-IR",
+      "countries": [
+        "IR"
+      ],
+      "query_language": "Persian",
+      "audience": "Iran; preserve province, climate, cultivar, soil and water conditions",
+      "regional_sources_first": true,
+      "news_for_dated_context_only": true,
+      "foreign_fallback": "credible_international_when_local_evidence_weak",
+      "applicability_rule": "Institution country is NOT trial location or applicability proof. Verify actual crop/product, study geography, climate, soil, water salinity, cultivar and growing system. Never relabel foreign observations as local recommendations. Preserve all country/region limits; reject missing local evidence rather than invent rates, dates or prices."
+    },
+    "review_sha256": "48aec900e415c746bbce383b125fca2b38e7b46c5df98e39752a32769581d243",
+    "facts_sha256": "224d0e8a1366e691e6d216cdeca13e5018605904da0384c9b115c56117b50e39",
+    "sources_sha256": "51ba6056c4ae605b96249c766bd1726a66bbfc6335bf5bc9587e9ec27babc092"
+  }
+}

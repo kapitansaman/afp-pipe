@@ -1,0 +1,57 @@
+{
+  "applicable": true,
+  "country_limits_retained": true,
+  "fact_checks": [
+    {
+      "country": "US",
+      "document_id": "s0",
+      "fact_id": "f0",
+      "international_fallback": true,
+      "local_evidence_gap": "No Iranian alfalfa irrigation trial or extension study cited; source is Kansas State University Extension MF2868 (US).",
+      "quote": " depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth. However, soil compaction may occur if the field is watered from above ground before harvesting. A firm, dry surface is best for harvest traffic and field-drying of hay. Also, because watering immediately after harvest stimulates the germination and growth of surface-germinated weeds it should be avoided when possible unless subsurface drip ir- rigation (SDI) systems are in use, which do not wet the soil surface during irrigation. If the irrigation system has lim- ited capacity, as most center pivots do during mid-season, irrigators may have very few options. The system is shut off during cutting and started again when the hay is removed. The harvest reduces the water-use rate for a time, but full water-use rates will occur in about 10 to 12 days after cutting. The b",
+      "scope": "Kansas State University alfalfa irrigation management; general principle on surface drying for traffic and regrowth water dependence; not an Iran-specific rate.",
+      "source_kind": "technical_publication",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    {
+      "country": "US",
+      "document_id": "s0",
+      "fact_id": "f1",
+      "international_fallback": true,
+      "local_evidence_gap": "No Iranian cultivar or soil-water trial; source is Kansas State University Extension MF2868 (US).",
+      "quote": "s, but more soil- water storage is available for pre- cipitation, and the production per unit of irrigation water increases. However, the economic benefits of this method are site-specific. Cost of pumping, crop value, and costs associated with the irrigation system and management must be considered. Even with a limited water supply, early- and late-season irrigations can be used because of alfalfa’s long growing season and deep root zone. End-of-season irrigation for alfalfa is important. The profile soil water should be in the readily plant- available water range when the crop goes dormant for the winter to reduce the chances of winter kill. Irrigation Timing Alfalfa is sensitive to water stress at the time of harvest, and rapid re-growth depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth. However, soil compaction m",
+      "scope": "Kansas alfalfa timing guidance; general principle on post-harvest soil-water dependence for regrowth; no fixed Iran calendar or depth.",
+      "source_kind": "technical_publication",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    {
+      "country": "US",
+      "document_id": "s0",
+      "fact_id": "f2",
+      "international_fallback": true,
+      "local_evidence_gap": "No Iranian soil-water sensor or probing protocol; source is Kansas State University Extension MF2868 (US).",
+      "quote": "ning when and how much to irrigate. An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing. Soil-Based Scheduling Methods Measuring soil water at fre- quent intervals is an excellent scheduling method. Measurement accuracy depends on the frequency, number, and location of measure- ments, though. Soil-water measur- ing equipment must be monitored frequently – at least twice a week at mid-season – and measurement Figure 1: Normal water-use curve for alfalfa with four cuttings [page 3] Table 1. Interpretation Chart for Table 1. Interpretation Chart for Soil Water Texture or appearance of soils Soil water remaining Very light Light Medium Heavy and very heavy 0% Dry, loose, single- grained; flows through fingers. Dry, loose; flows through fingers. Powdery, dry; some- times slightly crust",
+      "scope": "Method description for root-zone water estimation via equipment/probing; does not prescribe a fixed Iran frequency or depth.",
+      "source_kind": "technical_publication",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    {
+      "country": "US",
+      "document_id": "s0",
+      "fact_id": "f3",
+      "international_fallback": true,
+      "local_evidence_gap": "No Iranian calibration of frequency/number/location accuracy study; source is Kansas State University Extension MF2868 (US).",
+      "quote": "ning when and how much to irrigate. An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing. Soil-Based Scheduling Methods Measuring soil water at fre- quent intervals is an excellent scheduling method. Measurement accuracy depends on the frequency, number, and location of measure- ments, though. Soil-water measur- ing equipment must be monitored frequently – at least twice a week at mid-season – and measurement Figure 1: Normal water-use curve for alfalfa with four cuttings [page 3] Table 1. Interpretation Chart for Table 1. Interpretation Chart for Soil Water Texture or appearance of soils Soil water remaining Very light Light Medium Heavy and very heavy 0% Dry, loose, single- grained; flows through fingers. Dry, loose; flows through fingers. Powdery, dry; some- times slightly crust",
+      "scope": "Accuracy dependency statement for soil-water measurement design; does not mandate Iran-specific schedule.",
+      "source_kind": "technical_publication",
+      "supported": true,
+      "transfer_limits_retained": true
+    }
+  ],
+  "no_unsupported_local_prescription": true,
+  "regional_review_schema_version": 2,
+  "rejection_reasons": []
+}
