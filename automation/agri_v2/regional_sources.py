@@ -18,6 +18,9 @@ GOV_SUFFIXES={
  'AE':['gov.ae'],'BH':['gov.bh'],'DZ':['gov.dz'],'DJ':['gouv.dj'],'EG':['gov.eg'],'IQ':['gov.iq'],'JO':['gov.jo'],'KM':['gouv.km'],'KW':['gov.kw'],'LB':['gov.lb'],'LY':['gov.ly'],'MA':['gov.ma'],'MR':['gov.mr'],'OM':['gov.om'],'PS':['gov.ps'],'QA':['gov.qa'],'SA':['gov.sa'],'SD':['gov.sd'],'SO':['gov.so'],'SY':['gov.sy'],'TN':['gov.tn'],'YE':['gov.ye'],
  'US':['gov'],'GB':['gov.uk'],'CA':['gc.ca'],'AU':['gov.au'],'NZ':['govt.nz'],'IE':['gov.ie'],'ZA':['gov.za'],
  'IN':['gov.in'],'PK':['gov.pk'],'NG':['gov.ng'],'KE':['go.ke'],'GH':['gov.gh'],'UG':['go.ug'],'ZM':['gov.zm'],'ZW':['gov.zw'],'BW':['gov.bw'],'NA':['gov.na'],'MW':['gov.mw'],'RW':['gov.rw'],'SG':['gov.sg'],'PH':['gov.ph'],'JM':['gov.jm'],'BZ':['gov.bz'],'GY':['gov.gy'],'TT':['gov.tt'],'BB':['gov.bb'],'FJ':['gov.fj'],'PG':['gov.pg']}
+# Restricted official namespaces for international fallback, not new target audiences.
+GOV_SUFFIXES.update({'TR':['gov.tr'],'FR':['gouv.fr'],'ES':['gob.es'],'MX':['gob.mx'],
+ 'BR':['gov.br'],'JP':['go.jp'],'KR':['go.kr'],'CN':['gov.cn']})
 ACADEMIC_SUFFIXES={'IR':['ac.ir'],'RU':['edu.ru'],'US':['edu'],'GB':['ac.uk'],'AU':['edu.au'],'NZ':['ac.nz'],'ZA':['ac.za'],'IN':['ac.in'],'PK':['edu.pk'],'NG':['edu.ng'],'KE':['ac.ke'],'GH':['edu.gh'],'UG':['ac.ug'],'ZM':['ac.zm'],'ZW':['ac.zw'],'BW':['ac.bw'],'NA':['edu.na'],'MW':['ac.mw'],'RW':['ac.rw'],'SG':['edu.sg'],'PH':['edu.ph'],'JM':['edu.jm'],'BZ':['edu.bz'],'GY':['edu.gy'],'TT':['edu.tt'],'BB':['edu.bb'],'FJ':['ac.fj'],'PG':['ac.pg']}
 # Restricted academic namespaces; no blanket .ir/.ru/.tj/.com admission.
 ACADEMIC_SUFFIXES.update({country:[f'edu.{country.lower()}',f'ac.{country.lower()}'] for country in ARAB_COUNTRIES})
@@ -145,6 +148,8 @@ def validate_local_review(value,article,brief,docs,lang):
  from .research import clean
  from .scoped_research import tokens
  if documents_for(docs,lang,allow_international=True)!=docs or not docs:raise RegionalBlocked('regional_documents_out_of_scope')
+ from .claim_policy import validate_regional_objections
+ validate_regional_objections(value,article,brief['approved_facts'])
  if not isinstance(value,dict) or value.get('applicable') is not True or value.get('no_unsupported_local_prescription') is not True or value.get('country_limits_retained') is not True:raise RegionalBlocked('regional_applicability_not_approved')
  checks=value.get('fact_checks');facts=brief['approved_facts'];by_id={f['fact_id']:f for f in facts};documents={'s'+str(i):d for i,d in enumerate(docs)}
  if not isinstance(checks,list) or len(checks)!=len(facts) or any(not isinstance(c,dict) for c in checks) or {c.get('fact_id') for c in checks}!=set(by_id):raise RegionalBlocked('regional_every_fact_requires_review')
@@ -164,7 +169,9 @@ def review_contract(lang):
  """Audience is a set of possible readers, not all-country experimental coverage.
  This clarifies review only: no positive verdict or transferable rate is inferred.
  """
+ from .claim_policy import regional_contract
  return {
+  'claim_review_contract':regional_contract(),
   'version':'regional-review-contract-v2',
   'audience_countries':profile(lang)['countries'],
   'audience_semantics':'ANY target country may supply local evidence; NOT a requirement to have a separate study in EVERY listed country.',
@@ -192,7 +199,10 @@ def local_research(topic,article,brief,lang,client,data,out,folder,root,limit):
   if not docs:raise RegionalBlocked('no_credible_local_or_international_evidence')
   prompt=dict(prompt,documents=[{'id':'s'+str(i),**d} for i,d in enumerate(docs)],local_review=verdict,fallback_rule='Local review is untrusted diagnostic data, not approval. Evaluate each claim honestly; use international evidence only for an explicit local gap, retain actual study geography and transfer limits. A source-country mismatch alone is NOT rejection.')
   verdict=request(client,root,'regional-evidence-review-fallback',prompt,limit)
-  urls=validate_local_review(verdict,article,brief,docs,lang)
+ if not isinstance(verdict,dict) or verdict.get('regional_review_schema_version')!=2:
+  from .claim_policy import PolicyBlocked
+  raise PolicyBlocked('claim_context_review_required')
+ urls=validate_local_review(verdict,article,brief,docs,lang)
  atomic_json(path,{'version':VERSION,'profile':profile(lang),'article_sha256':digest(article),'brief_sha256':digest(brief),'documents':docs,'review':verdict,'source_urls':urls,'reviewed_at':utcnow(),'publication_authorized':False})
  return urls
 

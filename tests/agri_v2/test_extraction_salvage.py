@@ -13,12 +13,13 @@ class ExtractionSalvageTests(unittest.TestCase):
    with self.subTest(topic=ident):
     candidate,report=s.normalize_saved_candidate(row['topic'],row['candidate'],row['sources']['documents']);self.assertEqual(len(candidate['facts']),7 if ident==t.TOPICS[2] else 5);self.assertFalse(report['claims_rewritten']);self.assertFalse(report['scientific_rejection_overridden']);self.assertTrue(report['independent_review_still_required']);s.validate_candidate(row['topic'],candidate,row['sources']['documents'])
     self.assertTrue(all(f['claim'] in [x['claim'] for x in row['candidate']['facts']] for f in candidate['facts']))
- def test_new_extraction_uses_one_call_then_conservative_salvage(self):
+ def test_new_extraction_rejects_legacy_response_without_backfilling_context(self):
   for ident,row in BASE.items():
    with self.subTest(topic=ident),tempfile.TemporaryDirectory() as d:
     data=Path(d)/'data';out=Path(d)/'out';ev=out/'new'/ident/'lifecycle-evidence';atomic_json(ev/'sources.json',row['sources']);client=Mock();client.text.return_value=copy.deepcopy(row['candidate'])
-    with patch.object(s,'entries_for',return_value=[]):result=s.stage(row['topic'],'research_extract',client,data,out)
-    client.text.assert_called_once();self.assertEqual(result['grounded_facts'],7 if ident==t.TOPICS[2] else 5);self.assertEqual(load_json(ev/'candidate-raw.json'),row['candidate']);self.assertFalse(load_json(ev/'extraction-feedback.json')['scientific_approval']);self.assertTrue(load_json(ev/'saved-candidate-validation.json')['independent_review_still_required']);self.assertFalse((data/'briefs'/(ident+'.json')).exists())
+    from automation.agri_v2.claim_policy import PolicyBlocked
+    with patch.object(s,'entries_for',return_value=[]),self.assertRaises(PolicyBlocked):s.stage(row['topic'],'research_extract',client,data,out)
+    client.text.assert_called_once();self.assertEqual(load_json(ev/'candidate-raw.json'),row['candidate']);self.assertFalse((ev/'candidate.json').exists());self.assertFalse((data/'briefs'/(ident+'.json')).exists())
  def test_scientific_insufficiency_never_flipped_or_approved(self):
   row=BASE[t.TOPICS[2]];raw=copy.deepcopy(row['candidate']);raw['answers_intent']=False
   with self.assertRaises(s.EvidenceBlocked):s.normalize_saved_candidate(row['topic'],raw,row['sources']['documents'])

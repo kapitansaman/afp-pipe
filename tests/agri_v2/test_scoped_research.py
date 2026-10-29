@@ -69,10 +69,18 @@ class ScopedResearchTests(unittest.TestCase):
  def test_real_scoped_stages_replace_dead_end_without_fake_approval(self):
   from unittest.mock import Mock
   from automation.agri_v2 import family_lifecycle as f
-  t,v,docs=self.fixture();facts=s.validate_candidate(t,v,docs);bundle,overlap=self.overlap(t)
+  from automation.agri_v2 import claim_policy as policy
+  t,v,docs=self.fixture();v.update(research_policy_version=policy.VERSION,conflicts=[])
+  for fact in v['facts']:
+   fact['claim_type']='source_observation' if fact['kind']=='source_observation' else 'general_principle'
+   fact['study_context']={k:{'value':None,'quote':None} for k in policy.CONTEXT_FIELDS}
+  facts=s.validate_candidate(t,v,docs);bundle,overlap=self.overlap(t)
+  review=dict(self.review(facts),research_route_version=s.ROUTE_VERSION,route_requirements_met=True,research_policy_version=policy.VERSION,conflicts_reviewed=True,decision='pass',rejection_reasons=[])
+  review['context_checks']=[{'fact_id':fact['fact_id'],'claim_type':fact['claim_type'],'context_supported':True,'publisher_expertise_supported':True,'reason':'The literal source supports this limited claim and its actual context.'} for fact in facts if fact['kind']!='deterministic_conversion']
+  for check,fact in zip(review['fact_checks'],facts):check.update(reason='The source supports this claim with the original scope and units.',evidence_quote=fact['evidence_quote'][:90])
   with tempfile.TemporaryDirectory() as td:
    data=Path(td)/'data';out=Path(td)/'out';ev=out/'new'/t['id']/'lifecycle-evidence';atomic_json(ev/'sources.json',{'documents':docs,'source_text_layout_version':2});atomic_json(ev/'existing-content.json',bundle);atomic_json(data/'config.json',{'publication_holds':{},'multilingual':{'enabled':False}});atomic_json(data/'scoped-source-catalog.json',{'entries':[{'crops':[t['crop']],'intents':[t['intent']],'scope':'Exact crop, product and geographic source limits','urls':[]}]});atomic_json(data/'parallel-inventory.json',{'source_generated_at':utcnow(),'records':[]});atomic_json(data/'family-lifecycle-policy.json',{'version':1,'max_families':20,'max_attempts_per_stage':3,'max_model_requests_per_family':14,'max_published_families':20,'preserve_legacy_budgets':True,'scoped_evidence_research':True})
-   rp=out/'research'/(t['id']+'.json');atomic_json(rp,{'attempts':0,'status':'needs_review','reason':'quantitative_or_specialist_scope'});before=rp.read_bytes();self.assertEqual(f.next_stage(t,data,out)[0],'research_extract');client=Mock();client.text.side_effect=[v,overlap,dict(self.review(facts),research_route_version=s.ROUTE_VERSION,route_requirements_met=True)]
+   rp=out/'research'/(t['id']+'.json');atomic_json(rp,{'attempts':0,'status':'needs_review','reason':'quantitative_or_specialist_scope'});before=rp.read_bytes();self.assertEqual(f.next_stage(t,data,out)[0],'research_extract');client=Mock();client.text.side_effect=[v,overlap,review]
    s.stage(t,'research_extract',client,data,out);self.assertEqual(f.next_stage(t,data,out)[0],'existing_content_audit-000');s.stage(t,'existing_content_audit',client,data,out);self.assertEqual(f.next_stage(t,data,out)[0],'research_review');s.stage(t,'research_review',client,data,out);self.assertEqual(f.next_stage(t,data,out)[0],'text');self.assertEqual(rp.read_bytes(),before);self.assertIsNone(load_json(data/'briefs'/(t['id']+'.json'))['agronomy_reviewer'])
  def test_crop_boundary_does_not_mix_mungbean_with_vetch_or_machinery(self):
   self.assertTrue(s.crop_in_title('ماش','زمان برداشت ماش؛ نشانه رسیدگی'));self.assertFalse(s.crop_in_title('ماش','برداشت ماشک'));self.assertFalse(s.crop_in_title('ماش','ماشین برداشت لوبیا'));self.assertTrue(s.crop_in_title('گوجه‌فرنگی','تراکم گوجه فرنگی در مزرعه'))

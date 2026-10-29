@@ -15,6 +15,8 @@ class RegionalSourcesTests(unittest.TestCase):
  def verdict(self,doc=None):
   doc=doc or self.doc();country,_=r.classification(__import__('urllib.parse',fromlist=['urlsplit']).urlsplit(doc['url']).hostname)
   return {'applicable':True,'no_unsupported_local_prescription':True,'country_limits_retained':True,'fact_checks':[{'fact_id':'f0','supported':True,'document_id':'s0','quote':doc['text'][:190],'source_kind':'technical_publication','country':country,'scope':'Measured soil conditions and crop stage only; no universal climate or country prescription.','international_fallback':True,'local_evidence_gap':'Local official documents did not substantiate the required soil measurement method.','transfer_limits_retained':True}]}
+ def current_verdict(self,doc=None):
+  return dict(self.verdict(doc),regional_review_schema_version=2,rejection_reasons=[])
  def data(self,p):
   d=p/'data';atomic_json(d/'regional-research-policy.json',r.POLICY);return d
  def test_profiles_are_geographic_not_legacy_locale_suffixes(self):
@@ -89,21 +91,21 @@ class RegionalSourcesTests(unittest.TestCase):
    self.assertTrue((root/'family/regional-research/fa-IR/local/search-plan.json').exists())
  def test_sufficient_local_review_does_not_search_international(self):
   with tempfile.TemporaryDirectory() as t:
-   root=Path(t);data=self.data(root);d=self.doc('https://mcx.gov.ru/x');client=Mock();client.text.return_value=self.verdict(d)
+   root=Path(t);data=self.data(root);d=self.doc('https://mcx.gov.ru/x');client=Mock();client.text.return_value=self.current_verdict(d)
    with patch.object(r,'collect',return_value=[d]) as collect:r.local_research(self.topic(),{},self.brief(),'ru-RU',client,data,root,root/'family',root/'attempt',4)
    self.assertEqual(collect.call_count,1);self.assertEqual(client.text.call_count,1)
  def test_weak_local_evidence_triggers_international_then_scientific_review(self):
   with tempfile.TemporaryDirectory() as t:
-   root=Path(t);data=self.data(root);local=self.doc('https://mcx.gov.ru/x');foreign=self.doc('https://extension.example.edu/field');client=Mock();client.text.side_effect=[{'applicable':False},self.verdict(foreign)]
+   root=Path(t);data=self.data(root);local=self.doc('https://mcx.gov.ru/x');foreign=self.doc('https://extension.example.edu/field');client=Mock();client.text.side_effect=[{'applicable':False},self.current_verdict(foreign)]
    with patch.object(r,'collect',side_effect=[[local],[foreign]]) as collect:
     # fallback is s1 in the merged documents, not s0 from an old pack
-    client.text.side_effect=[{'applicable':False},dict(self.verdict(foreign),fact_checks=[dict(self.verdict(foreign)['fact_checks'][0],document_id='s1')])]
+    client.text.side_effect=[{'applicable':False},dict(self.current_verdict(foreign),fact_checks=[dict(self.current_verdict(foreign)['fact_checks'][0],document_id='s1')])]
     urls=r.local_research(self.topic(),{},self.brief(),'ru-RU',client,data,root,root/'family',root/'attempt',4)
    self.assertEqual(urls,[foreign['url']]);self.assertEqual(collect.call_count,2);self.assertTrue(collect.call_args.kwargs['international']);self.assertEqual(client.text.call_count,2)
    client.text.reset_mock();r.require_local({},self.brief(),'ru-RU',data,root/'family');client.text.assert_not_called()
  def test_no_local_documents_still_allow_credible_international_completion(self):
   with tempfile.TemporaryDirectory() as t:
-   root=Path(t);data=self.data(root);d=self.doc('https://extension.example.edu/field');client=Mock();client.text.return_value=self.verdict(d)
+   root=Path(t);data=self.data(root);d=self.doc('https://extension.example.edu/field');client=Mock();client.text.return_value=self.current_verdict(d)
    with patch.object(r,'collect',side_effect=[[],[d]]):self.assertEqual(r.local_research(self.topic(),{},self.brief(),'tg-TJ',client,data,root,root/'family',root/'attempt',4),[d['url']])
    self.assertEqual(client.text.call_count,1)
  def test_unavailable_all_sources_never_create_approval(self):
@@ -113,7 +115,7 @@ class RegionalSourcesTests(unittest.TestCase):
    client.text.assert_not_called();self.assertFalse((root/'family/regional-research/tg-TJ/approved.json').exists())
  def test_local_proof_binds_article_brief_and_literal_fetched_text(self):
   with tempfile.TemporaryDirectory() as t:
-   root=Path(t);data=self.data(root);folder=root/'family';d=self.doc('https://mcx.gov.ru/x');client=Mock();client.text.return_value=self.verdict(d);b=self.brief();a={'title':'source'}
+   root=Path(t);data=self.data(root);folder=root/'family';d=self.doc('https://mcx.gov.ru/x');client=Mock();client.text.return_value=self.current_verdict(d);b=self.brief();a={'title':'source'}
    with patch.object(r,'collect',return_value=[d]):r.local_research(self.topic(),a,b,'ru-RU',client,data,root,folder,root/'attempt',4)
    with self.assertRaises(r.RegionalBlocked):r.require_local({'title':'changed'},b,'ru-RU',data,folder)
    p=folder/'regional-research/ru-RU/approved.json';v=load_json(p);v['documents'][0]['text']+='tampered';atomic_json(p,v)

@@ -37,6 +37,9 @@ def failure_details(exc):
  from .regional_sources import RegionalBlocked,DIAGNOSTIC_CODES
  if type(exc) is RegionalBlocked and str(exc) in DIAGNOSTIC_CODES:category=str(exc)
  allowed.update(DIAGNOSTIC_CODES)
+ from .claim_policy import PolicyBlocked,CODES as CLAIM_CODES
+ if type(exc) is PolicyBlocked and str(exc) in CLAIM_CODES:category=str(exc)
+ allowed.update(CLAIM_CODES)
  row={'kind':kind,'category':category if category in allowed else 'unspecified'}
  status=getattr(exc,'http_status',None)
  if type(status)is int and 100<=status<=599:row['http_status']=status
