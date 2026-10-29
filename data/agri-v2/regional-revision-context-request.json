@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-revision-context-repair-v1",
+  "revision_request_id": "alfalfa-regional-revision-v1",
+  "prepare_authorized": true,
+  "publication_authorized": false,
+  "max_remaining_model_calls": 5,
+  "max_search_requests": 0,
+  "max_continuations": 1,
+  "reset_original_attempts": false,
+  "prior_report_sha256": "648f66fb34565b4279ad3f57c1d1b3952ce3d27f9ad22d7b6deff6680a0bf57e",
+  "documents_sha256": "d75c69544c6c967368661728175eb9261317c333e268b12b7150fb9a8111c634"
+}

@@ -102,3 +102,21 @@ reservation stops the one-shot revision. Dispatching again cannot replay it or
 reset the original budgets. Stale capability evidence and active provider
 cooldowns defer before reserving the revision. No schedule or capacity promotion
 is enabled.
+
+#### Confirmed extraction-context continuation (no extra budget)
+
+The first revision searched Iranian sources then fetched relevant international
+technical sources, but returned an empty extraction after three confirmed calls.
+An explicitly bound manual `regional-revision-context` request may use only the
+remaining five calls of the SAME eight-call revision budget, with zero search
+requests. It requires exact received response hashes, the original negative
+report and full-document hashes; unknown, interrupted or different work is not
+eligible. No prior negative is changed or accepted.
+
+Relevance-ranked literal chunks preserve their original evidence IDs and one
+source-context chunk per document; all full used documents go to the independent
+fact reviewer. This is a context-retrieval correction, not a scientific pass.
+The new extraction, scientific review, rewrite, final audit and regional audit
+must still pass. The original failed report is retained and the manual
+continuation has its own no-replay receipt. No live post or old source artifacts
+are changed, and the overall revision still cannot exceed eight model calls.
