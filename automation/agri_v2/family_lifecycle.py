@@ -413,6 +413,18 @@ def publish_ready(wp,topic,data=DATA,out=OUT):
  newly_verified=after_verified-before_verified
  return dict(result,topic_id=topic['id'],status='family_complete' if family_complete(topic['id'],data,out) else 'translations_pending',published_posts=len(newly_verified),newly_verified_post_ids=sorted(newly_verified))
 
+def publish_source_or_queue(wp,topic,run_id,data,out):
+ """A verified original stays immutable while its language queue advances.
+ Never creates a new budget for an unpublished or uncertain source request.
+ This local routing decision is not a new live/public verification.
+ """
+ from .language_review_queue import enabled as independent
+ folder=out/'new'/topic['id'];rp=folder/'wordpress-receipt.json';prior=state(folder,'publish')
+ receipt=load_json(rp) if rp.exists() else {}
+ if independent(data) and receipt.get('topic_id')==topic['id'] and receipt.get('public_verified') is True and type(receipt.get('post_id')) is int and prior.get('status')=='validated':
+  return {'status':'source_checkpoint_retained','stage':'publish','reason':'translations_use_independent_review_queue','published_posts':0,'original_attempts_preserved':prior['attempts'],'live_verification_performed':False}
+ return attempt(folder,'publish',run_id,lambda:publish_ready(wp,topic,data,out),limit=3)
+
 def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=reserve):
  env=dict(os.environ if env is None else env);policy(env,data);p=settings(data)
  if p.get('enabled') is not True:return {'status':'lifecycle_disabled','published_posts':0}
@@ -515,9 +527,9 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
    schema,_=wp.call('posts',method='OPTIONS')
    if not {'afp_language','afp_source_post_id'}<=schema.get('schema',{}).get('properties',{}).keys():
     report['publication_results'].append({'status':'publication_deferred','reason':'wordpress_language_bridge_required','topic_id':topic['id']});continue
-  result=attempt(out/'new'/topic['id'],'publish',run_id,lambda t=topic:publish_ready(wp,t,data,out),limit=3)
+  result=publish_source_or_queue(wp,topic,run_id,data,out)
   report['publication_results'].append(dict(result,topic_id=topic['id']));report['published_posts']+=result.get('result',{}).get('published_posts',0);atomic_json(rp,report)
- from .language_review_queue import enabled as independent,process_due,index as review_index,publication_due
+ from .language_review_queue import enabled as independent,process_due,index as review_index,publication_due,regional_ready
  if independent(data) and not owned_pilot and not research_only and not matrix_pilot and env.get('AFP_WHITE_BEAN_PILOT')!='1':
   report['language_review_budget_max_calls']=8
   try:report['language_review_queue']=process_due(env,health,data,out,topic_ids={t['id'] for t in topics}) if rollout is not None else process_due(env,health,data,out)
@@ -530,7 +542,7 @@ def _run(env=None,data=DATA,out=OUT,worker_fn=None,wp_factory=None,reserve_fn=re
    if review_path.stem not in LANGUAGES:continue
    entry=load_json(review_path)
    if rollout is not None and entry['topic_id'] not in {t['id'] for t in topics}:continue
-   if not publication_due(entry) or entry['topic_id'] in reviewed_publication_topics or len(reviewed_publication_topics)>=2:continue
+   if not publication_due(entry) or not regional_ready(entry,review_path.parent.parent,data) or entry['topic_id'] in reviewed_publication_topics or len(reviewed_publication_topics)>=2:continue
    source_receipt=out/'new'/entry['topic_id']/'wordpress-receipt.json'
    # Backlog publication is for translations of a VERIFIED source only. Never
    # use a new stage name to bypass an exhausted original source-publish budget.

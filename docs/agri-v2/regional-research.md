@@ -43,3 +43,28 @@ Verification: 1321 offline regression tests passed, including 32 regional-policy
 Run 40793132965 proved the immutable-overlap fix and original Persian publication bytes, with zero new posts. Four local Tavily requests completed, but international search was incorrectly blocked because local/international request IDs shared the same namespace. Separate stable namespaces now preserve no-replay behavior without treating a distinct international query as a duplicate local request. Cached local responses and original attempts remain untouched.
 
 Previously approved, unchanged translations can perform the newly required independent regional research in a dedicated evidence-only phase: at most two attempts, at most four calls/attempt, sharing—not increasing—the existing twelve-call/item and eight-call/run ceilings. This never runs a translator/editor or grants a new linguistic approval. Original semantic attempts remain exactly unchanged. Narrow recovery from a research-only admission failure additionally requires all prior regional model receipts confirmed and both local search responses bound to the saved queries. Unknown responses, negative/changed linguistic proofs and pending linguistic issues are not recoverable by this path. An interrupted evidence continuation requires reconciliation; ordinary negative regional reviews back off and never authorize publication.
+
+### Multi-country review semantics and source/translation routing
+
+The review contract treats an audience list as alternative target countries, not
+an obligation to produce a separate local trial in every listed country. A
+bounded observation from one country must remain geographically labelled; it
+is not automatically suitable as another country's farm instruction. The full
+article, excerpt, FAQ and decision tables are still reviewed. A disclaimer
+cannot override a contradictory instruction. The same clarification is supplied
+to both local and international reviewers; literal quotes, numeric evidence,
+negative verdicts and foreign-gap/transfer-limit validation remain mandatory.
+Prior negative research is not silently promoted or replayed: the original
+continuation ledger, two-attempt ceiling, six-hour backoff and shared budgets
+remain unchanged. Existing receipts are not rewritten to fit a changed prompt.
+
+For independent translations, an exact topic-bound verified source receipt
+and a validated original publish stage route subsequent work to the existing
+language queue, without calling or resetting the original source publish stage.
+This routing is only a saved checkpoint, not new live verification. Missing,
+unverified, wrong-topic or uncertain original outcomes retain all original
+attempt and reconciliation gates. Backlog publication is attempted only when
+both its per-language publication timing and regional proof are ready; the
+publisher still rechecks authenticated source ownership, bytes and all gates.
+Known regional failures are persisted as allowlisted diagnostic codes only,
+never arbitrary exception text, provider responses or credentials.
