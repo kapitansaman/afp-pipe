@@ -1,0 +1,256 @@
+{
+  "translations": [
+    {
+      "id": 0,
+      "text": "Short answer: humidity, temperature, and packaging determine the shelf life of pinto beans"
+    },
+    {
+      "id": 1,
+      "text": "After harvest, pinto beans must be dried quickly to about "
+    },
+    {
+      "id": 2,
+      "text": "15 to 16 percent moisture"
+    },
+    {
+      "id": 3,
+      "text": " and then stored in a cool, dark, oxygen-free environment. These three factors jointly prevent mold, rancidity of seed oil, fading, and vitamin degradation. Meanwhile, the manner of handling and transferring dried seeds directly affects the level of cracking and final losses."
+    },
+    {
+      "id": 4,
+      "text": "Quality storage standards"
+    },
+    {
+      "id": 5,
+      "text": "Seed moisture"
+    },
+    {
+      "id": 6,
+      "text": "Moisture above the acceptable limit provides a breeding ground for fungi and microbes, and can quickly cause spoilage even in stores without adequate ventilation. Reaching the target moisture and stabilizing it before packaging is the first condition for long-term storage."
+    },
+    {
+      "id": 7,
+      "text": "Temperature"
+    },
+    {
+      "id": 8,
+      "text": "Cool storage temperature extends the shelf life of dried legumes, whereas heat accelerates the degradation of vitamins and quality changes "
+    },
+    {
+      "id": 9,
+      "text": "(academic source)"
+    },
+    {
+      "id": 10,
+      "text": ". The cooler and more stable the storage environment, the less year-to-year quality decline."
+    },
+    {
+      "id": 11,
+      "text": "Light and packaging"
+    },
+    {
+      "id": 12,
+      "text": "Direct sunlight damages both the product and its packaging, and the heat generated accelerates degradation "
+    },
+    {
+      "id": 13,
+      "text": "(academic source)"
+    },
+    {
+      "id": 14,
+      "text": ". Oxygen removal is also a key quality-preserving factor, because the presence of oxygen causes seed oil to go rancid and the presence of light causes fading "
+    },
+    {
+      "id": 15,
+      "text": "(academic source)"
+    },
+    {
+      "id": 16,
+      "text": "."
+    },
+    {
+      "id": 17,
+      "text": "Handling and shock resistance"
+    },
+    {
+      "id": 18,
+      "text": "When handling and moving dried seeds, conveyor belts should be used instead of metal screws, and seeds should not be dumped from a height onto hard surfaces, to reduce cracking and losses "
+    },
+    {
+      "id": 19,
+      "text": "(academic source)"
+    },
+    {
+      "id": 20,
+      "text": ". This is especially important at commercial scale and when transferring between silos, cleaning machines, and bagging machines."
+    },
+    {
+      "id": 21,
+      "text": "Pinto bean storage decision checklist"
+    },
+    {
+      "id": 22,
+      "text": "Factor"
+    },
+    {
+      "id": 23,
+      "text": "Optimal conditions"
+    },
+    {
+      "id": 24,
+      "text": "Practical action"
+    },
+    {
+      "id": 25,
+      "text": "Evidence source"
+    },
+    {
+      "id": 26,
+      "text": "Seed moisture"
+    },
+    {
+      "id": 27,
+      "text": "Reaching approximately "
+    },
+    {
+      "id": 28,
+      "text": "15 to 16 percent"
+    },
+    {
+      "id": 29,
+      "text": "Drying after harvest and measuring moisture with a meter before packaging"
+    },
+    {
+      "id": 30,
+      "text": "Iowa State University Extension"
+    },
+    {
+      "id": 31,
+      "text": "Temperature"
+    },
+    {
+      "id": 32,
+      "text": "Cool and stable"
+    },
+    {
+      "id": 33,
+      "text": "Choosing a store with proper ventilation, away from heat sources and shaded"
+    },
+    {
+      "id": 34,
+      "text": "USU Extension"
+    },
+    {
+      "id": 35,
+      "text": "Light"
+    },
+    {
+      "id": 36,
+      "text": "Complete darkness"
+    },
+    {
+      "id": 37,
+      "text": "Using opaque packaging or a windowless store, avoiding direct sunlight"
+    },
+    {
+      "id": 38,
+      "text": "USU Extension"
+    },
+    {
+      "id": 39,
+      "text": "Oxygen"
+    },
+    {
+      "id": 40,
+      "text": "Removal or reduction of oxygen"
+    },
+    {
+      "id": 41,
+      "text": "Oxygen-free packaging for long-term storage"
+    },
+    {
+      "id": 42,
+      "text": "USU Extension"
+    },
+    {
+      "id": 43,
+      "text": "Elevation from floor"
+    },
+    {
+      "id": 44,
+      "text": "Separated from the ground floor"
+    },
+    {
+      "id": 45,
+      "text": "Using pallets or shelves, preventing moisture and floor contamination"
+    },
+    {
+      "id": 46,
+      "text": "USU Extension"
+    },
+    {
+      "id": 47,
+      "text": "Mechanical handling"
+    },
+    {
+      "id": 48,
+      "text": "Reducing impact and abrasion"
+    },
+    {
+      "id": 49,
+      "text": "Using conveyor belts instead of metal screws and pouring seeds from low height"
+    },
+    {
+      "id": 50,
+      "text": "Iowa State University Extension"
+    },
+    {
+      "id": 51,
+      "text": "Evidence limitations"
+    },
+    {
+      "id": 52,
+      "text": "The evidence used comes from United States academic sources, and their geographic scope is limited to dry bean producing regions in the United States. Iowa State University provides handling and storage moisture recommendations for western Great Plains, California, and Pacific Northwest climates. Utah State University focuses on home storage of dried legumes in oxygen-free packaging and does not address commercial silo engineering considerations. There is no data on Iran's climate, local cultivars, or Iranian storage conditions in the available sources."
+    },
+    {
+      "id": 53,
+      "text": "Conclusion"
+    },
+    {
+      "id": 54,
+      "text": "Preserving pinto bean quality after harvest requires reaching the target moisture, storing in a cool and dark environment, removing oxygen, and gentle handling. Observing these principles in combination can reduce losses and preserve the nutritional and visual properties of the product over time."
+    },
+    {
+      "id": 55,
+      "text": "Storing pinto beans after harvest; temperature, humidity, and prevention of losses"
+    },
+    {
+      "id": 56,
+      "text": "Storing pinto beans after harvest requires reaching approximately 15 to 16 percent moisture, a cool and dark storage facility, oxygen-free packaging, and gentle handling with conveyor belts. The evidence presented comes from United States academic sources and is tailored to US climates."
+    },
+    {
+      "id": 57,
+      "text": "Can pinto beans be stored at home without advanced storage equipment?"
+    },
+    {
+      "id": 58,
+      "text": "Yes, for home storage oxygen-free packaging can be used. A cool, dark, and dry environment is also beneficial for preserving the quality of dried legumes."
+    },
+    {
+      "id": 59,
+      "text": "Why should pinto beans be kept separated from the floor?"
+    },
+    {
+      "id": 60,
+      "text": "Direct contact with the floor can lead to moisture absorption from the ground, floor contamination, and the initiation of degradation processes. Separation using pallets or shelves reduces these risks."
+    },
+    {
+      "id": 61,
+      "text": "Does the use of conveyor belts really affect the quality of dried beans?"
+    },
+    {
+      "id": 62,
+      "text": "Yes, when handling dried seeds, using conveyor belts instead of metal screws and avoiding pouring seeds from a great height reduces mechanical cracking and losses and preserves the visual quality of the product."
+    }
+  ]
+}

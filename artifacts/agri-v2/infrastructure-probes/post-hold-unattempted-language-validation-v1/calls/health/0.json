@@ -1,0 +1,8 @@
+{
+  "phase": "health",
+  "status": "response_received",
+  "request_sha256": "a6f3bc2d8563277ab5a67d4207c70fecedf5b5762953c498e0a9c9b5c87e87b8",
+  "max_attempts": 1,
+  "at": "2026-10-29T09:06:38.956043+00:00",
+  "response_sha256": "77178c6381006bec45af27289eb62a2c2bdb085c8efbc3c99767e3ab6820d827"
+}

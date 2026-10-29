@@ -1,0 +1,41 @@
+{
+  "request_id": "post-hold-unattempted-language-validation-v1",
+  "run_id": "40845818699",
+  "status": "post_hold_validation_blocked",
+  "started_at": "2026-10-29T09:06:38.925787+00:00",
+  "prior_language_calls": 4,
+  "max_model_calls": 9,
+  "languages": [
+    {
+      "language": "tg-TJ",
+      "status": "blocked",
+      "failure": {
+        "kind": "language_probe_guard",
+        "category": "language_probe_negative_recheck"
+      }
+    },
+    {
+      "language": "en-US",
+      "status": "fidelity_passed",
+      "repair_exercised": false,
+      "translation_sha256": "8017416f09f845c92668bc913b057e8538e4dbe45a070d4d8d67d1e68635cc10"
+    }
+  ],
+  "excluded_languages": [
+    "ru-RU",
+    "ar-IQ"
+  ],
+  "unknown_arabic_replayed": false,
+  "site_calls": 0,
+  "post_mutations": 0,
+  "search_calls": 0,
+  "image_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "attempts_reset": false,
+  "production_readiness_claimed": false,
+  "health_status": "passed",
+  "model_calls": 6,
+  "originals_unchanged": true,
+  "completed_at": "2026-10-29T09:08:26.075132+00:00"
+}
