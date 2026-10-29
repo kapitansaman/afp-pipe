@@ -55,7 +55,7 @@ class PostHoldValidationTests(unittest.TestCase):
    self.assertEqual(c.calls,8)
  def test_hold_blocks_before_remote_reservation_or_client(self):
   factory=Mock();reserve=Mock()
-  with patch.object(p,'validate'),patch('automation.agri_v2.family_capability_refresh.active_hold',return_value=True),patch.object(p,'load_json',return_value={}):
+  with patch.object(p,'circuit'),patch.object(p,'validate'),patch('automation.agri_v2.family_capability_refresh.active_hold',return_value=True),patch.object(p,'load_json',return_value={}):
    result=p.run(self.env(),client_factory=factory,reserve_fn=reserve)
   self.assertEqual(result['status'],'post_hold_provider_waiting');factory.assert_not_called();reserve.assert_not_called()
  def test_preexisting_report_blocks_all_new_calls(self):
@@ -75,3 +75,9 @@ class PostHoldValidationTests(unittest.TestCase):
     atomic_json(out/'provider-circuit.json',dict(row,retry_at_epoch=deadline));sleep=Mock()
     with self.assertRaises(p.ValidationBlocked):p.wait_for_release(out,sleep)
     sleep.assert_not_called()
+
+ def test_malformed_circuit_is_not_treated_as_expired_permission(self):
+  with tempfile.TemporaryDirectory() as d:
+   for row in ({'open':'yes','retry_at_epoch':0},{'open':True,'request_kind':'text'},{'open':True,'request_kind':'text','retry_at_epoch':True},{'open':False,'request_kind':'unknown'}):
+    atomic_json(Path(d)/'provider-circuit.json',row)
+    with self.assertRaises(p.ValidationBlocked):p.circuit(Path(d))

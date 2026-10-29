@@ -1,7 +1,7 @@
 """One post-cooldown health check, then ONLY never-attempted languages.
 The failed Russian draft and unknown Arabic review are immutable and excluded.
 """
-import hashlib,json,time
+import hashlib,json,time,math
 from pathlib import Path
 from .queue import DATA,OUT,load_json,atomic_json,utcnow,age_hours
 from .pipeline import digest
@@ -47,10 +47,18 @@ class CountedClient:
     value=super().request(kind,path,payload,timeout,attempts=1);atomic_json(receipt,dict(row,status='response_received',response_sha256=digest(value)));return value
   return Bounded(health,env=worker,allow_calls=True,capabilities=('text',))
 
+def circuit(out=OUT):
+ row=load_json(Path(out)/'provider-circuit.json')
+ if not isinstance(row,dict) or type(row.get('open'))is not bool or row.get('request_kind') not in (None,'text','image'):raise ValidationBlocked('hold_evidence_invalid')
+ if row['open'] and row.get('request_kind') in (None,'text'):
+  until=row.get('retry_at_epoch')
+  if type(until) not in (int,float) or not math.isfinite(until):raise ValidationBlocked('hold_deadline_invalid')
+ return row
+
 def wait_for_release(out=OUT,sleep_fn=time.sleep):
  # A finite wait in this one manually dispatched run, never a recurring schedule.
- row=load_json(Path(out)/'provider-circuit.json');until=row.get('retry_at_epoch')
- if type(until) not in (int,float) or not __import__('math').isfinite(until):raise ValidationBlocked('hold_deadline_invalid')
+ row=circuit(out);until=row.get('retry_at_epoch')
+ if type(until) not in (int,float) or not math.isfinite(until):raise ValidationBlocked('hold_deadline_invalid')
  delay=max(0,until-time.time())
  if delay>1800:raise ValidationBlocked('hold_wait_exceeds_bound')
  if delay:sleep_fn(delay)
@@ -60,8 +68,10 @@ def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None,wait_fn=None):
  if rp.exists():return {'status':'post_hold_already_reserved_no_replay','model_calls':0,'site_calls':0}
  article=validate(load_json(data/'post-hold-validation-request.json'),data,out)
  from .family_capability_refresh import active_hold
+ circuit(out)
  if active_hold(out,'text'):
   if wait_fn is not None:wait_fn(out)
+  circuit(out)
   if active_hold(out,'text'):return {'status':'post_hold_provider_waiting','model_calls':0,'site_calls':0}
  health=load_json(out/'parallel/health/latest.json')
  if not 0<=age_hours(health['checked_at'])<24:raise ValidationBlocked('post_hold_health_expired')
