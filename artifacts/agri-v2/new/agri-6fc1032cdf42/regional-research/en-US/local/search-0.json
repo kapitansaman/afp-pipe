@@ -1,0 +1,11 @@
+{
+  "query_sha256": "79040c0a8849c43e3f99877bc3eb3d1e68de4c5cdc1f784d96bb8cce9e8926c7",
+  "result": {
+    "query_id": "b3196a255c2e4a5f5e79a556930f0181cf972be4efa6177c3d7c5a25fb431e87",
+    "query": "site:.edu OR site:.gov OR site:.ac.uk lucerne alfalfa last irrigation before harvest cutting criteria water restriction preharvest Australia New Zealand UK",
+    "cached": false,
+    "checked_at_epoch": 1793233280.936511,
+    "results": []
+  },
+  "publication_authorized": false
+}

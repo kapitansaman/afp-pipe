@@ -1,0 +1,17 @@
+{
+  "query_sha256": "29a44ac0b505d335da4f4a2db8cfddb9fd82b37ef639a5ad0e71a21fe5fe1d3f",
+  "result": {
+    "query_id": "90fba51c96b003e2dce69cb7ce4e7742a05121ee6ddf6ea13488c0f9156d70c3",
+    "query": "مواعيد الري الأخير للملفوفة (اليونجه) قبل القطف معايير إدارة المياه في المحاصيل العلفية بالدول العربية",
+    "cached": false,
+    "checked_at_epoch": 1793233275.317843,
+    "results": [
+      {
+        "url": "https://www.fao.org/3/cd7488ar/online/state-of-the-worlds-land-and-water-resources-for-food-and-agriculture-2025-2025/impacts-consumption-patterns.html",
+        "title": "الخيارات التقنية للزراعة المروية",
+        "description": "تشير أحدث التقديرات المستندة إلى بيانات قاعدة البيانات الإحصائية الموضوعية في منظمة الأغذية والزراعة إلى أنه يتم حاليًا ري نحو 22.5 في المائة من الأراضي ...Read more"
+      }
+    ]
+  },
+  "publication_authorized": false
+}

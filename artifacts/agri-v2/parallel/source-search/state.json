@@ -1,12 +1,35 @@
 {
   "version": 1,
   "backend": "tavily",
-  "updated_at": "2026-10-28T22:43:59.656387+00:00",
+  "updated_at": "2026-10-29T00:21:25.574258+00:00",
   "cooldown_until_epoch": 0.0,
-  "cache": {},
+  "cache": {
+    "0e4f75608f8b7c2b1f55d4c93eaa1fd6c81699b8b1ceb60750a9ce493e3d9119": {
+      "checked": 1793233285.5644145,
+      "results": []
+    },
+    "b3196a255c2e4a5f5e79a556930f0181cf972be4efa6177c3d7c5a25fb431e87": {
+      "checked": 1793233280.936511,
+      "results": []
+    },
+    "90fba51c96b003e2dce69cb7ce4e7742a05121ee6ddf6ea13488c0f9156d70c3": {
+      "checked": 1793233275.317843,
+      "results": [
+        {
+          "url": "https://www.fao.org/3/cd7488ar/online/state-of-the-worlds-land-and-water-resources-for-food-and-agriculture-2025-2025/impacts-consumption-patterns.html",
+          "title": "الخيارات التقنية للزراعة المروية",
+          "description": "تشير أحدث التقديرات المستندة إلى بيانات قاعدة البيانات الإحصائية الموضوعية في منظمة الأغذية والزراعة إلى أنه يتم حاليًا ري نحو 22.5 في المائة من الأراضي ...Read more"
+        }
+      ]
+    },
+    "2ec44c956955bc2a0f05a654c898979d704d9ad1375b618d9c9dce4fd0a51459": {
+      "checked": 1793233271.7497685,
+      "results": []
+    }
+  },
   "monthly_budget": {
     "month": "2026-10",
-    "reserved": 127
+    "reserved": 131
   },
   "secret_values_stored": false
 }

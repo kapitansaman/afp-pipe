@@ -1,0 +1,11 @@
+{
+  "query_sha256": "761f72642b9728f97d71f002f5574c219331db966c26818fb59af22e422f9219",
+  "result": {
+    "query_id": "0e4f75608f8b7c2b1f55d4c93eaa1fd6c81699b8b1ceb60750a9ce493e3d9119",
+    "query": "site:.edu OR site:.gov OR site:.ac.in OR site:.gov.za OR site:.nz alfalfa lucerne preharvest irrigation cutoff days before cutting moisture management India South Africa Kenya Nigeria",
+    "cached": false,
+    "checked_at_epoch": 1793233285.5644145,
+    "results": []
+  },
+  "publication_authorized": false
+}

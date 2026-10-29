@@ -5,14 +5,16 @@
       "status": "pending_separate_review"
     },
     "ar-IQ": {
-      "status": "pending_separate_review"
+      "status": "regional_research_pending",
+      "reason": "language_requires_independent_regional_research"
     },
     "tg-TJ": {
       "status": "pending_separate_review"
     },
     "en-US": {
-      "status": "pending_separate_review"
+      "status": "regional_research_pending",
+      "reason": "language_requires_independent_regional_research"
     }
   },
-  "at": "2026-10-28T13:38:16.062260+00:00"
+  "at": "2026-10-29T00:21:08.184140+00:00"
 }

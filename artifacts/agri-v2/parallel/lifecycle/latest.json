@@ -2,14 +2,14 @@
   "owned_scoped_family_pilot": false,
   "matrix_pilot": false,
   "research_only": false,
-  "run_id": "40781912949",
+  "run_id": "40793132965",
   "status": "completed",
   "assigned_count": 1,
   "pilot_topic_only": false,
   "results": [
     {
-      "status": "blocked",
-      "reason": "brief_review_required",
+      "status": "publication_ready",
+      "reason": null,
       "topic_id": "agri-6fc1032cdf42",
       "steps": [],
       "published_posts": 0,
@@ -21,12 +21,31 @@
   "publication_results": [
     {
       "status": "stage_completed",
-      "stage": "publish-review-40781912949",
+      "stage": "publish",
       "result": {
-        "status": "not_publication_ready",
-        "reason": "brief_review_required",
+        "post_id": 524204,
+        "url": "https://navar-abyari.ir/preharvest-alfalfa-irrigation-criteria/",
+        "status": "translations_pending",
+        "public_verified": true,
+        "translations": {
+          "ru-RU": {
+            "status": "pending_separate_review"
+          },
+          "ar-IQ": {
+            "status": "regional_research_pending",
+            "reason": "language_requires_independent_regional_research"
+          },
+          "tg-TJ": {
+            "status": "pending_separate_review"
+          },
+          "en-US": {
+            "status": "regional_research_pending",
+            "reason": "language_requires_independent_regional_research"
+          }
+        },
         "topic_id": "agri-6fc1032cdf42",
-        "published_posts": 0
+        "published_posts": 0,
+        "newly_verified_post_ids": []
       },
       "topic_id": "agri-6fc1032cdf42"
     }
@@ -37,7 +56,7 @@
   "schedule_enabled": false,
   "publication_authorized": true,
   "source_and_translation_posts_counted": true,
-  "started_at": "2026-10-28T22:43:02.971905+00:00",
+  "started_at": "2026-10-29T00:19:14.739377+00:00",
   "staged_rollout": {
     "limit": 1,
     "cohort": [
@@ -60,36 +79,36 @@
       }
     ],
     "manual_verification_required": true,
-    "run_id": "40781912949",
+    "run_id": "40793132965",
     "automatic_promotion": false
   },
   "existing_content_fetch": {
     "families": 1,
     "families_with_bounded_full_scope": 1,
-    "article_refs": 26,
-    "article_refs_loaded": 26,
+    "article_refs": 25,
+    "article_refs_loaded": 25,
     "scope_limited_families": 0
   },
   "durable_flight_reserved": true,
   "max_text_model_calls": null,
   "max_total_model_calls": 22,
   "timing": {
-    "elapsed_seconds": 123.645,
+    "elapsed_seconds": 130.909,
     "reference_interval_seconds": 300,
     "proposed_interval_seconds": 300,
-    "built_validated_families": 0,
-    "terminal_not_built": 1,
+    "built_validated_families": 1,
+    "terminal_not_built": 0,
     "active_families": 0,
     "completion_definition": "article, required images, reviews and translations validated; publication verified separately",
     "tail_adjustment_observed": false,
     "events": [],
-    "run_id": "40781912949",
+    "run_id": "40793132965",
     "sample_eligible": false,
     "fresh_start": false,
     "verified_complete_families": 0,
     "decision": "invalid_partial_resumed_or_unpublished_sample_no_learning",
     "interval_seconds": 300,
-    "observed_at": "2026-10-28T22:45:06.616398+00:00"
+    "observed_at": "2026-10-29T00:21:25.647706+00:00"
   },
   "source_search": {
     "backend": "tavily",
@@ -529,28 +548,28 @@
       },
       {
         "name": "AGNES_API_KEY82",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
       },
       {
         "name": "AGNES_API_KEY83",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
       },
       {
         "name": "AGNES_API_KEY84",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
       },
       {
         "name": "AGNES_API_KEY85",
-        "used": 2,
+        "used": 3,
         "disabled": 0,
         "kind": null,
         "cooldown_until_epoch": 0.0
@@ -791,19 +810,19 @@
       {
         "topic_id": "agri-6fc1032cdf42",
         "language": "ar-IQ",
-        "status": "approved",
-        "model_calls": 2
+        "status": "needs_attention",
+        "model_calls": 1
       },
       {
         "topic_id": "agri-6fc1032cdf42",
         "language": "en-US",
-        "status": "approved",
-        "model_calls": 2
+        "status": "needs_attention",
+        "model_calls": 1
       }
     ],
-    "model_calls": 4,
+    "model_calls": 2,
     "pool": {
-      "model_requests_reserved": 4,
+      "model_requests_reserved": 2,
       "cooldown_until_epoch": 1793183210.4491515,
       "slots": [
         {
@@ -1256,14 +1275,14 @@
         },
         {
           "name": "AGNES_API_KEY86",
-          "used": 2,
+          "used": 3,
           "disabled": 0,
           "kind": null,
           "cooldown_until_epoch": 0.0
         },
         {
           "name": "AGNES_API_KEY87",
-          "used": 2,
+          "used": 3,
           "disabled": 0,
           "kind": null,
           "cooldown_until_epoch": 0.0
@@ -1342,10 +1361,22 @@
       "secret_values_stored": false,
       "peak_text_leases": 1,
       "peak_image_leases": 0
+    },
+    "source_search": {
+      "backend": "tavily",
+      "requests_reserved": 4,
+      "unknown_requests": 0,
+      "cache_entries": 4,
+      "monthly_budget": {
+        "month": "2026-10",
+        "reserved": 131
+      },
+      "cooldown_until_epoch": 0.0,
+      "secret_values_stored": false
     }
   },
   "operational_failures": 0,
-  "waiting_families": 1,
-  "publication_ready_workers": 0,
-  "completed_at": "2026-10-28T22:45:06.616181+00:00"
+  "waiting_families": 0,
+  "publication_ready_workers": 1,
+  "completed_at": "2026-10-29T00:21:25.647429+00:00"
 }
