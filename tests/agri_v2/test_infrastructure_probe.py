@@ -141,3 +141,47 @@ class InfrastructureProbeTests(unittest.TestCase):
   report=load_json(OUT/'infrastructure-probes'/p.ID/'report.json')
   self.assertEqual(receipt['run_id'],report['run_id']);self.assertEqual(report['model_calls'],0)
   self.assertEqual(report['status'],'probe_text_cycle_blocked');self.assertTrue(report['originals_unchanged'])
+
+ def test_continuation_is_distinct_code_bound_and_does_not_rebind_old_request(self):
+  topic,brief=p.select();request=p.expected(topic,brief,p.CONTINUATION_ID)
+  p.validate(request,request_id=p.CONTINUATION_ID)
+  with self.assertRaises(p.ProbeBlocked):p.validate(request)
+  with self.assertRaises(p.ProbeBlocked):p.expected(topic,brief,'arbitrary-new-budget')
+  self.assertNotEqual(p.REQUESTS[p.ID],p.REQUESTS[p.CONTINUATION_ID])
+  self.assertEqual(request['max_model_calls'],4);self.assertFalse(request['publication_authorized'])
+
+ def test_continuation_protects_prior_negative_report(self):
+  with tempfile.TemporaryDirectory() as d:
+   data,out,t,b,a=self.setup_run(d);prior=out/'infrastructure-probes'/p.ID/'report.json';atomic_json(prior,{'status':'probe_text_cycle_blocked'})
+   before=p.protected(data,out,p.CONTINUATION_ID);atomic_json(prior,{'status':'tampered'})
+   self.assertNotEqual(before,p.protected(data,out,p.CONTINUATION_ID))
+
+ def test_real_preflight_is_network_free_and_checks_owned_central_slots(self):
+  from automation.agri_v2.parallel_pool import SLOTS
+  health=load_json(OUT/'parallel/health/latest.json');health['checked_at']=utcnow()
+  env={slot:'synthetic-distinct-'+slot for slot in SLOTS};env.update(self.env())
+  with patch('socket.socket',side_effect=AssertionError('network forbidden')):result=p.preflight(env,health)
+  self.assertTrue(result['eligible_owned_text_slots']);self.assertTrue(set(result['eligible_owned_text_slots'])<=set(SLOTS[80:]));self.assertEqual(result['transport_calls'],0)
+
+ def test_failed_preflight_does_not_consume_remote_reservation(self):
+  with tempfile.TemporaryDirectory() as d:
+   data,out,t,b,a=self.setup_run(d);reserve=Mock()
+   with patch.object(p,'validate',return_value=(t,b)),patch('automation.agri_v2.provider_diagnostic.active_cooldown',return_value=None),patch.object(p,'preflight',side_effect=p.ProbeBlocked('fixture-preflight')):
+    with self.assertRaises(p.ProbeBlocked):p.run(self.env(),data,out,reserve_fn=reserve)
+   reserve.assert_not_called();self.assertFalse((out/'infrastructure-probes'/p.ID/'report.json').exists())
+
+ def test_actual_writer_prompt_reaches_bounded_transport_without_network(self):
+  from automation.agri_v2.parallel_pool import SLOTS,initialize,snapshot
+  from automation.agri_v2.client import ModelClient
+  from automation.agri_v2.role_skills import RoleClient
+  from automation.agri_v2.practical_drafting import generate
+  health=load_json(OUT/'parallel/health/latest.json');health['checked_at']=utcnow();topic,brief=p.select()
+  class TransportStopped(Exception):pass
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d);db=root/'pool.sqlite';initialize(db,health['eligible_text_slots'],text_limit=1,image_limit=1,max_calls=4,per_worker=4)
+   env={slot:'synthetic-distinct-'+slot for slot in SLOTS};env.update(AFP_PARALLEL_WORKER='1',AFP_PARALLEL_POOL_DB=str(db),AFP_PARALLEL_FAMILY='isolated-infrastructure-probe',AFP_PARALLEL_TOPIC=topic['id'])
+   client=p.CountedClient(health,env,root);client.probe_stage='writer'
+   with patch.object(ModelClient,'request',side_effect=TransportStopped()) as transport,patch('socket.socket',side_effect=AssertionError('network forbidden')):
+    with self.assertRaises(TransportStopped):generate(RoleClient(client,'persian-writer'),topic,brief,root/'draft')
+   transport.assert_called_once();self.assertEqual(snapshot(db)['model_requests_reserved'],1)
+   self.assertEqual(load_json(root/'calls/writer.json')['status'],'reserved')
