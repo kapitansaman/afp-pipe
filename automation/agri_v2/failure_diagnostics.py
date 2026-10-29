@@ -34,6 +34,9 @@ def failure_details(exc):
  if type(exc) is UnitReviewRequired:category='display_unit_review_required'
  allowed.add('display_unit_review_required')
  allowed.update(validation_codes.values())
+ from .regional_sources import RegionalBlocked,DIAGNOSTIC_CODES
+ if type(exc) is RegionalBlocked and str(exc) in DIAGNOSTIC_CODES:category=str(exc)
+ allowed.update(DIAGNOSTIC_CODES)
  row={'kind':kind,'category':category if category in allowed else 'unspecified'}
  status=getattr(exc,'http_status',None)
  if type(status)is int and 100<=status<=599:row['http_status']=status
