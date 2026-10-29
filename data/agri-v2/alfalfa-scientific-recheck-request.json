@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-prepared-scientific-recheck-v1",
+  "revision_request_id": "alfalfa-regional-revision-v1",
+  "prepare_authorized": true,
+  "publication_authorized": false,
+  "max_remaining_model_calls": 3,
+  "max_search_requests": 0,
+  "max_rechecks": 1,
+  "reset_original_attempts": false,
+  "proposal_sha256": "d17615a1348ffbfa06f284ea5ac69cd0f0cf64578d2cac2ba57ef615f2835560",
+  "context_report_sha256": "e881465ce9e41de3248a82a0000af74771d35e92b95fe17fee8a1816554a217f",
+  "local_process_sha256": "f0677e167428b70b39dc6538dd56b6437afdcc6259cfeacdafdb3b67f684fd24",
+  "documents_sha256": "d75c69544c6c967368661728175eb9261317c333e268b12b7150fb9a8111c634"
+}

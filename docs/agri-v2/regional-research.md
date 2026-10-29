@@ -120,3 +120,23 @@ The new extraction, scientific review, rewrite, final audit and regional audit
 must still pass. The original failed report is retained and the manual
 continuation has its own no-replay receipt. No live post or old source artifacts
 are changed, and the overall revision still cannot exceed eight model calls.
+
+#### Prepared proposal: final three scientific reviews
+
+The context continuation extracted facts, but independent review rejected an
+unsupported fact and did not approve the regional route. That negative remains
+intact. A separately explicit, hash-bound prepared proposal removes the disputed
+material, all imported time/rate thresholds, hidden spelled-out measurements and
+unnecessary foreign calendar advice. It contains only four literal-ID-grounded
+qualitative criteria plus a proposed article. The proposal is labelled as authored
+by Notion AI, not reviewed or approved by a human agronomist.
+
+`regional-revision-recheck` permits only the remaining THREE calls of the SAME
+EIGHT-call revision ceiling: fresh independent fact/route/regional-gap review,
+independent article quality/evidence audit and separate full Persian regional
+audit. No new writer or search calls, no silent approval, original reset, live
+write or prior-report rewrite. All five previous responses and source-document
+hashes must be confirmed. Recorded local-first search history is provided to the
+reviewer: prioritization describes the actual research sequence, not a demand
+that all final facts be Iranian. Negative outcomes remain valid and terminate
+this explicitly bounded recheck. Every live adoption gate still applies.
