@@ -1,0 +1,84 @@
+{
+  "decision": "pass",
+  "all_claims_supported": true,
+  "crop_species_and_product_match": true,
+  "answers_exact_intent": true,
+  "units_and_denominators_correct": true,
+  "geography_and_transfer_limits_retained": true,
+  "no_iranian_prescription_inferred": true,
+  "independent_sources": false,
+  "source_policy_version": "university-single-source-v1",
+  "source_policy_satisfied": true,
+  "no_unsafe_input_rates": true,
+  "human_review_claimed": false,
+  "limitations": "منبع تک‌جمله‌ای: راهنمای ترویجی KSU برای کانزاس (ایالات متحده). معیارهای پرس‌شده فاقد منبع بومی ایران بودند؛ شواهد بین‌المللی صرفاً اصل زمانی‌بندی مبتنی بر رطوبت خاک و نقشه‌خوانی ET را پشتیبانی می‌کنند و هیچ تاریخ، عمق، فاصله یا آستانه ET تعیین‌شده برای ایران ارائه نمی‌دهند. اقلیم، خاک، سامانه آبیاری، رقم، شوری آب و شرایط برداشت ایران کاملاً نامشخص است؛ قضاوت تصمیم‌گیری پیش‌برداشت برای مزرعه ایرانی خارج از دامنه این منبع است.",
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "scope_and_units_correct": true,
+      "reason": "متن منبع صراحتاً قید می‌کند که سطح سفت و خشک برای عبور تجهیزات برداشت و خشک‌شدن علوفه مناسب است؛ ارتباط معنایی کامل و بدون تعمیم به ایران حفظ شد.",
+      "evidence_quote": "A firm, dry surface is best for harvest traffic and field-drying of hay."
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "scope_and_units_correct": true,
+      "reason": "گزاره منبع به‌وضوح رویش مجدد سریع یونجه پس از برداشت را وابسته به رطوبت کافی خاک می‌داند و این اصل بدون افزودن شرایط ایرانی نقل شد.",
+      "evidence_quote": "rapid re-growth depends on ad- equate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth."
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "scope_and_units_correct": true,
+      "reason": "منبع مستقیماً برآورد یا اندازه‌گیری اولیه رطوبت ناحیه ریشه و استفاده از تجهیزات سنجش یا پروب را پیش‌نیاز زمان‌بندی معرفی می‌کند.",
+      "evidence_quote": "An initial estimate or measurement of root- zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing."
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "scope_and_units_correct": true,
+      "reason": "دقت اندازه‌گیری در منبع به وفور، تعداد و مکان نمونه‌برداری گره خورده است و این قید دقیقاً در پرس‌شده منعکس شده است.",
+      "evidence_quote": "Measurement accuracy depends on the frequency, number, and location of measure- ments, though."
+    }
+  ],
+  "rejection_reasons": [],
+  "regional_research_version": "regional-official-research-v1",
+  "regional_sources_prioritized": true,
+  "international_transfer_limits_retained": true,
+  "regional_source_gap": "دو منبع وزارت جهاد کشاورزی و سازمان تحقیقات کشاورزی ایران جستجو شدند ولی صرفاً حجم مصرف آب، عملکرد و بازدهی آب را گزارش کردند و هیچ معیار رشد، مرحله بوته‌ای، نشانه وزنی/ریختی یا آستانه رطوبت خاک برای تصمیم پیش‌برداشت ارائه ندادند؛ consequently یک شکاف مستند پرسشی ثبت شد و پرکننده بین‌المللی با محدودیت جغرافیایی کانزاس مجاز شمرده شد.",
+  "research_policy_version": "claim-context-research-v1",
+  "context_checks": [
+    {
+      "fact_id": "f0",
+      "claim_type": "general_principle",
+      "context_supported": true,
+      "publisher_expertise_supported": true,
+      "reason": "دانشگاه ایالتی کانزاس (KSRE) ناشر رسمی مدیریت آبیاری یونجه در کانزاس است و لفظ firm, dry surface for harvest traffic دقیقاً در متن وجود دارد."
+    },
+    {
+      "fact_id": "f1",
+      "claim_type": "general_principle",
+      "context_supported": true,
+      "publisher_expertise_supported": true,
+      "reason": "ناشر به‌صورت مستقیم وابستگی rapid re-growth به adequate soil water را تصریح کرده و ادعا بدون افزودن شرایط ایرانی بازتولید شد."
+    },
+    {
+      "fact_id": "f2",
+      "claim_type": "general_principle",
+      "context_supported": true,
+      "publisher_expertise_supported": true,
+      "reason": "بخش Irrigation Scheduling صراحتاً نیاز به initial estimate or measurement of root-zone soil water و استفاده از soil-water measuring equipment or soil probing را شرح می‌دهد."
+    },
+    {
+      "fact_id": "f3",
+      "claim_type": "general_principle",
+      "context_supported": true,
+      "publisher_expertise_supported": true,
+      "reason": "بخش Soil-Based Scheduling Methods وابستگی Measurement accuracy به frequency, number, and location of measurements را به‌صورت تحت‌اللفظی بیان می‌کند."
+    }
+  ],
+  "conflicts_reviewed": true,
+  "research_route_version": "full-queue-research-routes-v1",
+  "route_requirements_met": true
+}

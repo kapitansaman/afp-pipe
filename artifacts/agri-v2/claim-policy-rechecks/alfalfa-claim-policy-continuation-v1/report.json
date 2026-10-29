@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "request_id": "alfalfa-claim-policy-continuation-v1",
+  "run_id": "40817183660",
+  "status": "revision_needs_attention",
+  "started_at": "2026-10-29T04:21:53.681951+00:00",
+  "max_model_calls": 3,
+  "publication_authorized": false,
+  "post_mutations": 0,
+  "new_posts": 0,
+  "search_requests": 0,
+  "writer_calls": 0,
+  "original_attempts_reset": false,
+  "input_binding": {
+    "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+    "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+    "source_receipt_sha256": "be22942ad7d015d8f5b545aac9e536b503e1d9148e8a5ddfccc9517189d6e255"
+  },
+  "protected_sha256": "efae2f380eee572dff21584ea3f140bb824fea53b273fad81ff412c001415313",
+  "prior_model_calls_preserved": 9,
+  "uncertain_predecessor_request_preserved": true,
+  "context_annotation_method": "literal_source_bound_seed_pending_independent_review",
+  "policy_version": "claim-context-research-v1",
+  "failure": {
+    "kind": "validation",
+    "category": "claim_context_review_required"
+  },
+  "model_calls": 3,
+  "originals_unchanged": true,
+  "review_receipts": 3,
+  "completed_at": "2026-10-29T04:22:32.416082+00:00"
+}

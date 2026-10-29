@@ -1,0 +1,235 @@
+{
+  "topic_id": "agri-6fc1032cdf42",
+  "answers_intent": true,
+  "local_prescription": false,
+  "product_definition": "یونجه علوفه‌ای در مزرعه، پیش از چین و برداشت",
+  "outline": [
+    "تفکیک وضعیت سطح خاک از رطوبت ناحیه ریشه",
+    "ارزیابی رطوبت خاک و قابلیت ورود تجهیزات برداشت",
+    "حدود کاربرد شواهد و پرهیز از زمان‌بندی ثابت"
+  ],
+  "facts": [
+    {
+      "kind": "qualitative",
+      "claim": "در راهنمای مدیریت آبیاری یونجه دانشگاه ایالتی کانزاس، سطح سفت و خشک خاک برای عبور تجهیزات برداشت و خشک‌شدن علوفه مناسب دانسته شده است.",
+      "conditions": "راهنمای ترویجی کانزاس، ایالات متحده؛ محصول یونجه علوفه‌ای در مزرعه؛ این اصل، زمان تقویمی یا آستانه رطوبت قابل تعمیم به ایران تعیین نمی‌کند.",
+      "evidence_id": "d2-e7",
+      "numeric_bindings": [],
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": null,
+          "quote": null
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      }
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در همان راهنمای یونجه، رویش مجدد سریع پس از برداشت به وجود رطوبت کافی خاک وابسته دانسته شده است.",
+      "conditions": "کانزاس، ایالات متحده؛ بحث رطوبت خاک برای رویش مجدد یونجه است؛ از این گزاره، عمق آب یا موعد ثابت آبیاری برای اقلیم ایران استنتاج نمی‌شود.",
+      "evidence_id": "d2-e6",
+      "numeric_bindings": [],
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "Alfalfa",
+          "quote": "Alfalfa is sensitive to water stress at the time of harvest"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      }
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در روش زمان‌بندی آبیاری مطرح‌شده در این راهنما، برآورد یا اندازه‌گیری اولیه رطوبت ناحیه ریشه لازم است و از تجهیزات سنجش رطوبت خاک یا نمونه‌برداری با پروب استفاده می‌شود.",
+      "conditions": "راهنمای مدیریت آبیاری یونجه کانزاس؛ مبنای توصیف روش پایش رطوبت ناحیه ریشه است، نه تعیین عمق ثابت ریشه یا آستانه آبیاری برای مزرعه ایرانی.",
+      "evidence_id": "d2-e9",
+      "numeric_bindings": [],
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "alfalfa",
+          "quote": "Normal water-use curve for alfalfa with four cuttings"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      }
+    },
+    {
+      "kind": "qualitative",
+      "claim": "در راهنمای کانزاس، دقت اندازه‌گیری رطوبت خاک وابسته به تناوب، تعداد و محل اندازه‌گیری‌ها دانسته شده است.",
+      "conditions": "راهنمای ترویجی یونجه در کانزاس، ایالات متحده؛ این گزاره ضرورت توجه به طراحی پایش را توضیح می‌دهد و فاصله زمانی یا تعداد ثابت نمونه برای ایران تجویز نمی‌کند.",
+      "evidence_id": "d2-e9",
+      "numeric_bindings": [],
+      "claim_type": "general_principle",
+      "study_context": {
+        "publisher": {
+          "value": null,
+          "quote": null
+        },
+        "publication_date": {
+          "value": null,
+          "quote": null
+        },
+        "species": {
+          "value": "alfalfa",
+          "quote": "Normal water-use curve for alfalfa with four cuttings"
+        },
+        "cultivar": {
+          "value": null,
+          "quote": null
+        },
+        "geography": {
+          "value": null,
+          "quote": null
+        },
+        "climate": {
+          "value": null,
+          "quote": null
+        },
+        "season": {
+          "value": null,
+          "quote": null
+        },
+        "soil": {
+          "value": null,
+          "quote": null
+        },
+        "water_quality": {
+          "value": null,
+          "quote": null
+        },
+        "irrigation_method": {
+          "value": null,
+          "quote": null
+        },
+        "trial_conditions": {
+          "value": null,
+          "quote": null
+        }
+      }
+    }
+  ],
+  "research_route_version": "full-queue-research-routes-v1",
+  "regional_profile": "regional-official-research-v1",
+  "research_policy_version": "claim-context-research-v1",
+  "conflicts": [],
+  "review_schema_version": 2,
+  "evidence_revision": "claim-context-research-v1"
+}

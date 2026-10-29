@@ -1,0 +1,55 @@
+{
+  "applicable": true,
+  "no_unsupported_local_prescription": true,
+  "country_limits_retained": true,
+  "fact_checks": [
+    {
+      "fact_id": "f0",
+      "supported": true,
+      "document_id": "s0",
+      "quote": "A firm, dry surface is best for harvest traffic and field-drying of hay.",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Kansas State University Extension alfalfa irrigation management guide; pre-harvest surface condition assessment for equipment traffic and hay drying; deep-rooted perennial alfalfa in managed-field conditions in Kansas",
+      "international_fallback": true,
+      "local_evidence_gap": "No Iranian provincial or cultivar-specific source consulted; the claim is a bounded observation about a US extension guideline, not a prescription for Iran",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f1",
+      "supported": true,
+      "document_id": "s0",
+      "quote": "Alfalfa is sensitive to water stress at the time of harvest, and rapid re-growth depends on adequate soil water. Watering prior to harvest or immediately after is the best time to promote rapid growth.",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Kansas State University Extension; alfalfa post-harvest regrowth dependent on soil-water availability; timing guidance relative to harvest cycle in Kansas production conditions",
+      "international_fallback": true,
+      "local_evidence_gap": "No Iranian alfalfa post-harvest irrigation study cited; claim is reported as a US extension finding without relabeling it as an Iranian recommendation",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f2",
+      "supported": true,
+      "document_id": "s0",
+      "quote": "An initial estimate or measurement of root-zone soil water is needed, which usually requires the installation of soil-water measuring equipment or soil probing.",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Kansas State University Extension; irrigation-scheduling methodology for alfalfa; soil-water measurement approaches including sensors and probing in Kansas management conditions",
+      "international_fallback": true,
+      "local_evidence_gap": "No Iranian soil-water measurement protocol referenced; claim describes a general-method principle from a US guideline without asserting Iranian operational details",
+      "transfer_limits_retained": true
+    },
+    {
+      "fact_id": "f3",
+      "supported": true,
+      "document_id": "s0",
+      "quote": "Measurement accuracy depends on the frequency, number, and location of measurements, though.",
+      "source_kind": "extension_guidance",
+      "country": "US",
+      "scope": "Kansas State University Extension; alfalfa irrigation scheduling methodology; accuracy of soil-water measurement tied to monitoring design parameters",
+      "international_fallback": true,
+      "local_evidence_gap": "No Iranian monitoring-design standard cited; the claim reports a methodological principle from a US guide without specifying Iranian sampling frequency or count",
+      "transfer_limits_retained": true
+    }
+  ]
+}
