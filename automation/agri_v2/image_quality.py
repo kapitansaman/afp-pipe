@@ -21,7 +21,12 @@ def verdict(value):
  if type(score)is not int or not 0<=score<=100:raise ImageQualityError('Invalid vision score')
  if not isinstance(reasons,list) or not reasons or any(not isinstance(x,str) or not x.strip() for x in reasons):raise ImageQualityError('Vision review reasons required')
  from .quality_index import image_index
- return {'quality_index':image_index({k:checks[k] for k in CHECKS},COSMETIC_CHECKS),'passed':all(checks[k] for k in CHECKS if k not in COSMETIC_CHECKS),'checks':{k:checks[k] for k in CHECKS},'score':score,'reasons':[x[:500] for x in reasons[:12]]}
+ from .visual_supervisor import validate as validate_supervisor
+ try:validate_supervisor(value)
+ except ValueError as exc:raise ImageQualityError(str(exc)) from None
+ result={'quality_index':image_index({k:checks[k] for k in CHECKS},COSMETIC_CHECKS),'passed':all(checks[k] for k in CHECKS if k not in COSMETIC_CHECKS),'checks':{k:checks[k] for k in CHECKS},'score':score,'reasons':[x[:500] for x in reasons[:12]]}
+ if 'review_contract' in value:result.update(review_contract=value['review_contract'],observations=value['observations'])
+ return result
 def binding(path,topic,kind,article=None):
  return {'image_sha256':hashlib.sha256(Path(path).read_bytes()).hexdigest(),'contract_sha256':contract_hash(topic,kind,article),'reference_sha256':hashlib.sha256(json.dumps({'generation':reference_images(kind,topic),'identity':reference_images()},sort_keys=True).encode()).hexdigest(),'policy':POLICY,'role':kind,'topic_id':topic.get('id'),'review_model':TEXT_MODEL,'review_policy':REVIEW_POLICY}
 def review_path(path):return Path(path).with_suffix('.quality.json')
@@ -86,5 +91,8 @@ def generation_feedback(folder,kind):
   row=load_json(rp);actual=hashlib.sha256(image.read_bytes()).hexdigest()
   if actual in BOTANICAL_REJECTIONS:return {'rejected_image_sha256':actual,'checks':{'crop_stage_match':False},'reasons':[BOTANICAL_REJECTIONS[actual]],'prior_model_approval_overruled_by_direct_inspection':True}
   if row.get('status')=='reviewed' and row.get('verdict',{}).get('passed') is False and row.get('image_sha256')==hashlib.sha256(image.read_bytes()).hexdigest():
+   if row['verdict'].get('review_contract'):
+    from .visual_supervisor import correction_feedback
+    return dict(correction_feedback(row['verdict']),rejected_image_sha256=actual)
    return {'rejected_image_sha256':row['image_sha256'],'checks':row['verdict'].get('checks',{}),'reasons':row['verdict'].get('reasons',[])}
  return None

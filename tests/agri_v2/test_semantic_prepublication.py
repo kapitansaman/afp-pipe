@@ -6,7 +6,11 @@ from automation.agri_v2.queue import DATA,OUT,load_json,atomic_json,utcnow
 from automation.agri_v2.image_quality import CHECKS
 from automation.agri_v2.parallel_control import BRANCH,REPO
 class SemanticTests(unittest.TestCase):
- def inputs(self):return s.validate(load_json(DATA/'alfalfa-semantic-prepublication-request.json'),DATA,OUT)
+ def inputs(self):
+  req=load_json(DATA/'alfalfa-semantic-prepublication-request.json');req['code_binding']=s.code_binding()
+  with patch.object(s,'age_hours',return_value=0):return s.validate(req,DATA,OUT)
+ def test_original_request_stays_invalid_after_infrastructure_change(self):
+  with self.assertRaisesRegex(s.GateBlocked,'input_or_code_changed'):s.validate(load_json(DATA/'alfalfa-semantic-prepublication-request.json'),DATA,OUT)
  def overlap(self,batch,passed=True):
   return {'revision_overlap_acceptable':passed,'reason':'A bounded same-post correction retains its exact intent without fabricating a new topic or scientific approval.','article_checks':[{'article_id':d['id'],'already_answers_same_core_intent':False,'material_conflict_or_duplication':not passed,'existing_quote_id':str(d['id'])+':0','reason':'Full existing text was checked against the exact corrected article, not inferred solely from its title.'} for d in batch['documents']]}
  def vision(self,passed=True):return {'score':90,'checks':{k:passed for k in CHECKS},'crop_identity_confident':passed,'supports_revised_article_as_illustration':passed,'botanical_reason':'Visible leaf grouping and margins were inspected directly; uncertain morphology is never accepted merely from a green field.','reasons':['Actual supplied image and revised article inspected independently.']}

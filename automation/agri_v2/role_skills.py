@@ -29,6 +29,11 @@ def enrich(prompt,role,language=None,data=DATA):
  from .claim_policy import COMMON,VERSION as CLAIM_VERSION
  if role in ('researcher','persian-writer','evidence-reviewer','translator','translation-reviewer'):
   row['claim_research_policy']={'version':CLAIM_VERSION,'rules':COMMON}
+  from .knowledge_policy import contract as knowledge_contract
+  row['knowledge_basis_policy']=knowledge_contract(role)
+  if role in ('persian-writer','evidence-reviewer'):
+   from .editorial_structure import contract as structure_contract
+   row['editorial_structure_contract']=structure_contract()
  from .regional_sources import enabled as regional_enabled,profile
  if regional_enabled(data):
   row['regional_research_policy']=profile(language or 'fa-IR')

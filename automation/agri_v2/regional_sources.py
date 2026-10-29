@@ -170,7 +170,9 @@ def review_contract(lang):
  This clarifies review only: no positive verdict or transferable rate is inferred.
  """
  from .claim_policy import regional_contract
+ from .knowledge_policy import contract as knowledge_contract
  return {
+  'knowledge_basis_policy':knowledge_contract('evidence-reviewer'),
   'claim_review_contract':regional_contract(),
   'version':'regional-review-contract-v2',
   'audience_countries':profile(lang)['countries'],
