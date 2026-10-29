@@ -28,3 +28,15 @@ The run stops on a negative, missing field, uncertain outcome, stale health, pro
 The manual `claim-policy-recheck` mode is added to the existing GitHub workflow. A positive result is only `claim_recheck_ready_for_publication_review`. Same-post update authorization, fresh authenticated identity/byte verification, overlap scope, existing-image review, new source-bound translation reviews and public verification still remain.
 
 Validation: 1,409 tests passed with external network blocked (`python tests/agri_v2/run_offline.py`), including 13 new recheck safety tests. `git diff --check` passed.
+
+## Separate three-call continuation
+
+The first run stopped before scientific review. Its historical generic error cannot distinguish output exhaustion from filtering. New responses distinguish `text_output_limit` and `text_content_filtered`; both remain hard stops, never approval or automatic retries. No provider body or secrets are logged.
+
+Owner-authorized mode `claim-policy-continuation`, ID `alfalfa-claim-policy-continuation-v1`, permits at most three independent reviews with a new create-only remote reservation. All eight earlier receipts and the first incomplete run remain byte-preserved; its request is never replayed. Exact predecessor request/report/receipt, provisional context seed, original inputs and current code are hash-bound. Late predecessor output blocks continuation.
+
+The redundant annotation model call is removed. The seed is manual, provisional metadata, NOT approval. Four guide-level general principles are not classified as experimental observations. Only literal species labels within exact evidence passages are populated; other context is unknown within those bounded passages, not asserted absent from the entire publication. Publisher location is not study geography. No prose, IDs, sources, dates, rates or causes are rewritten or invented. Independent scientific review must still reject misclassification or inadequate scope.
+
+Remaining calls: independent source/context review, full article review, regional review. Each has one attempt, a bounded 20,000-token output allowance and 180-second timeout. Regional review receives the actual cited cached document, excluding six irrelevant cached documents. No search, writing, images, translation, live site access or publication. Pool limits, capability/cooldown/routing gates and original-byte checks remain. Negative or incomplete reviews stop, without repair loops.
+
+Continuation validation: 1,420 offline tests passed with external network blocked, including ten continuation safety tests and one additional diagnostic-redaction test. `git diff --check` passed.

@@ -18,12 +18,11 @@ def protected_binding(data,out):
  paths=list(old.rglob('*'))+list(family.rglob('*'))+[data/'briefs'/(revision.TOPIC+'.json'),data/'alfalfa-scientific-proposal.json',data/'regional-revision-local-process.json']
  return {str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths if p.is_file()}
 
-def validate(req,data,out):
+def validate_inputs(req,data,out):
  expected={'version':1,'request_id':ID,'topic_id':revision.TOPIC,'source_post_id':524204,
   'prepare_authorized':True,'publication_authorized':False,'max_model_calls':LIMIT,
   'max_search_requests':0,'max_runs':1,'reset_original_attempts':False,'policy_version':claim_policy.VERSION}
  if not isinstance(req,dict) or any(type(req.get(k)) is not type(v) or req.get(k)!=v for k,v in expected.items()):raise ValueError('claim_recheck_request_invalid')
- if req.get('code_binding')!=code_binding():raise ValueError('claim_recheck_code_changed')
  revision.validate_request(load_json(data/'regional-revision-request.json'),data,out)
  root=out/'regional-revisions'/revision.ID;prior=load_json(root/'continuations'/PRIOR/'report.json')
  if req.get('prior_report_sha256')!=digest(prior) or prior.get('status')!='revision_needs_attention' or prior.get('model_calls')!=3 or prior.get('total_revision_receipts')!=8:raise ValueError('claim_recheck_prior_report_changed')
@@ -48,6 +47,10 @@ def validate(req,data,out):
  facts=validate_candidate(topic,proposal['candidate'],docs)
  if any(f.get('kind')!='qualitative' or tokens(f['claim']+' '+f['conditions']) for f in facts):raise ValueError('claim_recheck_qualitative_proposal_required')
  return proposal,docs,topic
+
+def validate(req,data,out):
+ if req.get('code_binding')!=code_binding():raise ValueError('claim_recheck_code_changed')
+ return validate_inputs(req,data,out)
 
 def annotate(value,candidate,topic,docs):
  """Copy only bounded context/class annotations. Never replace original claim prose/IDs."""
