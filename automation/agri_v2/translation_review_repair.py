@@ -36,6 +36,9 @@ def draft_response_schema(name,prompt):
 
 def request(client,root,name,prompt,limit):
  schema=draft_response_schema(name,prompt)
+ if schema is None and name in ('regional-evidence-review','regional-evidence-review-fallback'):
+  from .regional_sources import response_schema
+  schema=response_schema(name,prompt)
  if isinstance(prompt,dict) and '_role_skill' in prompt:
   from .role_skills import enrich
   row=dict(prompt);role=row.pop('_role_skill');language=row.pop('_role_language',None)
