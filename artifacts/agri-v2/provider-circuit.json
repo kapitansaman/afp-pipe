@@ -1,7 +1,7 @@
 {
   "open": true,
   "request_kind": "text",
-  "retry_at_epoch": 1793183210.4491515,
-  "at": "2026-10-28T09:27:00.613975+00:00",
-  "reason": "parallel_lifecycle_shared_provider_limit"
+  "at": "2026-10-29T08:06:36.285599+00:00",
+  "retry_at_epoch": 1793264796.2811694,
+  "reason": "language_infrastructure_probe_shared_limit"
 }

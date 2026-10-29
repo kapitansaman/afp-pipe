@@ -4,10 +4,10 @@
   "kind": "text",
   "slot": "AGNES_API_KEY81",
   "model": "agnes-2.5-flash",
-  "verified_at": "2026-10-27T14:39:49.698826+00:00",
+  "verified_at": "2026-10-29T08:03:36.152413+00:00",
   "verification": "actual_successful_parallel_response",
-  "family_id": "separate-language-review-queue",
-  "topic_id": "agri-b6f7d6bea16b-ar-IQ",
+  "family_id": "isolated-infrastructure-probe",
+  "topic_id": "agri-96d735d5bd11",
   "family_key_allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
   "assigned_key_slots": [
     "AGNES_API_KEY81",
@@ -27,5 +27,6 @@
     "AGNES_API_KEY95",
     "AGNES_API_KEY96",
     "AGNES_API_KEY97"
-  ]
+  ],
+  "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05"
 }

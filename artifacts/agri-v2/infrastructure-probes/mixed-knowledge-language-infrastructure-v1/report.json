@@ -1,0 +1,38 @@
+{
+  "request_id": "mixed-knowledge-language-infrastructure-v1",
+  "run_id": "40837334239",
+  "status": "language_probe_blocked",
+  "source_article_sha256": "c49ef944776090e29f69de3959ca09f3b194a40b6e7cc2a21074d8795ccdb3c2",
+  "max_model_calls": 16,
+  "max_calls_per_language": 4,
+  "site_calls": 0,
+  "post_mutations": 0,
+  "image_calls": 0,
+  "search_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "attempts_reset": false,
+  "languages": [
+    {
+      "language": "ru-RU",
+      "status": "blocked",
+      "failure": {
+        "kind": "validation",
+        "category": "unspecified"
+      }
+    },
+    {
+      "language": "ar-IQ",
+      "status": "blocked",
+      "failure": {
+        "kind": "text_provider",
+        "category": "network_or_timeout"
+      }
+    }
+  ],
+  "production_readiness_claimed": false,
+  "started_at": "2026-10-29T08:03:00.553325+00:00",
+  "model_calls": 4,
+  "originals_unchanged": true,
+  "completed_at": "2026-10-29T08:06:36.690256+00:00"
+}

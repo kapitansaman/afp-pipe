@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:32:51.737209+00:00",
+  "updated_at": "2026-10-29T08:06:36.284885+00:00",
   "slot_request_counts": {
     "AGNES_API_KEY": 12,
     "AGNES_API_KEY2": 10,
@@ -81,8 +81,8 @@
     "AGNES_API_KEY78": 7,
     "AGNES_API_KEY79": 6,
     "AGNES_API_KEY80": 2,
-    "AGNES_API_KEY81": 3,
-    "AGNES_API_KEY82": 3,
+    "AGNES_API_KEY81": 4,
+    "AGNES_API_KEY82": 4,
     "AGNES_API_KEY83": 3,
     "AGNES_API_KEY84": 3,
     "AGNES_API_KEY85": 3,
@@ -95,13 +95,13 @@
     "AGNES_API_KEY93": 3,
     "AGNES_API_KEY94": 3,
     "AGNES_API_KEY95": 3,
-    "AGNES_API_KEY96": 2,
-    "AGNES_API_KEY97": 2,
+    "AGNES_API_KEY96": 3,
+    "AGNES_API_KEY97": 3,
     "AGNES_API_KEY92": 3
   },
   "backpressure": {
     "slots": {},
-    "shared_cooldown_until_epoch": 1793183210.4491515
+    "shared_cooldown_until_epoch": 1793264796.2811694
   },
   "secret_values_stored": false
 }
