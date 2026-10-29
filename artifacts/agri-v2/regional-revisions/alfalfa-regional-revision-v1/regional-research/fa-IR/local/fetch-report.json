@@ -1,0 +1,24 @@
+{
+  "requested": 3,
+  "loaded": 2,
+  "sources": [
+    {
+      "url": "https://wra.areeo.ac.ir/article_129473_1c4fb9218cdd8b00d61d6c61c1906701.pdf",
+      "canonical_url": "https://wra.areeo.ac.ir/article_129473_1c4fb9218cdd8b00d61d6c61c1906701.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://jstnar.iut.ac.ir/article-1-4081-fa.pdf",
+      "status": "unavailable",
+      "category": "source_policy_or_content_rejected",
+      "temporary": false
+    },
+    {
+      "url": "https://srj.asnr.ias.ac.ir/article_128740_6e8253a2f135ebef86debd8280a3d16a.pdf",
+      "canonical_url": "https://srj.asnr.ias.ac.ir/article_128740_6e8253a2f135ebef86debd8280a3d16a.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    }
+  ]
+}

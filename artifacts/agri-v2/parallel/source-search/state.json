@@ -1,9 +1,83 @@
 {
   "version": 1,
   "backend": "tavily",
-  "updated_at": "2026-10-29T01:09:19.532314+00:00",
+  "updated_at": "2026-10-29T01:30:56.429601+00:00",
   "cooldown_until_epoch": 0.0,
   "cache": {
+    "2896a1ff886c7a3ed2c5ca8ebcbae07257bbda28bd753acdae3da29536cc9c29": {
+      "checked": 1793237428.397772,
+      "results": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s44274-026-00613-7",
+          "title": "Medicago sativa for climate-smart agriculture and soil ...",
+          "description": "by AG Desta · 2026 · Cited by 3 — This review synthesizes evidence from 130 peer-reviewed studies across 35 countries, spanning temperate, subtropical, and semi-arid ...Read more"
+        },
+        {
+          "url": "https://ipm.uga.edu/2020/03/10/irrigation-scheduling",
+          "title": "Irrigation Scheduling | Integrated Pest Management",
+          "description": "available from a number of vendors and come in many forms, shapes, and sizes. Some probes are directly installed into the soil near the crop root zone while others measure canopy temperature from above to indirectly quantify soil moisture status. The majority of soil moisture sensing technology on the market allows the farmer to use the internet to securely log in and access real-time data on which to base an irrigation decision. [...] Da Silva explained that the most effective approach for irrigating crops should include the crop water demand, also known as the crop’s evapotranspiration rate, and in the best case, monitoring soil moisture levels as well. [...] Soils are vastly different across the southeast, and even from field to field, so it’s critical for growers to think about this process of saturation, field capacity and permanent wilting point so as not to use one standard irrigation schedule, but rather a more site-specific system.\n\nDa Silva recommends monitoring soil moisture content by installing sensors throughout fields."
+        }
+      ]
+    },
+    "a4c781057d0bf095c10ed3d7f2cf17f2a1100941eceabff00dce5ffc62bc4eec": {
+      "checked": 1793237425.6860063,
+      "results": [
+        {
+          "url": "https://bookstore.ksre.ksu.edu/pubs/irrigation-management-for-alfalfa_MF2868.pdf",
+          "title": "MF2868 Irrigation Management for Alfalfa - bookstore.ksre.ksu.edu",
+          "description": "about 10 to 12 days after cutting. The best irrigation strategy during the alfalfa growing season is to irrigate until a few days to a week before harvest. The surface should be allowed to dry and stabilize for harvest, and then the root zone should be filled as soon after harvest as conditions allow. Usually, on medium-textured soils, 4 to 6 inches of water be­ tween cuttings is sufficient. [...] Alfalfa does not have a critical stage of growth like many other crops. However, the seedling stage is sensitive to soil water because seeds are small, as are the reserves of energy and moisture. The period of re-growth after cutting is sensi­ tive, so it is best to avoid surface irrigation, which may encour­ age weed competition. When the alfalfa canopy has been removed by harvest, ideally irrigation should not be applied in order to avoid surface-germinated weeds, such as grasses and [...] such as grasses and pigweeds. A dry surface with adequate water below the top Irrigation Management for Alfalfa Mahbub Alam Professor and Extension Specialist, Irrigation Southwest Research and Extension Center Danny H. Rogers Professor and Extension Agricultural Engineer Biological and Agricultural E"
+        },
+        {
+          "url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1119-september-3/deciding-when-to-make-final-alfalfa-cuttings.html",
+          "title": "Alfalfa Management: Deciding When to Make the Final Cuts | K-State | Kansas State University",
+          "description": "Department of Agronomy\n\n K-State home\n Agronomy\n eUpdates\n 2026\n Issue 1119\n Alfalfa Management: Deciding When to Make the Final Cuts\n\n# Alfalfa Management: Deciding When to Make the Final Cuts [...] The final cutting should occur right after the first killing freeze, before too many leaves have dropped. Producers should be prepared to enter the fields as soon as soil moisture conditions allow. After a killing freeze, the remaining forage (if any) can be hayed safely. However, the producer should act quickly because the leaves will soon drop off and lower the forage quality\n\n## A Calculated Approach to Final Cut: Growing Degree Day-Based [...] Figure 1. Alfalfa stand with approximately 12 inches of top growth prior to winter dormancy. The last cut in this stand was performed in early September, and this photo was taken in late October. This stand will be hayed immediately following the first killing frost. Photo by Romulo Lollato, K-State Research and Extension.\n\n### Consider Soil Sampling Alfalfa Fields Now"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-considerations-fall-forage-harvest-alfalfa-irrigation-and-last-cutting",
+          "title": "Pasture and Forage Minute: Considerations for Fall Forage Harvest, Alfalfa Irrigation and Last Cutting | CropWatch | Nebraska",
+          "description": "Finally, some fields have lower water infiltration rates, so irrigating now through November may be the right time for building water reserves. “Irrigation Management and Crop Characteristics of Alfalfa” (Nebraska Extension NebGuide G1778) provides more details.\n\n### Last Alfalfa Cutting\n\nBy Ben Beckman\n\nTiming the last fall alfalfa cutting can be a difficult thing to plan for and varies among growers. A balance between stand health, yield and quality must be maintained. [...] To reduce field compaction, pause irrigating two to three days before cutting the alfalfa and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evapotranspiration) measurement gages or soil moisture monitoring. [...] During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall cooler days water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa growth extends longer into the fall and does not have specific critical growth stages for water stress like most traditional annual crops. So, when moisture stressed, the plant will slow growth, go dormant, and then resume growth once conditions become favorable agai"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+          "title": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska",
+          "description": "Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, [...] To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. [...] Further, some fields have low water infiltration rates, so irrigating now through November may be the right time for building water reserves. Our UNL NebGuide, “Irrigation Management and Crop Characteristics of Alfalfa” (G1778) provides more details.\n\n## Last Alfalfa Cutting\n\nBy Ben Beckman\n\nTiming the last fall alfalfa cutting can be a difficult thing to plan for and varies among growers. A balance between "
+        },
+        {
+          "url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1116-august-13/final-irrigation-2026.html",
+          "title": "Final Irrigation of the Growing Season - Timing is Everything | K-State | Kansas State University",
+          "description": "## Key Points for Timing the Final Irrigation\n\n1. Determine crop growth stage and anticipated remaining water use\n2. Determine soil water status in the field by probe or calibrated soil sensor technology\n3. Determine the irrigation strategy necessary to meet the remaining crop water use while maintaining soil water content at or above 55% (limit depletion to 45%).\n4. Be ready to make adjustments based on changes in ET demand, precipitation, and other factors. [...] Department of Agronomy\n\n K-State home\n Agronomy\n eUpdates\n 2026\n Issue 1116\n Final Irrigation of the Growing Season - Timing is Everything\n\n# Final Irrigation of the Growing Season - Timing is Everything [...] Additional information, including a step-by-step procedure, can be found in the publication MF2174: “Predicting the final irrigation for corn, grain sorghum, and soybeans” - \n\nSpecial Note: Much of the data in this article was collected by Freddie Lamm, Irrigation Engineer at the Northwest Research-Extension Center at Colby. Freddie passed away in May 2022, just months short of completing his 43rd year of irrigation research at the NWREC. A tribute to Freddie’s career can be found at:"
+        },
+        {
+          "url": "https://extension.okstate.edu/e-pest-alerts/2026/late-season-alfalfa-insect-and-other-management-considerations-during-drought",
+          "title": "Late-Season Alfalfa Insect and Other Management ...",
+          "description": "Learn more about Alfalfa management during drought season, such as irrigation considerations, fertility during drought, weed control, insect scouting, management after rainfall and more."
+        }
+      ]
+    },
+    "df50a73176316b9123a4adf7b1a66ff5467613b624e8b8e92537cff0483902f2": {
+      "checked": 1793237399.3248935,
+      "results": [
+        {
+          "url": "https://wra.areeo.ac.ir/article_129473_1c4fb9218cdd8b00d61d6c61c1906701.pdf",
+          "title": "وری آب یونجه در مناطق مختلف کشور تعیین بهره",
+          "description": "-2. استاد پژوهش، موسسه تحقیقات فنی و مهندسی کشاورزی، سازمان تحقیقات، آموزش و ترویج کشاورزی، کرج، ایران. ... ترین زمان مدت قطع آبیاری در زراعت یونجه، گ. زارش"
+        },
+        {
+          "url": "https://jstnar.iut.ac.ir/article-1-4081-fa.pdf",
+          "title": "وري آب ارﻗﺎم ﯾﻮﻧﺠﻪ ﮔﺮﻣﺴﯿﺮي اي ﺗﯿﭗ ﺑﺮ ﻋﻤﻠﮑﺮد و ﺑﻬﺮه اﺛﺮ",
+          "description": "ﯾﻮﻧﺠﻪ، آزﻣﺎﯾﺸﯽ ﺑﻪ. ﺻﻮرت ﮐﺮت. ﻫﺎي ﺧﺮدﺷﺪه در ﻗﺎﻟﺐ ﺑﻠﻮك. ﻫﺎي. ﮐﺎﻣﻞ ﺗﺼﺎدﻓﯽ ﺑﺎ ﺳﻪ ﺗﮑﺮار در دو ﺳﺎل زراﻋﯽ. 1397. و. 1398. در اراﺿﯽ ﻣﺮﮐﺰ ﺗﺤﻘﯿﻘﺎ. ت ﮐﺸﺎورزي ﺻﻔﯽ."
+        },
+        {
+          "url": "https://srj.asnr.ias.ac.ir/article_128740_6e8253a2f135ebef86debd8280a3d16a.pdf",
+          "title": "بررسی اسنادی وضعیت منابع و مصرف های آب کشاورزی در ایران",
+          "description": "در استان ها، حوضه های آبریز، و دشت های مختلف کشور اجرا شده ( است. مهتدی و همکاران18 ) بر پایه آمار وزارت جهاد کشاورزی در مورد تولید محصول های زراعی در است ان خوزستان و آمار حجم خالص آبیاری ارائه شده در سند ملی آب، کارایی مصرف آب جو، گندم و یونجه را به ترتیب 85 / 0 ، 04 / 1 و76 / 0 کیلوگرم بر مترمکعب براورد کرده اند . ح( یدری7 ) کارایی مصرف آب آبیاری محصول های زراعی و باغبانی ر ا در حوضه آبریز کرخه محاسبه و مقایسه است هد کر .وی می گوید در میان محصول های ،زراعی گوجه فرنگی با کارایی م صرف آب [...] آب (به دلیل های ،مختلف مانند گرمایش جهانی و توسعه بی برنامه زمین ،)های کشاورزی هم از نظر کمًی و هم از نظر کیفی (تامین غذای سالم و عاری از آفت کش ها، هورمون ها و مانند این ها( ) 6 ) با چالش های جدی رو ه روب ست و یکی از راهکارهای مؤثر برای برون،رفت از این مشکل کاهش مصرف آب کشاورزی و استفاده بهینه از آب در تولید فراورده های .کشاورزی است ،در علوم آب معیار های مختلفی برای سنجش میزان استفاده بهینه از آب در بخش کشاورزی و تولید محصول های وابسته به آن ارائه شده است. یکی از اولین و مهم ترین معیارها، [...] % اقلیم ایران در محدوده اقلیم ،های فراخشک بررسی اسنادی وضعیت منابع و مصرف های آب کشاورزی در ایران 39 خشک و نیمه خشک قرار می گیرد. مرداد و دی به ترتیب خشک ترین و مرطوب ترین ماه های سال به شمار می روند"
+        }
+      ]
+    },
+    "90c0972ca49f49dddffdd78df81391c94c3f05c59c94f8e8452461b3d4d4ea15": {
+      "checked": 1793237396.566886,
+      "results": []
+    },
     "cbea1698b8068ef4295f74eb01af6955d9c81b01ad3822d84f61975067779964": {
       "checked": 1793236145.53338,
       "results": []
@@ -100,7 +174,7 @@
   },
   "monthly_budget": {
     "month": "2026-10",
-    "reserved": 137
+    "reserved": 141
   },
   "secret_values_stored": false
 }

@@ -1,0 +1,43 @@
+{
+  "requested": 6,
+  "loaded": 5,
+  "sources": [
+    {
+      "url": "https://bookstore.ksre.ksu.edu/pubs/irrigation-management-for-alfalfa_MF2868.pdf",
+      "canonical_url": "https://bookstore.ksre.ksu.edu/pubs/irrigation-management-for-alfalfa_MF2868.pdf",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1119-september-3/deciding-when-to-make-final-alfalfa-cuttings.html",
+      "canonical_url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1119-september-3/deciding-when-to-make-final-alfalfa-cuttings.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/pasture-and-forage-minute-considerations-fall-forage-harvest-alfalfa-irrigation-and-last-cutting",
+      "canonical_url": "https://cropwatch.unl.edu/pasture-and-forage-minute-considerations-fall-forage-harvest-alfalfa-irrigation-and-last-cutting/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management",
+      "canonical_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+      "redirect_hops": 1,
+      "status": "fetched"
+    },
+    {
+      "url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1116-august-13/final-irrigation-2026.html",
+      "canonical_url": "https://www.agronomy.k-state.edu/eupdates/2026/issue-1116-august-13/final-irrigation-2026.html",
+      "redirect_hops": 0,
+      "status": "fetched"
+    },
+    {
+      "url": "https://extension.okstate.edu/e-pest-alerts/2026/late-season-alfalfa-insect-and-other-management-considerations-during-drought",
+      "status": "unavailable",
+      "category": "http_error",
+      "temporary": true,
+      "http_status": 403
+    }
+  ]
+}

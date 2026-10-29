@@ -1,0 +1,22 @@
+{
+  "query_sha256": "5a008f766b09e5bf3a406a419793f89025cda11f53da31447b3c386ba04af5ed",
+  "result": {
+    "query_id": "2896a1ff886c7a3ed2c5ca8ebcbae07257bbda28bd753acdae3da29536cc9c29",
+    "query": "Medicago sativa harvest irrigation timing decision criteria field access soil moisture avoid fixed interval peer-reviewed",
+    "cached": false,
+    "checked_at_epoch": 1793237428.397772,
+    "results": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s44274-026-00613-7",
+        "title": "Medicago sativa for climate-smart agriculture and soil ...",
+        "description": "by AG Desta · 2026 · Cited by 3 — This review synthesizes evidence from 130 peer-reviewed studies across 35 countries, spanning temperate, subtropical, and semi-arid ...Read more"
+      },
+      {
+        "url": "https://ipm.uga.edu/2020/03/10/irrigation-scheduling",
+        "title": "Irrigation Scheduling | Integrated Pest Management",
+        "description": "available from a number of vendors and come in many forms, shapes, and sizes. Some probes are directly installed into the soil near the crop root zone while others measure canopy temperature from above to indirectly quantify soil moisture status. The majority of soil moisture sensing technology on the market allows the farmer to use the internet to securely log in and access real-time data on which to base an irrigation decision. [...] Da Silva explained that the most effective approach for irrigating crops should include the crop water demand, also known as the crop’s evapotranspiration rate, and in the best case, monitoring soil moisture levels as well. [...] Soils are vastly different across the southeast, and even from field to field, so it’s critical for growers to think about this process of saturation, field capacity and permanent wilting point so as not to use one standard irrigation schedule, but rather a more site-specific system.\n\nDa Silva recommends monitoring soil moisture content by installing sensors throughout fields."
+      }
+    ]
+  },
+  "publication_authorized": false
+}
