@@ -1,0 +1,9 @@
+{
+  "request_id": "alfalfa-claim-policy-recheck-v1",
+  "phase": "claim-policy-recheck",
+  "status": "reserved",
+  "run_id": "40810906360",
+  "started_at": "2026-10-29T03:14:41.993686+00:00",
+  "published_posts": 0,
+  "original_attempts_reset": false
+}
