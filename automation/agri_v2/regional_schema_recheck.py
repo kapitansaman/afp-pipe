@@ -117,7 +117,9 @@ def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None):
     client.expected_response_format={'type':'json_schema','json_schema':{'name':'grounded_persian_article','strict':True,'schema':schema}}
     verdict=request(client,work,'regional-evidence-review-fallback',prompt,1)
     # Native schema does not replace server source/quote/semantic validation.
-    validate_wire(verdict,schema)
+    # request() validates keyed raw before its lossless canonical projection.
+    canonical_schema=response_schema('regional-evidence-review-fallback',{k:v for k,v in prompt.items() if k!='_regional_wire_contract'})
+    validate_wire(verdict,canonical_schema)
     if {c['fact_id'] for c in verdict['fact_checks']}!={f['fact_id'] for f in brief['approved_facts']}:raise RecheckBlocked('regional_wire_fact_coverage_invalid')
     validate_regional_objections(verdict,article,brief['approved_facts'])
     negative=any(verdict[k] is False for k in ('applicable','no_unsupported_local_prescription','country_limits_retained')) or any(c['supported'] is False for c in verdict['fact_checks'])

@@ -35,23 +35,35 @@ def draft_response_schema(name,prompt):
  return {'type':'object','properties':{'translations':{'type':'array','minItems':len(ids),'maxItems':len(ids),'items':{'type':'object','properties':{'id':{'type':'integer','enum':ids},'text':{'type':'string'}},'required':['id','text'],'additionalProperties':False}}},'required':['translations'],'additionalProperties':False}
 
 def request(client,root,name,prompt,limit):
+ adapter=None
  schema=draft_response_schema(name,prompt)
  if schema is None and name in ('regional-evidence-review','regional-evidence-review-fallback'):
   from .regional_sources import response_schema
   schema=response_schema(name,prompt)
+  if schema is not None and prompt.get('_regional_wire_contract'):
+   from .regional_keyed_wire import VERSION
+   adapter=VERSION
  if isinstance(prompt,dict) and '_role_skill' in prompt:
   from .role_skills import enrich
   row=dict(prompt);role=row.pop('_role_skill');language=row.pop('_role_language',None)
   prompt=json.loads(enrich(row,role,language))
  receipt=root/(name+'.receipt.json');raw_path=root/(name+'.raw.json')
  contract={'prompt_sha256':digest(prompt),'max_calls':1}
+ if adapter:contract['response_adapter']=adapter
  if receipt.exists():
   row=load_json(receipt)
   if any(row.get(k)!=v for k,v in contract.items()):raise RepairBlocked('repair_request_binding_changed')
   if schema is not None and row.get('response_schema_sha256') is not None and row['response_schema_sha256']!=digest(schema):raise RepairBlocked('repair_schema_binding_changed')
+  if adapter and row.get('response_schema_sha256')!=digest(schema):raise RepairBlocked('repair_schema_binding_changed')
   if not raw_path.exists():raise RepairBlocked('uncertain_repair_request_not_replayed')
   raw=load_json(raw_path)
   if row.get('raw_sha256') and row['raw_sha256']!=digest(raw):raise RepairBlocked('repair_response_changed')
+  if adapter and (row.get('status')!='received' or row.get('raw_sha256')!=digest(raw)):raise RepairBlocked('repair_response_changed')
+  if adapter:
+   from .regional_keyed_wire import canonical
+   result=canonical(raw,schema)
+   if row.get('canonical_sha256')!=digest(result):raise RepairBlocked('regional_wire_conversion_incomplete_no_replay')
+   return result
   return raw
  if raw_path.exists():raise RepairBlocked('unbound_repair_response')
  if client.__dict__.get('_repair_cache_only'):raise RepairBlocked('incomplete_approved_repair_cache')
@@ -59,8 +71,12 @@ def request(client,root,name,prompt,limit):
  if schema is not None:contract['response_schema_sha256']=digest(schema)
  atomic_json(receipt,dict(contract,status='reserved',at=utcnow()))
  transport={} if schema is None else {'response_schema':schema}
+ if adapter:transport['reject_duplicate_keys']=True
  raw=client.text(json.dumps(prompt,ensure_ascii=False),attempts=1,max_tokens=14000,timeout=180,**transport)
- atomic_json(raw_path,raw);atomic_json(receipt,dict(contract,status='received',raw_sha256=digest(raw),at=utcnow()))
+ atomic_json(raw_path,raw);received=dict(contract,status='received',raw_sha256=digest(raw),at=utcnow());atomic_json(receipt,received)
+ if adapter:
+  from .regional_keyed_wire import canonical
+  result=canonical(raw,schema);atomic_json(receipt,dict(received,canonical_sha256=digest(result)));return result
  return raw
 
 def assess(value,source,raws):
