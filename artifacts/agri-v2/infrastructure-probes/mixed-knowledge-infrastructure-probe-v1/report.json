@@ -1,0 +1,31 @@
+{
+  "request_id": "mixed-knowledge-infrastructure-probe-v1",
+  "run_id": "40828776994",
+  "status": "probe_text_cycle_blocked",
+  "started_at": "2026-10-29T06:23:31.091495+00:00",
+  "topic_id": "agri-96d735d5bd11",
+  "brief_sha256": "ce2bf44b3daa066f9cd9fd2ab7e7f88ef380427c725529b3e0df4b1445419134",
+  "max_model_calls": 4,
+  "max_repairs": 1,
+  "repair_exercised": false,
+  "steps": [],
+  "site_calls": 0,
+  "site_mutations": 0,
+  "image_calls": 0,
+  "search_calls": 0,
+  "translation_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "attempts_reset": false,
+  "production_readiness_claimed": false,
+  "protected_before_sha256": "d1fbba578ae2e16cfc5604825086d1c363ba2746e075a0cd6f763cc61d377980",
+  "source_selection": "first_valid_unpublished_unheld_nonexception_scoped_queue_entry",
+  "failure": {
+    "kind": "capability_or_protocol",
+    "category": "unspecified"
+  },
+  "model_calls": 0,
+  "request_receipts": 0,
+  "originals_unchanged": true,
+  "completed_at": "2026-10-29T06:23:31.424704+00:00"
+}
