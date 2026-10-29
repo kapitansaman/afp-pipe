@@ -21,8 +21,12 @@ def policy(env=None,data=DATA):
 
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
- if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final','post-hold-validation','regional-only-recovery'):raise ValueError('Non-publication phase required')
- if phase=='regional-only-recovery':
+ if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final','post-hold-validation','regional-only-recovery','regional-schema-recheck'):raise ValueError('Non-publication phase required')
+ if phase=='regional-schema-recheck':
+  from .regional_schema_recheck import ID
+  if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual regional schema recheck required')
+  expected=ID
+ elif phase=='regional-only-recovery':
   from .regional_only_recovery import ID
   if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual regional-only continuation required')
   expected=ID
