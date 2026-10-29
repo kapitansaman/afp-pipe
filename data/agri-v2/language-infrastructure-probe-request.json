@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "request_id": "mixed-knowledge-language-infrastructure-v1",
+  "source_request_id": "mixed-knowledge-infrastructure-continuation-v1",
+  "source_article_sha256": "c49ef944776090e29f69de3959ca09f3b194a40b6e7cc2a21074d8795ccdb3c2",
+  "source_report_sha256": "9843b080392bdc6edcc27ff7298ad4353384047019b58be0ab4c4e58ea8bb508",
+  "code_sha256": "32de2462f7c4aedfb157c805cdea324d390902972e6b03bea356387a9f403836",
+  "languages": [
+    "ru-RU",
+    "ar-IQ",
+    "tg-TJ",
+    "en-US"
+  ],
+  "max_runs": 1,
+  "max_model_calls": 16,
+  "max_calls_per_language": 4,
+  "max_repairs_per_language": 1,
+  "max_search_calls": 0,
+  "max_image_calls": 0,
+  "max_site_calls": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "reset_attempts": false
+}
