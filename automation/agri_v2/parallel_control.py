@@ -21,8 +21,12 @@ def policy(env=None,data=DATA):
 
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
- if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final','post-hold-validation','regional-only-recovery','regional-schema-recheck','regional-keyed-validation'):raise ValueError('Non-publication phase required')
- if phase=='regional-keyed-validation':
+ if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final','post-hold-validation','regional-only-recovery','regional-schema-recheck','regional-keyed-validation','regional-catalog-validation'):raise ValueError('Non-publication phase required')
+ if phase=='regional-catalog-validation':
+  from .regional_catalog_validation import ID
+  if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual catalog regional validation required')
+  expected=ID
+ elif phase=='regional-keyed-validation':
   from .regional_keyed_validation import ID
   if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual keyed regional validation required')
   expected=ID
