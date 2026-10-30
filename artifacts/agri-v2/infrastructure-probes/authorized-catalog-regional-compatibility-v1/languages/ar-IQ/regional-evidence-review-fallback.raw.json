@@ -1,0 +1,59 @@
+{
+  "applicable": false,
+  "country_limits_retained": true,
+  "fact_checks": {
+    "f0": {
+      "country": "USA",
+      "evidence_quote_id": "d1p10",
+      "international_fallback": false,
+      "local_evidence_gap": "منبع غیرعرب",
+      "scope": "عمومی-توضیحی بدون محدودیت کشوری",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f1": {
+      "country": "USA",
+      "evidence_quote_id": "d1p15",
+      "international_fallback": false,
+      "local_evidence_gap": "منبع غیرعرب",
+      "scope": "آبیاری پاییزه تا نوامبر - نبراسکا",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f2": {
+      "country": "USA",
+      "evidence_quote_id": "d1p24",
+      "international_fallback": false,
+      "local_evidence_gap": "منبع غیرعرب",
+      "scope": "مصرف آب فصل گرم و پاییزه - نبراسکا",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f3": {
+      "country": "USA",
+      "evidence_quote_id": "d2p7",
+      "international_fallback": false,
+      "local_evidence_gap": "منبع غیرعرب",
+      "scope": "2 اینچ ET - خاک silt loam جنوب آیداهو",
+      "source_kind": "research_report",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f4": {
+      "country": "USA",
+      "evidence_quote_id": "d1p24",
+      "international_fallback": false,
+      "local_evidence_gap": "منبع غیرعرب",
+      "scope": "عدم وجود مرحله بحرانی تنش آبی - یونجه",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    }
+  },
+  "no_unsupported_local_prescription": true,
+  "regional_review_schema_version": 2,
+  "rejection_reasons": []
+}

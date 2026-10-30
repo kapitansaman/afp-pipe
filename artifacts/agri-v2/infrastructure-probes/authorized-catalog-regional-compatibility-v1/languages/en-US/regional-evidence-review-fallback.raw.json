@@ -1,0 +1,59 @@
+{
+  "applicable": true,
+  "country_limits_retained": true,
+  "fact_checks": {
+    "f0": {
+      "country": "US",
+      "evidence_quote_id": "d0p0",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "scope": "general_principle_us_source_only",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f1": {
+      "country": "US",
+      "evidence_quote_id": "d1p1",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "scope": "source_observation_us_only_q18q23",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f2": {
+      "country": "US",
+      "evidence_quote_id": "d1p2",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "scope": "source_observation_nebraska_us_only_q31q37",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f3": {
+      "country": "US",
+      "evidence_quote_id": "d3p5",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "scope": "source_observation_southern_idaho_us_only_q40q46",
+      "source_kind": "research_report",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f4": {
+      "country": "US",
+      "evidence_quote_id": "d1p3",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "scope": "general_principle_us_source_q50q57",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    }
+  },
+  "no_unsupported_local_prescription": true,
+  "regional_review_schema_version": 2,
+  "rejection_reasons": []
+}

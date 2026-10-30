@@ -1,0 +1,40 @@
+{
+  "request_id": "authorized-catalog-regional-compatibility-v1",
+  "run_id": "40981195958",
+  "status": "regional_schema_recheck_blocked",
+  "started_at": "2026-10-30T00:42:51.454145+00:00",
+  "results": [
+    {
+      "language": "ar-IQ",
+      "status": "blocked",
+      "failure": {
+        "kind": "validation",
+        "category": "claim_context_review_required"
+      }
+    },
+    {
+      "language": "en-US",
+      "status": "blocked",
+      "failure": {
+        "kind": "validation",
+        "category": "regional_numeric_support_missing_no_value_substitution"
+      }
+    }
+  ],
+  "max_model_calls": 2,
+  "search_requests": 0,
+  "source_fetches": 0,
+  "site_calls": 0,
+  "image_calls": 0,
+  "published_posts": 0,
+  "article_edits": 0,
+  "translation_edits": 0,
+  "attempts_reset": false,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "promotion_authorized": false,
+  "model_calls": 2,
+  "request_receipts": 2,
+  "originals_unchanged": true,
+  "completed_at": "2026-10-30T00:43:28.141604+00:00"
+}
