@@ -41,7 +41,7 @@ def mechanical(article,raw,source):
  for row in raw['translations']:
   i=row['id'];target=row['text'];problem=None
   try:
-   target=normalize_batch({'translations':[row]},[{'id':i,'text':source[i]}])[0]['text']
+   target=normalize_batch({'translations':[row]},[{'id':i,'text':source[i]}],target_language='tg-TJ')[0]['text']
    units=lambda s:[re.sub(r'\s+','',v) for v in re.findall(r'°\s*[CF]',s)]
    if units(source[i])!=units(target):problem='Original temperature unit was changed or omitted.'
    if re.search(r'[\u0600-\u06ff]',target):problem='Persian/Arabic characters remain in this Tajik segment.'

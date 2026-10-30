@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "request_id": "authorized-family07-decimal-reconcile-five-remaining-v1",
+  "authorization": "owner_requested_fix_decimal_comparison_and_use_five_remaining_tajik_calls",
+  "authorization_source": "https://app.notion.com/chat?t=40841579fa0a8078988900a99eb829d4",
+  "family_id": "family-07",
+  "topic_id": "agri-6fc1032cdf42",
+  "code_sha256": "f7b85f89bc9609939c98aaa91b595a0fe509d414186c7af626531f6794df2a3c",
+  "protected_sha256": "fa140f0f6ad6943308f9712a61b9e7451283a8c442aa646c02915f32082a4a20",
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+  "queue_sha256": {
+    "tg-TJ": "f93f49884c1d4b67488dda22ac30f2a2066cf33d8eea3fdb1667bf66ad31df23",
+    "ar-IQ": "f386bdedad998c1b3b7fa780558f316098fb224d02e124c622596c7d92499387",
+    "en-US": "d75d89bed0d19d694cad80a832b86057a891db6cf8848da25e7389869a8a8461",
+    "ru-RU": "90117840fc88c5902e664442cebdbfd832f088d47dfb81d1d2160d7181323e88"
+  },
+  "prior_proof_sha256": "cae12e3d2513c0b42ddf60a7a9d196bee3bfcf4882376931ed81b1893fa21a97",
+  "scoped_capability_sha256": "0be0c740e2dfd9512d1d78290f815a96b894876ebccdc386311942332fe8427a",
+  "wire": "regional-source-decision-v4",
+  "source_urls": [
+    "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+    "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+    "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops"
+  ],
+  "languages": [
+    "tg-TJ"
+  ],
+  "russian_model_calls": 0,
+  "max_runs": 1,
+  "max_text_calls": 5,
+  "combined_prior_and_new_text_cap": 10,
+  "max_regional_calls_per_language": 1,
+  "max_semantic_calls_per_language": 4,
+  "max_source_fetches": 0,
+  "max_search_requests": 0,
+  "max_site_calls": 0,
+  "max_image_calls": 0,
+  "max_attempts_per_request": 1,
+  "max_in_flight": 1,
+  "role_slots": {
+    "translator": "AGNES_API_KEY25",
+    "fidelity_reviewer": "AGNES_API_KEY26",
+    "regional_reviewer": "AGNES_API_KEY27"
+  },
+  "conditional_internal_evidence_adoption_authorized": true,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "stage_promotion_authorized": false,
+  "reset_attempts": false,
+  "global_capacity_refresh": false,
+  "max_automatic_attempts": 3,
+  "max_model_calls_per_item": 12
+}
