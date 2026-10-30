@@ -168,7 +168,7 @@ class Family07Tests(unittest.TestCase):
     def __init__(self,worker,root,*args):self.worker=worker;self.root=root
    def unknown(client,*args):
     with lease(client.worker['AFP_PARALLEL_POOL_DB'],'text',[r.capability.TEXT[2]],r.ID,wait=0):atomic_json(client.root/'calls'/client.language/'0.json',{'stage':'regional','status':'reserved'})
-    raise TimeoutError('private provider body')
+    raise TextProviderError(None,'network_or_timeout')
    with patch('automation.agri_v2.source_loading.valid_document',return_value=True),patch('automation.agri_v2.translation_review_repair.request',side_effect=unknown),patch.object(r.q,'run_item') as semantic:
     v=r.run(e,d,o,reserve_fn=lambda env:True,fetcher=Mock(side_effect=docs),client_factory=FakeClient)
    semantic.assert_not_called();self.assertEqual(v['status'],'family07_multilingual_blocked');self.assertEqual(v['model_calls'],1);self.assertEqual(v['active_language'],'ru-RU');self.assertEqual(v['queue_counters']['ru-RU'],{'status':'reconciliation_required','attempts':2,'model_calls_spent':3});self.assertEqual(v['queue_counters']['tg-TJ']['model_calls_spent'],2);self.assertNotIn('private',json.dumps(v))
