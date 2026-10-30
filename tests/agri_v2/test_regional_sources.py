@@ -7,6 +7,7 @@ from automation.agri_v2.queue import atomic_json,load_json,utcnow
 from automation.agri_v2.pipeline import digest
 from automation.agri_v2.research import source_host,ResearchBlocked
 class RegionalSourcesTests(unittest.TestCase):
+ def article(self):return {'content_html':'<p>Fixture bounded observation, not a universal local recommendation.</p>'}
  def topic(self):return {'id':'agri-regional','title':'معیارهای آبیاری هویج','crop':'هویج','intent':'irrig_interval'}
  def doc(self,url='https://research.ac.ir/carrot'):
   text='Local technical evidence for carrot irrigation uses field soil moisture observations, exact crop growth stage and measured root-zone conditions; no universal irrigation interval is justified. '*5
@@ -25,6 +26,10 @@ class RegionalSourcesTests(unittest.TestCase):
   value['fact_checks']=checks
   for row in value['rejection_reasons']:
    quote=row.pop('article_quote');row['article_quote_id']=next(p['id'] for p in catalog['article_passages'] if quote in p['text'])
+  reasons=value.pop('rejection_reasons')
+  for flag in ('applicable','no_unsupported_local_prescription','country_limits_retained'):
+   value[flag]={'value':value[flag],'objection':next((row for row in reasons if row['flag']==flag),None)}
+  for ident,item in checks.items():item['objection']=next((row for row in reasons if row['flag']=='fact_supported' and ident in row['fact_ids']),None)
   return value
  def wire_negative(self,doc=None,quote='Fixture article observation',article=None,docs=None):
   value=self.current_verdict(doc);value.update(applicable=False,rejection_reasons=[{'flag':'applicable','fact_ids':['f0'],'claim_type':'source_observation','article_quote':quote,'reason':'This bounded fixture observation lacks sufficient regional support.'}]);return self.wire_verdict(doc,canonical=value,article=article,docs=docs)
@@ -103,7 +108,7 @@ class RegionalSourcesTests(unittest.TestCase):
  def test_sufficient_local_review_does_not_search_international(self):
   with tempfile.TemporaryDirectory() as t:
    root=Path(t);data=self.data(root);d=self.doc('https://mcx.gov.ru/x');client=Mock();client.text.return_value=self.wire_verdict(d)
-   with patch.object(r,'collect',return_value=[d]) as collect:r.local_research(self.topic(),{},self.brief(),'ru-RU',client,data,root,root/'family',root/'attempt',4)
+   with patch.object(r,'collect',return_value=[d]) as collect:r.local_research(self.topic(),self.article(),self.brief(),'ru-RU',client,data,root,root/'family',root/'attempt',4)
    self.assertEqual(collect.call_count,1);self.assertEqual(client.text.call_count,1)
  def test_weak_local_evidence_triggers_international_then_scientific_review(self):
   with tempfile.TemporaryDirectory() as t:
@@ -119,16 +124,16 @@ class RegionalSourcesTests(unittest.TestCase):
  def test_no_local_documents_still_allow_credible_international_completion(self):
   with tempfile.TemporaryDirectory() as t:
    root=Path(t);data=self.data(root);d=self.doc('https://extension.example.edu/field');client=Mock();client.text.return_value=self.wire_verdict(d)
-   with patch.object(r,'collect',side_effect=[[],[d]]):self.assertEqual(r.local_research(self.topic(),{},self.brief(),'tg-TJ',client,data,root,root/'family',root/'attempt',4),[d['url']])
+   with patch.object(r,'collect',side_effect=[[],[d]]):self.assertEqual(r.local_research(self.topic(),self.article(),self.brief(),'tg-TJ',client,data,root,root/'family',root/'attempt',4),[d['url']])
    self.assertEqual(client.text.call_count,1)
  def test_unavailable_all_sources_never_create_approval(self):
   with tempfile.TemporaryDirectory() as t:
    root=Path(t);data=self.data(root);client=Mock()
-   with patch.object(r,'collect',return_value=[]),self.assertRaises(r.RegionalBlocked):r.local_research(self.topic(),{},self.brief(),'tg-TJ',client,data,root,root/'family',root/'attempt',4)
+   with patch.object(r,'collect',return_value=[]),self.assertRaises(r.RegionalBlocked):r.local_research(self.topic(),self.article(),self.brief(),'tg-TJ',client,data,root,root/'family',root/'attempt',4)
    client.text.assert_not_called();self.assertFalse((root/'family/regional-research/tg-TJ/approved.json').exists())
  def test_local_proof_binds_article_brief_and_literal_fetched_text(self):
   with tempfile.TemporaryDirectory() as t:
-   root=Path(t);data=self.data(root);folder=root/'family';d=self.doc('https://mcx.gov.ru/x');client=Mock();client.text.return_value=self.wire_verdict(d);b=self.brief();a={'title':'source'}
+   root=Path(t);data=self.data(root);folder=root/'family';d=self.doc('https://mcx.gov.ru/x');client=Mock();client.text.return_value=self.wire_verdict(d);b=self.brief();a=dict(self.article(),title='source')
    with patch.object(r,'collect',return_value=[d]):r.local_research(self.topic(),a,b,'ru-RU',client,data,root,folder,root/'attempt',4)
    with self.assertRaises(r.RegionalBlocked):r.require_local({'title':'changed'},b,'ru-RU',data,folder)
    p=folder/'regional-research/ru-RU/approved.json';v=load_json(p);v['documents'][0]['text']+='tampered';atomic_json(p,v)

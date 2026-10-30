@@ -35,7 +35,7 @@ def draft_response_schema(name,prompt):
  return {'type':'object','properties':{'translations':{'type':'array','minItems':len(ids),'maxItems':len(ids),'items':{'type':'object','properties':{'id':{'type':'integer','enum':ids},'text':{'type':'string'}},'required':['id','text'],'additionalProperties':False}}},'required':['translations'],'additionalProperties':False}
 
 def request(client,root,name,prompt,limit):
- adapter=None;catalog=None
+ adapter=None;catalog=None;catalog_decode=None
  schema=draft_response_schema(name,prompt)
  if schema is None and name in ('regional-evidence-review','regional-evidence-review-fallback'):
   from .regional_sources import response_schema
@@ -43,7 +43,13 @@ def request(client,root,name,prompt,limit):
   if schema is not None and prompt.get('_regional_wire_contract'):
    adapter=prompt['_regional_wire_contract']
    from .regional_quote_catalog import VERSION as CATALOG,bound
-   if adapter==CATALOG:catalog=bound(prompt)
+   if adapter==CATALOG:
+    catalog=bound(prompt)
+    from .regional_quote_catalog import canonical as catalog_decode
+   from .regional_catalog_consistency import VERSION as CONSISTENT,bound as consistent_bound
+   if adapter==CONSISTENT:
+    catalog=consistent_bound(prompt)
+    from .regional_catalog_consistency import canonical as catalog_decode
  if isinstance(prompt,dict) and '_role_skill' in prompt:
   from .role_skills import enrich
   row=dict(prompt);role=row.pop('_role_skill');language=row.pop('_role_language',None)
@@ -54,9 +60,7 @@ def request(client,root,name,prompt,limit):
  catalog_path=root/(name+'.catalog.json')
  if catalog is not None:contract['quote_catalog_sha256']=digest(catalog)
  def decode(raw):
-  if catalog is not None:
-   from .regional_quote_catalog import canonical
-   return canonical(raw,schema,catalog)
+  if catalog is not None:return catalog_decode(raw,schema,catalog)
   from .regional_keyed_wire import canonical
   return canonical(raw,schema)
  if receipt.exists():
