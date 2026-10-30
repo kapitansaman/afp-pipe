@@ -1,0 +1,72 @@
+{
+  "applicable": {
+    "objection": null,
+    "value": true
+  },
+  "country_limits_retained": {
+    "objection": null,
+    "value": true
+  },
+  "fact_checks": {
+    "f0": {
+      "country": "US",
+      "evidence_quote_id": "d1p2",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی عربی برای ویژگی خواب干旱-ایجادشده یونجه در اقلیم‌های نزدیک‌به‌بیابانی یا مدیترانه‌ای یافت نشد. شواهد موجود فقط از مطالعات ایالات متحده (یوتا، نبراسکا، آیداهو) هستند.",
+      "objection": null,
+      "scope": "آزمایش‌ها در مزارع یوتا و گزارش‌های سازمان تحقیقاتی آمریکا انجام شده؛ سازگاری با خاک‌ها و اقلیم‌های کشورهای عربی نیاز به تأیید محلی دارد.",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f1": {
+      "country": "US",
+      "evidence_quote_id": "d0p2",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی عربی درباره آبیاری پاییزه تا نوامبر و ذخیره عمقی آب تا پیش از یخبندان در کشورهای منطقه خاورمیانه/شمال آفریقا یافت نشد.",
+      "objection": null,
+      "scope": "این روش در نبراسکا، آمریکا — جایی که یخبندان زمستانه پایدار است — گزارش شده است. سازگاری با شرایط بدون یخبندان یا با دوره‌های خشکی متفاوت کشورهای عربی نامشخص است.",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f2": {
+      "country": "US",
+      "evidence_quote_id": "d0p1",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی عربی برای مقادیر مصرف آب فصل گرم (>۰٫۳۰ اینچ/روز) و مصرف پاییزه (~۰٫۱۰ اینچ/روز) یونجه در کشورهای خاورمیانه و شمال آفریقا یافت نشد.",
+      "objection": null,
+      "scope": "مقادیر ازCropWatch دانشگاه نبراسکا، آمریکا گزارش شده‌اند. سازگاری با اقلیم‌های خشک و نیمه‌خشک منطقه، بافت‌های خاک متفاوت و سامانه‌های آبیاری قطره‌ای/پاششی نیازمند بررسی بومی است.",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f3": {
+      "country": "US",
+      "evidence_quote_id": "d2p16",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی عربی برای نیاز تخلیه ET حدود ۲ اینچ در خاک silt loam جنوب آیداهو پیش از برش یونجه در کشورهای منطقه یافت نشد.",
+      "objection": null,
+      "scope": "توصیه ازProceedings Alfalfa Symposium (UC Davis/USU، 2002) و مکاتبه شخصی با J.L. Wright در آیداهوی جنوبی، آمریکا گرفته شده است. بافت خاک silt loam خاص این منطقه است و برای خاک‌های رسی یا شنی کشورهای عربی قابل تعمیم مستقیم نیست.",
+      "source_kind": "research_report",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f4": {
+      "country": "US",
+      "evidence_quote_id": "d0p1",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی عربی برای ویژگی عدم وجود مرحله بحرانی تنش آبی در یونته و توانایی ورود به خواب و بازیابی رشد گزارش نشده است.",
+      "objection": null,
+      "scope": "این اصل ازCropWatch دانشگاه نبراسکا، آمریکا گزارش شده. اگرچه یک اصل فیزیولوژیک عمومی است، اما کاربرد عملی آن در شرایط آب‌وهوایی کشورهای عربی نیازمند شواهد بومی است.",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    }
+  },
+  "no_unsupported_local_prescription": {
+    "objection": null,
+    "value": true
+  },
+  "regional_review_schema_version": 2
+}
