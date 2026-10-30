@@ -21,8 +21,12 @@ def policy(env=None,data=DATA):
 
 def reserve(phase,request_id,env=None,put_fn=None):
  env=os.environ if env is None else env
- if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final','post-hold-validation','regional-only-recovery','regional-schema-recheck','regional-keyed-validation','regional-catalog-validation','regional-isolated-validation'):raise ValueError('Non-publication phase required')
- if phase=='regional-isolated-validation':
+ if phase not in ('audit','research','trial','lifecycle','operation','capability','capability-followup','claim-policy-recheck','claim-policy-continuation','claim-policy-regional-final','post-hold-validation','regional-only-recovery','regional-schema-recheck','regional-keyed-validation','regional-catalog-validation','regional-isolated-validation','regional-arabic-v3-validation'):raise ValueError('Non-publication phase required')
+ if phase=='regional-arabic-v3-validation':
+  from .regional_arabic_v3_validation import ID
+  if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual Arabic v3 validation required')
+  expected=ID
+ elif phase=='regional-isolated-validation':
   from .regional_isolated_validation import ID
   if request_id!=ID or env.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or env.get('GITHUB_REF_NAME')!=BRANCH:raise ValueError('Exact manual isolated validation required')
   expected=ID
