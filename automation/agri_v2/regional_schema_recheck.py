@@ -86,10 +86,12 @@ class CountedClient:
 def run(env,data=DATA,out=OUT,client_factory=None,reserve_fn=None):
  return execute(env,data,out,client_factory,reserve_fn,ID,'regional-schema-recheck-request.json',validate,manifest,'regional-schema-recheck')
 
-def execute(env,data,out,client_factory,reserve_fn,request_id,request_file,validate_fn,manifest_fn,phase):
+def execute(env,data,out,client_factory,reserve_fn,request_id,request_file,validate_fn,manifest_fn,phase,wire_contract='regional-keyed-facts-v1'):
  # Shared finite executor. Admissions remain separate and immutable; this helper
  # cannot create a new budget without an exact remotely reserved manual phase.
- identity(env);root=Path(out)/'infrastructure-probes'/request_id;rp=root/'report.json'
+ identity(env)
+ if wire_contract!=('regional-quote-catalog-v1' if phase=='regional-catalog-validation' else 'regional-keyed-facts-v1'):raise RecheckBlocked('regional_validation_wire_phase_mismatch')
+ root=Path(out)/'infrastructure-probes'/request_id;rp=root/'report.json'
  if rp.exists():return {'status':'regional_schema_recheck_already_reserved','model_calls':0,'published_posts':0}
  folder,article,brief,docs=validate_fn(load_json(data/request_file),data,out)
  from .post_hold_validation import circuit,ID as health_id
@@ -115,7 +117,7 @@ def execute(env,data,out,client_factory,reserve_fn,request_id,request_file,valid
   for lang in LANGUAGES:
    result={'language':lang,'status':'blocked'};work=root/'languages'/lang
    try:
-    prompt=review_prompt(article,brief,lang,docs[lang],wire='regional-keyed-facts-v1');prompt['fallback_rule']='Review only the retained fetched sources; no new searches or article edits. International fallback requires an explicit local gap and preserved geographic transfer limits. A valid negative is acceptable.'
+    prompt=review_prompt(article,brief,lang,docs[lang],wire=wire_contract);prompt['fallback_rule']='Review only the retained fetched sources; no new searches or article edits. International fallback requires an explicit local gap and preserved geographic transfer limits. A valid negative is acceptable.'
     schema=response_schema('regional-evidence-review-fallback',prompt)
     worker['AFP_PARALLEL_TOPIC']=TOPIC+'-'+lang
     client=(client_factory or CountedClient)(health,dict(worker),root);client.recheck_language=lang
