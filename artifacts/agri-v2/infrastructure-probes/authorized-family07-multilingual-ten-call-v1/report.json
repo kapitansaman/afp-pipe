@@ -1,0 +1,61 @@
+{
+  "request_id": "authorized-family07-multilingual-ten-call-v1",
+  "run_id": "41055074662",
+  "status": "family07_multilingual_blocked",
+  "started_at": "2026-10-30T12:27:48.708740+00:00",
+  "model_calls": 1,
+  "source_fetches": 3,
+  "max_text_calls": 10,
+  "max_source_fetches": 3,
+  "site_calls": 0,
+  "image_calls": 0,
+  "search_requests": 0,
+  "published_posts": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "stage_promotion_authorized": false,
+  "attempts_reset": false,
+  "global_capacity_refresh": false,
+  "conditional_internal_evidence_adoption_authorized": true,
+  "results": [
+    {
+      "language": "ar-IQ",
+      "status": "retained_evidence_adopted",
+      "model_calls": 0
+    },
+    {
+      "language": "en-US",
+      "status": "retained_evidence_adopted",
+      "model_calls": 0
+    }
+  ],
+  "active_language": "ru-RU",
+  "failure": {
+    "kind": "validation",
+    "category": "regional_literal_technical_evidence_required"
+  },
+  "originals_unchanged": true,
+  "queue_counters": {
+    "ru-RU": {
+      "status": "needs_attention",
+      "attempts": 2,
+      "model_calls_spent": 3
+    },
+    "tg-TJ": {
+      "status": "waiting",
+      "attempts": 2,
+      "model_calls_spent": 2
+    },
+    "ar-IQ": {
+      "status": "approved",
+      "attempts": 3,
+      "model_calls_spent": 5
+    },
+    "en-US": {
+      "status": "approved",
+      "attempts": 3,
+      "model_calls_spent": 5
+    }
+  },
+  "completed_at": "2026-10-30T12:28:20.277342+00:00"
+}

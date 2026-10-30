@@ -1,0 +1,112 @@
+{
+  "applicable": {
+    "objection": null,
+    "value": true
+  },
+  "country_limits_retained": {
+    "objection": null,
+    "value": true
+  },
+  "fact_checks": {
+    "f0": {
+      "country": "US",
+      "evidence_quote_id": "d2p2",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "objection": {
+        "article_quote_id": "a0p1",
+        "claim_type": "general_principle",
+        "fact_ids": [
+          "f0"
+        ],
+        "flag": "fact_supported",
+        "reason": "Supported by Utah State University Extension. Alfalfa biology of drought-induced dormancy is a general biological property, not a localized operational recommendation."
+      },
+      "scope": "General alfalfa biology; US source, broadly applicable.",
+      "source_kind": "extension_guidance",
+      "supported": false,
+      "transfer_limits_retained": false
+    },
+    "f1": {
+      "country": "US",
+      "evidence_quote_id": "d0p2",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "objection": {
+        "article_quote_id": "a0p4",
+        "claim_type": "source_observation",
+        "fact_ids": [
+          "f1"
+        ],
+        "flag": "fact_supported",
+        "reason": "Supported by UNL CropWatch (Nebraska, USA). Article explicitly states geographic limits for Western US climates; observation is accurate within scope."
+      },
+      "scope": "Fiscal irrigation through November for deep water storage, reported for Western US climates.",
+      "source_kind": "extension_guidance",
+      "supported": false,
+      "transfer_limits_retained": false
+    },
+    "f2": {
+      "country": "US",
+      "evidence_quote_id": "d0p0",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "objection": {
+        "article_quote_id": "a0p0",
+        "claim_type": "source_observation",
+        "fact_ids": [
+          "f2"
+        ],
+        "flag": "fact_supported",
+        "reason": "Numbers supported by UNL CropWatch for Nebraska, USA. Values are reported source observations, not local Russian recommendations."
+      },
+      "scope": "Nebraska, USA; hot growing season >0.30 inch/day; fall ~0.10 inch/day.",
+      "source_kind": "extension_guidance",
+      "supported": false,
+      "transfer_limits_retained": false
+    },
+    "f3": {
+      "country": "US",
+      "evidence_quote_id": "d1p16",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "objection": {
+        "article_quote_id": "a0p0",
+        "claim_type": "source_observation",
+        "fact_ids": [
+          "f3"
+        ],
+        "flag": "fact_supported",
+        "reason": "2 inch ET requirement documented for southern Idaho silt loam by Wright (2002) per Utah State University proceedings. Localized to specific US soil-climate conditions."
+      },
+      "scope": "Southern Idaho, USA; silt loam soil; alfalfa.",
+      "source_kind": "research_report",
+      "supported": false,
+      "transfer_limits_retained": false
+    },
+    "f4": {
+      "country": "US",
+      "evidence_quote_id": "d0p1",
+      "international_fallback": false,
+      "local_evidence_gap": "",
+      "objection": {
+        "article_quote_id": "a0p1",
+        "claim_type": "general_principle",
+        "fact_ids": [
+          "f4"
+        ],
+        "flag": "fact_supported",
+        "reason": "Supported by UNL CropWatch. Alfalfa lacks specific critical growth stages for water stress is a general biological characteristic of the species."
+      },
+      "scope": "General alfalfa physiology; US source, broadly applicable.",
+      "source_kind": "extension_guidance",
+      "supported": false,
+      "transfer_limits_retained": false
+    }
+  },
+  "no_unsupported_local_prescription": {
+    "objection": null,
+    "value": true
+  },
+  "regional_review_schema_version": 2
+}
