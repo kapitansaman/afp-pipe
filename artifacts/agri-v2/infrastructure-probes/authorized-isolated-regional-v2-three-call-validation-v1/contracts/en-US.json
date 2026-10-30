@@ -1,0 +1,10 @@
+{
+  "wire": "regional-quote-catalog-v2",
+  "prompt_sha256": "afac8a51eff2ddef7cab79635bf0dd4b5e55e9d7e5d2f2d9a2a90608b4055952",
+  "response_schema_sha256": "42ab0b356c5fc6a46ff62f6a5a5905370bc9b933a88bec600c5908d6dc879fd1",
+  "catalog_sha256": "45e3ae736306b40a3e91b7898376ee1d1ccc608fa0fbd57200655cd306bf66f9",
+  "documents_sha256": "497418572634e89a9d35f1ef8a3ad6321e364ab6772cc69ee0544bc6e706c98d",
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+  "outbound_characters": 184997
+}

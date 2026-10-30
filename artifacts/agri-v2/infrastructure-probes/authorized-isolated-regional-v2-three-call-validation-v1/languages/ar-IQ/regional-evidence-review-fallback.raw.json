@@ -1,0 +1,72 @@
+{
+  "applicable": {
+    "objection": null,
+    "value": true
+  },
+  "country_limits_retained": {
+    "objection": null,
+    "value": true
+  },
+  "fact_checks": {
+    "f0": {
+      "country": null,
+      "evidence_quote_id": "d1p2",
+      "international_fallback": false,
+      "local_evidence_gap": "هیچ; یافته در منبع آمریکا است",
+      "objection": null,
+      "scope": "عمومی، بدون ارائه بازه عددی دقیق برای توقف آبیاری پیش از برداشت",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f1": {
+      "country": null,
+      "evidence_quote_id": "d0p2",
+      "international_fallback": false,
+      "local_evidence_gap": "هیچ; نتیجه در منبع نبراسکا است",
+      "objection": null,
+      "scope": "هدف: ذخیره‌سازی عمقی آب به جای حداکثرکردن عملکرد فصل جاری",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f2": {
+      "country": null,
+      "evidence_quote_id": "d0p1",
+      "international_fallback": false,
+      "local_evidence_gap": "هیچ; مقادیر در منبع نبراسکا گزارش شده‌اند",
+      "objection": null,
+      "scope": "مقادیر فصلی گزارش شده، نه آستانه قطع ثابت",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f3": {
+      "country": null,
+      "evidence_quote_id": "d2p16",
+      "international_fallback": false,
+      "local_evidence_gap": "هیچ; اندازه‌گیری در منبع یوتا گزارش شده است",
+      "objection": null,
+      "scope": "منبع دانشگاهی یوتا (personal communication); خاک: silt loam; محصول: یونته",
+      "source_kind": "research_report",
+      "supported": true,
+      "transfer_limits_retained": true
+    },
+    "f4": {
+      "country": null,
+      "evidence_quote_id": "d0p1",
+      "international_fallback": false,
+      "local_evidence_gap": "هیچ; یافته در منبع نبراسکا است",
+      "objection": null,
+      "scope": "منبع دانشگاهی نبراسکا; محصول: یونته; کاربرد: برنامه‌ریزی قطع پاییزی آبیاری",
+      "source_kind": "extension_guidance",
+      "supported": true,
+      "transfer_limits_retained": true
+    }
+  },
+  "no_unsupported_local_prescription": {
+    "objection": null,
+    "value": true
+  },
+  "regional_review_schema_version": 2
+}

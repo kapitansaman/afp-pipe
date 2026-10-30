@@ -1,0 +1,11 @@
+{
+  "prompt_sha256": "e5bbba9635737dd7c05afbd15c577ecad9a31e8547a33c3ce070afb1bcbbfcf9",
+  "max_calls": 1,
+  "response_adapter": "regional-quote-catalog-v2",
+  "quote_catalog_sha256": "45e3ae736306b40a3e91b7898376ee1d1ccc608fa0fbd57200655cd306bf66f9",
+  "response_schema_sha256": "42ab0b356c5fc6a46ff62f6a5a5905370bc9b933a88bec600c5908d6dc879fd1",
+  "status": "received",
+  "raw_sha256": "34a15e9b4a8e303c9653a10a3047ec2e6bbe45c2e56ba7cdc16a3af052d1b017",
+  "at": "2026-10-30T02:45:36.553245+00:00",
+  "canonical_sha256": "045cc65209b7f95bc44448b01586ce334e0c56d7d2f646c7ce8c17f97584668b"
+}

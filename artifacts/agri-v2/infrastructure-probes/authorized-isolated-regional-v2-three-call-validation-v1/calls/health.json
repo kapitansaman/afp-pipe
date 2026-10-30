@@ -1,0 +1,19 @@
+{
+  "phase": "health",
+  "status": "response_received",
+  "request_sha256": "a6f3bc2d8563277ab5a67d4207c70fecedf5b5762953c498e0a9c9b5c87e87b8",
+  "connection": {
+    "slot": "AGNES_API_KEY81",
+    "allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+    "credential_binding": {
+      "repository": "kapitansaman/afp-pipe",
+      "credential_set_id": "afp-pipe-30-keys-v1"
+    },
+    "text_model": "agnes-2.5-flash",
+    "api_base": "https://apihub.agnes-ai.com/v1",
+    "scope": "isolated_diagnostic_only_not_capacity_evidence"
+  },
+  "max_attempts": 1,
+  "at": "2026-10-30T02:44:54.697089+00:00",
+  "response_sha256": "9127ed8c2d886594b9a71d3e4dc5b2d740960fb8e04977bca241a9f90a1acd07"
+}
