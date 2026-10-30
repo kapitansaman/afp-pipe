@@ -39,7 +39,7 @@ def prepare(data=DATA,out=OUT):
  stages={}
  for p in sorted((folder/'lifecycle').glob('*/state.json')):
   v=load_json(p);stages[p.parent.name]={'status':v.get('status'),'attempts':v.get('attempts'),'sha256':file_hash(p)}
- blockers=['separate_paid_capability_authorization_required','single_family_executor_not_implemented',
+ blockers=['separate_paid_capability_authorization_required','dedicated_single_family_executor_and_admission_required',
            'global_readiness_gates_remain_enforced','production_language_acceptance_not_proven_by_isolated_diagnostics']
  if row['retry_exhausted']:blockers.append('existing_stage_budget_exhausted_no_automatic_continuation')
  return {'version':1,'status':'offline_proposal_not_authorized','family_id':family,'topic_id':ident,
