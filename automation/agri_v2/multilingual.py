@@ -49,7 +49,8 @@ def validate_rows(result,values,lang):
   if not isinstance(target,str) or not target.strip() or has_unsafe_angles(target) or re.search(r'[\u3400-\u9fff]',target):raise ValueError('Unsafe translated text')
   from .text_fields import plain_citations
   source_plain,_=plain_citations(source)
-  if numbers(source_plain)!=numbers(target):raise ValueError('Translation changed numbers')
+  from .translation_numeric_locale import same as same_numbers
+  if not same_numbers(source_plain,target,lang):raise ValueError('Translation changed numbers')
   if comparison_operators(source_plain)!=comparison_operators(target):raise ValueError('Translation changed comparison operators')
  text=' '.join(translated)
  script=r'[А-Яа-яЁёҚқҒғҲҳҶҷӢӣӮӯ]' if lang in ('ru-RU','tg-TJ') else (r'[ء-ي]' if lang=='ar-IQ' else r'[A-Za-z]')

@@ -104,7 +104,15 @@ class ExplicitDecisionTests(unittest.TestCase):
   from automation.agri_v2.parallel_pool import lease
   from automation.agri_v2.queue import utcnow
   with tempfile.TemporaryDirectory() as td:
-   root=Path(td);d=root/'data';o=root/'out';shutil.copytree(DATA,d);folder=o/'new'/r.TOPIC;shutil.copytree(OUT/'new'/r.TOPIC,folder);rows={l:load_json(r.q.path(folder,l)) for l in r.LANGS+r.RETAINED};atomic_json(d/r.REQUEST,{'fixture':True});env={s:'fake-'+s for s in r.capability.TEXT};env['GITHUB_RUN_ID']='123'
+   root=Path(td);d=root/'data';o=root/'out';shutil.copytree(DATA,d);folder=o/'new'/r.TOPIC;shutil.copytree(OUT/'new'/r.TOPIC,folder)
+   # Restore the fixture copy to the pre-v4 state, never production history.
+   baseline=load_json(Path(__file__).parent/'fixtures/family07-continuation/queues.json')
+   for lang in r.LANGS:
+    row=copy.deepcopy(baseline[lang])
+    if lang=='ru-RU':row.update(status='needs_attention',model_calls_spent=3)
+    atomic_json(r.q.path(folder,lang),row);(folder/'regional-research'/lang/'approved.json').unlink(missing_ok=True);(folder/'review-queue'/('candidate-'+lang+'.json')).unlink(missing_ok=True);shutil.rmtree(folder/'review-queue/attempts'/lang/'3',ignore_errors=True)
+    for suffix in ('.json','.raw.json','.fidelity.json'):(folder/'translations'/(lang+suffix)).unlink(missing_ok=True)
+   rows={l:load_json(r.q.path(folder,l)) for l in r.LANGS+r.RETAINED};atomic_json(d/r.REQUEST,{'fixture':True});env={s:'fake-'+s for s in r.capability.TEXT};env['GITHUB_RUN_ID']='123'
    class FakeClient:
     def __init__(self,worker,path,*args):self.worker=worker;self.root=path
    def review(client,*args):

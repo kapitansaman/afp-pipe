@@ -215,7 +215,7 @@ def run_item(p,client,data=DATA):
    else:
     issues=[];normal={'translations':[]}
     for r in raw['translations']:
-     try:normal['translations']+=normalize_batch({'translations':[r]},[{'id':r['id'],'text':source[r['id']]}])
+     try:normal['translations']+=normalize_batch({'translations':[r]},[{'id':r['id'],'text':source[r['id']]}],target_language=lang)
      except ValueError as e:normal['translations'].append(r);issues.append({'id':r['id'],'detail':str(e)})
     for r in normal['translations']:
      text=r['text']
