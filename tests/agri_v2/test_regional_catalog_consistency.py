@@ -14,7 +14,7 @@ class CatalogConsistencyTests(unittest.TestCase):
   texts=['Qualitative crop and soil observations do not establish a fixed measurement or universal irrigation rule. '*15,'The trial reported 25 mm under measured field conditions, limited to that crop and region. '+'Retain all surrounding experimental and measurement context. '*15,'The separate experiment reported 40 mm, not a substitute for a different threshold. '+'Retain the actual cultivar, water and soil conditions. '*15]
   return [{'url':'https://extension.example.edu/'+str(i),'text':t,'sha256':hashlib.sha256(t.encode()).hexdigest()} for i,t in enumerate(texts)]
  def facts(self):return [{'fact_id':'f0','kind':'source_observation','claim':'Observed threshold 25 mm.'}]
- def prompt(self,facts=None,article=None,docs=None):return review_prompt(self.article() if article is None else article,{'approved_facts':self.facts() if facts is None else facts},'en-US',self.docs() if docs is None else docs)
+ def prompt(self,facts=None,article=None,docs=None):return review_prompt(self.article() if article is None else article,{'approved_facts':self.facts() if facts is None else facts},'en-US',self.docs() if docs is None else docs,wire=c.VERSION)
  def schema(self,p):return response_schema('regional-evidence-review',p)
  def objection(self,p,flag='applicable',ident='f0'):
   return {'flag':flag,'fact_ids':[ident],'claim_type':'source_observation','article_quote_id':p['quote_catalog']['article_passages'][0]['id'],'reason':'This bounded observation lacks sufficient applicability evidence for the actual claim.'}
@@ -25,7 +25,7 @@ class CatalogConsistencyTests(unittest.TestCase):
    rows[ident]={'supported':supported,'evidence_quote_id':ids[0] if ids else None,'source_kind':'extension_guidance','country':'US','scope':'Only measured source-region experimental conditions are retained.','international_fallback':True,'local_evidence_gap':'Local evidence does not cover this specific bounded observation.','transfer_limits_retained':True,'objection':None if supported else self.objection(p,'fact_supported',ident)}
   return {'regional_review_schema_version':2,**{flag:{'value':True,'objection':None} for flag in c.FLAGS},'fact_checks':rows}
  def project(self,p,raw=None):return c.canonical(self.raw(p) if raw is None else raw,self.schema(p),c.bound(p))
- def test_default_v2_and_explicit_historical_v1_remain_distinct(self):
+ def test_explicit_historical_v2_and_v1_remain_distinct(self):
   p=self.prompt();self.assertEqual(p['_regional_wire_contract'],c.VERSION)
   q=review_prompt(self.article(),{'approved_facts':self.facts()},'en-US',self.docs(),wire=old.VERSION);self.assertEqual(q['_regional_wire_contract'],old.VERSION);self.assertNotIn('evidence_selection',q);self.assertIn('rejection_reasons',self.schema(q)['properties']);self.assertNotIn('rejection_reasons',self.schema(p)['properties'])
  def test_candidates_are_exact_same_numeric_predicate_as_server(self):

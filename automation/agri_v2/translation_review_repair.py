@@ -50,6 +50,10 @@ def request(client,root,name,prompt,limit):
    if adapter==CONSISTENT:
     catalog=consistent_bound(prompt)
     from .regional_catalog_consistency import canonical as catalog_decode
+   from .regional_catalog_context import VERSION as CONTEXT,bound as context_bound
+   if adapter==CONTEXT:
+    catalog=context_bound(prompt)
+    from .regional_catalog_context import canonical as catalog_decode
  if isinstance(prompt,dict) and '_role_skill' in prompt:
   from .role_skills import enrich
   row=dict(prompt);role=row.pop('_role_skill');language=row.pop('_role_language',None)
