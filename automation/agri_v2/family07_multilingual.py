@@ -95,17 +95,17 @@ def prompt(article,brief,docs,lang):
  return p
 
 class CountedClient:
- def __new__(cls,worker,root,data,out,base_class=None):
+ def __new__(cls,worker,root,data,out,base_class=None,request_id=ID,max_calls=10,manifest_fn=manifest):
   from .client import ModelClient,TextProviderError
   from .parallel_pool import lease
   from .healthcheck import TEXT_MODEL
   class Bounded(ModelClient if base_class is None else base_class):
-   def __init__(self):self.env=worker;self.used={'text':0,'image':0};self.keys={'text':[],'image':[]};self.image_rotation_enabled=False;self.phase='regional';self.language=None;self.sequence=[];self.protected=manifest(data,out)
+   def __init__(self):self.env=worker;self.used={'text':0,'image':0};self.keys={'text':[],'image':[]};self.image_rotation_enabled=False;self.phase='regional';self.language=None;self.sequence=[];self.protected=manifest_fn(data,out)
    def record_success(self,*a,**kw):pass # No global/runtime health promotion.
    def text(self,*a,**kw):kw['reject_duplicate_keys']=True;return super().text(*a,**kw)
    def request(self,kind,path,payload,timeout,attempts=None):
     capability.guards(out);capability_proof(data,out)
-    if manifest(data,out)!=self.protected:raise Blocked('protected_inputs_changed_before_transport')
+    if manifest_fn(data,out)!=self.protected:raise Blocked('protected_inputs_changed_before_transport')
     if self.language not in LANGS or kind!='text' or path!='/chat/completions' or payload.get('model')!=TEXT_MODEL or attempts!=1:raise Blocked('exact_owned_text_transport_required')
     if type(timeout)is not int or not 30<=timeout<=180 or type(payload.get('max_tokens'))is not int or not 256<=payload['max_tokens']<=14000 or len(json.dumps(payload,ensure_ascii=False))>200000:raise Blocked('transport_size_or_timeout_budget')
     try:p=json.loads(payload['messages'][-1]['content'])
@@ -121,10 +121,11 @@ class CountedClient:
      if stage=='draft' and payload.get('response_format',{}).get('type')!='json_schema':raise Blocked('strict_indexed_draft_schema_required')
     else:raise Blocked('unknown_transport_phase')
     receipts=list((root/'calls').glob('*/*.json'));owned=[p for p in receipts if p.parent.name==self.language]
-    if len(receipts)>=10 or len(owned)>=5 or any(load_json(p).get('request_sha256')==digest(payload) for p in owned) or (stage=='regional' and any(load_json(p).get('stage')=='regional' for p in owned)):raise Blocked('consumed_transport_no_replay')
+    if len(receipts)>=max_calls or len(owned)>=5 or any(load_json(p).get('request_sha256')==digest(payload) for p in owned) or (stage=='regional' and any(load_json(p).get('stage')=='regional' for p in owned)):raise Blocked('consumed_transport_no_replay')
     if self.phase=='semantic' and sum(load_json(p).get('stage')!='regional' for p in owned)>=4:raise Blocked('semantic_budget_consumed')
+    if stage=='edit' and max_calls-len(receipts)<2:raise Blocked('repair_and_recheck_must_both_fit_remaining_budget')
     receipt=root/'calls'/self.language/(str(len(owned))+'.json');row={'language':self.language,'stage':stage,'slot':slot,'status':'reserved','request_sha256':digest(payload),'at':utcnow(),'max_attempts':1}
-    with lease(worker['AFP_PARALLEL_POOL_DB'],'text',[slot],ID,wait=0):
+    with lease(worker['AFP_PARALLEL_POOL_DB'],'text',[slot],request_id,wait=0):
      atomic_json(receipt,row);self.keys['text']=[(slot,worker[slot])]
      try:value=super().request(kind,path,payload,timeout,attempts=1)
      except Exception as exc:

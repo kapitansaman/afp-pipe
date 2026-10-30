@@ -54,6 +54,10 @@ def request(client,root,name,prompt,limit):
    if adapter==CONTEXT:
     catalog=context_bound(prompt)
     from .regional_catalog_context import canonical as catalog_decode
+   from .regional_explicit_decision import VERSION as DECISION,bound as decision_bound
+   if adapter==DECISION:
+    catalog=decision_bound(prompt)
+    from .regional_explicit_decision import canonical as catalog_decode
  if isinstance(prompt,dict) and '_role_skill' in prompt:
   from .role_skills import enrich
   row=dict(prompt);role=row.pop('_role_skill');language=row.pop('_role_language',None)
