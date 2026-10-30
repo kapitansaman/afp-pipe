@@ -1,8 +1,11 @@
 {
   "status": "readiness_blocked",
-  "checked_at": "2026-10-29T07:35:29.823155+00:00",
+  "checked_at": "2026-10-30T08:16:44.151466+00:00",
   "technical_ready": false,
   "blockers": [
+    "fresh_text_capacity",
+    "fresh_image_capacity",
+    "family_owned_text_capacity",
     "family_owned_image_capacity"
   ],
   "gates": {
@@ -11,11 +14,11 @@
       "detail": "97 credential slots and 20 isolated families; configuration only"
     },
     "fresh_text_capacity": {
-      "passed": true,
+      "passed": false,
       "detail": "Actual fresh proof bound to the 97-key cohort, with at least 20 eligible text credentials"
     },
     "fresh_image_capacity": {
-      "passed": true,
+      "passed": false,
       "detail": "Separate actual successful fresh bound image proof; text success is not image approval"
     },
     "provider_circuits_clear": {
@@ -31,7 +34,7 @@
       "detail": "Exact disjoint 20 x 4 family ownership plus 17 central slots"
     },
     "family_owned_text_capacity": {
-      "passed": true,
+      "passed": false,
       "detail": "Each family needs its own fresh text-capable credential; global healthy count is insufficient"
     },
     "family_owned_image_capacity": {
@@ -1328,11 +1331,7 @@
           "AGNES_API_KEY3",
           "AGNES_API_KEY4"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY",
-          "AGNES_API_KEY2",
-          "AGNES_API_KEY3"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1343,11 +1342,7 @@
           "AGNES_API_KEY7",
           "AGNES_API_KEY8"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY5",
-          "AGNES_API_KEY6",
-          "AGNES_API_KEY7"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1358,11 +1353,7 @@
           "AGNES_API_KEY11",
           "AGNES_API_KEY12"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY9",
-          "AGNES_API_KEY10",
-          "AGNES_API_KEY11"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1373,11 +1364,7 @@
           "AGNES_API_KEY15",
           "AGNES_API_KEY16"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY13",
-          "AGNES_API_KEY14",
-          "AGNES_API_KEY15"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1388,11 +1375,7 @@
           "AGNES_API_KEY19",
           "AGNES_API_KEY20"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY17",
-          "AGNES_API_KEY18",
-          "AGNES_API_KEY19"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1403,11 +1386,7 @@
           "AGNES_API_KEY23",
           "AGNES_API_KEY24"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY21",
-          "AGNES_API_KEY22",
-          "AGNES_API_KEY23"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1418,14 +1397,8 @@
           "AGNES_API_KEY27",
           "AGNES_API_KEY28"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY25",
-          "AGNES_API_KEY26",
-          "AGNES_API_KEY27"
-        ],
-        "proven_image_slots": [
-          "AGNES_API_KEY28"
-        ]
+        "eligible_text_slots": [],
+        "proven_image_slots": []
       },
       {
         "family_id": "family-08",
@@ -1435,11 +1408,7 @@
           "AGNES_API_KEY31",
           "AGNES_API_KEY32"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY29",
-          "AGNES_API_KEY30",
-          "AGNES_API_KEY31"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1450,11 +1419,7 @@
           "AGNES_API_KEY35",
           "AGNES_API_KEY36"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY33",
-          "AGNES_API_KEY34",
-          "AGNES_API_KEY35"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1465,11 +1430,7 @@
           "AGNES_API_KEY39",
           "AGNES_API_KEY40"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY37",
-          "AGNES_API_KEY38",
-          "AGNES_API_KEY39"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1480,11 +1441,7 @@
           "AGNES_API_KEY43",
           "AGNES_API_KEY44"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY41",
-          "AGNES_API_KEY42",
-          "AGNES_API_KEY43"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1495,11 +1452,7 @@
           "AGNES_API_KEY47",
           "AGNES_API_KEY48"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY45",
-          "AGNES_API_KEY46",
-          "AGNES_API_KEY47"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1510,11 +1463,7 @@
           "AGNES_API_KEY51",
           "AGNES_API_KEY52"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY49",
-          "AGNES_API_KEY50",
-          "AGNES_API_KEY51"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1525,11 +1474,7 @@
           "AGNES_API_KEY55",
           "AGNES_API_KEY56"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY53",
-          "AGNES_API_KEY54",
-          "AGNES_API_KEY55"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1540,11 +1485,7 @@
           "AGNES_API_KEY59",
           "AGNES_API_KEY60"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY57",
-          "AGNES_API_KEY58",
-          "AGNES_API_KEY59"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1555,11 +1496,7 @@
           "AGNES_API_KEY63",
           "AGNES_API_KEY64"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY61",
-          "AGNES_API_KEY62",
-          "AGNES_API_KEY63"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1570,14 +1507,8 @@
           "AGNES_API_KEY67",
           "AGNES_API_KEY68"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY65",
-          "AGNES_API_KEY66",
-          "AGNES_API_KEY67"
-        ],
-        "proven_image_slots": [
-          "AGNES_API_KEY68"
-        ]
+        "eligible_text_slots": [],
+        "proven_image_slots": []
       },
       {
         "family_id": "family-18",
@@ -1587,11 +1518,7 @@
           "AGNES_API_KEY71",
           "AGNES_API_KEY72"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY69",
-          "AGNES_API_KEY70",
-          "AGNES_API_KEY71"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1602,11 +1529,7 @@
           "AGNES_API_KEY75",
           "AGNES_API_KEY76"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY73",
-          "AGNES_API_KEY74",
-          "AGNES_API_KEY75"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       },
       {
@@ -1617,11 +1540,7 @@
           "AGNES_API_KEY79",
           "AGNES_API_KEY80"
         ],
-        "eligible_text_slots": [
-          "AGNES_API_KEY77",
-          "AGNES_API_KEY78",
-          "AGNES_API_KEY79"
-        ],
+        "eligible_text_slots": [],
         "proven_image_slots": []
       }
     ],
