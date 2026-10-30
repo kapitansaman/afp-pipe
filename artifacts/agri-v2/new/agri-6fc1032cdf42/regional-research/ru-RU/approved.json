@@ -1,0 +1,752 @@
+{
+  "version": "regional-official-research-v1",
+  "profile": {
+    "version": "regional-official-research-v1",
+    "language": "ru-RU",
+    "countries": [
+      "RU"
+    ],
+    "query_language": "Russian",
+    "audience": "Russia; distinguish regions and climate zones",
+    "regional_sources_first": true,
+    "news_for_dated_context_only": true,
+    "foreign_fallback": "credible_international_when_local_evidence_weak",
+    "applicability_rule": "Institution country is NOT trial location or applicability proof. Verify actual crop/product, study geography, climate, soil, water salinity, cultivar and growing system. Never relabel foreign observations as local recommendations. Preserve all country/region limits; reject missing local evidence rather than invent rates, dates or prices."
+  },
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+  "documents": [
+    {
+      "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+      "requested_url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+      "redirect_chain": [
+        "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/"
+      ],
+      "text": "Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management | CropWatch | Nebraska Skip to main content September 12, 2024 Pasture and Forage Minute: Alfalfa Irrigation and Last Cutting, Grasshopper Management By Todd Whitney - Extension Educator , Ben Beckman - Extension Educator , Samantha Daniel - Extension Educator Monitoring grasshopper populations using the square-foot method can help prevent damage to late summer alfalfa and forage crops, with insecticide treatments considered if thresholds are exceeded. Fall Alfalfa Irrigation By Todd Whitney Irrigating alfalfa now through November until the soil freezes can protect plants and improve fall yields. However, adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, and then resume growth once conditions become favorable again. The main advantage of fall irrigation is lower evaporation compared to summer; thus, improving irrigation efficiency. Further, most irrigated alfalfa fields never get much water stored below four feet depth, although alfalfa plants can grow roots down eight feet or more. Since roots will not grow through dry soil to reach wet soil, deep soil water storage reserves may be lacking if field soil wetting does not leach below four feet. To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. Review your local NRD irrigation district water usage restrictions; since potential total alfalfa water usage can be over 36 inches per year and may exceed irrigation usage allocations. Conversely, building deep-stored water reserves in the fall can help your alfalfa next summer during rapid growth when it may be difficult to keep up with peak plant water usage demands. Further, some fields have low water infiltration rates, so irrigating now through November may be the right time for building water reserves. Our UNL NebGuide, “ Irrigation Management and Crop Characteristics of Alfalfa ” (G1778) provides more details. Last Alfalfa Cutting By Ben Beckman Timing the last fall alfalfa cutting can be a difficult thing to plan for and varies among growers. A balance between stand health, yield and quality must be maintained. For much of the state, first week of October is the average first killing frost (28°F) for alfalfa, so targeting Sept. 1 as the last alfalfa cutting would allow plants six weeks to store root carbohydrates prior to the killing frost. This is important as last cutting timing decisions will potentially impact your crop’s winter survival and vigor next spring. For example, in five-cutting irrigated system, research has shown that the next spring first cutting yield will be lowered by approximately the same amount as the yield from a late-fall last cutting. During dry weather, cutting schedules can be pushed back or more forage may be needed. In these cases, what may be the risk if these producers seek yet another cutting during this growing season? If the first fall frost occurs earlier than normal, then winter injury is a risk. However, conditions vary from year to year, and plant winterizing generally begins about three weeks before the first frost date with the “ideal” being six weeks of uninterrupted growth in the fall to become well winterized. Winter survival of later cuttings will improve with younger stands (except new stands), winterhardy varieties and disease-resistant varieties. For those needing extra cash or forage this fall, the higher dairy quality forage values may off-set the financial risk of needing to re-establish alfalfa stands next year which winterkill. For most producers, the best strategy is to avoid harvesting alfalfa (Sept. 1 to Oct. 15) during the critical fall period six weeks before the first killing frost. This allows plants to enter winter with higher root carbohydrates. Late Summer Grasshopper Management By Samantha Daniel As areas of the state begin to dry or continue to suffer from drought conditions, grasshoppers will move into crops from field edges. Alfalfa and grasses seeded late this summer can be especially susceptible to grasshopper feeding damage. One of the best ways to scout for grasshoppers is to use the square foot method. Randomly select an area several feet away and visualize a one square-foot area around that spot. Walk toward this spot and count the number of grasshoppers you see in or jumping out of this area. Repeat this procedure 18 times and divide the total number of grasshoppers by two. This will give you the number of grasshoppers per square yard. Economic thresholds for grasshoppers range from 8 to 40 grasshoppers per square yard, depending on a variety of factors. If grasshopper levels have reached threshold, treatment with an insecticide may be feasible as long as pre-harvest intervals are considered. Many insecticides used for other insects in alfalfa and other forages are also labeled for grasshoppers. For current insecticide recommendations for controlling grasshoppers in rangeland, forages, alfalfa, and other crops, please contact your county extension office . It's also important to remember that our goal isn’t to completely eradicate grasshoppers from our fields, but to reduce their numbers to below threshold levels and give our crops a chance to “win the race” against pests until the first hard freeze of the season. Subscribe to Pasture and Forage Minute Share This Article Subscribe to CropWatch Online Master of Science in Agronomy With a focus on industry applications and research, the online program is designed with maximum flexibility for today's working professionals. Learn More Explore our full collection of CropWatch articles. Explore Articles",
+      "links": [
+        {
+          "url": "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+          "label": "Skip to main content"
+        },
+        {
+          "url": "https://www.unl.edu/",
+          "label": "University of Nebraska–Lincoln"
+        },
+        {
+          "url": "https://www.unl.edu/visit/",
+          "label": "Visit"
+        },
+        {
+          "url": "https://www.unl.edu/apply/",
+          "label": "Apply"
+        },
+        {
+          "url": "https://www.unl.edu/give/",
+          "label": "Give"
+        },
+        {
+          "url": "https://shib.unl.edu/idp/profile/cas/login?service=https%3A%2F%2Fwww.unl.edu%2F",
+          "label": "My UNL"
+        },
+        {
+          "url": "https://mymail.unl.edu/",
+          "label": "Outlook"
+        },
+        {
+          "url": "https://canvas.unl.edu/",
+          "label": "Canvas (UNL)"
+        },
+        {
+          "url": "https://canvas.unl.edu/login/saml/47",
+          "label": "Canvas (TrueYou)"
+        },
+        {
+          "url": "https://trueyou.nebraska.edu/",
+          "label": "TrueYou"
+        },
+        {
+          "url": "https://myred.nebraska.edu/",
+          "label": "MyRed"
+        },
+        {
+          "url": "https://dlc-reserve.unl.edu/",
+          "label": "Exam Commons Reservations"
+        },
+        {
+          "url": "https://firefly.nebraska.edu/",
+          "label": "Firefly"
+        },
+        {
+          "url": "https://its.unl.edu/service-portal/",
+          "label": "Service Catalog"
+        },
+        {
+          "url": "https://search.unl.edu/",
+          "label": "Search"
+        },
+        {
+          "url": "https://ianr.unl.edu/",
+          "label": "Institute of Agriculture and Natural Resources"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/",
+          "label": "CropWatch"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/about/",
+          "label": "About Us"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/contacts/",
+          "label": "Author Contacts"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/about-us/apps-tools/",
+          "label": "Apps & Tools"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/ag-links/",
+          "label": "Ag Links"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/subscribe/",
+          "label": "Subscribe"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/cropwatch-podcast/",
+          "label": "CropWatch Podcast"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/weather-information-resources/",
+          "label": "Weather (GDD & ET) Info & Resources"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/gdd-et-data/",
+          "label": "GDD & ET Data"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/precipitation/",
+          "label": "Precipitation Maps & Data"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/soil-temperature/",
+          "label": "Soil Temperature Maps & Data"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/articles/",
+          "label": "Articles"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/nebraska-crop-production-and-pest-management-information/",
+          "label": "Crops"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/corn/",
+          "label": "Corn"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/cover-crops/",
+          "label": "Cover Crops"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/dry-beans/",
+          "label": "Dry Beans"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/forages/",
+          "label": "Forages"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/organic/",
+          "label": "Organic"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/potatoes/",
+          "label": "Potatoes"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/sorghum/",
+          "label": "Sorghum"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/soybean/",
+          "label": "Soybean"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/sugarbeets/",
+          "label": "Sugarbeets"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/wheat/",
+          "label": "Wheat"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/bioenergy/",
+          "label": "Bioenergy Crops"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/variety-testing/",
+          "label": "Variety Testing"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/management/",
+          "label": "Management"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/economics/",
+          "label": "Economics, Marketing & Real Estate"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/grain-storage-management/",
+          "label": "Grain Storage"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/hail-know/",
+          "label": "Hail Know"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/insect/",
+          "label": "Insect Management"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/plant-disease/",
+          "label": "Plant Disease"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/precision-agriculture/",
+          "label": "Precision Agriculture"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/resistance-management/",
+          "label": "Resistance Management"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/soil-health-program/",
+          "label": "Soil Health Program"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/soil-fertility/",
+          "label": "Soil Fertility"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/tillage/",
+          "label": "Tillage and No-Till Systems"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/water-management/",
+          "label": "Water Management"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/weed/",
+          "label": "Weed Management"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/related-topics/",
+          "label": "Related Topics"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/biotechnology/",
+          "label": "Genetic Improvement"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/on-farm-research/",
+          "label": "On-Farm Research"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/strengthening-nebraskas-agricultural-economy/",
+          "label": "Strengthening Nebraska's Agricultural Economy"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/youth/",
+          "label": "Youth and Youth Activities"
+        },
+        {
+          "url": "https://www.unl.edu",
+          "label": "Nebraska"
+        },
+        {
+          "url": "https://extension.unl.edu/",
+          "label": "Extension"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/taxonomy/term/13074/",
+          "label": "Todd Whitney - Extension Educator"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/author/ben-beckman/",
+          "label": "Ben Beckman - Extension Educator"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/author/samantha-daniel/",
+          "label": "Samantha Daniel - Extension Educator"
+        },
+        {
+          "url": "https://epd.unl.edu/profile/twhitney3",
+          "label": "By Todd Whitney"
+        },
+        {
+          "url": "https://extensionpubs.unl.edu/publication/g1778/irrigation-management-and-crop-characteristics-of-alfalfa",
+          "label": "Irrigation Management and Crop Characteristics of Alfalfa"
+        },
+        {
+          "url": "https://epd.unl.edu/profile/bbeckman3",
+          "label": "By Ben Beckman"
+        },
+        {
+          "url": "https://epd.unl.edu/profile/sdaniel3",
+          "label": "By Samantha Daniel"
+        },
+        {
+          "url": "https://epd.unl.edu/",
+          "label": "county extension office"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/cwsubscribe",
+          "label": "Subscribe to CropWatch"
+        },
+        {
+          "url": "https://casnr.unl.edu/master-science-agronomy?utm_source=cropwatch&utm_medium=article-banner&utm_campaign=online-mas-applied-science",
+          "label": "Learn More"
+        },
+        {
+          "url": "https://cropwatch.unl.edu/articles",
+          "label": "Explore Articles"
+        },
+        {
+          "url": "https://maps.unl.edu/ACB",
+          "label": "105 Ag. Communications Bldg. Lincoln , NE 68583-0918 US"
+        },
+        {
+          "url": "https://ianrmedia.unl.edu/",
+          "label": "CropWatch is published by IANR Media"
+        },
+        {
+          "url": "https://directory.unl.edu/",
+          "label": "Directory"
+        },
+        {
+          "url": "https://employment.unl.edu/",
+          "label": "Employment"
+        },
+        {
+          "url": "https://events.unl.edu/",
+          "label": "Events"
+        },
+        {
+          "url": "https://libraries.unl.edu/",
+          "label": "Libraries"
+        },
+        {
+          "url": "https://maps.unl.edu/",
+          "label": "Maps"
+        },
+        {
+          "url": "https://news.unl.edu/",
+          "label": "News"
+        },
+        {
+          "url": "https://chancellor.unl.edu/",
+          "label": "Office of the Chancellor"
+        },
+        {
+          "url": "https://unlreport.unl.edu/",
+          "label": "Report an Incident"
+        },
+        {
+          "url": "https://www.unl.edu/about/academic-partnerships/",
+          "label": ""
+        },
+        {
+          "url": "https://universityofnebraska.nebraska.edu/",
+          "label": ""
+        },
+        {
+          "url": "https://wdn.unl.edu/",
+          "label": "Web Developer Network"
+        },
+        {
+          "url": "https://webaudit.unl.edu/qa-test/",
+          "label": "QA Test"
+        },
+        {
+          "url": "https://www.unl.edu/accessibility-statement/",
+          "label": "Accessibility Statement"
+        },
+        {
+          "url": "https://equity.unl.edu/",
+          "label": "Institutional Equity and Compliance"
+        },
+        {
+          "url": "https://equity.unl.edu/notice-nondiscrimination/",
+          "label": "Notice of Nondiscrimination"
+        },
+        {
+          "url": "https://nebraska.edu/privacy-statement",
+          "label": "Privacy Statement"
+        },
+        {
+          "url": "https://safety.unl.edu/",
+          "label": "Safety at Nebraska"
+        },
+        {
+          "url": "https://heoa.unl.edu/",
+          "label": "Student Information Disclosures"
+        }
+      ],
+      "fetched_at": "2026-10-30T12:27:49.001391+00:00",
+      "sha256": "3f857dc92b4ee8aad4bfaae35b2072067552884fee2be0012dadd4716ef68abe",
+      "source_format": "institutional_html",
+      "source_text_excerpted": false,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    },
+    {
+      "url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+      "requested_url": "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+      "redirect_chain": [
+        "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf"
+      ],
+      "text": "[page 1] USING EVAPOTRANSPIRATION DATA TO SCHEDULE IRRIGATION OF FORAGES Robert W. Hill1 ABSTRACT Forage irrigation scheduling is affected by soil-water-plant relationships and harvest operations. Irrigation timing and amount depends on soil water holding capacity, weather, and crop growth processes. Evapotranspiration is affected by weather conditions and crop growth stage. However, an irrigation scheduling thus determined should be modified to accommodate harvest schedules to enhance curing of hay and to reduce soil compaction. This paper includes a discussion of crop coefficients and a list of available web based irrigation scheduling resources. Key Words: Alfalfa, Irrigation, Crop Coefficients, Et data INTRODUCTION Irrigation scheduling is the process of determining when to irrigate and how much water to apply. It depends upon design, maintenance, and operation of the irrigation system and the availability of water. The objective of irrigation scheduling is to apply only the water that the crop needs, taking into account seepage, runoff losses, and leaching requirements. Scheduling is especially important to pump irrigators if power costs are high. Common irrigation scheduling approaches include the following: 1. Irrigation on fixed intervals or following a simple calendar, i.e., when a water turn occurs or according to a predetermined schedule. 2. Irrigating when the neighbor irrigates. 3. Observation of visual plant stress indicators. 4. Measuring (or estimating) soil water by use of instruments or sampling techniques such as probes. 5. By following a soil-water budget based on weather data and/or pan evaporation. 6. Some combination of the above. As a general rule, field crops should be irrigated whenever the soil water depletion approaches 50 percent of the available water in the root zone. In the peak crop water use period in an arid area, the occurrence of rain is often neglected in determining an irrigation schedule. 1 R.W. Hill, Professor and Extension Specialist, Biological and Irrigation Engineering, Utah State University, Logan, Utah 84322-4105; Email: bobh@ext.usu.edu. In: Proceedings, Western Alfalfa and Forage Conference, 11 - 13 December, 2002, Sparks, NV, UC Cooperative Extension, University of California, Davis 95616. (See http://alfalfa.ucdavis.edu). [page 2] ESTIMATION OF CROP ET AND USE IN IRRIGATION SCHEDULING Calculation of consumptive use is made by using climate and/or real-time weather data in a two-step process in which a modified Penman combination equation (or other similar equation) is used to compute the evapotranspiration of a reference crop and then a crop coefficient is applied to determine crop water use at specific stages of growth. Specific reference crops that have been used are alfalfa and clipped grass (Wright, 1982; Doorenbos and Pruitt, 1977; Allen et. al, 1998). Alfalfa reference crop evapotranspiration (Etr) is defined as the Et from a crop of alfalfa with extensive, uniform fetch, which is actively growing, is completely shading the ground, has at least 30 cm (12 inches) of top growth, is standing erect, and is not short of water (Jensen et al, 1990). Grass reference crop evapotranspiration (Eto) is defined as the Et from a crop of evenly clipped grass with extensive, uniform fetch, which is actively growing, is completely shading the ground, has 8 to 15 cm of top growth, and is not short of water (Doorenbus and Pruitt, 1977). Fetch refers to the extent of similar vegetation surrounding the site, particularly in the upwind direction. The general form of the reference Et crop coefficient (two-step) approach to consumptive use equations is: Et = Kc Etref + Ews (1) where Et is the estimated crop evapotranspiration; Kc is an empirically determined crop coefficient relating crop Et to reference crop Etr; Etref is calculated Et for the reference crop (alfalfa or grass as described above); and Ews is an estimated wet soil surface evaporation adjustment to account for conditions occurring following an irrigation or significant rain. This adjustment is made in the early growth stages of a row crop or following a cutting of alfalfa. Ews should be ignored in situations where the Kc factor includes the effect of a wet soil surface on Et. However, the irrigation schedule should approximate that of the site where the Kc values were determined. An alternate form of Eq. 1 is: Et = Kcm x Etref (2) where Kcm is a \"mean\" crop coefficient (Wright, 1981 and Jensen et al., 1990) that includes the effect of evaporation from a wet soil surfaces from a typical irrigation schedule for the given crop. Crop coefficients are dependent upon the planting and harvest dates of the crop and each crop’s specific growth characteristics. The alfalfa crop curve derived from data at Kimberly, ID is shown in Figure 1. Local planting or beginning growth, effective cover, and harvest dates are fundamental to properly characterizing crop coefficients. At the beginning of the season, the alfalfa green-up (when field looks green from pickup window) date may be known, but the effective cover and harvest dates will be estimated from previous years experience. These estimated dates should be revised as the season progresses. Field-observable conditions relating to forage crop effective cover are that alfalfa is about 12 - 15 inches tall, or about 20 to 25 days prior to the next cutting. [page 3] Figure 1. Alfalfa Mean Crop Coefficients Curve (after Wright, 1981, and Jensen et. al, 1990) with Harvest Dates Typical to Southern Idaho. Crop coefficients have been developed for a wide variety of crops for use with either an alfalfa or grass reference crop. In general, these crop coefficients are not interchangeable between reference crops. Jensen et al. (1990) stress that the same reference Et values should be used to estimate crop Et as were used in developing the Kc values. The field alfalfa crop coefficient values shown in Figure 1 are for use with calculated alfalfa reference Et, Etr. If the publicly available reference Et data is for a grass reference, Eto, then the value of the coefficient from Figure 1 must be multiplied by 1.2 to produce the equivalent crop Et. This is due to the average relationship between Etr and Eto as: Etr = 1.2 Eto (Wright, 1996). The value of a crop coefficient (Kc or Kcm) at a particular growth stage depends on plant transpiration as well as evaporation from the soil surface. Care must be exercised in applying values from one research site , i.e. Kimberly, ID, a semi-arid intermountain western USA research site, to other sites with different conditions, specifically with respect to spring precipitation events and normal irrigation practices (Jensen et al., 1990). Lacking locally calibrated crop coefficients, the mean Kimberly, ID coefficients are acceptable for most purposes; however, caution must be exercised. If the anticipated field irrigation frequency is different from the schedule at the research site (in this case Kimberly, ID), then adjustments to account for a different evaporation from a wet soil surface may be appropriate. This would be particularly true for high frequency irrigation by center pivots. Irrigation Scheduling The purpose of an irrigation scheduling model is to estimate current and future soil water contents. When the soil water content drops to a specified level, the program indicates that 0 0.2 0.4 0.6 0.8 1 1-Apr 1-May 1-Jun 1-Jul 1-Aug 1-Sep 1-Oct 1-Nov Seasonal Mean Crop Cycle Mean [page 4] irrigation is needed. Estimated soil water (SW) content is determined by: SW2 = SW1 + Irr + Rain – Et – DP (3) Where SW1 and SW2 are the beginning and ending total available soil water contents, respectively; Irr and Rain are the respective amounts of infiltrated irrigation and rain; Et is calculated crop water use, or evapotranspiration; and DP is deep percolation or drainage out of the root zone. The time interval (update period) between Points 1 and 2 is generally 1 week, although it could be as short as one or two days. During the harvest cycle of alfalfa, irrigation, rain (hopefully) and deep percolation are zero, thus the soil water depletion is equal to Et. The minimum time between the last irrigation prior to cutting and clearing the bales off the field could be as little as five or six days (cut two or three days after irrigation plus three days curing, baling, and hauling) on a sandy soil with mid-summer conditions. If average Etr is 0.3 in/day for this period, and using the Kcm values from Figure 1, the soil water depletion could be about 1.2 inches. This is getting close to 50 percent depletion in a five foot deep sandy soil rootzone and indicates that irrigation should be initiated soon. One Utah grower, in these conditions, sets his center pivot to apply one-half inch for the first irrigation to get around quickly, and then slows it down to get deeper water penetration subsequently. The use of daily crop coefficients during the harvesting is not necessary as there is no irrigation until the field is cleared and replenishing the accumulated soil water depletion afterwards is the goal. Thus, a harvest cycle average Kcm value could be used after the first cutting. This is shown in Figure 1 as “crop cycle mean” for Etr as Kcm = 0.85 (for Eto, Kcm = 1.2 x 0.85 = 1.02). SCHEDULING IRRIGATION FOR FORAGE HARVEST OPERATIONS Insufficient time between an irrigation event and subsequent forage harvesting operations can lead to increased opportunity for soil compaction and harvest operation difficulties. Typical grower harvest traffic reduced field alfalfa yields about 13 to 17 percent below non-trafficked plots in two and three year old stands in a Shafter, CA, study (Rechel, et. al., 1991). They state that “alfalfa yields were significantly reduced both by harvest traffic and compaction.” Depositing swathed hay on wet soil, lengthening out the curing process, is of more concern to many farmers. The interval between alfalfa cutting and the previous irrigation depends on soil texture, weather, method of irrigation, and harvesting equipment. Lighter textured sandy and loamy sand soils dry out quicker following irrigations than do the heavier loam and clay loam soils. The interval after an irrigation prior to the harvest event changes with the time of year, being a little longer in the spring and fall, and shorter in the summer when the weather conditions are hotter and drier. Alfalfa is cut about two weeks following surface irrigation (4 inch application) on heavy clay soils in central Utah. If hot, dry windy conditions exist then it could be a couple of days less. Whereas on lighter soils with wheelmove sprinklers (2 inch application) the cutting can be about a week after irrigation, and with center pivots on sandy loam soils two or three days may be enough delay. On the silt loam soils located in southern Idaho, if the soil surface is too wet at the [page 5] Table 1. Days Between Irrigation and Subsequent Alfalfa Harvest for Typical Soils and Various Daily Et rates. 50 percent of available soil water Average daily Alfalfa ET, inches per day Soil Type in top two feeta 0.15 0.20 0.25 0.30 0.35 Days to deplete 50 percent of SW in top two feet Sands and fine sands 0.63 4 3 3 2 2 Very fine sands, loamy sands 0.90 6 5 4 3 3 Sandy loam 1.35 9 7 5 5 4 Sandy clay loam 1.85 12 9 7 6 5 Loam, silt loam, silty clay 2.00 13 10 8 7 6 loam, clay loam a Average value for typical range of 50 percent of field capacity minus wilting point. time of swathing, soil will ball up on the guards and cause difficulty in the harvest operation. In that area, the wait is a week or longer after a surface irrigation before swathing hay (J.L. Wright, personal communication 2002). Sometimes harvest operations are delayed until the soil surface has dried out, however, in nighttime conditions that are conducive to the formation of dew, the soil surface may not dry out very readily. Wright (2002) further suggested that on the southern Idaho silt loam soil, accumulated Et should be approximately two inches after the irrigation and prior to the harvest to insure adequate soil drying. This could be summarized as a general rule of thumb by suggesting that the soil water should be depleted about 50 percent of available in the top two feet. The number of days to wait after irrigation prior to cutting will thus vary with soil water holding capacity and average crop Et for the period. This variation is shown in Table 1 for typical soils and daily alfalfa crop Et rates varying from 0.15 to 0.35 inches per day. The interval between irrigation and harvest varies from two days in lighter textured sandy soil at high summertime Et rate, to thirteen days in heavier clay soils at low Et rates, such as experienced in the spring and fall. Following the guidelines in Table 1, adjusted with local experience, could avoid much of the wet soil conditions causing curing problems at alfalfa cutting and potential soil compaction during the baling and hauling operations. AVAILABLE IRRIGATION SCHEDULING DATA AND SOFTWARE A variety of Et data is available on the worldwide web for use in irrigation scheduling. Some of these sites are listed in Table 2 along with a few crop Et/irrigation scheduling calculation software. A more comprehensive list is found on the Irrigation Association’s hotlink at http://irrigation.org/about_et_list.htm. A summary discussion of irrigation scheduling programs is presented by Henggeler (2002). [page 6] Table 2. Internet Sites for Evapotranspiration Data and Other Information. State Website (URL) Reference Et Type Arizona http://ag.arizona.edu/azmet Eto California http://www.dpla.water.ca.gov/cgi- bin/cimis/main.pl Eto Colorado http://ccc.atmos.colostate.edu Etr Kansas www.oznet.ksu.edu/mil Etr Minnesota/ www.soils.wisc.edu/wimnext./water.html Eto Wisconsin New Mexico http://weather.nmsu.edu Eto Nevada Oklahoma Pacific Northwest http://mac1.pn.usbr.gov/agrimet/ Etr California (North) Idaho, Montana, Oregon, Washington, Wyoming South Dakota http://abe.sdstate.edu/weather/ Texas http://texaset.tamu.edu Eto http://texasweather.tamu.edu Utah http://nrwrt1.nr.state.ut.us/techinfo/ Historical crop water use consumpt/default.htm Et Software/Calculators/Procedures Contact Person (email) Arizona AZSCHED Ed Martin (edmartin@ag.arizona.edu) Colorado Cropflex Israel Broner (israel@engr.colostate.edu) Kansas KANSCHED Danny Rogers (drogers@bae.ksu.edu) Minnesota Et Jerry Wright (jwright@umn.edu) Checkbook http:www.extension.umn.edu/distribution/cropsystems/DC1322.htm Utah PCET Bob Hill (bobh@ext.usu.edu) Washington Et WISE Brian Leib (brian_leib@wsu.edu) Calculator [page 7] ACKNOWLEDGMENTS The contributions of Utah alfalfa growers Chandler Whitelaw and Garth Swallow; Millard County Extension Agent Mike Pace; and Dr. James L. Wright of the USDA-ARS Research Center, Kimberly, ID. are gratefully acknowledged. The assistance of BIE student Troy Winward in preparation of Figure 1 and the word processing skills of Melanie Ivans are appreciated. REFERENCES Allen, R.G., Pereira, L.S., Raes, D., and Smith, M. 1998. Crop Evapotranspiration, FAO Irrigation and Drainage Paper No. 56, United Nations Food and Agriculture Organization, Rome, Italy. Doorenboos, J. and W.O. Pruitt. 1977. Crop Water Requirements (Revised Edition), FAO Irrigation and Drainage Paper 24, Food and Agricultural Organization of the United Nations. Rome, Italy. Henggeler, J. 2002. Programs Available for Irrigation Scheduling. Presented at Improving Irrigation Efficiency in Agriculture, Las Cruces, NM. March 20-21. Jensen, M.E. R.D. Burman and R.G. Allen, Eds. 1990. Evapotranspiration and Irrigation Water Requirements. ASCE Manual No. 70. New York, N.Y. Rechel, E.A., B.D. Meek, W.R. DeTar, and L.M. Carter. 1991. Alfalfa Yield as affected by Harvest Traffic and Soil Compaction in a Sandy Loam Soil. J. Prod. Agric., Vol. 4, no. 2, pp. 241-246. Wright, J.L. 1981. Crop Coefficients for Estimates of Daily Crop Evapotranspiration. Irrigation Scheduling for Water and Energy Conservation in the 80’s. Proceedings of 1981 Irrigation Scheduling Conference. Chicago, Illinois. ASAE Publication 23-81. Wright, J.L. 1982. New Evapotranspiration Crop Coefficients. Journal of Irrigation and Drainage Division. ASCE, 108(IR2):57-74. Wright, J.L. 1996. Derivation of Alfalfa and Grass Reference Evapotranspiration. ASAE Proc. International Conference, Irrigation Association and International Committee on Irrigation Drainage, San Antonio, TX 3-6 November. For additional reading/resource material see: Hill, R.W. 1991. Irrigation Scheduling. Chapter 12 in Modeling Plant and Soil Systems, John Hangs and J.T. Ritchie (eds.), American Society of Agronomy, Inc., Crop Science Society of America, Inc., Soil Science Society of America, Inc., Madison, WI. 491-509. [page 8] Jones, A.J., R.A. Wiese, and E.C. Dickey. 1986. Management Strategies to Minimize and Reduce Soil Compaction. NebGuide G89-896-A. http://www.ianr.unl.edu/pubs/soil/g896.htm. Jones, A.J., E.C. Dickey, D.D. Eisenhauer, and R.A. Wiese. 1987. Identification of Soil Compaction and Its Limitations to Root Growth. NebGuide G87-831-A. http://ianr.unl.edu/pubs/soil/g831.htm.",
+      "links": [],
+      "fetched_at": "2026-10-30T12:27:49.772770+00:00",
+      "sha256": "4c0cf9fb815ffeac36728803508befd40f33740e0f16ad46a13596e4511d93a7",
+      "source_format": "institutional_pdf_text",
+      "source_text_excerpted": false,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    },
+    {
+      "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "requested_url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+      "redirect_chain": [
+        "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops"
+      ],
+      "text": "Strategies for Deficit Irrigation of Forage Crops | USU Utah State University sites use cookies. By continuing to use this site you accept our privacy and cookie policy . I agree Skip to content Strategies for Deficit Irrigation of Forage Crops What is deficit irrigation? As the name implies, it can be defined as any irrigation strategy that does not meet the full evapotranspiration (total water use of the crop through evaporation and transpiration) demand of a crop. Partial irrigation is often used interchangeably with deficit irrigation but can also imply irrigating part of the root zone or part of the season. Deficit irrigation is generally not the ideal way to produce forages. It is, however, necessary in some cases due to water shortages, water right restrictions, irrigation system failures, or other related reasons. It might also be a strategic choice in some cases for income through water leasing (“water banks”), or where conservation payments or program incentives support cutting back on irrigation. Whether intentional or not, deficit irrigation will often cause yield, quality, and profit loss. Deficit irrigation strategies with varying effectiveness can be employed in many cases to maximize production and profit. These strategies can include modifying irrigation schedules, concentrating irrigation to critical crop growth stages, reducing rates, terminating irrigation early, or increasing irrigation efficiency in a variety of ways. The crop of interest will also impact best deficit irrigation practices. General considerations for deficit irrigation of the major forage crops alfalfa, small grain forage, corn silage, and teff grass hay will be discussed, followed by recent research results. Alfalfa Alfalfa is naturally drought tolerant. Its lengthy root systems can reach over 15 feet deep, providing access to a greater soil volume to scavenge water. Alfalfa also has a unique ability to go into drought-induced dormancy when water is scarce. This feature allows for irrigation to cease at almost any time during the growing season without permanent damage to the stand (Orloff et al., 2015). This approach of ceasing irrigation is usually superior to keeping the alfalfa dull green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full production levels (Lindenmayer et al., 2011). Alfalfa uses water most efficiently during spring growth so irrigation should be targeted earlier rather than later in the season if possible. The first cutting will use about 5 acre-inches of evapotranspiration per ton of alfalfa, compared to about 7 acre-inches for later cuttings (Shewmaker et al., 2013). Plus, the first cutting is usually the highest yielding crop. Deficit irrigation should also be targeted first to the least productive alfalfa land—areas with poor soils, poor irrigation efficiency, poor alfalfa stem density, most weeds, oldest alfalfa, and/or poor varieties. This strategy allows for prioritizing full irrigation on the best land and crop conditions where water use efficiency will be greatest. Small Grain Forage Small grains such as wheat, barley, and oats are good annual forage crops during a drought because their water use occurs early in the season, where they can take advantage of precipitation and potential spring runoff. Forage harvest generally occurs in June or July and requires no late water (except for late planting or double cropping scenarios). Small grain forage requires slightly less total irrigation than small grains harvested for grain (Husman and Ottman, 2015), but also have less opportunity for deficit irrigation than grain. Vegetative growth of small grains requires adequate irrigation and is crucial for producing high forage yields. Silage Corn Expected water supply and timing of availability should be considered before planting corn to ensure plants can reach maturity. Corn production requires a large financial investment and deficit irrigation strategies are of little value if no grain is produced to enhance corn silage yield and quality. If water availability is uncertain or water may not be available through the whole growing season, producers should consider switching to another cropping option. When planting corn, selecting appropriate hybrids is crucial. For example, shorter day corn matures quicker and can be planted in cases where water may be limited toward the end of the growing season. Deficit irrigation should be targeted to critical growth stages where near full irrigation levels are crucial to yield determination. These include tasseling, silk, and yield formation (Kranz et al., 2008). The best time to water stress corn, if needed, is generally during the vegetative and ripening stages. Since grain is such a vital part of good quality silage corn, strategies for deficit irrigation of silage corn are usually similar to those for grain corn. Teff Teff is known as a drought-tolerant crop that thrives on low irrigation levels at frequent intervals. It is planted in early summer (early to mid-June) in most areas, which generally allows for early water (pre-June) to be concentrated on other crops. Early summer planting generally allows for two cuttings, with the first yielding more than the second. Few deficit irrigation studies have been published for teff, but recent research in the Pacific Northwest showed teff required about half the amount of irrigation that alfalfa requires, and that excessive irrigation decreased forage quality (Roseberg et al., 2018). Given the lower irrigation requirement of teff compared to other forages, it may not require deficit irrigation. If deficit irrigation is desired though, the best strategies may include planting in mid-July and only harvesting once and/or increasing irrigation frequency and reducing the rate such that less total water is used than other forages. Recent Research Figure 1. Water optimization trial (20 acres, including deficit irrigation) at the Utah State University Wellsville Farm. A large team of researchers at Utah State University (USU) started testing deficit irrigation strategies for major forage crops in 2019. We evaluated irrigating corn silage at the USU Wellsville Farm near Logan, Utah (Figure 1) with full irrigation (as close to potential evapotranspiration as possible) compared to a 25%, 50%, and a targeted 50% reduction in total irrigation rates for the growing season. This was accomplished by adjusting sprinkler nozzle sizes on a linear irrigation system. The 50% targeted rate applied half the total irrigation for the season, but researchers directed this irrigation toward critical growth stages, such as during corn tasseling or mid-to-late vegetative growth for other forages. This work was repeated and expanded in 2020 to include sites in Logan and Vernal, Utah. Logan included a new alfalfa stand with two cuttings and corn silage, while Vernal included spring 3-way (wheat, oat, and barley) forage, teff, and corn silage. Alfalfa Two cuttings of alfalfa were harvested in 2020 in Logan. A total of 13.5 inches of irrigation was applied for both cuttings for the full irrigation rate (Figure 2). The irrigation reductions were achieved by changing nozzle sizes on the linear where alfalfa received 25 or 50% less water each irrigation. When irrigation was reduced by 25%, alfalfa yield was reduced by an average of about 0.75 tons/acre (20%) total for the two cuts. A 50% reduction in irrigation produced 1.2 tons/acre less yield (30% reduction). Results were mixed for the 50% targeted irrigation. It was much worse than the straight 50% reduction for the first cut, but much better in the second cut. Figure 2. Full and deficit irrigation alfalfa research plots at the USU Wellsville Farm. Several forage quality parameters were measured, but only two are presented for simplicity (Figure 3). For the first alfalfa cut, the total digestible nutrients (TDN) and relative feed value (RFV) amounts were consistent across all four irrigation rates and averaged about 70 and 200, respectively. The second cut varied more with the 50% reduction rate having the highest TDN value at about 80 and an RFV of 300. The 25% reduction rate produced slightly lower quality values than the 50% rates but was higher than any of the first cut’s irrigation rates. The full irrigation rate and the targeted 50% reduction both had similar TDN and RFV values with about 70 for the TDN and an RFV of a little over 200. The alfalfa results show that while the first cut’s yield varied, the quality was consistent across all four of the irrigation rates. The second cut’s yield varied more and had more variation in the quality results. The 50% reduced rate had the lowest yield but had the highest TDN and RFV percentages. The full and 50% targeted reduction had the highest yields but the lowest quality among the four irrigation rates, though they were similar to the first cut’s results. While the reduced irrigation rates result in lower yields, they do not seem to negatively impact the quality of alfalfa, and often result in higher values than the full irrigation rates. The 50% targeted reduction was the exception, with the opposite often being true for the second cut. Figure 3. Alfalfa yield, total digestible nutrients (TDN), and relative feed value (RFV) as impacted by four irrigation practices at Logan, UT in 2020. Small grain forage The full irrigation rate for three-way small grain forage in Vernal was 15 inches. This irrigation rate produced a yield of 4.2 tons/acre. All three deficit irrigation strategies decreased yield by an average of 1.5 tons/acre (35%) (Figure 4). These results show that the two 50% irrigation reductions were equal to the 25% reduction, which signified that the larger reduction of 50% can be made without losing extra forage yield and that targeting the 50% reduction provided no benefit. While the yield for the three-way varied with the irrigation rate, the TDN and RFV values were not influenced by deficit irrigation. The TDN was about 60 for all levels of irrigation and the RFV was 95–100. Thus, deficit irrigation may have few impacts on small grain forage quality (Figure 4). Figure 4. Small grain forage (3-way mix of oat, wheat, and barley) yield, total digestible nutrients (TDN), and relative feed value (RFV) as impacted by four irrigation practices at Vernal, UT in 2020. Corn silage Corn silage was evaluated in three growing seasons at two sites (Figure 5). The 25% reduction in irrigation rate always produced the same yield as the full irrigation rate in all three conditions. This means that a small reduction in irrigation all season might be ideal for deficit irrigation. The 50% irrigation reduction was not as consistent. In Logan, only the targeted 50% irrigation reduction decreased yield in 2019 by an average of 2 tons/acre (9% loss). The next year, results were similar for Logan and Vernal, where both 50% reductions in irrigation decreased silage yield by 3–9 tons/acre (7–23% loss). The targeted 50% rate was never superior to the flat 50% reduction. The 2019 Logan corn results showed that the 50% reduction had the highest TDN and starch values at 70 and 27, respectively. The TDN percentages were similar for full and 25% reduction irrigation rates and were both only slightly lower than the 50% targeted. The 25% irrigation reduction had slightly higher starch values than the full irrigation rate. In this trial, the 50% irrigation reduction produced the same yield and superior quality compared to full irrigation. It was also significantly better than targeting the 50% reduction to critical crop stages. In 2020, both the Vernal and Logan sites had similar silage corn TDN and starch values across all of the irrigation rates. These results indicate that deficit irrigation had little to no impact on the quality of the corn silage. Although the 2019 Logan corn data showed a slight variation in quality due to the irrigation rates, both sites in 2020 experienced little to no difference because of these. The 50% reduced rate consistently tested the highest, but there was very little variation in quality for 2020 across any of the irrigation rates. The 25% reduction rate had a similar or better yield and quality values in comparison to the full irrigation rate across all three sites, indicating that this level of reduction could positively impact overall crop value. These results were similar to small grain forage results and show that while the yield may vary due to the water application amounts, the quality is not impacted heavily by these differences. Figure 5. Silage corn yield, total digestible nutrients (TDN), and starch as impacted by four irrigation practices at Logan in 2019–2020 and Vernal in 2020. Teff Figure 6. Full and deficit irrigation teff research plots at the USU Vernal Farm. Three teff varieties were evaluated for their response to deficit irrigation in Vernal in 2020 (Figure 6). The full irrigation rate was 12 inches. The 25% reduction in irrigation rate decreased the teff yield of only one variety (Dessie) by 1 ton/acre (27% loss) (Figure 7). The 50% reductions always decreased yield by 17–42% for all three varieties. These results demonstrated that some varieties can handle deficit irrigation better than others. While all three of the teff varieties experienced the lowest yields at the 50% reduction and 50% targeted reduction rates, these deficit irrigation rates resulted in the highest TDN at 70 and highest RFV at or over 120. The Corvallis variety had similar forage quality for both the full and 25% reduction rates. The Dessie variety had the highest yield but lowest quality values at the full irrigation rate. The Excalibur variety had similar yields across irrigation rates except for the 50% reduction, which was lower. The TDN and RFV values were higher with the higher reduction rates, with the lowest values occurring at the full irrigation rates. These results show that all three teff varieties had higher TDN and RFV values with deficit irrigation, but also experienced higher losses in yield. Figure 7. Teff yield, total digestible nutrients (TDN), and relative feed value (RFV) of three varieties as impacted by four irrigation practices at Vernal, UT in 2020. Summary Deficit and partial irrigation research at Utah State University is ongoing. In 2021, we will continue our work in Logan and Vernal but will also include a third site in Cedar City. We are working on summarizing crop profit, and water use efficiency. Though preliminary, our results so far show that 25% reductions in irrigation of forages result in 0–35% loss in crop yield, depending on the crop. In contrast, deficit irrigation had few and sometimes positive impacts on forage quality. These positive impacts on forage could help offset some of the yield losses incurred by deficit irrigation. The 25% irrigation reductions were usually but not always superior to 50% reductions, and corn handled this reduction better than other crops. We found no advantages of targeting 50% reductions in irrigation rates compared to a flat 50% reduction all season. Both 50% reductions decreased yield by 7–35% across crops. As more data is collected, these recommendations will be refined to further guide best practices for deficit forage irrigation. References Husman, S., & Ottman, M.J. (2015). Irrigation of small grains in Arizona. University of Arizona Extension. az1345. https://cals.arizona.edu/forageandgrain/sites/cals.arizona.edu.forageandgrain/files/az1345-2015.pdf Kranz, W.L., Irmak, S., Van Donk, S.M., Yonts, C.D., & Martin, D.L. (2008). Irrigation management for corn. University of Nebraska Extension. G1850. https://extensionpublications.unl.edu/assets/pdf/g1850.pdf Lindenmayer, R.B., Hansen, N.C., Brummer, J., & Pritchett, J.G. (2011). Deficit irrigation of alfalfa for water-savings in the Great Plains and Intermountain West: A review and analysis of the literature. Agronomy Journal, 103, 45–50. https://doi.org/10.2134/agronj2010.0224 Orloff, S., Putnam, D., & Bali, K. (2015). Drought strategies for alfalfa. University of California Extension. ANR Publication 8522. https://anrcatalog.ucanr.edu/pdf/8522.pdf Roseberg, R., Norberg, S., & Charlton, B. (2018). Teff grass for forage: Nitrogen and irrigation requirements. A Pacific Northwest Extension Publication. PNW 709. https://catalog.extension.oregonstate.edu/sites/catalog/files/project/pdf/pnw709.pdf Shewmaker, G.E., Allen, R.G., & Neibling, H. (2013). Alfalfa irrigation and drought. University of Idaho Extension. https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/cals/centers/Kimberly/forage/Alfalfa-Irrigation-Facts-2013.pdf All photographs were taken by Matt Yost. Acknowledgements The authors would like to thank the Foundation for Food and Agriculture Research (FFAR), Western Sustainable Agriculture Research and Education (SARE), Central Utah Water Conservancy District (CUWCD), the Utah Agricultural Experiment Station (UAES), and Utah State University Extension for funding to complete this research. Published April 2021 Utah State University Extension Peer-reviewed fact sheet Authors Matt Yost, Tina Sullivan, Niel Allen, Boyd Kitchen, Megan Baker, and Earl Creech Matt Yost Agroclimate Specialist PSC Dept Phone: 435-797-4210 Email: matt.yost@usu.edu Office Location: Logan Campus Niel Allen Former Irrigation Specialist Boyd Kitchen Extension Associate Professor | Agriculture, Natural Resources, 4-H | Uintah County Director Agriculture and Natural Resources Office Location: Uintah County Earl Creech Agronomy Specialist PSC Dept Email: earl.creech@usu.edu Office Location: Logan Campus Events View Events Near You Learn More Take an Online Course Tips SIGN UP Find an Event",
+      "links": [
+        {
+          "url": "https://www.usu.edu/privacy/",
+          "label": "privacy and cookie policy"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+          "label": "Skip to content"
+        },
+        {
+          "url": "https://www.usu.edu/apply/",
+          "label": "Apply"
+        },
+        {
+          "url": "https://www.usu.edu/visit/",
+          "label": "Visit"
+        },
+        {
+          "url": "https://www.usu.edu/advancement/",
+          "label": "Give"
+        },
+        {
+          "url": "https://www.usu.edu/calendar/",
+          "label": "Calendar"
+        },
+        {
+          "url": "https://www.usu.edu/azindex/",
+          "label": "A-Z Index"
+        },
+        {
+          "url": "https://directory.usu.edu/",
+          "label": "Directory"
+        },
+        {
+          "url": "https://library.usu.edu/",
+          "label": "Libraries"
+        },
+        {
+          "url": "https://my.usu.edu",
+          "label": "MyUSU"
+        },
+        {
+          "url": "https://www.usu.edu/",
+          "label": ""
+        },
+        {
+          "url": "https://extension.usu.edu/crops/index.php",
+          "label": "Crop Resources"
+        },
+        {
+          "url": "https://extension.usu.edu/index.php",
+          "label": "Extension"
+        },
+        {
+          "url": "https://www.usu.edu",
+          "label": ""
+        },
+        {
+          "url": "https://extension.usu.edu/calendar.php",
+          "label": "Calendar"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/alfalfa.php",
+          "label": "Alfalfa"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/pasture.php",
+          "label": "Pasture/Grass Hay"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/otherhay.php",
+          "label": "Other Hay"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/smallgrains.php",
+          "label": "Small Grains"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/corn.php",
+          "label": "Corn"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/safflower.php",
+          "label": "Safflower"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/otheroilseeds.php",
+          "label": "Other Oilseeds"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/othercrops.php",
+          "label": "Other Crops"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/tools/irrigation-technology-cost-benefit-calculator.php",
+          "label": "Irrigation Cost Benefit Analysis Calculator"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/tools/soil-sensor-setup.php",
+          "label": "Using Soil Sensors for Irrigation"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/tools/conversion-calculator",
+          "label": "Irrigation Conversion Water Savings Destination Calculator"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/research/index.php",
+          "label": "Research"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/directory.php",
+          "label": "Directory"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/events/index.php",
+          "label": "Events"
+        },
+        {
+          "url": "https://extension.usu.edu/crops/additional-resources.php",
+          "label": "Other Resources"
+        },
+        {
+          "url": "https://www.usu.edu/giving/",
+          "label": "Give"
+        },
+        {
+          "url": "https://cals.arizona.edu/forageandgrain/sites/cals.arizona.edu.forageandgrain/files/az1345-2015.pdf",
+          "label": "https://cals.arizona.edu/forageandgrain/sites/cals.arizona.edu.forageandgrain/files/az1345-2015.pdf"
+        },
+        {
+          "url": "https://extension.usu.edu/directory/yost-matt.php",
+          "label": ""
+        },
+        {
+          "url": "https://extension.usu.edu/former-employees/allen-niel.php",
+          "label": ""
+        },
+        {
+          "url": "https://extension.usu.edu/former-employees/kitchen-boyd.php",
+          "label": ""
+        },
+        {
+          "url": "https://extension.usu.edu/directory/creech-earl.php",
+          "label": ""
+        },
+        {
+          "url": "https://extensioncourses.usu.edu/",
+          "label": "Take an Online Course"
+        },
+        {
+          "url": "https://extension.usu.edu/signup.php",
+          "label": "Tips SIGN UP"
+        },
+        {
+          "url": "https://extension.usu.edu/about-us.php",
+          "label": "About Us"
+        },
+        {
+          "url": "https://extension.usu.edu/impacts/index.php",
+          "label": "Impacts"
+        },
+        {
+          "url": "https://extension.usu.edu/locations.php",
+          "label": "Locations"
+        },
+        {
+          "url": "https://extension.usu.edu/spanish/",
+          "label": "Extensión en Español"
+        },
+        {
+          "url": "https://extension.usu.edu/employee/index.php",
+          "label": "Employee Website"
+        },
+        {
+          "url": "https://extension.usu.edu/employee/marketing/index.php",
+          "label": "Marketing"
+        },
+        {
+          "url": "https://extension.usu.edu/in-the-news.php",
+          "label": "In The News"
+        },
+        {
+          "url": "https://extension.usu.edu/podcasts.php",
+          "label": "Podcasts"
+        },
+        {
+          "url": "https://extension.usu.edu/apps.php",
+          "label": "Apps"
+        },
+        {
+          "url": "https://extension.usu.edu/news_sections/",
+          "label": "News"
+        },
+        {
+          "url": "https://extension.usu.edu/donate.php",
+          "label": "DONATE"
+        },
+        {
+          "url": "https://extension.usu.edu/contact-us.php",
+          "label": "CONTACT Us"
+        },
+        {
+          "url": "https://www.usu.edu/map/",
+          "label": "Maps & Directions"
+        },
+        {
+          "url": "https://www.usu.edu/search/",
+          "label": "Search USU"
+        },
+        {
+          "url": "https://www.usu.edu/campus-life/safety/",
+          "label": "Campus Safety"
+        },
+        {
+          "url": "https://jobs.usu.edu/",
+          "label": "Jobs"
+        },
+        {
+          "url": "https://www.usu.edu/contact/",
+          "label": "Contact"
+        },
+        {
+          "url": "https://www.usu.edu/copyright/",
+          "label": "Terms of Use"
+        },
+        {
+          "url": "https://www.usu.edu/copyright/index.cfm",
+          "label": "Copyright"
+        },
+        {
+          "url": "https://www.usu.edu/accessibility/contact",
+          "label": "Accessibility"
+        },
+        {
+          "url": "https://www.usu.edu/equity/non-discrimination/",
+          "label": "Non-Discrimination"
+        }
+      ],
+      "fetched_at": "2026-10-30T12:27:50.218824+00:00",
+      "sha256": "9c6792b2f3ac9a2ed8235538b15e5552fb6575ba2b1554fe42b50536adea1646",
+      "source_format": "institutional_html",
+      "source_text_excerpted": false,
+      "source_text_layout_version": 2,
+      "source_link_discovery_version": 1
+    }
+  ],
+  "review": {
+    "applicable": true,
+    "country_limits_retained": true,
+    "fact_checks": [
+      {
+        "country": "US",
+        "international_fallback": true,
+        "local_evidence_gap": "مدرک محلی روسیه برای این ادعای کیفی عمومی یافت نشد؛ منبع تنها آمریکا است.",
+        "scope": "الگوی کیفی عمومی؛ محدودیت جغرافیایی و محصولی در منبع حفظ شده است.",
+        "source_kind": "extension_guidance",
+        "transfer_limits_retained": true,
+        "supported": true,
+        "fact_id": "f0",
+        "document_id": "s2",
+        "quote": "arly, or increasing irrigation efficiency in a variety of ways. The crop of interest will also impact best deficit irrigation practices. General considerations for deficit irrigation of the major forage crops alfalfa, small grain forage, corn silage, and teff grass hay will be discussed, followed by recent research results. Alfalfa Alfalfa is naturally drought tolerant. Its lengthy root systems can reach over 15 feet deep, providing access to a greater soil volume to scavenge water. Alfalfa also has a unique ability to go into drought-induced dormancy when water is scarce. This feature allows for irrigation to cease at almost any time during the growing season without permanent damage to the stand (Orloff et al., 2015). This approach of ceasing irrigation is usually superior to keeping the alfalfa dull green in color with little to no growth. When irrigation or soil moisture can return to adequate levels, plants break the induced dormancy and resume growth—often returning to full produ"
+      },
+      {
+        "country": "US",
+        "international_fallback": true,
+        "local_evidence_gap": "هیچ مدرک روسی برای آبیاری پاییزی یونجه یا هدف ذخیره‌سازی عمقی آب تا نوامبر وجود ندارد.",
+        "scope": "مشاهده محدود به نبراسکا؛ هدف ذخیره‌سازی عمقی گزارش شده نه توصیه عملیاتی محلی.",
+        "source_kind": "extension_guidance",
+        "transfer_limits_retained": true,
+        "supported": true,
+        "fact_id": "f1",
+        "document_id": "s0",
+        "quote": "t feet or more. Since roots will not grow through dry soil to reach wet soil, deep soil water storage reserves may be lacking if field soil wetting does not leach below four feet. To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfalfa regrowth begins. Irrigation scheduling efficiency can be improved by using ET (evaporation and transpiration) measurement gages or soil moisture monitoring. Review your local NRD irrigation district water usage restrictions; since potential total alfalfa water usage can be over 36 inches per year and may exceed irrigation usage allocations. Conversely, building deep-stored water reserves in the fall can help your alfalfa next summer during rapid growth when it may be difficult to keep up with peak plant water usage demands. Further, some fields have low water infiltration rates, so irrigating now through November may be the right time for building water reserves. Our UNL NebGuide, “ Irrig"
+      },
+      {
+        "country": "US",
+        "international_fallback": true,
+        "local_evidence_gap": "مقادیر عددی فقط برای نبراسکا گزارش شده‌اند؛ هیچ مشاهده روسی معادل موجود نیست.",
+        "scope": "نبراسکا، یونجه، واحد inch/day؛ مقادیر فصلی گزارش، نه آستانه قطع ثابت.",
+        "source_kind": "extension_guidance",
+        "transfer_limits_retained": true,
+        "supported": true,
+        "fact_id": "f2",
+        "document_id": "s0",
+        "quote": "adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, and then resume growth once conditions become favorable again. The main advantage of fall irrigation is lower evaporation compared to summer; thus, improving irrigation efficiency. Further, most irrigated alfalfa fields never get much water stored below four feet depth, although alfalfa plants can grow roots down eight feet or more. Since roots will not grow through dry soil to reach wet soil, deep soil water storage reserves may be lacking if field soil wetting does not leach below four feet. To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfal"
+      },
+      {
+        "country": "US",
+        "international_fallback": true,
+        "local_evidence_gap": "هیچ مطالعه روسی برای خاک silt loam و معیار ۲ اینچ ET پیش از برش یافت نشد.",
+        "scope": "جنوب آیداهو، خاک silt loam، یونجه؛ پیشنهاد Wright به‌صورت general rule of thumb گزارش شده.",
+        "source_kind": "research_report",
+        "transfer_limits_retained": true,
+        "supported": true,
+        "fact_id": "f3",
+        "document_id": "s1",
+        "quote": "ands and fine sands 0.63 4 3 3 2 2 Very fine sands, loamy sands 0.90 6 5 4 3 3 Sandy loam 1.35 9 7 5 5 4 Sandy clay loam 1.85 12 9 7 6 5 Loam, silt loam, silty clay 2.00 13 10 8 7 6 loam, clay loam a Average value for typical range of 50 percent of field capacity minus wilting point. time of swathing, soil will ball up on the guards and cause difficulty in the harvest operation. In that area, the wait is a week or longer after a surface irrigation before swathing hay (J.L. Wright, personal communication 2002). Sometimes harvest operations are delayed until the soil surface has dried out, however, in nighttime conditions that are conducive to the formation of dew, the soil surface may not dry out very readily. Wright (2002) further suggested that on the southern Idaho silt loam soil, accumulated Et should be approximately two inches after the irrigation and prior to the harvest to insure adequate soil drying. This could be summarized as a general rule of thumb by suggesting that the soi"
+      },
+      {
+        "country": "US",
+        "international_fallback": true,
+        "local_evidence_gap": "منبع تنها آمریکا است؛ مدرک روسی مستقل برای این اصل کیفی موجود نیست.",
+        "scope": "یونجه، پرennial؛ ادعای کیفی درباره عدم وجود مرحله بحرانی مشخص.",
+        "source_kind": "extension_guidance",
+        "transfer_limits_retained": true,
+        "supported": true,
+        "fact_id": "f4",
+        "document_id": "s0",
+        "quote": "adjust irrigation rates compared to in-season watering. During the hot growing season, alfalfa water usage may exceed 0.30-inch per day versus fall water usage dropping to 0.10-inch per day. As a perennial plant, alfalfa does not have specific critical growth stages for water stress like most traditional crops. So, when moisture stressed, the plant will slow growth, go dormant, and then resume growth once conditions become favorable again. The main advantage of fall irrigation is lower evaporation compared to summer; thus, improving irrigation efficiency. Further, most irrigated alfalfa fields never get much water stored below four feet depth, although alfalfa plants can grow roots down eight feet or more. Since roots will not grow through dry soil to reach wet soil, deep soil water storage reserves may be lacking if field soil wetting does not leach below four feet. To reduce field compaction, pause irrigating two to three days before cutting the alfalfa, and irrigate again when alfal"
+      }
+    ],
+    "no_unsupported_local_prescription": true,
+    "regional_review_schema_version": 2,
+    "rejection_reasons": []
+  },
+  "source_urls": [
+    "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+    "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+    "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops"
+  ],
+  "reviewed_at": "2026-10-30T13:47:53.854740+00:00",
+  "publication_authorized": false,
+  "adoption_provenance": {
+    "request_id": "authorized-family07-explicit-verdict-nine-remaining-v1",
+    "reviewed_at": "2026-10-30T13:47:53.854740+00:00",
+    "freshness_renewed": false
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "applicable": {
+    "objection": null,
+    "value": true
+  },
+  "country_limits_retained": {
+    "objection": null,
+    "value": true
+  },
+  "fact_checks": {
+    "f0": {
+      "country": "US",
+      "evidence_quote_id": "d2p2",
+      "international_fallback": true,
+      "local_evidence_gap": "مدرک محلی روسیه برای این ادعای کیفی عمومی یافت نشد؛ منبع تنها آمریکا است.",
+      "objection": null,
+      "scope": "الگوی کیفی عمومی؛ محدودیت جغرافیایی و محصولی در منبع حفظ شده است.",
+      "source_kind": "extension_guidance",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    },
+    "f1": {
+      "country": "US",
+      "evidence_quote_id": "d0p2",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ مدرک روسی برای آبیاری پاییزی یونجه یا هدف ذخیره‌سازی عمقی آب تا نوامبر وجود ندارد.",
+      "objection": null,
+      "scope": "مشاهده محدود به نبراسکا؛ هدف ذخیره‌سازی عمقی گزارش شده نه توصیه عملیاتی محلی.",
+      "source_kind": "extension_guidance",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    },
+    "f2": {
+      "country": "US",
+      "evidence_quote_id": "d0p1",
+      "international_fallback": true,
+      "local_evidence_gap": "مقادیر عددی فقط برای نبراسکا گزارش شده‌اند؛ هیچ مشاهده روسی معادل موجود نیست.",
+      "objection": null,
+      "scope": "نبراسکا، یونجه، واحد inch/day؛ مقادیر فصلی گزارش، نه آستانه قطع ثابت.",
+      "source_kind": "extension_guidance",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    },
+    "f3": {
+      "country": "US",
+      "evidence_quote_id": "d1p16",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ مطالعه روسی برای خاک silt loam و معیار ۲ اینچ ET پیش از برش یافت نشد.",
+      "objection": null,
+      "scope": "جنوب آیداهو، خاک silt loam، یونجه؛ پیشنهاد Wright به‌صورت general rule of thumb گزارش شده.",
+      "source_kind": "research_report",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    },
+    "f4": {
+      "country": "US",
+      "evidence_quote_id": "d0p1",
+      "international_fallback": true,
+      "local_evidence_gap": "منبع تنها آمریکا است؛ مدرک روسی مستقل برای این اصل کیفی موجود نیست.",
+      "objection": null,
+      "scope": "یونجه، پرennial؛ ادعای کیفی درباره عدم وجود مرحله بحرانی مشخص.",
+      "source_kind": "extension_guidance",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    }
+  },
+  "no_unsupported_local_prescription": {
+    "objection": null,
+    "value": true
+  },
+  "regional_review_schema_version": 2
+}
