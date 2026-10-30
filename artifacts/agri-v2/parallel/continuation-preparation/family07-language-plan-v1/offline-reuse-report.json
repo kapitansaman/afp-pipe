@@ -1,0 +1,130 @@
+{
+  "status": "retained_positives_revalidated_without_transport",
+  "topic_id": "agri-6fc1032cdf42",
+  "results": [
+    {
+      "language": "ar-IQ",
+      "status": "retained_positive_revalidated_not_promoted",
+      "source_request_id": "authorized-arabic-v3-two-call-validation-v1",
+      "wire_contract": "regional-quote-catalog-v3",
+      "source_report_sha256": "ae7d1ba3aff942442be50a7168002a70b901a0c7f3fd81b8092c9de013870fb9",
+      "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+      "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+      "canonical_sha256": "9b70f201ea8bab7715d01d5dd42692030b20bc4ea56925ba95b27bffd8d785e9",
+      "document_pack_sha256": "2dc4960999288f2c75d0152cb8affbe01fb9bc03fc14c0d877c5500389ac7aa6",
+      "original_review_completed_at": "2026-10-30T08:11:54.779936+00:00",
+      "source_fetch_times": [
+        "2026-10-30T08:11:28.411753+00:00",
+        "2026-10-30T08:11:28.992730+00:00",
+        "2026-10-30T08:11:31.394717+00:00"
+      ],
+      "source_fetch_age_hours": [
+        3.76,
+        3.76,
+        3.76
+      ],
+      "faithful_existing_translation": true,
+      "fact_count": 5,
+      "source_count": 3,
+      "new_model_calls": 0,
+      "promotion_authorized": false,
+      "freshness_renewed": false
+    },
+    {
+      "language": "en-US",
+      "status": "retained_positive_revalidated_not_promoted",
+      "source_request_id": "authorized-isolated-regional-v2-three-call-validation-v1",
+      "wire_contract": "regional-quote-catalog-v2",
+      "source_report_sha256": "00430d27f7c48f5adb820946498e30dd1717a700812d0e0be720ae59fc060ec8",
+      "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+      "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+      "canonical_sha256": "045cc65209b7f95bc44448b01586ce334e0c56d7d2f646c7ce8c17f97584668b",
+      "document_pack_sha256": "497418572634e89a9d35f1ef8a3ad6321e364ab6772cc69ee0544bc6e706c98d",
+      "original_review_completed_at": "2026-10-30T02:45:37.195851+00:00",
+      "source_fetch_times": [
+        "2026-10-30T02:44:56.981429+00:00",
+        "2026-10-30T02:44:57.572031+00:00",
+        "2026-10-30T02:44:58.293256+00:00"
+      ],
+      "source_fetch_age_hours": [
+        9.2,
+        9.2,
+        9.2
+      ],
+      "faithful_existing_translation": true,
+      "fact_count": 5,
+      "source_count": 3,
+      "new_model_calls": 0,
+      "promotion_authorized": false,
+      "freshness_renewed": false
+    }
+  ],
+  "originals_unchanged": true,
+  "model_calls": 0,
+  "image_calls": 0,
+  "source_fetches": 0,
+  "site_calls": 0,
+  "publication_authorized": false,
+  "promotion_authorized": false,
+  "schedule_enabled": false,
+  "checked_at": "2026-10-30T11:58:25.340169+00:00",
+  "report_kind": "offline_preparation_not_an_admission",
+  "queue_snapshot": {
+    "ar-IQ": {
+      "status": "needs_attention",
+      "attempts": 3,
+      "model_calls_spent": 5,
+      "sha256": "38013aa19d06820677a03f37de646105f0b2dd8d547985ceb5ed37eed80edd0f"
+    },
+    "en-US": {
+      "status": "needs_attention",
+      "attempts": 3,
+      "model_calls_spent": 5,
+      "sha256": "c42b2fff9f7dae7bde0ad8cbbff47c5ebb7f2d3c58e4ddf70b621be17d8afd43"
+    },
+    "ru-RU": {
+      "status": "waiting",
+      "attempts": 2,
+      "model_calls_spent": 2,
+      "sha256": "0e993344d7b7905754abd44cf1ea8c8921ed0f00ad73b9e7a05af651cc12911c"
+    },
+    "tg-TJ": {
+      "status": "waiting",
+      "attempts": 2,
+      "model_calls_spent": 2,
+      "sha256": "f93f49884c1d4b67488dda22ac30f2a2066cf33d8eea3fdb1667bf66ad31df23"
+    }
+  },
+  "proposed_next_scope": {
+    "paid_execution_authorized": false,
+    "conditional_internal_evidence_adoption_authorized": false,
+    "max_text_calls": 10,
+    "max_source_fetches": 3,
+    "max_search_requests": 0,
+    "max_image_calls": 0,
+    "max_site_calls": 0,
+    "regional_calls_per_missing_language": 1,
+    "semantic_calls_per_missing_language": 4,
+    "semantic_sequence": [
+      "draft",
+      "review",
+      "optional_single_repair",
+      "optional_recheck"
+    ],
+    "missing_languages": [
+      "ru-RU",
+      "tg-TJ"
+    ],
+    "no_regeneration_languages": [
+      "ar-IQ",
+      "en-US"
+    ],
+    "max_automatic_attempts_unchanged": 3,
+    "max_model_calls_per_item_unchanged": 12,
+    "publication_authorized": false,
+    "schedule_enabled": false,
+    "reset_attempts": false,
+    "global_capacity_refresh": false,
+    "production_readiness_claimed": false
+  }
+}
