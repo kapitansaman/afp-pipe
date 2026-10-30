@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "request_id": "authorized-isolated-regional-v2-three-call-validation-v1",
+  "authorization": "explicit_owner_approval_one_health_two_reviews_three_original_source_fetches",
+  "authorization_source": "https://app.notion.com/chat?t=40841579fa0a8078988900a99eb829d4",
+  "code_sha256": "f7f1cc31ef091017a8a2612ec9c84a32d41c409fd48ca58cf1998d2ce4e64f02",
+  "topic_id": "agri-6fc1032cdf42",
+  "languages": [
+    "ar-IQ",
+    "en-US"
+  ],
+  "review_wire_contract": "regional-quote-catalog-v2",
+  "slot": "AGNES_API_KEY81",
+  "credential_binding": {
+    "repository": "kapitansaman/afp-pipe",
+    "credential_set_id": "afp-pipe-30-keys-v1"
+  },
+  "allocation_sha256": "ee7143cbcb2308e878a7b6b16cc88b8fd4847563f2af4fa16fa1205fb79992d9",
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+  "source_urls": [
+    "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+    "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops",
+    "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf"
+  ],
+  "source_freshness_hours": 6,
+  "protected_sha256": "33ea47c4035f551e5010ca1d900dc746b59fd138f4e9150fc228fd1bd11e2d78",
+  "max_runs": 1,
+  "max_model_calls": 3,
+  "max_health_calls": 1,
+  "max_model_calls_per_language": 1,
+  "max_source_fetches": 3,
+  "max_search_requests": 0,
+  "max_site_calls": 0,
+  "max_image_calls": 0,
+  "max_attempts": 1,
+  "article_edits": 0,
+  "translation_edits": 0,
+  "reset_attempts": false,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "promotion_authorized": false,
+  "global_capacity_refresh": false
+}
