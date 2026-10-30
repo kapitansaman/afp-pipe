@@ -1,0 +1,65 @@
+{
+  "request_id": "authorized-family07-decimal-reconcile-five-remaining-v1",
+  "run_id": "41068347766",
+  "status": "family07_decimal_blocked",
+  "started_at": "2026-10-30T14:06:32.880884+00:00",
+  "model_calls": 5,
+  "source_fetches": 0,
+  "max_text_calls": 5,
+  "max_source_fetches": 0,
+  "prior_text_calls": 5,
+  "combined_text_cap": 10,
+  "site_calls": 0,
+  "image_calls": 0,
+  "search_requests": 0,
+  "published_posts": 0,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "stage_promotion_authorized": false,
+  "attempts_reset": false,
+  "global_capacity_refresh": false,
+  "conditional_internal_evidence_adoption_authorized": true,
+  "results": [
+    {
+      "language": "ru-RU",
+      "status": "received_positive_review_reconciled",
+      "model_calls": 0
+    },
+    {
+      "topic_id": "agri-6fc1032cdf42",
+      "language": "tg-TJ",
+      "status": "needs_attention",
+      "model_calls": 4
+    }
+  ],
+  "active_language": "tg-TJ",
+  "failure": {
+    "kind": "bounded_guard",
+    "category": "semantic_result_remains_blocked_no_more_calls"
+  },
+  "combined_text_calls": 10,
+  "originals_unchanged": true,
+  "queue_counters": {
+    "tg-TJ": {
+      "status": "needs_attention",
+      "attempts": 3,
+      "model_calls_spent": 7
+    },
+    "ar-IQ": {
+      "status": "approved",
+      "attempts": 3,
+      "model_calls_spent": 5
+    },
+    "en-US": {
+      "status": "approved",
+      "attempts": 3,
+      "model_calls_spent": 5
+    },
+    "ru-RU": {
+      "status": "approved",
+      "attempts": 3,
+      "model_calls_spent": 7
+    }
+  },
+  "completed_at": "2026-10-30T14:09:02.075172+00:00"
+}

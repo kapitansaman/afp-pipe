@@ -1,0 +1,23 @@
+{
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "translation_sha256": "004a9245b91f0d6e570384c4060be88dd972ddd15e540279a149a2dc93ffd413",
+  "review": {
+    "faithful": true,
+    "reason": "Точный перевод с сохранением всех фактических данных, единиц измерения, географических ограничений и уровней неопределённости. Утверждения корректно локализованы как данные по западной части США. Цифры в целевом тексте используют общепринятые для русского языка латинские цифры с запятой в качестве десятичного разделителя — это стандартное оформление, а не изменение значений; предыдущая механическая пометка об изменении чисел была ошибочной. Стилевые и синтаксические отличия не влияют на фактическое содержание.",
+    "issues": []
+  },
+  "reviewed_at": "2026-10-30T13:48:27.561135+00:00",
+  "reconciliation_provenance": {
+    "language": "ru-RU",
+    "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+    "draft_receipt_sha256": "2881d396665c7045062d055a8622897449922bea1f192266909979eaf564547a",
+    "review_receipt_sha256": "55e5adf13b63e81537c8236880b38cda1ce1827004c785c586cc638b9b54ce6c",
+    "reviewed_at": "2026-10-30T13:48:27.561135+00:00",
+    "partial_edit_retained_not_applied": true,
+    "numeric_validation_policy": "translation-decimal-comma-ru-tg-v1",
+    "model_calls": 0,
+    "attempts": 3,
+    "model_calls_spent": 7
+  },
+  "request_id": "authorized-family07-decimal-reconcile-five-remaining-v1"
+}

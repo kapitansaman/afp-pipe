@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "topic_id": "agri-6fc1032cdf42",
+  "title": "آخرین آبیاری یونجه پیش از برداشت؛ معیارهای قطع و کاهش آب",
+  "language": "tg-TJ",
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "status": "needs_attention",
+  "reason": "translation_or_review_needs_another_attempt",
+  "attempts": 3,
+  "model_calls_spent": 7,
+  "next_attempt_at": null,
+  "history": [
+    {
+      "event": "reserved",
+      "attempt": 1,
+      "max_calls": 4,
+      "at": "2026-10-28T13:11:29.267749+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 2,
+      "max_calls": 4,
+      "at": "2026-10-29T01:08:21.073441+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 2,
+      "reserved_model_calls": 2,
+      "status": "waiting",
+      "at": "2026-10-29T01:09:19.527538+00:00"
+    },
+    {
+      "event": "explicit_bounded_regional_review",
+      "request_id": "authorized-family07-decimal-reconcile-five-remaining-v1",
+      "model_calls": 1,
+      "attempts_unchanged": 2,
+      "at": "2026-10-30T14:06:52.257532+00:00"
+    },
+    {
+      "event": "reserved",
+      "attempt": 3,
+      "max_calls": 4,
+      "at": "2026-10-30T14:06:52.260353+00:00"
+    },
+    {
+      "event": "attempt_finished",
+      "attempt": 3,
+      "reserved_model_calls": 4,
+      "status": "waiting",
+      "at": "2026-10-30T14:09:01.409964+00:00"
+    }
+  ],
+  "created_at": "2026-10-28T13:11:29.257420+00:00",
+  "experimental_only": false,
+  "publication_authorized_by_queue": false,
+  "last_started_at": "2026-10-30T14:06:52.260343+00:00",
+  "primary_finished": true,
+  "last_failure": {
+    "kind": "validation",
+    "category": "unspecified"
+  },
+  "pending_issues": [
+    {
+      "id": 54,
+      "category": "meaning",
+      "detail": "The source says 'پیش از برداشت' (before harvest). The target says 'пеш аз гард' — гард refers to the seasonal harvest period (as in the glossary entry 'پژواک', it means 'harvest season'), not the specific harvest event/pre-harvest timing. برداشت = буриш/ҳосилгирӣ; гард = фасли ҷамъоварӣ."
+    },
+    {
+      "id": 22,
+      "category": "wrong_language",
+      "detail": "The word 'Айдaҳо' contains a Latin letter 'a' (U+0061) embedded inside the Cyrillic word. Previous review flagged this same defect for ID 22. The text reads 'Небраска, джануби Айдaҳо, Юта'."
+    },
+    {
+      "id": 74,
+      "category": "wrong_language",
+      "detail": "The word 'Айдaҳо' contains a Latin letter 'a' (U+0061) embedded inside the Cyrillic word, same as ID 22. The text reads 'Хокаҳои силт лом (silt loam) джануби Айдaҳо'."
+    }
+  ]
+}

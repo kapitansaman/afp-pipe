@@ -1,0 +1,21 @@
+{
+  "faithful": false,
+  "reason": "The Tajik translation consistently uses гард ('harvest season') where the Persian source uses برداشت ('harvest/event of harvesting'), conflating the general seasonal concept with the operational event. Additionally, three IDs retain Latin letters embedded in Cyrillic words despite prior feedback flagging them.",
+  "issues": [
+    {
+      "id": 54,
+      "category": "meaning",
+      "detail": "The source says 'پیش از برداشت' (before harvest). The target says 'пеш аз гард' — гард refers to the seasonal harvest period (as in the glossary entry 'پژواک', it means 'harvest season'), not the specific harvest event/pre-harvest timing. برداشت = буриш/ҳосилгирӣ; гард = фасли ҷамъоварӣ."
+    },
+    {
+      "id": 22,
+      "category": "wrong_language",
+      "detail": "The word 'Айдaҳо' contains a Latin letter 'a' (U+0061) embedded inside the Cyrillic word. Previous review flagged this same defect for ID 22. The text reads 'Небраска, джануби Айдaҳо, Юта'."
+    },
+    {
+      "id": 74,
+      "category": "wrong_language",
+      "detail": "The word 'Айдaҳо' contains a Latin letter 'a' (U+0061) embedded inside the Cyrillic word, same as ID 22. The text reads 'Хокаҳои силт лом (silt loam) джануби Айдaҳо'."
+    }
+  ]
+}

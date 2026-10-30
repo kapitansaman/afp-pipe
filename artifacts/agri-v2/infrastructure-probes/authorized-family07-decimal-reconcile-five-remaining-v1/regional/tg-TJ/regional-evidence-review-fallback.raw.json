@@ -1,0 +1,72 @@
+{
+  "applicable": {
+    "objection": null,
+    "value": true
+  },
+  "country_limits_retained": {
+    "objection": null,
+    "value": true
+  },
+  "fact_checks": {
+    "f0": {
+      "country": "US",
+      "evidence_quote_id": "d2p2",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی تاجیکستانی برای این ادعا وجود ندارد؛ اطلاعات از دانشگاه ایالتی یوتا (آمریکا) است.",
+      "objection": null,
+      "scope": "آلفالفا، قحطی-ایجاد خواب‌دormancy، بازگشت رشد پس از رطوبت",
+      "source_kind": "extension_guidance",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    },
+    "f1": {
+      "country": "US",
+      "evidence_quote_id": "d0p2",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی تاجیکستانی تأیید نمی‌کند؛ اطلاعات از دانشگاه نبراسکا (آمریکا) است.",
+      "objection": null,
+      "scope": "آبیاری پاییزه تا نوامبر، ذخیره‌سازی عمقی آب",
+      "source_kind": "extension_guidance",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    },
+    "f2": {
+      "country": "US",
+      "evidence_quote_id": "d0p1",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی تاجیکستانی این مقادیر را گزارش نکرده است; ارقام از دانشگاه نبراسکا (آمریکا) هستند.",
+      "objection": null,
+      "scope": "مصرف آب یونجه: ۰٫۳۰ اینچ/روز فصل گرم، ۰٫۱۰ اینچ/روز پاییزه",
+      "source_kind": "extension_guidance",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    },
+    "f3": {
+      "country": "US",
+      "evidence_quote_id": "d1p17",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی تاجیکستانی برای خاک‌های silt loam این مقدار را تأیید نکرده است; اطلاعات از جنوب آیداهو (آمریکا) است.",
+      "objection": null,
+      "scope": "تخلیه ET حدود ۲ اینچ پیش از برش در خاک silt loam جنوب آیداهو",
+      "source_kind": "research_report",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    },
+    "f4": {
+      "country": "US",
+      "evidence_quote_id": "d0p1",
+      "international_fallback": true,
+      "local_evidence_gap": "هیچ منبع محلی تاجیکستانی این اصل را گزارش نکرده است; اطلاعات از دانشگاه نبراسکا (آمریکا) است.",
+      "objection": null,
+      "scope": "یونته مرحله رشدی بحرانی مشخصی برای تنش آبی ندارد",
+      "source_kind": "extension_guidance",
+      "source_support_decision": "supported_by_cited_source",
+      "transfer_limits_retained": true
+    }
+  },
+  "no_unsupported_local_prescription": {
+    "objection": null,
+    "value": true
+  },
+  "regional_review_schema_version": 2
+}

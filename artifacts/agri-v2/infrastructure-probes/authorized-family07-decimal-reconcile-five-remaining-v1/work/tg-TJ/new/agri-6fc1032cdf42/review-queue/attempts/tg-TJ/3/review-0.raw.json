@@ -1,0 +1,16 @@
+{
+  "faithful": false,
+  "reason": "The translation contains actual defects: Latin letters are embedded inside Cyrillic words at IDs 22 and 74 ('Айдaҳо' contains a Latin 'a'). Additionally, the previous feedback flagged IDs 20, 22, and 74 for wrong_language; however, the parenthetical '(silt loam)' at ID 20 is an acceptable English glossary insertion in parentheses and was likely a false positive from the prior review. The genuine remaining issues are the two Latin 'a' characters inside Cyrillic words at IDs 22 and 74.",
+  "issues": [
+    {
+      "id": 22,
+      "category": "wrong_language",
+      "detail": "The word 'Айдaҳо' contains a Latin letter 'a' (U+0061) embedded inside the Cyrillic word 'Айдаҳо'. The text reads 'Небраска, джануби Айдaҳо, Юта' — the fourth character after 'Ай' is a Latin 'a' instead of Cyrillic 'а'."
+    },
+    {
+      "id": 74,
+      "category": "wrong_language",
+      "detail": "The word 'Айдaҳо' contains a Latin letter 'a' (U+0061) embedded inside the Cyrillic word. The text reads 'Хокаҳои силт лом (silt loam) джануби Айдaҳо' — same embedded Latin 'a' defect as ID 22."
+    }
+  ]
+}

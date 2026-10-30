@@ -1,0 +1,17 @@
+[
+  {
+    "id": 20,
+    "category": "wrong_language",
+    "detail": "Latin letters are embedded inside a Cyrillic word."
+  },
+  {
+    "id": 22,
+    "category": "wrong_language",
+    "detail": "Latin letters are embedded inside a Cyrillic word.\nThe word 'Айдaҳо' contains a Latin letter 'a' (U+0061) embedded inside the Cyrillic word 'Айдаҳо'. The text reads 'Небраска, джануби Айдaҳо, Юта' — the fourth character after 'Ай' is a Latin 'a' instead of Cyrillic 'а'."
+  },
+  {
+    "id": 74,
+    "category": "wrong_language",
+    "detail": "Latin letters are embedded inside a Cyrillic word.\nThe word 'Айдaҳо' contains a Latin letter 'a' (U+0061) embedded inside the Cyrillic word. The text reads 'Хокаҳои силт лом (silt loam) джануби Айдaҳо' — same embedded Latin 'a' defect as ID 22."
+  }
+]
