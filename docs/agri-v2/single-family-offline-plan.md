@@ -15,7 +15,7 @@ These are **upper bounds for a future authorized implementation**, not calls mad
 
 ## Findings that must not be bypassed
 
-1. Existing text refresh targets 77 slots; image refresh supports batches of 4 or 20, not one selected family. Do not dispatch those modes as a substitute. A bounded family-specific executor with durable transport reservations and tests is still needed.
+1. Existing text refresh targets 77 slots; image refresh supports batches of 4 or 20, not one selected family. Do not dispatch those modes as a substitute. The dedicated `single-family-capability` executor now provides this bounded diagnostic; it requires its own bound, explicitly approved admission.
 2. Global readiness requires fresh capacity across families. A single-family diagnostic must not rewrite global health or be presented as production readiness. No change to that safety contract is made here.
 3. The saved selected family's current stage has three spent attempts and is exhausted. Its state is retained; fresh capability does not authorize another attempt or reset it. Resolve completion/continuation through the existing validated workflow with a separately scoped admission, not a counter reset.
 4. Isolated Arabic/English positive diagnostics are not production language acceptance. Russian/Tajik and legitimate adoption of diagnostic evidence remain separate work. Do not quote an ungrounded total end-to-end model budget.
@@ -24,7 +24,7 @@ These are **upper bounds for a future authorized implementation**, not calls mad
 ## Phases
 
 1. **Now:** offline preparation and tests only (no paid requests).
-2. **After explicit budget approval:** implement and test the isolated 3-text/1-image capability executor; check changed bindings before transport; use a new create-only admission and preserve all original artifacts. Only then perform one bounded live check.
+2. **After explicit budget approval:** use the tested isolated 3-text/1-image capability executor; check changed bindings before transport; use a new create-only admission and preserve all original artifacts. Only then perform one bounded live check.
 3. **After reviewing real capability results:** calculate a separate budget for missing language/output acceptance, without replaying unknown requests or exhausted admissions. A ready-to-publish result must be independently validated, not inferred from capacity.
 4. **Separately authorized later:** controlled publication and manual 1 → 3 → 20 acceptance. Recurring schedules remain off.
 
