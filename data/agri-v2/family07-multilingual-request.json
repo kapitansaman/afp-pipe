@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "request_id": "authorized-family07-multilingual-ten-call-v1",
+  "authorization": "owner_approved_ten_text_three_fetch_and_conditional_internal_adoption",
+  "authorization_source": "https://app.notion.com/chat?t=40841579fa0a8078988900a99eb829d4",
+  "family_id": "family-07",
+  "topic_id": "agri-6fc1032cdf42",
+  "code_sha256": "47e4a8bb7178fd91da51fc16612f6ffbd0f9cc2835c7ae39799a649bc4054657",
+  "protected_sha256": "145dfbfaf8b95501d59e3edc005c1ac6b5bb02603df6178d2132ac3389800021",
+  "article_sha256": "a695ee5d9afb761c1c629281f815ad4345237df7ee6ff028821f487ec44819a4",
+  "brief_sha256": "806122af6075626413f38484fbe358673fb93bede857fabc561af1f18c9069f1",
+  "queue_sha256": {
+    "ru-RU": "0e993344d7b7905754abd44cf1ea8c8921ed0f00ad73b9e7a05af651cc12911c",
+    "tg-TJ": "f93f49884c1d4b67488dda22ac30f2a2066cf33d8eea3fdb1667bf66ad31df23",
+    "ar-IQ": "38013aa19d06820677a03f37de646105f0b2dd8d547985ceb5ed37eed80edd0f",
+    "en-US": "c42b2fff9f7dae7bde0ad8cbbff47c5ebb7f2d3c58e4ddf70b621be17d8afd43"
+  },
+  "retained_positives_sha256": "6b2e1d3d1f9826e9be25db3a0f6a42dc1f31642f28d51f7f6a22fd09c5479048",
+  "scoped_capability_sha256": "0be0c740e2dfd9512d1d78290f815a96b894876ebccdc386311942332fe8427a",
+  "source_urls": [
+    "https://cropwatch.unl.edu/2024/pasture-and-forage-minute-alfalfa-irrigation-and-last-cutting-grasshopper-management/",
+    "https://alfalfasymposium.ucdavis.edu/+symposium/proceedings/2002/02-065.pdf",
+    "https://extension.usu.edu/crops/research/strategies-for-deficit-irrigation-of-forage-crops"
+  ],
+  "languages": [
+    "ru-RU",
+    "tg-TJ"
+  ],
+  "reuse_languages": [
+    "ar-IQ",
+    "en-US"
+  ],
+  "role_slots": {
+    "translator": "AGNES_API_KEY25",
+    "fidelity_reviewer": "AGNES_API_KEY26",
+    "regional_reviewer": "AGNES_API_KEY27"
+  },
+  "max_runs": 1,
+  "max_text_calls": 10,
+  "max_regional_calls_per_language": 1,
+  "max_semantic_calls_per_language": 4,
+  "max_source_fetches": 3,
+  "max_search_requests": 0,
+  "max_site_calls": 0,
+  "max_image_calls": 0,
+  "max_attempts_per_request": 1,
+  "max_in_flight": 1,
+  "conditional_internal_evidence_adoption_authorized": true,
+  "publication_authorized": false,
+  "schedule_enabled": false,
+  "stage_promotion_authorized": false,
+  "reset_attempts": false,
+  "global_capacity_refresh": false,
+  "max_automatic_attempts": 3,
+  "max_model_calls_per_item": 12
+}
