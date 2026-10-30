@@ -1,0 +1,21 @@
+{
+  "request_id": "authorized-family07-capability-four-call-v1",
+  "family_id": "family-07",
+  "verified_at": "2026-10-30T11:40:15.327004+00:00",
+  "text_model": "agnes-2.5-flash",
+  "image_model": "agnes-image-2.5-flash",
+  "api_base": "https://apihub.agnes-ai.com/v1",
+  "credential_set_id": "afp-pipe-parallel-97-keys-v1",
+  "family_model_routing_sha256": "b32ed9da4415cbedc03f551ef3c56a86375fa2307ea78dbb3bb286cb0b3fdc05",
+  "text_slots": [
+    "AGNES_API_KEY25",
+    "AGNES_API_KEY26",
+    "AGNES_API_KEY27"
+  ],
+  "image_slot": "AGNES_API_KEY28",
+  "image_sha256": "f383329d5e3aa29e8f84d378159f859d34ae278ea498288378b023706a035ae4",
+  "verification": "actual_successful_family_capability_probe",
+  "scope": "isolated_family07_only_not_global_production_health",
+  "production_readiness_claimed": false,
+  "publication_visual_approval": false
+}

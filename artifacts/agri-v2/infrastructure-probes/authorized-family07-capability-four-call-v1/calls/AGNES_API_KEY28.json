@@ -1,0 +1,12 @@
+{
+  "kind": "image",
+  "slot": "AGNES_API_KEY28",
+  "status": "verified",
+  "at": "2026-10-30T11:39:01.447817+00:00",
+  "max_attempts": 1,
+  "image_sha256": "f383329d5e3aa29e8f84d378159f859d34ae278ea498288378b023706a035ae4",
+  "width": 1200,
+  "height": 675,
+  "http_status": 200,
+  "completed_at": "2026-10-30T11:40:14.905378+00:00"
+}
