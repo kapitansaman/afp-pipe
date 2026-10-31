@@ -37,6 +37,9 @@ def draft_response_schema(name,prompt):
 def request(client,root,name,prompt,limit):
  adapter=None;catalog=None;catalog_decode=None
  schema=draft_response_schema(name,prompt)
+ if schema is None:
+  from .translation_review_evidence import schema as evidence_schema
+  schema=evidence_schema(name,prompt)
  if schema is None and name in ('regional-evidence-review','regional-evidence-review-fallback'):
   from .regional_sources import response_schema
   schema=response_schema(name,prompt)

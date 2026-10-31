@@ -57,7 +57,7 @@ def mechanical(article,raw,source):
    issues=[{'id':title_id,'category':'crop_product' if 'crop' in str(error) else 'wrong_language','detail':str(error)}]
  return {'translations':normal},issues
 
-def check_review(value,source,raw,article):
+def check_review(value,source,raw,article,require_evidence=False):
  if not isinstance(value,dict) or type(value.get('faithful'))is not bool or not isinstance(value.get('issues'),list) or not isinstance(value.get('reason'),str) or not value['reason'].strip():raise RepairBlocked('review_shape_invalid')
  grouped={};bound=[]
  for row in value['issues']:
@@ -66,6 +66,9 @@ def check_review(value,source,raw,article):
   if isinstance(i,str) and i.isascii() and i.isdigit():i=int(i)
   if type(i)is not int or not 0<=i<len(source) or not isinstance(row.get('category'),str) or row.get('category') not in CATEGORIES or not isinstance(row.get('detail'),str) or not row['detail'].strip():raise RepairBlocked('review_issue_not_source_bound')
   actual=raw['translations'][i]['text']
+  if require_evidence:
+   from .translation_review_evidence import validate_issue
+   validate_issue(row,source[i],actual)
   if ('source_text' in row and row['source_text']!=source[i]) or ('target_text' in row and row['target_text']!=actual):raise RepairBlocked('review_quoted_text_not_present')
   bound.append(dict(row,id=i,language='tg-TJ',source_text=source[i],target_text=actual))
   if i not in grouped:grouped[i]={'id':i,'category':row['category'],'detail':row['detail']}
