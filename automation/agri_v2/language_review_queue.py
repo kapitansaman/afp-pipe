@@ -238,9 +238,12 @@ def run_item(p,client,data=DATA):
     if lang=='tg-TJ':
      from .reviewer_feedback import terminology
      prompt['task']+=' Each issue also needs category: meaning, omission, unsupported_claim, crop_product, number_unit, scope or wrong_language.';prompt['crop_glossary']=terminology(article)
+    if lang=='tg-TJ':
+     from .translation_review_evidence import prepare as prepare_review_evidence
+     prompt=prepare_review_evidence(prompt)
     if mechanical_issues:prompt['verified_mechanical_feedback']=mechanical_issues
     verdict=request(client,root,'review-'+str(turn),prompt,limit)
-    checked=lambda v:check_review(v,source,raw,article) if lang=='tg-TJ' else review_value(v,source,raw)
+    checked=lambda v:check_review(v,source,raw,article,require_evidence=True) if lang=='tg-TJ' else review_value(v,source,raw)
     try:issues=checked(verdict)
     except RepairBlocked as error:
      prompt['reviewer_feedback']={'error':str(error),'prior_review':verdict,'instruction':'Correct your own review against the actual IDs; do not automatically approve the translation.'}
